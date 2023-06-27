@@ -1,0 +1,900 @@
+Protein Engineering vol.11 no.1 pp.65–74, 1998
+Effects of substitutions in the binding surface of an antibody on
+antigen affinity
+David A.Dougan, Robyn L.Malby1,2, L.Clem Gruen,
+Alexander A.Kortt and Peter J.Hudson3
+CSIRO Molecular Science and CRC for Diagnostic Technologies and
+1Biomolecular Research Institute, 343 Royal Parade, Parkville, Victoria
+3052, Australia
+2Present address: Laboratory of Molecular Biophysics, Rex Richards
+Building, South Parks Road, Oxford OX1 3QU, UK
+3To whom correspondence should be addressed
+The interactions between the Fab and single-chain Fv
+(scFv) fragments of an antibody (NC10) and its antigen,
+influenza virus neuraminidase, were analysed in the
+crystal structures of the Fab–neuraminidase and scFv–
+neuraminidase complexes. To investigate the contribution
+to binding made by cavities, salt links and hydrogen bonds
+in the antibody–antigen interface, 14 single amino acid
+replacements were made at six contact residues in the scFv
+fragment by site-directed mutagenesis. The binding affinity
+of each mutant scFv antibody for neuraminidase was
+determined with a BIAcore™ optical biosensor. Four of
+the mutations resulted in large changes in the free energy
+of binding to neuraminidase (∆∆G > 1 kcal/mol) and
+together may account for ~70% of the free energy of
+binding. Hence these data support the theory that a small
+number of residues form the ‘functional epitope’ and are
+most important for binding of NC10 to neuraminidase.
+The salt link between antibody residue AspH56 and LysN432
+from neuraminidase was demonstrated to be important
+for affinity, since substitution of AspH56 with Asn caused a
+large reduction in the free energy of binding (∆∆G J F2.8
+kcal/mol). Hydrogen bonds provided by TyrL32 and AspH56
+were also important for binding: mutation of TyrL32 to Phe
+resulted in a significant reduction in binding affinity (∆∆G
+J F1.7 kcal/mol). Disruption of hydrophobic interactions
+(van der Waals contacts) led to significant reductions in
+affinity also (TyrH99 to Ala, ∆∆G J F1.5 kcal/mol; LeuL94
+to Ala, ∆∆G > F3.0 kcal/mol). An attempt to increase
+binding affinity by filling a cavity in the interface with a
+larger antibody side chain was unsuccessful, as the free
+energy gained by new antibody–antigen interactions did
+not compensate for the removal of cavity-bound water
+molecules.
+Keywords: antibody/antibody–antigen interactions/NC10/
+neuraminidase/site-directed mutagenesis
+Introduction
+Our understanding of the structural basis of antibody affinity
+is based upon a data set of less than 20 antibody fragments
+crystallized in a complex with protein antigens (Braden and
+Poljak, 1995; Davies and Cohen, 1996). The interacting
+antibody and antigen surfaces in these structures are comple￾mentary, both sterically (Lawrence and Colman, 1993) and
+electrostatically (McCoy et al., 1997). Usually, 12–20 antibody
+© Oxford University Press 65
+residues make contact with antigen over 600–900 Å of buried
+molecular surface and water molecules are mostly excluded
+from the interface. The stability of antibody–antigen binding
+is mediated by 10–15 hydrogen bonds, up to three salt links
+and numerous van der Waals interactions. The surfaces of
+interaction of antibody and antigen are typical of protein–
+protein interactions, with the exception of the unusually
+high proportion of tyrosine residues in the complementarity￾determining region (CDR) loops of the antibody. As detailed
+information about the molecular interactions between anti￾bodies and antigens is available, we can investigate the
+following questions: is binding affinity dominated by a few
+critical residues in the interface or does it result from combina￾tion of a large number of weak interactions? Which are the
+most important interactions between antibody and antigen?
+Are the predominant forces in binding enthalpic or entropic
+and do the energetics of solvation play a major role?
+Affinity maturation of antibodies by protein design involves
+the replacement of antibody residues involved in binding
+antigen, based on the structures of the antibody and antigen
+both free and in a complex (Rees et al., 1994). Antibodies
+with improved affinity have been made both by increasing the
+size of the buried surface area and by increasing the number of
+specific interactions at the antibody–antigen interface (Roberts
+et al., 1987; Simon and Rajewsky, 1992; Rees et al., 1994).
+The interaction between the monoclonal antibody NC10 and
+the influenza virus glycoprotein neuraminidase (NA) is a model
+system for structure-based protein design. The crystal structures
+of both the Fab–NA and scFv–NA complexes have been
+refined to nominal resolutions of 2.5 and 3.0 Å, respectively
+(Kortt et al., 1994; Malby et al., 1994). The scFv exhibits
+both a similar binding affinity and a similar structure to that
+of the parent Fab fragment of NC10 (Kortt et al., 1994). The
+NC10 Fab–NA interface features 12 hydrogen bonds, a single
+solvated salt link and numerous van der Waals interactions
+(Malby et al., 1994). An attempt has been made to calculate
+the contribution made by each residue towards the overall
+free energy of binding (Tulip et al., 1994). However, these
+calculations made a number of assumptions to formulate a
+minimum empirical Gibbs free energy model and yield only
+an estimate of the contribution of individual residues (Novotny,
+1991). These results were compared with experimental binding
+data based on mutations in NA (Nuss et al., 1993).
+Our aim in this work was to provide experimental data on
+the contribution towards binding NA of individual antibody
+residues. To this end, this paper describes the design and
+synthesis of 14 mutant NC10 scFvs, in which single amino
+acid replacements were made in six contact residues by site￾directed mutagenesis. Five replacements were made at AspH56
+in CDR H2, to evaluate the contribution provided by (a) a salt
+link and (b) a hydrogen bond. A single residue in CDR L1
+(
+TyrL32) was replaced with phenylalanine to determine the
+effect of removing a single hydrogen bond at this position.
+Single replacements at TyrH99 and TyrH100a in CDR H3 wereD.A.Dougan et al.
+designed to evaluate the destabilising effect of introducing a
+cavity in the NC10 scFv–NA interface. Two replacements at
+ThrL93 and four at LeuL94 in CDR L3 were designed to increase
+shape complementarity (and thereby increase binding affinity)
+by filling a cavity in the antibody–antigen interface. The
+binding affinities of these mutant scFvs, to both the target
+antigen NA and to an anti-idiotope antibody, were determined
+from ELISA and BIAcore measurements.
+Materials and methods
+Sequence numbering and mutant nomenclature
+Antibody residues were numbered according to Kabat et al.
+(1991): residues in the heavy and light chain of the scFv are
+prefixed with (H) and (L) respectively and residues in the
+antigen NA prefixed with (N). Mutant scFvs are described
+using the following nomenclature: TyrH99Ala denotes that
+residue 99 of the VH domain (variable region from antibody
+heavy chain), tyrosine in the wild-type NC10 scFv, has been
+replaced with alanine.
+Design of mutant scFvs
+The coordinates of the NC10 Fab–NA complex (PDB entry
+1NMB; Malby et al., 1994) were analysed with the graphics
+program TURBO-FRODO (Roussel and Cambillau, 1989).
+Fourteen mutant scFvs were designed, in which single amino
+acid replacements were made at six contact residues (Table I;
+Figure 1). The amino acid frequencies for murine antibodies
+at each position to be mutated in NC10 were examined, to
+avoid the introduction of evolutionarily rare residues (residues
+with frequency ,1%; Table II; Kabat et al., 1991). For
+example, AspH56 was substituted with conservative replace￾ments asparagine (8.1%) and glutamic acid (3.9%) and also
+with the small residues serine (21.0%), alanine (4.2%) and
+glycine (13.7%) since there was a strong bias against most
+hydrophobic residues. Hydrophilic amino acids usually pre￾dominate at positions H99 and H100a, where the natural
+frequency of tyrosine (which occupies these positions in NC10)
+is 20.1 and 13.1%, respectively. Of the hydrophobic residues
+suitable for substitution, alanine (2.6%) was chosen to replace
+TyrH99 and phenylalanine (5.1%) to replace TyrH100a. At
+position L32, the wild-type residue tyrosine (79.5%) was
+replaced by phenylalanine (6.0%) to examine the effect of
+removal of the hydrogen bond formed through the tyrosyl
+hydroxyl. L93 is strongly biased against hydrophobic residues:
+unlike all other positions examined in this study, this also
+includes tyrosine. Consequently, the rarely observed phenyl￾alanine (0.2%) and tryptophan (0%) were chosen to replace
+ThrL93. In contrast, LeuL94 showed a bias towards hydrophobic
+residues and was replaced with tyrosine (19.6%), valine
+(18.6%) and tryptophan (1.9%) in comparison with a small
+residue replacement, alanine (1.0%).
+Site-directed mutagenesis of antibody fragments
+The DNA encoding the mutant scFvs was constructed by
+overlap polymerase chain reaction (PCR) amplification (SOE￾PCR; Horton et al., 1989) rather than by PCR mutagenesis of
+the entire scFv gene (921 bp). Using SOE-PCR, two small
+DNA fragments were first generated that overlapped at the
+site of mutation. One fragment (A) was amplified from a
+unique 59 restriction site to the site of mutation, whilst the
+second fragment (B) was amplified from the site of mutation
+to a unique 39 restriction site. The overlapping DNA segments
+(A 1 B) were joined together into fragment C by splice
+66
+Table I. Atomic interactions between residues in the antibody–antigen
+interface of the NC10 Fab–NA complex
+NC10 NA Distance (Å) Interaction
+TyrL32 Cε2 AspN330 O 3.0 VdW
+TyrL32 Cε1 AsnN329 Cβ 3.6 VdW
+TyrL32 Cε2 AsnN329 Cβ 4.0 VdW
+TyrL32 Cδ2 AsnN329 Cγ 4.3 VdW
+TyrL32 Cδ1 AsnN329 Nδ2 4.2 VdW
+TyrL32 Cζ AspN330 O 3.2 VdW
+TyrL32 Cζ AsnN329 Cβ 3.6 VdW
+TyrL32 Oη AspN330 O 2.7 H bond
+TyrL32 Oη AsnN329 Cβ 3.8 VdW
+ThrL93 Cβ Pr°N328 Cβ 3.7 VdW ThrL93 Cβ AsnN344 Oδ1 3.7 VdW ThrL93 Oγ1 AsnN344 Oδ1 2.5 H bond ThrL93 Oγ1 AsnN344 Nδ2 3.3 H bond ThrL93 Oγ1 GlyN343 O 3.4 H bond ThrL93 Oγ1 AsnN344 Cγ 3.1 VdW ThrL93 Oγ1 Pr°N328 Cβ 3.8 VdW ThrL93 Cγ2 GlyN343 O 3.7 VdW
+LeuL94 N W302 O 3.3 H bond LeuL94 Cδ2 AlaN369 Cβ 3.9 VdW
+AspH56 Cα TrpN403 Cη2 4.1 VdW
+AspH56 Cβ TrpN403 Cη2 3.9 VdW
+AspH56 Cγ SerN370 Oγ 3.3 VdW
+AspH56 Cγ TrpN403 Cη2 4.1 VdW
+AspH56 Cγ TrpN403 Cζ3 4.2 VdW
+AspH56 Oδ1 SerN370 Oγ 3.2 H bond
+AspH56 Oδ1 LysN432 Nζ 3.9 Salt link
+AspH56 Oδ2 SerN370 Oγ 2.7 H bond
+AspH56 Oδ2 SerN372 Oγ 3.5 H bond
+AspH56 Oδ2 SerN370 Cβ 3.2 VdW
+AspH56 Oδ2 TrpN403 Cζ3 3.5 VdW
+AspH56 Oδ2 TrpN403 Cη2 3.8 VdW
+TyrH99 Cβ AsnN400 Nδ2 3.5 VdW
+TyrH99 Cγ AsnN400 Nδ2 3.4 VdW
+TyrH99 Cγ AsnN400 Cγ 4.0 VdW
+TyrH99 Cδ1 AsnN400 Nδ2 3.7 VdW
+TyrH99 Cδ1 AsnN400 Cγ 4.0 VdW
+TyrH99 Cε1 IleN366 Cγ2 3.8 VdW
+TyrH99 Cδ2 AsnN400 Nδ2 3.7 VdW
+TyrH99 Cδ2 AsnN400 Cγ 4.1 VdW
+TyrH100a Cβ IleN368 Cδ1 3.4 VdW
+TyrH100a Cβ IleN368 Cγ1 4.0 VdW
+TyrH100a Cγ IleN368 Cδ1 3.6 VdW
+TyrH100a Cγ IleN368 Cγ1 3.9 VdW
+TyrH100a Cδ1 IleN368 Cδ1 3.4 VdW
+TyrH100a Cδ1 IleN368 Cγ1 3.2 VdW
+TyrH100a Cε1 AlaN369 Cβ 3.7 VdW
+TyrH100a Cε1 IleN368 Cγ1 3.9 VdW
+TyrH100a Cζ AlaN369 Cβ 3.5 VdW
+TyrH100a Oη AlaN369 Cβ 3.2 VdW
+TyrH100a O AsnN329 Nδ2 2.8 H bond
+overlap extension SOE-PCR. The oligonucleotide primers are
+summarized in Table III and are labelled forward or reverse,
+for fragments B or A, respectively. All PCR reactions were
+performed with Pfu DNA polymerase (Stratagene). The new
+fragment (C) was digested with the appropriate restriction
+enzymes for cloning into the NC10 scFv/pPOW expression
+vector; NdeI–BstEII for mutations located in the VH region
+and EcoRV–EcoRI for mutations located in the (variable region
+from antibody light chain) region. Positive transformants were
+identified by digestion of plasmid DNA with the appropriate
+restriction endonucleases (Table III). For example, fragmentSubstitutions in the binding surface of an antibody
+Fig. 1. (A) Cα trace of one monomer of the NC10 Fab–NA complex
+(Malby et al., 1994) with polypeptides coloured green (NA), orange (VH)
+and cyan (VL). The six antibody residues chosen for mutation are
+highlighted in yellow. (B) cpk model of NC10 Fv from the viewpoint of the
+antigen NA. The CDR loops are coloured red in VH and blue in VL; only
+CDRs L1, L3, H2 and H3 make contact with antigen. The mutated residues
+are coloured yellow: AspH56 in CDR H2 was replaced with Asn, Glu, Ser,
+Ala and Gly to evaluate the contribution provided by a salt link and a
+hydrogen bond; TyrL32 in CDR L1 was replaced with Phe to examine the
+effect of removing a single hydrogen bond; TyrH99 and TyrH100a in CDR
+H3 were mutated to Ala and Phe, respectively, to investigate the
+destabilizing effect of introducing a cavity; ThrL93 was mutated to Phe and
+Trp and LeuL94 was mutated to Tyr, Trp, Val and Ala in CDRL3 in an
+attempt to increase shape complementarity and to fill a cavity.
+A of AspH56Asn was amplified between the NdeI site in pPOW
+and the mutation site using the primers N697 and N2133,
+while fragment B of AspH56Asn was amplified between the
+mutation site and the BstEII site using primers N2134 and
+N2421. The primers (N2133 and N2134) introduced an XmnI
+restriction endonuclease site at the site of mutation for positive
+identification of the mutant clones. The two DNA fragments
+67
+were joined together by amplification using the outermost
+primers (N697 and N2421) to produce a fragment of 483 bp
+(fragment C). The NdeI–BstEII-digested PCR fragment C was
+ligated into the likewise digested NC10 scFv/pPOW vector
+and transformed into TOPP2™ Escherichia coli. Complete
+nucleotide sequencing of the amplified region of each mutant
+scFv gene was performed, to ensure that additional PCR￾induced changes had not been incorporated as a result of
+polymerase infidelity.
+Expression and purification of mutant scFvs
+The mutant NC10 scFv constructs in pPOW were expressed
+in TOPP2™ E.coli (Stratagene) by the method described
+previously for the wild-type NC10 scFv (Malby et al., 1993;
+Kortt et al., 1994). Expression was induced by raising the
+temperature of the culture from 30 to 42°C for 15 min and
+then maintaining it at 37–39°C for 4–6 h, to ensure the repressor
+remained denatured during protein synthesis. Synthesized scFv
+was recovered from insoluble periplasmic inclusion bodies by
+solubilization in 6 M guanidinium hydrochloride and purified
+after refolding as described previously (Kortt et al., 1994),
+except that affinity chromatography on an anti-FLAG M2
+agarose column (Kortt et al., 1997a) replaced the ion-exchange
+step used previously. Each mutant scFv was concentrated and
+fractionated on Superdex 75 (HR10/30) in PBS at pH 7.4 to
+remove higher molecular mass components, including dimers.
+This procedure yielded pure scFv monomer with a molecular
+mass of ~27 kDa. The purity of the scFvs was monitored by
+SDS–PAGE (electrophoresis in a 15% polyacrylamide gel
+containing 1% SDS) and Western blot analysis as described
+previously (Kortt et al., 1994). The concentration of each scFv
+fragment was determined spectrophotometrically, using a value
+for the extinction coefficient (ε0.1%) at 280 nm calculated
+from the protein sequence (as described by Gill and von
+Hippel, 1989).
+Preparation of tern N9 NA and 3-2G12 anti-idiotope Fab9
+NA was isolated from tern N9 influenza virus as a stable
+tetramer of ~190 kDa following treatment of the virus with
+pronase and purified by gel filtration as described previously
+(McKimm-Breschkin et al., 1991). Monoclonal antibody
+3-2G12, an anti-idiotope antibody to NC10 (Kortt et al.,
+1997a,b), was digested with papain to yield F(ab9)2 fragments,
+reduced to form Fab9 fragments and purified as a stable
+monomer of ~50 kDa, as described by Gruen et al. (1993).
+Determination of binding affinities of mutant scFvs
+The BIAcore™ 1000 biosensor (Pharmacia Biosensors,
+Uppsala, Sweden), was used to measure the binding kinetics
+of the mutant scFvs as described by Kortt et al. (1997a,b).
+NA was immobilized on to a CM5 sensor chip in 10 mM
+sodium acetate buffer, pH 5.0, via amine groups using the
+Amine Coupling Kit (Pharmacia Biosensors) as described
+previously (Gruen et al., 1993). Binding measurements were
+performed in HBS buffer (10 mM HEPES, 0.15 M NaCl,
+3.4 mM EDTA, 0.005% surfactant P20, pH 7.4) at a constant
+flow rate of 5 µl/min. Tetrameric NA (Mr 190 kDa) was
+not stable to acidic regeneration conditions, so sequential
+binding experiments were performed by first allowing com￾plete dissociation (~12 000 s) to occur in each binding experi￾ment. Although unstable under acidic conditions, NA was
+found to be stable to prolonged exposure (>2 weeks) to the
+HBS buffer at 25°C when immobilized on the sensor surface.
+3-2G12 Fab9, the anti-idiotope of NC10, was immobilized atD.A.Dougan et al.
+Table II. Frequency of amino acid usage among murine Vκ and VH polypeptide chains
+R D E K S N Q G P T A H C MV I L Y F W
+H56 2.0 6.6 3.9 0.5 21.0 8.1 0.1 13.7 0.1 17.0 4.2 0.1 0.0 0.0 1.4 0.7 0.1 19.6 0.9 0.0
+H99 6.0 5.2 1.5 0.2 16.0 3.7 1.1 27.2 2.1 3.2 2.6 0.8 0.2 0.9 2.1 0.5 3.3 20.1 2.2 0.7
+H100a 6.1 5.5 2.3 0.2 31.1 2.1 0.2 12.7 1.9 2.1 5.7 2.3 0.0 1.5 1.7 0.6 4.0 13.1 5.1 1.3
+L32 0.0 0.9 0.1 0.0 1.9 6.1 0.0 0.1 0.0 0.7 2.2 0.7 0.1 0.0 0.0 0.0 1.0 79.5 6.0 0.8
+L93 1.4 1.0 18.7 1.5 33.2 4.0 0.3 4.2 0.0 10.4 0.3 20.1 0.0 0.3 0.3 0.3 0.3 3.5 0.2 0.0
+L94 0.0 5.0 0.0 0.0 5.5 13.8 0.8 0.5 2.5 4.3 1.0 0.2 0.1 0.1 18.6 3.6 17.7 19.6 4.8 1.9
+The frequency of a particular residue at each position considered is expressed as a percentage of the total number of sequences (e.g. L32, L93, L94, H56,
+H99 or H100a). The amino acid sequences considered were obtained from the mouse light (κ) and heavy chain variable domains regions (Kabat et al., 1991).
+The frequencies for the appropriate NC10 residues are in bold. The amino acids are indicated by single-letter codes.
+Table III. Oligonucleotides used for mutagenesis
+No. Sequence Description
+Internal mutation primers
+N2123 59-ATT-GTA-GGA-CGT-CGC-ACC-ATT-TCC-39 Reverse primer AspH56Ala
+N2124 59-GGA-AAT-GGT-GCG-ACG-TCC-TAC-AAT-39 Forward primer AspH56Ala
+N2127 59-ATT-GTA-GGA-AGT-ACT-ACC-ATT-TCC-39 Reverse primer AspH56Ser
+N2128 59-GGA-AAT-GGT-AGT-ACT-TCC-TAC-AAT-39 Forward primer AspH56Ser
+N2130 59-ATT-GTA-GGA-GGT-ACC-ACC-ATT-TCC-39 Reverse primer AspH56Gly
+N2132 59-GGA-AAT-GGT-GGT-ACC-TCC-TAC-AAT-39 Forward primer AspH56Gly
+N2133 59-ATT-GTA-GGA-AGT-(A/G)TT-TCC-ATT-TCC-39 Reverse primer AspH56Asn
+N2134 59-GGA-AAT-GGA-AA(T/C)-ACT-TCC-TAC-AAT-39 Forward primer AspH56Asn
+N2735 59-GGA-AAT-GGT-GAG-ACG-TCC-TAC-AAT-39 Forward primer AspH56Glu
+N2737 59-ATT-GTA-GGA-CGT-CTC-ACC-ATT-TCC-39 Reverse primer AspH56Glu
+N2409 59-GGG-GGA-TCC-GCG-AGA-TAC-GAC-GGA-GGC-TTT-GAC-39 Forward primer TyrH99Ala
+N2410 59-GTC-AAA-GCC-TCC-GTC-GTA-TCT-CGC-GGA-TCC-CCC-39 Reverse primer TyrH99Ala
+N2419 59-GCC-CCA-GTA-GTC-AAA-GCC-TCC-GTC-GAA-TCT-ATA-GGA-TCC-CCC-39 Reverse primer TyrH100aPhe
+N2422 59-ATT-CTG-TTG-GTA-CCA-GTT-TAA-AAA-ATT-ACT-AAT-39 Reverse primer TyrL32Phe
+N2423 59-ATT-AGT-AAT-TTT-TTA-AAC-TGG-TAC-CAA-CAG-AAT-39 Forward primer TyrL32Phe
+N1831 59-ATA-ATC-TGC-GGC-CGC-TCT-TTT-TAT-CTC-GAG-CTT-GGT- Reverse primer ThrL93Trp
+CCC-CCC-TCC-GAA-CGT-GAA-CGG-AAG-CCA-AAA-ATC-39
+N1834 59-ACT-TAC-TTT-TGC-CAA-CAG-GAT-TTT-TGG-CTT-CCG-TTC-39 Forward primer ThrL93Trp
+N1806 59-ATA-ATC-TGC-GGC-CGC-TCT-TTT-TAT-CTC-GAG-CTT-GGT- Reverse primer ThrL93Phe
+CCC-CCC-TCC-GAA-CGT-GAA-CGG-AAG-(A/G)AA-AAA-39
+N1833 59-ACT-TAC-TTT-TGC-CAA-CAG-GAT-TTT-TT(T/C)-CTT-CCG-TTC-39 Forward primer ThrL93Phe
+N1802 59-ATA-ATC-TGC-GGC-CGC-TCT-TTT-TAT-CTC-GAG-CTT-GGT- Reverse primer LeuL94Trp
+CCC-CCC-TCC-GAA-CGT-GAA-CGG-CCA-CGT-39
+N1830 59-TAC-TTT-TGC-CAA-CAG-GAT-TTT-ACG-TGG-CCG-TTC-ACG-39 Forward primer LeuL94Trp
+N1807 59-ATA-ATC-TGC-GGC-CGC-TCT-TTT-TAT-CTC-GAG-CTT-GGT- Reverse primer LeuL94Tyr
+CCC-CCC-TCC-GAA-CGT-GAA-CGG-(A/G)TA-CGT-39
+N1856 59-TAC-TTT-TGC-CAA-CAG-GAT-TTT-ACG-TA(T/C)-CCG-TTC-ACG-39 Forward primer LeuL94Tyr
+N2360 59-CAA-CAG-GAT-TTT-ACG-GTA-CCG-TTC-ACG-TTC-GGA-39 Forward primer LeuL94Val
+N2361 59-TCC-GAA-CGT-GAA-CGG-TAC-CGT-AAA-ATC-CTG-TTG-39 Reverse primer LeuL94Val
+N2362 59-CAA-CAG-GAT-TTC-ACG-GCG-CCG-TTC-ACG-TTC-GGA-39 Forward primer LeuL94Ala
+N2363 59-TCC-GAA-CGT-GAA-CGG-CGC-CGT-GAA-ATC-CTG-TTG-39 Reverse primer LeuL94Ala
+Amplification primers
+N697 59-CTG-GGT-TGA-AGG-CTC-TCA-39 Forward primer to amplify VH
+N2421 59-ACC-GGA-GAC-GGT-GAC-CGT-GGT-CCC-TTG-GCC-CCA-GTA- Reverse primer to amplify VH
+GTC-AAA-GCC-TCC-39
+N1019 59-GCT-CGA-GTA-AAT-TAC-CAA-CAC-TAC-TAC-39 Reverse primer to amplify VL
+N1803 59-TGC-GAT-ATC-GAG-CTC-ACA-CAG-ACT-ACA-TCC-39 Forward primer to amplify VL
+Nucleotides mismatches are in bold, restriction enzyme sites are in italics. The entire NC10 scFv (921 bp) is amplified by N697 and N1019 which flank the
+Nde1 and EcoR1 sites, respectively (Malby et al., 1993).
+pH 4.0 via amine groups to monitor the binding activity of
+some mutant scFvs and was regenerated with 10 mM sodium
+acetate, pH 3.0, after each binding experiment, with negligible
+loss of binding activity. Mutant NC10 scFvs were prepared
+for each experiment by gel filtration on Superdex 75, to remove
+dimer that may have formed upon storage. Binding data
+for each mutant NC10 scFv were collected for a range of
+concentrations (29–921 nM) and the kinetic constants, ka and
+68
+kd, were evaluated using the BIAevaluation 2.1 software
+package, according to the simple 1:1 interaction model
+normally used for the analysis of BIAcore binding data (Kortt
+et al., 1997a,b).
+The association phase data were analysed in terms of a 1:1
+binding model using linear transformation of the primary data
+and also by non-linear least-squares methods (as outlined in
+BIAevaluation 2.1). In both cases, the binding curves wereSubstitutions in the binding surface of an antibody
+Fig. 2. Comparison between the binding of NC10 wild-type scFv and a
+representative set of scFv mutants (at 231 nM) to immobilized NA on the
+BIAcore biosensor shows the different binding affinities of the mutants.
+Binding analyses were performed in HBS buffer at 25°C (10 mM HEPES,
+0.15 M NaCl, 3.4 mM EDTA, 0.005% surfactant P20, pH 7.4) at a constant
+flow rate of 5 µl/min.
+transformed as ln(dR/dt) versus time plots and the region
+of linearity was chosen for further analysis. Fitting of the
+experimental data by non-linear least-squares analysis (using
+the single exponential form of the integrated rate equation in
+BIAevaluation 2.1) and using a predetermined value of kd (see
+below), directly yielded an apparent association rate constant,
+ka (Figure 3A). The association rate constant was also deter￾mined by evaluating the pseudo-first-order rate constant (ks)
+at a number of analyte concentrations (C) (as described in
+BIAevaluation 2.1), followed by linear regression of a ks
+versus C plot to determine ka (Figure 3B).
+The dissociation phase data were analysed by non-linear
+least-squares analysis using a single exponential form of the
+rate equation (Figure 4A). The apparent dissociation rate
+constant, kd, was also determined by logarithmic transformation
+of the dissociation phase data [ln(R0/R) versus time; Figure
+4B]. All scFv mutants showed considerable non-linearity with
+an apparently faster initial dissociation rate (Figure 4B).
+The equilibrium affinity constant, Ka(eq), was determined
+from a plot of Req versus C according to the equation Req 5
+KCRmax/KCn 11 (as described in BIAevaluation 2.1) or from
+a linearized plot of Req/C versus Req, where Req is the response
+at steady state. Representative plots for the Tyr100aPhe scFv
+mutant are shown in Figure 5. The kinetically-determined
+association binding constant (Ka5 ka/kd) and the equilibrium
+binding constant [Ka(eq)] for each mutant scFv are summarized
+in Table IV.
+Results
+Synthesis and purification of NC10 mutant scFvs
+Fourteen mutant scFvs were produced, each with a single
+amino acid replacement in a contact residue (Table I; Figure
+1). The level of production of all NC10 mutant scFvs was
+similar to that of the wild-type NC10 scFv (data not shown),
+with accumulation in the periplasm of E.coli as insoluble
+inclusion bodies (Malby et al., 1993). The scFvs were recovered
+by a strategy of denaturation, refolding, affinity chromato￾graphy and size-exclusion chromatography (Kortt et al., 1994,
+1997a). The mutant scFv monomers were stable for up to 28
+days at 4°C at concentrations below 1 mg/ml, as indicated
+by size-exclusion chromatography on Superdex-75 (data not
+69
+Fig. 3. Determination of the association rate constant for the binding of
+NC10 scFv ThrL93Phe mutant to immobilized NA (3000 RU binding
+capacity) at a flow rate of 5 µl/min and 25°C. (A) Fitting of the
+experimental data (solid line) by non-linear regression using a single
+exponential form of the integrated rate equation (circles) at 231 nM yielded
+a ka of 1.153105 M–1 s–1. (B) Dependence of the pseudo-first-order rate
+constant (ks) on analyte concentration (C). The slope of this plot yields
+ka 5 1.223105 M–1 s–1.
+shown). Like wild-type NC10 scFv (Kortt et al., 1994), only
+at concentrations above 1 mg/ml did the mutant scFvs exhibit
+a tendency to form dimers in solution.
+Analysis of mutant scFvs binding to NA
+Sensorgrams of the binding to immobilized NA of five of
+the eight active NC10 mutant scFvs (TyrL32Phe, AspH56Glu, LeuL94Val, TyrH99Ala, Tyr100aPhe) are illustrated in Figure 2. The
+other six mutants (AspH56Ser,Ala,Gly, LeuL94Trp,Tyr,Ala) exhibited
+no measurable binding activity to NA either by BIAcore
+analysis or by ELISA. The loss of binding activity did not
+appear to be due to incorrect folding of the mutant scFvs,
+since all yielded stable monomers in solution and, more
+significantly, bound to immobilized Fab9 fragments of anti￾idiotope IgG (3-2G12) with similar affinity to that of the wild￾type NC10 scFv by BIAcore analysis (data not shown). The
+anti-idiotope 3-2G12 is known to bind only to correctly folded
+NC10 scFv (Kortt et al., 1997a,b).
+The apparent association and dissociation rate constants and
+association constant (Ka 5 ka/kd) were determined for the
+binding of each scFv mutant to immobilized NA and are
+summarized in Table IV. In the analysis it was assumed that
+each scFv mutant monomer was univalent and bound to the
+epitope on each NA subunit in an independent, non-cooperativeD.A.Dougan et al.
+Fig. 4. Determination of the dissociation rate constant for NC10 scFv
+mutant ThrL93Phe by non-linear and linear regression. (A) Fitting the
+experimental data by non-linear regression (circles) yielded a kd of
+4.3310–3 s–1. (B) Logarithmic transformation of the dissociation phase data
+yielded a kd of 3.73310–3 s–1. This fitting shows a deviation from linearity
+at the start of the dissociation phase under the experimental conditions used.
+manner. The binding data were analysed according to a 1:1
+interaction model of the type A 1 B 5 AB. For most mutants,
+including the example in Figure 3, a reasonably good fit to
+the experimental data was observed, although the residuals for
+these data have a magnitude greater than the noise level of
+the instrument [61 RU (resonance unit)] and their distribution
+is not completely random (not shown). Analysis of the dissoci￾ation phase data invariably resulted in a less than perfect fit
+expected for a 1:1 interaction (Figure 4), which indicated that
+the binding data may be influenced by the mass transport and
+surface heterogeneity effects that are often observed in BIAcore
+binding data (Kortt et al., 1997b; Oddie et al., 1997).
+The equilibrium binding constants [Ka(eq)] evaluated from
+values of Req (response at steady state) from a plot of Req
+against C (as illustrated in Figure 5A for scFv mutant TyrL32Phe
+and summarized in Table IV), were in reasonably good
+agreement with the kinetically determined association binding
+constants (Ka 5 ka/kd). Despite the deviations from the ideal
+1:1 interaction model noted above, the comparison of apparent
+rate constants and apparent affinity constants is valid, as the
+binding of all NC10 scFv mutants was measured under the
+same experimental conditions.
+The binding constant for a mutant scFv was considered to
+be significantly different from the wild-type binding constant
+70
+Fig. 5. (A) Plot of Req versus C for the scFv mutant TyrL32Phe scFv.
+(B) Linearized plot of the same data to determine Ka(eq). Details are given
+in the text.
+when the difference was greater than three times the standard
+deviation of the wild-type scFv binding constant. Using this
+criterion, the mutant scFvs exhibited either unchanged or
+reduced binding constants compared with wild-type scFv.
+Interestingly, the mutations had the greatest effect on dissoci￾ation rate (kd), which is in agreement with other mutational
+studies of antibody CDR residues (Hawkins et al., 1993; Ito
+et al., 1995).
+Changes in binding energy (∆∆G; Table IV) were calculated
+from the kinetically determined association constant, Ka (Table
+IV) according to the following equation (e.g. for TyrL32Phe ):
+∆∆G(
+TyrL32Phe) 5 [–RTlnKd(wild-type NC10)] –
+[–RTlnKd(
+TyrL32Phe)]
+where ∆G 5 the Gibbs free energy change (cal/mol), R 5 the
+ideal gas constant (1.989 cal/K.mol), T 5 298 K and Kd 5
+1/Ka. Using this equation, ∆∆G(
+TyrL32Phe) 5 11.7 kcal/mol.
+The binding constants of two mutant scFvs (ThrL93Phe and
+ThrL93Trp) were essentially identical with that of wild-type
+scFv (∆∆G 5 10.1 and 10.3 kcal/mol, respectively). Two
+mutations (TyrH100aPhe and LeuL94Val) resulted in moderate
+changes to the free energy of binding, ∆∆G 5 10.5 and
+10.9 kcal/mol, respectively. Four mutations (TyrL32Phe, TyrH99Ala, AspH56Asn and AspH56Glu) resulted in severe changes
+in binding free energy (∆∆G . 11.0 kcal/mol). Apart from
+replacements at AspH56, the association rate constants wereSubstitutions in the binding surface of an antibody
+Table IV. Apparent kinetic constants, binding constants and change in binding energy (∆∆G) for the binding of eight NC10 scFv mutants to tern N9 NA
+Antibody ka (M–1 s–1 3104) kd (s–1) 310–3 Ka (M–1) 3106 Ka(eq) (M–1) 3106 ∆∆G (kcal/mol)
+NC10 16.1 6 1.2 5.2 6 0.6 31.0 6 5.5 22.0 6 1.2 0
+AspH56Asn 0.08 6 0.01 2.9 6 0.1 0.28 6 0.01 0.15 6 0.01 12.8
+AspH56Glu 5.4 6 0.2 .100 ,0.5 0.59 6 0.05 12.4
+TyrH99Ala 14.9 6 1.5 58.8 6 2.5 2.6 6 0.4 2.0 6 0.2 11.5
+TyrH100aPhe 8.8 6 0.7 5.6 6 0.1 15.8 6 1.6 10.0 6 1.0 10.5
+TyrL32Phe 11.8 6 0.6 66.0 6 3.2 1.8 6 0.2 1.4 6 0.1 11.7 ThrL93Phe 12.2 6 1.0 4.3 6 0.2 28.4 6 3.4 22.9 6 1.4 10.1 ThrL93Trp 13.0 6 0.2 6.3 6 0.2 20.6 6 1.0 16.1 6 2.1 10.3 LeuL94Val 8.0 6 0.2 11.1 6 0.3 7.2 6 0.4 4.8 6 0.4 10.9
+The kinetic rate constants and binding affinity constants were determined in a BIAcore biosenor with immobilized tern N9 NA. The kinetic constants, ka and
+kd, were evaluated from the association and dissociation phase data using the fitting procedures described in BIAevaluation 2.1. The affinity constants at
+equilibrium [Ka(eq)] was determined from a plot of Req (response at steady state) against C (concentration of analyte) as described in BIAevaluation 2.1 (see
+Figure 5A). The ∆∆G values were calculated from –RTlnKd (wild-type scFv) – (–RTlnKd (mutant scFv) as described in the text. Ka 5 ka/kd and Kd 5 1/Ka.
+The other six mutants (AspH56Ser,Ala,Gly, LeuL94Trp,Tyr,Ala) exhibited no measurable binding activity to NA by BIAcore analysis.
+similar for all mutant scFvs, the largest change being a twofold
+decrease for LeuL94Val (Table IV). In contrast, changes in the
+dissociation rate of .10-fold were observed for mutants
+TyrL32Phe, AspH56Glu and TyrH99Ala (Table IV). As noted above,
+the modified rate constants were unlikely to have resulted
+from major changes to protein folding or conformation, since
+all mutants exhibited similar binding kinetics to an immobilized
+anti-idiotope IgG (3-2G12) specific for the NC10 antibody
+(data not shown).
+Discussion
+Energetic contribution provided by a salt link
+Electrostatic interactions play an important role in protein
+association and salt links contribute a considerable amount to
+the free energy of binding (Davies and Cohen, 1996). For
+example, the conservative replacement of Arg68 with lysine in
+lysozyme, which removes a salt link, with HyHEL-5 Fab
+reduces the binding affinity of HyHEL-5 by 1000-fold (∆∆G 5
+14.1 kcal/mol; Chacko et al., 1995). The mutation was
+restricted to the loss of a salt link since lost hydrogen bonds
+were partly compensated for by the addition of a solvent water
+molecule. These data are in agreement with the theoretical ∆G
+of up to 14.5 kcal/mol for a hydrogen bond between charged
+residues (Fersht et al., 1985).
+Analysis of the refined crystal structure of the NC10 Fab–
+NA complex at 2.5 Å (Malby et al., 1994) revealed that AspH56
+makes a salt link with LysN432 (Table I). The distance between
+AspH56 Oδ1 and LysN432 Nζ is 3.9 Å (Figure 6A), which is
+approaching the upper limit for a salt link interaction (4.0 Å;
+Tsai et al., 1996). The loss of this salt link, together with the
+loss of two hydrogen bonds from SerN370 and SerN372 to
+AspH56, completely abolished antigen binding when AspH56
+was replaced with serine, alanine and glycine. Replacement
+of AspH56 with the uncharged side chain of asparagine would
+have prevented the formation of a salt link, yet presumably
+would have preserved the two hydrogen bonds to AspH56 Oδ2
+(Figure 6A). This mutation caused a 100-fold reduction in
+binding affinity (Table IV), with a large (.100-fold) decrease
+in the association rate and (surprisingly) only a slight decrease
+in the dissociation rate (Table IV).
+In an attempt to increase the strength of the salt link, AspH56
+was replaced with glutamate. It was envisaged that this
+replacement would bring the terminal side chain carboxyl
+oxygen of GluH56 closer to LysN432 by up to 1.5 Å and thereby
+increase the strength of the salt link. However, the AspH56Glu
+71
+mutant had ~40-fold lower binding affinity, owing primarily
+to an increase (~20-fold) in the dissociation rate and a small
+decrease (threefold) in the association rate. Although the
+replacement of AspH56 with glutamate should have provided
+the antibody with the ability to form a stronger salt link, the
+larger size of the side chain may have introduced steric
+conflicts at this position, which would offset any energetic
+gains made through the increased proximity of the two
+charged groups.
+The charged side chain, AspH56, appears to make an
+important contribution to binding, which is consistent with its
+calculated contribution of ∆G 5 –7.0 kcal/mol (Tulip et al.,
+1994). It is likely to be one of the critical residues in the
+‘functional epitope’, which has been proposed to be dominated
+by a few charged residues (Jin et al., 1992). Similar dominant
+roles have been proposed for salt links in other protein–
+protein complexes, e.g. Asp101 in the lysozyme–HyHEL-10
+Fab complex (Novotny, 1991; Kam-Morgan et al., 1993) and
+Glu65 and Glu174 in the interaction of human growth hormone
+with its receptor (Cunningham and Wells, 1993).
+Energetic contribution provided by an interface cavity
+To evaluate the destabilizing effect of the introduction of an
+interface cavity, TyrH99 and TyrH100a were replaced with
+smaller hydrophobic residues (Figure 6B). These two
+tyrosines, located in CDR H3, make a large contribution to
+the accessible surface area buried by complex formation
+(97 and 60 Å2, respectively); however, calculations have
+attributed to them only a small contribution to the free energy
+of binding [∆G(
+TyrH99) 5 –1.3 kcal/mol and ∆G(
+TyrH100a) 5
+–0.8 kcal/mol; Tulip et al., 1994]. The replacement of TyrH99
+with alanine would presumably introduce a cavity in the scFv–
+NA interface, which could result in the loss of several van der
+Waals contacts between TyrH99 and the NA residues IleN366
+and AsnN400 (Figure 6B). Conversely, the conservative
+substitution TyrH100aPhe was designed to cause minimal disrup￾tion in main chain conformation and to retain the hydrogen
+bond between the main chain carbonyl oxygen of TyrH100a
+and AsnN329 Nδ2 (Table I; Figure 6B). Both the mutations
+TyrH99Ala and TyrH100aPhe significantly reduced the Gibbs
+free energy of binding [∆∆G(
+TyrH99Ala) 5 11.5 kcal/mol
+and ∆∆G(
+TyrH100aPhe) 5 10.5 kcal/mol; Table IV]. The
+reduction in binding affinity in TyrH99Ala was mainly due to
+an increase (12-fold) in the dissociation rate constant (kd 5
+5.9310–2 s–1), whereas the reduced binding affinity of
+TyrH100Phe was mainly due to a decrease (approximatelyD.A.Dougan et al.
+Fig. 6. Atomic interactions at the antibody–antigen interface of the NC10 Fab–NA complex. (A) The salt link between AspH56 and LysN432 spans the 3.9 Å
+between AspH56 Oδ1 and LysN432 Nζ. Two hydrogen bonds are also formed between AspH56, SerN370 and SerN372. AspH56 also makes van der Waals contacts
+with TrpN403. (B) TyrH99 makes van der Waals contacts to IleN366 and AsnN400. TyrH100aPhe is involved in a hydrogen bond between its main chain O and AsnN329 Nδ2 and makes van der Waals contacts with IleN368 and AlaN369. (C) TyrL32 makes a single hydrogen bond between TyrL32 Oη and the main-chain
+O of AspN330. It also makes van der Waals contacts with AsnN329 and AspN330. (D) ThrL93 makes extensive contacts with NA via residues Pr°N328, GlyN343
+and AsnN344. In contrast, LeuL94 makes only limited contacts with NA, through van der Waals contact to the side chain of AlaN369 and a hydrogen bond to a
+bound water molecule W302.
+twofold) in the association rate constant (ka 5 8.83104
+M–1s–1). These kinetic values agree with the calculated
+contribution each of these residues makes towards binding
+[∆G(
+TyrH99) 5 –1.3 kcal/mol and ∆G(
+TyrH100a) 5 –0.8 kcal/
+mol; Tulip et al., 1994].
+Energetic contribution provided by a hydrogen bond
+Although hydrogen bonds are important in the formation of
+protein–protein complexes, there are conflicting views regard￾ing the exact value of their energetic contribution (Fersht et al.,
+1985; Murphy and Gill, 1991; Pace, 1992). In particular, water
+molecules compete for hydrogen bonding sites and complicate
+energetic calculations. From mutational analyses of tyrosyl–
+tRNA synthetase and human growth hormone, it has been
+estimated that the energy loss from the removal of a hydrogen
+bond to an uncharged residue is 0.5–1.5 kcal/mol (Fersht et al.,
+1985; Cunningham and Wells, 1993).
+Four of the 12 antibody–antigen hydrogen bonds in the
+72
+NC10 Fab–NA complex occur through aromatic residues:
+TyrH100a and PheL92 form hydrogen bonds via their main
+chain carbonyl oxygens, whereas TyrH52 and TyrL32 form
+hydrogen bonds through their side chain hydroxyl groups. Of
+these four aromatic residues, Tulip et al. (1994) predicted
+that PheL92 alone provided favourable energetics for binding
+(∆Gresidue , –1 kcal/mol), whereas TyrH52 and TyrL32 provided
+a small energetic penalty (∆Gresidue . 0 kcal/mol). When the
+formation of the single hydrogen bond between TyrL32 Oη and
+the main chain carbonyl oxygen of AspN330 (Table I; Figure 6C)
+was prevented by replacement of TyrL32 with phenylalanine, the
+reduction in binding energy was 1.7 kcal/mol, which is of the
+magnitude expected for the loss of a single hydrogen bond to
+an uncharged residue (Fersht et al., 1985). The TyrL32Phe
+mutant was similar to the cavity-creating mutant (TyrH99Ala),
+in that the change in binding affinity was largely due to a
+large (12-fold) increase in the dissociation rate constant, with
+only a small (1.4-fold) decrease in association rate constant.Substitutions in the binding surface of an antibody
+Increasing surface complementarity by filling an existing
+cavity
+A cavity in the NC10 Fab–NA interface could be filled by
+replacing residues lining the cavity wall (ThrL93 and LeuL94)
+with aromatic residues (Figure 6D). ThrL93 forms extensive
+contacts with NA, including five van der Waals contacts and
+a single hydrogen bond between its Oγ1 and AsnN344 Nδ2
+(Table I). In contrast, LeuL94 makes only limited contacts with
+NA, through van der Waals contact to the side chain of
+AlaN369. The effect of filling the cavity was compared between
+two aromatic replacements at ThrL93Trp, Phe, two aromatic
+replacements at LeuL94Trp, Tyr and two more conservative
+substitutions LeuL94Val, Ala.
+The replacement of ThrL93 with phenylalanine or
+tryptophan had little effect on the Gibbs free energy of
+binding [∆∆G(
+ThrL93Phe) 5 10.1 kcal/mol and ∆∆G
+(
+ThrL93Trp) 5 10.3 kcal/mol, respectively]. It is likely that the
+gain in binding energy as a result of filling a cavity with a
+larger protein side chain compensated for the loss of the
+single hydrogen bond, which agrees with the calculated
+marginal contribution of the threonine side chain
+[∆G(
+ThrL93) 5 –0.1 kcal/mol; Tulip et al., 1994].
+The replacement of LeuL94 with tyrosine or tryptophan, to
+fill the cavity, or with alanine, to create a cavity, all abolished
+binding affinity. Only the conservative replacement of LeuL94
+with valine was tolerated, albeit with a significant (fourfold)
+reduction in the Gibbs free energy [∆∆G(
+LeuL94Val) 5 10.9
+kcal/mol]. The apparent contribution of LeuL94 to the inter￾action with NA is significantly greater than estimated by Tulip
+et al. (1994) of ∆G(
+LeuL94) 5 0.0 kcal/mol.
+There are four energetic effects to consider when using
+aromatic residues to fill a solvent-filled cavity in a protein–
+protein interface. The first is the gain in binding energy
+achieved by burying a hydrophobic group instead of a hydro￾philic group in the interface. This additional hydrophobic
+stabilization can be estimated by the increase in molecular
+surface area: 20–30 Å2 for phenylalanine, which could result
+in a decrease in ∆G of 0.5–0.7 kcal/mol and hence a three- to
+fourfold increase in binding affinity. The second effect arises
+from the torsional constraints on aromatic residues, which can
+result in reduced loss of entropy upon complex formation,
+compared with aliphatic residues or water molecules. The third
+effect is the destabilization arising from the loss of hydrogen
+bonds from replaced hydrophilic residues and/or ordered water
+molecules. The fourth effect is the entropy gained by releasing
+bound water molecules from the surface of the proteins upon
+complex formation.
+Malby et al. (1994) identified three fully buried water
+molecules (W301, W302, W303) and four solvent-exposed
+water molecules (W201, W229, W312, W317) that mediate
+contacts between NC10 Fab and NA. Of the three fully buried
+water molecules, two were located in the cavity in the vicinity
+of ThrL93 and LeuL94. The inclusion of these water molecules
+in the structure increased both the amount of the surface area
+buried by complex formation and the shape complementarity
+value (Sc; Lawrence and Colman, 1993) and also introduced
+a solvent-mediated hydrogen bond between W302 and the
+main chain nitrogen of LeuL94. In the case of mutations at
+ThrL93 and LeuL94, it appears that the positive effects on
+binding affinity achieved by improving shape complementarity
+and increasing buried surface area by substitution with aromatic
+residues were negated by the removal of these water molecules
+73
+in the interface. Furthermore, displacement of the water molec￾ules by filling the cavity with large hydrophobic residues
+would have provided an added penalty through the loss of
+solvent–protein hydrogen bonds.
+It has been suggested that cavities devoid of water molecules
+have a destabilizing effect on protein association (Amit et al.,
+1986; Braden and Poljak, 1995). Similarly, water molecules
+that fill an interface cavity may play a role in increasing the
+complementarity between the two proteins (Bhat et al., 1994;
+Malby et al., 1994). Studies on barnase (Serrano et al.,
+1992), T4 lysozyme (Eriksson et al., 1992) and chymotrypsin
+inhibitor-2 (Jackson et al., 1993) have shown that filling
+interior hydrophobic cavities the size of one methylene group
+can result in increases in the free energy of unfolding ranging
+from 0.8 to 2.5 kcal/mol, with an average value of 1.3–1.5
+kcal/mol per methylene group. Theoretically, it is possible to
+stabilize a protein–protein interaction by a similar amount by
+filling an interface cavity. However, since most antibody–
+antigen associations are enthalpically driven (Braden and
+Poljak, 1995), replacement of solvent-containing surface
+cavities by larger amino acids could lead to significant energy
+penalties if the loss of solvent–protein hydrogen bonds is not
+compensated for by new protein–protein interactions.
+The functional epitope and affinity maturation by rational
+protein design
+Functional studies on antibody–antigen complexes have indi￾cated that although the protein–protein interface is typically
+composed of between 12 and 20 contact residues, only a few
+residues (3–10) are necessary for tight binding (Novotny,
+1991). The dominant role of a few key residues in the
+functional epitope has also been observed in the interaction
+between growth hormone and its receptor (Jin et al., 1992;
+Clackson and Wells, 1995). Recently, Tomlinson et al. (1996)
+speculated that the key functional residues in the centre of the
+binding surface of the antibody would be selected initially
+from the primary immune repertoire, followed by selection of
+residues at the periphery by somatic hypermutation. Of the three
+key functional residues identified in this study as accounting for
+~70% of the free energy of binding, two are located at the
+centre of the NC10 scFv binding surface (TyrL32 and TyrH99)
+and AspH56, which participates in the only antibody–antigen
+salt link, is located towards the periphery of the antibody’s
+binding site (Figure 1).
+Substituting residues that increase either the strength or
+number of specific interactions at the interface can lead to
+improved binding affinity (Roberts et al., 1987; Rees et al.,
+1994). However, replacement of individual contact residues
+on either the antibody or the antigen usually reduces or
+abolishes affinity and this information can be used to map the
+functional epitope (Denzin et al., 1993; Kam-Morgan et al.,
+1993; Nuss et al., 1993; Rumbley et al., 1993). The sequential
+replacement of residues by alanine, thereby removing inter￾actions beyond that of the β-carbon, has been used to determine
+the functional determinants of at least ten different protein–
+protein or enzyme–substrate complexes (Wells, 1991). Non￾contact residues may also provide a valuable contribution to
+binding. The replacement of a non-contact residue (VH52) in
+the anti-digoxin antibody 26-10 dramatically decreased its
+affinity for digoxin (Schildbach et al., 1993). Hawkins et al.
+(1993) showed that both contact and non-contact residues of
+the antibody D1.3 affected the affinity of binding to lysozyme
+and the replacement of several non-contact residues in D1.3D.A.Dougan et al.
+resulted in a fivefold improvement in affinity. Replacement of
+non-contact residues at the periphery of the combining site
+has produced small changes in binding affinity: a threefold
+increase in the affinity of an anti-2-phenyloxazolone antibody
+was made by replacing a charged side chain in a non-contact
+region of the antibody binding site (Riechmann et al., 1992).
+Likewise, an eightfold increase in affinity was produced by
+the removal of two charged residues at the periphery of the
+combining site (Roberts et al., 1987). Moreover, the replace￾ment of critical framework residues of several humanized
+antibodies has restored the original affinity of the murine
+antibody (Tempest et al., 1991). Presumably, non-contact
+residues modulate antibody affinity through their influence
+upon the packing of contact residues.
+Generally, the structure-based or ‘rational’ design approach
+to affinity enhancement has failed to produce spectacular
+improvements in affinity. There are several reasons for this
+lack of success, each highlighting our limited understanding
+of the rules that govern the association of proteins with each
+other. More specifically, (a) increasing the affinity of murine
+monoclonal antibodies is inherently difficult, as these antibod￾ies have a high affinity already and have also undergone some
+degree of somatic maturation; (b) the structures of antibody–
+antigen complexes may not be determined at a high enough
+resolution to determine accurately important details such as
+the side chain conformations, hydrogen-bonding patterns and
+the positions of water molecules; (c) where mutations have
+been designed using structures of free, rather than complexed,
+forms of the proteins, it is difficult to predict whether a given
+mutation will result in a conformational change upon complex
+formation [such changes have been noticed in the binding of
+antibodies to small peptides and haptens (Herron et al., 1991;
+Rini et al., 1992; Stanfield et al., 1993)]. Until these factors
+are addressed and understood, random mutagenesis and selec￾tion from bacteriophage display libraries will continue to be a
+more effective approach for the generation of antibodies with
+improved binding properties (Burton and Barbas, 1994; Winter
+et al., 1994; Yang et al., 1995; Irving et al., 1996).
+Acknowledgements
+The authors thank Dr P.M.Colman for helpful discussions, Dr R.G.Webster
+and Dr D.W.Metzger for providing NC10 and 3-2G12 hybridomas, Dr
+D.Hewish for preparing the antibody and Mr J.E.Burns and Ms L.Pearce for
+assistance with the expression and purification of mutant NC10 scFvs.
+D.A.Dougan was supported by LaTrobe University and CSIRO Postgraduate
+Scholarships.
+References
+Amit,A.G., Mariuzza,R.A., Phillips,S.E.V. and Poljak,R.J. (1986) Science,
+233, 747–753.
+Bhat,T.N., Bentley,G.A., Boulot,G., Greene,M.I., Dall’acqua,W., Souchon,H.,
+Schwarz,F.P., Mariuzza,R.A. and Poljak,R.J. (1994) Proc. Natl Acad. Sci.
+USA, 91, 1089–1093.
+Braden,B.C. and Poljak,R.J. (1995) FASEB J., 9, 9–16.
+Burton,D.R. and Barbas, C.F. (1994) Adv. Immunol., 57, 191–280.
+Chacko,S., Silverton,E., Kam-Morgan,L., Smith-Gill,S., Cohen,G. and
+Davies,D. (1995) J. Mol. Biol., 245, 261–274.
+Clackson,T. and Wells,J.A. (1995) Science, 267, 383–386.
+Cunningham,B.C. and Wells,J.A. (1993) J. Mol. Biol., 234, 554–563.
+Davies,D.R and Cohen,G.H. (1996) Proc. Natl Acad. Sci. USA, 93, 7–12.
+Denzin,L.K., Gulliver,G.A. and Voss,E.W. (1993) Mol. Immunol., 30,
+1331–1345.
+Eriksson,A.E., Baase,W.A., Zhang,X.-J., Heinz,D.W., Blaber,M., Baldwin,E.P.
+and Matthews,B.W. (1992) Science, 255, 178–183.
+Fersht,A.R. et al. (1985) Nature, 314, 235–238.
+Gill,S.C. and von Hippel,P.H. (1989) Anal. Biochem., 182, 319–326.
+Gruen,L.C., Kortt,A.A. and Nice,E. (1993) Eur. J. Biochem., 217, 319–325.
+74
+Hawkins,R.E., Russell,S.J., Baier,M. and Winter,G. (1993) J. Mol. Biol., 234,
+958–964.
+Herron,J.N., He,X.M., Ballard,D.W., Blier,P.R., Pace,P.E., Bothwell,A.L.M.,
+Voss,E.W. and Edmundson,A.B. (1991) Proteins: Struct. Funct. Genet., 11,
+159–175.
+Horton,R.M., Hunt,H.D., Ho,S.N., Pullen,J.K. and Pease,L.R. (1989) Gene,
+77, 61–68.
+Jackson,S.E., Moracci,M., elMasry,N., Johnson,C.M. and Fersht,A.R. (1993)
+Biochemistry, 32, 11259–11269.
+Irving,R.A., Kortt,A.A. and Hudson,P.J. (1996) Immunotechnology, 2, 127–143.
+Ito,W., Yasui,H. and Kurosawa,Y. (1995) J. Mol. Biol., 248, 729–732.
+Jin,L., Fendly,B.M. and Wells,J.A. (1992) J. Mol. Biol. 226, 851–865.
+Kabat,E.A., Wu,T.T., Perry,H.M., Gottensman,K.S. and Foeler,C. (1991)
+Sequences of Proteins of Immunological Interest. US Department of Health
+and Human Service, US Public Health Service, NIH, Bethesda, MD.
+Kam-Morgan,L.N.W., Smith-Gill,S.J., Taylor,M.G., Zhang,L., Wilson,A.C.
+and Kirsch,J.F. (1993) Proc. Natl Acad. Sci. USA, 90, 3958–3962.
+Kortt,A.A. et al. (1994) Eur. J. Biochem., 221, 151–157.
+Kortt,A.A. et al. (1997a) Protein Engng., 10, 101–111.
+Kortt,A.A., Gruen,L.C. and Oddie,G.W. (1997b) J. Mol. Recognit. in press.
+Lawrence,M.C. and Colman,P.M. (1993) J. Mol. Biol., 234, 946–950.
+Malby,R.L. et al. (1993) Proteins: Struct. Funct. Genet., 16, 57–63.
+Malby,R.L., Tulip,W.R., Harley,V.R., McKimm-Breschkin,J.L., Laver,W.G.,
+Webster,R.G. and Colman,P.M. (1994) Structure, 2, 733–746.
+McCoy,A., Epa,V. and Colman,P.M. (1997) J. Mol. Biol., 268, 570–584.
+McKimm-Breschkin,J.L., Caldwell,J.B., Guthrie,R.E. and Kortt,A.A. (1991)
+J. Virol. Methods, 32, 121–124.
+Murphy,K.P. and Gill,S.J. (1991) J. Mol. Biol., 222, 699–706.
+Novotny,J. (1991) Mol. Immunol., 28, 201–207.
+Nuss,J.M., Bossart-Whitaker,P. and Air,G.M. (1993) Proteins: Struct. Funct.
+Genet., 15, 121–132.
+Oddie,G.W., Gruen,L.C., Odgers,G.A., King,L.G. and Kortt,A.A. (1997) Anal.
+Biochem., 244, 301–311.
+Pace,C.N. (1992) J. Mol. Biol., 226, 29–35.
+Rees,A.R., Staunton,D., Webster,D.M., Searle,S.J., Henry,A.H. and
+Pedersen,J.T. (1994) Trends Biotechnol., 12, 199–207.
+Riechmann,L., Weill,M. and Cavanagh,J. (1992) J. Mol. Biol., 224, 913–918.
+Rini,J.M., Schulze-Gahmen,U. and Wilson,I.A. (1992) Science, 255, 959–965.
+Roberts,S., Cheetham,J.C. and Rees,A.R. (1987) Nature, 328, 731–734.
+Roussel,A. and Cambillau,C. (1989) In TURBO-FRODO, Molecular Modelling
+Package. Silicon Graphics, Mountain View, CA, pp. 77–78.
+Rumbley,C.A., Denzin,L.K., Yantz,L., Tetin,S.Y. and Voss,E.W. (1993) J. Biol.
+Chem., 268, 13667–13674.
+Schildbach,J.F., Near,R.I., Bruccoleri,R.E., Haber,E., Jeffrey,P.D., Novotny,J.,
+Sheriff,S. and Marglies,M.N. (1993) Protein Sci., 2, 206–214.
+Serrano,L., Kellis,J.T., Cann,P., Matouschek,A. and Fersht,A.R. (1992) J. Mol.
+Biol., 224, 783–804.
+Simon,T. and Rajewsky,K. (1992) Protein Engng., 5, 229–234.
+Stanfield,R.L., Takimoto-Kamimura,M., Rini,J.M., Profy,A.T. and Wilson,I.A.
+(1993) Structure, 1, 83–93.
+Tempest,P.R., Bremmer,P., Lambert,M., Taylor,G., Furze,J.M., Carr,F.J. and
+Harris,W.J. (1991) Bio/Technology, 9, 266–271.
+Tomlinson,I.M., Walter,G., Jones,P.T., Dear,P.H., Sonnhammer,E.L. and
+Winter,G. (1996) J. Mol. Biol., 256, 813–817.
+Tsai,C.-J., Lin,S.L., Wolfson,H.J. and Nussinov,R. (1996) Crit. Rev. Biochem.
+Mol. Biol., 31, 127–152.
+Tulip,W.R., Harley,V.R., Webster,R.G. and Novotny,J. (1994) Biochemistry,
+33, 7986–7997.
+Wells,J.A. (1991) Methods Enzymol., 202, 390–411.
+Winter,G., Griffiths,A.D., Hawkins,R.E. and Hoogenboom,H.R. (1994) Annu.
+Rev. Immunol., 12, 433–455.
+Yang,W.-P., Green,K., Pinz-Sweeney,S., Briones,A.T., Burton,D.R. and
+Barbas,C.F.,III (1995) J. Mol. Biol., 254, 392–403.
+Received July 30, 1997; accepted November 3, 1997

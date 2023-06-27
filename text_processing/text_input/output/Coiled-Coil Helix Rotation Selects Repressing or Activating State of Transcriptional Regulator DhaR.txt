@@ -1,0 +1,892 @@
+Structure
+Article
+Coiled-Coil Helix Rotation Selects
+Repressing or Activating State
+of Transcriptional Regulator DhaR
+Rong Shi,1,2 Laura McDonald,3 Miroslaw Cygler,4,5,
+* and Irena Ekiel3,6,
+* 1De´ partement de Biochimie, de Microbiologie et de Bio-informatique, PROTEO, Universite´ Laval, Pavillon Charles-Eugene-Marchand,
+Que´ bec City, QC G1V 0A6, Canada 2Institut de Biologie Inte´ grative et des Syste` mes (IBIS), Universite´ Laval, Pavillon Charles-Eugene-Marchand, Que´ bec City, QC G1V 0A6,
+Canada
+3Department of Chemistry and Biochemistry, Concordia University, 7141 Sherbrooke Street West, Montreal, QC H4B 1R6, Canada
+4Department of Biochemistry, University of Saskatchewan, 107 Wiggins Road, Saskatoon, SK S7N 5E5, Canada
+5Department of Biochemistry, McGill University, 3655 Promenade Sir William Osler, Montreal, QC H3G 1Y6, Canada
+6National Research Council of Canada, Life Sciences, 6100 Royalmount Avenue, Montreal, QC H4P 2R2, Canada
+*Correspondence: miroslaw.cygler@usask.ca (M.C.), irena.ekiel@cnrc-nrc.gc.ca (I.E.)
+http://dx.doi.org/10.1016/j.str.2013.11.012
+SUMMARY
+Escherichia coli dihydroxyacetone (Dha) kinase con￾sists of two subunits, DhaK and DhaL. Transcription
+of dha operon is regulated by the DhaR transcription
+factor and its action is under control of the kinase
+subunits. DhaR is activated by interaction with DhaL
+while it is repressed by DhaK. We have determined
+the structures of DhaK and DhaL bound to the tandem
+GAF-like and PAS domains of the DhaR, providing
+an architectural model for how GAF/PAS tandem
+domains work together in binding protein partners.
+The structures reveal a mechanism of opposite
+transcriptional regulation by the DhaK and DhaL
+subunits. The kinase subunits interface with DhaR
+through surfaces that partially overlap with their
+active sites, allowing sensing of ATP- versus ADP￾loaded DhaL subunit and also precluding a ternary
+complex between DhaK-DhaL and DhaR. The rota￾tion of helices within the DhaR coiled-coil linker
+upon DhaL binding provides the mechanism for
+transmitting the binding signal from the GAF/PAS
+domains to the C-terminal DNA-binding domain.
+INTRODUCTION
+Bacterial enhancer binding proteins (bEBP) constitute a large
+group of transcription regulators, with common architecture
+consisting of the N-terminal regulatory region, central AAA+
+ATPase domain and C-terminal DNA-binding helix-turn-helix
+motif (Schumacher et al., 2006; Tucker and Sallai, 2007; Bush
+and Dixon, 2012; Joly et al., 2012). The regulatory region con￾tains diverse input domains, sensing a wide range of environ￾mental clues (Studholme and Dixon, 2003). Often, regulation is
+accomplished through binding of a low-molecular-weight ligand
+to sensory input domains, such as GAF (named after cGMP￾specific phosphodiesterases, Adenylyl cyclases and FhlA) and
+PAS (after Period circadian protein, Aryl hydrocarbon receptor
+nuclear translocator protein and Single-minded protein), or
+through phosphorylation of a response regulation domain.
+Other groups of bEBPs respond to environmental clues via
+interactions with proteins; these bEBPs have been less studied
+(Buck et al., 2000) and remain poorly understood to date.
+One interesting bEBP, which regulates transcription through
+protein-protein interactions, is the Escherichia coli DhaR. It con￾trols the expression of the phosphoenolpyruvate-dependent
+dihydroxyacetone (Dha) kinase, an enzyme that produces
+dihydroxyacetone phosphate. Dha kinase consists of three
+subunits DhaK, DhaL, and DhaM, which are encoded by the
+genes dhaK, dhaL, and dhaM of the dha operon. DhaM is a
+phosphotransferase component of the phosphoenolpyruvate:
+sugar phosphotransferase system (PTS). This subunit is phos￾phorylated by the small phospho-carrier protein HPr of the
+PTS (Erni et al., 2006) and transfers the phosphate to the ADP
+moiety tightly bound to DhaL (Gutknecht et al., 2001; Ba¨ chler
+et al., 2005a; Oberholzer et al., 2005). Therefore, ADP functions
+as a phosphate transferring coenzyme. The DhaL-ATP complex
+subsequently associates with the DhaK subunit containing the
+Dha substrate covalently bound to His218 through a hemiaminal
+bond (Siebold et al., 2003), whereupon the phosphate is trans￾ferred from ATP to Dha yielding Dha-P (Gutknecht et al., 2001;
+Ba¨ chler et al., 2005a; Oberholzer et al., 2005).
+The transcription regulator DhaR functions as an autorepres￾sor of the dhaR gene and a Dha-dependent activator of the
+dha operon (Ba¨ chler et al., 2005b). The DhaK kinase subunit
+functions as a corepressor while DhaL is a coactivator of
+DhaR. They belong to so called ‘‘trigger enzymes’’ that have
+dual roles: in catalysis and in transcriptional regulation (Commi￾chau and Stu¨ lke, 2008). The activation is triggered by phos￾phorylation of Dha by the kinase that restores the DhaL-ADP
+complex, which through direct interactions with the DhaR
+N-terminal sensor region activates the transcription of the dha
+operon (Ba¨ chler et al., 2005b).
+The majority of bEBPs activate RNA polymerase by confor￾mational changes and/or oligomerization induced by environ￾mental signals, resulting in an active form of AAA+ ATPase,
+which interacts with the s54 factor (Bush and Dixon, 2012;
+478 Structure 22, 478–487, March 4, 2014 ª2014 Elsevier Ltd All rights reservedJoly et al., 2012). DhaR belongs to a subgroup of bEBPs that
+control transcription through the s70 factor (Ba¨ chler et al.,
+2005b). The mechanism of regulation by this group is relatively
+poorly understood, but their ATPase domain does not have a
+s54 binding sequence motif (Ba¨ chler et al., 2005b), a critical
+element for RNA polymerase activation. Thus downstream signal
+propagation by DhaR is likely very different from s54-dependent
+systems and may not require signal transmission from the
+sensor region to the ATPase domain. Some of these bEBPs
+function via direct interactions between their sensory region
+and the C-terminal domain of RNA polymerase (Pittard et al.,
+2005); DhaR may use a similar mechanism.
+The architecture of bEBP reveals a frequent presence of
+multiple small domains in the regulatory region, the role of which
+is often not clear in sensing and signaling (Studholme and Dixon,
+2003). The dihydroxyacetone kinase system provides a new
+mechanism of sensing, in which transcription regulation by
+DhaL and DhaK involves physical interaction of these subunits
+with the sensory region of DhaR comprising a tandem PAS
+and GAF-like domain. Such domains are frequently present in
+sensory regions of bEBPs. PAS and GAF domains have a related
+fold and belong to the profilin-like superfold in the SCOP
+classification (Murzin et al., 1995; Lewis et al., 2013). They are
+one of the largest and most widespread folds in all kingdoms
+of life, have versatile functions, and are often involved in signal
+transduction pathways and protein regulatory systems. Most
+of the structurally characterized PAS and GAF domains bind
+low-molecular-weight ligands or serve as homodimerization
+modules (Ho et al., 2000; Mo¨ glich et al., 2009; Henry and
+Crosson, 2011). Dha kinase regulatory system uniquely involves
+interactions of these domains with other proteins.
+In this report, we provide extensive mechanistic studies of
+this system through crystal structures of the E. coli DhaR
+N-terminal regulatory region complexed with the DhaK or DhaL
+subunits of the kinase. Our studies have uncovered the mole￾cular basis of recognition between a transcriptional regulator,
+its corepressor and co-activator, and provide the first example
+of how interactions of two different kinase subunits with the
+sensory domain of the transcription regulator trigger different
+downstream responses.
+RESULTS
+Overall Structures of the DhaR(N)-DhaK
+and DhaR(N)-DhaL Complexes
+The pertinent details of data processing and refinement are
+shown in Table 1.
+DhaR(N)-DhaK Complex
+The crystals of the DhaR(N)-DhaK complex diffract to only 3.25 A˚
+resolution, possibly due to their high solvent content. Diffraction
+has been moderately improved (to 2.83 A˚ ) by using bigger crys￾tals of DhaR(N)-DhaK(T79L). Other than the mutation itself, no
+structural difference (root-mean-square deviation [rmsd] of
+0.34 A˚ for all 1,300 Ca atoms) could be detected between the
+wild-type and mutant crystals of this complex. We therefore
+used the DhaR(N)-DhaK(T79L) model for the description below.
+Each asymmetric unit contains one DhaK dimer and one
+DhaR(N) dimer, in which each DhaK monomer contacts only
+one DhaR(N) (Figure 1A). However, the molecules pack in the
+crystal in such a way that the second DhaK subunit in the
+DhaK dimer interacts with one DhaR subunit belonging to
+another DhaR dimer, thus forming helical chains extending
+throughout the crystal (Figure S1A available online). This interac￾tion pattern can be represented as .DhaKA
+0
+-DhaKB
+0
+-DhaR(N)A￾DhaR(N)B-DhaKA-DhaKB., where subscript denotes dimer
+components and superscript (0
+) indicates a symmetry-related
+heterotetramer (Figure 1A). The pseudo 2-fold symmetry that
+relates two monomers of DhaR(N) extends to the DhaKB
+0
+-
+DhaR(N)A-DhaR(N)B-DhaKA segment. Thus the interface con￾tacts between DhaR(N)B-DhaKA (within one asymmetric unit)
+are nearly identical to those of DhaR(N)A-DhaKB
+0 (between two
+asymmetric units; Figure 1A). The interface is large and encom￾passes an area of 1,150 A˚ 2 on each molecule as calculated
+by PISA (Krissinel and Henrick, 2007). These values are nearly
+identical for the DhaR(N)B-DhaKA and DhaR(N)A-DhaKB
+0 inter￾faces. In comparison, the DhaR dimerization interface has an
+area of 2,350 A˚ 2
+, the DhaKA-DhaKB dimerization interface is
+1,960 A˚ 2 and the next largest contact between symmetry
+related molecules is only 350 A˚ 2
+. Moreover, the DhaR surface
+Table 1. X-Ray Data Collection and Refinement Statistics
+Data Set DhaR-DhaK
+DhaR-DhaK
+(T79L) DhaR-DhaL
+Space group P61 P61 P1
+a, b, c (A˚ ) 232.1, 232.1,
+79.9
+231.4, 231.4,
+79.8
+89.8, 91.5,
+93.8
+a, b, g (
+) – – 84.2, 72.4, 90.0
+Wavelength (A˚ ) 0.9793 0.9793 0.9793
+Resolution (A˚ ) 50–3.25
+(3.37–3.25)
+50–2.83
+(2.93–2.83)
+50–2.32
+(2.40–2.32)
+Observed hkl 300,714 340,124 461,931
+Unique hkl 39,071 56,455 119,216
+Redundancy 7.7 (5.7) 6.0 (3.7) 3.9 (3.4)
+Completeness (%) 99.8 (99.1) 97.0 (87.7) 97.5 (92.1)
+Rsyma 0.134 (0.525) 0.091 (0.552) 0.090 (0.588)
+I/(sI) 13.1 (3.1) 13.4 (2.0) 13.3 (2.0)
+Wilson B (A˚ 2
+) 47.1 64.2 48.3
+Rwork (no. hkl)
+b 0.191 (37,079) 0.201 (53,562) 0.200 (113,145)
+Rfree (no. hkl) 0.228 (1,958) 0.241 (2,860) 0.247 (6,008)
+B factors (no. atoms)
+Protein 68.4 (9,900) 59.6 (9,900) 46.4 (15,394)
+Solvent – 31.6 (30) 35.8 (445)
+Ligands 75.6 (12) 63.6 (12) 32.8 (116)
+Ramachandran
+Allowed (%) 98.8 98.6 99.3
+Generous (%) 1.0 1.2 0.7
+Disallowed (%) 0.2 0.2 0
+Rmsd
+Bonds (A˚ ) 0.015 0.018 0.018
+Angles () 1.63 1.94 1.74
+PDB code 4LRX 4LRY 4LRZ
+Data for the highest resolution shell are given in parentheses.
+a
+Rsym = ð
+P
+Iobs-Iavg
+
+Þ=
+PIavg: b
+Rwork = ð
+PjFobs-FcalcjÞ=
+PFobs:
+Structure
+DhaR Regulates Transcription by Helix Rotation
+Structure 22, 478–487, March 4, 2014 ª2014 Elsevier Ltd All rights reserved 479         contacting DhaK contains a cluster of highly conserved residues
+as calculated by ConSurf (Landau et al., 2005; Figures S1B and
+S1C). All residues in both DhaK subunits are well defined in the
+electron density map and they can be well superposed with an
+rmsd of 0.28 A˚ for all the corresponding 356 Ca atoms. The
+DhaR(N) structure includes residues 13–306; 12 residues at
+both termini are disordered. Each DhaK molecule contains Dha
+covalently bound to His218. Previous studies with gel filtration
+and analytical ultracentrifugation indicated that DhaR and
+DhaK form a dimer of [DhaR2:DhaK2] (Ba¨ chler et al., 2005b).
+We carried out ITC experiments and determined Kd to be
+15 mM (Figure S1D). The complex DhaR(N)-DhaK(H56N), which
+does not contain bound Dha (Shi et al., 2011), is marginally
+weaker (Kd = 26 mM), indicating that DhaK substrate loading
+does not have a major influence on interactions with DhaR.
+The crystal structure of DhaK-DhaR confirms that the stoichiom￾etry of DhaK and DhaR is 2:2 or (2:2)n.
+DhaR(N)-DhaL Complex
+For the DhaR(N)-DhaL complex, eight molecules forming two
+heterotetramers of DhaL-DhaR(N)2-DhaL were found in the
+asymmetric unit. These two heterotetramers are almost identical
+as shown by an rmsd of 0.40 A˚ for all the corresponding 1,007 Ca
+atoms. Similar to the DhaR(N)-DhaK complex, the DhaR(N)
+subunits in the DhaR(N)-DhaL contain residues 13–306 and
+lack 12 residues at both termini. All the 210 residues of the
+DhaL subunits and the bound ADP and Mg2+ ions are well
+Figure 1. Crystal Structures of the
+E. coli DhaR(N)-DhaK and DhaR(N)-DhaL
+Complexes
+(A) Cartoon representation of the DhaKA
+0
+-DhaKB
+0
+-
+DhaR(N)A-DhaR(N)B-DhaKA-DhaKB arrangement.
+DhaR(N)A subunit is shown in yellow, DhaR(N)B in
+magenta, DhaKA in green, DhaKB in slate, and
+symmetry-related DhaKA,B0 are in gray. The Dha
+molecule covalently bound to His218 is shown as
+spheres.
+(B) Structure of the DhaR(N)-DhaL heterotetramer.
+The DhaR(N) subunits are shown in the same color
+as in (A), whereas the DhaL molecules are cyan.
+The ADP molecules and magnesium ions bound to
+DhaL are shown as sticks and green spheres,
+respectively.
+defined in the electron density (Figure 1B).
+There is no detectable structural differ￾ence between each individual DhaL or
+DhaR(N) molecule in the DhaR(N)-DhaL
+complex as indicated by an rmsd of
+0.12 to 0.38 A˚ for all corresponding
+Ca atoms. The interface between
+DhaR dimer and DhaL covers an area
+of 1,410 A˚ 2 on each molecule and is
+larger than the DhaK-DhaL interface
+(1,230 A˚ 2
+) and in a typical range for
+biologically significant protein-protein
+contacts. The contact surface on DhaR
+also shows a higher level of conservation
+than parts of the surface not involved in
+contacts with either DhaL or DhaK (Fig￾ures S1B and S1C). Size exclusion experiments detected the
+DhaR(N)-DhaL complex of 96 kDa with a stoichiometry of 2:1
+(Ba¨ chler et al., 2005b), which agrees with our isothermal titration
+calorimetry (ITC) experiments. On the other hand, the crystal
+structure of DhaL-DhaR complex unambiguously indicates its
+stoichiometry to be 2:2. The Kd value for the DhaR(N)-DhaL
+complex, as determined by ITC, is 0.5 ± 0.1 mM, and hence it
+is significantly stronger than the DhaR(N)-DhaK complex.
+Structure of DhaR Sensor Region
+The DhaR sensor region in both DhaR(N)-DhaK and DhaR(N)-
+DhaL complexes is present as an intimate dimer (Figure 1).
+Each DhaR(N) subunit is an elongated molecule, 85 A˚ in
+length, with two globular domains (residues 13–190 and
+212–306) connected by a long helical linker (residues 191–211;
+Figure 2A). These domains have a similar, although not identical,
+fold and belong to the profilin-like fold superfamily (Andreeva
+et al., 2008). For the reasons given below, we refer to them
+as the N-terminal GAF-like and C-terminal PAS domains.
+Superposition of all six DhaR(N) crystallographically inde￾pendent molecules from both crystal structures shows that
+the molecule displays some flexibility, expressed by varying
+degree of bending of the linker helix. Three different orientations
+of the PAS domain relative to the connecting helix and the
+GAF-like domain were observed among the six molecules
+(Figure 2B).
+Structure
+DhaR Regulates Transcription by Helix Rotation
+480 Structure 22, 478–487, March 4, 2014 ª2014 Elsevier Ltd All rights reserved    The description of the DhaR(N) structure is based on the
+DhaR(N)-DhaK complex. The core of the N-terminal domain (res￾idues 51–190) comprises a central five-stranded antiparallel b
+sheet with the strand order 2-1-5-4-3 (b2[-b1Y-b5[-b4Y-b3[).
+The central b sheet is flanked by a two-helix bundle (helices a3
+and the N-terminal part of the helix a7) on one side, and helices
+a4, a5, a6, on the other side. Structurally, this domain is most
+similar to the transcriptional regulators in the prokaryotic
+isocitrate lyase regulator (IclR) family, such as TM-IclR from
+Thermotoga maritima (Protein Data Bank [PDB] code 1MKM),
+the E. coli glyoxylate and allantoin utilization regulatory protein
+AllR (PDB code 1TF1), and the E. coli IclR protein (PDB code
+2O9A). All these domains have been classified as GAFs. The
+N-terminal domain of DhaR(N) lacks the peripheral edge strand
+b3 of the classical GAF domain fold (GAF has strand order 3-2-
+1-6-5-4; Figure 2C) and adheres more to the PAS fold. However,
+based on the most pronounced structural similarity of the
+N-terminal domain of DhaR to GAF domains, we will call it
+Figure 2. The Structure of a DhaR(N) Mono￾mer and Its Intrinsic Flexibility
+(A) The DhaR(N) subunit displayed in rainbow
+colors (from blue at the N terminus to red at the
+C terminus). The N-terminal GAF-like domain
+and the C-terminal PAS domain are connected
+through a long helical linker.
+(B) Superposition of three different conformations
+of the DhaR(N) monomer in the DhaR(N)-DhaK and
+DhaR(N)-DhaL complexes. The four independent
+DhaR(N) monomers complexed with DhaL have
+the same conformations and are shown in slate.
+The two DhaR(N) monomers complexed with
+DhaK adopt different conformations and are
+yellow and magenta.
+(C) The GAF-like domain structure with all hydro￾phobic residues filling the internal ligand-binding
+pocket present in a typical GAF domain.
+(D) The PAS domain structure. The residues lining
+the small cavity are shown explicitly and labeled.
+GAF-like. There are other instances
+where the domains without strand b3
+have been assigned to the GAF fold, for
+example the DosT heme-bound GAF
+domain (Podust et al., 2008). The unique
+feature of the DhaR GAF-like domain is
+the presence of two additional N-terminal
+helices (a1 and a2) with an extended a1/
+a2 connecting loop (Figure 2C).
+A ten-turn long helix a7 connects
+the N-terminal GAF-like domain to the
+C-terminal PAS domain (residues 213–
+306). This PAS domain displays the
+structural features of a typical PAS
+domain, with a five-stranded antiparallel
+b sheet in the topological order 2-1-5-4-
+3 (b7[-b6Y-b10[-b9Y-b8[). This b sheet
+is flanked by the C-terminal part of
+the connecting helix a7 on one side and
+by a8, a9, and a10 on the other side
+(which usually contains the ligand-binding site; Figure 2D). The
+closest structural homolog of this domain based on the DALI
+program (Holm and Sander, 1995) is the photoactive yellow
+protein (PDB 1ODV, rmsd of 2.4 A˚ for the 90 superposed
+Ca atoms).
+A typical GAF/PAS domain has an internal ligand-binding
+pocket located between the central b sheet and helices a4, a5,
+and a6. No such pocket exists in DhaR GAF-like domain; this
+space is filled with bulky hydrophobic side chains of Phe76,
+Leu78, Leu97, Phe102, Ile113, Leu118, Leu140, Trp143, and
+Phe145 (Figure 2C). The PAS domain has only a very small cavity
+of 67 A˚ 3 lined exclusively with hydrophobic residues (Ile217,
+Trp219, Leu236, Ile248, Leu252, Leu254, Leu258, Phe275, and
+Leu301; Figure 2D). This cavity is too small for ligand binding
+and is sealed from the solvent by surrounding hydrophobic
+side chains. These structural adaptations clearly reflect a transi￾tion from a small ligand binding to protein binding for these GAF/
+PAS domains. Moreover, the topological arrangement of the
+Structure
+DhaR Regulates Transcription by Helix Rotation
+Structure 22, 478–487, March 4, 2014 ª2014 Elsevier Ltd All rights reserved 481GAF-like and PAS domains within the DhaR sensor region is
+very common for GAF and PAS domains (Martinez et al., 2005;
+Mo¨ glich et al., 2009; Winkler et al., 2013).
+DhaR Sensor Region Is a Homodimer
+Dimerization of the DhaR sensor region is achieved through
+extensive side-by-side interactions involving the GAF-like
+domain, the PAS domain and the connecting helix a7 (Figure 3A).
+The homodimer possesses a pseudo 2-fold symmetry with
+departures from the exact symmetry varying between the
+structures. The dimer interface is extensive and covers an area
+of 2,350 A˚ 2 on each DhaR(N) molecule. The connecting helices
+a7 form a parallel coiled-coil, resulting in a dimer having a butter￾fly-like shape (Figure 1). GAF-like domains interact through the
+two helices (a3 and a7) from each subunit, forming a four-helix
+bundle. The GAF-like domain interface is predominantly hydro￾phobic (Met68, Ala173, Leu177, and Ala180), while two salt
+bridges at the top (Arg71A
+-Asp174B and Arg71B-Asp174A
+) are
+solvent-exposed. Within the PAS domain, the contacts are
+also mainly hydrophobic, involving side chains from the C-termi￾nal segment of the connecting helix a7 and a side of the b sheet
+(Leu205, Leu208, Leu209, Met212, and Phe227; Figure 3A).
+DhaK Binds to the GAF-like Domain of DhaR
+DhaR(N) binds to DhaK exclusively via its GAF-like domain
+and makes no contacts with the helical linker or the PAS domain
+(Figure 1A). Complex formation buries 1,150 A˚ 2
+, or 7.3%, of the
+molecule surface (15,800 A˚ 2
+) of each DhaR subunit. The DhaR
+residues involved in binding are mainly located at helices a1,
+a2, and their connecting loop, which are unique for the DhaR
+and are not present in other GAF domains. Additionally, a few
+residues located at the loops b1/b2, a4/a5, and b4/b5 of the
+core of the GAF-like domain are in contact with DhaK but provide
+only 30% of the total contact area. The DhaK/DhaR interface in￾volves numerous van der Waals contacts, hydrogen bonds, and
+salt bridges (Figure 3B). The mutation T79L is located at this inter￾face and the more bulky leucine side chain makes more favorable
+van der Waals contacts with DhaR than would threonine.
+The DhaK surface that contacts DhaR overlaps partially with
+the surface that forms the DhaK-DhaL dimer (Figure S2A;
+Shi et al., 2011). The common part of these interfaces includes
+the loops b4/a2 and b7/b8 and helix a3. This DhaK region is
+thus not only important for catalysis but also critical for binding
+to DhaR transcriptional regulator. Upon binding to DhaR, DhaK
+undergoes conformational changes that include ordering of the
+loop b7/b8 and ten N-terminal residues (Figure S2B). Similar
+ordering was also observed upon DhaK binding to DhaL. Overall,
+the DhaK molecule in the DhaK-DhaR complex adopts an
+intermediate conformation between both the free DhaK and
+that in DhaK-DhaL complex.
+Because DhaK interacts only with the GAF-like domain of a
+single DhaR subunit, the conformations of the connecting helix
+a7 and the PAS domain are likely unaffected by DhaK binding
+and would be the same as in the free DhaR dimer. These two
+a7 helices form tightly packed coiled-coil interface (Figure 3A,
+left) through interactions between Leu188, Leu195, Leu202,
+and Leu209 and Thr191, Thr198, Leu205, and Met212. This
+coiled-coil differs from the canonical parallel leucine zipper in
+that the leucines are in position ‘‘a’’ rather than in position ‘‘d’’
+in the heptad repeat sequence (abcdefg)n (O’Shea et al., 1989).
+Moreover, the two DhaR subunits in DhaR-DhaK complex
+show a difference in the orientation of their PAS domain relative
+to the GAF-like domain, which results in an asymmetric DhaR
+dimer in this complex.
+DhaL Binds to All Three Domains of the Sensor Region
+of DhaR
+The overall structure of the DhaR(N)-DhaL complex is organized
+as a DhaL-(DhaR)2-DhaL heterotetramer with the DhaR homo￾dimer recruiting two DhaL molecules. DhaL binds at the DhaR
+dimer interface and contacts both subunits to a different degree.
+DhaL binds to the GAF-like and PAS domains as well as the
+connecting helix a7 of the first DhaR subunit, but only to the
+GAF-like domain and the connecting helix a70 of the second
+DhaR subunit (Figure 3C). DhaL binds DhaR with its helical barrel
+nearly parallel to the coiled-coil of DhaR dimer, forming a
+supercoiled-coil structure. In this way, half of the helical barrel
+(a2, a3, a4, and a5) is snugly embedded between the two
+GAF-like domains and a single PAS domain of the DhaR dimer.
+The top end of the DhaL helical barrel interacts with the GAF￾like domains, the bottom end packs against the PAS domain,
+and the middle packs against the connecting helices a7 and
+a70 (Figure 3D). Although the ADP molecule and Mg2+ ions within
+the DhaL active site are located close to the GAF-like domain,
+they are not participating directly in the interactions except
+for a single, water-mediated hydrogen bond between ADP
+b-phosphate and Glu66 of DhaR. A large patch of negatively
+charged residues, consisting of Glu62, Asp63, and Glu66 in the
+GAF-like domain, faces the ADP b-phosphate. The electrostatic
+potential calculations suggest that this negative patch would
+discriminate against the g-phosphate in the ATP-loaded DhaL
+(Figure 3E), providing a structural explanation for the observation
+that DhaR selectively binds ADP-loaded DhaL but not ATP￾loaded DhaL (Gutknecht et al., 2001; Ba¨ chler et al., 2005a,
+2005b).
+Numerous hydrogen bonds are established between DhaL
+and DhaR upon complex formation (Figure 3C). Interactions
+between the helix a2 of DhaL and the connecting helix a7 of
+DhaR, as well as between Phe63 and Met70 from helix a3 of
+DhaL and several leucine residues (Leu190, Leu195, and
+Leu202) of the coiled-coil helix of DhaR (see below), are likely
+important. Compared with the DhaK-DhaL complex, DhaL
+adopts a different orientation to approach DhaR (Figure 1).
+The two DhaR subunits in the DhaR-DhaL complex display
+very similar conformations, making the DhaR dimer more
+symmetric than in the DhaR-DhaK complex. Indeed, the four
+independent DhaR(N) molecules in two DhaR(N)-DhaL heterote￾tramers can be superimposed on each other with an rmsd less
+than 0.4 A˚ for all atoms in these molecules.
+DhaL Triggers Structural Response upon Binding DhaR
+The individual GAF-like or PAS domains in all DhaR subunits of
+both complexes are almost identical. Nevertheless, the overall
+conformations of individual DhaR subunits vary somewhat
+between complexes. As we have described above, the DhaR
+dimer in a complex with DhaL is quite symmetrical while
+there are deviations from a 2-fold symmetry in the DhaK
+complex. These conformational differences can be described
+Structure
+DhaR Regulates Transcription by Helix Rotation
+482 Structure 22, 478–487, March 4, 2014 ª2014 Elsevier Ltd All rights reserved    Figure 3. Binding Interfaces and Interactions between DhaR(N) and DhaK or DhaL
+The color scheme for the proteins is the same as that in Figure 1. Hydrogen bonding interactions are shown as black dashed lines.
+(A) The leucine zipper in the coiled-coil region of DhaR(N) in the DhaR(N)-DhaK complex (left) is unzipped upon DhaL binding (right).
+(B) Stereo view of the binding interface between DhaR(N) and DhaK. The Dha molecule covalently bound to H218 is shown as spheres. Residues involved in
+H-bond interactions are shown as sticks with the carbon atoms of DhaR(N) and DhaK in white and yellow, respectively.
+(C) Interactions between the DhaR(N) dimer and DhaL. The ADP and Mg2+ ions bound to DhaL are shown as sticks and green spheres.
+(D) Stereo view of the binding interface between the coiled-coil region of DhaR(N) and the helical a3 of DhaL with residues at the interface shown in stick mode.
+2Fo-Fc electron density is contoured at 1 s. The color scheme is the same as that in (C).
+(E) The electrostatic potential of DhaR(N) in the vicinity of the region responsible for discrimination of ADP against ATP. The ADP molecule is shown as sticks
+and Mg2+ ions in green spheres. The three residues Glu62, Asp63, and Glu66 of DhaR(N) are indicated. The mFo-DFc difference electron density around ADP
+and metal ions and calculated in their absence is contoured at 3.5 s.
+(F) The relative shifts of the PAS domains in the two DhaR(N) complexes. The two DhaR(N) subunits complexed with DhaL are shown in slate and those complexed
+with DhaK are yellow and magenta, respectively. The resulted shift of V306 at the C terminus of PAS domain is apparent.
+Structure
+DhaR Regulates Transcription by Helix Rotation
+Structure 22, 478–487, March 4, 2014 ª2014 Elsevier Ltd All rights reserved 483as an 10 bend of the upper (N-terminal) part of the connecting
+helix with the pivot at Leu190. This bend leads to a displacement
+of as much as 15 A˚ for some Ca atoms in the PAS domain
+(Figures 3A and 3F). The asymmetric nature of the DhaR(N) dimer
+in the DhaR(N)-DhaK complex is largely maintained by the
+formation of a leucine zipper in the connecting helices.
+DhaK interacts only with the GAF-like domain and has little
+effect on the coiled-coil conformation of the connecting helices.
+On the other hand, DhaL interacts intimately and extensively with
+the connecting helices. Comparison of the structures of DhaR(N)
+in both complexes shows how binding of DhaL induces quite
+dramatic conformational changes (Figures 3A and 3F). Upon
+binding to either side of the DhaR dimer, the helix a4 (eg,
+residues Arg90 and Gln93) of DhaL displaces the loop b4/b5
+(eg, Lys154 and Gly155) in the GAF-like domain from its original
+position toward the connecting helix. The relocated b4/b5 loop
+pushes against the adjacent connecting helix a7 in the vicinity
+of Leu190, which together with a similar effect on the second
+connecting helix in the dimer, results in a structural rearrange￾ment of the coiled-coil region that can be best described as a
+rotation of the two helices in opposite directions, each by 50
+(Figures 4 and S3). The most notable consequence of these
+changes is that the leucine zipper in the coiled-coil is ‘‘unzipped’’
+(Figures 4 and S3). The first leucine residue in the leucine zipper,
+Leu188, is shifted by 2 A˚ at its Ca atom in a direction opposite
+to its equivalent on the second subunit, leading to a loss of their
+favorable contacts, with the closest distance between them
+increased from 3.2 A˚ to 8.9 A˚ . As a result, Ser74 in the a3 of
+DhaL repositions (Ca shift by 1 A˚ ) to better interact with
+Leu188. Leu195 and Leu202 in the connecting helix a7 no longer
+face their equivalent leucines in a70
+, now also oriented toward
+the a3 of DhaL and forming many hydrophobic interactions
+with Phe63, Met70, and the aliphatic parts of Lys59 and Lys63
+side chains of DhaL. Similarly, shifts are also observed for
+the last leucine in the connecting helix, Leu209, which is now
+separated by 10 A˚ from its counterpart in a70
+. The side chain
+of Phe227 from the b sheet of the PAS domain rotates 120
+to accommodate the repositioned Leu209. All these adjustments
+lead to a replacement of the interface residues in the coiled coil
+from Leu188, Leu195, Leu202, and Leu209, to Asn187, Leu194,
+His201, and Leu208, respectively. This rearrangement brings
+the b sheet of the PAS domain closer to the coiled-coil and leads
+to a more compact packing through numerous new van der
+Waals interactions. Upon DhaL binding, a series of additional
+H-bonds and salt bridges are formed between the PAS domain
+and the coiled-coil region. All these changes bring the C termini
+of the PAS domains in the DhaR dimer much closer to each
+other (eg, the distance between C-terminal Val306 decreases
+from 16.4 to 11.9 A˚ ).
+DISCUSSION
+GAF and PAS domains belong to one of the largest and most
+widespread domain families in all kingdoms of life and have
+been conserved for over two billion years of evolution as
+indicated by their presence in species from cyanobacteria to
+mammals (Martinez et al., 2002). GAF and PAS domains are
+distantly related as they share the same basic folding pattern
+despite very low sequence identity. PAS domains are important
+components of signal transduction proteins in that they function
+as interaction hubs and universal signal sensors, typically
+sensing oxygen tension, redox potential or light intensity
+(Mo¨ glich et al., 2009). Most of the structurally characterized
+PAS and GAF domains involve ligand binding or serve as
+homodimerization modules (Mo¨ glich et al., 2009; Schultz,
+2009). Many bacterial transcription regulators from the bEBP
+family contain N-terminal sensory regions consisting of multiple
+small domains, often GAF and PAS domains, but the role of
+these domains in signaling is frequently poorly understood
+(Studholme and Dixon, 2003; Bush and Dixon, 2012). Structure
+determination of the DhaR sensor region provides a new
+structure-based perspective on the domain organization of this
+large number of transcriptional regulators.
+One of the most interesting observations from the structure
+of DhaR is that neither the GAF-like nor PAS domain contains
+internal ligand binding cavities frequently present in other GAF
+or PAS domains. In DhaR, the corresponding regions are filled
+with hydrophobic and/or bulky side chains, leaving no room for
+binding small molecules. This structural adaptation reflects func￾tional differences as transcriptional regulation by DhaR involves
+binding of a protein partner rather than a small molecule ligand.
+The GAF-like domain of DhaR uniquely contains 40 extra
+residues at the N terminus, which are involved in the binding of
+DhaK. Similar to many other GAF domains, such as in phos￾phodiesterase 2A (Martinez et al., 2002), the GAF-like domain
+of DhaR participates in dimerization through the helical bundle.
+The leucine zipper present in the coiled-coil region further
+enhances dimerization of DhaR.
+The structure of the sensory region of DhaR bound to two
+individual subunits of the dihydroxyacetone kinase nicely ex￾plains existing biological data for this system (Ba¨ chler et al.,
+2005b) and allows us to propose a mechanistic model for
+Figure 4. Conformational Reorganization of the DhaR(N) Coiled-Coil
+Region through Helix Rotation upon DhaL Binding
+Helix rotation remodels the a7–a70 coiled-coil interface.
+Structure
+DhaR Regulates Transcription by Helix Rotation
+484 Structure 22, 478–487, March 4, 2014 ª2014 Elsevier Ltd All rights reserved          transcription regulation mediated through protein-protein inter￾actions. The most striking observation is that interaction of
+each of the kinase subunits with DhaR involves the active site
+region. There are multiple consequences following such design.
+Because the active site in Dha kinase is located on the interface
+between two subunits (Shi et al., 2011), the kinase must disso￾ciate upon binding DhaR. The exposed active site of DhaL allows
+DhaR to clearly differentiate between ADP and ATP-loaded
+DhaL. It was previously shown that DhaR could not bind the
+ATP form of DhaL (Ba¨ chler et al., 2005b). Sensing nucleotide￾loaded DhaL rather than the levels of free ATP/ADP is essential,
+because DhaL-ADP is phosphorylated in situ by DhaM and
+its state is uncoupled from the cytoplasmic ATP/ADP ratio.
+The structure of DhaL-DhaR complex identifies electrostatic
+repulsion as a basis of this discrimination against DhaL-ATP
+(Figure 3E).
+Previous functional studies (Ba¨ chler et al., 2005b) proposed
+that transcriptional activation by Dha is coupled to the enzymatic
+turnover of Dha and involved DhaL, which is fully supported by
+the structural data. Although the DhaR(N) interacts with the
+DhaK region proximal to the active site, it does not contact
+directly bound Dha. Indeed, the Kd values for the DhaR(N)-
+DhaK complex are very similar for the Dha loaded wild-type
+DhaK and DhaK(H56N), which was shown before to be incapable
+of binding Dha (Shi et al., 2011).
+The structures of two complexes provide a simple explanation
+to previously observed mutual exclusiveness of binding of DhaR
+to the two subunits of the Dha kinase (Ba¨ chler et al., 2005b).
+Although the binding interfaces on DhaR for DhaK and DhaL
+are not directly overlapping, superposition of two complexes
+reveals that steric conflicts between DhaL and DhaK would
+prevent simultaneous binding. Because DhaR engages the
+DhaK-DhaL interface of each kinase subunit, DhaK, DhaL, and
+DhaR cannot form a ternary complex. In this way, dynamic rear￾rangement of complexes can be accomplished and Dha can
+activate transcription through enhancing DhaL-ADP population.
+Dha operon regulation involves s70, rather than typical for
+bEBPs s54 factor (Ba¨ chler et al., 2005b). Little is known about
+the mechanism of signal transmission downstream from the
+effector regions in such systems. The most studied of these,
+TyrR regulon of E. coli, is regulated by the bEBP protein called
+TyrR (Pittard et al., 2005). This transcription regulator has
+also two domains in the sensory region, ACT and PAS. It was
+shown that this region interacts directly with the C-terminal re￾gion of the a-subunit of RNA polymerase (Pittard et al., 2005).
+Thus, the binding of DhaL likely activates transcription either
+through the ATPase domain or directly through RNA polymerase.
+The most interesting finding from the crystal structures of
+DhaL-DhaR and DhaK-DhaR complexes lies in the different re￾sponses of DhaR to binding different partners. In the absence
+of coactivator DhaL, the leucine zipper found in the coiled-coil
+linking GAF-like and PAS domains likely keeps DhaR in a state
+that prevents activation. Upon binding, the helical barrel of
+DhaL triggers structural reorientation of DhaR by intercepting
+the leucines of the coiled-coil interface. These now bind to the
+residues of the helix a3 of DhaL. This results in a 50 rotation
+in each of the coiled-coil helices without compromising the
+stability of the DhaR dimer and leads to spatial reorganization
+of the PAS domains (Figure 3F). Consequently, this structural
+reorganization of the sensor region likely contributes to tran￾scription activation, the specific mechanism of which remains
+to be determined.
+Tandem domains with a coiled-coil linker between them are a
+well-recognized motif in signaling proteins, although the func￾tional role of such an arrangement is only partially understood
+(Doucleff et al., 2005; Anantharaman et al., 2006). The dynamic
+behavior of coiled-coils, including helix staggering, the rotation,
+and register shift is of critical importance for the regulation of
+many biological processes involving transmembrane signaling
+(Hulko et al., 2006; Matthews et al., 2006; Kon et al., 2009;
+Croasdale et al., 2011; Xi et al., 2012). Given the large number
+of coiled-coil proteins in nature and their involvement in various
+biological processes, the DhaR system may provide a new
+mechanistic model for signal transmission through coiled-coil
+helix rotation upon the binding of a protein partner.
+EXPERIMENTAL PROCEDURES
+Cloning, Expression, and Purification of DhaR(2-318), DhaL,
+and DhaK
+The segment of the E. coli K12 dhaR gene (protein reference gi:87081858;
+residues 2–318) was cloned into a modified pGEX-4T1 vector (Pharmacia)
+that coded for a glutathione-S-transferase followed by a tobacco etch virus
+(TEV) protease cleavage site followed by the DhaR construct. This plasmid
+was expressed in the E. coli BL21(DE3) strain. The DhaL (gi: 1787449) and
+DhaK (gi: 87081857) constructs were cloned and purified as previously
+described (Shi et al., 2011). DhaR(2-318) (DhaR(N)) was expressed in minimal
+media with 0.4% glucose (w/v) and supplemented with 1 mM FeSO4, 1 mM
+MgSO4, 100 mM CaCl2, and 2 mM thiamine). Cell cultures with an optical den￾sity 600 >0.6 were induced with 0.5 mM isopropyl b-D-thiogalactopyranoside
+(IPTG) at 22C and grown overnight. Cell pellets were resuspended in buffer
+A (13 PBS, pH 7.4, with 300 mM NaCl) and stored at 20C. Cells were lysed
+by sonication and cleared lysates were applied to glutathione resin equili￾brated with buffer A and 1 mM dithiothreitol (DTT). The resin was washed
+extensively with buffer A and 1 mM DTT, followed by two column volumes of
+50 mM Tris pH 8, 150 mM NaCl, 1 mM DTT, and 5% glycerol. DhaR (2–318)
+was cleaved from the resin by TEV protease after an overnight incubation at
+4C. The flow-through was collected and the sample was passed through
+nickel resin to remove the His-tagged TEV protease. Protein concentrations
+were measured using UV and Bradford method, giving the same results.
+Crystallization
+For the DhaR(N)-DhaL complex, the DhaR(N) and His6-DhaL were mixed in
+a 1:1.5 molar ratio and the complex was purified by size exclusion chromatog￾raphy on a Superdex 200 column equilibrated in buffer B (20 mM Tris pH 8,
+150 mM NaCl, 1 mM DTT, and 2% glycerol) with 1 mM magnesium acetate
+and 1 mM ADP. Fractions containing the complex were concentrated by
+ultrafiltration to 6.5 mg/ml. Crystals were obtained by microbatch where 1 ml
+protein (6.5 mg/ml) with 1 ml buffer (0.1 M sodium cacodylate pH 6.5 and
+25%–30% (v/v) 2-ethoxyethanol) was overlaid with paraffin oil. In our previous
+investigations of the DhaL-DhaK complex, we found that the DhaK(T79L)
+mutant led to better diffracting crystals of the DhaR-DhaK complex and we
+have used it here in parallel with the native DhaK. The DhaR(N) and DhaK
+were mixed in a 1:1 molar ratio and the complex purified on a Superdex 200
+column equilibrated in buffer B. Complex-containing fractions were concen￾trated by ultrafiltration to 5.5 mg/ml, and 5.9 mg/ml for DhaR(N) with DhaK,
+and with DhaK(T79L), respectively. Crystals were obtained by hanging drop
+vapor diffusion by equilibrating 1 ml protein with 2 ml reservoir solution (0.1 M
+imidazole pH 6.5 and 38%–46% PEG 200) over 1 ml reservoir solution.
+Crystals of the DhaR(N)-DhaK and DhaR(N)-DhaK(T79L) complexes are
+isomorphous and belong to space group P61 with a = b = 231.4, c = 79.8 A˚ .
+They contain two DhaK subunits and two DhaR(N) units in the asymmetric
+unit with a Vm = 4.23 A˚ 3 Da1 (solvent content of 71.0%; Matthews, 1968).
+Crystals of the DhaR(N)-DhaL complex belong to space group P1 with unit
+Structure
+DhaR Regulates Transcription by Helix Rotation
+Structure 22, 478–487, March 4, 2014 ª2014 Elsevier Ltd All rights reserved 485    cell dimensions a = 89.8, b = 91.5, c = 93.8 A˚ , a = 84.2, b = 72.4, g = 90.0. They
+contain four DhaL molecules and four DhaR(N) subunits in the asymmetric unit
+with a Vm = 3.17 A˚ 3 Da1 (solvent content of 61.3%). For data collection, crys￾tals were flash-cooled (no additional cryoprotectant required) in a nitrogen
+stream at 100 K (Oxford Cryosystems).
+X-Ray Data Collection, Structure Solution, and Refinement
+Diffraction data for the DhaR(N)-DhaK, DhaR(N)-DhaK(T79L), and DhaR(N)-
+DhaL complexes were collected at a wavelength of 0.9793 A˚ to resolutions
+of 3.25, 2.83, and 2.32 A˚ , respectively, at the 31-ID beamline (LRL-CAT),
+Advanced Photon Source, Argonne National Laboratory. Data integration
+and scaling were performed with the program HKL2000 (Otwinowski and
+Minor, 1997). The previously published DhaK structure (PDB code 1OI2) was
+used as a search model for structure determination of the DhaR(N)-
+DhaK(T79L) complex using the program Phaser (McCoy et al., 2007). To
+improve the density for the DhaR(N) subunits, we applied the prime-and￾switch routine of the Resolve program (Terwilliger, 2003). This procedure
+resulted in an initial model for DhaR(N,) which contained 60% of the main
+chain atoms. Starting from this initial model, we performed iterative cycles
+of model building and refinement with COOT (Emsley and Cowtan, 2004)
+and Refmac (Murshudov et al., 1997) from the CCP4 suite. The structures of
+the DhaR(N)-DhaK complex was determined by molecular replacement using
+the above DhaR(N)-DhaK(T79L) structure as the search model. The structure
+of the DhaR(N)-DhaL complex was determined by molecular replacement
+using the previously published DhaL structure (PDB code 2BTD) and the
+DhaR(N) model obtained above as search models. All models have good
+geometry as analyzed with PROCHECK (Laskowski et al., 1993). Final data
+collection and refinement statistics are shown in Table 1.
+Isothermal Titration Calorimetry
+Experiments were carried out on a MicroCal iTC200 titration calorimeter
+(GE Healthcare). Proteins were extensively dialyzed in 20 mM Tris pH 8,
+150 mM NaCl, 1 mM magnesium acetate, 100 mM ADP, and 2% glycerol.
+Twenty 2 ml injections of DhaK (866 mM), DhaK H56N (1.04 mM), or DhaK
+T79L (824 mM) were added to 49 mM DhaR(N) in the cell. Injections of DhaL￾His (200 mM) were added to 42 mM DhaR(N). All experiments were performed
+at 150 s intervals at 20C. Calorimetric data were processed using software
+provided by the manufacturer using a single site model.
+ACCESSION NUMBERS
+The PDB accession numbers for the crystal structures of the DhaR(N)-DhaK,
+DhaR(N)-DhaK(T79L), and DhaR(N)-DhaL complexes reported in this paper
+are 4LRX, 4LRY, and 4LRZ, respectively.
+SUPPLEMENTAL INFORMATION
+Supplemental Information includes three figures and can be found with this
+article online at http://dx.doi.org/10.1016/j.str.2013.11.012.
+AUTHOR CONTRIBUTIONS
+I.E., R.S., and M.C. conceived and designed the experiments; R.S. and
+L.M.D. performed the experiments; R.S., I.E., and M.C. analyzed the data;
+and I.E., R.S., and M.C. wrote the paper.
+ACKNOWLEDGMENTS
+This research was supported by a grant from the Canadian Institutes of
+Health Research, MOP-48370 (MC and IE). X-ray diffraction data for this study
+were measured by the Lilly Research Laboratory Collaborative Access Team
+at the Advanced Photon Source, Argonne National Laboratory. Use of the
+Advanced Photon Source at Argonne National Laboratory was supported by
+the US Department of Energy, Office of Science, Office of Basic Energy
+Sciences contract DE-AC02-06CH11357. Access to the Lilly Research
+Laboratory Collaborative Access Team beamline at Sector 31 of the Advanced
+Photon Source was provided by Eli Lilly & Company, which operates the
+facility. We would like to thank Dr. Guennadi Kozlov for help with isothermal
+titration calorimetry experiments. We are also grateful to the reviewers for their
+very helpful comments.
+Received: September 4, 2013
+Revised: November 15, 2013
+Accepted: November 19, 2013
+Published: January 16, 2014
+REFERENCES
+Anantharaman, V., Balaji, S., and Aravind, L. (2006). The signaling helix:
+a common functional theme in diverse signaling proteins. Biol. Direct 1, 25.
+Andreeva, A., Howorth, D., Chandonia, J.M., Brenner, S.E., Hubbard, T.J.,
+Chothia, C., and Murzin, A.G. (2008). Data growth and its impact on the
+SCOP database: new developments. Nucleic Acids Res. 36 (Database issue),
+D419–D425.
+Ba¨ chler, C., Flu¨ kiger-Bru¨ hwiler, K., Schneider, P., Ba¨ hler, P., and Erni, B.
+(2005a). From ATP as substrate to ADP as coenzyme: functional evolution of
+the nucleotide binding subunit of dihydroxyacetone kinases. J. Biol. Chem.
+280, 18321–18325.
+Ba¨ chler, C., Schneider, P., Ba¨ hler, P., Lustig, A., and Erni, B. (2005b).
+Escherichia coli dihydroxyacetone kinase controls gene expression by binding
+to transcription factor DhaR. EMBO J. 24, 283–293.
+Buck, M., Gallegos, M.T., Studholme, D.J., Guo, Y., and Gralla, J.D. (2000).
+The bacterial enhancer-dependent sigma(54) (sigma(N)) transcription factor.
+J. Bacteriol. 182, 4129–4136.
+Bush, M., and Dixon, R. (2012). The role of bacterial enhancer binding proteins
+as specialized activators of s54-dependent transcription. Microbiol. Mol. Biol.
+Rev. 76, 497–529.
+Commichau, F.M., and Stu¨ lke, J. (2008). Trigger enzymes: bifunctional
+proteins active in metabolism and in controlling gene expression. Mol.
+Microbiol. 67, 692–702.
+Croasdale, R., Ivins, F.J., Muskett, F., Daviter, T., Scott, D.J., Hardy, T.,
+Smerdon, S.J., Fry, A.M., and Pfuhl, M. (2011). An undecided coiled coil: the
+leucine zipper of Nek2 kinase exhibits atypical conformational exchange
+dynamics. J. Biol. Chem. 286, 27537–27547.
+Doucleff, M., Chen, B., Maris, A.E., Wemmer, D.E., Kondrashkina, E., and
+Nixon, B.T. (2005). Negative regulation of AAA + ATPase assembly by two
+component receiver domains: a transcription activation mechanism that is
+conserved in mesophilic and extremely hyperthermophilic bacteria. J. Mol.
+Biol. 353, 242–255.
+Emsley, P., and Cowtan, K. (2004). Coot: model-building tools for molecular
+graphics. Acta Crystallogr. D Biol. Crystallogr. 60, 2126–2132.
+Erni, B., Siebold, C., Christen, S., Srinivas, A., Oberholzer, A., and Baumann,
+U. (2006). Small substrate, big surprise: fold, function and phylogeny of dihy￾droxyacetone kinases. Cell. Mol. Life Sci. 63, 890–900.
+Gutknecht, R., Beutler, R., Garcia-Alles, L.F., Baumann, U., and Erni, B. (2001).
+The dihydroxyacetone kinase of Escherichia coli utilizes a phosphoprotein
+instead of ATP as phosphoryl donor. EMBO J. 20, 2480–2486.
+Henry, J.T., and Crosson, S. (2011). Ligand-binding PAS domains in a
+genomic, cellular, and structural context. Annu. Rev. Microbiol. 65, 261–286.
+Ho, Y.-S.J., Burden, L.M., and Hurley, J.H. (2000). Structure of the GAF
+domain, a ubiquitous signaling motif and a new class of cyclic GMP receptor.
+EMBO J. 19, 5288–5299.
+Holm, L., and Sander, C. (1995). Dali: a network tool for protein structure
+comparison. Trends Biochem. Sci. 20, 478–480.
+Hulko, M., Berndt, F., Gruber, M., Linder, J.U., Truffault, V., Schultz, A., Martin,
+J., Schultz, J.E., Lupas, A.N., and Coles, M. (2006). The HAMP domain struc￾ture implies helix rotation in transmembrane signaling. Cell 126, 929–940.
+Joly, N., Zhang, N., Buck, M., and Zhang, X. (2012). Coupling AAA protein func￾tion to regulated gene expression. Biochim. Biophys. Acta 1823, 108–116.
+Kon, T., Imamula, K., Roberts, A.J., Ohkura, R., Knight, P.J., Gibbons, I.R.,
+Burgess, S.A., and Sutoh, K. (2009). Helix sliding in the stalk coiled coil of
+Structure
+DhaR Regulates Transcription by Helix Rotation
+486 Structure 22, 478–487, March 4, 2014 ª2014 Elsevier Ltd All rights reserved   dynein couples ATPase and microtubule binding. Nat. Struct. Mol. Biol. 16,
+325–333.
+Krissinel, E., and Henrick, K. (2007). Inference of macromolecular assemblies
+from crystalline state. J. Mol. Biol. 372, 774–797.
+Landau, M., Mayrose, I., Rosenberg, Y., Glaser, F., Martz, E., Pupko, T., and
+Ben-Tal, N. (2005). ConSurf 2005: the projection of evolutionary conservation
+scores of residues on protein structures. Nucleic Acids Res. 33 (Web Server
+issue), W299–W302.
+Laskowski, R.A., MacArthur, M.W., Moss, D.S., and Thornton, J.M. (1993).
+PROCHECK: a program to check the stereochemical quality of protein struc￾tures. J. Appl. Cryst. 26, 283–291.
+Lewis, T.E., Sillitoe, I., Andreeva, A., Blundell, T.L., Buchan, D.W., Chothia, C.,
+Cuff, A., Dana, J.M., Filippis, I., Gough, J., et al. (2013). Genome3D: a UK
+collaborative project to annotate genomic sequences with predicted 3D
+structures based on SCOP and CATH domains. Nucleic Acids Res. 41
+(Database issue), D499–D507.
+Martinez, S.E., Beavo, J.A., and Hol, W.G. (2002). GAF domains: two-billion￾year-old molecular switches that bind cyclic nucleotides. Mol. Interv. 2,
+317–323.
+Martinez, S.E., Bruder, S., Schultz, A., Zheng, N., Schultz, J.E., Beavo, J.A.,
+and Linder, J.U. (2005). Crystal structure of the tandem GAF domains from a
+cyanobacterial adenylyl cyclase: modes of ligand binding and dimerization.
+Proc. Natl. Acad. Sci. USA 102, 3082–3087.
+Matthews, B.W. (1968). Solvent content of protein crystals. J. Mol. Biol. 33,
+491–497.
+Matthews, E.E., Zoonens, M., and Engelman, D.M. (2006). Dynamic helix
+interactions in transmembrane signaling. Cell 127, 447–450.
+McCoy, A.J., Grosse-Kunstleve, R.W., Adams, P.D., Winn, M.D., Storoni, L.C.,
+and Read, R.J. (2007). Phaser crystallographic software. J. Appl. Cryst. 40,
+658–674.
+Mo¨ glich, A., Ayers, R.A., and Moffat, K. (2009). Structure and signaling mech￾anism of Per-ARNT-Sim domains. Structure 17, 1282–1294.
+Murshudov, G.N., Vagin, A.A., and Dodson, E.J. (1997). Refinement of macro￾molecular structures by the maximum-likelihood method. Acta Crystallogr.
+D Biol. Crystallogr. 53, 240–255.
+Murzin, A.G., Brenner, S.E., Hubbard, T., and Chothia, C. (1995). SCOP: a
+structural classification of proteins database for the investigation of sequences
+and structures. J. Mol. Biol. 247, 536–540.
+O’Shea, E.K., Rutkowski, R., and Kim, P.S. (1989). Evidence that the leucine
+zipper is a coiled coil. Science 243, 538–542.
+Oberholzer, A.E., Bumann, M., Schneider, P., Ba¨ chler, C., Siebold, C.,
+Baumann, U., and Erni, B. (2005). Crystal structure of the phosphoenolpyr￾uvate-binding enzyme I-domain from the Thermoanaerobacter tengcongensis
+PEP: sugar phosphotransferase system (PTS). J. Mol. Biol. 346, 521–532.
+Otwinowski, Z., and Minor, W. (1997). Processing of X-ray diffraction data
+collected in oscillation mode. Methods Enzymol. 276, 307–326.
+Pittard, J., Camakaris, H., and Yang, J. (2005). The TyrR regulon. Mol.
+Microbiol. 55, 16–26.
+Podust, L.M., Ioanoviciu, A., and Ortiz de Montellano, P.R. (2008). 2.3 A X-ray
+structure of the heme-bound GAF domain of sensory histidine kinase DosT of
+Mycobacterium tuberculosis. Biochemistry 47, 12523–12531.
+Schultz, J.E. (2009). Structural and biochemical aspects of tandem GAF
+domains. Handbook Exp. Pharmacol. 93–109.
+Schumacher, J., Joly, N., Rappas, M., Zhang, X., and Buck, M. (2006).
+Structures and organisation of AAA+ enhancer binding proteins in transcrip￾tional activation. J. Struct. Biol. 156, 190–199.
+Shi, R., McDonald, L., Cui, Q., Matte, A., Cygler, M., and Ekiel, I. (2011).
+Structural and mechanistic insight into covalent substrate binding by
+Escherichia coli dihydroxyacetone kinase. Proc. Natl. Acad. Sci. USA 108,
+1302–1307.
+Siebold, C., Garcı´a-Alles, L.F., Erni, B., and Baumann, U. (2003). A mechanism
+of covalent substrate binding in the x-ray structure of subunit K of the
+Escherichia coli dihydroxyacetone kinase. Proc. Natl. Acad. Sci. USA 100,
+8188–8192.
+Studholme, D.J., and Dixon, R. (2003). Domain architectures of sigma54-
+dependent transcriptional activators. J. Bacteriol. 185, 1757–1767.
+Terwilliger, T.C. (2003). Automated main-chain model building by template
+matching and iterative fragment extension. Acta Crystallogr. D Biol. Crystallogr.
+59, 38–44.
+Tucker, P.A., and Sallai, L. (2007). The AAA+ superfamily—a myriad of
+motions. Curr. Opin. Struct. Biol. 17, 641–652.
+Winkler, A., Heintz, U., Lindner, R., Reinstein, J., Shoeman, R.L., and
+Schlichting, I. (2013). A ternary AppA-PpsR-DNA complex mediates light
+regulation of photosynthesis-related gene expression. Nat. Struct. Mol. Biol.
+20, 859–867.
+Xi, Z., Gao, Y., Sirinakis, G., Guo, H., and Zhang, Y. (2012). Single-molecule
+observation of helix staggering, sliding, and coiled coil misfolding. Proc.
+Natl. Acad. Sci. USA 109, 5711–5716.
+Structure
+DhaR Regulates Transcription by Helix Rotation
+Structure 22, 478–487, March 4, 2014 ª2014 Elsevier Ltd All rights reserved 487

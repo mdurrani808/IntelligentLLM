@@ -1,0 +1,894 @@
+Molecular Cell 24, 653–663, December 8, 2006 ª2006 Elsevier Inc. DOI 10.1016/j.molcel.2006.10.024
+Recognition of a Functional Peroxisome
+Type 1 Target by the Dynamic Import Receptor Pex5p
+Will A. Stanley,1 Fabian V. Filipp,2 Petri Kursula,1
+Nicole Schu¨ller,1 Ralf Erdmann,3 Wolfgang Schliebs,3
+Michael Sattler,2 and Matthias Wilmanns1,
+* 1European Molecular Biology Laboratory-Hamburg
+Outstation
+Notkestrasse 85
+22603 Hamburg
+2Structural and Computational Biology Unit
+European Molecular Biology Laboratory-Heidelberg
+Meyerhofstrasse 1
+69117 Heidelberg
+3Department of Systems Biology
+Institute for Physiological Chemistry
+Faculty of Medicine
+Ruhr University of Bochum
+44780 Bochum
+Germany
+Summary
+Peroxisomes require the translocation of folded and
+functional target proteins of various sizes across the
+peroxisomal membrane. We have investigated the
+structure and function of the principal import receptor
+Pex5p, which recognizes targets bearing a C-terminal
+peroxisomal targeting signal type 1. Crystal structures
+of the receptor in the presence and absence of a perox￾isomal target, sterol carrier protein 2, reveal major
+structural changes from an open, snail-like confor￾mation into a closed, circular conformation. These
+changes are caused by a long loop C terminal to the
+7-fold tetratricopeptide repeat segments. Mutations
+in residues of this loop lead to defects in peroxisomal
+import in human fibroblasts. The structure of the re￾ceptor/cargo complex demonstrates that the primary
+receptor-binding site of the cargo is structurally and
+topologically autonomous, enabling the cargo to re￾tain its native structure and function.
+Introduction
+Diverse machineries involved in translocating proteins
+across organellar membranes are required to maintain
+the compartmentalization of biological processes within
+eukaryotic cells (Kunau et al., 2001; Wickner and Schek￾man, 2005). Many components of membrane receptors
+recognize specific targeting sequences in proteins des￾tined for translocation (Eichler and Irihimovitch, 2003).
+However, they differ in their requirements for cargo fold￾ing/unfolding during the translocation process to retain
+the functional integrity of the cargo. To date, the only
+well-characterized system supporting the translocation
+of folded protein targets is the nuclear import/export
+system by karyopherins (Conti and Izaurralde, 2001;
+Matsuura and Stewart, 2004). The extent to which other
+translocation systems may resemble karyopherin-medi￾ated processes remains elusive.
+Peroxisomal import is one of the few transport pro￾cesses that uses a translocon for the purpose of traf￾ficking folded and functional cargo proteins across
+membranes (Gould and Collins, 2002; Holroyd and
+Erdmann, 2001; Lazarow, 2003; Schnell, 2000; van der
+Klei and Veenhuis, 2002). To date, more than two dozen
+proteins involved in trafficking cargo to the peroxi￾some—referred to as ‘‘peroxins’’—have been identified
+and partially characterized. No pore-like structure in
+the peroxisomal membrane has so far been observed,
+and the exact composition of the import translocon,
+possibly assembled according to the size and type of
+import substrates, has yet to be established. The major￾ity of peroxisomal matrix proteins destined for trans￾location into peroxisomes share the C-terminal type 1
+peroxisomal targeting signal (PTS1) motif. It comprises
+an obligatory C-terminal tripeptide, conforming to the
+consensus sequence -[S/A/C]-[K/H/R]-[L/M]-CO2
+2, which
+is specifically recognized by the C-terminal segment of
+the import receptor peroxin Pex5p. Human diseases
+leading to impaired fatty acid metabolism, organ dys￾function, and neonatal mortality, such as Zellweger’s
+syndrome, are often caused by mutations in the Pex5p
+receptor (Weller et al., 2003), rendering the receptor an
+important subject for biomedical research.
+At the molecular level, these Pex5p translocation tar￾gets appear to be released into the peroxisomal lumen
+by interactions between the receptor and other peroxins
+and by their association with the peroxisomal membrane
+(Gouveia et al., 2003; Holroyd and Erdmann, 2001;
+Madrid et al., 2004). Cargo loading may also influence
+the oligomeric state of Pex5p and its interactions with
+other peroxisomal membrane docking factors, such as
+Pex14p (Madrid et al., 2004; Wang et al., 2003). Other
+evidence demonstrates that the cargo-loaded Pex5p
+receptor may even shuttle across the peroxisomal mem￾brane (Dammai and Subramani, 2001). However, to date,
+questions still remain regarding whether the receptor, or
+parts of the receptor, physically shuttle or just become
+accessible to the peroxisomal lumen (Erdmann and
+Schliebs, 2005; Kunau et al., 2001).
+To investigate the molecular requirements of this
+dynamic receptor for both cargo loading and release,
+we determined the structures of the PTS1-cargo binding
+region of the Pex5p receptor in the presence and in the
+absence of a peroxisome translocation target, sterol car￾rier protein 2 (SCP2). The cargo is bound to the receptor
+by two separate binding sites—a C-terminal PTS1 motif
+and a topologically separate secondary site—providing
+a rationale as to how the target remains folded and func￾tional during translocation. A comparative analysis of the
+two Pex5p receptor structures reveals major conforma￾tional changes in the receptor upon cargo loading, which
+are generated by the loose structural arrangement of the
+receptor tetratricopeptide repeat (TPR) segments and
+by the intrinsic structural flexibility within some of these
+*Correspondence: wilmanns@embl-hamburg.de structural segments.Results
+Selection of a Functional Receptor/Cargo System
+In order to unravel the molecular basis of PTS1-driven
+protein translocation via the Pex5p receptor into perox￾isomes, we searched for a suitable physiological target
+that could serve as a model system. We selected
+SCP2, which contains a canonical C-terminal PTS1 motif
+(Seedorf et al., 1998). Its structure has been character￾ized previously by X-ray crystallography and NMR spec￾troscopy (Choinowski et al., 2000; Garcia et al., 2000).
+The SCP2 gene is translated into two protein products:
+SCPx, a 58 kDa fusion protein comprising an N-terminal
+thiolase domain and a C-terminal SCP2 domain, and
+preSCP2, a protein with a molecular mass of about 15
+kDa, which is processed into its mature form (mSCP2)
+by proteolytic cleavage of a 20 residue leader sequence
+after translocation into peroxisomes (Figure 1). SCP2
+binds to the Pex5p receptor both in vivo and in vitro,
+allowing structural investigation of the receptor/cargo
+complex.
+We used NMR spectroscopy and isothermal titration
+microcalorimetry (ITC) to determine the molecular basis
+of SCP2 receptor binding. For both preSCP2 and
+mSCP2, respectively, the chemical shift perturbations
+in 1
+H,15N correlation spectra upon binding to Pex5p(C)
+affect the same set of SCP2 residues (see Figures S1
+and S2 in the Supplemental Data available with this arti￾cle online). Furthermore, chemical shifts and line widths
+indicate that the presequence remains unstructured and
+dynamic and is not involved in receptor binding. The
+binding affinities of preSCP2 and mSCP2 for the recep￾tor, as measured by ITC, are both in the order of 100 nM
+(Table 1), indicating that the presequence is tolerated
+and does not affect the receptor interaction.
+To determine whether SCP2 retains its function upon
+loading onto the Pex5p import receptor, we used two
+complementary approaches. First, we investigated the
+capacity of SCP2 to bind specific lipids in the presence
+and in the absence of Pex5p(C). To locate the lipid-bind￾ing site with SCP2, we used spin-labeled paramagnetic
+doxylstearate as a fatty acid derivative (Garcia et al.,
+2000). We observed similar bleaching of NMR signals
+upon binding of this fatty acid derivative to either free
+SCP2 or Pex5p(C)-bound SCP2, indicating that the func￾tional integrity of SCP2, in terms of lipid binding, is not
+impaired upon receptor loading (Figure 2). We further
+used ITC to quantify the thermodynamic parameters
+governing the receptor/cargo interaction in the presence
+and in the absence of stearoyl-CoA, a physiological
+ligand of SCP2 (Frolov et al., 1996). The data show that
+mSCP2 binds to the receptor with about the same Kd
+and 1:1 stoichiometry, regardless of whether it is loaded
+with stearoyl-CoA (Table 1).
+Structure of the Cargo-Loaded Pex5p Receptor
+We have determined the crystal structure of the C-termi￾nal part of the Pex5p import receptor (Pex5p(C), residues
+315–639) in the presence of mSCP2 (21–143), at 2.3 A˚ res￾olution (Figures 1, 3A, 3B, 4A, 4B, and 5; Table 2). The
+X-ray data reveal the complete structure, except for the
+very N terminus (315–334) and one loop (441–453) of
+Pex5p(C). Most of its structure is formed by seven con￾secutive TPR motifs, each consisting of a helix-turn-helix
+motif (D’Andrea and Regan, 2003). The fourth segment,
+which matches the established TPR sequence signature,
+is in a distorted arrangement (Figure 5A) and is preceded
+by a glycine-rich loop that is, in part, flexible. The C termi￾nus of the structure is folded into a three-helical bundle,
+of which the first two helices display TPR-like properties,
+both in terms of sequence signature pattern and struc￾ture. The long loop connecting the seventh TPR segment
+and the C terminus (589–601), referred to as ‘‘7C loop,’’
+interacts with the two helices from the TPR1 segment
+(Figure 5B). This loop and the distorted TPR4 segment
+link the two arch-shaped TPR motif triplets (1–3 and
+5–7), thus generating a pseudocircular structure of the
+cargo-loaded receptor with a tunnel in its center, which
+is open to both faces of the ring-like structure (Figure 4B).
+The connecting segments represent the most mobile
+regions of the cargo-loaded receptor (Figure S3A) and,
+therefore, can be regarded as hinges. The C-terminal
+helical bundle does not participate in the circular ar￾rangement (Figures 3A, 3B, 5A, and 5B).
+The structure of the receptor-bound mSCP2 resem￾bles that of free SCP2 (Choinowski et al., 2000), except
+the C terminus that bears the PTS1 motif (Figure S3C).
+In the Pex5p(C) receptor complex, the ten C-terminal
+residues (134–143) of mSCP2 adopt an extended confor￾mation, pointing away from its core domain. However,
+unlike the structure of free SCP2, wherein both termini
+are flexible, in the receptor-bound SCP2 structure, the
+C terminus becomes the most rigid part of the overall
+structure, while its N terminus remains mobile (Figure 1C
+and Figures S3B and S3C). The most C-terminal AKL
+motif (141–143) of mSCP2 binds within the central hole
+of the ring-like structure of the receptor. It is involved in
+specific interactions with four asparagines (N415, N526,
+N534, and N561) that are located on the N-terminal
+helices of TPR segments 4, 5, 6, and 7. These residues
+are conserved (Figures 1, 5A, and 5B), indicating that
+PTS1 binding is a general property of the Pex5p receptor.
+In contrast to the most C-terminal region, the preceding
+residues (134–140) interact with the receptor by van der
+Waals forces only.
+The structure of the receptor/cargo complex also re￾veals a second interaction site of about 500 A˚ 2 that is
+formed by the C-terminal helical bundle of Pex5p(C)
+and a surface patch of SCP2, covering parts of helices
+a1 and a3 (Figures 1, 4A, 4B, and 5B). ITC binding data
+using a PTS1 peptide reveal that its binding affinity to
+Pex5p(C) is reduced (Kd = 664 nM) compared with the en￾tire protein cargo (Table 1). Thus, the data indicate that
+there is a notable contribution by the secondary interface
+in SCP2 loading onto the Pex5p receptor. However, none
+of the residues of either the Pex5p receptor or SCP2
+involved in these interactions are invariant (Figure 1).
+These findings suggest that, in contrast to the PTS1-
+mediated receptor/cargo interactions, the formation of
+the secondary SCP2/Pex5p(C) interface is specific and
+may not be conserved taxonomally. Since PTS1 targets
+are generally unrelated in terms of structure and func￾tion, with the exception of the C-terminal PTS1-receptor
+recognition motif, our findings suggest that the involve￾ment of secondary binding sites may serve as a deter￾minant for the sorting of folded import substrates.
+Our NMR spectroscopy data on mSCP2 in the pres￾ence and in the absence of the receptor correlate with
+Molecular Cell
+654the crystallographic analysis. The largest chemical shift
+perturbations are found for the backbone amides of
+the C terminus (136–143) (Figure S1B), coinciding with
+the structural alterations observed by comparing the
+structures of unbound SCP2 and Pex5p(C)-bound
+SCP2 (Figure S3C). NMR relaxation measurements indi￾cate that the PTS1 backbone, which is flexible and dis￾ordered in free SCP2, rigidifies upon binding to Pex5p(C)
+(Figure S1C). Significant chemical shift changes
+have also been detected for residues in the secondary
+binding site.
+Taken together, our biochemical and structural data
+suggest bipartite binding of the SCP2 cargo to the Pex5p
+receptor. The PTS1-binding site at the most C-terminal
+region is structurally and topologically well separated
+from the functional SCP2 core domain. As such, the data
+provide a rationale for our observations on a mechanism
+of receptor recognition that does not interfere with the
+function of SCP2 as lipid-binding protein. Our data, how￾ever, do not support previous hypotheses proposing that
+binding of lipid substrates to members of the SCP2 family
+may enhance the exposure of the PTS1 motif, thereby
+Figure 1. Sequence/Structure Relationships in Human Pex5p(C) and Human mSCP2
+The positions of labeled secondary structural elements are depicted by cylinders and arrows. Color coding for Pex5p(C) in (A) is as follows:
+TPR1-TPR3, cyan; TPR4, green; TPR5-TPR7, blue; 7C loop, connecting TPR7 and the C-terminal helical bundle, red; and C terminus, maroon.
+Color coding for mSCP2 in (B) is as follows: core domain, yellow; and C terminus including PTS1 motif, orange. Residues of Pex5p and SCP2
+involved in cargo and receptor binding, respectively, have been identified using the program AREAIMOL of the CCP4 suite (CCP4, 1994) and
+are indicated in colors matching the bound sequence segments. Conserved residues have been identified from multiple sequence alignments
+using BLAST/MVIEW (Brown et al., 1998). In the ‘‘cons’’ line, residues exhibiting 90% and 70% homology to the available sequences are indicated
+by upper-case and lower-case characters, respectively. Residues that were identified by Klein et al. (2001) and Shimozawa et al. (1999) as being
+involved in Pex5p receptor/cargo interactions are shown in red and blue colors. TPR motif signature residues according to the criteria of
+D’Andrea and Regan (2003) are underlined. Residue segments that function as hinge regions (496–500, 523 to 524, and 533–537), triggering
+the conformational changes observed for the cargo-loaded and apo-Pex5p(C) receptor, are highlighted by orange bars that have been inserted
+into the corresponding secondary structural elements.
+Table 1. Thermodynamic Characterization of Pex5p Interaction with PTS1-Containing Ligands by ITC
+Pex5p Receptor Cargo DH (kJ/mol) TDS (kJ/mol) DG (kJ/mol) Kd (nM)
+WT mSCP2 242.4 21.2 241.2 109 6 34
+WT mSCP2(SCoA) 231.8 8.9 240.8 124 6 17
+WT preSCP2 235.9 6.2 242.1 74 6 9
+WT PGNAKL 245.1 28.7 236.4 664 6 37
+N382A mSCP2 227.3 10.8 238.1 348 6 54
+Q586R mSCP2 217.4 17.3 234.5 1343 6 321
+S589Y mSCP2 238.7 1.20 239.9 173 6 23
+S600W mSCP2 no binding
+SCoA, stearoyl coenzyme A. The measured stoichiometries deviated less than 10% from a 1:1 complex, except for the Pex5p (S600W) mutant.
+Because of the experimental errors in protein concentration measurements, the stoichiometry values were adjusted to 1.00.
+Target Recognition by the Import Receptor Pex5p
+655driving ligand-dependent translocation (Choinowski et al.,
+2000; Garcia et al., 2000; Lensink et al., 2002).
+Structure of the Unliganded Pex5p Receptor
+Protein translocation into peroxisomes requires a deli￾cate balance between the binding and release of cargo
+proteins to and from the appropriate import receptor.
+To investigate the molecular parameters that govern
+cargo release, we have also determined the structure
+of the import receptor Pex5p(C) in the absence of a cargo
+at 2.5 A˚ resolution (Figures 3C and 4C; Table 2). Com￾parative analysis of the cargo-loaded and unloaded
+Pex5p(C) receptor structures reveals major conforma￾tional changes upon cargo binding. Contrary to previous
+hypotheses proposing that the TPR4 segment is a flexi￾ble hinge (Gatto et al., 2000), these changes originate
+from three clusters in TPR segments 5 and 6, rendering
+a rotation of about 20 of the C-terminal TPR segments
+with respect to N-terminal TPR segments (Figure 3D). As
+a result of this conformational change, the 7C loop of the
+apo structure no longer completes the ring-like structure
+of Pex5p(C) as observed in the cargo complex, thus gen￾erating an open, snail-like arrangement of the receptor
+(Figures 3C and 4C). For instance, Gln586 and Ser600,
+which interact with residues from the TPR1 segment in
+the cargo-loaded receptor (Figure 5B), have moved by
+more than 8 A˚ in the apo structure.
+Since the overall arrangement of TPR segment-con￾taining structures can be described as a superhelical
+coil or solenoid (D’Andrea and Regan, 2003; Jinek
+et al., 2004), we compared the underlying structural pa￾rameters of the cargo-free and cargo-loaded structures
+of the Pex5p receptor. Our analysis revealed that the
+superhelical pitch is about 30 A˚ in the apo structure,
+rather than 20 A˚ in the Pex5p/SCP2 complex. Further￾more, the N-terminal helices of TPR7 (556–568) and the
+C-terminal helical bundle (601–613), which bear several
+residues that are involved in binding of the cargo PTS1
+motif, are moved by the equivalent of about two a-helical
+pitches with respect to the N-terminal TPR segments,
+leading to a displacement of part of the PTS1 motif bind￾ing site by several angstroms (Figure 3D). These sugges￾tions are consistent with our ITC data, indicating that,
+although the binding affinity is in the nanomolar range,
+there is only a small contribution, or even a loss of
+entropy, during cargo binding (Table 1). Indeed, a recent
+Figure 2. Lipid Binding to mSCP2 in the Absence and Presence of Pex5p(C)
+(A and B) Binding of a spin-labeled lipid molecule (5-doxylstearic acid, 5DSA) attenuates the peak intensity in 1
+H,15N correlation spectra due to
+PRE. Spectra in the presence of oxidized (i.e., paramagnetic) and reduced lipid are shown in green and black, respectively. Residues Thr105 and
+Gly106, which are located in the center of the lipid-binding pocket, are entirely bleached. Gly139, which is proximal to the PTS1 motif, experi￾ences a large chemical shift perturbation in the presence of Pex5p(C). It is less bleached in the Pex5p(C) complex, consistent with the strongly
+reduced mobility of the C-terminal residues and the increased distance to the lipid ligand.
+(C and D) Comparison of the lipid-binding pocket of mSCP2 (Garcia et al., 2000), in the presence/absence of Pex5p(C). The degree of attenuation
+of NMR signals due to PRE is colored in green on a ribbon representation of mSCP2. Amide protons of residues with a more than 7-fold reduction
+in peak intensities are depicted by green spheres.
+Molecular Cell
+656 study has demonstrated coupled folding and ligand
+binding in at least one TPR array (Cliff et al., 2005).
+Our model allows for speculation on further possible
+structural changes. Although TPR4 is not involved in
+the conformational changes evident from our compara￾tive analysis of the apo- and cargo-loaded Pex5p recep￾tor structures, we cannot exclude the possibility that
+there are steps during the target-import cycle that affect
+this receptor segment as well. For instance, complete
+folding of the distorted TPR4 motif into the canonical
+TPR domain structure would only require minor changes
+in the flexible loop N terminal to the TPR4 segment
+(Figure 5A). The resulting overall structure could open
+up into a superhelical arrangement with a pitch in the
+order of 55 A˚ , reminiscent of previous observations in
+another TPR segment-containing structure (Jinek
+et al., 2004). In contrast to the observed changes in the
+receptor structures in the presence and in the absence
+of cargo, the overall conformation of the cargo-loaded
+Pex5p(C) receptor structure remains virtually identical
+regardless of whether it is bound only to the C-terminal
+PTS1 motif (Gatto et al., 2000) or to a complete cargo
+target, as shown by the Pex5p/SCP2 complex.
+Residues from the 7C Loop Are Critical for In Vivo
+PTS1 Import
+In contrast to several known peroxisome disease muta￾tions wherein direct interactions with the PTS1 motif
+are abolished, a patient with an inherited peroxisome
+biogenesis disorder, infantile Refsum disease, was
+found to be impaired in the import of proteins containing
+only the AKL- and KANL-type PTS1 motifs, such as SCP2
+and catalase (Shimozawa et al., 1999). In this patient,
+dysfunctional import into peroxisomes is linked to muta￾tion S600W in Pex5p. Comparative analysis of the cargo￾loaded and unloaded structures of the Pex5p(C) recep￾tor reveals that Ser600, which is situated at the base of
+the 7C loop, plays a central role in connecting the C-ter￾minal and N-terminal TPR segments, to arrange the
+PTS1-binding site as well as the secondary binding site
+at the C-terminal helical bundle in the Pex5p(C)/SCP2
+complex (Figure 5B).
+To examine the involvement of the 7C loop in PTS1 tar￾get import, we mutated three residues (Gln586, Ser589,
+and Ser600) that are involved in specific interactions of
+this loop with other parts of the receptor in the cargo￾bound conformation (Figure 5B). As a control, we chose
+one single-residue mutant from the TPR2 segment
+(N382A), which previously was shown to be involved in
+PTS1 cargo import by the S. cerevisiae Pex5p receptor
+(Klein et al., 2001). First, we measured the binding affinity
+Figure 3. Structures of the Peroxisomal Import Receptor Pex5p(C)
+in the Presence and in the Absence of the Cargo mSCP2
+Color coding for Pex5p(C) is as follows: TPR1-TPR3, cyan; TPR4,
+green; TPR5-TPR7, blue; 7C loop, connecting TPR7 and the C-termi￾nal helical bundle, red; and C terminus, maroon. Color coding for
+mSCP2 is as follows: core domain, yellow; and C terminus including
+PTS1 motif, orange. The orientation of the receptor in (A) and (C) is
+identical. The ribbon of the Pex5p(C)/mSCP2 complex in (B) has
+been rotated by 60 around a horizontal axis within the paper plane
+with respect to the orientation in (A), to illustrate the mode of mSCP2
+binding to the receptor. (D) Superimposed Pex5p(C) receptor struc￾tures in the presence and in the absence of mSCP2. The colors of the
+trace of the cargo-loaded conformation are as in (A)–(C), except that
+the conformational hinge regions are colored in orange. The trace of
+the apo-Pex5p(C) structure is in gray, except for the 7C loop, which
+is colored in faint red. The coordinates of TPR segments 1–4 were
+used for structural superposition using the program SSM (Krissinel
+and Henrick, 2004) (rmsd = 0.78 A˚ for 164 common residues). The
+largest structural deviations of up to 8 A˚ are observed at the 7C
+loop and adjacent regions and are indicated by a red arrow.
+Table 2. Crystallographic Statistics
+Pex5p(C):mSCP2 Pex5p(C)
+X-Ray Data Collection Statistics
+Space group P212121 P1
+Unit cell dimensions [A˚ ] 40.5, 68.6, 137.4 53.5, 85.6, 88.9,
+71.2, 90.0, 73.4
+Resolution range [A˚ ] 25.0–2.3 (2.4–2.3) 20.0–2.5 (2.6–2.5)
+Rsym [%] 9.4 (49.8) 13.7 (53.8)
+I/s
+_
+(I) 14.1 (3.8) 6.3 (1.7)
+Completeness [%] 99.8 (100.0) 95.9 (85.9)
+Data redundancy 6.0 (6.1) 2.2 (2.1)
+Unique reflections 17,692 47,257
+Refinement Statistics
+Resolution range [A˚ ] 20.0–2.3 20.0–2.5
+R factor/R free [%] 20.2/25.6 26.3/30.9
+Protein atoms 3209 9483
+Solvent atoms 99 147
+Rmsd bond distances [A˚ ] 0.006 0.013
+Rmsd bond angles [] 1.0 1.4
+Average B factors [A˚ 2
+]
+a
+Pex5p(C) N/Cb 18/30 14, 23, 76, 76/15,
+19, 41, 42
+SCP2 39 —
+Solvent 24 15
+Rmsd B factors of protein-bonded atoms [A˚ 2
+]
+Main chain 2.2 0.5
+Side chain 2.6 1.1
+Ramachandran plot regions [%]
+Most favored 89.1 88.3
+Additional allowed 10.0 10.6
+Generously allowed 0.6 1.0
+Disallowed 0.3 0.1
+a TLS refinement parameters have been applied.
+b N, Pex5p (321–442); C, Pex5p (457–639).
+Target Recognition by the Import Receptor Pex5p
+657     of the cargo SCP2 to the resulting Pex5p variants under
+in vitro conditions (Table 1). As expected, no binding
+could be detected for the S600W mutant, while a more
+than ten-fold reduced binding affinity was observed
+for the Q586R Pex5p variant, thus demonstrating the
+critical involvement of this residue from the 7C loop in
+SCP2 cargo recognition as well. On the other hand, the
+cargo binding by the Pex5p S589Y was only slightly
+reduced.
+The same mutations were introduced in full-length
+Pex5p, and the resulting variants were expressed in
+a fibroblast cell line devoid of endogenous PTS1 recep￾tor. Transfected cells were analyzed by fluorescence mi￾croscopy for their capacity to import two established
+PTS1 peroxisome targets, catalase and SCP2 (Shimo￾zawa et al., 1999). While SCP2, due to its low molecular
+weight and absence of evidenced tendencies for oligo￾merization, can be considered as a model target with
+only modest structural requirements for import in its
+functional form, catalase forms a homotetrameric heme￾containing assembly with a molecular mass of about 240
+kDa, possibly with additional requirements for import
+(Purdue and Lazarow, 1996). As a control, we tested
+Pex5p-dependent import of the PTS2-tagged reporter
+protein chloramphenicol acetyltransferase (CAcT) as
+well. To control for expression level and turnover of the
+mutants, we have analyzed all Pex5p mutants in a
+Pex5p-free cell line 24 hr after transfection with the
+appropriate plasmids by western blotting (Figure S4),
+demonstrating that the Pex5p mutants were synthe￾sized at their full length and at steady-state levels com￾parable with WT Pex5p expressed from the same
+plasmid. The levels of expression were significantly in￾creased when compared with WT Pex5p under control
+of its endogenous promotor.
+The transfected WT Pex5p receptor correctly directed
+both PTS1 targets, catalase and SCP2, as well as the
+PTS2-tagged CAcT into the peroxisomal matrix (Fig￾ure 6). As expected, three of the 7C-loop mutants
+(Q586R, S589Y, and S600W) and the PTS1 reference
+mutant (N382A) mediated properly the import of PTS2
+proteins but showed severe defects for catalase target￾ing. Retarded import was observed for SCP2, most
+apparently when expressing the Q586R and S600W
+mutants. During the first 24 hr after transfection, the
+bulk of GFP-SCP2 remained in the cytosol and only
+a few peroxisomes were detected by characteristic
+punctate fluorescence (Figure 6). The number of SCP2-
+containing peroxisomes further increased with incuba￾tion time, and after 2–4 days nearly all peroxisomes
+were labeled (data not shown).
+By taking our in vitro and in vivo data together, both
+lines of evidence demonstrate critical contributions of
+several residues from the 7C loop in the peroxisomal
+import of PTS1 targets by the Pex5p receptor. Compar￾ison of the data for SCP2 and catalase indicates an
+amplification of the effect for the latter one, which is
+expected to be more sensitive because of its oligomeric
+arrangement and requirement for cofactor binding.
+Although a quantitative interpretation of this differential
+effect will only be possible once a structure of receptor￾catalase cargo complex becomes available, it is intrigu￾ing to hypothesize on additional sorting effects for the
+import of different PTS1 cargoes, supporting or comple￾menting previous observations (Kiel et al., 2005; Knott
+et al., 2000; Otera et al., 2002).
+Discussion
+Pex5p Receptor Recognition of Diverse PTS1
+Targets
+To what extent may our structural findings of the Pex5p
+receptor suggest general principles for the translocation
+of a variety of folded proteins into peroxisomes? For
+mSCP2, our data suggest a bipartite recognition mecha￾nism, via the C-terminal PTS1 motif and a secondary,
+less-conserved binding site that is distinct in terms of
+sequence and structure. Much attention has previously
+focused on residues preceding the C-terminal tripeptide
+PTS1 motif, suggesting that some of these may serve as
+determinants for altering binding affinity (Lametsch￾wandtner et al., 1998; Neuberger et al., 2003). However,
+Figure 4. Surface Presentations of the Peroxisomal Import Recep￾tor Pex5p(C) in the Presence and in the Absence of the Cargo
+mSCP2
+The right panel structures are rotated by 45 with respect to those in
+the left panels by a horizontal axis within the paper plane. The color
+codes are as in Figure 3. While the structure of the Pex5p(C)/mSCP2
+complex is shown in (A), only the structure of the cargo-loaded con￾formation of the Pex5p(C) receptor is displayed in (B). The PTS1- and
+secondary mSCP2-binding areas are mapped onto the Pex5p(C)
+surface in their respective colors (orange, yellow). In the structure
+of the apo-Pex5p(C) receptor (C), the approximate location of the
+PTS1-binding site, as determined from the Pex5p(C)/mSCP2 com￾plex, is indicated by an orange circle. Conformational changes of
+several residues at this site lead to disappearance of the open
+tunnel, observed in the Pex5p(C)/mSCP2 complex (B). In the apo
+conformation, the 7C-loop region (red) is well separated from the
+remaining TPR segments of the receptor.
+Molecular Cell
+658 the structure of the Pex5p(C)/mSCP2 complex has not
+revealed any further specific cargo interactions with
+the receptor beyond the C-terminal PTS1 motif. Although
+several hydrophobic interactions can be observed,
+these interactions may change in other PTS1 targets, in
+which the orientation of the linker region between the
+PTS1 motif and the functional domain structures may
+be different. As such, it is difficult to quantify possible
+contributions of residues from the linker connecting the
+core domain of SCP2 and the PTS1 C terminus to
+Pex5p receptor.
+Recent data on the recognition of another peroxisome
+target, alanine:glyoxylate aminotransferase (AGA), by
+the Pex5p receptor support our findings on bipartite
+cargo binding by a second topologically remote inter￾action site separated by about 40 residues in the AGA
+sequence (Huber et al., 2005). Since considerable varia￾tion has been observed in the sequence within the PTS1
+motif of different targets, it is plausible to assume that
+there is a correlation between a weakened PTS1-Pex5p
+receptor interaction and a need for secondary binding
+sites on the cargo surface. A peculiar property of the
+Pex5p import system is its capacity to translocate large
+folded proteins, either monomeric or oligomeric (Bro￾card et al., 2003; Lazarow, 2003; Walton et al., 1995;
+Yang et al., 2001). Some PTS1 targets can be imported
+into peroxisomes by either a PTS1-dependent or PTS1-
+independent mechanism (Parkes et al., 2003). On the
+other hand, there has been recent biochemical and
+structural evidence demonstrating that oligomerization
+of proteins established as physiological peroxisomal
+targets may actually inhibit PTS1-driven translocation
+(Faber et al., 2002; Modis et al., 1998). In this scenario,
+a possible blockade of secondary binding sites (by olig￾omerization, for example) appears to be more likely than
+the PTS1 motif, as predicted by previous data (Parkes
+et al., 2003) and supported by the Pex5p(C)/mSCP2
+complex structure reported here.
+The Pex5p Import Receptor Cycle
+The generally accepted model for PTS1-driven import
+of peroxisomal proteins consists of four steps per cycle:
+(1) cargo recognition by the Pex5p receptor, (2) cargo￾loaded receptor docking and, possibly, integration into
+the peroxisomal membrane, (3) cargo release into the
+peroxisomal lumen, and (4) recycling of the unloaded re￾ceptor into the cytosol (Erdmann and Schliebs, 2005).
+The model proposes two essential types of binding/re￾lease events that may be associated with conforma￾tional changes in the receptor: loading/unloading of
+the cargo and docking/release of the receptor to/from
+the peroxisomal membrane. For canonical PTS1-driven
+import, loading/unloading of the cargo seems to be con￾fined to the C-terminal part of the receptor. Data on the
+Figure 5. Structural Determinants of mSCP2
+Cargo Loading onto Pex5p(C)
+(A) Stereo view of the 2FO 2 FC electron den￾sity, using phases from the refined model and
+contoured at 1s, of the PTS1 motif from
+mSCP2 (gray) and some interacting residues
+from Pex5p and ordered solvent molecules
+(dark green).
+(B) Pex5p(C)/mSCP2 complex formation by
+two distinct interfaces: C-terminal PTS1 motif
+from mSCP2 (orange)-central cavity of the
+circular TPR motif structure from Pex5p; sec￾ondary surface from mSCP2-C-terminal heli￾cal bundle from Pex5p. Ser600 is in a central
+position between the two surface patches,
+allowing the proper arrangement of the two
+cargo surface patches of Pex5p to support
+binding of mSCP2. The C terminus of the 7C
+loop (red) interacts by a few hydrogen bonds
+with the TPR1 segment.
+(C) TPR4 motif of Pex5p(C), as observed in
+the cargo-loaded structure of the receptor.
+Specific interactions between TPR3 and
+TPR4, generating a circular conformation of
+Pex5p(C), are shown. Colors are as in Figures
+3 and 4, except that some of the bonds of
+residues from the C-terminal TPR motifs 5–7
+and the 7C loop are colored in gray to allow
+illustrations of oxygen and nitrogen atoms.
+Hydrogen bonds are shown by dashed lines.
+Target Recognition by the Import Receptor Pex5p
+659N-terminal part of Pex5p, which is thought to be largely
+unstructured (Costa-Rodrigues et al., 2005), have indi￾cated that this region is critically involved in membrane
+docking/release of the receptor, either by interactions
+with other docking factors of the translocon, such as
+Pex13p and Pex14p as well as Pex8p and Pex17p
+(only demonstrated in yeast), or by direct interactions
+with the peroxisomal membrane (Agne et al., 2003; Gou￾veia et al., 2003; Scha¨ fer et al., 2004). The model implies
+that these interactions could have an effect on the af￾finity of the peroxisomal target for the C-terminal part
+of the receptor, ultimately leading to cargo release.
+Pex8p appears to play a key role in this process, either
+as a cargo release factor, as suggested from in vitro
+data of the H. polymorpha Pex5p receptor (Wang
+et al., 2003) or as an inducer of a subsequent translocon
+complex with additional components allowing cargo re￾lease (Agne et al., 2003). Regardless of the precise origin
+of the conformational changes in the C-terminal part of
+the receptor, both the canonical nature of the loose
+arrangement of the TPR domains and our direct com￾parative analysis of the cargo-loaded and unloaded
+receptor structures suggest a ring-opening mechanism
+for peroxisomal target release.
+Conclusions and Future Perspectives
+The data presented here have led to three key findings
+with functional implications for the molecular recognition
+process of PTS1 cargoes by the Pex5p import receptor.
+(1) The C-terminal part of the receptor undergoes sub￾stantial conformational changes upon cargo binding.
+As demonstrated by structural comparison and sup￾ported by the in vitro and in vivo analysis of several
+single-residue mutations, the loop C terminal to the
+TPR-segment region, referred to as the 7C loop, plays
+a central role in altering the conformation of the receptor
+upon cargo binding. (2) Within the cargo used in this
+investigation, SCP2, there is a conformational change
+upon receptor binding, leading to disassembly of the
+C-terminal PTS1 motif from the surface of the globular
+domain of the cargo. Although this type of change needs
+to be confirmed in different receptor/cargo complexes,
+our data suggest that similar ‘‘unwinding’’ may occur at
+the C termini of other PTS1 proteins. (3) The structure
+Figure 6. 7C-Loop Mutants Lead to Functional PTS1 Import Defects
+Pex5p-deficient fibroblast cells from Zellweger patient PBD005 were cotransfected with a PTS2-tagged CacT-expressing plasmid, pEGFP￾SCP2, and plasmids expressing either WT Pex5p or a range of different single-residue mutants (N382A, Q586R, S589Y, and S600W). At 24 hr
+after transfection, PTS2-CAcT ([A], red color) and endogenous catalase ([B], red color) were labeled by immunofluorescence, while EGFP￾SCP2 was detected by direct fluorescence ([A] and [B], green color). In cells expressing WT Pex5p, both marker proteins and EGFP-SCP2
+colocalized in peroxisomes ([A] and [B], yellow color). All Pex5p mutants were capable of restoring the PTS2 import defect of PEX5-deficient
+cells. In contrast, all mutants were impaired in catalase import and showed more or less pronounced import defects for EGFP-SCP2. The intro￾duction of the 7C-loop mutations Q586R and S600W resulted in an inefficient SCP2 import as indicated by the diffuse cytosolic staining and only
+weak labeling of peroxisomes in the representative cells. Strikingly, in cells expressing the Pex5p mutants S589Y and N382A, both cytosolic and
+peroxisomal localizations of SCP2 were found, while the same cells were devoid of functional catalase import as indicated by the lack of
+a congruent punctate pattern.
+Molecular Cell
+660of the Pex5p(C)/SCP2 complex demonstrates that the
+receptor/ligand interactions for PTS1-containing car￾goes are not restricted to this C-terminal recognition mo￾tif. A future challenge remains in the determination of the
+events leading to cargo release as a subsequent func￾tional step in the translocation cycle of Pex5p. Further,
+it will be of specific interest to investigate the functional
+implications of potential release factors such as Pex8p
+and changes of the receptor environment, by associa￾tion/dissociation of the receptor with the peroxisomal
+membrane during the translocation cycle.
+Experimental Procedures
+Protein Preparation
+Human Pex5p(C) (residues 315–639), preSCP2 (1–143), and mSCP2
+(21–143) were expressed from a modified pET24d vector (G. Stier,
+EMBL-Heidelberg) in E. coli BL21(DE3). Mutants N382A, Q586R,
+S589Y, and S600W were introduced into Pex5p(C) using the Quik￾Change site-directed mutagenesis kit (Stratagene). The expressed
+proteins contained an N-terminal His6-GST fusion, cleavable with
+tobacco etch virus (TEV) protease. Cultures were grown in Tris-buff￾ered LB medium supplemented with 1% (w/v) glucose, and induced
+mid-log phase with 0.5 mM IPTG for 6 hr at 21C. Cleared lysates
+were loaded onto a glutathione Sepharose 4B resin (GE Healthcare)
+and eluted with 20 mM reduced glutathione. Fusion proteins were
+cleaved with His6-TEV and applied to Ni-NTA agarose (QIAGEN).
+The flowthrough was subjected to gel filtration through a Superdex
+75 (16/60) column (GE Healthcare).
+Crystallization and X-Ray Structure Determination
+Pex5p(C) and mSCP2 were mixed in a 2:3 molar ratio and dialyzed
+against 20 mM bis-Tris-propane, 20 mM KCl, and 1 mM TCEP (pH
+7.0). The protein mixture was concentrated to 7 mg ml21 by ultrafil￾tration. Crystallization was carried out by mixing 1 ml protein with 1 ml
+reservoir solution (24% [w/v] PEG 3350, 175 mM NaCl, and 100 mM
+bis-Tris [pH 6.5]), using hanging drop vapor diffusion at 20C. Prior
+to X-ray data collection, 10% (v/v) PEG 400 was added to the drop
+for 5–10 min. Crystals of unliganded Pex5p(C) (at 7 mg ml21
+) were
+obtained by mixing 1 ml protein with 1 ml reservoir solution (23%
+[w/v] PEG 3350, 100 mM Tris-HCl [pH 8.75], and 0.22 mM octa￾ethylene glycol monolauryl ether), using hanging drop vapor diffu￾sion at 20C.
+X-ray data were collected at 100 K at the synchrotron beamlines
+X13 (EMBL/DESY, Hamburg, Germany), and at BL14.1 (BESSY, Ber￾lin, Germany). Data were processed and scaled using XDS (Kabsch,
+1988). Five percent of the reflections were randomly selected for
+crossvalidation. The structure of Pex5p(C)/mSCP2 complex was
+solved by molecular replacement using MOLREP (Vagin and Teplya￾kov, 1997). Pex5p(C) and SCP2 were located using PDB entries
+1FCH and 1C44, respectively, as models. REFMAC (Murshudov
+et al., 1997) was used to refine the structure, applying TLS parame￾terization (Winn et al., 2001). Simulated annealing refinement was
+carried out in CNS (Bruenger et al., 1998). Manual building and struc￾ture analysis were carried out in O (Jones et al., 1991). Solvent
+molecules were added both manually and by ARP/wARP (Lamzin
+and Wilson, 1993). The structure quality was assessed using
+PROCHECK (Laskowski et al., 1993). Residues 335–440 and 454–
+639 of Pex5p and residues 22–143 of SCP2 were included in the
+final model.
+In order to determine the unliganded Pex5p(C) structure, the
+Pex5p coordinates from the complex structure were split into two
+parts, spanning residues 335–440 and 454–637, to find a molecular
+replacement solution using MOLREP (1994; Vagin and Teplyakov,
+1997). All four copies of the C-terminal part, but only two copies of
+the N-terminal part, could be located. After initial refinement (Mur￾shudov et al., 1997) and rebuilding (Jones et al., 1991), weak electron
+density was observed for the two missing N-terminal fragments,
+allowing the determination of the overall orientation of each domain.
+The orientation of each N-terminal part relative to the C-terminal part
+was essentially the same in all four Pex5p molecules. Refinement
+was continued by applying NCS restraints separately to the N- and
+C-terminal halves of each Pex5p monomer. Furthermore, TLS
+parameters were applied during refinement. Due to the flexibility of
+the N-terminal parts of two of the four Pex5p molecules in the crystal
+and the anisotropy of the diffraction data, the final R factors
+remained higher than those for the Pex5p/cargo complex. Programs
+of the CCP4 package (CCP4, 1994) were also used for structure
+manipulation, analysis, and validation.
+NMR Spectroscopy
+Isotopically labeled (90% 2
+H, 13C, and/or 15N) SCP2 was prepared by
+growing bacteria in minimal medium supplemented with [U-13C] glu￾cose and/or 15NH4Cl in D2O. Proteins/complexes were exchanged
+into 100 mM potassium phosphate (pH 6.5) by gel filtration. Samples
+were used at concentrations of 0.2–1.0 mM. NMR spectra were ac￾quired at 22C (complex) or 37C (free SCP2) on Bruker spectrome￾ters (DRX600 with cryogenic probe or DRX900 with triple resonance
+probe). The backbone chemical shifts of preSCP2 and mSCP2 were
+based on BMRB entry 4438 (Garcia et al., 2000) and extended using
+standard methods (Sattler et al., 1999). The assignments for SCP2 in
+the 50 kDa Pex5p(C)/SCP2 complexes were obtained using triple
+resonance and 15N-edited TROSY-NOESY experiments on samples
+comprising 2
+H,15N- or 2
+H,13C,15N-labeled SCP2 and unlabeled
+Pex5p(C). Chemical shift perturbations (Dd = [(Dd1
+H)2 + (1/5
+Dd15N)2
+]
+1
+/2
+, in ppm) were monitored in two-dimensional 1
+H,15N￾TROSY experiments. Spin-label-induced paramagnetic relaxation
+enhancements (PREs) were analyzed from intensity changes in
+1
+H,15N-TROSY experiments of SCP2 or SCP2/Pex5p(C) recorded
+in the presence of the fatty acid derivative 5-doxylstearic acid in
+the oxidized form and after reduction with ascorbic acid (Battiste
+and Wagner, 2000).
+Isothermal Titration Microcalorimetry
+Proteins were codialyzed against 100 mM potassium phosphate (pH
+7.4) and 1 mM DTT. When appropriate, SCP2 was premixed with
+stearoyl-CoA (Sigma) in a small molar excess, and 2 mM stearoyl￾CoA was added to the dialysis buffer to ensure uniform loading of
+SCP2. Dialysates were degassed, and the concentration was mea￾sured by A280nm. ITC measurements were conducted on a MicroCal
+VP-ITC using Pex5p(C) at 30–50 mM as a sample and SCP2 or PTS1
+peptide (Sigma Genosys) at 350–750 mM as the titration ligand.
+Experiments were conducted at 35C using injection protocols
+found to saturate Pex5p(C) with ligand. Ligand heats of dilution
+were subtracted, and data were fitted using MicroCal Origin 5.0.
+In Vivo Peroxisome Import Assays
+Point mutations were introduced into the Pex5p expression vector
+pGD106 (Braverman et al., 1998) by using the QuikChange site￾directed mutagenesis kit (Stratagene). GFP-SCP2 expression vector
+was derived from subcloning a PCR amplification product of mSCP2
+into pEGFP-C1 plasmid (Clontech Laboratories). All primers used
+are listed in Table S1. pPTS2-CAcT encoding an N-terminal PTS2
+signal followed by the reporter protein CAcT was described previ￾ously (Braverman et al., 1998).
+Human fibroblast cells were cultured at 37C in Dulbecco’s mod￾ified Eagle’s medium supplemented with 10% fetal calf serum, 2 mM
+L-glutamine, 100,000 U/l penicillin, and 100 mg/l streptomycin at 8%
+CO2. Pex5p-deficient cells (Dodt et al., 1995) grown for 1 day on cov￾erslides in 60 mm tissue-culture dishes were transfected with
+pPTS2-CAcT, pEGFP-SCP2, and one of the Pex5p expression plas￾mids using FuGENE 6 Transfection Reagent (Roche Diagnostics,
+Mannheim, Germany). At various time points (24, 48, 72, and 96 hr
+after transfection), cells were fixed with 3% formaldehyde in phos￾phate-buffered saline (PBS), permeabilized with 1% Triton X-100
+in PBS, and subjected to immunofluorescence microscopy and
+GFP fluorescence life imaging. Polyclonal rabbit antibodies against
+CAcT and sheep antibodies against human catalase were pur￾chased from Invitrogen (Germany) and The Binding Site (UK), re￾spectively. Secondary antibodies were conjugated with Alexa Fluor
+594 or 488 (Invitrogen, Germany). All micrographs were recorded on
+a Zeiss Axioplan 2 microscope with a Zeiss Plan-Apochromat 633/
+1.4 oil objective and an Axiocam MR digital camera and were pro￾cessed with AxioVision 4.2 software (Zeiss, Jena, Germany).
+Target Recognition by the Import Receptor Pex5p
+661       Supplemental Data
+Supplemental Data include four figures and one table and can be
+found with this article online at http://www.molecule.org/cgi/
+content/full/24/5/653/DC1/.
+Acknowledgments
+We thank Ben Distel, Andre´ Klein, Ash Verma, Areti Malapetsas,
+Gunter Stier, Christian Edlich, Christiane Sprenger, Elisabeth
+Becker, Bernd Simon, and Elena Conti for stimulating discussions
+and valuable support. This work was supported by the grants
+HPRN-CT-2002-00252 (to M.W.) and LSHG-CT-2004-512018 (to
+R.E.) from the European Commission, and grants Schl 584/1-1 and
+1-2 (to W.S.) from the Deutsche Forschungsgemeinschaft (DFG).
+We thank the DFG and the center for biomagnetic resonance
+(BMRZ), Frankfurt, Germany, for access to a 900 MHz NMR, and
+BESSY, Berlin, Germany, for access to the synchrotron radiation
+beamline BL14.1.
+Received: March 21, 2006
+Revised: August 16, 2006
+Accepted: October 16, 2006
+Published: December 7, 2006
+References
+Agne, B., Meindl, N.M., Niederhoff, K., Einwachter, H., Rehling, P.,
+Sickmann, A., Meyer, H.E., Girzalsky, W., and Kunau, W.H. (2003).
+Pex8p: an intraperoxisomal organizer of the peroxisomal import
+machinery. Mol. Cell 11, 635–646.
+Battiste, J.L., and Wagner, G. (2000). Utilization of site-directed spin
+labeling and high-resolution heteronuclear nuclear magnetic re￾sonance for global fold determination of large proteins with limited
+nuclear overhauser effect data. Biochemistry 39, 5355–5365.
+Braverman, N., Dodt, G., Gould, S.J., and Valle, D. (1998). An isoform
+of Pex5p, the human PTS1 receptor, is required for the import of
+PTS2 proteins into peroxisomes. Hum. Mol. Genet. 7, 1195–1205.
+Brocard, C.B., Jedeszko, C., Song, H.C., Terlecky, S.R., and Walton,
+P.A. (2003). Protein structure and import into the peroxisomal
+matrix. Traffic 4, 74–82.
+Brown, N.P., Leroy, C., and Sander, C. (1998). MView: a web-com￾patible database search or multiple alignment viewer. Bioinfor￾matics 14, 380–381.
+Bruenger, A., Adams, P., Clore, G., Delano, W., Gros, D., Grosse￾Kunstleve, R., Jiang, J.-S., Kuszewski, J., Nilges, M., Pannu, N.,
+et al. (1998). Crystallography & NMR system: a new software suite
+for macromolecular structure determination. Acta Crystallogr.
+D Biol. Crystallogr. 54, 905–921.
+CCP4 (Collaborative Computational Project, Number 4) (1994). The
+CCP4 suite: programs for protein crystallography. Acta Crystallogr.
+D Biol. Crystallogr. 50, 760–763.
+Choinowski, T., Hauser, H., and Piontek, K. (2000). Structure of sterol
+carrier protein 2 at 1.8 A˚ resolution reveals a hydrophobic tunnel
+suitable for lipid binding. Biochemistry 39, 1897–1902.
+Cliff, M.J., Williams, M.A., Brooke-Smith, J., Barford, D., and Lad￾bury, J.E. (2005). Molecular recognition via coupled folding and
+binding in a TPR domain. J. Mol. Biol. 346, 717–732.
+Conti, E., and Izaurralde, E. (2001). Nucleocytoplasmic transport
+enters the atomic age. Curr. Opin. Cell Biol. 13, 310–319.
+Costa-Rodrigues, J., Carvalho, A.F., Fransen, M., Hambruch, E.,
+Schliebs, W., Sa-Miranda, C., and Azevedo, J.E. (2005). Pex5p, the
+peroxisomal cycling receptor, is a monomeric non-globular protein.
+J Biol Chem. 280, 24404–24411. Published online May 2, 2005. 10.
+1074/jbc.M501985200.
+Dammai, V., and Subramani, S. (2001). The human peroxisomal tar￾geting signal receptor, Pex5p, is translocated into the peroxisomal
+matrix and recycled to the cytosol. Cell 105, 187–196.
+D’Andrea, L.D., and Regan, L. (2003). TPR proteins: the versatile
+helix. Trends Biochem. Sci. 28, 655–662.
+Dodt, G., Braverman, N., Wong, C., Moser, A., Moser, H.W., Watkins,
+P., Valle, D., and Gould, S.J. (1995). Mutations in the PTS1 receptor
+gene, PXR1, define complementation group 2 of the peroxisome
+biogenesis disorders. Nat. Genet. 9, 115–125.
+Eichler, J., and Irihimovitch, V. (2003). Move it on over: getting pro￾teins across biological membranes. Bioessays 25, 1154–1157.
+Erdmann, R., and Schliebs, W. (2005). Peroxisomal matrix protein
+import: the transient pore model. Nat. Rev. Mol. Cell Biol. 6, 738–742.
+Faber, K.N., van Dijk, R., Keizer-Gunnink, I., Koek, A., van der Klei,
+I.J., and Veenhuis, M. (2002). Import of assembled PTS1 proteins
+into peroxisomes of the yeast Hansenula polymorpha: yes and no!
+Biochim. Biophys. Acta 1591, 157–162.
+Frolov, A., Cho, T.H., Billheimer, J.T., and Schroeder, F. (1996). Ste￾rol carrier protein-2, a new fatty acyl coenzyme A-binding protein.
+J. Biol. Chem. 271, 31878–31884.
+Garcia, F.L., Szyperski, T., Dyer, J.H., Choinowski, T., Seedorf, U.,
+Hauser, H., and Wuthrich, K. (2000). NMR structure of the sterol
+carrier protein-2: implications for the biological role. J. Mol. Biol.
+295, 595–603.
+Gatto, G.J., Jr., Geisbrecht, B.V., Gould, S.J., and Berg, J.M. (2000).
+Peroxisomal targeting signal-1 recognition by the TPR domains of
+human PEX5. Nat. Struct. Biol. 7, 1091–1095.
+Gould, S.J., and Collins, C.S. (2002). Opinion: peroxisomal-protein
+import: is it really that complex? Nat. Rev. Mol. Cell Biol. 3, 382–389.
+Gouveia, A.M., Guimaraes, C.P., Oliveira, M.E., Sa-Miranda, C., and
+Azevedo, J.E. (2003). Insertion of Pex5p into the peroxisomal mem￾brane is cargo protein-dependent. J. Biol. Chem. 278, 4389–4392.
+Holroyd, C., and Erdmann, R. (2001). Protein translocation machin￾eries of peroxisomes. FEBS Lett. 501, 6–10.
+Huber, P.A., Birdsey, G.M., Lumb, M.J., Prowse, D.T., Perkins, T.J.,
+Knight, D.R., and Danpure, C.J. (2005). Peroxisomal import of human
+alanine:glyoxylate aminotransferase requires ancillary targeting
+information remote from its C terminus. J Biol Chem. 280, 27111–
+27120. Published online May 23, 2005. 10.1074/jbc.M502719200.
+Jinek, M., Rehwinkel, J., Lazarus, B.D., Izaurralde, E., Hanover, J.A.,
+and Conti, E. (2004). The superhelical TPR-repeat domain of O-linked
+GlcNAc transferase exhibits structural similarities to importin alpha.
+Nat. Struct. Mol. Biol. 11, 1001–1007.
+Jones, T., Zou, J.-Y., Cowan, S., and Kjeldgaard, M. (1991). Im￾proved methods for building protein models in electron density
+maps and the location of errors in these models. Acta Crystallogr.
+A A46, 110–119.
+Kabsch, W. (1988). Evaluation of single crystal x-ray diffraction data
+from a position-sensitive detector. J. Appl. Crystallogr. 21, 916–924.
+Kiel, J.A., Emmrich, K., Meyer, H.E., and Kunau, W.H. (2005). Ubiqui￾tination of the peroxisomal targeting signal type 1 receptor, Pex5p,
+suggests the presence of a quality control mechanism during perox￾isomal matrix protein import. J Biol Chem. 280, 1921–1930. Pub￾lished online November 9, 2004. 10.1074/jbc.M403632200.
+Klein, A.T., Barnett, P., Bottger, G., Konings, D., Tabak, H.F., and
+Distel, B. (2001). Recognition of peroxisomal targeting signal type
+1 by the import receptor Pex5p. J. Biol. Chem. 276, 15034–15041.
+Knott, T.G., Birdsey, G.M., Sinclair, K.E., Gallagher, I.M., Purdue,
+P.E., and Danpure, C.J. (2000). The peroxisomal targeting sequence
+type 1 receptor, Pex5p, and the peroxisomal import efficiency of
+alanine:glyoxylate aminotransferase. Biochem. J. 352, 409–418.
+Krissinel, E., and Henrick, K. (2004). Secondary-structure matching
+(SSM), a new tool for fast protein structure alignment in three dimen￾sions. Acta Crystallogr. D Biol. Crystallogr. 60, 2256–2268. Pub￾lished online November 26, 2004. 10.1107/S0907444904026460.
+Kunau, W.H., Agne, B., and Girzalsky, W. (2001). The diversity of or￾ganelle protein import mechanisms. Trends Cell Biol. 11, 358–361.
+Lametschwandtner, G., Brocard, C., Fransen, M., Van Veldhoven, P.,
+Berger, J., and Hartig, A. (1998). The difference in recognition of ter￾minal tripeptides as peroxisomal targeting signal 1 between yeast
+and human is due to different affinities of their receptor Pex5p to
+the cognate signal and to residues adjacent to it. J. Biol. Chem.
+273, 33635–33643.
+Lamzin, V., and Wilson, K. (1993). Automated refinement of protein
+models. Acta Crystallogr. D Biol. Crystallogr. 49, 129–147.
+Molecular Cell
+662Laskowski, R., MacArthur, M., and Thormton, J. (1993). PROCHECK:
+a program to check the stereochemical quality of protein structures.
+J. Appl. Crystallogr. 26, 283–291.
+Lazarow, P.B. (2003). Peroxisome biogenesis: advances and conun￾drums. Curr. Opin. Cell Biol. 15, 489–497.
+Lensink, M.F., Haapalainen, A.M., Hiltunen, J.K., Glumoff, T., and
+Juffer, A.H. (2002). Response of SCP-2L domain of human MFE-2
+to ligand removal: binding site closure and burial of peroxisomal
+targeting signal. J. Mol. Biol. 323, 99–113.
+Madrid, K.P., De Crescenzo, G., Wang, S., and Jardim, A. (2004).
+Modulation of the Leishmania donovani peroxin 5 quaternary struc￾ture by peroxisomal targeting signal 1 ligands. Mol. Cell. Biol. 24,
+7331–7344.
+Matsuura, Y., and Stewart, M. (2004). Structural basis for the assem￾bly of a nuclear export complex. Nature 432, 872–877.
+Modis, Y., Filppula, S.A., Novikov, D.K., Norledge, B., Hiltunen, J.K.,
+and Wierenga, R.K. (1998). The crystal structure of dienoyl-CoA
+isomerase at 1.5 A˚ resolution reveals the importance of aspartate
+and glutamate sidechains for catalysis. Structure 6, 957–970.
+Murshudov, G.N., Vagin, A.A., and Dodson, E.J. (1997). Refinement
+of macromolecular structures by the maximum-likelihood method.
+Acta Crystallogr. D Biol. Crystallogr. 53, 240–255.
+Neuberger, G., Maurer-Stroh, S., Eisenhaber, B., Hartig, A., and Ei￾senhaber, F. (2003). Motif refinement of the peroxisomal targeting
+signal 1 and evaluation of taxon-specific differences. J. Mol. Biol.
+328, 567–579.
+Otera, H., Setoguchi, K., Hamasaki, M., Kumashiro, T., Shimizu, N.,
+and Fujiki, Y. (2002). Peroxisomal targeting signal receptor Pex5p
+interacts with cargoes and import machinery components in a spa￾tiotemporally differentiated manner: conserved Pex5p WXXXF/Y
+motifs are critical for matrix protein import. Mol. Cell. Biol. 22,
+1639–1655.
+Parkes, J.A., Langer, S., Hartig, A., and Baker, A. (2003). PTS1-inde￾pendent targeting of isocitrate lyase to peroxisomes requires the
+PTS1 receptor Pex5p. Mol. Membr. Biol. 20, 61–69.
+Purdue, P.E., and Lazarow, P.B. (1996). Targeting of human catalase
+to peroxisomes is dependent upon a novel COOH-terminal peroxi￾somal targeting sequence. J. Cell Biol. 134, 849–862.
+Sattler, M., Schleucher, J., and Greisinger, C. (1999). Heteronuclear
+multidimensional NMR experiments for the structure determination
+of proteins in solution employing pulsed field gradients. Prog.
+NMR Spectrosc. 34, 93–158.
+Scha¨ fer, A., Kerssen, D., Veenhuis, M., Kunau, W.H., and Schliebs,
+W. (2004). Functional similarity between the peroxisomal PTS2 re￾ceptor binding protein Pex18p and the N-terminal half of the PTS1
+receptor Pex5p. Mol. Cell. Biol. 24, 8895–8906.
+Schnell, D.J. (2000). Functions and origins of the chloroplast protein￾import machinery. Essays Biochem. 36, 47–59.
+Seedorf, U., Raabe, M., Ellinghaus, P., Kannenberg, F., Fobker, M.,
+Engel, T., Denis, S., Wouters, F., Wirtz, K.W., Wanders, et al.
+(1998). Defective peroxisomal catabolism of branched fatty acyl
+coenzyme A in mice lacking the sterol carrier protein-2/sterol carrier
+protein-x gene function. Genes Dev. 12, 1189–1201.
+Shimozawa, N., Zhang, Z., Suzuki, Y., Imamura, A., Tsukamoto, T.,
+Osumi, T., Fujiki, Y., Orii, T., Barth, P.G., Wanders, R.J., and Kondo,
+N. (1999). Functional heterogeneity of C-terminal peroxisome target￾ing signal 1 in PEX5-defective patients. Biochem. Biophys. Res.
+Commun. 262, 504–508.
+Vagin, A., and Teplyakov, A. (1997). MOLREP: an automated pro￾gram for molecular replacement. J. Appl. Crystallogr. 30, 1022–1025.
+van der Klei, I., and Veenhuis, M. (2002). Peroxisomes: flexible and
+dynamic organelles. Curr. Opin. Cell Biol. 14, 500–505.
+Walton, P.A., Hill, P.E., and Subramani, S. (1995). Import of stably
+folded proteins into peroxisomes. Mol. Biol. Cell 6, 675–683.
+Wang, D., Visser, N.V., Veenhuis, M., and van der Klei, I.J. (2003).
+Physical interactions of the peroxisomal targeting signal 1 receptor
+pex5p, studied by fluorescence correlation spectroscopy. J. Biol.
+Chem. 278, 43340–43345.
+Weller, S., Gould, S.J., and Valle, D. (2003). Peroxisome biogenesis
+disorders. Annu. Rev. Genomics Hum. Genet. 4, 165–211.
+Wickner, W., and Schekman, R. (2005). Protein translocation across
+biological membranes. Science 310, 1452–1456.
+Winn, M.D., Isupov, M.N., and Murshudov, G.N. (2001). Use of TLS
+parameters to model anisotropic displacements in macromolecular
+refinement. Acta Crystallogr. D Biol. Crystallogr. 57, 122–133.
+Yang, X., Purdue, P.E., and Lazarow, P.B. (2001). Eci1p uses a PTS1
+to enter peroxisomes: either its own or that of a partner, Dci1p. Eur.
+J. Cell Biol. 80, 126–138.
+Accession Numbers
+Coordinates and structure factors have been deposited at the
+Protein Data Bank with accession codes 2C0L and 2C0M.
+Target Recognition by the Import Receptor Pex5p
+663

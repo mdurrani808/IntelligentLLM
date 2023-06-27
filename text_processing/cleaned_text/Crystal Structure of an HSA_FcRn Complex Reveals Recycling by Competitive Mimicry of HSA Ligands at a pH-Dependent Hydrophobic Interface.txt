@@ -1,0 +1,472 @@
+Structure  Article  Crystal Structure of an HSA/FcRn Complex Reveals  Recycling by Competitive Mimicry of HSA Ligands  at a pH-Dependent Hydrophobic Interface  Michael M. Schmidt,1,5 Sharon A. Townson,1,5,6 Amy J. Andreucci,1 Bracken M. King,1 Emily B. Schirmer,1,7  Alec J. Murillo,1,8 Christian Dombrowski,1 Alison W. Tisdale,1 Patricia A. Lowden,1 Allyson L. Masci,1,9  Joseph T. Kovalchin,1 David V. Erbe,1,10 K. Dane Wittrup,2,3,4 Eric S. Furfine,1,  * and Thomas M. Barnes1,  * 1Eleven Biotherapeutics, Inc., Cambridge, MA 02142, USA  2Department of Chemical Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA  3Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA  4Koch Institute for Integrative Cancer Research, Cambridge, MA 02139, USA  5These authors contributed equally to this work  6Present address: Warp Drive Bio, 400 Technology Square, Cambridge, MA 02139, USA  7Present address: Epicenter, 5602 Research Park Boulevard, Madison, WI 53719, USA  8Present address: EMD Serono Research and Development Institute, 45A Middlesex Turnpike, Billerica, MA 01821, USA  9Present address: Biogen Idec, 14 Cambridge Center, Cambridge, MA 02142, USA  10Present address: Pronutria, 840 Memorial Drive, Cambridge MA 02139, USA  *Correspondence: eric@elevenbio.com (E.S.F.), tom.elevenbio@gmail.com (T.M.B.)  http://dx.doi.org/10.1016/j.str.2013.08.022  SUMMARY  The long circulating half-life of serum albumin, the  most abundant protein in mammalian plasma,  derives from pH-dependent endosomal salvage  from degradation, mediated by the neonatal Fc  receptor (FcRn).
+Using yeast display, we identified  human serum albumin (HSA) variants with increased  affinity for human FcRn at endosomal pH, enabling  us to solve the crystal structure of a variant HSA/  FcRn complex.
+We find an extensive, primarily  hydrophobic interface stabilized by hydrogenbonding networks involving protonated histidines  internal to each protein.
+The interface features two  key FcRn tryptophan side chains inserting into  deep hydrophobic pockets on HSA that overlap albumin ligand binding sites.
+We find that fatty acids (FAs)  compete with FcRn, revealing a clash between ligand  binding and recycling, and that our high-affinity HSA  variants have significantly increased circulating halflives in mice and monkeys.
+These observations open  the way for the creation of biotherapeutics with  significantly improved pharmacokinetics.
+  INTRODUCTION  Serum albumin (SA) is the most abundant protein in mammalian  plasma and binds many endogenous and exogenous molecules  (such as fatty acids [FAs] and lipophilic small molecules) at over  ten discrete sites (Ghuman et al., 2005; Curry, 2009).
+SA and  immunoglobulin G (IgG) have circulating half-lives that are  much longer than those of other circulating proteins (18 and  22 days in humans for SA and IgG, respectively, compared  with, for example, 36 days for other immunoglobulin [Ig]  classes; Beeken et al., 1962; Spiegelberg et al., 1968).
+This  arises from a shared property, namely their being rescued from  degradation by the neonatal Fc receptor (FcRn) (Chaudhury  et al., 2003; Rodewald and Kraehenbuhl, 1984).
+Ordinarily,  fluid-phase endocytosis in endothelial and myeloid cells continuously removes plasma proteins to an acidic endosomal  compartment, whence they are sorted to the lysosome and  degraded (Akilesh et al., 2007).
+In the case of SA and IgGs, a  pH-dependent interaction occurs between these proteins and  FcRn, a transmembrane protein that sorts to the cell surface  and does not enter the lysosomal degradation pathway (Chaudhury et al., 2006; Israel et al., 1993; Ober et al., 2004).
+At the cell  surface, the bound proteins are released upon titration back to  physiological pH, at which dissociation from FcRn is rapid  (Chaudhury et al., 2006).
+Physiological modeling implies that  FcRn recycles six human serum albumin (HSA) molecules for  every IgG, and the ratio is 30:1 in mice (Kim et al., 2006).
+  The pH-dependent interaction between FcRn and IgG1 has  been studied in some detail (Ghetie et al., 1997; West and Bjorkman, 2000; Martin et al., 2001; DallAcqua et al., 2002; Hinton  et al., 2004).
+FcRn is a heterodimer of a nonpolymorphic MHC  class I-like a chain and b2-microglobulin (b2m; Figure S1A available online).
+No substantial conformational change occurs upon  pH shift in either IgG1 or the FcRn interface; rather, the interaction requires protonation of key histidine residues in the CH2-CH3  hinge region of IgG1, which then form salt bridges with key acidic  residues in the FcRn interface (West and Bjorkman, 2000; Martin  et al., 2001).
+FcRn can bind IgG and SA simultaneously, with  neither competition nor cooperation, suggesting a second,  distinct pH-dependent binding site (Chaudhury et al., 2003,  2006; Andersen et al., 2006, 2012).
+Consistent with this, the  SA/FcRn interaction is detergent sensitive and hydrophobic in  character, whereas the IgG/FcRn interaction is detergent insensitive and largely polar (Chaudhury et al., 2003).
+To better understand the structural basis of FcRn and SA interaction and  1966 Structure 21, 19661978, November 5, 2013 2013 Elsevier Ltd All rights reservedrecycling, we solved the cocrystal structure of human FcRn  (hFcRn) bound to a high-affinity variant of HSA, selected using  yeast display at pH 4.9 to 2.4 A resolution.
+We find a large, predominantly hydrophobic interface that must initially be stabilized  by pH-dependent hydrogen-bonding networks internal to each  protein.
+In contrast to IgG/FcRn, no pH-dependent intermolecular salt bridges exist.
+Furthermore, binding critically depends  upon each of two tryptophan residues inserting into deep hydrophobic pockets in HSA, each of which can also be occupied by  natural ligands that compete with hFcRn binding.
+  Several groups have described IgG1, IgG2, and IgG3 variants  with increased affinity for hFcRn at pH 6.0 (Ghetie et al., 1997;  DallAcqua et al., 2002; Hinton et al., 2004, 2006; Petkova  et al., 2006; Yeung et al., 2009; Stapleton et al., 2011).
+Some  of these show increased half-lives in animals and humans, and  a number have been exploited pharmaceutically (Kuo and  Aveson, 2011).
+The high-affinity HSA variant used in the structure  was one of several we obtained that showed up to a 300-fold  increase in hFcRn affinity at pH 6.
+We therefore also evaluated  whether high-affinity HSA variants also had increases in their  circulating half-lives.
+We find that in both rodents and nonhuman  primates, circulating half-lives increased significantly, by >50%.
+  RESULTS  Isolation of High-Affinity HSA Variants  HSA is composed of three structurally related domains (DIDIII),  each composed of subdomains A and B connected by long  intradomain loops (Figure S1B), with DIII being key for FcRn  interaction (Chaudhury et al., 2006; Andersen et al., 2006,  2012; Curry et al., 1998).
+To isolate variants with increased  affinity, we employed a modified version of a yeast secretion  and capture system (Rakestraw et al., 2006) in which HSA is  expressed as a fusion to the high-affinity antifluorescein scFv  4M5.3 (Boder et al., 2000) and captured on the surface of  secreting cells by binding to fluorescein that has been chemically  conjugated to the cell surface (Figure S1C).
+An HSA library with  random changes in DIII introduced through error-prone PCR  was displayed and sorted by FACS for increased binding to soluble, single-chain hFcRn (schFcRn) at pH 5.5 (Figures 1A and  1B).
+Progressively higher binding was observed starting in round  three, while maintaining pH dependence (Figure 1C).
+Sequence  analysis of clones from sorts three through seven showed successive enrichment of variants at several positions (Table S1).
+  We characterized the effect of both single changes and combinations on hFcRn affinity by ELISA and SPR at pH 6.0 and 7.4  (Tables S2 and 1; Figure S2).
+Single mutations increased hFcRn  affinity by up to 3-fold as measured by ELISA, with substantially  higher affinities obtained in combinations suggesting that each  change was acting independently.
+The highest pH 6.0 affinity  variant, HSA13, has four changes (V418M, T420A, E505G, and  V547A; Figure 1D) and a pH 6.0 KD of 38 nM, at least 300-fold  lower than that of wild-type HSA (Tables 1 and S2; Figure S2).
+  Overall Structure of the Complex  We purified complexes of hFcRn/HSA and hFcRn/HSA13, but  crystals were obtained only with HSA13, at pH 4.9, and we  solved its structure by molecular replacement to a 2.4 A  Figure 1.
+Isolation of High-affinity HSA Variants  (A) DIII was mutagenized by error-prone PCR (stars), recombined into whole has, and expressed on yeast.
+See Experimental Procedures for more details.
+  (B) Behavior of the selected mutagenized clone pool at pH 5.5 after four sorts compared to the starting library is presented.
+  (C) Left panel shows evolution of clone pool binding to 10 nM schFcRn.
+Right panel shows pH-dependent behavior of clone pools.
+After six sorts, the pool began  to exhibit undesirable affinity for schFcRn at pH 7.4.
+  (D) View of apo HSA (PDB 1AO6) shows the location of the four changes in HSA13.
+This HSA domain color code is used throughout.
+  See also Figure S1 and Table S1.
+  Structure  FcRn Mimics Albumin Ligands for Recycling  Structure 21, 19661978, November 5, 2013 2013 Elsevier Ltd All rights reserved 1967resolution (Figures 2A and S3; Table 2).
+Albumin is a heartshaped, wholly a-helical protein, whereas FcRn is closely related  to MHC class I proteins but with narrowed helices, such that  peptides cannot be accommodated (Figures S1A and S1B;  West and Bjorkman, 2000; Curry et al., 1998; Sugio et al.,  1999).
+In the complex, the DIII and DI domains of HSA13 make  spatially separated contacts to a single face of hFcRn, with DIII  making a broad contact to the end of the a1a2 platform, the  hinge, and b2m, and DI primarily contacting an exposed face  of the a2 helix (Figures 2A and 2B; Table 3), in total burying  4,068 A 2 of surface area.
+Compared to ligands of other MHC  class Ilike proteins, the a1, hinge, and b2m contact surface of  hFcRn is unique (Adams and Luoma, 2013).
+  A model of the HSA13/hFcRn/IgG ternary complex using the  available rat FcRn/Fc structure (Martin et al., 2001) shows at  least 24 A between any part of HSA and Fc, and even a rotationally free Fab arm should not be able to come any closer  than 10 A to HSA (Figure 2C).
+This is consistent with the ability  of FcRn to bind both ligands simultaneously with complete independence (Chaudhury et al., 2003, 2006; Andersen et al., 2006).
+  The Ca backbone of hFcRn shows little movement compared  to two other reported low-pH structures (root-mean-square  deviation [rmsd] of 0.7 A ).
+On the other hand, HSA is a flexible  protein, whose domains move to accommodate bound ligands  (Ghuman et al., 2005; Curry, 2009).
+In HSA13, hFcRn binding  induces several movements compared to apo HSA.
+DI and DIII  have each rotated compared to DII, and furthermore, DIIIB has  rotated with respect to DIIIA, such that the DIDIIIB distance  across the cleft has increased by 10 A , and the Arg-114/Glu520 interdomain salt bridge cannot form (Figure 2D).
+Individual  DIIIB helices appear to move to maximize complementarity to  hFcRn.
+The mutation HSAK519E is away from the interface but  eliminates hFcRn binding (Gao et al., 2013), plausibly by stabilizing the DIDIII contact via a second interdomain salt bridge with  Arg-186, adjacent to the Arg-114/Glu-520 salt bridge.
+Despite  these movements, each domain is very similar to the corresponding domain in four other unliganded HSA structures (backbone Ca rmsd of 0.60.8 A for DI, DII, DIIIA; 1.31.4 A for DIIIB).
+A  major displacement (R2 A ) is seen in the flexible DIIIADIIIB connecting loop (the DIII loop), discussed further below.
+  The HSA13/hFcRn Interface  The HSA13/hFcRn interface is markedly hydrophobic (69%  nonpolar; Table 3) with polar contacts scattered throughout (Figure 2B), consistent with the detergent sensitivity of the interaction (Chaudhury et al., 2003).
+The DIII interface accounts for  76% of the contacts and 3,076 A 2 of buried surface area,  whereas DI accounts for 24% and 1,045 A 2  , respectively.
+This  distribution is consistent with the unique ability of isolated HSA  DIII to bind hFcRn (Chaudhury et al., 2006; Andersen et al.,  2013; Kenanova et al., 2010) and reveals a role for DI in  FcRn binding.
+Interestingly, two loops with high flexibility in  crystal structures (the DIII loop and the loop connecting the  C-terminal helices of DIA Curry, 2009) are involved in FcRn  contacts.
+  In the DIII contact, the most striking feature is the insertion of  two absolutely conserved (Figure 3B) FcRn tryptophans, Trp53 and Trp-59, into deep hydrophobic pockets in DIII (W53  pockets and W59 pockets), burying 180 and 160 A 2 of surface  area, respectively (Figure 2E).
+Trp-53 and Trp-59 are located in a  loop in the FcRn a1 domain (from Trp-51 to Trp-61) that we name  the WW loop.
+  The DIII contact can be further subdivided into the DIIIA and  the DIII loop/DIIIB contacts.
+DIIIA primarily contains the W59  pocket (Figures 2E and 3A) but also makes a number of stabilizing contacts to the surface of the FcRn a1 helix (Table 3).
+The  W59 pocket lies at the aliphatic end of the high-affinity FA binding site 4 (FA4) in DIIIA (Bhattacharya et al., 2000; Simard et al.,  2005), and compared to unbound low-pH FcRn structures, the hFcRna  W59 side chain has to flip and rotate 100 to make this  interaction (Figure 4A).
+The W59 pocket is wider than both  defatted and fatted structures (by 2 and 1 A , respectively),  but it is not clear whether this is due to W59 insertion or an effect  of two changes in HSA13 that occur near the W59 pocket  (V418M, T420A; see Figure 4A).
+Met-418 extends the hydrophobic surface against which Trp-59 packs, whereas the reduced  side chain of Ala-420, which increases affinity measurably by  itself (Table S2), allows DIIIA helix h3 to move toward DIIIB helix  h2.
+A V424I mutation, one turn further down than T420A in the  DIIIA-h3 helix, also increases affinity (Table S2), presumably  also through better packing against helix DIIIB-h2.
+  To confirm the role of Trp-59 in HSA interaction, we replaced  the side chain with another aromatic residue (Phe) or a methyl  group (Ala).
+Strikingly, hFcRna  W59A abolishes both HSA13 and  HSA binding, whereas the affinity of hFcRna  W59F for both is  reduced, but not eliminated (Figure 4B).
+  The DIII loop/DIIIB contact contains the W53 pocket (Figure 2E), and its formation requires a unique displacement of  part of the DIII loop (residues Lys-500 to His-510; the HH loop)  induced by a steric clash with the WW loop of hFcRn (Figure 5C).
+  Table 1.
+Kinetic Data for Selected HSA Variants  HSA Variant  pH 6.0 pH 7.4  ka (M Fold Increase 1  s1  ) kd (s1  ) KD (nM) ELISA KD (nM) ka (M1  s1  ) kd (s1  ) KD (mM)  HSA 5.6 3 103 2.8 3 102 5,000 1,030 NB NB    HSA5 5.4 3 103 2.4 3 103 450 326 1.0 3 103 1.3 3 101 130 290  HSA7 1.4 3 104 9.2 3 104 64 23 1.7 3 103 4.5 3 102 26 400  HSA11 1.1 3 104 2.7 3 103 230 93 4.4 3 103 5.2 3 102 12 48  HSA13 2.7 3 104 2.2 3 104 8.0 3.0 5.2 3 103 3.2 3 102 6.2 760  Binding to immobilized schFcRn at pH 6.0 and pH 7.4 was measured by surface plasmon resonance; ELISA data are from Table S2.
+NB, no binding.
+  SPR parameters were extracted from curves globally fitted to a 1:1 kinetic binding model (Figure S2) using Scrubber2 software.
+  See also Figure S2 and Table S2.
+  Structure  FcRn Mimics Albumin Ligands for Recycling  1968 Structure 21, 19661978, November 5, 2013 2013 Elsevier Ltd All rights reservedFigure 2.
+HSA13/hFcRn Complex  (A) Overall complex structure is illustrated.
+  (B) Contact surfaces are shown in book leaf view.
+Residues that make only nonpolar contacts are in yellow, and those that make only polar contacts are in blue.
+  Residues with a mix of contact types are shown in one of three intermediate colors.
+The inset shows that the HSA contact surface on hFcRn is confined to  one face.
+  (C) Model of the IgG/FcRn/SA ternary complex is presented.
+The model was built from the HSA13/hFcRn structure, the rat Fc/rFcRn structure (PDB code 1FRT),  and a full human IgG1 (1HZH).
+The IgG heavy chain is dark orange, and the light chain is light orange.
+The Fc portion of IgG occupies the diametrically opposite  side of FcRn from HSA.
+  (D) Rotations in HSA domains upon hFcRn binding are shown.
+HSA13 (colored) and apo HSA (PDB 1AO6, in gray) were aligned on DII.
+View is from the rear. The  side chains that can form an interdomain salt bridge in apo HSA are shown.
+The rotation of DIIIB with respect to DIIIA (shown in the inset) is in a different direction  than the rotation of DIIIA with respect to DII.
+  (E and F) The (E) WW loop and the (F) DI/hFcRna contact are presented.
+  See also Table S3.
+  Structure  FcRn Mimics Albumin Ligands for Recycling  Structure 21, 19661978, November 5, 2013 2013 Elsevier Ltd All rights reserved 1969The W53 pocket lies very close to thyroxine (T4) binding site Tr3  (Figure 4D; Petitpas et al., 2003), and the W53 side chain has a  similar disposition to one ring of T4, having rotated 1025  compared to unbound hFcRn.
+In this region, additional HSA13  contacts are made to the WW loop, the a1 platform, a3, and  b2m of hFcRn (Table 3).
+Notably, only a single side chain in the  HSA13 terminal helix (Lys-573) makes any contact, and that is  one of the two interfacial salt bridges, to b2mGlu-69 (Figure S4A).
+HSALys-573 is almost unique to humans (being proline in almost  every other species; Figure 3A) and is a sensitive site for hFcRn  affinity (Plumridge et al., 2012).
+  The HH loop contains one of the four HSA13 changes (E505G),  which in isolation produces a 3-fold affinity improvement (Table  S2).
+Backbone atoms of Gly-505 make favorable polar contacts  to hFcRna  Ser-230 in the a3 domain and to b2mArg-12, as well as a  nonpolar contact to b2mPhe-22.
+In wild-type HSA, the large negative side chain of Glu-505 would reduce complementarity but  likely restore this part of the HH loop to better resemble apo  HSA (Figure S4B).
+I523G, which increases affinity by 40-fold  (Gao et al., 2013), lies in the helix DIIIB-h2 that forms part of the  W53 pocket.
+We interpret the positive effect to arise from an  introduced kink in that helix, right under Trp-53, improving its fit.
+  As with Trp-59, a W53F mutation is well tolerated with only a  modest change in affinity, whereas the loss of the side chain in  a W53A mutant completely abolishes hFcRn binding to both  Table 2.
+Crystallographic Data Collection and Refinement  Statistics  HSA13/hFcRn Complex  Data Collection  Space group P21212  Cell dimensions  a, b, c (A ) 127.89, 203.54, 100.56  a, b, g (  ) 90, 90, 90  Resolution (A ) 108.292.40 (2.592.40)a  No. of reflections (unique) 102,919 (20,735)  Rsym or Rmerge 6.3 (67.0)  I/sI 18.7 (2.3)  Completeness (%) 99.7 (99.9)  Redundancy 4.4 (4.4)  Refinement  Resolution (A ) 108.292.40  No. of reflections 97,775  Rwork/Rfree 21.2/25.5  Total number of atoms  Protein 15,042  Water 123  Sulfate 95  B factors  Protein 30.0  Water 27.3  Sulfate 77.5  Rmsds  Bond lengths (A ) 0.013  Bond angles () 1.40  Ramachandran plot  Most favored regions (%) 93.3  Additional allowed regions (%) 6.6  Generously allowed regions (%) 0.1  Disallowed regions (%) 0.0  See Figure S3 for a representative view of the electron density maps.
+a  Values in parentheses are for highest-resolution shell.
+  Table 3.
+Interfacial Contacts  hFcRna HSA DI hFcRna HSA DIII b2m HSA DIII  S58 N109a R42 Y497,c V498,c  P499, K500  R12 F507,c G505a,b  W59 N109 E44 P416, Q417,  M418, Y497,  K534a  S20 K573a  K63 N109 E46 K500 N21 K573a  N149 E86, R81,a  D89a  P47 K500a F22 A504, G505,b  K573  K150 E86 G49 T506, T508 E50 E501, F502,  N503  L152 R81 A50 T508 Y67 N503,a T506  T153 G85, E86,a  R81a  V52 T527, E531 E69 K573a  L156 R81, E82 W53 F507, T508,  F509, K524,a  T527, A528,  F551  F157 R81, E82,  T83, Y84,  G85  E54 K524  H161 E82 N55 K524  E165 N111a Q56 P421  V57 S419,c P421  S58 P421, T422,a  E425a  W59 M418,b T422,a  E425, L460,  L463, H464,  T467  W61 S419  E62 M418,b S419,a  T422,a T467,  V469  K63 T467  T66 T467, P468  R69 P468,a V469  G172 D512  N173 H510  W176 H510a  S230 G505,c T506  D231 G505,c T508  A 4.5 A cutoff distance was used.
+  See also Figures S3 and S4 and Table 2.
+a  Polar contacts.
+  b  Non-wild-type amino acids.
+  c  Polar contacts to water.
+  Structure  FcRn Mimics Albumin Ligands for Recycling  1970 Structure 21, 19661978, November 5, 2013 2013 Elsevier Ltd All rights reservedHSA13 and HSA (Figure 4E).
+Upon insertion, Trp-53 makes a  transverse p-stacking interaction with Phe-509 (Figure 4D).
+  Mutational analysis supports the importance of this contact in  complex stability.
+An F509M mutation in HSA, which would  lose the stacking interaction and alter the packing in the pocket,  has a 30-fold reduction in FcRn binding, whereas the tryptophan  side chain in an F509W mutation would directly compete with  Trp-53, and abolishes hFcRn binding (Gao et al., 2013).
+  Figure 3.
+Alignment of Proteins from Nine Mammals  (A) Portions of SA, covering the contacts in DI and DIII, are shown.
+Contacts to FcRna are in green, contacts to b2m are in gray, and residues that contact both are  in black with white lettering.
+The HH loop is shown.
+The four positions that are changed in HSA13 are shown in red.
+The histidines at positions 440, 464, 510, and  535 (human numbering) are bold.
+For all alignments, if the residue in a nonhuman species is identical to human, it follows the same color scheme.
+  (B) Portions of FcRna, covering the contacts to DI and DIII, are presented.
+Contacts to HSA DI are in blue, contacts to DIII are in dark red, and residues that contact  both are in black with white lettering.
+The WW loop is shown.
+The histidines at positions 161 and 166 (human numbering) are bold.
+Half (6 of 12) of all human/  mouse interfacial sequence differences cluster in the region of FcRn that contacts DI (N/R149, L/S152, T/E153, F/T157, H/E161, E/G165, human numbering),  showing that this contact is overall not highly conserved.
+Nonetheless, because hFcRn has higher affinity than mFcRn for either HSA or mouse SA (Andersen  et al., 2010), the systematic superiority of hFcRn could be due to some of these changes.
+  (C) Complete b2m is shown.
+Contacts to HSA DIII are in dark red.
+  Structure  FcRn Mimics Albumin Ligands for Recycling  Structure 21, 19661978, November 5, 2013 2013 Elsevier Ltd All rights reserved 1971The DI contact is almost exclusively confined to the loop  between DIA-h4 and DIA-h5 and the a2 helix of FcRn (Figure 2F).
+  His-161 could make a hydrogen bond to the backbone carbonyl  of hFcRna  E82.
+However, mutation of His-161 to Ala has little effect  on HSA binding (Table S3; Andersen et al., 2012), and H161 is  poorly conserved (Figure 3B), failing to support a role in pH  sensing.
+  Mechanism of pH-Dependent Binding  The WW loop of hFcRn makes no HSA contacts via residues predicted to change their ionization state across the pH 6.07.4  range, but the loop itself is stabilized in hFcRn by a protonated  hFcRna  His-166, anchoring a network of hydrogen bonds (Figure 5A).
+His-166 is absolutely conserved in FcRn (Figure 3B)  but also makes no direct HSA contact.
+Protonation of His-166  has been previously identified as a candidate part of the pH  sensor (Chaudhury et al., 2006; Andersen et al., 2006), and its  effect on the WW loop has been noted (Andersen et al., 2012).
+  Both hFcRna  H166F and hFcRna  H166A abolish wild-type HSA binding and reduce HSA13 affinity >100-fold (Figure 5B).
+  The HH loop is anchored at each end by a series of hydrogen  bonds and p-cation interactions involving protonated HSA histidines at 510 and 535 (Figures 5C5E), both of which are  absolutely conserved (Figure 3A).
+HSAH510 forms the sole intermolecular, potentially pH-sensitive interaction as a p-cation  contact to the absolutely conserved hFcRna  W176 residue (Figures  5D and 3B), though mutation of hFcRna  W176 to leucine reduces  binding affinity only 3-fold (Figure 5B).
+All other His-510 and  His-535 interactions are intramolecular and likely act to stabilize  the HH loop.
+Consistent with this, mutation of His-510 or His-535  in HSA13 to Phe results in 10- and 30-fold losses of affinity for  hFcRn, respectively, whereas in wild-type HSA, H535F nearly  eliminates hFcRn binding (Figure 5F).
+  NMR studies have shown that in DIII at pH 6, only two of the  four histidines will be protonated (Bos et al., 1989; Labro and  Janssen, 1986), which we propose to be His-510 and His-535  (see Supplemental Discussion).
+Mutational studies have shown  that changes at His-464 also reduce hFcRn affinity (Table S3;  Andersen et al., 2012).
+However, His-464 contacts Trp-59 in  the W59 pocket and is buried in a hydrophobic environment.
+  Figure 4.
+Hydrophobic Contacts  (A) W59 pocket is illustrated.
+HSA13 mutations are italicized.
+C12:0 (red), C16:0 (orange), and C18:1 (yellow) FAs (from PDB codes 1BJ5, 1E7H, and 1GNI,  respectively) are shown, with the van der Waals radius displayed for the terminal atom.
+The position of W59 from unbound hFcRn (purple; from PDB 3M17) is also  shown.
+  (B) W59A and W59F mutations similarly reduce FcRn binding to wild-type HSA (sensorgrams) and HSA13 (ELISA data; KD values in table).
+HSA species were  immobilized.
+  (C) HSA loaded with C16:0 and C18:1 binds immobilized hFcRn poorly, unlike with C12:0.  (D) W53 pocket shows two T4s (orange) in sites 2 and 3 (from PDB 1HK3).
+  (E) W53A and W53F mutations reduce FcRn binding to wild-type HSA (sensorgrams) and HSA13 (ELISA data; KD values in table).
+HSA species were immobilized.
+  The hFcRn trace in (B) and (E) are the same data.
+  Structure  FcRn Mimics Albumin Ligands for Recycling  1972 Structure 21, 19661978, November 5, 2013 2013 Elsevier Ltd All rights reservedWe interpret the effect of His-464 mutations to be disruption of  the W59 pocket.
+  Our model for the pH-dependent interaction of hFcRn and  HSA thus proposes that at pH 7.4, the WW loop is unstructured,  and the HH loop is loosely structured.
+Upon shift to pH 6.0,  hFcRna  His-166 protonates and stabilizes the WW loop, holding  Trp-53 and Trp-59 at the hFcRn surface.
+At the same time,  HSAHis-510 and HSAHis-535 become fully protonated and anchor  the HH loop in a more open position.
+Interaction is stabilized  by hFcRna  W59 rotation into the W59 pocket, the DI contact, and  HSAHis-510 binding to hFcRna  Trp-176.
+Finally, the hFcRna3 and  b2m interaction with DIIIB and the DIII loop rotates DIIIB up,  fully opening the W53 pocket and allowing hFcRna  Trp-53 insertion  (Figure 5G).
+  In this model, the main barrier to neutral pH binding will be the  cost of stabilizing the WW loop and opening the HH loop.
+We  would therefore predict that changes that increase binding at  pH 6.0 by strengthening existing contacts would also increase  affinity at pH 7.4.
+Indeed, all four variants evaluated by SPR  had measurable hFcRn affinity at pH 7.4 (Figure S2; Table 1).
+  Figure 5.
+pH-Dependent Binding  (A) hFcRna  H166 environs are presented.
+The E165/R169 hydrogen bond shown here is not present in uncomplexed hFcRn (Mezo et al., 2010).
+  (B) Mutations at H166 of hFcRna significantly reduce binding to both wild-type HSA as measured by SPR (sensorgrams) and HSA13 as measured by ELISA  (KD values in table).
+HSA species were immobilized.
+  (C) The HH loop in HSA13 is shown.
+apo HSA (PDB 1AO6) is gray.
+  (D) HSAH510 environs show protonation-dependent bonds.
+His-510 forms a p-cation bond with hFcRna  Trp-176 (red dotted line).
+  (E) HSAH535 environs show protonation-dependent bonds.
+  (F) Mutations HSAH510F and HSAH535F reduce hFcRn binding similarly, whether in wild-type HSA (sensorgrams) or HSA13 (ELISA; KD values in table).
+schFcRn  was immobilized.
+  (G) Model for pH-dependent association is presented.
+At pH 7.4, the WW loop is disordered (dashed line).
+On shift to pH 6, histidines become protonated and  make hydrogen bonds (black circles and lines).
+  See also Table S3.
+  Structure  FcRn Mimics Albumin Ligands for Recycling  Structure 21, 19661978, November 5, 2013 2013 Elsevier Ltd All rights reserved 1973Fc mutations that increase the affinity of hIgG1 for hFcRn typically have a proportionate effect on binding across all pHs  (Yeung et al., 2009).
+However, the HSA variants reported here  show that the relationship between pH 6.0 and pH 7.4 binding  can be uncoupled for HSA (compare HSA11 and HSA7; Table 1).
+  hFcRn Competition with Ligands  Based on a superposition of 35 structures with FA present in  FA4, Trp-59 should be unable to rotate into its pocket in the presence of C16 or C18 lipids (Figure 4A).
+Similarly, based on a  superposition of three structures with T4 present in Tr3, Trp-53  should be unable to insert into the W53 pocket in the presence  of T4 (Figure 4D), suggesting that both key FcRn interactions  may be compromised in the presence of certain SA ligands.
+  We therefore tested the ability of FA to compete with hFcRn  binding to HSA at pH 6.0.
+Strikingly, C18:1 abolished and  C16:0 strongly reduced hFcRn binding, whereas C12:0 had a  lesser effect (Figure 4C), revealing that the recycling efficiency  of FA-bound HSA is likely to be lower than that of ligand-free  HSA.
+Due to the low aqueous solubility of T4 and its low affinity  for HSA, we were not able to demonstrate the corresponding  effect at the W53 pocket.
+Thus, one means of delivering ligands  to cells may be via nonsalvage followed by lysosomal degradation of albumin.
+  Pharmacokinetic Analysis of HSA Variants  For IgGs, increasing FcRn affinity can increase their circulating  half-life, although the relationship is not strict (Gurbaxani et al.,  2006; Wang et al., 2011; Datta-Mannan et al., 2007, 2012;  Gurbaxani et al., 2013).
+Thus, we examined the half-lives of  some of our HSA variants in mice and primates.
+In wild-type  C57BL/6 mice, HSA7, HSA11, and HSA13 had increases of  129%, 50%, and 69% in the elimination half-life, t1/2, compared  to HSA, respectively, whereas HSA5 was more similar to HSA  (Figure 6A; Table 4).
+In C57BL/6 FcRn knockout mice transgenic  for hFcRn (Petkova et al., 2006), on the other hand, HSA5 and  HSA7 showed 52% and 48% increases, respectively, in t1/2,  whereas HSA11 and HSA13 had reduced t1/2 and elevated clearance due to an antibody response (Figure 6B; Table 5), possibly  arising from higher pH 7.4 hFcRn affinity (Table 1; Liu et al.,  2011).
+In macaques, HSA7 showed an increase of 53% in t1/2  and a 41% reduction in clearance compared to wild-type HSA  (Figure 6C; Table 6).
+Thus, as for IgGs, increased affinity for  hFcRn at pH 6.0 increases the circulating half-life.
+  DISCUSSION  The features of the low-pH HSA13/hFcRn complex reported  here are likely to be the same as for wild-type HSA, based on  the analogous effects of mutations in hFcRn on both, the location  of the changes in HSA that increase affinity, and the similar  effects of mutations in either the wild-type or HSA13 backgrounds.
+The overall architecture of the complex readily  accounts for the high entropic gain in forming the HSA/hFcRn  complex (Chaudhury et al., 2006) by its dependence on hydrophobic interactions.
+However, there were several unexpected  features of the interface.
+First was its extensiveness, given the  low affinity of wild-type HSA, and the absence of any meaningful  direct pH-dependent contacts compared, for example, to the  IgG1-FcRn interface, which features two (human) or three (rat)  titratable salt bridges and is half the size (Martin et al., 2001).
+  Instead, a fundamentally ionic shift results in the elaboration of  a hydrophobic surface that provides most of the energy, with a  prominent use of aromatic side chains to make profound hydrophobic contacts or engage in p interactions.
+The larger interface  and the more complex interaction of HSA with hFcRn over that of  IgG could be argued as support for a more ancient origin of the  SA/FcRn interaction.
+  Second was the site overlap and competition between natural  ligands and hFcRn, implicating bound ligands as direct controllers of the circulating half-life of HSA, and perhaps SA in general,  and nonsalvage as a means to deliver ligands to cells.
+  For example, bound lipid, metals, hemin, bilirubin, or T4 could  be delivered to cells following lysosomal degradation of SA,  but it is not clear what the overall capacity of this would be.
+In  normal plasma, the mole ratio of FA to HSA is 0.51.0 (Nielsen  Figure 6.
+In Vivo Clearance Curves  (A and B) Clearance of HSA and variants in (A) wild-type C57B/6 mice and (B) humanized mice (Petkova et al., 2006) is presented.
+HSA11 and HSA13 elicited  antibody responses (see Experimental Procedures) in humanized but not wild-type mice.
+HSA species were directly quantitated by ELISA.
+  (C) Clearance of tagged HSA7 (red curves) and tagged HSA (blue curves) in cynomolgus macaques is shown.
+HSA species were quantitated using the HA tag.
+  Upper curves are 5 mg/ml doses; lower curves, 1 mg/ml.
+  Error bars show the SEM in all panels.
+  Structure  FcRn Mimics Albumin Ligands for Recycling  1974 Structure 21, 19661978, November 5, 2013 2013 Elsevier Ltd All rights reservedet al., 1997), implying that perhaps 50% of circulating HSA will  be lipid-free, given multiply lipidated HSA species.
+However,  elevated FAs after meals, fasting, or exercise or in diabetes  can increase the ratio to well above 1 (Brodersen et al., 1990),  which, based on the results presented here, should result in  more HSA turnover and perhaps also more lipid delivery to cells.
+  Mutations that affect ligand binding at these sites might therefore  also affect recycling without affecting FcRn affinity.
+Intriguingly,  the natural albumin variant Casebrook (D494N, not in the interface) binds eight times more lipid than wild-type (Nielsen et al.,  1997) and has about one-half the circulating concentration  (Peach and Brennan, 1991).
+Furthermore, ligands bound to  Drug Site 2 displace FAs from FA4 (Simard et al., 2005; Liu  et al., 2005), suggesting that drug binding may also influence recycling efficiency.
+  HSA is recycled inefficiently because of hFcRn saturation (Kim  et al., 2007); in people with analbuminemia, nonsaturating doses  of HSA exhibit half-lives of 50100 days (Bennhold and Kallee,  1959).
+Increasing the low-pH affinity of HSA for hFcRn can  increase its circulating half-life, but improving on-rates may be  the more effective path to outcompete wild-type HSA.
+General  improvements in affinity run the risk of acquiring neutral pH binding, but HSA appears to be able to uncouple its pH 7.4 and 6.0  hFcRn affinities.
+Together, this suggests that it may be possible  to achieve even longer half-life gains than those reported here by  further increasing the affinity for hFcRn at low pH with the appropriate counterselection at pH 7.4.
+The large contact surface  suggests that there will be a breadth of options available to influence the affinity via gain, loss, or tuning of contacts.
+  EXPERIMENTAL PROCEDURES  DNA Constructs  The 4M5.3 S. cerevisiae display vector comprised the high-affinity antifluorescein scFv 4M5.3 (Boder et al., 2000) with an N-terminal app8 leader sequence  (Rakestraw et al., 2009) and C-terminal (G4S)3 linker followed by cloning sites,  an hemagglutinin (HA) epitope tag (YPYDVPDYA), and stop codon, in a variant  pYC2/CT expression vector (Life Technologies) with TRP1 replacing URA3.
+  The 4M5.3-HSA library backbone was generated by cloning the DI and DII  domains of HSA cDNA (OriGene) into the 4M5.3 display vector.
+Expression  of mature HSA variants in yeast used the app8 leader sequence in an unmodified pYC2/CT vector.
+For in vivo studies in primates, a HA tag was added to  the N terminus of HSA in the preceding constructs by QuikChange mutagenesis (Agilent).
+  The schFcRn construct comprised b2m fused to the extracellular domain of  the FcRn a chain through a (G4S)3 linker as described previously by Feng et al.  (2011), flanked by an N-terminal IL-2 leader sequence and C-terminal FLAG  tag.
+To generate material for binding studies, the above ORF minus the tag  was subcloned into a variant of the pTT5 expression vector (NRCC) containing  a C-terminal FLAG/His tag.
+A cDNA encoding mouse single-chain FcRn was  also synthesized and cloned into the pTT5-FLAG/His vector as above except  that the native murine b2m leader sequence was used.
+For crystallography  material, the pTT5 ORF was subcloned into pLVX (Clontech).
+HSA and FcRn  point mutants were generated by QuikChange mutagenesis or overlap  extension PCR.
+  Protein Expression and Purification  FLAG-tagged schFcRn was expressed in FreeStyle CHO cells and purified on  an M2 anti-FLAG affinity column.
+For yeast selections, the protein was  biotinylated using Sulfo-NHS-LC-Biotin reagent.
+FLAG/His-tagged schFcRn  used in ELISA and SPR studies was expressed in HEK293-6E cells.
+Proteins  were purified with Ni-NTA affinity resin, and additional polishing was performed as needed on a Superdex 75 column.
+For crystallography material,  His-tagged schFcRn was expressed in HEK293-6E cells in a 50-liter BIOSTAT  CultiBag system with a 25-liter working volume.
+Protein was purified on a  high-performance Ni-Sepharose column.
+  HSA was expressed in BJ5a yeast and purified from the supernatant using a  CaptureSelect HSA affinity column.
+For in vivo studies, HSA variants were  further purified on a PorosHQ anion exchange column to remove endotoxin.
+  Additional details can be found in the Supplemental Experimental Procedures.
+  Library Generation and Induction  PCR mutagenesis and library generation in yeast were performed as described  previously by Chao et al. (2006).
+DIII was amplified using primers that added  50 bp of homology with the flanking sequences of the DII domain and  C-terminal vector, mixed with linearized 4M5.3-HSA library backbone, and  electroporated into BJ5a.
+  Table 5.
+Pharmacokinetic Parameters of C57BL/6-Derived mFcRn Knockout Mice Homozygous for an hFcRn Transgene  Molecule Dose (mg/kg) Total Number Cmax (mg/ml) AUC (mg 3 hr/ml) Cl (ml/min/kg) t1/2b (hr) p Value for t1/2b  HSA 2.5 3 34.2 (26.744.5) 582 (496633) 0.080 (0.0730.093) 30.3 (29.231.4)   HSA5 2.5 3 32.3 (17.943.9) 825 (641937) 0.058 (0.0490.072) 46.2 (37.461.3) 0.172  HSA7 2.5 3 22.6 (16.426.8) 664 (564791) 0.071 (0.0590.082) 44.9 (42.049.6) 0.020  HSA11 2.5 3 25.0 (22.827.1) 564 (497629) 0.083 (0.0740.093) NM   HSA13 2.5 3 22.9 (20.127.9) 249 (230272) 0.187 (0.1700.201) NM   Values are means (ranges) of curves fitted for each animal.
+The p values (t distribution; two-tailed, unequal variance) are for elimination half-life differences between HSA variants and wild-type HSA.
+NM, not meaningful (Petkova et al., 2006).
+  Table 4.
+Pharmacokinetic Parameters for Wild-Type C57BL/6 Mice  Molecule Dose (mg/kg) Total Number Cmax (mg/ml) AUC (mg 3 hr/ml) Cl (ml/min/kg) t1/2b (hr) p Value for t1/2b  HSA 2.5 3 38.0 (29.352.6) 730 (694761) 0.064 (0.0610.067) 29.5 (28.630.0)   HSA5 2.5 3 39.7 (33.447.0) 849 (810907) 0.055 (0.0510.057) 33.0 (28.736.5) 0.266  HSA7 2.5 3 51.8 (40.058.0) 1,370 (1,2401,460) 0.034 (0.0320.037) 67.5 (49.885.2) 0.065  HSA11 2.5 3 36.9 (33.938.4) 1,260 (1,2301,280) 0.037 (0.0360.038) 44.1 (42.845.4) 0.0003  HSA13 2.5 3 31.6 (28.434.8) 1,410 (1,3401,460) 0.033 (0.0320.035) 49.9 (45.653.4) 0.010  Values are means (ranges) of curves fitted for each animal.
+The p values (t distribution; two-tailed, unequal variance) are for elimination half-life differences between HSA variants and wild-type HSA.
+  Structure  FcRn Mimics Albumin Ligands for Recycling  Structure 21, 19661978, November 5, 2013 2013 Elsevier Ltd All rights reserved 1975Secretion and capture of the 4M5.3-HSA library were performed similarly to  previously described protocols (Rakestraw et al., 2006).
+Induced cells were  labeled with 100 mg/ml NHS-PEG3500Da-Fluorescein for 30 min at RT and incubated in a static culture at 20C for 1416 hr.
+Additional details can be found in  the Supplemental Experimental Procedures.
+  FACS Selections  Libraries were simultaneously labeled for schFcRn binding and HSA display  level.
+For selection rounds one to four, 20 nM biotinylated schFcRn-FLAG  was preloaded onto 5 nM Streptavidin-APC (Life Technologies) to form tetramers prior to incubating with the cells.
+For rounds five to seven, monomeric  biotinylated schFcRn was incubated with the cells followed by detection  with NeutrAvidin-DyLight-650 (1:5,000; Pierce).
+In all rounds, cells were  labeled for display with an anti-HA primary antibody (1:1,000; Sigma-Aldrich)  followed by a PE-Cy7-conjugated antimouse secondary (1:500; Santa Cruz  Biotechnology).
+All labeling and wash steps were performed in PBS plus  0.1% fish gelatin (Sigma-Aldrich) (pH 5.5).
+Libraries were run on a FACSAria  III cell sorter, and cells with high schFcRn binding (APC signal) relative to  display (PE-Cy7 signal) were selected and regrown in SDCAA plus uracil  with citrate buffer (pH 4.5).
+  Crystallization and Structure Determination  HSA13/schFcRn complex was formed by combining approximately equal  molar amounts of HSA13 and His-tagged schFcRn, dialyzing overnight, and  isolated on a Superdex (S200) gel filtration column.
+Complex stoichiometry  was confirmed by SEC-MALS.
+  Crystals were obtained by hanging-drop vapor diffusion at 293K.
+  Preliminary microcrystals were microseeded to optimize crystallization.
+  Diffraction quality crystals grew within 34 weeks.
+Prior to data collection,  crystals were cryoprotected in mother liquor containing 20% glycerol and flash  frozen in liquid nitrogen.
+See Supplemental Experimental Procedures for more  details.
+  Data were collected at 0.9782 A and 100K at beamline CMCF-08ID of the  Canadian Light Source using a MARCCD detector.
+Images were processed  with XDS and XSCALE (Kabsch, 2010).
+Crystals belong to the space group  P21212 with two complexes per ASU and 58% solvent.
+A data set extending  to 2.4 A was used for structure determination (Table 2).
+  The structure was solved by molecular replacement with the program  Phaser (McCoy et al., 2007) using structures of HSA and hFcRn (Protein  Data Bank [PDB] 1AO6 and 3M17) as search models.
+Subsequent model  rebuilding and refinement were performed in several cycles using Coot  (Emsley et al., 2010) and CCP4 (Murshudov et al., 1997).
+TLS refinement (using  REFMAC5, CCP4; Murshudov et al., 1997) was applied, resulting in lower R  factors and higher-quality electron density maps.
+Statistics of the final structure are listed in Table 2.
+Contact maps and buried surface area values were  calculated using the Protein Interfaces, Surfaces, and Assemblies server  (Krissinel and Henrick, 2007).
+Structural figures were prepared using PyMOL  (Schro dinger).
+Atomic coordinates and structure factor amplitudes for the  structures have been deposited in the PDB (PDB 4K71).
+  Affinity Measurements  ELISAs  Purified HSA variants were coated on EIA plates, and FLAG/His-tagged  schFcRn was added at various concentrations in triplicate.
+Bound FcRn  was detected with anti-FLAG-HRP.
+The background signal measured  on wells with no immobilized HSA was subtracted from each reading,  and the resulting values were fitted to an equilibrium KD model: Abs =  (Max 3 [FcRn]/([FcRn] + KD).
+For additional details, see Supplemental  Experimental Procedures.
+  Surface Plasmon Resonance  Studies were performed on a Reichert Technologies SR7000DC spectrometer.
+  schFcRn, scmFcRn, or HSA-WT was immobilized on 500 kDa carboxymethyl  dextran chips (Reichert) via standard amine coupling with 20 mg/ml protein in  10 mM sodium acetate, pH 4.5 to densities of 1,700, 1,700, and 3,500 RU,  respectively.
+Serial dilutions of HSA or scFcRn variants in PBS plus 0.005%  Tween 20 (pH 6.0 or 7.4), were injected at 25C with a 50 ml/min flow rate  and data collected over time.
+The surface was regenerated between runs  with PBS-T (pH 7.4).
+Reference cell values and signal from buffer injection controls were subtracted, and the sensorgram traces were fitted to a 1:1 Langmuir  binding model using Scrubber2 software (BioLogic) to calculate ka, kd, and KD  values.
+For studies examining the effect of FA loading, sodium laurate (TCI  America), sodium palmitate, or sodium oleate (Sigma-Aldrich) was dissolved  in ddH20 at 70C, then added to delipidated HSA (Sigma-Aldrich) in PBS to  a final concentration of 2 mM FA/200 mM HSA.
+The FA:HSA mixture was  incubated at 37C for 60 min, then filtered through a 0.2 mm membrane and  buffer exchanged into PBS (pH 6.0).
+FA-loaded HSA was flowed over an  schFcRn-coated chip at a 10 mM concentration and the binding signal  recorded over time.
+  In Vivo Studies  Mouse  PK studies were performed in C57BL/6 mice and Fcgrt/ C57BL/6 mice  homozygous for a transgene bearing the human gene (Jackson Laboratory;  strain 4919).
+Eight- to 9-week-old female mice weighing 1619 g were divided  into groups (n = 3) with approximately equal average weights.
+Mice were anesthetized using isoflurane and injected intravenously in the retro orbital venus  plexus with 50 ml of HSA or HSA variants at 1 mg/ml in PBS (pH 7.4).
+At  selected times postinjection, 25 ml of blood was collected via tail nick and  mixed with citrate phosphate dextrose at a 1:1 (v/v) ratio.
+All experiments  and procedures were conducted in accordance with Eleven Biotherapeutics  Institutional Animal Care and Usage Committees protocol and guidelines.
+  Cynomolgus  PK studies were performed in male monkeys weighing 4.57.2 kg (Sinclair).
+  Prebleeds were drawn from all potential animals and screened for the presence of preexisting antibodies against HA-tagged HSA molecules by ELISA.
+  Selected animals were divided into groups with approximately equal average  weights (n = 6 for 1 mg/kg HA-HSA; n = 2 for all other groups) and injected with  a 1 or 5 mg/kg IV bolus dose of HA-HSA or HA-HSA7 in PBS.
+At selected times,  blood samples were drawn from each animal via direct venipuncture of the  femoral vein into a 3 ml K3-EDTA tube.
+All experiments and procedures  were reviewed and approved by Institutional Animal Care and Use Committee  prior to procedure initiation.
+All studies were conducted according to the  Animal Welfare Act.
+  PK Assays  For mouse samples, anti-HSA antibody was coated on EIA plates; plasma  samples were diluted and added to wells at various final dilutions.
+A standard  curve was included on each plate with purified HSA.
+Bound HSA was detected  with anti-HSA-HRP.
+The background signal from wells with no plasma sample  was subtracted, and the standard curve on each plate was fitted to an  equilibrium KD model: Abs = (Max 3 [HSA])/([HSA] + KD).
+The plasma HSA  Table 6.
+Pharmacokinetic Parameters of Cynomolgus Macaques  Molecule  Dose  (mg/kg)  Total  Number Cmax (mg/ml) AUC (mg 3 hr/ml) Cl (ml/min/kg) t1/2b (hr) Mean Cl Mean t1/2b  p Value  for t1/2b  HA-HSA 1 6 18.2 (11.327.1) 1,810 (1,2202,710) 0.0100 (0.00610.0138) 153 (119226) 0.0090 169   HA-HSA 5 2 238 (182294) 15,300 (10,90019,700) 0.0059 (0.00720.0076) 218 (180257)  HA-HSA7 1 2 38.1 (36.240.0) 2,820 (2,7502,900) 0.0059 (0.00570.0061) 239 (225254) 0.0053 259 0.003  HA-HSA7 5 2 196 (187205) 17,900 (16,10019,700) 0.0047 (0.00420.0052) 279 (265294)  Values are means (ranges) of curves fitted for each animal.
+The p values (t distribution; two-tailed, unequal variance) are for elimination half-life differences between HSA variants and wild-type HSA.
+  Structure  FcRn Mimics Albumin Ligands for Recycling  1976 Structure 21, 19661978, November 5, 2013 2013 Elsevier Ltd All rights reservedconcentration was calculated at each time point as HSA = Abs 3 dilution 3  KD/(Max  Abs) using the dilutions that fell within the linear range of the standard curve.
+Anti-HSA immune responses in the animals were measured by  titrating mouse plasma samples on HSA-coated plates and detecting bound  antibody with HRP-conjugated anti-mouse-IgG antibody (1:1,000; Rockland).
+  For primate samples, ELISAs were performed similarly to above except that  plates were coated with anti-HA capture antibody.
+See Supplemental Experimental Procedures for additional details.
+  PK Analysis  All PK values other than terminal half-lives were computed using in-house  software implementing standard noncompartmental analysis methods (Gabrielsson and Weiner, 2007).
+Terminal half-lives were computed by fitting to a  biexponential model using the NLINFIT function in MATLAB 2010a.
+Statistical  comparisons for PK data were computed using an unpaired two-tailed t test for  populations with unequal variances as implemented by the TTEST2 function in  MATLAB 2010a.
+  ACCESSION NUMBERS  Atomic coordinates and structure factor amplitudes for the structures have  been deposited in the PDB under accession code 4K71.
+  SUPPLEMENTAL INFORMATION  Supplemental Information includes Supplemental Discussion, Supplemental  Experimental Procedures, four figures, and three tables and can be found  with this article online at http://dx.doi.org/10.1016/j.str.2013.08.022.
+  AUTHOR CONTRIBUTIONS  E.S.F. conceived the isolation of high-affinity variants.
+M.M.S. developed the  yeast display system and HSA selection conditions.
+M.M.S. and A.J.A.  obtained and characterized the mutants.
+C.D. made the hFcRn cell line.
+  A.J.M. expressed proteins.
+E.B.S. and A.J.A. purified proteins.
+P.A.L. performed protein chemical analyses.
+S.A.T. obtained the crystal structure.
+  M.M.S., A.J.A., B.M.K., T.M.B., and S.A.T. analyzed data.
+J.T.K., A.L.M.,  A.J.A., M.M.S., and D.V.E. designed and conducted PK studies.
+A.W.T. performed immunogenicity assays.
+K.D.W., E.S.F., and T.M.B. guided research  strategy.
+M.M.S., S.A.T., and T.M.B. wrote the paper.
+All authors reviewed  the manuscript.
+  ACKNOWLEDGMENTS  We thank Rick Walters, Gina Ranieri, and Alex Dementiev at Shamrock Structures for collecting X-ray data and determining the structure; Stephan Krapp  and Stefan Steinbacher at Proteros for final refinement of the coordinates;  Zach Burks and Eric Blair at the Sinclair Research Center for carrying out  the primate studies; and the Eleven team for support and advice.
+All authors  own stock or stock options in and were either employees or scientific founders  of Eleven Biotherapeutics.  Received: June 30, 2013  Revised: August 17, 2013  Accepted: August 23, 2013  Published: October 10, 2013  REFERENCES  Adams, E.J., and Luoma, A.M. (2013).
+The adaptable major histocompatibility  complex (MHC) fold: structure and function of nonclassical and MHC class  I-like molecules.
+Annu. Rev. Immunol. 31, 529561.  Akilesh, S., Christianson, G.J., Roopenian, D.C., and Shaw, A.S. (2007).
+  Neonatal FcR expression in bone marrow-derived cells functions to protect  serum IgG from catabolism.
+J. Immunol.
+179, 45804588.  Andersen, J.T., Dee Qian, J., and Sandlie, I. (2006).
+The conserved histidine  166 residue of the human neonatal Fc receptor heavy chain is critical for the  pH-dependent binding to albumin.
+Eur. J. Immunol. 36, 30443051.  Andersen, J.T., Daba, M.B., Berntzen, G., Michaelsen, T.E., and Sandlie, I.  (2010).
+Cross-species binding analyses of mouse and human neonatal Fc  receptor show dramatic differences in immunoglobulin G and albumin binding.
+  J. Biol. Chem. 285, 48264836.  Andersen, J.T., Dalhus, B., Cameron, J., Daba, M.B., Plumridge, A., Evans, L.,  Brennan, S.O., Gunnarsen, K.S., Bjra s, M., Sleep, D., and Sandlie, I. (2012).
+  Structure-based mutagenesis reveals the albumin-binding site of the neonatal  Fc receptor.
+Nat. Commun. 3, 610.  Andersen, J.T., Cameron, J., Plumridge, A., Evans, L., Sleep, D., and Sandlie, I.  (2013).
+Single-chain variable fragment albumin fusions bind the neonatal Fc  receptor (FcRn) in a species-dependent manner: Implications for in vivo  half-life evaluation of albumin fusion therapeutics.
+J. Biol. Chem. 288,  2427724285.  Beeken, W.L., Volwiler, W., Goldsworthy, P.D., Garby, L.E., Reynolds, W.E.,  Stogsdill, R., and Stemler, R.S. (1962).
+Studies of I-131-albumin catabolism  and distribution in normal young male adults.
+J. Clin. Invest. 41, 13121333.
+  Bennhold, H., and Kallee, E. (1959).
+Comparative studies on the half-life of I  131-labeled albumins and nonradioactive human serum albumin in a case of  analbuminemia.
+J. Clin. Invest. 38, 863872.  Bhattacharya, A.A., Curry, S., and Franks, N.P. (2000).
+Binding of the general  anesthetics propofol and halothane to human serum albumin.
+High resolution  crystal structures.
+J. Biol. Chem. 275, 3873138738.
+  Boder, E.T., Midelfort, K.S., and Wittrup, K.D. (2000).
+Directed evolution of  antibody fragments with monovalent femtomolar antigen-binding affinity.
+  Proc. Natl. Acad. Sci. U. S. A. 97, 1070110705.  Bos, O.J., Labro, J.F., Fischer, M.J., Wilting, J., and Janssen, L.H. (1989).
+The  molecular mechanism of the neutral-to-base transition of human serum albumin.
+Acid/base titration and proton nuclear magnetic resonance studies on a  large peptic and a large tryptic fragment of albumin.
+J. Biol. Chem. 264,  953959.  Brodersen, R., Andersen, S., Vorum, H., Nielsen, S.U., and Pedersen, A.O.  (1990).
+Multiple fatty acid binding to albumin in human blood plasma.
+Eur. J.  Biochem. 189, 343349.  Chao, G., Lau, W.L., Hackel, B.J., Sazinsky, S.L., Lippow, S.M., and Wittrup,  K.D. (2006).
+Isolating and engineering human antibodies using yeast surface  display.
+Nat. Protoc. 1, 755768.  Chaudhury, C., Mehnaz, S., Robinson, J.M., Hayton, W.L., Pearl, D.K.,  Roopenian, D.C., and Anderson, C.L. (2003).
+The major histocompatibility  complex-related Fc receptor for IgG (FcRn) binds albumin and prolongs its lifespan.
+J. Exp. Med. 197, 315322.  Chaudhury, C., Brooks, C.L., Carter, D.C., Robinson, J.M., and Anderson, C.L.  (2006).
+Albumin binding to FcRn: distinct from the FcRn-IgG interaction.
+  Biochemistry 45, 49834990.  Curry, S. (2009).
+Lessons from the crystallographic analysis of small molecule  binding to human serum albumin.
+Drug Metab. Pharmacokinet. 24, 342357.  Curry, S., Mandelkow, H., Brick, P., and Franks, N. (1998).
+Crystal structure of  human serum albumin complexed with fatty acid reveals an asymmetric distribution of binding sites.
+Nat. Struct.
+Biol. 5, 827835.  DallAcqua, W.F., Woods, R.M., Ward, E.S., Palaszynski, S.R., Patel, N.K.,  Brewah, Y.A., Wu, H., Kiener, P.A., and Langermann, S. (2002).
+Increasing  the affinity of a human IgG1 for the neonatal Fc receptor: biological consequences.
+J. Immunol.
+169, 51715180.
+  Datta-Mannan, A., Witcher, D.R., Tang, Y., Watkins, J., and Wroblewski, V.J.  (2007).
+Monoclonal antibody clearance.
+Impact of modulating the interaction  of IgG with the neonatal Fc receptor.
+J. Biol. Chem. 282, 17091717.  Datta-Mannan, A., Chow, C.K., Dickinson, C., Driver, D., Lu, J., Witcher, D.R.,  and Wroblewski, V.J. (2012).
+FcRn affinity-pharmacokinetic relationship of five  human IgG4 antibodies engineered for improved in vitro FcRn binding properties in cynomolgus monkeys.
+Drug Metab. Dispos. 40, 15451555.  Emsley, P., Lohkamp, B., Scott, W.G., and Cowtan, K. (2010).
+Features and  development of Coot.
+Acta Crystallogr.
+D Biol. Crystallogr. 66, 486501.  Feng, Y., Gong, R., and Dimitrov, D.S. (2011).
+Design, expression and characterization of a soluble single-chain functional human neonatal Fc receptor.
+  Protein Expr. Purif. 79, 6671.  Structure  FcRn Mimics Albumin Ligands for Recycling  Structure 21, 19661978, November 5, 2013 2013 Elsevier Ltd All rights reserved 1977Gabrielsson, J., and Weiner, D. (2007).
+Pharmacokinetic and Pharmacodynamic  Data Analysis: Concepts and Applications, Fourth Edition. (Stockholm: Swedish  Pharmaceutical Press).
+  Gao, C., Chaudhury, C., and Yao, X. February 2013.
+HSA-related compositions and methods of use.
+U.S. patent 2013/0053322.  Ghetie, V., Popov, S., Borvak, J., Radu, C., Matesoi, D., Medesan, C., Ober,  R.J., and Ward, E.S. (1997).
+Increasing the serum persistence of an IgG fragment by random mutagenesis.
+Nat. Biotechnol. 15, 637640.  Ghuman, J., Zunszain, P.A., Petitpas, I., Bhattacharya, A.A., Otagiri, M., and  Curry, S. (2005).
+Structural basis of the drug-binding specificity of human  serum albumin.
+J. Mol. Biol. 353, 3852.  Gurbaxani, B., Dela Cruz, L.L., Chintalacharuvu, K., and Morrison, S.L. (2006).
+  Analysis of a family of antibodies with different half-lives in mice fails to find a  correlation between affinity for FcRn and serum half-life.
+Mol. Immunol. 43,  14621473.  Gurbaxani, B., Dostalek, M., and Gardner, I. (2013).
+Are endosomal trafficking  parameters better targets for improving mAb pharmacokinetics than FcRn  binding affinity?
+Mol. Immunol. 56, 660674.  Hinton, P.R., Johlfs, M.G., Xiong, J.M., Hanestad, K., Ong, K.C., Bullock, C.,  Keller, S., Tang, M.T., Tso, J.Y., Va squez, M., and Tsurushita, N. (2004).
+  Engineered human IgG antibodies with longer serum half-lives in primates.
+  J. Biol. Chem. 279, 62136216.  Hinton, P.R., Xiong, J.M., Johlfs, M.G., Tang, M.T., Keller, S., and Tsurushita,  N. (2006).
+An engineered human IgG1 antibody with longer serum half-life.
+  J. Immunol. 176, 346356.  Israel, E.J., Simister, N., Freiberg, E., Caplan, A., and Walker, W.A. (1993).
+  Immunoglobulin G binding sites on the human foetal intestine: a possible  mechanism for the passive transfer of immunity from mother to infant.
+  Immunology 79, 7781.  Kabsch, W. (2010). XDS. Acta Crystallogr.
+D Biol.
+Crystallogr. 66, 125132.  Kenanova, V.E., Olafsen, T., Salazar, F.B., Williams, L.E., Knowles, S., and Wu,  A.M. (2010).
+Tuning the serum persistence of human serum albumin domain  III:diabody fusion proteins.
+Protein Eng. Des. Sel. 23, 789798.  Kim, J., Bronson, C.L., Hayton, W.L., Radmacher, M.D., Roopenian, D.C.,  Robinson, J.M., and Anderson, C.L. (2006).
+Albumin turnover: FcRn-mediated  recycling saves as much albumin from degradation as the liver produces.
+Am.  J. Physiol. Gastrointest.
+Liver Physiol. 290, G352G360.  Kim, J., Hayton, W.L., Robinson, J.M., and Anderson, C.L. (2007).
+Kinetics of  FcRn-mediated recycling of IgG and albumin in human: pathophysiology and  therapeutic implications using a simplified mechanism-based model.
+Clin.  Immunol.
+122, 146155.  Krissinel, E., and Henrick, K. (2007).
+Inference of macromolecular assemblies  from crystalline state.
+J. Mol. Biol. 372, 774797.  Kuo, T.T., and Aveson, V.G. (2011).
+Neonatal Fc receptor and IgG-based  therapeutics.
+MAbs.
+3, 422430.  Labro, J.F., and Janssen, L.H. (1986).
+A proton nuclear magnetic resonance  study of human serum albumin in the neutral pH region.
+Biochim. Biophys.
+  Acta 873, 267278.  Liu, R., Yang, J., Ha, C.E., Bhagavan, N.V., and Eckenhoff, R.G. (2005).
+  Truncated human serum albumin retains general anaesthetic binding activity.
+  Biochem. J. 388, 3945.  Liu, X., Lu, L., Yang, Z., Palaniyandi, S., Zeng, R., Gao, L.Y., Mosser, D.M.,  Roopenian, D.C., and Zhu, X. (2011).
+The neonatal FcR-mediated presentation  of immune-complexed antigen is associated with endosomal and phagosomal  pH and antigen stability in macrophages and dendritic cells.
+J. Immunol. 186,  46744686.
+  Martin, W.L., West, A.P.J., Jr., Gan, L., and Bjorkman, P.J. (2001).
+Crystal  structure at 2.8 A of an FcRn/heterodimeric Fc complex: mechanism of pHdependent binding.
+Mol. Cell 7, 867877.  McCoy, A.J., Grosse-Kunstleve, R.W., Adams, P.D., Winn, M.D., Storoni, L.C.,  and Read, R.J. (2007).
+Phaser crystallographic software.
+J. Appl. Crystallogr.  40, 658674.  Mezo, A.R., Sridhar, V., Badger, J., Sakorafas, P., and Nienaber, V. (2010).
+  X-ray crystal structures of monomeric and dimeric peptide inhibitors in complex with the human neonatal Fc receptor, FcRn. J. Biol.
+Chem. 285, 27694  27701.  Murshudov, G.N., Vagin, A.A., and Dodson, E.J. (1997).
+Refinement of macromolecular structures by the maximum-likelihood method. Acta Crystallogr.
+D  Biol. Crystallogr. 53, 240255.  Nielsen, H., Kragh-Hansen, U., Minchiotti, L., Galliano, M., Brennan, S.O.,  Tarnoky, A.L., Franco, M.H., Salzano, F.M., and Sugita, O. (1997).
+Effect of  genetic variation on the fatty acid-binding properties of human serum albumin  and proalbumin.
+Biochim. Biophys. Acta 1342, 191204.  Ober, R.J., Martinez, C., Vaccaro, C., Zhou, J., and Ward, E.S. (2004).
+  Visualizing the site and dynamics of IgG salvage by the MHC class I-related  receptor, FcRn.
+J. Immunol.
+172, 20212029.
+  Peach, R.J., and Brennan, S.O. (1991).
+Structural characterization of a glycoprotein variant of human serum albumin: albumin Casebrook (494 Asp  Asn).
+Biochim. Biophys. Acta 1097, 4954.  Petitpas, I., Petersen, C.E., Ha, C.E., Bhattacharya, A.A., Zunszain, P.A.,  Ghuman, J., Bhagavan, N.V., and Curry, S. (2003).
+Structural basis of albumin-thyroxine interactions and familial dysalbuminemic hyperthyroxinemia.
+  Proc. Natl. Acad. Sci. U. S. A. 100, 64406445.
+  Petkova, S.B., Akilesh, S., Sproule, T.J., Christianson, G.J., Al Khabbaz, H.,  Brown, A.C., Presta, L.G., Meng, Y.G., and Roopenian, D.C. (2006).
+  Enhanced half-life of genetically engineered human IgG1 antibodies in a  humanized FcRn mouse model: potential application in humorally mediated  autoimmune disease.
+Int. Immunol. 18, 17591769.
+  Plumridge, A. Sleep, D., Cameron, J., Sandlie, I., Andersen, J.T., and Friis, E.P.  August 2012.
+Albumin variants.
+U.S. patent 2012/0220530.  Rakestraw, J.A., Baskaran, A.R., and Wittrup, K.D. (2006).
+A flow cytometric  assay for screening improved heterologous protein secretion in yeast.
+  Biotechnol. Prog. 22, 12001208.
+  Rakestraw, J.A., Sazinsky, S.L., Piatesi, A., Antipov, E., and Wittrup, K.D.  (2009).
+Directed evolution of a secretory leader for the improved expression  of heterologous proteins and full-length antibodies in Saccharomyces  cerevisiae.
+Biotechnol. Bioeng. 103, 11921201.  Rodewald, R., and Kraehenbuhl, J.P. (1984).
+Receptor-mediated transport of  IgG. J. Cell Biol. 99, 159s164s.  Simard, J.R., Zunszain, P.A., Ha, C.-E., Yang, J.S., Bhagavan, N.V., Petitpas,  I., Curry, S., and Hamilton, J.A. (2005).
+Locating high-affinity fatty acid-binding  sites on albumin by x-ray crystallography and NMR spectroscopy.
+Proc. Natl.  Acad. Sci. U. S. A. 102, 1795817963.  Spiegelberg, H.L., Fishkin, B.G., and Grey, H.M. (1968).
+Catabolism of human  gammaG-immunoglobulins of different heavy chain subclasses.
+I. Catabolism  of gammaG-myeloma proteins in man.
+J. Clin. Invest. 47, 23232330.  Stapleton, N.M., Andersen, J.T., Stemerding, A.M., Bjarnarson, S.P., Verheul,  R.C., Gerritsen, J., Zhao, Y., Kleijer, M., Sandlie, I., de Haas, M., et al. (2011).
+  Competition for FcRn-mediated transport gives rise to short half-life of human  IgG3 and offers therapeutic potential.
+Nat. Commun. 2, 599.  Sugio, S., Kashima, A., Mochizuki, S., Noda, M., and Kobayashi, K. (1999).
+  Crystal structure of human serum albumin at 2.5 A resolution.
+Protein Eng.  12, 439446.  Wang, W., Lu, P., Fang, Y., Hamuro, L., Pittman, T., Carr, B., Hochman, J., and  Prueksaritanont, T. (2011).
+Monoclonal antibodies with identical Fc sequences  can bind to FcRn differentially with pharmacokinetic consequences.
+Drug  Metab. Dispos. 39, 14691477.  West, A.P.J., Jr., and Bjorkman, P.J. (2000).
+Crystal structure and immunoglobulin G binding properties of the human major histocompatibility complex-related Fc receptor(,).
+Biochemistry 39, 96989708.  Yeung, Y.A., Leabman, M.K., Marvin, J.S., Qiu, J., Adams, C.W., Lien, S.,  Starovasnik, M.A., and Lowman, H.B. (2009).
+Engineering human IgG1 affinity  to human neonatal Fc receptor: impact of affinity improvement on pharmacokinetics in primates.
+J. Immunol. 182, 76637671.
+  Structure  FcRn Mimics Albumin Ligands for Recycling  1978 Structure 21, 19661978, November 5, 2013 2013 Elsevier Ltd All rights reserved

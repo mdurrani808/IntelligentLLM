@@ -1,0 +1,1107 @@
+Molecular Determinants of the Yeast
+Arc1p–Aminoacyl-tRNA Synthetase Complex Assembly
+Eleftherios Karanasios1
+, Hannes Simader2
+, George Panayotou3
+,
+Dietrich Suck2 and George Simos1
+⁎
+1
+Laboratory of Biochemistry,
+Department of Medicine,
+University of Thessaly,
+22 Papakyriazi Street,
+Larissa 41222, Greece
+2
+Structural and Computational
+Biology Unit, European
+Molecular Biology Laboratory,
+Meyerhofstrasse 1,
+D-69117 Heidelberg, Germany
+3
+Protein Chemistry Laboratory,
+Biomedical Sciences Research
+Center “Alexander Fleming,”
+Vari 16672, Greece
+Received 9 August 2007;
+received in revised form
+29 September 2007;
+accepted 3 October 2007
+Available online
+11 October 2007
+Eukaryotic aminoacyl-tRNA synthetases are usually organized into high￾molecular-weight complexes, the structure and function of which are poorly
+understood. We have previously described a yeast complex containing two
+aminoacyl-tRNA synthetases, methionyl-tRNA synthetase and glutamyl￾tRNA synthetase, and one noncatalytic protein, Arc1p, which can stimulate
+the catalytic efficiency of the two synthetases. To understand the complex
+assembly mechanism and its relevance to the function of its components, we
+have generated specific mutations in residues predicted by a recent
+structural model to be located at the interaction interfaces of the N-terminal
+domains of all three proteins. Recombinant wild-type or mutant forms of
+the proteins, as well as the isolated N-terminal domains of the two syn￾thetases, were overexpressed in bacteria, purified and used for complex
+formation in vitro and for determination of binding affinities using surface
+plasmon resonance. Moreover, mutant proteins were expressed as PtA or
+green fluorescent protein fusion polypeptides in yeast strains lacking the
+endogenous proteins in order to monitor in vivo complex assembly and their
+subcellular localization. Our results show that the assembly of the Arc1p–
+synthetase complex is mediated exclusively by the N-terminal domains of
+the synthetases and that the two enzymes bind to largely independent sites
+on Arc1p. Analysis of single-amino-acid substitutions identified residues
+that are directly involved in the formation of the complex in yeast cells and
+suggested that complex assembly is mediated predominantly by van der
+Waals and hydrophobic interactions, rather than by electrostatic forces.
+Furthermore, mutations that abolish the interaction of methionyl-tRNA
+synthetase with Arc1p cause entry of the enzyme into the nucleus, proving
+that complex association regulates its subcellular distribution. The
+relevance of these findings to the evolution and function of the multienzyme
+complexes of eukaryotic aminoacyl-tRNA synthetases is discussed.
+© 2007 Elsevier Ltd. All rights reserved.
+Edited by D. E. Draper Keywords: Arc1; GluRS; MetRS; tRNA; yeast
+Introduction
+Aminoacyl-tRNA synthetases represent a highly
+conserved protein family that is responsible for
+charging tRNAs with their cognate amino acids,
+thus ensuring the faithful translation of the genetic
+code.1 Eukaryotic aminoacyl-tRNA synthetases,
+compared to their prokaryotic counterparts, contain
+appended domains that are not directly involved in
+their catalytic function. These are usually extensions
+to the N- or C-termini, are missing from the
+corresponding prokaryotic enzymes and may thus
+serve a eukaryote-specific nonenzymatic function.
+*Corresponding author. E-mail address:
+simos@med.uth.gr.
+Abbreviations used: MetRS, methionyl-tRNA
+synthetase; GluRS, glutamyl-tRNA synthetase; MetRS-N,
+N-terminal domain of MetRS; GluRS-N, N-terminal
+domain of GluRS-N; SPR, surface plasmon resonance;
+ITC, isothermal titration calorimetry; ORF, open reading
+frame; GFP, green fluorescent protein.
+doi:10.1016/j.jmb.2007.10.010 J. Mol. Biol. (2007) 374, 1077–1090
+Available online at www.sciencedirect.com
+0022-2836/$ - see front matter © 2007 Elsevier Ltd. All rights reserved.They may be required for nonspecific tRNA bind￾ing2–7 or for assembly into multisynthetase com￾plexes.8,9 In higher eukaryotes, synthetases do
+indeed form a supramolecular complex consisting
+of nine aminoacyl-tRNA synthetases and three non￾catalytic polypeptides, p43 (pro-EMAPII), p38 and
+p18.10 The exact function of this complex is still
+unclear. Eukaryotic aminoacyl-tRNA synthetases
+have also been shown to play alternative roles.
+One such role is their involvement in nucleocyto￾plasmic transport, since tRNA aminoacylation is
+necessary for the efficient nuclear export of tRNA in
+both vertebrates and yeast.11–13 These results have
+suggested the presence of the tRNA aminoacylation
+machinery inside the nucleus, which has also been
+substantiated by experimental data.14–16 However,
+the means of controlling the distribution of aminoa￾cyl-tRNA synthetases between the cytoplasm and
+the nucleus is essentially unknown.
+We have previously identified in yeast a complex
+of aminoacyl-tRNA synthetases consisting of
+methionyl-tRNA synthetase (MetRS), glutamyl￾tRNA synthetase (GluRS) and one auxiliary protein,
+Arc1p (the yeast homologue of p43).17 The associa￾tion of Arc1p with the two enzymes stimulates their
+catalytic efficiency.18–20 This stimulation is mainly
+due to the increased affinity of the complex for
+cognate tRNAs and requires the carboxy-terminal
+part of Arc1p, which harbors a tRNA-binding
+domain18 and is conserved in p43, as well as in
+other proteins.21,22 Arc1p is required for optimal cell
+growth, since cells lacking Arc1p grow more slowly
+than wild-type cells, especially at low temperatures
+(between 23 °C and 15 °C). Moreover, Arc1p
+becomes essential for viability in the absence of the
+tRNA nuclear export factor Los1p,17,23 suggesting a
+possible involvement of the Arc1p complex in the
+transport of tRNA or in the localization of the tRNA
+aminoacylation machinery. Previous experiments
+have indeed demonstrated that MetRS, GluRS and
+truncated forms of Arc1p can enter the nucleus
+when not assembled in the complex, while the
+ternary complex itself is strictly cytoplasmic.24
+Arc1p is actively excluded from the nucleus by an
+Xpo1p-dependent mechanism,24,25 suggesting that
+Arc1p may be responsible for the nuclear exclusion
+of its associated synthetases, MetRS and GluRS.
+We have shown previously24 that the formation of
+the trimeric Arc1p–MetRS–GluRS complex in vivo
+requires the amino-terminally appended noncataly￾tic domains of the synthetases, both of which
+interact with the amino-terminal domain (amino
+acids 1–132) of Arc1p. The crystal structures of two
+binary subcomplexes, consisting of the N-terminal
+domain of Arc1p and the N-terminal domain of
+either MetRS or GluRS, were recently determined,
+and a model was proposed for the three-dimen￾sional conformation of the ternary complex.26 How￾ever, several questions concerning the formation of
+the complex remained open. Do the catalytic
+domains of the synthetases contribute to binding?
+Is there any cooperative/synergistic effect in com￾plex assembly? Does the complex behave in vitro
+and in vivo as predicted by the structural model? Is
+the formation of the complex subject to regulation,
+or is it related to the control of the function of its
+components? To address these questions, we con￾structed point or deletion mutations and analyzed
+their effect on the formation of the complex both in
+vitro and in vivo.
+Results
+Quantitative analysis of Arc1p complex
+formation
+The N-domain of Arc1p contains binding sites for
+the noncatalytic N-terminal extensions of MetRS
+and GluRS that mediate complex formation. In
+order to better characterize these binding interac￾tions, we decided to measure the affinity between
+the three components of the complex. To do that,
+wild-type Arc1p, two Arc1p deletion mutants Arc1-
+ΔN1 (lacking amino acids 7–32) and Arc1-ΔN
+(lacking the whole N-domain; i.e., amino acids
+7–122), full-length wild-type GluRS and MetRS, and
+the N-terminal domains of MetRS (MetRS-N; amino
+acids 1–160) and GluRS (GluRS-N; amino acids
+1–207), which are all shown schematically in Fig. 1,
+were expressed as His-tagged recombinant proteins
+in Escherichia coli and purified. In the case of the
+Arc1p deletion mutants, residues 1–7 were retained
+in order to avoid destabilization of the mutant
+proteins by an artificial N-terminus. Samples of the
+purified preparations were analyzed by SDS-PAGE
+and were shown to contain recombinant proteins
+free of any contaminants (data not shown). To
+ensure that the full-length synthetases produced
+in E. coli are structurally similar to the native
+enzymes, they were subjected to circular dichroism
+Fig. 1. Schematic representation of recombinant wild￾type and deletion mutants of Arc1p and the two
+synthetases (MetRS and GluRS) of the Saccharomyces
+cerevisiae ternary complex that were purified from E. coli
+and used to determine the binding affinities by SPR. Light￾gray boxes represent the interacting N-terminal domains
+of Arc1p, MetRS and GluRS. The position of each deletion
+is represented by a line. Numbers refer to amino acid
+residues. Numbers in parentheses indicate deleted amino
+acids.
+1078 Molecular Dissection of the Arc1p Complexanalysis in parallel with full-length synthetases
+isolated from overproducing yeast strains.19 No
+substantial differences could be detected, suggesting
+that the heterologous expression caused no major
+structural defects (data not shown). Similarly, the
+enzymes purified from E. coli were competent in
+forming a stable complex with Arc1p in vitro, as
+previously demonstrated for synthetases of homo￾logous origin19 (data not shown).
+The affinities between the two synthetases or their
+N-terminal domain and Arc1p or its mutant Arc1-
+ΔN1 were measured using the surface plasmon
+resonance (SPR) method in the BIAcore system. In
+these experiments, Arc1p was used as bait because it
+can interact with both synthetases, and it was
+therefore immobilized on a CM-5 biosensor chip by
+amine group cross-linking. The synthetases or their
+N-terminal domains were used as ligands and
+passed over immobilized Arc1p in order to deter￾mine their affinities. To control for nonspecific
+binding of the ligands to the sensor chip, the
+enzymes or their domains were passed over immo￾bilized Arc1-ΔN, which is known not to interact with
+the two synthetases, and their background binding
+was subtracted from their binding to full-length
+Arc1p or Arc1-ΔN1. An example of the original data
+obtained by the BIAcore system is shown in Fig. 2a,
+while Fig. 2b shows the fitting of the data into a
+binding curve that allows the determination of the
+equilibrium dissociation constant Kd. A summary of
+the results obtained with all tested ligands is shown
+in Table 1.
+The results with the full-length enzymes show that
+the affinity of GluRS for Arc1p (Kd = 53 nM) is almost
+3.5-fold higher than the affinity of MetRS for Arc1p
+(Kd = 193 nM), in agreement with previous qualita￾tive experiments showing a weaker association of
+MetRS with the Arc1p complex.17 To investigate
+whether the catalytic domains of the synthetases
+contribute to the interaction with Arc1p, we also
+measured the affinity of MetRS-N and GluRS-N for
+Arc1p. GluRS-N interacts with Arc1p almost six
+times stronger than full-length GluRS (Kd = 9 nM
+instead of 53 nM). The same is also true for MetRS-N
+(Kd = 39 nM instead of 193 nM). These data suggest
+that, at least under these in vitro experimental
+conditions, the catalytic domains of GluRS and
+MetRS do not facilitate and even hinder the interac￾tion with Arc1p. It is likely that the presence of the
+bulky catalytic domains weakens the interaction
+between the N-terminal domains of the synthetases
+Fig. 2. Quantitative analysis of protein–protein inter￾actions by SPR. (a) Sensorgram of MetRS N-domain
+binding to Arc1p. The arrow on the left indicates the point
+of addition of MetRS-N (ligand), while the arrow on the
+right indicates the point of addition of the buffer. Each
+curve corresponds to a different ligand concentration. (b)
+Fitting of the maximal binding values for each concentra￾tion shown in (a) in a binding curve and calculation of Kd.
+(c) Binding curve fitting of the maximal binding values for
+each protein concentration when full-length MetRS and
+GluRS are passed simultaneously over a sensor chip
+containing immobilized Arc1p. The equation describing
+the curve assumes two independent binding sites on
+Arc1p and, accordingly, produces two corresponding Kd
+values.
+Molecular Dissection of the Arc1p Complex 1079and Arc1p because of steric hindrance caused by the
+immobilization of Arc1p on the surface of the
+biosensor chip. If this is true, then the Kd values
+determined for the isolated N-terminal domains may
+give a more accurate measure of the affinity between
+the full-length proteins when they interact in
+solution. This is supported by the finding that the
+affinity of GluRS for Arc1p, as determined by
+isothermal titration calorimetry (ITC) when both
+proteins are in solution (Kd = 27 nM), was between
+the values determined by SPR for the full-length
+protein and the N-terminal domain. Unfortunately, it
+proved impossible to determine the MetRS–Arc1p
+affinity by ITC probably due to its significantly lower
+value.
+We have previously demonstrated that deletion of
+Arc1p amino acid residues 7–32 abolishes interac￾tion with MetRS, but not with GluRS, in vivo.
+24 In
+order to quantitate the involvement of Arc1p amino
+acid residues 7–32 in the binding of MetRS and
+GluRS, we immobilized Arc1-ΔN1 on the biosensor
+chip and repeated the aforementioned analysis. Both
+full-length and N-terminal MetRS showed no
+affinity for Arc1-ΔN1, suggesting that the missing
+part of Arc1p is indeed required for the interaction
+with MetRS. On the other hand, GluRS and its
+N-terminal domain still bound to Arc1-ΔN1, but
+their affinity was reduced by 7- to 13-fold (Table 1),
+suggesting that the very N-terminal part of Arc1p is
+not required for binding to GluRS, but its deletion
+may destabilize the rest of the N-terminal domain of
+Arc1p, which is involved in the interaction with
+GluRS. It has also been previously suggested for the
+mammalian multisynthetase complex that binding
+of certain components may subsequently facilitate
+the assembly of additional components.27 To test
+this hypothesis in the yeast complex, immobilized
+Arc1p was first treated with saturating amounts of
+GluRS or GluRS-N to produce the corresponding
+dimeric complexes, which were subsequently
+exposed to increasing concentrations of MetRS.
+Prebinding of GluRS-N slightly increased the
+affinity of MetRS for Arc1p (Kd = 127 nM compared
+to 193 nM), while prebinding of GluRS weakened
+the interaction between MetRS and Arc1p
+(Kd = 315 nM compared to 193 nM), again probably
+due to steric hindrance caused by the immobiliza￾tion. Therefore, no evidence suggesting that the
+binding of MetRS to Arc1p was significantly
+facilitated by preformation of the Arc1p–GluRS
+complex could be obtained. This was confirmed by
+the fact that when both MetRS and GluRS were
+simultaneously passed over the Arc1p sensor chip,
+the binding data could be fitted into the two-site
+saturation equation, which assumes the presence of
+two independent interaction sites (Fig. 2c). The
+theoretical values for the predicted Kd values in this
+case (43 nM and 323 nM) are in good agreement
+with the Kd values determined when single proteins
+were analyzed as described above (53 nM for the
+Arc1p–GluRS interaction and 315 nM for the
+interaction of MetRS with the preformed Arc1p–
+GluRS complex). Overall, the SPR data suggest that
+there is no significant synergy in the formation of the
+trimeric Arc1p–GluRS–MetRS complex and that the
+synthetase-binding sites on Arc1p are functionally
+distinct and independent.
+Mutagenesis of the interacting domains of the
+Arc1p–GluRS–MetRS complex and analysis of
+the in vivo functionality of the mutants
+We have recently proposed a structural model for
+ternary complex formation between Arc1p-, MetRS￾and GluRS-interacting domains based on the crystal
+structure of the two corresponding binary com￾plexes.26 To experimentally test this model, we have
+previously constructed certain point mutations,
+which are shown schematically in Fig. 3a, at amino
+acid residues located at the interaction interfaces
+between Arc1p and MetRS or GluRS (Fig. 3b), and
+we have shown that they inhibited complex forma￾tion in vitro.
+26 To extend this analysis, we have now
+made additional point mutants, as well as a double
+mutant of Arc1p, which are also shown in Fig. 3a. To
+test whether these and the previous mutations
+affected the overall stability and function of the
+native proteins, several of the mutant constructs
+were subcloned to yeast expression plasmids that
+also provided PtA or green fluorescent protein
+(GFP) tags to allow detection, purification and
+localization of the mutant proteins. With the help
+of these plasmids, we constructed yeast strains that
+lacked the endogenous proteins but expressed their
+mutant counterparts. As shown in Fig. 4a by
+Western blot analysis, all Arc1p mutants, except
+Arc1p(A26R) and Arc1p(R100A), were expressed in
+the arc1− strain. Strikingly, a mutant form of Arc1p
+combining those two mutations was expressed,
+albeit at lower levels than its wild-type counterpart.
+Although ARC1 is not an essential gene, it becomes
+essential for yeast viability upon simultaneous
+deletion of the tRNA exportin gene LOS1.
+17 So, to
+test whether the expressed Arc1p point mutants are
+functional, they were introduced into the double￾knockout strain arc1−
+los1−
+. All expressed Arc1p
+mutants designed to disrupt complex formation
+with either MetRS or GluRS were able to substitute
+for the wild-type Arc1p in the arc1−
+los1− knockout
+strain, except for the double mutant Arc1p(A26R,
+R100A), which was designed to disrupt association
+Table 1. Dissociation constants (Kd ± SD; nM) of the Arc1p–
+MetRS and Arc1p–GluRS interactions as determined by
+SPR
+Ligand–analyte MetRS MetRS-N GluRS GluRS-N
+Arc1p 193 ± 11
+(n= 3)
+39 ± 10
+(n= 3)
+53 ± 23a
+(n= 3)
+9±1
+(n= 2)
+Arc1-ΔN1 − − 345 ± 65
+(n= 2)
+124 ± 28
+(n= 2)
+Arc1p–GluRS 315 ± 35 (n= 2) nd nd nd
+Arc1p–GluRS-N 127 ± 7 (n= 2) nd nd nd
+n, number of repeats of independent experiments using different
+chips and protein batches; nd, not determined; (−) no interaction. a Determination by ITC gave a value of 27 nM.
+1080 Molecular Dissection of the Arc1p ComplexFig. 3. (a) Schematic representation of point mutations at amino acid residues located at the interfaces between Arc1p
+and MetRS, or between Arc1p and GluRS. The interacting N-domains of all complex proteins are drawn in light gray.
+Hatched boxes with different patterns on each protein indicate amino acid sequences participating in binary interactions.
+Point mutations of each protein are drawn facing the interacting protein. Mutations shown in bold are being reported for
+the first time in this work. (b) Atomic details of the GluRS–Arc1p (left) and Arc1p–MetRS (right) binding interfaces
+highlighting the residues targeted for mutagenesis. Residues of Arc1p, GluRS and MetRS are marked with labels in green,
+red and blue, respectively. Red dotted lines represent salt bridges, while green dotted lines represent hydrogen bonds.
+Molecular Dissection of the Arc1p Complex 1081with both synthetases, and cells expressing it were
+not viable (Fig. 4b). A similar analysis was also
+performed for the MetRS and GluRS point mutants.
+As shown in Fig. 5, all MetRS and GluRS mutant
+forms were stably expressed and able to comple￾ment the mes1− and gus1− knockout strains,
+respectively, suggesting that the mutations in their
+N-terminal domains did not affect their essential
+function in tRNA aminoacylation.
+Analysis of the Arc1p–MetRS interaction in vitro
+and in vivo
+Using recombinant proteins in pull-down assays,
+we have previously shown that mutations A26R and
+A63H in Arc1p and MetRS, respectively, disrupted
+the formation of the Arc1p–MetRS complex in vitro
+without affecting the Arc1p–GluRS interaction.26 To
+extend this analysis, the new mutant proteins shown
+in Fig. 3a were overexpressed in E. coli, purified to
+homogeneity (data not shown) and used for in vitro
+binding using both pull-down assays and SPR
+analysis. Concerning MetRS, the results of the pull￾down assay showed that mutation F59A was
+detrimental to its in vitro association with Arc1p
+(Fig. 6a, lane 2). In the case of Arc1p, mutation S33A
+significantly weakened its interaction with MetRS
+(Fig. 6a, lane 4) but did not affect the interac￾tion between Arc1p and GluRS (Fig. 6a, lane 7).
+These findings are also summarized in Table 2
+(for the Arc1p mutants) and Table 3 (for the MetRS
+mutants).
+These, as well as the previous pull-down assay
+results, were validated using SPR in the BIAcore
+system. We did not detect a stable Arc1p–MetRS
+interaction when wild-type Arc1p was substituted
+with the A26R or S33A mutant (Table 2), or when
+MetRS was substituted with the F59A or A63H
+mutant (Table 3).
+Because the in vitro analysis may not accurately
+reflect the potential of the mutant proteins for
+complex assembly, we also monitored the formation
+of the complex in vivo. To do this, PtA-tagged
+mutant proteins were purified by IgG-Sepharose
+Fig. 4. Genetic analysis of Arc1p point mutants. (a)
+Western blot analysis of extracts from cells expressing PtA￾tagged wild-type (lane 1) or point-mutated (lanes 2–7) forms
+of Arc1p in the strain arc1− using an anti-PtA antibody.
+Equal amounts of extracts were loaded in each lane.
+(b) Complementation of the knockout strain arc1−
+los1− by
+constructs expressing wild-type or point-mutated PtA￾tagged forms of Arc1p, as indicated. Complementation is
+shown by the ability to lose the pURA3-Arc1 plasmid and to
+grow in the presence of 5-fluoroorotic acid. (–) Transforma￾tion by an empty plasmid.
+Fig. 5. Genetic analysis of (a) MetRS and (b) GluRS
+point mutants. Upper panels: Extracts from cells expres￾sing PtA-tagged wild-type or point-mutated forms of
+MetRS (a; lanes 1–3) and GluRS (b; lanes 1–4) in the strains
+mes1− and gus1−
+, respectively, were analyzed by Western
+blot, using an anti-PtA antibody. Equal amounts of
+extracts were loaded in each lane. Lower panels: Com￾plementation of the knockout strains mes1− (a) and gus1−
+(b) by constructs expressing wild-type or point-mutated
+PtA-tagged MetRS or GluRS, respectively, as indicated. (–)
+Transformation by an empty plasmid.
+1082 Molecular Dissection of the Arc1p Complexaffinity chromatography from total cell extracts of
+yeast cells expressing the corresponding mutants.
+This analysis revealed that both MetRS mutations
+(F59A and A63H) inhibited the association of MetRS
+with Arc1p (Fig. 6b, lanes 2 and 3; Table 3). As
+mentioned above, the Arc1p form carrying mutation
+A26R could not be expressed in vivo, but Arc1p
+mutant S33A, which was expressed, lost its ability to
+interact with either endogenous or GFP-tagged
+MetRS, while it retained wild-type association levels
+with endogenous GluRS (Fig. 6b, lanes 5 and 7;
+Table 2). In contrast, the double-mutant form of
+Arc1p, A26R R100A, was unable to associate with
+either of the two synthetases (Fig. 6b, lane 8; Table 2),
+Fig. 6. Mutations of single
+amino acids, which are located at
+the Arc1p–MetRS interface, disrupt
+complex formation both in vitro and
+in vivo. (a) Twenty micrograms of
+wild-type (lanes 1 and 2) or point￾mutated (lanes 3–7) His-Arc1p was
+incubated in a solution with 40 μg
+of wild-type (lanes 1 and 3–5) or
+point-mutated (lane 2) MetRS or
+wild-type GluRS (lanes 6 and 7)
+and Ni-NTA-Sepharose beads.
+Bound proteins were eluted from
+the beads with 200 nM imidazole
+and analyzed by SDS-PAGE and
+Coomassie staining. (b) Affinity
+purification by IgG-Sepharose
+chromatography of wild-type
+and point-mutated PtA-MetRS ex￾pressed in the mes1− strain (lanes
+1–3), or of wild-type and point￾mutated PtA-Arc1p expressed in
+the arc1−
+los1− (lanes 4 and 5) or the
+arc1−
+GFP-MetRS (lanes 6–8) strain.
+Upper panels: Analysis of column
+eluates by SDS-PAGE and Coomas￾sie Blue staining. Lower panels:
+Western blot analysis of the eluates
+using anti-Arc1p or anti-GFP anti￾bodies, as indicated. Only the rele￾vant parts of the blots are shown.
+The numbers on the left corre￾spond to molecular mass markers
+(in kDa).
+Table 2. Summary of in vitro and in vivo analyses of interactions between wild-type/mutant forms of Arc1p and wild￾type MetRS and GluRS
+Arc1p
+MetRS GluRS
+In vitro In vivo In vitro In vivo
+Pull down SPR (Kd; nM) Affinity purification Pull down SPR (Kd; nM) Affinity purification
+Wild type + 193 + + 53 +
+A26R − − nd + nd nd
+S33A +/−− − + nd +
+T55R + nd +/− −− −
+T55V + nd nd + 152 nd
+R100A + nd nd − − nd
+Y104A + nd +/− −− −
+A26R R100A − nd − − nd −
+nd, not determined; (+) strong interaction; (−) no interaction; (+/−) weak interaction.
+Molecular Dissection of the Arc1p Complex 1083thus explaining its inability to complement the
+synthetic lethal arc1−
+los1− strain (Fig. 4b).
+Analysis of the Arc1p–GluRS interaction in vitro
+and in vivo
+Using pull-down assays and recombinant pro￾teins, we have previously reported that mutations
+T55R and R100A in Arc1p, as well as mutations
+T125R and R164A in GluRS, disrupted the formation
+of the Arc1p–GluRS complex in vitro without
+detectably affecting the Arc1p–MetRS interaction.26
+For comparison purposes, we reproduced the
+results here, as shown in Fig. 7a (lanes 2, 5, 6, 8, 11
+and 13). The rest of Fig. 7a shows the results of the
+pull-down assays with the new GluRS and Arc1p
+mutants. Interestingly, substitution of GluRS threo￾nine 125 with valine, instead of arginine (T125V
+instead of T125R), left the GluRS–Arc1p complex
+unaffected (Fig. 7a, lane 3). Accordingly, substitu￾tion of Arc1p threonine 55 with valine, instead of
+arginine (T55V instead of T55R), also did not affect
+the formation of the Arc1p–GluRS complex (Fig. 7a,
+lane 7). Mutation K157A in GluRS appeared not to
+inhibit the in vitro association between GluRS and
+Arc1p (Fig. 7a, lane 4). In contrast, mutation Y104A
+in Arc1p completely inhibited binding to GluRS in
+vitro (Fig. 7a, lane 9), without detectably affecting
+binding to MetRS (Fig. 7a, lane 14). The pull-down
+assay data are summarized in Table 2 (Arc1p
+mutants) and Table 3 (GluRS mutants).
+The in vitro interaction data were further validated
+using SPR. As shown in Table 3, the GluRS mutants
+T125R and R164A gave no detectable interaction
+with Arc1p in the BIAcore system, while mutants
+T125V and K157A bound to Arc1p, but their binding
+affinities were reduced by 3- to 5-fold in comparison
+to wild-type GluRS. As predicted by the pull-down
+Fig. 7. Mutagenesis of certain
+amino acid residues at the Arc1p–
+GluRS interface inhibits Arc1p–
+GluRS interaction both in vitro and
+in vivo. (a) Wild-type (lanes 1–5) or
+point-mutated (lanes 6–14) His￾Arc1p was tested for its ability to
+interact in vitro with wild-type
+GluRS (lanes 6–10) or MetRS (lanes
+11–14) or point mutants of GluRS
+(lanes 2–5), as described in the
+legend to Fig. 6. (b) Affinity purifica￾tion by IgG-Sepharose chroma￾tography of wild-type and point￾mutated PtA-GluRS in the gus1−
+strain (lanes 1–4), or of wild-type
+and point-mutated PtA-Arc1p in
+the arc1−
+los1− (lanes 5–7) or the
+arc1−
+GFP-GluRS (lanes 8–10) strain.
+Upper panels: Analysis of column
+eluates by SDS-PAGE and Coomas￾sie staining. Lower panels: Western
+blot analysis of the eluates using
+anti-Arc1p and anti-GFP antibodies,
+as indicated. Only the relevant parts
+of the blots are shown. The numbers
+on the left correspond to molecular
+mass markers (in kDa).
+Table 3. Summary of in vitro and in vivo analyses of
+interactions between wild-type/mutant forms of MetRS
+or GluRS and wild-type Arc1p
+In vitro In vivo
+Pull down SPR (Kd; nM) Affinity purification
+MetRS wt + 164 +
+MetRS F59A −− −
+MetRS A63H −− −
+GluRS wt + 53 +
+GluRS T125R −− −
+GluRS T125V + 179 nd
+GluRS K157A + 265 +
+GluRS R164A −− −
+nd, not determined; (+) strong interaction; (−) no interaction;
+(+/−) weak interaction.
+1084 Molecular Dissection of the Arc1p Complexassays, immobilized Arc1p mutants T55R, R100A
+and Y104A could not detectably associate with
+GluRS passing over the biosensor chip (Table 2). In
+contrast, the Arc1p mutant T55V bound to GluRS,
+albeit with 3-fold-reduced affinity compared to
+wild-type Arc1p (Table 2).
+Most of these in vitro findings were then evaluated
+in vivo using affinity purification of PtA-tagged
+mutant or wild-type proteins. This analysis revealed
+that the GluRS mutations T125R and R164A, but not
+K157A, inhibited the association of GluRS with
+Arc1p inside yeast cells (Fig. 7b, lanes 2–4; Table 3).
+Arc1p mutations T55R and Y104A also rendered
+Arc1p unable to interact with either endogenous or
+GFP-tagged GluRS (Fig. 7b, lanes 5–10; Table 2). The
+same mutations did not abolish association with
+endogenous MetRS, but significantly weakened it.
+Formation of the MetRS–Arc1p complex
+regulates the subcellular distribution of MetRS
+Our previous data have suggested that formation
+of the Arc1p–MetRS–GluRS complex regulates the
+subcellular distribution of its individual compo￾nents. More precisely, wild-type MetRS, which
+forms a complex with Arc1p, was excluded from
+the nucleus, while deletion of the MetRS N-terminal
+domain and disassembly of the complex allowed the
+catalytic core of the synthetase to be located inside
+the nucleus.24 Similar results were also obtained for
+GluRS, although, in this case, nuclear localization
+was weaker and required only partial deletion of its
+N-terminal domain. To reassess whether the sub￾cellular distribution of the two enzymes is solely
+regulated by their interaction with Arc1p, we tagged
+point mutants of MetRS, GluRS and Arc1p with
+GFP. Western blot and complementation analyses of
+the expression of the GFP-tagged proteins gave
+similar results as with the PtA-tagged correspond￾ing mutants shown in Fig. 5 (data not shown). The
+cells expressing GFP-tagged mutants were then
+examined by confocal laser scanning microscopy.
+Wild-type and expressed point mutants of Arc1p
+were detected exclusively outside the nucleus (Fig.
+8a), in agreement with our previously proposed
+model, according to which Arc1p nuclear exclusion
+does not depend on its interaction with the synthe￾tases but is due to its active nuclear export through
+Xpo1p.25 Mutants of GluRS that lost their apparent
+capacity to stably interact with Arc1p were also
+detected exclusively in the cytoplasm as in their
+wild-type counterpart (Fig. 8b), suggesting that
+either these mutants retained some capacity to inter￾act with Arc1p in vivo (albeit to a degree that did not
+allow the isolation of stable complexes) or the
+subcellular distribution of GluRS was not strictly
+regulated by complex formation. Concerning MetRS,
+the wild-type form was detected exclusively inside
+the cytoplasm, in agreement with our previous
+data.24 On the contrary, point-mutated MetRS with￾Fig. 8. Localization of GFP￾tagged point-mutated forms of (a)
+Arc1p, (b) GluRS and (c) MetRS in
+arc1−
+, gus1− and mes1− cells, respec￾tively, by confocal laser scanning
+microscopy. On confocal images, in
+which sections through roughly the
+center of the cells are shown, v
+indicates vacuoles and nuclei are
+marked by arrows.
+Molecular Dissection of the Arc1p Complex 1085out an ability to interact with Arc1p could also be
+detected inside the nucleus (Fig. 8c). This shows that
+the subcellular distribution of MetRS is dictated
+predominantly by complex formation with Arc1p.
+Discussion
+Previous biochemical,19 genetic24 and structural26
+analyses have suggested that the N-terminally
+appended domains of MetRS and GluRS interact
+with the N-domain of Arc1p. However, it remained
+unclear whether the catalytic domains of the synthe￾tases contributed to the interaction with Arc1p.
+We have now shown by SPR analysis that the
+N-terminal domains of synthetases exhibit a greater
+affinity for Arc1p than for the full-length synthe￾tases, suggesting that the catalytic domains of the
+synthetases do not take part in complex formation
+and may even hinder this process in vitro. Although
+one would expect that the binding of full-length
+synthetases is more biologically relevant, it is also
+possible that the mass transfer restrictions imposed
+sterically by the bulky noninteracting domains—
+a problem encountered in solid-phase-binding
+assays—artificially increase the Kd values of the
+full-length enzymes for Arc1p compared to the Kd
+values of their isolated interacting N-terminal
+domains. Assuming that the hindrance caused by
+the catalytic domains is an artifact of the two-phase
+system, it is possible that the apparent Kd values
+measured for the N-terminal domains (9 nM for
+GluRS and 39 nM for MetRS) more precisely reflect
+the real affinities of the enzymes for Arc1p when all
+proteins are in solution and can freely rotate to
+obtain the best binding orientation. These values are
+indeed more closely related to those calculated for
+the interaction between the noncatalytic and the
+catalytic components of the mammalian multisyn￾thetase complex.27
+Another issue was whether the binding of one
+synthetase to Arc1p affected interaction with the
+second. Since no significant difference in affinity was
+detected when a preformed binary complex bet￾ween immobilized Arc1p and GluRS was chal￾lenged with MetRS, we suggest an independent
+binding of the two synthetases on Arc1p, in agree￾ment with recent structural data.26 This finding
+appears to be in contrast to results concerning the
+mammalian multisynthetase complex, since binding
+of certain components to the scaffold protein p38
+was reported to be synergistic.27 Nevertheless,
+synergistic interactions in the mammalian complex
+are mostly due to cumulative affinities between
+more than two components of the complex, instead
+of conformational changes in the interacting
+components.27 Moreover, proteins comprising the
+core of the complex interact nonsynergistically,27 in
+agreement with our results in the yeast complex,
+which could thus represent an ancient core around
+which evolution has formed the more sophisticated
+mammalian complex. This hypothesis is further
+supported by the fact that the interactions in the
+yeast complex are mediated through glutathione-S￾transferase-like structural domains,26 which are also
+found in interacting components of the mammalian
+complex, such as p38 binding to GluProRS and p18
+interaction with MetRS10 (see below and Fig. 9).
+A model of the ternary complex between the
+N-terminal domains of Arc1p and the synthetases
+MetRS and GluRS was recently proposed based on
+the crystal structures of two binary subcomplexes.26
+To validate this model, we analyzed the effect of
+point mutations on binary interactions in vitro and in
+a quantitative way using the BIAcore system.
+Furthermore, we monitored the effect of these
+mutations on ternary complex assembly in vivo,
+thus offering a biologically meaningful evaluation of
+the structural model. According to this model,
+complex formation is predominantly mediated by
+Fig. 9. Alignment of (a) yeast (Sc) Arc1p with human (Hs) noncatalytic components of the multisynthetase complex
+p18 and p38; of (b) Sc MetRS with Hs MetRS; and of (c) Sc GluRS with Hs GluProRS. Only the relevant parts of the
+interacting N-terminal domains are shown. Multiple sequence alignments were calculated with MUSCLE28 using default
+program parameters. Identical residues are shown as white characters in a black box. Residues mutated at the Arc1p–
+MetRS interface are indicated by arrowheads, and residues mutated at the GluRS–Arc1p interface are indicated by stars.
+1086 Molecular Dissection of the Arc1p Complexvan der Waals interactions between nonpolar amino
+acid residues.26 In support of this, point mutations of
+conserved amino acid residues increasing the size of
+side chains, such as Arc1p(A26R), Arc1p(T55R),
+MetRS(A63H) and GluRS(T125R), abolished com￾plex formation both in vitro and in vivo. These
+mutations apparently disrupt the complementarity
+between interacting interfaces and disallow the
+formation of van der Waals bonds. In support of
+this, two point mutations, Arc1p(T55V) and GluRS
+(T125V), which did not dramatically change the size
+of the side chain and roughly retained interface
+complementarity, allowed the interaction between
+Arc1p and GluRS in vitro, even though they reduced
+their affinity by about threefold. To investigate the
+contribution of hydrogen bonds and salt bridges to
+complex formation, we substituted charged or polar
+amino acid residues of the interfaces with alanine.
+We found that, while mutation Y104A in Arc1p
+precluded the interaction with GluRS, mutation
+S33A in Arc1p and mutation K157A in GluRS
+did not abolish Arc1p–MetRS (at least in vitro) and
+Arc1p–GluRS interactions, respectively, even though
+they reduced the corresponding affinities. These
+results demonstrate that electrostatic forces enhance
+the interaction but do not represent the driving force
+for complex formation. In contrast, hydrophobic
+interactions appear to be more directly involved in
+complex formation. Substituting the conserved R100
+and R164 residues in Arc1p and GluRS, respectively
+(which, according to the structural model, form
+stacking interactions), abolished the Arc1p–GluRS
+interaction in vitro and in vivo. Along the same line,
+participation of MetRS F59 in hydrophobic interac￾tions with Arc1p was shown to be crucial for
+complex formation. Finally, the Y104A mutation in
+Arc1p may abolish complex assembly because of the
+removal of the hydrophobic phenyl ring, rather than
+the loss of a hydrogen bond.
+Despite the overall agreement between the experi￾mental findings and the predictions of the structural
+model, certain discrepancies have to be pointed out.
+Deletion of residues 7–32 of Arc1p, which are part of
+the interaction interface with MetRS, abolished, as
+expected, binding to MetRS, but also significantly
+reduced affinity for GluRS, suggesting that the two
+binding sites on Arc1p may partially overlap—
+something that is not evident in the ternary complex
+structural model. It is possible that this deletion
+causes inefficient folding and subsequent destabili￾zation of the rest of the Arc1p N-terminal domain,
+thus affecting the stability of the interaction with
+GluRS. This hypothesis is supported by the fact that
+point mutations in Arc1p, which abolish interaction
+with MetRS, do not apparently affect binding to
+GluRS. On the other hand, point mutations in Arc1p
+interrupting the interaction with GluRS apparently
+reduce the stability of the in vivo interaction with
+MetRS. Because the interface for the GluRS interac￾tion lies more centrally in the Arc1p N-domain, the
+substitution of certain residues located at this
+interface could affect the overall folding and
+stability of the whole Arc1p N-domain, thus low￾ering the affinity for MetRS. It becomes evident that
+structural data have to be combined with in vivo
+experimentation in order to characterize the binding
+properties of a wild-type or mutant protein. In sum￾mary, the role of individual amino acid residues in
+the assembly of a synthetase complex was assessed
+in vivo for the first time. Several of these amino
+acid residues are conserved in the corresponding
+glutathione-S-transferase-like structural domains
+of the catalytic or noncatalytic components of the
+mammalian multisynthetase complex, as shown by
+sequence alignments between yeast and related
+human proteins (Fig. 9). This justifies their targeting
+also in mammalian cells in order to understand the
+molecular basis of the assembly and, subsequently,
+the function of the multisynthetase complex of
+higher eukaryotes.
+We have previously suggested that the subcellular
+distribution of MetRS, and probably of GluRS, is
+dictated by complex formation with Arc1p.24 The
+availability of synthetase point mutants lacking the
+ability to bind to Arc1p in vivo allowed us to test this
+hypothesis more vigorously. Confocal microscopy
+analysis showed that, at least in the case of MetRS,
+lack of association with Arc1p was correlated with
+the appearance of a nuclear pool of the enzyme,
+suggesting that monomeric MetRS can be imported
+into the nucleus by the use of a so far unidentified
+nuclear localization sequence (NLS). We have
+recently shown that Arc1p is actively exported
+from the nucleus in an Xpo1p-dependent way.25 It
+is therefore likely that the steady-state cytoplasmic
+localization of wild-type MetRS is the end result of a
+dynamic process involving nuclear import of free
+MetRS and efficient nuclear export of the MetRS–
+Arc1p complex. Why should MetRS enter the
+nucleus at all? In higher eukaryotes, minor pools of
+synthetases have been detected inside the nucleus.14
+These nuclear pools are thought to be necessary for
+the aminoacylation of newly synthesized tRNAs
+as a precondition for their nuclear export.11 Human
+MetRS has additionally been suggested to play
+a nuclear role in regulating rRNA synthesis.16
+Data from the yeast system also point to a link
+between nuclear tRNA aminoacylation and tRNA
+transport.29 A synthetic lethal relationship between
+Arc1p and the yeast nuclear tRNA export receptor
+Los1p exists.17,23 Inhibition of aminoacylation leads
+to accumulation of mature tRNAs inside the yeast
+nucleus.15,30–32 Furthermore, overexpression of
+yeast MetRS suppresses the nuclear export defect
+of tRNAMet in the absence of yeast tRNA exportin
+Los1p.33 Therefore, the presence of MetRS inside the
+nucleus may serve the aminoacylation and efficient
+nuclear export of its cognate tRNA. Another
+appealing possibility is that the Arc1p–MetRS
+complex contributes directly to the transport of its
+cognate tRNAMet by physically carrying it out of the
+nucleus. Investigation of the tRNA export in yeast
+strains lacking LOS1 and expressing the complex￾dissociating point mutants of Arc1p or MetRS could
+test the direct or indirect participation of the Arc1p–
+MetRS complex in tRNA nuclear export.
+Molecular Dissection of the Arc1p Complex 1087The subcellular distribution of GluRS appears to
+be more complicated in respect to its regulation by
+complex assembly. More specifically, while the full￾length protein was excluded from the nucleus, a
+deletion mutant lacking part of its N-terminal
+domain and interaction with Arc1p was also
+detected inside the nucleus.24 In agreement, lack of
+Arc1p also led to the distribution of GluRS to both
+nuclear and cytoplasmic compartments. Inexplic￾ably, however, a deletion mutant of GluRS missing
+the whole N-terminal domain was relocalized
+exclusively in the cytoplasm.24 Analysis of the
+localization of GluRS point mutants in this study
+did not solve this puzzle and suggested that
+disruption of the complex does not affect the
+localization of full-length GluRS. One possibility is
+that GluRS, like Arc1p, can determine its localiza￾tion by independent means, which are not directly
+related to complex formation with Arc1p. However,
+these means may be affected by the mere presence of
+Arc1p in the cell. As already mentioned, Arc1p
+becomes essential for yeast cell viability when the
+tRNA exportin Los1p is missing.17 We have shown
+here that a double mutant of Arc1p, which interacts
+with neither MetRS nor GluRS, cannot complement
+the synthetic lethal arc1−
+los1− strain, while interac￾tion with either one of the two synthetases allows
+these cells to grow. Therefore, cells that lack Los1p
+and subsequently suffer a tRNA export defect
+require the presence of a complex between Arc1p
+and at least one synthetase. Probably, association
+between Arc1p and a synthetase is advantageous in
+both ways: It favors the function of the synthetase in
+terms of catalysis, and it also supports the possible
+role of Arc1p in tRNA transport.
+Materials and Methods
+Yeast strains, media and plasmids
+The following previously described plasmids were used:
+pET8c-His6-Arc1p, pET8c-His6-Arc1p-ΔN(7–122),18
+pRS315-PNOP1-PtA, pRS315-PNOP1-GFP,23 pASZ11-PNOP1-
+GFP-Arc1-ΔN1(Δ7–32), pRS315-PNOP1-GFP-MetRS,
+pRS315-PNOP1-GFP-GluRS,24 pETm-Arc1p, pETm-MetRS,
+pETm-MetRS-N, pETm-GluRS and pETm-GluRS-N.26 The
+yeast strains arc1−
+, arc1−
+los1−
+, mes1−
+, arc1−
+mes1−
+, gus1− and
+arc1−
+gus1− have been described previously.17,24 The strains
+arc1−
+GFP-MetRS and arc1−
+GFP-GluRS were constructed
+by the transformation of arc1−
+mes1− and arc1−
+gus1−
+strains with pRS315-PNOP1-GFP-MetRS and pRS315-
+PNOP1-GFP-GluRS, respectively. Yeast cells were grown
+in rich YPD medium or synthetic SDC medium contain￾ing the necessary amino acids and nutrients. For
+counterselection of cells containing URA3 plasmids, 5-
+fluoroorotic acid (Toronto Research Chem.) was used at
+1 μg/ml.
+Protein expression and purification
+The purification of recombinant epitope (His6)-tagged
+Arc1p and Arc1p deletion mutants; wild-type and point￾mutated Arc1p, MetRS and GluRS; and MetRS and GluRS
+deletion mutants from E. coli cells was performed as
+described previously.17,18,26,34,35
+Mutagenesis and construction of plasmids
+Single-amino-acid substitution mutants of Arc1p,
+MetRS and GluRS were constructed using as template
+wild-type genes cloned into a modified pETm (Novagen)
+vector,26 with the QuikChange® II Site-Directed Muta￾genesis Kit (Stratagene) and suitable oligonucleotides, the
+sequence of which is available upon request. The DNA
+sequence of the point mutants was confirmed by the
+sequencing performed at the Genomics Core Facility of
+the European Molecular Biology Laboratory (Heidelberg,
+Germany). Point-mutated Arc1p and GluRS, as well as
+wild-type Arc1p open reading frames (ORFs), were
+amplified and provided with PstI restriction sites at
+both ends by PCR and then subcloned into pRS315-
+PNOP1-PtA and pRS315-PNOP1-GFP vectors. The part of
+MetRS sequence containing mutated amino acid residues
+was excised from pETm-MetRS (NcoI/StuI) and then
+subcloned into pRS315-PNOP1-PtA-MetRS vector, repla￾cing wild-type sequence. Mutated MetRS ORF was
+excised and subcloned into pRS315-PNOP1-GFP vector.
+pET8c-His6-Arc1-ΔN1(Δ7–32) was constructed as fol￾lows: Part of the truncated Arc1p ORF coding for the
+sequence between amino acid residue 32 (site of deletion)
+and a corresponding HpaI site inside the C-domain of
+Arc1p was excised from pASZ11-PNOP1-GFP-Arc1-ΔN1
+(Δ7–32) (XhoI/HpaI) and subcloned into pET8c-His6-
+Arc1-ΔN1(Δ7–122), replacing part of another truncated
+Arc1p ORF starting from amino acid residue 122 (site of
+deletion).
+In vitro interaction analysis
+An interaction analysis of mutated and wild-type
+Arc1p, MetRS and GluRS was performed by Ni-NTA￾Sepharose affinity chromatography using as bait His6-
+tagged wild-type or mutated Arc1p with untagged wild￾type or mutated MetRS or GluRS as prey proteins. Ni￾NTA-Sepharose beads (QIAGEN) were washed and
+equilibrated in HBS buffer (20 mM Hepes pH 7.4,
+150 mM NaCl). Twenty microliters of Ni-NTA-Sepharose
+beads was mixed with 20 μg of bait protein (Arc1p) and
+40 μg of prey protein (MetRS or GluRS) in 500 μl of HBS
+buffer (final volume) and incubated at 4 °C for 1 h.
+Nonspecifically bound protein was removed by washing
+with 3 × 1 ml HBS buffer+ 20 mM imidazole, and proteins
+were eluted with 100 μl of HBS buffer + 200 mM imidazole.
+The protein content of column eluates was analyzed by
+SDS-PAGE and Coomassie staining.
+Biosensor experiments
+SPR measurements were carried out using a BIAcore
+(BIACORE AB, Uppsala, Sweden) instrument, essentially
+as previously described.36 In brief, a biosensor chip (CM-5;
+BIACORE AB) was used to immobilize Arc1p, using an
+amine coupling kit (BIACORE AB). A separate surface
+was similarly coupled with Arc1-ΔN protein, which
+served as a control. All interactions were carried out in
+20 mM Hepes (pH 7.4), 150 mM NaCl, 2 mM ethylene￾diaminetetraacetic acid and 0.005% Tween 20. Varying
+concentrations of the different ligand proteins in the above
+buffer (1–2000 nM) were injected over the two surfaces at a
+flow rate of 20 μl/min at 25 °C, and the response at
+1088 Molecular Dissection of the Arc1p Complexequilibrium was recorded. The response from the control
+surface was subtracted and the data were plotted as
+resonance units versus ligand–protein concentration. The
+equilibrium dissociation constant Kd was calculated by
+fitting the data to the equation, R=RmaxC/(Kd +C), where
+R is the response at equilibrium, Rmax is the maximum
+response level and C is the concentration of the protein.
+Data from the simultaneous binding of MetRS and GluRS
+to the Arc1p chip were fitted to the equation, R=Rmax1C/
+(Kd1+C)+Rmax2C/(Kd2+C), which assumes the presence
+of two independent binding sites.
+Isothermal titration calorimetry
+ITC measurements were carried out using a VP-ITC
+microcalorimeter from MicroCal, Inc. All experiments
+were conducted at 20 °C. Sample cell and syringe proteins
+were diluted to a final concentration of 5 μM and 50 μM,
+respectively, with storage buffer (20 mM Hepes, 150 mM
+NaCl, 5 mM MgCl2 and 10% glycerol). GluRS was applied
+to the sample cell containing Arc1p with 17 repeated
+injections of 15 μl each at 5-min intervals. The final result
+was an average of three independent experiments.
+Experimental data were analyzed with Origin software.
+Miscellaneous procedures
+Affinity purification of PtA fusion proteins was
+performed essentially as described previously.17,18
+Expression of the fusion proteins transformed in yeast
+cells, as well as copurification of untagged proteins in PtA
+affinity purification eluates, was analyzed by a Western
+blot of whole-cell extracts or column eluates, respectively,
+using polyclonal antibodies against the GFP moiety,
+rabbit PAP (Dako), to detect the PtA tag or antibodies
+against Arc1p.17 Confocal laser scanning microscopy was
+performed using a Zeiss LSM510 FCS confocal micro￾scope. The images shown in Fig. 8 correspond to sections
+that are approximately in the middle of the cells. Protein
+concentrations were determined using the Protein Assay
+reagent from Bio-Rad. SDS-PAGE and DNA manipula￾tions (restriction digestions, PCR amplifications, and
+others) were performed in accordance with standard
+protocols.
+Acknowledgements
+We wish to thank the other members of our
+laboratory and Dr. E. Paraskeva (Laboratory of
+Physiology, University of Thessaly) for their useful
+comments and suggestions. Part of this work was
+supported by a grant from the Greek Ministry of
+Education (IRAKLEITOS in the context of the
+European-Union-funded EPEAEK II program) to
+G.S. and by a European Molecular Biology Organi￾zation (EMBO) short-term fellowship to E.K.
+Supplementary Data
+Supplementary data associated with this article
+can be found, in the online version, at doi:10.1016/
+j.jmb.2007.10.010
+References
+1. Ibba, M. & Soll, D. (2000). Aminoacyl-tRNA synthesis.
+Annu. Rev. Biochem. 69, 617–650.
+2. Wang, C. C., Morales, A. J. & Schimmel, P. (2000).
+Functional redundancy in the nonspecific RNA bind￾ing domain of a class I tRNA synthetase. J. Biol. Chem.
+275, 17180–17186.
+3. Cahuzac, B., Berthonneau, E., Birlirakis, N., Guittet, E.
+& Mirande, M. (2000). A recurrent RNA-binding
+domain is appended to eukaryotic aminoacyl-tRNA
+synthetases. EMBO J. 19, 445–452.
+4. Frugier, M., Moulinier, L. & Giege, R. (2000). A
+domain in the N-terminal extension of class IIb
+eukaryotic aminoacyl-tRNA synthetases is important
+for tRNA binding. EMBO J. 19, 2371–2380.
+5. Ryckelynck, M., Giege, R. & Frugier, M. (2003). Yeast
+tRNA(Asp) charging accuracy is threatened by the
+N-terminal extension of aspartyl-tRNA synthetase.
+J. Biol. Chem. 278, 9683–9690.
+6. Francin, M., Kaminska, M., Kerjan, P. & Mirande, M.
+(2002). The N-terminal domain of mammalian lysyl￾tRNA synthetase is a functional tRNA-binding do￾main. J. Biol. Chem. 277, 1762–1769.
+7. Francin, M. & Mirande, M. (2003). Functional
+dissection of the eukaryotic-specific tRNA-interacting
+factor of lysyl-tRNA synthetase. J. Biol. Chem. 278,
+1472–1479.
+8. Rho, S. B., Kim, M. J., Lee, J. S., Seol, W., Motegi, H.,
+Kim, S. & Shiba, K. (1999). Genetic dissection of
+protein–protein interactions in multi-tRNA synthetase
+complex. Proc. Natl Acad. Sci. USA. 96, 4488–4493.
+9. Agou, F. & Mirande, M. (1997). Aspartyl-tRNA
+synthetase from rat: in vitro functional analysis of its
+assembly into the multisynthetase complex. Eur. J.
+Biochem. 243, 259–267.
+10. Quevillon, S., Robinson, J. C., Berthonneau, E.,
+Siatecka, M. & Mirande, M. (1999). Macromolecular
+assemblage of aminoacyl-tRNA synthetases: identifi￾cation of protein–protein interactions and character￾ization of a core protein. J. Mol. Biol. 285, 183–195.
+11. Lund, E. & Dahlberg, J. E. (1998). Proofreading and
+aminoacylation of tRNAs before export from the
+nucleus. Science, 282, 2082–2085.
+12. Simos, G. & Hurt, E. (1999). Transfer RNA biogenesis:
+a visa to leave the nucleus. Curr. Biol. 9, R238–R241.
+13. Grosshans, H., Simos, G. & Hurt, E. (2000). Review:
+Transport of tRNA out of the nucleus—direct chan￾neling to the ribosome? J. Struct. Biol. 129, 288–294.
+14. Nathanson, L. & Deutscher, M. P. (2000). Active
+aminoacyl-tRNA synthetases are present in nuclei as
+a high molecular weight multienzyme complex. J. Biol.
+Chem. 275, 31559–31562.
+15. Azad, A. K., Stanford, D. R., Sarkar, S. & Hopper, A. K.
+(2001). Role of nuclear pools of aminoacyl-tRNA
+synthetases in tRNA nuclear export. Mol. Biol. Cell,
+12, 1381–1392.
+16. Ko, Y. G., Kang, Y. S., Kim, E. K., Park, S. G. & Kim, S.
+(2000). Nucleolar localization of human methionyl￾tRNA synthetase and its role in ribosomal RNA
+synthesis. J. Cell Biol. 149, 567–574.
+17. Simos, G., Segref, A., Fasiolo, F., Hellmuth, K.,
+Shevchenko, A., Mann, M. & Hurt, E. C. (1996). The
+yeast protein Arc1p binds to tRNA and functions as a
+cofactor for the methionyl- and glutamyl-tRNA
+synthetases. EMBO J. 15, 5437–5448.
+18. Simos, G., Sauer, A., Fasiolo, F. & Hurt, E. C. (1998). A
+conserved domain within Arc1p delivers tRNA to
+aminoacyl-tRNA synthetases. Mol. Cell, 1, 235–242.
+Molecular Dissection of the Arc1p Complex 108919. Deinert, K., Fasiolo, F., Hurt, E. C. & Simos, G. (2001).
+Arc1p organizes the yeast aminoacyl-tRNA synthe￾tase complex and stabilizes its interaction with the
+cognate tRNAs. J. Biol. Chem. 276, 6000–6008.
+20. Graindorge, J. S., Senger, B., Tritch, D., Simos, G. &
+Fasiolo, F. (2005). Role of Arc1p in the modulation of
+yeast glutamyl-tRNA synthetase activity. Biochemistry,
+44, 1344–1352.
+21. Morales, A. J., Swairjo, M. A. & Schimmel, P. (1999).
+Structure-specific tRNA-binding protein from the
+extreme thermophile Aquifex aeolicus. EMBO J. 18,
+3475–3483.
+22. Kaminska, M., Deniziak, M., Kerjan, P., Barciszewski,
+J. & Mirande, M. (2000). A recurrent general RNA
+binding domain appended to plant methionyl-tRNA
+synthetase acts as a cis-acting cofactor for aminoacyla￾tion. EMBO J. 19, 6908–6917.
+23. Hellmuth, K., Lau, D. M., Bischoff, F. R., Kunzler, M.,
+Hurt, E. & Simos, G. (1998). Yeast Los1p has proper￾ties of an exportin-like nucleocytoplasmic transport
+factor for tRNA. Mol. Cell. Biol. 18, 6374–6386.
+24. Galani, K., Grosshans, H., Deinert, K., Hurt, E. C. &
+Simos, G. (2001). The intracellular location of two
+aminoacyl-tRNA synthetases depends on complex
+formation with Arc1p. EMBO J. 20, 6889–6898.
+25. Galani, K., Hurt, E. & Simos, G. (2005). The tRNA
+aminoacylation co-factor Arc1p is excluded from the
+nucleus by an Xpo1p-dependent mechanism. FEBS
+Lett. 579, 969–975.
+26. Simader, H., Hothorn, M., Kohler, C., Basquin, J.,
+Simos, G. & Suck, D. (2006). Structural basis of
+yeast aminoacyl-tRNA synthetase complex forma￾tion revealed by crystal structures of two binary
+sub-complexes. Nucleic Acids Res. 34, 3968–3979.
+27. Robinson, J. C., Kerjan, P. & Mirande, M. (2000).
+Macromolecular assemblage of aminoacyl-tRNA syn￾thetases: quantitative analysis of protein–protein
+interactions and mechanism of complex assembly.
+J. Mol. Biol. 304, 983–994.
+28. Edgar, R. C. (2004). MUSCLE: multiple sequence
+alignment with high accuracy and high throughput.
+Nucleic Acids Res. 32, 1792–1797.
+29. Simos, G., Grosshans, H. & Hurt, E. (2002). Nuclear
+export of tRNA. Results Probl. Cell Differ. 35, 115–131.
+30. Sarkar, S., Azad, A. K. & Hopper, A. K. (1999). Nuclear
+tRNA aminoacylation and its role in nuclear export of
+endogenous tRNAs in Saccharomyces cerevisiae. Proc.
+Natl Acad. Sci. USA. 96, 14366–14371.
+31. Grosshans, H., Hurt, E. & Simos, G. (2000). An
+aminoacylation-dependent nuclear tRNA export
+pathway in yeast. Genes Dev. 14, 830–840.
+32. Steiner-Mosonyi, M. & Mangroo, D. (2004). The nuclear
+tRNA aminoacylation-dependent pathway may be the
+principal route used to export tRNA from the nucleus in
+Saccharomyces cerevisiae. Biochem. J. 378, 809–816.
+33. Feng, W. & Hopper, A. K. (2002). A Los1p-indepen￾dent pathway for nuclear export of intronless tRNAs
+in Saccharomyces cerevisiae. Proc. Natl Acad. Sci. USA.
+99, 5412–5417.
+34. Simader, H., Hothorn, M. & Suck, D. (2006). Structures
+of the interacting domains from yeast glutamyl-tRNA
+synthetase and tRNA-aminoacylation and nuclear￾export cofactor Arc1p reveal a novel function for an
+old fold. Acta Crystallogr. Sect. D, 62, 1510–1519.
+35. Simader, H. & Suck, D. (2006). Expression, puri￾fication, crystallization and preliminary phasing of
+the heteromerization domain of the tRNA-export
+and aminoacylation cofactor Arc1p from yeast. Acta
+Crystallogr. Sect. F, 62, 346–349.
+36. Jonsson, U., Fagerstam, L., Ivarsson, B., Johnsson, B.,
+Karlsson, R., Lundh, K. et al. (1991). Real-time
+biospecific interaction analysis using surface plasmon
+resonance and a sensor chip technology. Biotechniques,
+11, 620–627.
+1090 Molecular Dissection of the Arc1p Complex

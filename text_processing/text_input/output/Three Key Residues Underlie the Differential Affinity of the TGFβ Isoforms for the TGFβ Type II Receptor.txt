@@ -1,0 +1,1390 @@
+Three Key Residues Underlie the Differential Affinity
+of the TGFb Isoforms for the TGFb Type II Receptor
+Gregory De Crescenzo3
+†, Cynthia S. Hinck1
+†, Zhanyong Shu1
+Jorge Zu´n˜iga1
+, Junhua Yang2
+, Yuping Tang2
+, Jason Baardsnes3
+Valentı´n Mendoza4
+, LuZhe Sun2
+, Fernando Lo´pez-Casillas4
+Maureen O’Connor-McCourt3 and Andrew P. Hinck1*
+1
+Department of Biochemistry
+University of Texas Health
+Science Center at San Antonio
+San Antonio, TX 78229, USA
+2
+Department of Cellular and
+Structural Biology, University
+of Texas Health Science Center
+at San Antonio, San Antonio
+TX 78229, USA
+3
+Biotechnology Research
+Institute, National Research
+Council, Montreal,
+Que. Canada H4P2R2
+4
+Instituto de Fisiologı´a Celular
+Universidad Nacional
+Auto´noma de Me´xico,
+Ciudad de Me´xico,
+D.F. 04510, Me´xico
+TGFb1, b2, and b3 are 25 kDa homodimeric polypeptides that play crucial
+non-overlapping roles in development, tumor suppression, and wound
+healing. They exhibit 70–82% sequence identity and transduce their signals
+by binding and bringing together the TGFb type I and type II receptors,
+TbRI and TbRII. TGFb2 differs from the other isoforms in that it binds TbRII
+weakly and is dependent upon the co-receptor betaglycan for function. To
+explore the physicochemical basis underlying these differences, we
+generated a series of single amino acid TbRII variants based on the crystal
+structure of the TbRII:TGFb3 complex and examined these in terms of their
+TGFb isoform binding affinity and their equilibrium stability. The results
+showed that TbRII Ile53 and Glu119, which contact TGFb3 Val92 and
+Arg25, respectively, together with TbRII Asp32, Glu55, and Glu75, which
+contact TGFb3 Arg94, each contribute significantly, between 1 kcal molK1
+to 1.5 kcal molK1
+, to ligand binding affinities. These contacts likely underlie
+the estimated 4.1 kcal molK1 lower affinity with which TbRII binds TGFb2
+as these three ligand residues are unchanged in TGFb1 but are
+conservatively substituted in TGFb2 (Lys25, Ile92, and Lys94). To test this
+hypothesis, a TGFb2 variant was generated in which these three residues
+were changed to those in TGFbs 1 and 3. This variant exhibited receptor
+binding affinities comparable to those of TGFbs 1 and 3. Together, these
+results show that these three residues underlie the lowered affinity of
+TGFb2 for TbRII and that all isoforms likely induce assembly of the TGFb
+signaling receptors in the same overall manner.
+q 2005 Elsevier Ltd. All rights reserved.
+*Corresponding author Keywords: TGFb; TbRII; betaglycan; ligand–receptor; alanine scanning
+Introduction
+Transforming growth factor-beta (TGFb) isoforms
+regulate cell proliferation, cell differentiation, and
+expression of extracellular matrix proteins and are
+the founding members of a highly diversified
+superfamily of w25 kDa signal ligands.1 These
+isoforms, and other structurally related proteins of
+the TGFb superfamily, such as activins, bone
+morphogenetic proteins (BMPs), and growth and
+differentiation factors (GDFs), exert their biological
+effects by binding and bringing together two pairs
+of structurally similar, single-pass transmembrane
+receptors, classified as types I and II.2 The ligand￾mediated assembly of these two receptor types
+triggers an intracellular phosphorylation cascade,
+initiated by the serine-threonine kinase domain of
+the type II receptor, which transphosphorylates the
+adjacent type I kinase.3 The type I kinase in turn
+phosphorylates the nuclear-translocating Smad
+0022-2836/$ - see front matter q 2005 Elsevier Ltd. All rights reserved.
+† G. De C. & C.S.H. contributed equally to this work.
+Present addresses: G. De Crescenzo, E´ cole
+Polytechnique de Montre´al, De´partement de ge´nie
+chimique, Montreal, Que. Canada H3C3A7; Z. Shu,
+Department of Biological Chemistry, University of
+California, Irvine, CA 92697, USA.
+Abbreviations used: TGFb, transforming growth factor
+b; ED, extracellular domain; SPR, surface plasmon
+resonance; FBHE, fetal bovine heart endothelial.
+E-mail address of the corresponding author:
+hinck@uthscsa.edu
+doi:10.1016/j.jmb.2005.10.022 J. Mol. Biol. (2006) 355, 47–62proteins, which together with various transcrip￾tional coactivators and corepressors,4 regulate
+transcription of target genes.
+There are three TGFb isoforms in mammals. The
+isoforms, termed TGFbs 1–3, are each encoded by a
+distinct gene, share between 70% and 82% sequence
+identity, and are expressed in a developmentally
+regulated tissue-specific fashion.1 They exhibit
+overlapping biological activities in vitro although
+the phenotypes of the isoform-specific null mice are
+non-overlapping. TGFb1 null mice have an auto￾immune-like inflammatory disease,5 TGFb2 null
+mice exhibit perinatal mortality and developmental
+defects,6 and TGFb3 null mice have cleft palate and
+are defective in lung development.7 This indicates
+that each isoform fulfills a distinct role in vivo.
+The three TGFb isoforms have been shown to
+transduce their signals by binding the TGFb type I
+and type II receptors, TbRI and TbRII, respectively.8
+TGFb2 differs from TGFbs 1 and 3, however, in that
+it binds TbRII with an affinity about 1000-fold
+weaker (corresponds to a reduction of its binding
+free energy of about 4.1 kcal molK1
+).9–11 Consistent
+with this altered pattern of TbRII binding, cell
+responsiveness to TGFb2 has been shown to be
+dependent upon a third abundant TGFb binding
+protein, known as betaglycan.12
+The assembly on the cell surface of the complex
+between TbRI and TbRII and the TGFb isoforms has
+been shown through experiments with differen￾tially tagged receptors to occur with a 2:2:1
+stoichiometry.13,14 This stoichiometry has been
+confirmed in part through the determination of
+the structure of the TbRII extracellular domain
+(TbRII-ED) bound to the TGFb3 dimer.15 This
+showed that TbRII-ED binds by wedging itself
+between the fingers on the distal ends of the
+dimer. There is no contact between the two bound
+TbRII-ED and neither TbRII-ED nor TGFb
+undergo significant structural rearrangements
+upon binding.15–17 There is at present no structural
+information available for the TbRI extracellular
+domain (TbRI-ED), although based on the crystal
+structure of the 2:1 BMP type Ia receptor extracellular
+domain (BMPRIa-ED) complexed to BMP-2,18 it has
+been proposed that all type I receptors of the TGFb
+superfamily bind their cognate growth factors by
+binding at the dimer interface in a manner similar
+to that of BMPRIa.18
+The objective of the studies reported here was to
+identify interactions that contribute to the affinity
+and specificity of TbRII:TGFb isoform binding. This
+was accomplished by generating a series of single
+amino acid TbRII-ED variants. These were charac￾terized in terms of their stability using fluorescence
+and their TGFb isoform binding properties using
+native gels, surface plasmon resonance, and cell￾based Smad phosphorylation assays. The results
+showed that the effects of the substitutions on
+affinity are largely due to alterations in ligand
+contacts, not stability, and that complex formation
+is mediated by a linear array of hydrophobic
+residues that bind in a hydrophobic cleft and by
+two flanking hydrogen-bonded ion pairs. TbRII
+Ile53 and Glu119, which contact TGFb3 Val92 and
+Arg25, respectively, together with TbRII Asp32,
+Glu55, and Glu75, which contact TGFb3 Arg94,
+were each shown to contribute significantly,
+between 1 kcal molK1 to 1.5 kcal molK1
+, to ligand
+binding affinities. These contacts likely underlie the
+4.1 kcal molK1 lower affinity with which TbRII
+binds TGFb2 as these three ligand residues are
+unchanged in TGFb1 but are conservatively sub￾stituted in TGFb2 (Lys25, Ile92, and Lys94). To test
+this hypothesis, a TGFb2 variant was generated in
+which these three residues were changed to those in
+TGFbs 1 and 3. This variant exhibited receptor
+binding affinities comparable to those of TGFbs 1
+and 3. Together, these results show that these three
+residues underlie the lowered affinity of TGFb2 for
+TbRII and that all isoforms induce the assembly of
+the TGFb signaling receptors in the same overall
+manner.
+Results
+Variant TbRII-EDs
+The initial objective of this study was to
+determine the contribution of individual TbRII￾ED residues toward TGFb isoform binding. The
+residues chosen for study were those that contact
+TGFb3 in the crystal structure of the TbRII￾ED:TGFb3 complex.15 These, as shown in Figure 1,
+vary in contact area from 4 A˚ 2 to 90 A˚ 2 and were
+each initially substituted with alanine. Three
+additional interfacial variants were also chosen
+for study, D32N, S52L, and E119Q. S52L was
+chosen as Ser52 is changed to alanine in other
+mammalian species (Figure 1(b)). D32N and
+E119Q were chosen to assess the extent to
+which electrostatic effects play a role in the
+interaction between TbRII Asp32:TGFb1/b3
+Arg94 and between TbRII Glu119:TGFb1/b3
+Arg25 (Figure 1(a)).
+Seven non-interfacial variants, N47A, V62A,
+E75A, H79A, F110A, M112A, and I125A, were also
+chosen for study. E75A was chosen as Glu75 forms a
+water-mediated hydrogen-bond with Arg94 of
+TGFb3 in the TbRII-ED:TGFb3 crystal structure
+(Figure 1(a)). Substitution of this residue was
+predicted to affect TGFb isoform binding affinities.
+V62A, H79A, and M112A were chosen by virtue of
+their structural homology to critical ligand contact
+residues, Phe42, Trp60, and Phe83, identified in
+ActRIIa.19,20 Substitution of these residues was
+predicted to have little if any effect on TGFb isoform
+binding affinities as TbRII and ActRIIa have been
+shown to interact with their ligands through
+interfaces that are entirely distinct.15,20 N47A,
+V62A, F110A, and I125A were chosen as these
+correspond to surface-exposed residues that lie
+outside the two possible binding interfaces. Substi￾tution of these residues was also predicted to have
+little if any effect on TGFb isoform binding affinities.
+48 Differential Affinity of TbRII for TGFb IsoformsTbRII-ED:TGFb isoform binding as detected
+by native gel electrophoresis
+The binding of TGFb isoforms by TbRII-ED can
+be monitored using native gels. This is illustrated by
+the data presented in Figure 2(a). TbRII-ED, which
+has a molecular mass of about 15 kDa and is highly
+soluble at the pH of the gel, migrates rapidly and
+appears as a sharp band near the gel front
+(Figure 2(a), all subpanels, lane 1). TGFb isoforms,
+which have molecular masses of about 25 kDa and
+are insoluble at the pH of the gel (pH 6.8), exhibit no
+detectable bands (Figure 2(a), all subpanels, lane 2).
+The addition of increasing amounts of TbRII-ED to
+a fixed amount of TGFb1 or TGFb3 homodimer
+leads to a complex band that migrates to a position
+midway along the length of the gel. This increases
+in intensity up to the point at which two equivalents
+of TbRII-ED have been added (Figure 2(a), first and
+third subpanels from the left, lanes 3–6), consistent
+with the expected TGFb:TbRII-ED 1:2 stochiometry.
+The results obtained with TGFb2 differ as the
+complex band was absent at all TbRII-ED:TGFb2
+ratios examined (Figure 2(a), second subpanel from
+the left, lanes 3–8). The fact that TGFb1 and TGFb3
+form complex bands with TbRII-ED, but TGFb2
+does not, is attributed to the reduced affinity of
+TbRII-ED for this isoform. To rule out the possibility
+that the absence of a complex band was due to
+altered mobility of the TbRII-ED:TGFb2 complex,
+the native gel was carried out at a lower tempera￾ture (2 8C instead of 22 8C; Figure 2(a), rightmost
+subpanel). This resulted in the appearance of a
+complex band at the expected position, indicating
+Figure 1. TbRII-TGFb3 interactions identified through analysis of the binding interface in the TbRII:TGFb3 crystal
+structure. (a) Stereo diagram of the TbRII:TGFb3 interface. Backbones are gray, disulfide bonds are black, and contact
+residues of TbRII and TGFb3 are magenta and green, respectively. Interfacial hydrogen bonds are depicted by broken
+lines and ordered interfacial water molecules are shown as red spheres. (b) Major interactions evident in the
+crystallographic interface are indicated by double-headed arrows. Classification of the interactions, and the interfacial
+contact areas, are indicated on the left.
+Differential Affinity of TbRII for TGFb Isoforms 49that the absence of the complex band at the higher
+temperature is not caused by the altered mobility of
+the complex. The fact that the complex band
+appears at the lower temperature, but not the
+higher temperature, is probably caused by a
+reduction in the dissociation rate of the complex,
+koff, at the lower temperature. The fact that the
+complex band with TGFb2 was more diffuse and
+free TbRII-ED was present, even when TGFb2
+was in excess, suggests that the reduction in koff
+caused by the lower temperature is not sufficient
+to fully suppress dissociation of the complex
+during the course of electrophoresis. These results
+demonstrate that the native gel binding assay
+reports in a qualitative way on TbRII:TGFb isoform
+binding in solution.
+Qualitative assessment of TbRII-ED
+substitutions on binding affinity
+The contribution of individual TbRII-ED residues
+to TGFb1/b3 binding was assessed using native
+gels. This was accomplished by combining two
+equivalents of each TbRII-ED variant with one
+equivalent of TGFb1 or TGFb3 homodimer. These
+mixtures, together with TbRII-ED alone controls,
+were then electrophoresed through 12% native gels.
+To reduce problems encountered with proteolysis of
+the N-terminal segment, all substitutions were
+made in the background of TbRII-D14-ED, a form
+of the receptor lacking the poorly conserved 14
+N-terminal residues. To demonstrate that TbRII￾D14-ED retained high affinity binding to TGFb1
+and TGFb3, as previously shown,21 complexes were
+formed with TGFb1 or TGFb3 and then electro￾phoresed on native gels as before. The results,
+shown in Figure 2(b) and (c), revealed well-defined
+complex bands regardless of whether the
+full-length (subpanel labeled RII) or truncated
+(subpanel labeled RII-D14) receptor
+was used, confirming that the N-terminal trunca￾tion indeed has little or no effect on TGFb isoform
+binding.
+Representative TGFb1 and TGFb3 native gel
+binding data for the 15 interfacial and seven
+non-interfacial TbRII-D14-ED variants is shown in
+Figure 2(b) and (c), respectively (native gel binding
+data for all other variants is provided as
+Supplementary Data). For 11 interfacial variants,
+including L27A, F30A, D32A, D32N, I50A, T51A,
+S52L, I53A, E55A, E119A, and E119Q, complex
+formation with TGFb1 and TGFb3 was found to be
+either completely eliminated (see, as an example,
+F30A and E119A) or significantly diminished (see,
+as an example, I53A) (Figure 2(b) and (c), respect￾ively). For the remainder of the interfacial variants,
+including S49A, S52A, V77A, and D118A, complex
+formation with TGFb1 and TGFb3 was unaffected
+(see, as an example, S52A) (Figure 2(b) and (c),
+Figure 2. Qualitative analysis of wild-type and variant TbRII-ED:TGFb isoform binding by native gel electrophoresis.
+(a) Titration of a fixed amount (1.5 mg) of TGFbs 1, 2, and 3 with increasing amounts of wild-type TbRII (0–3.0 molar
+equivalents) are shown in the three leftmost subpanels, respectively. The gels were each run for about 1 h at 22 8C and
+stained with Coomassie blue. Titration of a fixed amount of TGFb2 (1.5 mg) with increasing amounts of wild-type TbRII is
+shown in the rightmost subpanel. This titration was performed as above, but at a lower temperature (2 8C, rather than
+22 8C). TbRII:TGFb isoform complexes are indicated by horizontal arrows. (b) and (c) The effect of a representative set of
+TbRII substitutions on complex formation with TGFbs 1 and 3 (native gel data showing the full panel of 22 TbRII-ED
+variants is provided as Supplementary Data). The data are presented in pairs, with two equivalents of receptor alone
+(2.0 mg) in the left lane and two equivalents of receptor (2.0 mg) mixed with one equivalent of TGFb1 or TGFb3
+homodimer (1.8 mg) in the right lane. The individual receptor variants were analyzed on separate gels and were aligned
+relative to one another based on the migration of the loading dye. The migration of some of the receptor variants, such as
+E119A, was retarded relative to wild-type. This was attributed to a decrease in the net overall charge of the receptor at the
+pH of the gel (8.8). This follows as such behavior was only observed for receptor variants in which the net overall charge
+was changed (see Supplementary Data).
+50 Differential Affinity of TbRII for TGFb Isoformsrespectively). For the non-interfacial variants, the
+results were much different, in that all, with the
+exception of E75A, had no effect on complex
+formation with TGFb1 and TGFb3 (see, as an
+example, V62A, H79A, and M112A) (Figure 2(b)
+and (c), respectively).
+These results, even though qualitative, are
+consistent with expectations based on the TbRII￾ED:TGFb3 crystal structure. They show, for
+example, that the receptor substitutions each yield
+similar results when tested with either TGFb1 or
+TGFb3, consistent with the observation that resi￾dues of TGFb3 contacted by TbRII in the TbRII￾ED:TGFb3 crystal structure are identical to those in
+TGFb1.15 They also show that the interfacial
+variants that affect complex formation are, for the
+most part, of residues that exhibit favorable
+electrostatic, hydrogen-bonding, or hydrophobic
+contacts in the crystal structure of the TbRII￾ED:TGFb3 complex (Figure 1). Those that do not
+are either substituted with alanine in other species
+(Ser52) or lie on the periphery of the binding
+interface (S49A, V77A, and D118A) (Figure 1). The
+fact that the non-interfacial variant, E75A, affected
+complex formation, is consistent with the favorable
+electrostatic and hydrogen-bonding interactions
+that it exhibits in the crystal structure (Figure 1).
+The fact that none of the other interfacial variants
+affected complex formation is consistent with
+expectations from the structures that have been
+reported;15,20 V62A, H79A, and M112A are
+especially important in this regard as these show
+that TbRII does not bind TGFb isoforms with the
+concave surface of the receptor, as has been shown
+for ActRIIa and ActRIIb.20,22
+Quantitative assessment of TbRII-ED
+substitutions on binding affinities
+The assessment of binding affinities described
+above provides valuable information as to
+the identity of residues critical for binding. The
+qualitative nature of these data however limits the
+conclusions that one can draw concerning their
+relative importance. To obtain further information,
+the effects of the receptor substitutions on ligand
+(TGFb1 and TGFb3) binding were quantified
+using surface plasmon resonance (SPR). This was
+accomplished by immobilizing TGFb1 or TGFb3 and
+by recording the steady-state SPR response as varying
+concentrations of TbRII-ED variants were injected
+over these surfaces (Figure 3(a)). Scatchard analysis of
+the maximal SPR response when steady state had
+been reached as a function of receptor concentration
+was then used to obtain an equilibrium dissociation
+constant, Kd, for each variant (Figure 3(b)). Such an
+approach yielded Kd values of 200 and 290 nM for
+wild-type TbRII-ED interactions with TGFbs 1 and 3,
+respectively. These values are in good agreement with
+those previously determined using an in-depth
+kinetic analysis of TbRII-ED binding to TGFb1
+(KdZ160 nM),23 thus validating our experimental
+approach.
+The fitted Kd values obtained from the SPR
+analysis are listed in Table 1. There were found to
+lie within the TbRII-ED concentration ranges used
+for all variants, except S52L, thus justifying the use
+of Scatchard plots for analysis of the variants as
+well. For the S52L variant, weak binding together
+with a limiting amount of available receptor,
+precluded us from flowing this TbRII-ED variant
+at concentrations above the apparent Kd value. Kd
+values for this variant are therefore approximate,
+although it is nevertheless clear that S52L exhibited
+the lowest affinity among the variants tested.
+The effects of the substitutions on binding
+affinities were assessed by calculating DDGbind
+values, where DDGbindZDGwildtypeKDGvariant
+where DGwildtype and DGvariant correspond to the
+free energies for disassociation of ligand–receptor
+complexes with wild-type and variant receptor,
+respectively. These DDGbind values are presented
+graphically in Figure 4. This shows that the
+substitutions that led to the largest DDGbind values
+are those that also led to disruption of complex
+band formation on native gels (broken boxes). The
+correlation in this regard is essentially perfect, as
+the 12 variants (11 interfacial; one non-interfacial)
+that exhibited disrupted binding by native gels all
+have DDGbind values above thresholds of 1.2 and
+1.4 kcal molK1 for TGFb1 and TGFb3, respectively,
+while all other variants had DDGbind values below
+these thresholds (Figure 4).
+The 12 substitutions that have the largest
+effects on affinity are in residues that assume
+characteristic positions within the binding inter￾face. Five of these are hydrophobic residues,
+which form a linear array, Ile50-Phe30-Thr51-
+Ile53-Leu27, and which occupy a long but
+shallow hydrophobic cleft between the connecting
+loops at the tips of the TGFb fingers (Figure 1).
+The unique position of these residues within the
+interface, together with the fact that their
+substitution to alanine would diminish their
+hydrophobic contact area with TGFb, supports
+the notion that these receptor residues contribute
+to affinity through hydrophobic contact. This
+notion is further supported by the results
+obtained with Ser52. The substitution of this
+residue with alanine had only minor effects on
+affinity (0.2–0.4 kcal molK1
+), whereas substitution
+with leucine drastically diminished affinity, the
+largest change of any variant characterized
+(Figure 4). This is indicative of tight packing at
+the interface as Ser52 is fully buried and lies at
+the point of closest approach between the
+backbones of TbRII and TGFb3 (5.5 A˚ between
+the Ca carbon of TbRII Ser52 and the backbone
+Ca carbon of TGFb3 V92 and 3.8 A˚ between the
+Ca carbon of TbRII Ser52 and the carbonyl carbon
+of TGFb3 Tyr91). The methyl group of the alanine
+at this position is likely accommodated, whereas
+the isopropyl group of the leucine, owing to its
+larger volume, likely introduces steric overlap
+that prevents the receptor and ligand from fully
+engaging one another.
+Differential Affinity of TbRII for TGFb Isoforms 51The remainder of the substitutions that effect
+affinity are of charged residues, Asp32, Glu55,
+Glu75, and Glu119. In the crystal structure of the
+TbRII:TGFb3 complex, Asp32 and Glu119 lie on
+opposite sides of the hydrophobic array and engage,
+via hydrogen-bonded ion pairs, the guanidinium
+groups of the positively charged arginine residues
+located on the tips of the loops connecting the fingers
+of the ligand (Arg94 and Arg25, respectively).
+Conservative (Asp32 substituted with asparagine or
+Glu119 substituted with glutamine) or non-conserva￾tive (Asp32 or Glu119 substituted with alanine)
+substitutions of either lead to comparable
+and significant disruption of binding affinity
+(1.4–2.0 kcal molK1
+) (Figure 4). This indicates that
+Asp32:Arg94 and Glu119:Arg25 interact both
+through electrostatic attraction and through hydro￾gen-bonding. This follows as substitution of the
+carboxylate group of Asp32 or Glu119 with either
+a methyl group (alanine) or an amide group
+(asparagine or glutamine) would be expected to
+fully disrupt the charge-charge interaction. The full or
+partial disruption of the hydrogen-bonding interac￾tions is also anticipated as the two oxygen atoms of
+the side-chain carboxylate of the parent residues are
+each shown to function as hydrogen-bond acceptors
+in the crystal structure of the TbRII:TGFb3 complex
+(hydrogen-bond donors in each case are the H3 and
+the Hz atoms of the side-chain guanidinium groups of
+the two respective arginine residues). The substituted
+methyl group of alanine cannot obviously function
+in this capacity, although neither can the amide group
+of asparagine or glutamine, as this functionality
+has only one acceptor group, not two as in aspartate
+or glutamate.
+Two other charged residues that contribute to
+affinity, but to a lesser extent, are Glu55 and
+Glu75. Glu55, which affected the binding affinity
+Figure 3. Quantitative analysis of TbRII-ED single amino substitutions on TGFb isoform binding affinities by surface
+plasmon resonance. (a) Typical binding curves obtained as increasing concentrations of a TbRII-D14-ED variant (F30A;
+left-to-right 0.0, 6, 15, 31, 46, and 60 mM) were injected over TGFb1 (red), TGFb3 (blue), and control (black) surfaces.
+(b) Scatchard plot used to determine the binding affinity based on the resonance units obtained at equilibrium, Req, for
+the SPR data shown in (a). The data points shown correspond to the difference between the Req values obtained from (a)
+for the TGFb isoform and control surfaces, respectively. The continuous line corresponds to the best-fit line and has the
+form Req=½ReceptorZK14;173!ReqC4:0!106 ðr
+2Z0:99Þ and Req=½ReceptorZK6785!ReqC2:0!106 ðr
+2Z0:99Þ for
+the data shown in the left (TGFb1) and right panels (TGFb3), respectively. The absolute value of the slope corresponds to
+the equilibrium binding constant, Ka or KK1
+d , in units of MK1
+.
+52 Differential Affinity of TbRII for TGFb Isoforms  by 1.2–1.3 kcal molK1 when substituted with
+alanine, lies adjacent to Asp32 and forms a
+long-range (ca 7 A˚ ) electrostatic interaction with
+Arg94 of TGFb1/b3. Glu75, which affected the
+binding affinity by 1.0–1.1 kcal molK1 when sub￾stituted with alanine, appears to stabilize the
+complex by interacting with Arg94 of TGFb1/b3,
+although in this case indirectly via a water￾mediated hydrogen-bond.
+Assessment of TbRII-ED substitutions
+on antagonist activity in cultured cells
+Previous results have shown that TbRII-ED can
+function to antagonize the biological activity of
+TGFbs 1 and 3.24,25 This antagonistic activity
+presumably results from the ability of TbRII-ED to
+bind and sequester the TGFb isoforms. Therefore,
+antagonistic potency and binding affinity should
+correlate. To test this, the antagonistic potency of the
+wild-type receptor and variants were measured by
+quantifying the level of Smad2 phosphorylation in
+cultured MCF-10A cells as induced by 1 ng mlK1
+TGFb3, either alone or in the presence of wild-type
+or one of the 22 TbRII-ED-D14 variants. The
+concentrations of TbRII-D14-EDs used in this
+experiment, 50 mg mlK1
+, are somewhat higher
+than used in previous studies,26 but were necessary
+because most of the variants, whether they carried a
+substitution at an interfacial position or not,
+exhibited only weak antagonism at the usual
+concentration (5 mg mlK1
+). This reduction in
+potency is likely related to two factors: one is that
+the N-terminal truncation causes a small increase
+(ca factor of two) in the Kd values (Table 1); another
+is that most of the substitutions, whether interfacial
+or not, also cause at least a factor of two increase in
+TGFb isoform Kd values (Table 1). The latter effect
+most likely arises due to minor perturbations in
+structure, which in turn, indirectly affect affinity.
+The results of the Smad2 phosphorylation experi￾ment are shown in Figure 5. This shows that, except
+for E75A, all of the non-interfacial variants
+antagonize the induction of Smad2 phosphoryl￾ation (Figure 5, broken boxes). The fact that E75A
+does not antagonize is consistent with the results of
+the in vitro binding studies that showed that this
+variant exhibited weak complexes with TGFbs 1
+and 3 on native gels and a perturbation in its
+binding free energy (DDGbind) above the threshold
+values of 1.2 and 1.4 kcal molK1 with these
+isoforms, respectively. The 11 interfacial variants
+that disrupted complex formation on native gels
+(designated by a filled box) and whose DDGbind
+Table 1. Apparent dissociation constants for the interaction of wild-type and single amino acid human TbRII variants
+with human TGFb1 and TGFb3
+Protein variant Kd TGFb1 (mM)a
+DDGbind TGFb1
+(kcal/mol)b Kd TGFb3 (mM)a
+DDGbind TGFb3
+(kcal/mol)b
+Wild-type
+TbRII 0.20 (0.04) K0.3 0.29 (0.10) K0.5
+TbRII-D14 0.32 (0.01) 0.0 0.68 (0.23) 0.0
+Single amino variants at interfacial positions
+TbRII-D14 L27A 7.97 (2.12) 1.9 14.8 (0.6) 1.8
+TbRII-D14 F30A 44.0 (37.0) 2.9 104 (61) 3.0
+TbRII-D14 D32A 3.52 (0.46) 1.4 8.87 (0.41) 1.5
+TbRII-D14 D32N 5.90 (0.05) 1.7 19.9 (0.8) 2.0
+TbRII-D14 S49A 0.79 (0.14) 0.5 1.18 (0.12) 0.3
+TbRII-D14 I50A 7.96 (1.04) 1.9 16.7 (2.1) 1.9
+TbRII-D14 T51A 2.97 (0.30) 1.3 8.75 (1.28) 1.5
+TbRII-D14 S52A 0.60 (0.08) 0.4 0.98 (0.10) 0.2
+TbRII-D14 S52L 154 3.7 620 4.0
+TbRII-D14 I53A 2.49 (0.31) 1.2 6.87 (0.47) 1.4
+TbRII-D14 E55A 2.99 (0.28) 1.3 5.30 (0.88) 1.2
+TbRII-D14 V77A 0.69 (0.10) 0.5 1.37 (0.15) 0.4
+TbRII-D14 D118A 1.51 (0.21) 0.9 2.69 (0.19) 0.8
+TbRII-D14 E119A 3.35 (0.36) 1.4 8.47 (0.40) 1.5
+TbRII-D14 E119Q 5.95 (1.95) 1.7 10.6 (1.0) 1.6
+Single amino acid variants at non-interfacial positions
+TbRII-D14 N47A 0.67 (0.02) 0.3 1.10 (0.24) 0.3
+TbRII-D14 V62A 0.95 (0.12) 0.7 2.03 (0.05) 0.7
+TbRII-D14 E75A 1.64 (0.42) 1.0 4.21 (0.79) 1.1
+TbRII-D14 H79A 0.66 (0.07) 0.4 1.12 (0.22) 0.3
+TbRII-D14 F110A 1.51 (0.11) 0.9 3.28 (0.53) 0.9
+TbRII-D14 M112A 1.16 (0.09) 0.8 2.96 (0.69) 0.9
+TbRII-D14 I125A 0.77 (0.11) 0.5 1.69 (0.30) 0.5
+a Measurements were made at 25 8C in buffer consisting of 20 mM Hepes containing 150 mM NaCl, 3.4 mM EDTA, and 0.005%
+Tween-20 at pH 7.4. The values indicated in parenthesis correspond to the standard deviation among three independent
+determinations via Scatchard analysis. The one exception to this is the TbRII-D14 S52L mutant for which one determination of the Kd
+was performed. b DDGbindZDGwildtypeKDGvariant where DGwildtype and DGvariant correspond to the free energies for the disassociation of TGFb
+isoform complexes (i.e. KRTln(Kd)) with wild-type TbRII-D14-ED and variants, respectively.
+Differential Affinity of TbRII for TGFb Isoforms 53values were higher than the threshold values of
+1.2 and 1.4 kcal molK1 with TGFbs 1 and 3,
+respectively, similarly did not antagonize TGFb3
+or did so very poorly. The remainder of the
+interfacial variants, S49A, S52A, V77A, and
+D118A, that did exhibit complex formation on
+native gels and whose DDGbind values were
+below the threshold values of 1.2 and
+1.4 kcal molK1 with TGFbs 1 and 3, respectively,
+did antagonize. These results show that the
+measurements of binding affinity made in vitro
+correlate well with the potency of the TbRII-ED
+variants as TGFb antagonists in cell-based
+assays. This confirms that the mode of binding
+defined in vitro using native gels and SPR
+analysis corresponds with the ability of the
+receptors to bind and sequester TGFb3 from the
+cell surface TGFb receptors.
+Assessment of the effects of the point
+substitutions on stability
+The differential effects of the interfacial and non￾interfacial substitutions on binding affinities
+suggest that their effects are principally through
+alterations in ligand contacts, not through effects on
+protein stability. To examine this experimentally, the
+equilibrium stability of all TbRII-ED variants were
+measured using a GdmCl unfolding assay. This was
+accomplished by preparing multiple samples con￾taining increasing concentrations of GdmCl and by
+measuring the steady-state fluorescence emission
+Figure 4. Graphical representation of changes in TGFb isoform binding free energies (DDGbind) for the panel of 22
+single amino acid TbRII-D14-ED variants. DDGbind values were calculated from DDGbindZDGwildtypeKDGvariant where
+DGwildtype and DGvariant correspond to the free energies for the disassociation of TGFb isoform complexes (i.e. K
+RTln(Kd)) with wild-type and variant TbRII-D14-ED, respectively. Error bars represent the standard deviation among
+triplicate determinations. Dissociation constant for the S52L mutant was measured only once and thus error estimates
+are not available. Dotted lines mark thresholds that separate the variants that either did (unboxed) or did not (boxed)
+form complexes with TGFbs 1 and 3 in native gels.
+Figure 5. Antagonistic potencies of TbRII-ED variants in a cell-based bioassay. Antagonistic potencies of the 22 single
+amino acid TbRII-D14-ED variants were assessed by treating cultured MCF-10A cells with 1 ng mlK1 TGFb3 alone or in
+the presence of one of the variants at 50 mg mlK1 for 30 min. The cells were then lysed and 20 mg of protein was then
+analyzed by Western blotting using either an anti-phospho-Smad2 (Ser465/Ser467) antibody (top panel) or an antibody
+to assess equal loading (lower panel). The data shown were collected in two separate experiments; the first experiment
+includes the controls and receptor variants included in lanes 1–20; the second includes the controls and receptor variants
+included in lanes 21–28. The loading control antibody used for the first experiment was anti-GAPDH; the loading control
+antibody used for the second experiment was MSH2. Continuous and broken boxes designate interfacial and non￾interfacial variants, respectively. Asterisks designate variants that did not form complexes in native gels with either
+TGFbs 1 or 3.
+54 Differential Affinity of TbRII for TGFb Isoformsfrom the single tryptophan residue, Trp65. To
+show that unfolding was reversible, samples were
+prepared both by the addition of increasing
+concentrations of denaturant to native protein or
+by the addition of non-denaturing buffer to
+denatured protein.
+Typical data, obtained for the wild-type protein
+and three variants, are shown in Figure 6. The
+“unfolding” (open) and “refolding” (filled)
+points superimpose, indicating that each undergo
+reversible transitions. The fact that the curves are
+S-shaped, even for highly destabilized variants such
+as E75A, indicates that all of the variants are folded
+and adopt stable tertiary structures in solution in
+the absence of denaturant. The unfolding curves
+were fitted to a two-state unfolding model to
+quantify alterations in stability. The fitted para￾meters, along with error estimates, are listed in
+Table 2.
+The 22 TbRII-ED variants exhibit a wide range of
+unfolding free energies (DGU). Roughly one quarter
+of the variants, including F30A, D32N, S52A,
+S52L, and E55A, are more stable than wild-type
+(DDGU ! K0.3 kcal molK1
+). Another quarter of the
+variants, including L27A, D32A, I53A, V77A, E119A,
+E119Q, and H79A, are not substantially altered
+relative to wild type (K0.3 kcal molK1
+!DDGU
+!0.3 kcal molK1
+). The last two quarters, including
+N47A, S49A, I50A, T51A, D118A, N47A, V62A, E75A,
+F110A, M112A, D118A, and I125A are less stable than
+wild-type (DDGU O 0.3 kcal molK1
+) (Table 2).
+The simplest way by which changes in stability
+might alter binding affinity is by increasing
+the proportion of the denatured form of the protein
+present in solution at equilibrium. Thus, if the
+measured affinities were determined principally by
+the effects of the substitutions on stability, one would
+predict that the variants that led to an increase in
+stability, or no change in stability, would largely be
+unaffected in terms of their ligand binding affinities,
+whereas those variants that led to the largest changes
+in stability, would be most strongly affected. This
+clearly is not the case for the set of variants presented
+here as most of the variants that had the largest effects
+on affinity, such as L27A, F30A, D32A, D32N, T51A,
+S52L, E119A, and E119Q (Figure 4), were either of
+comparable or greater stability than wild-type
+(Table 2). Conversely, most of the variants that led to
+only modest changes in affinity, such as S49A, N47A,
+F110A, M112A, and I125A (Figure 4), were among
+those that exhibited the largest decreases in stability
+(Table 2). This shows that the lowered affinities are not
+generally caused by lowered stability, although it
+does not preclude the possibility that such indirect
+effects diminish affinities for some of the variants,
+especially those that are highly destabilized, such as
+I50A and E75A.
+The other aspect of the stability data worth noting is
+that there appears to be no systematic pattern
+between the location of residues in the three￾dimensional structure and their reduction in equili￾brium stability. Thus, among the residues that are
+most stabilized, one, I50, is exposed and lies near the
+center of the ligand binding site, two others, N47 and
+S49, are surface-exposed and lie adjacent to the
+ligand binding site, while three others, F110A,
+M112A, and I125A, are buried and lie on the concave
+surface of the protein opposite the ligand binding site.
+The lack of any type of consistent pattern provides
+further support for the notion that the effects of
+the substitutions on binding affinity are by and large
+direct and not the consequence of a systematic
+alteration in structure.
+TGFb2 K25R V92I K94R exhibits TGFb1/b3-like
+affinity for TbRII
+The crystal structure of the 2:1 TbRII-ED:TGFb3
+complex revealed that the TGFb3 residues that
+contact TbRII are identical to those in the high
+affinity ligand TGFb1, but are conservatively
+substituted at three positions (Arg25 to Lys, Val92
+to Ile, and Arg94 to Lys) in the low affinity ligand
+TGFb2.15 The results presented here have further
+shown that substitution of the corresponding
+contact residues in TbRII-ED, Glu119 which con￾tacts Arg25 of TGFb1/b3, Ile53 which contacts
+Val92 of TGFb1/b3, and Asp32, Glu55, and Glu75
+which contact Arg94 of TGFb1/b3, each lead to
+perturbations in binding free energies (DDGbind) for
+Figure 6. Stability measurement of wild-type TbRII-ED
+and variants by guanidinium chloride unfolding. The
+data are presented as plots of the normalized intrinsic
+fluorescence emission intensity at 350 nm (ordinate)
+versus the concentration of GdmCl (abscissa). Individual
+samples, used to obtain the corresponding data points in
+the Figure for TbRII-D14-ED (circles), F30A TbRII-D14-
+ED, (triangles), V62A TbRII-D14-ED (squares), or E75A
+TbRII-D14-ED (diamonds) were prepared by either
+adding a stock solution of GdmCl to a sample of protein
+in native buffer (open points, buffer comprised of 25 mM
+sodium phosphate, 0.10 M NaCl, pH 7.0) or by adding
+native buffer to denatured protein (filled points, protein
+dissolved initially in 25 mM sodium phosphate, 0.10 M
+NaCl, 4.0 M GdmCl, pH 7.0). The data were then fit to a
+two-state unfolding model (continuous lines) using the
+program ProFit (QuantumSoft, Zu¨rich, Switerzland). The
+parameters for the fits, along with error estimates, are
+listed in Table 2.
+Differential Affinity of TbRII for TGFb Isoforms 55TGFb1 or TGFb3 of 1.0 kcal molK1
+, or more
+(Table 1). This suggests that these three conservative
+substitutions in TGFb2 may indeed underlie the
+4.1 kcal molK1 lower affinity with which TbRII
+binds TGFb2.9–11 To evaluate this hypothesis,
+a TGFb2 variant, TGFb2 K25R I92V K94R or
+TGFb2-TM, was prepared and examined in vitro
+using native gels and SPR.
+The results of the native gel binding assay show
+that when TbRII-ED and TGFb2-TM are mixed
+together and electrophoresed, a well-defined TbRII￾ED:TGFb2-TM complex band is formed (Figure 7(a),
+lane 7). The complex band is also observed with
+TGFb3 (lane 5) as expected, but not with TGFb2 (lane
+6), demonstrating that the three substitutions restore
+high affinity binding to TGFb2. To quantify this
+change, the affinity of TbRII-ED and TbRII-D14-ED
+for TGFb2-TM was measured using SPR. This was
+accomplished in the same overall manner as before
+and yielded apparent Kd values of 0.48 and 1.3 mM for
+binding of TGFb2-TM to TbRII-ED and TbRII-D14-
+ED, respectively. These Kd values are higher than
+those measured for TGFb1 by a factor of three to four
+and are higher than those measured for TGFb3 by a
+factor of approximately two (Table 1). These three
+substitutions therefore confer TGFb2 with a binding
+affinity for TbRII that is only slightly reduced relative
+to that of TGFbs 1 and 3.
+Receptor binding and biological activity of
+TGFb2 K25R V92I K94R in cultured cells
+There exist a number of cell lines that have been
+shown to exhibit a diminished biological response
+to TGFb2.9,12,27–29 This diminished response has
+been correlated with the absence of betaglycan
+expression and has been attributed to the dimin￾ished affinity of TbRII for this isoform.9,12 Therefore,
+in such cell lines, TGFb2-TM should elicit its
+response with a potency that more closely matches
+that of TGFb3. To examine this experimentally, the
+growth inhibitory activity of TGFb2-TM was
+compared with that of TGFb2 and TGFb3 in
+cultured fetal bovine heart endothelial (FBHE)
+cells. This particular assay is one of the most widely
+used to assess the biological activity of TGFb and is
+especially appropriate for the present application as
+these cells do not express betaglycan9 and have
+been shown to respond to TGFb3 at concentrations
+that are two to three orders of magnitude lower
+than that of TGFb2.9,30
+The growth inhibition experiments were carried
+out by culturing FBHE cells to mid log phase and by
+treating them with varying concentrations of
+TGFb3, TGFb2-TM, or TGFb2 in the presence of
+an added radiolabeled nucleotide precursor
+(5-[125I]iodo-20
+-deoxyuridine). The results, shown
+Table 2. Parameters for the guanidine hydrochloride unfolding of wild-type and mutant forms of TbRII
+Protein varianta Cm (M) m (kcal molK1 MK1
+) DGU (kcal molK1
+) DDGU (kcal molK1
+)
+b
+Fraction folded
+(%)c
+Wild-type
+TbRII 1.39 (0.11) 2.82 (0.11) 3.91 (0.16) 99.9
+TbRII-D14 1.39 (0.20) 2.82 (0.18) 3.92 (0.28) 99.9
+Single amino variants at interfacial positions
+TbRII-D14 L27A 1.21 (0.11) 3.13 (0.14) 3.78 (0.19) 0.14 99.8
+TbRII-D14 F30A 1.35 (0.28) 3.56 (0.35) 4.82 (0.50) K0.90 100.0
+TbRII-D14 D32A 1.13 (0.72) 3.19 (0.87) 3.62 (1.14) 0.30 99.8
+TbRII-D14 D32N 1.07 (0.16) 4.76 (0.33) 5.10 (0.37) K1.18 100.0
+TbRII-D14 S49A 0.98 (0.27) 2.19 (0.23) 2.16 (0.35) 1.76 97.5
+TbRII-D14 I50A 0.56 (0.16) 2.64 (0.22) 1.47 (0.31) 2.45 91.9
+TbRII-D14 T51A 0.93 (0.15) 3.50 (0.25) 3.25 (0.29) 0.67 99.6
+TbRII-D14 S52A 1.39 (0.23) 3.51 (0.28) 4.87 (0.42) K0.95 100.0
+TbRII-D14 S52L 1.31 (0.10) 4.21 (0.16) 5.51 (0.22) K1.59 100.0
+TbRII-D14 I53A 1.33 (0.21) 2.78 (0.20) 3.71 (0.31) 0.21 99.8
+TbRII-D14 E55A 1.39 (0.25) 3.51 (0.31) 4.90 (0.45) K0.98 100.0
+TbRII-D14 V77A 1.36 (0.17) 2.98 (0.18) 4.06 (0.27) K0.14 99.9
+TbRII-D14 D118A 1.03 (0.24) 3.19 (0.33) 3.27 (0.42) 0.65 99.6
+TbRII-D14 E119A 1.08 (0.26) 3.36 (0.37) 3.64 (0.47) 0.28 99.8
+TbRII-D14 E119Q 1.31 (0.23) 2.82 (0.22) 3.69 (0.33) 0.23 99.8
+Single amino acid variants at non-interfacial positions
+TbRII-D14 N47A 1.01 (0.28) 2.74 (0.32) 2.76 (0.43) 1.16 99.1
+TbRII-D14 V62A 1.13 (0.11) 3.12 (0.14) 3.54 (0.19) 0.38 99.5
+TbRII-D14 E75A 0.60 (0.11) 2.42 (0.12) 1.46 (0.19) 2.46 91.8
+TbRII-D14 H79A 1.29 (0.10) 2.90 (0.11) 3.73 (0.16) 0.19 99.8
+TbRII-D14 F110A 0.35 (0.85) 2.67 (0.73) 0.92 (1.85) 3.00 79.3
+TbRII-D14 M112A 0.67 (0.12) 2.96 (0.18) 2.00 (0.22) 1.92 96.7
+TbRII-D14 I125A 0.81 (0.14) 2.86 (0.19) 2.32 (0.24) 1.60 98.1
+a Samples were dissolved in 25 mM monobasic sodium phosphate containing 100 mM NaCl at pH 7.0. The unfolding experiments
+were conducted at 21 8C. b DDGUZDGU,WTKDGU,MUT, where DGU,WT and DGU,MUT are the free energies for the unfolding of TbRII-ED-D14 and TbRII-ED-D14
+variants, respectively, in the absence of guanidine hydrochloride. c Fraction folded corresponds to the fraction of the protein that is folded in the absence of denaturant at a temperature of 21 8C.
+56 Differential Affinity of TbRII for TGFb Isoformsin Figure 7(b), revealed midpoint inhibitory poten￾cies of 8, 60, and 500 pM for TGFb3, TGFb2-TM, and
+TGFb2, respectively. TGFb2-TM, therefore, func￾tions with a potency about tenfold greater than
+TGFb2 and about tenfold less than TGFb3. The
+twofold lower affinity that TbRII exhibits for
+TGFb2-TM compared to TGFb3, may account for
+part of the reduced growth inhibitory potency of
+TGFb2-TM.
+To further examine TGFb2-TM with regard to this
+gain-of-function, affinity labeling experiments were
+carried out with iodinated TGFb isoforms labeled to
+the same specific activity and rat L6E9 myoblasts,
+which lack betaglycan.12 Figure 7(c) shows, as
+reported before,12 that TGFb2 marginally binds
+TbRII and TbRI (upper right), even at concen￾trations of 250 pM, which are sufficient to produce a
+clear and distinct labeling with TGFb1 or TGFb3
+(upper and lower left, respectively). Importantly,
+the labeling of TbRI and TbRII by TGFb2-TM is
+clearly detectable at a concentration of 25 pM
+(lower left), comparable to that observed with
+TGFbs 1 and 3 (upper left and lower right,
+respectively). In spite of the qualitative nature of
+this assay, these results clearly affirm that the three
+conservative substitutions in TGFb2-TM confer this
+(a) (b)
+(c)
+Figure 7. Binding properties and growth inhibitory potency of TGFb2 K25R I92V K94R (TGFb2-TM). (a) TGFb2-TM
+binary complex formation with TbRII-ED as assessed using native gel electrophoresis. The various ligands were
+combined with TbRII-ED in the molar ratios shown, electrophoresed through a 12% native gel, and Coomassie stained
+(1 equivalent TGFb2Z1.5 mg; 1 equivalent TGFb3Z1.5 mg; 1 equivalent TGFb2-TMZ1.5 mg; 1 equivalent TbRII-EDZ
+0.9 mg). The positions of the TbRII:TGFb3 and TbRII:TGFb2-TM complexes are indicated with labels along the left side of
+the gel. (b) Growth inhibition of cultured FBHE cells in medium containing 10% fetal bovine serum and 5-[125I]iodo-20
+-
+deoxyuridine incubated for 24 h with the indicated concentrations of TGFb2 (filled circles), TGFb3 (filled squares), or
+TGFb2-TM (open squares). Incorporation of radiolabeled iodine into DNA was then measured and is expressed as the
+percent decrease relative to the value in cultures not treated with TGFb isoforms. The data points and error bars
+represent the mean and standard deviation of four independent measurements. (c) Affinity labeling of cell-surface TbRI
+and TbRII by 125I-labeled TGFb1, TGFb2, TGFb2-TM, and TGFb3. L6E9 myoblast monolayers were incubated with the
+indicated concentrations of iodinated TGFb isoforms labeled with 125I to uniform specific activity (5.53!106 cpm/pmol)
+for 3 h at 4 8C, unbound ligand was removed by washing, and the cells were then treated with the crosslinking reageant
+disuccinimidyl suberate. Cell lysates were then prepared and analyzed by SDS-PAGE and autoradiography.
+Differential Affinity of TbRII for TGFb Isoforms 57variant with high affinity binding, like that of
+TGFbs 1 and 3, to the cell-surface TGFb receptors.
+Discussion
+The differential affinity of TbRII for the TGFb
+isoforms has been well documented in the litera￾ture.9,31,32 The differences in affinity have recently
+been quantified using mimicry of TbRII:TGFb cell
+surface interactions, coupled with SPR biosensor
+analysis.10,11 These studies have shown that the Kd
+of TbRII for TGFb1 and TGFb3 (5–30 pM) is
+approximately 1000-fold lower than that for
+TGFb2 (5 nM). This corresponds to a reduction in
+the binding free energy of the receptor for TGFb2 of
+about 4.1 kcal molK1
+.
+The Kd values measured using these approaches,
+in which the TbRII extracellular domain is dimer￾ized and immobilized on the biosensor surface,10,11
+are in general much lower than those measured
+when the TbRII extracellular domain is monomeric
+and in solution,23,33 as in this study. This difference,
+which is some four orders of magnitude for TGFb1
+and TGFb3, and undetermined for TGFb2 due to
+weak binding, is attributed to the fact that TGFb
+isoforms have two equivalent non-interacting sites
+for TbRII, and that avidity effects contribute
+significantly to binding.10,11
+The crystal structure of the 2:1 TbRII-ED:TGFb3
+complex has shown that the ten TGFb3 residues
+that contact TbRII are identical to those in TGFb1,
+but are substituted at three positions in the low
+affinity ligand, TGFb2.15 The three TGFb1/b3 to
+TGFb2 substitutions are Arg25 to lysine, Val92 to
+isoleucine, and Arg94 to lysine. Through studies of
+TGFb isoform chimeras, it has been shown that
+replacement of Val92-Gly93-Arg94-Lys95 in TGFb1
+with Ile92-Gly93-Lys94-Thr95 from TGFb2 weakens
+binding to the TbRII extracellular domain and
+decreases potency in a LS513 colon cancer cell
+growth inhibition assay.32 Taken together, these
+findings suggest that the three substituted residues,
+in spite of their similar nature, might underlie the
+diminished affinity of TGFb2 for TbRII.15
+To investigate this hypothesis, mutagenesis was
+used to identify residues within the TbRII extra￾cellular domain that contribute significantly to
+TGFb isoform binding. These studies were carried
+out by generating single amino acid substitutions
+within the TbRII extracellular domain, and by
+assessing stabilities by denaturation with GdmCl
+and affinities for binding the high affinity TGFb
+isoforms, TGFbs 1 and 3, using native gel electro￾phoresis and SPR (such methods could not be used
+to assess affinities for TGFb2 due to weak binding).
+The affinities determined by the two techniques
+were fully consistent with one another and with
+relative potencies determined in a cell-based Smad
+phosphorylation assay. The substitutions did lower
+the stability of several of the receptor variants, but
+for the most part, these effects had only negligible
+effects on the measured affinities.
+The receptor residues that contact the three
+variable residues of the ligand were found to be
+among those that contributed greatest to TGFb
+isoform binding. Thus, Ile53 of TbRII, which is the
+primary contact with Val92 of TGFb1/b3, led to a
+decrease in affinity of 1.2–1.4 kcal molK1 when
+substituted with alanine; Glu119 of TbRII, which
+is the primary contact with Arg25 of TGFb1/b3, led
+to a decrease in affinity of 1.4–1.7 kcal molK1 when
+substituted with alanine or glutamine; Asp32,
+which is in primary contact with Arg94 of TGFb1/
+b3, led to a decrease in affinity of 1.4–2.0 kcal molK1
+when substituted with alanine or asparagine; Glu55
+and Glu75 of TbRII, which are the secondary contacts
+with Arg94 of TGFb1/b3, each led to a decrease in
+affinity of 1.0–1.3 kcal molK1 when substituted with
+alanine (Table 1). These findings are important,
+because through additive effects, they provide a
+plausible mechanism to account for the estimated
+4.1 kcal molK1 lower affinity with which TbRII binds
+TGFb2.
+The studies of the receptor variants also provided
+information regarding the specificity of the inter￾actions. Thus, comparable and significant effects on
+affinity were observed when Asp32 and Glu119 of
+the Asp32 TbRII-Arg94 TGFb1/b3 and Glu119
+TbRII-Arg25 TGFb1/b3 hydrogen-bonded ion
+pairs, respectively, were conservatively (Asp32
+substituted to asparagine and Glu119 substituted
+to glutamine) or non-conservatively (Asp32 and
+Glu119 both substituted with alanine) substituted.
+Thus, substitution of Asp32 with either alanine or
+asparagine led to a decrease in binding affinity of
+1.4–1.7 kcal molK1 and 1.5–2.0 kcal molK1 for
+TGFb1 and TGFb3, respectively (Table 1). The
+substitution of Glu119 with either alanine or
+glutamine led to a decrease in binding affinity of
+1.4–1.7 kcal molK1 and 1.5–1.6 kcal molK1 for
+TGFb1 and TGFb3, respectively (Table 1). This, as
+articulated in Results, is likely a consequence of the
+fact that both the electrostatic and hydrogen￾bonding components contribute to the interaction.
+This conclusion is important because it provides a
+plausible explanation as to why the conservative
+substitution of arginine residues (Arg25, Arg94)
+with lysine on the ligand side also leads to a
+significant disruption of binding affinity, as
+suggested by the results reported by Burmester
+and co-workers.32
+To further evaluate the overall hypothesis, the
+three variable receptor contact residues in TGFb2
+were changed to match those in TGFbs 1 and 3. This
+TGFb2 variant, designated TGFb2-TM, was shown
+through native gel electrophoresis and SPR to bind
+TbRII-ED with an affinity just twofold lower than
+that of TGFb3 and three to fourfold lower than
+TGFb1. This shows unequivocally that the three
+substitutions underlie the diminished affinity of
+TGFb2 for TbRII. The underlying source of the
+remaining two to fourfold lower affinity is not
+known at present, although possible sources
+include slight differences in the structural frame￾work of TGFb2 relative to TGFbs 1 and 3,34,35
+58 Differential Affinity of TbRII for TGFb Isoformsand/or the possible influence of non-interfacial
+residues that differ between TGFb2 and the other
+isoforms. To examine whether the enhanced affinity
+between TGFb2-TM and TbRII-ED translated into
+enhanced biological activity, the potency of this
+variant was compared to that of TGFb2 and TGFb3
+in a fetal bovine heart endothelial (FBHE) cell
+growth inhibition assay. This experiment showed
+that TGFb2-TM exhibited a growth inhibitory
+potency intermediate between that of TGFb2 and
+TGFb3. This increase in potency, which was highly
+reproducible and well beyond experimental
+error of that measured for TGFb2, is consistent
+with the binding data with TbRII-ED as well as the
+efficient crosslinking observed between TGFb2-TM
+and cell-surface TbRII. The fact that the growth
+inhibitory potency of TGFb2-TM was below that
+measured for TGFb3 is attributed in part to the
+twofold lower affinity with which TGFb2-TM binds
+TbRII-ED.
+The results presented here extend the previous
+information available concerning the structural
+basis of TGFb receptor assembly10,11,15,32,36 by
+identifying critical contacts used by TbRII to
+contact the ligand and by demonstrating that the
+three conservatively substituted residues in
+TGFb2 indeed underlie its lowered affinity for
+TbRII. These findings, together with previous
+findings reported by others,10,11,15,32,36 suggest
+that TGFb2 is no different from TGFb1 or
+TGFb3 in either its overall structure or its mode
+of interaction with the TGFb signaling receptors.
+TGFb2 has however apparently co-evolved with
+TbRII in such a way that its affinity for the type
+II receptor has dropped by about 4.1 kcal molK1
+so that it no longer binds with sufficient affinity
+to enable responses at biologically relevant
+concentrations (picomolar to subpicomolar). The
+affinity, however, has evidently not dropped so
+much that it cannot be compensated in a yet-to￾be-defined manner by the co-receptor betaglycan.
+These differences in receptor binding properties
+are likely significant, as this has presumably
+enabled further diversification of function
+amongst the TGFb isoforms through cell-specific
+expression of the co-receptor betaglycan.
+Materials and Methods
+Expression and purification of TbRII-ED and variants
+Two different wild-type TbRII extracellular domain
+constructs, designated TbRII-ED and TbRII-D14-ED,
+were prepared for the current study. These correspond
+to either the entire extracellular domain of the human
+receptor or a truncated variant lacking 14 residues on
+the N terminus.37 The former is 136 residues in length,
+with the first residue designated as 1, while the latter
+is 122 residues in length, with the first residue
+designated as 15. All variants were constructed in the
+TbRII-D14-ED background by PCR mutagenesis and
+were expressed and purified in the manner described,38
+except 1 mM EDTA, 1 mM leupeptin, 1 mM PMSF,
+1 mM benzamidine, and 0.5 mM N-a-tosyl-L-lysyl￾chloromethyl ketone were included in the final
+purification step. The identity of wild-type TbRII-ED
+and variants were verified by dialyzing small aliquots
+into distilled water and by determining the mass using
+an electrospray mass spectrometer (LCQ, Thermo
+Finnigan, San Jose, CA).
+Native gel binding assay
+Two equivalents of TbRII-ED in 25 mM Mes (pH 6.0)
+was mixed with one equivalent of human TGFb1, TGFb2,
+or TGFb3 in 40 mM acetic acid. TGFb1 was produced by
+CHO cell expression and was purchased from R&D
+Systems (Minneapolis, MN). TGFb2, TGFb2 K25R I92V
+K94R, and TGFb3 were produced by Escherichia coli
+expression, oxidatively folded to the disulfide-linked
+homodimer, and HPLC purified as described.39 Protein
+concentrations were determined using the corresponding
+calculated extinction coefficients40 and the measured UV
+absorbance at 280 nm. Receptor-ligand mixtures, along
+with receptor and ligand alone controls, were analyzed by
+addition of an equal volume of 2x native gel sample buffer
+(50 mM Tris–HCl (pH 8.45), 20% (v/v) glycerol) and by
+electrophoresing at 22 8C for approximately 1 h through
+12% (w/v) native polyacrylamide gels containing a short
+(1 cm) stacking gel buffered with 0.13 M Tris–HCl at
+pH 6.8 and a longer (6 cm) running gel buffered with
+0.38 M Tris–HCl at pH 8.8.
+Surface plasmon resonance measurements
+CM5 sensor chips, N-hydroxysuccinimide
+(NHS), N-ethyl-N0
+-(3-diethylaminopropyl) carbodiimide
+hydrochloride (EDC), and 1 M ethanolamine (pH 8.5)
+were purchased from Biacore Incorporated (Piscataway,
+NJ). Recombinant human TGFb1 and human TGFb3
+expressed in CHO and Sf21 cells, respectively, were
+purchased from R&D Systems (Minnepolis, MN).
+Recombinant human TGFb2 K25R I92V K94R was
+expressed in E. coli, refolded, and purified as described
+above.
+TGFb isoforms were coupled to CM-5 sensor chip
+surfaces through the standard amine coupling pro￾cedure at a flow rate of 5 ml minK1
+. Sequential
+injections consisted of a 0.05 M NHS and 0.2 M-EDC
+mixture (30 ml) followed by solutions of TGFb isoforms
+(0.8–1.6 mg/ml) in 10 mM formic acid (pH 4.0) until
+the amount of coupled TGFb yielded between 2.5!103
+to 5.0!103 resonance units (RUs). A solution of 0.1 M
+ethanolamine was then used to block the remaining
+activated sites. Control dextran surfaces were generated
+by replacing the TGFb solutions with formic acid
+alone.
+All SPR measurements were made at 25 8C at a flow
+rate of 5 ml minK1
+. Running buffer (20 mM Hepes
+(pH 7.4), 150 mM NaCl, 3.4 mM EDTA, 0.005% Tween￾20; HBS), was used to dilute all TbRII-ED variants
+injected on the TGFb isoform surfaces. Binding proper￾ties were determined by injecting buffer solutions,
+together with five different concentrations of the TbRII￾ED variants, over the TGFb isoform surfaces as well as
+over the control surfaces for 300 s, after which time the
+TbRII-ED solutions were replaced by HBS buffer for 50 s.
+The concentrations of the TbRII-ED variants ranged from
+0.6 mM to 6 mM for N47A, S49A, S52A, I53A, T51A,
+V77A, and M112A, from 1 mM to 12 mM for D32A, I50A,
+E55A, V62A, E75A, F110A, and I125A, from 0.9 mM to
+Differential Affinity of TbRII for TGFb Isoforms 599 mM for E119A, from 3 mM to 30 mM for TbRII-D14, from
+2 mM to 20 mM for L27A and E119Q, from 4 mM to 25 mM
+for D32N, from 5 mM to 40 mM for S52L, from 6 mM to
+60 mM for F30A and H79A, and from 0.065 mM to 0.5 mM
+for full-length wild-type TbRII-ED. The TGFb isoform
+surfaces were regenerated between each series of
+injections using two 50 ml pulses of 20 mM HCl at a
+flow rate of 100 ml minK1
+, followed by an EXTRACLEAN
+and a RINSE procedure carried out according to the
+BIACORE manual.
+Resonance unit values at steady-state, Req, for each
+TbRII-ED variant were determined by subtracting the
+value obtained using the TGFb isoform surface from the
+corresponding value obtained using the control surface.
+The apparent dissociation constants, Kd, were then
+determined by Scatchard analyses. The final set of Kd
+values and errors were determined through analyses of
+all variants in triplicate. The one exception was the S52L
+variant, whose Kd value was determined through analysis
+of a single Scatchard plot. This was necessary as this
+variant bound weakly and as a consequence significantly
+greater quantities of receptor were required to complete
+the measurements.
+Stability measurements
+TbRII-ED stabilities were measured by monitoring the
+intrinsic tryptophan fluorescence as a function of the
+guanidinium chloride (GdmCl) concentration. This was
+accomplished by preparing a total of 20–30 3.00 ml
+samples, each consisting of a fixed amount of protein
+(60 mg) mixed with a known concentration of GdmCl in
+25 mM NaH2PO4 (pH 7.0), 100 mM NaCl. The reversi￾bility of the folding-unfolding transition was investigated
+by adding protein in non-denaturing buffer to solutions
+containing increasing concentrations of GdmCl, or by
+adding protein in 4.0 M GdmCl to solutions of non￾denaturing buffer with decreasing concentrations of
+GdmCl. The fluorescence intensities were then measured
+at 21 8C with an SLM 500C fluorimeter equipped with a
+thermostated cell holder. Excitation was by means of a
+tungsten lamp with a 2 nm bandwidth at 285 nm. The
+emission wavelength was 350 nm with a 5 nm band￾width. The raw fluorescence intensities were fitted in a
+non-linear fashion to a two-state unfolding model with
+linear baselines to yield DGU, the free energy of unfolding
+in the absence of denaturant, and the m-value, defined as
+dðDGUÞ=dð Þ ½GdmCl .
+41 The concentration of the GdmCl at
+the midpoint of the unfolding transition, Cm, was
+calculated from the ratio of DGU to the m-value.41
+Smad phosphorylation assays
+Smad2 phosphorylation assays26 were performed by
+treating exponentially growing human mammary
+epithelial MCF-10A cells with 1 ng mlK1 TGFb3 and
+50 mg mlK1 wild-type TbRII-D14-ED or variant for
+30 min. The cells were rinsed twice with ice-cold PBS
+and lysed in 50 mM Tris–HCl (pH 7.4), 150 mM NaCl,
+1% Nonidet P-40 containing protease (Roche) and
+phosphatase (1 mM NaVO3 and 1 mM NaF) inhibitors.
+Twenty micrograms of total protein were then separa￾ted with SDS-PAGE and transferred to a HyBond-ECL
+nitrocellulose membrane (Amersham Biosciences,
+Piscataway, NJ). The membrane was blocked with
+TBST (100 mM Tris–HCl (pH 8.0), 150 mM NaCl,
+0.05% Tween-20) containing 5% (w/v) non-fat dried
+milk and then incubated with a rabbit polyclonal anti￾phospho-Smad2 (Ser-465/467) antibody (Upstate Bio￾technology) overnight or an anti-GAPDH antibody
+(Ambion) for 1 h. After three washes with TBST, the
+membrane was incubated with HRP-linked anti-rabbit
+or anti-mouse antibody (Santa Cruz) for 1 h and
+washed again. Bound complexes were visualized
+using chemiluminescence procedures (NEN Life
+Science Products, Boston, MA).
+Growth inhibition assays
+The effect of TGFb isoforms on the proliferation of
+cultured fetal bovine heart endothelial (FBHE) cells was
+tested as described by Cheifetz et al.
+9 Briefly, FBHE cells
+were seeded in 24-well plates and cultured with
+Dulbecco’s modified Eagle’s medium (DMEM) supple￾mented with 10% (v/v) Fetal Bovine Serum (Gibco-BRL,
+Carlsbad, CA) and 100 mg mlK1 endothelial cell mitogen
+(Biomedical Technologies, Stoughton, MA). Once FBHE
+cells reached a density of 50,000 cells per well, TGFb
+isoforms were added at the indicated concentrations in
+fresh media without endothelial mitogen, and the cells
+were then incubated for another 48 h. DNA synthesis was
+measured during the last 8 h of the TGFb isoform
+treatment by pulsing the cells with 5-[125I]iodo-20
+-
+deoxyuridine (Amersham, Piscataway, NJ) at 1 mCi mlK1
+.
+Affinity labeling
+TGFb1, TGFb2, TGFb2 K25R I92V K94R, and TGFb3
+were labeled with 125I as described.9 Iodinated TGFbs,
+added with sufficient unlabeled ligand to have them at
+the same specific radioactivity (5.53!106 cpm/pmol),
+were used to affinity label L6E9 rat skeletal myoblasts as
+described.42 Briefly, confluent monolayers of L6E9 cells
+were incubated with the radiolabeled TGFb isoforms at
+concentrations of 5, 25, 50, or 250 pM for 3 h at 4 8C. After
+extensive washing of the unbound ligand, disuccinimidyl
+suberate (Pierce, Rockford, IL) was added to cross-link
+the receptor-bound ligand complexes, which were
+solubilized in the presence of Triton X-100. These
+complexes were displayed by subjecting the Triton
+X-100 cell extracts to SDS-PAGE followed by phosphor￾imager autoradiography.
+Acknowledgements
+Dr Susan Weintraub is thanked for performing
+the electrospray mass spectrometry measure￾ments. Dr Jay Groppe and Dr John Lee are
+thanked for critically reading the manuscript.
+Financial support was provided by the NIH
+(GM58670) and the Robert A. Welch Foundation
+(AQ1431 to A.P.H.). Additional support was
+provided by the NIH (RR13879 to A.P.H.;
+CA79683 to L.-Z.S.; CA54174 to the Macromol￾ecular Structure and Mass Spectrometry Shared
+Resources of the San Antonio Cancer Institute),
+the Howard Hughes Medical Institute (Inter￾national Research Scholar Grant to F.L.-C.), and
+the Consejo National de Ciencia y Tecnologı´a
+(37749N to F.L.-C.).
+60 Differential Affinity of TbRII for TGFb Isoforms Supplementary Data
+Supplementary data associated with this article
+can be found, in the online version, at doi:10.1016/
+j.jmb.2005.10.022
+References
+1. Roberts, A. B. & Sporn, M. B. (1990). The transform￾ing growth factor-betas. In Peptide Growth Factors and
+their Receptors (Roberts, A. B. & Sporn, M. B., eds),
+pp. 421–472, Springer, Heidelberg, Germany.
+2. Derynck, R. (1994). TGF-b-receptor-mediated signal￾ing. Trends Biochem. Sci. 19, 548–553.
+3. Massague´, J. (1998). TGF-b signal transduction. Annu.
+Rev. Biochem. 67, 753–791.
+4. Massague´, J., Blain, S. W. & Lo, R. S. (2000). TGFb
+signaling in growth control, cancer, and heritable
+disorders. Cell, 103, 295–309.
+5. Shull, M. M., Ormsby, I., Kier, A. B., Pawlowski, S.,
+Diebold, R. J., Yin, M. Y. et al. (1992). Targeted
+disruption of the mouse transforming growth factor￾b-1 gene in multifocal inflammatory disease. Nature,
+359, 693–699.
+6. Sanford, L. P., Ormsby, I., Gittenberger-de Groot, A. C.,
+Sariola, H., Friedman, R., Boivin, G. P. et al. (1997).
+TGFbeta2 knockout mice have multiple develop￾mental defects that are non-overlapping with other
+TGFbeta knockout phenotypes. Development, 124,
+2659–2670.
+7. Proetzel, G., Pawlowski, S. A., Wiles, M. V., Yin, M.,
+Boivin, G. P., Howles, P. N. et al. (1995). Transforming
+growth factor-b3 is required for secondary palate
+fusion. Nature Genet. 11, 409–414.
+8. Wrana, J. L., Attisano, L., Carcamo, J., Zentella, A.,
+Doody, J., Laiho, M. et al. (1992). TGF-b signals
+through a heteromeric protein kinase receptor
+complex. Cell, 71, 1003–1014.
+9. Cheifetz, S., Hernandez, H., Laiho, M., ten Dijke, P.,
+Iwata, K. K. & Massague´, J. (1990). Distinct
+transforming growth factor-beta (TGF-b) receptor
+subsets as determinants of cellular responsiveness
+to three TGF-b isoforms. J. Biol. Chem. 265,
+20533–20538.
+10. De Crescenzo, G., Pham, P. L., Durocher, Y., Chao, H.
+& O’Connor-McCourt, M. D. (2004). Enhancement of
+the antagonistic potency of transforming growth
+factor-b receptor extracellular domains by coiled
+coil-induced homo- and heterodimerization. J. Biol.
+Chem. 279, 26013–26018.
+11. De Crescenzo, G., Pham, P. L., Durocher, Y. &
+O’Connor-McCourt, M. D. (2003). Transforming
+growth factor-beta (TGF-b) binding to the extracellu￾lar domain of the type II TGF-beta receptor: receptor
+capture on a biosensor surface using a new coiled-coil
+capture system demonstrates that avidity contributes
+significantly to high affinity binding. J. Mol. Biol. 328,
+1173–1183.
+12. Lo´pez-Casillas, F., Wrana, J. L. & Massague´, J. (1993).
+Betaglycan presents ligand to the TGF b signaling
+receptor. Cell, 73, 1435–1444.
+13. Yamashita, H., ten Dijke, P., Franzen, P., Miyazono, K.
+& Heldin, C.-H. (1994). Formation of hetero-oligo￾meric complexes of type I and type II receptors for
+transforming growth factor-b. J. Biol. Chem. 269,
+20172–20178.
+14. Gilboa, L., Wells, R. G., Lodish, H. F. & Henis, Y. I.
+(1998). Oligomeric structure of type I and type II
+transforming growth factor b receptors: homodimers
+form in the ER and persist at the plasma membrane.
+J. Cell Biol. 140, 767–777.
+15. Hart, P. J., Deep, S., Taylor, A. B., Shu, Z., Hinck, C. S.
+& Hinck, A. P. (2002). Crystal structure of the human
+TbR2 ectodomain - TGF-b3 complex. Nature Struct.
+Biol. 9, 203–208.
+16. Bocharov, E. V., Korzhnev, D. M., Blommers, M. J.,
+Arvinte, T., Orekhov, V. Y., Billeter, M. & Arseniev,
+A. S. (2002). Dynamics-modulated biological activity
+of transforming growth factor beta 3. J. Biol. Chem.
+277, 46273–46279.
+17. Deep, S., Walker, K. P., 3rd, Shu, Z. & Hinck, A. P.
+(2003). Solution structure and backbone dynamics of
+the TGFb type II receptor extracellular domain.
+Biochemistry, 42, 10126–10139.
+18. Kirsch, T., Sebald, W. & Dreyer, M. K. (2000). Crystal
+structure of the BMP-2-BRIA ectodomain complex.
+Nature Struct. Biol. 7, 492–496.
+19. Gray, P. C., Greenwald, J., Blount, A. L., Kunitake,
+K. S., Donaldson, C. J., Choe, S. & Vale, W. (2000).
+Identification of a binding site on the type II activin
+receptor for activin and inhibin. J. Biol. Chem. 275,
+3206–3212.
+20. Greenwald, J., Groppe, J., Gray, P., Wiater, E.,
+Kwiatkowski, W., Vale, W. & Choe, S. (2003). The
+BMP7/ActRII extracellular domain complex provides
+new insights into the cooperative nature of receptor
+assembly. Mol. Cell. 11, 605–617.
+21. Guimond, A., Sulea, T., Pepin, M. C. & O’Connor￾McCourt, M. D. (1999). Mapping of putative binding
+sites on the ectodomain of the type II TGF-b receptor
+by scanning-deletion mutagenesis and knowledge￾based modeling. FEBS Letters, 456, 79–84.
+22. Thompson, T. B., Woodruff, T. K. & Jardetzky, T. S.
+(2003). Structures of an ActRIIB:activin A complex
+reveal a novel binding mode for TGF-b ligand:
+receptor interactions. EMBO J. 22, 1555–1566.
+23. De Crescenzo, G., Grothe, S., Zwaagstra, J., Tsang, M.
+& O’Connor-McCourt, M. D. (2001). Real-time moni￾toring of the interactions of transforming growth
+factor-beta (TGF-b) isoforms with latency-associated
+protein and the ectodomains of the TGF-beta type II
+and III receptors reveals different kinetic models and
+stoichiometries of binding. J. Biol. Chem. 276,
+29632–29643.
+24. Tsang, M., Zhou, L., Zheng, B., Wenker, J., Fransen, G.,
+Humphrey, J. et al. (1995). Characterization of
+recombinant soluble human transforming growth
+factor-b receptor type II (rhTGF-b sRII). Cytokine, 7,
+389–397.
+25. Lin, H., Moustakas, A., Knaus, P., Wells, R., Henis, Y.
+& Lodish, H. (1995). The soluble exoplasmic domain
+of the type II transforming growth factor (TGF)-beta
+receptor. A heterogenously glycosylated protein with
+a high affinity and selectivity for TGF-beta ligands.
+J. Biol. Chem. 270, 2747–2754.
+26. Lei, X., Bandyopadhyay, A., Le, T. & Sun, L. (2002).
+Autocrine TGFb supports growth and survival of
+human breast cancer MDA-MB-231 cells. Oncogene,
+21, 7514–7523.
+27. Rosa, F., Roberts, A. B., Danielpour, D., Dart, L. L.,
+Sporn, M. B. & Dawid, I. B. (1988). Mesoderm
+induction in amphibians: the role of TGF-b 2-like
+factors. Science, 239, 783–785.
+Differential Affinity of TbRII for TGFb Isoforms 6128. Tsunawaki, S., Sporn, M., Ding, A. & Nathan, C.
+(1988). Deactivation of macrophages by transforming
+growth factor-b. Nature, 334, 260–262.
+29. Jennings, J. C., Mohan, S., Linkhart, T. A., Widstrom, R.
+& Baylink, D. J. (1988). Comparison of the biological
+actions of TGF-b-1 and TGF-b-2: differential activity in
+endothelial cells. J. Cell Physiol. 137, 167–172.
+30. Qian, S. W., Burmester, J. K., Sun, P. D., Huang, A.,
+Ohlson, D. J., Suardet, L. et al. (1994). Characterization
+of mutated transforming growth factor-bs which
+possess unique biological properties. Biochemistry,
+33, 12298–12304.
+31. Qian, S. W., Burmester, J. K., Tsang, M. L.-S.,
+Weatherbee, J. A., Hinck, A. P., Ohlsen, D. J. et al.
+(1996). Binding affinity of transforming growth
+factor-b to the type II receptor is determined by the
+C-terminal region of the molecule. J. Biol. Chem. 271,
+30656–30662.
+32. Burmester, J. K., Qian, S. W., Ohlsen, D., Phan, S.,
+Sporn, M. B. & Roberts, A. B. (1998). Mutational
+analysis of a transforming growth factor-b receptor
+binding site. Growth Factors, 15, 231–242.
+33. O’Connor-McCourt, M. D., Segarini, P., Grothe, S.,
+Tsang, M. L.-S. & Weatherbee, J. A. (1995). Analysis of
+the interaction between two TGF-b-binding proteins
+and three TGF-b isoforms using surface plasmon
+resonance. Ann. NY Acad. Sci. 766, 300–302.
+34. Hinck, A. P., Archer, S. J., Qian, S. W., Roberts, A. B.,
+Sporn, M. B., Weatherbee, J. A. et al. (1996).
+Transforming growth factor b1: three-dimensional
+structure in solution and comparison with the X-ray
+structure of transforming growth factor b2. Biochem￾istry, 35, 8517–8534.
+35. Mittl, P. R. E., Priestle, J. P., Cox, D. A., McMaster, G.,
+Cerletti, N. & Grutter, M. G. (1996). The crystal
+structure of TGF-b3 and comparison to TGF-b2:
+Implications for receptor binding. Protein Sci. 5,
+1261–1271.
+36. Wrana, J. L., Attisano, L., Wiesner, R., Ventura, F. &
+Massague´, J. (1994). Mechanism of activation of the
+TGF-b receptor. Nature, 370, 341–347.
+37. Lin, H. Y., Wang, X.-F., Elinor, N.-E., Weinberg, R. A. &
+Lodish, H. F. (1992). Expression cloning of the TGF-b
+type II receptor, a functional transmembrane serine/
+threonine kinase. Cell, 68, 775–785.
+38. Hinck, A. P., Walker, K. P., 3rd, Martin, N. R., Deep, S.,
+Hinck, C. S. & Freedberg, D. I. (2000). Sequential
+resonance assignments of the extracellular ligand
+binding domain of the human TGF-b type II receptor.
+J. Biomol. NMR, 18, 369–370.
+39. Cerletti, N. (2000). Process for the production of
+biologically active dimeric protein, US Patent
+6057430.
+40. Gill, S. C. & von Hippel, P. H. (1989). Calculation of
+protein extinction coefficients from amino acid
+sequence data. Anal. Biochem. 182, 319–326.
+41. Pace, C. N. (1975). The stability of globular proteins.
+CRC Crit. Rev. Biochem. 3, 1–43.
+42. Massague´, J. (1987). Identification of receptors for
+type-b transforming growth factor. Methods Enzymol.
+146, 174–195.
+Edited by P. T. Lansbury Jr
+(Received 30 April 2005; received in revised form 16 August 2005; accepted 6 October 2005)
+Available online 2 November 2005
+62 Differential Affinity of TbRII for TGFb Isoforms

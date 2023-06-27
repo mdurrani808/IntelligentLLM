@@ -1,0 +1,76 @@
+Improving the species cross-reactivity of an antibody using computational design The high degree of specificity displayed by antibodies often results in varying potencies against antigen orthologs, which can affect the efficacy of these molecules in different animal models of disease.
+We have used a computational design strategy to improve the species cross-reactivity of an antibody-based inhibitor of the cancer-associated serine protease MT-SP1.
+In silico predictions were tested in vitro, and the most effective mutation, T98R, was shown to improve antibody affinity for the mouse ortholog of the enzyme 14-fold, resulting in an inhibitor with a KI of 340 pM. This improved affinity will be valuable in exploring the role of MT-SP1 in mouse models of cancer, and the strategy outlined here could be useful in fine-tuning antibody specificity.
+ The ability to engineer and biochemically manipulate antibodies is critical to their utility, and has helped usher in a new wave of biological therapeutics.
+While bacteriophage, ribosome, and yeast display techniques have revolutionized our ability to quickly raise antibodies to a specific target, these methods are all limited by their functional library size.
+Considerable effort has therefore gone into improving binding beyond the initial lead antibody hit from these libraries.
+Iterative rounds of combinatorial techniques such as CDR walking, error-prone PCR, or random or site directed mutagenesis have led to antibodies that regularly bind their antigens with KDs in the picomolar range.
+Structure-based and computational protein design techniques have also been used to streamline the antibody maturation process.
+ Antibodies make outstanding therapeutic agents in part due to the high degree of specificity an antibody has for its antigen.
+Monoclonal antibodies often bind non-linear epitopes that depend on the precise three-dimensional arrangement of a constellation of amino acids.
+The specificity afforded by a monoclonal antibody has a downside, though, as it can hinder efforts to use a single antibody against species homologs.
+Antibodies raised against a specific human antigen often do not cross-react with nonhuman versions of that antigen, which can affect the choice and efficacy of pre-clinical animal models.
+The same combinatorial techniques used to improve antibody affinity have been used to modify the cross-reactivity of recombinant antibodies; here we report that computational design can be used to improve the species cross-reactivity of an antibody.
+ We have previously described an antibody that inhibits the extracellular serine protease membrane-type serine protease 1 (MT-SP1/matriptase).
+The biology of MT-SP1 is complex, but it is posited to play a role in a number of biological processes, and dysregulation of the enzyme has been shown to play a role in tumor growth and metastasis (see reviews).
+The antibody, E2, was identified in a bacteriophage-displayed antibody library, and is a potent inhibitor of MT-SP1, with a KI of 12 pM. Though MT-SP1 and its mouse ortholog epithin are 87% identical, E2 is a 300-fold less potent inhibitor of the mouse version of the enzyme.
+The basis of this difference is not apparent from biochemical and structural analyses of the MT-SP1/E2 complex.
+There are only three residues on the protease surface that both make contacts with the antibody and are different between the human and mouse versions of the enzyme: Ile60 is a glutamine in the mouse ortholog, Arg60c a lysine, and Tyr146 is a glutamic acid, but these residues have been shown to not be critical for inhibition.
+In order to better understand the role MT-SP1/epithin plays in tumor progression and metastasis, mouse models of cancer need to be utilized.
+In order to develop a version of E2 suitable for mouse experiments, computational design has been used to suggest mutations predicted to improve inhibition of the mouse version of the enzyme.
+ Designing a species cross-reactive antibody In silico design strategies have been used to modify protein-protein specificity, and have successfully guided or aided in the understanding of the maturation of an antibody for an antigen.
+As is frequently the case in antibody-antigen interactions, hydrogen bonding and electrostatic interactions are important contributors to the binding affinity and specificity of the interaction between MT-SP1/epithin and the antibody considered here.
+The MT-SP1/epithin active site prefers positively charged substrates, and the heavy and light chain CDR3 loops of E2 are positively charged.
+To account for these electrostatic interactions, we used a molecular mechanics-based energy function, in conjunction with an implicit solvent model to treat the effects of water, to predict the effect on binding of mutations at the protease-antibody interface.
+This type of energy function has previously been shown to perform well in predicting mutations to increase binding affinity of antibodies, in studying specificity of enzymes for charged metabolites, and in designing enzyme active-sites.
+ An estimate of the change in binding free energy upon mutation (Gmut) was calculated using the Protein Local Optimization Program (PLOP) by subtracting the calculated energies of unbound E2mutated and epithin species from the calculated energy of the E2mutated/epithin complex (Figure 1a).
+PLOP estimates free energy using the Optimized Potential for Liquid Simulations all atom (OPLS-AA) force field, the Surface Generalized Born model of polar solvation, an estimator for the nonpolar component of the solvation free energy, and a number of correction terms as detailed in Ghosh et al. and Jacobson et al. Computationally estimating changes in protein conformational entropy upon binding is extremely difficult, and we do not attempt to do so.
+For this reason, the calculated Gmut cannot be interpreted as a direct surrogate for the experimental change in binding affinity.
+The calculated values are much too large, because they do not include the entropy losses upon binding.
+Rather, as in previous work on specificity of proteins for small molecule substrates and inhibitors, the calculated values are a qualitative measure, in this case used to identify mutations that may change binding affinity and specificity.
+ There is currently no available structure of the epithin/E2 complex, so a homology model of epithin was created with PLOP using the available MT-SP1 structure as a template.
+As part of the homology modeling process in PLOP, side chain rotamers are optimized for all residues that differ between the two proteins.
+The epithin homology model was substituted for the protease in the MT-SP1/E2 crystal structure, E2 was truncated to Fv length (ending at IleL106 and ValH111) and hydrogens were added and energy minimized.
+A residue was selected for in silico mutation on the E2 heavy chain if at least one of its atoms was < 5  from any atom in the three residues that differ between MT-SP1 and epithin (Gln60, Lys60c, and Glu146, Figure 2a).
+The six chosen residues were ThrH28, SerH30, ThrH98, TyrH99, ProH100, and GlnH100a (Figure 2a).
+The computational workflow is outlined in Figure 1b and is described as follows: (1) each of the six residue side chains were mutated to the other 18 possible amino acid side chains (excluding cysteine); (2) the side chain rotamers of residues in the interface of the complex were optimized and then energy minimized; (3) the same interface residues were energy minimized in the unbound, mutated E2 and unbound epithin structures; and (4) Gmut was calculated as described above.
+Most of the changes were predicted to be neutral or worsen the antibody-antigen interaction, but 8 mutations were predicted to lower the free energy of the epithin-E2 complex by varying amounts and were tested experimentally.
+ Testing the computational predictions Fab constructs of the eight point mutants predicted to improve antibody binding were cloned via site-directed mutagenesis, expressed in E. coli, and purified as previously described.
+The IC50s of each point mutant were measured against epithin and MT-SP1, and relative KIs were determined to normalize the IC50 with respect to the protease/substrate interaction.
+The majority of the mutations had little effect on protease inhibition (Table 1).
+The heavy chain P100H mutant, predicted to improve binding significantly, was deleterious to protease inhibition.
+This is likely because eliminating proline significantly increases the flexibility of the backbone, an effect that is not captured in the modeling protocol.
+The T98R substitution, which was predicted to have the greatest effect on protease inhibition, improved the KI of E2 for epithin from 4.8 nM to 340 pM  a 14-fold improvement.
+The MT-SP1/E2 crystal structure provides a rationale for this improvement.
+The Thr98 side chain makes no contacts with the protease, and the O2 atom is solvent exposed.
+The model of the epithin-E2 complex suggests the T98R mutation enables the arginine side chain to extend back towards the protease, make an intramolecular H-bond with the backbone carbonyl oxygen of ValH100h, and an intermolecular H-bond with the carboxylate group of Glu217 on the protease (Figure 2b).
+The 14-fold improvement in KI shown by this construct corresponds to a free energy gain of 1.6 kcal/mol, which is roughly the strength of one strong or two moderately strong H-bonds.
+This model also suggests why the T98R mutation has little effect on MT-SP1 inhibition.
+The human ortholog has an Asp residue at position 217, which, because its side chain is one atom shorter, cannot extend far enough to make this interaction.
+As a result, the threonine to arginine substitution allows a side chain that plays a minimal role in protease inhibition to be modified to broaden the species cross-reactivity of the E2 antibody.
+ Our broadening of the species specificity of E2 highlights a number of reasons the antibody-antigen interaction is ideally suited for modification by computational design.
+When bound to proteins, antibodies often have more than 800 square angstroms of buried surface area, and are dominated by binding hot-spots, which allows for the possibility of optimization at a number of discrete locations without destroying binding.
+Mutational studies on the MT-SP1/E2 complex suggested the antibody-antigen complex was dependent on interactions at ArgH100b and portions of the H2 and H3 loops that grabbed the 90s loop on the protease, so we did not computationally screen these areas.
+The energetics of antibody-antigen complexes are dependent on side chain-side chain interactions more than main chain interactions.
+Side-chain interactions can be easier to model, particularly when the protein backbone is relatively rigid.
+This is illustrated by our success modeling the effects of mutating side chain interactions at residue Thr98, and the difficulty experienced modeling Pro99, the only residue that was modified which significantly reduced inhibition.
+Also, the shape complementarity (as defined by the geometric match at a protein-protein interface) of antibody-antigen interactions tends to be worse than other well characterized protein-protein interactions, and antibody CDR sequences are biased towards specific residues such as tyrosine, tryptophan, and aspartic acid.
+This is likely a function of the inherent flexibility antibodies must have to bind to new and different antigens, and is clearly an efficient way to rapidly develop binders to many different targets, but likely leaves a portion of sequence and conformational space underexplored, and suggests there are a number of opportunities for computational modeling to predict mutations that could fine-tune the interaction.
+ In conclusion, computational design was used to predict a suite of mutations that could improve the species cross-specificity of an inhibitory antibody of the cancer associated serine protease MT-SP1.
+The substitution of an arginine for ThrH98 improved the affinity of the antibody for epithin by an order of magnitude, and had no effect on inhibition of the human ortholog.
+In conjunction with other similar published studies, the results presented here suggest that computational strategies can help guide the fine-tuning of antibody-antigen interactions, and streamline the process by which therapeutic antibodies are investigated in different animal models.
+ This is a PDF file of an unedited manuscript that has been accepted for publication.
+As a service to our customers we are providing this early version of the manuscript.
+The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final citable form.
+Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.
+ References                                       Figures and Tables (a) Predicted change in binding free energy for a point mutation is estimated in silico by the calculated change in free energy upon mutation of the E2/epithin complex minus the calculated change in free energy upon mutation of the unbound E2 antibody minus the calculated free energy of epithin.
+(b) Details of the methods used to calculate each free energy component shown in (a) (see text).
+ (a) The 6 residues (sticks) on the H1 and H3 CDR loops of E2 (magenta) that contact residues which are different between the human and mouse orthologs (blue) of the protease were chosen for in silico mutation.
+(b) Predicted effect of T98R mutation of the E2 H3 loop (magenta) on epithin (cyan) inhibition.
+The arginine side chain makes an intramolecular H-bond with the backbone carbonyl oxygen of ValH100h, and a hydrogen bond with the Glu217 of epithin.
+ThrH98 and Asp217 of MT-SP1 from the E2/MT-SP1 crystal structure are shown as ball-and-sticks.
+The model suggests that the T98R substitution does not affect MT-SP1 inhibition, because the Asp217 side chain cannot reach the guanidine group of ArgH98, which is locked in position by the intramolecular H-bond.
+ Predicted and experimental antibody mutations  Epithin  Ki (nM) Fold  Improvement2 Gexp1 (kcal/mol) Gpredicted (kcal/mol) MT-SP1  Ki (pM) Fold  Improvement2   E2 4.8    22.4    T28R 3.2 1.5 0.24 13.2 39.3 0.6   S30G 14.0 0.3 0.63 17.6 165.9 0.1   S30N 14.7 0.3 0.66 11.1 155.1 0.1   T98Q 3.7 1.3 0.16 9.9 21.6 1.0   T98R 0.34 14.1 1.57 21.8 20.3 1.1   Y99S 11.5 0.4 0.52 0.12 48.6 0.5   P100H 78.5 0.1 1.66 16.3 1346.6 0.0   Q100aV 10.3 0.5 0.45 0.07 176.7 0.1    Relative KIs were calculated from IC50 values according to: KI = IC50/(1 + [S] KM ) .
+Substrate KMs were 21 M for epithin and 41 M for MT-SP1.
+See Ref.
+for more details. Fold improvement was determined by dividing the experimental (KI [E2] / KI [Mutant]) 

@@ -1,0 +1,1203 @@
+Neutralizing Epitopes on the Extracellular Interferon g
+Receptor (IFNgR) a-Chain Characterized by Homolog
+Scanning Mutagenesis and X-ray Crystal Structure of
+the A6 Fab±IFNgR1-108 Complex
+Satoshi Sogabe2
+, Fiona Stuart
+1
+, Christoph Henke1
+, Angela Bridges1
+Geoffrey Williams1
+, Ashley Birch1
+, Fritz K. Winkler2
+*
+and John A. Robinson1
+1
+Department of Chemistry
+University of Zurich
+Winterthurerstrasse 190
+8057, Zurich, Switzerland
+2
+F. Hoffmann-La Roche Ltd
+Pharmaceutical Research-New
+Technologies, 4070, Basel
+Switzerland
+The extracellular interferon g receptor a-chain comprises two immunoglo￾bulin-like domains, each with ®bronectin type-III topology, which are
+responsible for binding interferon g at the cell surface. The epitopes on
+the human receptor recognized by three neutralizing antibodies, A6,
+gR38 and gR99, have been mapped by homolog scanning mutagenesis. In
+this way, a loop connecting b-strands C and C0 in the N-terminal domain
+was identi®ed as a key component of the epitopes bound by A6 and
+gR38, whereas gR99 binds to the C-terminal domain in a region including
+strands A and B and part of the large C0
+E loop. The epitope for A6 was
+con®rmed in a crystal structure of a complex between a recombinant
+N-terminal receptor domain and the Fab fragment from A6, determined
+by X-ray diffraction to 2.8 AÊ resolution. The antibody ±antigen interface
+buries 1662 AÊ 2 of protein surface, including 22 antibody residues from
+®ve complementarity determining regions, primarily through interactions
+with the CC0 surface loop of the receptor. The ¯oor of the antigen bind￾ing cavity is formed mainly by residues from CDR L3 and CDR H3
+while a surrounding ridge is formed by residues from all other CDRs
+except L2. Many potential polar interactions, as well as 13 aromatic side￾chains, four in VL, six in VH and three in the receptor, are situated at the
+interface. The surface of the receptor contacted by A6 overlaps to a large
+extent with that contacted by interferon-g, in the ligand ± receptor com￾plex. However, the conformation of this epitope is very different in the
+two complexes, demonstrating that conformational mobility in a surface
+loop on this cytokine receptor permits steric and electrostatic complemen￾tarity to two quite differently shaped binding sites.
+# 1997 Academic Press Limited
+Keywords: cytokine; antibody Fab fragment; molecular recognition;
+*Corresponding author induced ®t; surface plasmon resonance biosensor
+Introduction
+The powerful antiproliferative, immunomodula￾tory and antiviral activities of interferon g (IFNg)
+are initiated following association of the cytokine
+with a membrane-bound receptor present on many
+cell types (Bach et al., 1997). The human IFNgR, a
+member of the hematopoietic cytokine receptor
+Abbreviations used: CDR, complementarity determining region; CH1, the ®rst constant domain of the heavy chain;
+CL, constant domain of the light chain; EPO, erythropoietin; EPOR, erythropoietin receptor; FBN-III, ®bronectin type￾III; Fchl, the heterodimer CL  CH1; Fv, the heterodimer VH  VL; HIV-1, human immunode®ciency virus type 1;
+IFNg, interferon g; IFNgR, interferon g receptor a-chain; GRH, growth hormone; GRHR, growth hormone receptor;
+Ig, immunoglobulin; mAb, monoclonal antibody; PCR, polymerase chain reaction; PRL, prolactin; PRLR, prolactin
+receptor; SPR, surface plasmon resonance; Trx, thioredoxin from Escherichia coli; TF, tissue factor; VH, VL, variable
+domains of the heavy (H) and light (L) chain; wt, wild-type; CD, circular dichroism; r.m.s., root mean square; IPTG,
+isopropyl-b,D-thiogalactoside; PMSF, phenylmethylsulfonyl ¯uoride.
+J. Mol. Biol. (1997) 273, 882±897
+0022±2836/97/440882±16 $25.00/0/mb971336 # 1997 Academic Press Limitedsuperfamily, comprises an extracellular portion of
+229 residues, a single transmembrane region of 22
+residues, and a cytoplasmic domain of 221 resi￾dues. The crystal structure, recently reported
+(Walter et al., 1995), of recombinant extracellular
+human IFNgR in a 2:1, receptor:ligand complex
+with IFNg revealed in atomic detail how the extra￾cellular portions of two IFNgR chains bind the
+homodimeric (2  17 kDa) IFNg at the cell surface.
+Other cytokine receptor superfamily members
+whose crystal structure in a complex with a recep￾tor ligand have also been reported include the
+receptors for GRH (De Vos et al., 1992), PRL
+(Somers et al., 1994), EPO (Livnah et al., 1996), IL-1
+(Schreuder et al., 1997; Vigers et al., 1997) and TF
+(Banner et al., 1996). An additional transmembrane
+IFNgR b-chain (or accessory factor), however, is
+necessary for species speci®c signal transduction
+by IFNg (Marsters et al., 1995), and it is not yet
+clear from a structural viewpoint how this b-chain
+interacts with the IFNg± (IFNgR)2 complex.
+There is currently great interest in the mechan￾isms of ligand recognition by members of the cyto￾kine receptor superfamily. The cytokine binding
+sites are, in several cases, formed by a small set of
+closely spaced surface loops that extend from a
+b-sheet core, much like the antigen binding sites on
+antibodies. Crystallographic studies on GRHR,
+PRLR, IFNgR and EPOR have indicated that the
+ability of these receptors to speci®cally recognize
+different ligands may arise through sequence
+diversity in the surface loops, as well as through
+local and global conformational diversity
+(Kossiakoff et al., 1994). In the work described
+here, recognition of the extracellular IFNgR by
+three surrogate ligands, in the form of neutralizing
+mAbs (denoted A6 (Aguet & Merlin, 1987), gR38
+and gR99 (Garotta et al., 1990)) has been studied.
+These three mAbs inhibit binding of human IFNg
+to native and recombinant human IFNgR. It was,
+therefore, of interest to enquire how the structural
+epitopes bound by these neutralizing mAbs, and
+the mechanisms of their recognition by the recep￾tor, are related to those involved in IFNg binding.
+The extracellular IFNgR monomer comprises
+two domains (domain D1 from residue 14-102, and
+domain D2 from residue 114-221){, each resem￾bling an Ig fold with FBN-III topology. In each
+domain, the chain forms two antiparallel b-sheets
+composed of b-strands A, B, E and G, F, C and C0
+(Figure 1). The interdomain angle between D1 and
+D2 is approximately 120 in the IFNgR, which is
+similar to that seen in TF, but greater than the
+90 angle observed between the corresponding
+domains in the GRHR, the PRLR and the EPOR.
+The domain linker in the IFNgR chain (residues
+103 to 113) includes a helical turn, similar to that
+seen in GRHR, PRLR, TF and EPOR, but contains
+a cysteine residue (Cys105) that forms a disul®de
+bridge with Cys150 located in the BC loop in D2.
+This disul®de is buried in the extensive interdo￾main interface.
+Equivalent residues on each extracellular IFNgR
+chain bind identical 2-fold related surfaces on the
+IFNg homodimer in the 1:2, ligand:receptor com￾plex. These include residues in the CC0 and EF
+loops, and the F and G b-strands of D1, the helical
+turn in the linker, and the BC and FG loops from
+D2. As noted earlier (Walter et al., 1995), aromatic
+receptor residues (Tyr49, Trp207 and Trp82) con￾tribute almost one-third of the total buried surface
+area (total 960 AÊ 2
+) in each binding interface.
+Here, the epitopes on the extracellular human
+IFNgR recognized by A6, gR38 and gR99 have
+been characterized by homolog scanning mutagen￾Figure 1. Ribbon representation of the extracellular
+IFNgR drawn using MOLMOL (Koradi et al., 1996) and
+the coordinates of one receptor chain from the IFNg±
+IFNgR complex. The two b-sheets, comprising strands
+A, B, E and C0
+, C, G, F of each domain are indicated,
+together with the N and C termini. The balls represent
+the positions of Cys residues (the Cb atoms) involved in
+disul®de bridges.
+{ The IFNgR chain is numbered sequentially
+assuming residues Glu1Met2Gly3.... correspond to the N
+terminus of the mature receptor after cleavage of the
+signal peptide (Aguet et al., 1988). VH and VL of mAb
+A6 are numbered according to Kabat et al. (1991), as
+given earlier (Bridges et al., 1995). Antibody residues are
+named as follows: residue-type H(or L)-chain;residue
+number. Residues in the recombinant IFNgR1-108 chain
+have the pre®x I.
+Epitopes on the Interferon  Receptor 883 esis (Cunningham et al., 1989). In addition, a crys￾tal structure has been determined to 2.8 AÊ resol￾ution of a complex formed between an Fab
+fragment derived from A6 and a recombinant D1
+of the IFNgR (residues 1 to 108 with a Cys105Ser
+mutation, and an additional two residues (Val-Pro)
+at the N terminus, denoted here IFNgR1-108). A6
+and gR38 were shown earlier to bind overlapping
+epitopes located in IFNgR1-108
+, whereas gR99 recog￾nizes an epitope within D2 between residues 100
+and 229 (Williams et al., 1995). In the A6 Fab￾IFNgR1-108 complex reported here, the CDRs of the
+antibody interact primarily with the CC0 surface
+loop of the receptor. The antibody epitope thus
+overlaps to a large extent the site contacted by
+IFNg, in the ligand ± receptor complex. However,
+the conformation of this surface loop is quite differ￾ent in the two complexes, providing an example of
+how local conformational mobility in a cytokine
+receptor permits steric and electrostatic comple￾mentarity to two quite differently shaped binding
+sites.
+Results and Discussion
+Production and mutagenesis of IFNgR
+The human extracellular IFNgR residues 1 to 229
+(IFNgR1-229
+), with a c-myc peptide tag (Evan et al.,
+1985) fused to its C terminus, was produced by a
+secretion expression system in Escherichia coli. The
+af®nities of this protein to the mAbs A6, gR38 and
+gR99, as well as to the ligand IFNg10 (DoÈbeli
+et al., 1988), were compared with those for wt
+extracellular IFNgR produced in a baculovirus
+expression system (Gentz et al., 1992) using a SPR
+biosensor (Pharmacia BIAcore2) (data not shown).
+The E. coli-derived IFNgR1-229 has a slightly lower
+apparent af®nity for mAbs A6 and gR99; however,
+in all cases the differences between E. coli and
+insect cell-derived receptor are less than twofold.
+The absence of glycosylation in the E. coli-derived
+protein is one possible reason for the small differ￾ences observed.
+The mAbs A6, gR38 and gR99 recognize confor￾mational epitopes on the human IFNgR, but do not
+bind mouse IFNgR signi®cantly or the reduced
+and denatured human IFNgR (Aguet & Merlin,
+1987; Garotta et al., 1990). Homolog scanning
+mutagenesis was therefore used to map the epi￾topes recognized by A6, gR38 and gR99 on the
+receptor surface. For this purpose, the panel of
+mutants shown in Table 1 were prepared using the
+E. coli secretion expression system. A comparison
+of the human and mouse extracellular receptor
+sequences is given in Figure 2.
+The CD spectra of all mutants had shapes simi￾lar to that of wt receptor, with a small positive
+maximum at 235 nm and a large negative maxi￾mum at 195 nm, essentially as described earlier for
+the wt receptor (Fountoulakis & Genz, 1992). This
+indicates that the mutants and wt have similar
+folds. This conclusion is also supported by the
+observation that all N-terminal domain mutants
+were bound normally by gR99, whereas all recep￾tors with mutations in the C-terminal domain were
+recognized normally by A6, as assayed using the
+BIAcore instrument.
+The effects of the mutations on binding to A6,
+gR38 and gR99 are summarised in Table 1.
+Mutants 6 and 8 show a greatly reduced af®nity
+for A6 and gR38, mainly due to a decrease in
+apparent kon on the biosensor surface (data not
+shown). The region altered in mutant 6 corre￾sponds to the CC0 loop seen at the interface in the
+crystal structure of the A6 ± IFNgR1-108 complex,
+described below. This CC0 loop is, therefore, cor￾rectly identi®ed by mutagenesis as an important
+part of the A6 conformational epitope.
+Beneath the CC0 loop in the A6 ± IFNgR1-108 crys￾tal structure is a second loop (the EF loop) formed
+by residues that are altered in mutant 8. As dis￾cussed below, the A6 Fab makes only a few con￾tacts with this EF loop and their disruption may
+not be suf®cient to account for the observed loss of
+af®nity of mutant 8 with A6. Alternatively, the EF
+loop may exert an in¯uence on the conformations
+accessible to the CC0 loop when bound to A6,
+which may be critically altered in mutant 8. The
+mutagenesis results con®rm that the gR38 and A6
+epitopes overlap (Williams et al., 1995), and show
+that both are located in the region of the CC0 loop.
+However, small differences in apparent koff values
+between the binding of individual mutants by
+these antibodies were observed, although the mag￾nitude of the effects were small (4factor of 2; data
+not shown). Thus the receptor epitopes bound by
+A6 and gR38 are very closely related, but not iden￾tical.
+Mutants 13, 14 and 21 are severely disabled in
+their af®nity for gR99 (Table 1), whereas, with the
+exception of mutants 18 and 20, where the KD
+values are reduced by a factor of 5 to 6 in this
+assay, the other mutants show close to wt af®nity.
+The residues altered in mutants 13, 14 and 21 are
+spatially adjacent on one face of the receptor,
+de®ned by strands A and B and part of the large
+C0
+E loop of the C-terminal Ig-like domain. As
+shown in Figure 3, this region of the receptor does
+not appear to overlap the surface buried in the
+IFNg-IFNgR complex. Nevertheless, the intact
+mAb (Garotta et al., 1990) and single-chain Fv frag￾ment derived from gR99 (Bridges et al., 1996) were
+shown by radioimmunoassay to inhibit IFNg bind￾ing to native receptor on human Raji cells. From a
+structural viewpoint, the mechanism of inhibition
+by gR99 is unclear. We note, however, that model￾ing studies (Walter et al., 1995) have suggested that
+acidic residues near the C0
+E loop (altered in
+mutant-21) may be important in binding basic resi￾dues in the C-terminal tail of IFNg. The C-terminal
+IFNg residues beyond 122 extend into the solvent
+and from the crystal structure do not appear to be
+important for receptor binding. However, bio￾chemical assays have shown that Arg129 is an
+essential part of a functionally important C-term￾884 Epitopes on the Interferon  Receptorinal IFNg sequence that is required for full receptor
+binding af®nity (Haelewyn et al., 1997).
+Crystal structure of the A6-IFNgR1-108 complex
+The structure of the complex was solved by mol￾ecular replacement techniques using search models
+for the Fv and Fchl parts of the Fab as described in
+Materials and Methods. A summary of the re®ne￾ment results is given in Table 2. Interpretation of
+the density of the receptor domain was greatly
+aided by the availability of a model for this
+domain (CheÂne et al., 1995; le Du et al., unpub￾lished data). The ®nal distribution of the main￾chain dihedral angles is presented in a Ramachan￾dran plot in Figure 4. Over 97% of the non-glycine
+and non-proline residues lie inside favored or
+additional allowed regions as de®ned in PRO￾CHECK (Laskowski et al., 1993), which is slightly
+better than the distribution expected for a structure
+re®ned to 2.8 AÊ resolution.
+The re®ned model comprises 442 of the 540 resi￾dues present in the complex and 30 well-deter￾mined water molecules (see Table 2). The structure
+is well de®ned for the Fv part of the Fab fragment,
+for most of the receptor domain and particularly
+for the antibody ± antigen interface, which is the
+area of prime interest in this study. However, a
+large fraction of the residues in the Fchl part (85 of
+203) are very poorly de®ned in the electron density
+and have been removed from the model. The Fchl
+chain segments that have been retained in the
+model still have much higher average B-factors
+than the other three domains (Table 2). Neither
+domain in Fchl is involved in any crystal contacts
+and, given their small interface with the Fv
+domains, considerable positional disorder is indi￾cated. As apparent from omit maps (see Materials
+Table 1. The apparent dissociation constants (KD), determined on a BIAcore instrument for complexes formed
+between the immobilized mAbs A6, gR38 and gR99 and wt and mutant IFNgRs
+Antibody A6 Antibody gR38
+KD (mut) KD (mut)
+Mutant Mutations introduced into IFNgR KD (nM) KD (wt) KD (nM) KD (wt)
+IFNgR1-229, wt from E. coli 14.2 ± 32.9 ±
+1 T14V 13.6 0.96 37.4 1.1
+2 T19L, E21K 13.6 0.96 38.0 1.2
+3 M25L, I28V 9.9 0.7 24.7 0.8
+4 I35N, P37S, V39T, V41I 18.1 1.3 43.0 1.3
+5 E45Q 16.8 1.2 57.0 1.7
+6 N48V, (G50V51K52), N53S, S54G, E55S I57T 5820 410 >3400 >103
+7 A59S, I61T, H65D 16.0 1.1 29.4 0.9
+8 S71Y, D72E, H73Q, V74I, G75M, D76Y, S78D, N79V, L81A 2100 148 >2880 >86
+9 V83A, R88K 9.9 0.7 36.2 1.1
+10 A95D, K98R, E100K 13.1 0.9 37.8 1.2
+11 A103L, V104M, R106L, D107K 41.4 2.9 28.9 0.9
+gR99
+KD (mut)
+Mutant Mutations introduced into IFNgR KD (nM) KD (wt)
+IFNgR1-229, wt from E. coli 2.7 ±
+12 I110V, K114G 2.7 1.0
+13 D116E, i117R, E120K 2360 874
+14 K122E, I124L, M125S, I126V, D127L, I128V 130 48
+15 S132E, F134V 5.8 2.1
+16 D138E, E139S, E141G, V142T 2.4 0.9
+17 D138E, E139S, E141G, V142T, D143M, Y144F, D145G, 1.9 0.7
+P146D, E147G, T148S
+18 I152T, R153F, V154D, N156T 15 5.6
+19 R160E, M161H, G163R, i164G 1.6 0.6
+20 Q167L, Y168H, K169T, I170K, L171H 17 6.3
+21 Q173V, K174E, E175K, D176E, D177E, D179N, I181T, 673 249
+Q182L, Q184E
+22 A186N, P188S 2.6 1.0
+23 S191T, N193D, Q195R 2.3 0.9
+24 V198I, A200V, E201D, V203I 4.1 1.5
+25 V198I, A200V, E201D, V203I, L204S, H205S, V206F, 4.5 1.7
+G208Q, T210R
+26 E216D, T220P, I221P, N223H, S224D, S225D, I226R, G228D 1.4 0.5
+Response curves consistent with a 1:1 interaction model were only obtained when the mAbs were immobilized (O'Shannessy &
+Winzor, 1996). The standard deviation in the kinetic parameters was <25% between repeated analyses with different preparations of
+the same protein. The changes introduced into each mutant are indicated. For example, in mutant 1, T14V indicates that residue T14
+has been changed to V14. In mutant 6, (G50V51K52), indicates that residues G50V51K52 have been deleted. In mutant 13 i117R
+indicates that Arg was inserted after residue 117, and in mutant 19 i164G indicates that Gly was inserted after residue 164 (see
+Figure 2). Mutants 1 to 11 bound with wt af®nity to gR99, whereas mutants 12 to 26 bound with wt af®nity to A6 and gR38.
+Epitopes on the Interferon  Receptor 885and Methods), the density resulting from aver￾aging over all populated states of these disordered
+domains still makes a signi®cant contribution to
+Bragg scattering. A single structural model with
+isotropic B-factors is inadequate to model this den￾sity and the somewhat high R-factor is likely to
+result from not modeling this residual density. The
+average B-factors of the Fv domains (47 AÊ 2
+) and of
+the receptor antigen (59 AÊ 2
+) are consistent with an
+intrinsic B-factor of 58 AÊ 2 of these crystals.
+The antigen±antibody interface
+As illustrated in Figure 5, the CC0 loop of the
+receptor domain reaches into the shallow antigen
+binding site formed by the CDRs of the A6 Fab
+fragment. The total surface area buried on complex
+formation is 1662 AÊ 2 (Figure 6), which is similar to
+that reported for other antibody ±protein antigen
+complexes (Davies & Cohen, 1996). The HyHEL5±
+HEL complex constitutes a comparable example
+with a buried surface area of 1761 AÊ 2 (calculated as
+described in Figure 6). Examination of the crystal
+contacts shows that the receptor domain also
+makes quite an extensive crystal contact with
+another symmetry-related VH domain. Compared
+to the recognition interface formed by the CDRs as
+described below, the buried surface area in this
+crystal contact is about 30% smaller (1200 AÊ 2
+) and
+only a few CDR residues on the outside face of VH
+contribute.
+The spatial arrangement of the many residues
+contributing to the extensive antigen ±antibody
+interface is shown in Figures 7 and 8 and the resi￾due ± residue interactions are schematically rep￾resented in Figure 6. The contact surface of the
+mAb A6 comprises 22 residues from ®ve CDRs, 13
+and 9 residues from VH and VL, respectively. The
+¯oor of the binding cavity is formed mainly by
+residues from CDR L3 and CDR H3 while the sur￾rounding ridge is formed by residues from all
+CDRs except L2. The many potential hydrogen
+Figure 2. A sequence comparison
+of the extracellular parts of the
+human and mouse IFNgR. Dashes
+indicate a conserved residue. A dot
+indicates a residue not present in
+the sequence. The locations of the
+b-strands are indicated (see
+Figure 1).
+Figure 3. The epitopes recognized by A6 and gR38 (in red) and gR99 (in blue) on a ribbon representation of the
+IFNg±IFNgR complex as determined by le Du et al. (unpublished results). IFNg (2  17 kDa) is shown in pink and
+green, the IFNgR in white (N-terminal domain D1) and yellow (C-terminal domain D2) (see Figure 1). The red and
+blue regions are those where changes are introduced in mutant 6 (CC0 loop) and 8 (EF loop) (red), and 13 (strand A),
+14 (strand B) and 21 (C0
+E loop) (blue) (see Table 1).
+886 Epitopes on the Interferon  Receptor bonding interactions observed in the interface
+(Table 3) indicate that polar interactions are
+important for speci®c antigen recognition (open
+bars in Figure 6). In addition, many aromatic resi￾dues located in the interface contribute to van der
+Waals contacts between the antigen and the anti￾body (®lled bars in Figure 6). Indeed, 13 aromatic
+side-chains are situated at the interface, four in VL
+(TyrL30, TyrL91, TrpL92, TrpL96), six in VH
+(TyrH32, TrpH52, TrpH53, TyrH58, TyrH99,
+HisH100B) and three in the receptor (TyrI49,
+TrpI56, TrpI82). The frequent occurrence of aro￾matic residues, particularly Tyr and Trp, in anti￾body combining sites has been noted (Padlan,
+1990; Davies & Cohen, 1996).
+The epitope of the receptor fragment is discon￾tinuous but 80% of the contact surface occurs with
+residues of its CC0 surface loop (I47 to I56). Resi￾dues from the adjacent loop I76 to I84 contribute
+only 13%, and only 7% is contributed by residues
+I98 and I99, which make a rather loose contact.
+The side-chains of TyrI49 and AsnI53 lie adjacent
+on one face of the CC0 loop and constitute the part
+of the epitope that reaches deepest into the binding
+cavity. The hydroxyl group of the buried tyrosine
+makes two hydrogen bonds with residues of CDR
+H3 and one face of its phenyl group becomes bur￾ied through non-polar contacts with the side-chains
+of ArgL32 and TrpL92. One NH bond from the Nd2
+atom of the buried AsnI53 is directed towards two
+backbone carbonyl oxygen atoms of residues from
+CDR L3 (Table 3). The other points to the center of
+the six-membered ring of TrpL96 located at the
+bottom of the antigen binding site (3.8 AÊ from N to
+center of ring) and suggests an NH aromatic ring
+hydrogen bond (Levitt & Perutz, 1988). Similarly,
+the Nz atom of LysI47 is 3.9 AÊ from the center of
+the six-membered ring of TrpL92. Together with
+two hydrogen bonds to the main-chain carbonyl
+groups of TrpL96 and AsnI48 a stereochemically
+almost optimal hydrogen bonding pattern results
+for this (presumably) ammonium nitrogen. Tight
+interactions, which include six hydrogen bonds
+(Table 3), are also observed between residues
+GlyI50, ValI51 and LysI52 and the CDRs of the
+heavy chain. In the whole interface there is no
+residual electron density, indicating the absence of
+ordered solvent molecules, and this is consistent
+with the lack of suf®ciently large void volumes.
+Structure of the IFNgR fragment
+The epitope on the IFNgR1-108 domain recog￾nized by A6 largely overlaps the contiguous sur￾face that is recognized by IFNg (Walter et al., 1995).
+The overall backbone structures of IFNgR1-108 as
+observed in the complexes with mAb A6 and IFNg
+are very similar, with the exception of surface loop
+(I48 to I54), as illustrated in Figure 9(a). For both
+complexes the CC0 loop plays an important role in
+recognition fully consistent with the neutralizing
+activity of mAb A6. In addition, a signi®cant dis￾placement towards the adjacent CC0 loop is seen
+Table 2. Results of the crystallographic structure re®nement
+Data
+Resolution (AÊ ) 20.0±2.82
+R-factor/no. of reflections (all data) 0.255 19,997
+R-factor/no. of reflections(|F|>2s(F)) 0.246 18,723
+Free R-factor /no. of reflections (|F| > 2s(F)) 0.314 954
+Model
+No. of non-H atoms
+Total 3454
+Protein 3424
+Solvent 30
+No. of residues/no. of missing residues 442 98
+Missing residues
+IFNgR1-108 13
+(I1-I10, I106-I108)
+Light chain 46
+L120-L133, L148-L157
+L178-L192, L208-L214)
+Heavy chain 39
+(H119-H141, H145-H146,
+H165-H166, H193-H206, H222-H223)
+Stereochemistry (r.m.s. deviations from ideality)
+Bond lengths (AÊ ) 0.011
+Bond angles (degrees) 1.85
+Thermal parameters (isotropic mean B in AÊ 2 /no. of atoms)
+All 62.1 3454
+54.1a 2863
+IFNgR1-108 59.2a 669
+Fv 47.1a 1748
+Fchl 74.2a 446
+Solvent 37.0 30
+a Atoms with B > 90 AÊ 2 were excluded from this analysis.
+Epitopes on the Interferon  Receptor 887for the EF loop (residues I76 to I79) in the A6
+complex.
+In the CC0 loop conformation observed here
+(Figure 9(b)), the sheet interaction between strands
+C and F is extended by one residue, equivalent to
+one additional main-chain hydrogen bond com￾pared to the situation seen in the complex with
+IFNg. Additional hydrogen bonding interactions
+are also indicated between the carboxamide oxy￾gen of AsnI79 (EF loop) and the main-chain NH
+groups of ValI51 and LysI52 of the CC0 loop as
+well as between the carboxamide groups of AsnI79
+and AsnI48. Finally, four intraloop hydrogen
+bonds are seen in the CC0 loop conformation
+observed in the A6 complex as compared to only
+one in the more open conformation observed in
+the complex with IFNg. The more-closed confor￾mation observed here may thus be the preferred
+conformation of this loop in the unliganded recep￾tor and the conformation seen in the complex with
+IFNg may only be induced upon ligand binding.
+However, the conformational change of the CC0
+loop correlates with a displacement of the adjacent
+EF loop (Figure 9(a)) which, in the intact receptor,
+also interacts with residues of the C-terminal recep￾tor domain. For the CC0 loop to occur in the closed
+conformation in the unliganded receptor would
+thus need some adjustment in these interdomain
+interactions to accommodate such a 2 to 3 AÊ shift
+in the position of the EF loop.
+The mAb A6 binds the human IFNgR with high
+af®nity, but shows essentially no af®nity to the
+rather homologous mouse IFNgR (54% identity).
+The three-residue deletion in the CC0 loop of the
+mouse receptor (Figure 2) leads to a truncated CC0
+loop of the same length and most likely a similar
+conformation as observed in TF (Muller et al., 1994;
+Harlos et al., 1994). The deleted residues corre￾spond to G50 to K52 and, as seen in Figure 6, this
+would inevitably give rise to a signi®cantly
+reduced contact area in the epitope. It thus appears
+that the much reduced af®nity of the mAb A6 for
+Figure 4. Ramachandran plot of the f/c torsion angles of the A6 ± IFNgR1-108 complex produced by PROCHECK
+(Laskowski et al., 1993). The glycine residues are indicated by triangles and all other residues by squares. The non￾glycine residues in disallowed regions are labeled.
+888 Epitopes on the Interferon  Receptorthe mouse receptor, and mutant 6 of the homolog
+scanning mutants (Table 1), results primarily from
+the deletion of a signi®cant part of the CC0 loop.
+Homology modeling suggests that mutant 8
+should have a similar conformation in the EF loop
+region to the wild type. The large reduction in af®-
+nity of mutant 8 is dif®cult to rationalize in terms
+of a perturbation of its direct contacts with A6. An
+alternative explanation is an indirect effect of the
+mutated residues on the conformation of the CC0
+loop. For example, as seen in Figure 9(b), the side￾chain of AsnI79 hydrogen bonds to two backbone
+NH groups and possibly to AsnI53. Its replacement
+by valine would disrupt these interactions and
+thereby destabilize the optimal conformation for
+binding A6.
+Several examples of the binding of a common
+set of amino acid residues by different binding
+sites with no or little similarity have been reported.
+The structure of the complex between the mono￾meric human growth hormone and its dimeric
+receptor showed that the same set of residues on
+the two receptor monomers binds to different parts
+of the hormone (De Vos et al., 1992). Lescar et al.
+(1995) found that two antibodies with low hom￾ology in the variable regions bind to almost the
+same epitope of lysozyme. And the anti-hen egg
+white lysozyme mAb D1.3 forms complexes with
+lysozyme and the anti-D1.3 mAb E5.2 through
+essentially the same combining site residues (Fields
+et al., 1995). The relevance of these observations
+has been discussed by Colman (1997) in the context
+of viral antigenic variation. In all the above cases,
+the structure of the region recognized by two
+different `ligands' is essentially identical apart from
+local conformational adjustments. In our case,
+however, a rather dramatic conformational change
+is observed, in which the tip of the receptor loop
+(I51 and I52) is displaced over a distance of 8 AÊ ,
+and the two `ligands' (mAb A6 and IFNg) therefore
+recognize quite different structures formed by the
+same receptor residues (Figure 9).
+Comparisons with other Fab structures
+The analysis of antibody fragments of known
+structure has revealed that, with the exception of
+CDR H3, the other ®ve CDRs adopt preferred
+main-chain conformations, or canonical structures
+(Chothia et al., 1992, 1989). CDR H1 (canonical
+structure H1:3) and H2 (canonical structure H2:1)
+of A6 have similar sequences and backbone confor￾mations to those in the HIV-1 neutralizing mAb
+50.1 (Rini et al., 1993). The backbones (N, Ca
+, C0
+) of
+CDR H1 (H26 to H35) and H2 (H50 to H65) of A6
+and 50.1 can be superimposed with an r.m.s. devi￾ation of 0.4 AÊ . CDR H3 of A6 is, however, seven
+residues longer than that in Fab 50.1, and these
+additional residues largely account for the quite
+differently shaped combining sites of these two
+mAbs.
+Similarly, the backbone atoms of CDRs L1 (L24
+to L34; canonical form L1:2) and L2 (L50 to L56) of
+A6 can be superimposed together onto L1 and L2
+of the anti-lysozyme mAb D1.3 (Fischmann et al.,
+1991) with an r.m.s. deviation in the backbone
+atoms of 0.35 AÊ . CDR L3 of A6, however, does
+not correspond to the canonical forms 1, 2 or 3
+identi®ed for L3 loops by Chothia (1989). The
+cause is the lack of Pro95 in this k L-chain. The
+crystal structure of the Fab from mAb CRIS-1,
+reported recently (Guarne et al., 1996), also lacks a
+ProL95, and has the same CDR-L3 backbone con￾formation as that seen in A6 (r.m.s. deviation over
+L89 to L98 AÊ 0.23 AÊ ), which therefore appears to
+constitute a new canonical structure for CDR L3
+loops that lack ProL95.
+Outlook
+The results reported above raise several interest￾ing questions concerning the mechanisms of cyto￾kine and antibody recognition by the IFNgR.
+Firstly, the quite different conformations of the CC0
+loop seen in the complexes with IFNg and A6
+suggest a considerable degree of local backbone
+mobility in this region on the IFNgR surface. This
+has implications also for those interested in the
+homology modeling of cytokine receptors of unde￾termined 3D structure. Another important issue is
+the extent to which this local mobility plays a role
+in the mechanism of ligand recognition. Unfortu￾nately, no data on the structure or mobility of the
+free IFNgR are available. From a structural view￾point, the conformation observed in the complex
+with A6 appears more stable in the absence of a
+ligand than the open conformation seen in the
+complex with IFNg. A simple rigid-body docking
+of receptor to ligand, in a lock-and-key-like process
+appears unlikely. Secondly, the high concentration
+of aromatic residues (Tyr, Trp and His) observed
+Figure 5. MOLMOL (Koradi et al., 1996) diagram of the
+A6 ± IFNgR1-108 complex. Only the VH and VL regions of
+the mAb A6 heavy and light chains are shown.
+Epitopes on the Interferon  Receptor 889Figure 6. Linkage diagram of the antigen-antibody contacts upon complex formation. Bar height represents the area in ÊA2 of each amino acid covered by the other peptide
+chain. The area is subdivided into the parts covered by polar atoms (®lled bars), by hydrophobic atoms (open bars) and by both mixed (stippled bars). Lines connect all
+amino acid pairs where any two atoms contact each other; (a) contacts between the IFNgR1-108 and VH of the mAb A6; (b) Contacts between the IFNgR1-108 and VL of the
+mAb A6. Intermolecular pairwise contacts and solvent-accessible surface areas were calculated using XSAE (C. Broger, personal communication) with a probe sphere of
+1.4
+Ê
+A and standard van der Waals radii. The Figure was produced by XSAE.at the interface of the A6 ± IFNgR complex is note￾worthy and highlights the potential importance of
+NH ±aromatic hydrogen bonds, as well as other
+effects, in stabilizing the complex. Since the extra￾cellular IFNgR, IFNg and the antibody fragments
+can be prepared conveniently, this system should
+be amenable to a more detailed structure ± function
+analysis, which may shed light on the mechanisms
+of ligand± recognition by this receptor.
+Materials and Methods
+Secretion of the human IFNgR1-229 and mutants
+in E. coli.
+The extracellular portion of the wt human IFNgR (resi￾dues 1 to 229) was produced by secretion into the peri￾plasm in E. coli HB2151. cDNA encoding the receptor
+(Aguet et al., 1988) was ampli®ed by PCR using primers
+that include NcoI and NotI sites. The PCR product was
+cloned after digestion with NcoI and NotI into the phage￾mid pHEN1 (Hoogenboom et al., 1991) to afford
+pOCI656. The receptor is thereby fused via a short -Ala3-
+linker at its C terminus to a 14-residue peptide including
+an epitope recognized by the anti-c-myc tag mAb 9E10
+(Evan et al., 1985).
+E. coli HB2151 transformed with phagemid encoding
+wt IFNgR1-229 (or mutant) was selected on 2TY agar con￾taining 1% glucose and 100 mg/ml ampicillin at 30C.
+Colonies were transferred into 2TY (15 ml) containing
+1% glucose and 100 mg/ml ampicillin and grown over￾night at 30C. This medium (5 ml) was added to fresh
+2TY medium (500 ml) again with glucose and ampicillin.
+After growth at 30C to A550  0.5 to 1, the cells were
+pelleted, resuspended in fresh 2TY medium with
+100 mg/ml ampicillin and 0.01 mM IPTG. After growth
+for 16 hours at 30C and centrifugation, the cells were
+resuspended in Tris-HCl (100 mM, pH 8.0), 0.5 M
+sucrose and 0.5 mM EDTA (1 ml). The same buffer sol￾ution (9 ml) containing lysozyme (2 mg/ml) was then
+added, diluted with a further 20 ml buffer, and then
+20 ml water was added together with PMSF (1 mM),
+benzamidine (1 mM) and NaN3 (0.04%). After 20 min￾utes, cells and debris were removed by centrifugation
+and the supernatant was applied to an immunoaf®nity
+column prepared by crosslinking mAb 9E10 to CNBr￾activated Sepharose (Pharmacia). The column was
+washed with sodium phosphate (50 mM, pH 7.0, 0.04%
+NaN3), and bound protein was eluted with glycine-HCl
+(50 mM, pH 2.5, 150 mM NaCl, 0.04% NaN3) and
+immediately neutralized with sodium phosphate (4 M,
+pH 7.0). The eluted protein was dialyzed against buffer
+A (Tris-HCl, 25 mM, pH 8.0) and then chromatographed
+on a Mono-Q HR 5/5 column (Pharmacia) with a gradi￾ent from 0 to 65% buffer B (25 mM Tris-HCl, 0.5 M
+NaCl, pH 8). The product was >95% homogeneous on
+SDS-PAGE, and wt as well as all mutants gave the cor￾rect N-terminal amino acid sequence. The wt receptor
+Figure 7. Stereo view of the A6 ±
+IFNgR1-108 interface (A6 and IFNgR
+in thick and thin lines, respect￾ively). Residues involved in antigen
+± antibody contacts are labeled
+with their sequence numbers. The
+broken lines show interactions
+listed in Table 3. The Figure was
+produced by Moloc (Gerber &
+MuÈller, 1995).
+Figure 8. Residues at the A6 ±
+IFNgR interface; on the receptor
+(bottom left, grey and turquoise),
+and on A6 (top right) CDR L1
+(light blue), L2 (dark blue), L3
+(green), CDR H1 (yellow), H2
+(orange) and H3 (red) (orientation
+as in Figure 5). Figure was pro￾duced using MOLMOL (Koradi
+et al., 1996).
+Epitopes on the Interferon  Receptor 891and mutants 6 and 13 (Table 1) were analyzed by elec￾trospray mass spectrometry, and gave peaks consistent
+with the expected masses. The concentration of wt recep￾tor was determined by quantitative amino acid analysis,
+from which a molar extinction coef®cient was deter￾mined (e  48,000 Mÿ1 cmÿ1
+) at 280 nm (A280). Sedimen￾tation equilibrium analytical ultracentrifugation using a
+20 mM solution of wt IFNgR1-229 in sodium phosphate
+buffer (50 mM, pH 7.2) and NaCl (150 mM) gave a mol￾ecular mass of 26.9 kDa (calculated mass  27.587 kDa),
+and sedimentation data were consistent with a mono￾meric native form. CD spectra of the wt and mutant
+IFNgR proteins were recorded on a Jasco J720 instrument
+at a protein concentration of 10 mM in sodium phos￾phate buffer (10 mM, pH 7.2).
+Mutagenesis of the IFNgR1-229
+General cloning methods were as described by
+Sambrook et al. (1989). A total of 24 of the 26 homolog
+scanning mutants (Table 1) were prepared by mutagen￾esis of IFNgR1-229 cDNA using PCR methods (Li &
+Shapiro, 1993; Chen & Przybyla, 1994). This involved
+using mutagenic primers encoding the changes required,
+pOCI656 (vide supra) as template, and two invariant
+¯anking primers that contain an NcoI site in the 50 pri￾mer and a NotI site in the 30 primer. The ®nal PCR pro￾ducts were digested with NcoI and NotI and ligated
+between the corresponding cloning sites in pHEN1. The
+remaining two mutants (11 and 26) were also prepared
+by PCR methods, using a mutagenic oligonucleotide as
+the 30 primer in a standard PCR. Prior to expression,
+each mutant (in the expression vector pHEN1) was
+sequenced throughout the entire open reading frame, on
+both DNA strands, using dye terminator chemistry (Per￾kin Elmer), to con®rm that only the desired nt changes
+had been introduced.
+BIAcore measurements
+Measurements were carried out on a BIAcore instru￾ment (Pharmacia Biosensor) at 25C, with PBS (50 mM
+sodium phosphate buffer (pH 7.2), 150 mM NaCl) con￾taining 0.005% (v/v) Surfactant-p20 as running buffer.
+Protein was immobilized on CM5 sensor chips by ran￾dom amine coupling, as described in the BIAcore
+methods manual. Coupling was performed in sodium
+acetate buffer (10 mM, pH 4.0) at a protein concentration
+of 100 mg/ml (for mAbs) or 24 mg/ml (for receptor). The
+level of immobilization corresponded typically to 500 to
+1,000 resonance units (RU), which gave rise to Rmax
+values on ligand binding of 70 to 200 RU. Around 10,000
+RUs of gR99 were immobilized for determination of
+active free receptor concentrations from initial binding
+rates (mass transport-limited conditions) (Karlsson et al.,
+1993). IFNg lacking the ten C-terminal residues
+(IFNg10) (DoÈbeli et al., 1988) was used for binding
+assays. Protein concentrations in stock solutions in PBS
+(phosphate-buffered saline) were determined from A280
+measurements after calibration by quantitative amino
+acid analysis (1 mg/ml corresponds to: A280  1.7 for
+IFNgR1-229; A280  1.35 for mAb; A280  1.0 for IFNg10),
+and also for receptor from mass transport-limited initial
+binding rates. A ¯ow rate of 10 ml/min and an injection
+volume of 30 ml were used routinely. The ¯ow rate and
+injection volume for protein determinations under mass
+transport-limited conditions were 2 ml/min and 10 ml,
+respectively. gR99 and IFNgR surfaces were regenerated
+by injection of glycine buffer (10 ml, 0.1 M, pH 2.5). These
+conditions were not suitable for regeneration of A6 or
+gR38 surfaces. However, the relatively high koff for
+receptor from these mAb surfaces enabled repeated use
+without injection of complex-destabilizing solutions for
+regeneration. The response returned fully to baseline
+level within 5 to 15 minutes after the end of sample injec￾tion. Analyte concentrations used for kinetic analyses
+were: IFNg10 binding to immobilized IFNgR, 13 assays
+in the range 10 to 500 nM; IFNgR binding to immobi￾lized A6, 7 assays in the range 10 to 150 nM; IFNgR
+binding to immobilized gR38, 7 assays in the range 20 to
+300 nM; and IFNgR binding to immobilized gR99, seven
+assays in range 10 to 100 nM. IFNgR mutants 6, 8, 13, 14
+and 21 (see Table 1) with reduced af®nity for mAbs were
+analyzed at concentrations in the range 0.25 to 28 mM.
+Mass transport-limiting gR99 surfaces were calibrated
+using 5 to 50 nM wt receptor. The speci®city of the mAb
+surfaces was checked by injection of individual domains
+of the IFNgR as fusion proteins with thioredoxin (Trx),
+prepared as described (Williams et al., 1995). Trx-IFNgR1-
+108 bound only to A6 and gR38 mAb surfaces, whereas
+Trx-IFNgR100-229 recognised only the gR99 mAb surface.
+Speci®city in binding to the IFNgR surface was veri®ed
+by injection of IFNg10 in admixture with IFNgR1-229,
+Trx-IFNg1-108 or Trx-IFNgR100-229. As expected, only in
+the latter two cases was binding observed. No back￾ground binding was observed on injecting receptor or
+IFNg10 over a blank CM5 sensor surface.
+BIAcore data analysis
+Binding curves were analyzed using BIAevaluation
+software (version 2.1). KD values were calculated from
+the ratio of dissociation (koff) to association (kon) rate con￾stants. The baselines of sensorgrams were set to zero.
+The koff values were derived by ®tting a one-minute
+period of the dissociation phase to the equation
+(O'Shannessy et al., 1993):
+R  R1eÿkoff tÿt1
+R, response in RUs, t, time in seconds; t1, start time for
+dissociation; R1, response at t1. The kon values were cal￾culated by ®tting the response during sample injection to
+the equation:
+Table 3. Potential hydrogen bonding interactions in the
+antigen ± antibody interface (cut-off distance 3.5 AÊ )
+IFNgR1-108 A6VH Distance (AÊ ) A6VL Distance (AÊ )
+CC0 loop
+K47 NZ W92 O 2.8
+Y49 OH G100 O 2.5
+Y49 OH H100B ND1 3.1
+G50 O G100 N 3.2
+G50 O R95 NH2 3.3
+V51 O R95 NH1 2.9
+V51 O H100B NE2 3.0
+K52 NZ D54 OD2 2.8
+K52 NZ D56 OD2 2.8
+N53 O T94 N 2.9
+N53 ND2 T94 O 3.3
+N53 ND2 Y91O 3.2
+S54 O S93 OG 3.2
+EF loop
+D76 OD1 Y32 OH 3.1
+D76 OD2 Y32 OH 3.1
+S78 O Y99 OH 2.7
+892 Epitopes on the Interferon  ReceptorR  Req1 ÿ ekstÿto
+
+Req, steady state response level; ks  konC  koff, where C
+is the molar concentration of the injected analyte to, start
+time for association. A plot of ks against C yields a
+straight line with a slope equivalent to kon. The standard
+deviation in the kinetic parameters was <25% between
+repeated analyses with different preparations of the
+same protein.
+BIAcore analyses of wt IFNgR, in which levels of
+immobilized protein and analyte ¯ow rates were varied,
+showed that mass transport limitation had insigni®cant
+effects on the calculated kinetic parameters. Several
+mutants showed koff values >0.02 sÿ1
+, and for these
+cases a second method of determining KD was used. The
+steady state binding response (Req) was measured and
+KA (1/KD) was derived from ®tting a plot of Req against
+analyte concentration, according to the equation
+(Karlsson et al., 1991):
+Req  KACRmax=KAC  1
+koff could then be calculated by dividing kon by KA.
+The use of high levels of immobilized gR99 resulted in
+linear initial binding rates (ro) for the receptor in the con￾centration range 5 to 50 nM. The concentrations of active
+mutant proteins could then be determined using a cali￾bration curve of ro against concentration for wt receptor
+(Karlsson et al., 1993). The active concentration of most
+mutants was similar to the concentration determined
+spectrophotometrically. The active concentration of
+mutants with decreased af®nity for gR99 could not be
+determined in this manner.
+Formation and purification of the A6
+Fab-IFNggR1-108 complex
+The mAb A6 was digested with pepsin in sodium
+acetate buffer (100 mM, pH 4.0). Upon complete diges￾tion, the pH was adjusted to 8.0 with Tris, and cysteine
+(20 mM) was added. After 30 minutes, iodoacetamide
+was added (30 mM), and the Fab was puri®ed by Protein
+G af®nity chromatography, by elution through a Mono￾Q HR 5/5 column (gradient with buffer A (ethanola￾mine-HCl (25 mM, pH 9.3)), and buffer A plus NaCl (0.5
+M)), and ®nally using a Mono-P 5/20 column (gradient
+with buffer A, and buffer A with polybufferHCl (Phar￾macia), pH 7.0). The IFNgR1-108 was prepared as
+described (Williams et al., 1995), and mixed in 50%
+Figure 9. (a) Stereo view of a
+comparison of the structure of
+IFNgR1-108 as observed in the A6 ±
+IFNgR1-108 complex with that seen
+in a IFNg± IFNgR complex struc￾ture containing a mutant hormone
+and recently solved at 2.0 AÊ resol￾ution (Randal & A. A. Kossiakoff,
+unpublished data). Ca superposi￾tion of IFNgR1-108 (thick lines) with
+the receptor domain from the
+IFNg± IFNgR complex (thin lines)
+was based on 83 of the 94 common
+residues (r.m.s. distance 0.64 AÊ ).
+(b) Conformation of the CC0 loop
+of IFNgR1-108 with some residues of
+the adjacent F strand. The Ca trace
+of the corresponding residues from
+the superimposed IFNg± IFNgR
+complex is shown in thin lines.
+Hydrogen bonds within this loop
+and with strand F that are only
+possible in the more closed confor￾mation observed here are indicated.
+The Figure was produced using
+Moloc (Gerber & MuÈller, 1995).
+Epitopes on the Interferon  Receptor 893excess with the A6 Fab. The complex was puri®ed by gel
+®ltration (Superose-12) eluting with Tris (0.1 M, pH 8),
+NaCl (100 mM, EDTA (2 mM), IFNgR1-108 (50 nM) and
+NaN3 (0.08% w/v), and concentrated to 20 mg/ml in
+Tris (25 mM, pH 8.0), NaCl (25 mM) and EDTA
+(0.5 mM) for crystallization.
+Crystallization and data collection
+Crystals of the complex were grown by the hanging￾drop vapor diffusion method at room temperature and
+reached a maximum size of 0.4 mm  0.3 mm  0.3 mm.
+Droplets (3 ml) of protein solution mixed with 0.5 ml
+reservoir solution were equilibrated against a reservoir
+containing 10% (w/v) PEG ME 5000, NaCl (0.5 M) buf￾fered with Bis/Tris (50 mM, pH 5.5). The diffraction data
+were collected using an imaging plate detector (MarRe￾search) mounted on a FR591 rotating anode X-ray gen￾erator (Enraf) equipped with focusing mirror optics
+(Supper). For data collection, a crystal was soaked for a
+few minutes in a buffer containing 30% glycerol in
+addition to the components of the reservoir, picked up in
+a small loop, shock-frozen in liquid nitrogen and trans￾ferred into a nitrogen gas stream (120 K; Oxford Cryo￾system) on the Mar goniostat. Indexing and integration
+of the diffraction data (400 frames of 0.25, 600 s/frame)
+were performed by the MARXDS program package
+(Kabsch, 1988). The rather dramatic fall off in the dif￾fracted X-ray intensity beyond 3.2 AÊ resolution made
+long exposure times necessary to obtain acceptable stat￾istics in the highest resolution ranges (Table 4). A Wilson
+(1949) plot with data between 6.0 and 2.82 AÊ yields an
+intrinsic temperature factor of 58 AÊ 2 for these crystals.
+There is one molecule of the complex per asymmetric
+unit corresponding to a VM of 3.1 AÊ 3
+/Da (Matthews,
+1968).
+Structure solution and refinement
+The structure of the complex was solved by the mol￾ecular replacement method using AMoRe (Navaza,
+1994). In order to ®nd the best search models, a sequence
+homology search was done comparing the VH, VL, CH1
+and CL domain sequences of mAb A6 (Bridges et al.,
+1995) with the corresponding domain sequences of Fab
+structures available from the Brookhaven Protein Data
+Bank (Bernstein et al., 1977). For the Fv part the highest
+sequence identities were found with VH of Fab 50.1 (80%
+identity; entry code 1GGB; Rini et al., 1993) and VL of
+Fab B72.3 (65% identity; entry code 1BBJ; Brady et al.,
+1992). The search model of this part was constructed
+using the in-house modeling program Moloc having its
+own force ®eld for energy minimization (Gerber &
+MuÈller, 1995). First, the Fv of 50.1 was superimposed
+onto the Fv of B72.3 and one domain of each was then
+chosen so as to make the chimeric Fv with the highest
+homology to A6. Subsequently, all side-chains different
+from the mAb A6 sequence were corrected and residual
+strain removed through energy minimization using
+Moloc. CDR H3 was not present in Fab 50.1 and the cor￾responding residues H95 to H102 of mAb A6 were thus
+omitted from the search model. The Fchl part was
+assumed to be identical in sequence to that present in
+Fab HyHEL-5, entry code 2HFL (Sheriff et al., 1987) and
+was thus taken unchanged from this structure. A pre￾liminary model for IFNgR1-108 (missing residues I1 to I10
+and I89 to I93) was available from the structure determi￾nation of the IFNg±IFNgR complex (CheÂne et al., 1995;
+le Du et al., unpublished data).
+Rotation and translation searches were ®rst carried
+out separately for the Fv and Fchl models with diffrac￾tion data in the range 10 to 3.5 AÊ . The search with Fv
+yielded one clearly best solution. The top rotation func￾tion peak had a signal of 15.9 s (8.9 s for the second
+peak) and yielded a correlation coef®cient of 0.32 and
+R-factor of 0.51 in the translation function search (0.22
+and 0.54 for the second peak). Similar searches with
+Fchl alone were inconclusive. However, including the
+Fv solution in Fchl translation searches with the top ten
+Fchl rotation peaks yielded the best translation function
+solution for the top rotation function peak (8.2 s). After
+rigid body re®nement in AMoRe the correlation coef®-
+cient was 0.37 and the R-factor 0.49. Although the
+improvement in the R-factor appeared marginal the cor￾rectness of this solution was strongly supported by the
+fact that the Fv and Fchl fragments joined up in pre￾cisely the way expected for a Fab fragment. Attempts to
+determine the position of IFNgR1-108 by molecular repla￾cement methods using the known Fv and Fchl positions
+in the translation search were unsuccessful.
+Subsequent structure re®nement was carried out with
+X-Plor (BruÈ nger, 1992b) and model building using Moloc
+and O (Jones et al., 1991). Rigid-body optimization of the
+four Fab domains (VH, VL, CL and CH1) using diffraction
+data between 10 and 3.5 AÊ resolution followed by pos￾itional re®nement and some minor model corrections
+reduced the R-factor to 0.40. A subsequent sigma￾weighted electron density map (Read, 1986) revealed
+Table 4. Summary of X-ray data collection statistics
+Resolution (AÊ ) Number of reflections Average Completeness (%) Rsym (%)
+a
+Min Max Observed Unique I/sigma (I) Shell Shell
+19.86 8.16 2,837 821 62.00 89.9 2.15
+8.16 6.03 4,626 1,251 52.77 99.5 3.04
+6.03 5.00 5,960 1,541 51.32 99.8 2.80
+5.00 4.36 7,099 1,815 51.24 99.6 3.00
+4.36 3.92 7,813 1,991 41.09 99.6 4.37
+3.92 3.59 8,541 2,200 31.64 99.4 6.66
+3.59 3.33 9,242 2,389 23.66 98.8 9.84
+3.33 3.12 9,739 2,542 15.39 99.2 15.37
+3.12 2.95 9,992 2,621 10.55 99.7 22.29
+2.95 2.82 8,975 2,465 7.52 98.1 28.78
+19.86 2.82 74,824 19,636 29.65 98.8 5.88
+Space group P212121, a  85.7, b  90.8, and c  101.6 AÊ at 120 K. a Rsym  hi
+|Ih,i ÿ Ih|/hi
+Ih,i.
+894 Epitopes on the Interferon  Receptor  extra density into which the available IFNgR1-108
+model could be positioned unambiguously. Rigid-body
+re®nement of the now ®ve domains (VH, VL, CL, CH and
+IFNgR1-108) was then followed by a number of cycles
+comprising model (re)building, positional re®nement
+(using the parameters of Engh & Huber (1991)) and
+re®nement of individual B-factors. The free R-factor (5%
+of the data) was used to monitor and verify improve￾ments during re®nement of the model. In the course of
+this procedure two regions missing in the search model
+could be unambiguously built and were added to the
+model (CDR H3 and I89 to I93). Major model rebuilding
+was indicated in loop I47-I56 of IFNgR1-108 and a simu￾lated annealing omit electron density (BruÈ nger, 1992a)
+for this region is shown in Figure 10. Consistent with
+the poor signal of the Fchl part observed in the molecu￾lar replacement searches, the B-factors of the atoms of
+the CL and CH1 domains re®ned to rather high values.
+The electron density for the whole Fchl part was weak,
+fragmented in many areas and completely missing for
+most residues of surface loops. Therefore, only the best
+determined chain segments with continuous electron
+density were retained from these two domains (see
+Table 2). Another three disordered residues were
+removed from the C terminus of the receptor domain.
+Finally, a small number of water molecules were
+assigned to the strongest difference Fourier peaks on the
+surface of the three well-de®ned domains taking hydro￾gen bonding criteria into consideration. A bulk solvent
+correction as available in X-Plor was used throughout
+re®nement using values of 0.25 AÊ , 0.35 e/AÊ 3 and 50 AÊ 2
+for the parameters solrad, solden and the smoothing B￾factor respectively as described in detail by Kostrewa
+et al. (1997). The re®ned coordinates have been depos￾ited with the Brookhaven Data Bank, accession code
+1jrh.
+Acknowledgements
+We thank Steve Ealick, Dan Thiel and Marie le Du for
+providing the coordinates of their independent structure
+determination of the IFNg± IFNgR complex (used for
+initial model building and to produce Figures 1 and 3),
+Mike Randal and Tony Kossiakoff (Genentech Inc.) for
+providing the coordinates of IFNgR from a recent 2.0 AÊ
+structure determination of a IFNgÐ IFNgR complex con￾taining a mutant hormone (used to produce Figure 9),
+Dr R. Gentz for providing recombinant IFNgR from
+an insect cell expression system, Klaus HofstaÈdter for
+providing IFNgR1-108, Dr R. Thomas (Department of
+Polymer Chemistry, ETH-Z) for performing the sedimen￾tation equilibrium analytical ultracentrifugation analysis,
+Dr Ignasi Fita for providing the atomic coordinates of
+the CRIS-1 Fab, and Annelies Meier for technical assist￾ance.
+This work was supported by grants from the Swiss
+National Science Foundation.
+References
+Aguet, M., Dembic, Z. & Merlin, G. (1988). Molecular
+cloning and expression of the human interferon-g
+receptor. Cell, 55, 273 ± 280.
+Aguet, M. & Merlin, G. (1987). Puri®cation of human g
+interferon receptors by sequential af®nity chroma￾tography on immobilized monoclonal antireceptor
+antibodies and human g interferon. J. Expt. Med.
+165, 988 ± 999.
+Bach, E. A., Aguet, M. & Schreiber, R. D. (1997). The
+IFNg receptor: A paradigm for cytokine signaling.
+Annu. Rev. Immunol. 15, 563 ± 591.
+Banner, D. W., D'Arcy, A., CheÁne, C. & Winkler, F. K.
+(1996). The crystal structure of the complex of
+blood coagulation factor VIIa with soluble tissue
+factor. Nature, 380, 41 ± 46.
+Bernstein, F. C., Koetzle, T. F., Williams, G. J. B., Meyer,
+E. F., Brice, M. D., Rodgers, J. R., Kennard, O.,
+Shimanouchi, T. & Tasumi, M. (1977). The protein
+data bank: a computer-based archival ®le for
+macromolecular structures. J. Mol. Biol. 112, 535 ±
+542.
+Brady, R. L., Edwards, D. J., Hubbard, R. E., Jiang, J. S.,
+Lange, G., Roberts, S. M., Tood, R. J., Adair, J. R.,
+Emtage, J. S., King, D. J. & Low, D. C. (1992). Crys￾tal structure of a chimeric Fab' fragment of an anti￾body binding tumour cells. J. Mol. Biol. 227, 253 ±
+264.
+Bridges, A., Birch, A., Williams, G., Aguet, M., Schlatter,
+D., Huber, W., Garotta, G. & Robinson, J. A. (1995).
+Variable region cDNA sequences and characteriz￾ation of murine anti-human interferon g receptor
+monoclonal antibodies that inhibit receptor binding
+by interferon g. Mol. Immunol. 32, 1329± 1338.
+Figure 10. Stereo view showing a
+simulated annealing Fo ÿ Fc omit
+electron density map for residues
+I47 to I56 of IFNgR1-108 together
+with the re®ned model at 2.8 AÊ res￾olution. The map was contoured at
+1.0 s. The Figure was produced
+using Moloc (Gerber & MuÈller,
+1995).
+Epitopes on the Interferon  Receptor 895Bridges, A., Stuart, F., SpaÈth, J., Lang, S., Henke, C.,
+Birch, A. & Robinson, J. A. (1996). Production and
+characterization of anti-human interferon g receptor
+antibody fragments that inhibit cytokine binding to
+the receptor. Protein Eng. 9, 365±370.
+BruÈ nger, A. T. (1992a). Free R value: a novel statistical
+quantity for assessing the accuracy of crystal
+structures. Nature, 355, 472±475.
+BruÈ nger, A. T. (1992b). X-PLOR Version 3.1, A System
+For X-ray Crystallography and NMR, Yale University
+Press, New York.
+Chen, B. & Przybyla, A. E. (1994). An ef®cient site￾directed mutagenesis method based on PCR. Bio￾Techniques, 17, 657±659.
+CheÂne, C., Fountoulakis, M., DoÈbeli, H., D'Arcy, B.,
+Winkler, F. & D'Arcy, A. (1995). Crystallization of
+the complex of human IFN-g and the extracellular
+domain of the IFN-g receptor. Protein: Struct, Funct.
+Genet. 23, 591±594.
+Chothia, C., Lesk, A. M., Tramontano, A., Levitt, M.,
+Smith-Gill, S. J., Air, G., Sheriff, S., Padlan, E. A.,
+Davies, D., Tulip, W. R., Colman, P. M., Spinelli, S.,
+Alzari, P. M. & Poljak, R. J. (1989). Conformations
+of immunoglobulin hypervariable regions. Nature,
+342, 877±883.
+Chothia, C., Lesk, A. M., Gherardi, E., Tomlinson, I. M.,
+Walter, G., Marks, J. D., Llewelyn, M. B. & Winter,
+G. (1992). Structural repertoire of the human VH
+segments. J. Mol. Biol. 227, 799±817.
+Colman, P. M. (1997). Virus versus antibody. Structure,
+5, 591±593.
+Cunningham, B. C., Jhurani, P., Ng, P. & Wells, J. A.
+(1989). Receptor and antibody epitopes in human
+growth hormone identi®ed by homolog-scanning
+mutagenesis. Science, 243, 1330±1336.
+Davies, D. R. & Cohen, G. H. (1996). Interactions of pro￾tein antigens with antibodies. Proc. Natl Acad. Sci.
+USA, 93, 7±12.
+De Vos, A. M., Ultsch, M. & Kossiakoff, A. A. (1992).
+Human growth hormone and extracellular domain
+of its receptor: crystal structure of the complex.
+Science, 255, 306±312.
+DoÈbeli, H., Gentz, R., Jucker, W., Garotta, G., Hartmann,
+D. W. & Hochuli, E. (1988). Role of the carboxy￾terminal sequence on the biological activity of
+human immune interferon (IFN-g). J. Biotechnol. 7,
+199±216.
+Engh, R. A. & Huber, R. (1991). Accurate bond and
+angle parameters for X-ray protein structure
+re®nement. Acta Crystallog. sect. A, 47, 392±400.
+Evan, G. I., Lewis, G. K., Ramsay, G. & Bishop, J. M.
+(1985). Isolation of monoclonal antibodies speci®c
+for human c-myc proto-oncogene product. Mol. Cell.
+Biol. 5, 3610±3616.
+Fields, B. A., Goldbaum, F. A., Ysern, X., Poljak, R. J. &
+Mariuzza, R. A. (1995). Molecular basis of antigen
+mimicry by an anti-idiotiope. Nature, 374, 739±742.
+Fischmann, T. O., Bentley, G. A., Bhat, T. N., Boulot, G.,
+Mariuzza, R. A., Phillips, S. E. V., Tello, D. &
+Poljak, R. J. (1991). Crystallographic re®nement
+of the three-dimensional structure of the Fab
+D1.3-lysozyme complex at 2.5-AÊ resolution. J. Biol.
+Chem. 266, 12915±12920.
+Fountoulakis, M. & Genz, R. (1992). Effect of glycosyla￾tion on properties of soluble interferon gamma
+receptors produced in prokaryotic and eukaryotic
+expression systems. BioTechnol. 10, 1143±1147.
+Garotta, G., Ozmen, L., Fountoulakis, M., Dembic, Z.,
+Van Loon, A. P. G. M. & StuÈ ber, D. (1990). Human
+interferon-g receptor. Mapping of epitopes recog￾nized by neutralizing antibodies using native and
+recombinant proteins. J. Biol. Chem. 265, 6908±6915.
+Gentz, R., Hayes, A., Grau, N., Fountoulakis, M., Lahm,
+H.-W., Ozmen, L. & Garotta, G. (1992). Analysis of
+soluble human and mouse interferon-g receptors
+expressed in eukaryotic cells. Eur. J. Biochem. 210,
+545±554.
+Gerber, P. R. & MuÈller, K. (1995). MAB, a generally
+applicable molecular force ®eld for structure model￾ling in medicinal chemistry. J. Comput.-Aid. Mol.
+Des. 9, 251±268.
+Guarne, A., Bravo, J., Calvo, J., Lozano, F., Vives, J. &
+Fita, I. (1996). Conformation of the hypervariable
+region l3 without the key proline residue. Protein
+Sci. 5, 167±169.
+Haelewyn, J., Michiels, L., Verhaert, P., Hoylaerts, M. F.,
+Witters, R. & De Ley, M. (1997). Interaction of trun￾cated human interferon g variants with the inter￾feron g receptor: crucial importance of Arg-129.
+Biochem. J. 324, 591±595.
+Harlos, K., Martin, D. M. A., O'Brien, D. P., Jones, E. Y.,
+Stuart, D. I., Polikarpov, I., Miller, A., Tuddenham,
+E. G. D. & Boys, C. W. (1994). Crystal structure of
+the extracellular region of human tissue factor.
+Nature, 370, 662±666.
+Hoogenboom, H. R., Grif®ths, A. D., Johnson, K. S.,
+Chiswell, D. J., Hudson, P. & Winter, G. (1991).
+Multi-subunit proteins on the surface of ®lamentous
+phage: methodologies for displaying antibody (Fab)
+heavy and light chains. Nucl. Acids Res. 19, 4133±
+4137.
+Jones, T. A., Zou, J.-Y., Cowan, S. W. & Kjeldgaard, M.
+(1991). Improved methods for building protein
+models in electron density maps and the location of
+errors in these models. Acta Crystallog. sect. A, 47,
+110±119.
+Kabat, E. A., Wu, T. T., Perry, H. M., Gottesman, K. S. &
+Foeller, C. (1991). Sequences of Proteins of Immuno￾logical Interest, 5th edit., U.S. Department of Health
+and Human Services.
+Kabsch, W. (1988). Evaluation of single-crystal X-ray dif￾fraction data from a position-sensitive detector.
+J. Appl. Crystrallog. 21, 916±924.
+Karlsson, R., Michaelsson, A. & Mattsson, L. (1991). Kin￾etic analysis of monoclonal antibody-antigen inter￾actions with a new biosensor based analytical
+system. J. Immunol. Meth. 145, 229±240.
+Karlsson, R., FaÈgerstam, L., Nilshans, H. & Persson, B.
+(1993). Analysis of active antibody concentrations.
+Separation of af®nity and concentration parameters.
+J. Immunol. Meth. 166, 75±84.
+Koradi, R., Billeter, M. & WuÈthrich, K. (1996). MOL￾MOL: A program for display and analysis of
+macromolecular structures. J. Mol. Graph. 14, 51±55.
+Kossiakoff, A., Somers, W., Ultsch, M., Andow, K.,
+Muller, Y. A. & De Vos, A. M. (1994). Comparison
+of the intermediate complexes of human growth
+hormone bound to the human growth hormone
+and prolactin receptors. Protein Sci. 3, 1697±1705.
+Kostrewa, D., GruÈ ninger-Leitch, F., D'Arcy, A., Broger,
+C., Mitchell, D. & van Loon, A. P. G. M. (1997).
+Crystal structure of phytase from Aspergillus ®cuum
+at 2.5 AÊ resolution. Nature Struct. Biol. 4, 185±190.
+Laskowski, R. A., MacArthur, M. W., Moss, D. S. &
+Thornton, J. M. (1993). PROCHECK: a program to
+check the stereochemical quality of protein
+structures. J. Appl. Crystallog. 26, 283±291.
+896 Epitopes on the Interferon  ReceptorLescar, J., Pellegrini, M., Souchon, H., Tello, D., Poljak,
+R. J., Peterson, N., Greene, M. & Alzari, P. M.
+(1995). Crystal structure of a cross-reaction complex
+between Fab F9.13.7 and guinea fowl lysozyme.
+J. Biol. Chem. 270, 18067±18076.
+Levitt, M. & Perutz, M. F. (1988). Aromatic rings act as
+hydrogen bond acceptors. J. Mol. Biol. 201, 751±754.
+Li, X.-M. & Shapiro, L. J. (1993). Three-step PCR muta￾genesis for `linker scanning'. Nucl. Acids Res. 21,
+3745±3748.
+Livnah, O., Stura, E. A., Johnson, D. L., Middleton, S. A.,
+Mulcahy, L. S., Wrighton, N. C., Dower, W. J.,
+Jolliffe, L. K. & Wilson, I. A. (1996). Functional
+mimicry of a protein hormone by a peptide agonist:
+the EPO receptor complex at 2.8 AÊ . Science, 273,
+464±471.
+Marsters, S. A., Pennica, D., Bach, E., Schreiber, R. D. &
+Ashkenazi, A. (1995). Interferon g signals via a
+high-af®nity multisubunit receptor complex that
+contains two types of polypeptide chain. Proc. Natl
+Acad. Sci. USA, 92, 5401±5405.
+Matthews, B. W. (1968). Solvent content of protein
+crystals. J. Mol. Biol. 33, 491±497.
+Muller, Y. A., Ultsch, M. H., Kelley, R. F. & de Vos,
+A. M. (1994). Structure of the extracellular domain
+of human tissue factor: location of the factor VIIa
+binding site. Biochemistry, 33, 10964±10870.
+Navaza, J. (1994). AMoRe: an automated package for
+molecular replacement. Acta Crystallog. A50, 157±
+163.
+O'Shannessy, D. J. & Winzor, D. J. (1996). Interpretation
+of deviations from pseudo-®rst-order kinetic beha￾viour in the characterization of ligand binding by
+biosensor technology. Anal. Biochem. 236, 275±283.
+O'Shannessy, D. J., Brigham-Burke, M., Soneson, K. K.,
+Hensley, P. & Brooks, I. (1993). Determination of
+rate and equilibrium constants for macromolecular
+interactions using surface plasmon resonance: use
+of nonlinear least squeares analysis methods. Anal.
+Biochem. 212, 457±468.
+Padlan, E. A. (1990). On the nature of antibody combin￾ing sites: unusual structural features that may con￾fer on these sites an enhanced capacity for binding
+ligands. Proteins, 7, 112±124.
+Read, R. J. (1986). Improved Fourier coef®cients for
+maps using phases from partial structures with
+errors. Acta Crystallog. sect. A, 42, 140±149.
+Rini, J. M., Stan®eld, R. L., Stura, E. A., Salinas, P. A.,
+Profy, A. T. & Wilson, I. A. (1993). Crystal structure
+of a human immunode®ciency virus type 1 neutra￾lizing antibody 50.1 in complex with its V3 loop
+peptide antigen. Proc. Natl Acad. Sci. USA, 90,
+6325±6329.
+Sambrook, J., Fritsch, E. F. & Maniatis, T. (1989). Molecu￾lar Cloning: A Laboratory Manual, Cold Spring Har￾bor Laboratory Press, Cold Spring Harbor, NY.
+Schreuder, H., Tardif, C., Trump-Kallmeyer, S.,
+Sof®entini, A., Sarubbi, E., Akeson, A., Bowlin, T.,
+Yanofsky, S. & Barrett, R. W. (1997). A new cyto￾kine-receptor binding mode revealed by the crystal
+structure of the IL-1 receptor with an antagonist.
+Nature, 386, 194±200.
+Sheriff, S., Silverton, E. W., Padlan, E. A., Cohen, G. H.,
+Smith-Gill, S. J., Finzel, B. C. & Davies, D. R. (1987).
+Three-dimensional structure of an antibody-antigen
+complex. Proc. Natl Acad. Sci. USA, 84, 8075±8079.
+Somers, W., Ultsch, M., Devos, A. M. & Kossiakoff,
+A. A. (1994). The x-ray structure of a growth hor￾mone prolactin receptor complex. Nature, 372, 478±
+481.
+Vigers, G. P. A., Anderson, L. J., Caffes, P. &
+Brandhuber, B. J. (1997). Crystal structure of the
+type-I interleukin-1 receptor complexed with inter￾leukin-1û. Nature, 386, 190±194.
+Walter, M. R., Windsor, W., Nagabhushan, T. L.,
+Lundell, D. J., Lunn, C. A., Zauodny, P. J. &
+Narula, S. K. (1995). Crystal structure of a complex
+between interferon-gamma and its soluble high-af®-
+nity receptor. Nature, 376, 230±235.
+Williams, G., Ruegg, N., Birch, A., Weber, C.,
+Hofstadter, K., Robinson, J. A., Aguet, M., Garotta,
+G., Schlatter, D. & Huber, W. (1995). Dissection of
+the extracellular human interferon gamma receptor
+alpha-chain into two immunoglobulin-like domains.
+Production in an Escherichia coli thioredoxin gene
+fusion expression system and recognition by neutra￾lizing antibodies. Biochemistry, 34, 1787±1797.
+Wilson, A. J. C. (1949). The probability distribution of
+X-ray intensities. Acta Crystallog. 2, 318±321.
+Edited by R. Huber
+(Received 15 May 1997; received in revised form 4 August 1997; accepted 5 August 1997)
+Epitopes on the Interferon  Receptor 897

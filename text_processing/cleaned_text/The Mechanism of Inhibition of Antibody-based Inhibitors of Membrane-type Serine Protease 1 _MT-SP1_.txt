@@ -1,0 +1,323 @@
+The Mechanism of Inhibition of Antibody-based  Inhibitors of Membrane-type Serine Protease 1 (MT-SP1)  Christopher J. Farady1  , Jeonghoon Sun2  , Molly R. Darragh1  Susan M. Miller1 and Charles S. Craik1,2  1  Graduate Group in Biophysics,  University of California,  San Francisco, 600 16th St.  Genentech Hall, San Francisco,  CA 94143, USA  2  Department of Pharmaceutical  Chemistry, University of  California, San Francisco,  600 16th St. Genentech Hall,  San Francisco, CA 94143, USA  The mechanisms of inhibition of two novel scFv antibody inhibitors of the  serine protease MT-SP1/matriptase reveal the basis of their potency and  specificity.
+Kinetic experiments characterize the inhibitors as extremely  potent inhibitors with KI values in the low picomolar range that compete  with substrate binding in the S1 site.
+Alanine scanning of the loops  surrounding the protease active site provides a rationale for inhibitor  specificity.
+Each antibody binds to a number of residues flanking the active  site, forming a unique three-dimensional binding epitope.
+Interestingly, one  inhibitor binds in the active site cleft in a substrate-like manner, can be  processed by MT-SP1 at low pH, and is a standard mechanism inhibitor of  the protease.
+The mechanisms of inhibition provide a rationale for the  effectiveness of these inhibitors, and suggest that the development of  specific antibody-based inhibitors against individual members of closely  related enzyme families is feasible, and an effective way to develop tools to  tease apart complex biological processes.
+   2007 Elsevier Ltd. All rights reserved.
+  *Corresponding author  Keywords: antibody; standard mechanism protease inhibitor; specificity;  serine protease; HuCAL  Introduction  Of the 22 families of naturally occurring, proteinbased protease inhibitors known to inhibit the  S1 clan of serine proteases, 18 use an identical  mechanism of inhibition.1 Standard mechanism  (also known as canonical, or Laskowski mechanism) inhibitors all insert a reactive loop into the  active site of the protease, which binds in an extended -sheet in a substrate-like manner.2 While  some of these inhibitors have developed secondary  mechanisms,3 the primary mechanism of inhibition  is extremely well conserved; so much so that  crystal structures of unrelated inhibitors overlay  perfectly in the protease active site.4 As evidenced  by this remarkable example of convergent evolution, the standard mechanism is an efficient, robust  way to inhibit serine proteases.
+However, this  robustness often comes at the expense of specificity.
+With the exception of a small number of  parasitic anti-thrombin inhibitors that also bind  to protease exosites,5 the majority of standard  mechanism protease inhibitors have a relatively  broad specificity.
+For example, bovine pancreatic  trypsin inhibitor (BPTI) inhibits efficiently almost  all trypsin-fold serine proteases with P1-Arg  specificity, but can inhibit chymotrypsin (P1-Phe  specificity) with a KI of 10 nM.6  Much effort has been expended on the development of specific protease inhibitors for use both as  biological tools and as potential therapeutic agents.
+  As attempts to make specific small molecules have  beset by difficulties,7 researchers have often attempted to gain specificity using peptide or proteinbased scaffolds.
+Constrained peptide phage display  libraries have yielded extremely potent exosite  inhibitors of factor VIIa,8,9 and standard mechanism  inhibitors of chymotrypsin,10 and urokinase-type  plasminogen activator (uPA),11 with moderate  potency and specificity.
+An alternate approach has  Present address: J. Sun, Amgen Inc., Thousand Oaks,  CA 91320, USA.  Abbreviations used: BPTI, bovine pancreatic trypsin  inhibitor; uPA, urokinase-type plasminogen activator;  scFv, single-chain variable fragment; MT-SP1,  membrane-type serine protease 1; HuCAL, human  combinatorial antibody library; pNA, para-nitroanilide;  pAB, p-aminobenzamidine; ESI, electron spray ionization.
+  E-mail address of the corresponding author:  craik@cgl.ucsf.edu  doi:10.1016/j.jmb.2007.03.078 J. Mol.
+Biol. (2007) 369, 10411051  0022-2836/$ - see front matter  2007 Elsevier Ltd. All rights reserved.been to improve the specificity of naturally occurring  protease inhibitors.1214 For example, maturation of  Alzheimer's amyloid -protein precursor inhibitor  Kunitz domain, a canonical serine protease inhibitor,  via competitive phage display improved its specificity for factor VIIa by increasing its KI against a panel  of some related serine proteases by two to five orders  of magnitude.13 A third approach has been to mature  specific protease inhibitors on other natural protein  scaffolds, such as ankyrin repeats or antibodies.15  Until now, the characterized protease antibody  inhibitors have been monoclonal antibodies raised  from hybridomas, and have tended towards two  types of inhibitors; those that interfere with multimerization (and thus activation) of the protease,1618  and those that bind to loops and proteinprotein  interaction sites1922 and occlude substrate binding,  instead of interfering with the catalytic machinery of  the enzyme, and ensuring complete inhibition.23  Earlier, we reported the development of singlechain variable fragment (scFv) antibody inhibitors  of the serine protease membrane-type serine protease 1 (MT-SP1).24 MT-SP1 (also called matriptase)  was discovered and cloned in a search for serine  proteases expressed in the PC-3 prostate cancer cell  line,25 and was determined independently to be a  highly expressed protease in breast cancer tissue.26  Work by a number of groups has since shown that  MT-SP1 may be a key upstream factor involved in  the ECM remodeling, and in signal transduction  cascades involved in cell transformation.27 Ablation of MT-SP1 activity has been shown to decrease  the invasiveness of both ovarian and prostate  tumor cells, and modest orthotopic over-expression  of MT-SP1 in mouse epidermal tissue led to  spontaneous squamous cell carcinomas,28 further  cementing the role of MT-SP1s in cancer, and suggesting the enzyme is causally involved in malignant  transformation.
+  Here, we have characterized the mechanism of  inhibition of the two most potent scFv inhibitors of  MT-SP1, E2 and S4.
+The inhibitors were selected  from a fully synthetic human combinatorial antibody library in the scFv format (HuCAL, MorphoSys AG).
+HuCAL-scFv contains consensus  frameworks with diversified light and heavy chain  CDR3 regions reflecting the natural human amino  acid composition.29 A combination of mutagenesis  experiments, steady-state kinetics, and stoppedflow kinetics reveal that, while the inhibitors gain  specificity by making a number of critical interactions with surface loops on the protease, they can be  standard mechanism inhibitors, which insert a reactive loop in a substrate like manner into the active  site of the protease.
+This work suggests that an  antibody scaffold can be used to create extremely  specific standard mechanism protease inhibitors.
+  Furthermore, the design of inhibitors that utilize  macromolecular recognition factors (variable loops,  proteinprotein interaction sites) can help to differentiate highly homologous proteases, and can thus  impart specificity upon the inhibitors.
+  Results  Earlier, we described the maturation and initial  characterization of a number of scFv inhibitors of  MT-SP1.24 The scFvs bound tightly to the catalytic  domain of MT-SP1, and showed a high degree of  specificity, as they showed no appreciable inhibition of a panel of closely related serine proteases,  including factor Xa, thrombin, kallikrein, tissue  plasminogen activator (tPA), and uPA at inhibitor  concentrations of 1 M. Here, we characterize the  mechanism of inhibition of E2 and S4, the two most  potent members of this novel class of serine protease  inhibitors.
+  Steady-state kinetics  Previous experiments showed that E2 and S4 had  KD values of 160 pM and 500 pM (as determined by  surface plasmon resonance), and were potent  inhibitors of MT-SP1.
+In the current study, a number  of steady-state kinetic experiments were performed  in an attempt to understand the mechanism of  inhibition of these inhibitors.
+The results of these  experiments are summarized in Table 1.
+Double  reciprocal plots revealed that both E2 and S4 are  competitive inhibitors of MT-SP1 with respect to  Spectrazyme-tPA, a small molecule para-nitroanilide  (pNA) substrate of P1 arginine serine proteases.
+To  further characterize the tight-binding nature of these  inhibitors, accurate KI values were determined; E2  and S4 are extremely tight-binding competitive  inhibitors of MT-SP1, with KI values of 8.0(  1.3)  pM and 140(  6.0) pM, respectively.
+  To verify that the mode of inhibition is similar in  the context of a macromolecular substrate, a discontinuous assay was developed to measure the activation of uPA.
+The KM of uPA as a substrate for MT-SP1  was determined to be 1.7(  0.2) M, and the kcat of  MT-SP1 activation of sc-uPA was 0.89(  0.09) s1  .
+  Double reciprocal plots showed that the inhibitors  were indeed competitive with respect to macromoTable 1.
+Kinetic parameters of scFv inhibitors  kona (106  M1  s  1  ) k offa (103  s  1  ) Kd  a (nM) Mode of inhibition KI (pM) Macromolecular MOI Macromolecular KI (pM)  E2 2.1 0.38 0.16 Competitive 8.0  1.3 Competitive 12  S4 11.5 5.8 0.51 Competitive 140  6 Competitive 160  MOI, mode of inhibition.
+  a Values determined by SPR.24  1042 Antibody Inhibitors of a Proteaselecular substrates.
+From these data, approximate KI  values of 12 pM for E2 and 160 pM for S4 could be  extrapolated (Table 1).
+Since the substrate (uPA)  concentration could not be increased above KM, the  errors associated with KI values are large; nonetheless, they confirm that the inhibitors inhibit  MT-SP1 equally well, regardless of the size of the  protease substrate.
+  Pre-steady-state kinetics  A closer examination of the progress curves of  the steady-state reactions when enzyme was added  to a mixture of substrate and inhibitor revealed  different binding mechanisms for E2 and S4 (Figure  1).
+The progress curves for S4 are linear, suggesting  the binding of scFv to enzyme comes to equilibrium rapidly.
+Conversely, the progress curves for  E2 inhibition are curved, suggesting slow binding  inhibition.30 To define the binding mechanisms of  these scFvs, stopped-flow experiments were performed to evaluate the onset of inhibition during  turnover at higher concentrations of enzyme.
+  Stopped-flow experiments measured the appearance  of pNA, and were carried out as described in  Materials and Methods.
+  The stopped-flow traces from the S4 inhibitor  experiments were fit by nonlinear regression to the  rate equations for reversible, tight-binding inhibition to obtain observed rate constants (kobs) for the  onset of inhibition (equation (5)).31 Plots of kobs  versus [S4] are linear with positive y-intercepts  (Figure 2(a)), consistent with a one-step reversible  mechanism for binding the inhibitor.
+The y-intercepts of the plots give an average off-rate of k1=  1.7  102 s  1  , and a secondary plot of the slopes  versus substrate concentration (Figure 2(a), inset)  defined the on rate as k1= 1.2  108 M1  s  1  .
+The KI  calculated from k1/k1= 147 pM, which is in very  good agreement with the experimentally determined steady-state KI of 140 pM. From these data,  it can be concluded that S4 binds and inhibits MTSP1 with an extremely fast on-rate, and has a onestep binding mechanism as shown in Scheme 1.
+  The stopped-flow traces from the E2 inhibitor  experiments (Figure 2(b)) revealed a more complicated binding mechanism.
+In this case, the progress curves fit well to a sum of two exponentials  (equation (7)), indicating the presence of at least two  steps in the binding process, which leads to the onset  of inhibition.
+At minimum, a double-exponential  decay is consistent with a two-step binding mechanism.
+This occurs when the first step in the binding  process is more rapid than the second and, as  a result, the first observed rate constant (kobs1)  shows a linear dependence on the concentration of  inhibitor.32 If kobs1 shows a hyperbolic dependence  on inhibitor concentration, the mechanism of inhibition involves more than two steps.
+Unfortunately,  due to the extremely tight nature of the enzyme  inhibitor interaction, the concentration of inhibitor  could not be increased sufficiently to distinguish  between a linear or hyperbolic dependence of kobs1  on the concentration of inhibitor.
+But, due to the  presence of two exponential decays, an absolute  minimal mechanism of E2 inhibition has two steps,  and E2 can be classified as a slow, tight-binding  inhibitor.30  p-Aminobenzamidine competition assay  p-Aminobenzamidine (pAB) has been reported as  a weak competitive inhibitor of P1-arginine-specific  serine proteases,33 and can be used as a fluorescent  probe to monitor substrate or inhibitor binding in  the S1 site.
+The hydrophobic nature of the S1 site  causes pAB to fluoresce with a maximum emission  around 360 nm when bound to the enzyme, while  pAB in aqueous solution has both a lower intensity  and longer wavelength of emission at 376 nm.
+pAB  has been used as a probe to monitor binding of  inhibitors in the S1 site of inhibitors; competitive  inhibitors displace pAB from the protease active site  and reduce emission at 360 nm,33,34 while noncompetitive inhibitors do not.35 pAB has a KI of  28.8 M for MT-SP1 (data not shown), and 1 M MTSP1 incubated with 270 M PAB (to saturate the  enzyme) shows a characteristic emission peak at  361 nm when excited at 325 nm (Figure 3).
+When one  equivalent of either E2 or S4 is added to the preFigure 1.
+Progress curves of MT-SP1 inhibition by scFv  inhibitors reveal multiple mechanisms of inhibition.
+The  addition of 0.2 nM enzyme to a mixture of substrate  (300 M Spec-tPA) and inhibitor results in a decrease in  proteolytic activity.
+S4 inhibition results in a linear  progress curve, suggesting rapid-equilibrium inhibition,  while the curved nature of the E2 progress curve suggests  slow-binding inhibition.
+  Scheme 1.
+  Antibody Inhibitors of a Protease 1043incubated MT-SP1/pAB, the fluorescence is  decreased sharply (Figure 3).
+This suggests that  both inhibitors bind at or near the S1 site, and most  likely insert an arginine or lysine side-chain into the  pocket.
+  MT-SP1/inhibitor digest  The reactive site of many standard mechanism  serine protease inhibitors has been determined by  incubating protease and inhibitor at low pH, where  the inhibitor can be cleaved in a substrate-like  manner, causing a processing of the inhibitor into  two fragments, with the cleavage occurring between  the P1 and P1 residues.36,37 When MT-SP1 and E2  are incubated at pH 6.0 for an extended period of  time (>120 h), E2 is processed into two bands  (Figure 4).
+This processing is not seen at pH 8.0, or  without MT-SP1 at pH 6.0.
+MT-SP1 shows no proteolytic activity below pH 6.0, making this the  lowest pH at which processing can occur.
+Electron  spray ionization (ESI) mass spectrometry verifies  that the processing event takes place between R131  and R132 in E2.
+The N-terminal fragment has a  mass of 12,013 Da (expected 12,014 Da) and the  C-terminal fragment has a mass of 15,624 Da  (expected 15,627 Da).
+This places the reactive loop  in the CDR3 of the heavy chain of E2, which would  be expected from the HuCAL library from which  these scFvs were matured, as the scaffold has large,  diverse CDR3s.29 No S4 processing was observed  upon incubation with MT-SP1 for extended periods  of time at low pH, suggesting a different, noncanonical mechanism of inhibition for the S4 scFv.
+  Figure 2.
+Stopped-flow experiments confirm disparate mechanisms of inhibitor binding to MTSP1.
+(a) Linear plots of kobs versus S4  concentration confirm that S4 has a  one-step binding mechanism, as  illustrated by Scheme 1.
+Individual  traces are for different concentrations substrate: black (), 200 M  Spec-tPA; green (), 300 M SpectPA; blue (), 500 M Spec-tPA;  and red (), 800 M Spec-tPA.
+The  y-intercepts of the observed rate  constant plots gave an average off  rate of k1= 1.7  102 s  1  , and a  secondary plot of the slopes versus  concentration of substrate (inset)  defined the on rate as k1= 1.2  108  M 1  s   1  . (b) The raw stopped-flow  trace monitoring E2 inhibition of  MT-SP1 by measuring the appearance of pNA at 405 nm fits well to  the double exponential equation (7)  with two observed rate constants.
+  The inset shows the residuals of the  non-linear regression fit.
+Final concentrations for this trace were  240 nM E2, 10 nM MT-SP1, and  500 M Spec-tPA.
+  1044 Antibody Inhibitors of a ProteaseInhibitor point mutants  To verify the mechanism of inhibition of the scFv  inhibitors, point mutants of the arginine residues in  the CDR3 loops of the inhibitors were constructed.
+It  would be expected that mutations to residues that  bind in the S1 site of the protease would have the  greatest effect on binding affinity.
+The mutational  data are summarized in Table 2.
+E2 R131A and  R132A had KI values of 78 nM and 454 pM,  respectively (KI= 12.3 pM for the wild-type E2).
+The  mutation of R131 to alanine has a 6500-fold effect on  protease inhibition, as would be expected from a  residue that binds in the S1 site.
+This is consistent  with the data from the inhibitor digest at low pH.  The mutation of R132 caused a 38-fold increase in KI,  suggesting that the P1 arginine also makes significant contacts with the protease.
+The CDR3 loop of S4  also has a double arginine motif, R128 and R129.
+  Both arginine residues were mutated to alanine and  had significant effects on protease inhibition: S4  R128A had a KI of 2.8 M, while the R129 alanine  mutant had a KI of 3.9 nM, a 4  104  -fold and a 56-fold  difference, respectively.
+  MT-SP1 point mutations  To footprint the binding site of the inhibitors, sitedirected mutagenesis was used to alanine scan the  surface of the protease domain.38 On the basis of the  crystal structure of MT-SP1,39 30 point mutants  were identified as potential partners in macromolecular interactions (Table 3).
+The majority of these  residues were located on the loops flanking the  protease active site.
+Proteolytic activity against  Spec-tPA was used to assure that the point mutations did not drastically affect MT-SP1 structure or  function.
+The differences between the mutant and  wild-type protease kcat/KM values were less than  twofold in most cases, suggesting that the mutations had minimal effect on protease structure.
+MTSP1 T98A was a sixfold less efficient enzyme than  the wild-type, which could be attributed primarily  to a lower kcat.
+MT-SP1 D217A had a threefold  decrease in protease specific activity, which was  due to an increased KM of 210 M. The F99A,  Q192A, and W215A substitutions in MT-SP1 all  resulted in inactive enzymes.
+The inactive variants  eluted from a gel-filtration column at the same size  as the zymogen protease, suggesting they are  inactive because they could not autoactivate (data  not shown).
+  The KI values for E2 and S4 were determined  against the MT-SP1 point mutants.
+As a positive  control, the fold-specific serine protease inhibitor  Figure 3.
+Inhibitors displace pAB from the MT-SP1  active site.
+pAB (270 M) incubated with 1 M MT-SP1  emits a strong emission peak with a maximum at 361 nm  when excited at 325 nm, due to hydrophobic interactions  between pAB and the P1 pocket of the protease.
+When one  equivalent of either S4 (blue trace) or E2 (green trace) is  added to 1 M MT-SP1 saturated with pAB, the fluorescence decreases, suggesting pAB is released into the  aqueous environment, where it is weakly fluorescent.
+  Therefore, binding of both S4 and E2 are competitive with  pAB binding, and both inhibitors bind in or near the P1  pocket in a manner that precludes binding of pAB.
+  Figure 4.
+E2 is processed by MT-SP1 at pH 6.0.
+E2  (2 mM) was incubated at pH 6.0 with (lane 3) and without  (lane 1) 0.1 M MT-SP1 for 120 h. Samples were run on a  12% (w/v) polyacrylamide gel and stained with Coomassie brilliant blue.
+At pH 6.0, E2 was processed into two  products, with molecular masses determined to be 15,624  Da, and 12,013 Da by ESI mass spectrometry.
+These  masses, when added together, account for the mass of the  full-length inhibitor (27,219 Da) and the water molecule  added to the products during the hydrolysis reaction.
+This  processing does not take place when E2 and MT-SP1 are  incubated at pH 8.0 (lane2).
+The diagram below shows the  site of the scissile bond in the middle of the heavy chain of  E2.
+  Table 2.
+Inhibitor point mutant KI versus MT-SP1  KI (nM) Fold difference  E2 0.01  E2 R131A 78 6500  E2 R132A 0.45 38  S4 0.07  S4 R128A 2800 4.0  104  S4 R129A 3.9 56  All error values > 6%.
+  Antibody Inhibitors of a Protease 1045BPTI was screened against the protease point mutants, since the mechanism of inhibition is known40  and a the structure of a co-crystal of BPTI and MTSP1 has been solved.39 As would be expected from a  fold-specific protease inhibitor, most point mutants  had little effect on BPTI inhibition.
+The I41A  substitution moderately improved BPTI binding to  MT-SP1, F94A, F97A, and E169A moderately  decreased BPTI inhibition (corresponding to < 1  kcal/mol binding energy), and D60bA and D217A  mutations had a more significant affect on BPTI  inhibition (Figure 5(b)).
+Analysis of the crystal  structure suggests that the increased KI of MT-SP1  D60bA could be due to D60b hydrogen bonding  with R20 of BPTI, and forming an intramolecular  H-bond with R60c, which packs against BPTI.
+A  deletion of the H-bonding ability of this side chain  would account for the moderate increase (12.6-fold)  in KI.
+The structure does not readily explain the  43-fold increase in the KI of BPTI for MT-SP1 D217A,  but it is possible that the mutation affects the structure of the 220s loop, which would account also for  the increased KM of Spec-tPA for D217A.
+  The alanine scanning data suggests S4 makes  contacts of moderate strength with a number of  residues on the six surface loops surrounding the  active site (Figure 5(a) and (d)).
+Interactions with the  side-chains of I41, D60b, T98, and Q175 account for  modest binding energy (pink residues, Figure 5(d));  alanine mutations of these residues increased the KI  values of S4 36 fold, corresponding to a decrease in  free energy of binding of 0.51 kcal/mol.
+S4 makes  stronger interactions with the side-chains of F94,  D96, H143, Y146, and D217 (red residues, Figure  5(d)), decreasing the free energy of binding by 1.5  2.0 kcal/mol.
+Interestingly, a mutation of R60c to  alanine decreased the KI of S4 6-fold.
+This suggests  that the protease/scFv interaction has not been  optimized completely.
+Taken together, the mutational data suggest that S4 makes a number of  moderate contacts with the loops flanking the active  site, making the strongest interactions with the 140s  and 90s loops, and thereby bridging the active site.
+  E2 makes interactions with a number of loops  surrounding the MT-SP1 active site (Figure 5(c)),  including the base of the 60s loop, the 90s loop, the  170s loop, the 220s loop, and the 140s loop.
+In  contrast to S4, which makes a number of interactions  of moderate strength, E2 gains much of its binding  energy from interactions with two residues, D96 and  F97.
+Mutations of each of these residues to alanine  increased the KI of E2 to > 1 M, corresponding to a  decrease in free energy of binding of > 7.5 kcal/mol.
+  The Q175A variant, on the loop adjacent to the 90s  loop, also has a significant effect on E2 inhibition,  increasing the KI of E2 by 69-fold (3.0 kcal/mol).
+The  90s loop and 170s loop flank the extended binding  sites of MT-SP1,39,41 and F97 helps form the S4  pocket, suggesting E2 binds in the extended binding  pockets of MT-SP1.
+Though E2 makes minor  interactions with Y146, Q221a, and K224, the  majority of the binding energy of E2 for MT-SP1  comes from interactions with the 90s loop, and  minor interactions with residues flanking the 90s  Table 3.
+MT-SP1 point mutant/inhibitor KI values  BPTI E2 S4  KI (pM) Fold difference KI (pM) Fold difference KI (pM) Fold difference  MT-SP1 49.7 12.3 70.4  Q38A 20.7 0.42 6.1 0.5 73.6 1  I41A 12.4 0.25 (fourfold) 12.3 1 208 3  I60A 35.8 0.72 50.4 4.1 40.2 0.57  D60aA 37.2 0.75 25.1 2 125 1.8  D60bA 628 12.6 20.8 1.7 427 6.1  R60cA 134 2.7 11.4 0.93 11.7 0.17 (sixfold)  F60eA 24.1 0.48 11.4 0.93 102 1.4  R60fA 73.4 1.5 10.9 0.89 88.9 1.3  Y60gA 43.5 0.88 12.7 1 151 2.1  R87A 38.6 0.78 9.4 0.76 54.5 0.77  F94A 170 3.4 36.2 2.9 1036 15  N95A 83.6 1.7 45.4 3.7 108 1.5  D96A 150 3 > 1 M >105 897 13  F97A 224 4.5 > 1 M >105 154 2  T98A 76.4 1.5 83.2 6.7 239 3.4  H143A 48.5 1 14.2 1.2 1671 24  Q145A 83.4 1.7 15.4 1.3 116 1.6  Y146A 116 2.3 76.8 6.2 1405 20  T150A 57.8 1.2 20.1 1.6 94.6 1.3  L153A 116 2.3 21.7 1.8 116 1.6  E169A 163 3.3 23.1 1.9 199 2.8  Q174A 129 2.6 11.6 0.94 63.7 0.9  Q175A 39.7 0.8 851 69 246 3.5  D217A 2137 43 32 2.6 838 12  Q221aA 63.4 1.3 40.5 3.3 65.7 0.93  R222A 42.8 0.87 10.5 0.85 61.1 0.87  K224A 111 2.2 46.3 3.8 59.1 0.84  KI is calculated from the IC50 value; all errors > 6%.
+  1046 Antibody Inhibitors of a Proteaseloop (I60, Q175).
+This defines the 90s loop as a hotspot for E2 binding; and as the 90s loop sequence is  unique to MT-SP1, it helps explain E2s specificity for  MT-SP1.
+  Discussion  We have described the mechanism by which two  novel scFv antibodies inhibit the cancer-associated  serine protease MT-SP1/matriptase.
+The S4 antibody  has a fast association rate with MT-SP1 (1.2  108  M1  s  1 as measured by stopped-flow kinetics) and  binds very tightly to the protease, making numerous  contacts with the loops surrounding the active site of  MT-SP1.
+The fast on-rate is likely influenced by  electrostatic steering, which can increase kon by  more than 104 over the basal diffusion-controlled  association rate.42 Mutational data support this  hypothesis, as nearly all the residues S4 makes  significant contacts with are polar or charged.
+The  inhibitor competes with pAB for the S1 site, and the  R128A variant of S4 nearly abolishes protease  inhibition.
+Despite these data, S4 cannot be considered a standard mechanism inhibitor of MT-SP1  without further structural characterization.
+Standard mechanism inhibitors have a characteristic  two-step binding mechanism; an initial binding  step, followed by a tightening of the enzyme  inhibitor complex and, as such, have an association  rate approximately two orders of magnitude slower  than S4.
+Furthermore, S4 is not processed by MT-SP1  at low pH, meaning the substrate-like binding  cannot be assumed.
+  E2, on the other hand, displays all the characteristics of a standard mechanism serine protease  inhibitor.
+While a crystal structure would help to  determine the mechanism of inhibition definitively,  the data here are consistent with E2 being a  standard-mechanism inhibitor.
+The enzymeinhibitor complex reaches equilibrium slowly, E2 binds in  a substrate-like manner, and inserts an arginine  residue into the S1 site of MT-SP1 (R131), which is  important for, but not absolutely critical to, inhibition.
+Furthermore, E2 shows a slight degree of fold  specificity; it inhibits the mouse homolog of MT-SP1,  epithin, with a KI of 40 nM,24 and can inhibit trypsin,  a digestive protease with extremely broad specifiFigure 5.
+MT-SP1 alanine point mutants and their effect on protease inhibition by (b) BPTI, (c) E2, and (d) S4.
+(a) The 6  MT-SP1 surface loops surrounding the protease active site consisting of a binding cleft and the catalytic triad (sticks).
+The  space-filling models shown in (b), (c), and (d) are oriented in the same manner, with the catalytic triad in yellow.
+Point  mutants that had minimal effect on protease inhibition are shaded in gray, mutations that had a three-to tenfold increase  in inhibitor KI are shaded pink, and point mutants that increased inhibitor KI by more than tenfold are shaded in red.
+  Point mutants that decreased inhibitor KI are shaded in green.
+The point-mutant/inhibitor KI values are given in Table 3.
+  MT-SP1 point mutants have a minimal effect on BPTI inhibition, S4 interacts with moderate affinity to all six protease  loops surrounding the active site, and E2 binds with high affinity to the 90s and 170s loop.
+This Figure was prepared using  PyMoL [http://www.pymol.sourceforge.net/].
+  Antibody Inhibitors of a Protease 1047city, with an IC50 of 45 M (data not shown).
+In  contrast to most standard mechanism serine protease inhibitors, E2 is highly specific for a single  serine protease, MT-SP1.
+E2 gains much of its  specificity through interactions with the 90s loop  of MT-SP1, and makes significant interactions with  residues D96 and F97 of the protease.
+Perhaps not  surprisingly, known protease inhibitors that do  exhibit a high degree of specificity, such as anticoagulant protease inhibitors from ticks and leeches,  often employ a similar mechanism of inhibition;  they combine the robustness of competitive, active  site inhibition with protein extensions that bind to  recognition sites on target enzymes.5,43  To our knowledge, these scFvs are the first documented case of mechanistic protease inhibitors on  an antibody scaffold that bind in the active site.
+A  number of monoclonal antibody protease inhibitors  have been reported1719,21,22,44 but, despite diverse  mechanisms, all have the same underlying mode of  action; they bind to a small, linear peptide sequence  and prevent either a proteinprotein or an enzyme  substrate interaction.
+While often sufficient for  inhibition, these monoclonal antibodies can have  curious inhibitory profiles in which they cannot  inhibit the hydrolysis of small-molecule substrates,  or have different levels of inhibition against different  substrates.19,21 Because they are selected in vitro  against the active form of the enzyme, antibodies  developed by phage display have the inherent  advantage of recognizing three-dimensional epitopes and the topography of the enzyme active site.
+  With this comes the opportunity for tighter binding  due to greater buried surface areas and minimal  entropic penalties upon binding, and more complete  inhibition through insertion of residues into the  protease active site.
+E2 and S4 have clearly used  these advantages; they have fast on-rates, very low  KD values, bind in the active site groove, and make  contact with a number of loops flanking the active  site.
+  The HuCAL-scFv library contains consensus  framework sequences for all frequently occurring  VH and VL subfamilies with a germline sequence for  the CDR1 and CDR2 in each subfamily.29 Both the  heavy and light chain CDR3 regions were diversified according to the natural amino acid composition and cover the natural length variation of the VH  and VL CDR3 regions.
+In retrospect, this proves to  be an ideal scaffold for serine protease inhibition; it  allows for a large, rigidified reactive loop to be  inserted into the protease active site, while the rest of  the antibody stabilizes the CDR3 of the heavy chain  and makes additional contacts with the protease.
+  While only the most potent scFv inhibitors of MTSP1 were characterized, all inhibitors had heavy  chain CDR3 loops of at least 17 residues, suggesting  that large heavy chain CDR3s were critical to MTSP1 inhibition.
+  The explosion in antibody research over the past 15  years has revolutionized biotechnology.
+Antibodies  have been developed into extremely useful drugs  and imaging devices, and have become critical tools  in many areas of biological research.
+Here, scFv  fragments have shown the ability to inhibit specifically a single member of a family of closely related  enzymes.
+While these molecules will be useful in  helping dissect the complex biology of MT-SP1,45  the mechanisms through which they work once  again reveals the innate binding flexibility of antibodies, and the power of protein engineering.
+That  these inhibitors have developed the robust inhibition mechanism of standard mechanism serine  protease inhibitors, suggests that we can develop  antibodies to mimic any proteinprotein interaction, and precisely modulate nearly any biological  process.
+  Materials and Methods  Protein expression, purification, and mutagenesis  MT-SP1 and MT-SP1 mutants were expressed in  Escherichia coli and purified from inclusion bodies as  described.25 Antibodies were selected from the HuCAL  scFv library (MorphoSys AG, Martinsried, Germany).29  Expression and purification of inhibitory scFv antibodies  were as described.24 Point mutants were made using the  Stratagene Quickchange kit (Stratagene, La Jolla, CA).
+One  or two base changes were sufficient to create the point  mutant in each case, and all sequences were verified by  DNA sequencing.
+  Steady-state kinetics  All reaction volumes were 120 l and were carried out  in 50 mM TrisHCl (pH 8.8), 50 mM NaCl, 0.01% (v/v)  Tween-20 unless stated otherwise and all reactions were  carried out in triplicate.
+Reactions were run in 96-well,  medium-binding, flat-bottomed plates (Corning), and  cleavage of substrate was measured with a UVmax  Microplate Reader (Molecular Devices Corporation, Palo  Alto, CA.).
+MT-SP1 and mutant protease concentrations  were determined by 4-methylumbelliferyl p-guanidinobenzoate active-site titration with a Fluormax-2 spectrofluorimeter.46 Kinetic parameters of MT-SP1 and mutant  proteases were determined at 0.2 nM enzyme, with  concentrations of Spectrazyme-tPA (hexahydrotyrosylGly-Arg-pNA, American Diagnostica, Greenwich, CT)  varying from 1 M to 400 M. KM and kcat were  determined using the MichaelisMenten equation.
+  Tight-binding inhibitors require that the effective  decrease in free enzyme be taken into account when  determining KI values.31 This is accomplished by incubating enzyme and inhibitor so that the system can reach  equilibrium, adding substrate, and then measuring  steady-state velocities at various concentrations of inhibitor and fitting the data to:  vi=vs ET  IT  KI*  IT  KI*  ET  2  4KI*ET1=2  2ET  ( )  1  KI* values are then plotted against substrate concentration to extrapolate the KI at zero substrate concentration:  KI*  KI1  S=Km 2  1048 Antibody Inhibitors of a ProteaseWhen measuring the effect mutations had on the  strength of the interaction between the protease and inhibitor, IC50 values were used instead of KI as determined  above.
+Though less accurate than KI,  47 IC50 is easier to  calculate when screening large numbers of inhibitor point  mutants, and is sufficient to monitor relative changes in  inhibition versus the wild-type system.
+IC50 was determined by incubating inhibitor and 0.2 nM enzyme for at  least 5 h at room temperature to assure steady-state  behavior of the system.3 There was no appreciable  decrease in protease activity during the incubation period.
+  Steady-state velocities were then plotted against inhibitor  concentration and fit to:  v  vmin  vmax  vmin  1  10IIC50   3  Relative KI was calculated from IC50 values according  to:  KI  IC50  1  S=KM 4  Though nearly all protease mutants had a minimal (less  than twofold) effect on substrate KM, and the substrate  concentration was held well above the KM, this correction  normalizes the IC50 with respect to the strength of the  protease/substrate interaction.
+All graphs and equations  were fit using Kaliedagraph 3.6 (Synergy Software, Reading, PA).
+  Macromolecular substrate assay  In an assay analogous to that used to monitor factor  VIIa activation of FX,8 we developed a coupled assay  that monitors MT-SP1 activation of uPA in which 50 pM  MT-SP1 was incubated with various concentrations (final  concentrations, 12.5400 nM) of single-chain uPA (American Diagnostica).
+At various time-points (0150 min),  aliquots of the reaction were removed and quenched with  10 nM E2.
+There was no residual MT-SP1 activity after  the quench, and E2 showed no inhibition of uPA at a  concentration of 10 nM. The amount of active uPA was  measured by monitoring the activity for uPA against the  para-nitroanilide uPA substrate Spectrazyme-UK (American Diagnostica).
+The mode of inhibition was determined  from double reciprocal plots, and kinetic parameters and  inhibition constants were determined using the Michaelis  Menten equation.
+The KM of Spec-UK for uPA was  determined to be 42 M, and the kcat of uPA turnover  was 1.0 s1  .
+  Stopped-flow kinetics  Stopped-flow experiments were conducted using a  HiTech SF-61DX2 instrument (TgK Scientific Ltd., Bradford on Avon, U.K.).
+Data were collected in dual beam  mode using photomultiplier detection of absorbance data  at 405 nm.
+MT-SP1 (10 nM for E2 experiments, 1 nM for S4  experiments) was mixed rapidly with a solution of  substrate (Spec-tPA, 200800 M) and inhibitor (10  300 nM for S4, 100340 nM for E2) and the appearance  of pNA was monitored for 20 s (for S4) or 150 s (for E2).
+  Concentrations of enzyme and length of experiments were  varied between the two systems to ensure robust signal  and equilibration of the system.
+  The stopped-flow traces from the S4 inhibitor experiments were fit by nonlinear regression to the rate  equations for reversible, tight binding inhibition:31  P  vst  vi  vs1  ekobs t  =kobs 5  The appearance of the product (P) is a function of the  initial (vi) and final (vs) velocities, and an apparent firstorder rate constant, kobs for the onset of inhibition.
+Plots of  kobs versus inhibitor concentration were linear, and fit to  equation (6), as would be expected when the inhibitory  mechanism consists of one reversible binding step, as in  Scheme 1:  kobs  k1  k1I=1  S=KM 6  E2 stopped-flow traces fit poorly to equation (5),  but fit well to a mechanism with two observed rate  constants:32  P  vst  vi  vs1  ekobs1t  =kobs1   vi  vs1  ekobs2t  =kobs2  7  p-Aminobenzamidine fluorescence  Experiments were carried out in PBS with a Fluorolog 3  (Instruments SA Inc. Edison, NJ) fluorimeter. Emission  spectra of MT-SP1/pAB were obtained by excitation at  325 nm using a 4 nm excitation and 2 nm emission  bandpass, and were scanned from 335430 nm.
+Spectra  were corrected for emission due to free pAB and protease.
+  Data corrections were performed with Datamax 2.20  software (Instruments SA).
+  Inhibitor digest  E2 (2 M) or S4 (2 M) was incubated with 0.1 nM  MT-SP1 for 120 h at room temperature.
+Proteins were  incubated in 100 mM Mes (pH 6.0), 100 mM NaCl or in  50 mM TrisHCl (pH 8.0), 100 mM NaCl.
+Proteolysis  was monitored by gel mobility-shift on a 12% (w/v)  polyacrylamide gel with a 4.5% stacking gel, and  stained with Coomassie brilliant blue.
+ESI mass spectrometry was carried out with an LCT Premier mass spectrometer (Waters Corp. Milford, MA), and molecular  masses were determined using MassLynx (Waters) deconvolution software.
+  Acknowledgements  We thank Jill Winter (Chiron) and MorphoSys  AG for access to the HuCAL-scFv libraries, and Dr  Ami Bhatt, Dr Alan Marnett, and Dr Sami Mahrus  for many helpful discussions.
+This work was  funded by a Program Project Grant for proteases  in cancer, NIH CA72006 (to C.S.C.), the Department of Defense Breast Cancer Research Program  BC043431 (C.J.F.) and NIH training grant GM08284  (M.R.D.).
+HuCAL is a registered trademark of  MorphoSys AG.
+  Antibody Inhibitors of a Protease 1049References  1.
+Rawlings, N. D., Morton, F. R. & Barrett, A. J. (2006).  MEROPS: the peptidase database.
+Nucl. Acids Res. 34,  D270D272.  2. Laskowski, M., Jr & Kato, I. (1980).
+Protein inhibitors  of proteinases.
+Annu. Rev. Biochem.
+49, 593626.
+  3. Eggers, C. T., Wang, S. X., Fletterick, R. J. & Craik, C. S.  (2001).
+The role of ecotin dimerization in protease  inhibition.
+J. Mol. Biol. 308, 975991.  4.
+Tyndall, J. D., Nall, T. & Fairlie, D. P. (2005).
+Proteases  universally recognize beta strands in their active sites.
+  Chem. Rev. 105, 973999.
+  5.
+Rydel, T. J., Tulinsky, A., Bode, W. & Huber, R. (1991).  Refined structure of the hirudin-thrombin complex.
+  J. Mol. Biol. 221, 583601.  6.
+Castro, M. J. & Anderson, S. (1996).
+Alanine pointmutations in the reactive region of bovine pancreatic  trypsin inhibitor: effects on the kinetics and thermodynamics of binding to beta-trypsin and alphachymotrypsin.
+Biochemistry, 35, 1143511446.  7.
+Coussens, L. M., Fingleton, B. & Matrisian, L. M.  (2002).
+Matrix metalloproteinase inhibitors and cancer: trials and tribulations.
+Science, 295, 23872392.  8.
+Dennis, M. S., Eigenbrot, C., Skelton, N. J., Ultsch,  M. H., Santell, L., Dwyer, M. A. et al. (2000).
+Peptide  exosite inhibitors of factor VIIa as anticoagulants.
+  Nature, 404, 465470.  9. Roberge, M., Santell, L., Dennis, M. S., Eigenbrot, C.,  Dwyer, M. A. & Lazarus, R. A. (2001).
+A novel exosite  on coagulation factor VIIa and its molecular interactions with a new class of peptide inhibitors.
+Biochemistry, 40, 95229531.
+  10. Krook, M., Lindbladh, C., Eriksen, J. A. & Mosbach, K.  (1997).
+Selection of a cyclic nonapeptide inhibitor to  alpha-chymotrypsin using a phage display peptide  library.
+Mol. Divers. 3, 149159.  11. Hansen, M., Wind, T., Blouse, G. E., Christensen, A.,  Petersen, H. H., Kjelgaard, S. et al. (2005).
+A urokinasetype plasminogen activator-inhibiting cyclic peptide  with an unusual P2 residue and an extended protease  binding surface demonstrates new modalities for  enzyme inhibition.
+J. Biol. Chem. 280, 3842438437.  12.
+Wang, C. I., Yang, Q. & Craik, C. S. (1995).
+Isolation of  a high affinity inhibitor of urokinase-type plasminogen activator by phage display of ecotin.
+J. Biol. Chem.  270, 1225012256.  13. Dennis, M. S. & Lazarus, R. A. (1994).
+Kunitz domain  inhibitors of tissue factor-factor VIIa.
+II. Potent and  specific inhibitors by competitive phage selection.
+  J. Biol. Chem. 269, 2213722144.  14.
+Stoop, A. A. & Craik, C. S. (2003).
+Engineering of a  macromolecular scaffold to develop specific protease  inhibitors.
+Nature Biotechnol. 21, 10631068.  15. Binz, H. K., Amstutz, P., Kohl, A., Stumpp, M. T.,  Briand, C., Forrer, P. et al. (2004).
+High-affinity binders  selected from designed ankyrin repeat protein  libraries.
+Nature Biotechnol. 22, 575582.  16. Rezacova, P., Lescar, J., Brynda, J., Fabry, M., Horejsi,  M., Sedlacek, J. & Bentley, G. A. (2001).
+Structural  basis of HIV-1 and HIV-2 protease inhibition by a  monoclonal antibody.
+Structure, 9, 887895.  17. Puchi, M., Quinones, K., Concha, C., Iribarren, C.,  Bustos, P., Morin, V. et al. (2006).
+Microinjection of an  antibody against the cysteine-protease involved in  male chromatin remodeling blocks the development  of sea urchin embryos at the initial cell cycle.
+J. Cell  Biochem. 98, 335342.
+  18.
+Fukuoka, Y. & Schwartz, L. B. (2006).
+The B12 antitryptase monoclonal antibody disrupts the tetrameric  structure of heparin-stabilized beta-tryptase to form  monomers that are inactive at neutral pH and active at  acidic pH. J. Immunol.
+176, 31653172.
+  19. Petersen, H. H., Hansen, M., Schousboe, S. L. &  Andreasen, P. A. (2001).
+Localization of epitopes for  monoclonal antibodies to urokinase-type plasminogen  activator: relationship between epitope localization  and effects of antibodies on molecular interactions of  the enzyme.
+Eur. J. Biochem. 268, 44304439.  20.
+Matias-Roman, S., Galvez, B. G., Genis, L., Yanez-Mo,  M., de la Rosa, G., Sanchez-Mateos, P. et al. (2005).
+  Membrane type 1-matrix metalloproteinase is involved in migration of human monocytes and is regulated through their interaction with fibronectin or  endothelium.
+Blood, 105, 39563964.  21. Xuan, J. A., Schneider, D., Toy, P., Lin, R., Newton, A.,  Zhu, Y. et al. (2006).
+Antibodies neutralizing hepsin  protease activity do not impact cell growth but inhibit  invasion of prostate and ovarian tumor cells in  culture.
+Cancer Res. 66, 36113619.
+  22. Obermajer, N., Premzl, A., Zavasnik Bergant, T., Turk,  B. & Kos, J. (2006).
+Carboxypeptidase cathepsin X  mediates beta2-integrin-dependent adhesion of differentiated U-937 cells.
+Expt.
+Cell Res.
+312, 25152527.
+  23.
+Maun, H. R., Eigenbrot, C. & Lazarus, R. A. (2003).
+  Engineering exosite peptides for complete inhibition  of factor VIIa using a protease switch with substrate  phage.
+J. Biol. Chem. 278, 2182321830.
+  24.
+Sun, J., Pons, J. & Craik, C. S. (2003).
+Potent and  selective inhibition of membrane-type serine protease  1 by human single-chain antibodies.
+Biochemistry, 42,  892900.  25.
+Takeuchi, T., Shuman, M. A. & Craik, C. S. (1999).
+  Reverse biochemistry: use of macromolecular protease inhibitors to dissect complex biological processes and identify a membrane-type serine protease  in epithelial cancer and normal tissue.
+Proc. Natl Acad.  Sci. USA, 96, 11054110561.  26. Lin, C. Y., Anders, J., Johnson, M. & Dickson, R. B.  (1999).
+Purification and characterization of a complex  containing matriptase and a Kunitz-type serine protease inhibitor from human milk.
+J. Biol. Chem. 274,  1823718242.  27.
+Uhland, K. (2006).
+Matriptase and its putative role in  cancer.
+Cell Mol.
+Life Sci. 63, 29682978.
+  28.
+List, K., Szabo, R., Molinolo, A., Sriuranpong, V.,  Redeye, V., Murdock, T. et al. (2005).
+Deregulated  matriptase causes ras-independent multistage carcinogenesis and promotes ras-mediated malignant  transformation.
+Genes Dev. 19, 19341950.
+  29. Knappik, A., Ge, L., Honegger, A., Pack, P., Fischer,  M., Wellnhofer, G. et al. (2000).
+Fully synthetic human  combinatorial antibody libraries (HuCAL) based on  modular consensus frameworks and CDRs randomized with trinucleotides.
+J. Mol. Biol. 296, 5786.
+  30.
+Morrison, J. F. & Walsh, C. T. (1988).
+The behavior and  significance of slow-binding enzyme inhibitors.
+  Advan. Enzymol. Relat. Areas Mol.
+Biol. 61, 201301.  31. Williams, J. W. & Morrison, J. F. (1979).
+The kinetics of  reversible tight-binding inhibition.
+Methods Enzymol.  63, 437467.  32.
+Hiromi, K. (1979).
+Kinetics of Fast Enzyme Reaction:  Theory and Pratice.
+Kodansha Ltd., Wiley, Tokyo.
+  33.
+Evans, S. A., Olson, S. T. & Shore, J. D. (1982).
+  p-Aminobenzamidine as a fluorescent probe for the  active site of serine proteases.
+J. Biol. Chem. 257,  30143017.  34.
+Parry, M. A., Maraganore, J. M. & Stone, S. R. (1994).
+  1050 Antibody Inhibitors of a ProteaseKinetic mechanism for the interaction of Hirulog with  thrombin.
+Biochemistry, 33, 1480714814.  35. Fernandez, A. Z., Tablante, A., Beguin, S., Hemker,  H. C. & Apitz-Castro, R. (1999).
+Draculin, the anticoagulant factor in vampire bat saliva, is a tightbinding, noncompetitive inhibitor of activated factor  X. Biochim. Biophys. Acta, 1434, 135142.
+  36. Ozawa, K. & Laskowski, M., Jr (1966).
+The reactive site  of trypsin inhibitors.
+J. Biol. Chem. 241, 39553961.  37. McGrath, M. E., Hines, W. M., Sakanari, J. A.,  Fletterick, R. J. & Craik, C. S. (1991).
+The sequence  and reactive site of ecotin.
+A general inhibitor of pancreatic serine proteases from Escherichia coli.
+J. Biol.  Chem. 266, 66206625.  38.
+Cunningham, B. C. & Wells, J. A. (1989).
+Highresolution epitope mapping of hGH-receptor interactions by alanine-scanning mutagenesis.
+Science, 244,  10811085.
+  39. Friedrich, R., Fuentes-Prior, P., Ong, E., Coombs, G.,  Hunter, M., Oehler, R. et al. (2002).
+Catalytic domain  structures of MT-SP1/matriptase, a matrix-degrading  transmembrane serine proteinase.
+J. Biol. Chem. 277,  21602168.
+  40.
+Luthy, J. A., Praissman, M., Finkenstadt, W. R. &  Laskowski, M., Jr (1973).
+Detailed mechanism of interaction of bovine-trypsin with soybean trypsin inhibitor (Kunitz).
+I. Stopped flow measurements.
+J. Biol.  Chem. 248, 17601771.  41.
+Sriprapundh, D., Craik, C. S. (2006).
+  42. Schreiber, G. & Fersht, A. R. (1996).
+Rapid, electrostatically assisted association of proteins.
+Nature  Struct.
+Biol. 3, 427431.
+  43. Rezaie, A. R. (2004).
+Kinetics of factor Xa inhibition by  recombinant tick anticoagulant peptide: both active  site and exosite interactions are required for a slowand tight-binding inhibition mechanism.
+Biochemistry,  43, 33683375.  44. Martin, F., Volpari, C., Steinkuhler, C., Dimasi, N.,  Brunetti, M., Biasiol, G. et al. (1997).
+Affinity selection of a camelized V(H) domain antibody inhibitor  of hepatitis C virus NS3 protease.
+Protein Eng. 10,  607614.  45. Bhatt, A. S., Welm, A., Farady, C. J., Vasquez, M.,  Wilson, K. & Craik, C. S. (2007).
+Coordinate expression and functional profiling identify and extracellular  proteolytic signaling pathway.
+Proc. Natl Acad. Sci.  USA, 104, 57715776.  46. Jameson, G. W., Roberts, D. V., Adams, R. W., Kyle,  W. S. & Elmore, D. T. (1973).
+Determination of the  operational molarity of solutions of bovine alphachymotrypsin, trypsin, thrombin and factor Xa by  spectrofluorimetric titration.
+Biochem. J. 131, 107117.  47. Chou, T. (1974).
+Relationships between inhibition  constants and fractional inhibition in enzyme-catalyzed reactions with different numbers of reactants,  different reaction mechanisms, and different types  and mechanisms of inhibition.
+Mol. Pharmacol. 10,  235247.
+  Edited by I. Wilson  (Received 23 February 2007; accepted 20 March 2007)  Available online 4 April 2007  Antibody Inhibitors of a Protease 1051

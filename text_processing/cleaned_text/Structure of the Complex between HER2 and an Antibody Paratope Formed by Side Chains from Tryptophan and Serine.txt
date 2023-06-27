@@ -1,0 +1,389 @@
+Structure of the Complex between HER2 and an Antibody  Paratope Formed by Side Chains from Tryptophan  and Serine  Robert D. Fisher1  , Mark Ultsch2  , Andreas Lingel2  , Gabriele Schaefer3  ,  Lily Shao3  , Sara Birtalan1  , Sachdev S. Sidhu1   and Charles Eigenbrot2,4  1  Department of Protein  Engineering, Genentech, Inc., 1  DNA Way, South San Francisco,  CA 94080, USA  2  Department of Structural  Biology, Genentech, Inc., 1 DNA  Way, South San Francisco, CA  94080, USA  3  Department of Research  Oncology, Genentech, Inc., 1  DNA Way, South San Francisco,  CA 94080, USA  4  Department of Antibody  Engineering, Genentech, Inc., 1  DNA Way, South San Francisco,  CA 94080, USA  Received 28 May 2010;  received in revised form  12 July 2010;  accepted 14 July 2010  Available online  21 July 2010  Engineered antibody paratopes with limited sequence diversity permit  assessment of the roles played by different amino acid side chains in creating  the high-affinity, high-specificity interactions characteristic of antibodies.
+  We describe a paratope raised against the human ErbB family member  HER2, using a binary diversity tryptophan/serine library displayed on  phage.
+Fab37 binds to the extracellular domain of HER2 with sub-nanomolar  affinity.
+An X-ray structure at 3.2  resolution reveals a contact paratope  composed almost entirely of tryptophan and serine residues.
+Mutagenesis  experiments reveal which of these side chains are more important for direct  antigen interactions and which are more important for conformational  flexibility.
+The crystal lattice contains an unprecedented trimeric arrangement of HER2 closely related to previously observed homodimers of the  related epidermal growth factor receptor.
+   2010 Elsevier Ltd. All rights reserved.
+  Edited by I. Wilson  Keywords: antibody sequence diversity; binary phage library; HER2; receptor  oligomer; X-ray structure  *Corresponding authors.
+C. Eigenbrot is to be contacted at Genentech, Inc., 1 DNA Way, South San Francisco, CA 94080,  USA. E-mail addresses: sachdev.sidhu@utoronto.ca; eigenbrot.c@gene.com.
+  Present addresses: R. D. Fisher, Takeda San Francisco, 285 East Grand Avenue, South San Francisco, CA 94080, USA;  A. Lingel, Novartis Institutes for BioMedical Research, 4560 Horton Street, Emeryville, CA 94608, USA; S. S. Sidhu,  Banting and Best Department of Medical Research, Department of Molecular Genetics, and the Terrence Donnelly Center  for Cellular and Biomolecular Research, University of Toronto, 160 College Street, Toronto, Ontario, Canada M5S 3E1.
+  Abbreviations used: Fab, antigen-binding fragment; RTK, receptor tyrosine kinase; EGFR, epidermal growth factor  receptor; ECD, extracellular domain; SAXS, small-angle X-ray scattering; CDR, complementarity-determining region;  NSD, normalized spatial discrepancy; HRG, heregulin; WT, wild type; QS, quantitative saturation; SI, specificity index;  SPR, surface plasmon resonance; ALS, Advanced Light Source; PDB, Protein Data Bank; SSRL, Stanford Synchrotron  Radiation Lightsource.  doi:10.1016/j.jmb.2010.07.027 J. Mol.
+Biol. (2010) 402, 217229  Available online at www.sciencedirect.com  0022-2836/$ - see front matter  2010 Elsevier Ltd. All rights reserved.
+Introduction  The hallmarks of antibody/antigen interactions are  high affinity and high specificity.
+Among the many  thousands of known natural antibody sequences, a  wide diversity of amino acids is present in positions  capable of contacting an antigen, but some amino  acids appear in such roles more than others.1 An  interest in roles played by various amino acids in  presenting an antigen-binding surface (paratope) has  inspired us to categorize amino acids according to  their size, polarity, and flexibility into their primary  apparent functions, for instance, antigen contact and  conformational permissiveness.
+We have previously  shown that amino acid diversity in synthetic antibody libraries could be restricted to simple Tyr/Ser  combinations to generate specific, high-affinity antigen-binding sites.2 We have now extended this work  to show that other binary amino acid combinations  can also form tight and specific interactions.3 One of  the most extreme binary combinations proven to be  capable of normal antibody binding functions is that  of tryptophan and serine (Trp/Ser).
+  Our study of restricted-diversity antibodies has  also enabled production of useful reagents.
+We have  been attracted to the use of antibody fragments  [antigen-binding fragments (Fabs)] for stabilizing  flexible proteins during crystallization.4 Fab37 was  selected from a Trp/Ser binary library displayed on  phage for binding to HER2.3 HER2 is one of four  members of the ErbB family of receptor tyrosine  kinases (RTKs), which also includes epidermal  growth factor receptor (EGFR).
+X-ray structures of  the extracellular domains (ECDs) of all four ErbB  receptors have been reported, but only for EGFR has  a ligand-stabilized homodimer been isolated and  crystallized successfully.
+We were interested in  learning whether a new HER2 structure with  Fab37 might reveal a homodimer of the HER2  ECD.
+Two structures of HER2 ECD in complex  with a Fab have been reported, but both studies used  Fabs from antagonistic antibodies (trastuzumab and  pertuzumab), which may derive some of their  activity from blocking HER2 dimer formation.
+In  both of these structures, no significant contacts were  observed between HER2 molecules.5,6 Fab37 binds  to HER2 with high affinity3 (Kd = 0.79 nM), and  binding is not inhibited by Fabs from either  trastuzumab or pertuzumab.
+Also, unlike pertuzumab, Fab37 does not affect ligand-mediated HER2/  HER3 signaling.
+Thus, we reasoned that Fab37 must  recognize a novel epitope on HER2 and we  hypothesized that Fab37 might facilitate crystallization of the HER2 ECD in an arrangement resembling  the ligand-bound EGFR dimer.
+  Herein, we report the structure of Fab37 in  complex with HER2.
+Together with extensive mutagenesis data for Fab37, the structure provides  insights into the molecular basis for high-affinity  antigen recognition by the minimalist Trp/Ser  antigen-binding site and further extends our understanding of the basic principles of molecular recognition.
+The structure of the HER2/Fab37 complex  reveals an unexpected trimeric arrangement among  the HER2 ECDs.
+The HER2 trimer bears strong  kinship to the dimer arrangement seen for EGFR  dimers stabilized by EGF binding.
+Nonetheless,  small-angle X-ray scattering (SAXS) shows that the  trimer complex is not present in solution prior to  crystallization, and mutations introduced in HER2 to  disfavor trimer formation do not alter cellular  behavior.
+  Results  X-ray structure of the HER2/Fab37 complex  To facilitate analysis of Fab37 side-chain contributions to HER2 binding and to learn whether the  crystallization of HER2/Fab37 would chaperone an  intimate association between HER2 ECDs, we  determined the X-ray structure of the HER2/Fab37  complex at 3.2  resolution (Table 1).
+The complex is  Table 1.
+X-ray crystal structure statistics  Data collection  Space group P6322  Cell parameters () a=b= 182.2, c= 330.9  Resolution ()a 503.2 (3.33.2)  Rsyma,b 0.147 (0.495)  Number of observations 435,410  Unique reflections 52,459  Redundancya 8.3 (6.8)  Completeness (%)a 96.2 (83.6)  I /I  a 13 (2.8)  Vm (3  /Da) 6.8  Refinement  Resolution () 503.2  Number of reflections 52,459  Ra,c, Rfreea 0.206 (0.281), 0.230 (0.314)  Number of residues 1033  Number of waters/ions 0/17  Number of atomsa,d 8114 (3)  RMSD bonds () 0.006  RMSD angles () 1.1  RMSD bonded B value (2  ) 1.8  Ramachandran analysis (%) 83.9/14.4/0.9/0.8  Number of TLS groups 8  B  e (2  ) Fab37/HER2 84/75  a Values in parentheses are those for the highest-resolution shell.
+b Rsym =||I||I||/|I|, where I is the intensity of a  single observation and I is the average intensity for symmetryequivalent observations.
+c R=|FoFc|/|Fo|, where Fo and Fc are observed and  calculated structure factor amplitudes, respectively.
+Rfree is  calculated as R for reflections sequestered from refinement, 226  reflections.
+d The value in parentheses denotes the number of atoms  assigned less than unit occupancy.
+e Sum of TLS and residual B-factors.
+  218 HER2/Fab37 Complex Structureformed by interactions between the Trp/Ser-rich  Fab37 paratope and a HER2 epitope primarily on  domain III (Fig. 1).
+This interface sequesters 1125 2  from solvent on each side.8 The Fab37 paratope  has 73% contributed by the heavy-chain variable  domain (VH) and 27% by the light-chain variable  domain (VL).
+Only the four complementaritydetermining region (CDR) loops subject to the  binary Trp/Ser phage library diversity (L3, H1,  H2, and H3) are within 4  of HER2 (Fig. 1a).
+All  Fab37 side chains within 4  of HER2 are either Trp  or Ser, with the single exception of Arg94 from VH.
+  The guanidinium of the Arg94 side chain is within  H-bonding distance to the side chain of HER2  Ser396.
+Main-chain atoms from heavy-chain Gly26  and Phe27 (CDR-H1) are also within 4  of HER2.
+  The CDR loop conformations are similar to those  observed for the trastuzumab Fab in complex with  HER2.5 The loop conformation of CDR-H3 is best  described as a distorted Type II -turn, but this  conclusion is tenuous considering the resolution of  the data.
+  The HER2 epitope is on domains III and IV,  remote from the binding sites for therapeutic antiHER2 antibodies pertuzumab and trastuzumab on  domain II or IV, respectively (Fig. 2a).
+The Fab37  binding site on domain III is almost opposite the  region of domain III contacted by domain I and  similar to the epitope contacted by a three-helix  protein (affibody) developed using phage display.9  As a result, it does not include residues homologous  to the EGFR domain III ligand-binding residues,  which are also the target of the therapeutic antiEGFR antibody cetuximab (Fig. 2b).
+The first  cysteine-rich module of domain IV is also part of  the HER2 epitope.
+Consistent with the predominance of Trp and Ser in the Fab37 paratope, the  HER2 epitope lacks concentrated net electrostatic  charge (Fig. S1).
+  The domain organization of the HER2 ECD  observed in the HER2/Fab37 complex is essentially  unchanged from previously reported structures of  rat HER2 ECD domains IIV,5 human HER2 ECD  domains IIII,10 and complexes of human HER2  ECD domains IIV with Fabs binding to domain  IV5,11 or domain II.6 The dimerization arm in  domain II is incomplete due to disorder (Ala248-  Tyr252) and otherwise is dissimilar to the previous  Fig. 1.
+Interactions between Fab37 and HER2.
+(a) Open-book view of the Fab37 paratope (left) and the HER2 epitope  (right), each colored yellow, orange, or red for residues within 4.5, 4.0, and 3.5  of the other protein, respectively.
+Fab37 is  colored blue for heavy chain and cyan for light chain.
+Side chains are shown when they are within 4  of the other protein  [molecular images were generated using PyMOL (DeLano Scientific)].
+(b) The amino acid composition of Fab37 (left) and  HER2 (right) surface excluded from solvent in the interface.
+The preponderance of Trp and Ser side chains in the Fab37  paratope is apparent.
+(c) Amino acid sequences for CDR residues, numbered according to Kabat et al.7  HER2/Fab37 Complex Structure 219structures; N-terminal sequencing of dissolved  crystals showed that no internal cleavage existed in  HER2 (data not shown).
+Root-mean-square deviations (RMSDs) of C atoms from previously reported  structures after superposition of domains IIII are  0.5 . The final model includes domain IV up to  residue 620 but the final FoFc map is noisy for  residues after Cys608.
+As seen among previously  reported HER2 structures, the orientation of domain  IV relative to the other domains is the least well  conserved due to a hinge bend near the domain III  IV boundary that produces a shift of 7  at residue  550, which is halfway between the beginning and the  end of the elongated domain IV and before the start  of less reliably fit (noisy) electron density.
+  The crystallographic asymmetric unit contains a  simple 1:1 complex (Fig. 2a).
+Despite the very high  solvent content of the HER2/Fab37 complex crystals  (79%), the structure also contains interesting crystal  packing contacts (Fig. 3).
+Opposite sides of HER2  domain IV contact different symmetry-related copies of Fab37, but at nonequivalent sites distant from  the Fab37 CDR loops.
+Also, HER2 domain I contacts  a 2-fold-axis-related neighbor involving carbohydrate attached to Asn165.
+Together, these three  crystal packing contacts obscure 2360 2 of HER2  from solvent.
+No prior crystal structure reported  among ErbB family ECDs shares analogues of these  contacts, although a domain I:domain I contact of a  different nature is present in crystals of Drosophila  EGFR.12 Contacts between symmetry-related Fab37  proteins are restricted to a 2-fold-axis-derived  contact centered near Arg19 of VH and with closest  contacts between Lys57 and Thr115, which obscures  520 2 from solvent on each side.
+  An additional and much larger crystal packing  contact is both unique among the ErbB family  member crystal structures and suggestive of biological relevance.
+Three copies of the HER2 ECD are  arranged around a crystallographic 3-fold axis and  thereby sequester 1400 2 from solvent, twice for  each HER2, for a total of 8400 2 sequestered HER2  surface area for the crystallographic trimer (Fig. 4a).
+  This arrangement does not permit the HER2 domain  II dimerization arm to retain the conformation  seen previously.
+Nonetheless, a vestige of the  homodimeric arrangement observed only for the  EGFR ECD, and more recently for Drosophila EGFR,  is retained.1214 HER2 Phe257 is homologous to  Tyr251 of EGFR, which is found at the tip of the  EGFR dimerization arm and most deeply associated  with its partner in the EGFR dimer.
+HER2 Phe257  is found in an analogous position in a trimer partner  (Fig. 4a).
+The pockets into which these homologous  side chains project are also analogous, a region  where domains I, II, and III are closest together  Fig. 2.
+Structure of the HER2/Fab37 complex.
+(a) HER2 ECD and Fab37 are represented by ribbon diagrams and are  colored by domain organization.
+HER2 domains IIV (D1D4) are colored orange, light green, tan, and dark green,  respectively; Fab37 heavy chain is dark blue and light chain is cyan.
+Binding sites for therapeutic anti-HER2 antibodies  trastuzumab (red spheres) and pertuzumab (magenta spheres) are indicated.
+(b) A comparison of the cetuximab Fab  binding to EGFR relative to Fab37 binding to HER2 is modeled by overlaying domain III (D3) of HER2 (tan semitransparent surface) from the HER2/Fab37 complex with EGFR domain III (D3) (purple ribbon) from the EGFR/  cetuximab Fab complex structure (PDB ID: 1YY9) to illustrate distinct domain III binding epitopes for cetuximab (gray  ribbon) and Fab37 (dark blue and light blue surfaces).
+  220 HER2/Fab37 Complex Structure(Fig. 4b).
+Thus, the observed HER2 trimer interactions are related to EGFR dimer interactions by a  shift of a protomer within an EGFR-like dimer  rotated about a point near Phe257 by 60.
+The  observed crystallographic trimer orients domain IV  of each protomer in the same direction, as would be  expected on the cell surface (Fig. 4a).
+  SAXS analysis of the HER2/Fab37 complex  To help judge the relevance of the trimeric  arrangement of HER2/Fab37 complexes observed  in the crystal lattice, we performed SAXS analysis,  which provides information about the size and  overall shape of macromolecules in solution.15,16  The sample conditions used for the SAXS experiments were very similar to those of solutions that  produced crystals, including similar sample buffer  and protein concentration.
+Guinier approximation  of the radius of gyration (Rg) of six acceptable  experimental scattering curves yielded an average  Rg value of 46  3 . The back-calculated Rg  values for the simple HER2/Fab37 complex and  the crystallographic trimeric arrangement using  CRYSOL17 are 42 and 61 , respectively, clearly  showing that Fab37 and HER2 form a 1:1 complex in  solution without higher-order oligomeric states.
+In  agreement, an optimized fit of a calculated intensity  curve of the 1:1 HER2/Fab37 complex to the  averaged experimental curve produced a low   2  value of 2.1.
+Conversion of an averaged intensity  curve to a distance distribution function allowed  determination of a molecular envelope, the calculation of which presumed, based on the Rg result, a  simple 1:1 HER2/Fab37 complex (Fig. 4c).
+Superposition of the envelope with the 1:1 complex from  the crystallographic asymmetric unit produced a  normalized spatial discrepancy (NSD) of 1.2 .  Overall, the SAXS data show that HER2 and Fab37  form a 1:1 complex and that there are no high-order  oligomers present under the experimental conditions used in these solution experiments.
+  Tests for functional effects of mutations in the  HER2 trimer interface  The structure of the HER2/Fab37 complex suggested that Fab37 is unlikely to interfere with the  formation of HER2 homodimers and heterodimers  with other ErbB family members.
+Consistent with  this, we found that Fab37 does not inhibit transphosphorylation of HER3 (Fig. 5a).
+To investigate  whether the HER3 trimer observed in the crystal  structure had biological relevance, we used cellbased assays to test the effects of mutations designed  to disrupt the putative trimer.
+The HER2/Fab37  X-ray structure was inspected for HER2HER2  contact surfaces that could be altered to disfavor  trimer formation.
+In order to allow assignment of  any functional effect to mutation-derived influences  on trimer formation, we restricted changes to  residues that could not reasonably be considered  potential contact residues in an EGFR-like dimer.
+  HER2 residues 154 to 159 (NNQLAL) form a short  helical segment in domain I and contact the top of  domain II from the neighboring copy of HER2.
+Two  quadruple mutants of HER2 [N154Y/N155R/  A158E/L159Y (HER2-YRQLEY) and N154Y/  N155R/A158Y/L159Y (HER2-YRQLYY)] were  designed to preserve the short helix but to project  large side chains into the symmetry-related neighboring HER2, creating an untenable steric clash  (Fig. 5c).
+These mutants were expressed in MCF10A  cells, which express endogenous HER3.
+Upon  addition of the HER3 ligand heregulin (HRG), the  ability of HER2 to transphosphorylate HER3 and  subsequently activate downstream signaling moleFig.
+3. Crystal packing of HER2/Fab37 in space group  P6322. HER2 (red) and Fab37 (blue) viewed (a) parallel  with and (b) perpendicular to the crystallographic c axis.
+  HER2/Fab37 Complex Structure 221cules (AKT) was monitored by Western blot.
+As  shown in Fig. 5b, wild-type (WT) HER2 and both  HER2 mutants had equivalent effects on phosphorylation of HER3 and AKT, suggesting that these  mutant HER2 proteins remain fully functional to  activate HER3 signaling.
+  Mutational analysis of Fab37  To test how Trp/Ser residues in the Fab37  paratope contribute to HER2 binding, we utilized  a phage display quantitative saturation (QS) scanning method to analyze the ability of all 20 amino  Fig. 4.
+The HER2 trimer.
+(a) HER2 ECDs (purple, gray, and tan semi-transparent surfaces) are arranged around a 3-  fold symmetry axis and are in intimate contact, burying a total of 8400 2 of surface area.
+Fab37 is shown as dark blue/  light blue surfaces.
+The dimerization arm of HER2s is shown as a dark worm that reaches into the neighboring HER2  (left).
+This arm is incompletely traced due to disorder.
+The long axis of HER2 is parallel with the 3-fold axis (right).
+(b)  Relatedness of HER2/HER2 and EGFR/EGFR interactions via the domain II dimerization arms.
+HER2 (left) in the trimer  has Phe257 at a spot in a neighboring HER2 that is analogous to where EGFR has Tyr251 in the dimer-related neighboring  EGFR.
+The reference molecules shown as surfaces are oriented similarly.
+The 120 relation between HER2 ECDs in the  trimer brings more of HER2 domain II into this view than then 180 relation in the EGFR dimer.
+(c) Correspondence of the  HER2/Fab37 1:1 complex (colored as in Fig. 2a) with the ab initio molecular envelope from SAXS studies (black spheres).
+  HER2 domain IV lies outside the SAXS envelope, perhaps caused by a relatively high level of flexibility between domains  III and IV as seen among X-ray structures of ErbB-family extracellular regions.
+(d) Observed (red) and calculated (black)  SAXS scattering curves, after scaling.
+The calculated curve was produced using the simple 1:1 HER2/Fab37 complex.
+  222 HER2/Fab37 Complex Structureacids to function at each randomized CDR  position.18 Phage display libraries were designed  such that each library covered one of the four  paratope CDRs and randomized Trp and Ser  residues with all 20 amino acids.
+Each library was  separately cycled through functional binding selections against HER2 and display/control selections  against Protein A. The normalized fraction of amino  acids occurring at each randomized position was  used to calculate, first, the transformed Shannon  entropy (TH), which measures the degree of  randomness at each CDR position, and, second,  the specificity index (SI), which provides a measure  of the additional constraints applied to a CDR  position for antigen binding (see also Materials and  Methods).
+Data are presented in Supplemental Fig.  S2 and represented graphically as sequence logos in  Fig. 6a.
+  SI values derived from the QS scanning experiments are generally highest for heavy-chain Trp  residues, indicating strong preferences for specific  amino acids at these positions, suggesting that these  residues are most important for HER2 binding.
+  These results are consistent with Trp generally  having a role as a residue that can make direct  antigen contacts through its large hydrophobic  surface, as opposed to contributing to conformational diversity in CDR loops.
+Interestingly, while  Fig. 5.
+Tests for function of Fab37 and HER2 mutants.
+(a) Fab37 has no effect on ligand-dependent transphosphorylation of HER3.
+Serum-starved MCF-7 cells were pre-incubated with excess amounts of the intact antibody with  Fab37 (1 M), pertuzumab (0.5 M), or RPMI media alone for 1 h. Cells were then stimulated with 2 nM HRG for 10 min as  indicated and cell lysates were subjected to immunoblotting.
+(b) HER2 trimer interface mutations do not affect liganddependent transphosphorylation of HER3 or HER2 autophosphorylation.
+MCF-10A cells stably expressing HER2 WT, the  trimer mutants HER2-YRQLEY and HER2-YRQLYY, or vector-transfected cells were stimulated with 10 nM HRG for  10 min as indicated.
+Top panel: Cell lysates were immunoblotted to detect indicated proteins.
+Lower panel:  Immunoprecipitation of HER2-expressing cells.
+Immunoprecipitation was performed with an anti-HER2 antibody and  immunocomplexes were analyzed by Western blotting.
+(c) Residues chosen for mutation form an intermolecular contact  uniquely found in the HER2 trimer.
+The four residues subject to mutation (purple sticks) are in close proximity to a  neighboring HER2 (tan, with disulfide links shown as sticks).
+The different amino acid side chains introduced by  mutation were intended to create an untenable steric clash between the purple and tan copies of HER2.
+The sites of  mutation are far from the neighboring molecule in an EGFR-like dimer.
+  HER2/Fab37 Complex Structure 223Trp was replaced at specific positions, it was often  replaced by the other large hydrophobic residues  Phe or Tyr (e.g., CDR-L3 Trp91Phe and Trp94Tyr,  CDR-H1 Trp31Phe, CDR-H2 Trp56Tyr, and CDRH3 Trp96Phe).
+The exception to this was substitution of CDR-H1 Trp30 by Lys or Arg, where a  positive charge could enhance binding by establishing electrostatic interactions between Fab37 and  HER2, possibly by using Glu379 on HER2 (see also  below).
+CDR-H1 Trp30 also sits at the periphery of  the Fab37 paratope, is less extensively buried than  other residues (Fig. 6b), and is found in at least two  distinct conformations, suggesting that the Trp is  suboptimal at this position.
+  In contrast to the Fab37 Trp positions, the Ser  residues were generally more readily substituted,  and therefore had a lower SI value (Fig. 6a and  Supplemental Fig. S2).
+When substitutions did  occur, Ser was often replaced by Gly or Ala, and  in the case of CDR-H2 Ser50, Gly was strongly  preferred over Ser.
+The small side chains of Ser residues make them better able than Trp to permit conformational diversity in CDR loops.
+Surprisingly,  two Ser residues, CDR-H1 Ser32 and CDR-H2  Ser52, were preferentially replaced by Tyr residues,  suggesting that new contacts to HER2 could be  established at these positions.
+In fact, CDR-H2  Ser52 loses only 20% of its surface to HER2 in the  complex, suggesting that room exists for the Tyr  substitution at this position.
+  The phage selection system employed here should,  in principle, select clones that either maintain or  improve the affinity of WT Fab37, allowing us to test  the effect of mutations discovered in the QS scanning  experiments above.
+To test affinities of Fab37  variants, we generated selected point mutants in  purified Fab proteins, and kinetics for HER2 binding  were characterized by surface plasmon resonance  (SPR) (Table 2).
+Trp positions that showed substitution by Phe or Tyr maintained the affinity of WT  Fab37 (Kd 0.8 nM), while both CDR-H1 Trp30Lys  and Trp30Arg increased the affinity of Fab37 for  HER2 3- to 4-fold, supporting the hypothesis that a  new electrostatic interaction may enhance the Fab37-  HER2 affinity.
+Ser positions substituted by Ala or  Gly conformational residues, such as CDR-H1  Ser32Ala, maintained the Fab37 affinity for HER2  or slightly decreased the affinity, as in CDR-H2  Ser50Gly.
+As noted above, CDR-H1 Ser32 and CDRH2 Ser52 were both substituted by Tyr.
+Consistent  with our hypothesis that Tyr substitution could  generate new HER2 contacts to increase the binding  affinity, the CDR-H2 Ser52Tyr mutant Kd is 4-fold  better than that of WT Fab37, but CDR-H1 Ser32Tyr  Fig. 6.
+QS scanning mutagenesis of Fab37. (a) Sequence logo plots of the normalized fraction of residues occurring at  each randomized CDR position.
+Contact residues (Tyr, Trp, and Phe) are colored red, conformational residues (Ser, Gly,  and Ala) are colored green, and all other residues are colored black. (b) Structure of Fab37 from the HER2/Fab37 complex  structure.
+The molecular surface is colored according to buried surface area where N50% buried surface area is red, 30  50% is orange, and 320% is yellow.
+A broken line outlines the Fab37 CDR surface.
+Residue labels carry an asterisk (*)  when in the light chain.
+  Table 2.
+Kinetic measurement of Fab37/HER2 interactions  Fab37 ka (x106 1/Ms) kd (x103 1/s) Kd (nM)  WTa 1.3  0.4 0.98  0.36 0.79  0.33  L3-W91F 1.0 0.9 0.96  L3-W94Y 1.1 0.8 0.74  H1-W30Ka 4.4  1.2 0.86  0.02 0.21  0.05  H1-W30R 3.2 1.0 0.31  H1-S32Y 1.0 0.88 0.87  H1-S32A 1.5 0.93 0.63  H2-S50G 1.0 1.9 1.8  H2-S52Y 1.2 0.25 0.21  H3-W96F 1.5 1.2 0.77  H3-W96Y 1.9 1.5 0.77  a Mean and standard deviation of three independent experiments.
+  224 HER2/Fab37 Complex Structurehas no effect on the affinity.
+Inspection of the  structure suggests that a low-energy Tyr rotomer  consistent with HER2 binding exists for position 52  but not for position 32.
+  Discussion  The HER2/Fab37 structure and mutagenesis  results presented here provide a detailed look at the  interface of the binary Trp/Ser diversity of the Fab37  paratope.
+The structure of Fab37 is the first structure  of a synthetic antibody with a Trp/Ser paratope and  the first structure of an antibody derived from binary  diversity beyond previous structures of antibodies  built on Tyr/Ser diversity.
+We have previously  shown that synthetic antibodies and other protein  scaffolds can utilize restricted amino acid diversity to  recognize antigens with high specificity and  affinity,19 and we have performed extensive analysis  of antibodies derived from CDR repertoires employing a minimal Tyr/Ser diversity.2,2023 These structures highlighted the role of Tyr in establishing direct  contacts to the antigen and the role of Ser in allowing  conformational diversity in the CDR loops.
+We have  now shown that Trp/Ser binary diversity in Fab37  can function in a similar manner, with Trp residues  providing the primary contacts to HER2 and Ser  residues acting as conformational residues.
+Additionally, we established the ability of all other amino acids  to substitute for Trp or Ser and so determined the  extent to which the restricted diversity was, in effect,  limiting the discovery of a higher-affinity paratope.
+  Mutational analysis showed that substitutions at  Trp and Ser positions in Fab37 were relatively  conservative, with Trp residues generally being  replaced by similarly large, hydrophobic residues  (e.g., Tyr and Phe), while similarly small, conformational residues replaced Ser.
+The exceptions to these  trends, as noted above, appear to generate new  contacts to HER2.
+These results suggest not only that  the Fab37 Trp/Ser paratope selected a compatible  HER2 epitope, as expected, but also that the Trp-rich  surface of Fab37 is set and cannot generally be  altered except by similarly shaped residues.
+Future  designs of synthetic antibody libraries could incorporate these characteristics into the CDR repertoire  by combining various conformational residues (Gly,  Ala, and Ser) with limited contact residues (e.g., Tyr,  Trp, and Phe) to enhance antigen interactions  through increased conformational diversity in the  context of limited chemical diversity.
+  The unusual arrangement of HER2 receptors in  our X-ray structure led us to inquiries regarding its  relevance to a biological context.
+Many cell surface  receptors form associations when bound by extracellular ligands, resulting in changes to the receptor  intracellular domains that trigger downstream  signaling events.
+Structural and biochemical studies  of diverse classes of receptors have shown that a  common response to ligand binding is receptor  oligomerization.
+For instance, tumor necrosis factor  receptor forms a homotrimer through ECD interactions upon binding the trimeric tumor necrosis  factor ligand.24 Structural studies of RTK ECDs  (e.g., EGFR and VEGFR2) have shown that a  common response to ligand binding is receptor  dimerization.13,25,26 The detailed molecular view  revealed by crystallographic analyses of stoichiometric RTK/ligand complexes contrasts with the far  less precise information available for high-order  oligomers (e.g., Ephrin receptors27) and for RTKs in  membrane microdomains.28,29  Within the ErbB family, crystallographic analysis  has shown that the EGFR ECD adopts a ligandstabilized conformation that allows purely EGFRmediated interactions across a homodimeric interface.30 Sequence and structural homology among  ErbB family members suggests that analogous  arrangements exist among known heterodimeric  combinations, including EGFR/HER3 and HER2/  HER3,31 but crystallographic analysis of such  arrangements has proven elusive.
+Among arrangements lacking structural information, the HER2/  HER2 homodimer is of particular interest, because  this putative arrangement has been implicated in the  association of HER2 overexpression with aggressive  breast and other human cancers.3234  The dearth of structural reports for dimers of ErbB  family ECDs other than EGFR suggests a limit to the  ErbB dimerization paradigm.
+Indeed, there have  been reports of high-order oligomers of both HER335  and HER436 ECDs in solution and of heterotrimers of  HER2, HER3, and the IGF-1 receptor in cell  membranes.37 In addition, because HER3 has long  been considered to lack an active kinase domain  based on key sequence defects, no simple heterodimeric model could explain the phosphorylation  (presumed to be in trans) of HER2 intracellular  residues seen in engineered cells expressing only  HER2 and HER3.38 Shi et al. have recently shown  weak HER3 kinase activity for intracellular domains  aggregated on synthetic vesicles,39 but the relevance  of this result to intact HER3 receptors in cell  membranes is not certain.
+  For these reasons, we sought evidence that the  HER2 trimers we observe are something other than  an artifact of the crystalline state.
+We found that each  of the three ECDs direct their domain IV in the same  direction, as they might on a cell surface.
+Their  contacts with each other are large, of a mixed polar/  non-polar character and not mediated directly by  Fab37.
+However, our solution experiments using  SAXS reveal only simple 1:1 HER2/Fab37 complexes  in the crystallization buffer, and mutations of HER2  designed to disfavor the trimeric arrangement had  no discernable effect in cellular assays.
+Additionally,  no other solution measurement35,36 or single  HER2/Fab37 Complex Structure 225crystal5,10,11 containing the HER2 ECD has shown  strong evidence for dimers or higher-order oligomeric species.
+In their recent analysis of the close  HER2 homologue from Drosophila, Alvarado et al.  have proposed that a specific conformational arrangement among the small cysteine-rich modules  in domain II is required for receptor signaling.12 To  the extent that this proposal applies to human HER2,  the trimer characterized herein is in a non-signaling  state.
+Taken together, these observations argue  against biological relevance for the trimer.
+  Materials and Methods  HER2/Fab37 crystal structure determination  The isolation of Fab37 is described in Birtalan et al.3 in  which it is referred to as Fab-H-WS.
+Fab37 was  expressed in Escherichia coli and purified by Protein G  affinity followed by SP Sepharose cation exchange  chromatography.
+Human HER2 ECD (residues 1624)  was expressed in Chinese hamster ovary cells and purified  by affinity chromatography using HERCEPTIN linked to  controlled pore glass beads, diethylaminoethyl anion  exchange, and size-exclusion chromatography, as previously described.6 The complex between Fab37 and HER2  ECD was purified by size-exclusion chromatography and  formed plate-like crystals during 1.5 months in sitting  drops using equal parts of protein at 10 mg/mL in 0.15 M  NaCl, 0.1 M Mops, pH 7.3, and reservoir [1.8 M Na/K  (H2PO4) and 0.1 M Hepes, pH 7.5].
+Crystals were treated  briefly with 2 M LiSO4 prior to preservation by immersion  in liquid nitrogen.
+Diffraction data extending to 3.2   resolution were collected at 110 K in a hexagonal lattice at  beamline 5.0.2 at the Advanced Light Source (ALS).
+Data  reduction40 revealed the space group to be P6322.
+The  structure was solved by molecular replacement41 using a  previously obtained isomorphous 4.5- data set (ALS  beamline 5.0.1) and employing as probe structures the  domains IIII HER2 fragment from the HER2/pertuzumab complex [Protein Data Bank (PDB) ID: 1S78] and a  Fab with high level of homology to trastuzumab (PDB ID:  1FVD).
+It was necessary to truncate some loops in the  probe structures to pursue a solution with high Z-scores  but untenable intermolecular contacts.
+No molecular  replacement calculation offered support for more than  one complex in the asymmetric unit, and the final  structure occupies only 21% of the crystal volume.
+Large  voids 100  in diameter are present.
+The final model was  informed by the much higher-resolution structure of  Fab37 alone (1.8 , data not shown).
+  The structure was refined using REFMAC542 and  electron density was inspected and models were manually  altered using Xfit.43 The use of TLS refinement had a large  beneficial effect on the R values of the HER2/Fab37  complex (6% on Rfree), and several clear features in the  electron density maps were assigned as sulfate ions based  on their environment.
+The final models reflect adjustments  suggested using PROCHECK44 and WHATCHECK.45  Representative electron density from the HER2/Fab37  structure appears in Fig. 7.
+  HER2/Fab37 SAXS  SAXS data were collected from HER2/Fab37 and  corresponding buffer-only solutions at beamline 4-2 at  the Stanford Synchrotron Radiation Lightsource (SSRL).
+  Experiments were conducted with 1.24  wavelength  X-rays, a Rayonix 225 ccd detector, and sample-to-detector  distance permitting collection of data up to s= 0.49 1  (s= 4sin/, where the scattering angle is 2 and  is the  X-ray wavelength).
+Ten successive exposures were collected for either 2 or 5 s each for corresponding buffer or  buffer +HER2/Fab37 samples held in a quartz capillary  tube at room temperature.
+HER2/Fab37 sample concentrations between 0.7 and 5 mg/mL were employed to test  for concentration effects.
+The samples with protein  concentration 5 mg/mL contained the same components  at the same concentrations as were present in hanging  drops that led to crystallizations (see above), except that  we found a greater number of the 10 exposures met  similarity criteria when 1 mM oxidized glutathione was  present in the samples as a radical scavenger.
+Scattering  data from a single sample were averaged azimuthally,  scaled, buffer subtracted, tested for evidence of radiationinduced aggregation, and averaged using the program  SasTool.46 Radii of gyration (Rg) were determined by the  Guinier approximation in the low-angle region.
+For ab  initio molecular envelope calculations, a single scattering  curve was constructed by averaging the scaled curves from  two experiments with HER2/Fab37 concentrations of 5  and 4 mg/mL, the principal effect of which was improving  the curve at very low Q. The apparent maximum particle  dimension Dmax and a distance distribution function p(R)  were determined with the program GNOM.47 The GNOMderived Dmax of 140  was marginally smaller than the  150  evident in atomic coordinates from the crystal  structure.
+Low-resolution envelopes of the simple HER2/  Fab37 complex were produced in 15 runs of the program  GASBOR48 using direct fitting of the reciprocal space  scattering profile.
+These calculations were initiated using  our expectations that 1050 amino acids would form a  prolate envelope and employed data up to s= 0.245.
+  Program DAMAVER49 was used to align and average  the 15 envelopes, and reported NSD values that averaged  Fig. 7.
+Representative 2FoFc electron density at the  end of refinement, contoured at 1 SD.
+HER2 is tan, Fab37  heavy chain is dark blue, and Fab37 light chain is light  blue.
+  226 HER2/Fab37 Complex Structure1.8  0.1 . The Program SUPCOMB2050 performed the  alignment between the averaged envelope and the  atomic coordinates from the crystal structure, yielding  NSD = 1.2 . The program CRYSOL17 was used to  optimize the fit between the experimental scattering  curve and the curve calculated from the atomic model,  yielding a 2 value of 2.1, experimental Rg of 44.6 , and  Rg for the atomic model of 42.7 .  Fab37 QS scanning mutagenesis  The QS scanning phage libraries were designed by  using three oligonucleotides that each encoded one of  three Fab37 CDRs and a fourth oligonucleotide for  mutating the fourth CDR that contained NNK degenerate  codons to allow for all 20 amino acids at each Trp or Ser  position.
+Additional limited randomization was allowed  at buried CDR positions in CDR-H3, as has been utilized  previously.20 CDR-H1 and CDR-H3 were mutated by a  single oligonucleotide, while CDR-L3 and CDR-H2 were  mutated by two oligonucleotides to create two libraries for  each of these CDRs in order to increase the diversity of  clones recovered during sorting.
+The following oligonucleotides were used for NNK mutagenesis:  L3-1 [ACTTATTACTGTCAGCAANNKTGGNNKTGGCCGNNKACGTTCGGACAGGGTACC],  L3-2 [ACTTATTACTGTCAGCAATGGNNKTGGNNKCCGAGCACGTTCGGACAGGGTACC],  H1 [TGTGCAGCTTCTGGCTTCNNKATTNNKNNKNNKNNKATTCACTGGGTGCGTCAGGCCCCG],  H2-1 [GGCCTGGAATGGGTTGCANNKATTAGCCCGNNKAGCGGCNNKACCAGCTATGCCGATAGCGTCAAG],  H2-2 [GGCCTGGAATGGGTTGCAAGCATTNNKCCGAGCNNKGGCTGGACCNNKTATGCCGATAGCGTCAAG],  and H3 [GTCTATTATTGTGCTCGCNNKNNKNNKNNKGSTWTKGACTACTGGGGTCAAGGA].
+  Phage libraries representing diversity at each CDR were  sorted against HER2 and Protein A and analyzed  independently.
+Sequence data from each selection were  analyzed by calculating the normalized fraction of each  amino acid type at each CDR position for selections  against both antigens.51 The transformed Shannon entropy (TH) and SI were calculated as previously described,18  where SI=THProtein A THHER2.
+The normalized amino  acid fraction at each Trp or Ser CDR position was plotted  graphically as a sequence logo.52  Protein purification and SPR binding kinetics  measurement  Fab37 mutants were generated by standard oligonucleotide-directed PCR mutagenesis.
+Mutant proteins were  expressed from the phage display phagemid engineered  with a stop codon between the Fab and pIII proteins.
+Fab  proteins were expressed in E. coli and purified as  previously described.20 The binding affinities and kinetic  parameters for interactions between Fab37 variants and  HER2 were measured by SPR using a BIACORE3000  instrument.
+HER2 was immobilized on a CM5 chip by  standard amine coupling chemistry and serial dilutions of  Fab37 in 10 mM Hepes, pH 7.2, 150 mM NaCl, and 0.01%  Tween were injected over the HER2 or blank surface (for  reference subtraction) for 2 min at a flow rate of 30 L/  min, followed by 10 min of monitoring Fab dissociation.
+  The chip surface was regenerated with 10 mM glycine,  pH 1.7, prior to a new HER2 injection.
+Kinetic parameters  were determined by globally fitting a reference cellsubtracted concentration series to a 1:1 binding model.
+  Expression constructs, stable cell lines,  and cell culture  Full-length HER2 and HER2 mutants were subcloned  into the PLPCX retroviral vector (BD Biosciences).
+The  retroviral constructs were transfected into the Phoenix  amphotropic packaging cell line using Lipofectamine Plus  reagent according to the recommendation of the manufacturer (Invitrogen).
+Viral particles were harvested 48 h  after transfection and MCF10A cells were infected.
+Cell  pools expressing HER2 or HER2 mutants were selected  using puromycin.
+MCF10A cells and derivatives were  grown in Mammary Epithelial Cell Basal Medium  (Cambrex) containing 5% horse serum, 100 ng/mL  cholera enterotoxin, and growth supplements.
+  Western blot and immunoprecipitation  MCF10A cells were plated in 24-well plates.
+Following  serum starvation, cells were stimulated with 10 nM HRG  at room temperature for 10 min, the supernatant aspirated  off, and cells were immediately lysed in Laemmli sample  buffer (Bio-Rad).
+  For immunoprecipitation experiments following serum  starvation, cells were stimulated with 10 nM HRG at  room temperature for 10 min.
+Cells were washed with  phosphate-buffered saline prior to lysis in RIPA buffer  and protein concentrations were determined by bicinchoninic acid assay (Pierce).
+Immunoprecipitation was performed with equal amounts of protein and anti-HER2  antibody (Dako).
+Immunocomplexes were purified by  absorption on protein A/G beads (Pierce) and samples  were analyzed by Western blotting.
+Western blots were  probed with anti-pHER3 (Cell Signaling Technology),  anti-pAKT (Cell Signaling Technology), anti-HER2 (Neomarker), anti-HER3 (Santa Cruz Biotechnology), antitubulin (Sigma), and anti-pTyr (Calbiochem).
+  Accession numbers  Structure factors and final coordinates have been  deposited under PDB ID 3N85.
+  Acknowledgements  We thank Weiru Wang and Sarah Hymowitz for  collecting our diffraction data.
+Portions of this  research were conducted at the ALS (Lawrence  Berkeley National Laboratory) and at the SSRL  HER2/Fab37 Complex Structure 227(Stanford University), which are operated on behalf  of the U.S. Department of Energy, Office of Basic  Energy Sciences. The Berkeley Center for Structural Biology and the SSRL Structural Molecular  Biology Program are supported by the Office of  Biological and Environmental Research (Department of Energy) and the National Institute of  General Medical Sciences (National Institutes of  Health).
+The SSRL program also is supported by  National Center for Research Resources, Biomedical  Technology Program (National Institutes of Health).
+  Supplementary Data  Supplementary data associated with this article  can be found, in the online version, at doi:10.1016/  j.jmb.2010.07.027  References  1.
+Mian, I. S., Bradwell, A. R. & Olson, A. J. (1991).
+  Structure, function and properties of antibody binding  sites.
+J. Mol. Biol. 217, 133151.  2.
+Koide, S. & Sidhu, S. S. (2009).
+The importance of  being tyrosine: lessons in molecular recognition from  minimalist synthetic binding proteins.
+ACS Chem. Biol.  4, 325334.  3.
+Birtalan, S., Fisher, R. D. & Sidhu, S. S. (2010).
+The  functional capacity of the natural amino acids for  molecular recognition.
+Mol. BioSyst. 6, 11861194.  4. Uysal, S., Vasquez, V., Tereshko, V., Esaki, K.,  Fellouse, F. A., Sidhu, S. S. et al. (2009).
+Crystal  structure of full-length KcsA in its closed conformation.
+Proc. Natl Acad. Sci. USA, 106, 66446649.  5. Cho, H. S., Mason, K., Ramyar, K. X., Stanley, A. M.,  Gabelli, S. B., Denney, D. W., Jr & Leahy, D. J. (2003).
+  Structure of the extracellular region of HER2 alone  and in complex with the Herceptin Fab.
+Nature, 421,  75567560.  6.
+Franklin, M. C., Carey, K. D., Vajdos, F. F., Leahy,  D. J., de Vos, A. M. & Sliwkowski, M. X. (2004).
+  Insights into ErbB signaling from the structure of the  ErbB2pertuzumab complex.
+Cancer Cells, 5, 1728.
+  7.
+Kabat, E. A., Wu, T. T., Redi-Miller, M., Perry, H. M. &  Gottesman, K. S. (1987).
+Sequences of Proteins of  Immunological Interest, 4th edit.
+National Institutes  of Health, Bethesda, MD.  8.
+Broger, C. (2000).
+xsae 1.5.
+F. Hoffman-La Roche, Basel,  Switzerland.  9. Eigenbrot, C., Ultsch, M., Dubnovitsky, A., Abrahmsen,  L. & Hard, T. (2010).
+Structural basis for high-affinity  HER2 receptor binding by an engineered protein.
+  Proc. Natl Acad. Sci. USA, in press.
+doi:10.1073/  pnas.1005025107.
+  10.
+Garrett, T. P., McKern, N. M., Lou, M., Elleman, T. C.,  Adams, T. E., Lovrecz, G. O. et al. (2003).
+The crystal  structure of a truncated ErbB2 ectodomain reveals an  active conformation, poised to interact with other  ErbB receptors.
+Mol. Cell, 11, 495505.  11.
+Bostrom, J., Yu, S. F., Kan, D., Appleton, B. A., Lee,  C. V., Billeci, K. et al. (2009).
+Variants of the antibody  herceptin that interact with HER2 and VEGF at the  antigen binding site.
+Science, 323, 16101614.  12.
+Alvarado, D., Klein, D. E. & Lemmon, M. A.  (2009).
+ErbB2 resembles an autoinhibited invertebrate epidermal growth factor receptor.
+Nature, 461,  287291.  13.
+Garrett, T. P., McKern, N. M., Lou, M., Elleman, T. C.,  Adams, T. E., Lovrecz, G. O. et al. (2002).
+Crystal  structure of a truncated epidermal growth factor  receptor extracellular domain bound to transforming  growth factor alpha.
+Cell, 110, 763773.  14.
+Ogiso, H., Ishitani, R., Nureki, O., Fukai, S.,  Yamanaka, M., Kim, J. H. et al. (2002).
+Crystal  structure of the complex of human epidermal growth  factor and receptor extracellular domains.
+Cell, 110,  775787.  15. Putnam, C. D., Hammel, M., Hura, G. L. & Tainer, J. A.  (2007).
+X-ray solution scattering (SAXS) combined  with crystallography and computation: defining accurate macromolecular structures, conformations and  assemblies in solution.
+Q. Rev. Biophys. 40, 191285.  16.
+Svergun, D. I. & Koch, M. H. (2002).
+Advances in  structure analysis using small-angle scattering in  solution.
+Curr. Opin.
+Struct. Biol. 12, 654660.  17.
+Svergun, D. I., Barberato, C. & Koch, M. H. J. (1995).  CRYSOLa program to evaluate X-ray solution  scattering of biological molecules from atomic coordinates.
+J. Appl. Crystallogr. 28, 768773.  18. Pal, G., Kouadio, J. L., Artis, D. R., Kossiakoff, A. A. &  Sidhu, S. S. (2006).
+Comprehensive and quantitative  mapping of energy landscapes for proteinprotein  interactions by rapid combinatorial scanning.
+J. Biol.  Chem. 281, 2237822385.  19.
+Gilbreth, R. N., Esaki, K., Koide, A., Sidhu, S. S. &  Koide, S. (2008).
+A dominant conformational role for  amino acid diversity in minimalist proteinprotein  interfaces.
+J. Mol. Biol. 381, 407418.  20.
+Birtalan, S., Zhang, Y., Fellouse, F. A., Shao, L.,  Schaefer, G. & Sidhu, S. S. (2008).
+The intrinsic  contributions of tyrosine, serine, glycine and arginine  to the affinity and specificity of antibodies.
+J. Mol. Biol.  377, 15181528.  21.
+Fellouse, F. A., Esaki, K., Birtalan, S., Raptis, D.,  Cancasci, V. J., Koide, A. et al. (2007).
+High-throughput generation of synthetic antibodies from highly  functional minimalist phage-displayed libraries.
+J.  Mol. Biol. 373, 924940.
+  22.
+Fellouse, F. A., Li, B., Compaan, D. M., Peden, A. A.,  Hymowitz, S. G. & Sidhu, S. S. (2005).
+Molecular  recognition by a binary code. J. Mol.
+Biol. 348,  11531162.  23.
+Fellouse, F. A., Wiesmann, C. & Sidhu, S. S. (2004).
+  Synthetic antibodies from a four-amino-acid code: a  dominant role for tyrosine in antigen recognition.
+  Proc. Natl Acad. Sci. USA, 101, 1246712472.
+  24.
+Ha, H., Han, D. & Choi, Y. (2009).
+TRAF-mediated  TNFR-family signaling.
+Curr.
+Protoc. Immunol. S87;  11.9D.111.9D.19.
+  25. Wiesmann, C., Fuh, G., Christinger, H. W., Eigenbrot,  C., Wells, J. A. & de Vos, A. M. (1997).
+Crystal  structure at 1.7  resolution of VEGF in complex with  domain 2 of the Flt-1 receptor.
+Cell, 91, 695704.  26. Wiesmann, C., Ultsch, M. H., Bass, S. H. & de Vos,  A. M. (1999).
+Crystal structure of nerve growth factor  228 HER2/Fab37 Complex Structurein complex with the ligand-binding domain of the  TrkA receptor.
+Nature, 401, 184188.  27.
+Mosch, B., Reissenweber, B., Neuber, C. & Pietzsch, J.  (2010).
+Eph receptors and ephrin ligands: important  players in angiogenesis and tumor angiogenesis.
+  J. Oncol. 2010, 12 [Article ID 135285].  28.
+Romanelli, R. J. & Wood, T. L. (2008).
+Directing  traffic in neural cells: determinants of receptor  tyrosine kinase localization and cellular responses.
+  J. Neurochem. 105, 20552068.  29.
+Chung, I., Akita, R., Vandlen, R., Toomre, D., Schlessinger, J. & Mellman, I. (2010).
+Spatial control of EGF  receptor activation by reversible dimerization on  living cells.
+Nature, 464, 783787.  30.
+Burgess, A. W., Cho, H. S., Eigenbrot, C., Ferguson,  K. M., Garrett, T. P., Leahy, D. J. et al. (2003).
+An openand-shut case?
+Recent insights into the activation of  EGF/ErbB receptors.
+Mol. Cell, 12, 541552.  31.
+Yarden, Y. & Sliwkowski, M. X. (2001).
+Untangling the  ErbB signalling network.
+Nat. Rev., Mol.
+Cell Biol. 2,  127137.  32.
+Slamon, D. J., Godolphin, W., Jones, L. A., Holt, J. A.,  Wong, S. G., Keith, D. E. et al. (1989).
+Studies of the  HER-2/neu proto-oncogene in human breast and  ovarian cancer.
+Science, 244, 707712.  33.
+Junttila, T. T., Akita, R. W., Parsons, K., Fields, C.,  Lewis Phillips, G. D., Friedman, L. S. et al. (2009).
+  Ligand-independent HER2/HER3/PI3K complex is  disrupted by trastuzumab and is effectively inhibited  by the PI3K inhibitor GDC-0941.
+Cancer Cells, 15,  429440.
+  34. Lee-Hoeflich, S. T., Crocker, L., Yao, E., Pham, T.,  Munroe, X., Hoeflich, K. P. et al. (2008).
+A central role  for HER3 in HER2-amplified breast cancer: implications for targeted therapy.
+Cancer Res.
+68, 58785887.
+  35.
+Landgraf, R. & Eisenberg, D. (2000).
+Heregulin  reverses the oligomerization of HER3.
+Biochemistry,  39, 85038511.  36.
+Ferguson, K. M., Darling, P. J., Mohan, M. J., Macatee,  T. L. & Lemmon, M. A. (2000).
+Extracellular domains  drive homo- but not hetero-dimerization of erbB  receptors.
+EMBO J. 19, 46324643.
+  37. Huang, X., Gao, L., Wang, S., McManaman, J. L., Thor,  A. D., Yang, X. et al. (2010).
+Heterotrimerization of the  growth factor receptors erbB2, erbB3, and insulin-like  growth factor-1 receptor in breast cancer cells resistant  to herceptin.
+Cancer Res. 70, 12041214.
+  38.
+Riese, D. J., II, van Raaij, T. M., Plowman, G. D.,  Andrews, G. C. & Stern, D. F. (1995).
+The cellular  response to neuregulins is governed by complex  interactions of the erbB receptor family.
+Mol. Cell.
+  Biol. 15, 57705776.  39. Shi, F., Telesco, S. E., Liu, Y., Radhakrishnan, R. &  Lemmon, M. A. (2010).
+ErbB3/HER3 intracellular  domain is competent to bind ATP and catalyze  autophosphorylation.
+Proc. Natl Acad. Sci. USA, 107,  80478048.
+  40.
+Otwinowski, Z. & Minor, W. (1996).
+Processing of Xray diffraction data collected in oscillation mode.
+  Methods Enzymol. 276, 307326.
+  41.
+Read, R. J. (2001).
+Pushing the boundaries of  molecular replacement with maximum likelihood.
+  Acta Crystallogr., Sect.
+D: Biol.
+Crystallogr. 57, 13731382.
+  42. Murshudov, G. N., Vagin, A. A. & Dodson, E. J.  (1997).
+Refinement of macromolecular structures by  the maximum-likelihood method. Acta Crystallogr.,  Sect.
+D: Biol. Crystallogr. 53, 240255.
+  43. McRee, D. E. (1999).
+XtalView/Xfita versatile  program for manipulating atomic coordinates and  electron density.
+J. Struct. Biol. 125, 156165.  44.
+Laskowski, R. A., MacArthur, M. W., Moss, D. S. &  Thornton, J. M. (1993). PROCHECK: a program to  check the stereochemical quality of protein structures.
+  J. Appl. Crystallogr. 26, 283291.  45.
+Hooft, R. W., Vriend, G., Sander, C. & Abola, E. E.  (1996).
+Errors in protein structures.
+Nature, 381, 272.  46. Smolsky, I. L., Liu, P., Niebuhr, M., Ito, K., Weiss,  T. M. & Tsuruta, H. (2007).
+Biological small-angle  scattering facility at the Stanford synchrotron radiation laboratory.
+J. Appl. Crystallogr. 40, S453S458.  47. Svergun, D. I. (1992).
+Determination of the regularization parameter in indirect-transform methods using  perceptual criteria.
+J. Appl. Crystallogr. 25, 495503.  48. Svergun, D. I., Petoukhov, M. V. & Koch, M. H. (2001).
+  Determination of domain structure of proteins from  X-ray solution scattering.
+Biophys. J. 80, 29462953.  49. Volkov, V. V. & Svergun, D. I. (2003).
+Uniqueness of ab  initio shape determination in small-angle scattering.
+J.  Appl. Crystallogr. 36, 860864.  50. Kozin, M. B. & Svergun, D. I. (2001).
+Automated  matching of high- and low-resolution structural  models.
+J. Appl. Crystallogr.
+34, 3341.
+  51.
+Bond, C. J., Wiesmann, C., Marsters, J. C., Jr & Sidhu,  S. S. (2005).
+A structure-based database of antibody  variable domain diversity.
+J. Mol. Biol.
+348, 699709.
+  52. Crooks, G. E., Hon, G., Chandonia, J. M. & Brenner,  S. E. (2004).
+WebLogo: a sequence logo generator.
+  Genome Res.
+14, 11881190.
+  HER2/Fab37 Complex Structure 229

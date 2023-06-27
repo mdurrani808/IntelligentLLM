@@ -1,0 +1,1390 @@
+Design of an Optimized Scaffold for Affibody Molecules
+Joachim Feldwisch1,2⁎, Vladimir Tolmachev1,2, Christofer Lendel1
+,
+Nina Herne1
+, Anna Sjöberg1
+, Barbro Larsson1
+, Daniel Rosik1
+,
+Eva Lindqvist1
+, Gunilla Fant1
+, Ingmarie Höidén-Guthenberg1
+,
+Joakim Galli1
+, Per Jonasson1 and Lars Abrahmsén1
+1
+Affibody AB, Lindhagensgatan
+133, SE-112 51 Stockholm,
+Sweden
+2
+Department of Oncology,
+Radiology and Clinical
+Immunology, Rudbeck
+Laboratory, Uppsala University,
+SE-751 85 Uppsala, Sweden
+Received 2 December 2009;
+received in revised form
+26 February 2010;
+accepted 3 March 2010
+Available online
+10 March 2010
+Affibody molecules are non-immunoglobulin-derived affinity proteins
+based on a three-helical bundle protein domain. Here, we describe the
+design process of an optimized Affibody molecule scaffold with improved
+properties and a surface distinctly different from that of the parental
+scaffold. The improvement was achieved by applying an iterative process
+of amino acid substitutions in the context of the human epidermal growth
+factor receptor 2 (HER2)-specific Affibody molecule ZHER2:342. Replace￾ments in the N-terminal region, loop 1, helix 2 and helix 3 were guided by
+extensive structural modeling using the available structures of the parent Z
+domain and Affibody molecules. The effect of several single substitutions
+was analyzed followed by combination of up to 11 different substitutions.
+The two amino acid substitutions N23T and S33K accounted for the most
+dramatic improvements, including increased thermal stability with
+elevated melting temperatures of up to + 12 °C. The optimized scaffold
+contains 11 amino acid substitutions in the nonbinding surface and is
+characterized by improved thermal and chemical stability, as well as
+increased hydrophilicity, and enables generation of identical Affibody
+molecules both by chemical peptide synthesis and by recombinant bacterial
+expression. A HER2-specific Affibody tracer, [MMA-DOTA-Cys61]-
+ZHER2:2891-Cys (ABY-025), was produced by conjugating MMA-DOTA
+(maleimide-monoamide-1,4,7,10-tetraazacyclododecane-1,4,7,10-tetraacetic
+acid) to the peptide produced either chemically or in Escherichia coli. ABY￾025 showed high affinity and specificity for HER2 (equilibrium dissociation
+constant, KD, of 76 pM) and detected HER2 in tissue sections of SKOV-3
+xenograft and human breast tumors. The HER2-binding capacity was fully
+retained after three cycles of heating to 90 °C followed by cooling to room
+temperature. Furthermore, the binding surfaces of five Affibody molecules
+targeting other proteins (tumor necrosis factor α, insulin, Taq polymerase,
+epidermal growth factor receptor or platelet-derived growth factor receptor
+β) were grafted onto the optimized scaffold, resulting in molecules with
+improved thermal stability and a more hydrophilic nonbinding surface.
+© 2010 Elsevier Ltd. All rights reserved.
+Edited by I. Wilson
+Keywords: Affibody molecules; scaffold; protein engineering; HER2; peptide
+synthesis
+*Corresponding author. Affibody AB, Lindhagensgatan 133, SE-112 51 Stockholm, Sweden. E-mail address:
+joachim.feldwisch@affibody.com.
+Present address: C. Lendel, Department of Molecular Biology, SLU, Box 590, SE-751 24 Uppsala, Sweden.
+Abbreviations used: ACN, acetonitrile; DIPEA, N, N′-diisopropylethylamine; EGFR, epidermal growth factor receptor;
+HER2, human epidermal growth factor receptor 2; His6, hexahistidine; HOBt, hydroxybenzotriazole; HRP, horseradish
+peroxidase; MMA-DOTA, maleimide-monoamide-1,4,7,10-tetraazacyclododecane-1,4,7,10-tetraacetic acid; NEM, N￾ethylmaleimide; PBS, phosphate-buffered saline; PDB, Protein Data Bank; PDGFRβ, platelet-derived growth factor
+receptor β; SPA, Staphylococcus aureus protein A; TFA, trifluoroacetic acid; TMB, tetramethylbenzidine; TNFα, tumor
+necrosis factor α; VTM, variable temperature measurement.
+doi:10.1016/j.jmb.2010.03.002 J. Mol. Biol. (2010) 398, 232–247
+Available online at www.sciencedirect.com
+0022-2836/$ - see front matter © 2010 Elsevier Ltd. All rights reserved.Introduction
+Affibody molecules are small and robust affinity
+ligands based on the three-helical-bundle Z domain,
+which is a stabilized variant of the B domain of
+staphylococcal protein A (SPA).1 Thus, Affibody
+molecules are not related to and do not share
+sequence or structural homology with antibodies.
+The Z domain was chosen as the starting point for
+the construction of novel binding proteins because
+this small protein (58 amino acids, approximately
+6.5 kDa) was known to have excellent biophysical
+properties—including high melting temperature,
+reversible and rapid folding, a binding surface as
+large as that of an antibody, high solubility in aqueous
+solutions—and because it could be produced at high
+levels in Escherichia coli.
+2–4 The exceptional nature of
+the Z domain scaffold is further highlighted by the
+shortest folding time yet reported for a protein, that is,
+3 μs.5 Combinatorial libraries containing different
+Affibody molecules have been generated by random￾izing 13 surface-exposed amino acids located in
+helices 1 and 2 of the Z domain.4,6 Affibody molecules
+with nanomolar and picomolar affinities have been
+selected from these libraries to a large range of targets,
+including human epidermal growth factor receptor 2
+(HER2),7,8 epidermal growth factor receptor
+(EGFR),9,10 tumor necrosis factor α (TNFα)11,12 and
+amyloid-β (Aβ) peptide.6,13
+Multimeric Affibody molecules (i.e., head-to-tail
+gene fusions of two or more Affibody mole￾cules),12,14,15 bispecific Affibody molecules (i.e.,
+fusion of two Affibody molecules having separate
+target specificities16 and fusions of Affibody mole￾cules with other proteins and toxins17–20 have been
+shown to be functionally active. Since the Affibody
+scaffold lacks cysteines, homogenous site-specific
+modifications are possible by the introduction of a
+unique cysteine. This has been done to achieve site￾specific labeling with, for example, different radio￾nuclides and fluorescent dyes.21–25 Thus, Affibody
+molecules have been shown to be amenable for a
+wide range of additional modifications, including
+fusions at the N- or the C-terminus.
+Each domain of protein A contains a large surface
+interacting with the Fc portion of immunoglobulin
+(Ig) G and a partially overlapping surface responsi￾ble for interaction with the variable domain of
+antibodies containing a heavy chain from the VH3
+family. The latter surface has been defined in the
+crystal structure of the D domain of SPA in complex
+with a Fab fragment of a human IgM.26 The amino
+acids most important for the VH3 interactions are
+G29, F30, S33, D36, D37 and E47. These amino acids
+are conserved in all five domains of protein A,
+although the B domain has been reported to have
+little or no Fab-binding activity.27 The Z domain was
+based on the B domain and stabilized by the G29A
+substitution, removing a hydroxylamine-sensitive
+site in position N28–G29.1 This replacement in the Z
+domain scaffold has been shown to essentially
+remove the Fab binding.28 Amino acid residues in
+the Fc-binding surface are randomized in Affibody
+libraries, which removes the Fc binding. The only
+amino acid (Q32) implicated to be directly involved
+in both the Fc and the VH3 interactions is among the
+13 randomized residues. Although Affibody mole￾cules are derived from the Z domain, weak
+interaction with immunoglobulins cannot be exclud￾ed, for example, through interaction with the VH3
+domain.
+Three-dimensional structures of the Z domain
+determined by NMR spectroscopy have shown that
+the protein is composed of three nearly perfectly
+antiparallel α-helices.29,30 This fold is indeed con￾served in the NMR-derived structures of the free
+ZTaq and anti-ZTaq Affibody molecules.31 Further￾more, structural analysis of the anti-idiotypic Affi￾body molecule ZSPA-1 in complex with the Z
+domain32,33 and the ZTaq–anti-ZTaq complex31 has
+confirmed the ability of these Affibody molecules to
+retain the three-helical-bundle structure upon target
+binding. Thus, the Z domain has been shown to
+accommodate an exchange of 22% (13 of 58) of all
+amino acids.
+The goal of the present investigation was to
+remodel the nonbinding surface of the Affibody
+molecules to further reduce similarity to the Z
+domain and to reduce any residual interactions
+with immunoglobulins while increasing the overall
+hydrophilicity, improving thermal and storage
+stability, enhancing amenability for peptide syn￾thesis and retaining target binding capability and
+folding properties. Here, we report the design of
+an optimized scaffold for Affibody molecules. In
+the new scaffold, 11 amino acids have been
+substituted in the nonbinding surface. Together
+with the 13 randomized positions, 41% (24 of 58)
+of all amino acids in the parent Z domain have been
+substituted.
+Results
+Rationale, molecular modeling and procedure
+The development of an optimized scaffold was an
+iterative process based on substitutions of one or
+several amino acids of the HER2-binding Affibody
+molecule ZHER2:342.
+8 The results of several single-site
+substitutions were used as a starting point, followed
+by constructs with various combinations of 2, 3, 4, 5,
+6, 8, 9 and 11 amino acid exchanges. Several points
+were considered in the selection of alternative amino
+acids for a given position. A structural model for
+ZHER2:342 was generated on the basis of the refined
+NMR structure of the Z domain [Protein Data Bank
+(PDB) ID 1Q2N],30 and extensive analysis and
+modeling were employed to identify amino acids
+that might be replaced without disturbing the overall
+structure. In addition, the co-crystal structure of the
+SPA domain D with the Fab fragment of a human
+IgM antibody was used to select amino acid
+replacements that might further diminish the binding
+to VH3 domains.26 The amino acids buried in the
+hydrophobic core and surface-exposed amino acids
+Second-Generation Affibody Molecules 233potentially involved in stabilizing the overall three￾helical fold of the Affibody molecules were not
+considered for modification. In addition, experiences
+gained from scaffold amino acid substitutions made
+in other Affibody molecules, that is, ZTNFα:185 (J. G.,
+N. H., C. L., J. F., and L. A., unpublished results), or
+the Z domain34 were taken into consideration.
+For most positions, several substitutions were
+possible. Increased hydrophilicity and enhanced
+amenability to peptide synthesis were considered
+in selecting amino acid replacements to analyze
+experimentally. Furthermore, the final molecule
+should be detectable by its light absorbance at
+280 nm. Thus, the following amino acids were
+avoided if possible: (1) the β branched amino acids
+V, I or T, which are not preferred in peptide
+synthesis; (2) amino acids with risk for side reactions
+in peptide synthesis, such as D, N and H; (3) R and
+other amino acids with bulky side-chain protection
+groups, because these Fmoc amino acids may lead to
+reduced yield in peptide synthesis; and (4) hydro￾phobic amino acids such as W, L, I, V and F. The
+amino acids S, E, K, Y and A were regarded as most
+favorable in the majority of the positions.
+All constructs were analyzed by surface plasmon
+resonance for their capacity to bind HER2, CD
+spectroscopy to assess the thermal stability and
+melting temperature (Tm), ELISA to assess weak
+interactions with human or cynomolgus Ig or
+polyclonal IgM, respectively, and hydrophobicity
+plots to visualize changes in hydrophobic regions.
+The measurement of the weak interaction between
+the Affibody constructs and immunoglobulins (Ig or
+IgM) was possible at high concentrations of immu￾noglobulins, that is, at serum dilutions starting from
+1 in 100 or polyclonal IgM dilutions starting with
+0.4 mg/mL. In human sera, approximately 50% of
+polyclonal IgM and 15% of IgG bind to SPA and this
+binding is VH3 specific.26,35 Therefore, polyclonal
+IgM is more suitable than IgG for assessing residual
+interactions with VH3, such that a difference between
+these two assays in terms of the effect of a
+Table 1. Summary of ZHER2:342 mutations
+The amino acid substitutions were made in the Affibody molecule scaffold only, leaving the 13 amino acids of the binding site for HER2
+unchanged. Constructs 1 to 29 have an N-terminal His6 tag. Constructs 30 and 31 have identical peptide sequences lacking the His6 tag
+but differ by the modification at the C-terminal (NEM or MMA-DOTA, respectively). Results are given for binding kinetic parameters
+determined by surface plasmon resonance analysis, the melting point Tm determined by CD and the interaction with Ig or IgM
+determined by ELISA. ΔTm values are given in relation to the parent molecule ZHER2:342. a ELISA values at OD 0.3 relative to the control ZHER2:342. Values displayed are the mean of two or three measurements. The
+absolute difference or the standard error of the mean was in the range of 1% to 10%.
+234 Second-Generation Affibody Moleculesreplacement may reflect dominating effects on the
+VH3 interaction.
+The results obtained for the different constructs
+are given below for each individual amino acid
+position and summarized in Table 1. Construct
+numbers (e.g. no. 5) are used throughout the text.
+Increased or decreased melting temperatures for
+various constructs are given as ΔTm values in
+relation to that of the parent molecule ZHER2:342,
+which has a Tm of 65 °C.
+Improved stability, hydrophilicity, peptide
+synthesis
+Asparagine in position 23
+Previous experience showed that the sequence
+NLNNQQ (aa 21–26 in ZHER2:342) was problematic
+in peptide synthesis. Residues N24 and Q25 (bold
+letters in the sequence above) are among the amino
+acids randomized in Affibody molecule libraries and
+thus differ between Affibody molecules with differ￾ent target binding specificities. Structural analysis of
+the Z domain indicates a hydrogen bond between
+N21 and N52 and between Q26 and Q55. In addition,
+the N21A mutation was reported to decrease
+resistance to alkali treatment.34 L22, which is
+completely conserved in the five SPA domains, is
+buried and has several hydrophobic contacts with
+the protein core. The double mutant L22G/N23G
+was found not to display secondary structure in the
+CD spectrum and has a Tm of b20 °C (data not
+shown), whereas the N23G substitution alone (no. 3)
+caused less destabilization of the structure (ΔTm,
+−8 °C). Thus, changes in positions 21, 22 and 26 may
+interfere with the overall structural integrity of the
+protein domain, and N23 is the most promising
+position for replacement in this region. N23 is
+surface-exposed and conserved in all SPA domains
+except the C domain, having a threonine in this
+position. Besides the N23G substitution, N23T (no.
+2) and N23A (no. 4) were analyzed. Whereas N23T
+stabilized the protein (ΔTm + 6 °C), N23A destabi￾lized it (ΔTm −8 °C). All three N23 substitutions
+led to decreased interaction with human Ig and
+IgM. Since the single N23T replacement (no. 2)
+showed increased thermal stability in combination
+with slightly improved target binding affinity, all
+further replacements were investigated in this
+background.
+Asparagine in position 3
+N3 is part of the N-terminal amino acid portion
+having undefined structure in the various structures
+and is most likely tolerant to a range of replacements.
+Only the N3A substitution was analyzed in the
+current study, because earlier results with the Z
+domain and ZTNFα:185 indicated that this change
+increased storage stability but did not affect target
+binding. The N3A substitution was analyzed only in
+the context of 5, 6, 7, 8 or 10 other amino acid
+replacements (nos. 9–11, 23–31). Data from all
+constructs analyzed indicated that the N3A substi￾tution had no effect on target binding affinity or on
+stability.
+Phenylalanine in position 5
+F5 is surface-exposed and conserved in all SPA
+domains, except the E domain, having a histidine in
+this position. In the modeled ZHER2:342 structure, F5
+is in contact with Y35 (in helix 2) and P38 (in loop
+2). Analysis of the structural model of ZHER2:342
+suggested that replacements with Y, W, V, A, T or
+H would be preferred. Only the most favorable
+mutation F5Y was analyzed in the context of 2, 6,
+8 or 10 other amino acid replacements (nos. 7, 11,
+27 and 29–31). Data analysis showed that the F5Y
+substitution did not have any effect on target
+binding affinity or thermal stability. Comparison
+of constructs 9 and 11 indicated increased interac￾tion with human Ig and IgM in the presence of
+F5Y. However, a decreased or similar interaction
+with Ig was seen with constructs 27 and 29 contain￾ing F5Y compared to the corresponding constructs
+26 or 28 having F5 retained. A stabilizing effect of
+F5Y was seen in constructs also containing E47A
+Fig. 1. CD spectrum of constructs 28 (a) and 29 (b)
+taken before (continuous line) and after (dotted line)
+variable temperature measurements from 20 to 90 °C.
+Second-Generation Affibody Molecules 235(compare nos. 28 and 29). The CD spectrum of these
+two variants before and after heat treatment
+revealed that the partially irreversible refolding
+seen with E47A was neutralized by the addition of
+F5Y (Fig. 1).
+Asparagine in position 6
+N6 is surface-exposed and conserved in all SPA
+domains, except the E domain having an aspartic
+acid in this position. An alkaline-stabilized Z
+domain variant contains the substitution N6D.34
+However, D is unfavorable in peptide synthesis.36
+Therefore, two other substitutions were analyzed,
+N6E (no. 5) and N6A (no. 6). Neither of these
+substitutions had any effect on thermal stability,
+but both reduced the HER2-binding affinity [a
+twofold increase in KD (equilibrium dissociation
+constant) value, caused by slightly slower associa￾tion (ka) and faster dissociation (kd) rates]. Either of
+the substitutions in combination with N23T showed
+a similar reduction of Ig interaction as N23T alone.
+In the context of the replacements N3A, N23T,
+A42S, A46S and A54S (nos. 9 and 10), the N6E
+substitution led to a slightly increased KD com￾pared to N6A. Therefore, in further constructs with
+multiple replacements, only the N6A substitution
+was investigated.
+Alanines in positions 42, 46 and 54
+These three amino acids are surface-exposed and
+reduce the overall hydrophilicity of Affibody
+molecules. They are located in the beginning, the
+middle or the end of helix 3, respectively. Analysis
+of structure models suggested several possible
+amino acid substitutions of which the most
+promising, A42S, A46S and A54S, were experimen￾tally investigated. This triple replacement was
+analyzed in combination with 1, 3, 4, 5, 6 and
+8 other amino acid substitutions (nos. 8–11 and 23–
+31). Analysis of the mutant protein derived from
+construct 8 showed that the three alanine replace￾ments had no effect on HER2 binding but abrogat￾ed the stabilizing effect of N23T, resulting in a Tm
+close to that of ZHER2:342.
+Reduced interaction with immunoglobulins
+The co-crystal structure of the SPA domain D with
+a Fab fragment of a human IgM antibody26 high￾lights the amino acids involved in VH3-mediated
+binding of Fab fragments. These amino acids are
+conserved in all five SPA domains and in the
+engineered Z domain. Amino acid substitutions
+having the potential to reduce VH3 binding were
+investigated as described below.
+Serine in position 33
+S33 is surface-exposed on helix 2. Analysis of the
+co-crystal structure of the D domain and the Fab
+fragment suggested that replacement with K, R, A,
+T or aromatic amino acids might be tolerated. Two
+substitutions, S33A (no. 12) and S33K (no. 13), were
+experimentally analyzed. None of the amino acid
+exchanges reduced target binding affinity. How￾ever, the thermal stability was further improved
+with a ΔTm of + 10 or + 12 °C for S33A and S33K,
+respectively, compared to the N23T substitution
+alone. The weak interaction with Ig and IgM was
+dramatically reduced with a slightly larger reduc￾tion generated by S33K. On the basis of these
+results, S33K was chosen for combination with 6, 7,
+8 or 10 other amino acid replacements (nos. 23–31).
+Combination of S33K with the other six substitu￾tions N3A, N6A, N23T, A42S, A46S and A54S
+(no. 23) did not have any effect on binding affinity
+nor on interaction with Ig or IgM. However, the
+thermal stability was reduced to the level obtained
+with N23T alone (ΔTm of + 6 °C), but higher com￾pared to construct 8 containing the four re￾placements N23T, A42S, A46S and A54S (ΔTm of
+−1 °C).
+Aspartic acid in position 36
+D36 is surface-exposed, located at the end of helix
+2 and involved in VH3 binding. Analysis of the co￾crystal structure of the SPA domain D and the Fab
+fragment suggested replacements with E, K, R, A,
+N, Q, S or G. Only the two most favorable
+mutations D36A (no. 14) and D36K (no. 15) were
+experimentally analyzed in the current study. None
+of the replacements affected thermal stability. How￾ever, binding to HER2 is weakened, as shown by
+KD values increased by a factor of 3.3 for D36A and
+8.2 for D36K. Both mutations led to reduced
+interaction with Ig and IgM. Combination of
+D36A with S33K and six other replacements (no.
+24) did not further reduce the interaction with Ig or
+IgM (compared to no. 23). Furthermore, the affinity
+for HER2 was still reduced, as shown by an
+approximately 2.2-fold increased KD value. Addi￾tional combinations of D36A or D36K with other
+replacements were not considered for the final
+optimized scaffold.
+Aspartic acid in position 37
+D37 is surface-exposed, located at the beginning of
+loop 2 and involved in VH3 binding. Analysis of the
+SPA domain structures indicates a hydrogen bond
+between D37 and S39. Analysis of the co-crystal
+structure of the SPA domain D and the Fab fragment
+suggested replacements with E, N, S or G. In
+ZTNFα:185, the substitution of D37 with S led to
+reduced thermal stability, with a ΔTm of −7 °C and
+partially irreversible refolding upon heat treatment
+(J. G., N. H., C. L., J. F., and L. A., unpublished
+results). Thus, only the most promising D37E
+substitution (no. 16) was analyzed. The resulting
+protein showed slightly reduced HER2 binding,
+lower thermal stability (ΔTm of + 2 °C) and reduced
+interaction with Ig and IgM. Combination of D37E
+with S33K and six other replacements (no. 25) did
+236 Second-Generation Affibody Moleculesnot further reduce the interaction with Ig or IgM
+(compared to no. 23).
+Asparagine in position 43
+N43 is surface-exposed, located at the beginning
+of helix 3, conserved in all SPA domains except the C
+domain having a glutamic acid in this position and
+involved in VH3 binding. Analysis of the structure of
+the SPA domain D and the Fab fragment complex
+suggested possible replacements with E, D, Q, R or
+A. Only the most promising N43E mutation was
+analyzed and only in the context of 2, 7, 8 or 10 other
+replacements (nos. 20, 26–27 and 30–31). Neither
+HER2-binding affinity nor thermal stability was
+affected, but the interaction with Ig and IgM was
+reduced (compare nos. 20 and 7). Combination of
+N43E with S33K and six other replacements (no. 26)
+did not further reduce the interaction with Ig or IgM
+(compared to no. 23). However, the replacement of
+N with E added an amino acid with a higher helix
+propensity to helix 2 and reduced the risk for
+deamidation.
+Glutamic acid in position 47
+E47 is surface-exposed, located in the middle of
+helix 3 and involved in VH3 binding. Analysis of the
+co-crystal structure of the SPA domain D and the
+Fab fragment suggested replacements with A, D, Q,
+S and T. Only the most promising E47A mutation
+was analyzed (no. 17). The replacement did not
+affect HER2-binding affinity or thermal stability, but
+reduced the interaction with Ig and IgM. Combina￾tion of E47A with S33K and six other replacements
+(no. 28) did not further reduce the interaction with Ig
+or IgM (compared to no. 23). However, the CD
+spectrum revealed that refolding of the peptide
+derived from construct no. 28 was partially irrevers￾ible after heat treatment, even though the Tm was
+only slightly reduced (compare nos. 23 and 28).
+Addition of the F5Y substitution (no. 29) antago￾nized this effect, as indicated by the similar CD
+spectra before and after heat treatment (Fig. 1).
+Leucine in position 51
+L51 is surface-exposed, located at the end of helix
+3 and involved in VH3 binding. Analysis of the co￾crystal structure of the SPA domain D and the Fab
+fragment suggested possible replacements with Y,
+T, W, K and R. Two substitutions were investigat￾ed, L51T and L51Y (nos. 18 and 19). None of the
+amino acid exchanges affected HER2-binding
+affinity, but both led to reduced thermal stability
+(ΔTm of −3 and −5 °C, respectively). Both replace￾ments showed the largest reduction of interaction
+with IgM. This reduction was also similar in
+combination with the two additional substitutions,
+A42S and A46S (nos. 21 and 22); however, the
+thermal stability was further reduced (ΔTm of −8
+and −10 °C, respectively). Therefore, leucine was
+retained in position 51.
+Amino acid replacements for the optimized
+scaffold
+As described in the preceding sections, two
+different combinations of nine amino acid substitu￾tions yielded two Affibody molecules with retained
+HER2-binding activity, similarly improved Tm and
+decreased interaction with Ig and IgM (nos. 27 and
+29). Both constructs differ from the original sequence
+in only one amino acid substitution, that is, N43E
+(no. 27) and E47A (no. 29). Since construct 27 with
+the N43E substitution is more hydrophilic, the nine
+amino acid substitutions present in this construct
+were chosen as the basis for an optimized Affibody
+scaffold.
+Optimization for flexible production
+One aim of the current investigation was to allow
+the production of identical Affibody molecules
+regardless of the choice of recombinant expression
+or peptide synthesis, as well as to introduce a unique
+cysteine for site-specific modifications. Therefore,
+further changes were made at the N- and C￾terminus, that is, the replacements V1A and D2E
+and addition of a C-terminal cysteine in the form of
+the sequence V59D60C61. Combining these changes
+with the nine other replacements made in construct
+27 resulted in the Affibody molecule ZHER2:2891-Cys
+(no. 30). Conjugation of MMA-DOTA (maleimide￾monoamide-1,4,7,10-tetraazacyclododecane-1,4,7,10-
+tetraacetic acid) to the C-terminal cysteine yielded
+[MMA-DOTA-Cys61]-ZHER2:2891-Cys (ABY-025, no.
+31), a potential tracer for molecular imaging of
+HER2-overexpressing tumors.
+Characterization of ABY-025
+The kinetic binding constants for constructs 27 and
+30 [the latter blocked with N-ethylmaleimide (NEM)
+to prevent dimerization] and ABY-025 (no. 31) were
+determined, yielding KD values of 18, 60 and 76 pM,
+respectively (Table 1). The binding specificity of ABY￾025 was assessed with a filter-binding assay (dot￾blot). Only binding to HER2 (dot 21) was detected,
+but not to any of the other three proteins of the HER￾family, the 16 abundant plasma proteins, or to three
+control proteins (Fig. 2). The specificity of ABY-025
+was also assessed by immunohistochemical staining
+of frozen tissue sections from HER2-overexpressing
+SKOV-3 xenograft tumors and human breast cancer
+tissues. SKOV-3 tumor sections showed positive
+staining with ABY-025 but not with the negative
+control, a Taq-polymerase-specific Affibody molecule
+(Fig. 3a and b). Only the tumor cells in the section, but
+not the mouse connective tissue, were stained (Fig.
+3a). Positive membrane staining was obtained with
+ABY-025 in human breast tumors with a HER2 score
+of 3+. Tumors with no expression (HER2 score 0)
+were negative (Fig. 3c and d). The thermal stability, as
+assessed by Tm measurements, was 71 °C for
+construct 27 and 69 °C for both ZHER2:2891-Cys (no.
+30) and ABY-025 (no. 31), that is, +6 or +4 °C higher
+Second-Generation Affibody Molecules 237than the that of the HER2-specific Affibody molecule
+ZHER2:342 in the original scaffold. Because labeling of
+DOTA peptides with radionuclides requires elevated
+temperatures, the stability of ABY-025 to heat
+treatment was assessed by the application of three
+cycles of heating to 90 °C, followed by cooling to room
+temperature. As shown in Fig. 4a, the CD spectrum
+was very similar before and after heat treatment, with
+minima at 207 and 221 nm, indicating α-helicity. In
+addition, the HER2-binding activity of ABY-025 is
+retained after three cycles of heating to 90 °C (Fig. 4b).
+Figure 5 illustrates the interaction of the parent
+Affibody molecule ZHER2:342 and constructs 27, 30
+(in the form of ZHER2:2891-Cys-NEM) and 31 (ABY￾025) with human Ig. The weak interaction with Ig was
+reduced by approximately one log for ABY-025 (no.
+31) and an additional twofold for constructs 27 and 30
+(Table 1).
+Peptide synthesis
+The HER2-specific Affibody molecules ZHER2:342-
+Cys in the original scaffold and ZHER2:2891-Cys in the
+optimized scaffold were made chemically by peptide
+synthesis as 61-mers with AE in positions 1 and 2 and
+VDC in positions 59–61. The use of pseudoproline
+precursors was possible in some positions for
+ZHER2:2891-Cys but not for the parent Affibody
+molecule ZHER2:342-Cys. Reversed-phase chromatog￾raphy analysis of Affibody molecules synthesized
+with or without the use of pseudoprolines is shown
+in Fig. 6. The yield of ZHER2:2891-Cys produced with
+pseudoprolines was 22%, which is significantly
+higher than the yield of 13% obtained for ZHER2:342-
+Cys produced by standard Fmoc synthesis. In
+addition, the number of side products was reduced
+in the synthesis of ZHER2:2891-Cys, as shown by
+comparison of the reversed-phase HPLC chromato￾grams in Fig. 6. The shift of the retention time for
+ZHER2:2891-Cys (47.6 min) proved that the optimized
+scaffold had an overall higher hydrophilicity com￾pared to that of the parent molecule ZHER2:342-Cys
+(51.1 min).
+Scaffold amino acid replacements in Affibody
+molecules targeting other proteins
+The effect of the nine amino acid substitutions in
+the optimized Affibody scaffold was analyzed in
+Fig. 3. Immunohistochemical
+staining of frozen SKOV-3 xeno￾graft sections and human breast
+cancer tissue sections. (a) Frozen
+section of an SKOV-3 xenograft
+tumor stained with ABY-025. (b)
+Frozen section of an SKOV-3 xeno￾graft tumor stained with negative
+control. (c) Human breast cancer
+tissue section stained with ABY-025
+(HER2 score 0). (d) Human breast
+cancer tissue section stained with
+ABY-025 (HER2 score, 3+). The
+HER2 status of each human tissue
+sample was scored by the provider
+(ProtoGenex) using HercepTest®.
+Bound Affibody molecules were
+detected with a goat anti-Affibody
+Ig followed by anti-goat IgG–HRP.
+Fig. 2. Dot blot analysis of ABY-025 binding specificity.
+Samples of 0.1 μg of the proteins listed below were
+immobilized onto a nitrocellulose membrane. (a) ABY-025
+bound to HER2 (dot 21) only, the dot indicated by a circle.
+(b) Dot position scheme of the following plasma proteins:
+(1) HSA, (2) IgG, (3) IgM, (4) IgA, (5) α-2-macroglobulin, (6)
+fibrinogen, (7) holotransferrin, (8) α-1-antitrypsin, (9)
+complement C3, (10) haptoglobulin, (11) α-1-acid glyco￾protein, (12) α-1-antichymotrypsin, (13) complement C4,
+(14) IgE, (15) hemopexin, (16) transthyretin, (17) strepta￾vidin, (18) neutravidin, (19) human Fc, (20) human EGFR￾Fc, (21) HER2-Fc, (22) HER3-Fc and (23) HER4-Fc.
+238 Second-Generation Affibody MoleculesAffibody molecules having other binding specifi￾cities, that is, targeting TNFα, insulin, Taq polymer￾ase, EGFR (HER1) or platelet-derived growth factor
+receptor β (PDGFRβ), respectively (Table 2). Graft￾ing the binding surface amino acid residues from
+these Affibody molecules into the optimized scaf￾fold resulted in Tm increases of + 4 to + 7 °C in four of
+the Affibody molecules, comparable to the improve￾ment seen in the HER2-specific Affibody molecule.
+The interaction with Ig was reduced in all but one
+Affibody molecule with the optimized scaffold. The
+reductions were in the range of 1.4- to 2.0-fold for
+human Ig and 1.4- to 11.7-fold for cynomolgus Ig.
+Discussion
+Here we describe the design of an optimized
+Affibody molecule scaffold with improved proper￾ties and a surface distinctly different from that of the
+parent Z domain. The improvements include in￾creased hydrophilicity, higher thermal stability and
+further reduced interactions with immunoglobulins,
+improved photometric detection and full produc￾tion flexibility.
+The effects of different scaffold amino acid
+replacements were studied in the context of the
+HER2-binding Affibody molecule ZHER2:342. Later,
+the final set of amino acid replacements in the
+improved scaffold was also studied in five addi￾tional Affibody molecules targeting TNFα, insulin,
+Taq polymerase, EGFR (HER1) or PDGFRβ, respec￾tively, confirming the results obtained for the
+optimized HER2-binding Affibody molecule.
+Eleven amino acids outside of the binding surface
+of the 58-residue protein domain were substituted.
+Substitutions were restricted to surface-exposed
+residues with no or minimal known interaction
+with other amino acids. Amino acids buried in the
+core of the three-helical bundle or amino acids
+having one or several interactions with other amino
+acids were left unchanged. An overview of the
+amino acid substitutions and a comparison to the
+parent Affibody molecule ZHER2:342 are given in
+Figs. 7 and 8.
+Together with the 13 randomized positions
+involved in target binding, 41% (24 of 58) of all
+amino acids are substituted in the optimized Affi￾body molecules compared to the Z domain. This
+result further supports the suggestion that natural
+Fig. 4. Stability of ABY-025 to heat treatment. (a) CD
+analysis of ABY-025 after three VTM cycles from 20 to
+90 °C. Spectra were taken after each cycle and the overlay
+plot is presented. Green line, before VTM; blue line, after
+VTM1; red line, after VTM2; black line, after VTM3. (b)
+The HER2-binding activity of ABY-025 was analyzed by
+surface plasmon resonance before and after three heating
+cycles for 5 min at 90 °C followed by cooling to room
+temparature. Sensorgrams were obtained after injection of
+ABY-025 over a sensor chip surface containing amine￾coupled HER2/Fc chimeric fusion protein. Responses
+from a blank sensor chip surface were subtracted. Red
+lines, control ABY-025; green line, ABY-025 without heat
+treatment; pink line, ABY-025 after one heating cycle;
+black line, ABY-025 after two heating cycles; blue line,
+ABY-025 after three heating cycles. Note the two control
+runs (red) were run as the first and last sample in the
+analysis cycle, showing that the only difference between
+runs is a small loss of HER2 target protein from the Biacore
+sensor chip surface with each cycle.
+Fig. 5. Analysis of the interaction between HER2-
+binding Affibody molecules in the original or optimized
+scaffold and immunoglobulins by ELISA. ELISA plates
+coated with Affibody molecules were incubated with a
+twofold dilution series of human serum. Bound Ig was
+detected with anti-human Ig-HRP and the TMB color
+detection system. Open circles, ZHER2:342 standard;
+squares, construct 27; filled circles, ZHER2:2891-Cys-NEM
+(construct 30); triangle, ABY-025 (construct 31, [MMA￾DOTA-Cys61]-ZHER2:2891-Cys). The interactions of Ig with
+different Affibody molecules were compared at OD 0.3,
+indicated by the hatched line.
+Second-Generation Affibody Molecules 239proteins show “sequence plasticity,” that is, robust￾ness toward replacements, as a result of the
+evolutionary process.37 In another natural three α￾helical protein, 43% of all amino acids were replaced
+with retained fold,38 and it was suggested that
+additional replacements might be possible. Further
+mutagenesis of this protein was based on compar￾ison of the structures of the parent protein and a
+highly mutated variant, resulting in a protein with
+46% of all amino acids replaced. In analogy, it is
+highly probable that additional positions for re￾placement in the HER2-binding Affibody molecule
+would become apparent from analysis of a structure
+determined by, for example, NMR. However,
+introduction of additional replacements that may
+improve biophysical properties, for example, ther￾mal stability combined with preserved functionality,
+is more challenging. This was one important goal of
+the present study—in contrast to the study of He
+et al. which aimed to understand the relationship
+between a protein's sequence and its folding into a
+three-helix bundle or an α/β-fold.38
+Analysis of the crystal structure of the complex
+between SPA domain D and the Fab fragment of a
+human IgM suggested that the weak binding of
+ZHER2:342 to IgM might be reduced by disrupting the
+salt bridges and hydrogen bonds formed between
+the amino acids in positions 33, 36, 37 and 47 of the
+Affibody molecule and the VH3 domain of IgM.
+These assumptions were supported by data on the
+proteins having replacements in these positions,
+which showed reductions of the weak interaction
+with IgM. The largest reduction was obtained with
+the replacements L51T and L51Y. This was not
+expected from the structure of the complex, because
+L51 is located at the periphery of the interaction
+surface.26 Thus, the weak interaction of ZHER2:342
+with IgM cannot result solely from interactions with
+the VH3 domain because all other amino acid
+substitutions made in ZHER2:342 reduced the interac￾tion with IgM, although to a lesser extent.
+Similarly, each investigated amino acid replace￾ment resulted in a reduction of the weak interactions
+with immunoglobulins (Ig). In some cases, increased
+hydrophilicity may be the most important factor,
+such as replacements in position 51. Reduced
+surface hydrophobicity is believed to be beneficial
+for any biopharmaceutical, because this should lead
+not only to higher solubility and a reduced tendency
+to aggregate, but can also influence in vivo proper￾ties, for example, improved tumor targeting, imag￾ing sensitivity and contrast. For example, increased
+hydrophobicity results in higher protein binding
+and thereby slower clearance and lower imaging
+contrast, as well as higher liver uptake and elevated
+hepatobiliary excretion.39 The effect of the chemical
+properties of the surface has only been systemati￾cally studied for nanoparticles, where it was shown
+that a purely anionic or purely cationic surface was
+associated with higher absorption to blood proteins
+Fig. 6. Solid-phase Fmoc-pep￾tide synthesis. Analysis of crude
+peptides ZHER2:2891-Cys produced
+with pseudoprolines (continuous
+line) and ZHER2:342-Cys produced
+by standard synthesis (dotted line)
+by reversed-phase HPLC on a
+Zorbax 300SB C18 column. The
+retention time is given above the
+main peak.
+Table 2. Comparison of Affibody molecules with original or optimized scaffold purified as His6-tagged proteins
+Target
+Tm (°C) Human Ig, ELISA (%) Cynomolgus Ig, ELISA (%)
+Original Optimized ΔTm Original Optimized Reduction Original Optimized Reduction
+HER2 65 71 + 6 100 4.5 22.2 100 13 7.7
+TNFα 53 60 + 7 6 4 1.5 38 21 1.8
+Insulin 42 48 + 6 19 14 1.4 43 16 2.7
+Taq polymerase 46 50 + 4 12 6 2.0 26 18 1.4
+EGRF 54 61 + 7 16 17 0.9 35 18 1.9
+PDGFRβ 42 42 0 16 9 1.8 35 3 11.7
+The 13 amino acids in the binding sites of the bindi000ng surface, differing between different Affibody molecules, were grafted onto the
+optimized scaffold, and their properties were compared with those of the original. The interaction with human or cynomolgus Ig were
+measured by ELISA. The values at OD 0.3 relative to the control ZHER2:342 and the fold reduction relative to the original scaffold are
+shown.
+240 Second-Generation Affibody Moleculescompared to a zwitterionic surface.40 However, this
+knowledge may not be directly transferred to a
+protein, and a systematic study of this parameter for
+a protein is incompatible with the requirement to
+retain a specific binding surface. In this study, we
+chose the strategy to reduce hydrophobicity and
+increase hydrophilicity by introducing a number of
+new hydroxyl groups, for example, replacing
+alanines by serines and a phenylalanine by a
+tyrosine. However, as discussed above, this study
+also shows that hydrophobicity is not the only factor
+influencing interactions with Ig. Reducing interac￾tions with Ig is desired for most biopharmaceuticals,
+as this also contributes to reducing the risk for cross￾reactivity.
+Another goal of the current investigation was to
+increase the thermal stability of Affibody molecules.
+For most proteins used as therapeutics or in
+diagnostic imaging and biotechnology applications,
+increased thermal stability is regarded as beneficial.
+It not only influences drug storage stability, but is
+also a general prerequisite for proteins modified
+with a macrocyclic chelator, for example, DOTA,
+because stable coordination of radionuclides
+requires elevated temperatures during the labeling
+reaction.
+The surface-exposed residues as replaced in this
+study may affect the stability of the protein via
+several mechanisms. Such mechanisms could be
+general, for example, a reduction of the exposed
+hydrophobic surface area, or more specific, due to
+the local environment of the amino acid residue.
+Another fundamental property is the helix propen￾sity of the amino acid sequence. This has previously
+been demonstrated to be of critical importance for
+the stability of Affibody molecules.41 Considering
+only the constructs with substitutions in the helical
+segments (i.e., constructs 8, 12–15 and 17–22 in
+Table 1), we find an obvious correlation between the
+helix propensity determined with the software
+Agadir42 and the change in thermal stability (corre￾lation coefficient R2= 0.76 for a linear correlation).
+Fig. 7. Amino acid sequence alignment of HER2-binding Affibody molecules in the original and optimized scaffold.
+The approximate positions of the α-helices 1 through 3 are indicated by boxes. The 11 amino acids in the ZHER2:2891
+sequence that were replaced in comparison to the original ZHER2:342 are highlighted by a black background. The 13 amino
+acids on helices 1 and 2 involved in HER2-binding are highlighted by a grey background.
+Fig. 8. Comparison of models
+for ZHER2:342 and ZHER2:2891 to the
+structure PDB ID 1Q2N. The mod￾els for the two HER2-binding Affi￾body molecules were created using
+Swiss PDB Viewer with the struc￾ture or the Z domain (PDB ID
+1Q2N) as template. (a) View on
+the target binding surfaces with
+helix 1 (right) and helix 2 (left). (b)
+View on helix 3. Different groups of
+amino acids are shown with differ￾ent colors. Dark blue, amino acids Y
+and F; blue, R and K; light blue, N
+and Q; pink, W; green, L, I and V;
+yellow, M; light orange, P; orange,
+S; red, D and E; grey, A. The solid
+arrow marks D36; the dotted arrow,
+T23; and the hatched arrow, K33.
+Second-Generation Affibody Molecules 241Both theoretical and experimental folding–unfolding
+studies suggest that helix 3 is the most stable of
+the individual helices in both the B and the Z
+domains, containing 30% α-helix as isolated frag￾ments compared to 0% for either of the other two
+helices.43–45 Most likely, the unaltered helix 3
+contributes to the basic stability of Affibody
+molecules based on the original scaffold allowing
+for several replacements in helices 1 and 2. In the
+current study, the effect of additional substitutions
+in helix 3 on thermal stability was investigated with
+replacements made in 6 of the 13 amino acid
+positions in this helix. Indeed, some substitutions
+that reduced helix propensity, for example, in
+position 51, led to strongly reduced thermal
+stability, although some of the negative effects of
+L51T or L51Y could also be due to impairment of
+the interactions between L51 and L22, Q26 and F30.
+The triple replacement A42S/A46S/A54S made in
+helix 3 (no. 8) resulted in a smaller reduction of the
+melting temperature. However, as discussed below,
+this triple replacement was included in the opti￾mized scaffold together with eight other replace￾ments. In this context, the negative effect on melting
+temperature is compensated for by other replace￾ments, most importantly, N23T and S33K, situated
+outside of helix 3 and, potentially, N43E, increasing
+the helix propensity of helix 3. The beneficial effect
+of the optimized scaffold on melting temperature
+was also seen in the context of four out of five other
+binding surfaces (Table 2), with Tm improvements
+ranging from + 4 to + 7 °C. The unaltered Tm
+observed for the PDGFRβ-binding Affibody mole￾cule might result from incompatibility of some of
+the amino acid residues selected for target binding
+with the scaffold alterations. Notably, the optimized
+scaffold does not decrease the thermal stability of
+any of the investigated Affibody molecules.
+There was a dual rationale for including the triple
+replacement A42S/A46S/A54S in the optimized
+scaffold. Firstly, these replacements increase the
+surface hydrophilicity. Secondly, serines enable the
+introduction of pseudoprolines during peptide
+synthesis, which prevent beta-sheet formation of
+the protected peptide chains. Reproducible synthe￾sis of long peptides at high yields depends on both
+the length of the peptide and the primary amino acid
+sequence. The current study aimed at improving
+sequence features common to all Affibody mole￾cules. During chemical synthesis, long peptides may
+adopt secondary structures, reducing coupling
+yield.46 One way to prevent this is by using
+dipeptide building blocks called pseudoprolines,
+abbreviated Fmoc-Xxx-Yyy-OH. In these building
+blocks, Yyy is serine, threonine or cysteine, and Xxx
+is any amino acid except R, C, H, M, P and T.47 The
+substitutions N23T, A42S, A46S and A54S in the
+optimized scaffold enable application of this alter￾native synthesis strategy in the corresponding
+positions. Furthermore, the replacements V1A and
+D2E were done to enable production of the same
+molecule by peptide synthesis and recombinant
+bacterial fermentation. The replacement V1A results
+in efficient removal of an N-terminal methionine
+from soluble peptides in E. coli. The D in position 2 is
+not favorable for peptide synthesis36 and was
+replaced by E, as previously done in Affibody
+molecules made by peptide synthesis.48,49 The effect
+of the substitutions described above on peptide
+synthesis was investigated by comparative synthe￾sis of an Affibody molecule in the improved and in
+the original scaffold. Analysis of the crude peptide
+mixture obtained after synthesis with or without the
+use of pseudoprolines revealed that the yield
+increased and the number of peptide side products
+decreased for ZHER2:2891-Cys in the optimized
+scaffold compared to ZHER2:342-Cys in the original
+scaffold.
+Only four amino acid substitutions in ZHER2:342
+reduced the HER2-binding affinity. The largest
+reduction was seen with D36K and D36A (approx￾imately three- and eightfold, respectively) and, to a
+lesser extent, with N6E and D37E. Neither the
+structure of the SPA B domain–Fc fragment complex
+nor that of the Ztaq–anti-Ztaq complex indicates an
+involvement of D36 in target binding.2,31 However,
+this residue is present in the Z–ZSPA-1 binding
+interface.32,33 In the structural model of ZHER2:342,
+D36 is located in close proximity to R32 and Y35, that
+is, two of the randomized amino acids differing
+between Affibody molecules with different target
+binding specificities (Fig. 8). The results from the
+D36K/A substitutions indicate that D36 is either
+directly involved in HER2 binding or indirectly
+through contacts with one or both of these residues.
+Similarly, N6 is part of the interaction surface of the B
+domain, the ZSPA-1, the ZTaq and the anti-ZTaq, in the
+corresponding complex structures. The interaction is
+specific in some cases (H-bond) and unspecific in
+other cases. The N6D mutation has been used earlier
+to obtain stabilization of the Z domain toward
+alkaline conditions.34 In the present study, N6A
+and the N6E substitutions were analyzed, because D
+is not a favorable amino acid in peptide synthesis.36
+Both replacements reduced the binding affinity to
+HER2 corresponding to a twofold increase in KD
+value. Because current data indicate that the amino
+acid residue in position 6 can be involved in or
+influence target binding, it was concluded that
+replacement with a negatively charged residue
+might bias the binding specificity of new Affibody
+molecules. Therefore, N6A was chosen for the new
+scaffold.
+Two different combinations of nine amino acid
+replacements resulted in Affibody molecules with
+similar HER2-binding affinity, improved Tm and
+decreased interaction with Ig and IgM (nos. 27 and
+29). The KD values were 18 and 20 pM, respectively,
+compared with 23 pM of the parent molecule
+(Table 1). Constructs 27 and 29 have eight replace￾ments in common and differ only in the replacements
+N43E or E47A, respectively. Thus, in the former, a
+polar uncharged amino acid was replaced by a
+charged hydrophilic amino acid, whereas in the latter,
+a negatively charged hydrophilic amino acid was
+replaced by a hydrophobic uncharged amino acid.
+242 Second-Generation Affibody MoleculesThe more hydrophilic Affibody molecule (no. 27) was
+chosen as the basis for an optimized scaffold. The
+sequence V59D60C61 was added at the C-terminus
+to introduce a unique cysteine (no. 30), allowing site￾specific modifications, for example, with the chelator
+MMA-DOTA for labeling with radionuclides (no. 31).
+Conjugation with DOTA did not interfere with the
+folding properties of the resulting molecule, ABY￾025. The binding affinity of ABY-025 (KD, 76 pM) was
+comparable to the affinity of DOTA-ZHER2:342-pep2
+(ABY-002) described earlier.49 Thus, selective and
+high-affinity HER2 binding was retained for the final
+molecule, including binding to HER2-overexpressing
+tumor tissue sections.
+In conclusion, an optimized Affibody molecule
+scaffold with improved properties and a surface
+distinctly different from the parent Z domain has
+been designed. Combination of 11 amino acid
+replacements, that is, V1A, D2E, N3A, F5Y, N6A,
+N23T, S33K, A42S, N43E, A46S and A54S, resulted
+in higher hydrophilicity, higher thermal stability
+and diminished interactions with immunoglobulins,
+improved photometric detection and full produc￾tion flexibility, as well as retained binding affinity.
+Fully retained in vivo functionality and very
+favorable properties for molecular imaging were
+confirmed in a parallel study (Ahlgren et al.,
+submitted). In addition, the results described here
+for Affibody molecules in the improved scaffold
+confirmed the hypothesis of sequence plasticity for
+the naturally evolved proteins, that is, their robust￾ness toward amino acid replacements, as long as
+core residues or residues with contacts to other
+amino acids are avoided. In conclusion, Affibody
+molecules with the optimized scaffold are designed
+proteins with 41% (24 of 58) of all amino acids
+substituted compared to the starting point, the Z
+domain.
+Materials and Methods
+Cloning
+Affibody molecules were cloned into expression
+vectors derived from pAY00442 containing a T7
+promoter,50 a sequence coding for a hexahistidine (His6)
+tag, a multiple cloning site and a kanamycin resistance
+gene. Affibody molecules without His6 tag were cloned
+into pAY00457, which is similar to pAY00442 but does
+not contain the sequence coding for a His6 tag. All
+oligonucleotides used in this study were from Thermo
+Electron Corp. (Ulm, Germany).
+ZHER2:342 variants were created by three different
+methods depending on position and the number of
+mutations in the construct. Site-directed mutagenesis
+was performed with the QuickChange® Site-Directed
+Mutagenesis kit (Stratagene, La Jolla, CA) according to
+the manufacturer's instructions using a vector coding for
+His6-ZHER2:342 as template.
+AccI sticky-end PCR was performed with primers
+designed in Vector NTI 9 (InforMax/Invitrogen, Frederick,
+MD) in two separate reactions. Equal amounts of
+complementary amplification products from PCR1 and 2
+were purified with the QIAquick® PCR Purification Kit
+(Qiagen, Hilden, Germany) and hybridized to each other
+through initial strand separation at 95 °C for 3 min
+followed by a lowering of the temperature from 95 to 25 °C
+during approximately 40 min. The AccI sticky-ends
+fragment could then be ligated into AccI-cleaved vector
+pAY01448.
+Overlap extension PCR was performed by amplification
+of overlapping 5′ and 3′ regions in two separate PCR
+reactions. The overlapping PCR products from the 5′ and
+3′ reactions were combined, purified and used as template
+in AccI sticky-end PCR amplifications. All Z constructs
+were ligated into AccI-cleaved pAY01448.
+Expression and purification of Affibody molecules
+Expression plasmids were transformed to E. coli BL21
+(DE3) cells by electroporation. Bacteria containing expres￾sion plasmids were picked from agar containing kanamycin
+and grown at 37 °C in 800 mL of TSB+YE medium [tryptic
+soy broth (30 g/L)+yeast extract (5 g/L)] supplemented
+with kanamycin (50 mg/L) by means of a multifermentor
+system (System Greta, Belach Bioteknik AB, Sweden). At an
+optical density (OD600nm) of ∼1, the expression of Affibody
+molecules was induced through the addition of 0.5 mM
+IPTG. Five hours later, the cultures were automatically
+cooled to b12 °C. The cultures were then harvested through
+centrifugation (20 min at 15,900g) and the bacterial cell
+pellet (5–10 g) was stored in a freezer (−20 °C).
+For purification of His6-tagged Affibody molecules, E.
+coli cell pellets were disrupted in 7 M urea, 100 mM
+NaH2PO4, 10 mM Tris–HCl (pH 8.0) and Benzonase (100
+U/mL; Merck, Darmstadt, Germany). After 30 min of
+incubation, the lysate was clarified by centrifugation and
+purified by immobilized metal-affinity chromatography
+on a 1.5-mL Superflow Ni-NTA column (Qiagen). The
+column was washed with 7 M urea, 100 mM NaH2PO4
+and 10 mM Tris–HCl (pH 6.3) and eluted with 8 M urea,
+100 mM NaH2PO4 and 10 mM Tris–HCl (pH 4.5). Finally,
+the buffer was exchanged with phosphate-buffered saline
+(PBS) [2.68 mM KCl, 137 mM NaCl, 1.47 mM KH2PO4 and
+8.1 mM Na2HPO4 (pH 7.4)] by using a PD-10 column (GE
+Healthcare, Uppsala, Sweden). For purification of Affi￾body molecules without His tag, E. coli cell pellets were
+disrupted by sonication in 20 mM Tris–HCl (pH 7.5) and
+3000 U Benzonase and heated to 75 °C for 10 min. The
+clarified lysate was purified by anion-exchange chroma￾tography on a Q-Sepharose FF column (GE Healthcare)
+equilibrated with 20 mM Tris–HCl (pH 7.5). The flow￾through was collected and Affibody molecules with a C￾terminal cysteine were incubated with 20 mM DTT for 1 h
+at room temperature. Further purification was by
+reversed-phase chromatography on a Resource 15RPC
+column (GE Healthcare) using acetonitrile (ACN)/tri￾fluoroacetic acid (TFA)/water as mobile phase. Bound
+proteins were eluted with a linear gradient of 5–32% ACN
+and 0.1% TFA in water during 20 column volumes.
+Fractions containing Affibody molecules were collected
+and the buffer was exchanged with PBS by on a HiPrep
+26/10 desalting column (GE Healthcare).
+Modification of the C-terminal cysteine
+The unique thiol group in Affibody molecules with an
+introduced single C-terminal cysteine was blocked with
+NEM [Pierce (Fisher Scientific) Göteborg, Sweden] to
+prevent dimerization of the molecules. Briefly, Affibody
+molecules were reduced with 20 mM DTT in 10 mM Tris–
+Second-Generation Affibody Molecules 243HCl (pH 8.5) for 2 h at room temperature. Excess DDT
+was removed by gel filtration on NAP5-columns (GE
+Healthcare), and a 20-fold molar excess of NEM was
+added to the protein in coupling buffer [100 mM sodium
+phosphate, 150 mM NaCl (pH 7.0)], followed by 1-
+h incubation at room temperature. Excess NEM was
+removed on NAP5 columns as described above, but with
+PBS as equilibration buffer. Coupling of MMA-DOTA
+(Macrocyclics, Dallas, TX) was performed as described
+earlier.51
+Biosensor analysis
+The recombinant human HER2/Fc (ErbB2/Fc) chime￾ric protein, consisting of the extracellular domain of
+ErbB2 (HER2, Met1–Thr652) fused to the Fc region of
+human IgG1 (Pro100–Lys330) with a C-terminal His6 tag
+(R&D Systems, Abingdon, UK), was immobilized [1800
+resonance units (RU)] onto a surface of a CM5 sensor
+chip by amine coupling chemistry. One surface on the
+chip was activated and deactivated for use as reference
+cell. Affibody molecules diluted in HBS-EP buffer
+[10 mM Hepes, 150 mM NaCl, 3 mM ethylenediaminete￾traacetic acid (EDTA) and 0.005% surfactant P-20
+(pH 7.4)] were used as analytes. For analysis of the
+binding kinetics, three analyte concentrations were
+injected in duplicates over the chip at a constant flow
+rate of 50 μL/min. The association phase was 5 min
+followed by a long dissociation phase (30 min) to account
+for the slow off-rate of the Affibody molecules. The
+equilibrium dissociation constant (KD), the association
+rate constant (ka) and the dissociation rate constant (kd)
+were calculated using the 1:1 Langmuir binding model
+with mass transfer correction of the BIAevaluation 4.1
+software (GE Healthcare).
+CD spectroscopy
+The CD analysis was performed on a Jasco J-810
+spectropolarimeter in a cell with an optical path length
+of 1 mm. Affibody molecules were diluted in PBS
+[2.68 mM KCl, 1.47 mM KH2PO4, 137 mM NaCl, 8.1 mM
+Na2HPO4 (pH 7.4)] to a final concentration of approxi￾mately 0.5 mg/mL. In the variable temperature measure￾ments (VTMs), the absorbance was measured at 220 nm
+from 20 to 90 °C, with a temperature slope of 5 °C/min.
+The melting temperatures (Tm) were calculated by
+determining the midpoint of the transition in the CD
+versus temperature plot. CD spectra were taken between
+195 and 250 nm at 20 °C, before and after VTM.
+Ig and IgM interaction ELISA
+Half-area, 96-well ELISA plates (Corning/Costar, no.
+3690, Amsterdam, Netherlands) were coated with Affi￾body molecules (2 μg/mL, 100 μL/well) diluted in
+carbonate buffer (15 mM Na2CO3 and 35 mM NaHCO3).
+The parental molecule ZHER2:342 was included as the
+standard on all ELISA plates. The plates were coated
+overnight at +4 °C and subsequently blocked with PBS
++ 0.1% casein for 2 h at room temperature. Twofold
+dilution series of pools of human or cynomolgus serum or
+serum-derived human IgM (Sigma I8260) was added to
+the plates starting at a 1:100 dilution (serum pools) or at
+0.4 mg/mL (IgM). PBS + 0.5% casein was used as negative
+control. After 1 h of incubation, the plates were washed
+three times in PBS+ 0.5% Tween 20 and goat anti-human
+Ig–horseradish peroxidase (HRP) (Southern Biotechnolo￾gy, no. 2010-05, Birmingham, AL) diluted 1:5000, or anti￾human IgM (Southern Biotechnology, no. 2020-05) diluted
+1:10000 in PBS + 0.1% casein was added. The plates were
+incubated for 50 min, washed and developed for 12 min in
+the dark with 3,3',5,5'-tetramethylbenzidine (TMB) as
+substrate (ImmunoPure TMB kit, Pierce, no. 34021). The
+reaction was stopped by the addition of stop solution
+(2 mM H2SO4), and the absorbance at 450 nm was recorded
+with a Victor3 ELISA reader (Perkin Elmer). Data analysis
+was performed with GraphPad Prism5 and an XY non￾linear regression (sigmoidal dose response) formula to
+obtain a relative value that represents the level of human/
+cynomolgus Ig or IgM molecules binding to mutant
+Affibody molecules compared to standard ZHER2:342. The
+serum dilution or concentration of IgM giving an OD of 0.3
+was calculated. The dilution/concentration value obtained
+for standard ZHER2:342 was set to 100%. The calculated
+dilution/concentration for the mutants was correlated to
+the standard. A value below 100% indicated reduced
+interactions of immunoglobulins with the mutant Affi￾body molecules compared to ZHER2:342.
+Dot blot
+The specificity of ABY-025 for HER2 was analyzed on a
+dot blot containing 16 common human plasma proteins,
+the four members of the HER receptor family, that is,
+HER1 (EGFR), HER2, HER3 and HER4, and three control
+proteins. Dot blot membranes were prepared by immo￾bilizing 0.1 μg of each protein onto a 0.45-μm nitrocel￾lulose membrane (Bio-Rad). The following proteins were
+immobilized: HSA (Sigma-Aldrich Sweden AB), IgG
+(Sigma), IgM (Sigma), IgA (Bethyl, Montgomery, TX),
+α-2-macroglobulin (MP Biomedicals, Solon, OH), fibrino￾gen (Enzyme Research Laboratories, Swansea, UK),
+holotransferrin (Sigma), α-1-antitrypsin (RDI, Flanders,
+NJ), complement C3 (RDI), haptoglobulin (RDI), α-1-acid
+glycoprotein (RDI), α-1-antichymotrypsin (RDI), comple￾ment C4 (RDI), IgE (Fitzgerald, Concord, MA), hemopexin
+(Agilent), transthyretin (Sigma), streptavidin (Pierce),
+neutravidin (Pierce), human Fc (Jackson ImmunoResearch
+Europe Ltd., Suffolk, UK), human EGFR-Fc (R&D
+Systems), HER2-Fc (R&D Systems), HER3-Fc (R&D
+Systems) and HER4-Fc (R&D Systems). The membranes
+were blocked in 0.5% casein in PBST (PBS+ 0.1% Tween 20)
+overnight at 4 °C, followed by incubation with ABY-025
+(2 μg/mL) in PBST + casein for 1 h at room temperature.
+The membranes were washed in PBST three times for 5 min
+and subsequently incubated with affinity-purified poly￾clonal goat anti-Affibody Ig (1 μg/mL, Affibody, no.
+20.1000.01.0005) followed by anti-goat–HRP secondary
+antibody (1:10000 dilution, Dako, Denmark; no. P0449).
+Immunoreactivity was visualized by chemiluminescence
+using SuperSignal® Extended Duration Substrate (Pierce).
+A ChemiImager 5500 system (Alpha Innotech, San
+Leandro, CA) was used for image analysis.
+Immunohistochemistry
+The specificity of ABY-025 for HER2 receptors was
+assessed by immunohistochemistry using SKOV-3 xeno￾graft tumors and human breast cancer tissue.
+Xenografts of HER2-expressing human SKOV-3 cells
+were generated by subcutaneously implanting 107 SKOV￾3 cells into the right hind leg of BALB/c nu/nu mice as
+described earlier.49 Frozen tissue sections of SKOV-3
+xenograft tumors were incubated with ABY-025 or the
+244 Second-Generation Affibody MoleculesTaq-polymerase-specific Affibody molecule [MMA￾DOTA-Cys61]-Ztaq:3638-Cys as negative control, both at a
+concentration of 0.1 μg/mL. HER2-scored frozen tissue
+sections from human breast cancer patients (ProteoGenex)
+were stained with ABY-025 (1 μg/mL). The sections had
+previously been scored as HER2 0 and 3+, respectively, by
+the provider using HercepTest™. The tissue sections were
+subsequently incubated with goat anti-Affibody Ig fol￾lowed by anti-goat IgG–HRP (Dako). Bound Affibody
+molecules were visualized by addition of DAB (3,3′-
+diaminobenzidine; Pierce). Cell nuclei were counter￾stained with hematoxylin. The slides were mounted with
+Mountex and examined with a Leica DMLA microscope
+equipped with a live imaging camera.
+Peptide synthesis
+Affibody molecules ZHER2:342-Cys and ZHER2:2891-Cys
+containing 61 amino acids were assembled by means of
+the Fmoc strategy on a fully automated peptide synthe￾sizer with an integrated microwave oven (Liberty, CEM
+Corporation, Matthews, NC). N-Methyl-2-pyrrolidone
+(NMP) was used for washing and as main solvent, if not
+stated otherwise. Synthesis was performed at a 0.1-mmol
+scale using fivefold excess of Fmoc amino acids (Fmoc￾AA) relative to the NovaPEG Rink Amide LL resin
+(0.17 g/mmol, Merck Chemicals, UK). For deprotection,
+the resin was treated with 20% piperidine under micro￾wave irradiation. For the coupling, O-benzotriazole-N,N,
+N′,N′-tetramethyluronium hexafluorophosphate (HBTU)
+and N-hydroxybenzotriazole (HOBt) in dimethylforma￾mide and N,N′-diisopropylethylamine (DIPEA) in NMP
+were added to the resin at a molar ratio of 1:1:1:2 (Fmoc￾AA–HBTU–HOBt–DIPEA). After each coupling proce￾dure, an automatic acetic anhydride capping was per￾formed using 0.5 M acetic anhydride, 0.125 M DIPEA and
+0.015 M HOBt. For the cleavage, the peptide resin was
+treated with 94:2.5:2.5:1 TFA/ethanedithiol/water/triiso￾propylsilane for approximately 2 h at room temperature.
+The crude purity of the peptide was determined by HPLC
+and online mass spectrometry (HPLC–MS) using an
+Agilent 1100 HPLC/MSD equipped with electrospray
+ionization and a single quadropole. The HPLC was run
+using a Zorbax 300SB C18 (2.1 μm, 150 × 4.6 mm) column
+and 0.1% TFA/water and 0.1% TFA/ACN as solvent A
+and B, respectively. The column oven temperature was
+set to 30 °C. The column was eluted with a linear gradient
+of 15% to 40% solvent B in 100 min at a flow rate of
+0.5 mL/min. UV detection was at 220 and 280 nm. The
+purity was calculated by area normalization. The soft￾ware used for the mass analysis and evaluation was
+ChemStation Rev. B.03.02 (Agilent Technologies, Kista,
+Sweden).
+Structural analysis and molecular modeling
+Structural analysis modeling of amino acid substitu￾tions was based on the available structures of SPA
+domains or Affibody molecules and was carried out
+with MOLMOL52 and Swiss PDB Viewer53 software. The
+structures were analyzed in terms of accessible hydro￾phobic and hydrophilic surface area and specific interac￾tions, such as hydrogen bonds and salt bridges. Potential
+amino acid replacements were selected based on the
+desired properties (e.g., reduced hydrophobicity) and
+modeled into the available structures. Models resulting in
+steric clashes were discarded, and the remaining models
+were ranked using the energy minimization function in
+Swiss PDB Viewer. Each substitution was modeled using
+several different starting structures. Experimental data
+were considered whenever available. The co-crystal
+structure of the SPA domain D with a Fab fragment of a
+human IgM antibody (PDB ID 1DEE) revealed the
+molecular basis of this interaction.26 In order to reduce
+any residual interaction between Affibody molecules and
+Fab, we identified amino acid substitutions that would
+introduce steric clashes or destroy electrostatic comple￾mentarities. The Affibody molecules ZHER2:342 and
+ZHER2:2891 were modeled on the Z domain structure
+(PDB ID 1Q2N) using Swiss PDB Viewer. The models
+are displayed in Fig. 8 using the 3D Mol viewer included
+in the Vector NTI Suite 9.0.0 (InforMax).
+Acknowledgements
+We thank Fredrik Frejd and Karin Nord for
+critically reading the manuscript.
+References
+1. Nilsson, B., Moks, T., Jansson, B., Abrahmsén, L.,
+Elmblad, A., Holmgren, E. et al. (1987). A synthetic
+IgG-binding domain based on staphylococcal protein
+A. Protein Eng. 1, 107–113.
+2. Deisenhofer, J. (1981). Crystallographic refinement
+and atomic models of a human Fc fragment and its
+complex with fragment B of protein A from Staphylo￾coccus aureus at 2.9- and 2.8-Å resolution. Biochemistry,
+20, 2361–2370.
+3. Gouda, H., Torigoe, H., Saito, A., Sato, M., Arata, Y. &
+Shimada, I. (1992). Three-dimensional solution struc￾ture of the B domain of staphylococcal protein A:
+comparisons of the solution and crystal structures.
+Biochemistry, 31, 9665–9672.
+4. Nord, K., Nilsson, J., Nilsson, B., Uhlén, M. & Nygren,
+P.Å. (1995). A combinatorial library of an alpha-helical
+bacterial receptor domain. Protein Eng. 8, 601–608.
+5. Arora, P., Oas, T. G. & Myers, J. K. (2004). Fast and
+faster: a designed variant of the B-domain of protein A
+folds in 3 microsec. Protein Sci. 13, 847–853.
+6. Grönwall, C., Jonsson, A., Lindström, S., Gunneriusson,
+E., Ståhl, S. & Herne, N. (2007). Selection and
+characterization of Affibody ligands binding to Alzhei￾mer amyloid beta peptides. J. Biotechnol. 128, 162–183.
+7. Wikman, M., Steffen, A. C., Gunneriusson, E.,
+Tolmachev, V., Adams, G. P., Carlsson, J. & Ståhl, S.
+(2004). Selection and characterization of HER2/neu￾binding affibody ligands. Protein Eng. Des. Sel. 17,
+455–462.
+8. Orlova, A., Magnusson, M., Eriksson, T. L., Nilsson,
+M., Larsson, B., Höidén-Guthenberg, I. et al. (2006).
+Tumor imaging using a picomolar affinity HER2
+binding affibody molecule. Cancer Res. 66, 4339–4348.
+9. Friedman, M., Nordberg, E., Höidén-Guthenberg, I.,
+Brismar, H., Adams, G. P., Nilsson, F. Y. et al. (2007).
+Phage display selection of Affibody molecules with
+specific binding to the extracellular domain of the
+epidermal growth factor receptor. Protein Eng. Des.
+Sel. 20, 189–199.
+10. Friedman, M., Orlova, A., Johansson, E., Eriksson,
+T. L., Höidén-Guthenberg, I., Tolmachev, V. et al.
+(2008). Directed evolution to low nanomolar affinity of
+Second-Generation Affibody Molecules 245a tumor-targeting epidermal growth factor receptor￾binding affibody molecule. J. Mol. Biol. 376, 1388–1402.
+11. Kronqvist, N., Löfblom, J., Jonsson, A., Wernerus, H.
+& Ståhl, S. (2008). A novel affinity protein selection
+system based on staphylococcal cell surface display
+and flow cytometry. Protein Eng. Des. Sel. 21, 247–255.
+12. Jonsson, A., Wållberg, H., Herne, N., Ståhl, S. & Frejd,
+F. Y. (2009). Generation of tumour-necrosis-factor￾alpha-specific affibody molecules capable of blocking
+receptor binding in vitro. Biotechnol. Appl. Biochem. 54,
+93–103.
+13. Grönwall, C. & Ståhl, S. (2009). Engineered affinity
+proteins—generation and applications. J. Biotechnol.
+140, 254–269.
+14. Steffen, A. C., Wikman, M., Tolmachev, V., Adams,
+G. P., Nilsson, F. Y., Ståhl, S. & Carlsson, J. (2005). In
+vitro characterization of a bivalent anti-HER-2 affibody
+with potential for radionuclide-based diagnostics.
+Cancer Biother. Radiopharm. 20, 239–248.
+15. Hober, S., Nord, K. & Linhult, M. (2007). Protein A
+chromatography for antibody purification. J. Chromatogr.,
+B: Analyt. Technol. Biomed. Life Sci. 848, 40–47.
+16. Friedman, M., Lindström, S., Ekerljung, L., Anders￾son-Svahn, H., Carlsson, J., Brismar, H. et al. (2009).
+Engineering and characterization of a bispecific
+HER2 × EGFR-binding affibody molecule. Biotechnol.
+Appl. Biochem. 54, 121–131.
+17. Rönnmark, J., Hansson, M., Nguyen, T., Uhlén, M.,
+Robert, A., Ståhl, S. & Nygren, P.Å. (2002). Construc￾tion and characterization of affibody-Fc chimeras
+produced in Escherichia coli. J. Immunol. Methods, 261,
+199–211.
+18. Rönnmark, J., Kampf, C., Asplund, A., Höidén￾Guthenberg, I., Wester, K., Pontén, F. et al. (2003).
+Affibody-beta-galactosidase immunoconjugates pro￾duced as soluble fusion proteins in the Escherichia coli
+cytosol. J. Immunol. Methods, 281, 149–160.
+19. Tolmachev, V., Orlova, A., Pehrson, R., Galli, J.,
+Baastrup, B., Andersson, K. et al. (2007). Radionuclide
+therapy of HER2-positive microxenografts using
+a 177Lu-labeled HER2-specific Affibody molecule.
+Cancer Res. 67, 2773–2782.
+20. Zielinski, R., Lyakhov, I., Jacobs, A., Chertov, O.,
+Kramer-Marek, G., Francella, N. et al. (2009).
+Affitoxin—a novel recombinant, HER2-specific,
+anticancer agent for targeted therapy of HER2-
+positive tumors. J. Immunother. 32, 817–825.
+21. Tolmachev, V. (2008). Imaging of HER-2 overexpres￾sion in tumors for guiding therapy. Curr. Pharm. Des.
+14, 2999–3019.
+22. Kramer-Marek, G., Kiesewetter, D. O., Martiniova, L.,
+Jagoda, E., Lee, S. B. & Capala, J. (2008). [18F]FBEM￾ZHER2:342–Affibody molecule—a new molecular tracer
+for in vivo monitoring of HER2 expression by positron
+emission tomography. Eur. J. Nucl. Med. Mol. Imaging,
+35, 1008–1018.
+23. Cheng, Z., De Jesus, O. P., Namavari, M., De, A., Levi,
+J., Webster, J. M. et al. (2008). Small-animal PET
+imaging of human epidermal growth factor receptor
+type 2 expression with site-specific 18F-labeled protein
+scaffold molecules. J. Nucl. Med. 49, 804–813.
+24. Lundberg, E., Höidén-Guthenberg, I., Larsson, B.,
+Uhlén, M. & Gräslund, T. (2007). Site-specifically
+conjugated anti-HER2 Affibody molecules as one￾step reagents for target expression analyses on cells
+and xenograft samples. J. Immunol. Methods, 319,
+53–63.
+25. Lee, S. B., Hassan, M., Fisher, R., Chertov, O.,
+Chernomordik, V., Kramer-Marek, G. et al. (2008).
+Affibody molecules for in vivo characterization of
+HER2-positive tumors by near-infrared imaging. Clin.
+Cancer Res. 14, 3840–3849.
+26. Graille, M., Stura, E. A., Corper, A. L., Sutton, B. J.,
+Taussig, M. J., Charbonnier, J. B. & Silverman, G. J.
+(2000). Crystal structure of a Staphylococcus aureus
+protein A domain complexed with the Fab fragment
+of a human IgM antibody: structural basis for
+recognition of B-cell receptors and superantigen
+activity. Proc. Natl Acad. Sci. USA, 97, 5399–5404.
+27. Ljungberg, U. K., Jansson, B., Niss, U., Nilsson, R.,
+Sandberg, B. E. & Nilsson, B. (1993). The interaction
+between different domains of staphylococcal protein
+A and human polyclonal IgG, IgA, IgM and F(ab′)2:
+separation of affinity from specificity. Mol. Immunol.
+30, 1279–1285.
+28. Jansson, B., Uhlén, M. & Nygren, P.Å. (1998). All
+individual domains of staphylococcal protein A show
+Fab binding. FEMS Immunol. Med. Microbiol. 20, 69–78.
+29. Tashiro, M., Tejero, R., Zimmerman, D. E., Celda, B.,
+Nilsson, B. & Montelione, G. T. (1997). High-resolu￾tion solution NMR structure of the Z domain of
+staphylococcal protein A. J. Mol. Biol. 272, 573–590.
+30. Zheng, D., Aramini, J. M. & Montelione, G. T. (2004).
+Validation of helical tilt angles in the solution NMR
+structure of the Z domain of staphylococcal protein A
+by combined analysis of residual dipolar coupling and
+NOE data. Protein Sci. 13, 549–554.
+31. Lendel, C., Dogan, J. & Härd, T. (2006). Structural
+basis for molecular recognition in an affibody:affibody
+complex. J. Mol. Biol. 359, 1293–1304.
+32. Wahlberg, E., Lendel, C., Helgstrand, M., Allard, P.,
+Dincbas-Renqvist, V., Hedqvist, A. et al. (2003). An
+affibody in complex with a target protein: structure
+and coupled folding. Proc. Natl Acad. Sci. USA, 100,
+3185–3190.
+33. Högbom, M., Eklund, M., Nygren, P.Å. & Nordlund,
+P. (2003). Structural basis for recognition by an in vitro
+evolved affibody. Proc. Natl Acad. Sci. USA, 100,
+3191–3196.
+34. Linhult, M., Gülich, S., Gräslund, T., Simon, A.,
+Karlsson, M., Sjöberg, A. et al. (2004). Improving the
+tolerance of a protein A analogue to repeated alkaline
+exposures using a bypass mutagenesis approach.
+Proteins, 55, 407–416.
+35. Sasso, E. H., Silverman, G. J. & Mannik, M. (1991).
+Human IgA and IgG F(ab′)2 that bind to staphylo￾coccal protein A belong to the VHIII subgroup.
+J. Immunol. 147, 1877–1883.
+36. Ruczynski, J., Lewandowska, B., Mucha, P. &
+Rekowski, P. (2008). Problem of aspartimide forma￾tion in Fmoc-based solid-phase peptide synthesis
+using Dmab group to protect side chain of aspartic
+acid. J. Pept. Sci. 14, 335–341.
+37. Taverna, D. M. & Goldstein, R. A. (2002). Why are
+proteins so robust to site mutations? J. Mol. Biol. 315,
+479–484.
+38. He, Y., Chen, Y., Alexander, P., Bryan, P. N. &
+Orban, J. (2008). NMR structures of two designed
+proteins with high sequence identity but different
+fold and function. Proc. Natl Acad. Sci. USA, 105,
+14412–14417.
+39. Decristoforo, C. & Mather, S. J. (1999). 99m-Techne￾tium-labelled peptide-HYNIC conjugates: effects of
+lipophilicity and stability on biodistribution. Nucl.
+Med. Biol. 26, 389–396.
+40. Choi, H. S., Liu, W., Misra, P., Tanaka, E., Zimmer,
+J. P., Itty Ipe, B. et al. (2007). Renal clearance of
+quantum dots. Nat. Biotechnol. 25, 1165–1170.
+246 Second-Generation Affibody Molecules41. Lendel, C., Dincbas-Renqvist, V., Flores, A., Wahlberg,
+E., Dogan, J., Nygren, P.Å. & Härd, T. (2004).
+Biophysical characterization of Z(SPA-1)—a phage￾display selected binder to protein A. Protein Sci. 13,
+2078–2088.
+42. Lacroix, E., Viguera, A. R. & Serrano, L. (1998).
+Elucidating the folding problem of alpha-helices: local
+motifs, long-range electrostatics, ionic-strength de￾pendence and prediction of NMR parameters. J. Mol.
+Biol. 284, 173–191.
+43. Bai, Y., Karimi, A., Dyson, H. J. & Wright, P. E. (1997).
+Absence of a stable intermediate on the folding
+pathway of protein A. Protein Sci. 6, 1449–1457.
+44. Alonso, D. O. & Daggett, V. (2000). Staphylococcal
+protein A: unfolding pathways, unfolded states, and
+differences between the B and E domains. Proc. Natl
+Acad. Sci. USA, 97, 133–138.
+45. Ghosh, A., Elber, R. & Scheraga, H. A. (2002). An
+atomically detailed study of the folding pathways of
+protein A with the stochastic difference equation. Proc.
+Natl Acad. Sci. USA, 99, 10394–10398.
+46. Quibell, M. & Johnson, T. (2000). Difficult peptides.
+In Fmoc Solid Phase Peptide Synthesis—A Practical
+Approach (Chan, W. C. & White, P. D., eds),
+pp. 115–135, Oxford University Press, Oxford.
+47. Haack, T. & Mutter, M. (1992). Serine derived
+oxazolidines as secondary structure disrupting,
+solubilizing building blocks in peptide synthesis.
+Tetrahedron Lett. 33, 1589–1592.
+48. Engfeldt, T., Renberg, B., Brumer, H., Nygren, P.Å. &
+Karlström, A. E. (2005). Chemical synthesis of triple￾labelled three-helix bundle binding proteins for
+specific fluorescent detection of unlabelled protein.
+Chembiochem, 6, 1043–1050.
+49. Orlova, A., Tolmachev, V., Pehrson, R., Lindborg, M.,
+Tran, T., Sandström, M. et al. (2007). Synthetic affibody
+molecules: a novel class of affinity ligands for
+molecular imaging of HER2-expressing malignant
+tumors. Cancer Res. 67, 2178–2186.
+50. Studier, F. W., Rosenberg, A. H., Dunn, J. J. &
+Dubendorff, J. W. (1990). Use of T7 RNA polymerase
+to direct expression of cloned genes. Methods Enzymol.
+185, 60–89.
+51. Ahlgren, S., Orlova, A., Rosik, D., Sandström, M.,
+Sjöberg, A., Baastrup, B. et al. (2008). Evaluation of
+maleimide derivative of DOTA for site-specific label￾ing of recombinant affibody molecules. Bioconjug.
+Chem. 19, 235–243.
+52. Koradi, R., Billeter, M. & Wüthrich, K. (1996). MOL￾MOL: a program for display and analysis of macromo￾lecular structures. J. Mol. Graphics, 14, 51–55., 29–32.
+53. Guex, N. & Peitsch, M. C. (1997). SWISS-MODEL and
+the Swiss-PdbViewer: an environment for compara￾tive protein modeling. Electrophoresis, 18, 2714–2723.
+Second-Generation Affibody Molecules 247

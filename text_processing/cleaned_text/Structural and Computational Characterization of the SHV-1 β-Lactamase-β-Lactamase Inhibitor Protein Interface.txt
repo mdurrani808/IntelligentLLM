@@ -1,0 +1,319 @@
+Structural and Computational Characterization of the SHV-1  -Lactamase--Lactamase Inhibitor Protein Interface*S  Received for publication, April 24, 2006, and in revised form, June 21, 2006 Published, JBC Papers in Press, June 29, 2006, DOI 10.1074/jbc.
+M603878200  Kimberly A. Reynolds1, Jodi M. Thomson2, Kevin D. Corbett  , Christopher R. Bethel**, James M. Berger  ,  Jack F. Kirsch3  , Robert A. Bonomo  **4  , and Tracy M. Handel5  From the   Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California San Diego, La Jolla,  California 92093-0684, the   Department of Pharmacology, Case Western Reserve University, Cleveland, Ohio 44106,  the   Biophysics Group and   Department of Molecular and Cell Biology, University of California, Berkeley, California 94720,  and **Research Service, Louis Stokes Veterans Affairs Medical Center, Cleveland, Ohio 44106  -Lactamase inhibitor protein (BLIP) binds a variety of  class A -lactamases with affinities ranging from micromolar  to picomolar.
+Whereas the TEM-1 and SHV-1 -lactamases  are almost structurally identical, BLIP binds TEM-1 1000-  fold tighter than SHV-1.
+Determining the underlying source  of this affinity difference is important for understanding the  molecular basis of -lactamase inhibition and mechanisms of  protein-protein interface specificity and affinity.
+Here we  present the 1.6 A resolution crystal structure of SHV-1BLIP.
+  In addition, a point mutation was identified, SHV D104E, that  increases SHVBLIP binding affinity from micromolar to  nanomolar.
+Comparison of the SHV-1BLIP structure with  the published TEM-1BLIP structure suggests that the  increased volume of Glu-104 stabilizes a key binding loop in  the interface.
+Solution of the 1.8 A SHV D104KBLIP crystal  structure identifies a novel conformation in which this binding loop is removed from the interface.
+Using these structural  data, we evaluated the ability of EGAD, a program developed  for computational protein design, to calculate changes in the  stability of mutant -lactamaseBLIP complexes.
+Changes in  binding affinity were calculated within an error of 1.6 kcal/  mol of the experimental values for 112 mutations at the TEM1BLIP interface and within an error of 2.2 kcal/mol for 24  mutations at the SHV-1BLIP interface.
+The reasonable success of EGAD in predicting changes in interface stability is a  promising step toward understanding the stability of the  -lactamaseBLIP complexes and computationally assisted  design of tight binding BLIP variants.
+  Class A -lactamases are a major cause of -lactam resistance in Gram-negative bacteria.
+These enzymes catalyze the  hydrolysis of -lactam antibiotics, such as penicillins and  cephalosporins, rendering them inactive.
+-Lactamase inhibitor protein (BLIP),6 which is secreted by the Gram-positive soil  bacterium Streptomyces clavuligeris, inhibits a variety of class A  -lactamase enzymes with a wide spectrum of affinities.
+Its  binding partners include Escherichia coli TEM-1, Klebsiella  pneumoniae SHV-1, Serratia marcescens SME-1, Bacillus  anthracis BlaI, and Proteus vulgaris K1, among others.
+BLIP is  able to inhibit K1 with picomolar affinity and TEM-1, SME-1,  and BlaI with nanomolar affinity.
+However, it inhibits SHV-1  with only micromolar affinity (1, 2).
+Whereas SHV-1 shares  67% sequence identity with TEM-1 (Fig. 1), and the crystal  structures of the unbound -lactamases overlay with an -carbon r.m.s.
+deviation of 1.4 , BLIP exhibits a 1000-fold difference in affinity for the two (3).
+This poses an interesting question of binding specificity and affinity.
+How does BLIP bind  multiple targets, and what is the source of variation in binding  affinity?
+Recent alanine scanning mutagenesis has provided  insight into the origins of BLIP affinity and specificity for an  array of -lactamases, including TEM-1 and SHV-1 (2, 4).
+  However, interpretation of these data has been limited, because  only the structure of the TEM-1BLIP complex has been solved  by x-ray crystallography (5).
+  Alanine-scanning mutagenesis and comparison of unbound  crystal structures suggested that class A -lactamase residue  104 (Ambler numbering system) (6), which is a glutamate in  TEM-1 and an aspartate in SHV-1, plays a key role in mediating  BLIP affinity.
+It has been hypothesized that the reduced volume  of aspartate disrupts the interfacial salt bridge seen between  Glu-104TEM-1 and Lys-74BLIP and moves the carboxylate group  of Asp-104SHV-1 closer to Glu-73BLIP, introducing an electrostatic clash (2, 3).
+Interestingly, the TEM E104K mutation  decreases affinity for BLIP from 0.11 to 140 nM (7).
+By contrast,  we found that the analogous D104K mutation in SHV has little  effect on binding affinity (582 nM for SHV D104KBLIP versus  * The costs of publication of this article were defrayed in part by the payment  of page charges.
+This article must therefore be hereby marked advertisement in accordance with 18 U.S.C. Section 1734 solely to indicate this fact.
+  The atomic coordinates and structure factors (code 2G2U and 2G2W) have been  deposited in the Protein Data Bank, Research Collaboratory for Structural  Bioinformatics, Rutgers University, New Brunswick, NJ (http://www.rcsb.org/).
+S The on-line version of this article (available at http://www.jbc.org) contains  supplemental Tables 1 and 2.
+1 Supported by a National Science Foundation (NSF) graduate research  fellowship.
+2 Supported in part by National Institutes of Health (NIH) Grant T32 GM07250  and by the Case Medical Scientist Training Program.
+3 Supported by NIH Grant GM35393.
+  4 Supported by NIH Grant 5R01AI635172 and the Veterans Affairs Medical  Center Merit Review Program.
+  5 Supported by NSF Grant 0344749.
+To whom correspondence should be  addressed: CMM East Rm. 2057, 9500 Gilman Dr. Mail Code 0684, La Jolla,  CA 92093-0684. Tel.: 858-822-6656; Fax: 858-822-6655; E-mail: thandel@  ucsd.edu.
+6 The abbreviations used are: BLIP, -lactamase inhibitor protein; vdW, van  der Waals; r.m.s., root mean square; BisTris, 2-[bis(2-hydroxyethyl)amino]-  2-(hydroxymethyl)propane-1,3-diol.
+  THE JOURNAL OF BIOLOGICAL CHEMISTRY VOL.
+281, NO. 36, pp. 2674526753, September 8, 2006  Printed in the U.S.A.  SEPTEMBER 8, 2006VOLUME 281NUMBER 36 JOURNAL OF BIOLOGICAL CHEMISTRY 267451252 nM for SHV-1BLIP), and the D104E mutation increases  affinity to 1.1 nM (Table 1).
+To understand the basis of these  affinity differences, we solved the structures of the SHV-1BLIP  and SHV D104KBLIP complexes to 1.6 and 1.8 , respectively  (Table 2).
+  Although crystal structures provide a physical model that  can be visualized, a thorough understanding of binding specificity and affinity also requires analysis of the energetics underlying interface stabilization.
+In turn, by understanding the physical forces involved in protein complex formation, the design of  tight binding protein partners with desired specificities should  become feasible.
+The TEM-1BLIP interface has already been  demonstrated to be an excellent system for dissecting and reengineering protein-protein interactions; both the Schreiber  and Tidor groups (810) have examined the effects of electrostatic interactions on the stability of this complex.
+To further  interpret the mutational data in the  context of structure, we used  EGAD, our protein design algorithm, to calculate changes in binding affinity for an extensive set of  experimentally characterized TEM1BLIP and SHV-1BLIP mutants (2,  7, 9, 1114).
+This energy function  was previously shown to predict relative affinities for a large set of protein interface mutational data,  including a reduced set of TEM-1  mutants, correctly (15).
+The present  calculations extend this work to a  larger set of TEM-1BLIP mutations as  well as to the SHV-1BLIP interface.
+  The reasonable success of these predictions indicates that EGAD can be  used to guide further mutational  analysis of the -lactamaseBLIP  complexes, including creation of  tighter binding variants.
+Whereas  the -lactamaseBLIP complexes  were chosen as model systems, a  combined approach of structural,  computational, and mutagenic  techniques is emerging as a powerful method for engineering protein variants with potential for  medical and other scientific  applications.
+  EXPERIMENTAL PROCEDURES  Cloning and Protein PurificationThe blaSHV gene cloned  into pBC SK() phagemid (Stratagene, La Jolla, CA) was used  to construct the blaD104K and blaD104E variants of SHV-1 -lactamase (16, 17).
+The blaD104E mutation was created in pBC  SK(), whereas the blaD104K variant was subcloned into pET24a() (Novagen, Madison, WI).
+Mutagenesis was then performed at position 104 using the QuikChange site-directed  mutagenesis kit (Stratagene).
+  SHV-1 and SHV D104E were expressed in pBC SK() in  E. coli DH10B cells grown overnight, without induction.
+SHV  D104K was expressed in E. coli BL21(DE3) cells by induction  with 0.2 mM isopropyl--D-thiogalactopyranoside at A600  0.8  for 3 h at 37 C.
+For all enzymes, cells were harvested by centrifugation at 4 C and frozen overnight.
+-Lactamase was liberated using stringent periplasmic fractionation with lysozyme  and EDTA as previously described (18).
+Preparative isoelectric  focusing was performed with a Sephadex granulated gel and  ampholines in the pH range of 3.510 (Amersham Biosciences).
+  The protein was eluted with 20 mM diethanolamine buffer, pH 8.3.
+  An additional HPLC purification step was performed on aWaters  high pressure liquid chromatograph using a Sephadex Hi Load  26/60 column (Amersham Biosciences) and eluted with phosphate-buffered saline (pH 7.4).
+This expression and purification  scheme yielded 10 mg of pure protein/liter of culture for SHV-1  and SHV D104E and 1 mg for SHV D104K.
+  FIGURE 1.
+Comparison of amino acid differences at the SHV-1BLIP and TEM-1BLIP interfaces.
+A,  sequence alignment of TEM-1 and SHV-1 (Ambler numbering system).
+Conserved residues are highlighted in  light gray, conserved interface residues in dark gray, and nonconserved interface residues in orange.
+Interface  residues were defined as -lactamase residues within 6  of BLIP.
+SHV-1 and TEM-1 share 67% sequence  identity overall and 81% at interface residues.
+BE, structural alignment of interface amino acid positions  differing between SHV-1 and TEM-1.
+For clarity, only the backbone coordinates of SHV-1 and BLIP bound to  SHV-1 are shown.
+The SHV-1 side chain is shown in red, the TEM-1 side chain in yellow, BLIP bound to SHV-1 in  dark blue, and BLIP bound to TEM-1 in orange.
+B, structural overlay of SHV-1 Gln-100 and TEM-1 Asn-100. C,  structural overlay of SHV-1 Ala-114 and TEM-1 Thr-114.
+D, structural overlay of SHV-1 Thr-167 and TEM-1  Pro-167. E, structural overlay of SHV-1 Asp-104 and TEM-1 Glu-104.
+  TABLE 1  Summary of -lactamaseBLIP Kd determinations for -lactamase  position 104 mutants  The wild type identity of position 104 is glutamate in TEM-1, aspartate in SHV-1,  and lysine in an extended spectrum TEM variant.
+ND, not determined.
+  Mutation TEM-1BLIP Kd SHV-1BLIP Kd  nM nM nM  Glu-104 0.32  0.03 1.1  0.1  Asp-104 ND 1252  52  Lys-104 140  5a 582  42  a Value from Ref.
+7.
+  Characterization of the SHV-1BLIP Interface  26746 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 281NUMBER 36SEPTEMBER 8, 2006TEM-1 cloned into pET24a() with a N-terminal OmpA  secretion signal was provided by Stephane Gagne (Universite  Laval).
+TEM-1 was expressed and purified as in Ref. 19.
+The  BLIP construct was a generous gift from Susan Jensen (University of Alberta).
+The BLIP bli gene was cloned into pET26b  (Novagen, Madison, WI), with the native S. clavuligeris signal  sequence at the N terminus.
+BLIP was expressed in E. coli  BL21(DE3) cells by inducing with 1 mM isopropyl--D-thiogalactopyranoside at A600  0.5 for 3 h at 30 C.
+Cells were harvested by centrifugation, resuspended in 20 g/100 ml sucrose, 1  mM EDTA, 30 mM Tris, pH 8.0, and incubated for 15 min.
+The  cells were pelleted and resuspended in 5 mM MgCl2.
+After centrifugation at 7,000 rpm for 10 min, the periplasmic fraction  was retained, and a Complete protease inhibitor mixture tablet  (Roche Applied Science) was added.
+That fraction was subsequently clarified by additional centrifugation and loaded onto a  HiPrep 16/10 Q-XL anion exchange column (Amersham Biosciences) equilibrated in 25 mM Tris, pH 8.4, 1 mM EDTA.
+A  250-ml gradient from 0 to 500 mM NaCl was used to isolate  BLIP, which elutes at 150 mM NaCl.
+Fractions were pooled  and concentrated to a final volume of 2 ml and subsequently  passed through a HiLoad 26/60 Superdex 75 preparation grade  gel filtration column (Amersham Biosciences) equilibrated in  50 mM Tris, pH 8.4, 100 mM NaCl.
+After purification, BLIP was  concentrated to 1 mg/ml and stored at 80 C.
+This expression  and purification scheme yielded roughly 0.5 mg of pure protein/liter of culture.
+  Crystallization, Data Collection, and Structure Solution  SHV-1 or SHV D104K was mixed 1:1 with BLIP in 20 mM BisTris,  pH 7.25, 50 mM NaCl, concentrated to 8.7 mg/ml, and dialyzed  overnight against 20 mM BisTris, pH 7.25, 50 mM NaCl.
+Crystals  were grown at 19 C in microbatch format under Als oil (Hampton Research, Aliso Viejo, CA) by mixing 1 l of protein with 1 l  of well solution.
+The SHV-1BLIP crystals were grown in a well  solution of 60% ammonium sulfate, 50 mM cacodylate, pH 6.5;  SHV D104KBLIP crystals were grown in a well solution of 8%  polyethylene glycol 8000, 50 mM cacodylate, pH 6.5.
+For harvesting, a cryoprotectant solution containing well solution plus 25%  glycerol for SHV-1BLIP or well solution plus 30% xylitol for SHV  D104KBLIP was added directly to the drop, and the crystals were  immediately looped and flash-frozen in liquid nitrogen.
+  Data sets were collected on Beamline 8.3.1 at the Advanced  Light Source at Lawrence Berkeley National Laboratory (20).
+A  preliminary 2.1  data set for SHV-1BLIP was collected on an  R-Axis IV at the University of California Berkeley (Rigaku/  MSC, The Woodlands, TX).
+Data were indexed and reduced  with HKL2000 (21) or ELVES (22) using MOSFLM (23).
+For the  1.8  high resolution SHV-1BLIP structure, molecular replacement was performed using a partially refined structure from the  2.1  data set.
+Initial maps for the SHV D104KBLIP structure  were generated by molecular replacement with PHASER (24)  using polyalanine models of SHV-1 (coordinates taken from Protein Data Bank entry 1SHV) and BLIP (coordinates taken from  Protein Data Bank entry 1JTG) (3, 5).
+Manual rebuilding was carried out with O (25).
+Refinement was carried out with Refmac (26)  using ARP to automatically place ordered waters, followed by TLS  refinement (27).
+Additional details of the data collection and  refinement are provided in Table 2.
+Structural alignments and  r.m.s.
+deviations were calculated with LSQMAN (28).
+All molecular figures were created with PyMOL (29).
+  Inhibition AssaysAll kinetic determinations were performed using nitrocefin (BD Biosciences) as the indicator substrate to measure hydrolysis rates of SHV-1, SHV D104K, SHV  D104E, and TEM-1 -lactamases with and without inhibitor.
+  BLIP and lactamase were incubated for 2 h at room temperature in 10 mM sodium phosphate-buffered saline containing 1  mg/ml bovine serum albumin.
+Initially, 7 nM enzyme was used  for all assays, but this was reduced to 4 nM for SHV D104E and  2 nM for TEM-1 to obtain an accurate measurement of the low  Kd values.
+Reactions were initiated with nitrocefin at the Km for  the enzyme (25M for SHV-1, 15M for SHV D104K, 25M for  SHV D104E, and 150 M for TEM-1).
+Final reaction volumes  were 1 ml.
+All measurements were performed in triplicate.
+  Hydrolysis rates were determined at   482 nm using the  extinction coefficient,   17,400 M1 cm1 for the hydrolyzed  form of nitrocefin (30).
+  BLIP inhibition curves were graphed using Origin 7.5 SR  software and fit to the following equation,  Efree  [E0]   [E0]  [I0]  K*  d  ([E0]  [I0]  K*d )  2  (4[E0][I0])  2 (Eq. 1)  where Efree represents the remaining free enzyme concentration calculated based on activity, [E0] is initial enzyme concenTABLE 2  Data collection, refinement, and stereochemistry for the SHV-1:BLIP  and SHV D104K:BLIP structures  Rsym  j  Ij  IIj  , where Ij is the intensity measurement for reflection j,  and I is the mean intensity for multiple recorded reflections.
+Rwork, free   Fo  Fc/Fo, where the working and free R-factors are calculated using the  working and free reflection sets, respectively.
+The free reflections were held  aside throughout refinement.
+  Parameters  Values  SHV-1BLIP SHV D104KBLIP  Data collection  Resolution () 30.0-1.6 30.0-1.8  Wavelength () 1.1159 1.1159  Space group P63 P1  Unit cell dimensions  (a, b, c) ()  127.87, 127.87, 73.40 42.56, 44.83, 62.90  Unit cell angles (, , )  (degrees)  90.0, 90.0, 120.0 78.88, 88.95, 62.42  I/ (last shell) 34.9 (5.28) 25.4 (6.07)  Rsym (last shell) (%) 0.055 (0.305) 0.030 (0.096)  Completeness (last shell) % 98.7 (97.2) 95.9 (89.7)  No. of reflections 1,227,626 179,431  No. of unique reflections 88,872 35,776  Refinement  Resolution () 30.0-1.6 30.0-1.8  No. of reflections 88,841 35,772  No. of working reflections 84,358 33,986  No. of free reflections  (% of total)  4483 (5%) 1786 (5%)  Rwork (last shell) (%) 17.29 (15.9) 18.0 (22.2)  Rfree (last shell) (%) 18.61 (19.8) 21.4 (25.7)  Structure and stereochemistry  No. of atoms 3590 3447  No. of protein atoms 3259 3254  No. of waters 331 193  r.m.s.
+deviation bond lengths  ()  0.012 0.010  r.m.s.
+deviation bond angles  (degrees)  1.37 1.21  Characterization of the SHV-1BLIP Interface  SEPTEMBER 8, 2006VOLUME 281NUMBER 36 JOURNAL OF BIOLOGICAL CHEMISTRY 26747tration, [I0] is the concentration of BLIP, and K*  d is the apparent  equilibrium constant (7).
+K*  d was corrected for the presence of  substrate using the following equation.
+  Kd  K*  d  (1  [S]/Km) (Eq. 2)  Computational Calculation of Free Energies of Dissociation  EGAD_lib,7 a C implementation of the EGAD protein  design energy function, was employed to calculate dissociation  free energies of the complexes (15, 31).
+The function consists of  an OPLS-AA derived force field (32) alongside a solvent-accessible surface area term and the generalized Born model to  describe solvation.
+The force field terms include a linearized  van der Waals (vdW) potential, a coulombic electrostatics  term, and a torsional potential.
+Minimization was conducted  using Monte Carlo simulated annealing followed by a heuristic  quench step (15).
+  An initial model for the bound state of the complex was created by rotamer optimization of the corresponding crystal  structure (Protein Data Bank code 1JTG for TEM-1BLIP, Protein Data Bank code 2G2U for SHV-1BLIP, or Protein Data  Bank code 2G2W for SHV D104KBLIP) (45).
+The unbound  state model was generated by separating the two chains in the  complex by 25 , followed by rotamer optimization of each.
+For  these complexes, calculations performed with the rotamer-optimized initial model were not significantly different from those  using the Protein Data Bank structure directly.
+Typically, we  use initial rotamer optimization in interface calculations as a  precaution against improperly refined rotamers, although the  high resolution of the -lactamaseBLIP structures makes this  step less important.
+  The free energy of dissociation is defined as the energy difference between the complex and free states.
+   Gd   Gbound   Gfree (Eq. 3)  The free energy used for comparison with experimental values  is as follows.
+    Gd, mut  ( Gd, mut   Gd, WT) (Eq. 4)  Here  is a scaling factor used to normalize the predicted changes  in binding affinity to have a slope of 1 when compared with the  experimental energy changes (15).
+For   Gd, mut calculated with  the TEM-1BLIP backbone coordinates,   0.18; for both SHV1BLIP and SHV D104KBLIP,   0.30.
+The mutant free energies  were calculated by rotamer optimization of the mutant structures,  allowing only a reduced set of positions to move during optimization.
+This set was restricted to residues at the interface (residues  that undergo a change in solvent-accessible surface area upon  binding) and their neighbors.
+  RESULTS  Structure of the SHV-1BLIP ComplexThe structure of the  SHV-1BLIP complex is globally similar to that of TEM-1BLIP;  alignment of the -carbon atoms of TEM-1 and SHV-1 yields  an r.m.s. deviation of 0.44  between the two -lactamases and  an r.m.s.
+deviation of 1.04  between the associated BLIPs (Fig. 2).
+  Alignment of all -carbon atoms yields an overall r.m.s.
+deviation  of 0.61  for the two complexes.
+As in the TEM-1 complex, the  concave -sheet region of BLIP latches onto a protruding loophelix region of SHV-1 (residues 99112), and two loops of BLIP  insert into the -lactamase active site.
+Residues Asp-49 (at the end  of the first loop) and Phe-142 (at the end of the second loop) form  an approximate mimic of the -lactamase substrate, penicillin G  (5).
+Comparison of the bound and unbound forms of SHV-1  reveals only minimal global changes in conformation upon binding, with the exception of the H10 helix (residues 218230) (Fig.  3).
+In the SHV-1BLIP structure, the H10 helix partially unravels at  the N terminus, assuming a structure similar to the H10 helix as  observed in both the bound and unbound forms of TEM-1.
+The  H10 helix conformation in the crystal of unbound SHV-1 is possibly affected by proximal binding of a detergent molecule, Cymal-6  (3).
+Previously, it was observed that the conformation of the H10  helix interacting with detergent in the SHV-1 unbound structure  was similar to the conformational change seen when TEM-1 interacts with an allosteric cryptic site inhibitor (33).
+  The question then remains, what features are responsible for  the differential affinity of BLIP for TEM-1 versus SHV-1?
+There  are eight SHV-1 residues within 6  of BLIP that differ in identity from TEM-1 (Fig. 1A).
+These include R98S, Q100N, D104E,  A114T, S133T, T167P, R215K, and T235S (here the residue  identity in SHV-1 is listed first).
+Comparison of the hydrogen  bond, salt bridge, and vdW interactions of these residues in the  TEM-1BLIP and SHV-1BLIP complexes provides some structural insight.
+EGAD was used to quantify the extent of vdW  contact.
+Pairwise vdW energies were calculated between all  interface residues, and those providing stabilizing interactions  in excess of 1.0 kcal/mol are tabulated in supplemental Table  2.
+A combination of the REDUCE and BndList programs was  used to detect hydrogen bonds and salt bridges (34) (supplemental Table 1).
+In a few cases, the SHV-1 residue type contributes new interactions: Arg-98SHV has improved vdW packing  with Trp-150BLIP relative to Ser-98TEM, and Arg-215SHV forms  two hydrogen bonds with Glu-31BLIP, whereas Lys-215TEM  forms only one.
+For positions 133 and 235, there is little difference between the TEM-1 and SHV-1 residues; S133T makes  few interfacial contacts in SHV-1 or TEM-1, and Thr-235SHV  forms a hydrogen bond with Asp-49BLIP analogous to that  formed by Ser-235TEM.
+However, for the remaining four residue differences, TEM-1 forms more extensive interactions  across the interface.
+The backbone carbonyls of Gln-100SHV  and Asn-100TEM both form a hydrogen bond with Arg-160BLIP,  although Asn-100TEM is able to form more extensive vdW contacts with Trp-150BLIP and Arg-160BLIP (Fig. 1B).
+Thr-114TEM  exhibits improved vdW interactions with Tyr-115BLIP in comparison with Ala-114SHV (Fig. 1C), and Pro-167TEM forms more  extensive contacts with Trp-162BLIP; however, Thr-167SHV  does provide increased vdW interactions with Phe-142BLIP (Fig.  1D).
+The reduced volume of Asp-104SHV eliminates the interfacial salt bridge between Glu-104TEM and Lys-74BLIP.
+A hydrogen bonding interaction between Glu-104TEM and the Tyr143BLIP backbone is not formed with Asp-104SHV, favorable  vdW packing interactions between Glu-104TEM and Phe7 A. Chowdry, K. A. Reynolds, M. S. Voorhies, M. S. Hanes, N. Pokala, and T. M.  Handel, manuscript in preparation.
+  Characterization of the SHV-1BLIP Interface  26748 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 281NUMBER 36SEPTEMBER 8, 2006142BLIP are entirely eliminated in the SHV-1BLIP interface,  and the packing between Asp-104SHV and Tyr-143BLIP is significantly reduced relative to Glu-104TEM (Fig. 1E).
+These dramatic changes between position 104 in SHV-1 compared with  TEM-1 suggest that it might be a particularly important hot  spot in the interface.
+  Mutagenesis of SHV Position 104The substitution of aspartate in SHV-1 for glutamate in TEM-1 at position 104 shortens  the side chain by a single carbon, yet a number of interactions  across the -lactamaseBLIP interface are eliminated.
+The loss  of the Glu-104TEM and Lys-74BLIP salt bridge results in the  energetically unfavorable burial of unsatisfied charges at the  interface.
+The extensive contacts removed between position  104 and the Phe-142 loop are consistent with previous mutational data indicating that Phe-142TEM is a hot spot at the TEM1BLIP interface, whereas Phe-142SHV appears to have a  reduced role in the SHV-1BLIP interface (2).
+For these reasons,  we further explored the role of position 104 at the SHV-1BLIP  interface through mutagenesis.
+  Remarkably, we find that the point mutant SHV D104E  results in a 1000-fold increase in the binding affinity of BLIP  (Table 1).
+The D104E substitution in SHV-1 may function to  restore the salt bridge with Lys-74BLIP and, perhaps more  importantly, provide stabilizing interactions with the Phe-142  loop.
+We are currently conducting further characterization of  the SHV D104E mutation through crystallography and a more  extensive double mutant cycle analysis.
+  In addition to the SHV D104E mutation, the SHV D104K  mutation was characterized.
+The analogous TEM E104K mutation leads to an extended spectrum resistance phenotype and  was previously found to decrease TEM-1 affinity for BLIP from  0.11 to 140 nM (7).
+However, we find that the SHV D104K mutation leads to a moderate increase in affinity, from 1252 to 582  nM. Interestingly, crystallography of this complex identifies an  alternate BLIP binding mode.
+  Structure of the SHV D104KBLIP ComplexIn the SHV1BLIP structure, the Asp-49 and Phe-142 loops occupy the active  FIGURE 2.Comparison of the BLIP complexes with TEM-1, SHV-1, and SHV  D104K.
+All structures were constructed by -carbon alignment of the two  -lactamases.
+For clarity, the bound BLIPs are shown in reference to the SHV-1  structure only, since all three -lactamases align within an average -carbon  r.m.s.
+deviation of 0.41 . The -lactamase is shown in gray, BLIP bound to  TEM-1 in orange, BLIP bound to SHV-1 in dark blue, and BLIP bound to SHV  D104K in cyan.
+The TEM-1- and SHV-1-bound BLIP structures align with an  -carbon r.m.s.
+deviation of 1.04  (A) with very little difference in the Asp-49  and Phe-142 binding loops (B).
+The SHV-1- and SHV D104K-bound BLIP structures align with an-carbon r.m.s.
+deviation of 2.24  (A) with large rearrangements in the Asp-49 and Phe-142 binding loops (B).
+  FIGURE 3.
+Conformational change of the H10 helix.
+The H10 helix of SHV-1  assumes an alternate conformation in the BLIP bound structure (shown in  bright green).
+Here it is compared with the H10 helix of unbound SHV-1 in dark  blue and of TEM-1 in orange.
+The conformation of the H10 helix is identical in  both TEM-1 bound and unbound.
+The backbone coordinates of TEM-1 (in  gray) bound to BLIP (in red) are shown for reference.
+  Characterization of the SHV-1BLIP Interface  SEPTEMBER 8, 2006VOLUME 281NUMBER 36 JOURNAL OF BIOLOGICAL CHEMISTRY 26749site as in TEM-1.
+However, in the SHV D104K mutant complex,  the Phe-142 loop swings out of the active site cavity, and the  Asp-49 loop is rotated to partially occupy the space vacated by the  Phe-142 loop (Fig. 2).
+Whereas the wild type binding mode buries  an extent of surface area comparable with the TEM-1 complex  (2757 2 in TEM-1 versus 2624 2 in SHV-1), the mutant buries  only 2450 2  .
+Curiously, despite the loss of interactions with the  Phe-142 loop and the decreased amount of interfacial buried surface area, we find the SHV D104K interface to be slightly stabilized  relative to the native complex (Table 1).
+  The removal of the Phe-142 loop from the SHV active site is  the most striking difference between the wild type and D104K  complexes (Fig. 2).
+The loop is somewhat disordered, and the  density for BLIP residue 139 is missing entirely in the mutant  complex.
+The loop forms a small number of crystal contacts  with a neighboring SHV D104KBLIP complex, consisting of  two potential hydrogen bonds between Tyr-143BLIP and the  neighboring SHV Gln-206 and Trp-110.When Lys-104SHV is  modeled into the wild type SHV-1BLIP complex using  EGAD, a clash is introduced with Tyr-143BLIP.
+By swinging  out of the active site, the Phe-142 loop relieves this collision.
+  The removal of the flexible Phe-142 loop from the interface  may serve to increase the overall entropy of the complex.
+  However, all vdW contacts between the BLIP Phe-142 loop  and SHV are lost when the Phe-142 loop is not present (supplemental Table 2).
+Instead, these lost interactions appear to  be compensated for by increased interactions with the  Asp-49 loop.
+  The interface hot spot residue Asp-49BLIP appears in almost  identical conformations in the TEM-1BLIP, SHV-1BLIP, and  SHV D104KBLIP structures (Fig. 2).
+The average r.m.s.
+deviation for all possible pairwise comparisons between Asp-49BLIP  in the three structures is 0.98 . In each case, Asp-49BLIP forms  two salt bridges with Arg-244SHV and Lys-234SHV, as well as  making two hydrogen bonds with Ser-130SHV and Thr-235SHV  (Ser-235TEM).
+This positioning is consistent with its shared role  as a hot spot in both the TEM-1BLIP and SHV-1BLIP interfaces (2, 12).
+Despite the highly conserved structural role of  Asp-49BLIP in SHV D104K, the remainder of this loop is able to  pivot around this residue, rotating further into the -lactamase  active site (Fig. 4).
+This allows the Tyr-50BLIP side chain to  swing into the space vacated by loop residue Phe-142BLIP,  creating two new interactions: a hydrogen bond between Tyr50BLIP and Asn-132SHV and a possible   interaction between  Asn-132SHV and the aromatic face of Tyr-50BLIP.
+In concert  with the Tyr-50BLIP movement, residue Tyr-105SHV must  swivel to the other side of the loop to avoid clashing with  Tyr-50BLIP.
+This rearrangement breaks a hydrogen bond  between Tyr-105SHV and Gly-141BLIP (located in the Phe-142  loop) and creates a new hydrogen bond between Tyr-105SHV  and Tyr-51BLIP (supplemental Table 1).
+  The concerted movement between Tyr-50BLIP and Tyr105SHV also changes the vdW packing at the interface (supplemental Table 2).
+Tyr-105SHV no longer forms stabilizing vdW  contacts with Phe-142BLIP but now interacts with Tyr-51BLIP  and Tyr-53BLIP in the Asp-49 loop, as well as forming more  extensive interactions with Tyr-50BLIP.
+The repositioning of  Tyr-105SHV is similar to that observed in the TEM1  F142ABLIP structure (13), in which the Asp-49 and Phe-142  loops maintain their positions in the active site, but the area  around the Phe-142 loop is unstructured.
+Tyr-50BLIP also  forms new interactions with Ser-130SHV, Asn-132SHV, and  Glu-166SHV.
+  Examining the SHVBLIP structures with PROCHECK  reveals that Tyr-50BLIP is sterically strained in the wild type  interface, and the altered conformation of the Asp-49 loop in  the SHV D104KBLIP structure relieves this strain (35).
+The  Y50A mutation stabilizes both the TEM-1BLIP and SHV1BLIP interfaces (2).
+This stabilizing effect may arise from  relief of steric strain in the Asp-49 loop.
+  Summarizing, the Phe-142 loop swings out of the SHV active  site cavity, whereas residues in the Asp-49 loop rotate in to  FIGURE 4.
+Structural changes at the -lactamaseBLIP interface.
+A, interactions of the Asp-49 and Phe-142 loops of BLIP (dark blue) in complex with  SHV-1 (gray).
+B, interactions of the Asp-49 and Phe-142 loops of BLIP (cyan) in  complex with SHV-1 D104K (gray).
+  Characterization of the SHV-1BLIP Interface  26750 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 281NUMBER 36SEPTEMBER 8, 2006occupy some of the missing positions.
+Newly created interactions from the Asp-49 loop and relief of steric strain may  explain the slightly increased affinity of SHV D104K over  SHV-1 for BLIP.
+These large concerted structural rearrangements also illustrate how prediction of the effects of mutations  may sometimes be difficult.
+Nevertheless, since we are interested in using computational methods to guide future  mutagenesis studies of the interface, we conducted an extensive  examination of the ability of EGAD to predict stability changes  arising from mutation.
+  Calculation of   Gd, mut Using EGADDissociation constants have been experimentally determined for an extensive  set of both TEM-1BLIP and SHV-1BLIP mutant complexes,  including nonalanine mutations and constructs with as many as  six mutations (2, 7, 9, 1114).
+These data provide an excellent  opportunity for evaluating the ability of EGAD to calculate  changes in the free energy of dissociation (  Gd, mut) and,  where predictions fall short, a metric for improving the energy  function.
+Experimentally observed    Gd, mut values were calculated  within an error of 1.6 kcal/mol for a  set of 112 TEM-1BLIP mutants  (Fig. 5A).
+By comparison, the experimental error for   Gd, mut determined from independent experiments ranges from 0.1 to 1.3 kcal/  mol (average 0.5 kcal/mol) for the  TEM-1BLIP interface.
+Whereas  this demonstrates that the program  performs reasonably well for the  majority of characterized mutations, in several cases, we find the  changes in energy to be largely overestimated.
+  Gd, mut is consistently  overpredicted for complexes that  include BLIP Y50A or TEM Y105A.
+  The calculated changes in affinity are also overpredicted for the  double mutant TEM E104KBLIP  F142A and for the quadruple mutant TEM E104ABLIP K74A/F142A/  Y143A (Fig. 5B).
+For the SHV-1BLIP  interface, energies were calculated  using the backbone conformations  from both the SHV-1BLIP and SHV  D104KBLIP complex structures.
+  Using the SHV-1BLIP structure,  the effects of mutation on binding  affinity are predicted within an  error of 2.1 kcal/mol, and for the  SHV D104KBLIP structure, the  error is 2.2 kcal/mol (Fig. 5, C and  D).
+For both structures,   Gd, mut  is again overpredicted for complexes that include the mutation  BLIP Y50A.
+Calculations using the  SHV-1BLIP structure also overpredicted the effects of mutants  BLIP F142A, BLIP Y143A/W112A, BLIP E73A/Y143A, and  SHV D104E.
+  DISCUSSION  Subtle structural differences between SHV-1 and TEM-1  result in a large change in BLIP binding affinity (Fig. 1, BE).
+  Four SHV-1 residues that differ in identity from TEM-1 result  in decreased vdW and electrostatic interactions at the interface  according to our calculations.
+These include Q100N, A114T,  T167P, and D104E (SHV amino acid identity is listed first).
+  Importantly, the loss of stabilizing interactions indicated by the  structures and quantified with our program is in agreement  with previous alanine scanning mutagenesis.
+For example,  EGAD calculations find that the Q100N difference results in  less extensive vdW contacts between Gln-100SHV and both  Trp-150BLIP and Arg-160BLIP (supplemental Table 2).
+This provides a possible structural explanation for previous alanine  scanning data, which found that the BLIP W150A and R160A  FIGURE 5.
+Correlation between predicted and experimental Gd, mut for TEM-1BLIP and SHV-1BLIP.
+A,  correlation for TEM-1BLIP interface mutations well described by the fixed backbone model.
+B, correlation for  TEM-1BLIP interface mutations, including those overpredicted by the fixed backbone model.
+ , Y50A mutations; , Y105A mutations; E, the E104K/F142A and E104A/F142A/K74A/Y143A mutations.
+C, correlation for  SHV-1BLIP mutations calculated with the SHV-1BLIP structure.
+ , Y50A mutations; , Y143A/W112A, F142A,  and E73A/Y143A mutations; E, the D104E mutation.
+D, correlation for SHV-1BLIP mutations calculated with  the SHV D104KBLIP structure.
+ , Y50A mutations.
+  Characterization of the SHV-1BLIP Interface  SEPTEMBER 8, 2006VOLUME 281NUMBER 36 JOURNAL OF BIOLOGICAL CHEMISTRY 26751mutations were far more destabilizing to the TEM-1BLIP  interface than the SHV-1BLIP interface (2).
+At position Thr167SHV, EGAD calculates a decrease in vdW interactions with  Trp-162BLIP relative to Pro-167TEM (supplemental Table 2).
+  Correspondingly, it was experimentally determined that the  BLIP W162A mutation destabilizes the TEM-1BLIP complex  by 2.18 kcal/mol but destabilizes the SHV-1BLIP complex by  only 0.53 kcal/mol (2).
+Additionally, the SHV-1BLIP structure  confirms that Asp-104SHV is unable to participate in a salt  bridge formed by Glu-104TEM and Lys-74BLIP; experimentally,  it was found that the BLIP K74A mutation destabilizes the  TEM-1BLIP interface due to the loss of the salt bridge but not  the SHV-1BLIP interface, where the salt bridge is absent (2).
+  The decreased volume of Asp-104SHV not only removes a salt  bridge but has potential implications for the stability of the  Phe-142 binding loop.
+As described under Results, a number  of contacts with the Phe-142 binding loop are removed; calculating the interfacial vdW interactions for the Phe-142 loop  with EGAD reveals that the interactions eliminated between  Asp-104SHV, Phe-142BLIP, and Tyr-143BLIP account for 41% of  the overall vdW energy stabilizing the loop in the TEM-1BLIP  complex.
+The reduced role of Phe-142BLIP in the SHV-1BLIP  interface is consistent with the appearance of the alternate conformation observed in the SHV D104KBLIP complex and the  relative indifference in binding affinity to the removal of  Phe-142BLIP from the active site cavity.
+The conformational  flexibility observed in the Asp-49 and Phe-142 loops may contribute to the ability of BLIP to bind a range of -lactamases.
+  Structural plasticity in loop regions is a common motif in protein interfaces that bind multiple partners with high affinity (e.g.  conformational flexibility in antibody loops results in specific  recognition of diverse antigens) (36).
+  Overall, the change in both hydrogen bonding and vdW packing in the SHV D104KBLIP interface reflects a shift toward  increased stabilization around the Asp-49 loop and a reduced  number ofinteractions with the Phe-142loop.
+This reorganization  suggests that SHV-1 may be inhibited by a reduced set of contacts with a single binding loop.
+This finding is promising for  inhibitor development and reinforces the results of previous  efforts to develop peptide inhibitors.
+Peptides corresponding to  residues 4651 of BLIP (the Asp-49 binding loop) were shown  to bind TEM-1 and SHV-1 with affinities of 488 and 420 M,  respectively (37).
+Random fragmentation and phage display of  BLIP identified a peptide consisting of residues 30 49 of BLIP  that inhibits TEM-1 with 446 M affinity, and a combination of  phage display and peptide arrays identified a 136 M inhibitor  that has 50% sequence identity to BLIP residues 4651 (38, 39).
+  All of these studies point to the central importance of the  Asp-49 loop in inhibition.
+  The -lactamaseBLIP complexes represent challenging  computational analysis and design problems, since our structures indicate that the BLIP backbone assumes multiple conformations to accommodate mutations.
+With some notable  exceptions (40 42), many computational design approaches  use a fixed backbone approximation to simplify calculations.
+This  approximation allows only side chain mobility, thus enormously  reducing the degrees of conformational freedom required for the  energy minimization.
+However, the fixed backbone approximation may introduce significant error into design calculations, since  backbone adjustments upon mutation are neglected.
+Further, the  possible coexistence of multiple conformations is ignored.
+  Entropic effects, such as the penalty associated with burying a flexible loop in a protein-protein interface, are not accounted for.
+  Despite the use of these approximations, the   Gd, mut values of  85% of the TEM-1BLIP complexes are predicted within 1.6 kcal/  mol.
+For the SHV-1BLIP complexes, the calculations are less successful.
+Using the SHV-1BLIP structure as a backbone model,    Gd, mut is overestimated for nearly 26% of the mutant  complexes.
+  Mutations involving large changes in volume (e.g. tyrosine to  alanine) at amino acid positions that undergo dramatic conformational changes between the SHV-1BLIP and SHV-1  D104KBLIP structures were frequently observed as outliers in  both the TEM-1BLIP and SHV-1BLIP correlations.
+Neglecting backbone motion results in poor modeling of such mutations.
+Better treatment of loop conformational flexibility, possibly incorporating energy calculations over a backbone  ensemble rather than use of a single fixed backbone, may be  necessary for higher accuracy calculations (43, 44).
+  CONCLUSION  A combination of structural, mutagenic, and computational  analysis of the SHV-1BLIP interface has highlighted several  subtle yet important differences between this complex and that  of TEM-1BLIP.
+Notably, the region surrounding -lactamase  position 104 appears to be a key determinant of specificity.
+Creation of BLIP mutants that attempt to compensate for local  interface differences near this and other positions may result in  tighter binding variants.
+The reasonable success of EGAD in  predicting the experimental mutational data suggests that it  will be useful in guiding further mutagenesis efforts.
+  AcknowledgmentsWe thank Susan Jensen for the BLIP/pET26b  construct.
+The TEM-1/pET24a() construct was a kind gift from  Stephane Gagne.
+We thank Marianne Carey for HPLC purification of  the SHV D104K enzyme.
+We also thank Arnab Chowdry, Andrew  Douglas, Melinda Hanes, Navin Pokala, and Mark Voorhies for useful discussions and advice.
+  REFERENCES  1.
+Strynadka, N. C. J., Jensen, S. E., Johns, K., Blanchard, H., Page, M.,  Matagne, A., Fre`re, J.-M., and James, M. N. G. (1994) Nature 368,  657660  2. Zhang, Z., and Palzkill, T. (2004) J. Biol. Chem. 279, 4286042866  3.
+Kuzin, A. P., Nukaga, M., Nukaga, Y., Hujer, A. M., Bonomo, R. A., and  Knox, J. R. (1999) Biochemistry 38, 57205727  4.
+Zhang, Z., and Palzkill, T. (2003) J. Biol. Chem. 278, 4570645712  5. Strynadka, N. C. J., Jensen, S. E., Alzari, P. M., and James, M. N. G. (1996)  Nat. Struct. Biol. 3, 290297  6.
+Ambler, R. P., Coulson, A. F., Fre`re, J. M., Ghuysen, J. M., Joris, B., Forshman, M., Levesque, R. C., Tiraby, G., and Waley, S. G. (1991) Biochem. J.  276, 269270  7. Petrosino, J., Rudgers, G., Gilbert, H., and Palzkill, T. (1999) J. Biol. Chem.  274, 23942400  8. Joughin, B. A., Green, D. F., and Tidor, B. (2005) Protein Sci. 14,  13631369  9. Selzer, T., Albeck, S., and Schreiber, G. (2000) Nat.
+Struct. Biol. 7, 537541  10.
+Selzer, T., and Schreiber, G. (2001) Proteins Struct.
+Funct. Genet. 45,  Characterization of the SHV-1BLIP Interface  26752 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 281NUMBER 36SEPTEMBER 8, 2006190198  11. Albeck, S., and Schreiber, G. (1999) Biochemistry 38, 1121  12.
+Albeck, S., Unger, R., and Schreiber, G. (2000) J. Mol. Biol. 298, 503520  13.
+Reichmann, D., Rahat, O., Albeck, S., Meged, R., Dym, O., and Schreiber,  G. (2005) Proc.
+Natl. Acad. Sci. U. S. A. 102, 5762  14. Rudgers, G. W., and Palzkill, T. (1999) J. Biol. Chem. 274, 69636971  15.
+Pokala, N., and Handel, T. (2005) J. Mol. Biol.
+347, 203227  16.
+Hujer, A. M., Hujer, K. M., and Bonomo, R. A. (2001) Biochim. Biophys.  Acta 1547, 3750  17.
+Rice, L. B., Carias, L. L., Hujer, A. M., Bonafede, M., Hutton, R., Hoyen, C.,  and Bonomo, R. A. (2000) Antimicrob. Agents Chemother. 44, 362367  18.
+Lin, S., Thomas, M., Shlaes, D. M., Rudin, S. D., Knox, J. R., V., A., and  Bonomo, R. A. (1998) Biochem.
+J. 333, 395400  19.
+Sosa-Peinado, A., Mustafi, D., and Makinen, M. W. (2000) Protein Expression Purif. 19, 235245  20.
+MacDowell, A. A., Celestre, R. S., Howells, M., McKinney, W., Krupnick,  J., Cambie, D., Domning, E. E., Duarte, R. M., Kelez, N., Plate, D. W., Cork,  C. W., Earnest, T. N., Dickert, J., Meigs, G., Ralston, C., Holton, J. M.,  Alber, T., Berger, J. M., Agard, D. A., and Padmore, H. A. (2004) J. Synchrotron Radiat. 11, 447455  21.
+Otwinowksi, Z., and Minor, W. (1997) Methods Enzymol. 276, 472494  22.
+Holton, J., and Alber, T. (2004) Proc.
+Natl. Acad. Sci. U. S. A. 101,  15371542  23.
+Leslie, A. G. W. (1992) Joint CCP4  ESF-EACBM Newsletter on Protein  Crystallography 26  24. Storoni, L. C., McCoy, A. J., and Read, R. J. (2004) Acta Crystallogr.
+Sect.
+D  Biol. Crystallogr 60, 432438  25.
+Jones, T. A., and Kjeldgaard, M. (1997) O: The Manual, Version 7.0, Uppsala Software Factory, Uppsala, Sweden  26.
+Lamzin, V. S., and Wilson, K. S. (1993) Acta Crystallogr. Sect.
+D Biol.
+  Crystallogr. 49, 129147  27.
+Winn, M. D., Isupov, M. N., and Murshudov, G. N. (2001) Acta Crystallogr.
+Sect.
+D Biol.
+Crystallogr. 57, 122133  28. Kleywegt, G. J., and Jones, T. A. (1994) Joint CCP4  ESF-EACBM Newsletter Protein Crystallogr. 31, 914  29. DeLano, W. L. (2002) The PyMOL Molecular Graphics System, DeLano  Scientific, San Carlos, CA  30. OCallaghan, C., Morris, A., Kirby, S., and Shingler, A. (1972) Antimicrob.  Agents Chemother. 1, 283288  31. Pokala, N., and Handel, T. M. (2004) Protein Sci. 13, 925936  32.
+Jorgensen, W. L., Maxwell, D. S., and Tirado-Rives, J. (1996) J. Am. Chem.  Soc. 118, 1122511236  33. Horn, J. R., and Shoichet, B. K. (2004) J. Mol.
+Biol. 336, 12831291  34. Word, J. M., Lovell, S. C., Richardson, J. S., and Richardson, D. C. (1999) J.  Mol.
+Biol. 285, 17351747  35. Laskowski, R. A., MacArthur, M. W., Moss, D. S., and Thornton, J. M.  (1993) J. Appl. Crystallogr. 26, 283291  36. James, L. C., Roversi, P., and Tawfik, D. S. (2003) Science 299, 13621367  37.
+Rudgers, G. W., Huang, W., and Palzkill, T. (2001) Antimicrob. Agents  Chemother. 45, 32793286  38.
+Huang, W., Beharry, Z., Zhang, Z., and Palzkill, T. (2003) Protein Eng. 16,  853860  39.
+Rudgers, G. W., and Palzkill, T. (2001) Protein Eng. 14, 487492  40.
+Harbury, P. B., Plecs, J. J., Tidor, B., Alber, T., and Kim, P. S. (1998) Science  282, 14621467  41.
+Kuhlman, B., Dantas, G., Ireton, G. C., Varani, G., Stoddard, B. L., and  Baker, D. (2003) Science 302, 13641368  42.
+Offredi, F., Dubail, F., Kischel, P., Sarinski, K., Stern, A. S., Van de Weerdt,  C., Hoch, J. C., Prosperi, C., Francois, J. M., Mayo, S. L., and Martial, J. A.  (2003) J. Mol. Biol. 325, 163174  43.
+Kuhlman, B., ONeill, J. W., Kim, D. E., Zhang, K. Y. J., and Baker, D. (2002)  J. Mol.
+Biol. 315, 471477  44. Larson, S. M., England, J. L., Desjarlais, J. R., and Pande, V. S. (2002) Protein  Sci. 11, 28042813  45.
+Berman, H. M., Westbrook, J., Feng, Z., Gilliland, G., Bhat, T. N., Weissig,  H., Shindyalov, I. N., and Bourne, P. E. (2000) Nucleic Acids Res. 28,  235242  Characterization of the SHV-1BLIP Interface  SEPTEMBER 8, 2006VOLUME 281NUMBER 36 JOURNAL OF BIOLOGICAL CHEMISTRY 26753

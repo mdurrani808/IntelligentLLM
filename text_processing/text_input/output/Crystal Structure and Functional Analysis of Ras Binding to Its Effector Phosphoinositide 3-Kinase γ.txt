@@ -1,0 +1,473 @@
+Cell, Vol. 103, 931–943, December 8, 2000, Copyright 2000 by Cell Press
+Crystal Structure and Functional Analysis
+of Ras Binding to Its Effector
+Phosphoinositide 3-Kinase g
+suppression of apoptosis (Franke et al., 1997), reorgani￾zation of the actin cytoskeleton (Rodriguez-Viciana et
+al., 1997), cardiac myocyte growth (Shioi et al., 2000),
+glycogen synthase stimulation by insulin (reviewed in
+Shepherd et al., 1998), TNFa-mediated neutrophil prim￾Michael E. Pacold,* Sabine Suire,† Olga Perisic,*
+Samuel Lara-Gonzalez,* Colin T. Davis,* Edward
+H. Walker,* Phillip T. Hawkins,† Len Stephens,†
+John F. Eccleston,‡ and Roger L. Williams*§
+*MRC Laboratory of Molecular Biology
+Hills Road ing and superoxide generation (Condliffe et al., 1998),
+Cambridge CB2 2QH and leukocyte migration and adhesion to endothelial
+United Kingdom cells (reviewed in Wymann et al., 2000).
+†The Babraham Institute There are two types of class I PI3Ks. Class IA consists
+Babraham of p110a, b, and d catalytic subunits that associate with
+Cambridge CB2 4AT an SH2 domain–containing subunit (p85a and splice
+United Kingdom variants of it, p85b or p55g) that is indispensable for
+‡National Institute for Medical Research activation by phosphotyrosine-containing proteins (Car￾The Ridgeway penter et al., 1993). Consequently, the class IA PI3Ks are
+Mill Hill typically activated by receptors that regulate tyrosine
+London NW7 1AA kinases. Class IB contains only one member, PI3Kg. This
+United Kingdom enzyme is regulated by G protein–coupled receptors via
+association with bg subunits of heterotrimeric G pro￾teins (Stoyanov et al., 1995). A p101 regulatory subunit
+Summary that tightly binds p110g is critical for Gbg-activated
+PtdIns(3,4,5)P3 production (Stephens et al., 1997; Krug￾Ras activation of phosphoinositide 3-kinase (PI3K) is mann et al., 1999; Maier et al., 1999). All class I PI3Ks
+important for survival of transformed cells. We find have a domain that is similar to a Ras binding domain
+(RBD) present in other proteins that are regulated by that PI3Kg is strongly and directly activated by H-Ras
+G12V in vivo or by GTPgS-loaded H-Ras in vitro the GTPase Ras. Furthermore, all class I PI3Ks bind Ras . We
+have determined a crystal structure of a PI3Kg in a GTP-dependent manner (Rodriguez-Viciana et al., /
+Ras·GMPPNP complex. A critical loop in the Ras bind- 1994; Rubio et al., 1997; Vanhaesebroeck et al., 1997;
+Deora et al., 1998). ing domain positions Ras so that it uses its switch I The Ras family of membrane-localized GTPases and switch II regions to bind PI3Kg. Mutagenesis transduces a variety of signals in eukaryotic cells (Lowy shows that interactions with both regions are essential and Willumsen, 1993; Shields et al., 2000). The exchange for binding PI3Kg. Ras also forms a direct contact with
+of GDP for GTP causes two regions of Ras, known as the PI3Kg catalytic domain. These unique Ras/PI3Kg switch I (residues 32–40) and switch II (residues 60–76), interactions are likely to be shared by PI3Ka. The com￾to change conformation (Pai et al., 1989; Milburn et al., plex with Ras shows a change in the PI3K conforma- 1990). This GTP-induced conformational change allows tion that may represent an allosteric component of Ras to bind and activate multiple downstream effectors, Ras activation. which can cooperate to produce the diverse phenotypes
+characteristic of Ras transformation (White et al., 1995; Introduction Marshall, 1996) or function independently in activating
+survival pathways (Xue et al., 2000). Most Ras-depen- The phosphoinositide 3-kinases are a family of ubiqui- dent signaling is mediated by three downstream ef- tous multidomain signaling proteins that phosphorylate fectors: the protein kinase Raf, the exchange factor the 3-hydroxyl of phosphoinositides. Mammalian PI3Ks RalGDS, and PI3K (reviewed in Wittinghofer and Herr- are divided into three classes based on their structure mann, 1995; Feig et al., 1996; Rodriguez-Viciana et al., and substrate specificity (Domin and Waterfield, 1997). 1996a). Class I enzymes are acutely activated by a variety of Although all class I PI3Ks bind Ras, only PI3Ka has
+cell-surface receptors, and are responsible for synthesis been shown to be directly stimulated by Ras·GTP (Rodri- of intracellular phosphatidylinositol (3,4,5)-trisphosphate guez-Viciana et al., 1994, 1996b). Ras-induced activation (PtdIns(3,4,5)P3). Thus, stimulation of many cells results in is synergistic with p85-mediated stimulation of PI3Ka by the PI3K-dependent accumulation of PtdIns(3,4,5)P3 in the phosphotyrosine peptides. Direct Ras activation of PI3Ka inner leaflet of the plasma membrane. This usually tran- stimulates actin rearrangement and inhibits programmed sient production of PtdIns(3,4,5)P3 initiates a multitude cell death upon detachment from the extracellular matrix
+of further downstream signals by causing membrane (anoikis) (Khwaja et al., 1997; Rodriguez-Viciana et al., recruitment of proteins that specifically bind PtdIns 1997). Other consequences of Ras activation of PI3Ks (3,4,5)P3. Typically, this results in a colocalization of en- include cell transformation (Gire et al., 2000), T cell adhe￾zymes and substrates that fires further signaling activity. sion and migration (Tanaka et al., 1999), and blocking
+Cellular processes in which PI3Ks are essential include of apoptosis induced by c-Myc (Kauffmann-Zeh et al.,
+1997) or by NGF deprivation (Xue et al., 2000).
+§To whom correspondence should be addressed (e-mail: rlw@mrc- A recent crystal structure of PI3Kg (Walker et al., 1999)
+lmb.cam.ac.uk). showed that the Ras binding domain of the kinase packsCell
+932
+Figure 1. Direct Activation of PI3Kg by H-Ras
+(A) In vitro activation of PI3Kg by posttranslationally modified, EE-tagged H-Ras·GTPgS using pig neutrophil membranes as a substrate. 32P-labeled
+phosphoinositides were extracted, deacylated, separated by HPLC, and measured by scintillation counting. The data for [32P]-PtdIns(3)P,
+[
+32P]-PtdIns(3,4)P2, and [32P]-PtdIns(3,4,5)P3 are shown. Descriptions of the DASAA and DEDAA mutants are in the Experimental Procedures.
+The data are representative of three experiments and were normalized by the amount of PI3Kg used in the assay.
+(B) In vivo activation of myc-tagged p110g and the myc-p110g / EE-tagged p101 heterodimer by H-Ras G12V, and coactivation of myc-p110g/
+EE-p101 heterodimer with Gbg and H-Ras G12V. The error bars represent the range of two experiments.
+(C) In vivo activation of untagged wild-type and DASAA mutant p110g by H-Ras G12V in the absence of p101. COS-7 cells were transfected
+with expression vectors containing the indicated genes. The levels of 32P-labeled phosphoinositides were normalized to 2 3 105 counts of
+PtdIns(4)P. The error bars represent the range of two experiments. A Western blot of the cell lysates with an anti-p110g antibody shows
+similar expression of p110g. A Western blot with anti-Ras antibody shows similar expression of Ras (not shown).
+against the catalytic domain. Here, we show that Ras with PI3Kg provides a glimpse into the structural ramifi￾forms a transient complex with PI3Kg and activates it cations of Ras binding in the context of a full-length
+in vitro and in vivo. To characterize the PI3K interaction effector enzyme.
+with Ras, we have trapped a Ras·PI3Kg complex and
+determined its structure by X-ray crystallography. This Results and Discussion
+Ras complex with PI3Kg shows interactions that are
+unique to PI3K, and is probably also a good model for Ras·GTP Directly Activates PI3Kg
+the interaction of PI3Ka with Ras. The conformational To determine the consequences of Ras binding to
+changes that take place in PI3Kg upon Ras binding are PI3Kg, we investigated the effect of full-length, lipid
+consistent with the possibility that an allosteric mecha- modified, GDP- or GTPgS-loaded H-Ras on PI3Kg activ￾nism, in addition to membrane recruitment, may be im- ity in vitro, using a plasma-membrane enriched mem￾portant in the activation of PI3K. Our complex of Ras brane preparation from neutrophils. Our results indicateActivation of PI3Kg by Ras
+933
+Figure 2. Binding of PI3Kg to Ras
+(A) Solution binding of PI3Kg RBD mutants (144–1102 constructs) to N-Ras·mant-GMPPNP as measured by fluorescence anisotropy. Titration
+of some mutants was limited by reduced mutant solubility. All error bars represent the standard deviation of at least two measurements. Kd
+values are listed in the adjacent table. For mutants with no detectable binding, the Kd is listed as .50.
+(B) Transient kinetic measurements of the association and dissociation rates of the PI3Kg 144–1102 construct to N-Ras·mant-GMPPNP. The
+pseudo first-order association rates were determined at the PI3Kg concentrations shown.
+(C) Transient and steady-state measurements of mant-ATP and mant-ADP binding to PI3K. All data were collected by fluorescence energy
+transfer from tryptophan to mant. The Kd values were determined by equilibrium titrations.
+(D) Steady-state binding of PI3Kg (144–1102 construct) to full-length, unprocessed H-Ras mutants. The data were obtained as in Figure 2A.
+For comparison, PI3Kg binding to H-Ras G12V·mant-GDP is shown.
+that H-Ras·GTPgS causes an approximately 8- to 20- for Ras binding were mutated. These multiple mutants
+fold increase in the activity of the p110g catalytic subunit (DASAA and DEDAA, see Experimental Procedures)
+(Figure 1A). This activation is strictly dependent on have the same basal activity as the wild-type enzyme
+Ras·GTPgS, and is at least as great as the reported in vitro, but are not activated by H-Ras·GTPgS (Figure
+stimulation of the p110a/p85 heterodimer by Ras (Rodri- 1A). These results demonstrate that H-Ras directly acti￾guez-Viciana et al., 1996b). Based on our structure of a vates PI3Kg.
+complex of PI3Kg with Ras (see below), we constructed Previously, it was reported that PI3Kg is not stimulated
+two p110g variants in which several residues essential by Ras in COS-7 cells (Rubio et al., 1997). Because ofCell
+934
+Figure 3. Structure of a Ras·PI3Kg Complex
+(A) Diagram of the PI3Kg·Ras interface. Also shown are the residues that hold the 255–267 loop in place. The RBD is colored purple, the Ras
+is orange, and the catalytic domain is yellow. Putative hydrogen bonds are indicated by dashed lines, and possible salt bridges by dotted
+lines. PI3Kg residues that can be mutated to eliminate or attenuate binding are colored red or blue, respectively. Ellipses indicate residues
+that were mutated to enhance binding. The V223K tighter binding mutant is shown hydrogen bonding to Ras Glu37.
+(B) A closer view of the interface between the RBD (purple) and Ras (orange). The switch I and switch II regions of Ras are colored pale and
+dark blue, respectively. Boxes around residue labels denote mutations that abolish binding, and ellipses indicate mutations that enhance
+binding. The 255–267 loop that becomes ordered on binding is colored dark green. The GMPPNP and Mg21 in Ras are rendered in gray.
+(C) Molecular surface of the Ras·PI3Kg complex. The Ras (orange) and four domains of the PI3Kg, comprising the RBD (purple), C2 domain
+(cyan), helical domain (green), and N- and C-terminal lobes of the catalytic domain (red and yellow) are shown. The N-terminal linker is rendered
+in white. A schematic of PI3Kg domain organization is also shown.
+(D) Ribbon diagram of the Ras·PI3Kg complex. The color scheme is the same as the previous panel. The location of the g phosphate of the
+ATP·PI3Kg structure is marked with a large gray sphere. This location roughly corresponds to the phosphoinositide headgroup binding site.Activation of PI3Kg by Ras
+935
+Figure 4. A Comparison of the Ras or Rap1A Orientations in Complexes with the RBDs from PI3K, Raf, and RalGDS
+The RBDs were automatically superimposed using the “brute” option of LSQMAN (Kleywegt, 1999). The molecules are colored as in Figure
+3. To help visualize the different orientations of bound Ras, lines are traced from the centroid of the RBD through the Ca of Thr232 in PI3Kg
+(or its equivalent in other RBDs), then to the centroid of Ras bound to PI3Kg (cyan sphere and solid line), Raf (red sphere and dotted line),
+and RalGDS (yellow sphere and dashed line). (A) The PI3Kg RBD·Ras complex. (B) The Rap1A·RafRBD complex (PDB:1gua). (C) The Ras·RalGDS
+RBD complex (PDB:1lfd). The orientation of the Ras in this complex is more similar to that of Ras in the PI3Kg complex than that of Rap1A
+in the RafRBD complex.
+this apparent inconsistency with the in vitro activation H-Ras and p110g. The discrepancy between our results
+that we observed, we reexamined this issue of in vivo and those previously published may be due to differ￾activation. We transfected COS-7 cells with various ences in the constructs used for the transfections.
+combinations of expression vectors encoding H-Ras
+G12V, full-length p110g, p101, Gb1, and Gg2. These data PI3Kg Forms a Transient Complex
+indicate that p110g alone, and the p101/p110g hetero- with Ras·mant-GMPPNP
+dimer, are activated 23- and 20-fold, respectively, by We characterized the solution binding of PI3Kg to Ras
+H-Ras G12V (Figure 1B). In the presence of Gbg, H-Ras by observing changes in the fluorescence anisotropy
+further stimulates both p110g and p101/p110g by 22- of full-length, unmodified N-Ras·mant-GMPPNP (mant,
+and 8-fold above the level produced by Gbg stimulation 29-(or-39)-O-(N-methylanthraniloyl)). The Kd for wild-type
+(Figure 1B). As in the in vitro experiments, the DASAA PI3Kg and N-Ras·mant-GMPPNP is 2.8 6 0.4 mM. The
+Ras binding– deficient p110g mutant was insensitive to Kd for wild-type H-Ras (3.2 6 0.5 mM) is nearly identical
+H-Ras G12V, although it was comparably expressed in to the Kd for N-Ras. This dissociation constant is higher
+COS-7 cells (Figure 1C). The effect of H-Ras G12V on than the 160 nM Kd for the Ras·Raf RBD complex (Herr￾p110g activity in COS-7 cells was completely insensitive mann et al., 1995; Sydor et al., 1998) and the 1 mM Kd for
+to pretreatment with U0126, a potent ERK pathway in- the Ras·RalGDS RBD complex (Herrmann et al., 1996). It
+hibitor (the inhibitor resulted in a 92% decrease in MAPK is also approximately 10-fold higher than the previously
+activity; data not shown). These results indicate that published dissociation constant for PI3Kg and Ras
+stimulation of p110g activity by H-Ras G12V in COS-7 (Rubio et al., 1999). The discrepancy between our results
+cells is the consequence of a direct interaction between and those reported previously for p110g may be dueCell
+936
+Figure 5. Conformational Changes in the Ras·PI3Kg Structure
+(A) The structure of PI3Kg bound to ATP is traced through the Ca’s as a black dotted line. The structure of the Ras·PI3Kg complex is traced
+in a solid line and the domains are colored as in Figure 3. A gray sphere marks the location of the g-phosphate of ATP in the structure of the
+enzyme in the absence of Ras. This would presumably be adjacent to the phospholipid headgroup binding site.
+(B) A view of the conformational changes in the catalytic domain. The free and Ras-bound PI3Kg catalytic domains were superimposed using
+their N-terminal lobes.
+to differences in the constructs and methods used to PtdIns(3,4,5)P3 that have been reported for PI3Kg (0.1
+s21
+; Maier et al., 1999) or for PI3Ka (0.8 s21 determine the dissociation constants. The previously ; Carpenter et
+published work used pull-down assays with an immobi- al., 1990). As with the Ras·Raf complex, the “activating”
+lized GST-PI3Kg construct. interaction of PI3Kg with Ras is limited by the dissocia￾Although the solution Kd for the PI3Kg·Ras complex tion of the Ras·effector complex and not by the catalytic
+is high, it would be sufficient for interaction of the two cycle of the effector enzyme. The transience of the com￾proteins on lipid membranes. A similar situation is ap- plex ensures that PI3Kg is not constitutively activated.
+parent for other signaling complexes that are active at
+membrane surfaces. For example, the estimated affinity Structure of a Ras·PI3Kg Complex
+of phospholipase Cb2 (PLCb2) for the Gbg subunits in Initial crystallization trials of Ras·PI3Kg were unsuccess￾the bulk phase is about 3 mM (Runnels and Scarlata, ful, perhaps because of the transience of the complex.
+1998), yet Gbg is one of the principal activators of PLCb2 Therefore, we constructed two tighter binding PI3K mu￾in cells. Because PLCb2 and Gbg subunits have high tants, V223K and E267K, for cocrystallization with Ras.
+affinities for membrane, these signaling components be- The Kds for Ras·GMPPNP of these and other mutants
+come concentrated on membrane surfaces. Conse- discussed below are shown in Figure 2A. Neither the
+quently, even fairly weak interactions lead to lateral as- wild-type protein, the pseudo wild type (V326A, see Ex￾sociation on the membrane. PI3Ka and PI3Kg (Barnett perimental Procedures), nor the V223K mutant exhibit
+et al., 1995 and S. Krugmann and L. S., unpublished detectable binding to N-Ras·GDP, consistent with the
+data) have been shown to bind to phosphoinositide- role of PI3Kg as an effector (data not shown). With the
+containing membranes even in the absence of any other V223K mutant, we obtained crystals of the Ras·PI3Kg
+protein components. Therefore, the bulk affinities that complex.
+we measure for soluble Ras may translate into a signifi- The overall organization of the PI3Kg catalytic subunit
+cant interaction with membrane-localized Ras. This is (Walker et al., 1999), which contains a Ras binding do￾consistent with our observation that the K255A mutant main (RBD), a C2 domain, a helical domain, and a cata￾is activated by H-Ras G12V to half of the extent of the lytic domain, is preserved in the structure of the complex
+wild-type p110g in COS-7 cells (data not shown) despite (Figure 3). PI3Kg, Raf, and RalGDS interact with many
+having an affinity for soluble N-Ras·mant-GMPPNP that of the same switch I residues of Ras. However, a unique
+was so weak that it could not be measured by fluores- feature of the PI3Kg·Ras complex is that the switch II
+cence anisotropy. region is also involved. Interactions with Ras switch II
+Dynamic studies of PI3Kg and N-Ras indicate both residues have previously only been observed in com￾rapid association and dissociation of the two proteins plexes of Ras with its upstream regulators, GTPase acti-
+(Figure 2B). While the dissociation rate of the complex vating proteins (Scheffzek et al., 1997) and guanine nu￾is similar to that of Ras·Raf RBD, the association rate cleotide exchange factors (Boriack-Sjodin et al., 1998).
+of PI3Kg·Ras is an order of magnitude slower (Sydor et One prominent feature of the interaction with Ras is
+al., 1998). The dissociation rate constant of the Ras·PI3K the ordering of a loop, residues 255 to 267, in the RBD
+complex (.18 s (Figure 3B), that is not visible in the free PI3Kg structure, 21
+) is at least an order of magnitude
+higher than the maximal catalytic turnover rates for but is clearly defined in the electron density of the com-Activation of PI3Kg by Ras
+937
+plex. This loop prevents Ras from binding to the PI3Kg permits formation of an additional hydrogen bond be￾RBD in the same orientation as Ras bound to Raf and tween the RBD Lys223 and Ras Glu37.
+RalGDS. Consequently, Ras establishes novel switch II
+contacts with the PI3Kg RBD and catalytic domain. Ras Makes Essential Interactions with PI3K
+Using Its Switch II Region
+Unlike any other effectors downstream of Ras, PI3Kg Ras Binding Induces Ordering of a Critical Loop makes critical interactions with the switch II region. Al- at the RBD·Ras Interface though early structural studies of Ras showed that both The entropic cost of locking the PI3Kg 255–267 loop into switch I and switch II regions of Ras changed conforma- a single conformation might be offset by interactions tion upon GTP binding, and transforming mutants of formed between residues in the loop, and between the Ras involving both of these regions have been reported, loop and the rest of the RBD. Eliminating these interac- the structures of other effector RBDs in complexes with tions or providing additional ones would affect the sta- Ras showed only switch I interactions. In the PI3Kg·Ras bility of the loop, and concomitantly decrease or in- complex, we observe extensive switch II contacts that crease the affinity of Ras for the kinase. In support of are probably the consequence of the unique orientation this hypothesis, the PI3Kg mutants R226A, K256A, and of Ras relative to the RBD of PI3Kg. We have generated D260A all eliminate hydrogen bonds or salt bridges that two mutants, F221S and K234A, involving residues that stabilize the 255–267 loop (Figure 3A), and reduce bind- make switch II contacts. F221S eliminates hydrophobic ing up to 10-fold (Figure 2). The side chain of another interactions between PI3Kg Phe221 and Tyr64 in switch attenuating mutant, Lys254, points away from the Ras. II. Mutation of Lys234 to Ala probably increases the Nevertheless, mutation of this residue to Ala greatly Kd by eliminating hydrogen bonds to switch II residues lowers the affinity of PI3Kg for Ras, possibly by permit- Glu63 and Tyr64 (Figure 3A). These mutants confirm ting more flexibility in the turn containing the critical the essential role of Ras Switch II in binding PI3Kg. In residues Lys255 and Lys256. The complex-stabilizing addition, the Y64G Ras mutation abolishes binding of E267K mutant would permit the formation of an addi- a class IA PI3K (Moodie et al., 1995), suggesting that tional hydrogen bond from the mutant Lys267 to the interaction with the Ras switch II is probably a general backbone amide oxygen of Phe249, which could further characteristic of PI3K·Ras complexes. stabilize the 255–267 loop and helix Ra1. Apparently,
+this also offsets any destabilization that arises from plac- The PI3K Catalytic Domain Makes Direct ing Lys267 and Lys255 fairly near each other on the Interactions with Switch II of Ras surface of the protein. Ras directly contacts the C-terminal lobe of the PI3Kg
+catalytic domain. Arg73 in the switch II region of Ras is
+The Switch I Region of Ras Forms Typical Effector near Glu919 in the turn between helices ka5 and ka6. The
+Interactions with PI3K E919A mutant shows wild-type affinity for Ras; however,
+At the interface between Ras and the PI3Kg RBD, strand the E919K mutation greatly increases affinity for Ras
+b2 of Ras is aligned with PI3Kg strand Rb2 (Figure 3B). (Figure 2A), presumably by forming a new salt-link be￾This produces a continuous antiparallel b sheet between tween the catalytic domain and Asp69 in switch II of
+the Ras and the RBD. The interaction is common to Ras. This suggests that the close approach of Ras to
+structures of Rap1A and Ras in complexes with Raf- the catalytic domain that we see in the structure is not
+RBD and RalGDS-RBD, respectively (Nassar et al., 1995; simply an artifact of crystal packing. This direct contact
+Huang et al., 1998; Vetter et al., 1999). Most of the inter- between the PI3K catalytic domain and Ras may contrib￾actions between Ras and PI3Kg are either hydrogen ute to the conformational change in the phospholipid
+bonds or salt bridges (Figure 3A), in agreement with binding site of PI3Kg (see below).
+the observation that the affinity of the two proteins is
+inversely related to the ionic strength of the buffer (data Ras Binds to RBDs in Effector-Specific
+not shown). The area of the interface between the PI3Kg Orientations
+RBD and Ras (1308 A˚ 2
+) is similar to the surface areas Two structures of isolated RBD complexes with Ras or
+of the Raf RBD (1333 A the Ras-like protein Rap1A have been previously solved. ˚ 2
+) and RalGDS RBD (1331 A˚ 2
+)
+interfaces. In Figure 4, the Raf RBD·Rap1A complex (Nassar et al.,
+The effects of several PI3Kg mutations that we made 1995) and the RalGDS RBD·Ras complex (Huang et al.,
+in the RBD·Ras interface are consistent with their appar- 1998) are compared with the PI3Kg·Ras complex.
+ent roles in forming switch I contacts. The T232D, All three Ras·RBD complexes use a similar general
+K251A/E, and K255A mutations all eliminate binding by mode of Ras-effector interaction, in which a b sheet in
+removing hydrogen bond donors or acceptors from the the Ras and a b sheet in the RBD are aligned to form a
+Ras switch I·PI3Kg interface, and in the case of the single b sheet connecting the two proteins. Contacts
+T232D and K251E mutations, by putting negatively between the switch I region of Ras and the RBD stabilize
+charged PI3Kg side chains into proximity with negatively the interaction and ensure its dependence on Ras-GTP.
+charged side chains in Ras (Figure 3A). K251E is the Despite the common mode of the Ras·RBD interac￾equivalent of the K227E mutant in PI3Ka, which also tion, Ras discriminates among its effectors by rotating
+eliminates Ras binding (Rodriguez-Viciana et al., 1996b; with respect to the RBD of a given effector. Ras bound
+Bondeva et al., 1998). The mechanism of the tighter to PI3Kg is rotated by 358 relative to the centroid of
+binding V223K mutant can be explained in terms of inter- Rap1A bound to the Raf RBD, and by 178 relative to Ras
+action with the switch I region, because this mutation bound to the RalGDS RBD (Figure 4A). In PI3Kg, theCell
+938
+Figure 6. A Putative Model of the Ras·PI3Kg Complex at a Membrane Surface
+All regions not visible in the structure are drawn as dashed lines. Lys973 marks the substrate binding loop. The 20 residue C-terminal tail of
+Ras was arbitrarily modeled to illustrate that this peptide could easily span the gap between the RBD-bound Ras and the putative membrane
+surface. The location of the farnesyl group is indicated schematically. Potential membrane-interacting residues at the tips of the catalytic
+domain loops are labeled.
+length of helix Ra1 and the size of the subsequent loop Structural Insights into Signaling
+(255–267) cause a significant rotation of Ras relative to Pathway–Specific Ras Mutations
+the PI3Kg RBD and results in switch II interactions, for Five Ras mutants have been defined that differentially
+which there are no equivalents in the other Ras effector affect Raf, RalGDS, and PI3Ka signaling pathways.
+RBDs. The 255–267 loop appears longer in PI3Kg and These mutants, T35S, E37G, D38E, Y40C, and Y64G,
+a than in PI3Ks b and d. This is in agreement with the have served as useful tools for unraveling networks of
+observation that PI3Kd appears to differ from PI3Ka in signal transduction pathways (White et al., 1995; Rodri￾its interaction with Ras (Kinashi et al., 2000). guez-Viciana et al., 1997). The selective activation dis-Activation of PI3Kg by Ras
+939
+played by the switch I mutants (T35S, E37G, D38E, and Lys234. In contrast, neither Raf nor RalGDS RBDs con￾Y40C) appears to be due to subtle differences in the tact any residues in switch II (Nassar et al., 1995; Vetter
+network of interactions that the switch I region makes et al., 1999).
+in the three Ras/effector complexes. For the switch II
+mutant (Y64G), PI3K activation is probably selectively Conformational Change in the Ras·PI3Kg Complex
+abrogated simply because PI3K forms a switch II con- In addition to the induced fit of residues 255–267 at
+tact whereas the other effectors do not (Vetter et al., the interface with Ras, the structure of the Ras·PI3Kg
+1999). complex demonstrates that there are other more wide￾E37G is a Ras mutant that activates RalGDS but not spread conformational changes relative to the structure
+Raf. Although this mutant does not bind to or activate of the enzyme in the absence of Ras. Most of the confor￾PI3Ka, it was recently shown to activate PI3Kd (Kinashi mational change, as illustrated in Figure 5A, occurs in
+et al., 2000). We find that, as with PI3Kd, PI3Kg binds the C2 domain and the C-terminal lobe of the catalytic
+Ras E37G similarly to wild-type Ras (Figure 2D). Glu37 domain. When the structure of the free PI3Kg and the
+of Ras forms only a weak ionic interaction with RalGDS, structure of the complex are superimposed on the Ras
+while it forms two hydrogen bonds with the guanidinium binding domain, the RMS deviation of the Ca atoms for
+group of Arg59 in Raf. Although we see a salt link be- the C2 domain is 1.7 A˚ . The RMS deviation of the Ca
+tween PI3Kg Lys223 and Ras Glu37 in the structure of atoms for the C-terminal lobe of the catalytic domain is
+the V223K mutant, this interaction would not be possible 1.9 A˚ . The maximum deviation is 4.6 A˚ at the Ca of
+with the wild-type PI3Kg, consistent with the unimpaired Pro916, which is located between helices ka5 and ka6
+binding of PI3Kg to the Ras E37G mutant. The residue in the C-terminal lobe of the catalytic domain. These
+in PI3Ka at the position equivalent to PI3Kg Val223 is values are well outside the cross-validated sA estimate
+also a Val (Val193). This suggests that in PI3Ka another of the error of the atom positions, which is 0.7 A˚ (based
+residue in the vicinity of Val193 interacts with Ras Glu37. on the free set of reflections). Neither the N-terminal
+One candidate for such a residue is Lys206 of PI3Ka. lobe of the catalytic domain nor the overall RBD show
+Neither PI3Kg nor PI3Kd have a basic residue at the significant conformational change. The deviation of the
+equivalent position. helical domain in the structure of the complex from the
+D38E and T35S are Ras mutants that selectively acti- free PI3Kg structure is probably due to proteolysis in
+vate the Raf signaling pathway. PI3Ka (Rodriguez-Vici- this domain (see Experimental Procedures).
+ana et al., 1997), PI3Kd (Kinashi et al., 2000), and PI3Kg In PI3Kg, the ATP binding site is located between the
+(Figure 2D) all show considerably reduced binding to N- and C- terminal lobes of the catalytic domain. As in
+these mutants. It is not clear from the structure why the protein kinases (Zhou and Adams, 1997), mant-ADP
+the T35S mutant eliminates PI3K binding. Asp38 makes release is slower than mant-ATP release (Figure 2C). In
+important contacts with the RBDs of all three effectors the Ras·PI3Kg complex, helix ka6 in the C-terminal lobe
+and D38A prevents Ras activation of these pathways. of the catalytic domain is pulled toward the Ras, and
+The D38E mutation conserves the negative charge, but the entire ATP binding site moves with it, but apart from
+it introduces a larger residue into the intricate interface. Asp964, none of the residues in the ATP binding site
+This is only tolerated in Raf because Thr68 of Raf leaves significantly change conformation. Consistent with this
+sufficient space in the vicinity of the side chain of Ras observation, neither the dissociation rate constants nor
+residue 38. In PI3Kg, the bulky Gln231 occupies the the Kd for either mant-ATP or mant-ADP change in the
+space analogous to Thr68 of Raf and prevents Ras D38E presence of Ras (data not shown).
+binding, while in RalGDS, this space is filled by Lys32. Unlike the ATP binding pocket, the putative phospho￾In PI3Ka and PI3Kd, a bulky residue (Tyr207 and Phe203, inositide headgroup binding site appears to substan￾respectively) also occupies this space. tially change conformation upon Ras binding, as the
+One Ras mutation that has been used widely to selec- C-terminal lobe of the catalytic domain pivots around
+tively activate PI3Ka is the Y40C mutation. Surprisingly, the N-terminal lobe (Figure 5B). Unfortunately, we have
+this mutation eliminates binding to PI3Kd (Kinashi et al., been unable to grow crystals in the presence of a phos￾2000) and attenuates binding to PI3Kg (Figure 2D). Tyr40 pholipid headgroup analog, so we cannot be sure of
+forms a putative hydrogen bond to Gln231. Mutation of the detailed structural changes relevant to headgroup
+Tyr40 to Cys probably eliminates this potential hydrogen binding. The backbones of helices ka9, ka10, and ka11,
+bond and reduces PI3Kg binding. Since Gln231 is not as well as kb10 and ka7, which hold the activation loop
+conserved in PI3Ka, the hydrogen bond between Ras in place, all substantially change position. Any allosteric
+Tyr40 may not be present, and the Y40C mutation would mechanism of activation would probably involve a
+not affect binding. In complexes with Raf and RalGDS, change in the affinity of phospholipid substrate binding,
+the role of Ras Tyr40 appears to be to restrict the motion or perhaps an increase in the kcat of the enzyme.
+of a nearby basic residue in the RBD (Arg89 in Raf and Although we cannot rule out proteolysis of the enzyme
+Lys32 in RalGDS), which forms a critical salt bridge with or crystal packing as the cause of the conformational
+Ras Asp38. changes that we see, the consistency of the biochemical
+The Ras mutant Y64G selectively inhibits PI3K and and structural data suggests that this structure demon￾neurofibromin binding (Moodie et al., 1995). Ras Tyr64 strates a potential mode of Ras-induced conformational
+in switch II forms an apparent hydrogen bond to the changes in PI3Kg.
+side chain of Lys234 and makes hydrophobic contacts
+with Phe221 of PI3Kg. These interactions would be lost A Model for Ras Activation of PI3K
+in the Y64G mutant. Tyr64 also stacks with the carboxyl- The structure of the Ras bound to PI3Kg was used to
+ate of Ras Glu63, which forms a hydrogen bond with construct a model of the activated complex on a lipidCell
+940
+Table 1. Data Collection, Structure Determination, and Refinement Statistics
+Resolution Observations/ Completeness ,I/s. 1
+Data set (A˚ ) unique reflections (last shell) (%) Rsym2 (last shell)
+Crystal 1 50–3.2 146,371/23,318 100 (100) 0.11 21.8 (3.6)
+Crystal 23 50–3.0 270,093/24,791 82.4 (51.3) 0.094 14.7 (1.7)
+Merge4 50–3.0 232,825/25,822 91.6 (50.5) 0.10 20.0 (1.7)
+Refinement statistics
+Resolution Reflections Rfree5 Rmsd from ideality6
+Data set (A˚ ) Protein atoms Waters Work Free Rcryst5 (% data used) Bonds Angles Dihedrals
+Merge 50–3.0 7405 6 24,273 1510 0.21 0.28 (5.4) 0.0093 A˚ 1.298 22.78
+1 The data from crystals 1 and 2 were collected at ESRF Beamline ID14-1.
+2 Rsym 5 ohkloi
+uIi
+(hkl) 2 ,l(hkl).u/ohkloi
+Ii
+(hkl). 3 Only 50 degrees were collected due to radiation damage caused by long exposure.
+4 The merged dataset was created by combining the data from crystals 1 and 2 in SCALA.
+5 Rcryst and Rfree 5 ouFobs 2 Fcalcu/oFobs; Rfree calculated with the percentage of the data shown in parentheses. 6 Rms deviations for bond angles and lengths in regard to Engh & Huber parameters (Engh and Huber, 1991).
+membrane. When the PI3Kg active site is oriented to- activation studies, the DASAA and DEDAA mutants were subcloned
+ward the membrane surface and the C2 domain is bind- into pVL1393 with a C-terminal His6 tag.
+PI3K constructs in pVL1393 were transfected into Sf9 cells with ing phospholipids, the 20 residue tail of Ras (not present BaculoGold DNA (Pharmingen). Infected cells were incubated at in the Ras construct used for crystallization) has ample 278C for 48 hr. Harvested cells were washed in PBS, pelleted, frozen
+length to span the gap between the Ras effector domain in liquid nitrogen, and stored at 2808C.
+and its farnesyl membrane anchor (Figure 6). The loops The DNA sequence encoding residues 1–166 of H. sapiens H-Ras
+of the PI3Kg catalytic domain near the putative mem- G12V was cloned as a NdeI/BamHI fragment into pET11a (Novagen)
+and transformed into C41(DE3) cells. For expression, bacteria were brane interface contain basic residues which could bind
+grown at 378C to an OD600 of 0.7, and induced with 100 mM IPTG negatively charged phospholipid headgroups and hy- for 12 hr. Full-length, his-tagged H-Ras mutants (a gift from J. Down- drophobic residues capable of inserting into the mem- ward) were grown in a similar manner and induced for 5 hr with 500
+brane to help tether the enzyme in place. mM IPTG.
+In the Ras·PI3Kg complex, the C2 and catalytic do￾mains are slightly spread apart from each other (Figure Protein Purification
+P110g proteins were purified using immobilized metal affinity, cation 5A), presenting the active site to the membrane. This exchange, and gel filtration chromatography as previously de- structural change may affect phosphoinositide binding scribed (Walker et al., 2000). The proteins were gel filtered in a buffer in the active site, or increase the general affinity of consisting of 20 mM Tris (pH 7.2), 10–50 mM (NH4)2SO4, 1% betaine,
+the enzyme for the membrane interface. Although a 1% ethylene glycol, 0.02% CHAPS, and 5 mM DTT, concentrated
+substantial component of the Ras activation of PI3Kg to 4–6 mg/mL and snap frozen.
+could be via translocation to the membrane, an allo- H-Ras 1–166 was extracted from 1 liter of bacterial culture with
+B-PER reagent (Pierce) and purified by two passages over a HiLoad steric mechanism, as suggested by the conformational Q column (Pharmacia) with a salt gradient (0–1 M KCl in 50 mM Tris change, may also be a component of Ras activation. [pH 7.5], 1 mM MgCl2, 5 mM GDP, and 1 mM DTT). The protein was The costimulation of PI3Kg by Gbg and Ras is consis- gel filtered on a Superdex 75 column (Pharmacia) in storage buffer tent with the emerging view of PI3Ks as integrators of (50 mM Tris [pH 7.5], 1 mM MgCl2, 5 mM GDP, and 1 mM DTT),
+multiple signaling pathways. The success of our design concentrated to 20 mg/mL, and snap frozen. Full-length H-Ras mu￾of both complex-stabilizing and destabilizing mutants, tants were purified as previously described (Rodriguez-Viciana et
+al., 1997). H-Ras was loaded with GMPPNP using the alkaline phos- in conjunction with the novel interactions observed in phatase protocol as described previously (Herrmann et al., 1996). the Ras·PI3Kg structure, suggest new possibilities for Posttranslationally modified H-Ras was obtained by infecting Sf9 the design of PI3K and Ras variants to control specific cells with a baculovirus encoding EE-tagged H-Ras. Cells were har￾signal transduction pathways. vested after 2.5 days and sonicated in a buffer consisting of 5 mM
+MgCl2, 100 mM GDP, 1mM DTT, 5 mM EGTA, 0.15 M NaCl, 40 mM
+Experimental Procedures HEPES (pH 7.4) (58C), and protease inhibitors. Modified H-Ras was
+separated from unmodified H-Ras by Triton X-114 partitioning and
+Protein Cloning and Expression purified by immunoprecipitation with protein G Sepharose coupled
+For crystallography, equilibrium binding, and kinetic measurements, to an anti-EE antibody. Proteins were eluted in a buffer containing 1%
+a construct containing residues 144–1102 of the human PI3Kg with sodium cholate, 10 mM GDP, 1 mM DTT, 1mM EGTA, 5 mM MgCl2,
+a C-terminal His and eluting peptide (150 mg/ml) as described in Stephens et al., 1997, 6 tag was cloned into pVL1393 (Invitrogen) for bacu￾lovirus expression. To make the RBD mutants, we used a cassette concentrated to approximately 2–3 mg/ml, and stored at 2808C.
+containing a V326A mutation, which encoded a NheI site used for
+subcloning. This V326A “pseudo wild-type” construct has the same In Vitro and In Vivo Activity Measurements
+affinity for N-Ras as the wild-type protein (Figure 2A). The DASAA H-Ras was loaded with GTPgS or GDP by incubation with a 10-fold
+PI3Kg mutant used for the in vitro and in vivo experiments contains molar excess of the relevant nucleotide in 5 mM EDTA/5 mM MgCl2.
+the T232D, K251A, K254S, K255A, and K256A mutations in the con- After 20 min at 208C, MgCl2 was added to a final concentration of
+text of the full-length pseudo wild-type p110g subunit. The DEDAA 10 mM and the protein was frozen at 2808C.
+mutant contains the T232D, K251E, K254D, K255A, and K256A muta- Pig neutrophil membranes were obtained as described previously
+tions. For expression in COS-7 cells, the DASAA and DEDAA mu- (Bennett et al., 1982). Assays were carried out by incubating neutro￾tants were subcloned into pcDNA3 with no tags. For in vitro Ras phil membranes (5 mg protein) with GTPgS or GDP-loaded post-Activation of PI3Kg by Ras
+941
+translationally modified H-Ras (final concentration in assay, 1 mM, GMPPNP. The data were fitted to the binding equation with Kaleida￾with a final cholate concentration of 0.1%) in a buffer containing graph.
+0.1 M KCl, 1mM EGTA, 5mM MgCl All kinetic data were collected in a Hi-Tech MX61 instrument set 2, 20mM HEPES (pH 7.5) at 58C,
+1mM DTT (in a total volume of 6 ml) on ice. After incubation for 10 up in the single push mode with lex 5 280 nm and emission moni￾min, 1 ml of PI3K (300 ng) was added; p110g was stored at 2–4 mg/ tored with 399 nm cutoff filters. A solution of PI3K was mixed with
+ml in 20 mM Tris (pH 7.2), 30mM (NH4)2SO4, 1% betaine, 1% ethylene a solution of mant-ATP such that the final PI3K concentration was
+glycol, 0.02% CHAPS, and 5 mM DTT and diluted z10-fold into PBS 1 mM and the ATP concentrations were 2.5, 5, 7.5, 10, 12.5, and 25
+containing 1mM EDTA and 1mM DTT before addition into the assays. mM. The displacement experiment was carried out by mixing 1 mM
+After an additional 5 min, buffer containing [g-32P]ATP (20 mCi per PI3K and 2 mM mant-ATP with 50 or 200 mM ATP. Curve fits were
+assay with a final ATP concentration of 200 mM with 1.26 mM MgCl2, carried out with the Hi-Tech software and Kaleidagraph. Equilibrium
+0.1M KCl, 20 mM HEPES (pH 7.5, 58C), 1mM DTT, and 1mM EDTA) and kinetic data for mant-ADP were collected by the same methods.
+was added and the reactions were transferred to 308C. After 3 min,
+the assays were quenched, and the lipids extracted, deacylated, Crystallography
+analyzed by HPLC, and quantitated as described previously (Ste- H-Ras·GMPPNP and PI3Kg (V223K in the context of the 144–1102
+phens et al., 1997). pseudo wild-type construct) were mixed to final concentrations of
+COS-7 cells were transfected with plasmid DNA (5–10 mg of full- 170 mM for H-Ras and 29 mM for PI3K. The mixture was incubated
+for 3 days at 178C, and then set in hanging drops against a reservoir length PI3Kg, myc-tagged p101, H-Ras G12V, or an unrelated con￾trol DNA for a total of 15–25 mg per transfection in a final volume of 50 mM KH2PO4/K2HPO4 (pH 6.3) and 4.3% PEG 8000. Crystals
+of 0.5 mL) as described previously (Stephens et al., 1997). After were propagated by hair seeding and grew to dimensions of 120
+electroporation, the cells were plated in 6 cm diameter dishes and mm 3 70 mm 3 50 mm in 10 days. SDS–PAGE analysis of the crystals
+showed that the PI3Kg had been completely digested into four frag- incubated for 36 hr in complete growth medium (DMEM with 10%
+ments (43, 32, 20, and 10 kDa) during the time course of crystalliza- v/v FBS), washed, and then incubated in HEPES-buffered DMEM
+tion. The largest crystals were transferred to cryoprotectant (reser- containing 1 mM NaHCO3 and 0.2% (w/v) fatty acid-free BSA (starva￾voir with 40% trehalose) in two brief steps and frozen in a liquid N2 tion medium). After 8 hr, the cells were washed with a phosphate￾cryostream. free version of the starvation medium and incubated for 90 min with
+Data sets were collected at beamlines ID14–2 and ID14–1 at the 0.25–0.5 mCi [32P]-Pi per dish. For cells treated with U0126, the drug European Synchotron Radiation Facility in Grenoble at a wavelength was added to the starvation medium to a final concentration of 10
+of 0.934 A˚ (Table 1). The space group was P3121 with cell dimensions mM, and was continuously present in the wash and labeling solutions of a 5 113.6 A˚ , c 5 183.9 A˚ , and one complex in the asymmetric until cell harvesting. The cells were harvested and 32P-labeled phos- unit. The reflections from two crystals were indexed and integrated pholipids measured as described previously (Stephens et al., 1997). with MOSFLM (Leslie, 1992), merged, and scaled with SCALA (CCP4,
+1994). Molecular replacement was carried out with AMoRe. The
+Anisotropy Titrations initial model consisted of our human PI3Kg structure (Walker et al.,
+Mant-nucleotides were synthesized as described previously (Jame- 2000). A second rotation/translation search with the structure of
+son and Eccleston, 1997). N-Ras and H-Ras mutants were loaded Ras (Pai et al., 1990) (PDB:5p21) located the Ras molecule. The
+with mant-GMPPNP as in Moore et al., 1993, gel filtered into running partial model was rebuilt in O (Jones et al., 1991) and refined with
+CNS (Brunger et al., 1998). The average B factor is 70 A˚ 2 buffer (20 mM Tris [pH 7.5], 2 mM MgCl . No residues 2, and 1 mM DTT), and frozen
+at 2808 C. The concentration of Ras·mant-GMPPNP was determined are in the disallowed regions of the Ramachandran plot. Figures
+by measuring the absorbance of the mant group at 350 nm with e 5 were prepared with MOLSCRIPT (Kraulis, 1991), GRASP (Nicholls
+5700 M21 cm21 et al., 1991), and Raster3D (Merritt and Bacon, 1997). (Hiratsuka, 1983). For binding assays, the 144–1102
+human PI3Kg was titrated into a 1 mM solution of full-length, unmodi- In the structure, all residues in the Ras are visible. The ordering
+of the 255–267 loop and better side chain definition at places in the fied N-Ras·mant-GMPPNP. Data were collected with SLM 8000 S
+region from 228 to 255 showed that there was a register shift in the and ISS PC1 spectrofluorimeters, set up in the T-format and L-for￾mat, respectively, with prism polarizers. All measurements were fit of the sequence to the electron density in this region in the original
+structure of PI3K. taken at 208C with a lex of 366 nm. The emission PMTs were fitted
+As in the previous structure of the free PI3Kg, several loops are with 399 nm cutoff filters. Five measurements of each data point not visible in the electron density. These include the RBD-C2 domain were obtained and averaged. Data were fitted to the binding linker (residues 323–352), CBR3 in the C2 domain (residues 436– equation. 456), the loop between C2b7 and C2b8 (residues 489–497), the
+activation loop in the catalytic domain (residues 969–980), and resi￾Stopped Flow Anisotropy dues1085 to 1102 in the C terminus. Several loops that were defined
+A Hi-Tech MX61 instrument (Hi-Tech, Salisbury) set up in the T-for- in the free PI3K are not visible in the electron density of the complex.
+mat with prism polarizers was used to collect data at 208C. The These include CBR1 (residues 375–378) and loops between residues
+mant group was excited at 366 nm and emission monitored through 754–760, residues 896–901, and residues 1038–1046. It is possible
+399 nm cutoff filters. The association kinetics were followed by rapid that some of the disordered loops not visible in the electron density
+mixing of PI3Kg with 1 mM N-Ras·mant-GMPPNP under pseudo also correspond to sites of proteolytic nicking (see above).
+first-order conditions (PI3Kg in large excess). Specifically, equal The N-terminal half of the helical domain (residues 527–620, con￾volumes of N-Ras and PI3Kg were mixed to a final Ras concentration taining helices hA1 to hB29) is not present in the structure. Since
+of 1 mM and final PI3Kg concentrations of 5 and 10 mM. The dissocia- the Ras of a symmetry-related complex packs in this space, and
+SDS-PAGE analysis of the crystals showed no full-length PI3Kg, tion rate was measured by mixing a solution of 1 mM N-Ras·mant￾GMPPNP and 5 mM PI3K with 9 mM N-Ras·GMPPNP. Attempts to this half of the domain was lost to proteolysis during crystallization.
+determine association rates at higher PI3K concentrations were
+Acknowledgments limited by solubility of the protein. Data were fitted to single expo￾nential curves within the Hi-Tech software.
+We thank Jon Hutchinson for advice on fluorescence anisotropy
+data collection and analysis, Julian Downward for H-Ras mutants,
+Steady State and Kinetic Measurements of ATP and Murray Stewart, Andrew Carter, and Michel Goedert for com￾and ADP Binding ments on the manuscript. We also thank the staff of beamlines
+Equilibrium binding of mant-ATP to PI3K was measured in a SLM ID14-2 and ID14-1, Ed Mitchell and Julien Lescar, for help in syn￾8000 S spectrofluorimeter with lex 5 280 nm and lem 5 440 nm. This chrotron data collection. M. P. is supported by a British Marshall
+allowed monitoring of energy transfer from tryptophan in the PI3K Scholarship. S. S. was supported by a BBSRC GAIN Initiative project
+to mant-ATP. Mant-ATP was titrated into a 1 mM solution of PI3K grant. P. H. was supported by a BBSRC senior fellowship. We are
+in running buffer. Each data point represents the average of data grateful for funding from the British Heart Foundation (R. L. W.).
+collected for 30 s witha1s integration time. For data collected in
+the presence of Ras, the solution also contained 6 mM H-ras· Received August 18, 2000; revised October 30, 2000.Cell
+942
+References Jameson, D.M., and Eccleston, J.F. (1997). Fluorescent nucleotide
+analogs: synthesis and applications. Methods Enzymol. 278,
+Barnett, S.F., Ledder, L.M., Stirdivant, S.M., Ahern, J., Conroy, R.R., 363–390.
+and Heimbrook, D.C. (1995). Interfacial catalysis by phosphoinosi- Jones, T.A., Zou, J.Y., Cowan, S.W., and Kjeldgaard. (1991). Im￾tide 39-hydroxykinase. Biochemistry 34, 14254–14262. proved methods for building protein models in electron density
+Bennett, J.P., Cockroft, S., Caswell, A.H., and Gomperts, B.D. (1982). maps and the location of errors in these models, Acta Crystallogr.
+Plasma-membrane location of phosphatidylinositol hydrolysis in A 47, 110–119.
+rabbit neutrophils stimulated with formylmethionyl-leucylphenyla- Kauffmann-Zeh, A., Rodriguez-Viciana, P., Ulrich, E., Gilbert, C.,
+lanine. Biochem. J. 208, 801–808. Coffer, P., Downward, J., and Evan, G. (1997). Suppression of c-Myc￾Bondeva, T., Pirola, L., Bulgarelli-Leva, G., Rubio, I., Wetzker, R., induced apoptosis by Ras signalling through PI(3)K and PKB. Nature
+and Wymann, M.P. (1998). Bifurcation of lipid and protein kinase 385, 544–548.
+signals of PI3Kg to the protein kinases PKB and MAPK. Science Khwaja, A., Rodriguez-Viciana, P., Wennstrom, S., Warne, P.H., and 282, 293–296. Downward, J. (1997). Matrix adhesion and Ras transformation both
+Boriack-Sjodin, P.A., Margarit, S.M., Bar-Sagi, D., and Kuriyan, J. activate a phosphoinositide 3-OH kinase and protein kinase B/Akt
+(1998). The structural basis of the activation of Ras by Sos. Nature cellular survival pathway. EMBO J. 16, 2783–2793.
+394, 337–343. Kinashi, T., Katagiri, K., Watanabe, S.-I., Vanhaesebroeck, B., Down￾Brunger, A.T., Adams, P.D., Clore, G.M., DeLano, W.L., Gros, P., ward, J., and Takatsu, K. (2000). Distinct mechanisms of a5b1 integ￾Grosse-Kunstleve, R.W., Jiang, J.S., Kuszewski, J., Nilges, M., rin activation by H-Ras and R-Ras. J. Biol. Chem. 275, 22590–22596.
+Pannu, N.S., et al. (1998). Crystallography & NMR system: A new Kleywegt, G.J. (1999). Experimental assessment of differences be- software suite for macromolecular structure determination. Acta tween related protein crystal structures. Acta Cryst D55, 1878–1884. Crystallogr. D 54, 905–921. Kraulis, P.J. (1991). MOLSCRIPT: A program to produce both de- Carpenter, C.L., Duckworth, B.C., Auger, K.R., Cohen, B., Schaff- tailed and schematic plots of protein structures. J Appl Crystallogr hausen, B.S., and Cantley, L. (1990). Purification and characteriza- 24, 946–950. tion of phosphoinositide 3-kinase from rat liver. J. Biol. Chem. 265, Krugmann, S., Hawkins, P.T., Pryer, N., and Braselmann, S. (1999). 19704–19707.
+Characterizing the interactions between the two subunits of the Carpenter, C., Auger, K., Chanudhuri, M., Yoakim, M., Schaffhausen, p101/p110g phosphoinositide 3-kinase and their role in the activa- B., Shoelson, S., and Cantley, L. (1993). Phosphoinositide 3-kinase tion of this enzyme by Gbg subunits. J. Biol. Chem. 274, 17152– is activated by phosphopeptides that bind to the SH2 domains of 17158.
+the 85-kDa subunit. J. Biol. Chem. 268, 9478–9483. Leslie, A.G.W. (1992). Recent changes to the MOSFLM package for CCP4 (1994). Collaborative Computing Project 4: a suite of programs film and image plate data. In Joint CCP4 and ESF-EACMB Newslet- for protein crystallography, Acta Crystallogr. D 50, 760–763. ter on Protein Crystallography (Warrington, UK, Daresbury Labo￾Condliffe, A.M., Hawkins, P.T., Stephens, L.R., Haslett, C., and Chil- ratory).
+vers, E.R. (1998). Priming of human neutrophil superoxide generation Lowy, D.R., and Willumsen, B.M. (1993). Function and regulation of by tumour necrosis factor-alpha is signalled by enhanced phospha- Ras. Annu. Rev. Biochem. 62, 851–891. tidylinositol 3,4,5- trisphosphate but not inositol 1,4,5-trisphosphate Maier, U., Babich, A., and Nurnberg, B. (1999). Roles of non-catalytic accumulation. FEBS Lett. 439, 147–151.
+subunits in Gbg-induced activation of class I phosphoinositide Deora, A.A., Win, T., Vanhaesebroeck, B., and Lander, H.M. (1998). 3-kinase isoforms b and g. J. Biol. Chem. 274, 29311–29317. A redox-triggered ras-effector interaction. Recruitment of phospha￾Marshall, C.J. (1996). Ras effectors. Curr. Opin. Cell Biol. 8, 197–204. tidylinositol 39-kinase to Ras by redox stress. J. Biol. Chem. 273,
+29923–29928. Merritt, E.A., and Bacon, D.J. (1997). Raster3D: Photorealistic Mo￾Domin, J., and Waterfield, M.D. (1997). Using structure to define the lecular Graphics. Meth Enzymol 277, 505–524.
+function of phosphoinositide 3-kinase family members. FEBS Lett. Milburn, M.V., Tong, L., deVos, A.M., Brunger, A., Yamaizumi, Z.,
+410, 91–95. Nishimura, S., and Kim, S.H. (1990). Molecular switch for signal
+Engh, R.A., and Huber, R. (1991). Accurate bond and angle parame- transduction: structural differences between active and inactive
+forms of protooncogenic ras proteins. Science 247, 939–945. ters for x-ray protein structure refinement. Acta Crystallogr. A 47,
+392–400. Moodie, S.A., Paris, M., Villafranca, E., Kirshmeier, P., Willumsen,
+Feig, L.A., Urano, T., and Cantor, S. (1996). Evidence for a Ras/Ral B.M., and Wolfman, A. (1995). Different structural requirements
+signaling cascade. Trends Biochem. Sci. 21, 438–441. within the switch II region of the Ras protein for interactions with
+specific downstream targets. Oncogene 11, 447–454. Franke, T.F., Kaplan, D.R., and Cantley, L.C. (1997). PI3K: down￾stream AKTion blocks apoptosis. Cell 88, 435–437. Moore, K.J., Webb, M.R., and Eccleston, J.F. (1993). Mechanism
+of GTP hydrolysis by p21N-ras catalyzed by GAP: studies with a Gire, V., Marshall, C., and Wynford-Thomas, D. (2000). PI-3-kinase fluorescent GTP analogue. Biochemistry 32, 7451–7459. is an essential anti-apoptotic effector in the proliferative response
+of primary human epithelial cells to mutant RAS. Oncogene 19, Nassar, N., Horn, G., Herrmann, C., Scherer, A., McCormick, F., and
+2269–2276. Wittinghofer, A. (1995). The 2.2 A crystal structure of the Ras-binding
+domain of the serine/threonine kinase c-Raf1 in complex with Rap1A Herrmann, C., Martin, G.A., and Wittinghofer, A. (1995). Quantitative and a GTP analogue. Nature 375, 554–560. analysis of the complex between p21ras and the Ras-binding do￾main of the human Raf-1 protein kinase. J. Biol. Chem. 270, 2901– Nicholls, A., Sharp, K.A., and Honig, B. (1991). Protein folding and
+2905. association: insights from the interfacial and thermodynamic prop￾erties of hydrocarbons. Proteins Struct Funct Genet 11, 281–296. Herrmann, C., Horn, G., Spaargaren, M., and Wittinghofer, A. (1996).
+Differential interaction of the ras family GTP-binding proteins H-Ras, Pai, E.F., Kabsch, W., Krengel, U., Holmes, K.C., John, J., and Wittin￾Rap1A, and R-Ras with the putative effector molecules Raf kinase ghofer, A. (1989). Structure of the guanine-nucleotide-binding do￾and Ral-guanine nucleotide exchange factor. J. Biol. Chem. 271, main of the Ha-ras oncogene product p21 in the triphosphate con￾6794–6800. formation. Nature 341, 209–214.
+Hiratsuka, T. (1983). New ribose-modified fluorescent analogs of Pai, E.F., Krengel, U., Petsko, G.A., Goody, R.S., Kabsch, W., and
+adenine and guanine nucleotides available as substrates for various Wittinghofer, A. (1990). Refined crystal structure of the triphosphate
+enzymes. Biochim Biophys Acta 742, 496–508. conformation of H-ras p21 at 1.35 A resolution: implications for the
+mechanism of GTP hydrolysis. EMBO J. 9, 2351–2359. Huang, L., Hofer, F., Martin, G.S., and Kim, S.-H. (1998). Structural
+basis for the interaction of Ras with RalGDS. Nat. Struct. Biol. 5, Rodriguez-Viciana, P., Warne, P.H., Dhand, R., Vanhaesebroeck,
+422–426. B., Gout, I., Fry, M.J., Waterfield, M.D., and Downward, J. (1994).Activation of PI3Kg by Ras
+943
+Phosphatidylinositol-3-OH kinase as a direct target of Ras. Nature Karin, M., and Wigler, M.H. (1995). Multiple Ras functions can con￾370, 527–532. tribute to mammalian cell transformation. Cell 80, 533–541.
+Rodriguez-Viciana, P., Marte, B.M., Warne, P.H., and Downward, J. Wittinghofer, A., and Herrmann, C. (1995). Ras-effector interactions,
+(1996a). Phosphatidylinositol 39 kinase: one of the effectors of Ras. the problem of specificity. FEBS Lett. 369, 52–56.
+Philos Trans R Soc Lond B 351, 225–232. Wymann, M.P., Sozzani, S., Altruda, F., Mantovani, A., and Hirsch, E.
+Rodriguez-Viciana, P., Warne, P.H., Vanhaesebroeck, B., Waterfield, (2000). Lipids on the move: phosphoinositide 3-kinases in leukocyte
+M.D., and Downward, J. (1996b). Activation of phosphoinositide function. Immunol. Today 21, 260–264.
+3-kinase by interaction with Ras and by point mutation. EMBO J. Xue, L., Murray, J.H., and Tolkovsky, A.M. (2000). The Ras/phospha￾15, 2442–2451. tidylinositol 3-kinase and Ras/ERK pathways function as indepen￾Rodriguez-Viciana, P., Warne, P.H., Khwaja, A., Marte, B.M., Pappin, dent survival modules each of which inhibits a distinct apoptotic
+D., Das, P., Waterfield, M.D., Ridley, A., and Downward, J. (1997). signaling pathway in sympathetic neurons. J. Biol. Chem. 275, 8817–
+Role of phosphoinositide 3-OH kinase in cell transformation and 8824.
+control of the actin cytoskeleton by Ras. Cell 89, 457–467. Zhou, J., and Adams, J.A. (1997). Participation of ADP dissociation
+Rubio, I., Rodriguez-Viciana, P., Downward, J., and Wetzker, R. in the rate-determining step in cAMP- dependent protein kinase.
+(1997). Interaction of Ras with phosphoinositide 3-kinase g. Bio- Biochemistry 36, 15733–15738.
+chem. J. 326, 891–895.
+Protein Data Bank ID Code Rubio, I., Wittig, U., Meyer, C., Heinze, R., Kadereit, D., Waldmann,
+H., Downward, J., and Wetzker, R. (1999). Farnesylation of Ras is The coordinates of the Ras·PI3Kg complex have been deposited in important for the interaction with phosphoinositide 3-kinase g. Eur.
+the Protein Data Bank with entry code 1he8. J. Biochem. 266, 70–82.
+Runnels, L.W., and Scarlata, S.F. (1998). Regulation of the rate and
+extent of phospholipase Cb2 effector activation by the bg subunits
+of heterotrimeric G proteins. Biochemistry 37, 15563–15574.
+Scheffzek, K., Ahmadian, M.R., Kabsch, W., Wiesmuller, L., Laut￾wein, A., Schmitz, F., and Wittinghofer, A. (1997). The Ras-RasGAP
+complex: Structural basis for GTPase activation and its loss in onco￾genic Ras mutants. Science 277, 333–338.
+Shepherd, P.R., Withers, D.J., and Siddle, K. (1998). Phosphoinosi￾tide 3-kinase: the key switch mechanism in insulin signalling. Bio￾chem. J. 333, 471–490.
+Shields, J.M., Pruitt, K., McFall, A., Shaub, A., and Der, C.J. (2000).
+Understanding Ras: ‘it ain’t over ’til it’s over’, Trends Cell Biol. 10,
+147–154.
+Shioi, T., Kang, P.M., Douglas, P.S., Hampe, J., Yballe, C.M., Lawitts,
+J., Cantley, L.C., and Izumo, S. (2000). The conserved phosphoinosi￾tide 3-kinase pathway determines heart size in mice. EMBO J. 19,
+2537–2548.
+Stephens, L.R., Eguinoa, A., Erdjument-Bromage, H., Lui, M., Cooke,
+F., Coadwell, J., Smrcka, A.S., Thelen, M., Cadwallader, K., Tempst,
+P., and Hawkins, P.T. (1997). The Gbg sensitivity of a PI3K is depen￾dent upon a tightly associated adaptor, p101. Cell 89, 105–114.
+Stoyanov, B., Volinia, S., Hanck, T., Rubio, I., Loubtchenkov, M.,
+Malek, D., Stoyanova, S., Vanhaesebroeck, B., Dhand, R., Nurnberg,
+B., et al. (1995). Cloning and characterization of a G protein-activated
+human phosphoinositide 3-kinase. Science 269, 690–693.
+Sydor, J.R., Engelhard, M., Wittinghofer, A., Goody, R.S., and Herr￾mann, C. (1998). Transient kinetic studies on the interaction of Ras
+and the Ras-binding domain of c-Raf-1 reveal rapid equilibration of
+the complex. Biochemistry 37, 14292–14299.
+Tanaka, Y., Minami, Y., Mine, S., Hirano, H., Hu, C.D., Fujimoto, H.,
+Fujii, K., Saito, K., Tsukada, J., van Kooyk, Y., et al. (1999). H-Ras
+signals to cytoskeletal machinery in induction of integrin- mediated
+adhesion of T cells. J. Immunol. 163, 6209–6216.
+Vanhaesebroeck, B., Welham, M.J., Kotani, K., Stein, R., Warne,
+P.H., Zvelebil, M.J., Higashi, K., Volinia, S., Downward, J., and Wa￾terfield, M.D. (1997). p110d, a novel phosphoinositide 3-kinase in
+leukocytes. Proc Natl Acad SciUSA 94, 4330–4335.
+Vetter, I.R., Linnemann, T., Wohlgemuth, S., Geyer, M., Kalbitzer,
+H.R., Herrmann, C., and Wittinghofer, A. (1999). Structural and bio￾chemical analysis of Ras-effector signaling via RalGDS. FEBS Lett.
+451, 175–180.
+Walker, E.H., Perisic, O., Ried, C., Stephens, L., and Williams, R.L.
+(1999). Structural insights into phosphoinositide 3-kinase catalysis
+and signalling. Nature 402, 313–320.
+Walker, E.H., Pacold, M.E., Perisic, O., Stephens, L., Hawkins, P.T.,
+Wymann, M.P., and Williams, R.L. (2000). Structural determinants
+of phosphoinositide 3-kinase inhibition by wortmannin, LY294002,
+quercetin, myricetin, and staurosporine. Mol Cell 6, 909–919.
+White, M.A., Nicolette, C., Minden, A., Polverino, A., Van Aelst, L.,

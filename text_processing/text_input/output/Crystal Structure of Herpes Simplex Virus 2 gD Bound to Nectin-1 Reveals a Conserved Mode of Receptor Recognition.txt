@@ -1,0 +1,865 @@
+1
+1 Crystal structure of HSV-2 gD bound to nectin-1 reveals a conserved mode of 
+2 receptor recognition 
+3 
+Guangwen Lu1,#, Na Zhang1,#, Jianxun Qi1
+, Yan Li1
+, Zhujun Chen1
+, Chunfu Zheng2 4 , 
+George F Gao1,3,4,5,, Jinghua Yan1* 5 
+1 6 CAS Key Laboratory of Pathogenic Microbiology and Immunology, Institute of 
+7 Microbiology, Chinese Academy of Sciences, Beichen West Road, Beijing 100101, 
+8 China 
+2 9 Soochow University, Institutes of Biology and Medical Sciences, Suzhou, 215123, 
+10 China 
+3 11 Laboratory of Protein Engineering and Vaccines, Tianjin Institute of Industrial 
+12 Biotechnology, Chinese Academy of Sciences, Tianjin 300308, China 
+4 13 Research Network of Immunity and Health (RNIH), Beijing Institutes of Life 
+14 Science, Chinese Academy of Sciences, Beijing 100101, China
+5 15 Office of Director-General, Chinese Center for Disease Control and Prevention 
+16 (China CDC), Beijing 102206, China. 
+17 
+# 18 These authors contribute equally to this work. 
+* 19 To whom correspondence should be addressed 
+20 Email: yanjh@im.ac.cn 
+21 
+22 Running head: Structures of free and nectin-1-bound HSV-2 gD 
+23 
+24 Word count abstract: 247 
+25 Word count text: 5307
+26 
+27 
+JVI Accepts, published online ahead of print on 17 September 2014
+J. Virol. doi:10.1128/JVI.01906-14
+Copyright © 2014, American Society for Microbiology. All Rights Reserved.2
+28 Abstract
+29 Herpes simplex virus type 1 (HSV-1) and type 2 (HSV-2) are among the most 
+30 prevalent human pathogens. Both viruses can recognize, via the surface envelope 
+31 glycoprotein D (gD), human nectin-1 as a functional receptor. Previous studies have 
+32 successfully elucidated the molecular basis of the binding between HSV-1 gD and 
+33 nectin-1 by co-crystallography. Despite a high sequence identity between HSV-1 and 
+34 -2 gDs, the atomic inter-molecule details for HSV-2-gD/nectin-1 interaction remain 
+35 elusive. Here, we reported the crystal structures of both the unbound and the 
+36 nectin-1-bound HSV-2 gD. The free gD structure expectedly comprises an IgV-like 
+37 core and the surface-exposed terminal extensions as observed in its HSV-1 
+38 counterpart, but lacks traceable electron densities for a large portion of the terminal 
+39 elements. These terminal residues were clearly traced in the complex structure as a 
+40 definitive loop in the N-terminus and an α–helix in the C-terminus, thereby showing a 
+41 conserved nectin-1-binding mode as reported for HSV-1 gD. The interface residues in 
+42 nectin-1 were further mutated and tested for the gD-interaction by surface plasmon 
+43 resonance. The resultant binding patterns were similar between HSV-1 and -2 gDs, 
+44 further supporting a homologous receptor-binding basis by the two viruses for 
+45 nectin-1. These data, together with a cell-based fusion assay showing a 
+46 cross-inhibition of the gD/nectin-1 mediated cell-cell fusion by soluble HSV-1 and -2 
+47 gDs, provided solid structural and functional evidence that HSV-1/-2 recognizes 
+48 nectin-1 via the same binding mode. Finally, we also demonstrated that nectin-1 I80 is 
+49 an important residue involved in gD interaction. 
+50 
+51 Key words: herpes simplex virus type 2; glycoprotein D; free- and nectin-1-bound 
+52 structures; structural basis; conserved binding mode 
+53 3
+54 Importance 
+55 Despite intensified studies, a detailed picture of the molecular features in the 
+56 HSV-2-gD/nectin-1 interaction remains unavailable. Previous work focused on HSV-1 
+57 gD, which folds into an IgV-like core with large terminal extensions and utilizes the 
+58 extension elements to engage nectin-1. Here, we reported the crystal structures of 
+59 HSV-2 gD in both the free and the nectin-1-bound forms. The atomic inter-molecule 
+60 details for HSV-2-gD/nectin-1 interaction were clearly presented. The observed 
+61 binding mode is identical to that reported for its HSV-1 counterpart. This structural 
+62 observation was further supported by our comparative functional assays showing that 
+63 nectin-1 mutations similarly affect the ligand/receptor interaction of both virus gDs. 
+64 Taken together, we provided comprehensive structural and functional data 
+65 demonstrating a conserved receptor-binding mode between HSV-1 and -2 for nectin-1. 
+66 Our results also indicate that the tropism-difference between the two viruses likely 
+67 arises from other aspects rather than the gD/nectin-1 binding-features. 
+68 4
+69 Introduction 
+70 Herpes simplex virus (HSV) belongs to the alphaherpesvirus subfamily in the 
+71 herpesviridae family (1). Two HSV types have been identified thus far, including 
+72 HSV-1 and HSV-2, both of which can infect human. The two viruses can infect 
+73 neurons and thereby cause neurological diseases. They could also establish latency in 
+74 sensory neurons and result in the infected patients being a life-long virus carrier (2). 
+75 Although HSV infections are usually asymptomatic, intermittent reactivation of the 
+76 latent viruses can lead to severe diseases and sometimes be life-threatening in 
+77 immuno-compromized individuals (1). The asymptomatic nature of HSV infection is 
+78 also considered to facilitate the virus spread in the population (3). HSV-1 primarily 
+79 causes oral and ocular lesions, and is also related to the genital infections though less 
+80 frequently (4-5). HSV-2 mainly causes genital tissue damages (5-6). 
+81 HSV infection starts with the virus entry into susceptible host cells (1, 7). This 
+82 entry process is a complicated multi-event that involves orchestrated interplays 
+83 between the glycoproteins embedded in the viral envelope and the host surface 
+84 molecules and receptors (7-9). The current thesis indicates the involvement of at least 
+85 5 (out of 11) virus envelope glycoproteins in HSV entry, including glycoproteins B, C, 
+86 D, H and L (gB, gC, gD, gH and gL) (7-9). The initial attachment of the virus 
+87 particles on cell surface could be mediated by gB or gC, which can recognize sugar 
+88 moieties like heparan sulphate proteoglycan (HSPG) (10-11). This is normally 
+89 followed by a specific interaction between gD and its canonical receptors (12-13). The 
+90 final entry step of membrane fusion, then, occurs at either the plasma (14) or the 5
+91 endosome (15) membrane mediated by an activated core fusion machinery composed 
+92 of gB and gH/gL (16-19). In this cascade of events, the gD/receptor interaction is 
+93 suggested as a key factor for successful virus entry. In addition to tethering virus 
+94 particles onto cells expressing specific gD receptors, it is also believed that gD 
+95 binding to receptor would displace its C-terminal profusogenic domain (PFD), 
+96 thereby activating the gB/gH/gL fusion executor (20-22). Furthermore, gD is also an 
+97 important contributing factor to a broad cell-type tropism of HSV by engaging 
+98 diversified cellular receptors (23). Thus far, a series of host molecules have been 
+99 reported to be recognized by HSV gD. These include herpes virus entry mediator 
+100 (HVEM) (24), nectin-1 (25), nectin-2 (26) and 3-O-sulfonated-heparan sulfate 
+101 (3-O-S-HS) (27), of which nectin-1 plays an indispensable role in the infection and 
+102 pathogenesis of both HSV-1 and -2 (28-30). 
+Nectin-1 belongs to the Ca2+ 103 -independent cell adhesion molecule family and 
+104 functions via homo- or hetero-dimerization in the formation of adheren junctions (31). 
+105 The molecule also serves as a functional receptor for both HSV-1 and -2 (12), and is 
+106 shown to play a more determinant role than other gD receptors (eg. HVEM) in HSV-2 
+107 infection (28-29). With a truncated gD molecule (spanning residues 1-285) that 
+108 according to previous reports (32-34) shows a much higher affinity for receptors than 
+109 the longer gD form (spanning residues 1-306), the molecular basis of the binding 
+110 between HSV-1 gD and nectin-1 has been successfully elucidated via co-structures 
+111 (35-36). It was revealed that the gD molecule contains a V-set immunoglobulin-like 
+112 (IgV-like) core that is wrapped by large terminal extensions, and utilizes the extensive 6
+113 N- and C-terminal extension elements to engage nectin-1 (35-36). This forms a 
+114 striking contrast to the binding mode of HSV-1 gD with HVEM, which shows the 
+115 utilization of an N-terminal hairpin in gD for receptor binding (37). Nevertheless, 
+116 either way of receptor engagement by HVEM or nectin-1 should displace a 
+117 “pre-located” C-terminal loop in gD as observed in a previous dimeric structure (38). 
+118 This characteristic structure is consistent with earlier functional analyses showing that 
+119 the exposure of the gD PFD is a key step in triggering fusion (20-21). The current 
+120 structural investigations, however, are almost exclusively based on the HSV-1 gD 
+121 protein. Inspired by the high sequence identity (~85%) between HSV-1 and -2 gDs, 
+122 there has been functional evidence showing that the two viral proteins exhibit similar 
+123 affinities for nectin-1 (39) and are inter-changeable in virus infection (40) and entry 
+124 inhibition (41). In addition, a recent study reported a complex structure between 
+125 HSV-2 gD and a human monocolonal antibody E317, which reveals quite similar 
+126 structures between HSV-1 and -2 gD proteins (42). These results point to a 
+127 homologous nectin-1 binding mode of the two viruses. Nevertheless, the molecular 
+128 basis on the HSV-2 gD recognition by nectin-1 remains elusive, despite an 
+129 indispensable role of nectin-1 in HSV-2 infection. 
+130 In this study, we presented the atomic inter-molecule details for HSV-2-gD/nectin-1 
+131 interaction via the crystal structures of HSV-2 gD in both the free and the 
+132 receptor-bound forms. We further conducted a thorough mutational analysis 
+133 characterizing the binding properties of nectin-1 with both HSV-1 and -2 gDs. A 
+134 conserved receptor binding mode between the two viruses for nectin-1 was solidly 7
+135 confirmed. In addition, we also demonstrated that nectin-1 I80 acts as an important 
+136 interface residue for gD interaction, in addition to previously identified key amino 
+137 acids including N77, M85 and F129 (36, 43-44). 
+138 
+139 Materials and Methods: 
+140 Preparation of the proteins 
+141 The soluble proteins of HSV-1 gD and nectin-1 were prepared as previously 
+142 described (35), and HSV-2 gD (the gene of HSV-2 gD was a kind gift from Dr. Peng 
+143 Tao at Guangzhou Institutes of Biomedicine and Health, Chinese Academy of 
+144 Sciences) was prepared similarly as HSV-1 gD. In brief, the HSV-1 (strain KOS) and 
+145 -2 (strain 333) gD-ectodomain proteins (residues 1-285) were expressed in Hi5 cells 
+146 using recombinant baculoviruses. The GP67 signal sequence was engineered to the 
+147 N-terminus of gD to facilitate protein secretion, and a C-terminal hexa-his tag was 
+148 used for affinity chromatography purification. The pooled gD proteins from the 
+Ni-NTA column were further purified by gel filtration using a Superdex® 149 200 (GE) 
+150 column. 
+151 The nectin-1 ectodomain protein (residues 30-335) was obtained by refolding of the 
+152 E. coli expressed inclusion bodies which were first added into a buffer consisting of 
+153 100 mM Tris, pH9.0, 400 mM L-arginine, 2 mM EDTA, 4 M urea, 5 mM reduced 
+154 glutathione and 1 mM oxidized glutathione and then sequentially dialysed against 
+155 water and a buffer containing 10 mM Tris, pH 9.0, 10 mM NaCl. The refolded protein 
+was then concentrated and loaded onto a Superdex® 156 200 column for further 8
+157 purification. 
+158 Comparative mutagenesis study by surface plasmon resonance (SPR)
+159 A QuickChange Site-Directed Mutagenesis Kit was used to obtain the nectin-1 
+160 expressing plasmids with the indicated mutations. The mutant proteins were prepared 
+161 using the same refolding and purification procedure as described for the WT nectin-1. 
+162 All the purified proteins were then exchanged to a buffer containing 10 mM HEPES 
+163 (pH 8.0), 150 mM NaCl, 3 mM EDTA and 0.005% Tween-20, concentrated to 
+164 approximately 4 mg/ml, and stored at 4 °C for further use. 
+ The binding assay was carried out with a BIAcore® 165 3000 system (GE Healthcare). 
+166 The gD protein (HSV-1 or -2) was immobilized on CM5 chips at ~750 response units 
+167 using a standard amine coupling method, and was then tested for the binding by 1 μM 
+168 of the individual nectin-1 proteins (WT or mutant) at room temperature. The bound 
+169 protein in response unit was recorded for comparison. 
+170 Kinetic study 
+The kinetic analysis was performed by SPR using the BIAcore® 171 3000 system. 
+172 Gradient concentrations of HSV-1 or -2 gD protein was flowed at 30 μl/min over 
+173 nectin-1 (WT or mutant) immobilized at ~750 response units, and tested for the 
+174 binding at 25 °C. The running buffer is composed of 10 mM HEPES (pH 8.0), 150 
+175 mM NaCl, 3 mM EDTA and 0.005% Tween-20. In each run, 10 mM NaOH was used 
+176 to regenerate the chip. The binding data were fitted using the 1:1 Langmuir binding 
+177 model or the steady state affinity model for dissociation constant (KD) calculations. 
+178 The calculated kinetic parameters were summarized in Table 1. 9
+179 Crystallization, data collection and processing 
+180 The crystallization and diffraction data collection for free HSV-2 gD have been 
+181 described previously (45). To obtain HSV-2-gD/nectin-1 complex crystals, the gD and 
+182 nectin-1 proteins were mixed at a 3:1 molar ratio and then used to screen the Hampton 
+183 Research kits via the vapor diffusion sitting drop method. The conditions were then 
+184 optimized. Diffractable crystals were finally obtained by mixing 1 μl of the protein 
+185 preparation (3 mg/ml) with 1 μl reservoir solution consisting of 0.2 M sodium 
+186 chloride, 0.1 M sodium cacodylate, pH6.0 and 8% w/v PEG 8000, followed by 
+187 incubation at 18 °C for about two weeks. 
+188 The diffraction data of the complex crystal were collected at beamline BL17U of 
+189 Shanghai Synchrotron Radiation Facility (SSRF) using the synchrotron radiation 
+190 (wavelength, 1.0000 Å) at 100 K. The cryoprotectant solution is composed of 15% 
+191 v/v glycerol and 85% v/v reservoir solution. Data were then processed with HKL2000 
+192 (46) for indexing, integration and scaling. 
+193 Structure determination 
+194 Via molecular replacement using the PHASER (47) program in the CCP4 suite (48), 
+195 the free HSV-2 gD and the nectin-1 bound complex structures were solved with a free 
+196 HSV-1 gD structure (PDB code: 1L2G, Chain A) and a HSV-1-gD/nectin-1 complex 
+197 structure (PDB code: 3U82) as the search models, respectively. The built structure 
+198 models were further refined using REFMAC (49) and Phenix (50) and manually 
+199 adjusted in coot (51) for several cycles. In each cycle, the stereochemistry of the 
+200 model was monitored by PROCHECK (52). The final data-processing and 10
+201 structure-refinement statistics are summarized in Table 2. The coordinates and the 
+202 related structural factors have been deposited into the Protein Data Bank with the 
+203 PDB codes of 4MYV for the free HSV-2 gD structure and 4MYW for the 
+204 HSV-2-gD/nectin-1 complex structure. 
+205 Cell fusion blocking assay 
+206 The fusion mediated by HSV gB/gD/gH/gL and the receptors have been validated 
+207 in various cell types (21, 53). In this study, we set up a cell-based fusion system using 
+208 the CHO-K1 cells as previously reported (53). In brief, the genes of HSV-1 gB, gD, 
+209 gH, gL, HSV-2 gD and human nectin-1 were cloned into the pCDNA4.0-myc-his 
+210 vector to yield the respective plasmids for protein expression in mammalian cells. The 
+211 T7-polymerase and T7-luciferase expression plasmids were constructed previously in 
+212 our lab. The expressing plasmids for HSV-1 gB, gH, gL, HSV-1 or -2 gD and the 
+213 T7-luciferase and the plasmids for nectin-1 and the T7-polymerase were separately 
+co-transfected into CHO-K1 cells using lipo2000® 214 (Invitrogen) according to the 
+215 manufacturer’s instructions. Twelve hours post transfection, the nectin-1 expressing 
+216 cells were first incubated for 2 hours with gradient concentrations (0.1, 0.5 and 2.5 
+217 μM) of soluble gD proteins of HSV-1 or -2 or hNUDT16 (an irrelevant-protein that 
+218 was prepared as previously described (54)), and then mixed with the cells expressing 
+219 gB/gD/gH/gL and further incubated for 6 hours for cell fusion. The luciferase activity 
+220 was tested using a Luciferase Assay System kit bought from Promega. 
+221 The virus entry and entry-inhibition assays 
+222 A genetically modified HSV-1 virus with a luciferase gene has been described 11
+223 previously (55). For the virus entry assay, the WT nectin-1 construct (as used in the 
+224 cell fusion assay) and the mutant constructs with the indicated mutations (obtained by 
+site-directed mutagenesis) were used to transfect CHO-K1 cells using lipo2000® 225 . The 
+226 transfection efficiency was characterized by flowcytometry. The cells in a 48-well 
+plate were then incubated with 100 µl of virus solution (1×106 227 pfu) for 2 hours. After 
+228 washing and a 4-hour incubation in fresh medium, the cells were harvested, lysed and 
+229 tested for the luciferase activity. The entry-inhibition assay follows the same 
+230 procedure as described for the entry assay except that the virus was incubated with the 
+231 WT or mutant nectin-1 proteins (final concentration of 100 μg/ml) for 1 hour before it 
+232 is inoculated into the nectin-1-expressing cells. 
+233 
+234 Results 
+235 The structure of free HSV-2 gD 
+236 We previously managed to collect a 1.8-Å resolution dataset from HSV-2 gD 
+237 crystals (45). The solved structure, with an Rwork of 0.189 and an Rfree of 0.220 (Table 
+238 2), includes two gD molecules per asymmetric unit. For each molecule, clear electron 
+239 densities could be traced for residues V37-R184 and L195-R222. These amino acids 
+240 are arranged into a nine-stranded (A', B, C, C', C'', D, E, F and G) IgV-like core in the 
+241 center and several surface components of α-helices (α1, α1', α2) and loops wrapping 
+242 the center-core on the exterior (Fig. 1A). Overall, this observed structure is very 
+243 similar to the previously reported gD structures. For example, when superimposed, 
+244 the free gD structure obtained in this study shows a root-mean-square deviation (rmsd) 12
+245 of ~0.78 Å over 158 equivalent Cα atoms to a free HSV-1 gD structure (PDB code: 
+246 1L2G), an rmsd of ~0.85 Å over 160 Cα atoms to an HSV-1 gD structure binding with 
+247 HVEM (PDB code: 1JMA), an rmsd of ~0.77 Å over 156 Cα atoms to an HSV-1 gD 
+248 structure binding with nectin-1 (PDB code: 3U82), and an rmsd of ~0.71 Å over 155 
+249 Cα atoms to the recently reported HSV-2 gD structure in the antibody-binding form 
+250 (PDB code: 3W9E). 
+251 Despite a conserved fold as revealed by the low rmsd values, our HSV-2 gD 
+252 structure exhibits an unexpected feature in the external extension region relative to the 
+253 afore-mentioned gD structures. A large portion of the external elements, including 
+254 those covering residues P23-R36, A185-P194 and F223-A239, lacks traceable 
+255 electron densities in our structure. The equivalent amino acids, however, are 
+256 consistently shown in the reference structures to form a long loop and a short strand 
+257 (str2) in the N-terminus, an intervening G-α2 loop, and a long helix (α3) in the 
+258 C-terminus, respectively (Fig. 1B). Further conformational difference was observed in 
+259 the IgV-like core for the loops connecting strands C'' and D (the C''-D interloop) and 
+260 strands E and F (the E-F interloop) (Fig. 1C). It is interesting that this E-F interloop 
+261 also exhibits different conformations between the two molecules in the HSV-2 gD 
+262 asymmetric unit, with one protomer (chain A) aligning similarly to but the other 
+263 protomer (chain B) orienting distantly from the reference gD structures (Fig. 1C). 
+264 The complex structure of HSV-2 gD bound to nectin-1 
+265 To elucidate the molecular basis of the nectin-1 recognition by HSV-2 gD, complex 
+266 crystals were prepared and the structure was successfully solved at 3.2 Å resolution. 13
+267 The constructed model, with an Rwork of 0.196 and an Rfree of 0.247 (Table 2), 
+268 contains two 1:1 binding complexes of the HSV-2 gD to nectin-1 in the asymmetric 
+269 unit. For each complex, gD residues P23-P254 and nectin-1 amino acids V33-E335 
+270 are successfully traced in the electron density map. On the whole, the gD molecule 
+271 shows a typical structure of an IgV-core wrapped by extensive terminal extensions, 
+272 and nectin-1 folds into an overall rod-like structure with tandem arranged V-C-C 
+273 Ig-like domains. As expected, HSV-2 gD binds to the membrane-distal IgV-like 
+274 domain of nectin-1 (Fig. 2A). In comparison to the free HSV-2 gD structure, many of 
+275 the untraceable terminal residues are unambiguously observed in the complex 
+276 structure, presenting as an extended loop in the N-terminus and an α-helix (α3) in the 
+277 C-terminus to engage the receptor (Fig. 2B). 
+278 The overall binding mode between HSV-2 gD and nectin-1 is very similar to that 
+279 observed in a previously reported HSV-1-gD/nectin-1 complex structure (Fig. 2A). 
+280 The binding relies on the surface components in the terminal extensions of HSV-2 gD 
+281 engaging the rear (CC'C''FG) sheet of the nectin-1 IgV domain (Fig. 2A). A high 
+282 complementarity in both the shape and the hydrophobicity character is observed 
+283 between the two molecules at this interface, bearing extended surface areas of about 
+938.4 Å2
+ and 946.7 Å2 284 in gD and nectin-1, respectively. We further detailed the 
+285 interface amino acids with a 4.5-Å resolution cut-off to characterize the 
+286 receptor/ligand footprints in these two interacting molecules. A total of 24 residues are 
+287 revealed in HSV-2 gD and are observed to sterically congregate into two main surface 
+288 patches (patches 1 and 2), as reported for HSV-1 gD (35). The patch1 residues, 14
+289 including P23, L25-Q27, F223, N227, V231 and Y234, locate in the distal N-terminal 
+290 loop and the α3 helix. While the remaining interface residues of R36-H39, Q132, 
+291 R134, P198 and V214-R222 form the much more extended surface patch2 (Fig. 2C). 
+292 As expected, essentially the same patches of amino acids are also shown to be 
+293 responsible for the HSV-1-gD/nectin-1 interaction (Table 3). 
+294 As to the receptor, the identified gD footprint in nectin-1 is composed of 26 amino 
+295 acids including S59, K61, T63, Q64, T66, Q68, G73-N77, I80-N82, M85-S88, L90, 
+296 E125, A127-T131 and N133. Five residues (S59, K61 and F129-T131) are observed 
+297 to locate in the B-C and F-G loops, constituting a bottom loop region to contact 
+298 mainly patch1 of HSV-2 gD. While an upper sheet (the CC'C''FG sheet) region, with 
+299 the remaining interface residues, interacts in a much more extended manner with 
+300 HSV-2 gD patch2 (Fig. 2C). This observed amino acid interaction pattern is the same 
+301 between the two HSV-2-gD/nectin-1 complexes of the asymmetric unit, and is also 
+302 very similar to that observed in the HSV-1-gD/nectin-1 complex structure (35). 
+303 A comparative mutagenesis study on nectin-1 binding between HSV-1 and -2 gDs 
+304 Based on the complex structures, HSV-1 and -2 gDs contact essentially the same 
+305 series of rear-sheet residues in nectin-1 for recognition. We, therefore, further sought 
+306 for functional evidence of a conserved nectin-1 binding mode between the two viral 
+307 gD proteins. With an alanine-scanning mutagenesis in nectin-1, its interaction with 
+308 both HSV-1 and -2 gDs were characterized and compared by surface plasmon 
+309 resonance (SPR). A total of 13 amino acids were selected (based on the complex 
+310 structure solved in this study and our previously solved HSV-1-gD/nectin-1 structure) 15
+311 and mutated either individually or simultaneously. The mutant proteins were then 
+312 prepared and purified as described for the wild type (WT) protein, and were further 
+313 tested for the binding to gD (HSV-1 and -2) proteins immobilized at ~750 response 
+314 units. The binding capacity was thereby characterized as the amount of nectin-1 (WT 
+315 or mutant) in response unit that is capable of binding to gD when 1 μM of the 
+316 individual nectin-1 proteins flow through the chip. 
+317 Overall, the resultant binding patterns are very similar between HSV-1 and -2 gDs 
+318 (Fig. 3A). A series of residues, including K61, T63, Q64, Q76, N82, L90, E125, P130 
+319 and N133, do not significantly affect the gD/nectin-1 interaction. Nonetheless, 
+320 dramatically decreased gD binding is observed for nectin-1 mutants with substitutions 
+321 for residues N77, I80, M85 and F129, which exhibit about half (or less) of the binding 
+322 response units of the WT nectin-1. This result is also consistent with previous studies 
+323 reporting the functional indispensability of nectin-1 N77, M85 and F129 in the 
+324 receptor recognition by HSV-1 gD (36, 43-44). It is also noteworthy that the 
+325 tetra-mutant (simultaneously substituting T63, Q64, E125 and N133 with alanine) 
+326 nectin-1, which should be disrupted for the receptor homodimerization based on a 
+327 previous report (56), shows an increased binding capacity to both gD proteins (Fig. 
+328 3A). 
+329 We further mapped the nectin-1 residues N77, I80, M85 and F129 onto the binding 
+330 interface in our complex structure. F129, which locates in the F-G loop, inserts its 
+331 side-chain into a highly hydrophobic pocket formed by F223, V231 and the apolar 
+332 carbon atoms of Q227 in HSV-2 gD (Fig. 3B). In the upper sheet region where the 16
+333 remaining three amino acids reside, I80 and M85 are shown to extensively contact 
+334 HSV-2 gD Y38, Q131 and P221 via strong hydrophobic interactions, while N77 could 
+335 contribute to the ligand binding by providing H-bond interactions via both the 
+336 side-chain and main-chain nitrogens with gD D215 and M219 (Fig. 3C). For the other 
+337 interface residues, their role in gD-recognition seems to be restricted to a limited 
+338 number of van-der-Waals contacts, explaining their individual dispensability. 
+339 Corss-inhibition of the gD/nectin-1 mediated cell fusion by soluble HSV-1 and -2 
+340 gDs 
+341 The conserved nectin-1 binding mode between HSV-1 and -2 gDs was further 
+342 confirmed by a cell-fusion based mutual inhibition assay. The gD (HSV-1 or -2) 
+343 protein along with the virus fusion executor of gB/gH/gL and the nectin-1 receptor are 
+344 separately expressed in CHO-K1 cells. Consistent with previous studies (53), 
+345 remarkable cell fusion was observed when the nectin-1-expressing cells were mixed 
+346 with the cells expressing virus gB, gH, gL of HSV-1 and gD of either HSV-1 or -2. In 
+347 each case, the fusion is specifically inhibited by the soluble gD protein of its original 
+348 virus type in a dose dependent manner. In addition, similar fusion inhibition patterns 
+349 to those observed in the self-inhibiting tests were recorded when the heterogeneous 
+350 gD proteins were added to the system (Fig. 4). These observations are consistent with 
+351 previous reports (41, 57-58), and demonstrate a very similar mode of action of HSV-1 
+352 and -2 gDs in nectin-1 mediated cell-cell fusion. 
+353 Nectin-1 I80 is an important gD-interaction residue 
+354 Based on our comparative mutagenesis study, nectin-1 I80 is a newly identified 17
+355 residue that affects the gD binding, in addition to the previously reported amino acids 
+356 N77, M85 and F129 (36, 43-44). We therefore further quantitatively analyzed the 
+357 contribution of this amino acid to the receptor/ligand engagement. The dissociation 
+358 constants (KDs) of nectin-1/I80A bound to HSV-1 and -2 gDs are determined to be 1 
+359 μM and 1.47 μM, respectively. These values are about two orders of magnitude lower 
+360 than those observed for the WT nectin-1 protein (12.5 nM for HSV-1 gD and 19.1 nM 
+361 for HSV-2 gD), demonstrating that residue I80 indeed plays an important role in the 
+362 nectin-1 engagement of gD. We also included the tetra-TQEN mutant protein in the 
+363 kinetic assay, because these four residues could disrupt nectin-1 homodimerization 
+364 (56) but did not interfere with the gD/nectin-1 interaction individually (Fig. 3A). The 
+365 calculated binding affinities, with KDs of 2.27 nM for HSV-1 gD and 7.81 nM for 
+366 HSV-2 gD, increased by approximately 2-5 folds in comparison to WT nectin-1 (Fig. 
+367 5, Table 1). 
+368 We further investigated the role of nectin-1 I80 in the virus cell entry with an 
+369 infection assay using a genetically modified HSV-1 virus containing a luciferase gene 
+370 (55). CHO-K1 cells were transiently transfected with the nectin-1 (WT or mutant) 
+371 expressing plasmids. With similar expression levels (Fig. 6A), mutations of N77A, 
+372 M85A and F129A were shown to dramatically impair the cell entry efficiencies of 
+373 HSV-1 (Fig. 6B), which is consistent with the previous studies (36, 43-44). An 
+374 approximate 2.5-fold decrease in the viral invasion was observed for the I80A mutant 
+375 in comparison to that of the WT protein, demonstrating its functional importance in 
+376 nectin-1 mediated virus entry. The tetra-TQEN mutant, however, is as capable of 18
+377 mediating virus entry as WT nectin-1 (Fig. 6B). Reciprocally, we further tested in an 
+378 infection blocking assay the capability of nectin-1/I80A to inhibit HSV-1 entry into 
+379 cells by competing with the cell surface nectin-1. Consistent with the result of the 
+380 infection assay, nectin-1/I80A mutant exhibits compromised blocking activity against 
+381 the viral invasion of HSV-1 (Fig. 6C). These results demonstrate that nectin-1 I80 is 
+382 an important interface residue involved in the gD binding. 
+383 
+384 Discussion 
+385 As with other enveloped viruses, the initiation of virus infection by HSV requires, 
+386 as a prerequisite, the specific interactions between viral surface glycoproteins and the 
+387 host cellular receptors (7-9). Although multiple virus envelope proteins other than gD 
+388 have been shown to be capable of recognizing host molecules (eg. both gB and gC 
+389 can engage HSPG (10-11), and gB also recognizes PILRα (59) and NMHC-IIA (60)), 
+390 the gD/receptor interaction is considered as a key step bridging the attachment and the 
+391 fusion processes. Of the identified gD receptors, nectin-1 seems to play a more 
+392 important role in mediating the virus infection by HSV-2, at least in in vivo murine 
+393 models (28-29). In comparison to that in the WT or the HVEM knock-out mice, an 
+394 attenuated disease caused by HSV-2 and diminished virus spread were observed in the 
+395 nectin-1 knock-out mice (28). In addition, it was demonstrated that nectin-1, but not 
+396 HVEM, plays an indispensable role in the HSV-2 infection of the central nervous 
+397 system by direct cranial inoculation (29). It is, therefore, an interesting issue to 
+398 elucidate the molecular basis of the binding between HSV-2 gD and nectin-1. A 19
+399 previous study reported the structure of HSV-2 gD with a neutralizing antibody E317 
+400 (42). The antibody was shown to exert the neutralization activity by disrupting the 
+401 gD/receptor interactions. The gD/E317 complex structure, therefore, provided the first 
+402 structural glimpse on the HSV-2-gD/nectin-1 binding basis. In this study, we reported 
+403 a free HSV-2 gD structure and a complex structure of HSV-2 gD bound with nectin-1. 
+404 By comparing with the previously reported HSV-1-gD/nectin-1 structures (35-36), we 
+405 demonstrated at the atomic level that gDs of the two virus species engage essentially 
+406 the same patch of nectin-1 residues for receptor recognition. This homologous binding 
+407 mode was further supported by our comparative mutagenesis study showing that the 
+408 individual mutation of the interface residues in nectin-1 affects the ligand/receptor 
+409 interaction similarly between HSV-1 and -2 gDs and by our fusion inhibition assay 
+410 showing that soluble gD proteins of the two viruses could mutually inhibit the 
+411 gD/nectin-1 mediated cell fusion. These comprehensive structural and functional data, 
+412 together with the previously reported functional evidence (39-41, 57-58), demonstrate 
+413 a conserved receptor-binding mode between HSV-1 and -2 for nectin-1, and imply 
+414 that the tropism-difference between the two viruses likely arises from other aspects 
+415 rather than the gD/nectin-1 binding-features. 
+416 Compared to the HSV-1 gD (free or bound) (35-37) or the bound HSV-2 gD 
+417 structures (42), the unbound HSV-2 gD structure lacks traceable electron densities for 
+418 a large portion of the terminal extensions at both the N- and C-termini. This could be 
+419 either a result of cleavage-remove of the terminal extensions by 
+420 accidentally-contaminated proteases during crystallization or an indicative clue of the 20
+421 terminal flexibility. It should be noted that in the thus-far available complex structures 
+422 of gD with a receptor or an antibody (35-37, 42), the bound molecules invariably bind 
+423 to the gD-patches that map to these terminal extension elements. In the free HSV-1 
+424 gD structure (37), two gD protomers are packed against each other in the crystal via 
+425 an interface covering the same extension patch. This raises the possibility that a bound 
+426 partner (a receptor or an antibody or another gD molecule) stabilizes the otherwise 
+427 flexible terminal extension residues of gD into definitive structures. Accordingly, the 
+428 portion of the terminal extensions were solvent exposed and invisible in the free 
+429 HSV-2 gD structure rather than being buried with fixed folds as observed in the 
+430 aforementioned gD structures. Our structure, therefore, further supports the notion 
+431 that the moveable character of gD N- and C-terminal segments would suffice for 
+432 receptor binding, as documented for HSV-1 gD (61). Supportingly, several studies 
+433 also reported the substitutability of the gD N-terminal loop by uPA, IL13 and the 
+434 HER2 antibody, the chimeric gDs derived from which are functionally active in 
+435 mediating virus entry into cells expressing their respective cognate receptors (62-64). 
+436 We also conducted a thorough mutational analysis for those structurally-defined 
+437 interface residues in nectin-1. In consistence with previous studies (36, 43-44), 
+438 individual substitution of N77, M85 and F129 by alanine dramatically impairs the 
+439 interaction between gD (HSV-1 or -2) and nectin-1. In addition, nectin-1/I80 also 
+440 plays an important role in the gD/nectin-1 engagement, which was further 
+441 demonstrated by our kinetic analysis and the virus entry assay. These four amino acids 
+442 interact extensively with gD and thereby contribute dramatically to the binding via 21
+443 strong H-bond and/or hydrophobic interactions. The remaining interface residues, in 
+444 contrast, do not have a significant role individually. Accordingly, a majority of these 
+445 amino acids are indeed observed to provide only limited van-der-Waals contacts in the 
+446 complex structures, thereby are likely functioning to modulate gD-recognition in 
+447 combination. This is, to our knowledge, a first comprehensive alanine-scanning 
+448 mutagenesis study on nectin-1 for its interaction properties with gD, which represents 
+449 a useful supplement to the current structural observations. It is also noteworthy that 
+450 the I80A mutation leads the kinetic profile of nectin-1 binding to gD to a 
+451 fast-on/fast-off mode, forming contrast to the kinetic pattern between WT nectin-1 
+452 and gD that is slow-on/slow-off. We believe the residue substitution and its resultant 
+453 change of hydrophobic van-der-Waals contacts caused the kinetic shift. Similar 
+454 phenomena of altered Kon and/or Koff rates resulting from mutations of interface 
+455 residues have also been reported in other protein-protein interactions (65-66). 
+456 Nectin-1 can form homo-dimers in solution (35, 56). Based on the solved structures, 
+457 gD binds to the dimer interface of nectin-1 and would compete against its 
+458 dimerization (35). In this study, we found that simultaneous mutation of T63, Q64, 
+459 E125 and N133 to alanine leads to an increased binding affinity between nectin-1 and 
+460 gD. Although these four residues contact HSV gD, we showed that the individual 
+461 residues contribute little to the gD/nectin-1 interaction (Fig. 3A). In contrast, they 
+462 have important roles in nectin-1 homo-binding by providing H-bond and salt-bridge 
+463 contacts (56). The increased affinity should therefore be a result of residue 
+464 substitutions which impaired nectin-1 homodimerization but hardly affected its 22
+465 interaction with gD. This is a functional evidence for a competitive relationship 
+466 between gD/nectin-1 hetero-complex formation and the nectin-1 dimerization. The 
+467 result also reminds us of a variant residue usage between gD and the other nectin-1 
+468 molecule to engage the same nectin-1 receptor. This would facilitate nectin-1 mimic 
+469 anti-viral drug design which can bind to the viral gD protein with high affinity but 
+470 show low or no specificity for nectin-1. These are interesting issues that are worth 
+471 pursuing in the future. 
+472 
+473 Acknowledgements. This work was supported by the 973 project of China Ministry 
+474 of Science and Technology (MOST, Grant No. 2010CB530104). Assistance by the 
+475 staff at the Shanghai Synchrotron Radiation Facility (SSRF-beamline 17U) is 
+476 acknowledged. We thank Ms. Yanfang Zhang and Dr. Zheng Fan for the sophisticated 
+477 technical supports. GFG is leading principal investigator of the Innovative Research 
+478 Group of the National Natural Science Foundation of China (NSFC, Grant No. 
+479 81321063). 
+480 23
+481 References: 
+482 1. Roizman B, Knipe DM, Whitley JR. 2007. Herpes Simplex Viruses. In: Knipe, D.M., 
+483 Howley, P.M. editors. Fields Virology. Lippincott Williams & Wilkins.:2503-2602. 
+484 2. McLennan JL, Darby G. 1980. Herpes simplex virus latency: the cellular location of virus in 
+485 dorsal root ganglia and the fate of the infected cell following virus activation. J Gen Virol 
+486 51:233-243. 
+487 3. Looker KJ, Garnett GP, Schmid GP. 2008. An estimate of the global prevalence and 
+488 incidence of herpes simplex virus type 2 infection. Bull World Health Organ 86:805-812, A. 
+489 4. Liesegang TJ. 2001. Herpes simplex virus epidemiology and ocular importance. Cornea 
+490 20:1-13. 
+491 5. Gupta R, Warren T, Wald A. 2007. Genital herpes. Lancet 370:2127-2137. 
+492 6. Brugha R, Keersmaekers K, Renton A, Meheus A. 1997. Genital herpes infection: a review. 
+493 Int J Epidemiol 26:698-709. 
+494 7. Heldwein EE, Krummenacher C. 2008. Entry of herpesviruses into mammalian cells. Cell 
+495 Mol Life Sci 65:1653-1668. 
+496 8. Connolly SA, Jackson JO, Jardetzky TS, Longnecker R. 2011. Fusing structure and 
+497 function: a structural view of the herpesvirus entry machinery. Nat Rev Microbiol 9:369-381. 
+498 9. Spear PG. 2004. Herpes simplex virus: receptors and ligands for cell entry. Cell Microbiol 
+499 6:401-410. 
+500 10. Laquerre S, Argnani R, Anderson DB, Zucchini S, Manservigi R, Glorioso JC. 1998. 
+501 Heparan sulfate proteoglycan binding by herpes simplex virus type 1 glycoproteins B and C, 
+502 which differ in their contributions to virus attachment, penetration, and cell-to-cell spread. J 
+503 Virol 72:6119-6130. 
+504 11. Svennerholm B, Jeansson S, Vahlne A, Lycke E. 1991. Involvement of glycoprotein C (gC) 
+505 in adsorption of herpes simplex virus type 1 (HSV-1) to the cell. Arch Virol 120:273-279. 
+506 12. Spear PG, Eisenberg RJ, Cohen GH. 2000. Three classes of cell surface receptors for 
+507 alphaherpesvirus entry. Virology 275:1-8. 
+508 13. Spear PG, Longnecker R. 2003. Herpesvirus entry: an update. J Virol 77:10179-10185. 
+509 14. Koyama AH, Uchida T. 1987. The Mode of Entry of Herpes-Simplex Virus Type-1 into Vero 
+510 Cells. Microbiol Immunol 31:123-130. 
+511 15. Nicola AV, Straus SE. 2004. Cellular and viral requirements for rapid endocytic entry of 
+512 herpes simplex virus. Journal of Virology 78:7508-7517. 
+513 16. Turner A, Bruun B, Minson T, Browne H. 1998. Glycoproteins gB, gD, and gHgL of herpes 
+514 simplex virus type 1 are necessary and sufficient to mediate membrane fusion in a Cos cell 
+515 transfection system. J Virol 72:873-875. 
+516 17. Chowdary TK, Cairns TM, Atanasiu D, Cohen GH, Eisenberg RJ, Heldwein EE. 2010. 
+517 Crystal structure of the conserved herpesvirus fusion regulator complex gH-gL. Nat Struct 
+518 Mol Biol 17:882-888. 
+519 18. Heldwein EE, Lou H, Bender FC, Cohen GH, Eisenberg RJ, Harrison SC. 2006. Crystal 
+520 structure of glycoprotein B from herpes simplex virus 1. Science 313:217-220. 
+521 19. Cairns TM, Whitbeck JC, Lou H, Heldwein EE, Chowdary TK, Eisenberg RJ, Cohen 
+522 GH. 2011. Capturing the herpes simplex virus core fusion complex (gB-gH/gL) in an acidic 
+523 environment. J Virol 85:6175-6184. 
+524 20. Fusco D, Forghieri C, Campadelli-Fiume G. 2005. The pro-fusion domain of herpes 24
+525 simplex virus glycoprotein D (gD) interacts with the gD N terminus and is displaced by 
+526 soluble forms of viral receptors. P Natl Acad Sci USA 102:9323-9328. 
+527 21. Cocchi F, Fusco D, Menotti L, Gianni T, Eisenberg RJ, Cohen GH, Campadelli-Fiume G.
+528 2004. The soluble ectodomain of herpes simplex virus gD contains a membrane-proximal 
+529 pro-fusion domain and suffices to mediate virus entry. P Natl Acad Sci USA 101:7445-7450. 
+530 22. Gianni T, Amasio M, Campadelli-Fiume G. 2009. Herpes simplex virus gD forms distinct 
+531 complexes with fusion executors gB and gH/gL in part through the C-terminal profusion 
+532 domain. J Biol Chem 284:17370-17382. 
+533 23. Karasneh GA, Shukla D. 2011. Herpes simplex virus infects most cell types in vitro: clues to 
+534 its success. Virol J 8. 
+535 24. Montgomery RI, Warner MS, Lum BJ, Spear PG. 1996. Herpes simplex virus-1 entry into 
+536 cells mediated by a novel member of the TNF/NGF receptor family. Cell 87:427-436. 
+537 25. Geraghty RJ, Krummenacher C, Cohen GH, Eisenberg RJ, Spear PG. 1998. Entry of 
+538 alphaherpesviruses mediated by poliovirus receptor-related protein 1 and poliovirus receptor. 
+539 Science 280:1618-1620. 
+540 26. Warner MS, Geraghty RJ, Martinez WM, Montgomery RI, Whitbeck JC, Xu RL, 
+541 Eisenberg RJ, Cohen GH, Spear PG. 1998. A cell surface protein with herpesvirus entry 
+542 activity (HveB) confers susceptibility to infection by mutants of herpes simplex virus type 1, 
+543 herpes simplex virus type 2, and pseudorabies virus. Virology 246:179-189. 
+544 27. Shukla D, Liu J, Blaiklock P, Shworak NW, Bai XM, Esko JD, Cohen GH, Eisenberg RJ, 
+545 Rosenberg RD, Spear PG. 1999. A novel role for 3-O-sulfated heparan sulfate in herpes 
+546 simplex virus 1 entry. Cell 99:13-22. 
+547 28. Taylor JM, Lin E, Susmarski N, Yoon M, Zago A, Ware CF, Pfeffer K, Miyoshi J, Takai 
+548 Y, Spear PG. 2007. Alternative entry receptors for herpes simplex virus and their roles in 
+549 disease. Cell Host & Microbe 2:19-28. 
+550 29. Kopp SJ, Banisadr G, Glajch K, Maurer UE, Grunewald K, Miller RJ, Osten P, Spear 
+551 PG. 2009. Infection of neurons and encephalitis after intracranial inoculation of herpes 
+552 simplex virus requires the entry receptor nectin-1. P Natl Acad Sci USA 106:17916-17920. 
+553 30. Karaba AH, Kopp SJ, Longnecker R. 2011. Herpesvirus Entry Mediator and Nectin-1 
+554 Mediate Herpes Simplex Virus 1 Infection of the Murine Cornea. Journal of Virology 
+555 85:10041-10047. 
+556 31. Takai Y, Ikeda W, Ogita H, Rikitake Y. 2008. The immunoglobulin-like cell adhesion 
+557 molecule nectin and its associated protein afadin. Annu Rev Cell Dev Biol 24:309-342. 
+558 32. Rux AH, Willis SH, Nicola AV, Hou W, Peng C, Lou H, Cohen GH, Eisenberg RJ. 1998. 
+559 Functional region IV of glycoprotein D from herpes simplex virus modulates glycoprotein 
+560 binding to the herpesvirus entry mediator. J Virol 72:7091-7098. 
+561 33. Whitbeck JC, Peng C, Lou H, Xu R, Willis SH, Ponce de Leon M, Peng T, Nicola AV, 
+562 Montgomery RI, Warner MS, Soulika AM, Spruce LA, Moore WT, Lambris JD, Spear 
+563 PG, Cohen GH, Eisenberg RJ. 1997. Glycoprotein D of herpes simplex virus (HSV) binds 
+564 directly to HVEM, a member of the tumor necrosis factor receptor superfamily and a mediator 
+565 of HSV entry. J Virol 71:6083-6093. 
+566 34. Willis SH, Rux AH, Peng C, Whitbeck JC, Nicola AV, Lou H, Hou W, Salvador L, 
+567 Eisenberg RJ, Cohen GH. 1998. Examination of the kinetics of herpes simplex virus 
+568 glycoprotein D binding to the herpesvirus entry mediator, using surface plasmon resonance. J 25
+569 Virol 72:5937-5947. 
+570 35. Zhang N, Yan J, Lu G, Guo Z, Fan Z, Wang J, Shi Y, Qi J, Gao GF. 2011. Binding of 
+571 herpes simplex virus glycoprotein D to nectin-1 exploits host cell adhesion. Nat Commun 
+572 2:577. 
+573 36. Di Giovine P, Settembre EC, Bhargava AK, Luftig MA, Lou H, Cohen GH, Eisenberg RJ, 
+574 Krummenacher C, Carfi A. 2011. Structure of herpes simplex virus glycoprotein D bound to 
+575 the human receptor nectin-1. PLoS Pathog 7:e1002277. 
+576 37. Carfi A, Willis SH, Whitbeck JC, Krummenacher C, Cohen GH, Eisenberg RJ, Wiley 
+577 DC. 2001. Herpes simplex virus glycoprotein D bound to the human receptor HveA. Mol Cell 
+578 8:169-179. 
+579 38. Krummenacher C, Supekar VM, Whitbeck JC, Lazear E, Connolly SA, Eisenberg RJ, 
+580 Cohen GH, Wiley DC, Carfi A. 2005. Structure of unliganded HSV gD reveals a mechanism 
+581 for receptor-mediated activation of virus entry. EMBO J 24:4144-4153. 
+582 39. Krummenacher C, Nicola AV, Whitbeck JC, Lou H, Hou WF, Lambris JD, Geraghty RJ, 
+583 Spear PG, Cohen GH, Eisenberg RJ. 1998. Herpes simplex virus glycoprotein D can bind to 
+584 poliovirus receptor-related protein 1 or herpesvirus entry mediator, two structurally unrelated 
+585 mediators of virus entry. Journal of Virology 72:7064-7074. 
+586 40. Muggeridge MI, Wilcox WC, Cohen GH, Eisenberg RJ. 1990. Identification of a Site on 
+587 Herpes-Simplex Virus Type-1 Glycoprotein-D That Is Essential for Infectivity. Journal of 
+588 Virology 64:3617-3626. 
+589 41. Nicola AV, Peng CR, Lou H, Cohen GH, Eisenberg RJ. 1997. Antigenic structure of soluble 
+590 herpes simplex virus (HSV) glycoprotein D correlates with inhibition of HSV infection. 
+591 Journal of Virology 71:2940-2946. 
+592 42. Lee CC, Lin LL, Chan WE, Ko TP, Lai JS, Wang AH. 2013. Structural basis for the 
+593 antibody neutralization of herpes simplex virus. Acta Crystallogr D Biol Crystallogr 
+594 69:1935-1945. 
+595 43. Martinez WM, Spear PG. 2002. Amino acid substitutions in the V domain of nectin-1 (HveC) 
+596 that impair entry activity for herpes simplex virus types 1 and 2 but not for pseudorabies virus 
+597 or bovine herpesvirus 1. Journal of Virology 76:7255-7262. 
+598 44. Struyf F, Martinez WM, Spear PG. 2002. Mutations in the N-terminal domains of nectin-1 
+599 and nectin-2 reveal differences in requirements for entry of various alphaherpesviruses and for 
+600 nectin-nectin interactions. Journal of Virology 76:12940-12950. 
+601 45. Chen Z, Lu G, Qi J, Xu X, Zhang N, Yan J, Wang R. 2011. X-ray diffraction analysis of 
+602 glycoprotein D from herpes simplex virus type 2. Sheng Wu Gong Cheng Xue Bao 
+603 27:1499-1506. 
+604 46. Otwinowski Z, Minor W. 1997. Processing of X-ray Diffraction Data Collected in 
+605 Oscillation Mode. Methods in Enzymology, Volume 276: Macromolecular Crystallography, 
+606 partA, C.W. Carter, Jr. & R. M. Sweet, Eds., Academic Press (New York).307-326. 
+607 47. Read RJ. 2001. Pushing the boundaries of molecular replacement with maximum likelihood. 
+608 Acta Crystallogr D Biol Crystallogr 57:1373-1382. 
+609 48. Collaborative Computing Project Number 4. 1994. The CCP4 suite: programs for protein 
+610 crystallography. Acta Crystallogr D Biol Crystallogr 50:760-763. 
+611 49. Murshudov GN, Vagin AA, Dodson EJ. 1997. Refinement of macromolecular structures by 
+612 the maximum-likelihood method. Acta Crystallogr D 53:240-255. 26
+613 50. Adams PD, Afonine PV, Bunkoczi G, Chen VB, Davis IW, Echols N, Headd JJ, Hung LW, 
+614 Kapral GJ, Grosse-Kunstleve RW, McCoy AJ, Moriarty NW, Oeffner R, Read RJ, 
+615 Richardson DC, Richardson JS, Terwilliger TC, Zwart PH. 2010. PHENIX: a 
+616 comprehensive Python-based system for macromolecular structure solution. Acta Crystallogr 
+617 D Biol Crystallogr 66:213-221. 
+618 51. Emsley P, Cowtan K. 2004. Coot: model-building tools for molecular graphics. Acta 
+619 Crystallogr D Biol Crystallogr 60:2126-2132. 
+620 52. Laskowski RA, Macarthur MW, Moss DS, Thornton JM. 1993. Procheck - a Program to 
+621 Check the Stereochemical Quality of Protein Structures. J Appl Crystallogr 26:283-291. 
+622 53. Pertel PE, Fridberg A, Parish ML, Spear PG. 2001. Cell fusion induced by herpes simplex 
+623 virus glycoproteins gB, gD, and gH-gL requires a gD receptor but not necessarily heparan 
+624 sulfate. Virology 279:313-324. 
+625 54. Lu G, Zhang J, Li Y, Li Z, Zhang N, Xu X, Wang T, Guan Z, Gao GF, Yan J. 2011. 
+626 hNUDT16: a universal decapping enzyme for small nucleolar RNA and cytoplasmic mRNA. 
+627 Protein Cell 2:64-73. 
+628 55. Li Y, Wang S, Zhu H, Zheng CF. 2011. Cloning of the herpes simplex virus type 1 genome 
+629 as a novel luciferase-tagged infectious bacterial artificial chromosome. Archives of Virology 
+630 156:2267-2272. 
+631 56. Narita H, Yamamoto Y, Suzuki M, Miyazaki N, Yoshida A, Kawai K, Iwasaki K, 
+632 Nakagawa A, Takai Y, Sakisaka T. 2011. Crystal Structure of the cis-Dimer of Nectin-1: 
+633 implications for the architecture of cell-cell junctions. J Biol Chem 286:12659-12669. 
+634 57. Nicola AV, Willis SH, Naidoo NN, Eisenberg RJ, Cohen GH. 1996. Structure-function 
+635 analysis of soluble forms of herpes simplex virus glycoprotein D. Journal of Virology 
+636 70:3815-3822. 
+637 58. Johnson DC, Burke RL, Gregory T. 1990. Soluble Forms of Herpes-Simplex Virus 
+638 Glycoprotein-D Bind to a Limited Number of Cell-Surface Receptors and Inhibit Virus Entry 
+639 into Cells. Journal of Virology 64:2569-2576. 
+640 59. Satoh T, Arii J, Suenaga T, Wang J, Kogure A, Uehori J, Arase N, Shiratori I, Tanaka S, 
+641 Kawaguchi Y, Spear PG, Lanier LL, Arase H. 2008. PILRalpha is a herpes simplex virus-1 
+642 entry coreceptor that associates with glycoprotein B. Cell 132:935-944. 
+643 60. Arii J, Goto H, Suenaga T, Oyama M, Kozuka-Hata H, Imai T, Minowa A, Akashi H, 
+644 Arase H, Kawaoka Y, Kawaguchi Y. 2010. Non-muscle myosin IIA is a functional entry 
+645 receptor for herpes simplex virus-1. Nature 467:859-862. 
+646 61. Rey FA. 2006. Molecular gymnastics at the herpesvirus surface. Embo Rep 7:1000-1005. 
+647 62. Zhou G, Roizman B. 2007. Separation of receptor-binding and profusogenic domains of 
+648 glycoprotein D of herpes simplex virus 1 into distinct interacting proteins. Proc Natl Acad Sci 
+649 U S A 104:4142-4146. 
+650 63. Zhou G, Ye GJ, Debinski W, Roizman B. 2002. Engineered herpes simplex virus 1 is 
+651 dependent on IL13Ralpha 2 receptor for cell entry and independent of glycoprotein D receptor 
+652 interaction. Proc Natl Acad Sci U S A 99:15124-15129. 
+653 64. Menotti L, Cerretani A, Hengel H, Campadelli-Fiume G. 2008. Construction of a fully 
+654 retargeted herpes simplex virus 1 recombinant capable of entering cells solely via human 
+655 epidermal growth factor receptor 2. J Virol 82:10153-10161. 
+656 65. Weihofen WA, Liu J, Reutter W, Saenger W, Fan H. 2004. Crystal structure of 27
+657 CD26/dipeptidyl-peptidase IV in complex with adenosine deaminase reveals a highly 
+658 amphiphilic interface. J Biol Chem 279:43330-43335. 
+659 66. Wang Q, Qi J, Yuan Y, Xuan Y, Han P, Wan Y, Ji W, Li Y, Wu Y, Wang J, Iwamoto A, 
+660 Woo PCY, Yuen KY, Yan J, Lu G, Gao GF. 2014. Bat origins of MERS-CoV supported by 
+661 Bat Coronavirus HKU4 usage of human receptor CD26. Cell Host Microbe (in press). 
+662 
+663 
+664 28
+665 Figure legends: 
+666 FIG. 1. Structure of the unbound HSV-2 gD. (A) A ribbon representation of the 
+667 overall structure. The two molecules (Chains A and B) present in the asymmetric unit 
+668 are shown. The IgV-like core is colored green, while the N- and C-terminal extensions 
+669 are highlighted in blue and orange, respectively. The secondary elements are labeled 
+670 as in HSV-1 gD (37). The loop linking residues A185 and L194 is invisible, and is 
+671 therefore indicated as a dotted curve. The terminal residues are marked. (B-C) 
+672 Comparison of the free HSV-2 gD structure (green for Chain A and blue for Chain B) 
+673 with previously reported gD structures including those of free HSV-1 gD (red), 
+674 HSV-1 gD with HVEM (cyan), HSV-1 gD with nectin-1 (orange) and HSV-2 gD with 
+675 an antibody (magenta). The colored arrows mark, in the individual structures, the 
+676 positions of the structure termini and the conformations of the loops referred to in the 
+677 text. Those elements that are invisible in our structure but are clearly traced in the 
+678 reference structures are encircled and labeled. (B) Superimposition of the structures 
+679 highlighting the external extension region (shown in ribbon). (C) Superimposition of 
+680 the structures highlighting the IgV-like core. 
+681 
+682 FIG. 2. Structure of the HSV-2-gD/nectin-1 complex. (A) A ribbon representation of 
+683 the overall structure. The gD molecule (green for the IgV-like core, blue for the 
+684 N-terminal extension and orange for the C-terminal extension) binds to the first 
+685 IgV-like domain of nectin-1 (colored cyan, orange and magenta for the first, second 
+686 and third Ig-like domains, respectively). The binding interface involves the nectin-1 29
+687 CC'C''FG rear sheet and the gD terminal extensions, which are encircled and labeled. 
+688 A superimposition comparison of a previously reported complex structure between 
+689 HSV-1-gD (orange) and nectin-1 (magenta) with the bound structure of HSV-2-gD 
+690 (green) with nectin-1 (cyan) is highlighted in the black box. (B) A structural 
+691 comparison of the HSV-2 gD structures in the free (cyan) and the nectin-1 bound 
+692 (green) forms. The fixed conformations of the terminal elements (highlighting in blue 
+693 for the N-terminus and in orange for the C-terminus) in the bound structure are 
+694 labeled. (C) A detailed view of the binding interface between HSV-2 gD (shown in 
+695 surface) and nectin-1 (shown in cartoon). The interface residues of gD can be roughly 
+696 categorized to congregate into surface patches 1 (yellow) and 2 (cyan), which contact 
+697 mainly the B-C/F-G loop region (orange) and the upper sheet region (green) in 
+698 nectin-1, respectively. The amino acids involved are shown in sticks and labeled. 
+699 
+700 FIG. 3. Homologous receptor binding between HSV-1 and -2 gDs to nectin-1. (A) A 
+701 comparative mutagenesis study characterizing the gD/nectin-1 interaction. The gD 
+702 proteins of HSV-1 (upper panel) and -2 (lower panel) were immobilized on CM5 
+703 chips at ~750 response units, and were then tested for the binding by 1 μM of the 
+704 indicated nectin-1 (WT or mutant) proteins. The bound protein in response unit was 
+705 recorded and presented as the percentage relative to that of the WT nectin-1 using 
+706 histograms. Clearly shown is that the interface residue mutations in nectin-1 affect the 
+707 gD binding similarly between HSV-1 and -2. (B-C) Structural delineation of the role 
+708 that N77, I80, M85 and F129 play in the gD-recognition. The binding interface 30
+709 between HSV-2 gD (green) and nectin-1 (cyan) is highlighted for the inter-molecule 
+710 contacts contributed by these four residues. The 2|Fo| - |Fc| electron density map was 
+711 contoured at 1.0 σ. Dashed lines indicate H-bonds. (B) A magnified view of the 
+712 interface highlighting nectin-1 F129. (C) A view of the interface highlighting nectin-1 
+713 N77, I80 and M85. 
+714 
+715 FIG. 4. A similar action mode between HSV-1 and -2 gDs in the nectin-1 mediated 
+716 cell-cell fusion. By comparing the luciferase activities, the cell fusion in the presence 
+717 of gradient concentrations (0.1, 0.5 and 2.5 μM) of either HSV-1 or -2 gD or an 
+718 irrelevant hNUDT16 protein was plotted as the percentage relative to that without 
+719 soluble gDs or hNUDT16. The dotted profiles were shown. Left panel: 
+720 HSV-1-gD-mediated cell fusion. Right panel: HSV-2-gD-mediated cell fusion. All the 
+721 results are expressed as means±SD of three independent experiments. 
+722 
+723 FIG. 5. An SPR assay characterizing the binding kinetics of gD (HSV-1 and -2) to the 
+724 indicated nectin-1 proteins (WT or mutant). The profiles of gD at gradient 
+725 concentrations flowing through individual nectin-1 proteins immobilized at ~750 
+726 response units (RUs) are recorded and shown. The calculated dissociation constants 
+727 (KDs) are labeled. 
+728 
+729 FIG. 6. Effects of nectin-1 mutations on HSV-1 entry. (A) A flow-cytometric assay 
+730 characterizing the expression level of each nectin-1 (WT or mutant) protein. The 31
+731 percentage of the positive transfectants (out of 10, 000 CHO-K1 cells) is shown. (B) 
+732 An assay characterizing the cell-entry efficiency of HSV-1 via WT or mutant nectin-1. 
+733 CHO-K1 cells expressing the individual nectin-1 proteins are infected with HSV-1 
+734 viruses as specified in the “Materials and Methods”. The histogram shows the virus 
+735 entry efficiencies of HSV-1 using the indicated nectin-1 mutants in comparison to that 
+736 using WT nectin-1. (C) Quantification of HSV-1 entry into CHO-K1 cells expressing 
+737 WT nectin-1 in the presence of soluble nectin-1 proteins of WT and mutant forms. 
+738 The virus entry with BSA as an irrelevant-protein control is presented as 100%, and 
+739 those with the indicated nectin-1 proteins are shown as the percentage relative to that 
+740 of BSA. All the results are expressed as means±SD of three independent experiments. 
+741 Clearly shown is that nectin-1 mutants (N77A, I80A, M85A and F129A) with 
+742 compromised gD-binding capabilities exhibit decreased capacities in inhibiting 
+743 HSV-1 entry. 
+744 
+745 32
+746 Table 1. The kinetic statistics of the SPR assay 
+747 
+748 
+749 
+750 The slow-on/slow-off kinetic data were analyzed by the 1:1 Langmuir binding model. 
+751 The values of association-rate (Kon), dissociation-rate (Koff) and the subsequent 
+752 dissociation constant (KD) were calculated and listed. With the fast-on/fast-off kinetics 
+753 for which the Kons and Koffs can not be calculated, the steady state model was used for 
+754 the KD determination. The well-fit between the experimental data and the calculated 
+model was characterized by the Chi2 755 value which is less than 1/10 of the maximum 
+756 response unit (RUmax). 
+757 
+Kon (M-1s
+-1) Koff(s-1) KD (M) Chi2
+/RUmax Model 
+HSV-1 gD to 
+nectin-1/WT 
+5.7 × 105
+ 7.11 × 10-3 1.25 × 10-8 0.894/24.2 Langmuir 
+HSV-1 gD to 
+nectin-1/I80A — — 1 × 10-6 5.44/55.5 steady state 
+affinity 
+HSV-1 gD to 
+nectin-1/tetra-TQEN 
+1.13 × 106
+ 2.57 × 10-3 2.27 × 10-9 2.28/46.3 Langmuir 
+HSV-2 gD to 
+nectin-1/WT 
+5.45 × 105
+ 1.04 × 10-2 1.91 × 10-8 0.42/24.6 Langmuir 
+HSV-2 gD to 
+nectin-1/I80A — — 1.47 × 10-6 2.99/46 steady state 
+affinity 
+HSV-2 gD to 
+nectin-1/tetra-TQEN 
+8.25 × 105
+ 6.44 × 10-3 7.81 × 10-9 1.8/47 Langmuir 33
+758 Table 2. Data collection and refinement statistics 
+Data collection gD gD+nectin-1 
+Space group P21 P22121 
+Cell dimensions 
+a, b, c (Å) 63.6, 55.4, 65.3 53.3, 170.9, 192.3 
+α, β, γ (°) 90.0, 96.3, 90.0 90.0, 90.0, 90.0 
+Wavelength (Å) 0.97916 0.97939 
+Resolution (Å) a
+ 50.0-1.8 (1.86-1.80) 50.0-3.2 (3.31-3.20) 
+Rsys or Rmerge a b 0.085 (0.297) 0.091 (0.492) 
+I/σI a
+ 15.9 (2.71) 15.7 (2.88) 
+Completeness (%)a
+ 96.8 (81.2) 99.7 (99.5) 
+Redundancy a 3.9 (2.8) 4.1 (3.8) 
+Total reflections 158118 122980 
+Unique reflections 40614 30129 
+Refinement 
+Resolution (Å) 36.3-1.80 38.9-3.19 
+Rwork/Rfree c
+ 0.189/0.220 0.196/0.247 
+No. atoms 
+Protein 2834 8516 
+Ligand/ion 
+Water 407 57 
+B-factors 
+Protein 26.0 82.2 
+Ligand/ion 
+Water 29.9 56.0 
+R.m.s deviations 
+Bonds lengths (Å) 0.008 0.005 
+Angles angles (°) 1.315 0.924 
+Ramachandran plot d 
+Most favored region 87.0% 83.0% 
+Additionally allowed region 10.7% 15.2% 
+Generously allowed region 2.3% 1.8% 
+Disallowed region 0 0 
+a 759 Values for the outmost resolution shell are given in parentheses. 
+b
+ Rmerge=ΣiΣhkl | Ii－<I> | /ΣiΣhklIi, where Ii 760 is the observed intensity and <I> is the average intensity 
+761 from multiple measurements.
+c
+ Rwork = Σ | | Fo |－ | Fc | | /Σ | Fo 762 | , where Fo and Fc are the structure-factor amplitudes from the 
+763 data and the model, respectively. Rfree is the R factor for a subset (5%) of reflections that was 
+764 selected prior to refinement calculations and was not included in the refinement.
+d 765 Ramachandran plots were generated by using the program PROCHECK. 
+766 34
+767 
+768 Table 3. Comparison between HSV-1 and -2 gDs for the patch-residues locating at the 
+769 nectin-1 binding interface. 
+770 
+HSV-2 gD HSV-1 gD HSV-2 gD HSV-1 gD 
+P23 P23 S216 S216 
+L25 L25 I217 I217 
+D26 G218 G218 
+Q27 Q27 M219 M219 
+R36 R36 L220 L220 
+V37 V37 P221 P221 
+Y38 Y38 R222 R222 
+H39 H39 F223 F223 
+Q132 Q132 N227 
+R134 T230 
+P198 V231 V231 
+V214 V214 Y234 Y234 
+D215 D215 
+771 
+772 Based on the HSV-2-gD/nectin-1 complex structure solved in this study and a 
+773 previously reported structure of HSV-1 gD bound to nectin-1 (PDB code: 3U82), the 
+774 interface residues within a distance of 4.5 Å from the nectin-1 receptor were selected 
+775 and aligned in a pairwise manner. The two steric patches composed by these amino 
+776 acids, as referred to in the text, patch1 (gray background) and patch2 (white 
+777 background). Clearly shown is that HSV-1 and -2 gDs utilize essentially the same 
+778 interface residues for nectin-1 recognition. 
+779 
+780 

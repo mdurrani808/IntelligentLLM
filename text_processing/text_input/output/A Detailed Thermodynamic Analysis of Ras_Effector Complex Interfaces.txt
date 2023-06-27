@@ -1,0 +1,1586 @@
+A Detailed Thermodynamic Analysis of Ras/Effector
+Complex Interfaces
+Christina Kiel1
+, Luis Serrano2 and Christian Herrmann1*
+1
+Max-Planck-Institut fu¨r
+Molekulare Physiologie
+Abteilung Strukturelle Biologie
+Otto-Hahn-Strasse 11, 44227
+Dortmund, Germany
+2
+EMBL, Meyerhofstrasse 1
+69117 Heidelberg, Germany
+Many cellular functions are based on the interaction and crosstalk of
+various signaling proteins. Among these, members of the Ras family of
+small GTP-binding proteins are important for communicating signals
+into different pathways. In order to answer the question of how binding
+affinity and specificity is achieved, we analyzed binding energetics on
+the molecular level, with reference to the available structural data. The
+interaction of two members of the Ras subfamily with two different
+effector proteins, namely Raf and RalGDS, were investigated using
+isothermal titration calorimetry and a fluorescence-based method. Experi￾ments with alanine mutants, located in the complex interfaces, yielded an
+energy map for the contact areas of the Ras/effector complexes, which
+could be differentiated into enthalpy and entropy contributions. In
+addition, by using double mutant cycle analysis, we probed the energetic
+contribution of selected pairs of amino acid residues. The resulting energy
+landscapes of the Ras/effector interface areas show a highly different top￾ology when comparing the two effectors, Raf and RalGDS, demonstrating
+the specificity of the respective interactions. Particularly, we observe a
+high degree of compensating effects between enthalpy and entropy;
+differences between these components are much greater than the overall
+free energy differences. This is observed also when using the software
+FOLD-X to predict the effect of point mutations on the crystal structures
+of the different complexes. Prediction of the free energy changes shows a
+very good correlation with the experimentally observed energies. Further￾more, in line with experimental data, energy decomposition indicates that
+many different components of large magnitude counteract each other to
+produce a smaller change in overall free energy, illustrating the import￾ance of long-range electrostatic forces in complex formation.
+q 2004 Elsevier Ltd. All rights reserved.
+Keywords: protein/protein interaction; Ras/effector interfaces;
+*Corresponding author thermodynamic analysis; double mutant cycle; energy calculation
+Introduction
+Cellular function and signaling is regulated by a
+complex network of specific protein/protein inter￾actions. Ras and Ras-related GTP-binding proteins
+play an important role within signaling pathways,
+while acting as switch molecules: they cycle
+between two nucleotide states, a GDP-bound
+inactive and a GTP-bound active form. Switching
+between these nucleotide states is controlled by
+the action of guanine nucleotide exchange factors
+and GTPase-activating proteins.1,2 In the active
+form, Ras proteins gain the ability to interact with
+various downstream targets, so-called effector
+molecules. The Ser/Thr-specific protein kinase Raf
+was the first effector identified to become activated
+upon binding to Ras in the GTP-bound state, sub￾sequently activating the MAP kinase cascade,
+which results in the phosphorylation and
+activation of DNA transcription factors in the
+0022-2836/$ - see front matter q 2004 Elsevier Ltd. All rights reserved.
+Present address: C. Herrmann, Physikalische Chemie
+1, Ruhr-Universita¨t Bochum, 44780 Bochum, Germany.
+E-mail address of the corresponding author:
+chr.herrmann@ruhr-uni-bochum.de
+Abbreviations used: GDI, guanine nucleotide
+dissociation inhibition; GppNHp, guanosine 50
+-(b,g￾imido) triphosphate; ITC, isothermal titration
+calorimetry; mant, N-methylanthraniloyl (a fluorophor
+attached to the 20
+or 30 position of the nucleotide);
+RalGDS, Ral guanine nucleotide dissociation stimulator;
+RBD, Ras-binding domain.
+doi:10.1016/j.jmb.2004.05.050 J. Mol. Biol. (2004) 340, 1039–1058nucleus.3,4 Other signaling pathways involve the
+PI(3) kinase and Akt/PKB, leading to cell survival5
+or RalGDS-regulating Rho/Rac family members
+that control cytoskeletal rearrangements.6 The
+number of putative Ras effectors identified has
+been increasing steadily. Although some signal
+transduction pathways of Ras/effector interactions
+have been elucidated, the importance and the
+mechanisms of crosstalk between different path￾ways are unresolved, especially the molecular
+details of the effectors’ specificity for different Ras
+proteins.
+The Ras-binding domain (RBD) is a functional
+element common to all known Ras effectors. Struc￾tural characterization of the RBDs of Raf, RalGDS,
+PI3K, Byr2 and AF6 by X-ray analysis and NMR
+spectroscopy revealed the same topology for all
+RBDs; i.e. the ubiquitin fold.7 – 13 This is particularly
+interesting, as there is only poor sequence
+homology among the different RBDs. The struc￾tures of Raf-RBD in complex with Rap1A (here
+called simply Rap) or in complex with the mutant
+Rap1A K31E, E30D (which serves as a mimic for
+Ras, here termed Raps), have been solved using
+X-ray crystallography.14,15 In addition, crystal struc￾tures have been determined for RalGDS-RBD in
+complex with H-Ras (here abbreviated to Ras)16
+and (at better resolution) with the mutant H-Ras
+E31K,17 Ras in complex with PI(3)K18 and Ras in
+complex with Byr2-RBD.13 All these structures of
+RBDs in complex with a Ras protein show the for￾mation of an intermolecular antiparallel b-sheet
+consisting of b2 and b3 of the Ras protein, and b1
+and b2 of the RBD. Nevertheless, biochemical
+studies have shown that an effector RBD binds
+with different affinities to the members of the Ras
+subfamily.19,20 Especially the comparison of the
+effectors RalGDS-RBD and Raf-RBD shows signifi￾cant differences: RalGDS-RBD binds with higher
+affinity to Rap than to Ras, while Raf-RBD binds
+more strongly to Ras than to Rap.15 This specificity
+is astonishing, considering the high level of hom￾ology of the effector region of the Ras proteins,
+which share the same core effector region. In an
+earlier study, the interactions of four closely related
+members of the Ras family with four different
+effectors were analyzed using isothermal titration
+calorimetry (ITC).21 The changes in enthalpy,
+entropy and heat capacity were shown to be
+similar for the same effector associating with
+different Ras proteins. In contrast, the thermo￾dynamic parameters of Ras associating with
+various RBDs, especially those of RalGDS and Raf,
+are drastically different.
+In order to further understand the observed
+specificity in molecular detail, we have analyzed
+the observations mentioned above on a more
+detailed thermodynamic level by defining the
+energetic contributions of distinct pairs of amino
+acid residues located in the protein/protein inter￾face. Here, we present the protein/protein inter￾face landscapes contoured by the free energy of
+binding, differentiated according to enthalpic and
+entropic contributions. We focused on the inter￾action of Ras and Rap with the RBDs of Raf and
+RalGDS. In addition, the experimental data are
+compared to the results from theoretical calcu￾lations of the changes in binding energy. These
+calculations are based on an empirical approach to
+defining a set of parameters that relate structural
+observations and binding affinity.22 Although the
+different energy terms used in FOLD-X do not
+relate unequivocally to enthalpic and entropic
+components, they allow a rough estimate of the
+importance of different forces to the formation of
+the complexes analyzed here.
+Results
+Starting from the structure
+The structural view of a protein complex shows,
+in general, the distances and geometries of interact￾ing amino acid residues, the details of which
+depend on the resolution of the structure. Despite
+the high resolution of some of these structures,
+they tell us little about the underlying binding
+energies and the location of possible “hot spots”
+in the protein/protein interface, which are respon￾sible for a major part of complex formation. We
+took advantage of structural data on Ras/effector
+complexes in order to identify amino acid residues,
+in the contact area of the two proteins, which are
+likely to contribute to the interaction. To under￾stand the relationship between structure and
+energetics of interaction, we studied the change in
+thermodynamic parameters upon single alanine
+mutation and upon combined changes of one
+residue in both proteins at the same time in order
+to measure their energetic coupling, as described
+in detail below.
+The Ras family members share the same core
+effector region (residues 32–40) differentiated by
+only a few different flanking amino acids.23 In
+Figure 1(a) and (b) the complex between Rap and
+the Ras-binding domain (RBD) of Raf is depicted
+in two orientations in order to show all important
+contacts of amino acid side-chains. Figure 1(c)
+and (d) show the structure and the interface
+residues of the complex between Ras and RalGDS￾RBD, and it is these interactions that we explored
+on a quantitative thermodynamic level. The RBDs
+of all Ras effectors analyzed so far share the
+bbabbab ubiquitin fold. This is remarkable, as the
+effectors share only little sequence homology in
+their RBD. In addition, all the effectors contact the
+Ras protein in a similar way, basically by establish￾ing an intermolecular b-sheet comprised of Ras-b2
+and Ras-b3, and RBD-b1 and RBD-b2. In Tables 1
+and 2, we list the contacts established between the
+effectors and Ras. It must be emphasized that the
+interaction is stabilized mainly by the contacts
+between polar and charged amino acid side-chains
+mediated partly by water molecules. Hydrophobic
+residues play only a minor role in all Ras/effector
+1040 Energy Landscaping of Ras/Effector InterfacesFigure 1 (legend on p.1043)
+Energy Landscaping of Ras/Effector Interfaces 1041Figure 1 (legend opposite)
+1042 Energy Landscaping of Ras/Effector Interfacescomplexes and the binding interface is rather flat.
+However, this does not mean that apolar atoms of
+charged side-chains like Lys or Arg do not have
+an important contribution to the stability of the
+complex.
+Inspection of the Ras/RalGDS-RBD complexes
+(1lfd and see Vetter et al.
+16) shows that Gln25 of
+Ras has its NH2 and CO groups within H-bond dis￾tance of the His27 side-chain and the CO group of
+RalGDS-RBD Asn27, respectively (Figure 1(e)).
+Although the NH2 group of Gln25 can H-bond to
+the side-chain N group of a non-charged His, the
+Gln25 side-chain CO group will not H-bond to
+another carbonyl group. Therefore, it makes more
+sense to swap the NH2 and CO groups of Gln25
+so that two H-bonds are made. Similarly, Asn25 of
+RalGDS-RBD (Figure 1(f)) has, in one complex,
+the NH2 group pointing to the center of the aro￾matic ring of Ras Tyr40 and in the other the CO
+group. It is well established that N groups from
+Lys, Asn and Gln can make pseudo-H-bonds with
+the center of the aromatic rings of Phe and Tyr.24
+Thus, since both orientations are similar in terms
+of the interactions with other neighbor residues,
+we favored the one with the NH2 group pointing
+to the aromatic ring. Other changes involved a
+rotamer change for RalGDS Ser29, as seen in the
+wild-type complex,16 resulting in a good H-bond
+made with the main-chain amide group of Ras
+Figure 1. Structural details of Ras/effector interfaces.
+(a) and (b) Raf-RBD in complex with GppNHp-bound
+Rap1A E30D, K31E15 shown in two orientations. The
+two corresponding residues of Ras were introduced in
+this double mutant of Rap1A, which serves as a model
+for the Ras/Raf structure. (c) and (d) Two orientations
+of the complex between Ras.GppNHp and RalGDS￾RBD.17 (e) Rotamer changes in the Ras-RalGDS com￾plexes. Swapping of the NH2 and CO groups of the
+Gln25 side-chain of Ras leads to hydrogen bond for￾mation with the His27 side-chain (Ras) and Gln23 main￾chain CO group. (f) Rotamer changes of Asn25
+(RalGDS-RBD) so that side-chain NH2 group can point
+into the center of the aromatic ring of Tyr40 (Ras).
+Table 1. Residue contacts (,4.0 A˚ ) between
+Ras·GppNHp and RalGDS-RBD
+Ras·GppNHp RalGDS-RBD Type
+Ile24 Gly24 sc-mc
+Gln25 Asn23 sc-mc,sc-sc
+Asn25 sc-mc H-bond
+Glu31 Asp52 sc-sc H-bond
+Asp33 Lys48 sc-sc H-bond
+Pro34 Lys48 mc-sc H-bond
+Thr35 Lys48 mc-sc
+Ile36 Ile14 sc-sc
+Ser29 mc-sc,sc-mc,sc-sc
+Ile30 sc-mc
+Leu31 sc-mc
+Glu37 Arg16 sc-sc H-bond
+Tyr27 sc-sc H-bond
+Ser29 mc-sc H-bond
+Asp38 Ser29 sc-mc
+Lys28 sc-mc,sc-sc H-bond
+Lys48 sc-sc
+Ser39 Asn25 mc-sc H-bond
+Met26 sc-sc
+Tyr27 sc-sc
+Tyr40 Asn25 sc-sc
+Lys28 sc-sc H-bond
+Arg41 Met26 sc-sc
+Leu56 Tyr27 sc-sc
+Tyr64 Ile14 sc-sc
+Table 2. Residue contacts (,4.0 A˚ ) between
+Ras·GppNHp and Raf-RBD
+Ras·GppNHp Raf-RBD Type
+Ile21 Val88 sc-sc
+Gln25 Val88 sc-mc
+Arg89 sc-mc
+Gly90 sc-mc H-bond
+Glu31 Lys84 sc-sc H-bond
+Asp33 Lys84 sc-sc H-bond
+Ile36 Thr57 sc-sc
+Val69 sc-sc,sc-mc
+Asn71 sc-mc
+Glu37 Arg59 sc-sc H-bond
+Arg67 sc-sc
+Val69 sc-sc
+Asp38 Thr68 sc-sc H-bond
+Arg89 sc-sc H-bond
+Ser39 Gln66 mc-sc
+Arg67 sc-sc,sc-mc H-bond
+Arg89 mc-sc H-bond
+Tyr40 Gln66 sc-sc
+Val88 sc-sc
+Arg89 sc-sc
+Arg41 Lys65 sc-sc,sc-mc
+Asn64 sc-sc,sc-mc H-bond
+Gln66 mc-sc H-bond
+Glu54 Arg67 sc-sc
+Leu56 Arg61 sc-sc
+Energy Landscaping of Ras/Effector Interfaces 1043Glu37. Otherwise, the N group of Ras Glu37 will
+be buried and unsatisfied. Finally, we modified
+slightly the rotamer of RalGDS-RBD Lys28. The
+CE and NZ groups of this Lys have high B-factors,
+and in the complex the NZ group makes an
+H-bond to the RalGDS-RBD carbonyl group of
+Lys48. This leaves the OH group of Ras Tyr40 and
+the OD2 atom of Ras Asp38 buried and unsatisfied.
+A small rotation of the NZ groups provides a
+double H-bond to both Ras residues. It is quite con￾ceivable that in the structure in solution the Lys NZ
+atom will be moving between the two confor￾mations, explaining the high B-factors. Finally, we
+mutated Ras Lys31 to Glu, since this is the residue
+present in the experimental analysis.
+Regarding the Rap/Raf-RBD complex, we used
+PDB structures 1CLY and 1GUA. Where structural
+data were not available, we needed to modify
+available structures by mutating the corresponding
+Ras residues. In the first case, we mutated Rap
+Lys31 to Glu, and in both cases we mutated
+Rap Val21 to Ile and Ile27 to His. As a result of the
+Lys31 to Glu mutation, Lys84 of Raf-RBD was
+re-oriented to approximate Glu31. No other change
+was made, since the orientation of the rest of the
+side-chains seemed correct.
+The structures of the complexes after these
+changes are used as a basis to select amino acid
+residues for substitution in order to analyze the
+thermodynamics of the interaction at the molecular
+level.
+Thermodynamic characterization
+In previous studies, the GDI assay was
+developed in order to obtain accurate data on the
+affinity between Ras proteins and effectors. This
+method is based on the observation that GTP (or
+GppNHp) dissociation from the Ras protein is
+inhibited by effector binding. By attaching a fluor￾escent label (the mant group; N-methylanthraniloyl
+(a fluorophor attached to the 20
+or 30 position of the
+nucleotide)) to the nucleotide, it is possible to
+follow the dissociation kinetics with respect to the
+effector concentration. It is possible to calculate
+the Kd (equilibrium dissociation constant) of the
+Ras/effector complex from these data. Typical
+data of this type are shown in Figure 2, for a set of
+Ras and RalGDS mutants. The curves are fit
+according to a quadratic equation, which yields
+the Kd value as described.25 Averaging the results
+of two or three independent experiments leads to
+a range of error #30%, which corresponds to
+^0.16 kcal/mol for the resulting change of free
+energy, DG8 (1 cal ¼ 4.184 J). In addition to Ka
+(defined as the reciprocal value of Kd), and the cor￾responding DG8 values, we obtain directly the
+change in enthalpy, DH8, from isothermal titration
+calorimetry (ITC) experiments26 and one can
+calculate the change in entropy, DS8. Commonly,
+in calorimetry experiments these parameters refer
+to complex formation rather than dissociation.
+Figure 3 shows the association of Ras with RalGDS
+N23A as a typical example of an ITC measurement
+of the Ras/RalGDS system. As indicated by the
+negative peaks in Figure 3, complex formation is
+exothermic; an observation that holds true for all
+the other experiments. ITC is the major tool for
+the work presented here. Each experiment was
+carried out at least twice and, similar to the GDI
+results, the experimental error on the DG8 values
+is less than 0.2 kcal/mol. For the stoichiometry of
+the Ras/effector interactions, a value of 1.0 ^ 0.1
+was obtained by ITC reflecting errors in the con￾centration of the proteins. This has impact on the
+DH8 values, leading to an error of ^10%, which is
+much larger than the error from curve fitting. For
+a few mutants, the decrease of binding affinity is
+so dramatic that the Kd value exceeds 100 mM.
+Although this makes it impossible to measure the
+interaction by ITC (exceedingly high concen￾trations would be necessary), the GDI method is
+still capable of yielding reasonable estimates in
+the range of Kd ¼ 10 mM up to 500 mM. Good
+agreement of the Kd values obtained by ITC and
+GDI is observed for measurements where both
+methods were applied (see the Tables below).
+Effects of single mutations
+In this study, alanine mutations were generated
+almost exclusively, since this residue is expected
+to abolish all interactions of the native residue and
+to show only weak interactions (if any) with the
+other amino acid side-chains. However, Tyr-Phe
+mutations were analyzed in two cases. Thus, we
+focused on removing the existing contacts and
+quantifying the changes in binding, and we did
+not try to substitute for residues with the potential
+for stronger or new interactions.
+On the basis of structural data for different Ras/
+effector complexes, we analyzed point mutations
+of amino acid residues of Ras, Rap, RalGDS- and
+Raf-RBD, which are involved in the formation of
+the complexes. Table 3 shows the results for
+binding of single mutants of RalGDS and Ras or
+Rap characterized by large favorable (negative)
+enthalpy changes counteracted by an unfavorable
+(negative) entropy change. The difference values
+DDX8 in the Tables are defined as wild-type minus
+mutant, and a decrease of the amount of Gibbs
+energy of binding (DDG8 , 0) is observed for most
+mutations, with a maximum change of 3.9 kcal/
+mol. Four residues seem to play the most import￾ant role for the interaction; namely, Arg16, Tyr27,
+Lys28 and Lys48 (numbering according to Vetter
+et al.
+16). These lead to a decrease of the amount of
+free binding energy of more than 2 kcal/mol each
+upon mutation. The respective decrease of the
+amount of binding enthalpy upon mutation of one
+residue is in most cases larger (up to 5.5 kcal/
+mol), accompanied by a corresponding counteract￾ing change of TDS8. Typical examples are Ras
+residues Glu31 and Asp33 in the Ras/RalGDS
+complex. We observe this especially for the substi￾tution of the polar amino acid residues lysine and
+1044 Energy Landscaping of Ras/Effector Interfacesarginine by alanine. Also for the Ras/Raf complex
+(Table 4) we find enthalpy and entropy changes
+upon mutation being much greater than the result￾ing DDG8 value.
+Similar results are found for the binding of
+RalGDS to Rap, which is tighter than to Ras due
+to a less unfavorable (less negative) entropy
+change. The changes of the Gibbs energy upon
+Figure 2. Typical results of the GDI assay. The observed rate constants for the dissociation of Ras-mantGppNHp (WT
+or the E37A mutant) are plotted against the concentration of RalGDS-RBD (WT or the S29A mutant). Binding curves
+are fitted to the data, each leading to four DG8 values from which the coupling energy (DDG8int) between the amino
+acid residues Ras R41 and RalGDS-RBD N23 is calculated (see the text).
+Figure 3. A typical ITC experi￾ment. Ras was titrated with the
+N23A mutant of RalGDS-RBD. In
+each step, 8 ml (except the first
+step, 2 ml) of 800 mM Ras bound to
+GppNHp were injected into the cell
+containing 1.36 ml of 80 mM
+RalGDS N23A.
+Energy Landscaping of Ras/Effector Interfaces 1045mutation of amino acid residues to alanine are
+comparable to those in the Ras/RalGDS system
+and, again, the change in binding enthalpy is, in
+most cases, larger than the changes of the binding
+free energy. As observed for RalGDS binding to
+Ras, binding to Rap seems to be achieved mainly
+by the three positively charged residues Arg16,
+Lys28 and Lys48 of RalGDS and by Tyr27. Import￾ant residues in the Ras protein are Asp38 (which
+is the classical mutant in the effector binding
+region of Ras) and Tyr40, whereas in Rap Ile36
+and Arg41 play significant roles, additionally.
+The results from isothermal titration experi￾ments with single mutants of Raf, Ras and Raps
+are summarized in Table 4. In contrast to RalGDS
+binding, the complex formation of Ras and Raf is
+characterized by favorable enthalpy and entropy
+changes, but similar to RalGDS, mutations of single
+amino acids in the complex interface reduce the
+amount of free energy of binding up to 3.3 kcal/
+mol. In agreement with the results of previous
+studies,21 single mutations do not lead to a com￾plete change of the thermodynamic characteristics,
+i.e. binding of RalGDS mutants remains unfavor￾able with respect to the entropy change, whereas
+interaction of Raf mutants is controlled by favor￾able enthalpy and entropy changes. The values of
+DDH8 and TDDS8, in general, are smaller for Raf
+and do not exceed 3 kcal/mol. However, it is
+important to note that the single mutant Raf R89L
+impairs binding very strongly. The interaction of
+this mutant with Ras is so weak that only a
+dissociation constant of Kd . 500 mM can be esti￾mated, which corresponds to a reduction in the
+Table 3. Thermodynamic parameters of binding of Ras and Rap to RalGDS-RBD
+RalGDS-RBD Ras protein
+DG8
+(ITC)
+DDG8
+(ITC)
+DG8
+(GDI)
+DDG8
+(GDI)
+DDG8
+(ITC,GDI,
+average)
+DDG8
+(calc,
+average) DH8 DDH8 TDS8 TDDS8
+WT RasWT 28.4 – 28.4 – 211.2 22.8
+I14A RasWT 27.4 21.0 26.5 21.9 21.45 ^ 0.45 22.03 ^ 0.03 28.8 22.4 21.5 21.3
+R16A RasWT 26.2 22.2 26.0 22.4 22.30 ^ 0.10 21.49 ^ 0.32 210.0 21.2 23.8 1.0
+N23A RasWT 27.4 21.0 27.5 20.9 20.95 ^ 0.05 20.49 ^ 0.07 29.9 21.3 22.6 20.2
+N25A RasWT 28.1 20.3 27.7 20.7 20.50 ^ 0.20 20.98 ^ 0.83 210.0 21.2 21.9 20.9
+Y27F RasWT 27.4 21.0 26.7 21.7 21.35 ^ 0.35 20.35 ^ 0.02 210.7 20.5 23.2 0.4
+Y27A RasWT – – 24.8 23.6 23.60 22.23 ^ 0.08
+K28A RasWT 26.6 21.8 25.2 23.2 22.50 ^ 0.70 24.03 ^ 0.68 25.7 25.5 0.9 23.7
+S29A RasWT 27.6 20.8 27.3 21.1 20.95 ^ 0.15 21.16 ^ 0.52 29.5 21.7 21.9 20.9
+K44A RasWT 28.1 20.3 27.8 20.6 20.45 ^ 0.15 20.38 ^ 0.05 210.8 20.4 22.7 20.1
+D47A RasWT 28.7 0.3 28.7 0.3 0.30 ^ 0.00 1.03 ^ 0.05 1.4 23.9 1.1
+K48A RasWT 26.0 22.4 25.2 23.2 22.80 ^ 0.40 22.69 ^ 0.30 26.0 25.2 20.1 22.7
+H49A RasWT 27.4 21.0 26.4 22.0 21.50 ^ 0.50 21.05 ^ 0.06 212.2 1.0 24.8 2.0
+E52A RasWT 28.6 0.2 – – 0.10 1.17 ^ 0.23 212.8 1.6 24.1 1.3
+E53A RasWT 28.5 0.1 28.2 20.2 20.05 ^ 0.15 0.19 ^ 0.06 210.9 20.3 22.4 20.4
+WT RasQ25A 27.5 20.9 – 20.90 21.06 ^ 0.08 211.8 0.6 24.4 1.6
+WT RasV29A – – 27.9 20.5 20.50 20.19 ^ 0.08
+WT RasE31A 28.2 20.2 28.1 20.3 20.25 ^ 0.05 0.36 ^ 0.24 26.4 24.8 1.8 24.6
+WT RasD33A 27.3 21.1 – 21.10 21.26 ^ 0.81 27.5 23.7 20.2 22.6
+WT RasE37A – – 27.2 21.2 21.20 22.09 ^ 0.20
+WT RasD38A – – 24.5 23.9 23.90 22.23 ^ 0.51
+WT RasS39A 29.0 0.6 29.3 0.9 0.75 ^ 0.15 0.56 ^ 0.01 29.5 21.7 20.5 22.3
+WT RasY40F 26.1 22.3 26.4 22.0 22.15 ^ 0.15 21.25 ^ 0.44 214.6 3.4 28.5 5.7
+WT RasY40A – – 24.7 23.7 23.70 23.75 ^ 0.40
+WT RasR41A 27.5 20.9 27.6 20.8 20.85 ^ 0.05 20.70 ^ 0.15 210.7 20.5 23.2 0.4
+WT RasE62A – – 28.2 20.2 20.20 20.11 ^ 0.05
+WT RasE63A – – 28.1 20.1 20.10 20.14 ^ 0.07
+WT RapWT 29.9 210.6 20.8
+R16A RapWT 28.1 21.8 28.6 22.0 20.5 20.3
+N23A RapWT 28.8 21.1 27.0 23.6 1.8 22.6
+N25A RapWT 29.3 20.6 28.2 22.4 1.1 21.9
+Y27F RapWT 28.4 21.5 212.4 1.8 24.0 3.2
+K28A RapWT 27.3 22.6 26.7 23.9 0.6 21.4
+S29A RapWT 29.0 20.9 28.9 21.7 0.1 20.9
+K44A Rap WT 29.9 0.0 212.3 1.7 22.4 1.6
+D47A Rap WT 210.1 0.2 29.8 20.8 0.3 21.1
+K48A Rap WT 27.3 22.6 29.8 20.8 22.5 1.7
+H49A Rap WT 28.2 21.7 210.5 20.1 22.2 1.4
+E52A Rap WT 29.6 20.3 211.9 1.3 22.4 1.6
+E53A Rap WT 29.5 20.4 212.5 1.9 23.0 2.2
+WT Rap P34A 29.5 20.4 28.2 22.4 1.3 22.1
+WT Rap I36A 28.1 21.8 210.5 20.1 22.4 1.6
+WT Rap D38A 26.8 23.1 28.0 22.6 21.2 0.4
+WT Rap R41A 26.8 23.1 28.2 22.4 21.4 0.6
+DDG8int ¼ DDG8X!A;Y þ DDG8X;Y!A 2 DDG8X!A;Y!A; DDH8 ¼ DH8WT 2 DH8mutant; TDDS8 ¼ TDS8WT 2 TDSmutant. All values are given
+in kcal/mol. ITC measurements were done at 25 8C and GDI measurements at 37 8C.
+1046 Energy Landscaping of Ras/Effector Interfacesamount of Gibbs energy of binding of at least
+5 kcal/mol (representing more than half of the
+total binding free energy). Unfortunately, there is
+no information available about enthalpy and
+entropy changes for this mutant. The amino acid
+residue Arg89 of Raf-RBD seems to be a very hot
+spot for the interaction with Ras. Intriguingly,
+Arg89 was the first residue reported in early gen￾etic studies to be crucial for Ras/Raf signaling.27
+Similar to the RalGDS complexes, the polar and
+positively charged amino acid side-chains of the
+effector contribute most to the interaction, namely
+Arg59, Arg67, Lys84 and Arg89, which is in accord￾ance with previous mutagenesis studies.28 Again
+and not surprisingly, Asp38 is the most important
+residue for interaction in the Ras protein.
+The results for mutants of Raf binding to Raps
+are similar to those of binding to Ras. Upon
+mutation, the reduction of Gibbs energy of binding
+leads to similar values, within the error range, indi￾cating that the interactions across the interface are
+similar to those in the Ras/Raf complexes. These
+data underline the suitability of the Raps/Raf￾RBD complex as a structural model for the Ras/
+Raf system. Regarding the enthalpy changes, it is
+important to note that the experiments of Raf-RBD
+binding to Raps were done at 25 8C, leading to a
+decrease in enthalpy change and a more favorable
+entropy contribution for the wild-type and all
+mutant complexes as compared to 37 8C. The tem￾perature dependence of the enthalpy change for
+the binding of Raf to Ras has been addressed.21
+Concerning the comparison of Ka values at 25 8C
+and 37 8C, a twofold decrease of Ka is calculated
+using a DH8 value of 210 kcal/mol, which corre￾sponds to a DG8 value 0.4 kcal/mol larger (less
+negative) at 37 8C. Earlier ITC experiments using
+Ras bound to mantGppNHp instead of GppNHp
+demonstrated an increased Ka value of the effector
+complex of only 1.5-fold.21
+Calculated energetic contributions of
+single mutations
+The experimental values described above give
+only a global description of the changes in stability
+produced by the mutagenesis and their respective
+enthalpic and entropic contributions. In order to
+gain more insight into the contribution of specific
+interactions (i.e van der Waals’, H-bonding, electro￾statics, solvation, etc…), we have predicted the
+effect of the mutations using a force-field, FOLD￾X,22 that deconstructs the free energy change into
+different terms that correspond roughly to the
+physical terms mentioned above.
+To estimate the contribution of single residues to
+Table 4. Thermodynamic parameters of binding of Ras·GppNHp and Raps·GppNHp to Raf-RBD wild-type and
+mutants
+Raf-RBD Ras protein DG8 DDG8 DDG8 (calc., average) DH8 DDH8 TDS8 TDDS8
+WT Ras WT 210.0 28.6 1.4
+R59A Ras WT 28.3 21.7 21.40 ^ 0.10 26.7 21.9 1.6 20.2
+N64A Ras WT 29.9 20.1 20.35 ^ 0.38 27.6 21.0 2.3 20.9
+Q66A Ras WT 28.3 21.7 20.73 ^ 0.38 28.1 20.5 0.2 1.2
+R67A Ras WT 28.0 22.0 21.23 ^ 0.18 26.5 22.1 1.6 20.2
+T68A Ras WT 28.5 21.5 21.03 ^ 0.07 27.3 21.3 1.3 0.1
+V69A Ras WT 29.0 21.0 21.79 ^ 0.01 27.1 21.5 1.9 20.5
+K84A Ras WT 27.8 22.2 21.47 ^ 0.15 26.9 21.7 0.9 0.5
+V88A Ras WT 29.9 20.1 21.58 ^ 0.07 28.0 20.6 1.9 20.5
+WT Ras I21A 29.1 20.9 21.24 ^ 0.02 29.9 1.3 20.8 2.2
+WT Ras H27A 210.3 0.2 0.28 ^ 0.07 28.1 20.5 2.1 20.7
+WT Ras E31A 29.5 20.6 20.87 ^ 0.07 27.4 21.2 2.1 20.7
+WT Ras D33A 28.9 21.2 21.44 ^ 0.58 26.5 22.1 2.4 21.0
+WT Ras I36A 28.2 21.8 22.27 ^ 0.25 27.7 21.0 0.5 0.9
+WT Ras E37A 28.2 21.8 21.84 ^ 0.33 26.3 22.3 1.8 20.4
+WT Ras D38A 26.7 23.3 22.09 ^ 0.32 26.0 22.6 0.7 0.7
+WT Ras S39A 29.7 20.4 20.44 ^ 0.03 27.7 20.9 1.9 20.5
+WT Ras R41A 210.6 0.6 0.75 ^ 0.21 28.3 20.3 2.3 20.9
+WT Ras V45A 210.3 0.3 20.02 ^ 0.02 27.9 20.7 2.4 21.0
+WT Raps WT 28.6 25.6 3.0
+R59A Raps WT 27.6 21.0 24.5 21.1 3.0 0.0
+N64A Raps WT 29.0 0.5 22.9 22.7 6.2 23.1
+K65A Raps WT 29.0 0.4 23.8 21.8 5.2 22.2
+Q66A Raps WT 28.5 20.1 24.3 21.3 4.2 21.2
+T68A Raps WT 27.9 20.6 24.2 21.4 3.8 20.8
+V69A Raps WT 28.5 0.0 24.5 21.1 4.0 21.0
+K84A Raps WT 26.6 22.0 24.3 21.3 2.3 0.7
+K87A Raps WT 27.8 20.8 24.2 21.4 3.6 20.6
+V88A Raps WT 28.4 20.2 26.8 1.2 1.6 1.4
+WT Raps E37A 27.3 21.2 22.7 22.9 4.6 21.6
+WT Raps S39A 27.2 21.3 28.0 2.4 20.7 3.7
+DDG8 ¼ DG8WT 2 DG8mutant; DDH8 ¼ DH8WT 2 DHmutant; TDDS8 ¼ TDS8WT 2 TDSmutant. All values are given in kcal/mol. ITC
+measurements were done at 35 8C (for Raf-RBD binding to Ras) or at 25 8C (for Raf-RBD binding to Raps).
+Energy Landscaping of Ras/Effector Interfaces 1047the stability of the complexes, several assumptions
+are required. First, we assume that the structure of
+the isolated monomers is similar to that in the com￾plex. Superimposition of Ras with or without
+RalGDS or Raf, and superimposition of RalGDS
+with or without Ras, shows very small confor￾mational changes that could be due to packing
+effects. Any conformational change upon complex
+formation will imply an energetic cost when com￾pared with the monomer, and will result in an
+over-prediction of the residue contribution. The
+second assumption is that upon mutation no
+major conformational changes take place in the
+monomer or in the complex. Any reorganization
+of the structure in the complex upon mutation
+will result in overprediction of the interaction
+energy. Underprediction of interaction energies
+will result either from the force-field or from errors
+in the structure (crystallographic errors due to
+resolution problems, Asn, Gln side-chain O and N
+swapping or crystal contacts). The stability of the
+complex will be the result of the difference in
+energy between the isolated monomers and the
+complex plus the energy derived from the
+facilitation of complex formation due to favorable
+electrostatic complementarity (effects on kon).29
+The former can be estimated directly using the
+crystal structures, while the latter is estimated by
+using an empirical approximation. This empirical
+approximation assumes that in the pre-complex
+the orientation of the two molecules is similar to
+that of the complex, but the interactions are loose
+and the main contribution is electrostatic inter￾actions (see Materials and Methods).29
+With the above considerations, we proceeded to
+realize in the computer all the point mutations in
+the Ras-RalGDS and Ras-Raf complexes. In
+Tables 3 and 4 we show the average of the FOLD￾X22 calculated energy costs for the mutations on
+the different crystal structures or in the two mol￾ecules of a crystal unit. With few exceptions, the
+calculated values are quite similar in different
+crystal structures, suggesting that they are captur￾ing conformational states of similar energies.
+For the Ras/RalGDS complex, the individual R
+values using the average experimental data for the
+two molecules17 in the asymmetric unit are 0.81
+and 0.86 (1LFDa and 1LFDb), respectively, while if
+we used the calculated average it is 0.88 with a
+slope of 0.84. Adding the calculated value for the
+global interaction energy, we find an R value of
+0.95 with a slope of 0.99 (Figure 4(a)). Similar
+values are obtained for the other X-ray structure,16
+for all mutations except those involving residues
+covered by the missing sequence segments of the
+RalGDS structure (i.e. I14A).
+Regarding the Ras/Raf-RBD complex, we have
+used two structures, 1GUA and 1CLY. As in the
+case of the Ras/RalGDS complex, we find an over￾all good correlation and similar values for the two
+structures. For 1CLY the R value is 0.77, while for
+1GUA it is 0.72. For the average of the calculated
+values, R is 0.77 with a slope of 0.62. Addition of
+the calculated energy of the complex results in an
+R value of 0.96 with a slope of 1.1 (Figure 4(b)). It
+is important to mention here that FOLD-X predicts
+a very large loss of binding energy for the RafR89A
+mutant (,5 kcal/mol), in agreement with the
+experimental data.
+Interestingly enough, the predicted binding
+energy for the two complexes is quite close to the
+experimental value (Tables 3 and 4). Taking into
+account the large numbers used to calculate the
+binding energy (Table 5), this means that the
+force-field is capturing the essential energy terms
+that determine the complex stability.
+Analysis of the different terms that FOLD-X uses
+to calculate the energy (see Materials and
+Methods), shows the opposite contribution of
+Figure 4. Correlation analysis of the two Ras/effector￾RBD complexes. (a) Plot of experimental and calculated
+DDG8 values for mutant Ras/- and Rap/RalGDS-RBD
+complexes. The correlation coefficient is 0.88 and the
+slope 0.84. (b) Plot of experimental and calculated DDG8
+values (average from results using the 1GUA and 1CLY
+structures) for mutant Ras/Raf-RBD complexes. The
+correlation coefficient is 0.77 and the slope 0.62.
+1048 Energy Landscaping of Ras/Effector Interfacesdifferent terms that balance each other to produce
+the free energy change. In some cases, the electro￾static contribution on kon has a strong impact in
+the final binding energy. In other cases, H-bonds
+or hydrophobic plus van der Waals interactions
+dominate. Finally, for some mutants, formation or
+destruction of water bridges (water molecules
+making two or more H-bonds to the protein) can
+have a significant contribution. In Table 5 we
+show a summary of the contribution of the
+different terms to complex formation. As can be
+seen, DDG for complex formation is the result of
+many different opposing terms: H-bond formation,
+electrostatics in the complex (and their effect on
+kon), the hydrophobic effect and van der Waals
+favoring complex formation; main-chain and side￾chain entropy, and polar desolvation all act to
+oppose. The majority of the energy terms are
+similar in both complexes, with the main
+differences being a larger H-bond contribution in
+the Ras/RalGDS complex (23.8 kcal/mol), while
+the kon contribution is larger in the Ras/Raf
+(22.4 kcal/mol) and the entropy cost smaller
+(0.8 kcal/mol). Thus, we would expect a larger
+enthalpic term in the first and a more favorable
+entropic cost in the second. This fits very neatly
+with the ITC results, where the enthalpic contri￾bution is 23.6 kcal/mol more favorable in Ras/
+RalGDS and the entropic contribution is
+24.2 kcal/mol more favorable in the Ras/Raf
+complex.
+Energy landscapes
+We wished to compare the distribution of the
+binding energy across the protein/protein interface
+for the two effector complexes. To this end, we
+selected surface representations of the complex
+structures and “opened” the two protein interfaces
+outwards by 908, so that the interface areas are
+towards the reader. This allows a view over the
+contacting amino acid residues buried in the
+interface of the complex. In Figure 5, they are
+color-coded according to their energetic contri￾butions for binding, as quantified by ITC. The dis￾tributions of the enthalpy and entropy changes
+inferred by mutation are shown for the Ras/Raf
+complex in Figure 5A and B. The color graduations
+for the enthalpy and entropy changes range from
+red (the wild-type residue is favoring interaction)
+to blue (unfavoring) as indicated by the bar in
+Figure 5. For many mutations the enthalpy and
+entropy changes compensate each other (as seen
+by deep red and blue colors) leading to only a
+small value of DDG8. In a much smaller number of
+examples, both, enthalpy and entropy changes are
+favorable.
+The Gibbs energy distribution on the interface of
+Ras and Raf (including the estimated value for Raf
+R89) is presented in Figure 5C. Similar to what is
+seen in Figure 5A and C, the energy distribution
+on the surface of the Ras protein and the effector
+is complementary. This is expected and has been
+observed in mutational studies of other protein
+complexes. Below, we will analyze in greater detail
+the interactions between distinct pairs of amino
+acid residues. Strikingly, the distribution is very
+different from the Ras/RalGDS complex in
+Figure 5D. Despite the similarity of the structures,
+the energetic profile of the interactions looks
+different. Particularly, a very hot spot is observed
+in the Ras/Raf complex, whereas a more even dis￾tribution over the interface is found in the Ras/
+RalGDS complex. The interface of Ras/RalGDS
+shows the basic amino acid residues Arg16, Lys28
+and Lys48 colored deeply red because they
+contribute strongly to the interaction, whereas the
+negatively charged amino acid residues Asp47,
+Glu52 and Glu53 have only a minor effect on
+binding.
+For most residues of the Ras/RalGDS interface,
+it is the enthalpy change that favors binding and
+that is compensated by an unfavorable entropy
+change. For a few residues, however, it is the
+other way round. This could be expected, consider￾ing the DH8 and DS8 values of the wild-type
+complex, which shows a negative DS8 value. In
+the Ras/Raf complex, the situation is not so clear,
+due to the lack of DDH8 and DDS8 data for the
+Arg89 mutant; these are likely to be significant in
+magnitude. Interestingly, from comparison of
+Figure 5A and B, one can expect a deep red spot
+in B instead of the black one, which means estimat￾ing a highly favoring entropy contribution of
+Arg89, as we know that the prevailing blue color
+in B on the Raf side must have a strong red
+counterbalance.
+As we have revealed the thermodynamic par￾ameters of the interaction of Ras with the effector
+RBDs of RalGDS and Raf, it would be interesting
+to make general statements about the interaction
+of single amino acid residues. We can find only
+poor correlation between removal of special type
+of interacting residues and the resulting thermo￾dynamic parameters. We found a high enthalpy
+loss for mutations of amino acid residues involved
+in ionic interactions (Lys, Asp, Arg, Glu) and a
+smaller enthalpic loss after destruction of H-bonds
+as a result of mutation of polar amino acids (Ser,
+Thr, Asn, His). For ionic interactions and H-bonds,
+the effects of the entropy contributions are
+different, but the favorable entropy changes
+Table 5. Summary of the contribution of the different
+terms to complex formation (kcal/mol)
+DD Energy terms Ras-RalGDS Ras-Raf
+H-bond 216.19 ^ 0.98 212.35 ^ 1.82
+van der Waals 214.42 ^ 0.94 215.16 ^ 0.07
+Hydrophobic desolvation 214.36 ^ 0.13 214.19 ^ 0.02
+Polar desolvation 16.31 ^ 1.58 16.17 ^ 0.24
+Electrostatic 24.49 ^ 1.36 24.69 ^ 0.13
+Entropy 23.76 ^ 0.14 22.92 ^ 0.75
+van der Waals clashes 0.00 0.00
+Water bridges 21.92 ^ 0.20 21.20 ^ 0.00
+kon 22.53 ^ 0.31 24.90 ^ 0.62
+Energy Landscaping of Ras/Effector Interfaces 1049predominate. This reflects a general trend that has
+been found in other studies as well.30 The finding
+that hot-spots of binding energy often involve
+lysine, aspartic acid, arginine and tyrosine con￾firms findings in the literature.31 Ras/effector com￾plexes have only few hydrophobic amino acid
+side-chains in their interface and the small number
+of mutations of these residues does not show a
+general rule of the thermodynamic effect; the
+entropy change is positive for some cases but for
+others it is negative. Possible reasons for this are
+the variations of distances and angles of the inter￾acting side-chains and the varying involvement of
+water molecules.
+Energetic contributions of single pairs of
+amino acids
+An amino acid side-chain on one side of the pro￾tein/protein interface usually establishes contacts
+to more than a single residue on the other side.
+Depending on the size and the geometry, two or
+more amino acid side-chains or part of the main￾chain come into its close proximity. We were inter￾ested in the energy contributions made by distinct
+pairs of amino acid side-chains. Therefore, we per￾formed a double mutant cycle analysis as
+described earlier for other systems.32,33 In such a
+cycle, the contribution to the interaction made by
+residue X in protein 1, together with residue Y in
+protein 2, is calculated from a set of four experi￾ments: (i) measurement with both wild-type pro￾teins (X,Y); (ii) with wild-type of protein 1/mutant
+of residue Y in protein 2 (X,Y ! A); (iii) with the
+mutant of residue X in protein 1/wild-type of
+protein 2 (X ! A,Y); and (iv) with the mutant of
+residue X/mutant of residue Y (X ! A,Y ! A).
+The results are summarized in Tables 6 and 7
+together with the corresponding enthalpy and
+entropy contributions. DDG8int, is calculated from
+the experiments just described according to the
+following equation:
+DDG8int ¼ DG8X;Y 2 DG8X;Y!A 2 DG8X!A;Y
+þ DG8X!A;Y!A ð1aÞ
+With the definition for DDG8 given above, rewriting
+equation (1a) as equation (1b):
+DDG8int ¼ DDG8X!A;Y þ DDG8X;Y!A
+2 DDG8X!A;Y!A ð1bÞ
+makes it clearer that we expect the value of DDG8int
+to be zero if the sum of the changes observed for
+the two single mutations is the same as the result
+for the double mutant, thus indicating that the
+effects of the mutations are independent and there￾fore additive. In contrast, a value different from
+zero indicates a coupled effect of the two residues
+X and Y, where positive and negative values
+represent repulsive and attractive interactions,
+respectively. One major assumption of the double
+mutant cycle approach is that no significant confor￾mational changes should take place upon the
+individual or double mutations. Although for indi￾vidual mutations this is quite reasonable, in the
+case of a double mutation involving buried
+residues this is more questionable, due to the
+large cavity created. Any conformational
+rearrangement will tend to go in the direction of
+decreasing the free energy of complex formation.
+As a result, we could find lower interaction
+energies than expected and in some cases we
+Figure 5. A color-coded represen￾tation of the contributions of bind￾ing energies of amino acid residues
+on top of the interface area of the
+Ras/effector complexes. The DDX8
+values equal the DX8 value of wild￾type minus that of the alanine
+mutant of the respective residue.
+According to the color of the bar,
+the energy is scaled from 25 kcal/
+mol (red) to þ5 kcal/mol (blue).
+The two proteins of the respective
+complex are each rotated by 908 in
+the opposite sense to each other so
+that the contact area faces the
+reader. For the Ras/Raf complex,
+DDH8 values (A) and 2TDDS8
+values (B) are taken from Table 4.
+Note, the negative sign for the rep￾resentation of the TDDS8 values
+was chosen in order to have inter￾action favoring contributions of the
+respective amino acid in red as is the case for the DDH8 and DDG8 values. Black denotes the lack of data for the
+Arg89 mutant. C, The resulting DDG8 values of the Ras/Raf-RBD complex where at least 25 kcal/mol are estimated
+for Arg89 (see the text). D, For comparison, the DDG8 values of Ras/RalGDS-RBD taken from Table 3. All Figures
+were prepared using the program MOLMOL.55
+1050 Energy Landscaping of Ras/Effector Interfacescould even obtain numbers suggesting a favorable
+interaction energy, which does not mean a direct
+interaction between two residues. On top of that,
+the accumulation of experimental errors in four
+measurements could be large and therefore a
+coupling energy DDG8int can be considered to be
+significant only when the absolute value is larger
+than 0.5 kcal/mol.
+We have carried out the double mutant cycle for
+a selection of residue pairs, both experimentally
+and computationally (Tables 6 and 7). The Ras/
+RalGDS-RBD interaction involves some contacts
+with medium energy values (around 21 kcal/
+mol) and a few hot-spots contributing more than
+22 kcal/mol. Significant attractive coupling
+energies (DDG8int values ,20.5 kcal/mol) are
+found mainly between polar amino acid residues,
+but there are some repulsive interactions (DDG8int
+values .0.5 kcal/mol). One of the first
+observations is that we find some significant
+interactions (.0.5 kcal/mol) between residues
+that are not in contact, or that cannot establish an
+indirect interaction via a water molecule or an
+electrostatic interaction. Examples are Ras·Q25-
+RalGDS·N25, Ras·V29-RalGDS·H49, Ras·D38-
+RalGDS·Y27, Ras·D38-RalGDS·S29 and Ras·Y40-
+RalGDS·Y27. Those cases can be explained by an
+accumulation of experimental errors or by a relax￾ation of the structure upon doing the double
+mutation. In the case of the Ras·D38-RalGDS·S29
+and Ras·D38 with RalGDS·Y27 interactions, the
+fact that similar interaction energies are found for
+the Rap/RalGDS complex, suggests that they are
+not an experimental error, but rather the result of
+a structure relaxation in the double mutant. In
+fact, both RalGDS Ser29 and Tyr27 are on the
+same RalGDS b-strand and on the opposite face of
+the b-sheet, in the same locality as the side-chain
+of Asp38. Another interesting case is that involving
+Glu37 and Ser29. These two residues do not make
+contact directly but interact through a water
+molecule that binds also to the side-chain of
+Lys48. This water bridge could explain the favor￾able interaction energy observed. Apart from
+these, we find favorable coupling between Ras
+Glu37 with RalGDS Arg16 and Tyr27 and of
+Ras Asp38 with RalGDS Lys48. In the case of Ras
+Arg41 and RalGDS Asn25, there is conflicting
+experimental evidence and, moreover, they do not
+make contact. In all these cases, and within the
+Table 6. Thermodynamic parameters of binding of both Ras·GppNHp and RalGDS-RBD mutants
+RalGDS-RBD Ras protein DG8 DDGint8 DG8 (GDI) DDGint8 (GDI) DDGint8 calc DH8 DDHint8 TDS8 TDDSint8
+N25Aa Ras Q25A 28.1 20.9 0.06 211.1 20.5 23.0 0.5
+K28Aa Ras Q25A 25.9 20.2 0.04 27.6 21.3 21.6 20.9
+H49Aa Ras V29A 26.4 0.8 0.00
+D47A Ras E31A 27.0 1.3 0.57
+H49A Ras E31A 26.8 0.4 20.30 28.6 21.2 21.8 21.6
+D47A Ras D33A 28.2 20.6 20.33 211.6 22.7 23.4 2.1
+H49A Ras D33A 26.2 0.1 20.22 214.3 25.8 28.1 25.9
+R16A Ras E37A 26.3 20.6 21.32
+N23Aa Ras E37A 26.4 20.1 20.01
+Y27F Ras E37A 27.1 21.6 20.95
+Y27A Ras E37A 24.8b 21.2 21.07
+S29Aa Ras E37A 26.1 20.8 0.03
+Y27Aa Ras D38A 23.5b 22.7 0.00
+S29Aa Ras D38A 25.1 21.7 20.10
+K48A Ras D38A 22.3b 21.4 21.46
+N25Aa Ras S39A 28.4 0.3 0.02 29.0 20.7 20.6 21.0
+Y27F Ras S39A 27.6 0.5 0.04 211.1 22.1 23.5 22.6
+Y27A Ras S39A 24.3b 1.3 0.41
+K44Aa Ras S39A 28.5 0.2 0.01 29.0 0.1 20.5 20.1
+H49Aa Ras S39A 27.9 0.1 0.00 211.5 21.0 23.6 21.1
+N25A Ras Y40F 26.1 20.2 20.14 215.4 22.0 29.3 21.7
+Y27Fa Ras Y40F 25.8 20.6 0.00 26.7 7.4 20.9 8.0
+S29Aa Ras Y40F 26.6 21.2 0.00 27.2 5.7 20.6 7.0
+N23Aa Ras R41A 26.8 20.3 26.9 20.1 0.00 29.8 20.4 23.0 0.0
+N25Aa Ras R41A 27.0 0.2 27.6 20.7 0.01 211.4 21.9 24.4 22.1
+Y27Fa Ras R41A 26.6 0.0 0.03 212.0 21.8 25.4 21.8
+K44A Ras E63A 28.1 20.4 20.15
+Y27Fa Rap D38A 26.4 21.1 27.0 2.8 20.5 3.3
+K28A Rap D38A 27.4 20.7 20.4 3.7 7.0 20.9
+S29Aa Rap D38A 26.9 20.9 23.6 2.7 3.2 20.6
+D47A Rap D38A 27.0 0.0 213.6 26.4 26.6 0.7
+K48A Rap D38A 27.4 23.1 21.6 5.6 5.8 20.2
+DDG8int ¼ DG8X;Y 2 DG8X!A;Y 2 DG8X;Y!A þ DG8X!A;Y!A; DDH8int ¼ DH8X;Y 2 DH8X!A;Y 2 DH8X;Y!A þ DH8X!A;Y!A; TDDS8int ¼
+TDS8X;Y2 TDS8X!A;Y 2 TDS8X;Y!A þ TDS8X!A;Y!A. All values are given in kcal/mol. ITC measurements were done at 25 8C and GDI
+measurements at 37 8C. a The side-chains of these residues are separated by more than 4 A˚ , and therefore DDG8int should be close to zero, unless there are
+some conformational rearrangements. Exceptions have been those involving charged residues. b The experimental error on these data is 0.5 kcal/mol due to the low affinity.
+Energy Landscaping of Ras/Effector Interfaces 1051experimental error, we can predict the observed
+interaction energies reasonably well. There are
+some repulsive interactions (Ras·E31/RalGDS·D47
+and Ras·S39/RalGDS·Y27), which are predicted
+correctly within the error limits.
+The results of double mutant cycles of Ras and
+Raps associating with Raf-RBD are summarized in
+Table 7. As in the previous case, there are two
+cases in which there is no interaction between the
+residues and we find an experimental interaction,
+Ras·I36/Raf·R59 and Ras·V45/Raf·N64, which
+could be explained as above. We observe the
+following favorable interactions: Ras·I21/Raf·V88,
+Ras·E31/Raf·K84, Ras·D33/Raf·K84, Ras·E37/
+Raf·R59, Ras·E37/Raf·K84, Ras·D38/Raf·R59 and
+Ras·D38/Raf·T68. In all cases except one, we could
+reproduce the experimental data within the error.
+The single failure is for the interaction between
+Ras·Asp38 and Raf Thr68. Both residues make a
+side-chain H-bond and the interaction energy is
+estimated to be around 1.6 kcal/mol. The reason
+behind the prediction failure is that upon mutation
+of one of the two side-chains, a water bridge is
+created that contributes favorably to the complex.
+In the double mutant cycle the water bridge is
+eliminated, but there is ample room for the for￾mation of a network of water molecules that are
+not considered, since they do not make at least
+two H-bonds to the protein complex (this is a
+limitation of the FOLD-X approximation). We
+found attractive interactions of Glu31 and Asp33
+of Ras with Lys84 of Raf of 20.7 and 20.6 kcal/
+mol, respectively. This is in accordance with the
+structural data, taking the Raps/Raf structure as a
+model (Figure 1(b)), where two salt-bridges are
+formed between these amino acid residues. The
+sum of these coupling energies is 21.3 kcal/mol.
+As found earlier, under different experimental
+conditions,15,21 two high-affinity complexes are
+observed, Rap/RalGDS (29.9 kcal/mol) and Ras/
+Raf (210.0 kcal/mol), and two complexes with
+lower affinity Ras/RalGDS (28.4 kcal/mol) and
+Rap/Raf (28.6 kcal/mol). Residue 31 in the Ras
+protein was identified to be responsible for Raf
+binding specificity.15 The binding specificity of Ras
+and Rap can be explained quantitatively, based on
+the results of the latter set of double mutant cycles.
+The sum of the Glu31 and Asp33 interactions cor￾responds to the difference in free energy of binding
+between the Raf complexes with Ras and Rap
+(21.4 kcal/mol). As seen in the structure of the
+Raps/Raf complex, Lys84 can form salt-bridge￾like contacts to Glu31 and Asp33, leading to similar
+energetic contributions of these two interactions (as
+Table 7. Thermodynamic parameters of binding of mutants of both Ras·GppNHp and Raps·GppNHp to Raf-RBD
+Raf-RBD Ras Protein DG8 DDGint8 DDGint8 calc DH8 DDHint8 TDS8 TDDSint8
+T68Aa Ras I21A 27.8 20.1 0.00 29.7 21.1 21.9 21.0
+V69Aa Ras I21A 28.4 20.3 20.35 29.3 20.9 20.9 20.6
+V88A Ras I21A 29.7 20.7 20.62 214.4 25.1 24.7 24.4
+V88Aa Ras H27A 29.8 0.4 0.01 28.4 20.9 1.4 21.3
+R59A Ras E31A 27.8 0.0 20.12 25.6 20.1 2.2 20.1
+T68Aa Ras E31A 28.4 20.4 0.00 25.8 0.2 2.6 0.6
+K84A Ras E31A 27.9 20.7 20.74 27.6 21.9 0.3 21.2
+R59A Ras D33A 27.4 20.3 20.75 26.0 21.4 1.4 21.2
+K84A Ras D33A 27.3 20.6 20.81 28.0 23.2 20.7 22.7
+R59Aa Ras I36A 25.6 0.9 0.03 28.9 23.2 23.3 24.0
+T68Aa Ras I36A 26.9 20.2 0.11 27.7 21.4 20.8 21.2
+V69A Ras I36A 27.3 20.1 20.2 24.6 1.5 2.7 1.6
+R59A Ras E37A 27.6 21.2 21.31 25.7 21.2 1.9 20.1
+T68A Ras E37A 27.1 20.4 20.03 24.7 0.3 2.4 0.7
+V69A Ras E37A 27.2 20.1 20.15 26.7 21.9 0.6 21.8
+K84A Ras E37A 26.5 20.5 20.15 22.8 1.8 3.7 2.4
+R59A Ras D38A 25.4 20.5 20.38 24.7 20.7 0.7 20.2
+T68A Ras D38A 26.9 21.6 20.06 24.9 20.3 1.9 1.3
+Q66Aa Ras S39A 27.9 0.1 20.03 27.5 20.3 0.3 20.4
+R67A Ras S39A 27.7 20.1 0.05 26.6 21.1 1.1 21.0
+T68Aa Ras S39A 28.0 0.2 0.02 27.0 20.6 1.0 20.8
+N64A Ras R41A 210.6 20.1 0.25 27.8 20.6 2.8 20.4
+Q66Aa Ras R41A 28.7 0.2 0.08 26.1 1.7 2.6 20.6
+N64Aa Ras V45A 210.0 0.5 0.00 26.4 0.5 3.6 0.3
+Q66Aa Ras V45A 28.4 0.1 0.00 26.7 0.7 1.7 0.5
+R67Aa Ras V45A 28.2 0.1 0.00 27.5 21.8 0.7 22.0
+T68Aa Ras V45A 28.9 20.1 0.00 27.8 21.3 1.1 21.3
+R59A Raps E37A 27.3 21.0 21.5 0.1 5.8 1.2
+V69A Raps E37A 26.9 0.3 23.3 21.4 3.8 21.9
+DDG8int ¼ DG8X;Y 2 DG8X!A;Y 2 DG8X;Y!A þ DG8X!A;Y!A; DDH8int ¼ DH8X;Y 2 DH8X!A;Y 2 DH8X;Y!A þ DH8X!A;Y!A; TDDS8int ¼
+TDS8X;Y2 TDS8X!A;Y 2 TDS8X;Y!A þ TDS8X!A;Y!A. All values are given in kcal/mol. ITC measurements were done at 35 8C (for Raf￾RBD binding to Ras) or at 25 8C (for Raf-RBD binding to Raps). a The side-chains of these residues are separated by more than 4 A˚ should be close to zero, unless there are some conformational
+rearrangements. Exceptions have been those involving charged residues.
+1052 Energy Landscaping of Ras/Effector Interfacesshown here but in contrast to Shirouzu et al.,34 who
+show only Glu31 to be important). Also for
+RalGDS, residue 31 of Ras and Rap seems to be
+responsible for the difference in free energy of
+binding mentioned above. For this system, the
+double mutant cycle analysis revealed repulsive
+interactions between Asp47 of RalGDS and Glu31
+of Ras (1.3 kcal/mol), which again corresponds to
+the observed difference between Ras and Rap
+(1.5 kcal/mol). As we lack a full set of mutations
+in the Rap interfaces of the complexes with the
+effectors we cannot exclude the possibility that
+there are more residues different between Ras and
+Rap and responsible for the different affinities.
+In general, excluding interaction energies
+between non-contacting residues, the prediction
+algorithm is reasonably successful in reproducing
+the observed experimental energies.
+Discussion
+At a time when many different genomes are
+being sequenced, with many new proteins being
+found to be involved in a multitude of variant pro￾tein/protein interactions, it is important to deter￾mine the interactions responsible for affinity and
+specificity. Ultimately, this will allow us to predict
+which of the multiple possible combinations of
+members of two protein families forming a com￾plex are physiologically relevant. A very interest￾ing case is the complex made by Ras and various
+effector proteins, among them Raf and RalGDS.
+Many members of the Ras family have been
+described in the human genome, as well as their
+effector proteins, and it is not clear which combi￾nations of members of this family, if any, will be
+possible. Even single point mutations like E31 to
+Lys between Ras and Rap could decrease the bind￾ing energy to Raf and increase it towards RalGDS.
+Here, we have performed an exhaustive muta￾genesis analysis, involving both experimental and
+theoretical analysis with the objective of dissecting
+the relative contribution of different interactions
+towards affinity and specificity of the above com￾plexes, as well as validating computer prediction
+algorithms. Validation of prediction software is
+important if we would like in the future to carry
+out an in silico screening of putative Ras-effector
+interactions at a genome level.
+Our experimental and theoretical analysis shows
+that the stability of the complex is the result of
+many different opposing interactions, and that
+different RBDs could bind with affinities similar to
+that of Ras using different combinations of these
+interactions. However, in both cases electrostatic
+interactions play a very important role in the
+complex, by facilitating the formation of the pre￾complex and increasing kon. It is difficult to assess
+experimentally the role of the main-chain inter￾actions that result in the elongation of the Ras
+b-sheet. Energy calculations with FOLD-X (data
+not shown) indicate that it contributes significantly
+to complex formation. Why are electrostatic inter￾actions and H-bonds favored over hydrophobic
+interactions? One explanation could be to facilitate
+the dissociation of the Ras/RBD complex, since
+hydrophobic interactions reduce the dissociation
+rate constant and increase the rate constant of
+association,35 thus allowing fast formation of the
+complex followed by an easy dissociation once the
+RBD domain has performed its function.
+Energy landscapes
+In previous studies it has been shown that bind￾ing of various effector proteins to members of the
+Ras family is very specific.21 This is especially
+astonishing because the RBDs all show the same
+ubiquitin-like fold and the Ras proteins are very
+similar, especially in their effector-binding region.
+This specific recognition of a partner protein by
+only one member of a protein family seems to be
+important in many biological processes.36 There￾fore, the specificity must be coded on the surface
+by different determinants of binding energy.
+Here, we have analyzed in detail the energetic
+properties of two prominent Ras/effector com￾plexes, which enabled us to build energy land￾scapes for their contact area. Using both,
+experimental and theoretical studies, we found
+that the shape of these two energy landscapes
+appears to be different: for the Ras/RalGDS com￾plexes, the binding energy is distributed relatively
+evenly across the interface, with a few hot-spots
+contributing around 1–3 kcal/mol to the complex
+affinity. Taking the sum of all significant coupling
+energies measured in this system, we arrive at a
+figure of 28.9 kcal/mol, which is surprisingly
+close to DG8 ¼ 28.4 kcal/mol for the Ras/RalGDS
+interaction. In contrast to the Ras/RalGDS energy
+landscape, in that of the Ras/Raf complex the
+amino acid residue Arg89 of Raf represents a single
+and very “hot” spot. This amino acid residue is
+surrounded by hydrophilic and hydrophobic resi￾dues, which on their own contribute only little to
+the binding energy. Possibly, this is a special type
+of complex formation postulated for complexes
+with high affinity.31 An amino acid residue contri￾buting strongly to the binding energy should be
+shielded from surrounding water, and other
+amino acid residues form a kind of ring around
+this hot-spot. Arg89 of Raf-RBD is an ideal candi￾date for a hot-spot residue of this kind, because it
+is located directly in the middle of the interface
+and its high energetic contribution could be
+explained by forming many non-covalent inter￾actions for optimal orientation. This would explain
+also the fact that even the affinity of Raf R89K is
+reduced drastically (data not shown), because the
+lysine residue cannot take part in as many non￾covalent interactions as the arginine residue.31
+Based on sequence homology investigations,
+Ponting & Benjamin have defined, on the basis of
+homology to RalGDS/RalGDS-like and AF6/
+canoe, a novel protein family called RA (Ras
+Energy Landscaping of Ras/Effector Interfaces 1053association) domains.36,37 Until now, however, it
+has not been investigated whether all these RA
+domains will indeed bind to Ras or to members of
+the Ras family. As they are predicted to have
+ubiquitin-like structure, one could aim in future at
+predicting the affinity in complex with Ras, using
+theoretical tools. In the SMART database one finds
+a subdivision of effector molecules in the RA and
+RBD families, with slightly different consensus
+sequences.38,39 Interestingly, the effectors RalGDS
+and Raf analyzed here are found to be in different
+families; RalGDS belongs to the RA family and
+Raf to the RBD family. This might explain the
+different binding modes seen in the energy land￾scapes determined here. It will be interesting to
+see whether one can find some general properties
+among effector proteins of a particular family to
+account for how they interact with Ras proteins.
+Mutagenesis prediction
+As stated above, one of the main assumptions in
+predicting the changes in energy upon mutation is
+that neither the structure of the isolated proteins,
+nor that of the complex changes upon mutation.
+Another important assumption is that, from the
+energetic point of view, the structure of the pro￾teins involved will be the same in the complex or
+in isolation. Surprisingly enough, both assump￾tions seem to hold, since we can predict with
+reasonable accuracy the energetics of the different
+mutations analyzed here. However, this is not the
+case for some of the double mutants involving resi￾dues that are not in direct or indirect contact in the
+complex. In this case, it is quite likely that upon
+introducing two large destabilizing mutations, the
+structure of the complex relaxes and, as a result,
+an interaction energy is found experimentally that
+does not correspond to a direct energy interaction
+between the two residues. In any case, it is import￾ant to emphasize the quality of the predictions,
+suggesting that computer design methods could
+be used to engineer mutations in protein com￾plexes. Furthermore, in direct relevance to this
+case, it should be possible to screen in silico a wide
+range of putative Ras/effector complexes.
+Materials and Methods
+Mutagenesis, protein purification and
+nucleotide exchange
+The coding DNA for the RBDs of the effectors RalGDS
+(residues 790–886, here termed 1–97) and Raf (residues
+51–131) was cloned in pGEX4T3 and pGEX2T, respect￾ively. Protein expression in Escherichia coli BL21 cells,
+thrombin cleavage of the GST fusion proteins and purifi￾cation were performed as described.19,40 Some mutants of
+RalGDS- and Raf-RBD were prepared in earlier studies
+and new mutants were produced here using the Quik￾Changee Site-Directed-Mutagenesis Kit (Stratagene).
+Ha-Ras, Rap1A (termed Ras and Rap) and all mutant
+proteins of Ras and Rap were cloned in ptac vector and
+expressed using E. coli strain CK600K. In the case of
+Rap, pGRO/EL was co-transformed in the cells expres￾sing the E. coli Hsp60 chaperonin. The expressed Ras
+and Rap proteins were purified, and the bound
+nucleotide was exchanged for the non-hydrolysable
+nucleotides GppNHp or mantGppNHp as described.19
+After nucleotide exchange, the Ras proteins were puri￾fied from non-bound nucleotide by gel-filtration using
+50 mM Tris–HCl (pH 7.4), 5 mM MgCl2 and 2 mM
+dithioerythritol. In the case of Raf-RBD wild-type and
+mutants, the buffer contained 100 mM NaCl. The protein
+concentrations were measured by the Bradford method
+using bovine serum albumin as a standard.41
+Fluorescence measurements
+For some mutant complexes of Ras and RalGDS, we
+determined the dissociation constants (Kd values) using
+the GDI assay as described.19,20 The GDI effect is based
+on the observation that the nucleotide exchange rate of
+Ras proteins is decreased as a result of effector RBD
+binding. We used 0.5 mM Ras bound to mantGppNHp
+and increasing RalGDS-RBD concentrations. The dis￾sociation of the fluorescent nucleotide was initiated by
+the addition of 100-fold excess of non-labeled GTP. The
+time-course of the resulting fluorescence change was
+monitored using a Perkin Elmer Life Sciences LS50
+instrument. The excitation and emission mono￾chromators were set to 360 nm and 450 nm, respectively,
+and the slits to 5 nm resolution.
+Microcalorimetry
+The thermodynamic parameters of Ras/effector inter￾actions were determined using an isothermal titration
+calorimeter (MCS-ITC, MicroCal, Inc.) as described.26 In
+all experiments, the effector RBDs were placed into the
+sample cell at a concentration between 10 mM and
+80 mM, depending on the expected association constant.
+The concentration of the Ras proteins in the syringe was
+tenfold higher compared to the effector concentration in
+the cell. For data evaluation, the manufacturer’s software
+was used as described.21 For all experiments, 50 mM
+Tris–HCl (pH 7.4), 5 mM MgCl2 and 2 mM dithio￾erythritol was used as the buffer, including the fluor￾escence experiments. All experiments with Raf-RBD
+solutions contained 100 mM NaCl in addition, as this
+protein tends to precipitate at high protein concentration
+and at low ionic strength.
+Energy minimization and structure refinement
+Prior to the calculation of the free energy changes
+upon mutation in the complexes, we carried out an
+energy minimization step to eliminate bad contacts and
+optimize the geometry. The following PDB structures:
+1CLY, 1GUA, 1LFD, and the Ras/RalGDS structure
+from Vetter et al.
+16 were loaded on the Swiss-PdbViewer42
+and subjected to three steps of 50 cycles of steepest
+descent minimization. In the case of 1LFD, we separated
+the two complexes (called complex a and b) and treated
+them separately as different structures. Once the
+structures were minimized, we proceeded to a visual
+inspection of the interaction surface of the different com￾plexes. It is well known that the orientation of Asn and
+Gln side-chains regarding the carbonyl and amide
+groups cannot be determined from crystal structures. It
+is in the refinement procedure that the crystallographer
+1054 Energy Landscaping of Ras/Effector Interfacesdetermines their position and it has been found that in
+many cases this is not the correct one.24,43
+FOLD-X energy prediction
+The FOLD-X energy function† includes terms that
+have been found to be important for protein stability.
+The free energy of unfolding (DG) of a target protein is
+calculated using equation (2):
+DG ¼ DGvdw þ DGsolvH þ DGsolvP þ DGwb þ DGhbond
+þ DGel þ DGkon þ TDSmc þ TDSsc þ TDStr ð2Þ
+where DGvdw is the sum of the van der Waals contri￾butions of all atoms with respect to the same interactions
+with the solvent. DGsolvH and DGsolvP are the difference in
+solvation energy for apolar and polar groups, respect￾ively, when going from the unfolded to the folded state.
+DGhbond is the free energy difference between the
+formation of an intramolecular H-bond compared to
+intermolecular H-bond formation (with solvent). DGwb is
+the extra stabilizing free energy provided by a water
+molecule making more than one H-bond to the protein
+(water bridges) that cannot be taken into account with
+non-explicit solvent approximations.44 DGel is the electro￾static contribution of charged groups, including the helix
+dipole. DGkon reflects the effect of electrostatic inter￾actions on kon.
+29 DSmc is the entropy cost for fixing the
+backbone in the folded state. This term is dependent on
+the intrinsic tendency of a particular amino acid to
+adopt certain dihedral angles.45 DSsc is the entropic cost
+of fixing a side-chain in a particular conformation.46 DSsc
+is the loss of translational and rotational entropy upon
+making the complex.
+The energy values of DGvdw, DGsolvH, DGsolvP and
+DGhbond attributed to each atom type have been derived
+from a set of experimental data, and DSmc and DSmc
+have been taken from theoretical estimates. The van der
+Waals contributions are derived from vapor to water
+energy transfer, while in the protein we are going from
+solvent to protein.
+Effect of solvent exposure determined by the atomic
+occupancy (Occ)
+Many experimental studies show that interactions at
+the surface of a protein usually contribute less to the
+stability of a protein than in the core.47,48 This can be
+rationalized as an effect of increased flexibility at the
+protein surface in an environment close to that of
+the unfolded state. Therefore, an important part of the
+energy calculation is based on the inclusion of solvent
+effects in an implicit manner, except in the special case
+of water-bridges. To estimate the solvent accessibility of
+a given atom, we used the solvent contact model,49
+which considers the volume occupied by protein atoms
+around the target atom, called the occupancy (Occ). The
+occupancy of a given atom i, OccðiÞ, is the sum of the
+fragmental volumes of the atoms surrounding this atom
+within a threshold distance of 6 A˚ .
+50,51
+In FOLD-X, the atomic free energy of solvation, the
+van der Waals and the electrostatic interactions together
+with the entropic terms are scaled with respect to the
+atomic occupancies (Occ). As a first approximation, we
+assume that the strength of an interaction (solvation
+effects, van der Waals or electrostatic) and the entropic
+cost for fixing the conformation of a residue should
+vary linearly with the atomic occupancy OccðiÞ. For each
+atom i, the unscaled energy terms are multiplied by the
+scaling factor (SfactðiÞ) that is calculated from the atomic
+occupancy OccðiÞ as:
+SfactðiÞ ¼ OccðiÞ 2 OccminðtiÞ
+OccmaxðtiÞ 2 OccminðtiÞ ð3Þ
+where Occmin(i) and Occmax(i) are the minimal and maxi￾mal occupancies of an atom of type ti as estimated by
+Topham et al.
+52
+Exceptions
+Polar groups desolvation. For non-charged polar
+residues and non-charged polar backbone atoms, the
+solvation penalty of the polar groups is calculated by
+first looking at the number of H-bonds they are
+making. If this number is equal to the maximum they
+can make, then we apply full desolvation penalty inde￾pendent of the solvent accessibility. If the number is
+less, we divide the desolvation penalty by the number
+of H-bonds and we subtract this value multiplied by
+the number of H-bonds made from the desolvation
+value.
+For the main-chain and side-chain entropy, which are
+calculated at the residue level and not at the atomic
+level, we consider the mean value of the occupancies of
+the atoms that compose the main-chain and the side￾chain, respectively.
+Side-chain entropy cost. For residues not making an
+electrostatic or H-bond interactions, we correct the
+entropy contribution by the SfactðiÞ. For the rest, we
+check the electrostatic and H-bond contribution, and if
+these contributions are higher than the side-chain
+entropic cost corrected by the SfactðiÞ we increase the
+entropic cost value to match the electrostatic and
+H-bond contributions (provided that they are not
+higher than the maximum entropic cost value, in which
+case we apply full entropy cost).
+Main-chain entropy cost. Here, we do the same thing as
+for the side-chain entropy. The only difference is that
+we look as well to the residues preceding and following
+the target residue. If those are making backbone
+H-bonds, then we penalize more the main-chain
+entropy contribution of the target residue.
+Electrostatic effects on kon. Theoretical and experi￾mental studies29,53 have shown that favorable electro￾static interactions could enhance the association rate of
+proteins. This enhancement is due to a favoring of
+productive relative conformations that will lead to the
+stable complex. The enhancement can be calculated
+empirically by assuming that the associated proteins
+will form a looser complex that will later be rearranged
+by rotation and translational diffusion. The second
+assumption is that the subunits in this looser complex
+will, on average, have a similar orientation as in the
+final complex but separated by a layer of water. Under
+these assumptions, the stability of these looser com￾plexes will be dominated by electrostatic interactions.29
+On the basis of these assumptions Vijayakumar et al.
+29
+† http://fold-x.embl-heidelberg.de derived a very simple approximation that predicts
+Energy Landscaping of Ras/Effector Interfaces 1055with good correlation the effect of electrostatic inter￾actions on kon.
+We have introduced this effect in a similar way,
+although we have simplified the procedure. Essentially,
+we use the same approximation as that used by
+Vijayakumar et al.
+29 but we do not explore different
+orientations of the two molecules and we do not separate
+them.
+DGkon ¼ 332qiqe
+1r
+e2kðr2aÞ
+1 þ ka ð4Þ
+where DGkon is the contribution to the binding energy
+due to the electrostatic effect on the kon rate, qi and qe
+are the charges of the atoms involved, 1 is the dielectric
+constant in water (we use a value of 88), r is the distance
+between the two atoms in the crystal structure, k intro￾duces the effect of the ionic strength (equation (5)) and a
+is an empirical correction term similar to that used by
+Vijayakumar et al.
+29 The comparison between the calcu￾lated changes in kon for the barnase/barstar complex
+using our simplified version and the method of
+Vijayakumar et al.
+29 shows that our simplified approach
+captures quite well the effect of charged point mutations
+on kon values (data not shown).
+k ¼
+ffiffiffiffiffiffiffiffiffiffiffiffiffi
+29:4I
+T
+r
+ð5Þ
+where I is the ionic strength in the solution (1 M NaCl
+will have a value of 1) and T is the temperature in
+Kelvin.
+Loss of translational and rotational entropy upon
+complex formation. We consider a cost of 2 kcal/mol for
+making a complex between the two molecules. This
+value was proposed by Freire and co-workers, based on
+the results of calorimetry studies.54
+Determination of DDG values for complex formation. In
+order to estimate the change in stability of the complex
+AB upon mutation, we assume that the two molecules
+making the complex do not suffer major conformational
+changes compared with the free forms A and B. In this
+way:
+DDGAB ¼ DGAB 2 ðDGA þ DGBÞ ð6Þ
+Acknowledgements
+We thank Sabine Wohlgemuth for excellent
+technical assistance and Mark Isalan for critical
+reading of the manuscript. We thank the DFG
+(grant He 2679/2-1) and the EU (grant QLG2-CT￾2002-01298) for financial support.
+References
+1. Bourne, H. R., Sanders, D. A. & McCormick, F.
+(1990). The GTPase superfamily: a conserved
+switch for diverse cell functions. Nature, 348,
+125–132.
+2. Bourne, H. R., Sanders, D. A. & McCormick, F.
+(1991). The GTPase superfamily: conserved structure
+and molecular mechanism. Nature, 349, 117–127.
+3. Rapp, U. R., Goldsborough, M. D., Mark, G. E.,
+Bonner, T. I., Groffen, J., Reynolds, F. H., Jr &
+Stephenson, J. (1983). Structure and biological
+activity of v-raf, a unique oncogene transduced by
+a retrovirus. Proc. Natl Acad. Sci. USA, 80,
+4218–4222.
+4. Vojtek, A. B., Hollenberg, S. M. & Cooper, J. A.
+(1993). Mammalian Ras interacts directly with the
+serine/threonine kinase Raf. Cell, 74, 205–214.
+5. Rodriguez-Viciana, P., Warne, P. H., Dhand, R., Van
+Haesebroeck, B., Gout, I., Fry, M. J. et al. (1994). Phos￾phatidylinositol-3-OH kinase as a direct target of
+Ras. Nature, 370, 527–532.
+6. Bos, J. L. (1998). All in the family? New insights and
+questions regarding interconnectivity of Ras, Rap
+and Ral. EMBO J. 17, 6776–6782.
+7. Emerson, S. D., Madison, V. S., Palermo, R. E.,
+Waugh, D. S., Scheffler, J. E., Tsao, K. L. et al. (1995).
+Solution structure of the Ras-binding domain of
+c-Raf-1 and identification of its Ras interaction sur￾face. Biochemistry, 34, 6911–6918.
+8. Huang, L., Weng, X., Hofer, F., Martin, G. S. & Kim,
+S. H. (1997). Three-dimensional structure of the Ras￾interacting domain of RalGDS. Nature Struct. Biol. 4,
+609–615.
+9. Geyer, M., Herrmann, C., Wohlgemuth, S.,
+Wittinghofer, A. & Kalbitzer, H. R. (1997). Structure
+of the Ras-binding domain of RalGEF and impli￾cations for Ras binding and signaling. Nature Struct.
+Biol. 4, 694–699.
+10. Walker, E. H., Perisic, O., Ried, C., Stephens, L. &
+Williams, R. L. (1999). Structural insights into phos￾phoinoside 3-kinase catalysis and signaling. Nature,
+402, 313–320.
+11. Steiner, G., Kremer, W., Linnemann, T., Herrmann,
+C., Geyer, M. & Kalbitzer, H. R. (2000). Sequence￾specific resonance assignment of the Ras-binding
+domain of AF6. J. Biomol. NMR, 18, 73–74.
+12. Gronwald, W., Huber, F., Gru¨newald, P., Spo¨rner, M.,
+Wohlgemuth, S., Herrmann, C. & Kalbitzer, H. R.
+(2001). Solution structure of the Ras-binding domain
+of the protein kinase Byr2 from Schizosaccharomyces
+pombe. Structure, 9, 1029–1041.
+13. Scheffzeck, K., Gru¨newald, P., Wohlgemuth, S.,
+Kabsch, W., Tu, H., Wigler, M. et al. (2001). The Ras￾Byr2RBD complex: structural basis for Ras effector
+recognition in yeast. Structure, 9, 1043–1050.
+14. Nassar, N., Horn, G., Herrmann, C., Scherer, A.,
+McCormick, F. & Wittinghofer, A. (1995). The 2.2 A˚
+crystal structure of the Ras-binding domain of the
+serine/threonine kinase c-Raf1 in complex with
+Rap1A and a GTP analogue. Nature, 375, 554–560.
+15. Nassar, N., Horn, G., Herrmann, C., Block, C.,
+Janknecht, R. & Wittinghofer, A. (1996). Ras/Rap
+effector specificity determined by charge reversal.
+Nature Struct. Biol. 3, 723–729.
+16. Vetter, I. R., Linnemann, T., Wohlgemuth, S., Geyer,
+M., Kalbitzer, H. R., Herrmann, C. & Wittinghofer,
+A. (1999). Structural and biochemical analysis of
+Ras-effector signaling via RalGDS. FEBS Letters, 451,
+175–180.
+17. Huang, L., Hofer, F., Martin, G. S. & Kim, S. H.
+(1998). Structural basis for the interaction of Ras
+with RalGDS. Nature Struct. Biol. 5, 422–426.
+18. Pacold, M. E., Suire, S., Perisic, O., Lara-Gonzalez, S.,
+Davis, C. T., Walker, E. H. et al. (2000). Crystal struc￾ture and functional analysis of Ras binding to its
+effector phosphoinoside 3-kinase gamma. Cell, 103,
+931–943.
+1056 Energy Landscaping of Ras/Effector Interfaces19. Herrmann, C., Horn, G., Spaargaren, M. &
+Wittinghofer, A. (1996). Differential interaction of
+the ras family GTP-binding proteins H-Ras, Rap1A
+and R-Ras with the putative effector molecules raf
+kinase and ral-guanine nucleotide exchange factor.
+J. Biol. Chem. 271, 6794–6800.
+20. Linnemann, T., Geyer, M., Jaitner, B. K., Block, C.,
+Kalbitzer, H. R., Wittinghofer, A. & Herrmann, C.
+(1999). Thermodynamic and kinetic characterization
+of the interaction between the Ras binding domain
+of AF6 and members of the Ras subfamily. J. Biol.
+Chem. 274, 13556–13562.
+21. Rudolph, M. G., Linnemann, T., Gru¨newald, P.,
+Wittinghofer, A., Vetter, I. R. & Herrmann, C. (2001).
+Thermodynamics of Ras/effector interactions probed
+by isothermal titration calorimetry. J. Biol. Chem. 276,
+23914–23921.
+22. Guerois, R., Nielsen, J. E. & Serrano, L. (2002).
+Predicting changes in the stability of proteins and
+protein complexes: a study of more than 1000
+mutations. J. Mol. Biol. 320, 369–387.
+23. Wittinghofer, A. & Herrmann, C. (1995). Ras effector
+interactions, the problem of specificity. FEBS Letters,
+369, 52–56.
+24. Word, J. M., Lovell, S. C., LaBean, T. H., Taylor, H. C.,
+Zalis, M. E., Presley, B. K. et al. (1999). Visualizing
+and quantifying molecular goodness-of-fit: small￾probe contact dots with explicit hydrogen atoms.
+J. Mol. Biol. 285, 1711–1733.
+25. Herrmann, C. & Nassar, N. (1996). Ras and its
+effectors. Prog. Biophys. Mol. Biol. 13, 122–129.
+26. Wiseman, T., Williston, S., Brandts, J. F. & Lin, L. N.
+(1989). Rapid measurement of binding constants
+and heats of binding using a new titration calori￾meter. Anal. Biochem. 179, 131–137.
+27. Fabian, J. R., Vojtek, A. B., Cooper, J. A. & Morrison,
+D. K. (1994). A single amino acid change in Raf-1
+inhibits Ras binding and alters Raf-1 function. Proc.
+Natl Acad. Sci. USA, 91, 5982–5986.
+28. Block, C., Janknecht, R., Herrmann, C., Nassar, N. &
+Wittinghofer, A. (1996). Quantitative structure–
+activity analysis correlating Ras/Raf interaction in
+vitro to Raf activation in vivo. Nature Struct. Biol. 3,
+251–255.
+29. Vijayakumar, M., Wong, K.-Y., Schreiber, G., Fersht,
+A. R., Szabo, A. & Zhou, H.-X. (1998). Electrostatic
+enhancement of diffusion-controlled protein-protein
+association: comparison of theory and experiment
+on barnase and barstar. J. Mol. Biol. 278, 1015–1024.
+30. Jones, S. & Thornton, J. M. (1996). Principles of
+protein–protein interaction. Proc. Natl Acad. Sci.
+USA, 93, 13–20.
+31. Bogan, A. A. & Thorn, K. S. (1998). Anatomy of hot
+spots in protein interfaces. J. Mol. Biol. 280, 1–9.
+32. Carter, P. J., Winter, G., Wilkinson, A. J. & Fersht,
+A. R. (1984). The use of double mutants to detect
+structural changes in the active site of the tyrosyl￾tRNA synthetase (Bacillus stearothermophilus). Cell,
+38, 835–840.
+33. Schreiber, G. & Fersht, A. R. (1995). Energetics of
+protein-protein-interactions: analysis of the barnase￾barstar interface by single mutations and double
+mutant cycles. J. Mol. Biol. 248, 478–486.
+34. Shirouzu, M., Hashimoto, K., Kikuchi, A. &
+Yokoyama, S. (1999). Double-mutant analysis of the
+interaction of Ras with the Ras-binding domain of
+RGL. Biochemistry, 38, 5103–5110.
+35. Santiago, C., Bjorling, E., Stehle, T. & Casanovas, J. M.
+(2002). Distinct kinetics for binding of the CD46 and
+SLAM receptors to overlapping sites in the measles
+virus hemagglutinin protein. J. Biol. Chem. 277,
+32294–32301.
+36. Ponting, C. P. & Russel, R. R. (2002). The natural
+history of protein domains. Trends Biochem. Sci. 21,
+422–425.
+37. Ponting, C. P. & Benjamin, D. R. (1996). A novel
+family of ras-binding domains. Annu. Rev. Biophys.
+Biomol. Struct. 31, 45–71.
+38. Schultz, J., Milpetz, F., Bork, P. & Ponting, C. P.
+(1998). SMART, a simple modular architecture
+research tool: identification of signaling domains.
+Proc. Natl Acad. Sci. USA, 95, 5857–5864.
+39. Letunic, I., Goodstadt, L., Dickens, N. J., Doerks, T.,
+Schultz, J., Mott, R. et al. (2002). Recent improve￾ments to the SMART domain-based sequence
+annotation resource. Nucl. Acids Res. 30, 242–244.
+40. Herrmann, C., Martin, G. A. & Wittinghofer, A.
+(1995). Quantitative analysis of the complex
+between p21 ras and the Ras-binding domain of the
+human Raf-1 protein kinase. J. Biol. Chem. 270,
+2901–2905.
+41. Bradford, M. M. (1976). A rapid and sensitive
+method for the quantitation of microgram quantities
+of protein utilizing the principle of protein dye bind￾ing. Anal. Biochem. 72, 248–253.
+42. Guex, N. & Peitsch, M. C. (1997). SWISS-MODEL
+and the Swiss-PdbViewer: an environment for com￾parative protein modeling. Electrophoresis, 18,
+2714–2723.
+43. Levitt, M. & Perutz, M. F. (1988). Aromatic rings act
+as hydrogen bond acceptors. J. Mol. Biol. 201,
+751–754.
+44. Petukhov, M., Cregut, D., Soares, C. M. & Serrano, L.
+(1999). Local water bridges and protein confor￾mational stability. Protein Sci. 8, 1982–1989.
+45. Munoz, V. & Serrano, L. (1994). Intrinsic secondary
+structure propensities of the amino acids, using
+statistical phi–psi matrices: comparison with experi￾mental scales. Proteins: Struct. Funct. Genet. 20,
+301–311.
+46. Abagyan, R. & Totrov, M. (1994). Biased probability
+Monte Carlo conformational searches and electro￾static calculations for peptides and proteins. J. Mol.
+Biol. 235, 983–1002.
+47. Serrano, L., Kellis, J. T., Jr, Cann, P., Matouschek, A.
+& Fersht, A. R. (1992). The folding of an enzyme. II.
+Substructure of barnase and the contribution of
+different interactions to protein stability. J. Mol. Biol.
+224, 783–804.
+48. Matthews, B. W. (1995). Studies on protein stability
+with T4 lysozyme. Advan. Protein Chem. 46, 249–278.
+49. Gilis, D. & Rooman, M. (1996). Stability changes
+upon mutation of solvent-accessible residues in pro￾teins evaluated by database-derived potentials.
+J. Mol. Biol. 257, 1112–1126.
+50. Colonna-Cesari, F. & Sander, C. (1990). Excluded
+volume approximation to protein–solvent inter￾action. The solvent contact model. Biophys. J. 57,
+1103–1107.
+51. Holm, L. & Sander, C. (1992). Evaluation of protein
+models by atomic solvation preference. J. Mol. Biol.
+225, 93–105.
+52. Topham, C. M., Srinivasan, N. & Blundell, T. L.
+(1997). Prediction of the stability of protein mutants
+based on structural environment-dependent amino
+acid substitution and propensity tables. Protein Eng.
+10, 7–21.
+53. Selzer, T. & Schreiber, G. (1999). Predicting the rate
+Energy Landscaping of Ras/Effector Interfaces 1057enhancement of protein complex formation from the
+electrostatic energy of interaction. J. Mol. Biol. 287,
+409–419.
+54. Murphy, K. P., Xie, D., Thompson, K. S., Amzel, L. M.
+& Freire, E. (1994). Entropy in biological binding
+processes: estimation of translational entropy loss.
+Proteins: Struct. Funct. Genet. 18, 63–67.
+55. Koradi, R., Billeter, M. & Wu¨thrich, K. (1996). MOL￾MOL: a program for display and analysis of macro￾molecular structures. J. Mol. Graph. 14, 51–55.
+Edited by A. R. Fersht
+(Received 24 February 2004; received in revised form 14 May 2004; accepted 26 May 2004)
+1058 Energy Landscaping of Ras/Effector Interfaces

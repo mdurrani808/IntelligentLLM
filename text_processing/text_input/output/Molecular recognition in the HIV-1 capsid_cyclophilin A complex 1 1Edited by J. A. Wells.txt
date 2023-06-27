@@ -1,0 +1,1326 @@
+Molecular Recognition in the HIV-1 Capsid/Cyclophilin
+A Complex
+Sanghee Yoo1
+, David G. Myszka2
+, Chin-yah Yeh1
+, Maureen McMurray1
+Christopher P. Hill1 and Wesley I. Sundquist
+1
+*
+1
+Departments of Biochemistry
+2
+Oncological Sciences
+University of Utah, Salt Lake
+City, UT 84132, USA
+The HIV-1 capsid protein (CA) makes an essential interaction with the
+human peptidyl prolyl isomerase, cyclophilin A (CypA), that results in
+packaging of CypA into the virion at a CA to CypA stoichiometry of
+10:1. The 231 amino acid residue capsid protein is composed of an
+amino-terminal CypA binding domain (1 to 151; CA151) and a carboxyl￾terminal dimerization domain (151 to 231). We ®nd that CypA binds
+dimeric CA and monomeric CA151 with identical intrinsic af®nities
+(Kd  16(4) mM). This result demonstrates that capsid dimerization and
+cyclophilin A binding are not thermodynamically coupled and suggests
+that the substoichiometric ratio of CypA in the HIV-1 virion results from
+the intrinsic stability of the CA/CypA complex. In the known co-crystal
+structure of the CA151/CypA complex, CypA binding is mediated exclu￾sively by an exposed capsid loop that spans residues Pro85 to Pro93. The
+energetic contributions to CypA binding were quanti®ed for each residue
+in this loop, and the results demonstrate that the Gly89-Pro90 dipeptide
+is the primary cyclophilin A recognition motif, with Pro85, Val86, His87,
+Ala88, and Pro93 also making energetically favorable contacts. These stu￾dies reveal that the active site of CypA, which can catalyze the isomeriza￾tion of proline residues in vitro, also functions as a sequence-speci®c,
+protein-binding motif in HIV-1 replication.
+# 1997 Academic Press Limited
+Keywords: human immunode®ciency virus; capsid; cyclophilin; binding;
+*Corresponding author chaperone
+Introduction
+The HIV-1 Gag polyprotein dictates both viral
+assembly and the packaging of essential factors
+into the virion (for reviews, see Wills &
+Craven, 1991; Gelderblom et al., 1992; Hunter,
+1994; KraÈusslich, 1996). It is now known that at
+least one of these essential packaged factors is a
+cellular protein, the abundant cytoplasmic pro￾line isomerase, cyclophilin A (CypA: Luban et al.,
+1993; Franke et al., 1994b; Thali et al., 1994).
+CypA binds to the central ``capsid'' domain of
+Gag and is thereby packaged at a virion stoi￾chiometry of 2000 CA:  200 CypA (Franke
+et al., 1994b; Thali et al., 1994; Franke & Luban,
+1995; Ott et al., 1995). As the immature virion
+buds, the 55 kDa Gag polyprotein (residues 1 to
+499) is cleaved by the viral protease to produce
+three new proteins, matrix (MA, residues 1 to
+132), capsid (CA, 133 to 363) and nucleocapsid
+(NC, 378 to 432), as well as three smaller poly￾peptides (p6, p2 and p1: Di Marzo Veronese
+et al., 1988; Henderson et al., 1992). Following
+cleavage, the capsid protein rearranges into the
+characteristic cone-shaped core structure that
+surrounds the RNA genome at the center of the
+virion. CypA then appears to exert its essential
+function on capsid immediately following the
+infection of a new cell, possibly helping to dis￾assemble the capsid core structure (Braaten et al.,
+1996a,c; Gamble et al., 1996).
+Cyclophilin A is the founding member of what
+is now a large family of proteins that are ubiqui￾tous in both prokaryotes and eukaryotes
+(Handschumacher et al., 1984; Fischer et al., 1989;
+Takahashi et al., 1989; Schreiber & Crabtree, 1992;
+sundquist@medschool.med.utah.edu
+Abbreviations used: CA, MA and NC HIV-1 capsid,
+matrix and nucleocapsid proteins; Cyp, cyclophilin; Rh,
+rhodopsin; ITC, isothermal titration microcalorimetry;
+SPR, surface plasmon resonance; GST, glutathione-S￾transferase; NHS, N-hydroxysuccinimide; EDC, N-ethyl￾N0
+-(3-diethylaminopropyl)carbodiimide; RU, response
+units.
+J. Mol. Biol. (1997) 269, 780±795
+0022±2836/97/250780±16 $25.00/0/mb971051 # 1997 Academic Press LimitedStamnes et al., 1992; Walsh et al., 1992; Kunz &
+Hall, 1993). CypA is an abundant cytoplasmic pro￾tein, but other cyclophilin family members exhibit
+tissue-speci®c and organelle-speci®c expression
+patterns, and function as subdomains of larger pro￾teins. Various cyclophilin family members have
+been reported to play roles in such diverse and im￾portant cellular functions as the heat-shock re￾sponse (Sykes et al., 1993), cell-surface recognition
+(Anderson et al., 1993; Friedman et al., 1993), pro￾tein folding and traf®cking (Colley et al., 1991;
+Lodish & Kong, 1991; Helekar et al., 1994; Ferreira
+et al., 1996), lactate metabolism (Davis et al., 1992),
+and various intracellular signaling pathways (Xu
+et al., 1992; Ratajczak et al., 1993; Bram & Crabtree,
+1994; Cardenas et al., 1994; Chang & Lindquist,
+1994; Duina et al., 1996; Freeman et al., 1996;
+Weisman et al., 1996).
+Despite extensive study, it is not yet clear pre￾cisely what cyclophilins do in the cell. The broad
+spectrum of biological pathways in which they
+appear suggests a role for cyclophilins in protein
+folding and, indeed, two distinct roles for cyclophi￾lins in the folding process have been proposed.
+First, the rotamase activity of cyclophilins may
+allow them to play a general role in accelerating
+protein folding. Proline isomerization is the rate￾limiting step for the folding of many proteins
+in vitro (e.g. see Brandts et al., 1975; Schmid &
+Baldwin, 1978; Jackson & Ferscht, 1991; Schmid,
+1993) and CypA accelerates the overall folding
+rates of a number of such proteins (reviewed by
+Schmid, 1993). A second role for cyclophilins in
+protein folding is suggested by the fact that CypA
+can act as a molecular chaperone in vitro, increas￾ing the yield of correctly folded protein by sup￾pressing off-pathway folding reactions and
+preventing the aggregation of proteins in their un￾folded states (FreskgaÊrd et al., 1992; Lilie et al.,
+1993; Freeman et al., 1996). Intriguingly, this cha￾perone activity appears independent of the enzy￾me's rotamase activity. Although the rotamase and
+chaperone activities of cyclophilins have been well
+documented in vitro, the roles of these two activi￾ties in vivo are not fully understood.
+A second major unanswered question in cyclo￾philin biology is whether or not cyclophilins typi￾cally bind speci®cally to their target proteins. On
+the one hand, if cyclophilins normally function as
+general prolyl isomerases, they might be expected
+to exhibit little sequence speci®city. This model is
+consistent with the reported lack of CypA sub￾strate discrimination across a series of different
+proline-containing model peptide sequences
+(Harrison & Stein, 1990). However, at least a subset
+of cyclophilins seem to bind speci®cally to target
+proteins in order to perform their essential func￾tions. The best-characterized example of this is
+NinaA, a cyclophilin of the Drosophila eye, which
+forms a speci®c complex with rhodopsin 1 (Rh1:
+Schneuwly et al., 1989; Shieh et al., 1989; Baker et al.,
+1994). NinaA is essential for translocation of Rh1
+from the endoplasmic reticulum, through the
+secretory pathway, and into the rhabdomere where
+phototransduction occurs (Colley et al., 1991).
+Although the Rh1/NinaA interaction is not under￾stood in detail, loss of function mutations cluster
+about the ninaA active site, suggesting that the
+active site mediates Rh1 binding (Ondek et al.,
+1992). Other examples in which cyclophilins ap￾pear to form speci®c complexes with their target
+proteins include CypB binding to the calcium-sig￾naling protein CAML (Bram & Crabtree, 1994),
+and CypC binding to the cell-surface protein
+CyCAP (Friedman et al., 1993). It therefore appears
+that sequence-speci®c protein binding may prove a
+recurring theme in cyclophilin function.
+In addition to its importance in HIV-1 replica￾tion, the HIV-1 CA/CypA interaction may serve as
+a paradigm for understanding how cyclophilins
+achieve sequence-speci®c protein binding. Like
+NinaA, the CypA active site appears to participate
+in capsid binding, since CA/CypA complex for￾mation is competitively inhibited by the rotamase
+inhibitor cyclosporine and its analogues (Luban
+et al., 1993; Franke et al., 1994b; Thali et al., 1994;
+Billich et al., 1995). Moreover, mutation of a single
+capsid proline residue, Pro90, abolishes CypA
+binding, packaging, and viral replication (Franke
+et al., 1994 b). In principle, however, binding speci-
+®city in the CA/CypA complex could either be
+achieved entirely within the CypA binding site or
+through additional protein-protein interactions that
+extend beyond the active site. The latter model is
+supported by the report that high-af®nity cyclophi￾lin A binding requires dimerization of the target
+Gag (or capsid) protein (Colgan et al., 1996). This
+observation suggests either that capsid dimeriza￾tion creates a high-af®nity cyclophilin A binding
+surface or that distal CypA-CypA interactions
+allow CypA to bind cooperatively to the capsid
+dimer.
+Several recent experiments suggest an alternative
+model, however, in which the CypA active site it￾self discriminates between proline residues em￾bedded in different local sequence contexts. For
+example, Luban and co-workers have shown that
+HIV-1 CA residue Gly89, as well as Pro90, is essen￾tial for CypA binding and viral packaging (Braaten
+et al., 1996b). Similarly, our recent CA151/CypA
+co-crystal structure revealed that capsid residues
+85 to 93 make a series of favorable contacts in the
+CypA active site, with no other signi®cant CypA￾CA or CypA-CypA interaction (Gamble et al.,
+1996).
+In order to determine precisely how cyclophilin
+A recognizes the HIV-1 capsid protein, we have
+examined various aspects of CA/CypA complex
+formation in solution. These experiments reveal the
+thermodynamics and energetic determinants of cy￾clophilin A binding, and demonstrate that the cy￾clophilin A active site itself acts as a sequence￾speci®c, protein-binding motif.
+HIV-1 Capsid/Cyclophilin A Interaction 781Results
+Recombinant capsid proteins
+Primary sequences and labeling schemes for the
+HIV-1 capsid and human cyclophilin A proteins
+are shown in Figure 1(a) and (b), respectively. The
+crystallographically de®ned interaction between
+cyclophilin A and the amino-terminal domain of
+the capsid is shown in Figure 1(c) (Gamble et al.,
+1996). As shown in Figure 2, ef®cient systems have
+been developed for expressing and purifying large
+quantities of the full-length HIV-1 capsid protein
+(CA; Figure 2(a)), the amino-terminal capsid do￾main (CA151; Figure 2(b)), and human cyclophilin
+A (CypA; Figure 2(c)). Both capsid proteins are
+ideally suited for biophysical and structural stu￾dies, since they are highly soluble (>50 mg/ml)
+and can be ef®ciently isolated in high yields
+(>30 mg/l Escherichia coli culture).
+Self-association of capsid proteins
+Several groups have reported that HIV-1 capsid
+proteins dimerize in vitro (Ehrlich et al., 1992, 1994;
+RoseÂ et al., 1992; Brooks et al., 1994). Our full-length
+Figure 1. (a) Primary sequence, numbering schemes,
+and known secondary structure of HIV-1NL4-3 capsid
+proteins used in this study. The secondary structure of
+CA151 (Gamble et al., 1996; Gitti et al., 1996; Momany
+et al., 1996) and the cyclophilin A binding site (denoted
+CypA), are shown below the primary sequence of the
+intact capsid protein (CA). Cylinders denote helical
+regions, arrows denote beta strands, and broken lines
+denote regions of the structures that are disordered in
+the existing structures. (b) Primary sequence and sec￾ondary structure of human cyclophilin A. The secondary
+structure of the CypA protein (Ke et al., 1991) is shown
+above the primary sequence. Residues involved in cap￾sid binding are underlined (Gamble et al., 1996). (c) Rib￾bon representation of the CA151/CypA complex.
+Figure 2. Protein expression and puri®cation. (a) SDS￾PAGE analysis of the expression and puri®cation of the
+intact HIV-1 capsid protein (CA). Lane 1, total cellular
+BL21 (DE3) E. coli proteins prior to induced expression
+of the capsid protein; lane 2, total cellular BL21 (DE3)
+E. coli proteins following induction of HIV-1 capsid pro￾tein; lane 3, puri®ed HIV-1 capsid protein. (b) SDS￾PAGE analysis of the expression and puri®cation of the
+truncated HIV-1 capsid protein (CA151). Lane 1, total cel￾lular BL21 (DE3) E. coli proteins prior to induced ex￾pression of CA151; lane 2, total cellular BL21 (DE3) E. coli
+proteins following induction of CA151; lane 3, puri®ed
+CA151 protein. (c) SDS-PAGE analysis of the expression
+and puri®cation of human cyclophilin A (CypA). Lane
+1, total cellular BL21 (DE3) E. coli proteins prior to
+induced expression of CypA; lane 2, total cellular BL21
+(DE3) E. coli proteins following induction of CypA; lane
+3, puri®ed CypA protein.
+782 HIV-1 Capsid/Cyclophilin A Interactionrecombinant capsid protein (25.6 kDa) is also pre￾dominantly dimeric at a concentration of 200 mM
+as analyzed by dynamic light-scattering
+(Mest  51(2) kDa). The CA monomer-dimer equi￾librium was quanti®ed by analytical ultracentrifu￾gation, yielding an estimated dissociation constant
+of 18(1) mM (Figure 3(a)). This value agrees well
+with previous measurements of the capsid Kd,
+which ranged between 10 and 30 mM (RoseÂ et al.,
+1992; Brooks et al., 1994).
+In order to test the in¯uence of capsid dimeriza￾tion on cyclophilin A binding, it was necessary to
+create a monomeric capsid protein. Partial proteol￾ysis and NMR structural studies have indicated
+that capsid residues 1 to 151 (CA151) form an inde￾pendently folded domain that is monomeric at low
+millimolar concentrations (Gitti et al., 1996). This
+observation was con®rmed by equilibrium sedi￾mentation and dynamic light-scattering analyses of
+CA151. Sedimentation distributions of three differ￾ent CA151 concentrations were globally ®t to a
+simple monomer model (Figure 3(b)), yielding a
+shape-independent estimated particle mass of
+16.4(0.3) kDa, in agreement with the calculated
+mass of the CA151 monomer (16.7 kDa). Similarly,
+CA151 appeared monomeric as measured by dy￾namic light-scattering (Mest  18.1(0.1) kDa;
+158 mM).
+Calorimetric quantification of the capsid/
+cyclophilin A interaction
+Isothermal titration microcalorimetry (ITC) was
+used to measure dissociation constants for the CA/
+CypA and CA151/CypA complexes. This method
+has the advantage of allowing rigorous quanti®-
+cation of the stoichiometry, energy and enthalpy of
+complex formation in solution, but requires multi￾milligram quantities of pure proteins (Brandts et al.,
+1990; Bundle & Sigurskjold, 1994; Fisher & Singh,
+1995). The titration of CA151 into cyclophilin A is
+shown in Figure 4(a). Raw calorimetric data were
+corrected by subtraction of the appropriate blank
+titrations (negligible), and the integrated binding
+isotherm (Figure 4(b)) was successfully ®t to a
+single-site binding model, yielding a CA151 to
+CypA binding ratio of 1.13(0.05), Kd  16(4)
+mM, and H  ÿ 9.5(0.6) kcal/mol.
+The analogous titration of cyclophilin A into
+full-length capsid protein (CA) is shown in
+Figure 4(c). Raw titration data were again cor￾rected by subtracting the appropriate blank
+titrations. In this case the blank titration of
+buffer into capsid resulted in signi®cant heat ab￾sorbance, presumably owing to dissociation of
+dimeric CA upon dilution. Nevertheless, the cor￾rected binding isotherm (Figure 4(d)) again ®t a
+single-site binding model, yielding a CypA to CA
+stoichiometry of 1.01(0.04), Kd  16(3) mM, and
+H  ÿ 9.5(0.6) kcal/mol. These experiments de￾Figure 3. Equilibrium sedimentation analyses of the oli￾gomeric states of HIV-1 CA and CA151. (a) CA exhibits
+a monomer-dimer equilibrium. The Figure shows raw
+sedimentation data, the optimized global ®t, and re￾siduals (above) for sedimentation of a 9.8 mM sample of
+CA. The global ®t was performed using equilibrium
+sedimentation data from initial protein concentrations of
+5.6, 9.8 and 15.8 mM, yielding an estimated dissociation
+constant, Kd  1.8(0.1)  10ÿ5 M. The reported error is
+the 95% con®dence level, the goodness of ®t (GOF) was
+1.67, and the ®t exhibited small, random residuals.
+(b) CA151 is monomeric. The Figure shows the raw sedi￾mentation data, optimized global ®t, and residuals
+(above) for a 14.9 mM sample of CA151. The estimated
+protein mass is 16.4(0.3) kDa, in good agreement with
+the mass of the CA151 monomer (16.7 kDa). The global
+®t was performed using equilibrium sedimentation data
+from initial protein concentrations of 7.2, 14.9 and
+34.3 mM. The GOF is 1.46 and the ®t exhibited small,
+random residuals.
+Figure 4. Isothermal titration microcalorimetric analyses
+of the cyclophilin A/capsid interaction. (a) Titration of
+CA151 into CypA. Heat released at 20C when
+632 mM CA151 was titrated in 20 ml aliquots into
+1.296 ml 59 mM CypA. (b) Integrated binding isotherm
+of the CA151/CypA titration and experimental ®t to a
+single-site model. The best ®t (shown) yielded par￾ameters of n  1.13(0.05), Kd  1.6(0.4)  10ÿ5 Mÿ1
+,
+H  ÿ 9.5(0.6) kcal/mol, w2 9.0. (c) Titration of
+CypA into CA. The titration was as described for (a)
+except that 661 mM CypA was titrated into 59 mM CA.
+(d) Integrated binding isotherm of the CA/CypA ti￾tration and experimental ®t to a single-site model. The
+best ®t (shown) yielded parameters of n  1.01(0.04),
+Kd  1.6(0.3)  10ÿ5 Mÿ1
+, H  ÿ 9.5(0.6) kcal/mol,
+w2  7.1.
+HIV-1 Capsid/Cyclophilin A Interaction 783   monstrate that capsid dimerization and CypA
+binding are not coupled equilibria, since the
+measured stoichiometry, equilibrium binding con￾stants and enthalpies for CypA binding to CA151
+and CA are indistinguishable, even though the
+CA/CypA titration was performed at an initial
+capsid concentration of 59 mM, where >50% of the
+CA molecules were dimeric.
+Surface plasmon resonance measurement of
+the CA/CypA affinity
+The large quantities of pure proteins required for
+ITC measurements made this method impractical
+for a comprehensive mutational analysis of the
+CA/CypA interaction. Surface plasmon resonance
+(SPR) spectroscopic methods were therefore also
+used to quantify the interaction. SPR has distinct
+advantages over ITC in speed, sensitivity and
+scale, but requires independent validation to en￾sure that binding equilibria are not altered by sur￾face effects (JoÈnsson et al., 1991; Malmqvist, 1993;
+Morton et al., 1995; O'Shannessy & Winzor, 1996).
+Initial experiments examined the binding of pure,
+monomeric CA151 to a pure, immobilized gluta￾thione-S-transferase-CypA fusion protein (GST￾CypA). GST-CypA was captured on the sensor sur￾face by an anti-GST antibody covalently linked to
+the carboxymethyl dextran layer (JoÈnsson et al.,
+1991), providing a homogeneous surface of unper￾turbed CypA binding sites. CA151 binding was
+then quanti®ed by changes in the surface refractive
+index. A correction for refractive index changes
+due to bulk solvent and non-speci®c background
+binding was performed simultaneously in a separ￾ate ¯ow-cell derivatized with the anti-GST anti￾body binding to GST alone.
+As shown in Figure 5(a), binding responses were
+highly reproducible in repeated measurements
+across a concentration range of 0 to 57 mM CA151.
+The sensorgrams revealed that equilibrium was
+achieved rapidly. Furthermore, the binding re￾sponses returned to baseline levels very quickly
+after washing with buffer, indicating that the com￾plex has a very high dissociation rate. The magni￾tudes of equilibrium binding responses at different
+CA151 concentrations were used to determine the
+dissociation constant for CA151/CypA complex by
+non-linear least-squares ®tting to a simple one-to￾one interaction model. Equivalent dissociation con￾stants were obtained for measurements made at
+two different CypA surface derivatization levels
+and the data from the two surfaces were averaged
+to give the normalized binding data shown in
+Figure 5(c). The ®t provides an estimated dis￾sociation constant of 18(2) mM, in good agree￾ment with the CA151/CypA dissociation constant
+measured under the same conditions by isothermal
+titration microcalorimetry (see Table 1).
+Subsequent experiments measured CypA bind￾ing to the intact capsid protein. In this case, the
+GST-CA fusion protein was captured directly from
+the soluble fraction of crude E. coli extracts follow￾ing induction of protein expression. Capture of
+GST-CA directly onto the sensor surface was
+highly speci®c, since non-speci®c protein binding
+in control extracts lacking GST-CA was negligible
+(not shown). CypA dissociation constants were
+again obtained by ®tting binding data (Figure 5(b))
+from two different CA surface derivatization levels
+to a single-site binding model (Figure 5(c)). Nine
+independent repetitions of this experiment yielded
+a mean dissociation constant of 15 mM, with a stan￾dard deviation of 5 mM (Table 1). The excellent
+agreement between all of the ITC and SPR
+measurements validates the SPR method, and
+further supports the conclusion that the carboxyl￾terminal dimerization domain of HIV-1 CA does
+not in¯uence the af®nity of CypA binding.
+Figure 5. Surface plasmon resonance analysis of the CA/CypA interaction. (a) Sensorgrams for CA151 binding to a
+GST-CypA surface. Binding responses are shown for CA151 injected at concentrations of 57, 19, 6.3 and 2.1 mM. Each
+injection was repeated two or three times in random order. (b) Sensorgrams for CypA binding to a GST-CA surface.
+Binding responses for CypA injected at 114, 38, 12, 4.2 and 0 mM. (c) Fit of the equilibrium binding data. Binding re￾sponses from the sensor experiments shown in (a) and (b) were separately ®t to single-site binding models, yielding
+estimated dissociation constants of 18(2) mM (CA151) and 18(1) mM (CA). Equilibrium binding levels were deter￾mined by averaging the responses between 10 and 15 seconds after the sample injection. The data and ®t for the
+CA151/GST-CypA interaction are represented by the open circles and continuous line. The data and ®t for the GST￾CA/CypA interaction are represented by the ®lled circles and broken line (the two ®ts nearly superimpose). Error
+bars are drawn at the 90% con®dence interval for clarity.
+784 HIV-1 Capsid/Cyclophilin A InteractionImportance of other Gag domains for
+CypA binding
+Since cyclophilin A is initially packaged by the
+HIV-1 Gag polyprotein, we considered the possi￾bility that the amino-terminal matrix or the car￾boxyl-terminal nucleocapsid domains of Gag might
+participate in CypA binding. CypA binding to im￾mobilized GST-MA-CA (Gag residues 1 to 363)
+and to GST-CA-NC-p6 (Gag residues 133 to 432)
+was therefore examined. As shown in Table 1,
+measured dissociation constants for CypA bind￾ing were 12(1) mM (MA-CA) and 14(2) mM (CA￾NC). In a parallel control experiment, the
+measured dissociation constant for the CA/CypA
+complex was 12.0(0.4) mM. We therefore conclude
+that the CypA binding af®nity is not signi®cantly
+affected by Gag residues outside the central capsid
+domain.
+Mutational analysis of the cyclophilin A
+binding site on HIV-1 CA
+The biochemical experiments described above,
+together with the CA151/CypA co-crystal structure
+(Gamble et al., 1996), indicate that CA/CypA com￾plex formation is mediated entirely by the contigu￾ous capsid loop sequence Pro85 to Pro93 binding
+in the active site of cyclophilin A (see Figures 1(c)
+and 6(a)). To determine the relative importance of
+individual capsid residues in sequence-speci®c cy￾clophilin A binding, each CA binding loop residue
+was mutated and the effect of the mutation on
+CypA binding energy was measured (Table 2 and
+Figure 6(b)). Mutations were made in the context
+of the full-length capsid protein, and af®nity bind￾ing measurements were performed by SPR spec￾troscopy as described above. To keep the
+mutagenesis as unbiased as possible, each CA loop
+residue was initially mutated to alanine, except for
+Ala88 and Ala92, which were mutated to both Gly
+and Val. Additional point mutations were sub￾sequently used to test speci®c aspects of CypA rec￾ognition. Overall, the mutational analysis revealed
+that capsid residues Gly89 and Pro90 are the key
+determinants for cyclophilin A recognition, while
+the ¯anking residues Pro85, Val86, His87, Ala88,
+Ala92 and Pro93 also make favorable contributions
+to the af®nity of the CA/CypA complex. As de￾scribed below in detail, these results are in excel￾lent agreement with the CA151/CypA co-crystal
+structure.
+The CA151/CypA co-crystal structure indicated
+that CA Pro90 should be a major determinant of
+CypA binding, because the proline ring is buried
+in a deep hydrophobic pocket formed by CypA re￾sidues Phe60, Met61, Phe113 and Leu122. Analo￾gous binding of proline residues has been
+observed in a number of cyclophilin A peptide
+complexes (Kallen & Walkinshaw, 1992; Ke et al.,
+1993; Zhao & Ke, 1996a,b). Detailed examination of
+the structure suggested that an Ala90 side-chain
+could be accommodated in the CypA binding
+pocket, albeit with the loss of favorable binding
+interactions at the Pro90 Cg and Cd positions,
+whereas any larger side-chain should clash with
+the sides of the proline binding pocket. For
+example, a b-branched side-chain at CA residue 90
+is predicted to clash with the CypA Leu122 side￾chain. Consistent with this analysis, mutation of
+CA Pro90 to Ala reduced the CypA binding af®-
+nity by 2.1 kcal/mol, while mutation of Pro90 to
+Val resulted in immeasurably low (>3 kcal/mol re￾duced) CypA binding af®nity.
+The mutational analyses further revealed that
+CA Gly89 is also a major determinant of CypA rec￾ognition, since mutation of Gly89 to Ala or Val re￾duced the CypA binding by 2.0 and 2.9 kcal/mol,
+respectively. The CA151/CypA co-crystal structure
+shows that Gly89 contributes to CypA binding af®-
+nity in two different ways. First, Gly89 adopts
+phi/psi angles (148/155) that are less favored for
+non-glycine residues. Moreover, the lack of a side￾chain at Gly89 allows this residue to ®t snugly
+against the CypA active site, whereas a b-carbon
+atom at this position would exhibit steric clash
+with CypA Arg55 NZ2 and Gln63 Od1
+. The unusual
+torsion angles and tight ®t of Gly89 in the CypA
+active site appear critically important, because they
+allow the Gly89-Pro90 peptide bond to adopt an
+unprecedented trans conformation. This is in con￾trast to all previously characterized model peptide
+complexes with CypA, in which the peptide pro￾Table 1. Measured dissociation constants for capsid/
+cyclophilin A complexes
+Protein interaction
+Physical
+measurement pH Kd (mM)
+CypA/CA ITCa 6.5 16(4)
+b
+CA151/CypA ITC 6.5 16(3)
+GST-CA/CypA SPRc 6.5 15  5d
+GST-CypA/CA151 SPR 6.5 18(2)
+GST-MA-CA/CypAe SPR 6.5 12(1)
+GST-CA-NC-p6/CypAf SPR 6.5 14(2)
+GST-CypA/CA151 SPR 5.5 42(2)
+GST-CypA/CA151 SPR 6.5 18(2)
+GST-CypA/CA151 SPR 7.5 24(1)
+GST-CypA/CA151 SPR 8.5 35(2)
+a Isothermal titration calorimetry was performed as described
+in Materials and Methods. b Numbers in parentheses represent estimated errors of one
+standard deviation in the ®nal digit and were derived from the
+®ts of a single binding experiment. c Surface plasmon resonance spectroscopy was performed as
+described in Materials and Methods. d Value is the average of nine independent measurements
+made on different days with different protein preparations. The
+error is the standard deviation in the repeated experiments. In
+these experiments, the GST-CA protein was af®nity-puri®ed
+directly from soluble expression extracts onto an anti-GST
+mAb-derivatized sensor chip. Proteins used in all other experi￾ments were puri®ed to homogeneity prior to use in the binding
+assays. e GST-MA-CA consists of the GST protein fused to HIV-1
+Gag residues 1 to 363. f GST-CA-NC-p6 consists of the GST protein fused to HIV-1
+Gag residues 133 to 499. Note that this protein exhibited sev￾eral degradation products in addition to the full-length protein
+when puri®ed by glutathione af®nity chromatography and ana￾lyzed by SDS-PAGE.
+HIV-1 Capsid/Cyclophilin A Interaction 785line residue was always in the cis conformation
+(Kallen & Walkinshaw, 1992; Ke et al., 1993;
+Kakalis & Armitage, 1994; Zhao & Ke, 1996a,b).
+The trans-Pro90 conformation, in turn, orients the
+preceding capsid residues down into the CypA ac￾tive site groove, where they make a series of favor￾able contacts (Figure 6(a)). The structure therefore
+clearly rationalizes why adding steric bulk to the
+Gly89 side-chain is energetically unfavorable.
+A third determinant of CypA binding speci®city
+is His87, which contributes to CypA binding by
+forming a van der Waals interaction (CA His87 Ce
+Figure 6. Molecular recognition in the capsid/cyclophilin A complex. (a) Stereoview of HIV-1 capsid protein binding
+interactions in the cyclophilin A active site. The CA loop sequence Pro85 to Pro93 (stick bonds) is shown bound in
+the active site groove of CypA (space-®lling model). Color coding is as follows: CA carbon, white; CypA carbon, yel￾low; oxygen, red; nitrogen, blue; sulfur, green; bound water molecule, pink. Broken lines represent intermolecular
+hydrogen bonds. (b) Free energy changes in cyclophilin A binding to mutant HIV-1 capsid proteins. Free energy
+changes are shown relative to CypA binding to wild-type CA. Mutated binding site residues are labeled below and
+the speci®c point mutations are indicated above. The broken lines above the Pro90 to Val mutation indicate that the
+change in free energy of CypA binding is greater than 3.0 kcal/mol for this mutant.
+786 HIV-1 Capsid/Cyclophilin A Interactionto CypA Thr73 Cg
+) and an intermolecular hydro￾gen bond (CA His87 Nd to CypA Asn71 O) across
+the CA/CypA interface. Mutation of His87 to Ala
+removes these interactions and decreases the bind￾ing af®nity by 0.9 kcal/mol. The pH-dependence
+of the CA/CypA dissociation constant was tested,
+since the observed intermolecular hydrogen bond￾ing of His87 Nd suggested that the complex should
+be less stable at higher pH. As shown in Table 1,
+we ®nd that the complex stability does exhibit a
+measurable pH-dependence and is approximately
+twofold more stable at pH 6.5 than at either pH 8.5
+or 5.5.
+Unlike Pro90 and Gly89, CA His87 is not excep￾tionally conserved in different HIV-1 strains
+(Myers et al., 1995). Although the majority (77) of
+95 collected HIV-1 sequences have His at capsid
+position 87, Gln (17) and Arg (1) are also rep￾resented at this position (this analysis excludes the
+group O viruses, discussed below). It seemed poss￾ible that these rather conservative changes might
+retain some of the favorable interactions of His87.
+We found, however, that mutation of His87 to Gln
+or Arg diminished CypA binding by 0.9 and
+1.2 kcal/mol, respectively. This observation
+suggests that that the virus may not be under
+strong selective pressure to maximize CypA packa￾ging levels (although residue 87 may, of course,
+perform additional role(s) in HIV-1 replication that
+in¯uence its mutational spectrum).
+The CA151/CypA structure exhibits other van
+der Waals interactions between CypA and CA
+side-chains that could contribute to binding speci-
+®city. For example, the CA Ala88 methyl group
+makes van der Waals interactions with CypA
+Gln111, Ala101, Asn102 and Ala103. The CA Ala88
+to Gly mutation removes these interactions and de￾creases the CypA binding af®nity by 2.2 kcal/mol.
+In contrast, the favorable van der Waals inter￾actions at the Cb position are presumably main￾tained in an Ala88 to Val mutation, since this
+mutation reduces CypA binding by only 0.6 kcal/
+mol. A similar, but less dramatic effect is seen at
+position 92, where the Ala92 methyl group inter￾acts with CypA Phe60 and the CA Ala92 to Gly
+and Val mutations reduce CypA binding af®nity
+by 0.5 and 0.4 kcal/mol, respectively. Finally, the
+energetic contributions of other side-chain pos￾itions that make van der Waals interactions with
+CypA, Pro85 Cd
+, Val86 Cg
+, and Pro93 Cg
+, were
+tested with alanine mutations. These mutations re￾duced the CypA binding af®nity by 0.6, 0.6 and
+0.3 kcal/mol, respectively. In summary, every
+single intermolecular interaction made by a CA
+side-chain in the crystal structure of the CA151/
+CypA complex was removed by mutagenesis and
+found to contribute to CypA binding af®nity in
+solution.
+Uniquely, mutations at the CA Ile91 residue had
+no measurable effect on the energy of CypA bind￾ing. Consistent with this observation, Ile91 is the
+only capsid residue in the CypA binding loop
+whose side-chain projects directly out of the CypA
+active site and makes no intermolecular contact
+(see Figure 6(a)). An initial measurement suggested
+that the Ile91 to Ala mutation mutation might actu￾ally increase the CypA binding energy slightly, but
+this observation proved statistically insigni®cant
+(see Table 2). Similarly, a CA Ile91 to Val mutation
+had no effect on CypA binding.
+Cyclophilin A binding to type O HIV-1
+capsid proteins
+The group O viruses are apparently unique
+amongst HIV-1 strains, in that they package cyclo￾philin A, but do not require the protein to replicate
+(Braaten et al., 1996b). Moreover, the CypA binding
+loop sequences of the group O viruses, while re￾taining the central GlyPro binding dipeptide se￾quence, are otherwise signi®cantly diverged from
+the far more prevalent group M viruses. For
+example, the residues surrounding the CypA bind￾ing loop in the group O, HIV-1MVP5180 capsid pro￾tein (83THPPAMGPLPPGQI96) differs from the
+group M consensus sequence (83LHPVHAG￾PIAPGQM96) at seven different positions, ®ve of
+which occur within the CypA binding loop itself. It
+was therefore of interest to quantify how tightly
+CypA binds to the HIV-1MVP5180 loop sequence.
+Table 2. Cyclophilin A binding to mutant HIV-1 capsid
+proteins
+Capsid mutation
+CypA binding
+af®nity (Kd; mM)
+Fold
+decreasea
+P85A 75(2)
+b 3.0
+V86A 64(3) 2.7
+H87A 66(2) 4.8
+H87Q 62(6) 4.8
+H87R 193(13) 8
+A88V 44(4) 3.4
+A88G 1060(1) 44
+G89A 400(30) 31
+G89V 2000(850) 154
+P90A 470(120) 36
+P90V >2000c >150
+I91A 18  10d 1.2
+I91V 12(2) 1.0
+A92G 32(2) 2.3
+A92V 22(3) 1.7
+P93A 38(1) 1.6
+83LHPVHAGPIAPGQM96 to 83THPPAMGPLPPGQI96 42(1) 2.5
+All measurements were made by surface plasmon resonance
+spectroscopy. GST-CA proteins were af®nity-puri®ed directly
+from soluble expression extracts onto anti-GST mAb-deriva￾tized sensor chips. Binding experiments were subsequently per￾formed with pure CypA in the mobile phase. a Fold decrease is the decrease in CypA binding af®nity rela￾tive to a control wild-type GST-CA/CypA binding experi￾ment(s) performed in parallel. Kd measurements for nine
+independent control reactions varied over a range of
+15(5) mM. b Numbers in parentheses represent estimated errors of one
+standard deviation in the ®nal digit(s) and were derived from
+the ®ts of a single binding experiment. c Binding of CypA to the immobilized GST-CA P90V mutant
+was too low to quantify accurately. d Kd for three independent measurements with error given at
+one standard deviation.
+HIV-1 Capsid/Cyclophilin A Interaction 787This was done by creating and expressing a
+chimeric GST-CA protein that contained the
+HIV-1MVP5180 binding loop sequence in the context
+of an otherwise wild-type GST-CANL4-3 capsid
+protein. The chimeric capsid protein was immobi￾lized and cyclophilin A binding was quanti®ed by
+SPR spectroscopy as described above.
+Although CypA bound somewhat less tightly to
+the chimeric capsid protein (Kd  42(1) mM,
+Table 2) as compared to the wild-type CANL4-3 pro￾tein, the increase in dissociation constant was mod￾est (2.5-fold). This result demonstrates that
+although sequences surrounding the central Gly￾Pro sequence can and do modulate CypA binding,
+the cyclophilin A active site can tolerate signi®cant
+sequence variability without dramatic loss of bind￾ing af®nity. Indeed, it is even possible that while
+some of the changes in the HIV-1MVP5180 binding
+loop sequence presumably reduce CypA binding
+af®nity (e.g. His87 in HIV-1NL4-3 to Ala87 in HIV￾1MVP5180 capsid), other changes in the loop se￾quence may compensate by actually increasing the
+binding energy.
+Discussion
+Capsid dimerization
+Equilibrium sedimentation analyses demonstrate
+that the carboxyl-terminal 80 amino acid residues
+of the HIV-1 capsid protein (residues 152 to 231)
+are essential for full af®nity dimerization. Together
+with previous proteolytic mapping and NMR stu￾dies (Gitti et al., 1996), these experiments demon￾strate that the HIV-1 capsid protein is composed of
+two domains, an amino-terminal core domain that
+binds cyclophilin A, and a carboxyl-terminal as￾sembly domain that mediates the highest af®nity
+capsid-capsid interaction. Division of capsid into
+two distinct functional domains is supported by
+genetic studies that reveal that deleterious mu￾tations in the carboxyl-terminal third of the protein
+generally prevent Gag assembly and particle re￾lease (Jowett et al., 1992; Hong & Boulanger, 1993;
+von Poblotzki et al., 1993; Chazal et al., 1994;
+Dorfman et al., 1994; Franke et al., 1994a;
+Mammano et al., 1994; Zhao et al., 1994; CarrieÁre
+et al., 1995; Reicin et al., 1995; Srinivasakumar et al.,
+1995; Zhang et al., 1996). In contrast, deleterious
+mutations in the amino-terminal two-thirds of cap￾sid typically give rise to assembled, but non-infec￾tious virions that frequently fail to form the mature
+capsid core structure (Wang & Barklis, 1993;
+Dorfman et al., 1994; Reicin et al., 1995).
+Two different co-crystal structures of HIV-1 cap￾sid proteins bound to other proteins have recently
+been reported (Gamble et al., 1996; Momany et al.,
+1996). In the structure of CA151 bound to CypA
+(Gamble et al., 1996), the capsid fragment is miss￾ing residues 152 to 231 and therefore cannot recon￾stitute the entire dimer interface formed by the
+intact capsid protein. Consistent with this model,
+we have recently crystallized and determined the
+structure of the carboxyl-terminal domain of capsid
+(CA151-231; unpublished results). As expected,
+CA151-231 forms a dimer.
+The crystal structure of full-length HIV-1 CA in
+complex with an anti-CA Fab fragment has been
+reported (Momany et al., 1996). In this structure,
+the carboxyl-terminal domains of adjacent CA mol￾ecules are distant from one another and lack de-
+®ned electron density. We therefore conclude that
+antibody binding has disrupted the high-af®nity
+CA-CA interface formed between the carboxyl￾terminal domains, and that this crystal lattice is
+dominated by Fab packing interactions. This in￾terpretation is consistent with the fact that identical
+crystalline lattices form in both the presence and
+absence of the capsid protein.
+Viral packaging of cyclophilin A
+Our binding measurements have revealed the
+stoichiometry and thermodynamics of the cyclo￾philin A/capsid interaction. Formation of the CA/
+CypA complex is enthalpically driven, with a dis￾sociation constant, Kd, of 16 mM. Although cyclo￾philin A is initially packaged by the intact Gag
+polyprotein, fusing the capsid domain to either the
+amino-terminal matrix domain or the carboxyl￾terminal NC and p6 domains has no effect on
+CypA binding af®nity. The simplest interpretation
+of these data is that the capsid domain alone med￾iates CypA binding (although the experiments do
+not formally rule out the possibility that CypA
+binding could somehow be modulated by contacts
+created in the assembled Gag particle that are not
+mimicked in our fusion proteins).
+The micromolar dissociation constant observed
+for the CA/CypA complex suggests that simple
+mass action may determine the substoichiometric
+level of viral CypA packaging. Given a Kd for the
+CA/CypA complex of 16 mM, the 10:1 ratio of
+capsid to cyclophilin A in the HIV-1 virion would
+be achieved at a free cytoplasmic cyclophilin A
+protein concentration of 1.6 mM. Although intra￾cellular levels of cyclophilin A have not been quan￾ti®ed precisely, a micromolar CypA concentration
+appears reasonable, since the protein is highly
+abundant (Koletsky et al., 1986) and approximately
+3 mM concentrations of cyclosporine or its ana￾logues are required to achieve full stoichiometric
+inhibition (Franke et al., 1994a; Thali et al., 1994).
+Our experiments demonstrate that capsid dimer￾ization and cyclophilin A binding are thermodyna￾mically independent. This conclusion contradicts a
+recent report that Gag (or capsid) dimerization is
+required for CypA binding (Colgan et al., 1996). A
+possible explanation for this discrepancy is that the
+previous investigations examined capsid binding
+to immobilized GST-CypA. In this con®guration,
+dimerization of Gag (or capsid) molecules would
+increase the apparent cyclophilin binding af®nity if
+the capsid dimers bound bivalently to immobilized
+CypA (the chelate effect). In contrast, our microca￾lorimetry experiments were performed in solution
+788 HIV-1 Capsid/Cyclophilin A Interactionand are therefore not subject to the chelate effect.
+Importantly, our experiments are likely to re¯ect
+the biological situation in which soluble, mono￾meric CypA molecules bind to the assembling Gag
+molecules.
+The observation that CA dimerization and cyclo￾philin A binding are independent agrees well with
+the CA151/CypA co-crystal structure. CypA binds
+CA151 30 AÊ away from the C-terminal dimeriza￾tion domain and it is therefore dif®cult to rational￾ize how cyclophilin A binding could directly affect
+formation of the primary capsid dimer interface.
+Moreover, there is no signi®cant CypA-CypA
+interaction in the co-crystal structure that would
+account for cooperative binding of CypA to the
+CA dimer. (Gamble et al., 1996). Taken together, all
+of these data indicate that cyclophilin A packaging
+is mediated entirely by contacts between the CypA
+active site and the exposed capsid loop sequence
+spanning residues Pro85 to Pro93.
+Molecular recognition in the CA/CypA complex
+Our mutational analyses reveal that the cyclo￾philin A active site can strongly discriminate be￾tween proline residues in different sequence
+contexts. The key to sequence-speci®c binding in
+the CA/CypA complex is the presence of a glycine
+residue (Gly89) preceding the target proline resi￾due (Pro90). Glycine apparently allows the CypA
+active site to accommodate the CA Pro90 peptide
+bond in a trans conformation, thereby directing the
+capsid target sequence to form a series of favorable
+interactions along the CypA active site cleft. Hence
+it appears that the Gly-Pro dipeptide, rather than
+proline alone, forms the fundamental recognition
+site for cyclophilin A. The importance of this recog￾nition motif for HIV-1 replication has been demon￾strated by Luban and co-workers, who have
+shown that mutation of either Gly89 or Pro90 to
+Ala blocks both cyclophilin A packaging and viral
+replication (Franke et al., 1994b; Braaten et al.,
+1996a). Our mutational analyses demonstrate that
+sequences ¯anking the Gly-Pro binding motif can
+also contribute signi®cantly to CypA recognition.
+For example, we ®nd that the CA Ala88 to Gly
+mutation decreases the CypA binding af®nity
+more than 44-fold, and might also be expected to
+inhibit viral packaging of cyclophilin A and block
+HIV-1 replication.
+Cyclophilin A and HIV-1 replication
+Although the precise role of cyclophilin A in
+HIV-1 replication remains uncertain, the protein
+appears to perform its essential function early in
+the viral life-cycle (Steinkasserer et al., 1995;
+Braaten et al., 1996a). Luban and co-workers have
+reported that CypA-de®cient virions assemble, ma￾ture and fuse with their target cells normally, but
+that the virus fails to initiate reverse transcription
+(Braaten et al., 1996a). This does not seem to re¯ect
+a direct effect of CypA on reverse transcriptase,
+since the endogenous reverse transcription activity
+in detergent-permeabilized, CypA-de®cient virions
+is normal (Braaten et al., 1996a). Instead, genetic
+analyses indicate that the capsid is both the CypA
+binding partner and the functional target of CypA
+(Aberham et al., 1996; Braaten et al., 1996a;
+Dorfman & GoÈttlinger, 1996). These observations
+lead to the hypothesis that cyclophilin A may act
+to facilitate rearrangement or uncoating of the cap￾sid core structure upon infection.
+Although cyclophilin A binding does not affect
+formation of the highest af®nity CA dimer inter￾face, CypA could still affect higher order capsid as￾sembly or disassembly by altering one of the other,
+lower af®nity CA-CA interfaces involving the
+amino-terminal capsid domain. In the CA151/
+CypA co-crystal structure, CA151 molecules associ￾ate via two distinct interfaces to form long planar
+strips. We envision that the surface of the viral cap￾sid core could assemble by side to side packing of
+these capsid strips. In the crystal, close packing of
+the capsid strips is prevented by stoichiometric
+binding of cyclophilin A molecules along the outer
+edges of the strips. In the virion, however, the sub￾stoichiometric levels of CypA could simply serve
+to destabilize the cooperative interactions between
+associated capsid strips. Thus, we hypothesize that
+the function of cyclophilin A in HIV-1 replication
+may be to weaken the capsid core and thereby pro￾mote its dissociation upon infection.
+Other cyclophilins
+Our studies demonstrate that the CypA active
+site binds speci®cally to the HIV-1 capsid protein,
+providing the ®rst well-characterized biological
+function for a cyclophilin active site. This obser￾vation again raises the possibility, ®rst suggested
+by Schreiber & Crabtree (1992), that proline iso￾merization may not be the primary function of cy￾clophilins in vivo. As has been pointed out by
+Harrison & Stein (1990), the modest kc/KM for cy￾clophilin A binding to small model peptides
+suggests that rate enhancements for non-speci®c
+proline isomerization will be quite modest at
+physiological CypA concentrations. Instead, it ap￾pears that other cyclophilins may function in ana￾logy to the model that we propose for CypA in
+HIV-1, i.e. by binding target proteins with some
+level of sequence discrimination and functioning
+by modulating or preventing protein-protein inter￾actions. This model does not, of course rule out the
+possibility that proline isomerase activity may also
+be important in vivo.
+Since the cyclophilin active site is largely con￾served in eukaryotic cyclophilins (Stamnes et al.,
+1992), we speculate that Gly-Pro dipeptides will
+form the basic recognition motif for other cyclophi￾lins. We envisage that different cyclophilins may
+discriminate between their target proteins by mak￾HIV-1 Capsid/Cyclophilin A Interaction 789ing complementary interactions with sequences
+¯anking the Gly-Pro recognition element. The Gly￾Pro motif forms a convenient binding ``handle'',
+since this particular dipeptide is very likely to re￾side in an exposed loop in a folded target protein.
+Indeed, since Gly-Pro sequences are likely to end
+up in exposed loops and not in integral secondary
+structures, it even seems possible that some cyclo￾philins may act as chaperones by transiently as￾sociating with the Gly-Pro sequences of folding
+proteins and promoting their intramolecular fold￾ing by shielding one face of the unfolded protein
+against intermolecular aggregation.
+In summary, we have demonstrated that the cy￾clophilin A active site mediates sequence-speci®c
+binding of the HIV-1 capsid protein, recognizing
+an exposed capsid loop sequence that spans resi￾dues Pro85 to Pro93. The capsid dipeptide, Gly89-
+Pro90, forms the core recognition motif, with adja￾cent residues making a series of additional energe￾tically signi®cant interactions along the CypA
+active site groove. We speculate that the HIV-1
+CA/CypA interaction may serve as a paradigm for
+sequence-speci®c protein recognition within the cy￾clophilin family, with Gly-Pro forming a general
+cyclophilin recognition motif.
+Materials and Methods
+HIV-1 capsid protein expression and purification
+Procedures used to express and purify the intact (CA)
+and truncated (CA151) capsid proteins were similar and
+are therefore described in detail only for the full-length
+protein. The HIV-1NL4-3 capsid gene was ampli®ed from
+proviral pNL4-3 DNA (Adachi et al., 1986; Myers et al.,
+1995) using the polymerase chain reaction (PCR). PCR
+primers were designed to introduce NdeI and BamHI
+cloning sites, a stop codon, and optimized E. coli codons
+for the ®rst three amino acid residues (Sambrook et al.,
+1989). The ampli®ed gene was subcloned into the phage
+T7 RNA polymerase-based expression vector, pET3a
+(Studier et al., 1990) and the resulting plasmid (WISP93-
+73) was con®rmed by DNA sequencing. The expression
+vector for the truncated CA151 protein (WISP95-69) was
+constructed by introducing oligonuclotides encoding a
+stop codon immediately following CA amino acid codon
+151 and subcloning the coding region into pET11a.
+Protein expression levels and fully puri®ed samples of
+the HIV-1 capsid and CA151 proteins are shown in
+Figure 2(a) and (b), respectively. BL21 (DE3) E. coli cells
+harboring the expression plasmids were grown in LB
+medium and capsid protein expression was induced late
+in log-phase growth (A600 0.8; lane 1) by the addition
+of isoproyl-b,D-thiogalactopyranoside (IPTG) to a ®nal
+concentration of 0.4 mM (1 mM for the pET11a ex￾pression constructs). Soluble capsid protein accumulated
+to very high levels during the four hour incubation
+period (Figure 2(a), lane 2). All steps in the protein puri-
+®cation were performed at 4C. The cells were lysed in a
+French press and the supernatant sonicated to reduce
+viscosity. Insoluble material was removed by centrifu￾gation at 40,000 g for one hour and the CA protein was
+concentrated by precipitation from 20% saturated am￾monium sulfate. CA was redissolved in a buffer of
+25 mM KMops (pH 6.9)/5 mM b-mercaptoethanol and
+puri®ed by cation-exchange chromatography on S￾Sepharose (Pharmacia). The protein eluted at 300 mM
+NaCl during a 250 ml 0 to 1 M linear salt gradient. This
+procedure typically yielded >30 mg of pure capsid pro￾tein per liter of E. coli culture. The recombinant protein
+was characterized by N-terminal amino acid sequencing
+(NH3-P-I-V), amino acid analysis, and electrospray mass
+spectrometry (Mcalc25,603 g/mol, Mobs25,602(2) g/
+mol). A non-native N-terminal methionine residue was
+quantitatively (>97%) removed during protein ex￾pression and the primary sequence of the puri®ed re￾combinant protein was therefore identical with the
+authentic HIV-1 capsid protein. The protein exhibits a
+single major isoform in isoelectric focusing experiments
+(pI  7.05). CA151 was also processed during expression
+to produce a native N terminus, as analyzed by N-term￾inal amino acid sequencing and mass spectrometry
+(Mcalc  16,701 g/mol, Mobs  16,700(4) g/mol).
+DNA encoding HIV-1NL4-3 CA (encoding Gag resi￾dues 133 to 363), MA-CA (1 to 363), and CA-NC (133
+to 499) was also subcloned into a pGEX2T (Pharmacia)
+vector that was modi®ed to contain an in-frame NdeI
+restriction site immediately downstream of the gluta￾thione-S-transferase gene (WISP94-18). The CA con￾struct was subsequently used as a template for PCR￾based or Muta-Gene Phagemid (Biorad) mutagenesis
+(Kunkel et al., 1987), to produce the 17 mutant capsid
+proteins used to examine the determinants of CypA
+binding speci®city.
+Human cyclophilin A expression and purification
+The human CypA gene was ampli®ed in a PCR from
+a HeLa cDNA pool (Stratagene). The ampli®ed DNA
+fragment was subcloned into the NdeI/BamHI sites of
+pET3a (Studier et al., 1990) to create WISP94-1 (encoding
+native CypA) and into the same sites in WISP94-18 to
+create WISP94-57 (encoding GST-CypA). The cloned
+human CypA genes were sequenced and corresponded
+exactly to the published cDNA sequence of human T-cell
+CypA (Haendler et al., 1987).
+The induction and puri®cation of recombinant CypA
+is shown in Figure 2(c). CypA expression was induced
+late in log phase (lane 1) and the protein was allowed to
+accumulate for four hours (lane 2). Soluble human CypA
+was puri®ed to homogeneity by sequential ammonium
+sulfate fractionation, cation-exchange and hydrophobic
+chromatographies following a published procedure (Liu
+et al., 1990). The puri®ed protein was isolated in reason￾able yields (typically 25 mg/l cells) and was character￾ized by N-terminal amino acid sequencing (NH3-
+(M)VNP), amino acid analysis, and mass spectrometry
+(Mcalc  18,013 g/mol; Mobs  18,012(1) g/mol). Ap￾proximately 15% of the protein molecules were missing
+their N-terminal methionine residue (M  17,881(1) g/
+mol), in good agreement with a previous report (Liu
+et al., 1990).
+The GST-CypA fusion protein produced from the ex￾pression vector WISP94-57 was puri®ed by glutathione
+af®nity chromatography on G-Sepharose (Pharmacia).
+The protein eluted at a glutathione concentration of
+6 mM from a linear gradient of 0 to 10 mM glutathione
+in 100 ml of 50 mM Tris-HCl (pH 8.0). The protein was
+subsequently dialyzed extensively to remove bound glu￾tathione and puri®ed to homogeneity by cation-exchange
+chromatography on S-Sepharose (Pharmacia). The pro￾tein eluted at 400 mM NaCl from a linear gradient of 0
+790 HIV-1 Capsid/Cyclophilin A Interactionto 1 M NaCl in 250 ml of 25 mM KMops (pH 6.9), 5 mM
+b-mercaptoethanol).
+Dynamic light-scattering spectroscopy
+Dynamic light-scattering was performed to determine
+the oligomeric states of the CA and CA151 proteins using
+a Dynapro-801 light-scattering instrument (Protein Sol￾utions Inc.). Proteins were dissolved in 10 mM potassium
+phosphate (pH 6.5), 2 mM b-mercaptoethanol at concen￾trations of 200 mM CA and 158 mM CA151. At least eight
+measurements were made and averaged for each sample.
+Protein molecular masses were estimated by assuming
+globular protein structures and errors are reported as the
+standard deviation between the independent measure￾ments.
+Equilibrium sedimentation
+Analytical ultracentrifugation was used to quantify
+the oligomerization of CA and CA151. Centrifugation ex￾periments were performed on a Beckman Optima XL-A
+ultracentrifuge operating at rotor speeds of 20,000 (CA)
+or 25,000 (CA151) rpm. The proteins were centrifuged at
+20C in 25 mM sodium phosphate (pH 6.5), 100 mM
+NaCl, 2 mM b-mercaptoethanol. Absorbance pro®les
+were measured at 280 nm and were collected every four
+hours until protein distributions had reached equili￾brium. After 24 hours, eight scans along the cell radius
+were collected with a step size of 0.003 cm, averaged,
+and corrected for background absorbance against a buf￾fer blank.
+Equilibrium distributions were ®t to the single homo￾geneous species model or to a monomer-dimer model as
+described (McRorie & Voelker, 1993), using the Microca￾lorigin non-linear least-squares ®tting algorithm pro￾vided within the XL-A data analysis software. A solvent
+density of 1.0052 g mlÿ1 was used and partial speci®c vo￾lume estimates of 0.737 ml gÿ1 (CA) and 0.740 ml gÿ1
+(CA151) were derived from the amino acid compositions
+of the two proteins (Laue et al., 1992).
+Titration calorimetry
+Isothermal titration calorimetry (ITC) was performed
+at 20.0C using a MicroCal Omega titration calorimeter.
+Two different titrations were performed: (1) 632 mM
+CA151 was titrated into 59 mM CypA; and (2) 661 mM
+CypA was titrated into 59 mM CA. Each titration con￾sisted of 15 injections of 20 ml, made every ®ve minutes,
+into a reaction cell volume of 1.296 ml. All proteins were
+dissolved in buffered solutions of 100 mM KCl, 25 mM
+KPO4 (pH 6.5), 5 mM b-mercaptoethanol. Reaction heats
+were baseline-corrected manually using the Origin TC
+software, corrected by subtraction of the appropriate
+blank titrations, and integrated. Thermodynamic par￾ameters for the binding reactions were derived by ®tting
+the corrected binding isotherms to single-site binding
+models as described (Wiseman et al., 1989), with stoichi￾ometries (n), enthalpies (H), and equilibrium dis￾sociation constants (Kd) allowed to ¯oat during non￾linear least-squares ®ts of the data. Titrations were per￾formed under conditions where the product of the bind￾ing constant and the reservoir macromolecule
+concentration (c) was approximately 4, and can therefore
+be expected to provide reasonable estimates of the bind￾ing equilibria.
+Surface plasmon resonance measurements
+SPR measurements were performed on a BIACORE
+2000 biosensor, with CM5 research-grade chips, NHS/
+EDC coupling reagents, ethanolamine, anti-GST mono￾clonal antibody and P20 from Biacore AB (Uppsala, Swe￾den). The binding assays were performed by capturing
+either GST-CypA or GST-CA onto the chip surfaces and
+measuring the interaction with either CA151 or CypA in
+solution. A monoclonal antibody against GST (anti-GST)
+was immobilized on the sensor surface using a standard
+amine coupling procedure (LoÈfaÊ s & Johnsson, 1990). The
+carboxymethyl dextran surface was activated with a
+seven minute injection of a mixture of NHS/EDC (each
+at 0.1 M in water). The antibody was immobilized at the
+same level (5000 RU) on different ¯ow-cells by expos￾ing the activated surfaces to a 10 mg/ml sample in
+10 mM sodium acetate (pH 5.0) for 300 seconds. After
+the coupling step, the remaining activated groups were
+blocked with a seven minute wash of 1 M ethanolamine
+(pH 8.2), followed by several ten second washes with
+glycine (pH 2.0) to remove non-covalently bound
+protein.
+All subsequent binding experiments were performed
+in buffer containing 100 mM sodium chloride, 25 mM
+potassium phosphate (pH 6.5), 1 mM b-mercaptoethanol,
+and 0.005% (v/v) P20 at pH 6.5, unless otherwise indi￾cated. Puri®ed GST-CypA was captured onto anti-GST
+surfaces at two different densities by injecting super￾natant containing GST-CypA for varying lengths of time
+at a ¯ow-rate of 5 ml/minute. Equal quantities of recom￾binant GST alone were captured onto control surfaces.
+To perform the kinetic measurements for CA151 binding,
+the ¯ow-path was changed to include all four ¯ow-cells
+and the ¯ow-rate was increased to 50 ml/minute: 22 ml of
+CA151 at concentrations of 57, 19, 6.3 and 2.1 mM along
+with a buffer blank were injected over all four ¯ow-cells
+in series. Since the response returned rapidly to baseline,
+no regeneration step was required between CA151 injec￾tions. Each binding experiment was repeated two or
+three times in random order. Analogous experiments
+were performed at pH 5.5, 7.5 and 8.5.
+Similar binding experiments were performed for the
+GST-CA constructs by capturing these proteins onto the
+sensor surface and monitoring the interaction with CypA
+in solution. In this case, native and mutant GST-CA pro￾teins were captured directly from crude E. coli super￾natants. To examine CypA binding, 30 ml of CypA
+solution was injected at concentrations of 114, 38, 12 and
+4.2 mM, along with a buffer blank. Each CypA injection
+was repeated three times in random order over two
+different densities of GST-CA. Control experiments were
+performed using a recombinant GST to ensure that
+CypA did not interact with this protein or the anti-GST
+antibody on the sensor surface.
+To analyze the interactions recorded on the biosen￾sor, the raw response data collected from the individ￾ual ¯ow-cells were baseline-corrected by subtracting
+the average of the response over 60 seconds prior to
+sample injection. To correct for refractive index
+change and non-speci®c binding, the response col￾lected over a blank surface was subtracted from the
+¯ow-cell containing the GST-fusion protein. The re￾sponse at equilibrium, which represents the level of
+CA/CypA complex formation, was determined by
+averaging the signal obtained over ®ve to ten seconds
+after the start of the injection. Equilibrium dissociation
+constants (Kd) for each interaction were determined
+from non-linear least-squares curve ®tting of the data
+HIV-1 Capsid/Cyclophilin A Interaction 791to a single-site binding model as described in the
+BIACORE manual.
+Acknowledgements
+This work was supported by NIH grant RO1 AI40333
+(to C.P.H. and W.I.S.) and by the Lucille P. Markey
+Charitable Trust. We thank Lin Roden for technical as￾sistance with the SPR measurements, Theresa Gamble
+and Allyson Christensen for help with Figures, and Jer￾emy Luban for helpful discussions and for communicat￾ing work prior to publication.
+References
+Aberham, C., Weber, S. & Phares, W. (1996). Spon￾taneous mutations in the human immunode®ciency
+virus type 1 gag gene that affect viral replication in
+the presence of cyclosporins. J. Virol. 70, 3536±3544.
+Adachi, A., Gendelman, H. E., Koenig, S., Folks, T.,
+Willey, R., Rabson, A. & Martin, M. A. (1986). Pro￾duction of acquired immunode®ciency syndrome￾associated retrovirus in human and nonhuman cells
+transfected with an infectious molecular clone.
+J. Virol. 59, 284±291.
+Anderson, S. K., Gallinger, S., Roder, J., Frey, J., Young,
+H. A. & Ortaldo, J. R. (1993). A cyclophilin-related
+protein involved in the function of natural killer
+cells. Proc. Natl Acad. Sci. USA, 90, 542±546.
+Baker, E. K., Colley, N. J. & Zuker, C. S. (1994). The
+cyclophilin homolog NinaA functions as a chaper￾one, forming a stable complex in vivo with its pro￾tein target rhodopsin. EMBO J. 13, 4886±4895.
+Billich, A., Hammerschmid, F., Peichl, P., Wenger, R.,
+Zenke, G., Quesniaux, V. & Rosenwirth, B. (1995).
+Mode of action of SDZ NIM 811, a nonimmunosup￾pressive cyclosporin A analog with activity against
+human immunode®ciency virus (HIV) type 1: inter￾ference with HIV protein-cyclophilin A interactions.
+J. Virol. 69, 2451±2461.
+Braaten, D., Franke, E. K. & Luban, J. (1996a). Cyclophi￾lin A is required for an early step in the life cycle of
+human immunode®ciency virus type I before the in￾itiation of reverse transcription. J. Virol. 70, 3551±
+3560.
+Braaten, D., Franke, E. K. & Luban, J. (1996b). Cyclophi￾lin A is required for the replication of group M
+human immunode®ciency virus type 1 (HIV-1) and
+simian immunode®ciency virus SIVCPZGAB but not
+group O HIV-1 or other primate lentiviruses. J. Virol.
+70, 4220±4227.
+Braaten, D., Aberham, C., Franke, E. K., Yin, L., Phares,
+W. & Luban, J. (1996c). Cyclosporin A-resistant
+human immunode®ciency virus type 1 mutants
+demonstrate that Gag encodes the functional target
+of cyclophilin A. J. Virol. 70, 5170±5176.
+Bram, R. J. & Crabtree, G. R. (1994). Calcium signalling
+in T cells stimulated by a cyclophilin B-binding
+protein. Nature, 371, 355±358.
+Brandts, J. F., Halvorson, H. R. & Brennan, M. (1975).
+Consideration of the possibility that the slow step
+in protein denaturation reactions is due to cis-trans
+isomerism of proline residues. Biochemistry, 14,
+4953±4963.
+Brandts, J. F., Lin, L.-N., Wiseman, T., Williston, S. &
+Yang, C. P. (1990). An instrument for rapid determi￾nation of binding constants for biomolecules. Am.
+Lab. (Shelton, Conn), 22, 30±36.
+Brooks, I., Watts, D. G., Soneson, K. K. & Hensley, P.
+(1994). Determining con®dence intervals for par￾ameters derived from analysis of equilibrium ana￾lytical ultracentrifugation data. Methods Enzymol.
+240, 459±478.
+Bundle, D. R. & Sigurskjold, B. W. (1994). Determination
+of accurate thermodynamics of binding by titration
+microcalorimetry. Methods Enzymol. 247, 288±305.
+Cardenas, M. E., Hemenway, C., Muir, R. S., Ye, R.,
+Fiorentino, D. & Heitman, J. (1994). Immunophilins
+interact with calcineurin in the absence of exogen￾ous immunosuppressive ligands. EMBO J. 13,
+5944±5957.
+CarrieÁre, C., Gay, B., Chazal, N., Morin, N. &
+Boulanger, P. (1995). Sequence requirements for
+encapsidation of deletion mutants and chimeras of
+human immunode®ciency virus type 1 Gag precur￾sor into retrovirus-like particles. J. Virol. 69, 2366±
+2377.
+Chang, H.-C. J. & Lindquist, S. (1994). Conservation of
+Hsp90 macromolecular complexes in Saccharomyces
+cerevisiae. J. Biol. Chem. 269, 24983±24988.
+Chazal, N., CarrieÂre, C., Gay, B. & Boulanger, P. (1994).
+Phenotypic characterization of insertion mutants of
+the human immunode®ciency virus type 1 Gag pre￾cursor expressed in recombinant baculovirus￾infected cells. J. Virol. 68, 111±122.
+Colgan, J., Yuan, H. E. H., Franke, E. K. & Luban, J.
+(1996). Binding of the human immunode®ciency
+virus type 1 Gag polyprotein to cyclophilin A is
+mediated by the central region of capsid and
+requires Gag dimerization. J. Virol. 70, 4299±4310.
+Colley, N. J., Baker, E. K., Stamnes, M. A. & Zuker, C. S.
+(1991). The cyclophilin homolog ninaA is required
+in the secretory pathway. Cell, 67, 255±263.
+Davis, E. S., Becker, A., Heitman, J., Hall, M. N. &
+Brennan, M. B. (1992). A yeast cyclophilin gene
+essential for lactate metabolism at high temperature.
+Proc. Natl Acad. Sci. USA, 89, 11169±11173.
+Di Marzo Veronese, F., Copeland, T. D., Oroszlan, S.,
+Gallo, R. C. & Sarngadharan, M. G. (1988). Bio￾chemical and immunological analysis of human
+immunode®ciency virus gag gene products p17 and
+p24. J. Virol. 62, 795±801.
+Dorfman, T. & GoÈttlinger, H. G. (1996). The human
+immunode®ciency virus type 1 capsid p2 domain
+confers sensitivity to the cyclophilin-binding drug
+SDZ NIM 811. J. Virol. 70, 5751±5757.
+Dorfman, T., Bukovsky, A., OÈ hagen, AÊ ., HoÈgland, S. &
+GoÈttlinger, H. G. (1994). Functional domains of the
+capsid protein of human immunode®ciency virus
+type 1. J. Virol. 68, 8180±8187.
+Duina, A. A., Change, H.-C. J., Marsh, J. A., Lindquist,
+S. & Gaber, R. F. (1996). A cyclophilin function in
+Hsp90-dependent signal transduction. Science, 274,
+1713±1715.
+Ehrlich, L. S., Agresta, B. E. & Carter, C. A. (1992).
+Assembly of recombinant human immunode®ciency
+virus type 1 capsid protein in vitro. J. Virol. 66,
+4874±4883.
+Ehrlich, L. S., Agresta, B. E., Gelfand, C. A., Jentoft, J. &
+Carter, C. A. (1994). Spectral analysis and tryptic
+susceptibility as probes of HIV-1 capsid protein
+structure. Virology, 204, 515±525.
+Ferreira, P. A., Nakayama, T. A., Pak, W. L. & Travis,
+G. H. (1996). Cyclophilin-related protein RanBP2
+792 HIV-1 Capsid/Cyclophilin A Interactionacts as a chaperone for red/green opsin. Nature,
+383, 637±640.
+Fischer, G., Wittmann-Liebold, B., Lang, K., Kiefhaber,
+T. & Schmid, F. X. (1989). Cyclophilin and peptidyl￾prolyl cis-trans isomerase are probably identical
+proteins. Nature, 337, 476±478.
+Fisher, H. F. & Singh, N. (1995). Calorimetric methods
+for interpreting protein-ligand interactions. Methods
+Enzymol. 259, 194±221.
+Franke, E. K. & Luban, J. (1995). Cyclophilin and Gag in
+HIV-1 replication and pathogenesis. In Cell Acti￾vation and Apoptosis in HIV Infection (Andrieu, A.-
+M. & Lu, W., eds), pp. 217±228, Plenum Press,
+New York.
+Franke, E. K., Yuan, H. E. H., Bossolt, K. L., Goff, S. P. &
+Luban, J. (1994a). Speci®city and sequence require￾ments for interactions between various retroviral
+Gag proteins. J. Virol. 68, 5300±5303.
+Franke, E. K., Yuan, H. E. H. & Luban, J. (1994b).
+Speci®c incorporation of cyclophilin A into HIV-1
+virions. Nature, 372, 359±362.
+Freeman, B. C., Toft, D. O. & Morimoto, R. I. (1996).
+Molecular chaperone machines: chaperone activities
+of the cyclophilin Cyp-40 and the steroid aporecep￾tor-associated protein p23. Science, 274, 1718±1720.
+FreskgaÊrd, P.-O., Bergenhem, N., Jonsson, B.-H.,
+Svensson, M. & Carlsson, U. (1992). Isomerase and
+chaperone activity of prolyl isomerase in the folding
+of carbonic anhydrase. Science, 258, 466±468.
+Friedman, J., Trahey, M. & Weissman, I. (1993). Cloning
+and characterization of cyclophilin C-associated
+protein: a candidate natural cellular ligand for
+cyclophilin C. Proc. Natl. Acad. Sci. USA. 90, 6815±
+6819.
+Gamble, T., Vajdos, F., Yoo, S., Worthylake, D.,
+Houseweart, M., Sundquist, W. I. & Hill, C. P.
+(1996). Crystal structure of human cyclophilin A
+bound to the amino-terminal domain of HIV-1
+capsid. Cell, 87, 1285±1294.
+Gelderblom, H. R., Bauer, P. G., OÈ zel, M., HoÈglund, S.,
+Niedrig, M., Renz, H., Morath, B., Lundquist, P.,
+Nilsson, AÊ ., Mattow, J., Grund, C. & Pauli, G.
+(1992). Morphogenesis and morphology of human
+immunode®ciency virus. In Membrane Interactions of
+HIV (Aloa, R. C. & Curtain, C. C., eds), pp. 33±54,
+Wiley-Liss, Inc., New York.
+Gitti, R. K., Lee, B. M., Walker, J., Summers, M. F., Yoo,
+S. & Sundquist, W. I. (1996). Structure of the amino￾terminal core domain of the HIV-1 capsid protein.
+Science, 273, 231±235.
+Haendler, B., Hofer-Warbinek, R. & Hofer, E. (1987).
+Complementary DNA for human T-cell cyclophilin.
+EMBO J. 6, 947±950.
+Handschumacher, R. E., Harding, M. W., Rice, J. &
+Drugge, R. J. (1984). Cyclophilin: a speci®c cytosolic
+binding protein for cyclosporin A. Science, 226,
+544±547.
+Harrison, R. K. & Stein, R. L. (1990). Substrate speci®ci￾ties of the peptidyl prolyl cis-trans isomerase activi￾ties of cyclophilin and FK-506 binding protein:
+evidence for the existence of a family of distinct
+enzymes. Biochemistry, 29, 3813±3816.
+Helekar, S. A., Char, D., Neff, S. & Patrick, J. (1994).
+Prolyl isomerase requirement for the expression of
+functional homo-oligomeric ligand-gated ion
+channels. Neuron, 12, 179±189.
+Henderson, L. E., Bowers, M. A., Sowder, R. C., II,
+Serabyn, S. A., Johnson, D. G., Bess, J. W., Jr,
+Arthur, L. O., Bryant, D. K. & Fenselau, C. (1992).
+Gag proteins of the highly replicative MN strain of
+human immunode®ciency virus type 1: posttransla￾tional modi®cations, proteolytic processings, and
+complete amino acid seqences. J. Virol. 66, 1856±
+1865.
+Hong, S. S. & Boulanger, P. (1993). Assembly-defective
+point mutants of the human immunode®ciency
+virus type 1 Gag precursor phenotypically
+expressed in recombinant baculovirus-infected cells.
+J. Virol. 67, 2787±2798.
+Hunter, E. (1994). Macromolecular interactions in the
+assembly of HIV and other retroviruses. Sem. Virol.
+5, 71±83.
+Jackson, S. E. & Ferscht, A. R. (1991). Folding of chymo￾trypsin inhibitor 2. 2. In¯uence of proline isomeriza￾tion on the folding kinetics and thermodynamic
+characterization of the transition state of folding.
+Biochemistry, 30, 10436±10443.
+JoÈnsson, U., FaÈgerstam, L., Ivarsson, B., Johnsson, B.,
+Karlsson, R., Lundh, K., LoÈfaÊ s, S., Persson, B., Roos,
+H., RoÈnnberg, I., SjoÈlander, S., Stenberg, E.,
+StaÊhlberg, R., Urbaniczky, C., OÈ stlin, H. &
+Malmqvist, M. (1991). Real-time biospeci®c inter￾action analysis using surface plasmon resonance
+and a sensor chip technology. BioTechniques, 193,
+620±627.
+Jowett, J., Hockley, D., Nermut, M. V. & Jones, I. M.
+(1992). Distinct signals in human immunode®ciency
+virus type 1 Pr55 necessary for RNA binding and
+particle formation. J. Gen. Virol. 73, 3079±3086.
+Kakalis, L. T. & Armitage, I. M. (1994). Solution confor￾mation of a cyclophilin-bound proline isomerase
+substrate. Biochemistry, 33, 1495±1501.
+Kallen, J. & Walkinshaw, M. D. (1992). The X-ray struc￾ture of a tetrapeptide bound to the active site of
+human cyclophilin A. FEBS Leters, 300, 286±290.
+Ke, H. M., Zydowsky, L. D., Liu, J. & Walsh, C. T.
+(1991). Crystal structure of recombinant human T￾cell cyclophilin A at 2.5 AÊ resolution. Proc. Natl
+Acad. Sci. USA, 88, 9483±9487.
+Ke, H., Mayrose, D. & Cao, W. (1993). Crystal structure
+of cyclophilin A complexed with substrate Ala-Pro
+suggests a solvent-assisted mechanism of cis-trans
+isomerization. Proc. Natl Acad. Sci. USA, 90, 3324±
+3328.
+Koletsky, A. J., Harding, M. W. & Handschumacher,
+R. E. (1986). Cyclophilin: distribution and variant
+properties in normal and neoplastic tissues.
+J. Immunol. 137, 1054±1059.
+KraÈusslich, H.-G. (1996). Morphogenesis and maturation
+of retroviruses. Curr. Topics Microbiol. Immunol. 214.
+Kunkel, T. A., Roberts, J. D. & Zakour, R. A. (1987).
+Rapid and ef®cient site-speci®c mutagenesis with￾out phenotypic selection. Methods Enzymol. 154,
+367±382.
+Kunz, J. & Hall, M. N. (1993). Cyclosporin A, FK506,
+and rapamycin: more than just immunosuppression.
+Trends Biochem. Sci. 18, 334±338.
+Laue, T. M., Shah, B. D., Ridgeway, T. M. & Pelletier,
+S. L. (1992). Computer-aided interpretation of ana￾lytical sedimentation data for proteins. In Analytical
+Ultracentrifugation in Biochemistry and Polymer Science
+(Rowe, A. J. & Horton, J. C., eds), pp. 90±125,
+Royal Society of Chemistry, Cambridge, England.
+Lilie, H., Lang, K., Rudolph, R. & Buchner, J. (1993).
+Prolyl isomerases catalyze antibody folding in vitro.
+Protein Sci. 2, 1490±1496.
+Liu, J., Albers, M. W., Chen, C.-M., Schreiber, S. L. &
+Walsh, C. T. (1990). Cloning, expression, and puri®-
+HIV-1 Capsid/Cyclophilin A Interaction 793cation of human cyclophilin in Escherichia coli and
+assessment of the catalytic role of cysteines by site￾directed mutagenesis. Proc. Natl Acad. Sci. USA, 87,
+2304±2308.
+Lodish, H. & Kong, N. (1991). Cyclosporin a inhibits an
+initial step in folding of transferrin within the endo￾plasmic reticulum. J. Biol. Chem. 266, 14835±14838.
+LoÈfaÊ s, S. & Johnsson, B. (1990). A novel hydrogel matrix
+on gold surface plasmon resonance sensors for fast
+and ef®cient covalent immobilization of ligands.
+J. Chem. Soc. Chem. Commun. 21, 1526±1528.
+Luban, J., Bossolt, K. L., Franke, E. K., Kalpana, G. V. &
+Goff, S. P. (1993). Human immunode®ciency virus
+type 1 Gag protein binds to cyclophilins A and B.
+Cell, 73, 1067±1078.
+Malmqvist, M. (1993). Surface plasmon resonance for
+detection and measurement of antibody-antigen
+af®nity and kinetics. Curr. Opin. Immunol. 5, 282±
+286.
+Mammano, F., OÈ hagen, AÊ ., HoÈglund, S. & GoÈttlinger,
+H. G. (1994). Role of the major homology region of
+HIV-1 in virion morphogenesis. J. Virol. 68, 4927±
+4936.
+McRorie, D. K. & Voelker, P. J. (1993). Self-associating
+Systems in the Analytical Ultracentrifuge. Beckman
+Instruments Inc., Fullerton, CA.
+Momany, C., Kovari, L. C., Prongay, A. J., Keller, W.,
+Gitti, R. K., Lee, B. M., Gorbalenya, A. E., Tong, L.,
+McClure, J., Ehrlich, L. S., Summers, M. F., Carter,
+C. & Rossmann, M. G. (1996). Crystal structure of
+dimeric HIV-1 capsid protein. Nature Struct. Biol. 3,
+763±770.
+Morton, T. A., Myszka, D. G. & Chaiken, I. M. (1995).
+Interpreting complex binding kinetics from optical
+biosensors: a comparison of analysis by lineariza￾tion, the integrated rate equation, and numerical
+integration. Anal. Biochem. 227, 176±185.
+Myers, G., Korber, B., Hahn, B. H., Jeang, K.-T., Mellors,
+J. W., McCutchan, F. E., Henderson, L. E. &
+Pavlakis, G. N. (1995). Human Retroviruses and AIDS
+1995. Los Alamos National Laboratory, Los Ala￾mos, NM.
+O'Shannessy, D. J. & Winzor, D. J. (1996). Interpretation
+of deviations from pseudo-®rst-order kinetic beha￾vior in the characterization of ligand binding by
+biosensor technology. Anal. Biochem. 236, 275±283.
+Ondek, B., Hardy, R. W., Baker, E. K., Stamnes, M. A.,
+Shieh, B.-H. & Zuker, C. S. (1992). Genetic dissec￾tion of cyclophilin function. J. Biol. Chem. 267,
+16460±16466.
+Ott, D. E., Coren, L. V., Johnson, D. G., Sowder, R. C. I.,
+Arthur, L. O. & Henderson, L. E. (1995). Analysis
+and localization of cyclophilin a found in the vir￾ions of human immunode®ciency virus type 1 MN
+strain. AIDS Res. Hum. Retro. 11, 1003±1006.
+Ratajczak, T., Carrello, A., Mark, P. J., Warner, B. J.,
+Simpson, R. J., Moritz, R. L. & House, A. K. (1993).
+The cyclophilin component of the unactivated estro￾gen receptor contains a tetratricopeptide repeat
+domain and shares identity with p59 (FKBP59).
+J. Biol. Chem. 268, 13187±13192.
+Reicin, A. S., Paik, S., Berkowitz, R. D., Luban, J., Lowy,
+I. & Goff, S. P. (1995). Linker insertion mutations in
+the human immunode®ciency virus type 1 gag
+gene: effects on virion particle assembly, release,
+and infectivity. J. Virol. 69, 642±650.
+RoseÂ, S., Hensley, P., O'Shannessy, D. J., Culp, J.,
+Debouck, C. & Chaiken, I. (1992). Characterization
+of HIV-1 p24 self-association using analytical af®-
+nity chromatography. Proteins: Struct. Funct. Genet.
+13, 112±119.
+Sambrook, J., Fritsch, E. F. & Maniatis, T. (1989). Molecu￾lar Cloning: A Laboratory Manual. 2nd edit., Cold
+Spring Harbor Laboratory Press, Plainview, NY.
+Schmid, F. X. (1993). Prolyl isomerases: role in protein
+folding. Advan. Protein Sci. 44, 25±66.
+Schmid, R. X. & Baldwin, R. (1978). Acid catalysis of the
+formation of the slow folding species of RNase a:
+evidence that the reaction is proline isomerization.
+Proc. Natl Acad. Sci. USA, 75, 4764±4768.
+Schneuwly, S., Shortridge, R. D., Larrivee, D. C., Ono,
+T., Ozaki, M. & Pak, W. L. (1989). Drosophila ninaA
+gene encodes an eye-speci®c cyclophilin (cyclos￾porin A binding protein). Proc. Natl Acad. Sci. USA,
+86, 5390±5394.
+Schreiber, S. L. & Crabtree, G. R. (1992). The mechanism
+of action of cyclosporin A and FK506. Immunol.
+Today, 13, 136±142.
+Shieh, B.-H., Stamnes, M. A., Seavello, S., Harris, G. L. &
+Zuker, C. S. (1989). The ninaA gene required for
+visual transduction in Drosophila encodes a homol￾ogue of cyclosporin A-binding protein. Nature, 338,
+67±70.
+Srinivasakumar, N., HammarskjoÈld, M.-L. & Rekosh, D.
+(1995). Characterization of deletion mutations in the
+capsid region of human immunode®ciency virus
+type 1 that affect particle formation and gag-pol
+precursor incorporation. J. Virol. 69, 6106±6114.
+Stamnes, M. A., Rutherford, S. L. & Zuker, C. S. (1992).
+Cyclophilins: a new family of proteins involved in
+intracellular folding. Trends Cell Biol. 2, 272±276.
+Steinkasserer, A., Harrison, R., Billich, A.,
+Hammerschmid, F., Werner, G., Wolff, B., Peichl,
+P., Pal®, G., Schnitzel, W., Mlynar, E. &
+Rosenwirth, B. (1995). Mode of action of SDZ NIM
+811, a nonimmunosuppressive cyclosporin A analog
+with activity against human immunode®ciency
+virus type 1 (HIV-1): interference with early and
+late events in HIV-1 replication. J. Virol. 69, 814±
+824.
+Studier, F. W., Rosenberg, A. H., Dunn, J. J. &
+Dubendorff, J. W. (1990). Use of T7 RNA polymer￾ase to direct expression of cloned genes. Methods
+Enzymol. 185, 60±89.
+Sykes, K., Gething, M.-J. & Sambrook, J. (1993). Proline
+isomerases function during heat shock. Proc. Natl
+Acad. Sci. USA, 90, 5853±5857.
+Takahashi, N., Hayano, T. & Suzuki, M. (1989). Pepti￾dyl-prolyl cis-trans isomerase is the cyclosporin A￾binding protein cyclophilin. Nature, 337, 473±475.
+Thali, M., Bukovsky, A., Kondo, E., Rosenwirth, B.,
+Walsh, C. T., Sodroski, J. & GoÈttlinger, H. G. (1994).
+Functional association of cyclophilin A with HIV-1
+virions. Nature, 372, 363±365.
+von Poblotzki, A., Wagner, R., Niedrig, M., Wanner, G.,
+Wolf, H. & Modrow, S. (1993). Identi®cation of a
+region in the Pr55 gag polyprotein essential for
+HIV-1 particle formation. Virology, 193, 981±985.
+Walsh, C. T., Zydowsky, L. D. & McKeon, F. D. (1992).
+Cyclosporin A, the cyclophilin class of peptidylpro￾lyl isomerases, and blockade of T-cell signal
+transduction. J. Biol. Chem. 267, 13115±13118.
+Wang, C.-T. & Barklis, E. (1993). Assembly, processing,
+and infectivity of human immunode®ciency virus
+type 1 Gag mutants. J. Virol. 67, 4264±4273.
+Weisman, R., Creanor, J. & Fantes, P. (1996). A multi￾copy suppressor of a cell cycle defect in S. pombe
+794 HIV-1 Capsid/Cyclophilin A Interactionencodes a heat shock-inducible 40 kDa cyclophilin￾like protein. EMBO J. 15, 447±456.
+Wills, J. & Craven, R. (1991). Form, function, and use of
+retroviral Gag proteins. AIDS, 5, 639±654.
+Wiseman, T., Williston, S., Brandts, J. F. & Lin, L.-N.
+(1989). Rapid measurement of binding constants
+and heats of binding using a new titration
+calorimeter. Anal. Biochem. 179, 131±137.
+Xu, Q., Leiva, M. C., Fischkoff, S. A., Handschumacher,
+R. E. & Lyttle, C. R. (1992). Leukocyte chemotactic
+activity of cyclophilin. J. Biol. Chem. 267, 11968±
+11971.
+Zhang, W.-H., Hockley, D. J., Nermut, M. V.,
+Morikawa, Y. & Jones, I. M. (1996). Gag-gag inter￾actions in the C-terminal domain of human immu￾node®ciency virus type 1 p24 capsid antigen are
+essential for Gag particle assembly. J. Gen. Virol.
+77, 743±751.
+Zhao, Y. & Ke, H. (1996a). Crystal structure implies that
+cyclophilin predominantly catalyzes the trans to cis
+isomerization. Biochemistry, 35, 7356±7361.
+Zhao, Y. & Ke, H. (1996b). Mechanistic implication of
+crystal structures of the cyclophilin-dipeptide
+complexes. Biochemistry, 35, 7362±7368.
+Zhao, Y., Jones, I. M., Hockley, D. J., Nermut, M. V. &
+Roy, P. (1994). Complementation of human immu￾node®ciency virus (HIV-1) Gag particle formation.
+Virology, 199, 403±408.
+Edited by J. A. Wells
+(Received 30 January 1997; received in revised form 24 March 1997; accepted 24 March 1997)
+HIV-1 Capsid/Cyclophilin A Interaction 795

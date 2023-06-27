@@ -1,0 +1,583 @@
+Cell, Vol. 104, 755–767, March 9, 2001, Copyright 2001 by Cell Press
+Structural Analyses of DNA Recognition
+by the AML1/Runx-1 Runt Domain
+and Its Allosteric Control by CBFb
+Introduction
+The promoter regions of most genes contain binding
+sites for multiple transcription factors whose interac￾tions are essential for correct regulation of transcription.
+Tahir H. Tahirov,1,2,7,11 Taiko Inoue-Bungo,1,2
+Hisayuki Morii,6 Atsushi Fujikawa,1,3
+Motoko Sasaki,1,2,7 Kazumi Kimura,1,2
+Masaaki Shiina,1,4 Ko Sato,1,5 Takashi Kumasaka,8
+Masaki Yamamoto,8 Shunsuke Ishii,9,10
+and Kazuhiro Ogata Such interactions include those between different tran- 1,2,7,11
+scription factors as well as those between subunits of 1Kanagawa Academy of Science and Technology
+(KAST) the same factor. In the case of some heterodimeric fac- 2Department of Structural Biology tors (e.g., Jun/Fos and Myc/Max) both subunits bind to
+specific DNA sequences, and recent X-ray studies of 3Department of Urology
+this type of protein have clarified the molecular mecha- 4Department of Pathology
+5Department of Biochemistry nisms of their DNA binding (e.g., the “scissors grip” by
+Yokohama City University School of Medicine the Fos-Jun heterodimer) (Glover and Harrison, 1995).
+3-9 Fukuura, Kanazawa-ku, Yokohama 236-0004 On the other hand, some transcription factors consist
+Japan of one subunit that binds to DNA and one that does not.
+6Protein Folding Group In most cases of this type of protein, it remains unknown
+National Institute of Bioscience how non DNA binding subunit contributes to DNA bind￾and Human-Technology ing and whether the mechanism by which a non DNA
+1-1 Higashi, Tsukuba, Ibaraki 305-8566 binding subunit stimulates DNA binding is shared with
+Japan different transcription factors. In this type, very little
+7Bio-Crystallography Technology Division structural information is available to date, e.g., GABPa￾8Structural Biophysics Laboratory GABPb-DNA complex (Batchelor et al., 1998). One well￾RIKEN Harima Institute / SPring-8 studied example of this type of transcription factor is
+1-1-1 Kouto, Mikazuki, Sayo, Hyogo 679-5148 core binding factor (CBF), which functions as a hetero￾Japan dimer consisting of a DNA binding a subunit and a non
+9Laboratory of Molecular Genetics binding b subunit.
+RIKEN Tsukuba Institute In mammals, CBF is considered to regulate several
+10CREST (Core Research for Evolutional Science promoters of hematopoietic genes. These include cyto￾kines such as interleukin-3 (IL-3) and granulocyte-mac- and Technology) Research Project of JST (Japan rophage colony-stimulating factor (GM-CSF); myeloid Science and Technology Corporation) specific enzymes such as myeloperoxidase, neutrophil 3-1-1 Koyadai, Tsukuba, Ibaraki 305-0074 elastase, and granzyme B; and cell surface receptors Japan such as colony-stimulating factor-1 receptor (CSF-1R),
+T cell receptor (TCR)a, TCRb, TCRg, TCRd, and CD3e
+(Speck and Stacy, 1995; Lutterbach and Hiebert, 2000).
+Three genes encode the CBFa subunits: Runx-1 (also
+Summary called AML1, CBFA2, or PEBP2aB; here we use AML1/
+Runx-1), Runx-2 (also called AML3, CBFA1, or PEB￾The core binding factor (CBF) heterodimeric transcrip- P2aA; here we use CBFA1/Runx-2) and Runx-3 (also
+tion factors comprised of AML/CBFA/PEBP2a/Runx called AML2, CBFA3, or PEBP2aC), whereas a single
+and CBFb/PEBP2b subunits are essential for differen- gene encodes the common CBFb subunit (also called
+tiation of hematopoietic and bone cells, and their mu- PEBP2b). CBFA1/Runx-2 is essential for osteoblast dif￾tation is intimately related to the development of acute ferentiation and bone development (Komori and Kishi￾leukemias and cleidocranial dysplasia. Here, we pre- moto, 1998), and its haploinsufficiency results in cleido￾sent the crystal structures of the AML1/Runx-1/ cranial dysplasia (CCD) in humans (Quack et al., 1999;
+CBFa(Runt domain)-CBFb(core domain)-C/EBPb(b- Zhou et al., 1999; Zhang et al., 2000). AML1/Runx-1 and
+Zip)-DNA, AML1/Runx-1/CBFa CBFb are required for hematopoiesis in the fetal liver (Runt domain)-C/EBP￾b(bZip)-DNA, and AML1/Runx-1/CBFa(Runt domain)- and possibly the emergence of definitive hematopoietic
+DNA complexes. The hydrogen bonding network cells from hemogenic endothelia in the developing em￾formed among CBFa(Runt domain) and CBFb, and bryo (Speck et al., 1999). The AML1/Runx-1 and CBFb
+CBFa genes are positioned on chromosomes 21 and 16, re- (Runt domain) and DNA revealed the allosteric spectively, and are frequently targeted by chromosomal regulation mechanism of CBFa(Runt domain)-DNA translocation, inversion, and point mutations in acute binding by CBFb. The point mutations of CBFa related
+myeloid and lymphoid leukemias, blast crises in chronic to the aforementioned diseases were also mapped myelogenous leukemia, and therapy-related acute my- and their effect on DNA binding is discussed. eloid leukemias and myelodysplasias, which together
+account for about 30% of human leukemias (Speck and
+11 Stacy, 1995; Look, 1997; Rowley, 1998; Ito, 1999; Low- To whom correspondence should be addressed (e-mail: tahir@
+med.yokohama-cu.ac.jp [T. H. T.], ogata@med.yokohama-cu.ac.jp enberg et al., 1999; Speck et al., 1999; Lutterbach and
+[K. O.]) Hiebert, 2000). In addition to such acquired leukemias,Cell
+756
+haploinsufficiency of AML1/Runx-1 is also associated with the structure of the former being classified as an
+with a familial platelet disorder with a propensity to de- s-type immunoglobulin fold (Figures 2B, 2C, and 3A).
+velop into acute myelogenous leukemia (FPD/AML) The present structures show that the Runt domain
+(Song, et al., 1999). recognizes specific bases in both the major and minor
+The CBFa-CBFb heterodimer recognizes the DNA grooves of the DNA, and that binding is accomplished
+consensus sequence, PyGPyGGTPy (Kamachi et al., mainly using loops. The CBFb core domain interacts
+1990; Melnikova et al., 1993; Speck and Stacy, 1995); with the CBFa Runt domain at a site distant from the
+CBFa directly interacts with specific bases, and CBFb protein–DNA interface (Figures 1B and 1C). The DNA
+stabilizes the CBFa-DNA interaction (Ogawa et al., bends by about 208 around the last T of the CBF consen￾1993). The region of CBFa responsible for DNA binding sus site (TGTGGTT), where a loop of the CBFa interacts
+and for heterodimerization, known as the Runt domain, with bases in the DNA minor groove (Figure 1C).
+exhibits remarkable sequence homology to two Dro- The mechanism by which C/EBPb recognizes the DNA
+sophila transcriptional regulators: Runt, which is involved will be described elsewhere (Tahirov et al., 2001). Con￾in segmentation, sex determination, and neurogenesis, trary to earlier protein–protein and protein–DNA binding
+and Lozenge, which is involved in eye development (Ka- assays (Zhang et al., 1996; Petrovick et al., 1998), analy￾goshima et al., 1993, 1996; Ito, 1999). That the amino acid ses of crystals of the CBFa-b-C/EBPb-DNA and CBFa￾sequences of the Runt domains exhibit .90% identity C/EBPb-DNA complexes revealed no direct interaction
+among the three CBFa isoforms strongly suggests that between the C/EBPb basic leucine zipper domain and
+similar mechanisms govern their DNA binding and heter- the CBFa Runt domain or the CBFb core domain. It is
+odimerization. nonetheless important to mention that the presence of
+Recently, NMR and X-ray diffraction were used to C/EBPb within the CBFa-b-C/EBPb-DNA and CBFa-C/
+obtain information about the structures of the CBFa EBPb-DNA complexes prevents homodimerization of
+Runt domain part in the DNA-bound state, of the free CBFa, which is seen with the CBFa-CBFb (Warren et
+CBFb subunit, and of the CBFa-CBFb complex in the al., 2000) and CBFa-DNA complexes.
+DNA-free form (Berardi et al., 1999; Goger et al., 1999;
+Huang et al., 1999; Nagata et al., 1999; Warren et al., CBFa-DNA Interactions
+2000). However, due to a lack of information about the CBFa makes contact with the DNA at consensus se￾whole structures of CBFa-DNA and CBFa-CBFb-DNA quence 59-TGTGGTT-39 using three loop-containing re￾complexes, the structural basis of the most important gions: b3-L3, b9-L9, and b12-L12. The first and third
+elements—DNA recognition by CBFa and the allosteric interact with the major groove, while the second inter￾regulation of CBFa-DNA binding by CBFb—remain un- acts with the minor groove (Figures 2B, 2D, and 2E).
+clear. Three critical guanines (G18, G20, and G21) are each
+Here, we present the three-dimensional structures ob- recognized by three arginine residues (Arg80 in b3 and
+tained by X-ray crystallography of an AML1/Runx-1 (res- Arg174 and Arg177 in L12, respectively) forming bipartite
+idues 60–182)-CBFb (residues 1–141)-C/EBPb (residues hydrogen bonds in the major groove. Asp171, which inter￾259–336)-DNA (26 bp) quarternary complex, an AML1/ acts with two consecutive cytosines (C219 and C209), also
+Runx-1 (residues 60–182)-C/EBPb (residues 259–345)- makes a hydrogen bond with Arg174, thereby fixing the
+DNA (26 bp) ternary complex, and an AML1/Runx-1 (resi- orientation of its guanidinium group for interaction with
+dues 60–182)-DNA (16 bp) binary complex, which are the DNA. Lys83, which interacts with the sugar-phos￾abbreviated to CBFa-b-C/EBPb-DNA, CBFa-C/EBPb- phate backbone of the DNA, also binds to the guanidi￾DNA, and CBFa-DNA, respectively; our focus is on the nium group of Arg80, stabilizing its side chain conforma￾recognition of specific DNA sequences by CBFa and on tion in both cases via a water molecule. A229 is recognized
+the mechanism by which CBFb facilitates DNA binding. by Arg177 and Asp171 via water molecules. An addi￾tional hydrophobic interaction is observed between
+Results and Discussion Val170 and the C5 position of C209. Within the DNA
+minor groove, Arg142 of L9 forms hydrogen bonds with
+Overall Structures the N3 position of A239 and the O2 position of C249. The
+The structure of a complex comprised of the CBFa Runt backbone amides of Gly143 and Val170 interact with the
+domain and the CBFb core domain bound to a 26 bp phosphate backbone in the minor and major grooves,
+DNA fragment from the CSF-1R promoter, together with respectively. The L9-minor groove interaction seems to
+the C/EBPb basic leucine zipper region homodimer, is be critical for DNA bending. CBFa-DNA binding is also
+shown in Figures 1A–1C. The amino acid sequences supported by several nonspecific direct or water-medi￾of the CBFa Runt domain and the CBFb core domain ated interactions between the side chains and backbone
+fragments, and the base sequence of the 26 bp and 16 of CBFa and the sugar-phosphate backbone of the DNA
+bp DNA fragments used for crystallizations are shown (Figure 2D).
+in Figure 2A. Note that the structures of DNA-bound To examine the specific functional roles of the CBFa
+CBFa are very similar, with or without CBFb: the rms residues directly involved in binding to the DNA, we
+deviation of the a carbon atoms was only about 0.28 A˚ . carried out electrophoretic mobility shift assays (EMSA)
+Overall foldings of CBFa and CBFb are consistent with using various CBFa point mutants and found that all
+that previously reported (Berardi et al., 1999; Goger et (R80A, R142A, D171A, R174A, and R177A) but V170A
+al., 1999; Huang et al., 1999; Nagata et al., 1999; Warren reduce or completely abolish DNA binding (Figure 4A),
+et al., 2000): both the CBFa Runt domain and the CBFb which confirms that these residues all specifically recog￾core domain fold principally as b barrel architectures, nize the DNA via hydrogen bonds. Supporting our struc-Structure of AML1/Runx-1(Runt Domain)-CBFb-DNA
+757
+Figure 1. Overviews of the CBFa-b-C/EBPb￾DNA Quarternary Complex from Three Per￾spectives
+Views from the front (A), from the side (B),
+and from the top (C). Within CBFa, b strands,
+and loops are depicted as red arrows and
+pink tubes, respectively; within CBFb, a heli￾ces, b strands, and loops are depicted as
+green ribbons, blue arrows, and cyan tubes,
+respectively. The C-terminal region of the
+C/EBPb homodimer containing the bZip do￾main is shown as yellow ribbons.
+tural evidence, earlier results obtained using AML- or DNA and can be divided into two predominantly hydro￾CCD-related mutants or artificial point mutants (Lenny philic interaction areas—one proximal to DNA (Area I)
+et al., 1995; Crute et al., 1996; Akamatsu et al., 1997a, (Figures 3A and 3D) and one distal (Area II) (Figures 3A
+1997b; Lee et al., 1997; Osato et al., 1999; Zhou et al., and 3C)—with an intervening hydrophobic area. Area I
+1999; Zhang et al., 2000) show that mutations that dis- consists of b5, L5, and b10 of CBFa and b1, L1, L2, and
+rupt the folding architecture of CBFa, or those in which b3 of CBFb. A hydrogen bonding network is formed in
+DNA-recognizing residues are substituted (R80C, K83N, this area between the backbones and side chains of
+R139Q, R174Q, and R177Q), diminish or abolish CBFa- Ala107, Tyr113, and Ser114 of CBFa and the side chains
+DNA binding. of Asn63, Arg33, and Lys28 of CBFb; the phenol ring of
+Tyr113 also makes van der Waals contacts with Thr30
+CBFa-CBFb Interactions and Val58 of CBFb. In addition, the side chain of Thr149
+CBFb binds to CBFa at a site away from the DNA binding of CBFa is hydrogen bonded to the backbone of Asn63
+site, such that the longitudinal axes of the barrel-shaped of CBFb. Area I extends to the central hydrophobic re￾proteins are oriented perpendicularly (Figures 1A–1C, gion situated between b5, b10, L10, b11, and L11 of
+3A, and 4F). At the CBFa CBFa and a2, b3, and L5 of CBFb, where Met106, -CBFb interface, the somewhat
+exposed b sheet region of CBFa Thr151, Phe153, Val159, and H163 of CBFa and Phe17, , which is composed
+of b5, b10, and b11, is inserted into the space between Asn63 (methylene part), Leu64, and Ser65 (methylene
+b3 and b5 of CBFb part) of CBFb are involved in van der Waals contacts. , which form the edges of a b sheet
+(Figure 3A), thereby stabilizing the two subunits. Com- Area II consists of L1, L10, and b11 of CBFa and the
+parison of the CBFa-CBFb interfaces in the free (Warren N terminus, a1, b3, b5, and L5 of CBFb. This area con￾et al., 2000) and DNA-bound forms indicates that the tains a short, intermolecular, parallel b sheet, composed
+interface becomes more extended—and consequently of b11 of CBFa and b5 of CBFb (Figures 2B and 2C),
+more stable—upon binding to DNA, as evidenced by an with hydrogen bonds between the backbones of Pro157
+increase in the surface area buried between CBFa and and Val159 of CBFa and Ile102 and Asn104 of CBFb
+CBFb from 1900 A˚ 2 to 2190 A˚ 2 and an increase in the (Figure 3C). The hydrogen bonding network in the area
+number of possible intersubunit hydrogen bonds from around the parallel b sheet extends between the back￾10 to 16. Also, a slight difference of the relative positions bone and side chain of Thr161 of CBFa and the side
+between CBFa and CBFb is observed, when the back- chain of Asn104 of CBFb. The parallel b sheet is also
+bone a carbons of the CBFa molecules in the CBFa- stabilized by van der Waals contacts between Pro156
+CBFb complexes with and without DNA are superim- and Gln158 (methylene part) of CBFa and Ile102 of CBFb
+posed. on one side, and between Pro157 and Val159 of CBFa
+The CBFa-CBFb interface extends linearly from the and Gln67 (methylene part), Met101, Leu103, and Leu64Cell
+758
+Figure 2. Sequences, Foldings, and DNA Recognition
+(A) Amino acid sequences of CBFa and CBFb with indications of their secondary structures; the nucleotide sequence of the 26 bp double￾stranded DNA fragment used for determining the structures of the CBFa-b-C/EBPb-DNA and CBFa-C/EBPb-DNA complexes; and the sequence
+of the 16 bp DNA fragment used for determining the structure of the CBFa-DNA complex.
+(B and C) Topology diagrams of the structures of CBFa (B) and CBFb (C). The first and last residue numbers of each secondary structure are
+indicated. The notations A, B, C, C9, E, F, and G correspond to the b strands classified as being within the immunoglobulin fold. In (B), cyan,
+green, and yellow circles depict the residues involved in specific DNA base recognition, nonspecific DNA backbone interactions, and water￾mediated interactions, respectively. In (C), the electron density of a section of L3 (residues 71 to 81) was not observed (dotted line).
+(D) Schematic representation of DNA recognition by CBFa. Dashed and solid lines depict intermolecular hydrogen bonds and van der Waals
+contacts, respectively. DNA base labels involved in direct interactions with amino acids are colored red. A DNA base label involved in water￾mediated base recognitions is colored green. DNA recognitions by the peptide backbone amide are noted as NH. Minor groove recognitions
+are circled with magenta.
+(E) A stereo view of the specific interactions between CBFa and DNA. Pink tubes show the CBFa peptide backbone. Dotted lines depict
+intermolecular hydrogen bonds and water molecules are shown as red balls.Structure of AML1/Runx-1(Runt Domain)-CBFb-DNA
+759
+Figure 3. Stabilization Network between CBFa, CBFb, and DNA
+(A) CBFa-CBFb heterodimer structure in complex with the DNA. Two predominantly hydrophilic interaction areas between CBFa and CBFb
+(Areas I and II) are marked with dotted circles.
+(B) Schematic representation of the stabilization network between CBFb (cyan), CBFa (pink), and DNA (gray).
+(C and D) Stereo views highlighting the hydrogen bonding network among CBFa, CBFb, and DNA moieties at Area II (C) and Area I (D) within
+the CBFa-b-C/EBPb-DNA complex. CBFa and CBFb are colored pink and cyan, respectively. Hydrogen bonds are depicted by black dotted
+lines. To demonstrate the change in the conformation of CBFa caused by CBFb binding, parts of the CBFa structure as it occurs within the
+CBFa-DNA complex (without CBFb) are superimposed in green.Cell
+760
+of CBFb on the other side, a network of van der Waals
+contacts that extends all the way to the central hy￾drophobic region. Near this site, the side chain of Asn69
+and backbone of Asp66 of CBFa are hydrogen bonded
+to the backbone of Pro2 and side chain of Lys11 of
+CBFb, respectively, and Pro68 of CBFa makes a van
+der Waals contact with Val5 of CBFb, stabilizing the
+N-terminal regions of both subunits.
+Several CBFa point mutations that degrade or abolish
+CBFa-CBFb heterodimerization have been described
+(Lenny et al., 1995; Akamatsu et al., 1997a; Li and Ger￾gen, 1999). Some (e.g., N109D, F146Y, L148D, or Q158L)
+impair CBFa-CBFb binding by disrupting the conforma￾tion of L5 or the overall folding architecture of CBFa,
+which also affects its ability to bind to DNA. Others
+(e.g., M106V or G108R) impair CBFa-CBFb binding by
+specifically affecting the recognition residues at the
+CBFa-CBFb interface. For instance, replacement of
+Met106 with a b-branched valine would cause steric
+hindrance between the branched methyl group of valine
+and the methylene part of Asn63 of CBFb, while replace￾ment of Gly108 with arginine would cause steric hin￾drance between the arginine and the L2 main chain of
+CBFb. In these cases, the mutants retain the capacity
+to bind to the DNA.
+The effects of several CBFb mutations on CBFa-CBFb
+heterodimerization and their in vivo function were exam￾ined in a parallel study (Tang et al., 2000b). R3A, V4A,
+G61A, Q67A, L103A, and N104A mutations all impair heter￾odimerization, as Arg3, Gln67, Leu103, and Asn104 are all
+directly involved in CBFa-CBFb binding, as described
+above (Figure 3C); the V4A mutation would be expected
+to alter the folding structure of CBFb; and the G61A
+mutation would cause steric hindrance between the gly￾cine and the Asn109 backbone of CBFa (Figure 3D).
+Figure 4. Characterization of the CBFa and CBFb Mutants on DNA Effects of Amino Acid Mutations on CBFa-CBFb Binding and CBFa-CBFb Heterodimerization, and Structural Maps Heterodimerization Detected by EMSA of Disease-Related Mutations
+and Isothermal Titration Calorimetry (A–E) Autoradiograph of polyacrylamide gels showing EMSA analy- The effect of various CBFa and CBFb point mutations ses of CBFa binding to DNA in the absence or presence of CBFb;
+on heterodimerization was further examined using the various CBFa and CBFb point mutants were used; fragment length
+EMSA and isothermal titration calorimetry (ITC) experi- was the same as that used for crystallizations. DNA binding reac￾ments (Figures 4B–4E and Table 1). CBFa Y113A and tions were carried out for 20 to 30 min at 208C in buffer containing
+25 mM HEPES (pH 7.4), 50 mM KCl, 5 mM MgCl2, 0.5 mM EDTA, T149A mutations and CBFb V5A, N63A and N104A muta- 5% Ficol, 10 mM DTT, 0.2 mg/ml BSA, ,2.9 pM DNA, 2.5 nM wild- tions—all of which affect residues directly involved in type or mutant CBFa, and 3 nM (B) or 100 nM (A and C) wild-type the interactions between the two subunits—impaired or CBFb, or 3 nM (D) or 100 nM (E) mutant CBFb. The 16 bp DNA
+abolished heterodimerization, confirming the functional fragment shown in Figure 2A was used for the binding assay. Poly￾roles of these residues described above. The CBFb acrylamide gel electrophoresis (15%, 120 V) was carried out at 208C
+N63F mutant does not bind to CBFa due to steric hin- for 90 min.
+(F and G) Structural maps of CBFa point mutations occurring in drance involving the introduced bulky phenyl ring. By acute myelogenous leukemia and related diseases (F) and in cleido- contrast, the CBFa-CBFb interactions are only slightly cranial dysplasia (G). The mutated residues are shown in green ball impaired by D110A/E111A or K144M mutation of CBFa. and stick presentations. The peptide backbones of CBFa and CBFb
+This effect may be a consequence of destabilization of are depicted as pink and cyan tubes, respectively.
+the conformation of L5 caused by perturbation of the
+polar environment, which in wild-type CBFa is formed
+by the side chains of Asn109, Asp110, Glu111, and binding, nor does the D66A mutation; the latter likely
+Lys144. In the case of the CBFa N109A mutant, destabili- slightly enhances CBFa-CBFb interactions, probably
+zation of the conformation of the L5 loop is more critical, due to relief of the steric hindrance between Asp66 of
+because in wild-type CBFa, the side chain of Asn109 is CBFa and Asn104 of CBFb.
+well stabilized by two hydrogen bonds with the back￾bones of Ser145 and Gly108. The N109A mutation thus Thermal Stabilization of CBFa upon CBFb
+causes an almost total loss of the heterodimerization. and DNA Binding
+The CBFa R142A mutation, which is the mutation of a To examine the conformational stabilization of CBFa by
+DNA-recognizing residue, does not impair CBFa-CBFb CBFb and DNA, we measured the thermal stabilitiesStructure of AML1/Runx-1(Runt Domain)-CBFb-DNA
+761
+Table 1. Dissociation Constants of CBFa or CBFa Mutants domain, all of which are prone to be flexible. L3, L9, and
+Binding to CBFb or CBFb Mutants L12 are mainly involved in DNA recognition (Figures 2B
+and 2E), and the relative orientations of L3 and L12 are CBFa CBFb KD (3 1029 M) weakly fixed by the adjacent short parallelbsheet between
+WT WT 26.1 6 6.5 b3 and b12, facilitating DNA recognition at the major D66A WT 17.7 6 6.7 groove. L9, which interacts with the minor groove, is con- N109A WT 280.5 6 45.4 sidered to be most flexible—and thus the least stable, D110A/E111A WT 50.5 6 11.7
+Y113A WT 115.9 6 29.7 especially in the absence of CBFb binding—due to the
+R142A WT 18.9 6 3.6 presence of three glycine residues. The relative posi￾K144M WT 44.8 6 6.2 tions of b12–L12 and L9 are important for efficient DNA
+T149A WT 152.4 6 39.0 binding, because CBFa catches the sugar-phosphate WT N63A 146.2 6 55.1 backbone ridge of the DNA from both sides: the major WT N104A 281.2 6 127.0 groove interacts with the b12–L12 arm and the minor
+groove with L9, where the Lys167 side chain of b12 and
+the Gly143 backbone of L9 recognize the same phosphate, of the CBFa Runt domain in free, CBFb-bound, DNA- and the backbone of Val170 of L12 recognizes the adjacent bound, and CBFb- and DNA-bound states in CD and phosphate. In the presence of CBFb, networks of hydro- UV melting experiments (Table 2). In the absence of gen bonds between L11 and L9 and between L9 and L5 CBFb and DNA, the melting point (Tm) of the CBFa Runt would stabilize the b12–L12 arm and L9.
+domain is 448C. When bound to CBFb or DNA, however, As described above, CBFb interacts with CBFa via
+the Tm of CBFa increases to 548C and 538C, respec- two predominantly hydrophilic regions—Areas I and II.
+tively. And when both CBFb and DNA are bound, the Here, we describe how their stabilization affects the
+Tm of CBFa is 608C. Thus, the thermal stability of CBFa conformations of the flexible loops in contact with the
+in the absence or presence of DNA is increased upon DNA. In Area I (Figures 3A, 3B, and 3D), CBFb mainly
+binding CBFb, and CBFa is fully stabilized upon binding interacts with L5 of CBFa, which has an extensive net￾both CBFb and DNA. Moreover, the transition enthalpy work of hydrogen bonds with L9. Within that network,
+of the DNA-bound CBFa is significantly increased from Asp110 and Glu111 of L5 make salt bridges with Lys144
+430 to 930 kJ mol21 in the presence of CBFb. of L9, and the side chain of Asn109 of L5 is hydrogen
+bonded to the backbone of Ser145 of L9. This hydrogen
+Mechanism for the Regulation of CBFa-DNA bonding network extends to the anti-parallel b sheet
+Binding by CBFb between b5 and b10 of CBFa, where the backbone of
+CBFa-DNA binding is enhanced several fold in the pres- Ala107 and the side chain of Thr149 are hydrogen
+ence of CBFb (Ogawa et al., 1993; Gu et al., 2000; Tang bonded to the backbone and side chain of Asn63 of
+et al., 2000a), an effect confirmed by the present analysis CBFb, supporting the L5–L9 interactions. As a result,
+(Figures 4A–4E). To examine the regulation of CBFa- CBFb stabilizes L9 such that it facilitates interactions
+DNA binding by CBFb in more detail, we compared the between the backbone amide of Gly143 of CBFa and a
+structure of the CBFa-b-C/EBPb-DNA complex with DNA backbone phosphate and between the side chain
+those of the CBFa-C/EBPb-DNA and CBFa-DNA com- of Arg142 of CBFa and the N3 position of A239 and O2
+plexes, which lack the CBFb subunit. Somewhat surpris- position of C249 of the DNA. In the absence of CBFb—
+ingly, CBFb binding causes no dramatic structural i.e., within the structures of the CBFa-DNA and CBFa￾changes in the CBFa Runt domain, which implies that C/EBPb-DNA complexes—the hydrogen bond between
+CBFb does not alter the overall conformation of the Ser145 and Asn109 and the salt bridges between
+CBFa Runt domain, but only stabilizes it in a conforma- Lys144, Asp110, and Glu111 are not observed, indicat￾tion suitable for DNA binding. ing insufficient stabilization of L9 and L5. Furthermore,
+Facing toward the DNA are four loops (L3, L5, L9, and comparison of the structures of CBFa-b-C/EBPb-DNA
+L11) and a C-terminal linker (L12) of the CBFa Runt and CBFa-b (Warren et al., 2000) revealed that the back￾Table 2. Thermodynamic Parameters of the Thermal Transitions for the Free or Complexed Forms of CBFa, CBFb, and DNA
+(assignment of transition component)*
+CBFa CBFb DNA
+Tm.1 DHv.1 Tm.2 DHv.2 Tm.3 DHv.3
+(8C) (kJ/mol) (8C) (kJ/mol) (8C) (kJ/mol)
+CBFa CD220 44.4 303
+CBFb CD220 49.6 588
+CBFa1CBFb UV215 53.9 833 57.8 489
+DNA UV260 65.7 305
+DNA1CBFa UV260 52.5 432 66.0 390
+DNA1CBFa1CBFb CD220 60.0 899 58† † ‡ ‡
+UV260 59.8 927 ‡ ‡ 65.2 480
+* The assigned component may involve the interfaces with the neighboring components thermodynamically. The melting temperature (Tm)
+and van’t Hoff enthalpy (DHv) are listed for each component.
+† The value is ambiguous or not determined due to weak appearance of the transition.
+‡ The transition was not observed.Cell
+762
+bone conformations of Arg142–Lys144 of L9 and the lation of CBFa-CBFb binding by the DNA; when the
+Arg174-C terminus of L12 in CBFa differ within the com- CBFa-CBFb heterodimer binds to DNA, the entire hydro￾plexes, indicating that optimal hydrogen bonding in the gen bonding network shown in Figures 3B–3D is com￾area around L5 and L9 of CBFa is not achieved until pleted by the conformational stabilization of the regions
+both CBFb and DNA are bound. around L5 and b10 via Area I, around b11–L11 and L1
+In Area II (Figures 3A–3C), CBFb interacts mainly with via Area II, around L9 via the DNA minor groove, and
+b11 but also with L1 of CBFa; b11 extends through L11 around b12–L12 via the DNA major groove.
+to the b12–L12 segment, which interacts with the DNA,
+and L1 extends through b2–L2 to the b3–L3 segment, Effects of Amino Acid Mutations on the Allosteric
+which also interacts with the DNA. Here, by following Regulation Mechanism, Detected by EMSA
+the intermolecular parallel b sheet between b5 of CBFb and Surface Plasmon Resonance
+and b11, one observes that the side chain of Asn104 of We next carried out a series of EMSA experiments using
+CBFb makes hydrogen bonds with the backbone and CBFa and CBFb point mutants with the aim of better
+side chain of Thr161 of b11. The stabilized Thr161 back- understanding the facilitation of CBFa-DNA binding by
+bone is also hydrogen bonded to the backbone of Asp66 CBFb (Figures 4A–4E). In these experiments, however,
+of L1, while the Asp66 side chain conformation is altered the effective concentration of CBFa was reduced in the
+by the steric effect of the side chain of Asn104 of CBFb, absence of CBFb due to precipitate formation during
+resulting in formation of a hydrogen bonding network incubation time, resulting in an apparent enhancement
+with the backbone of Thr161 and the backbone and side of CBFa-DNA binding which is unrelated to the “real”
+chain of His163 of L11. The His163 side chain is also allosteric control by CBFb. Therefore, to examine the
+stabilized by the central hydrophobic region of the allosteric regulation of CBFa-DNA binding by CBFb in
+CBFa-CBFb interface. Moreover, the backbones of a more precise and quantitative fashion, we carried out
+Tyr162, Arg164, Ala165, Ile166, and Ile168 from the L11– the surface plasmon resonance (SPR) experiments in
+b12 region are hydrogen bonded to the backbone of the absence and presence of CBFb (Table 3).
+Leu148, the side chain of Thr147, and the backbones Although point mutations affecting residues that di￾of Phe146 and Ser140 from the L9–b10 region, which is rectly interact with the DNA impaired CBFa-DNA bind￾also stabilized by CBFb via Area I. Consequently, the ing, that binding is still enhanced in the presence of
+L11–b12 region is stabilized by both Areas I and II. In CBFb, the R174A mutant being the only exception (Fig￾this way, CBFb stabilizes the b11–L11–b12 segment ure 4A). In the point mutations affecting residues in￾such that the side chain of Lys167 and the backbone volved in the allosteric regulation of CBFa-DNA binding
+of Val170 efficiently interact with DNA backbone phos- by CBFb, most of these affect CBFa-CBFb binding (Fig￾phates, and residues of L12 (Asp171, Arg174, and ures 4B–4E). For example, the CBFa N109A mutation
+Arg177) interact with the DNA bases. In addition, around and the CBFb N63F and N104A mutations almost com￾the L1 region, the side chain of Asn69, which interacts pletely disrupt the allosteric regulation of CBFa-DNA
+with the Pro2 backbone of CBFb, becomes hydrogen binding solely by abolishing the interaction between
+bonded to the backbone of Gly95 and the side chain of CBFa and CBFb. The N109A mutant also significantly
+Gln158 to bridge L4 and b11. Acting in concert, the diminished DNA binding, most likely due to destabiliza￾interactions just described enable CBFa to grip the DNA tion of the L5 and L9 loops caused by collapse of the
+molecule at both the major and minor grooves. hydrogen bonding network between them. By contrast,
+in the case of the CBFa Y113A and T149A mutants
+NMR Data Support the Notion of Allosteric and the CBFb N63A mutant, the allosteric regulation
+Regulation of CBFa-DNA Binding of CBFa-DNA binding is only partially impaired due to
+The allosteric regulation of CBFa-DNA binding by CBFb moderate degradation of the interaction between CBFa
+is well supported by previously described NMR data. and CBFb (Figures 4B and 4D; Table 1), and this impair￾Upon binding CBFb, large chemical shifts changes of ment can be largely overcome by adding excess CBFb
+the backbone amide protons and nitrogens of CBFa- (Figures 4C and 4E; Table 3). Finally, in the case of the
+DNA are observed in the L1, b5–L5, b10, and b11–L11 CBFa D66A, D110A, E111A, and D110A/E111A mutants,
+regions (Nagata et al., 1999; Tang et al., 2000a), all of not only is the facilitation of CBFa-DNA binding by CBFb
+which participate in the regulation of CBFa-DNA binding not impaired, in some cases it is actually further en￾by CBFb. It is also reported that in the DNA-free state, hanced, indicating that the salt bridge contributions of
+the backbone amide signals from residues in the area Asp66, Asp110, and Glu111 are not critically important
+around L5 and L9–b10 and from Lys167 of CBFa are not for the enhancement. In fact, although it was necessary
+observed due to conformational exchange contributions to collect the SPR data in the presence of a relatively
+(Perez-Alvarado et al., 2000). Even in the DNA-bound high salt concentration (180 mM NaCl), which might be
+state, the backbone amide signals from the residues in expected to weaken salt bridge interactions and thus
+the area around L11 exhibit exchange broadening that diminish the protein’s affinity for DNA, wild-type CBFa￾is removed upon CBFb binding (Tang et al., 2000a), DNA binding is enhanced by CBFb to an extent similar
+indicating that slow conformational fluctuations in the to that seen in gel shift experiments carried out in the
+peptide backbone in the area around L11 still occur presence of a relatively low salt concentration (Gu et
+within the CBFa-DNA complex, and that such fluctua- al., 2000; Tang et al., 2000a). It is therefore concluded
+tions are suppressed after CBFb binding. These findings that the CBFa and CBFb residues involved in forming
+all support the notion of allosteric regulation of CBFa- hydrogen bonds with the peptide backbone of CBFa in
+DNA binding by CBFb, in other words, of allosteric regu- Areas I and II (e.g., N109 of CBFa and N63 and N104 ofStructure of AML1/Runx-1(Runt Domain)-CBFb-DNA
+763
+Table 3. Kinetic and Dissociation Constants of CBFa or its Mutants Binding to DNA in the Absence and Presence of CBFb
+or its Mutants
+CBFa CBFb KD (31029 M) ka (3 105 M21 s21
+) kd (3 1023 s21
+)
+WT (2) 35.8 6 0.6 2.08 6 0.19 7.45 6 0.76
+WT WT 7.56 6 0.47 3.89 6 0.25 2.93 6 0.02
+D66A (2) 53.2 6 2.6 1.09 6 0.13 5.77 6 0.57
+D66A WT 8.14 6 0.19 3.29 6 0.14 2.68 6 0.15
+N109A (2) 160 6 9 1.36 6 0.19 22.0 6 2.0
+N109A WT nda nda nda
+D110A (2) 28.6 6 0.19 2.17 6 0.20 6.20 6 0.43
+D110A WT 4.19 6 0.51 6.42 6 0.63 2.66 6 0.20
+E111A (2) 28.2 6 1.27 2.04 6 0.19 5.73 6 0.36
+E111A WT 3.27 6 0.51 6.23 6 0.31 1.97 6 0.13
+D110A/E111A (2) 28.6 6 0.29 1.72 6 0.19 4.85 6 0.55
+D110A/E111A WT 3.13 6 0.17 4.87 6 0.50 1.52 6 0.15
+Y113A (2) 37.7 6 1.9 2.37 6 0.45 8.91 6 0.76
+Y113A WT 9.92 6 0.47 3.10 6 0.25 3.16 6 0.25
+R142A (2) 63.9 6 3.4b 1.17 6 0.1b 7.51 6 0.71b
+R142A (2) nda,b nda,b nda,b
+K144M (2) 489 6 12.2c nda nda
+K144M (2) 34.0 6 2.8d 1.61 6 0.13d 5.48 6 0.47d
+K144M WT 35.2 6 3.7d 1.56 6 0.22d 5.52 6 0.85d
+T149A (2) 37.1 6 1.4 1.59 6 0.34 5.90 6 1.00
+T149A WT 7.02 6 0.92 4.67 6 0.47 3.26 6 0.31
+WT N63A 15.1 6 1.4 2.82 6 0.34 4.26 6 0.58
+WT N104A nda nda nda
+a Not determined from the sensorgram, because the increase in the RU was not monophasic or was too small.
+b These values were obtained in the presence of 100 mM NaCl instead of 180 mM NaCl.
+cThis value was calculated using Scatchard analysis.
+d These values were obtained in the presence of 140 mM NaCl instead of 180 mM NaCl.
+CBFb) play particularly important roles in stabilizing the critical interactions mediating the allosteric regulation
+hydrogen bonding network of the CBFa-CBFb interface by CBFb. In that regard, it is notable that the loop inter-
+(Figures 3C and 3D). acting with the minor groove uses hydrogen bonds sen￾The CBFa R142A and K144M mutants are associated sitive to the backbone conformation of the loops for
+with markedly diminished DNA binding due to disruption regulation of DNA binding. It is thus concluded that the
+of hydrogen bonds between the affected residues and conformation and stability of the backbone of the L9
+the DNA. In the R142A mutant, an arginine that specifi- loop, which binds to the minor groove, is a key determi￾cally recognizes DNA bases is replaced by alanine, nant in the regulation of CBFa-DNA binding by CBFb.
+somewhat impairing CBFb-mediated facilitation of CBFa￾DNA binding (Figures 4A–4C). Some enhancement of Comparison of Regulation of CBFa-DNA Binding
+the binding of the R142A mutant to DNA is detected with that of Other Transcription Factors’ DNA Binding
+in the presence of excess CBFb, though we did not CBFa belongs to a group of transcriptional regulatory
+quantitatively evaluate these SPR data due to the non- proteins that possess an immunoglobulin fold in their
+monophasic behavior of the interaction (data not DNA binding domains—these include NFAT, STAT1,
+shown). STAT3b, T-domain, p53, and NF-kB (Cho et al., 1994;
+The K144M mutant is the most remarkable. Its signifi- Ghosh et al., 1995; Mu¨ ller et al., 1995; Cramer et al.,
+cantly diminished DNA binding activity is most likely due 1997; Mu¨ ller and Herrmann, 1997; Becker et al., 1998;
+to a conformational change and destabilization of the Chen et al., 1998a, 1998b, 1998c, 1998d; Zhou et al.,
+L9 backbone caused by replacement of the polar lysine 1998). These proteins all bind to DNA mainly using loops
+side chain—normally inserted into a hydrophilic environ- and a C-terminal linker located on the same end of a b
+ment formed by Asn109, Asp110, and Glu111 from L5— barrel, though their three-dimensional orientations vary
+with a bulky hydrophobic methionine side chain. The widely, leading to differences of their respective target
+effect of such a mutation would be expected to cause DNA sequences. Since we now have a better under￾conformational changes in the backbone of the next standing of the mechanism by which CBFb regulates
+residue, Gly143, whose backbone amide normally inter- CBFa-DNA binding, it becomes of great interest to com￾acts with a DNA backbone phosphate, thereby reducing pare that mechanism with those regulating the binding
+DNA binding. Although CBFb binding activity is only to DNA of other proteins containing immunoglobulin
+slightly impaired in this mutant (Table 1), no facilitation folds.
+of CBFa K144M-DNA binding is observed, even when Within the NFAT-Fos-Jun-DNA complex (Chen et al.,
+virtually all the mutant is bound to CBFb (Table 3). This 1998b), the minor groove–interacting loop (E9F loop) of
+finding strongly supports the proposed mechanism, in NFAT is stabilized by Fos-Jun heterodimer. This mode
+which a hydrogen bond between the Gly143 backbone of interaction has a distant resemblance to the CBFb￾amide and a DNA backbone phosphate is one of the mediated stabilization of L9 of CBFa via L5. Further-Cell
+764
+Table 4. Summary of X-Ray Experiments
+Complex CBFa-DNA CBFa-C/EBPb-DNA CBFa-b-C/EBPb-DNA
+Crystal data
+a (A˚ ) 51.1 102.2 121.1
+b (A˚ ) 104.1 109.3 163.6
+c (A˚ ) 116.2 127.4 109.3
+Space group P212121 P21212 C2221
+Data collection
+Wavelength (A˚ ) 1.0 0.7085 1.0 1.0398 1.0388
+Resolution (A˚ ) 20–2.65 30–3 20–3 20–3 20–3
+Reflections
+total 61,764 117,670 66,989 63,748 65,319
+unique 17,550 26,407 21,113 20,972 20,992
+Completeness (%) 94.5 91.3 97.1 96.5 96.7
+I/s( I) 26.6 13.0 15.5 15.9 16.4
+Rsym 0.047 0.066 0.062 0.057 0.058
+MAD phasing (3.1 A˚ resolution)
+Rcullis, dispersive/anomalous —/0.69 0.65/0.64 0.69/0.64
+Phasing power, dispersive/anomalous —/1.24 0.97/1.40 0.83/1.42
+Figure of merit (all) 0.42
+Refinement
+Rcryst/Rfree (5% of reflections) 0.223/0.263 0.244/0.313 0.247/0.299
+Rms deviations
+bonds (A˚ )/angles (8) 0.008/1.38 0.007/1.27 0.007/1.31
+Ramachandran plot (% of residues in regions)
+core 83.2 86.5 86.7
+additionally allowed 16.3 12.6 12.7
+generously allowed 0.5 0.9 0.6
+disallowed 0.0 0.0 0.0
+more, when we superimpose NFAT within the NFAT- (Batchelor et al., 1998). In this case, the minor groove–
+Fos-Jun-DNA complex and CBFa within the CBFa-b- interacting helix of GABPa is stabilized by the ankyrin￾C/EBPb-DNA complex using their conserved b strand like repeats of GABPb. From the structural evidences
+regions for fitting, Fos-Jun partially overlaps CBFb. of the protein-DNA complexes explained above, we can
+Within NF-kB (p50, p52, and p65)-DNA complexes find that stabilization of the protein backbone amide–
+(Ghosh et al., 1995; Cramer et al., 1997; Chen et al., DNA phosphate interaction at the protein-DNA minor
+1998a, 1998d), the “mobile” insert region, which may groove interface appears to be a common feature of
+interact with other DNA binding proteins (Cramer et al., mechanisms in which a regulatory protein, having or
+1997), could stabilize the interaction between the protein not having the DNA binding activity, affects its partner
+and the DNA minor groove. When the NF-kB N-terminal protein-DNA interaction.
+domain within the NF-kB (p50)-DNA complex and CBFa
+within the CBFa-b-C/EBPb-DNA complex are superim- The Relationship between the Structure of the
+posed, the insert region of p50, which is also contained CBFa-CBFb Heterodimer Bound to the DNA
+in p52 and p65, overlaps CBFb, suggesting the regula- and the Amino Acid Mutations in Related Diseases
+tory role of the insert region is similar to that of CBFb. AML1/Runx-1 and CBFb are the most frequently mu￾Within the p53-DNA complex (Cho et al., 1994), the minor tated molecules in acute leukemia and related diseases
+groove–interacting loop (L3), which sandwiches the DNA (Cleary, 1999; Speck et al., 1999; Lutterbach and Hiebert,
+sugar-phosphate ridge with the major groove–inter- 2000), whereas CBFA1/Runx-2 is mutated in CCD, a
+acting b strand (S10), is stabilized by zinc coordination congenital osseous abnormality (Quack et al., 1999;
+such that the zinc atom can modulate the interaction Zhou et al., 1999; Zhang et al., 2000). The majority of
+between p53 and the DNA (Rainwater et al., 1995). Inter- mutations associated with acute leukemia are caused
+estingly, Arg248 in L3, Arg273 in S10 and some point by sporadic chromosomal translocations, resulting in
+mutations destabilizing the L3 conformation are very conversion of CBFa-CBFb from a heterodimeric tran￾frequently mutated in human tumors (Hollstein et al., scriptional activator to a transcriptionally repressive fu￾1996). sion protein (Cleary, 1999; Speck et al., 1999; Lutterbach
+Thus, a number of transcriptional regulatory factors and Hiebert, 2000).
+possessing immunoglobulin folds in their DNA binding In addition, acute leukemias and related diseases as￾domains also seem to possess related mechanisms— sociated with biallelic and heterozygous point mutations
+mediated by other transcription factors or by chemical of AML1/Runx-1 have also been reported (Osato et al.,
+modifications—that regulate DNA binding by affecting 1999; Werner et al., 1999; Barton and Nucifora, 2000;
+areas of interaction sandwiched between the protein Imai et al., 2000; Preudhomme et al., 2000). In the case
+and the DNA, although the detailed mechanisms differ. of biallelic mutations, no functional AML1/Runx-1 allele
+Analogous to CBFs, the Ets domain transcription factor remains; in the case of heterozygotes, the DNA bind￾GABP also consists of a subunit that binds to the DNA ing activity of AML1/Runx-1 from one allele is impaired,
+(GABPa) and a regulatory subunit that does not (GABPb) with AML1/Runx-1-CBFb heterodimerization activity re-Structure of AML1/Runx-1(Runt Domain)-CBFb-DNA
+765
+combined with density modification, produced a good quality elec- tained. As the hereditary case, some pedigrees having
+tron density map, enabling the main chain to be clearly traced and heterozygous point mutation of AML1/Runx-1 resulting most of the side chains of the proteins to be well fitted. The orienta- in a familial platelet disorder with a propensity to develop tions of the DNA atoms were also confirmed using complexes con- into acute myelogenous leukemia (FPD/AML) has also taining three heavy atom derivatives of the DNA fragments in which
+been reported (Song et al., 1999). four, five, or six deoxythymidines were replaced with 5-iodo deoxy￾Based on the three-dimensional structure of the uracils at the corresponding positions. A model was built using
+CBFa-CBFb heterodimer bound to the DNA, point muta- TURBO-FRODO software and refined using standard protocols of
+CNS version 0.9a (Bru¨ nger et al., 1998). The structures of CBFa-C/ tion sites in the heterozygous cases are mapped exclu- EBPb-DNA and CBFa-DNA were solved by the molecular replace- sively to regions of the CBFa-DNA interface (Figure 4F). ment method using the corresponding fragments of the refined It is readily apparent that these mutations impair the structure of CBFa-b-C/EBPb-DNA as a search model and then re￾capacity of CBFa to bind to DNA without affecting the fined using CNS. The crystals of the latter two complexes contained
+overall folding architecture of CBFa or CBFa-CBFb het- two complex molecules in an asymmetric unit. The statistics used
+erodimerization, which could explain their dominant- for the final refinement and for assessing the quality of the refined
+structures are summarized in Table 4. negative behavior (Imai et al., 2000). In contrast, CBFA1/
+Runx-2 point mutations associated with CCD are
+ITC Experiments thought to affect the folding architecture of CBFa and
+ITC measurements were carried out using a MicroCal MCS-ITC calo- thus impair both DNA binding and heterodimerization rimeter at 258C. A 0.015 mM solution of CBFa was titrated using 8 (Figure 4G), resulting in haploinsufficiency of CBFA1/ ml aliquots of 0.16 mM CBFb solution. For both proteins, the buffer
+Runx-2 (Quack et al., 1999; Werner et al., 1999; Zhou et solution contained 10 mM HEPES (pH 7.4), 180 mM NaCl, and
+al., 1999; Barton and Nucifora, 2000; Zhang et al., 2000). 0.005% Tween 20. The dilution enthalpy of CBFb was subtracted
+from the titration data.
+Conclusions
+CD and UV Melting Experiments
+Thermal denaturation of CBFa, CBFb, DNA, and their complexes We have presented compelling structural evidence of was measured with both CD and UV while increasing the tempera- the mechanism by which CBFa recognizes DNA and ture at a rate of 0.75 K/min using a Jasco J-630 spectropolarimeter
+the relationship between the structure of the resultant and a Shimadzu UV-1200 spectrometer. Samples were dissolved in
+complex and such CBFa mutation–related diseases as 50 mM potassium phosphate buffer (pH 7.5) containing 50 mM KCl
+acute leukemias and CCD. We have also clarified the and 10 mM DTT. The concentration of each sample was 0.025 mM.
+mode of interaction between CBF Data were collected using cylindrical quartz cuvettes with a 0.2 b and CBFa and the
+mm path-length, and the temperature was controlled with a water mechanism by which the former regulates the binding circulation system. Changes in ellipticity were monitored at 220 nm, of the latter to DNA. CBFa-DNA binding is apparently while changes in absorbance were monitored at 260 nm and 215
+modulated by CBFb through stabilization of CBFa re- nm for the samples with and without DNA, respectively.
+gions that bind to the major and minor grooves of the
+DNA. Although the higher-order structures of only a few Surface Plasmon Resonance
+transcription factor-DNA complexes are known, the A BIAcore 2000 biosensor system (Pharmacia Biosencer, Uppsala)
+present findings shed light on key aspects of transcrip- was used to measure the interaction between CBFa and a 21 bp
+tion factor assembly, which should be useful for future DNA fragment (59-CAAACTCTGTGGTTGCCTTGC-39) derived from
+the CSF-1R promoter. The biotinated DNA was bound to the biosen- analyses of cooperative transcription factor systems. sor chip SA as a ligand via streptavidin pre-immobilized to dextran
+of the chip surface. The ligand was diluted to 0.2 mM in 10 mM Experimental Procedures HEPES buffer (pH 7.5) containing 300 mM NaCl and 0.005% Tween
+20, and applied to the sensor chip surface at a rate of 5 ml/min until Plasmid Construction, Bacterial Expression, Protein nearly 400 resonance units (RU) were obtained. The running buffer Purification, Crystallization, and X-Ray Diffraction was the same as in the ITC experiments, and as analytes, CBFa or The cDNA fragments encoding regions of mouse AML1/Runx-1 its mutants (except R142A and K144M, for which 100 and 140 mM (Gly60-Lys182) and the CBFb (Met1-Gln141) were amplified and NaCl were used, respectively) were diluted to various concentrations digested to generate the EcoRI-BamHI cDNA fragments, which were in the same buffer and then injected over the immobilized ligand at then subcloned into pBS-KS vector, sequenced, and inserted as a rate of 15 ml/min until the injected volume reached 250 ml. For the NdeI-BamHI fragments into pAR2156 vector. In some cases, site- experiments with CBFb, 500 nM CBFb or its mutant was added to directed mutagenesis was then carried out using a QuikChange the CBFa solutions. After that, the dissociation of the analytes was Site-Directed Mutagenesis kit (STRATAGENE) to make point muta- measured by injecting the running buffer alone. All experiments were tions. The resultant pAR2156 plasmids containing inserts encoding performed at 258C. Data were analyzed with BIAevaluation version the CBFa and CBFb fragments or their point mutants were intro- 2.1 using a nonlinear least squares method to obtain the association duced into the BL21(DE3) cells for overexpression of their products. and dissociation rate constants (ka and kd, respectively). The equilib- Sample preparation, crystallization, cryoprotection of native and rium dissociation constants (KD) were calculated from the equation heavy atom derivative crystals, and diffraction data collections on KD 5 kd / ka or from Scatchard analysis. a RIKEN beamline BL45XU and a public beamline BL41XU at
+SPring-8 (Harima, Japan) have been described elsewhere (Tahirov
+Acknowledgments et al., 2001).
+We thank S. Akira for NF-IL6 cDNA and N. Kamiya, Y. Kawano, T. Structure Determinations
+Kato, I. Aoki, and M. Hosaka for their generous support. We also The structure of CBFa-b-C/EBPb-DNA was solved using the MAD
+method with a gold derivative. One major gold binding site was thank M. Oda for preliminary experiments and helpful comments on
+determined from a Bijvoet difference Patterson map. A difference ITC studies. This research was supported in part by a grant from
+CREST (Core Research for Evolutional Science and Technology) of anomalous Fourier map, calculated using the initial MAD phases the Japan Science and Technology Corporation (JST) to K. O. with one gold atom, revealed two other minor sites for gold atom
+binding; those were added and refined for final MAD phasing at
+3.1 A˚ resolution. The phase extension from 4 A˚ to 3 A˚ resolution, Received December 8, 2000; revised January 16, 2001.Cell
+766
+References p53 gene of human tumors and cell lines: updated compilation.
+Nucleic Acids Res. 24, 141–146.
+Akamatsu, Y., Tsukumo, S., Kagoshima, H., Tsurushita, N., and Huang, X., Peng, J.W., Speck, N.A., and Bushweller, J.H. (1999).
+Shigesada, K. (1997a). A simple screening for mutant DNA binding Solution structure of core binding factor b and map of the CBF a
+proteins: application to murine transcription factor PEBP2a subunit, binding site. Nat. Struct. Biol. 6, 624–627.
+a founding member of the Runt domain protein family. Gene 185, Imai, Y., Kurokawa, M., Izutsu, K., Hangaishi, A., Takeuchi, K., Maki, 111–117. K., Ogawa, S., Chiba, S., Mitani, K., and Hirai, H. (2000). Mutations
+Akamatsu, Y., Ohno, T., Hirota, K., Kagoshima, H., Yodoi, J., and of the AML1 gene in myelodysplastic syndrome and their functional
+Shigesada, K. (1997b). Redox regulation of the DNA binding activity implications in leukemogenesis. Blood 96, 3154–3160.
+in transcription factor PEBP2. The roles of two conserved cysteine Ito, Y. (1999). Molecular basis of tissue-specific gene expression residues. J. Biol. Chem. 272, 14497–14500. mediated by the runt domain transcription factor PEBP2/CBF.
+Batchelor, A.H., Piper, D.E., de la Brousse, F.C., McKnight, S.L., and Genes Cells 4, 685–696.
+Wolberger, C. (1998). The structure of GABPa/b: an ETS domain- Kagoshima, H., Shigesada, K., Satake, M., Ito, Y., Miyoshi, H., Ohki, ankyrin repeat heterodimer bound to DNA. Science 279, 1037–1041. M., Pepling, M., and Gergen, P. (1993). The Runt domain identifies
+Barton, K., and Nucifora, G. (2000). AML1 haploinsufficiency, gene a new family of heteromeric transcriptional regulators. Trends Genet.
+dosage, and the predisposition to acute leukemia. Bioessays 22, 9, 338–341.
+214–218. Kagoshima, H., Akamatsu, Y., Ito, Y., and Shigesada, K. (1996).
+Becker, S., Groner, B., and Muller, C.W. (1998). Three-dimensional Functional dissection of the a and b subunits of transcription factor
+structure of the Stat3b homodimer bound to DNA. Nature 394, PEBP2 and the redox susceptibility of its DNA binding activity. J.
+145–151. Biol. Chem. 271, 33074–33082.
+Berardi, M.J., Sun, C., Zehr, M., Abildgaard, F., Peng, J., Speck, Kamachi, Y., Ogawa, E., Asano, M., Ishida, S., Murakami, Y., Satake,
+N.A., and Bushweller, J.H. (1999). The Ig fold of the core binding M., Ito, Y., and Shigesada, K. (1990). Purification of a mouse nuclear
+factor a Runt domain is a member of a family of structurally and factor that binds to both the A and B cores of the polyomavirus
+functionally related Ig-fold DNA-binding domains. Structure Fold. enhancer. J. Virol. 64, 4808–4819.
+Des. 7, 1247–1256. Komori, T., and Kishimoto, T. (1998). Cbfa1 in bone development.
+Bru¨ nger, A.T., Adams, P.D., Clore, G.M., DeLano, W.L., Gros, P., Curr. Opin. Genet. Dev. 8, 494–499.
+Grosse-Kunstleve, R.W., Jiang, J.-S., Kuszewski, J., Nigles, M., Lee, B., Thirunavukkarasu, K., Zhou, L., Pastore, L., Baldini, A.,
+Panu, N.S., et al. (1998). Crystallography and NMR system: a new Hecht, J., Geoffroy, V., Ducy, P., and Karsenty, G. (1997). Missense software suite for macromolecular structure determination. Acta mutations abolishing DNA binding of the osteoblast-specific tran- Crystallogr. D54, 905–921. scription factor OSF2/CBFA1 in cleidocranial dysplasia. Nat. Genet.
+Chen, F.E., Huang, D.B., Chen, Y.Q., and Ghosh, G. (1998a). Crystal 16, 307–310.
+structure of p50/p65 heterodimer of transcription factor NF-kappaB Lenny, N., Meyers, S., and Hiebert, S.W. (1995). Functional domains
+bound to DNA. Nature 391, 410–413. of the t(8;21) fusion protein, AML-1/ETO. Oncogene 11, 1761–1769.
+Chen, L., Glover, J.N., Hogan, P.G., Rao, A., and Harrison, S.C. Li, L.H., and Gergen, J.P. (1999). Differential interactions between
+(1998b). Structure of the DNA-binding domains from NFAT, Fos and Brother proteins and Runt domain proteins in the Drosophila embryo
+Jun bound specifically to DNA. Nature 392, 42–48. and eye. Development 126, 3313–3322.
+Chen, X., Vinkemeier, U., Zhao, Y., Jeruzalmi, D., Darnell, J.E., Jr., Look, A.T. (1997). Oncogenic transcription factors in the human
+and Kuriyan, J. (1998c). Crystal structure of a tyrosine phosphory- acute leukemias. Science 278, 1059–1064.
+lated STAT-1 dimer bound to DNA. Cell 93, 827–839. Lowenberg, B., Downing, J.R., and Burnett, A. (1999). Acute myeloid
+Chen, Y.-Q., Ghosh, S., and Ghosh, G. (1998d). A novel DNA recogni- leukemia. N. Engl. J. Med. 341, 1051–1062.
+tion mode by the NF-kB p65 homodimer. Nat. Struct. Biol. 5, 67–73. Lutterbach, B., and Hiebert, S.W. (2000). Role of the transcription
+Cho, Y., Gorina, S., Jeffrey, P.D., and Pavletich, N.P. (1994). Crystal factor AML-1 in acute leukemia and hematopoietic differentiation.
+structure of a p53 tumor suppressor-DNA complex: understanding Gene 245, 223–235.
+tumorigenic mutations. Science 265, 346–355. Melnikova, I.N., Crute, B.E., Wang, S., and Speck, N.A. (1993). Se￾Cleary, M.L. (1999). A new angle on a pervasive oncogene. Nat. quence specificity of the core-binding factor. J. Virol. 67, 2408–2411.
+Genet. 23, 134–135. Mu¨ ller, C.W., and Herrmann, B.G. (1997). Crystallographic structure
+Cramer, P., Larson, C.J., Verdine, G.L., and Mu¨ ller, C.W. (1997). of the T domain-DNA complex of the Brachyury transcription factor.
+Structure of the human NF-kappaB p52 homodimer-DNA complex Nature 389, 884–888.
+at 2.1 A resolution. EMBO J. 16, 7078–7090. Mu¨ ller, C.W., Rey, F.A., Sodeoka, M., Verdine, G.L., and Harrison,
+Crute, B.E., Lewis, A.F., Wu, Z., Bushweller, J.H., and Speck, N.A. S.C. (1995). Structure of the NF-kappa B p50 homodimer bound to
+(1996). Biochemical and biophysical properties of the core-binding DNA. Nature 373, 311–317.
+factor a2 (AML1) DNA-binding domain. J. Biol. Chem. 271, 26251– Nagata, T., Gupta, V., Sorce, D., Kim, W.Y., Sali, A., Chait, B.T., 26260. Shigesada, K., Ito, Y., and Werner, M.H. (1999). Immunoglobulin
+Ghosh, G., van Duyne, G., Ghosh, S., and Sigler, P.B. (1995). Struc- motif DNA recognition and heterodimerization of the PEBP2/CBF
+ture of NF-kappa B p50 homodimer bound to a kappa B site. Nature Runt domain. Nat. Struct. Biol. 6, 615–619.
+373, 303–310. Ogawa, E., Inuzuka, M., Maruyama, M., Satake, M., Naito-Fujimoto,
+Glover, J.N.M., and Harrison, S.C. (1995). Crystal structure of the M., Ito, Y., and Shigesada, K. (1993). Molecular cloning and charac￾heterodimeric bZIP transcription factor c-Fos-c-Jun bound to DNA. terization of PEBP2 b, the heterodimeric partner of a novel Drosoph￾Nature 373, 257–261. ila runt-related DNA binding protein PEBP2 a. Virology 194, 314–331.
+Goger, M., Gupta, V., Kim, W.Y., Shigesada, K., Ito, Y., and Werner, Osato, M., Asou, N., Abdalla, E., Hoshino, K., Yamasaki, H., Okubo,
+M.H. (1999). Molecular insights into PEBP2/CBF b-SMMHC associ- T., Suzushima, H., Takatsuki, K., Kanno, T., Shigesada, K., and Ito,
+ated acute leukemia revealed from the structure of PEBP2/CBF b. Y. (1999). Biallelic and heterozygous point mutations in the runt
+Nat. Struct. Biol. 6, 620–623. domain of the AML1/PEBP2aB gene associated with myeloblastic
+Gu, T.L., Goetz, T.L., Graves, B.J., and Speck, N.A. (2000). Auto- leukemias. Blood 93, 1817–1824.
+inhibition and partner proteins, core-binding factor b (CBFb) and Perez-Alvarado, G.C., Munnerlyn, A., Dyson, H.J., Grosschedl, R.,
+Ets-1, modulate DNA binding by CBFa2 (AML1). Mol. Cell. Biol. 20, and Wright, P.E. (2000). Identification of the regions involved in DNA
+91–103. binding by the mouse PEBP2a protein. FEBS Lett. 470, 125–130.
+Hollstein, M., Shomer, B., Greenblatt, M., Soussi, T., Hovig, E., Mon- Petrovick, M.S., Hiebert, S.W., Friedman, A.D., Hetherington, C.J.,
+tesano, R., and Harris, C.C. (1996). Somatic point mutations in the Tenen, D.G., and Zhang, D.E. (1998). Multiple functional domains ofStructure of AML1/Runx-1(Runt Domain)-CBFb-DNA
+767
+AML1: PU.1 and C/EBPa synergize with different regions of AML1. Protein Data Bank ID Codes
+Mol. Cell. Biol. 18, 3915–3925.
+The atomic coordinates of the CBFa-b-C/EBPb-DNA, CBFa-C/ Preudhomme, C., Warot-Loze, D., Roumier, C., Grardel-Duflos, N., EBPb-DNA, and CBFa-DNA complexes have been deposited in the Garand, R., Lai, J.L., Dastugue, N., Macintyre, E., Denis, C., Bauters, Protein Data Bank with the ID codes 1io4, 1hjb, and 1hjc, respec- F., et al. (2000). High incidence of biallelic point mutations in the tively. Runt domain of the AML1/PEBP2aB gene in Mo acute myeloid
+leukemia and in myeloid malignancies with acquired trisomy 21.
+Blood 96, 2862–2869.
+Quack, I., Vonderstrass, B., Stock, M., Aylsworth, A.S., Becker, A.,
+Brueton, L., Lee, P.J., Majewski, F., Mulliken, J.B., Suri, M., et al.
+(1999). Mutation analysis of core binding factor A1 in patients with
+cleidocranial dysplasia. Am. J. Hum. Genet. 65, 1268–1278.
+Rainwater, R., Parks, D., Anderson, M.E., Tegtmeyer, P., and Mann,
+K. (1995). Role of cysteine residues in regulation of p53 function.
+Mol. Cell. Biol. 15, 3892–3903.
+Rowley, J.D. (1998). The critical role of chromosome translocations
+in human leukemias. Annu. Rev. Genet. 32, 495–519.
+Song, W.J., Sullivan, M.G., Legare, R.D., Hutchings, S., Tan, X.,
+Kufrin, D., Ratajczak, J., Resende, I.C., Haworth, C., Hock, R., et al.
+(1999). Haploinsufficiency of CBFA2 causes familial thrombocyto￾penia with propensity to develop acute myelogenous leukaemia.
+Nat. Genet. 23, 166–175.
+Speck, N.A., and Stacy, T. (1995). A new transcription factor family
+associated with human leukemias. Crit. Rev. Eukaryot. Gene Expr.
+5, 337–364.
+Speck, N.A., Stacy, T., Wang, Q., North, T., Gu, T.L., Miller, J., Binder,
+M., and Marin-Padilla, M. (1999). Core-binding factor: a central
+player in hematopoiesis and leukemia. Cancer Res. 59 (Suppl.),
+1789s–1793s.
+Tahirov, T.H., Inoue, T., Sasaki, M., Shiina, M., Kimura, K., Sato, K.,
+Kumasaka, T., Yamomoto, M., Kamiya, N., and Ogata, K. (2001).
+Crystallization and preliminary X-ray analyses of quaternary, ternary
+and binary protein-DNA complexes with involvement of AML1/
+Runx-1 Runt domain, CBFb and the C/EBPb bZip region. Acta Crys￾tallogr., in press.
+Tang, Y.Y., Crute, B.E., Kelley, J.J., Huang, X., Yan, J., Shi, J., Hart￾man, K.L., Laue, T.M., Speck, N.A., and Bushweller, J.H. (2000a).
+Biophysical characterization of interactions between the core bind￾ing factor a and b subunits and DNA. FEBS Lett. 470, 167–172.
+Tang, Y.Y., Shi, J., Zhang, L., Davis, A., Bravo, J., Warren, A.J.,
+Speck, N.A., and Bushweller, J.H. (2000b). Energetic and functional
+contribution of residues in the core binding factor b (CBFb) subunit
+to heterodimerization with CBFa. J. Biol. Chem. 275, 39579–39588.
+Warren, A.J., Bravo, J., Williams, R.L., and Rabbitts, T.H. (2000).
+Structural basis for the heterodimeric interaction between the acute
+leukaemia-associated transcription factors AML1 and CBFb. EMBO
+J. 19, 3004–3015.
+Werner, M.H., Shigesada, K., and Ito, Y. (1999). Runt domains take
+the lead in hematopoiesis and osteogenesis. Nat. Med. 5, 1356–
+1357.
+Zhang, D.E., Hetherington, C.J., Meyers, S., Rhoades, K.L., Larson,
+C.J., Chen, H.M., Hiebert, S.W., and Tenen, D.G. (1996). CCAAT
+enhancer-binding protein (C/EBP) and AML1 (CBFa2) synergistically
+activate the macrophage colony-stimulating factor receptor pro￾moter. Mol. Cell. Biol. 16, 1231–1240.
+Zhang, Y.W., Yasui, N., Kakazu, N., Abe, T., Takada, K., Imai, S.,
+Sato, M., Nomura, S., Ochi, T., Okuzumi, S., et al. (2000). PEBP2aA/
+CBFA1 mutations in Japanese cleidocranial dysplasia patients.
+Gene 244, 21–28.
+Zhou, P., Sun, L.J., Dotsch, V., Wagner, G., and Verdine, G.L. (1998).
+Solution structure of the core NFATC1/DNA complex. Cell 92,
+687–696.
+Zhou, G., Chen, Y., Zhou, L., Thirunavukkarasu, K., Hecht, J., Chi￾tayat, D., Gelb, B.D., Pirinen, S., Berry, S.A., Greenberg, C.R., et
+al. (1999). CBFA1 mutation analysis and functional correlation with
+phenotypic variability in cleidocranial dysplasia. Hum. Mol. Genet.
+8, 2311–2316.

@@ -1,0 +1,258 @@
+Protein Engineering, Design & Selection, 2017, pp. 19  doi: 10.1093/protein/gzx023  Original Article  Original Article  Insights from engineering the Affibody-Fc  interaction with a computational-experimental  method  Masoumeh Nosrati1,2, Sara Solbak3  , Olle Nordesj1  , Mikael Nissbeck1  ,  Daniel F.A.R. Dourado1  , Ken G. Andersson4  , Mohammad  Reza Housaindokht2  , John Lfblom4  , Anders Virtanen1  ,  U. Helena Danielson3  , and Samuel Coulbourn Flores1,*  1  Department of Cell and Molecular Biology, Uppsala University, BMC Box 596, 751 24 Uppsala, Sweden,  2  Department of Chemistry, Ferdowsi University of Mashhad, Mashhad, Iran, 3  Department of Chemistry-BMC,  Uppsala University, and 4  Division of Protein Technology, KTH Royal Institute of Technology, Stockholm, Sweden  *  To whom correspondence should be addressed.
+E-mail: sam@xray.bmc.uu.se  Edited by Joost Schymkowitz  Received 28 November 2016; Revised 10 March 2017; Editorial Decision 27 March 2017; Accepted 12 April 2017  Abstract  The interaction between the Staphylococcal Protein A (SpA) domain B (the basis of the Affibody)  molecule and the Fc of IgG is key to the use of Affibodies in affinity chromatography and in  potential therapies against certain inflammatory diseases.
+Despite its importance and fourdecade history, to our knowledge this interaction has never been affinity matured.
+We elucidate  reasons why single-substitutions in the SpA which improve affinity to Fc may be very rare, and  also discover substitutions which potentially serve several engineering purposes.
+We used a variation of FoldX to predict changes in proteinprotein-binding affinity, and produce a list of 41  single-amino acid substitutions on the SpA molecule, of which four are near wild type (wt) and  five are at most a factor of four from wt affinity.
+The nine substitutions include one which  removes lysine, and several others which change charge.
+Subtle modulations in affinity may be  useful for modifying column elution conditions.
+The method is applicable to other proteinprotein systems, providing molecular insights with lower workload than existing experimental  techniques.
+  Key words: affinity, computational prediction, protein-protein interactions, surface plasmon resonance, Staphylococcal Protein A  Introduction  Protein A from Staphylococcus aureus (SpA) is a virulence factor  which counters the host immune system in multiple ways.
+SpA comprises five homologous domains joined by flexible linkers.
+The  domains are small, easy to express and bind IgG1 with high affinity  at the CH2/CH3 cleft.
+Of these, domain B has attracted particular  interest because it is closest to the consensus sequence of all such  domains, lacks methionine residues which would be susceptible to  cyanogen bromide cleavage (Nilsson et al., 1987) and has been  crystallized with Fc (Deisenhofer, 1981).
+It is the basis of domain Z,  an antibody mimetic scaffold marketed as the Affibody molecule  (Lfblom et al., 2010).
+The Affibody scaffold has A1V and G29A  mutations with respect to domain B. This molecule without further  modifications will be referred to here as wild type (wt).
+The purpose  of G29A is to modify the N-G (asparagine-glycine) dipeptide  sequence which is susceptible to hydroxylamine cleavage, turning it  to N-A. G29A (Nilsson et al., 1987) also destroys binding against  the fragment antigen-binding (Fab) of VH3 antibodies, which occurs   The Author 2017.
+Published by Oxford University Press. All rights reserved.
+For Permissions, please e-mail: journals.permissions@oup.com 1at a distinct site on domain B (Fig. 1).
+The A1V substitution creates  an AccI DNA restriction site, originally used to polymerize domain  Z, and does not affect binding (Nilsson et al., 1987).
+Domain Z (or  Affibody molecule) and domain B are thus very similar.
+  There are several reasons to engineer the interaction between  SpA and Fc.
+SpA circulating in patient bloodstream has an antiinflammatory effect (MacLellan et al., 2011).
+Five-domain SpA is  the basis of the proposed PRTX-100 drug (Bernton et al., 2014)  against autoimmune inflammatory diseases.
+The smaller Affibody  molecule also has potential as a therapy against autoimmune diseases.
+Like SpA itself, it binds the Fc of IgG1, 2 and 4 (but not 3)  with high affinity (Table I) (Goding, 1978; Bottomley et al., 1994),  on a epitope that is overlapping with the binding site of the neonatal  Fc receptor (FcRn).
+FcRn regulates levels of IgG in serum, by rescuing IgGs from lysosomal degradation (Roopenian and Akilesh, 2007).
+  This mechanism maintains a high level of autoantibodies in autoimmune diseases.
+Knocking out FcRn decreases levels of autoimmune  IgGs, and decreases symptoms of autoimmune disease in mice  (Roopenian and Akilesh, 2007).
+One potential therapeutic strategy to  ameliorate the symptoms associated with these debilitating diseases  could be blockage of FcRn with an inhibitor, be it an antibody (Liu  et al., 2007) or possibly an anti-FcRn Affibody (Seijsing et al., 2014).
+  Antibodies are large and hard to express, while the anti-FcRn  Affibodies have relatively low affinity, no better than 12 nM (Seijsing  et al., 2014).
+Alternatively, one could block the FcRn-binding site on  the antibody, using domain Z, the approach we consider here.
+  Increasing the affinity of this domain could mean increased efficacy  and lower dosage requirements.
+The Affibody molecule is also used in  MabSelect affinity columns; here modified affinity could lead to  advantages in purification and ease of elution.
+  Domain Z/B  VH  CH1  CH2  CH3  CH3  CH2  CH1  VH  Domain Z/B  Domain B  Domain B  Fig. 1 Structural model of Domains B and Z of SpA, in complex with IgG1.
+Domains B and Z (yellow) bind Fc at the CH2/CH3 clefts on the heavy (red and orange)  chains (PDB:1FC2) (Van Der Spoel et al., 2005), while Domain B additionally binds the Fab of VH3 antibodies, on the VH domain (PDB:1IGT) (Lindorff-Larsen  et al., 2010).
+Template model (Dourado and Flores, 2016) generated with MMB and rendered with VMD (Humphrey et al., 1996).
+  Table I. Kinetic constants of the interaction between Affibody molecule variants and IgG1 derived from SPR sensorgrams fitted to a 1:1  interaction model.
+Rmax indicates the total/theoretical amount of complex formed.
+SE, standard error  Variant ka (1/Ms)  106 SE kd (1/s) SE KD (nM) Rmax SE Fig GZEMu (kcal/mol)  Near wt affinity wt 8.8 0.04 0.005 1.7e-5 0.6 438 0.17 4D,E 0  N6F 32 0.37 0.015 1.6e-4 0.5 447 0.3 4E 1.41  N11F 19 0.12 0.014 8.2e-5 0.7 432 0.24 4E 1.71  Q32K 5.9 0.02 0.005 1.5e-5 0.8 441 0.16 4E 1.43  N6Q 33.9 0.33 0.019 1.8e-4 0.6 449 0.31 4D 1.93  Medium affinity Q32L 5.8 0.02 0.008 2.1e-5 1.3 411 0.15 4E 1.23  F5M 4.8 0.01 0.013 3.5e-5 2.8 413 0.13 4D 1.53  K7D 5.1 0.03 0.018 9.5e-5 3.6 398 0.32 4D 1.87  Y14F 6.9 0.03 0.024 9.9e-5 3.4 409 0.17 4D 1.46  N28F 13.1 0.07 0.032 1.7e-4 2.5 417 0.25 4D 1.44  2 M.Nosrati et al.Since the Affibody has many applications, there is occasionally a  need to attach prosthetic groups such as PEG.
+Cysteines are often  used as targets for such chemical modifications; lysines are inconvenient because there are two lysines which should not be modified  because they are in the Fc-binding site.
+It would be good to have two  orthogonal functionalization sites, e.g. cysteines and lysines.
+With the  current technique, we can remove lysines from the binding site, and  then introduce them in more convenient locations for that purpose.
+  Despite the tremendous economic incentive, the interaction  between SpA domains and IgG Fc has not been engineered to  improve affinity in the literature (Cedergren et al., 1993).
+In this  work we discuss the possible reasons the affinity of this interaction  may be difficult to increase.
+  Protein mutations which result in measured affinity comparable  to wt are referred to as neutral.
+Such mutations are potentially useful for many goals in biotechnology and basic research.
+They appear  to lie on the evolutionary trajectory connecting related proteins of  different function (Wagner, 2008).
+Direct effects can be obtained by  introduction of a certain residue at a specific site, e.g. tryptophan,  which can be used for monitoring intrinsic tryptophan fluorescence.
+  A broader repertoire of effects can be achieved by functionalization,  involving chemical modification of side chains through site specific  reagents.
+Functionalization may require the introduction of desired  side chains in specific regions of the protein and their removal from  others.
+Reagents selective for the amino acid of interest can then be  used to introduce desired features at the specific sites.
+For example,  to extend the plasma stability of Pegvisomant via PEGylation  (Abuchowski et al., 1977) at lysine residues, a lysine had to be  removed from the high-affinity receptor-binding site and replaced by  a alternative side chain that was expected not to influence the affinity for the receptor (although the effect was never rigorously predicted or measured) (Pradhananga et al., 2002).
+The freedom to  introduce functionalization sites at or near the interface can also be  useful, e.g. to attach a Fluorescence Resonance Energy Transfer  donor or acceptor which detects binding at the interface.
+  Many other characteristics can also be influenced by engineering.
+  Proteins often need to be thermodynamically stable, soluble, not  immunogenic, and/or specific.
+Stability can be modified by changes in  the amino acid sequence, as methionines and certain dipeptide  sequences are susceptible to chemical cleavage, and often need to be  removed (Nilsson et al., 1987).
+Sometimes the mutations have to be  introduced in (Pradhananga et al., 2002) or near (Nilsson et al., 1987)  protein-binding sites without loss of binding.
+Lastly, a subtle and controlled reduction of binding affinity can sometimes be useful, for  instance to enable milder elution conditions in affinity purification.
+  FoldX predicts the change in free energy of proteinprotein binding (Li et al., 2015) (G) upon mutation.
+Binding energy comprises non-bonded (including electrostatic, van der Waals, and  related), bonded (related to quantum mechanical interactions  between chemically connected atoms), entropy change and potentially changes in protein protonation state upon binding (Li et al.,  2015).
+When two bound proteins separate, the interactions between  the two can be replaced by interactions between protein and water.
+  Modeling this adequately is crucial, but using explicit water is often  less effective (and almost always more computationally expensive)  than using implicit representations (Li et al., 2015), as is done in the  FoldX (Guerois et al., 2002) and other (Petukh et al., 2015) potentials.
+Using a variation of FoldX, we predicted G for all possible  single-substitution mutations in SpA at the Fc-binding interface, a  process we call MultiScanning.
+We expressed single-substitution  mutants with low GZEMu and experimentally measured the  affinities against Fc.
+None of these increased affinity, suggesting that  affinity-improving substitutions are rare for this system.
+We found  several neutral mutations which alter interface properties such as  charge and hydrophobicity.
+The results are applicable for engineering other proteinprotein interactions for many purposes.
+  Results  To predict possible substitutions in the Affibody molecule which  maintain affinity for Fc, we performed MultiScanning.
+Figure 2  shows the GZEMu of Fc binding resulting from all possible singleresidue substitutions in the Fc-binding site of the Affibody molecule.
+  Coordinates for the Affibody molecule/IgG1 complex were taken  from Protein Data Bank (PDB) structure 1FC2 (Deisenhofer, 1981).
+  Among the interface residues, we can observe that Positions 5, 6, 7,  9, 10, 11, 14, 17, 28, 31, 32, 34 and 35 have substitutions that satisfy GZEMu  1.0 kcal/mol (Fig. 2).
+  We used GZEMu and qualitative criteria (see Criteria for manual  selection of putative tight-binding variants) to select variants to express  and evaluate using Fluorescence Activated Cell Sorting (FACS) in  Round 0.
+We used the same manual criteria to select variants to express  and evaluate by Surface Plasmon Resonance (SPR) biosensor technology in Round 1.
+Lastly, we used only the criterion that GZEMu   1.0 kcal/mol, to select mutants to evaluate by SPR in Round 2.
+  Round 0: Affinity estimation of manually selected  variants using FACS  In Round 0 we selected six variants (I31F, N28L, L17Y, K35Y,  Q10L and Q9K) for evaluation by FACS (Lfblom et al., 2005).
+  The selection was based on ZEMu energy and visual inspection as  described in the section Criteria for manual selection of putative  tight-binding variants.
+We also selected Q10K as a negative control,  based on higher GZEMu.
+GZEMu and visual inspection observations for Round 0 variants are given in Supplementary Table S1.
+  Two of the variants, L17Y and Q9K, appeared to bind well by  FACS, possibly better than wt.
+I31F appeared to bind with affinity  only slightly lower than wt (Supplementary Fig. S1).
+However, the  variability of the measurement did not support a definitive conclusion.
+This motivated retesting of L17Y and Q9K by SPR in Round  1, at which point these two were found to be poor binders (Fig. 3A).
+  I31F, N28L, K35Y and Q10L were eventually retested by SPR  in Round 2, and also found to be poor binders.
+Q10K was never  tested by SPR because it was a putative negative control, whereas in  Round 1 we chose the already-characterized L17D (Cedergren et al.,  1993) as our negative control.
+  The discrepancy between FACS and subsequent SPR measurements was most remarkable for I31F, L17Y and Q9K.
+It should  however be noted that the affibodies are expressed as fusion proteins  on the bacterial surface and that the flow-cytometry experiment  results in avidity effects from the bivalent IgG binding to the cells.
+  This may explain some of the discrepancy.
+  Round 1: Affinity measurement of manually selected  variants using SPR  In Round 1 we expressed the wt, L17D negative control, L17Y and  Q9K (from Round 0), and five new Affibody variants (Q9D, Q10D,  Q10N, Q10H and N28Y).
+As in Round 0, the five new variants  were selected according to Criteria for manual selection of putative  tight-binding variants.
+GZEMu and visual inspection observations  for Round 1 variants are given in Supplementary Table S2.
+We  Insights into the Affibody-Fc interaction 3measured the Affibody variants affinities against human IgG1 using  SPR (see Methods).
+A dilution series of the proteins (6.25100 nM)  was injected over immobilized IgG1, without regenerating the surface between injections (Fig. 3A).
+Based on a qualitative analysis of  their SPR signal levels at steady state and apparent dissociation  rates, the Round 1 variants showed low (Q9D, Q9K, Q10N, Q10H,  L17Y and N28Y) or undetectable (Q10D and L17D) affinity for  IgG1 relative to wt Affibody molecule.
+Thus all Round 1 substitutions reduced the affinity of the Affibody molecule for Fc.
+We were  not able to quantify the KD (equilibrium dissociation constants) of  these mutants because they are higher (>50 nM) than half the maximal SpA concentration (100 nM) used in the experiments.
+  Round 2: SPR affinity measurement of variants  selected on the basis of ZEMu energy only  As all the substitutions tested in Round 1 reduced the affinity between  the Affibody and Fc, a new selection strategy was used.
+In Round 2  we expressed all the Affibody variants that satisfied GZEMu   1.0 kcal/mol, and which were not tested in Round 1.
+In the SPR  analysis (see Methods) we injected the proteins as analytes at 100 nM  over a sensor surface with immobilized human IgG1 (Fig. 3B).
+In this  experiment the surface was regenerated between each injection to  make sure that no protein stuck to the surface, potentially resulting in  a heterogeneous surface.
+The Affibody molecule variants were classified according to their interaction characteristics relative wt Affibody,  here based on a qualitative analysis of their signal levels at steady  state, and apparent dissociation rates (Fig. 3B,C).
+Most variants  exhibited qualitatively low affinities and rapid dissociation rates  (Fig. 3B).
+However, nine variants had higher affinities and slower dissociation rates (Fig. 3C).
+This class was further evaluated quantitatively relative to wt Affibody, by injecting the proteins over  immobilized IgG1 in a serial dilution experiment using 3.1550 nM  proteins, without regeneration between injections (Fig. 3D,E).
+By  qualitatively comparing the observed binding levels and the apparent  dissociation rates of the sensorgrams, we found five variants (F5M,  N6Q, K7D, Y14F, N28F) that appeared to form a subset (of the  nine) with somewhat lower affinity than the wt Affibody (Fig. 3D).
+  The other four variants (N6F, N11F, Q32K and Q32L) were qualitatively estimated to have an affinity similar to that of wt Affibody  (Fig. 3E).
+To quantify the affinity (defined as KD), we performed nonlinear regression analysis of the sensorgrams.
+We estimated the association and dissociation rate constants (ka and kd) by fitting the SPR  sensorgrams to a 1:1 interaction model (Table I).
+Comparing the dissociation constants (KD), the Affibody variants N6F, N11F, Q32K  and N6Q had low nanomolar affinity against IgG1, near that of the  wt protein.
+Note the final quantitative differs from the initial qualitative grouping.
+  A  V  L  I  F  W  M  P  D  E  G  S  T  C  Y  N  Q  K  R  H  F5  N6  K7  E8  Q9  Q10  N11  A12  F13  Y14  E15  I16  L17  H18  E24  R27  N28  G29  F30  I31  Q32  L34  K35  P38  S41  A  V  L  I  F  W  M  P  D  E  G  S  T  C  Y  N  Q  K  R  H  F5  N6  K7  E8  Q9  Q10  N11  A12  F13  Y14  E15  I16  L17  H18  E24  R27  N28  G29  F30  I31  Q32  L34  K35  P38  S41  A  V  L  I  F  W  M  P  D  E  G  S  T  C  Y  N  Q  K  R  H  F5  N6  K7  E8  Q9  Q10  N11  A12  F13  Y14  E15  I16  L17  H18  E24  R27  N28  G29  F30  I31  Q32  L34  K35  P38  S41  Fig. 2 Scanning possible substitutions in the Fc-binding site on Domain B with ZEMu to predict the G of Fc binding.
+Positions scanned were those that were  within 6  of Fc.
+Lower axis: wt residue type + residue number of positions that were substituted.
+Residue numbers are in domain B numbering, add 119 to  obtain numbering used in PDB structure 1FC2.
+Left axis: Substituted residue type, grouped by physicochemical class.
+Each residue is substituted to each of 19  alternatives (the 20th is the wt).
+Small filled diamonds: vertical displacement indicates GZEMu.
+Upper dashed line, each substituted residue type, G = 0  kcal/mol.
+Lower dashed line, each substituted residue type, G = 1.5 kcal/mol.
+Open circles: GZEMu < 1.5 kcal/mol.
+Open squares: 1.0 kcal/mol >  GZEMu  1.5 kcal/mol.
+Note that some of the 425 variants did not converge.
+In most cases this was due to difficulty in resolving steric clashes, hence this  occurred more often for bulky substitutions such as R, K and W. Note also the large number of low-energy substitutions at Position 10, discussed in the text.
+  4 M.Nosrati et al.600  112  234  356  478  Response (RU)  0 30 60 90 120 150 180  Time (s)  112  234  356  478  Response (RU)  0 30 60 90 120 150 180  Time (s)  600  wt Affibody  Affibody mutants  of lower affinity   wt Affibody  Affibody mutants  of higher affinity   Affibody  mutants  with lower   affinity   wt Affibody  Affibody mutants  with comparable affinty to wt  Q32K  wt Affibody  N6F  Q32L  N11F  450  50  250  Response (RU)  450  50  250  Response (RU)  600  Time (s)  0 200 400  600  0  300  Response (RU)  600  Time (s)  0 200 400  800  Time (s)  0 200 400 600  wt Affibody  Affibody mutants  of lower affinity   E  D  B C  A  Fig. 3 Overlay plots of SPR sensorgrams for interactions between the wt Affibody molecule, and variants thereof, to immobilized human IgG1.
+Proteins were  either injected over the same IgG1 surface in a dilution series ranging from 6.25100 nM (A) or 3.1550 nM (D, E) without regenerations between injections, or at  a single concentration (100 nM) and with regeneration between each injection (B and C).
+(A) Screening for binding to IgG1 by wt, L17D (a negative control)  (Cedergren et al., 1993), and seven Affibody variants (Q9D, Q9K, Q10D, Q10N, Q10H, L17Y and N28Y) expressed in Round 1.
+(B, C) Ranking of wt and 34  Affibody variants expressed in Round 2. (B) Affibody variants with relatively low affinity for human IgG1 (F5Q, N6T, Q9L, Q10A, Q10C, Q10G, Q10I, Q10L, Q10M,  Q10P, Q10S, Q10T, Q10V, N11P, N28C, N28L, N28P, I31F, L34F, L34P, K35P, K35W, K35Y, L17R, Q10E), and (C) nine variants with relatively higher affinity for  human IgG1, in comparison to wt Affibody (F5M, N6F, N6Q, K7D, N11F, Y14F, N28F, Q32K, Q32L). (D, E) Kinetic characterization of the nine Affibody variants  with relatively higher affinity for IgG1 (Kinetic data in Table I) and grouping into further subsets by visual inspection (grouping of N6Q and Q32L differed in final  quantitative classification).
+(D) Medium apparent affinity (F5M, N6Q, K7D, Y14F, N28F).
+(E)
+Near wt apparent affinity (N6F, N11F, Q32K, Q32L).
+  Insights into the Affibody-Fc interaction 5Discussion  Protein Engineering is a central topic in Biotechnology.
+There are  many properties to be optimized in therapeutic, diagnostic, or industrial proteins.
+On top of such engineering goals, affinity against a specified binding partner must often be conserved or modulated.
+In this  work we scanned an entire interface computationally and produced a  short list of substitutions with low predicted binding energy.
+  In this demonstration, we confirmed experimentally that 9 ZEMupredicted Affibody variants were able to bind with strong affinity to  human IgG1, including K7D which removed lysine, Q32K which  introduced lysine elsewhere, and several that changed other properties  including size, aromaticity and hydrophobicity.
+Four of the 9 variants  were confirmed to bind with near wt affinity, however none of them  had affinity significantly stronger than wt.
+wt Affibody molecule displays an affinity already in the low nanomolar to subnanomolar  range, and the interface is dominated by the hydrophobic effect, with  no direct way to create new salt bridges.
+The already-high affinity  (Goding, 1978; Bottomley et al., 1994) and interface characteristics  likely explain why further affinity improvements are difficult to attain.
+  In proteinprotein systems, substitutions which reduce typically  greatly outnumber those that increase affinity.
+Validation datasets of  experimental G values compiled from the literature (Moal and  Fernndez-Recio, 2012) may be enriched in affinity-increasing mutations (compared to random mutagenesis), as many investigators  actively seek such mutations.
+Since any G prediction method has  error bars, the large number of affinity-reducing mutations means many  opportunities for false positives.
+In a system with scarce possibilities  for improving affinity, all of the predicted affinity-improving mutations could in fact be affinity-reducing or neutral.
+This appears to  have happened in the present work.
+  We note that in Round 0 (comprising six putative affinityimproving single-substituted variants) and Round 1 (including two  variants from Round 0, plus five new ones), we used human judgment in addition to ZEMu energy as a filter to choose mutants to  express, whereas in Round 2 (comprising the four variants from  Round 0 which were not tested in Round 1, plus 30 new variants)  the selection was based only on a ZEMu energy cutoff (GZEMu   1.0 kcal/mol).
+All nine of the better binders (Fig. 3C), however,  were among the 30 new, systematically selected variants in Round  2.
+To be clear, a total of 11 variants were manually selected, of  which none appear among the better binders shown in (Fig. 3C).
+  The nine higher-affinity substitutions were all on the outer rim (solvent-exposed portion) (Bogan and Thorn, 1998) of the interface  (Fig. 4), whereas the manually selected substitutions were all closer  to the core (buried portion) of the interface (with the exception of  N28L).
+This suggests that the reason the manually selected substitutions were unsuccessful was related to a selection bias for residue  positions which were in the core, where there are more intermolecular contacts.
+In an optimized system with a well-packed interface  core, neutral mutations may be easier to find on the rim.
+However  though it has been shown that rim positions can be modified with a  lesser energetic effect than the core positions (Bogan and Thorn,  1998), it does not follow that all rim mutations will be neutral.
+For  example, the substitutions N11F and Q32K have high but N11P  and Q32L have low and medium affinities, respectively.
+Similarly  N6F and N6Q have high, but N6T has low affinity.
+N28F has  medium but N28C, L, P and Y all have low affinity.
+F5M has  medium, but F5Q has low affinity.
+  We investigated the possibility of non-perturbative effects of the  mutations on SpA monomer stability with Molecular Dynamics  (MD), however secondary structure changes (data not shown) did  not correlate with experimentally observed affinity changes.
+MD  was not used by any of the competitors in the CAPRI Round 26  scoring competition (Moretti et al., 2013), and in our hands deteriorates the results of a subsequent FoldX calculation (Dourado and  Flores, 2014).
+Other non-perturbative effects, for example related to  the interaction with Fc, may be at play.
+  The rarity of neutral compared with affinity-reducing substitutions, combined with the known error range of ZEMu, means that  reduced-affinity variants appearing on the low side of their  GZEMu error bars are likely to outnumber neutral or increasedaffinity variants.
+This explains why several substitutions have predicted affinity higher than wt (Fig. 2) when experimentally none  were significantly higher than wt.
+  ZEMu found that Position 10 had an unusually large number of  predicted low-energy variants; we expressed 11 of them and found  none were good binders.
+This many false positives at a single position has statistical significance (P-value of 0.04 by the cumulative  hypergeometric function).
+The explanation could be that the wt  Affibody molecule stability was overestimated by ZEMu, making  many of the variants appear comparatively more favorable.
+  However not all cases in which many substitutions at a single position are predicted to be favorable, will be artifacts.
+There are documented cases in which the wt residue type at a certain position  appears to disfavor binding, compared to Alanine (Cunningham and  Wells, 1989) or potentially many possible substitutions.
+  Our findings related to Position 10 underscore the merit of limiting  the number of substitutions that are expressed at a single position; in  any case only one will likely be used in the end.
+Conversely one may  consider testing at least one substitution at each position, even if all substitutions at that position have high energy, because the wt energy could  be underestimated.
+We suggest expressing only single-substitution variants initially, as one affinity-destroying, expressed together with an  affinity-improving substitution, may mask the latter.
+Expressing a sufficient number is important; the seven substitutions we expressed in  Round 1 were all poor binders whereas the more numerous variants  evaluated in Round 2 included several neutral substitutions.
+An objective selection criterion is important, as again no neutral substitutions  were found in the manually selected Rounds 0 and 1, whereas Round  2, based on ZEMu energy alone, was profitable.
+  Residue conservation was not useful for choosing mutations in  this case.
+As mentioned Domain Z is based on the consensus  sequence.
+The nine mutations with high and medium affinity were at  Positions 5, 6, 7, 11, 14, 28 and 32 (Table I), which are absolutely  conserved according to the alignment of (Santos-Jnior et al., 2016).
+  However all positions in this sequence region are highly or absolutely conserved, since all the sequences are aligned across strains of  Staphylococcus aureus (Santos-Jnior et al., 2016).
+Aligning across  structural domains in a single strain also shows high conservation.
+  Here positions 5, 6, 7, 11 are highly conserved, but the best mutants  do not correspond to an observed amino acid polymorphism; 14,  28, 32 are absolutely conserved (Nilsson et al., 1987).
+  Our results suggest there are few single-substitution mutations to  be made in SpA that would increase affinity against Fc, due to an  already-high affinity (reported here and elsewhere) (Santos-Jnior  et al., 2016) and a mostly hydrophobic interface spanned by only  four hydrogen bonds (Goding, 1978; Bottomley et al., 1994) with  no clear potential to form new salt bridges (Fig. 5).
+We did find nine  SpA mutations which keep Fc binding in the range of 1-4X of wt  affinity but which change other interface properties.
+Some of the  mutants which made reductions in affinity (some very subtle, others  6 M.Nosrati et al.greater) may be useful to enable gentler (e.g. pH closer to neutral)  elution conditions in SpA affinity chromatography.
+Since we used  ZEMu screening, the number of proteins expressed and evaluated  was relatively small, making this an inexpensive method.
+We proposed rules for productively selecting mutants to test.
+  Materials and methods  Prediction of binding energy  ZEMu is a model building method, that is it can generate an energyminimized mutant structure given coordinates of the corresponding wt structure (Deisenhofer, 1981).
+In ZEMu, we specified a flexibility zone of five residues, consecutive in sequence, centered about  the residue to be substituted.
+Residues in this zone had torsional  freedom, while the remainder of the protein was rigid and fixed.
+We  also specified a physics zone inside of which PARM99 electrostatic  and van der Waals forces were active.
+The physics zone included all  residues within 14 of the flexibility zone.
+We then energyminimized by computing the dynamics of this system for 20 ps.
+In  prior work we found this was enough to ensure convergence; fluctuations in individual results can be expected with slight variation of run  time and other conditions, though average values (RMSE) are not  noticeably affected (Dourado and Flores, 2014).
+The proteinprotein  interaction energy of the thus-equilibrated complex was then evaluated with FoldX3 (Dourado and Flores, 2014).
+We conducted the  equilibration and FoldX calculation for the wt and the mutant complex to obtain Gwt and Gmutant, respectively.
+The difference provided an estimate of Gexperiment (Guerois et al., 2002):         G G GG ZEMu mutant wt experiment.
+  ZEMu gave an improvement in the RMSE of a subsequent  FoldX3 calculation (Dourado and Flores, 2014).
+Performance of  FoldX4 (the current release) differs somewhat from that of FoldX3  (Xiong et al., 2017), and does not appear to benefit from ZEMu.
+  MultiScanning  We define MultiScanning as in silico saturation (i.e. to all 19 alternate amino acid types) mutagenesis (and G prediction) using  ZEMu, over the entire protein-binding site of one of the interacting  proteins.
+The binding site is defined as all residues within 6  of  their interaction partner.
+In the case of the Affibody molecule this  means 25 residue positions, for a total of 425 mutations.
+  MultiScanning is implemented in our breeder job management software, which uses MMB not only as an executable but also as an  Application Programming Interface.
+We used PDB structure 1FC2  (Xiong et al., 2017) as input for the G prediction.
+  N11F  N11P  Q32K  Q32L  K7D  Y14F  N28F  N28C,L,P,Y  K35P,W,Y  N6Q,F  N6T  F5M  F5Q  Fig. 4 Spatial distribution of high-, medium-, low-affinity and manually selected Affibody variants.
+Fc: Transparent surface representation, colored by atom type.
+  Affibody: gray cartoon.
+High-, medium- and low-affinity Affibody substitutions: thick transparent red, medium transparent orange and thin opaque blue licorice,  respectively; residue substitution labels also correspondingly red, orange and blue.
+Note high- and medium-affinity substitutions are on the solvent-exposed  rim of the interface, whereas most low-affinity substitutions are in the interface core.
+Manually selected substitutions: balls colored by atom type.
+Note all manually selected substitutions are low affinity, though medium-affinity N28F shares she same position as manually selected N28Y.
+Note also that manually selected  substitutions are in the interface core, except for N28Y.
+Near-neutral substitutions are harder to find in the interface core.
+  Insights into the Affibody-Fc interaction 7Criteria for manual selection of putative tight-binding  variants  In Rounds 0 and 1 we selected single mutants of 1FC2 based on the  following quantitative and qualitative criteria:   GZEMu  1.0 kcal/mol.
+   Do not mutate to methionine, proline, or glycine.
+   Do not mutate from proline or glycine.
+   Rationalizable by visual inspection, in terms of arguable physical  interactions.
+   Include as many different residue positions as possible (avoid  multiple substitutions at a single site).
+  We avoided prolines and glycines to preserve backbone structure,  and methionines to prevent unwanted oxidation to methionine sulfoxide (MetO).
+Rationalization by visual inspection refers to examining the equilibrated structure and seeking to explain the obtained  GZEMu.
+We identified possible favorable electrostatic, van der  Waals, electrostatic, hydrogen-bonding and hydrophobic interactions (or lack of interactions) between the substituted residue and  neighboring residues on Fc.
+By applying these selection criteria we  obtained lists of selected single mutants.
+These are given, along with  the qualitative results of our visual inspection, in Supplementary  Tables S1 and S2, for Rounds 0 and 1, respectively.
+  Protein expression and purification  Wild type and variants of Affibody molecule sequence were generated by gene synthesis and cloned into the pET-19b plasmid (containing ampicillin resistance and a lacI promoter) by Genscript.
+The  genes were transformed into BL21-DE3.
+The cells were grown in TB  (Terrific broth) supplemented with 2 mM MgCl2, 100 g/ml ampicillin and a trace-element mixture (50 M FeCl3, 20 M CaCl2, 10 M  MnCl2, 10 M ZnCl2, 2 M CoCl2, 2 M CuCl2, 2 M NiCl2, 2 M  Na2MoO4, 2 M Na2SeO3 and 2 M H3BO3).
+At OD600 ~0.6 we  induced the cells by adding 1 mM IPTG and incubated for 4 h at  room temperature.
+The cells where harvested by centrifugation and  frozen at 80C until purification.
+  The cell pellet was resuspended in 10 mL extraction buffer  (20 mM Sodium phosphate, pH 8, 500 mM NaCl, 20 mM imidazole, 0.9 mg/ml lysozyme, 0.14 mg/ml DNase I, 1 mM EDTA and  0.5% w/v Triton X-100).
+The cell suspension was incubated at  room temperature with constant agitation for 1 h followed by centrifugation at 4200 g at 4C for 20 min.
+The clarified lysate was added  to 0.5 ml Ni sepharose HP slurry (GE Healthcare) and allowed to  bind for 1 h with constant agitation.
+We followed with two washing  steps with 20 column volumes of wash buffer buffer (20 mM  Sodium phosphate, pH 8, 500 mM NaCl, 20 mM imidazole).
+We  then eluted the column with wash buffer supplemented with  500 mM imidazole, 0.5 ml fractions were collected and stored at  80C.
+  Buffer exchanges of the proteins were performed using Pierce  centrifuge columns from Thermo Fischer.
+Buffer exchanges of the  proteins were performed using Zeba desalting centrifuge columns  from Thermo Fischer.
+Proteins were transferred to SPR running buffer (0.01 M HEPES pH 7.4, 0.15 M NaCl, 3 mM EDTA pH 7.4)  and IgG1 to 20 mM HEPES buffer, pH7.4.
+Concentration measurement of proteins was done by Bicinchoninic Acid (BCA) assay.
+  Fluorescence activated cell Sorting  On-cell affinity determination was analyzed using Gallios flow cytometer (Beckman Coulter, Indianapolis, IN, US) and has been previously described (Fleetwood et al. 2014).
+Briefly, 20 l of cells from  induced culture were spun down and labeled with 4.3 nM biotinylated human IgG and incubated on rotamixer for 45 min.
+The excess  IgG was subsequently washed away.
+Detection of IgG binding and  cell expression was done by labeling cells with 10 g/ml Strepavidin  R-phycoerythrin (Invitrogen, Gteborg, Sweden) and 10 g/ml  human serum albumin-alexa488, this was incubated on ice for  25 min.
+The cells were transferred to 5 ml round bottomed falcon  tube and analyzed using a Gallios flow cytometer.
+  SPR measurements  SPR measurements were carried out at 25C using a Biacore T200  instrument (Biacore AB, Uppsala, Sweden).
+IgG1 purchased from  Sigma Aldrich (Human IgG1, Kappa, product number I 5154) was  immobilized to a CM5 chip by standard amine coupling to 6730  RU (Round 1) or 6900 RU (Round 2) using 10 mM sodium  acetate buffer pH 5 as immobilization buffer.
+Affibody variants  were injected either as one single concentration (100 nM) or in single cycle kinetic experiments, where five concentrations of the analyte run in HBS-EP running buffer (0.01 M HEPES pH 7.4, 0.15 M  NaCl, 3 mM EDTA, 0.005% v/v Tween 20 pH 7.4) using a flow  rate of 30 l/min.
+Instead of using regeneration to clean the surface  (observed as returning to baseline between sample runs), long stabilizing periods of 1800 s and 3 buffer injections were performed  between sample runs.
+The sensorgrams were corrected for buffer  bulk effects and unspecific binding of the samples to the chip matrix  by blank and reference surface subtraction (subtraction of inactivated and deactivated flow cell channel).
+The data were analyzed  using Biacore T200 evaluation software version 1.0.
+Simple 1:1  binding models were used for curve-fitting depending on the  analysis.
+  Supplementary data  Supplementary data are available at Protein Engineering, Design & Selection  online.
+  SpA  Fc  +charge  -charge  hydrophobic  Fig. 5 Characteristics of the Affibody Domain BFc interface.
+Note the extensive hydrophobic contacts in the interface (cyan licorice).
+Residues with positively charged side chains are highlighted in red while the negatively  charged side chains are highlighted in blue; there is no clear and direct way  to create new salt bridges.
+  8 M.Nosrati et al.Acknowledgements  This work was supported by Uppsala University, the Swedish Foundation for  International Cooperation in Research and Higher Education (STINT), and  eSSENCE (essenceofescience.se).
+M.N. acknowledges a scholarship from the  Iranian Ministry of Science and Technology. We acknowledge a generous  allocation of time on the Uppmax, Aurora, and Akka clusters from the  Swedish National Infrastructure for Computing (SNIC), and special support  from Drs. Hein, Rudberg and Freyhult. UHD acknowledges support from the  Swedish Research Council (VR, no. D0571301).
+The funders had no role in  study design, data collection and analysis, decision to publish or preparation  of the manuscript.
+  References  Abuchowski,A., van Es,T., Palczuk,N.C. and Davis,F.F. (1977) J. Biol.
+  Chem., 252, 3578.  Bernton,E., Gannon,W., Kramer,W. and Kranz,E. (2014) Clin.
+Pharmacol.  Drug Dev., 3, 477.  Bogan,A.A. and Thorn,K.S. (1998) J. Mol. Biol., 280, 1.  Bottomley,S.P., Popplewell,A.G., Scawen,M., Wan,T., Sutton,B.J. and Gore,  M.G. (1994) Protein.
+Eng., 7, 1463.  Cedergren,L., Andersson,R., Jansson,B., Uhln,M. and Nilsson,B. (1993)  Protein Eng. Des. Sel., 6, 441.  Cunningham,B. and Wells,J. (1989) Science, 244, 10811085.  Deisenhofer,J. (1981) Biochemistry, 20, 2361.  Dourado,D.F.A.R. and Flores,S.C. (2016) Nat. Sci. Rep., 6, 25406.  Dourado,D.F.A.R. and Flores,S.C. (2014) Proteins, 82, 26812690.  Fleetwood,F., Andersson,K.G., Sthl,S. et al. (2014) Microb.
+Cell Fact., 13, 179.  Goding,J.W. (1978) J. Immunol. Methods, 20, 241.  Guerois,R., Nielsen,J.E. and Serrano,L. (2002) J. Mol. Biol., 320, 369.  Humphrey,W., Dalke,A. and Schulten,K. (1996) J. Mol. Graph, 14, 27.  Li,L., Wang,L. and Alexov,E. (2015) Front.
+Mol. Biosci, 2, 5.  Lindorff-Larsen,K., Piana,S., Palmo,K., Maragakis,P., Klepeis,J.L., Dror,R.O.  and Shaw,D.E. (2010) Proteins, 78, 1950.  Liu,L., Garcia,A.M., Santoro,H., Zhang,Y., McDonnell,K., Dumont,J. and  Bitonti,A. (2007) J. Immunol., 178, 5390.  Lfblom,J., Wernrus,H. and Sthl,S. (2005) FEMS. Microbiol. Lett., 248,  189.  Lfblom,J., Feldwisch,J., Tolmachev,V., Carlsson,J., Sthl,S. and Frejd,F.Y.  (2010) FEBS Lett., 584, 2670.  MacLellan,L.M., Montgomery,J., Sugiyama,F. et al. (2011) Arthritis.
+  Rheum., 63, 3897.  Moal,I.H. and Fernndez-Recio,J. (2012) Bioinformatics, 28, 2600.  Moretti,R., Fleishman,S.J., Agius,R. et al. (2013) Proteins, 81, 1980.  Nilsson,B., Moks,T., Jansson,B., Abrahmsn,L., Elmblad,A., Holmgren,  E., Henrichson,C., Jones,T.A. and Uhln,M. (1987) Protein Eng. Des.  Sel., 1, 107113.  Petukh,M., Li,M. and Alexov,E. (2015) PLoS. Comput.
+Biol., 11, e1004276.  Pradhananga,S., Wilkinson,I. and Ross,R.J.M. (2002) J. Mol. Endocrinol.,  29, 11.  Roopenian,D.C. and Akilesh,S. (2007) Nat. Rev. Immunol., 7, 715.  Santos-Jnior,C.D., Verssimo,A. and Costa,J. (2016) BMC.
+Microbiol., 16,  143.  Seijsing,J., Lindborg,M., Hidn-Guthenberg,I. et al. (2014) Proc.
+Natl.  Acad. Sci. USA, 111, 17110.  Van Der Spoel,D., Lindahl,E., Hess,B., Groenhof,G., Mark,A. and Berendsen,  H. (2005) J. Comput.
+Chem., 26, 1701.  Wagner,A. (2008) Nat. Rev. Genet., 9, 965.  Xiong,P., Zhang,C., Zheng,W. and Zhang,Y. (2017) J. Mol. Biol., 429, 426.  Insights into the Affibody-Fc interaction 9

@@ -1,0 +1,465 @@
+Unraveling a Hotspot for TCR Recognition on HLA-A2:  Evidence Against the Existence of Peptide-independent  TCR Binding Determinants  Susan J. Gagnon1  , Oleg Y. Borbulevych2,3, Rebecca L. Davis-Harrison2  Tiffany K. Baxter2  , John R. Clemens2  , Kathryn M. Armstrong2  Richard V. Turner1  , Marale Damirjian1  , William E. Biddison1 and  Brian M. Baker2,3*  1  Molecular Immunology  Section, Neuroimmunology  Branch, National Institute of  Neurological Diseases and  Stroke, National Institutes of  Health, Bethesda, MD 20892  USA  2  Department of Chemistry and  Biochemistry, 251 Nieuwland  Science Hall, University of  Notre Dame, Notre Dame  IN 46556, USA  3  Walther Cancer Research  Center, 251 Nieuwland Science  Hall, University of Notre Dame  Notre Dame, IN 46556, USA  T cell receptor (TCR) recognition of peptide takes place in the context of the  major histocompatibility complex (MHC) molecule, which accounts for  approximately two-thirds of the peptide/MHC buried surface.
+Using the  class I MHC HLA-A2 and a large panel of mutants, we have previously  shown that surface mutations that disrupt TCR recognition vary with the  identity of the peptide.
+The single exception is Lys66 on the HLA-A2 a1  helix, which when mutated to alanine disrupts recognition for 93% of over  250 different T cell clones or lines, independent of which peptide is bound.
+  Thus, Lys66 could serve as a peptide-independent TCR binding  determinant.
+Here, we have examined the role of Lys66 in TCR recognition  of HLA-A2 in detail.
+The structure of a peptide/HLA-A2 molecule with the  K66A mutation indicates that although the mutation induces no major  structural changes, it results in the exposure of a negatively charged  glutamate (Glu63) underneath Lys66.
+Concurrent replacement of Glu63  with glutamine restores TCR binding and function for T cells specific for  five different peptides presented by HLA-A2.
+Thus, the positive charge on  Lys66 does not serve to guide all TCRs onto the HLA-A2 molecule in a  manner required for productive signaling.
+Furthermore, electrostatic  calculations indicate that Lys66 does not contribute to the stability of two  TCR-peptide/HLA-A2 complexes.
+Our findings are consistent with the  notion that each TCR arrives at a unique solution of how to bind a peptide/  MHC, most strongly influenced by the chemical and structural features of  the bound peptide.
+This would not rule out an intrinsic affinity of TCRs for  MHC molecules achieved through multiple weak interactions, but for  HLA-A2 the collective mutational data place limits on the role of any single  MHC amino acid side-chain in driving TCR binding in a peptideindependent fashion.
+  Published by Elsevier Ltd.  Keywords: T cell receptors; proteinprotein interactions; continuum  *Corresponding author electrostatics; binding determinants; hot spots  Introduction  ab T cell receptors (TCRs) recognize antigenic  peptides presented by class I or class II major  histocompatibility complex (MHC) molecules.
+  Structural studies have indicated that TCRs contact  elements of both the peptide and the MHC  molecule, with the peptide contributing only a  third or less of the contacted surface area.1 Despite  the small contribution of the peptide to the buried  surface, TCRs generally maintain high levels of  specificity towards their peptide/MHC ligands,2  but this is contrasted by an inherent cross-reactivity  with different peptide/MHCs.3 This duality of  0022-2836/$ - see front matter Published by Elsevier Ltd.  Abbreviations used: TCR, T cell receptor; MHC, major  histocompatibility complex; CDR, complementarity  determining region.
+  E-mail address of the corresponding author:  bbaker2@nd.edu  doi:10.1016/j.jmb.2005.08.024 J. Mol. Biol. (2005) 353, 556573specificity and cross-reactivity is a key feature of  T cell biology, yet a clear picture of its physical basis  has yet to emerge.
+Flexibility of the TCR antigen  combining site has been implicated in permitting  cross-reactivity with structurally and chemically  diverse peptides, allowing the TCR to adapt to  different ligands,4 or alternatively, allowing the  peptide/MHC to select a compatible conformation  from an ensemble of conformations in the unbound  TCR.5  However, TCR binding must still take place in the  context of the MHC molecule, i.e. TCRs do not  detectably bind free peptide.
+Yet, the contributions  of the MHC to TCR binding have been difficult to  elucidate.
+Davis and colleagues have proposed a  two-step model,6 whereby contacts to the MHC  a1 and a2 helices are formed by germline-encoded  complementarity determining region 1 (CDR1) or 2  loops early in the recognition process, resulting in  rapid dissociation if the randomly generated CDR3  loops are unable to stably interact with the peptide.
+  This model, along with the conceptually related  tritope model,7 builds on and has been extended  by suggestions of a bias in the germline encoded  loops towards recognition of the MHC a1 and a2  helices.8 However, whether TCR binding determinants on the MHC molecule are fixed or whether  each TCR achieves a unique solution of how to  recognize an MHC molecule and its complex with  peptide is unclear.
+In favor of the former, there is  strong evidence for the existence of an intrinsic  affinity of TCRs for MHC molecules.9,10 Nonetheless, crystallographic structures of TCRpeptide/MHC complexes have so far identified  few conserved interactions between TCRs and the  MHC a1 and a2 helices through which an intrinsic  affinity could be mediated.8,11,12  We have been addressing the distinction between  TCR recognition of peptide and MHC by examining  different receptors that recognize peptides presented by the class I MHC HLA-A*0201 (HLA-A2).
+  In a mutational experiment of HLA-A2 amino acids  contacted by the A6 TCR, which recognizes the Tax  peptide (LLFGYPVYV) presented by HLA-A2, only  a surprisingly small three out of 15 mutations had  detrimental effects on recognition.13 These three  amino acid residues, Arg65, Lys66, and Ala69  localize to a region near the center of the a1 helix.
+  Extension of the study to additional TCRs specific  for Tax/HLA-A2 confirmed the important role of  the Arg65/Lys66/Ala69 region in TCR recognition  of Tax/HLA-A2: in a panel of 201 additional Tax/  HLA-A2 specific T cell lines, mutations at position  65, 66, or 69 each negatively affected recognition by  at least 66% of the CTL lines in this large panel.13  Mutation of Lys66/Ala (K66A) was particularly  disruptive, negatively affecting recognition for 98%  of the 201 CTL lines examined.
+  Analysis of T cells specific for four other peptides  presented by HLA-A2 yielded similar findings:  only a small number of HLA-A2 positions  when mutated to alanine resulted in significantly  diminished T cell activity.14 Although in general the  disruptive mutations varied with the peptide  specificity of the TCRs, the K66A mutation was  consistently disruptive for the majority of T cells  examined, regardless of their peptide specificity.
+  Similar results were seen with recognition of the Tax  and M1 peptides derivatized with large organic  haptens.15 These findings were consistent with an  earlier study showing that mutations at position 66  disrupted recognition of HLA-A2 targets by a series  of alloreactive CTL.16  Subsequent investigations confirmed that, while  the K66A mutation does result in faster peptide  dissociation from HLA-A2, this cannot account for  the impact of the K66A mutation on T cell  recognition, as, although they were rare, T cells  were identified that were unaffected by the K66A  mutation.
+Furthermore, mutation of Lys66 to  arginine (K66R) resulted in an increase in peptide  dissociation very similar to that observed with  K66A, yet K66R targets were recognized at levels  similar to wild-type.17  One interpretation of the data summarized above  is that for the majority of HLA-A2-restricted T cell  receptors, Lys66 serves as a peptide-independent  TCR binding determinant. It could thus serve to  orient the TCR on the MHC molecule, facilitate  early TCR association in order to permit peptide  scanning,4,6 or allow weak binding of TCRs to  non-cognate peptide/MHC complexes in order to  elicit T cell functions.18 However, this interpretation  is complicated by the unusual geometry Lys66  maintains in structures of TCRs with peptide/  HLA-A2 ligands: although Lys66 participates in  the proteinprotein interface in all known TCR/  peptide/HLA-A2 structures,1923 it does not form a  formal salt-bridge or hydrogen bond with the TCR  in any of these, and does not have any of the  characteristics common to hot spots within  proteinprotein interfaces.24,25 Furthermore, an  equally plausible hypothesis for the negative effects  of the K66A mutation is that the mutation alters the  structure of the peptide/HLA-A2 complex in such a  manner to prevent productive recognition by most  peptide-specific T cells.
+  Here, we critically evaluate Lys66 and its role in  TCR recognition of peptide/HLA-A2 complexes.
+  We show that the defect in TCR recognition of Lys66  HLA-A2 mutants stems from an alteration in the  electrostatic surface presented to TCRs, rather than  indirect effects such as structural changes occurring  in response to the mutation.
+However, the data  indicate that the recognition defect is not due to a  loss of favorable interactions with TCRs, a finding of  which would support the idea that Lys66 is a  peptide-independent TCR binding determinant.
+  Rather, the recognition defect with the K66A  mutation is a consequence of the exposure of a  negatively charged glutamate, which when  replaced with a neutral glutamine fully or partially  restores functional recognition for multiple  peptide/HLA-A2 complexes.
+Further investigation  using biophysical measurements and continuum  electrostatics calculations indicates that Lys66 does  Unraveling a Hot Spot on HLA-A2 557not contribute favorably to the stability of two  different TCR/peptide/HLA-A2 complexes, and is  not required for electrostatic enhancement of TCR  binding rates.
+The data thus indicate that Lys66 is not  required for functional recognition of all peptide/  HLA-A2 complexes, either in terms of achieving a  requisite TCR affinity (or half-life), or for achieving a  TCR binding mode necessary for productive signaling to occur.
+These findings are discussed in the  context of electrostatic contributions to TCR recognition of ligand, TCR accommodation of buried  charges, and an intrinsic affinity of T cell receptors  for major histocompatibility molecules.
+  Results  Analysis of the environment of Lys66 in  TCR/peptide/HLA-A2 crystal structures  Lysine 66 of HLA-A2 participates in the interface  in all known TCR/peptide/HLA-A2 structures;1923  in four out of five of these the charged nitrogen of  the side-chain is either fully or almost fully  buried.1921,23 However, Lys66 does not have any  of the characteristics common to hot spots within  proteinprotein interfaces,24,25 and, despite burial  of its charge, Lys66 does not form hydrogen bonds  or salt-bridges with the TCR in any of the known  TCR/peptide/HLA-A2 structures, which is unusual for charges within proteinprotein interfaces.26 In all TCR/peptide/HLA-A2 structures  solved to-date, the side-chain of Lys66 is oriented  roughly parallel with the HLA-A2 a1 helix, helping  to bury the P2 side-chain, hydrogen bonding with  the P2 carbonyl oxygen and forming a salt-bridge  with Glu63 of the a1 helix.
+Although there are  occasional inter-atomic contacts with the carbon  atoms of the Lys66 side-chain, the positively  charged nitrogen on Lys66 is opposed only by  electronegative oxygen atoms from CDR1a and  CDR3a at medium-to-long distances.
+For example,  in the structure with the A6 TCR, although the  nitrogen is almost fully buried in the interface, it is  opposed by the carboxylate of Asp99 of CDR3a at a  distance of 5.8 A and the side-chain oxygen of  Gln30 of CDR1a at a distance of 5.5 A .
+In the  structure with the B7 TCR,20 the nitrogen is  completely buried and is opposed by the carboxylate of Asp30 of CDR1a at a distance of 4.9 A  (a more complete analysis of the environment  around Lys66 in known TCR/peptide/HLA-A2  crystal structures is provided in the Supplementary  Data).
+Thus Lys66 does not form the kind of shortrange interactions that could potentially explain the  significant disruption in T cell recognition when it is  mutated to alanine.
+  The E63Q mutation can repair the recognition  defect with the K66A mutation  A predicted effect of the K66A mutation in HLAA2, in addition to removing the positive charge  contributed by the lysine, is to increase the surface  exposure of Glu63 of the a1 helix.
+Lys66 forms a  salt-bridge with Glu63 in all known peptide/HLAA2 crystal structures, and buries a considerable  fraction of the Glu63 carboxylate surface area: in the  wild-type molecule complexed with the Tax  peptide,27,28 the carboxylate exposes only 1.6 A 2 of  surface area.
+Simple modeling suggested that, in the  absence of any structural changes, the K66A  mutation would increase this to 8.8 A 2  , an almost  sixfold increase.
+Thus, not only would the K66A  mutation remove a positive charge on the surface of  HLA-A2, it would also expose a negative charge.
+  We hypothesized that this reversal of the electrostatic properties of the protein surface could  influence TCR binding independently of any  contributions made by Lys66 in the wild-type  HLA-A2 molecule.
+  To test this hypothesis, we examined recognition  of peptide/HLA-A2 complexes in which the K66A  mutation was combined with a mutation that  Figure 1.
+Cell surface expression of HLA-A2 molecules.
+  Fluorescence profiles are shown for the indicated  transfectants stained with the anti-A2 antibodies BB7.2,  CR11-351, MA2.1, and PA2.1 and the anti-class I antibody  W6/32.
+The K66A and E63Q/K66A mutants are expressed  at levels identical with wild-type, whereas the E63A/K66A  mutant is present at levels 10100-fold lower.
+  558 Unraveling a Hot Spot on HLA-A2replaces Glu63 with glutamine (E63Q/K66A).
+  Glutamine is isosteric with glutamate, but replaces  the negatively charged carboxylate with an  uncharged amide.
+As a control, we also generated  a double mutant in which both Glu63 and Lys66  were replaced with alanine (E63A/K66A).
+Effects  on T cell recognition were assayed by measuring  cytotoxicity and MIP-1b release, using Hmy2.C1R  cells transfected with mutant HLA-A2 constructs.
+  Cell surface expression of the transfectants is  shown in Figure 1, and is compared to that of wildtype and K66A.
+Expression was detected by four  different anti-HLA-A2 antibodies plus the anti-class  I antibody W6/32.
+The E63Q/K66A double mutant  was expressed at levels indistinguishable from  HLA-A2 and K66A.
+In contrast, the E63A/K66A  double alanine mutant was expressed at levels 10  100-fold lower.
+  The mutant transfectants were then assayed for  their ability to present peptides to a variety of  peptide-specific CTL clones (Figure 2).
+The A6 TCRbearing clone RS56 (Figure 2(a)) did not lyse Taxpulsed K66A, consistent with earlier data,13 but did  lyse E63Q/K66A at levels equivalent to that of wildtype HLA-A2.
+The E63A/K66A double alanine  mutant was lysed 10100-fold less efficiently than  wild-type based on the levels of Tax peptide  required for half-maximal lysis.
+A6 TCR recognition  was also measured by the ability to trigger secretion  of the chemokine MIP-1b (Figure 2(b)).
+As with  lysis, the E63Q/K66A double mutant induced  levels of MIP-1b equivalent to or slightly greater  than wild-type, whereas the levels of MIP-1b  induced by E63A/K66A were less than wild-type.
+  We also examined lysis by clone 10B7, expressing  the Tax/HLA-A2-specific B7 TCR.20 10B7 was  unable to lyse Tax-pulsed K66A or E63A/K66A,  but was able to lyse E63Q/K66A targets at levels  10100 fold less than wild-type (Figure 2(c)).
+A third  Tax/HLA-A2-specific CTL clone, J.O.4, that  expresses a TCR distinct from A6 and B7 was  unable to lyse either Tax-pulsed K66A, E63Q/  K66A, or E63A/K66A targets.
+These results demonstrate that the E63Q/K66A double mutant was able  to completely or partially repair the negative effect  of the K66A mutation on TCR recognition for two  out of three Tax/A2-specific TCRs.
+Despite the fact  that the E63A/K66A double alanine mutant was  expressed at levels less than wild-type, it could still  partially repair the K66A defect for recognition by  the A6 TCR.
+A fourth Tax/HLA-A2 specific CTL  clone, 1E7, a rarity in that it is insensitive to the  K66A mutation,17 efficiently lysed K66A, E63A/  K66A, and E63Q/K66A targets (data not shown).
+  Figure 2.
+Tax/A2-specific CTL recognition of mutant transfectants.
+Hmy2.C1R cells transfected with wild-type A2.1  (diamonds), K66A (circles), E63Q/K66A (triangles), and E63A/K66A (squares) were assayed for (a) lysis by CTL clone  RS56, (b) induction of MIP-1b secretion by RS56, (c) lysis by CTL clone 10B7, and (d) lysis by CTL clone J.O.4.
+For CTL  assays E:TZ2.5:1.
+  Unraveling a Hot Spot on HLA-A2 559We next examined T cell clones specific for the  MART-1 (AAGIGILTV), pp65 (NLVPMVATV), and  influenza M1 (GILGFVFTL) peptides presented by  HLA-A2, as well as a polyclonal line that recognizes  the gp100209 peptide (ITDQVPFSV) presented by  HLA-A2.
+The results, summarized in Table 1,  indicate that in all cases, the E63Q/K66A mutation  was able to fully or partially repair any recognition  defect associated with the K66A mutation.
+The  MART-1/HLA-A2-specific CTL clone B10-97 is a  special case, as this clone lysed K66A targets in the  absence of exogenous peptide.
+This phenomenon,  which resembles alloreactivity, has been observed  with other CTL clones in response to both the K66A  mutation and mutation of Gln155 to alanine,14,15 but  with B10-97 it disappears with E63Q/K66A targets.
+  Thus, for seven out of eight CTL clones or lines,  covering five different peptides presented by HLAA2, the E63Q/K66A double mutation fully or  partially repairs the recognition defect associated  with the K66A mutation.
+  Neither the K66A single mutation or the  E63Q/K66A double mutation in HLA-A2 alter the  structure of the peptide/HLA-A2 complex  To help interpret the functional studies, we  determined the X-ray structures of the Tax peptide  bound to HLA-A2 with the K66A single mutation  and the E63Q/K66A double mutation.
+We chose the  Tax peptide as this is the system for which most  data are available regarding the effects of the K66A  and other HLA-A2 mutations,13 and there is a  corresponding 1.8 A structure of the wild-type Tax/  HLA-A2 complex available for comparison.28  The complexes crystallized isomorphously with  wild-type Tax/HLA-A2.
+The structures were solved  at 2.05 A (K66A) and 1.95 A (E63Q/K66A) resolution using molecular replacement.
+Crystallographic  data and refinement statistics are shown in Table 2.
+  As expected, the two structures are topologically  identical with the wild-type structure.
+Comparing  the K66A structure to wild-type, the backbones of  the two complexes superimpose to an RMSD of  0.39 A .
+Focusing on the peptides, the backbones  superimpose to an RMSD of 0.20 A and all atoms to  0.25 A .
+There are some individual shifts in the range  of 0.20.3 A in the peptide backbone, but these are  not systematically distributed and do not translate  into differences in the positions of the peptide sidechains (Figure 3).
+The largest difference between the  peptides is in the Pro6 side-chain, whose d carbon is  displaced by 1.1 A .
+However, Pro6 of the Tax  peptide is a conformationally sensitive position,19  and we cannot directly attribute this change directly  to the K66A mutation.
+Examining the peptide  binding groove (positions 1180 of the heavy  chain), the backbones of the two domains superimpose to 0.27 A , indicating that there are no gross  conformational changes in response to the mutation  and that there is no shift in the position of the a1  helix.
+  Focusing on the site of the mutation (Figure 4)  there are no shifts in the backbone atoms of amino  acid residues 6369 greater than w0.15 A when the  peptide binding grooves are superimposed.
+The  only significant side-chain difference near the site of  the mutation is the position of the solvent-exposed  side-chain of Arg65, whose c1 and c3 torsion angles  are rotated by 378 and 1228, respectively  (Figure 4(a)).
+However, we cannot be sure whether  Table 1.
+Summary of the functional effects of the K66A,  E63Q/K66A, and E63A/K66A mutations in HLA-A2  T cell  clone/line  Peptide  specificity K66A  E63Q/  K66A  E63A/  K66A  RS56 (A6) Tax K CC C  10B7 (B7) Tax KCK  J.O.4 Tax KKK  1E7 Tax CC CC CC  B10-97 MART-1 5a CC C  B10-88 MART-1 KCK  IIG9 pp65 G CC G  M1 CTL#2 M1 KGK  Hurley  TIL  gp100 KCG  CC, As active as wild type; C, reduced activity; G, some  activity at high peptide concentration; K, no activity.
+a B10-97 lysed K66A targets in the absence of exogenous  peptide.
+  Table 2.
+X-ray data and refinement statistics  Complex  Tax/HLA-A2  (K66A)  Tax/HLA-A2  (E63Q/K66A)  Source APS 19BM APS 19BM  Space group P1 P1  a (A ) 50.32 50.33  b (A ) 62.53 62.54  c (A ) 74.80 74.75  a (deg.) 82.13 82.10  b (deg.) 76.57 76.39  g (deg.) 78.06 78.10  Molecules (a.u.) 2 2  Resolution (A ) 202.05 201.95  Total number of reflections 51,617 60,276  Mosaicity 0.598 0.818  Completeness (%) 95.5 (83.7)a 96.4 (91.2)  I/s 10.8 (2.3) 11.3 (2.2)  Rmerge (%)b 7.5 (28.0) 7.2 (30.2)  Average redundancy 1.9 (1.7) 1.9 (1.7)  Rcryst (%, no. reflections)c 17.15 (49,005) 17.44 (57,226)  Rfree (%, no. reflections)d 23.41 (2612) 23.06 (3050)  Average B factor (A 2  ) 14.9 12.9  Ramachandran plot  Most favored (%) 92.9 92.8  Allowed (%) 6.8 6.8  Generously allowed (%) 0.3 0.4  Disallowed (%) 0.0 0.0  RMS deviations from ideality  Bond lengths (A ) 0.020 0.021  Bond angles (deg.) 1.9438 2.0488  Coordinate error (A )  e 0.14b 0.12  a Numbers in parentheses refer to the highest resolution shell.
+b RmergeZSjIKhIij=hIi.
+c RcrystZSjKjFojjFcjj=SjFo.
+d Rfree is as for Rcryst but calculated for a subset of reflections  not used in refinement.
+e Mean estimate based on maximum likelihood methods.
+  560 Unraveling a Hot Spot on HLA-A2this difference is attributable to the K66A mutation  or whether it reflects the kind of variability often  seen in solvent-exposed side-chains when similar  protein structures are compared.
+Similar differences  are seen elsewhere in the structures, for example in  the side-chain of Glu89, a full 29 A away from the  site of the mutation.
+Also, the temperature factors  for the side-chain of Arg65 are higher than average  in the wild-type and mutant structures (the wildtype and mutant structures were also crystallized  under different conditions, which could influence  the position of exposed side-chains such as that of  Arg65).
+We conclude that although there may be  some minor structural consequences in response to  the K66A mutation, there are no major conformational differences that can easily explain its  substantial negative effects.
+Examining the solventaccessible surface area of Glu63, the carboxylate  exposes 8.5 A 2  , very close to the value of 8.8 A 2  predicted from simple modeling (Figure 4(b) and (c)).
+  Turning to the structure of the E63Q/K66A  double mutant, the backbone of this complex  superimposes onto the wild-type molecule with  an RMSD of 0.37 A (the two mutant complexes  superimpose to 0.14 A ).
+Focusing on the peptides,  the backbones superimpose to 0.18 A and all atoms  to 0.23 A .
+Again, there are no systematic differences  or different side-chain conformations (Figure 3(c)).
+  The backbones of the double mutant and wild-type  peptide binding domains superimpose to 0.26 A .
+As  with the K66A structure, there are no significant  differences in the protein backbone near the site of  mutation, and the side-chain of Gln63 directly  overlays the side-chain of Glu63 when the backbones of the double mutant and wild-type  complexes are superimposed (Figure 4(a)).
+Also,  the conformation of Arg65 in the E63Q/K66A  structure is nearly identical with the conformation  in the K66A structure (Figure 4(a)).
+We conclude  that, as with the K66A mutation, the E63Q/K66A  double mutation does not introduce conformational  differences in the structure of the Tax/HLA-A2  complex that could explain its activity.
+  Figure 5 shows electrostatic surface potentials for  the wild-type, K66A, and E63Q/K66A Tax/HLAA2 structures calculated using finite-difference  PoissonBoltzmann methods.29,30 The effects of the  K66A and the E63Q/K66A mutations on the surface  potential are apparent, with the K66A mutation  reversing the potential and the E63Q/K66A double  mutation bringing it to near-neutrality.
+  An interesting feature of the K66A and E63Q/  K66A structures is the presence of a water molecule  in the position normally occupied by the Lys66 sidechain nitrogen (Figure 6).
+In the K66A structure  (Figure 6(a)), this water molecule is in a position to  act as a hydrogen bond donor to both the P2 oxygen  and Glu63, mimicking hydrogen bonds made by  Lys66 in the wild-type molecule.17 In the E63Q/  K66A structure (Figure 6(b)), the positioning of  Gln63 (which is oriented by the hydrogen bond to  the P2 amide nitrogen) requires that the water  molecule act as a hydrogen bond acceptor from  Gln63.
+As the water molecule still acts as a donor to  the P2 oxygen, this leaves one water proton  positioned up and way from the plane of the  peptide/MHC, as would be found with a charged  lysine at position 66.
+  The Tax/HLA-A2-specific T cell receptors A6 and  B7 bind the E63Q/K66A ligand with moderate  affinity  We next examined the interactions of the Tax/  HLA-A2-specific TCRs A6 and B7 with the E63Q/  K66A mutant using surface plasmon resonance.
+We  have previously shown that the K66A mutation  substantially weakens the binding of A6 and B7 to  Tax/HLA-A2;17 based on the functional studies we  expected that the E63Q/K66A double mutation  would return binding affinity to levels in the lower  micromolar range.31 As there are conflicting data on  how weak the interaction of A6 TCR is with the  K66A mutant,13,17 we also re-examined this interaction.
+Binding data are shown in Figure 7 and the  results are summarized in Table 3.
+  Consistent with the functional data, the E63Q/  K66A mutant restores binding affinity for both the  A6 and B7 TCRs.
+At 11 mM, the affinity of A6 for the  double mutant is approximately fivefold weaker  than the affinity for wild-type Tax/HLA-A2,  Figure 3.
+The conformation of the Tax peptide in the  K66A, E63Q/K66A, and wild-type Tax/HLA-A2 structures is identical.
+(a) and (b) 2FoKFc peptide densities  contoured at 1s for the (a) K66A and (b) E63Q/  K66A structures.
+(c) Superimposition of the Tax peptide  from the K66A, E63Q/K66A, and wild-type structures.
+  K66A is yellow, E63Q/K66A is white, and wild-type is  blue.
+  Unraveling a Hot Spot on HLA-A2 561whereas at 37 mM the affinity of B7 is approximately  27-fold weaker.
+This weaker affinity for B7, in the  range for weak-agonist TCR ligands,31 is consistent  with the observation that the E63Q mutation is less  effective at repairing the K66A recognition defect  with B7 than A6 (Figure 2).
+The affinity of A6 for the  K66A single mutant is very weak, with a value  O300 mM. Reliable binding data could not be  obtained for B7 binding to the K66A mutant,  suggesting an even weaker affinity.
+These  experiments demonstrate that the K66A  mutation abrogates TCR binding, which can be  returned to agonist or weak-agonist levels by the  E66Q/K66A double mutation.
+Thus, the binding  data are in complete concordance with the  functional studies.
+  We note that a previous analysis of the interaction  of A6 with K66A reported an affinity in the range of  1619 mM;13 we consider the analysis used here,  based on steady-state measurements using very  high protein concentrations (up to 500 mM), to be  more accurate than the kinetic analysis used earlier.
+  Furthermore, we could not observe the slow  association and dissociation kinetics that had been  reported earlier.
+  Peptide dissociation from the E63Q/K66A and  K66A mutant HLA-A2 molecules is similar  The K66A mutation in HLA-A2 results in an  increase in peptide dissociation from the HLA-A2  molecule relative to wild-type.17 It is thus possible  Figure 4.
+Close-up views of the region encompassing positions 63 and 66 in the mutant and wild-type Tax/HLA-A2  structures.
+(a) Cross-eyed stereo view of the region showing the side-chains of amino acid residues 63, 65, and 66.
+Sidechains are yellow in the K66A structure, white in the E63Q/K66A structure, and blue in the wild-type structure.
+Peptide  side-chains are not shown.
+The superimposition is for the backbones of the peptide binding domains from the mutant  structures onto the wild-type structure.
+(b) and (c) Solvent accessibility of the position 63 and 66 side-chains in the wildtype (b) and K66A (c) structures.
+Surface from carbon atoms is green, nitrogen blue, and oxygen red.
+Accessibility of the  positive and negative surface is indicated.
+Exposure of the negatively charged carboxylate increases from 1.6 A 2 in the  wild-type molecule to 8.5 A 2 in the K66A structure, with a concomitant loss of 5.2 A 2 of positively charged surface from  the lysine nitrogen.
+  562 Unraveling a Hot Spot on HLA-A2that the repair of the K66A recognition defect by the  E63Q mutation in the functional assays could be  attributable to stabilization of the peptide/MHC  complex.
+To investigate this, we measured dissociation of a fluorescently labeled Tax peptide  variant from the E63Q/K66A double mutant using  fluorescence anisotropy.
+The labeled peptide and  experimental conditions were identical with those  used for previous measurements with the wild-type  and K66A mutant.17,32 The results, shown in  Figure 8, show that peptide dissociation from the  E63Q/K66A molecule is much faster than wild-type  at 25 8C and 37 8C, and in fact, slightly faster than  dissociation from the K66A molecule at 37 8C.
+We  also measured the thermal stability of the molecules  using CD spectroscopy.
+The apparent Tm of the  E63Q/K66A double mutant is less than that of the  K66A mutant (58 8C for E63Q/K66A and 61 8C for  K66A, compared to 63 8C for wild-type).
+Together,  these data indicate that the ability of the E63Q  mutation to repair the effects of the K66A mutation  is not due to stabilization of the peptide/MHC  molecule.
+  Calculations of electrostatic energies indicate  that burial of Lys66 is not favorable and that the  K66A mutation acts by eliminating intramolecular effects  Although the studies above indicate that the  charge on Lys66 is not required for functional  recognition of HLA-A2, the weaker binding of A6  and B7 to the E63Q/K66A double mutant could be  interpreted to suggest that the charge on Lys66 still  provides some degree of stabilization to the TCR/  peptide/HLA-A2 complex, albeit weaker than  initially suggested by the functional responses to  the K66A mutation.
+To investigate this possibility,  we examined the interactions of the A6 and B7  TCRs with Tax/HLA-A2 using finite-difference  PoissonBoltzmann methods.29,30 Although commonly used to produce images of electrostatic  potentials as illustrated in Figure 5, these calculations are also frequently used to calculate  electrostatic energies, as the product of the electrostatic potential and the partial charge at a given  position yields the free energy of charging the  position.
+If the calculations are performed for a  complex and the two free components, the  difference yields an estimate for the electrostatic  contribution to the binding free energy DG8  elec.  One of the largest uncertainties in continuum  electrostatics methods is the choice for the interior  dielectric constant (3in).33 Various authors have  approached this problem differently: Honig and  colleagues have used a 3in of 2, explicitly discounting atomic mobility, conformational adjustments  upon binding, and incorporation of water, all of  which can act to raise the effective dielectric but are  difficult to model.34,35 Others have used values as  high as 25 to account for such phenomena when  they are known to occur (e.g. Muegge et al.36).
+  However, it is not predictable from the A6 and B7  Tax/HLA-A2 crystal structures which value of 3in  would be most appropriate, or even whether the  same value should be used for each complex.
+  We approached this problem by first calculating  the overall DG8  elec for the interaction of A6 and B7  with Tax/HLA-A2 as a function of 3in (Table 4A).
+  Though measurements of affinity versus ionic  strength, we have shown previously that the A6  and B7 interactions are only weakly dependent  upon electrostatics, with the contribution slightly  greater for A6 than B7.37 In our calculations, 3in  values in the range of 1214 resulted in values of  DG8  elec most consistent with these observations.
+  Outside of this range, the calculations predict  contributions of electrostatics that either destabilize  or stabilize the complexes greater than indicated by  experiment.
+  We next examined the effects of the K66A and  E63Q/K66A mutations in HLA-A2 on the total  contribution of electrostatics to binding (although  we could only detect very weak binding to K66A  with A6 and no binding to K66A with B7, the  calculations using a model structure allow us to ask  what the electrostatic energies would be in a  putative, albeit unstable, complex).
+These calculations, also shown in Table 4A, indicate that the  K66A mutation results in more unfavorable values  of DG8  elec, regardless of the choice of 3in.
+Making the  concurrent E63Q mutation shifts the DG8  elec values  back towards wild-type levels.
+Although the  Figure 5.
+Effects of the K66A and E63Q/K66A  mutations on electrostatic surface potentials.
+(a) Electrostatic potential on the surface of wild-type Tax/HLA-A2.
+  The circled region, enlarged on the right-hand side, is  characterized by a positive surface potential.
+(b) The  K66A mutation reverses the potential at this position.
+(c)  The E63Q/K66A double mutation results in a surface  potential close to neutrality.
+The scale, from red to blue, is  K5 to C5kT/e.
+  Unraveling a Hot Spot on HLA-A2 563calculations with the mutants are less reliable than  those with wild-type HLA-A2 due to the need to  model the mutant TCR/peptide/HLA-A2 structures, these results support the hypothesis that the  K66A mutation abrogates TCR recognition of HLAA2 by exposing the negative charge of Glu63.
+  Having identified a range of interior dielectrics  that best describes the overall contributions of  electrostatics to A6 and B7 recognition of Tax/  HLA-A2, we, next used continuum electrostatics to  calculate the energetic cost of burying the Lys66  side-chain in the A6 and B7Tax/HLA-A2  complexes.
+This was performed using the approach  described by Hendsch & Tidor38 and Sheinerman &  Honig,35 in which the contribution to the DG8  elec for  any arbitrary set of atoms can be calculated and  broken down into three main components: a  desolvation component, reflecting the energetic  penalty associated with stripping hydrating water  from a charge; an inter-molecular component,  reflecting the energy of new Coulombic interactions  formed across the interface upon binding; and an  intra-molecular component, reflecting changes in  the strength of existing Coulombic interactions  within the host protein that occur upon binding.
+  The results of these calculations, shown in  Table 4B, indicate that the Lys66 side-chain does  not form stabilizing electrostatic interactions with  either receptor: the total DG8  elec for Lys66 is large and  positive at a 3in of 2 and slightly positive in the  dielectric range of 1214 that best captures the  overall contributions of electrostatics.
+Note that  even at the high 3in values of 17 and 20, which  exaggerate the role of electrostatics in stabilizing  the A6 and B7 complexes, the contribution of Lys66  to DG8  elec is positive for A6 and zero for B7.
+  Examining the desolvation, inter-molecular, and  intra-molecular terms35,38 shows that regardless of  the choice of interior dielectric, inter- and intraCoulombic interactions are unable to overcome the  energetic penalty associated with removing water  from the Lys66 side-chain.
+  Figure 6.
+Cross-eyed stereo views of hydrogen bonding and water in the region encompassing positions 63 and 66 in  the K66A and E63Q/K66A structures.
+Arrows indicate hydrogen bonds in the direction of donor to acceptor.
+In both  structures, a water molecule is found in the position occupied by the Lys66 side-chain nitrogen in the wild-type  molecule.
+(a) In the K66A structure, the water serves as a hydrogen bond donor to the carbonyl oxygen of position 2 of  the peptide as well as the carboxylate of E63.
+(b) In the E63Q/K66A structure, the water also serves as a hydrogen bond  donor to the P2 carbonyl, but acts as an acceptor from the Q63 nitrogen.
+This leaves one water hydrogen pointing away  from the plane of the MHC a1/a2 helices, indicated by the blue arrow.
+  564 Unraveling a Hot Spot on HLA-A2Figure 7.
+Biacore data for the A6 and B7 TCRs binding E63Q/K66A and K66A Tax/HLA-A2 mutants.
+(a) and (b)  Steady-state equilibrium data for the E63Q/K66A Tax/HLA-A2 mutant binding to (a) A6 and (b) B7 surfaces.
+For each  interaction, two independent datasets, each consisting of two replicate concentration series over two different surfaces  were fit globally to a single-site binding model.
+(c) and (d) Representative kinetic data for the E63Q/K66A Tax/HLA-A2  mutant binding to (c) A6 and (d) B7 surfaces.
+Dissociation phases of kinetic traces were fit to a single exponential decay.
+  (e) Steady-state equilibrium data for the K66A Tax/HLA-A2 mutant binding to an A6 surface.
+Due to the high protein  concentration required for measuring binding, only a single surface was used.
+  Unraveling a Hot Spot on HLA-A2 565We then examined the contributions from Glu63  to the DG8  elec for A6 and B7 binding, performing  calculations with both the wild-type and modeled  K66A complexes.
+The results, shown in Table 4C  (and with the caveat that the TCR complexes with  the K66A molecules are models), were surprising in  that the calculated shift in the DG8  elec due to the  K66A mutation is dominated not by the introduction of a large desolvation penalty or charge  repulsion, but rather a shift in the strength of  intra-molecular component: in the wild-type Tax/  HLA-A2 molecule, existing Coulombic interactions  between Glu63 and other groups in the peptide/  MHC are enhanced upon binding of the A6 and B7  TCRs.
+This enhancement, however, is lost when  Lys66 is changed to alanine, resulting in a large  unfavorable contribution from Glu63.
+With the B7  TCR, there is an additional component arising from  unfavorable inter-molecular Coulombic interactions (i.e. charge repulsion), consistent with the  observation that in B7 Lys66 is most closely  opposed by an aspartic acid.
+  Finally, we investigated the potential contribution  of the water molecule identified in the E63Q/K66A  structure by explicitly including it in calculations  with the model of A6 bound to the E63Q/K66A  HLA-A2 complex, positioning the water protons  according to the E63Q/K66A Tax/HLA-A2 crystal  structure.
+However, inclusion of this water  molecule did not result in more favorable values  of DG8  elec relative to the case without the water (at a  3in of 12, the total DG8  elec with the water was  0.8 kcal/mol, compared to 0.3 kcal/mol without  the water).
+  Discussion  Is Lys66 a peptide-independent TCR binding  determinant?  Replacement of Lys66 on the a1 helix of HLA-A2  with alanine has a dramatic effect on T cell  recognition, negatively affecting recognition for  93% of over 250 different T cell clones or lines,  covering seven different peptide systems.1316  Although the K66A mutation increases the dissociation rate of the peptide from the MHC  molecule, this effect is independent of the  mutations effects on TCR recognition.17 Via its  positive charge, Lys66 could thus serve as a  peptide-independent TCR binding determinant,  facilitating TCR cross-reactivity, required for  various biological functions such as T cell selection  and survival (reviewed by Wucherpfennig et al.  3  ),  as well as peptide scanning4,6 and perhaps TCR  signaling.18  However, the data presented here are not  consistent with such a role for Lys66.
+Rather, the  data support the interpretation that the recognition  defect seen with the K66A mutation is a consequence of exposing Glu63 when Lys66 is replaced  with alanine.
+The key observations leading to this  interpretation are that the negative effects of the  K66A mutation can be repaired by the concurrent  replacement of Glu63 with electrically neutral  glutamine and that the capacity of the E63Q  mutation to compensate for the K66A mutation is  independent of any effects on peptide/HLA-A2  stability.
+These observations demonstrate that the  charge on Lys66 is not universally required for  functional recognition of peptide/HLA-A2  complexes, either in terms of achieving a threshold  of affinity (or half-life), or in terms of achieving a  required docking orientation.
+Indeed, the  continuum electrostatics analysis suggests that for  the A6 and B7 TCR/Tax/HLA-A2 interactions,  Lys66 does not contribute favorably to the stability  of the complexes.
+  The structures of the K66A and E63Q/K66A TaxHLA-A2 complexes are also consistent with the  interpretation that the K66A recognition defect  results from exposure of Glu63, as they show  minimal conformational changes in the peptide/  HLA-A2 complexes in response to the mutations.
+  Furthermore, the K66A structure shows that the  mutation exposes Glu63 by an amount almost  identical with that predicted by simple modeling.
+  However, the presence of a water molecule in both  structures in the position normally occupied by the  Lys66 side-chain nitrogen could be interpreted as  supporting a role for Lys66 in driving TCR binding:  Table 3.
+Affinities and kinetics for A6 and B7 binding mutant Tax/HLA-A2 molecules at 25 8C  A6 TCR  Peptide/MHC KD (mM)  DG8  (kcal/mol)  kon  (MK1 s  K1  )  koff  (sK1  )  a t1/2 (s)  Wild-typeb 2.23G0.10 7.71G0.03 4.90G0.02!104 0.10 6.9  E63Q/K66A 10.7G0.5 6.8G0.3 3.4G0.7!104 0.36 1.9G0.4  K66A 316G22 4.7G0.3 NDc  B7 TCR  Wild-typeb 1.35G0.04 8.01G0.02 1.16G0.01 ! 105 0.13 5.3  E63Q/K66A 37G3 6.0G0.5 3.8G0.6 ! 103 0.14 5.0G0.7  K66A ND ND  a Wild-type data from Davis-Harrison et al.37  b Errors were less than 1% of the fitted value.
+c Insufficient binding to determine dissociation rate (A6, B7) or affinity (B7).
+  566 Unraveling a Hot Spot on HLA-A2as the water in the E63Q/K66A molecule would  have a proton pointing up and away from the plane  of the MHC a1/a2 helices, it could mimic the  capacity of Lys66 to hydrogen bond to the TCR.
+  However, given that in all known TCR/peptide/  HLA-A2 structures Lys66 does not hydrogen bond  to the TCR, we consider this hypothesis unlikely.
+  Also, when explicitly included in calculations with  the E63Q/K66A mutant, continuum electrostatics  calculations did not identify a stabilizing role for  this water molecule.
+  Another alternative interpretation suggested by  the water molecule in the E63Q/K66A structure is  that the water mimics a capacity of Lys66 to  coordinate additional, non-structural, water within  the interface.
+This additional water could allow  Lys66 (and thus the E63Q/K66A structural water)  to interact with the TCR via water-mediated longrange interactions, as suggested by Wolynes and  colleagues.39 However, assuming similar TCR  binding, the structural water molecules in the  K66A complex and the E63Q/K66A complex  would share the same neighbors at the 610 A  distance implicated as important in water-mediated  electrostatic interactions.39 Because the water  mediating these interactions would be unstructured, the angular orientation of the coordinating  structural water, which is predicted to be different in  the K66A and E63Q/K66A structures, should be of  less importance.
+Thus, as the K66A molecule is not  recognized by most HLA-A2-restricted TCRs  whereas the E63Q/K66A molecule is, yet they both  have an ordered water molecule at the same position,  we also consider this interpretation unlikely.
+It seems  most likely that in both structures, the water plays a  space-filling role as described by Petrone & Garcia  in their recent analysis of water molecules in class I  MHC peptide binding grooves.40  Accommodation of Lys66 by TCRs that  recognize HLA-A2 and the biophysical effects of  mutations  Although Lys66 is not universally required for  recognition of HLA-A2, and, in the case of the A6  and B7 TCRs, does not contribute to the stability of  the TCR/peptide/MHC complex, Lys66 still  influences TCR recognition of HLA-A2, as  evidenced by the effects of the K66A and E63Q/  K66A mutations.
+These results underscore the  desolvation penalty associated with burial of a  charged amino acid.30 For Lys66 in the A6 and B7  TCR complexes, this penalty is of the order of  2 kcal/mol (at interior dielectrics most consistent  with experiment), a large value considering the  overall binding free energies for A6 and B7 are  approximately K8 kcal/mol (Table 3).
+Incoming  TCRs must either offset this penalty directly  through Coulombic interactions with Lys66 or  make up for it elsewhere in (or near) the interface.
+  Both solutions are apparently available for TCRs to  use, as shown by the A6 and B7 Tax/HLA-A2  crystal structures.
+In B7, Lys66 is opposed most  closely by an aspartic acid (Asp30 of CDR1a, at a  distance of 4.9 A ), whereas in A6 the equivalent  amino acid is glutamine (see also Supplementary  Data).
+The consequence of this difference on the  negative electrostatic potential opposing Lys66 in  A6 and B7 is shown in Figure 9.
+Accordingly, B7  makes better use of Coulombic interactions to help  offset Lys66s desolvation penalty, whereas A6 must  Figure 8.
+The activity of the E63Q/K66A molecule is  not due to stabilization of the peptide/HLA-A2 complex.
+  (a) Dissociation of a labeled Tax peptide variant from the  E63Q/K66A HLA-A2 molecule at 37 8C measured using  fluorescence anisotropy.
+Dissociation curves from wildtype32 and the K66A mutant17 are shown for comparison.
+  (b) Summary of the half-lives of the wild-type, K66A, and  E63Q/K66A peptide/HLA-A2 complexes.
+(c) Thermal  stability of the wild-type (triangles), K66A (squares), and  E63Q/K66A (circles) Tax/HLA-A2 complexes measured  by CD.
+  Unraveling a Hot Spot on HLA-A2 567offset the penalty through other mechanisms.
+This  structural analysis is supported by the electrostatic  calculations, which show that desolvation of Lys66 is  almost completely overcome by inter-molecular  interactions with B7, but only barely by A6 (Table 4B).
+  The different solutions used by A6 and B7 for  accommodating the Lys66 positive charge also  explains the different effects the K66A and E63Q/  K66A mutations have with the A6 and B7 TCRs.
+B7  must overcome the Asp30a desolvation penalty in  order to bind, and is less capable of doing so when  Lys66 is replaced with alanine.
+Thus, the K66A  mutation is more destabilizing with B7 than A6, and  the E63Q/K66A mutation less effective at repairing  the effects of K66A with B7.
+The presence of Asp30a  in B7 also likely explains the very different kinetic  response the two receptors have to the E63Q/K66A  mutation: the reduced capacity to offset the cost of  Asp30a desolvation translates into a 30-fold slower  on-rate for B7 than A6.
+This electrostatic complementarity in B7, absent from A6, may also be one  reason for the faster association rate B7 has over A6  with wild-type Tax/HLA-A2 (Table 3).
+However,  any enhancement of the binding rate originating  Table 4.
+Electrostatic contributions to binding and the contributions of Lys66 and Glu63 to A6 and B7 recognition of Tax/  HLA-A2  A. Total contribution as a function of interior dielectric constant (DGelec  8 in kcal/mol at 25 8C)  A6 TCR B7 TCR  3in Wild-type K66A E63Q/K66A Wild-type K66A E63Q/K66A  2 23.7 30.2 28.9 34.9 47.6 42.6  4 8.1 13.6  8 0.9 3.0  12 K1.5 0.5 0.4 K0.3 4.5 3.2  14 K2.1 K0.3 K0.4 K1.2 3.3 2.1  17 K2.7 K2.1  20 K3.2 K1.7 K1.7 K2.7 1.1 0.4  B. Contributions of the Lys66 side-chain to DGelec  8 for A6 and B7 binding wild-type Tax/HLA-A2 (kcal/mol at 25 8C)  A6 TCR B7 TCR  3in Total Desolv Inter Intra Total Desolv Inter Intra  2 11.7 13.9 K2.6 0.4 6.6 18.1 K12.3 0.8  12 1.7 2.0 K0.3 0.0 0.4 2.3 K2.2 0.2  14 1.4 1.7 K0.3 0.0 0.2 1.9 K1.8 0.2  17 1.1 1.3 K0.2 0.0 0.1 1.5 K1.5 0.1  20 0.9 1.0 K0.2 0.0 0.0 1.1 K1.3 0.1  C. Contributions of the Glu63 side-chain to DGelec  8 for A6 and B7 binding wild-type and K66A Tax/HLA-A2 (kcal/mol at 25 8C)  Wild-type Tax/HLA-A2 K66A mutant  3in Total Desolv Inter Intra Total Desolv Inter Intra  A6 TCR  2 K4.2 2.4 1.3 K7.8 2.1 2.3 0.9 K1.0  12 K0.7 0.4 0.1 K1.3 0.7 0.5 0.3 K0.1  14 K0.6 0.3 0.1 K1.0 0.4 0.2 0.0 0.6  B7 TCR  2 K2.3 6.8 5.9 K15.0 21.5 6.9 12.8 1.8  12 K0.1 0.8 1.1 K2.0 3.4 0.9 2.4 0.0  14 K0.1 0.7 0.9 K1.7 2.9 0.8 2.1 0.0  Figure 9.
+Electrostatic surface  potential of the region opposing  Lys66 in the (a) A6 and (b) B7 T cell  receptors.
+The view is through the  MHC peptide binding groove  towards the TCR.
+The side-chain  of Lys66 is shown in green, with  the nitrogen blue.
+The peptide  backbone and visible portion of  the HLA-A2 a1 helix are yellow.
+  The scale is the same as in Figure 3,  K0.5 to C0.5kT/e, red to blue.
+  568 Unraveling a Hot Spot on HLA-A2from Lys66 is not general to all HLA-A2-binding  TCRs, as the binding rate for A6 with the E63Q/  K66A double mutant is largely unperturbed  compared to wild-type (Table 3).
+The small  reduction in A6 binding affinity in response to the  E63Q/K66A mutations, mostly attributable to an  increase in the dissociation rate, may be due to a  loss of hydrophobic contacts between the TCR and  the Lys66 side-chain, as the continuum electrostatic  analysis suggests that the overall use of electrostatics in the wild-type and E63Q/K66A interfaces  is similar (Table 4B).
+  An interesting observation of the K66A mutation  is that although exposure of Glu63 is the reason for  the recognition defect associated with the mutation,  the bulk of the effect does not arise from a larger  desolvation penalty or unfavorable inter-molecular  Coulombic interactions, but rather a loss of  favorable intra-molecular Coulombic enhancements involving Glu63 that occur upon TCR  binding to wild-type HLA-A2 (Table 4C).
+Intramolecular effects such as these have previously  been shown to play a significant role in protein  association;38 our findings reinforce the notion that  substantial contributions to binding free energies  can arise from amino acids not usually identified as  participating in the proteinprotein interface.
+  The role of Lys66 in HLA-A2: peptide/MHC  stabilization and TCR Va segment choice?  Position 66 is a polymorphic site in class I MHC  molecules.
+However, it is lysine in 81/86 coding  HLA-A2 sub-alleles.41 Position 63 is also polymorphic, although it is glutamate in all but one  HLA-A2 sub-allele. But if substitution of Glu63 and  Lys66 with glutamine and alanine, respectively, still  permits functional TCR binding, what selection  pressure has maintained glutamate and lysine at  these positions? Moreover, we have previously  shown that Lys66 can be replaced with Arg, without  the need to modify Glu63.17 One answer to this  question may be found in the observations that the  K66A, K66R, and E63Q/K66A mutations in HLAA2 all result in significantly faster peptide  dissociation rates.
+Thus, one requirement for  glutamate at position 63 and lysine at position 66  in HLA-A2 may be due to the need to ensure the  stability of the peptide/MHC complex.
+This  analysis highlights the complexities of TCRpeptide/MHC interfaces: peptides must be bound  stably enough to ensure an immune response  in vivo, yet the complex must still be recognizable  by T cell receptors.
+Apparently, evolution has finely  tuned the system such that the need to have an  uncompensated charge in the interface does not  obviate receptor binding and function.
+A clear  indication of this fine tuning is in the contributions  of intra-molecular Coulombic interactions  involving Glu63 to TCR binding, which help to  offset negative effects of desolvation and charge  repulsion (Table 4C).
+  It is unusual to find an unpaired charge within a  proteinprotein interface.26 Other than Lys66,  charges in TCR/peptide/HLA-A2 interfaces are  regularly paired; one example is Arg65, which  forms salt-bridges in the A6, B7, AHIII, and 1G4  TCR/peptide/HLA-A2 structures.1921,23 One  possible reason for a lack of direct interactions  with Lys66 could be CDR loop mobility, which may  be required for TCR cross-reactivity,5 in turn  needed for T cell selection and survival.42 Saltbridges can reduce mobility in antibody CDR  loops;43 perhaps TCRs avoid forming salt-bridges  and hydrogen bonds to Lys66 so not to limit CDR  loop mobility in this region near the center of the  peptide.
+We note that this could be an indirect way  in which Lys66 influences which Va gene segments  are used for recognition of HLA-A2.
+However, the  TCR/peptide/HLA-A2 structural database is still  small, and further structures will be needed to  verify this hypothesis.
+  Are TCR binding determinants fixed on the MHC  molecule?
+  With Lys66 excluded as a universal determinant  for TCR recognition of HLA-A2, are there any other  candidates for such positions?
+As noted above, in a  large panel of HLA-A2 mutants, the K66A mutation  is the only one that consistently disrupts T cell  recognition, regardless of peptide specificity (see  Table 3 of Wang et al.  14).
+Although quantitative  binding measurements have not been performed  for all of these mutants, these observations are more  consistent with the notion that each TCR arrives at a  unique solution of how to bind a peptide/MHC,  most strongly influenced by the chemical and  structural features of the bound peptide.44 While  this may very likely include strongly favorable  contributions from regions of the MHC molecule,  the mutational data with HLA-A2 suggest that it is  unlikely that any single contribution is conserved  with all TCRs.
+This would not rule out an intrinsic  affinity of TCRs for MHC molecules achieved  through multiple weak interactions, but at least  for HLA-A2 the data place limits on the role of any  single MHC amino acid side-chain in driving TCR  binding in a peptide-independent fashion.
+This  more peptide-centric viewpoint is consistent with  the TCR-peptide/MHC structural data currently  available,8 observations that the conformations and  contributions of the various TCR CDR loops are  interdependent,45 as well as recent descriptions of  TCR cross-reactivity suggesting that, rather than  being degenerate and peptide-independent, crossreactive binding reactions still show a high degree  of peptide specificity.2,11  Materials and Methods  Generation and expression of HLA-A2 double mutant  transfectants  The full-length HLA-A*0201 cDNA construct RSV/  Unraveling a Hot Spot on HLA-A2 569HLA-A2 with 50 SalI and 30 BamHI sites generated by  Baker et al.  13 was used as a template for Quickchange  mutagenesis (Stratagene).
+Primers were obtained from  Genset.
+DNA was sequenced to confirm the mutagenesis  (NINDS Sequencing Facility).
+HMy2.C1R cells46 were  transfected with mutated RSV/HLA-A2 constructs using  Lipofectin (Life Technologies).
+Clones were assayed for  surface expression using the anti-class I antibody W6/32  and the anti-HLA-A2 antibodies BB7.2, CR11-351, MA2.1,  and PA2.1 with a FACSCalibure (Becton Dickinson).13  T cell assays  The HTLV-I Tax-specific A6, B7, and J.O.4 CTL clones  were isolated from the peripheral blood lymphocytes of  HLA-A*0201 patients with HTLV-1-associated myelopathy/tropical spastic paraparesis.19,20 Targets were  Hmy2.C1R transfectants.46 Cytotoxicity was quantified  by a time-resolved fluorometric assay as described.20  Quantification of MIP-1b secretion was performed as  described using a sandwich ELISA assay according to the  manufacturers instructions (R&D Systems).20  Soluble protein expression and purification  Soluble versions of HLA-A2 and the A6 and B7 TCRs  were expressed and refolded from Escherichia coli  produced inclusion bodies and purified as described.37  Peptide was synthesized and purified to O95% commercially (Sigma-Genosys or SynPep).
+Both the A6 and B7  TCR constructs terminated just after the membraneproximal interchain disulfide bond and included a  heterodimeric coiled-coil at their C-terminal end.47  Soluble MHC mutants were generated as described  above.
+Concentrations of fully refolded proteins were  determined spectroscopically.
+For each protein, the  average of three or four readings of the absorbance at  280 nm was taken.
+Concentrations of peptide/MHC  complexes were calculated using an extinction coefficient  of 95,839 MK1 cmK1  .
+Extinction coefficients for Tax3K5Flc and its complex with HLA-A2 were 12,060 and  105,600 MK1 cmK1  , respectively.
+  X-ray crystallography  Crystals of the K66A and E63Q/K66A Tax/HLA-A2  complexes were grown from 24% (w/v) PEG 3350 or 20%  PEG 3350, 0.1 M NaSCN buffered with 25 mM Mes  (pH 6.5) using sitting-drop, vapor-diffusion.
+Streak  seeding was used to improve crystal quality.
+Before data  collection at cryogenic temperatures, crystals were  transferred to 30% PEG 3350, 20% (v/v) glycerol.
+Data  sets were collected at Argonne National Laboratory using  the APS 19BM beamline.
+Data reduction was performed  with HKL2000.48 Structures were solved using molecular  replacement with MOLREP from CCP4.49 The search  model was PDB entry 1DUZ,28 using only the coordinates  for the heavy chain and b2m. Rigid body refinement, TLS  refinement, and restrained refinement were performed  with Refmac5.50 TLS groups were chosen for residues  1182 and 183275 of the heavy chain, 099 of b2m, and  19 of the peptides.
+Anisotropic and bulk solvent  corrections were performed in all steps of refinement.
+  After TLS refinement, it was possible to unambiguously  position the peptides in 2FoKFc maps.
+Water molecules  were added using ARP/wARP.51 Graphical evaluation of  the model and fitting to maps was performed using  XtalView.51 PROCHECK52 was used to evaluate the  quality of the structure during and after refinement.
+  Surface areas were calculated with NACCESS.  53  Biacore binding experiments  Biacore binding experiments were performed using a  Biacore 3000 as described.37 Briefly, A6 or B7 TCR was  coupled to a CM5 sensor chip using amine coupling.
+For  all experiments, peptide/MHC was injected over both  reference and ligand-coupled cells simultaneously and  each injection was repeated twice.
+For steady state  studies, a flow rate of 5 ml/min was used to allow for  sufficient association time to achieve equilibrium.
+Two  separate concentration series were used, and all  reference-corrected data were fit globally to yield single  values of KD.
+For experiments with the weak binding  K66A mutant, the RUmax of the sensor surface was  confirmed using wild-type Tax/HLA-A2.
+For kinetic  experiments, the flow rate was increased to 100 ml/min.
+  Association rates were calculated from the ratio of koff to  KD.
+All experiments were performed in HBS-EP buffer  (10 mM Hepes (pH 7.4), 150 mM NaCl, 3 mM EDTA,  0.005% surfactant P20) at 25 8C.
+Data were fit using  Biaevaluation 3.2 (Biacore) or Origin 7 (OriginLab).
+  Peptide dissociation measurements  Peptide dissociation from the E63Q/K66A HLA-A2  mutant was measured using fluorescence anisotropy with  a fluorescent Tax peptide variant (Tax-3K5Flc) as  described.17,32 For the measurements, 7.5 nM labeled  peptide/HLA-A2 was mixed with 7.5 mM unlabeled Tax  peptide and the decrease in anisotropy measured versus  time using a Beacon 2000 (Invitrogen).
+Data were fit using  a double-exponential decay as described.17,32 Half-lives  were calculated from the slowest time constant, interpreted to result from peptide dissociation from the  complete peptide/MHC heterotrimer.17,32 Conditions  were 10 mM Hepes (pH 7.4), 150 mM NaCl.
+  Thermal denaturation  Thermal stabilities of wild-type, K66A, and E63Q/  K66A Tax/HLA-A2 complexes were measured using an  Aviv 62DS CD spectrometer.
+Aliquots of 0.15 mg/ml of  protein in 10 mM phosphate (pH 7.4), 75 mM NaCl were  scanned at a rate of 1 deg.
+C/min, monitoring the CD  signal at 218 nm.
+Data for each protein were taken on at  least three fresh samples.
+Data were averaged, and the  denaturation curves fit to a polynomial.
+Apparent Tm  values were determined from the maximum of the first  derivative of the fitted curves.
+  Continuum electrostatics  Continuum electrostatics calculations were performed  using finite-difference PoissonBoltzmann methods,30  using the A6Tax/HLA-A2 and B7Tax/HLA-A2 crystal  structures.19,20 For A6, the Ca domain, which is not  present in the A6/Tax/HLA-A2 crystal structure, was  modeled in using the virtually indistinguishable A6/TaxP6A/HLA-A2 crystal structure.47 Missing side-chains  and hydrogen atoms were added and the positions of  glutamine and histidine side-chains confirmed using the  WHATIF server.32 Prior to calculations, the structures   http://wolf.bms.umist.ac.uk/naccess/  570 Unraveling a Hot Spot on HLA-A2were gently energy minimized to optimize hydrogen  positions.
+Energy minimization was performed with a  50 kcal/mol per A 2 tether on all non-hydrogen atoms to  minimize deviations from the crystallographic coordinates and included 50 cycles of steepest-descents  followed by 50 cycles of conjugate gradient minimization.
+  Non-hydrogen atoms in the A6 and B7 minimized and  non-minimized structures superimposed RMSDs of  0.12 A and 0.46 A , respectively.
+Model complexes with  the K66A and E63Q/K66A mutations in HLA-A2 were  subject to separate energy minimization.
+Minimization  and visualization was performed with InsightII  (Accelrys).
+For computing potentials, we used Delphi  4.1129 with the param22 parameter set from CHARMM  for partial charges and radii.
+The solvent dielectric was set  at 80, and the interior dielectric was varied as described in  the text.
+Ionic strength was set to 0.15 M and the ionic  radius to 2 A .
+Grid sizes were 22553 with A6 and 23253  with B7.
+Focusing was used to improve accuracy,  beginning with a scale of 4 A /point using Coulombic  boundary conditions and moving to a scale of 0.5 A /point  in four steps.
+This resulted in 12% and 96% initial and  final grid occupancies.
+Calculations for the complexes,  free TCRs, and free peptide/MHCs used the same grids,  positions, and coordinates to facilitate difference  calculations.
+All calculations were repeated five times  with different grid positions.
+The linearized Poisson  Boltzmann equation was used with a convergence of 7!
+  10K5  kT. Potentials for Figures 5 and 9 were calculated  similarly, except that charges were from a reduced  parameter set that excluded hydrogen atoms, which  were not present in the structures, the interior dielectric  was fixed at 2, and only one grid position was used.
+  Electrostatic energies were calculated as described by  Hendsch & Tidor38 and Sheinerman & Honig.35 Briefly,  the computed electrostatic potential at each atomic  position was multiplied by the atomic partial charge  and the values summed over all atoms to obtain the  charging free energy.
+The difference between the charging  free energies of the complex and the sum of the TCR and  peptide/MHC yields DG8  elec(referred to as DDGall  elec by  Sheinerman & Honig35).
+The cost of burying the K66 sidechain was also calculated as described,35,38 performing  the calculations with charges only on the K66 side-chain  atoms.
+The desolvation term, or the energy associated  only with removal of water upon burial of the K66 sidechain, was calculated as the difference in charging free  energy of the side-chain between the bound and free  states.
+The inter-molecular term, or the energy of new  Coulombic interactions formed when K66 is buried, was  calculated from the interaction of the potentials of the K66  side-chain with the partial charges of the TCR atoms.
+The  intra-molecular term, or any changes in existing  Coulombic interactions between K66 and the rest of the  peptide/MHC molecule that occur upon TCR binding,  was calculated from the interaction of the potentials of the  K66 side-chain with the partial charges of the rest of the  Tax/HLA-A2 atoms.
+All calculated energies were converted from kT/e to kcal/mol at 25 8C and the results from  the five grid positions averaged.
+Standard deviations  from the positional averaging were typically between 1%  and 5%.
+  Protein Data Bank accession codes  Structure factors and coordinates have been submitted  to the RCSB Protein Data Bank and are available under  accession codes 2AV1 and 2AV7.
+  Acknowledgements  We thank the staff of the Argonne Structural  Biology Center for assistance, David Kranz, Nathan  Baker, and Rohit Pappu for helpful discussions and  suggestions, Guillaume Stewart-Jones for sharing  coordinates of the 1G4NY-ESO/HLA-A2 complex  prior to release, and Warren DeLano for inspiration.
+  This work was supported, in part, by grant  GM067079 from NIGMS, NIH to B.M.B. O.Y.B. is  supported by a fellowship from the Walther Cancer  Research Center.
+Use of the Argonne National  Laboratory Structural Biology Center at the  Advanced Photon Source, was supported by the  US Department of Energy, Office of Energy  Research, under Contract No. W-31-109-ENG-38.
+  Supplementary Data  Supplementary data associated with this article  can be found at 10.1016/j.jmb.2005.08.024  References  1.
+Rudolph, M. G., Luz, J. G. & Wilson, I. A. (2002).
+  Structural and thermodynamic correlates of T cell  signaling.
+Annu. Rev. Biophys.
+Biomol. Struct. 31,  121149.  2.
+Shih, F. F. & Allen, P. M. (2004).
+T cells are not as  degenerate as you think, once you get to know them.
+  Mol. Immunol. 40, 10411046.  3.
+Wucherpfennig, K. W. (2004).
+T cell receptor crossreactivity as a general property of T cell recognition.
+  Mol. Immunol. 40, 10091017.  4. Boniface, J. J., Reich, Z., Lyons, D. S. & Davis, M. M.  (1999).
+Thermodynamics of T cell receptor binding to  peptide-MHC: evidence for a general mechanism of  molecular scanning.
+Proc. Natl Acad. Sci. USA, 96,  1144611451.
+  5. Holler, P. D. & Kranz, D. M. (2004).
+T cell receptors:  affinities, cross-reactivities, and a conformer model.
+  Mol. Immunol. 40, 10271031.  6. Wu, L. C., Tuot, D. S., Lyons, D. S., Garcia, K. C. &  Davis, M. M. (2002).
+Two-step binding mechanism for  T-cell receptor recognition of peptide MHC.
+Nature,  418, 552556.  7. Cohn, M. (2003).
+Tritope model of restrictive recognition by the TCR.
+Trends Immunol. 24, 127131.  8.
+Housset, D. & Malissen, B. (2003).
+What do TCRpMHC crystal structures teach us about MHC  restriction and alloreactivity?
+Trends Immunol. 24,  429437.  9. Kim, H.-J., Guo, D. & SantAngelo, D. B. (2005).
+  Coevolution of TCR-MHC interactions: conserved  MHC tertiary structure is not sufficient for interactions with the TCR.
+Proc. Natl Acad. Sci. USA, 102,  72637267.  10.
+Zerrahn, J., Held, W. & Raulet, D. H. (1997).
+The MHC  reactivity of the T cell repertoire prior to positive and  negative selection.
+Cell, 88, 627636.  11. Maynard, J., Petersson, K., Wilson, D. H., Adams, E. J.,  Blondelle, S. E., Boulanger, M. J. et al. (2005).
+Structure  of an autoimmune T cell receptor complexed with  class II peptide-MHC: insights into MHC bias and  antigen specificity.
+Immunity, 22, 8192.
+  Unraveling a Hot Spot on HLA-A2 57112.
+Webb, A. I., Borg, N. A., Dunstone, M. A., KjerNielsen, L., Beddoe, T., McCluskey, J. et al. (2004).
+The  structure of H-2K(b) and K(bm8) complexed to a  herpes simplex virus determinant: evidence for a  conformational switch that governs T cell repertoire  selection and viral resistance.
+J. Immunol. 173,  402409.  13. Baker, B. M., Turner, R. V., Gagnon, S. J., Wiley, D. C. &  Biddison, W. E. (2001).
+Identification of a crucial  energetic footprint on the a1 helix of human  histocompatibility leukocyte antigen (HLA)-A2 that  provides functional interactions for recognition by  Tax peptide/HLA-A2-specific T cell receptors.
+J. Expt.
+  Med. 193, 551562.  14.
+Wang, Z., Turner, R., Baker, B. M. & Biddison, W. E.  (2002).
+MHC allele-specific molecular features determine peptide/HLA-A2 conformations that are recognized by HLA-A2-restricted T cell receptors.
+  J. Immunol.
+169, 31463154.
+  15. Gagnon, S. J., Wang, Z., Turner, R., Damirjian, M. &  Biddison, W. E. (2003).
+MHC recognition by haptenspecific HLA-A2-restricted CD8C CTL. J. Immunol.
+  171, 22332241.
+  16. Matsui, M., Hioe, C. & Frelinger, J. (1993).
+Roles of the  six peptide-binding pockets of the HLA-A2 molecule  in allorecognition by human cytotoxic T-cell clones.
+  Proc. Natl Acad. Sci. USA, 90, 674678.  17.
+Baxter, T. K., Gagnon, S. J., Davis-Harrison, R. L.,  Beck, J. C., Binz, A.-K., Turner, R. V. et al. (2004).
+  Strategic mutations in the class I MHC HLA-A2  independently affect both peptide binding and T cell  receptor recognition.
+J. Biol. Chem. 279, 2917529184.  18. Krogsgaard, M., Li, Q. J., Sumen, C., Huppa, J. B.,  Huse, M. & Davis, M. M. (2005).
+Agonist/endogenous  peptide-MHC heterodimers drive T cell activation  and sensitivity.
+Nature, 434, 238243.  19. Garboczi, D. N., Ghosh, P., Utz, U., Fan, Q. R.,  Biddison, W. E. & Wiley, D. C. (1996).
+Structure of  the complex between human T-cell receptor, viral  peptide and HLA-A2.
+Nature, 384, 134141.  20.
+Ding, Y. H., Smith, K. J., Garboczi, D. N., Utz, U.,  Biddison, W. E. & Wiley, D. C. (1998).
+Two human T  cell receptors bind in a similar diagonal mode to the  HLA- A2/Tax peptide complex using different TCR  amino acids.
+Immunity, 8, 403411.  21.
+Buslepp, J., Wang, H., Biddison, W. E., Appella, E. &  Collins, E. J. (2003).
+A correlation between TCR Va  docking on MHC and CD8 dependence: implications  for T cell celection.
+Immunity, 19, 595606.
+  22. Stewart-Jones, G. B., McMichael, A. J., Bell, J. I., Stuart,  D. I. & Jones, E. Y. (2003).
+A structural basis for  immunodominant human T cell receptor recognition.
+  Nature Immunol. 4, 657663.  23.
+Chen, J.-L., Stewart-Jones, G., Bossi, G., Lissin, N. M.,  Wooldridge, L., Choi, E. M. L. et al. (2005).
+Structural  and kinetic basis for heightened immunogenicity of T  cell vaccines.
+J. Expt.
+Med. 201, 12431255.
+  24. Li, X., Keskin, O., Ma, B., Nussinov, R. & Liang, J.  (2004).
+Proteinprotein interactions: hot spots and  structurally conserved residues often locate in  complemented pockets that pre-organized in the  unbound states: implications for docking.
+J. Mol.  Biol. 344, 781795.  25.
+Bogan, A. A. & Thorn, K. S. (1998).
+Anatomy of hot  spots in protein interfaces.
+J. Mol. Biol. 280, 19.  26. Glaser, F., Steinberg, D. M., Vakser, I. A. & Ben-Tal, N.  (2001).
+Residue frequencies and pairing preferences at  proteinprotein interfaces.
+Proteins: Struct. Funct.  Genet.
+43, 89102.  27.
+Garboczi, D. N., Madden, D. R. & Wiley, D. C. (1994).
+  Five viral peptide-HLA-A2 co-crystals.
+Simultaneous  space group determination and X-ray data collection.
+  J. Mol. Biol. 239, 581587.  28.
+Khan, A. R., Baker, B. M., Ghosh, P., Biddison, W. E. &  Wiley, D. C. (2000).
+The structure and stability of an  HLA-A*0201/octameric tax peptide complex with an  empty conserved peptide-N-terminal binding site.
+  J. Immunol. 164, 63986405.  29.
+Rocchia, A., Alexov, E. & Honig, B. (2001).
+Extending  the applicability of the nonlinear PoissonBoltzmann  equation: multiple dielectric constants and multivalent ions.
+J. Phys. Chem. B, 105, 65076514.
+  30. Honig, B. & Nicholls, A. (1995).
+Classical electrostatics  in biology and chemistry.
+Science, 268, 11441149.  31. Davis, M. M., Boniface, J. J., Reich, Z., Lyons, D.,  Hampl, J., Arden, B. & Chien, Y. (1998).
+Ligand  recognition by alpha beta T cell receptors.
+Annu. Rev.  Immunol. 16, 523544.  32.
+Binz, A. K., Rodriguez, R. C., Biddison, W. E. & Baker,  B. M. (2003).
+Thermodynamic and kinetic analysis of a  peptide-class I MHC interaction highlights the  noncovalent nature and conformational dynamics of  the class I heterotrimer.
+Biochemistry, 42, 49544961.  33.
+Fitch, C. A., Karp, D. A., Lee, K. K., Stites, W. E.,  Lattman, E. E. & Garcia-Moreno, E. B. (2002).
+  Experimental pKa values of buried residues: analysis  with continuum methods and role of water  penetration.
+Biophys. J. 82, 32893304.  34.
+Sheinerman, F. B., Norel, R. & Honig, B. (2000).
+  Electrostatic aspects of proteinprotein interactions.
+  Curr.
+Opin. Struct. Biol. 10, 153159.  35. Sheinerman, F. B. & Honig, B. (2002).
+On the role of  electrostatic interactions in the design of protein  protein interfaces.
+J. Mol. Biol. 318, 161177.  36. Muegge, I., Schweins, T. & Warshel, A. (1998).
+  Electrostatic contributions to proteinprotein binding  affinities: application to Rap/Raf interaction.
+Proteins:  Struct. Funct. Bioinformat. 30, 407423.  37.
+Davis-Harrison, R. L., Armstrong, K. M. & Baker,  B. M. (2005).
+Two different T cell receptors use  different thermodynamic strategies to recognize the  same peptide/MHC ligand.
+J. Mol. Biol. 346, 533550.  38.
+Hendsch, Z. & Tidor, B. (1999).
+Electrostatic interactions in the GCN4 leucine zipper: substantial  contributions arise from intramolecular interactions  enhanced on binding.
+Protein Sci. 8, 13811392.  39. Papoian, G. A., Ulander, J. & Wolynes, P. G. (2003).
+  Role of water mediated interactions in protein  protein recognition landscapes.
+J. Am. Chem. Soc.  125, 91709178.
+  40. Petrone, P. M. & Garcia, A. E. (2004).
+MHC-peptide  binding is assisted by bound water molecules.
+J. Mol.  Biol.
+338, 419435.
+  41. Robinson, J., Waller, M. J., Parham, P., Groot, N. d.,  Bontrop, R., Kennedy, L. J. et al. (2003).
+IMGT/HLA  and IMGT/MHC: sequence databases for the study of  the major histocompatibility complex.
+Nucl. Acids Res.  31, 311314.  42. Mason, D. (1998).
+A very high level of crossreactivity  is an essential feature of the T-cell receptor.
+Immunol.  Today, 19, 395404.
+  43. Mohan, S., Sinha, N. & Smith-Gill, J. (2003).
+Modeling  the binding sites of anti-hen egg white lysozyme  antibodies HyHEL-8 and HyHEL-26: an insight into  the molecular basis of antibody cross-reactivity and  specificity.
+Biophys. J. 85, 32213236.  572 Unraveling a Hot Spot on HLA-A244.
+Wang, J.-h. & Reinherz, E. L. (2002).
+Structural basis of  T cell recognition of peptides bound to MHC  molecules.
+Mol. Immunol. 38, 10391049.  45.
+Borg, N. A., Ely, L. K., Beddoe, T., Macdonald, W. A.,  Reid, H. H., Clements, C. S. et al. (2005).
+The CDR3  regions of an immunodominant T cell receptor dictate  the energetic landscape of peptide-MHC recognition.
+Nature Immunol. 6, 171180.  46. Storkus, W. J., Howell, D. N., Salter, R. D., Dawson,  J. R. & Cresswell, P. (1987).
+NK susceptibility varies  inversely with target cell class I HLA antigen  expression.
+J. Immunol.
+138, 16571659.
+  47. Ding, Y. H., Baker, B. M., Garboczi, D. N., Biddison,  W. E. & Wiley, D. C. (1999).
+Four A6-TCR/peptide/  HLA-A2 structures that generate very different T cell  signals are nearly identical.
+Immunity, 11, 4556.  48.
+Otwinowski, Z. & Minor, W. (1997).
+Processing of  X-ray diffraction data collected in oscillation mode.
+  Methods Enzymol. 276, 307326.
+  49. Collaborative Computational Project Number 4 (1994).
+  The CCP4 suite: programs for protein crystallography.
+  Acta Crystallog. sect.
+D, 50, 760763.  50. Murshudov, G. N., Vagin, A. A. & Dodson, E. J. (1997).
+  Refinement of macromolecular structures by the  maximum-likelihood method. Acta Crystallog.
+sect.
+  D, 53, 240255.  51.
+Morris, R. J., Perrakis, A. & Lamzin, V. S. (2003).
+ARP/  wARP and automatic interpretation of protein  electron density maps.
+Methods Enzymol. 374, 229244.  52.
+Laskowski, R. A., Macarthur, M. W., Moss, D. S. &  Thornton, J. M. (1993).
+PROCHECK  a program to  check the stereochemical quality of protein structures.
+  J. Appl.
+Crystallog. 26, 283291.  53.
+MacKerell, A. D., Bashford, D., Bellott, M., Dunbrack,  R. L., Evanseck, J. D., Field, M. J., Fischer, S. et al.  (1998).
+All-atom empirical potential for molecular  modeling and dynamics studies of proteins.
+J. Phys.  Chem. B, 102, 35863616.  Edited by I. Wilson  (Received 11 May 2005; received in revised form 11 August 2005; accepted 15 August 2005)  Available online 2 September 2005  Unraveling a Hot Spot on HLA-A2 573

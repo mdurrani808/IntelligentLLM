@@ -1,0 +1,1056 @@
+Molecular Basis for Herpesvirus Entry Mediator
+Recognition by the Human Immune Inhibitory Receptor
+CD160 and Its Relationship to the Cosignaling
+Molecules BTLA and LIGHT
+Rieko Kojima 1, 2, Mizuho Kajikawa 2
+, Mitsunori Shiroishi 2
+,
+Kimiko Kuroki 1, 2 and Katsumi Maenaka 1, 2, 3⁎
+1
+Laboratory of Biomolecular Science, Faculty of Pharmaceutical Sciences, Hokkaido University, Kita-12, Nishi-6, Kita-ku,
+Sapporo 060-0812, Japan
+2
+Medical Institute of Bioregulation, Kyushu University, 3-1-1 Maidashi, Higashi-ku, Fukuoka 812-8582, Japan
+3
+CREST, Japan Science and Technology Agency, Saitama 332-0012, Japan
+Received 24 July 2011;
+received in revised form
+7 September 2011;
+accepted 13 September 2011
+Available online
+19 September 2011
+Edited by J. Karn
+Keywords:
+CD160;
+HVEM;
+cosignaling molecules;
+T cell regulation
+CD160 was recently identified as a T cell coinhibitory molecule that interacts
+with the herpesvirus entry mediator (HVEM) on antigen-presenting cells to
+deliver a potent inhibitory signal to CD4+ T cells. HVEM also binds to the
+coinhibitory receptor BTLA (B- and T-lymphocyte attenuator) and the
+costimulatory receptor LIGHT (which is homologous to lymphotoxins,
+exhibits inducible expression, and competes with the herpes simplex virus
+glycoprotein D for HVEM, a receptor expressed by T lymphocytes, or
+TNFSF14), thus regulating the CD160/BTLA/LIGHT/HVEM signaling
+pathway. To date, the detailed properties of the formation of these
+complexes, especially HVEM binding to the newly identified receptor
+CD160, and the relationship of CD160 with BTLA and LIGHT are still
+unclear. We performed N-terminal sequencing and a mass spectrometric
+analysis, which revealed that the extracellular domain of CD160 exists
+primarily in the monomeric form. The surface plasmon resonance analysis
+revealed that CD160 binds directly to the cysteine-rich domain 1–3 of
+HVEM with a similar affinity to, but slower dissociation rate than, that of
+BTLA. Notably, CD160 competed with BTLA for binding to HVEM; in
+contrast, LIGHT did not affect HVEM binding to either CD160 or BTLA. The
+results of a mutagenesis study of HVEM also suggest that the CD160
+binding region on HVEM was slightly different from, but overlapped with,
+the BTLA binding site. Interestingly, an anti-CD160 antibody exhibiting
+antiangiogenic properties blocked CD160/HVEM binding. These results
+provide insight into the molecular architecture of the CD160/BTLA/
+LIGHT/HVEM signaling complex that regulates immune function.
+© 2011 Elsevier Ltd. All rights reserved.
+*Corresponding author. Laboratory of Biomolecular Science, Faculty of Pharmaceutical Sciences, Hokkaido University,
+Kita-12, Nishi-6, Kita-ku, Sapporo 060-0812, Japan. E-mail address: maenaka@pharm.hokudai.ac.jp.
+Abbreviations used: HVEM, herpesvirus entry mediator; TCR, T cell receptor; NK, natural killer; GPI,
+glycosylphosphatidylinositol; CRD, cysteine-rich domain; HSV, herpes simplex virus; DC, dendritic cell; SPR, surface
+plasmon resonance; gD, glycoprotein D; LTα, lymphotoxin-α; TNF, tumor necrosis factor.
+doi:10.1016/j.jmb.2011.09.018 J. Mol. Biol. (2011) 413, 762–772
+Contents lists available at www.sciencedirect.com
+Journal of Molecular Biology
+journal homepage: http://ees.elsevier.com.jmb
+0022-2836/$ - see front matter © 2011 Elsevier Ltd. All rights reserved.Introduction
+T cell activation requires two signals: the T cell
+receptor (TCR) recognition of the major histocom￾patibility complex/peptide complex and the
+cosignal delivered by the interaction between the
+cosignaling molecule and its receptor. 1,2 The
+cosignaling molecules function as costimulatory or
+coinhibitory molecules because of their functional
+effect upon host immune responses. TCR engage￾ment without costimulation leads to suboptimal T
+cell activation and unresponsiveness to the antigen
+during secondary stimulation, a phenomenon called
+T cell anergy.3 Cosignaling molecules control T cell
+activation by regulating T cell proliferation, cyto￾kine production, cytotoxicity, T cell apoptosis, and
+survival.4,5
+CD160 (murine CD160 is named BY55) was
+recently identified as a coinhibitory molecule that
+binds to one of the tumor necrosis factor (TNF)
+receptor superfamily members, herpesvirus entry
+mediator (HVEM) (also called HveA or TNFRSF14),
+which is expressed on the surface of a broad range of
+immune cells, including T cells, B cells, natural killer
+(NK) cells, and dendritic cells (DCs), as well as
+endothelial cells. 6 CD160 is a type I membrane
+protein with one immunoglobulin (Ig)-V set domain
+in its extracellular region, and it is expressed on NK
+cells, natural killer T cells, intraepithelial T cells,
+γδTCR+ T cells, CD8+ T cells, and CD4+ T cells. 6 Cai
+et al. recently demonstrated that the CD160/HVEM
+interaction inhibits CD4+ T cell activation. 7 More￾over, several reports have indicated that CD160 has a
+significant stimulatory effect on immune responses,
+including NK and CD8+ T cell effector functions.8–10
+A pathological study revealed that the expression
+level of CD160, as well as those of other immuno￾suppressive genes, increased in the lymphatic tissue
+of human immunodeficiency virus 1-infected pa￾tients who were in the acute stage of the disease.11
+CD160 was also up-regulated in exhausted CD8+ T
+cells in a mouse model of a chronic lymphocytic
+choriomeningitis virus infection.12 These emerging
+details suggest that CD160 is one of the key
+cosignaling molecules controlling immune re￾sponses. Interestingly, CD160 is mainly glycosylpho￾sphatidylinositol (GPI) anchored; thus, it is likely to
+be located in lipid rafts, as suggested by a cell surface
+staining study. 7 However, due to the lack of
+definitive signaling components, its signaling mech￾anism has not been clarified.
+With regard to CD160 ligands, it is not yet fully
+understood whether CD160 can bind to major
+histocompatibility complex class I molecules [either
+a wide range or a specific allele (HLA-Cw3 or HLA￾G1)].7–10 A newly identified interaction between
+CD160 and HVEM has been confirmed by cellular￾level function studies and binding studies, which
+also have demonstrated that the cysteine-rich do￾main (CRD) 1 of HVEM is essential for CD160
+binding. 13 However, the underlying molecular
+properties mediating the precise binding of CD160
+to HVEM and the relationship between CD160 and
+other HVEM receptors are still poorly understood.
+Intriguingly, HVEM, the ligand of CD160, acti￾vates both stimulatory and inhibitory pathways and
+serves as a molecular switch by engaging at least five
+receptors: two costimulatory molecules, two coin￾hibitory molecules, and the herpes simplex virus
+(HSV) envelope glycoprotein D (gD). The costimu￾latory HVEM receptors consist of the TNF-related
+cytokine LIGHT (which is homologous to lympho￾toxins, exhibits inducible expression, and competes
+with HSV gD for HVEM, a receptor expressed by T
+lymphocytes, or TNFSF14) and lymphotoxin-α
+(LTα). LIGHT is a type II membrane protein, and it
+forms a homotrimer on the cell surface in the same
+manner as other TNF family members. LIGHT is
+expressed on immature DCs, granulocytes, mono￾cytes, and activated T cells.6 LIGHT and HVEM are
+predicted to form a 3:3 complex, and their interaction
+delivers costimulatory signals that lead to T cell
+activation14–18 and enhanced production of pro￾inflammatory cytokines. 15,19–22 The coinhibitory
+molecules consist of CD160 and BTLA (the CD28
+family member B- and T-lymphocyte attenuator).
+BTLA is a type I membrane protein with an
+extracellular Ig-V domain, and it is broadly
+expressed on hematopoietic cells, including CD8+
+T cells, CD4+ T cells, B cells, DCs, macrophages, and
+NK cells. BTLA binds to CRD1 of HVEM to form a
+1:1 complex.23 BTLA-deficient mice exhibited hy￾persensitivity to TCR stimulation24,25 and persistent
+inflammation of the lung in an acute allergic airway
+inflammation model. 26 These data suggest that
+BTLA plays critical inhibitory roles in suppressing
+T cell activation. Alternatively, HVEM−/− mice
+exhibit overactivation of the T cell response; 22 thus,
+the essential, nonredundant function of HVEM is
+inhibitory. These results suggest that the coinhibi￾tory HVEM receptors, CD160 and BTLA, play
+important roles in the regulation and maintenance
+of T cell immune responses.
+Cai et al. demonstrated by confocal microscopy that
+GPI-anchored CD160 is present in discrete patches of
+the plasma membrane and does not colocalize with
+BTLA. 7 Furthermore, CD3 does colocalize with
+CD160, suggesting that CD160 is likely translocated
+into lipid rafts along with immune signaling com￾plexes including TCR/CD3. These results introduced
+the possibility that CD160 may have discrete (and/or
+complementary) roles in the regulation of T cell
+function relative to those of BTLA. From another
+attractive viewpoint, the CD160/HVEM and BTLA/
+HVEM interactions are so far the only examples of
+signaling complexes between members of the Ig and
+tumor necrosis factor receptor superfamilies of
+immune cell surface receptors.
+Molecular Basis for CD160-HVEM Recognition 763A recent study of HVEM binding to HSV gD, as
+well as to other HVEM receptors, showed that gD
+can block the binding of HVEM to BTLA but not to
+LTα and LIGHT.13 Furthermore, BTLA did not
+interfere with HVEM binding to LTα and LIGHT. 13
+With regard to CD160, the competition study for the
+HVEM binding of CD160 and BTLA was performed
+at the cellular level, but this did not yield a definitive
+result because the inhibition of BTLA/HVEM
+binding by excess CD160-Ig protein was not clearly
+observed.7 The understanding of CD160-mediated
+regulation of the HVEM pathway of T cell function
+remains quite limited.
+Here, we have elucidated the molecular character￾istics of CD160 and the binding of CD160 to HVEM
+using surface plasmon resonance (SPR) and compe￾tition binding studies for the other HVEM receptors,
+BTLA and LIGHT. First, we show that the extracel￾lular domain of CD160 primarily exists in the
+monomeric form, as revealed by comprehensive
+techniques, including N-terminal amino acid se￾quence analysis and mass spectrometry. These data
+essentially preclude the possibility that CD160 can
+exist as a homotrimer, which is in contrast to the
+report by Anumanthan et al.
+27 We also demonstrate
+that the anti-CD160 antibody CL1-R2, which exhib￾ited antiangiogenic activity in several animal models
+of neovascularization, 28 blocks CD160 binding to
+HVEM. CD160 directly interacts with HVEM with
+low affinity, which is consistent with a previous
+report. 13 Although this characteristic is similar to
+that of BTLA binding to HVEM, CD160 exhibits a
+slower dissociation rate than does BTLA, which
+might confer stronger signaling. Notably, CD160
+competes with BTLA for HVEM binding, and a
+series of HVEM mutants that either decreased or
+completely lost the ability to bind to BTLA23 also
+exhibited reduced CD160 binding, but to a different
+extent. Collectively, these results suggest that CD160
+has various similar and distinct HVEM binding
+properties relative to those of BTLA and that these
+proteins can form a 3:3:3 (CD160 or BTLA:LIGHT:
+HVEM) full signaling complex. Finally, we discuss
+the implications for the function of CD160 in the
+immunoregulatory CD160/BTLA/HVEM pathway.
+Results and Discussion
+CD160 exists in the monomeric form
+One group previously reported that CD160
+existed as a highly disulfide linked homotrimer;27,29
+however, a recent study revealed that baculovirus￾expressed CD160 existed in a monomeric form.13
+Thus, to clarify the precise molecular characteristics
+of CD160 under physiological conditions, we
+expressed the entire extracellular region of CD160
+(residues 1–159) in human HEK293S GnTI− cells
+and designated it CD160h. The CD160h protein was
+purified using Ni-NTA column chromatography
+followed by gel-filtration chromatography (Fig. 1a).
+A Western blot analysis of the eluted fractions with
+an anti-6×His antibody under nonreducing condi￾tions (Fig. 1b) clearly indicated that CD160h
+predominantly existed in the monomeric form
+(fractions 4–6). The other fractions (1–3) in Fig. 1a,
+which might include higher-molecular-weight
+forms, contained only a slight amount of the
+disulfide-linked CD160h dimer (Fig. 1b), and trimers
+or multimers were barely detectable. Matrix-assisted
+laser desorption/ionization time-of-flight mass an￾alyses of the main fractions also showed only the
+monomeric molecular mass of CD160 (Supplemen￾tal Fig. 1). Furthermore, N-terminal amino acid
+sequence analyses of this fraction revealed that the
+CD160h extracellular region starts with the sequence
+27INITS31 (Fig. 1c), which is consistent with the
+recently updated prediction by the “SignalP 3.0”
+program† (the previous version of this program
+calculated 26CINIT30 as the starting sequence). This
+analysis suggests that the extracellular domain of
+CD160 contains five cysteines after cleavage of the
+signal sequence (Fig. 1c, boxed). A homology
+alignment demonstrated that CD160 should form
+two intramolecular disulfide bonds and have one
+free cysteine, which excludes the possibility of the
+formation of the previously reported intermolecu￾larly disulfide linked homotrimer.27,29 Furthermore,
+we expressed the Ig-V set domain (residues 27–159
+or 26–159) of CD160 in Escherichia coli as inclusion
+bodies and refolded the proteins in vitro. The gel￾filtration chromatography again showed that CD160
+eluted in the monomer fraction (15 kDa) (Supple￾mental Fig. 2). We next determined the number of
+free thiol groups in the refolded CD160 using 5,5′-
+dithiobis 2-nitrobenzoate, and one non-paired thiol
+group was detected (Supplemental Fig. 3). Collec￾tively, these results indicate that the extracellular
+domain of CD160 exists mainly in the monomeric
+form, consistent with the recent study using the
+baculovirus-expressed CD160 protein.13
+Binding affinity of CD160 toward HVEM
+To analyze the binding properties of CD160 and
+HVEM, we performed affinity measurements using
+SPR. The extracellular domain of CD160 (I27–S159,
+15 kDa) and the CRD1–3 (L1–Y103, 11 kDa) of
+HVEM with a biotin tag were expressed in E. coli
+and purified as described in Materials and Methods.
+Although HVEM has at least eight disulfide bonds
+in its extracellular region, it was successfully
+refolded from inclusion bodies expressed in E. coli.
+† http://www.cbs.dtu.dk/services/Signal
+764 Molecular Basis for CD160-HVEM Recognition(a)
+(b)
+(c)
+50
+*
+Ig-V set domain
+GPI anchor 
+MLLEPGRGCCALAILLAIVDIQSGGCINITSSASQEGTRLNLICTVWHKK
+EEAEGFVVFLCKDRSGDCSPETSLKQLRLKRDPGIDGVGEISSQLMFTIS
+QVTPLHSGTYQCCARSQKSGIRLQGHFFSILFTETGNYTVTGLKQRQHLE
+FSHNEGTLSSGFLQEKVWVMLVTSLVALQAL
+signal sequence *
+*
+100
+150
+181
+A280 (mAU)
+Volume (ml)
+1 2
+34 5 6
+20
+kDa
+60
+30
+40
+50
+* 123456
+non-reduced
+M
+dimer
+monomer
+0 5 10 15
+0
+50
+100
+63.5 kDa 48.1 20.4 15.6
+Fig. 1. The extracellular Ig-V set domain of CD160h is
+monomeric. (a) Gel-filtration chromatography (Superdex
+75 10/300) purification of the CD160h Ig-V set domain
+(15 kDa) expressed in HEK293S GnTI− cells. The HEK293S
+GnTI− cell culture supernatant containing His-tagged
+CD160h was purified by Ni-NTA affinity chromatogra￾phy. All of the eluted fractions containing CD160h were
+then subjected to gel-filtration chromatography. The
+CD160h Ig-V set domain eluted at approximately 15 kDa
+(arrowheads 4–6). Arrowheads 1–6 indicate the fraction
+numbers. Arrowhead 1 also indicates the void volume
+(Vo) peak. The bars indicate the elution positions of the
+molecular mass markers. (b) The CD160h Ig-V set domain
+purified in (a) was denatured with SDS sample buffer
+without reducing agents (e.g., DTT) and resolved on a 15%
+SDS-PAGE gel followed by Western blotting with an anti￾6×His antibody. The numbers 1–6 on the top of the
+membrane are the fractions 1–6 shown in (a). M indicates
+the protein size marker. The monomeric CD160h Ig-V set
+domain ran as multiple bands due to different sugar
+modifications. We confirmed this conclusion by Endogly￾cosidase H or PNGase F digestion (data not shown). The
+asterisk (⁎) indicates the CD160h Ig-V set domain before
+gel-filtration chromatography purification (immediately
+after purification by Ni-NTA affinity chromatography). (c)
+Amino acid sequence of CD160 deduced from the cDNA
+sequence. The asterisk (⁎) indicates the position of the
+predicted N-glycosylation site. The double asterisk (⁎⁎)
+indicates the position of the N-glycosylation site con￾firmed by an N-terminal sequence analysis. Cysteine
+residues within the Ig-V set domain are boxed.
+(a)
+0.0 0.5 1.0 1.5 2.0 2.5 3.0
+0
+200
+400
+600
+800
+CD160 (µM)
+Bound (RU)
+(b)
+(c)
+0 50 100 150
+0
+30
+60
+90
+120
+150
+Response (RU)
+Time (s)
+0 50 100 150
+0
+30
+60
+90
+120
+150
+180
+Response (RU)
+Time (s)
+CD160
+BTLA
+Fig. 2. CD160 binds to HVEM. (a) Plots of the
+equilibrium binding responses of the extracellular Ig-V
+set domain of CD160 to HVEM (Kd ∼0.34 μM). The
+purified, recombinant, C-terminally biotin-tagged HVEM
+was immobilized on a CM5 sensor chip, and different
+concentrations of purified CD160 were injected on the
+chip. (b) Kinetic analysis of CD160 binding to HVEM. Low
+concentrations of purified CD160 (80, 40, 20, 10, 5, or
+2.5 nM) were injected at a flow rate of 50 μl/min on the
+same sensor chip used in (a) (continuous lines). The rate
+equations derived from the 1:1 binding model were fitted
+to the association and dissociation phases of all injections
+(dotted lines). (c) Kinetic analysis of BTLA binding to
+HVEM. Low concentrations of purified BTLA (40, 20, 10,
+5, 2.5 nM) were injected at a flow rate of 50 μl/min on the
+same sensor chip used in (a) (continuous lines). Rate
+equations derived from the 1:1 binding model were fitted
+to the association and dissociation phases of all injections
+(dotted lines).
+Molecular Basis for CD160-HVEM Recognition 765The extracellular domain of CD160 was injected
+over sensor surfaces bearing biotinylated HVEM or
+biotinylated bovine serum albumin (negative con￾trol). The affinity of CD160 to HVEM was measured
+by an equilibrium binding analysis. A range of
+CD160 concentrations was injected through the
+flow cells containing the immobilized HVEM
+(Supplemental Fig. 4a).
+The equilibrium binding curve for the binding of
+CD160 to HVEM is shown in Fig. 2a. Consistent with
+the report by Stiles et al.,13 our results show that
+CD160 binds directly to HVEM with a Kd of 0.34 μM
+(Table 1), which is within the affinity range typical of
+cell surface receptors (Supplemental Table 1). This
+result strongly suggests that the monomeric form of
+CD160 is the predominant physiological species. We
+also performed a kinetic analysis of this interaction.
+The binding curves shown in Fig. 2b fit well to a 1:1
+Langmuir binding model. Although the Kd of the
+CD160/HVEM binding is comparable with that of
+the BTLA/HVEM binding, the CD160 binding
+displayed 2-fold slower kinetics than did BTLA
+(Table 1 and Fig. 2c and Supplemental Table 1).
+CD160 may have a more inhibitory signaling
+function than BTLA because CD160 has a slower
+dissociation constant (Supplemental Table 1).
+The effect of HVEM on the binding of CD160 to
+the antiangiogenic anti-CD160 antibody CL1-R2
+CL1-R2, a commercially available Medical &
+Biological Laboratories CO., LTD. anti-CD160 anti￾body, has been used in many studies; however, its
+binding characteristics toward CD160 are unknown.
+Therefore, we performed an SPR binding study
+between CD160 and the anti-CD160 antibody CL1-
+R2. The antibody was immobilized on a CM5 sensor
+chip by direct amine coupling. CD160 was injected
+over the sensor chip and exhibited strong binding to
+the anti-CD160 antibody (Fig. 3). We next injected
+HVEM over the same chip to examine the effect of
+HVEM on the binding of CD160 to the anti-CD160
+antibody (Fig. 3). The response did not change
+during the HVEM injection, indicating that the anti￾CD160 antibody CL1-R2 blocks CD160 binding to
+HVEM.
+CD160 competes with BTLA for binding to HVEM
+BTLA is another coinhibitory molecule that in￾teracts with HVEM. Although a cellular-based
+binding study showed that the CRD1 of HVEM
+was essential for both CD160 and BTLA binding and
+suggested that their binding sites potentially
+overlap,7 it was not clear from the results of this
+study whether their binding sites actually over￾lapped or whether the molecules interfered with
+each other when binding to HVEM. Therefore, we
+performed a competition assay of CD160 and BTLA
+binding to HVEM using SPR.
+We first expressed the extracellular domain of
+BTLA (residues S33–D135, 12 kDa) in E. coli as
+inclusion bodies, refolded the protein in vitro
+(Supplemental Fig. 5), and performed an analysis
+of the binding of BTLA to HVEM (Supplemental Fig.
+4b). BTLA alone binds to HVEM with a Kd of 0.29 μM
+(Fig. 4a and Table 1), which is similar to the affinities
+of the murine BTLAs (0.42 and 0.97 μM) obtained by
+an SPR analysis.31 We next examined the binding
+response when increasing concentrations of BTLA
+were injected over the HVEM with (squares) or
+without (triangles) an almost saturating concentra￾tion (1.5 μM) of CD160 (Fig. 4b). The difference
+between the responses in the presence or absence of
+CD160 (crosses) decreased as the concentration of
+BTLA increased, indicating that the binding was not
+additive and that BTLA showed typical competitive
+inhibition with CD160 for binding to HVEM.32 These
+Table 1. Affinity constants of the interactions of CD160
+and BTLA with refolded HVEM
+Immobilized
+Injected, Kd at 25 °C (μM)
+CD160 BTLA
+HVEM (L1–Y103) 0.34± 0.01 (4) 0.29± 0.01 (4)
+0.17a,b 0.25a
+Values are presented as mean± standard deviation. The number
+of measurements is shown in parentheses. The immobilized level
+of HVEM is approximately 2500 response units. The Kd values
+were obtained from the equilibrium analysis. a Values were reported previously13 and are shown here for
+comparison. b The Kd values were calculated by the simple 1:1 Langmuir
+binding model.
+0 200 400 600 800
+0
+200
+400
+Response (RU)
+Time (s)
+6 µM CD160 
+injected
+6 µM HVEM 
+injected Glycine pH2.0
+injected
+Fig. 3. The effect of HVEM on the binding of CD160 to
+anti-CD160 monoclonal antibody. Anti-CD160 monoclo￾nal antibody (CL1-R2) was immobilized on a CM5 sensor
+chip by amine coupling and generated 3000 response units
+(RU). Solutions containing 6 μM CD160 and 6 μM HVEM
+were injected sequentially on the chip surface as indicated
+(arrowheads). For chip regeneration, glycine (pH 2.0) was
+injected.
+766 Molecular Basis for CD160-HVEM Recognitionresults suggest that the CD160 and BTLA binding
+sites on HVEM overlap or are close enough to each
+other that the binding of one molecule to HVEM
+blocks the binding of the other molecule.
+To investigate the detailed features of the in￾teractions of CD160 and BTLA with HVEM, we
+prepared two different-length HVEMs with biotin
+tags, (1) L1–H162: CRD1–4 and (2) L1–Y103:
+CRD1–3, using HEK293S GnTI− cells. The HVEMs
+were enzymatically biotinylated and immobilized
+on a streptavidin-coupled CM5 chip for the SPR
+analysis. Next, we tested whether recombinant
+HVEMs, refolded from inclusion bodies and pro￾duced in mammalian cells, exhibit any differences in
+(a) (b) Bound (RU)
+BTLA (µM)
+0 2 4 6 8 10 12 14 16
+0
+200
+400
+600
+WT
+P17A
+Y23A
+V36A
+(c)Bound (RU)
+(d)
+0 2 4 6 8 10 12 14 16
+0
+100
+200
+300
+400
+500
+600
+WT
+V36A
+P17A
+Y23A
+CD160 (µM)
+Bound (RU)
+BTLA (µM)
+0.0 0.5 1.0 1.5 2.0 2.5 3.0
+0
+200
+400
+600
+800
+1000
+1200
+Bound (RU)
+BTLA (µM)
+0.0 0.2 0.6 0.8 1.0 1.2
+0
+200
+400
+600
+800
+1000
+BTLA
+BTLA + CD160
+0.4
+(e)
+Y23
+P17 V36
+BTLA
+HVEM
+CRD1
+CRD2
+Y23 V36
+P17
+HVEM
+CRD1
+gD
+Fig. 4. The effect of BTLA on CD160 binding to HVEM. (a) Equilibrium binding analysis of BTLA against HVEM on the
+same sensor chip used in the experiment shown in Fig. 2 (Kd ∼0.29 μM). The estimated saturation level of BTLA was
+calculated by nonlinear curve fitting [1280 response units (RU)]. (b) Binding of BTLA alone (filled triangles) or mixed with
+CD160 (filled squares) on the same sensor chip used in the experiment shown in (a). The CD160 concentration was 1.5 μM
+(Fig. 2a, dotted line). The difference in the binding observed in the presence or absence of CD160 is plotted (crosses). (c)
+Equilibrium binding analysis of BTLA against wild-type HVEMh and HVEMh point mutants (P17A, Y23A, V36A). BTLA
+bound to the HVEMh mutants P17A, Y23A, and V36A with Kd values of 17 μM, 5.3 μM, and 1.4 μM, respectively. (d)
+Equilibrium binding analysis of CD160 against wild-type HVEMh and HVEMh point mutants (P17A, Y23A, V36A).
+CD160 bound to the HVEMh mutants P17A and V36A with Kd values of 23 and 2.2 μM, respectively. The Y23A mutant
+diminished the affinity for CD160 at concentrations exceeding 30 μM. (e) Crystal structures of the BTLA/HVEM (left)23
+and HSV gD/HVEM (right)30 complexes. Surface representations of BTLA (green, left) and HSV gD (orange, right) are
+shown. A cartoon model of HVEM (cyan) showing the three residues, P17, Y23, and V36, where the mutations were
+introduced is also shown.
+Molecular Basis for CD160-HVEM Recognition 767their receptor binding. CD160 and BTLA exhibited
+almost the same affinities toward HVEM (L1–Y103)
+expressed in HEK293S GnTI− cells, indicating that
+the sugar modifications on HVEM do not contribute
+to the binding (Table 2). We used HVEM expressed
+in HEK293S GnTI− cells, designated as HVEMh, for
+the following assays.
+To investigate the details of the CD160 binding site
+on HVEM, we prepared a longer version of HVEMh
+(L1–H162). It exhibited a slightly lower but still
+similar binding affinity to the receptors, indicating
+that the CRD4 of HVEM does not play a significant
+role in CD160 and BTLA binding (Table 2). We then
+produced a series of HVEMh mutants (P17A, Y23A,
+V36A) because the mutated sites in CRD1 are known
+to be crucial for BTLA affinity, as identified by
+mutagenesis 23 (Fig. 4c–e). A previous cellular-level
+binding report showed that the Y23A mutation
+reduced CD160 binding. 33 We performed affinity
+measurements of CD160 and BTLA to these HVEMh
+mutants (Fig. 4c and d). Although the P17A and
+V36A HVEMh mutants displayed 6-fold and 60- to
+70-fold decreases in affinity for both CD160 and
+BTLA, respectively, the Y23A mutation resulted in a
+20-fold reduction in the affinity for BTLA and
+completely abolished the affinity for CD160 even at
+concentrations exceeding 30 μM (Fig. 4c and Table 2).
+These results indicate that the Y23 residue of HVEM
+is more critical for CD160 binding than for BTLA
+binding; in contrast, the other mutations (P17A and
+V36A) have effects on the binding of HVEM similar
+to those of both CD160 and BTLA. Interestingly,
+the Y23A mutation of HVEMh also abolished
+the binding of HVEMh to HSV gD, 13 similar to the
+results for CD160. The crystal structures of the
+gD/HVEM30 and BTLA/HVEM23 complexes
+demonstrate that Y23 of HVEM penetrates deeply
+into HSV gD but that this residue simply attaches
+to the peripheral surface of BTLA (Fig. 4e). These
+results suggest that the CD160/HVEM binding
+mode is similar to that of gD, but it is somewhat
+distinct from that of BTLA.
+LIGHT does not affect the binding of CD160 and
+BTLA to HVEM
+Like other TNF-related ligands, LIGHT forms a
+homotrimer and potentially interacts with three
+HVEM molecules. In accordance with previous
+reports,13 LIGHT binding to immobilized HVEMh
+exhibits an extremely high affinity with an avidity
+effect, quite unlike the binding to CD160 and BTLA
+(Fig. 5a).
+We next examined the effect of LIGHT on the
+HVEMh binding of CD160 and BTLA (Fig. 5b). The
+binding responses observed for CD160 and BTLA to
+HVEMh were the same before and after the HVEM
+was saturated with LIGHT (Fig. 5b). Furthermore,
+the HVEMh mutants (P17A, Y23A, V36A) (data not
+Table 2. Summary of affinity constants for the interactions
+of CD160 and BTLA with HVEMs purified from HEK293S
+GnTI− cells
+Immobilized
+Injected, Kd at 25 °C (μM)
+CD160 BTLA
+HVEMh (L1–H162) 0.82± 0.03 (2) 0.48± 0.10 (2)
+HVEMh (L1–Y103) 0.36± 0.03 (4) 0.22± 0.04 (4)
+HVEMh (L1–Y103) P17A 23± 0.26 (4) 17± 0.28 (4)
+HVEMh (L1–Y103) Y23A NB 5.3± 0.02 (4)
+HVEMh (L1–Y103) V36A 2.3± 0.15 (4) 1.4± 0.32 (4)
+Values are presented as mean± standard deviation. The number
+of measurements is shown in parentheses. The immobilized levels
+of HVEMs ranged from 500 to 1300 response units. NB, no
+binding was observed at a CD160 concentration of 30 μM. The Kd
+values were obtained from the equilibrium analysis.
+(a)
+(b)Response (RU)
+Time (s)
+0 200 400 600 800 1000
+0
+2000
+4000
+6000
+8000
+10000
+CD160
+BTLA
+LIGHT
+injected
+Response (RU)
+Time (s)
+0 100 200 300
+-20
+0
+20
+40
+60
+80
+100
+120 20 nM
+10 nM
+2.5 nM
+50 nM
+Fig. 5. The effect of LIGHT on the binding of CD160 and
+BTLA to HVEM. (a) Kinetic analysis of LIGHT binding to
+HVEM. C-terminal biotin-tagged HVEMh was coupled
+to a streptavidin-immobilized CM5 sensor chip and
+generated 500 response units (RU). Different concentra￾tions of purified LIGHT were injected at a flow rate of
+50 μl/min on the chip surface. The binding curves were
+fitted to a 1:1 Langmuir binding model, and the Kd value
+calculated by the koff/kon ratio was 30 nM. (b) Binding of
+CD160 (continuous line) and BTLA (dotted line) to HVEMh
+before and after the injection of LIGHT to a saturating level.
+Arrowheads with continuous lines indicate the beginning
+of the CD160 and BTLA injections. The arrowhead with the
+dotted line indicates the beginning of the LIGHT injection.
+The sensor chip used was the same as that in (a).
+768 Molecular Basis for CD160-HVEM Recognitionshown) displayed essentially the same affinity to
+LIGHT, indicating that the LIGHT binding site on
+HVEM does not overlap with either the CD160 or
+BTLA binding site, consistent with the previous
+cellular-based studies. 23,34
+Functional implications
+A previous study showed that CD160 and BTLA
+do not colocalize on the same cell surface,7 suggest￾ing that these two coinhibitory molecules function in
+different compartments and do not associate before
+their interactions with HVEM. GPI-anchored CD160
+probably exists in the lipid raft where the main
+signaling complexes, including the TCR/CD3 com￾plexes, are normally localized and, thus, may have a
+more direct inhibitory effect on TCR/CD3 signaling.
+A transmembrane form of an alternative splice
+variant of CD160, possessing a putative phosphor￾ylation site in its cytoplasmic region, was recently
+reported.35 Alternatively, because BTLA is widely
+dispersed on the cell surface, we propose that CD160
+and BTLA exert their inhibitory activities in different
+cell surface areas.
+The present study has provided clear evidence that
+human CD160 is a monomeric receptor. CD160 and
+BTLA have similar affinities, but somewhat distinct
+kinetic parameters, for binding to HVEM. The
+slower dissociation of CD160 from HVEM suggests
+that CD160 may have the potential to induce
+dominant inhibitory signaling. Our competition
+assay showed that CD160 and BTLA cannot bind
+to HVEM simultaneously. Moreover, the mutagen￾esis study revealed that HVEM recognition by
+CD160 and BTLA seems to be similar, but some
+differences exist. Whether the potential dominant
+inhibitory function of CD160 is based on the slower
+dissociation of HVEM binding relative to that of
+BTLA will be addressed in future studies, specifically
+an in vivo study using CD160 knockout mice, which
+are not currently available. Furthermore, the CD160
+expression on T cells and NK cells in the human
+immune system is significantly induced upon
+activation.6,7 These results strongly suggest that
+CD160 has an inhibitory function similar to that of
+another coinhibitory molecule, CTLA4, to prevent
+overactivation and terminate unnecessary immune
+responses. Therefore, the elucidation of the precise
+functional characteristics of the CD160/HVEM
+binding will be quite important for understanding
+its regulation, using either the soluble CD160 protein
+or an anti-CD160 antibody, for future medical
+treatment of immune disorders, such as autoim￾mune diseases. Notably, a recent report 28 clearly
+demonstrated that the administration of the CD160
+antibody, CL1-R2, in animal disease models signif￾icantly improved palliation, suggesting that CL1-R2
+can be used in the medical treatment of ocular and
+tumor neoangiogenesis. HVEM can function not
+only as a ligand for its receptors including CD160 but
+also as a stimulatory receptor, resulting in a
+bidirectional signaling system. HVEM activates
+nuclear factor κB to produce pro-inflammatory
+signals by binding to its receptors (ligands). Our
+present study demonstrates that the CL1-R2 anti￾body competes with HVEM for binding to CD160,
+introducing the possibility that HVEM-mediated
+cellular activation could be reduced by the CL1-R2
+antibody. Further studies to investigate the molecu￾lar mechanism induced by the CL1-R2 antibody will
+be quite important for future medical applications.
+Materials and Methods
+Production of the entire extracellular region of CD160
+in HEK293S GnTI− cells and N-terminal amino acid
+sequence analysis
+The DNA encoding the Ig-V domain (residues C26–
+S159) of CD160 was amplified from pGMCD160 (see the
+following section) by using 5′-GTA CCG GTT GCA TTA
+ACA TCA CCA GCT C-3′ as the forward primer and 5′-
+CTG GTA CCT GAG AGA GTG CCT TCA TTA TGG C-3′
+as the reverse primer (designated RP1). The resultant
+fragments were digested with the restriction enzymes AgeI
+and KpnI and were ligated into the pHLsec vector
+(designated pHLCD160).36 For the expression of the entire
+extracellular region of CD160 (M1–S159), we extended the
+N-terminal region of CD160 by PCR using 5′-TGT GCC
+CTG GCC ATC CTG CTG GCA ATT GTG GAC ATC CAG
+TCT GGT GGA TGC ATT AAC ATC ACC AGC TC-3′ as
+the forward primer and RP1 as the reverse primer, with
+pHLCD160 as the template. The resultant fragments were
+amplified using 5′-CGG AAT TCG CCA CCA TGC TGT
+TGG AAC CCG GCA GAG GCT GCT GTG CCC TGG
+CCA TC-3′ as the forward primer and RP1 as the reverse
+primer and were ligated into the EcoRI/KpnI-digested
+pHLsec vector. The final construct included CD160 (M1–
+S159) with the original signal sequence and the 6×Histi￾dine-tag in tandem. The plasmid was transiently trans￾fected by adding polyethyleneimine into 90% confluent
+HEK293S cells lacking N-acetylglucosaminyltransferase I
+(GnTI) activity or 293T cells.36,37 The cells were cultured in
+Dulbecco's modified Eagle's medium (SIGMA) supple￾mented with 10% fatal calf serum (HyClone), L-glutamine,
+and nonessential amino acids (GIBCO). During transfec￾tion, the medium was changed to OPTI-MEM (GIBCO).
+The supernatant containing the His-tagged CD160 was
+collected 4 days after transfection and was purified by Ni￾affinity chromatography and gel filtration with a Superdex
+75 10/300 column (GE Healthcare). The purified extracel￾lular region of CD160 was then digested with PNGase F
+(New England Biolabs) for 8 h and analyzed by N-terminal
+amino acid sequencing (Shimadzu Biotech).
+Expression and refolding of the CD160 Ig-V domain,
+the BTLA Ig-V domain, and LIGHT in E. coli
+The DNA encoding the Ig-V domain (residues I27–S159)
+of CD160 was amplified from a human peripheral blood
+Molecular Basis for CD160-HVEM Recognition 769mononuclear cell cDNA library using 5′-GGA GAT ATA
+CAT ATG ATT AAC ATC ACC AGC TCA GC-3′ as the
+forward primer and 5′-TAG GCA AGC TTA ACT GAG
+AGT GCC TTC ATT ATG GCT G-3′ as the reverse primer.
+The resultant fragments were digested with the restriction
+enzymes NdeI and HindIII and were ligated into the
+pGMT7 vector (1) (designated pGMCD160). E. coli strain
+BL21(DE3)pLysS cells (Novagen) harboring pGMCD160
+produced CD160 within inclusion bodies. The inclusion
+bodies were isolated from the cell pellet by sonication and
+washed repeatedly with a wash solution containing 0.5%
+Triton X-100. The purified CD160 inclusion bodies were
+solubilized in a denaturant solution containing 6 M
+guanidine hydrochloride. The solubilized protein solution
+was diluted slowly in refolding buffer [0.1 M Tris–HCl
+(pH 8.0), 0.6 M L-arginine, 2 mM ethylenediaminetetraacetic
+acid, 3.73 mM cystamine, and 6.73 mM cysteamine] to a
+final protein concentration of 1–2 μM and was stirred for
+48 h at 4 °C. The refolded mixture of CD160 was then
+concentrated with a VIVA FLOW50 system (Sartorius).
+CD160 was purified by gel filtration on a Superdex 75
+column (GE Healthcare). The DNA encoding the Ig-V set
+domain (S33–D135) of BTLA was amplified from the cDNA
+(Accession No: BC107092; Open Biosystems) using 5′-GGA
+GAT ATA CAT ATG TCA TGT GAT GTA CAG CTT TAT
+ATA AAG AGA-3′ as the forward primer and 5′-G GAA
+TTC TCA ATC TGT CAC ATA AAG AGT TGT TGA GTG￾3′ as the reverse primer. The resultant fragments were
+ligated into the pGMT7 vector. Inclusion bodies containing
+BTLA were obtained and purified according to the method
+described above. The DNA encoding the extracellular
+region of LIGHT (N93–V240) was amplified from the
+cDNA (Accession No: BC018058; Open Biosystems) using
+5′-GGA GAT ATA CAT ATG AAC CCA GCA GCG CAT
+CTC-3′ as the forward primer and 5′-CCC AAG CTT TCA
+CAC CAT GAA AGC CCC C-3′ as the reverse primer. The
+resultant fragments were ligated into the pGMT7 vector,
+and three mutations derived from the cDNA were corrected
+by the QuikChange method. Inclusion bodies containing
+LIGHT were obtained and purified according to the method
+described above.
+Expression, refolding, and biotinylation of HVEM
+(L1–Y103) in E. coli
+The DNA encoding the CRD1–3 (L1–Y103) of HVEM
+was amplified from spleen cDNA (PCR-Ready cDNA
+Human Spleen, PC40016; Maxim Biotech, Inc.) using 5′-
+GGA GAT ATA CAT ATG CTG CCG TCC TGC AAG
+GAG G-3′ as the forward primer and 5′-CGC GGA TCC
+GTA AGC GCG GCA CGC G-3′ as the reverse primer. The
+resultant fragments were digested with the restriction
+enzymes NdeI and BamHI and were ligated into the
+pGMT7 vector (designated pGMHVEM). The construct
+consisted of HVEM (L1–Y103) and the biotin tag in
+tandem. The pGMHVEM vector was transformed into
+BL21(DE3)pLysS cells, and inclusion bodies containing
+HVEM (L1–Y103) with the biotin tag were obtained and
+purified by the method described above. The purified
+HVEM (L1–Y103) was biotinylated with Biotin Protein
+Ligase (BirA; Avidity) and subjected to gel filtration in
+HBS-EP buffer [10 mM Hepes (pH 7.4), 150 mM NaCl,
+3 mM ethylenediaminetetraacetic acid, and 0.005% Sur￾factant P20] for the SPR analysis.
+Production and biotinylation of HVEMs in HEK293S
+GnTI− cells
+The DNA encoding the CRD1–3 (L1–Y103) of HVEM
+was amplified from pGMHVEM using 5′-GT ACC GGT
+CTG CCG TCC TGC AAG GAG G-3′ as the forward
+primer (designated FP1) and 5′-CCG CTC GAG TCA TTA
+ACG ATG ATT CCA CAC CAT TTT CTG-3′ as the reverse
+primer. We also amplified CRD1–4 (L1–H162) of HVEM
+from spleen cDNA using FP1 as the forward primer and 5′-
+CCG CTC GAG TTA ACG ATG ATT CCA CAC CAT TTT
+CTG TGC ATC CAG AAT ATG ATG CAG GGT ACC GTG
+GGA GCT GCT GGT CCC-3′ as the reverse primer. The
+resultant fragments were ligated into the pHLsec vector
+using the AgeI and XhoI restriction enzyme sites.36 The
+final constructs consisted of the signal sequence (β-actin),
+HVEM (CRD1–3) or HVEM (CRD1–4), and the biotin tag in
+tandem. The plasmids were transiently transfected into
+HEK293S GnTI− cells, and the supernatants containing the
+biotin-tagged HVEMs were biotinylated with Biotin
+Protein Ligase. The biotinylated HVEM was then dialyzed
+in HBS-EP buffer and used for the SPR analysis.
+SPR analysis
+SPR experiments were performed with a BIAcore3000
+instrument (GE Healthcare). The biotinylated form of
+either HVEM or bovine serum albumin (negative control)
+was immobilized on a research-grade CM5 chip (GE
+Healthcare), onto which streptavidin was covalently
+coupled. After exchanging the buffer to HBS-EP, we
+injected the HVEM receptors (CD160, BTLA, and LIGHT)
+over the immobilized HVEM. The binding response at
+each concentration was calculated by subtracting the
+equilibrium response measured in the control flow cell
+from that in the HVEM flow cell. Kinetic constants were
+determined using the curve-fitting facility of the BIAEVA￾LUATION 4.0 program (GE Healthcare) to fit the rate
+equations derived from the simple 1:1 Langmuir binding
+model (A+B↔AB). Additional curve fitting was per￾formed with the ORIGIN 7 program (Microcal Software,
+Northampton, MA). Affinity constants (Kd) were derived
+by fits to a single-site saturation model of the nonlinear
+curve fitting of the standard Langmuir binding isotherm.
+In the competitive binding experiment, BTLA preparations
+with or without CD160 (1.5 μM), which was almost
+saturated, were passed over the immobilized HVEM. For
+the binding assay of CD160 toward the anti-CD160
+antibody, CL1-R2 (MBL), the anti-CD160 antibody or the
+anti-CD161 antibody (negative control) was immobilized
+directly on a CM5 chip by amine coupling. CD160 and
+HVEM were injected over the immobilized anti-CD160
+antibody.
+Acknowledgements
+We thank M. Kimura, T. Nakashima, M. Mizu￾guchi, T. Obita and Y. Okabe for supporting this
+work. R.K. was supported by the Japan Society for
+the Promotion of Science Research Fellowship for
+770 Molecular Basis for CD160-HVEM RecognitionYoung Scientists. This work was partially supported
+by grants from the Ministry of Education, Culture,
+Sports, Science and Technology and the Ministry of
+Health, Labour and Welfare of Japan.
+Supplementary Data
+Supplementary data associated with this article
+can be found, in the online version, at doi:10.1016/
+j.jmb.2011.09.018
+References
+1. Arase, H. & Lanier, L. L. (2004). Specific recognition of
+virus-infected cells by paired NK receptors. Rev. Med.
+Virol. 14, 83–93.
+2. Bretscher, P. A. (1999). A two-step, two-signal model
+for the primary activation of precursor helper T cells.
+Proc. Natl Acad. Sci. USA, 96, 185–190.
+3. Gimmi, C. D., Freeman, G. J., Gribben, J. G., Gray,
+G. & Nadler, L. M. (1993). Human T-cell clonal
+anergy is induced by antigen presentation in the
+absence of B7 costimulation. Proc. Natl Acad. Sci. USA,
+90, 6586–6590.
+4. Freeman, G. J., Wherry, E. J., Ahmed, R. & Sharpe,
+A. H. (2006). Reinvigorating exhausted HIV-specific
+T cells via PD-1–PD-1 ligand blockade. J. Exp. Med.
+203, 2223–2227.
+5. Greenwald, R. J., Freeman, G. J. & Sharpe, A. H.
+(2005). The B7 family revisited. Annu. Rev. Immunol.
+23, 515–548.
+6. Cai, G. & Freeman, G. J. (2009). The CD160, BTLA,
+LIGHT/HVEM pathway: a bidirectional switch reg￾ulating T-cell activation. Immunol. Rev. 229, 244–258.
+7. Cai, G., Anumanthan, A., Brown, J. A., Greenfield,
+E. A., Zhu, B. & Freeman, G. J. (2008). CD160 inhibits
+activation of human CD4+ T cells through interaction
+with herpesvirus entry mediator. Nat. Immunol. 9,
+176–185.
+8. Agrawal, S., Marquet, J., Freeman, G. J., Tawab, A.,
+Bouteiller, P. L., Roth, P. et al. (1999). Cutting edge:
+MHC class I triggering by a novel cell surface ligand
+costimulates proliferation of activated human T cells.
+J. Immunol. 162, 1223–1226.
+9. Barakonyi, A., Rabot, M., Marie-Cardine, A., Aguerre￾Girr, M., Polgar, B., Schiavon, V. et al. (2004). Cutting
+edge: engagement of CD160 by its HLA-C physiolog￾ical ligand triggers a unique cytokine profile secretion
+in the cytotoxic peripheral blood NK cell subset.
+J. Immunol. 173, 5349–5354.
+10. Le Bouteiller, P., Barakonyi, A., Giustiniani, J.,
+Lenfant, F., Marie-Cardine, A., Aguerre-Girr, M.
+et al. (2002). Engagement of CD160 receptor by
+HLA-C is a triggering mechanism used by circulating
+natural killer (NK) cells to mediate cytotoxicity. Proc.
+Natl Acad. Sci. USA, 99, 16963–16968.
+11. Li, Q., Smith, A. J., Schacker, T. W., Carlis, J. V., Duan,
+L., Reilly, C. S. & Haase, A. T. (2009). Microarray
+analysis of lymphatic tissue reveals stage-specific, gene
+expression signatures in HIV-1 infection. J. Immunol.
+183, 1975–1982.
+12. Blackburn, S. D., Shin, H., Haining, W. N., Zou, T.,
+Workman, C. J., Polley, A. et al. (2009). Coregulation of
+CD8+ T cell exhaustion by multiple inhibitory re￾ceptors during chronic viral infection. Nat. Immunol.
+10, 29–37.
+13. Stiles, K. M., Whitbeck, J. C., Lou, H., Cohen, G. H.,
+Eisenberg, R. J. & Krummenacher, C. (2010). Herpes
+simplex virus glycoprotein D interferes with binding
+of herpesvirus entry mediator to its ligands through
+downregulation and direct competition. J. Virol. 84,
+11646–11660.
+14. Harrop, J. A., McDonnell, P. C., Brigham-Burke, M.,
+Lyn, S. D., Minton, J., Tan, K. B. et al. (1998).
+Herpesvirus entry mediator ligand (HVEM-L), a
+novel ligand for HVEM/TR2, stimulates proliferation
+of T cells and inhibits HT29 cell growth. J. Biol. Chem.
+273, 27548–27556.
+15. Steinberg, M. W., Shui, J. W., Ware, C. F. &
+Kronenberg, M. (2009). Regulating the mucosal
+immune system: the contrasting roles of LIGHT,
+HVEM, and their various partners. Semin. Immuno￾pathol. 31, 207–221.
+16. Tamada, K., Shimozaki, K., Chapoval, A. I., Zhai, Y.,
+Su, J., Chen, S. F. et al. (2000). LIGHT, a TNF-like
+molecule, costimulates T cell proliferation and is
+required for dendritic cell-mediated allogeneic T cell
+response. J. Immunol. 164, 4105–4110.
+17. Tamada, K., Shimozaki, K., Chapoval, A. I., Zhu, G.,
+Sica, G., Flies, D. et al. (2000). Modulation of T-cell￾mediated immunity in tumor and graft-versus-host
+disease models through the LIGHT co-stimulatory
+pathway. Nat. Med. 6, 283–289.
+18. Yu, P., Lee, Y., Liu, W., Chin, R. K., Wang, J., Wang, Y.
+et al. (2004). Priming of naive T cells inside tumors
+leads to eradication of established tumors. Nat.
+Immunol. 5, 141–149.
+19. Granger, S. W. & Rickert, S. (2003). LIGHT–HVEM
+signaling and the regulation of T cell-mediated
+immunity. Cytokine Growth Factor Rev. 14, 289–296.
+20. Harrop, J. A., Reddy, M., Dede, K., Brigham-Burke,
+M., Lyn, S., Tan, K. B. et al. (1998). Antibodies to TR2
+(herpesvirus entry mediator), a new member of the
+TNF receptor superfamily, block T cell proliferation,
+expression of activation markers, and production of
+cytokines. J. Immunol. 161, 1786–1794.
+21. Shaikh, R. B., Santee, S., Granger, S. W., Butrovich, K.,
+Cheung, T., Kronenberg, M. et al. (2001). Constitutive
+expression of LIGHT on T cells leads to lymphocyte
+activation, inflammation, and tissue destruction.
+J. Immunol. 167, 6330–6337.
+22. Wang, Y., Subudhi, S. K., Anders, R. A., Lo, J., Sun, Y.,
+Blink, S. et al. (2005). The role of herpesvirus entry
+mediator as a negative regulator of T cell-mediated
+responses. J. Clin. Invest. 115, 711–7117.
+23. Compaan, D. M., Gonzalez, L. C., Tom, I., Loyet,
+K. M., Eaton, D. & Hymowitz, S. G. (2005).
+Attenuating lymphocyte activity: the crystal structure
+of the BTLA–HVEM complex. J. Biol. Chem. 280,
+39553–39561.
+24. Han, P., Goularte, O. D., Rufner, K., Wilkinson, B. &
+Kaye, J. (2004). An inhibitory Ig superfamily protein
+expressed by lymphocytes and APCs is also an early
+marker of thymocyte positive selection. J. Immunol.
+172, 5931–5939.
+Molecular Basis for CD160-HVEM Recognition 77125. Watanabe, N., Gavrieli, M., Sedy, J. R., Yang, J.,
+Fallarino, F., Loftin, S. K. et al. (2003). BTLA is a
+lymphocyte inhibitory receptor with similarities to
+CTLA-4 and PD-1. Nat. Immunol. 4, 670–679.
+26. Deppong, C., Juehne, T. I., Hurchla, M., Friend, L. D.,
+Shah, D. D., Rose, C. M. et al. (2006). Cutting edge: B
+and T lymphocyte attenuator and programmed
+death receptor-1 inhibitory receptors are required
+for termination of acute allergic airway inflammation.
+J. Immunol. 176, 3909–3913.
+27. Anumanthan, A., Bensussan, A., Boumsell, L., Christ,
+A. D., Blumberg, R. S., Voss, S. D. et al. (1998). Cloning
+of BY55, a novel Ig superfamily member expressed on
+NK cells, CTL, and intestinal intraepithelial lympho￾cytes. J. Immunol. 161, 2780–2790.
+28. Chabot, S., Jabrane-Ferrat, N., Bigot, K., Tabiasco, J.,
+Provost, A., Golzio, M. et al. (2011). A novel
+antiangiogenic and vascular normalization therapy
+targeted against human CD160 receptor. J. Exp. Med.
+208, 973–986.
+29. Maiza, H., Leca, G., Mansur, I. G., Schiavon, V.,
+Boumsell, L. & Bensussan, A. (1993). A novel 80-kD
+cell surface structure identifies human circulating
+lymphocytes with natural killer activity. J. Exp. Med.
+178, 1121–1126.
+30. Carfi, A., Willis, S. H., Whitbeck, J. C., Krumme￾nacher, C., Cohen, G. H., Eisenberg, R. J. & Wiley,
+D. C. (2001). Herpes simplex virus glycoprotein D
+bound to the human receptor HveA. Mol. Cell, 8,
+169–179.
+31. Nelson, C. A., Fremont, M. D., Sedy, J. R., Norris, P. S.,
+Ware, C. F., Murphy, K. M. & Fremont, D. H. (2008).
+Structural determinants of herpesvirus entry mediator
+recognition by murine B and T lymphocyte attenua￾tor. J. Immunol. 180, 940–947.
+32. Shiroishi, M., Tsumoto, K., Amano, K., Shirakihara,
+Y., Colonna, M., Braud, V. M. et al. (2003). Human
+inhibitory receptors Ig-like transcript 2 (ILT2) and
+ILT4 compete with CD8 for MHC class I binding and
+bind preferentially to HLA-G. Proc. Natl Acad. Sci.
+USA, 100, 8856–8861.
+33. Cheung, T. C., Steinberg, M. W., Oborne, L. M.,
+Macauley, M. G., Fukuyama, S., Sanjo, H. et al. (2009).
+Unconventional ligand activation of herpesvirus entry
+mediator signals cell survival. Proc. Natl Acad. Sci.
+USA, 106, 6244–6249.
+34. Sarrias, M. R., Whitbeck, J. C., Rooney, I., Ware, C. F.,
+Eisenberg, R. J., Cohen, G. H. & Lambris, J. D. (2000).
+The three HveA receptor ligands, gD, LT-alpha and
+LIGHT bind to distinct sites on HveA. Mol. Immunol.
+37, 665–673.
+35. Giustiniani, J., Bensussan, A. & Marie-Cardine, A.
+(2009). Identification and characterization of a trans￾membrane isoform of CD160 (CD160-TM), a unique
+activating receptor selectively expressed upon human
+NK cell activation. J. Immunol. 182, 63–71.
+36. Aricescu, A. R., Assenberg, R., Bill, R. M., Busso, D.,
+Chang, V. T., Davis, S. J. et al. (2006). Eukaryotic
+expression: developments for structural proteomics.
+Acta Crystallogr., Sect. D: Biol. Crystallogr. 62,
+1114–1124.
+37. Hashiguchi, T., Kajikawa, M., Maita, N., Takeda, M.,
+Kuroki, K., Sasaki, K. et al. (2007). Crystal structure of
+measles virus hemagglutinin provides insight into
+effective vaccines. Proc. Natl Acad. Sci. USA, 104,
+19535–19540.
+772 Molecular Basis for CD160-HVEM Recognition

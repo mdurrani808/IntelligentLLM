@@ -1,0 +1,304 @@
+Structural Basis of Signaling Blockade by Anti-IL-13  Antibody Lebrikizumab  Mark Ultsch1  , Jack Bevers2  , Gerald Nakamura2  , Richard Vandlen3  , Robert F. Kelley2  , Lawren C. Wu4 and Charles Eigenbrot1,2  1 - Department of Structural Biology, Genentech Inc., 1 DNA Way, South San Francisco, CA 94080, USA  2 - Department of Antibody Engineering, Genentech Inc., 1 DNA Way, South San Francisco, CA 94080, USA  3 - Department of Protein Chemistry, Genentech Inc., 1 DNA Way, South San Francisco, CA 94080, USA  4 - Department of Immunology, Genentech Inc., 1 DNA Way, South San Francisco, CA 94080, USA  Correspondence to Charles Eigenbrot: Genentech Inc., 1 DNA Way, South San Francisco, CA 94080, USA.  eigenbrot.c@gene.com  http://dx.doi.org/10.1016/j.jmb.2013.01.024  Edited by S. Sidhu  Abstract  The cytokine interleukin 13 (IL-13) is a major effector molecule for T-helper type 2 inflammation and is  pathogenic in allergic diseases such as asthma.
+The effects of IL-13 are mediated via a pathway that is  initiated by binding to a heterodimeric receptor consisting of IL-13R1 and IL-4R.
+Antibodies raised against  IL-13 can block its inflammatory effects by interfering with binding to either of the two receptor polypeptides.
+  Lebrikizumab is a monoclonal anti-IL-13 antibody that has shown clinical benefit in a phase II study for the  treatment of moderate-to-severe uncontrolled asthma.
+Here we report the molecular structure of IL-13 in  complex with the Fab from lebrikizumab by X-ray crystallography at 1.9  resolution.
+We show that  lebrikizumab inhibits IL-13 signaling by binding to IL-13 with very high affinity and blocking IL-13 binding to IL4R.
+In addition, we use site-directed mutations to identify the most important antibody contributors to binding.
+  Our studies define key features of lebrikizumab binding and its mechanism of action that may contribute to its  clinical effects.
+   2013 Elsevier Ltd. All rights reserved.
+  Introduction  Interleukin 13 (IL-13) is a member of the four-helix  bundle short-chain cytokine family that, along with  the closely related cytokine IL-4, is associated with  allergic type 2 inflammation.13 IL-13 binds to two  receptors: (1) the heterodimeric combination of IL13R1 and IL-4R or (2) IL-13R2. Of these, the  heterodimeric receptor of IL-13R1 and IL-4R is  also bound by IL-4.
+  The affinities of IL-13 and IL-4 for these three  receptor polypeptides and the structures of their  molecular complexes have been determined  previously.47 IL-13 binds to IL-13R2 with a very  high affinity using the combination of two wellseparated binding sites, more or less at opposite  ends of IL-13 helix D, to interact with all three  domains of the IL-13R2 extracellular region.6 In  contrast, IL-13 binds to IL-13R1 with a modest  affinity and to IL-4R with a weak affinity, leading to  the sequential formation of IL-13/IL-13R1 and then  IL-13/IL-13R1/IL-4R complexes.
+The IL-13R1  binding site on IL-13 strongly overlaps with the IL13R2 binding site, 6 with differences in detail  accounting for the large difference in affinity.
+In  contrast, the IL-4R binding site on IL-13 is distinct  from those of IL-13R1 and IL-13R2, on the  opposite side of IL-13 and composed of elements  from helices A and C.5  IL-13 is produced by many cell types, including Thelper type 2 cells, mast cells, basophils, eosinophils, innate type 2 cells, natural killer T cells, and  macrophages; it promotes several biological processes associated with the pathogenesis of asthma  and other allergic diseases.13 For instance, IL-13-  induced intracellular signal transduction mediated by  the IL-13R1/IL-4R receptor, primarily via the  phosphorylation of STAT6 (signal transducer and  activator of transcription 6), is associated with goblet  cell hyperplasia and mucus production, B cell class  0022-2836/$ - see front matter  2013 Elsevier Ltd. All rights reserved.
+J. Mol. Biol. (2013) 425, 13301339switching to IgE, induction of chemoattractants for  eosinophils and other inflammatory cells, promotion  of subepithelial fibrosis, and generation of airway  hyperreactivity.
+In contrast, IL-13R2 is considered  to be primarily a decoy receptor (i.e., without a direct  signaling function), although under some circumstances, IL-13 binding to IL-13R2 can promote  fibrosis by the induction of TGF via an intracellular  signaling pathway that is poorly understood.8  Numerous prior studies have implicated IL-13 and  its receptors in the pathogenesis of asthma and  allergy.1,2,9,10 Polymorphisms of the IL-13 and IL-4R  genes are associated with asthma and allergy,  including effects on IgE levels, prevalence of atopy,  and the severity of asthmatic disease.1116 In addition,  expression of IL-13 and its receptors is increased in  asthma and other allergic diseases, and neutralization  or deficiency of IL-13 and its receptors ameliorates  disease in preclinical disease models.1724  Recently, several monoclonal antibodies against  IL-13 have been assessed in clinical studies for the  treatment of asthma.2528 Of these, the anti-IL-13  antibody lebrikizumab improved lung function in  asthmatics who were symptomatic despite treatment  with, for the majority, inhaled corticosteroids (ICS)  and a long-acting 2-andrenergic receptor agonist.25  The other anti-IL-13 antibodies have shown varying  degrees of activity in clinical studies.29 The clinical  efficacy of anti-IL-13 antibodies may be influenced  by the binding affinities of the antibodies to IL-13, as  well as the molecular mechanisms by which they  block IL-13 signaling.
+For instance, IL-13 signaling  through the IL-13R1/IL-4R receptor can be  inhibited by blocking IL-13 binding to either IL13R1 or IL-4R, but these different molecular  mechanisms of blocking IL-13 signaling will have  different consequences on the ability of IL-13 to bind  to IL-13R2.
+  Although lebrikizumab has been previously shown  to block IL-13 signaling through the IL-13R1/IL-4R  receptor,25 the binding affinity of lebrikizumab for IL13 and the mechanism by which lebrikizumab blocks  IL-13 signaling have not been described in the  scientific literature.
+Here we report the binding  affinity of lebrikizumab to IL-13 and the crystal  structure of the complex between IL-13 and the  antigen-binding fragment of lebrikizumab (LebFab).
+  We find that lebrikizumab binds with a very high  affinity to IL-13 at an epitope that overlaps strongly  with the binding site of IL-4R, and using sitedirected mutations of the antibody, we identify  several key residues in the complementarity-determining regions (CDRs) of lebrikizumab that drive this  high-affinity binding to IL-13.
+  Results  Effects of LebFab on IL-13 binding to IL-13-R1  and IL-13R2  Previous studies have demonstrated that lebrikizumab blocked IL-13-induced STAT6 phosphorylation and cell proliferation in vitro and produced  clinical benefits on lung function in asthmatics, both  of which are consistent with blockade of the IL13R1/IL-4R heterodimeric receptor.25 In order to  determine which receptors are affected by lebrikizumab binding to IL-13, we performed ELISA assays  showing that IL-13 binding to neither IL-13R1 nor  IL-13R2 is reduced by the presence of LebFab  (Fig. 1 and Fig. S1).
+These results suggest that  Fig. 1. Inhibition of IL-13 binding to receptor.
+ELISA was used to determine if the Fab of lebrikizumab () would reduce  binding of cytokine to receptor.
+(a) LebFab does not inhibit binding of biotinylated human IL-13 (60 nM) to human IL13R1.
+Control anti-IL-13 human IgG () reduces binding of biotinylated human IL-13 from a maximum level of cytokine  binding () to a level of no cytokine ().
+(b) LebFab does not inhibit binding of biotinylated human IL-13 (0.4 nM) to human  IL-13R2.
+Error bars represent  standard deviation of three independent measurements.
+  Structural Basis of IL-13 Blockade 1331lebrikizumab may block the IL-4R binding site of IL13, thereby preventing the formation of an active  cytokine/receptor complex consisting of IL-13, IL13R1, and IL-4R.
+The intrinsic affinity between IL13 and IL-4R alone is too low for direct testing in a  similar ELISA assay.
+  Molecular structure of the LebFab/IL-13 complex  by X-ray crystallography  In order to understand the binding site for  lebrikizumab on IL-13, we determined the structure  of a complex of LebFab with IL-13 by X-ray  crystallography at 1.9  resolution (Table 1).
+  The molecular complex shows IL-13 bound by the  canonical antigen-recognition site of LebFab.
+The IL13 structure is very similar overall to IL-13 from  Protein Data Bank (PDB) entry 3L5X, another IL-13/  Fab complex but wherein IL-13 has a different  epitope in contact with the Fab.
+30 The most  significant difference in IL-13 C positions after  superpositioning (~ 3.8 ) is centered at Pro72 (in  the CD loop), which has a water-mediated H-bond with the CDR-L1 Asn30 side chain but that also  experiences a close intermolecular contact in our  structure.
+Absent this and three other short segments with differences up to ~ 1.9 , the root-meansquare deviation (rmsd) for superpositioning of IL-13  C atoms is 0.74 , a value that rises to 0.99  if all  C atoms are included.
+  Lebrikizumab is a humanized version of a mousederived anti-human IL-13 monoclonal antibody.
+In  our crystals, LebFab displays an elbow angle of  138.
+The conformations of the six CDR loops (L1,  L2, L3, H1, H2, and H3) can be classified31 as L1-  15-1, L2-8-1, L3-9-cis7-1, H1-13-1, H2-9-1, and H3-  anchor-1, respectively, which in each case is the  most common configuration for the given CDR  length.
+The fidelity with which these classifications  are made is high, with rmsd values for the superpositioning of main-chain atoms to the prototype  coordinates being less than 0.3 , except for CDRH1 where it rises to 0.94 . The conformational  classification of CDR-H3 is restricted to the amino  acids in the initial and final polypeptide segments  (seven amino acids altogether) and discounts the  highly variable intermediate segment for which  conformational classes are not a useful concept.
+  There are 12 amino acids in the lebrikizumab CDRH3 between Cys92 and Trp103.
+  The LebFab/IL-13 interface buries 890 2 of  protein surface from bulk solvent on each side  (1780 2 total).
+Of the LebFab buried surface, 63%  is from the VH domain and 37% is from the V  domain.
+At least one residue from each of the six  CDR loops is within 4  of IL-13, and 16 amino acids  lose at least 10 2 of solvent-accessible surface in  the IL-13 interaction (Fig. 2).
+  There are 20 IL-13 residues within 4  of LebFab,  all of them, except Ser32 from the AB loop, being  Table 1.
+X-ray data collection and refinement for LebFab/  IL-13  Data collection ALS 5.0.2  X-ray wavelength () 1.0  Space group C2  Unit cell edges: a, b, c () 83.72, 64.77, 117.1  Unit cell angles: , ,  () 90, 106.1, 90  VM (3  /Da) 2.5  Resolution () 301.90 (1.971.90)  Rsyma,b 0.065 (0.517)  Number of observations 171,802  Unique reflections 46,433  Completeness (%)b 98.3 (92.1)  I/I  b 18.1 (2.0)  Wilson B (2  ) 29  Refinement  Resolution () 301.9  Refs [FN0(F)] 45,487  Rwork,  c Rfree 0.179, 0.219  Molecules per asymmetric unit 1  Protein residues 534  Solvent molecules 379  Atomsd 4472 (51)  Mean B-factor (2  ) 49  rmsd bonds () 0.010  rmsd angles () 1.2  Number of TLS groups 9  Ramachandran (%) 96/3/1  a Rsym =||I||I||/|I|, where I is the intensity of a single  observation and I is the average intensity for symmetryequivalent observations.
+b Values in parentheses are for the highest-resolution shell.
+c Rwork=|FoFc|/|Fo|, where Fo and Fc are observed and  calculated structure factor amplitudes, respectively.
+Rfree is  calculated as Rwork for reflections sequestered from refinement.
+d The value in the parenthesis is the number of atoms assigned  less than unit occupancy.
+  Fig. 2.
+The LebFab structural paratope.
+VH is dark blue  and V is light blue, with CDR residues colored according  to the magnitude of solvent-accessible surface lost in the  IL-13 interaction (red, N75 2  ; orange, 2075 2  ; yellow,  1020 2  ).
+  1332 Structural Basis of IL-13 Blockadefrom -helices B and C and the BC and CD loops.
+  The interface is a mixture of polar and hydrophobic  interactions and includes seven bridging waters that  H-bond with both IL-13 and LebFab (Fig. 3).
+The  topographic complementarity of the IL-13 and  LebFab surfaces is typical of antigen/antibody interactions, with a calculated shape complementarity  statistic, Sc, of 0.71.32 If the seven bridging water  oxygen atoms are considered part of the interface,  Sc rises to 0.77.
+Of the seven aromatic side chains  within the interface, all come from LebFab (V  residues Tyr28, Phe32, and Tyr49 and VH residues  Trp52, Tyr97, Tyr98, and Tyr100) (Fig. 3) and, of  these, only VH residues Tyr98 and Tyr100 provide a  polar interaction via their hydroxyl moieties (Fig. 3).
+  IL-13 side chains provide almost exclusively polar  interactions (e.g., Ser58, Glu61, and Arg65), while  IL-13 residues bearing hydrophobic side chains  (e.g., Val54, Ala59, and Ile60) are classified within  the epitope by virtue of polar interactions of their  main-chain atoms, for instance, between IL-13  Gly69 and LebFab LC-Tyr28 main-chain atoms.
+  Thus, despite a preponderance of aromatic side  chains within the LebFab paratope, the main-chain  atoms of these residues sometimes partake in polar  interactions with IL-13 residues.
+In addition, nontraditional H-bonds between aromatic ring H-atoms  and a traditional H-bond acceptor are possible, as  between HC-Tyr100 and IL-13 Gln61.
+The single  hydrophobic IL-13 side chain contacting LebFab is  Met66, within van der Waals distance of LC-Tyr28  from CDR-L1 (Fig. 3).
+  Fig. 3.
+The LebFab/IL-13 interface.
+Rotated about 90 from Fig. 2,  the LebFab side chains from Fig. 2  are illustrated, plus those within Hbonding distance to an interfacial  water.
+Prominent LebFab residues  are labeled using a single-letter  amino acid code.
+IL-13 is green,  with side chains included for residues within 4  of LebFab.
+Black  spheres are water atoms bridging  between LebFab and IL-13.
+Broken  lines are distances between polar  atoms up to 3.2 .  Fig. 4.
+Functional paratope of  lebrikizumab determined by alanine  mutations and Biacore Kd determinations.
+Light chain (LC) in cyan,  heavy chain (HC) in blue, and  semitransparent IL-13 helices B  and C outlined in black.
+Orange  are residues with at least a 47-fold  effect on Kd, yellow are those at  least a 5-fold effect, and the white  are those unchanged from wild  type.
+  Structural Basis of IL-13 Blockade 1333The intermolecular crystal contacts were inspected  for evidence that they may have skewed important  features described above.
+The intermolecular environment produces H-bonds and hydrophobic contacts between symmetry-related complexes at  several patches (Fig. S2).
+The CL and CH1 domains  of LebFab, plus some nearby elements of the V  and VH domains, are surrounded by symmetryrelated CL and CH1 domains.
+IL-13 and some  nearby elements of the V domain are surrounded  by symmetry-related copies of IL-13.
+Notably, both  CDR-L1 and CDR-L3 have close contacts with a  neighboring copy of IL-13, centered on IL-13 residue  Ser36 from the AB loop.
+The section of CDR-L1  involved in this intermolecular contact does not  contribute to the canonical antigen-binding surface  of LebFab (see above), but part of CDR-L3  contributes to the canonical paratope while also  contacting the symmetry-related IL-13.
+Since both  CDR-L1 and CDR-L3 conform closely to prototype  loops, we conclude that they do not include artifacts  from crystal packing.
+  Determination of key residues in lebrikizumab  CDRs that drive high-affinity binding to IL-13  Previous studies demonstrated that lebrikizumab  neutralizes the activity of IL-13 with high potency,  suggesting that lebrikizumab binds to IL-13 with very  high affinity.25 To confirm this, we determined the  dissociation constant (Kd) for IL-13 binding to  lebrikizumab by surface plasmon resonance (SPR)  (Biacore).
+We found that the Biacore-derived Kd for  IL-13 binding to wild-type lebrikizumab is lower than  the detection limit, 10 pM. The lebrikizumab in these  experiments was bound to the SPR chip via an antiFc reagent.
+Additional SPR measurements of IL-13  binding to a low-density surface of directly amine  coupled lebrikizumab also revealed kinetic constants at the limit of detection (Fig. S3).
+In order to  understand which lebrikizumab residues are most  vital to this very high affinity interaction, we mutated  several residues within the structural paratope one at  a time and determined Kd values for the mutant  proteins.
+Conservative mutations of lebrikizumab  residues did not have a measurable effect on Kd, for  instance, HC-Tyr100 mutated to Phe when measured at 25 C (Table 2).
+However, mutations to  alanine of six residues had effects on Kd of 5-fold or  greater, calculated using 10 pM as the Kd for wildtype lebrikizumab.
+These results are illustrated in  Fig. 4, where some discrepancies between the  structural paratope, based on surface area buried  in the complex, and the Biacore binding data are  apparent.
+For instance, HC-Tyr97 protrudes from the  LebFab surface and loses more than 75 2 of  solvent-accessible surface by virtue of its proximity  to IL-13 (Fig. 2) and yet mutation of this residue to  alanine has an immeasurably small effect on Kd  (Table 2 and Fig. 4).
+  Based on affinity measurements of alanine mutants, the functional paratope resides in a strip of VH  residues lying near the face of IL-13 formed by  mostly -helices B and C (Fig. 4).
+The most  important LebFab residues according to the effect  of their mutation to alanine on binding include heavy  chain residues Trp52, Asp54, Tyr98, and Tyr100.
+  Asp54 has significant contact with IL-13 (loss of  solvent-accessible surface; Fig. 3) as it also H-bonds  with IL-13's Ser58 (side chain to side chain).
+Trp52  lacks a polar interaction with IL-13 but has significant  contact with IL-13 also centered on Ser58.
+A  measurable but less severe effect arises from  mutation of Trp52 to Phe, consistent with a structural  role internal to the LebFab that would be much less  well filled by Ala. Tyr98 contacts IL-13 residues  Arg65 and Ser68 as it also contributes to an Hbonding network with CDR-L1, a water and the main  chain of IL-13 Arg65 via its hydroxyl moiety.
+The  contribution of the H-bonding aspect of Tyr98 is not  large, as mutation to Phe leaves the dissociation  constant beyond the detection limit.
+Tyr100 contacts  IL-13 residues Glu61 and Gln64 and also contributes  to an extensive water-mediated H-bonding network  that extends to IL-13 residues Val54 and Cys57 in  the BC loop and to Gln64.
+As seen for Tyr98, the Hbonding provided by the Tyr100 hydroxyl makes a  marginal contribution to binding, as mutation to Phe  causes a measurable but small effect when measured at 37 C (Table 2).
+  Discussion  Lebrikizumab is a humanized antibody that binds  and neutralizes the activity of IL-13 with high affinity.
+  Clinical studies indicate that lebrikizumab provides  clinical benefit in the treatment of moderate-tosevere uncontrolled asthma.
+25 Here we have  determined the structure of a complex between  Table 2.
+Affinities of lebrikizumab mutants for IL-13 by  Biacore  Mutation Kd (25 oC) (nM) Kd/.010 Kd (37 oC) (nM) Kd/.010  HC-Y97F <0.010 <0.010  HC-Y97A <0.010 <0.010 1  HC-Y98F <0.010 <0.010  HC-Y98A 0.049 0.005 5 0.466 0.075 47  HC-Y100F <0.010 0.029 0.016  HC-Y100A 0.174 0.062 17 0.805 0.117 80  HC-D54A 0.361 0.112 36 1.567 0.345 157  HC-W52F 0.346 0.098 1.173 0.231  HC-W52A 0.355 0.117 36 1.357 0.151 135  LC-Y28F <0.010 <0.010  LC-Y28A <0.010 1 0.141 0.017 14  LC-N91A 0.183 0.058 18 0.054 0.018 5  WT <0.010 <0.010  1334 Structural Basis of IL-13 BlockadeLebFab and IL-13, thereby elucidating the structural  epitope on IL-13.
+In addition, we have defined  several key residues in the CDRs that are responsible for the high affinity of lebrikizumab.
+The clinical  utility of lebrikizumab derives from its blockade of  IL-13 signaling, which we have determined is due to  LebFab's interference with IL-13 binding to one of  its cell-membrane-bound receptors, IL-4R, thereby  preventing formation of IL-13/IL-13R1/IL-4R signaling complexes.
+With the X-ray structure reported  here, and by reference to previously reported  structures of IL-13 with its receptors,5,6 we can  see precisely how the blockade arises.
+Figure 5  shows the ternary IL-13/IL-13R1/IL-4R complex,5  determined using X-ray crystallography.
+An additional X-ray structure is known, of the complex  between IL-13 and the high-affinity decoy receptor, IL-13R2.6 There are important differences in  detail, but for the purpose of the present discussion,  we may consider the rough equivalence of IL13R1 and IL-13R2 interactions with IL-13 as a  useful simplification.
+Also shown in Fig. 5 is LebFab  from the present work.
+  There is a quite significant steric overlap between  LebFab and IL-4R when they are both shown as  they bind to IL-13.
+Of the 20 IL-13 residues within 4   of LebFab, three are also among the seven residues  within 4  of IL-4R in the ternary complex (Arg65,  Met66, and Gly69) (Fig. 6).
+We conclude that both  these molecules cannot bind IL-13 at the same time.
+  On the other hand, LebFab also seems to be  sufficiently distant from IL-13R1 that it would not  be expected to interfere with IL-13R1 (or IL-13R2)  binding by a direct-contact mechanism (Fig. 5).
+  Thus, lebrikizumab's apparent mechanism of action  contrasts with that of another anti-IL-13 antibody  called CENTO607, for which a crystal structure has  been reported33 and that presents a steric conflict for  IL-13 interaction with IL-13R1 (and IL-13R2) but  not for IL-4R.
+  The IL-13 and IL-4 affinities for isolated IL-4R are  very different: immeasurably low5 and with a  Fig. 6.
+LebFab epitope and IL4R binding site on IL-13 overlap.
+  The 4- contact zones from LebFab  (left, in red) and IL-4R (right, in  magenta) clearly share IL-13 residues in common.
+The view of each  IL-13 is from the same direction  after superpositioning.
+The inexact  congruence between the overall IL13 shapes arises from differences in  residues missing due to disorder in  the refined structures.
+  Fig. 5.
+LebFab prevents binding  of IL-13 to receptor IL-4R.
+The  ternary complex between IL-13, IL13R1, and IL-4R is shown with  the LebFab/IL-13 complex after  superpositioning on IL-13.
+Part of  IL-4R seems to be inside LebFab, an impossibility.
+The wire  frame represents Fab CNT0607,  from PDB entry 3G6D.
+IL-13 helices are labeled.
+  Structural Basis of IL-13 Blockade 1335subnanomolar Kd,  34 respectively.
+Nonetheless, considering that both IL-13 and IL-4 bind IL-4R using  homologous binding sites and that a part of this site on  IL-13 is also recognized by lebrikizumab, there is a  potential for an interaction between lebrikizumab and  IL-4.
+We have never observed a measurable effect of  lebrikizumab on IL-4 activity (data not shown).
+  Several antibodies that bind and neutralize the  activity of IL-13 have entered clinical development  for the treatment of asthma.
+These include tralokinumab (CAT-354), IMA-026, IMA-638, and  CNTO5825. 2528 While the binding epitope of  tralokinumab on IL-13 has not been reported, IMA026 and CNTO5825 have been reported to bind to  the IL-13R1/IL-13R2 binding site on IL-13,26,28  whereas IMA-638 has been reported to bind to the  IL-4R binding site on IL-13.26 Interestingly, IMA638 had a greater effect on antigen-induced airway  response (allergen challenge) in asthmatics than  IMA-026,26 and it has been suggested that this may  be due to better clearance of IL-13 in patients treated  with IMA-638 arising from IL-13/IMA-638 complexes,  but not IL-13/IMA-026 complexes, being scavenged  by the decoy receptor IL-13R2.35 Alternatively,  differences in binding affinities of IMA-638 and IMA026 may account for differences in the activity of  these antibodies in allergen challenge studies.
+  However, IMA-638 showed no effect on symptoms,  lung function, or time to exacerbation compared to  placebo in patients with uncontrolled asthma who  were also receiving ICS or ICS plus long-acting 2-  agonists.26 The Kd of lebrikizumab binding to IL-13 is  b10 pM as determined by Biacore in our studies,  tighter than has been reported previously for other  anti-IL-13 antibodies (16514 pM36,37).
+The clinical  effects of lebrikizumab among treated asthmatics,  such as they may differ from those from other anti-IL13 antibodies, may be distinguished by its very high  affinity, the exact details of its epitope on IL-13, the  interference of IL-4R binding, and the potential for  IL-13 to be scavenged via IL-13R2 even when  bound by lebrikizumab, or by combinations of these  characteristics.
+  Materials and Methods  Protein complex formation and crystal structure  determination  For Fab2 generation, 125 mg lebrikizumab was adjusted to pH 4.2 with 0.5 M sodium acetate buffer.
+Pepsin  was added to a final concentration of 1% (w/w) of the IgG.  The mixture was incubated at 37 C for 1 h. The protein  was diluted 3-fold with water and loaded onto a SPHP  (GE Healthcare) 5-mL column equilibrated in 25 mM  sodium acetate (pH 5.0).
+The column was washed with  starting buffer (25 mM sodium acetate, pH 5.0) and eluted  with 2025 column volumes with salt gradient to 0.3 M  NaCl.
+Peaks were assessed by mass spectrometry to  identify the Fab2 peak pool.
+Preparation of Fab was  accomplished by adjusting the pH of the Fab2 pool to 7.4,  then adding 1 mM DTT and incubating for 2 h at 20 C.
+  Reduction was assessed by mass spectrometry.
+Addition  of 3 mM dehydroascorbic acid solution (100 mM in  dimethylacetamide) was mixed and incubated 2 h at  20 C.
+Mass spectrometry was used to assay for  complete oxidation of the heavy chain/light chain intrachain disulfide bridge.
+The Fab was further purified by  size exclusion using S200 (GE Healthcare) in phosphatebuffered saline (PBS).
+Recombinant human IL-13 was  purchased from R&D Systems (Minneapolis, MN).
+The  complex was prepared and purified as previously  reported,33 except that glycerol concentration was reduced from 10% to 2%.
+  Crystallization of the complex was carried out by vapor  diffusion in sitting drops at 18 C.
+The experiments  consisted of 30 nL protein complex plus 30 nL reservoir  using an Echo Acoustic Liquid Handler (Labcyte).
+Initial  screens were performed using PEG and PEG II screens  (Qiagen) and PEGRx (Hampton).
+Monoclinic crystals of  the complex appeared after 2 days from a PEGRx  experiment using 30% (w/v) PEG 1000, 0.1 M sodium  malonate (pH 8.0), and 0.1 M Tris (pH 8.0).
+After 1 week,  crystals were harvested directly from the screening tray  and preserved by immersion in liquid nitrogen after a brief  treatment in pure reservoir.
+  Diffraction data extending to 1.90  were collected at  synchrotron beamline 5.0.2 at the Advanced Light Source  and reduced38,39 in space group C2.
+The structure was  solved by molecular replacement40 based on an expectation of a single complex in the crystallographic asymmetric  unit according to a VM of 2.5 3  /Da and using IL-13 from  PDB entry 3L5X and a Fab variable region (with CDR  loops removed) and constant region from PDB entries  1FVC and 1FVD, respectively.
+Model building and  manipulation41 and refinement4244 led to the final model  with agreement factors R= 0.179 and Rfree= 0.219.
+See  Table 1.
+  ELISA assays for effect of LebFab on IL-13 binding to  receptors  In a 96-well plate, a 200 g/mL (4.44 M) solution of  LebFab was serially diluted 2-fold in assay buffer [PBS  (pH 7.5) containing 0.05% Tween 20 and 0.5% bovine  serum albumin] to provide a concentration range from 0.10  to 200 g/mL (2.2 nM to 4.44 M).
+The volume of each  dilution was 35 L. Biotinylation of IL-13 was accomplished using the Thermo EZ-Link Sulfo-NHS-LC-Biotin Kit  (Pierce Biotechnology) according to the manufacturer's  protocol using a 20-fold molar excess.
+To each well, we  added 35 L of a 120 nM solution of biotin-IL-13.
+The  mixture was incubated for 40 min at room temperature.
+  Following incubation, we transferred the contents of the  well to a 96-well Nunc Maxisorp plate (Roskilde, Denmark)  that was coated overnight with 50 L of a 2.0 g/mL  solution of soluble IL-13R1-Fc protein in PBS and then  blocked with PBS containing 1% bovine serum albumin.
+  After a 40 min incubation, the plate was washed four times  in wash buffer (PBS containing 0.05% Tween 20).
+Each  well then received 50 L of a streptavidinhorseradish  peroxidase solution (Caltag Laboratories, Invitrogen;  1336 Structural Basis of IL-13 BlockadeCarlsbad, CA) and was incubated for 40 min.
+Following  four washes with wash buffer, we added 50 L of  tetramethylbenzidine substrate (KPL; Gaithersburg, MD)  to each well. After several minutes, 50 L of a 1N solution  of HCl was added to stop the reaction.
+The plate was read  at 450 nM using a Spectra Max 340 plate reader  (Molecular Devices; Sunnyvale, CA).
+For each sample,  the optical density reading at 450 nM was plotted against  concentration.
+Curves were plotted in KaleidaGraph  (Synergy Software; Reading, PA) and fitted using a fourparameter fit or plotted point to point.
+The same procedures were followed in an assay using IL-13R2, except  that LebFab was used at concentrations approximately 10-  fold lower [0.0120 g/mL (0.1 nM to 0.44 M)], and the  concentration of biotin-IL-13 was reduced to 0.8 nM. A  different anti-IL-13 antibody (11H4v6) was shown able to  completely eliminate IL-13 binding to both IL-13R1 and  IL-13R2, and on this basis, it was employed as an  experimental control.
+  Site-directed mutation of lebrikizumab  Mutations were introduced into the heavy and light  chains of lebrikizumab by site-directed Kunkel  mutagenesis.45 The plasmid DNA containing the heavy  or light chain mutation clones were transfected into 293s  cells and harvested 7 days later.
+IgG was isolated from the  harvest media by protein A affinity chromatography.
+  Binding assay for lebrikizumab variants using SPR  The binding kinetics of the lebrikizumab variants were  measured using SPR on a Biacore 3000 instrument (GE  Healthcare).
+Anti-human Fc (GE Healthcare) was immobilized on a CM5 sensor chip via amine-based coupling  using the manufacturer-provided protocol.
+A high-density  anti-human Fc surface (N5000 resonance units) was  employed in order to minimize the contribution to the  observed antigen-binding kinetics from dissociation of the  antibody from the capture surface.
+The lebrikizumab  variants were captured at a level of 600 resonance units.
+  Sensorgrams from passage of human IL-13 at concentrations of 0, 3.13, 6.25, 12.50, 25.0, and 50.0 nM were  recorded using an injection time of 2 min with a flow rate of  30 L/min, at temperatures 25 C and 37 C, and with a  running buffer of 10 mM Hepes (pH 7.4), 150 mM NaCl,  and 0.005% Tween 20.
+After injection, disassociation of  the cytokine was monitored for 900 s in running buffer.
+The  surface was regenerated between binding cycles with a  50-L injection of 3 M magnesium chloride.
+The primary  sensorgrams were corrected using a blank cell run in  parallel and by zero-point adjustment using the 0-nM IL-13  buffer.
+After corrections, sensorgrams were analyzed  using a 1:1 Langmuir binding model with software supplied  by the manufacturer to calculate the kinetic and binding  constants.
+  Accession  Final coordinates and structure factors for the LebFab/  IL-13 complex have been deposited under accession  code 4I77.
+  Acknowledgements  We thank Weiru Wang for collection of diffraction  data.
+The Advanced Light Source is supported by  the Director, Office of Science, Office of Basic  Energy Sciences, of the U.S. Department of Energy  under Contract No. DE-AC02-05CH11231.
+  Supplementary Data  Supplementary data to this article can be found  online at http://dx.doi.org/10.1016/j.jmb.2013.01.024  Received 1 December 2012;  Received in revised form 17 January 2013;  Accepted 20 January 2013  Available online 25 January 2013  Keywords:  chronic asthma;  allergy;  paratope alanine scan;  IL-4R competition   http://www.rcsb.org  Abbreviations used:  IL-13, interleukin 13; CDR, complementarity-determining  region; PBS, phosphate-buffered saline;  PDB, Protein Data Bank;  SPR, surface plasmon resonance.
+  References  1.
+Hershey, G. K. (2003).
+IL-13 receptors and signaling  pathways: an evolving web. J. Allergy Clin.
+Immunol.  111, 677690.  2. Wills-Karp, M. (2004).
+Interleukin-13 in asthma pathogenesis.
+Immunol. Rev. 202, 175190.  3. Wynn, T. A. (2003).
+IL-13 effector functions.
+Annu.  Rev. Immunol. 21, 425456.  4. Hage, T., Sebald, W. & Reinemer, P. (1999).
+Crystal  structure of the interleukin-4/receptor alpha chain  complex reveals a mosaic binding interface.
+Cell, 97,  271281.
+  5. LaPorte, S. L., Juo, Z. S., Vaclavikova, J., Colf, L. A.,  Qi, X., Heller, N. M. et al. (2008).
+Molecular and  structural basis of cytokine receptor pleiotropy in the  interleukin-4/13 system.
+Cell, 132, 259272.  6. Lupardus, P. J., Birnbaum, M. E. & Garcia, K. C.  (2010).
+Molecular basis for shared cytokine recognition revealed in the structure of an unusually high  affinity complex between IL-13 and IL-13R2.
+Structure, 18, 332342.  7.
+Mueller, T. D., Zhang, J. L., Sebald, W. & Duschl, A.  (2002).
+Structure, binding, and antagonists in the IL4/IL-13 receptor system.
+Biochim. Biophys. Acta,  1592, 237250.  8. Fichtner-Feigl, S., Strober, W., Kawakami, K., Puri,  R. K. & Kitani, A. (2006).
+IL-13 signaling through the  Structural Basis of IL-13 Blockade 1337IL-132 receptor is involved in induction of TGF-1  production and fibrosis.
+Nat. Med. 12, 99106.  9. Brightling, C. E., Saha, S. & Hollins, F. (2010).
+  Interleukin-13: prospects for new treatments.
+Clin.  Exp.
+Allergy, 40, 4249.  10.
+Finkelman, F. D., Hogan, S. P., Hershey, G. K.,  Rothenberg, M. E. & Wills-Karp, M. (2010).
+Importance of cytokines in murine allergic airway disease  and human asthma.
+J. Immunol. 184, 16631674.  11.
+Graves, P. E., Kabesch, M., Halonen, M., Holberg,  C. J., Baldini, M., Fritzsch, C. et al. (2000).
+A cluster  of seven tightly linked polymorphisms in the IL-13  gene is associated with total serum IgE levels in  three populations of white children.
+J. Allergy Clin.  Immunol.
+105, 506513.
+  12.
+Heinzmann, A., Mao, X. Q., Akaiwa, M., Kreomer, R. T.,  Gao, P. S., Ohshima, K. et al.(2000).
+Genetic variants of  IL-13 signalling and human asthma and atopy.
+Hum.  Mol. Genet. 9, 549559.  13. Howard, T. D., Whittaker, P. A., Zaiman, A. L.,  Koppelman, G. H., Xu, J., Hanley, M. T. et al.  (2001).
+Identification and association of polymorphisms in the interleukin-13 gene with asthma and  atopy in a Dutch population.
+Am. J. Respir.
+Cell Mol.  Biol.
+25, 377384.
+  14. van der Pouw Kraan, T. C., van Veen, A., Boeije, L. C.,  van Tuyl, S. A., de Groot, E. R., Stapel, S. O. et al.  (1999).
+An IL-13 promoter polymorphism associated  with increased risk of allergic asthma.
+Genes Immun.
+  1, 6165.  15. Vercelli, D. (2008).
+Advances in asthma and allergy  genetics in 2007. J. Allergy Clin. Immunol. 122,  267271.  16.
+Wenzel, S. E., Balzar, S., Ampleford, E., Hawkins, G. A.,  Busse, W. W., Calhoun, W. J. et al. (2007).
+IL4R alpha  mutations are associated with asthma exacerbations  and mast cell/IgE expression.
+Am. J. Respir.
+Crit. Care  Med. 175, 570576.  17.
+Calderon, C., Rivera, L., Hutchinson, P., Dagher, H.,  Villanueva, E., Ghildyal, R. et al. (2009).
+T-cell  cytokine profiles are altered in childhood asthma  exacerbation.
+Respirology, 14, 264269.
+  18.
+Grunig, G., Warnock, M., Wakil, A. E., Venkayya, R.,  Brombacher, F., Rennick, D. M. et al. (1998).
+  Requirement for IL-13 independently of IL-4 in  experimental asthma.
+Science, 282, 22612263.  19.
+Humbert, M., Durham, S. R., Kimmitt, P., Powell, N.,  Assoufi, B., Pfister, R. et al. (1997).
+Elevated  expression of messenger ribonucleic acid encoding  IL-13 in the bronchial mucosa of atopic and nonatopic  subjects with asthma.
+J. Allergy Clin. Immunol. 99,  657665.
+  20. Lee, Y. C., Lee, K. H., Lee, H. B. & Rhee, Y. K. (2001).
+  Serum levels of interleukins (IL)-4, IL-5, IL-13, and  interferon-gamma in acute asthma.
+J. Asthma, 38,  665671.  21.
+Saha, S. K., Berry, M. A., Parker, D., Siddiqui, S.,  Morgan, A., May, R. et al. (2008).
+Increased sputum  and bronchial biopsy IL-13 expression in severe  asthma.
+J. Allergy Clin. Immunol. 121, 685691.
+  22. Subrata, L. S., Bizzintino, J., Mamessier, E., Bosco,  A., McKenna, K. L., Wikstrom, M. E. et al. (2009).
+  Interactions between innate antiviral and atopic  immunoinflammatory pathways precipitate and sustain asthma exacerbations in children.
+J. Immunol.  183, 27932800.  23.
+Wills-Karp, M., Luyimbazi, J., Xu, X., Schofield, B.,  Neben, T. Y., Karp, C. L. & Donaldson, D. D. (1998).
+  Interleukin-13: central mediator of allergic asthma.
+  Science, 282, 22582261.
+  24.
+Cohn, L., Homer, R. J., MacLeod, H., Mohrs, M.,  Brombacher, F. & Bottomly, K. (1999).
+Th2-  induced airway mucus production is dependent  on IL-4R, but not on eosinophils.
+J. Immunol.  162, 61786183.
+  25. Corren, J., Lemanske, R. F., Hanania, N. A.,  Korenblat, P. E., Parsey, M. V., Arron, J. R. et al.  (2011).
+Lebrikizumab treatment in adults with asthma.
+  N. Engl. J. Med. 365, 10881098.
+  26. Gauvreau, G. M., Boulet, L. P., Cockcroft, D. W.,  Fitzgerald, J. M., Carlsten, C., Davis, B. E. et al.  (2011).
+Effects of interleukin-13 blockade on allergeninduced airway responses in mild atopic asthma.
+Am.  J. Respir.
+Crit. Care Med. 183, 10071014.  27.
+Piper, E., Brightling, C., Niven, R., Oh, C., Faggioni,  R., Poon, K. et al. (2013).
+A phase II placebocontrolled study of tralokinumab in moderate-tosevere asthma.
+Eur. Respir. J. 41, 330338.  28. van Hartingsveldt, B., Nnane, I. P., Bouman-Thio, E.,  Loza, M. J., Piantone, A., Davis, H. M. & Petty, K. J.  (2012).
+Safety, tolerability and pharmacokinetics of a  human anti-IL-13 monoclonal antibody (CNTO 5825)  in an ascending single-dose first-in-human study.
+Br.  J. Clin.
+Pharmacol. http://dx.doi.org/10.1111/j.1365-  2125.2012.04477.x.
+  29. Ingram, J. L. & Kraft, M. (2012).
+IL-13 in asthma and  allergic disease: asthma phenotypes and targeted  therapies. J. Allergy Clin.
+Immunol. 130, 829842.  30. Fransson, J., Teplyakov, A., Raghunathan, G., Chi,  E., Cordier, W., Dinh, T. et al. (2010).
+Human  framework adaptation of a mouse anti-human IL-13  antibody.
+J. Mol. Biol. 398, 214231.  31.
+North, B., Lehmann, A. & Dunbrack, R. L., Jr. (2011).
+  A new clustering of antibody CDR loop conformations.
+  J. Mol. Biol. 406, 228256.  32. Lawrence, M. C. & Colman, P. M. (1993).
+Shape  complementarity at protein/protein interfaces. J. Mol.  Biol. 234, 946950.
+  33. Teplyakov, A., Obmolova, G., Wu, S. J., Luo, J., Kang,  J., O'Neil, K. & Gilliland, G. L. (2009).
+Epitope mapping  of anti-interleukin-13 neutralizing antibody CNTO607.
+  J. Mol. Biol. 389, 115123.  34.
+Andrews, A. L., Holloway, J. W., Holgate, S. T. &  Davies, D. E. (2006). IL-4 receptor alpha is an  important modulator of IL-4 and IL-13 receptor  binding: implications for the development of therapeutic targets.
+J. Immunol. 176, 74567461.  35.
+Kasaian, M. T., Raible, D., Marquette, K., Cook, T. A.,  Zhou, S., Tan, X. Y. & Tchistiakova, L. (2011).
+IL-13  antibodies influence IL-13 clearance in humans by  modulating scavenger activity of IL-13R2.
+J. Immunol.
+187, 561569.
+  36.
+Kasaian, M. T., Tan, X. Y., Jin, M., Fitz, L., Marquette,  K., Wood, N. et al. (2008).
+Interleukin-13 neutralization  by two distinct receptor blocking mechanisms reduces  immunoglobulin E responses and lung inflammation in  cynomolgus monkeys.
+J. Pharmacol. Exp.
+Ther. 325,  882892.
+  1338 Structural Basis of IL-13 Blockade37.
+May, R. D., Monk, P. D., Cohen, E. S., Manuel, D.,  Dempsey, F., Davis, N. H. et al. (2012). Preclinical  development of CAT-354, an IL-13 neutralizing  antibody, for the treatment of severe uncontrolled  asthma. Br. J. Pharmacol. 166, 177193.  38. Otwinowski, Z. & Minor, W. (1996).
+Processing of  X-ray diffraction data collected in oscillation mode.
+  Methods Enzymol. 276, 307326.
+  39.
+Winn, M. D., Ballard, C. C., Cowtan, K. D., Dodson, E. J.,  Emsley, P., Evans, P. R. et al. (2011).
+Overview of the  CCP4 suite and current developments.
+Acta Crystallogr., Sect. D: Biol.
+Crystallogr. 67, 235242.  40. McCoy, A. J., Grosse-Kunstleve, R. W., Adams, P. D.,  Winn, M. D., Storoni, L. C. & Read, R. J. (2007).
+  Phaser crystallographic software.
+J. Appl. Crystallogr.  40, 658674.  41. Emsley, P., Lohkamp, B., Scott, W. G. & Cowtan, K.  (2010).
+Features and development of Coot.
+Acta  Crystallogr., Sect.
+D: Biol.
+Crystallogr. 66, 486501.  42. Adams, P. D., Afonine, P. V., Bunkoczi, G., Chen, V. B.,  Davis, I. W., Echols, N. et al. (2010). PHENIX: a  comprehensive Python-based system for macromolecular structure solution.
+Acta Crystallogr., Sect.
+D: Biol.  Crystallogr.
+66, 213221.  43.
+Murshudov, G. N., Vagin, A. A. & Dodson, E. J.  (1997).
+Refinement of macromolecular structures by  the maximum-likelihood method. Acta Crystallogr.,  Sect.
+D: Biol. Crystallogr. 53, 240255.
+  44. Bricogne, G., Blanc, E., Brandl, M., Flensburg, C.,  Keller, P., Paciorek, W. et al. (2011). BUSTER Version  2.11.2 Global Phasing Ltd., Cambridge, United  Kingdom.  45. Kelley, R. F. & Meng, Y. G. (2012).
+Methods to  engineer and identify IgG1 variants with improved  FcRn binding or effector function.
+In Methods in  Molecular Biology: Antibody Methods and Protocols  (Proetzel, G. & Ebersbach, H., eds), 901, pp. 277293-  Humana Press, New York, NY.  Structural Basis of IL-13 Blockade 1339

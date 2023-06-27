@@ -1,0 +1,921 @@
+Mutational Analysis of the IFNAR1 Binding Site on
+IFNa2 Reveals the Architecture of a Weak
+Ligand–Receptor Binding-site
+Laila C. Roisman1
+, Diego A. Jaitin1
+, Darren P. Baker2 and
+Gideon Schreiber1*
+1
+Department of Biological
+Chemistry, Weizmann Institute
+of Science, 76100 Rehovot
+Israel
+2
+BiogenIdec Inc., 14 Cambridge
+Center, Cambridge, MA 02142
+USA
+Type I interferons activate cellular responses by forming a ternary complex
+with two receptor components, IFNAR1 and IFNAR2. While the binding of
+the IFNAR2 receptor to interferon is of high affinity and well characterized,
+the binding to IFNAR1 is weak, transient, and poorly understood. Here, we
+mapped the complete binding region of IFNAR1 on IFNa2 by creating a
+panel of 21 single alanine mutant proteins, and determined their binding
+affinities. The IFNAR1 binding site on IFNa2 maps to the center of the B
+and C helices, opposite to the binding site for IFNAR2. No hot spots for
+binding were found in the interface, with individual mutations having an
+up to fivefold effect on binding. Of the nine residues that affected binding,
+three adjacent conserved residues, located on the B helix, conferred an
+increase in the binding affinity to IFNAR1, as well as an increase in the
+biological activity of the interferon mutant. This suggests that binding of
+alpha interferons to the IFNAR1 receptor is sub-optimal. A correlation
+between binding affinity and biological activity was found, albeit not across
+the whole range of affinities. In WISH cells, but not DAUDI cells, the anti￾proliferative activity was markedly affected by fluctuations in the IFNa2
+affinity towards the IFNAR1 receptor. On the other hand, the antiviral
+activity of interferons on WISH cells seems to change in accordance to the
+binding affinity towards IFNAR1 only as long as the binding affinity is not
+beyond twofold of the wild-type. In accordance, the biological roles of the
+two interferon-receptor subunits are discussed.
+q 2005 Elsevier Ltd. All rights reserved.
+Keywords: type I interferons; IFNAR1; structure–function analysis; protein–
+*Corresponding author protein interaction
+Introduction
+Interferons, discovered in 1957 by Isaacs &
+Lindenmann, are so named after their ability to
+interfere with viral proliferation.1 These cytokines
+can also combat bacterial and parasitic infections,
+inhibit cell division, inhibit spontaneous apoptosis,
+and promote or impede the differentiation of cells.
+Based on their receptor specificity, two types of
+interferon are recognized: type I and type II. The
+type I interferons are a family of monomeric
+proteins, including many non-allelic alpha inter￾ferons and IFNu that are products of leukocytes,
+IFNb that is produced by fibroblasts, and IFNt that
+has been described only in ungulate species.2 The
+only known type II interferon is the dimeric IFNg,
+which is produced exclusively by lymphocytes.2,3
+The human interferon alpha family is composed of
+13 intronless fully translated genes (excluding
+pseudo-genes).3 Each member includes mature
+proteins of 165 or 166 amino acid residues, with
+two conserved disulfide bonds: Cys1–Cys98 and
+Cys29–Cys138.4 A high level of sequence homology
+(80%) is displayed among the various interferon
+alpha sub-types, and about 35% homology exists
+between these sub-types and the IFNb.
+2 In spite of
+the high homology of the different sub-types, their
+biological activities, among them anti-proliferative,
+antiviral, and immunomodulation, differ notably.5,6
+0022-2836/$ - see front matter q 2005 Elsevier Ltd. All rights reserved.
+Abbreviations used: IFNAR, type I interferon receptor;
+IFN, interferon; mAb, monoclonal antibody; EC, extra￾cellular domain; RIfS, reflectometric interference spec￾troscopy; wt, wild-type; mut, mutant.
+E-mail address of the corresponding author:
+gideon.schreiber@weizmann.ac.il
+doi:10.1016/j.jmb.2005.08.042 J. Mol. Biol. (2005) 353, 271–281The structures of several type I interferons have
+been solved including murine IFNb (1IFA, 1RMI),7
+human IFNb (1AU1),8human IFNa2 (1RH2, 1ITF),9,10
+and ovine IFNt (1B5L).11 Structurally, interferons
+are members of the a-helical cytokine family. All the
+type I interferons signal through a common
+receptor complex composed of IFNAR1 and
+IFNAR2.12 The major ligand-binding component
+of the type I interferon receptor is IFNAR2, with a
+binding affinity of w10 nM for IFNa2.13
+The structure of the extracellular part of IFNAR2
+consists of two immunoglobulin-like domains,
+with the binding site of IFNa2 being located at
+the N-terminal domain and the connecting
+loop.14,15
+Mature IFNAR1 is a 530 amino acid protein, with
+a transmembrane segment composed of 21
+residues, and a cytoplasmatic domain of 100
+residues.16 The structure of the extracellular part
+of IFNAR1 is unknown, but from the sequence one
+can deduce that it is composed of four immuno￾globulin-like domains. Binding of IFNa2 to IFNAR1
+is weak, with the affinity measured on an artificial
+membrane being 5 mM.17 Bovine IFNAR1
+(BoIFNAR1) and the human IFNAR1 (HuIFNAR1),
+are 68% identical. The sub-domains 2 and 3 of
+HuIFNAR1 have been shown to play a critical role
+in binding IFNa2.18,19 By exchanging these sub￾domains with the homologous BoIFNAR1, the
+affinity was increased substantially. The soluble
+BoIFNAR1 can bind human interferons with a
+10 nM affinity, which is 500-fold greater than that
+of HuIFNAR1.17,20,21 A number of mAbs were
+raised against IFNAR1, some of them neutralizing
+(like 64G12 and EA12) while others, such as DB2
+and AA3, not.22 The latter two were used in this
+study to immobilize IFNAR1 to the surface. Their
+binding site on IFNAR1 was mapped to domain 4
+and 2, respectively.22 Murine cells expressing
+HuIFNAR2 bind IFNa2 with an affinity of 8 nM,
+whereas cells expressing only HuIFNAR1 exhibit
+no ligand binding.23 Upon co-expression of IFNAR1
+and IFNAR2, a tenfold increase in the affinity for
+IFNa2 was observed. Using in vitro studies on
+artificial membranes it was shown that the magni￾tude of IFNAR1-induced increase in binding
+affinity of the ternary complex relates to the relative
+surface concentration of this receptor.17 The
+IFNAR1 receptor is an essential component of the
+interferon receptor complex. Indeed, an IFNAR1-
+null mutation, or the addition of neutralizing
+antibody against this receptor, results in cells
+completely irresponsive to the antiviral and anti￾proliferative effects of IFNa and IFNb.
+24 The
+location of the IFNAR1 binding site on interferon
+was mapped on IFNb to be located on the B, C, and
+D helices and the DE loop.25 Residues on the C helix
+were implicated to be important for activity also on
+IFNa2.26
+A number of studies have suggested that the
+formation of the ternary complex occurs in a
+sequential mode, beginning with interferon
+binding IFNAR2 to form an intermediate complex,
+Figure 1. Immobilization of IFNAR1-EC by affinity
+capturing and binding of IFNa2. (a) Binding curve for
+capturing IFNAR1 with immobilized mAb DB2, followed
+by cross-linking with mAb AA3. (b) Steady-state affinity
+analysis. Binding of IFNa2 E58A (gray) and E96A (red) at
+different concentrations, between 0.25 mM and 4 mM (see
+numbers in the Figure), to IFNAR1, immobilized on
+the surface. The measured signal is the shift in the
+interference spectrum (in nm) over time. (c) Fitting the
+equilibrium signal obtained in (b) to equation (1).
+The affinity errors (residual errors of the fitting curve)
+are shown between parentheses.
+272 Mutational Analysis of the IFNAR1 Binding Site of IFNa2followed by the recruitment of IFNAR1.17,27 The
+IFNAR1–IFNb–IFNAR2 complex has been shown
+to have a 1 : 1 : 1 stoichiometry.28 Association of
+IFNAR1 and IFNAR2 stimulates the activation of
+the constitutively associated intracellular kinases
+Jak1 and Tyk2, leading to a tyrosine phosphoryl￾ation cascade that results in the dimerization of the
+phosphorylated STATs, and transport into the
+nucleus, where they bind to specific DNA
+sequences and stimulate transcription of hundreds
+of responsive genes.29,30
+The question remains open on how very similar
+interferons induce differential activities on the same
+cell type. It has been suggested that the biological
+activities of different IFNa sub-types correlate with
+their respective binding affinities and the cell type
+used.31 Here, we aimed to elucidate the IFNAR1-
+binding site on IFNa2. We have performed a
+systematic search, using solid phase detection to
+analyze the interaction of 21 different purified
+interferon mutant proteins to a surface immobilized
+IFNAR1-EC receptor. The in vitro binding data were
+compared with the antiviral and anti-proliferative
+potencies of these mutants. We found an extra￾ordinary composition of the binding site between
+IFNa2 and IFNAR1 receptor, which lacks
+binding hot spots, and also identified a number of
+alanine mutations on the IFNa2 surface that confer
+tighter receptor binding and increased biological
+activity.
+Results
+Real-time characterization of the IFNa2–IFNAR1-
+EC interaction
+The interaction of IFNAR1-EC with IFNa2 was
+investigated by label-free solid phase detection
+using reflectometric interference spectroscopy
+(RifS). This technology requires the immobilization
+of one of the interacting compounds on a chip
+surface. The standard method of direct immobiliz￾ation of IFNAR1 by amine coupling to a carboxy￾methylated surface did not yield an active IFNAR1
+surface. However, we found it possible to
+immobilize biotinylated IFNAR1 to a streptavidin
+surface, but for convenience we utilized a method
+successfully employed by us previously for
+IFNAR2-EC, in which the receptor was
+immobilized by monoclonal antibodies.32 The
+non-neutralizing anti-IFNAR1-EC monoclonal
+antibody (mAb) DB2 was coupled to the amino￾functionalized dextran AMD 500 surface via its
+exposed amino groups. The IFNAR1-EC was
+affinity-captured to the mAb surface followed by
+the addition of a second non-neutralizing mAb,
+AA3. The second mAb is stabilizing IFNAR1-EC on
+the surface (similar as for IFNAR2-EC32). The
+process as followed in real time RIfS is shown in
+Figure 1(a). The binding activity of IFNAR1-EC
+Table 1. Thermodynamic and kinetic constants for the interactions of mutant IFNa2 with IFNAR2-EC and IFNAR1-EC
+IFN
+mutant IFNAR2-EC IFNAR1-EC
+kd
+(sK1
+)
+KD
+(nM)
+KD
+(wt/mut)
+DG0
+(kcal/
+mol)a
+DDG0
+(kcal/
+mol)b
+KD
+(mM)c
+KD
+(wt/mut)
+DG0
+(kcal/
+mol)b
+DDG0
+(kcal/
+mol)c
+wt 0.011 3 K11.6 0 1.5 K7.9
+H57A 0.015 4 1 K1.4 K0.2 0.69 2.1 K8.4 0.5
+E58A 0.011 3 1.3 K11.6 0 0.31 4.7 K8.8 0.9
+Q61A 0.012 3 1.3 K11.6 0 0.59 2.5 K8.5 0.6
+Q62A 0.009 3 1.3 K11.6 0 1.82 0.8 K7.8 K0.1
+F64A 0.013 4 1 K11.4 K0.2 3.33 0.4 K7.4 K0.5
+N65A 0.012 3 1.3 K11.6 0 5 0.3 K7.2 K0.7
+S68A 0.01 3 1.3 K11.6 0 2 0.7 K7.8 K0.2
+T69A 0.012 3 1.3 K11.6 0 3.7 0.4 K7.4 K0.6
+K70A 0.01 3 1.3 K11.6 0 2.56 0.6 K7.6 K0.3
+D71A 1.67 0.9 K7.8 K0.1
+S73A 0.014 4 1 K11.4 K0.2 2.94 0.5 K7.5 K0.4
+T79A 0.013 4 1 K11.4 K0.2 1.45 1 K7.9 0
+L80A 0.019 5 0.8 K11.3 K0.3 8.7 0.2 K6.9 K1.1
+K83A 0.011 3 1.3 K11.6 0 1.47 1 K7.9 0
+Y85A 0.019 5 0.8 K11.3 K0.3 4.17 0.4 K7.3 K0.6
+T86A 0.016 4 1 K11.4 K0.2 2.78 0.5 K7.6 K0.4
+Y89A 0.017 5 0.8 K11.3 K0.3 5.88 0.3 K7.1 K0.8
+Q90A 0.013 4 1 K11.4 K0.2 1.43 1 K7.9 0
+N93A 0.016 4 1 K11.4 K0.2 3.23 0.5 K7.5 K0.5
+E96A 0.013 4 1 K11.4 K0.2 2.86 0.5 K7.5 K0.4
+V99A 0.01 3 1.3 K11.6 0 2 0.7 K7.8 K0.2
+IFNbd 0.001 0.1 K13.5 0.05 K9.9
+a DG0 calculated from DG0 Z RT ln KD. b DDG0ZDG0
+mutKDG0
+wt: c KD is determined from equilibrium binding at the surface. d Data taken from Lamken et al.
+17
+Mutational Analysis of the IFNAR1 Binding Site of IFNa2 273bound to the RIfS surface was determined by
+injecting IFNa2 protein at concentrations ranging
+from 0.12 mM to 4 mM. Due to the low binding
+affinity of IFNa2 to IFNAR1-EC, kinetic data of
+association and dissociation could not be deter￾mined. Therefore, the binding affinity was deter￾mined from plotting the steady-state response
+versus the protein concentration according to the
+law of mass action (Figure 1(b) and (c)). This results
+in an affinity constant of 1.5 mM for wild-type
+IFNa2. The affinity determined here is about
+threefold tighter than the one determined
+previously.17 This could be due to a number of
+factors. For one, a different method for surface
+immobilization of IFNAR1-EC was employed in
+both studies, which can result in differences in
+absolute binding affinities (as previously observed
+for IFNAR2-EC32). A second possible reason is that
+the IFNAR1-EC used here was expressed in yeast
+and was de-glycosylated, while in the former
+Figure 2. Mutant analysis of
+IFNAR1 binding to IFNa2. (a)
+Alignment of all human interfer￾ons. Blue and red letters represent
+residues that upon mutation to Ala
+reduced or increased the binding
+affinity, respectively. The number
+above the letters represents the
+relevant receptor subunit, 1 for
+IFNAR1 and 2 for IFNAR2. Green
+letters represent mutations that
+did not confer a change in binding
+affinity. (b) The relative change in
+binding affinity of mutant inter￾ferons binding to either IFNAR1 or
+IFNAR2 as analyzed in this study.
+274 Mutational Analysis of the IFNAR1 Binding Site of IFNa2study17 the protein was expressed in baculovirus
+with the sugars staying intact. The difference in the
+glycosylation pattern for both proteins may cause
+some change in their compactness and binding to
+interferon. However, as the major aim of this study
+was to compare the binding affinities of different
+IFNa2 mutants to the same IFNAR1-EC, the
+difference in the absolute binding affinity should
+not influence the relative change in binding upon
+mutation.32
+Mapping the binding site of IFNAR1 on IFNa2
+In order to locate the binding site of IFNAR1 on
+IFNa2, we performed an alanine scan of most
+residues located on the B and C helices (Figure 2).
+All together, 21 single point mutations were
+produced, and their binding affinity towards
+IFNAR2 and towards IFNAR1 were measured by
+RIfS. The binding affinities of the different mutant
+proteins towards IFNAR2 were very similar to
+wild-type IFNa2 (Table 1). This is not surprising, as
+the mutations are located on the opposite surface of
+the IFNAR2 binding site on IFNa2. Yet, these results
+validate the proper folding of all the mutant
+proteins, and their active concentrations. While
+binding of IFNa2 to IFNAR2-EC provides a clear
+kinetic signal, binding to IFNAR1-EC is much
+weaker and has to be analyzed using equation (1)
+according to the shift in the interference spectrum of
+the steady-state affinity (y-axis in Figure 1), at
+different concentrations of the ligand. In this case,
+the knowledge of the active concentrations of all
+IFNa2 proteins is essential. Therefore, in addition to
+the IFNAR2-EC binding measurements, all mutant
+protein concentrations were validated on an
+analytical gel-filtration column by their capacity to
+bind IFNAR2-EC.
+The results of all the binding measurements are
+summarized in Table 1 and Figure 2(b). Three
+mutations resulted in an increase in the binding
+affinity towards IFNAR1-EC (H57A, E58A and
+Q61A) while six mutations caused a decrease in
+the binding affinity (F64A, N65A, T69A, L80A,
+Figure 3. Concentration dependence of the antiviral and anti-proliferative response of WISH cells to interferons.
+(a) One set of raw data of the anti-proliferative response upon administration of a twofold serial dilution of
+interferon at a range of 250 nM–0.48 pM of IFNa2 and 125 nM–0.24 pM of IFNb, through 20 microtiter wells in two plate
+rows. The densitometry reading mean values of six independent anti-proliferative (b) and antiviral (c) experiments are
+shown. The antiviral assays consist of threefold serial IFN dilutions in ten microtiter wells ranging from 275 pM to
+0.014 pM. The curves were fitted to equation (2), and represent the best fit for the combined data. Error bars represent the
+standard error of the mean for each data point.
+Mutational Analysis of the IFNAR1 Binding Site of IFNa2 275Y85A and Y89A). However, no hot spot for binding
+was identified, with none of the mutations leading to
+a change beyond fivefold in affinity. To corroborate
+the single mutation effects, a triple mutant containing
+the single mutations L80A, Y85A, Y89A (designated
+as LYY) and a quadruple mutant composed of N65A,
+L80A, Y85A, Y89A (designated as NLYY) were
+prepared. Binding for these two mutant proteins
+was below the threshold of our measurement.
+Anti-proliferative and antiviral activity of IFNa2
+mutants
+We next compared the binding properties of the
+interferon mutants with their corresponding bio￾logical activities. The antiviral activity was assayed
+as the inhibition of the cytopathic effect of vesicular
+stomatitis virus (VSV) on WISH cells (a human
+epithelial cell line of amniotic origin). The anti￾proliferative activity was determined both on WISH
+cells and on DAUDI cells, as the 50% inhibition of
+cell growth (see Materials and Methods). Due to
+their high sensitivity, it is standard practice to test
+interferon anti-proliferative activity on DAUDI
+cells,5 and antiviral activity on WISH cells33 (to
+our knowledge, there is no reported evidence
+regarding the antiviral activity on DAUDI cells,
+due to technical difficulties). To obtain a direct
+quantitative comparison of both activities on the
+same cell line, we also tested the anti-proliferative
+activity on WISH cells. Relative activities were
+obtained in comparison to wild-type IFNa2, and
+included IFNb in the analysis as another point of
+reference. As an example, Figure 3 shows the anti￾proliferative and antiviral analyses of IFNa2 and
+IFNb. The anti-proliferative activity of interferons
+on WISH cells was determined by applying a serial
+dilution of interferons for 72 hours, after which the
+cells were stained using crystal violet (Figure 3(a)).
+The relative number of cells in each well was
+determined from a densitometry analysis, and the
+results were plotted versus the protein concentration
+applied (Figure 3(b)). The same was done to
+determine the antiviral potency of interferons on
+WISH cells (Figure 3(c)). The protein concentration
+giving 50% activity (EC50), as well as the sensitivity
+of cells to increasing amounts of interferon (s, for
+slope), were deduced from an IFN dose-response
+curve (equation (2)). The IFNa2 and IFNb concen￾trations promoting 50% antiviral protection were
+0.85 pM and 0.43 pM, respectively (averaged over
+six experiments). The average IFNa2 (17 experi￾ments) and IFNb (seven experiments) anti￾proliferative activity EC50 were 1360 pM and
+29 pM, respectively. Interestingly, the IFNa2 con￾centration promoting 50% anti-proliferative activity
+in DAUDI cells is only 0.5 pM (Table 2), which is
+three orders of magnitude lower than that
+measured for WISH cells, highlighting the import￾ance of using the same cell line when comparing
+different activities.
+The antiviral and anti-proliferative activities of all
+the interferon mutant proteins were determined
+relative to that of wild-type IFNa2, as the wt/mut
+Table 2. Biological activity of IFNa2 mutants
+IFN mutant Antiviral activity (WISH) Antiproliferative activity (WISH)
+Antiproliferative activity
+(DAUDI)
+50%
+(pM) wt/mut
+Slopea
+wt/mut
+50%
+(nM) wt/mut
+Slopea
+wt/mut
+50%
+(pM) wt/mut
+wt 0.85 1G0.09 1.36 1G0.07 0.5
+H57A 0.57 1.5 1.08G0.1 0.76 1.8 1.0G0.19 1.12 0.56
+E58A 0.26 3.3 0.95G0.15 0.25 5.4 1.15G0.17 0.2 2.45
+Q61A 0.45 1.9 1.04G0.09 0.49 2.8 1.65G0.1 0.54 0.92
+Q62A 0.45 1.9 1.05 1.3 0.45 1.12
+F64A 0.77 1.1 2.72 0.5 0.68 0.73
+N65A 1.06 0.8 0.99G0.07 8 0.17 1.48G0.1 0.58 0.86
+S68A 0.57 1.5 0.68 2 0.52 0.96
+T69A 0.94 0.9 3.4 0.4 0.31 1.61
+K70A 0.71 1.2 1.7 0.8 0.33 1.51
+D71A 0.61 1.4 1.94 0.7 0.3 1.67
+S73A 0.61 1.4 2.27 0.6 0.57 0.88
+T79A 0.61 1.4 1.94 0.7 0.42 1.2
+L80A 1.7 0.5 9.71 0.14 0.47 1.07
+K83A 0.65 1.3 1.36 1 0.56 0.89
+Y85A 3.27 0.26 1.0G0.07 39 0.035 1.84G0.1 1.52 0.33
+T86A 0.77 1.1 1.36 1 0.35 1.41
+Y89A 4.25 0.2 1.0G0.11 30 0.045 2.2G0.11 3.13 0.16
+Q90A 0.71 1.2 0.72 1.9 0.45 1.11
+N93A 0.85 1 1.94 0.7 0.6 0.84
+E96A 1.06 0.8 3.4 0.4 1.25 0.4
+V99A 1.13 0.75 1.84 0.74 0.51 0.98
+LYY 24.29 0.035 1.32G0.05 238 0.0057 4.1G0.1
+NLYY 92.39 0.0092 1478 0.00092 3.2G1.3
+IFNb 0.43 2 0.72G0.05 0.03 48 0.63G0.05
+LYY is the triple mutant L80A, Y85A, Y89A. NLYY is the quadruple mutant including LYY and N65A. The 50% activity point was
+obtained by fitting the data to equation (2) (see Figure 3). a The slope is from equation (2).
+276 Mutational Analysis of the IFNAR1 Binding Site of IFNa2ratio. Results are summarized in Table 2. Similar to
+what was found for the binding affinity towards
+IFNAR1-EC, the antiviral and anti-proliferative
+activities of the interferon mutants did not change
+dramatically upon mutation. The only mutant
+that causes a significant increase in antiviral activity
+(O2-fold) is E58A. L80A, Y85A and Y89A cause a
+significant decrease in antiviral activity (yet, none
+below fivefold). However, the combined LYY and
+NLYY mutants reduced the antiviral potency by 30
+and 100-fold, respectively. This reduction roughly
+fits the additive effects of the single mutations (for
+LYY, 0.5!0.26!0.20Z0.029). The effect on the anti￾proliferative activity of the same set of mutants is
+more significant, with both E58A and Q61A causing
+a significant increase in activity, while N65A, T69A,
+L80A, Y85A and Y89A causing a significant
+decrease in activity. Moreover, the magnitude of
+the decrease in anti-proliferative activity measured
+on WISH cells is significantly larger than that
+measured for antiviral protection. The multiple
+LYY and NLYY mutants reduce activity by 180 and
+1100-fold, respectively. In this case, the single
+mutations overestimate the effect measured for the
+multiple mutants by about 30-fold (for LYY, 0.14!
+0.035!0.044Z0.00022 versus the experimentally
+measured value of 0.0057, and for NLYY 0.16!
+0.14!0.035!0.044Z0.000035 versus the experi￾mentally measured value of 0.00092). The antiviral
+and anti-proliferative results for all mutants
+analyzed are plotted in Figure 4(a). For interest,
+we included IFNb. This graph shows that most
+mutations analyzed have a stronger effect on the
+anti-proliferative response than on the antiviral
+response. Interestingly, this trend also fits the data
+for IFNb, for which the antiviral activity is about
+twofold higher than that of IFNa2 while its anti￾proliferative activity is about 50-fold higher.
+Figure 4(b) shows a comparison of the biological
+activity with the measured binding affinity for
+IFNAR1, showing that both activities generally scale
+with the binding affinity, though not over the whole
+scale. One clear exemption to this is IFNb.
+Discussion
+The primary aim of this work was to map the
+IFNAR1 binding site on IFNa2. For this purpose we
+constructed 21 single Ala mutations on the B and C
+helixes. The location of the binding site is similar to
+that reported for IFNb, around residues Y85 and
+Y89.25 In addition to these residues, the binding site
+also includes H57, E58, Q61 (whose alanine
+mutation increases binding) and F64, N65, T69
+and L80 (Ala mutation decreases binding). This
+maps the IFNAR1 binding site on the opposite
+surface relative to the IFNAR2 binding site14,15
+(Figure 5(a) and (b)), and would fit the classical
+model for cytokine–receptor interaction as shown
+for hGH, EPO and IL434 where the ligand recruits
+two receptor subunits binding to opposite,
+structurally distant surfaces of the cytokine.
+Mapping these residues on the surface of IFNa2
+shows that all residues that affect binding are
+concentrated at one location, except for leucine 80
+that faces the opposite direction (albeit still in close
+proximity). Without further knowledge of the
+interferon-binding site on IFNAR1, it is difficult to
+guess the role of Leu80 in binding IFNa2. It was
+suggested that the interferon binding site on
+IFNAR1 consists of more than one continuous
+patch.18 Therefore, it is possible that Leu80 binds
+the second active patch on IFNAR1. Another
+possibility would be that Leu80, which is partially
+buried within IFNa2 has an indirect effect on
+Figure 4. Biological activity of interferon mutants. (a) Relative (to wt) antiviral activity plotted versus the relative anti￾proliferative activity of 21 IFNa2 mutants and of IFNb. The line represents an antiviral to anti-proliferative activity ratio
+with slope Z1. (b) Relative antiviral and anti-proliferative activities of 21 IFNa2 mutants and of IFNb plotted versus their
+relative binding affinity for IFNAR1-EC. All data are from Tables 1 and 2. The linear line in (b) represents a theoretical
+relationship between biological activity and affinity. Points above the line represent mutants for which the change in
+biological activity (antiviral or anti-proliferative) is smaller than their change in affinity, points below the line are the
+opposite.
+Mutational Analysis of the IFNAR1 Binding Site of IFNa2 277binding, through the destabilization of the C helix
+(Figure 5(b)). However, this mutant binds IFNAR2-
+EC with affinity similar to wt, and runs as expected
+on an analytical gel filtration column, not support￾ing this notion. Moreover, its effect on binding
+within the multiple LYY and NLYY mutations is
+additive (in the antiviral test), suggesting that
+Leu80 is not destabilizing the C helix.
+The mutations that cause an increase in affinity
+(H57, E58 and Q61) are physically grouped (red
+patch in Figure 5(a)), separately from the group of
+residues that upon mutation decrease the binding
+affinity towards IFNAR1 (F64, N65, T69, L80, Y85
+and Y89; blue patch in Figure 5(a)). Indeed, it is
+interesting to note that residues 57, 58 and 61 are
+polar, while the residues in the second group are
+mostly aromatic or hydrophobic. This may relate to
+the composition of the binding site on IFNAR1.
+Indeed, a number of aromatic residues on IFNAR1
+were implicated to participate in the binding with
+interferon, suggesting an aromatic interface
+between the two proteins.18
+A surprising aspect of the IFNAR1 binding site
+on IFNa2 is the lack of hot spot residues for binding,
+with no single mutation causing a change in affinity
+of over fivefold. This is very different from that
+found for the IFNAR2 binding site,13,35 and actually
+for most other protein–protein binding sites.36
+Indeed, two of the six residues identified to reduce
+binding (Tyr85 and 89) are not conserved between
+IFNa proteins, suggesting multiple solutions for
+weak binding. In contrast, all six hot spot residues
+on IFNa2 binding IFNAR2 (30, 33, 144, 147, 148 and
+149)37 are conserved for all IFNa proteins
+(Figure 2(a)). To decrease binding to IFNAR1
+further, we had to introduce multiple mutations
+(e.g. LYY or NLYY). For those, the binding affinity
+was below the detection threshold of our biophysi￾cal measurements. Yet, binding occurred, as shown
+by their residual biological activities (between 100
+and 10,000-fold reduction).
+The results of the mutagenesis studies of the
+IFNAR1 binding site on IFNa2 clearly suggest that
+binding of IFNa2 to IFNAR1 is far from being
+optimal. Three of the mutations to Ala (H57, E58
+and Q61) increased the binding affinity (as
+measured in vitro and in vivo) by two to fourfold
+per mutant. Interestingly, these three residues are
+conserved in all IFNa proteins (Figure 2(a)), and
+still their mutation (to Ala) increases both binding
+and biological activity. If mutations to Ala increase
+affinity, one may guess that mutations to other
+residues could increase affinity to IFNAR1 even
+further. This suggests that the weak binding of
+IFNAR1 to all IFNa proteins (but not to IFNb17) is a
+conserved feature of this system. The much higher
+affinity of IFNb towards IFNAR1, and the easiness of
+improving binding of IFNa2 towards IFNAR1, make
+one to believe that the low affinity of IFNa2 towards
+IFNAR1 is not a coincidence, but has biological
+relevance. As shown for IFNb, the increased binding
+affinity mostly translates into an increase in the anti￾proliferative activity of the interferon (Table 1 and
+Figure 4(b)), while the antiviral potency seems to be
+close to its maximum also in wild-type IFNa2. It is
+possible, that a strong anti-proliferative effect of
+IFNa2 upon viral infection is actually not desirable,
+and that tighter binding to IFNAR1 is one of the
+mechanisms for differential activation.
+Different activities have been attributed to IFNa2
+versus IFNb. The most basic difference between the
+two is in their antiviral versus anti-proliferative
+Figure 5. The functional epitope for binding IFNAR1 on IFNa2 (solution structure of IFNa2, residues 1–161) according
+to Klaus et al. 9 (a) Surface representation on a model of the complex of IFNa2 with IFNAR2 as determined previously.14
+(b) Ribbon model of IFNa2 at the same orientation as in (a). Residues that upon binding increase or decrease the binding
+affinity by O2-fold are colored red or blue, respectively. Residues previously found to bind IFNAR2 37 are colored green.
+Residues with no significant effect on binding are depicted in brown. This Figure was composed with PyMol. Helices H2,
+H3 and H4 stand for helix B to D, respectively.
+278 Mutational Analysis of the IFNAR1 Binding Site of IFNa2potentials. This is clearly seen for WISH cells,
+where the concentration needed to induce an anti￾proliferative effect by IFNa2 is three orders of
+magnitude higher than that needed to initiate an
+antiviral state. For IFNb the difference in protein
+concentrations needed to initiate the anti￾proliferative versus the antiviral response was only
+65-fold. The matter is further complicated when
+different cell types are used. While 1.3 nM IFNa2 is
+needed to initiate a 50% anti-proliferative response
+in WISH cells, only 0.4 pM was needed to do the
+same in DAUDI cells (Table 2). It has been reported
+that DAUDI cells exhibit a high density of
+interferon receptors on their surface27,38,39 and that
+their anti-proliferative responsiveness to interferon
+is unusually high.5 We suggest the hypothesis that
+the combination of the weak binding affinity of
+interferon towards IFNAR1, and the higher IFNAR
+receptor concentration on DAUDI cells, is the
+reason for their high anti-proliferative responsive￾ness to interferon, in comparison to WISH cells
+and other human cell lines. This hypothesis is
+strengthened by the findings of Wagner et al., who
+investigated the anti-proliferative activity of IFNb
+on three cancer cell-lines (HT1080, LOX and
+MDA231.MT1), and compared the activity to the
+number of IFNAR surface receptors as determined
+by FACS. The data show clearly that LOX cells,
+which were the most sensitive to IFNb, also
+displayed the highest number of IFNAR1 and
+IFNAR2 cell surface receptors.40
+In addition to the differential sensitivities of
+IFNa2 versus IFNb on WISH cells, we noticed
+another interesting phenomena. Following the
+titration curve of anti-proliferative activity versus
+interferon concentration (Figure 3) it becomes clear
+that cells are more sensitive to IFNb than to IFNa2.
+First, the slope of the titration curve (equation (2)) of
+IFNb is much steeper than that for IFNa2. Second,
+wells treated with IFNb at high concentrations
+contain a significantly smaller number of cells, as
+indicated by their lower density, compared to those
+treated with IFNa2 even at the highest concen￾tration (Figure 3(a) and (b); note the difference in
+maximal cell density). This may indicate that the
+onset of activation of the anti-proliferative response
+is faster for IFNb than for IFNa2. The kinetics are
+not a quantitative but a qualitative effect, as the
+same cell density is observed even for interferon
+concentrations much above that needed to arrest
+growth, and is not increasing with higher interferon
+concentrations. The slope of the antiviral and anti￾proliferative titration curves (as determined from
+fitting the data to equation (2)) is given in Table 2.
+The slope for IFNb is clearly steeper, but also
+between the IFNa2 mutants one can see some order,
+with the very weak mutants (in relation to binding
+to IFNAR1) having a smaller slope. While this is
+very clear for the anti-proliferative activity, it can
+also be seen for the antiviral activity of interferon,
+albeit to a lesser degree. IFNb was shown to bind
+IFNAR1 about 50-fold tighter compared to IFNa2.17
+This difference in binding affinity may explain the
+faster onset of activation of the biological response to
+IFNb. IFNa2 binds first to IFNAR2, and then under￾goes quick cycles of binding and dissociation with
+IFNAR1 (with the ternary complex being meta￾stable). On the other hand, IFNb binds much tighter
+to IFNAR1, conferring a stable ternary complex.28
+Figure 4 gives a somewhat complicated picture of
+the relations between the anti-proliferative and
+antiviral effects of the different IFNa2 mutants,
+and the binding affinity towards IFNAR1. In
+general there is a clear relation between biological
+activity and binding affinity. However, the relation
+is not linear over the whole range of affinities and
+activities, in contrast to that for mutants affecting
+binding towards IFNAR2, where a linear relation
+extending over three orders of magnitude was
+recorded.37 For one, the mutant effect on anti￾proliferative activity is more pronounced than the
+effect on antiviral activity (Figure 4(a) and Table 2).
+The weakest mutant (NLYY) has a 1000-fold
+reduced anti-proliferative activity versus a 100-fold
+reduced antiviral activity. Tighter binding mutants
+have also a more pronounced effect on the anti￾proliferative potency compared to their influence
+on the antiviral state (Figure 4(b)). The most
+pronounced change here is of course for IFNb,
+which, on a per-mol basis has 50-fold higher anti￾proliferative potency, but only a twofold higher
+antiviral potency. Looking at the antiviral/anti￾proliferative relations over the whole curve, it
+seems that the antiviral potency cannot be increased
+beyond twofold for tighter binding IFNAR1 inter￾ferons, while the anti-proliferative potency keeps
+on rising linearly. This would suggest a different
+mechanism of activation for both pathways, which
+may be influenced differently by the retention time
+of the ternary complex, and would also indicate that
+IFNAR1 is responsible for the differential activity of
+interferons.
+Materials and Methods
+Materials
+Ethyl-dimethylaminopropyl carbodiimide (EDC) and
+N-hydroxy-succinimide (NHS) were purchased from
+Fluka. Monoclonal anti-IFNAR1-mAb DB2 and AA3,22
+which bind non-competitively and do not inhibit IFN
+binding, were obtained from BiogenIdec. WISH and
+DAUDI cells were a gift by Daniela Novick, Weizmann
+Institute of Science.
+Site-directed mutagenesis
+Site-directed mutagenesis was carried out by PCR
+amplification of the expression plasmid pT72Ca2 with
+18–21 nucleotide primers containing the mutated codon
+using high fidelity polymerases pwo (Boehringer
+Mannheim) and pfu (Stratagene) as described.41 After
+phosphorylation and ligation, the mutated plasmids were
+transformed into Escherichia coli TG1 cells. The sequence
+of the whole expressed gene containing the mutation was
+verified by DNA sequencing.
+Mutational Analysis of the IFNAR1 Binding Site of IFNa2 279Protein expression and purification
+IFNa2 and IFNAR2-EC were expressed in E. coli and
+purified by ion exchange and size-exclusion chromato￾graphy as described.13 Protein concentrations were
+determined from the absorbance at 280 nm with 3280Z
+18,070 cmK1 MK1 for IFNa2 and 3280Z26,500 cmK1 MK1
+for IFNAR2-EC. IFNAR1-EC was produced as
+described.28 Protein purity was analyzed by SDS-PAGE
+under non-reducing conditions. The concentration of
+active IFNa2 protein was determined for all mutants by
+analytical gel filtration with IFNAR2-EC as described.13
+Measurements of binding affinity
+The interaction between recombinant IFNAR1-EC and
+IFNa2 was monitored by reflectometric interference
+spectroscopy (RIfS) under flow-through conditions.42
+This method detects biomolecular interaction at interfaces
+as a change in the apparent optical thickness of a thin
+silica layer. Binding to the surface is monitored as a shift
+in the interference spectrum. A shift of 1 pm corresponds
+to approximately 1 pg/mm2 protein on the surface. All
+measurements were carried out using HBS (20 mM Hepes
+(pH 7.5), 150 mM NaCl and 0.01% (v/v) Triton X100) as a
+running buffer. The non-neutralizing anti-IFNAR1-EC
+mAb DB2 was coupled to the (amino-functionalized
+dextran AMD 500) surface via its exposed amino groups
+by amine-coupling chemistry. The IFNAR1-EC was
+affinity captured to the surface followed by cross-linking
+with a second mAb AA3. A detailed description of the
+method (used for measuring the interferon – IFNAR2-EC
+interaction) is given by Piehler & Schreiber.32 As binding
+is weak, the dissociation constant KD was obtained from
+the equilibrium response plotted against the protein
+concentration and fitted according to the law of mass
+action according to equation (1):
+g Z ðKAcRmaxÞ=ðKAcn C1Þ (1)
+where y is the signal, KA is the affinity (in molar), c is the
+protein concentration, Rmax is the interference signal at
+maximum binding and n is the stoichiometry of the
+complex, which in this case is 1.
+Antiviral and antiproliferative assays
+Antiviral activity of wild-type and mutant IFNa2 was
+assayed as the inhibition of the cytopathic effect of
+vesicular stomatitis virus (VSV) on human WISH cells.33
+The antiproliferative assay on WISH cells was con￾ducted by adding IFN at serial dilutions to the growth
+media in flat-bottomed microtiter plates, and monitoring
+the cell density after 72 hours by crystal violet staining.
+The 50% activity concentrations (EC50) as well as the
+sensitivity of cells to increasing amounts of interferon
+were deduced from an IFN dose–response curve
+(Kaleidagraph, Synergy Software) using equation (2):
+g Z A0 CA=ð1 Cðc=EC50Þ
+s
+Þ (2)
+where y is the absorbance and reflects the relative number
+of cells, A0 is the offset, A is the amplitude, c is the IFN
+concentration and s is the slope. The slope is a measure of
+the sensitivity of the cells to increasing interferon
+concentrations.
+Error calculations
+The error (s) on KD for IFNa2-IFNAR2 binding as
+measured on RIfS is 20%, and for relative affinity
+(wt/mut) 30%. For IFNa2-IFNAR1, the error (s) on KD
+is 35% and for relative affinity (wt/mut) 50%. Using 2s
+(95% confidence) as the basic confidence level, this would
+suggest that a minimum of a twofold change can be seen
+as significant. The magnitude of the error (s) for
+individual biological activity measurements (whether
+antiviral or antiproliferative) is 35%. Therefore, a 2s
+confidence level between two measurements would
+suggest that differences smaller than twofold are within
+the experimental error.
+Acknowledgements
+We thank Sara Barak (WIS) for her advice on
+tissue culture and antiviral assay. This work was
+supported by Human Frontier Science Program
+grant RGP 60/2002.
+References
+1. Isaacs, A. & Lindenmann, J. (1957). Virus interference
+I. The interferon.. Proc. Roy. Soc. ser. B, 147, 258–267.
+2. Pfeffer, L. M., Dinarello, C. A., Herberman, R. B.,
+Williams, B. R., Borden, E. C., Bordens, R. et al. (1998).
+Biological properties of recombinant alpha￾interferons: 40th anniversary of the discovery of
+interferons. Cancer Res. 58, 2489–2499.
+3. Allen, G. & Diaz, M. O. (1996). Nomenclature of the
+human interferon proteins. J. Interferon Cytokine Res.
+16, 181–184.
+4. Wetzel, R. (1981). Assignment of the disulphide bonds
+of leukocyte interferon. Nature, 289, 606–607.
+5. Evinger, M., Rubinstein, M. & Pestka, S. (1981).
+Antiproliferative and antiviral activities of human
+leukocyte interferons. Arch. Biochem. Biophys. 210,
+319–329.
+6. Rehberg, E., Kelder, B., Hoal, E. G. & Pestka, S. (1982).
+Specific molecular activities of recombinant and hybrid
+leukocyte interferons. J. Biol. Chem. 257, 11497–11502.
+7. Mitsui, Y. & Senda, T. (1997). Elucidation of the basic
+three-dimensional structure of type I interferons and
+its functional and evolutionary impilcation.
+J. Interferon Cytokine Res. 17, 319–326.
+8. Karpusas, M., Nolte, M., Benton, C. B., Meier, W.,
+Lipscomb, W. N. & Goelz, S. (1997). The crystal
+structure of human interferon beta at 2.2-A˚ resolution.
+Proc. Natl Acad. Sci. USA, 94, 11813–11818.
+9. Klaus, W., Gsell, B., Labhardt, A. M., Wipf, B. & Senn,
+H. (1997). The three-dimensional high resolution
+structure of human interferon alpha-2a determined
+by heteronuclear NMR spectroscopy in solution.
+J. Mol. Biol. 274, 661–675.
+10. Radhakrishnan, R., Walter, L. J., Hruza, A., Reichert,
+P., Trotta, P. P., Nagabhushan, T. L. & Walter, M. R.
+(1996). Zinc mediated dimer of human interferon￾alpha 2b revealed by X-ray crystallography. Structure,
+4, 1453–1463.
+11. Radhakrishnan, R., Walter, L., Subramaniam, P. S.,
+Johnson, H. M. & Walter, M. R. (1999). Crystal
+structure of ovine interferon-tau at 2.1 A˚ resolution.
+J. Mol. Biol. 286, 151–162.
+12. Uze´, G., Di-Marco, S., Mouchel-Vielh, E., Monneron,
+280 Mutational Analysis of the IFNAR1 Binding Site of IFNa2D., Bandu, M. T., Horisberger, M. A. et al. (1994).
+Domains of interaction between alpha interferon and
+its receptor components. J. Mol. Biol. 243, 245–257.
+13. Piehler, J. & Schreiber, G. (1999). Biophysical analysis
+of the interaction of human Ifnar2 expressed in E. coli
+with IFNa2. J. Mol. Biol. 289, 57–67.
+14. Chill, J. H., Quadt, S. R., Levy, R., Schreiber, G. &
+Anglister, J. (2003). The human type I interferon
+receptor: NMR structure reveals the molecular basis
+of ligand binding. Structure (Camb), 11, 791–802.
+15. Roisman, L. C., Piehler, J., Trosset, J. Y., Scheraga,
+H. A. & Schreiber, G. (2001). Structure of the
+interferon–receptor complex determined by distance
+constraints from double-mutant cycles and flexible
+docking. Proc. Natl Acad. Sci. USA, 98, 13231–13236.
+16. Uze`, G., Lutfalla, G. & Gresser, I. (1990). Genetic
+transfer of a functional human interferon a receptor
+into mouse cells: cloning and expression of its cDNA.
+Cell, 60, 225–234.
+17. Lamken, P., Lata, S., Gavutis, M. & Piehler, J. (2004).
+Ligand-induced assembling of the type I interferon
+receptor on supported lipid bilayers. J. Mol. Biol. 341,
+303–318.
+18. Cutrone, E. C. & Langer, J. A. (2001). Identification of
+critical residues in bovine IFNAR-1 responsible for
+interferon binding. J. Biol. Chem. 276, 17140–17148.
+19. Lamken, P., Gavutis, M., Peters, I., Van der Heyden, J.,
+Uze, G. & Piehler, J. (2005). Functional cartography of
+the ectodomain of the type I interferon receptor
+subunit ifnar1. J. Mol. Biol. 350, 476–488.
+20. Goldman, L. A., Cutrone, E. C., Dang, A., Hao, X.,
+Lim, J. K. & Langer, J. A. (1998). Mapping human
+interferon-alpha (IFN-alpha 2) binding determinants
+of the type I interferon receptor subunit IFNAR-1 with
+human/bovine IFNAR-1 chimeras. Biochemistry, 37,
+13003–13010.
+21. Langer, J. A., Yang, J., Carmillo, P. & Ling, L. E. (1998).
+Bovine type I interferon receptor protein BoIFNAR-1
+has high-affinity and broad specificity for human type
+I interferons. FEBS Letters, 421, 131–135.
+22. Goldman, L. A., Zafari, M., Cutrone, E. C., Dang, A.,
+Brickelmeier, M., Runkel, L. et al. (1999). Characteriz￾ation of antihuman IFNAR-1 monoclonal antibodies:
+epitope localization and functional analysis.
+J. Interferon Cytokine Res. 19, 15–26.
+23. Cutrone, E. C. & Langer, J. A. (1997). Contributions of
+cloned type I interferon receptor subunits to differen￾tial ligand binding. FEBS Letters, 404, 197–202.
+24. Cajean-Feroldi, C., Nosal, F., Nardeux, P. C., Gallet, X.,
+Guymarho, J., Baychelier, F. et al. (2004). Identification
+of residues of the IFNAR1 chain of the type I human
+interferon receptor critical for ligand binding and
+biological activity. Biochemistry, 43, 12498–12512.
+25. Runkel, L., deDios, C., Karpusas, M., Betzenhauser,
+M., Muldowney, C., Zafari, M. et al. (2000). Systematic
+mutational mapping of sites on human interferon-b￾1a that are important for receptor binding and
+functional activity. Biochemistry, 39, 2538–2551.
+26. Hu, R., Bekisz, J., Schmeisser, H., McPhie, P. & Zoon,
+K. (2001). Human IFN-alpha protein engineering: the
+amino acid residues at positions 86 and 90 are
+important for antiproliferative activity. J. Immunol.
+167, 1482–1489.
+27. Cohen, B., Novick, D., Barak, S. & Rubinstein, M.
+(1995). Ligand-induced association of the type I
+interferon receptor components. Mol. Cell. Biol. 15,
+4208–4214.
+28. Arduini, R. M., Strauch, K. L., Runkel, L. A., Carlson,
+M. M., Hronowski, X., Foley, S. F. et al. (1999).
+Characterization of a soluble ternary complex formed
+between human interferon-b-1a and its receptor
+chain. Protein Sci. 8, 1867–1877.
+29. Stark, G. R., Kerr, I. M., Williams, B. R., Silverman,
+R. H. & Schreiber, R. D. (1998). How cells respond to
+interferons. Annu. Rev. Biochem. 67, 227–264.
+30. de Veer, M. J., Holko, M., Frevel, M., Walker, E., Der,
+S., Paranjape, J. M. et al. (2001). Functional classifi￾cation of interferon-stimulated genes identified using
+microarrays. J. Leukoc. Biol. 69, 912–920.
+31. Finter, N. B. (1991). Why are there so many subtypes
+of alpha-interferons? J. Interferon Res., 185–194.
+32. Piehler, J. & Schreiber, G. (2001). Fast transient
+cytokine–receptor interactions monitored in real￾time by reflectometric interference spectroscopy.
+Anal. Biochem. 289, 173–186.
+33. Rubinstein, S., Familletti, P. C. & Pestka, S. (1981).
+Convenient assay for interferons. J. Virol. 37, 755–758.
+34. Stroud, R. M. & Wells, J. A. (2004). Mechanistic
+diversity of cytokine receptor signaling across cell
+membranes. Sci. STKE, 2004, re7.
+35. Lewerenz, M., Mogensen, K. E. & Uze`, G. (1998).
+Shared receptor components but distinct complexes
+for alpha and beta interferons. J. Mol. Biol. 282,
+585–599.
+36. Bogan, A. A. & Thorn, K. S. (1998). Anatomy of hot
+spots in protein interfaces. J. Mol. Biol. 280, 1–9.
+37. Piehler, J., Roisman, L. C. & Schreiber, G. (2000). New
+structural and functional aspects of the IFN–receptor
+interaction revealed by comprehensive mutational
+analysis of the binding interface. J. Biol. Chem. 275,
+40425–40433.
+38. Langer, J. A. & Pestka, S. (1986). Procedures for
+studying binding of interferon to human cells in
+suspension cultures. Methods Enzymol. 119, 305–311.
+39. Hu, R., Bekisz, J., Hayes, M., Audet, S., Beeler, J.,
+Petricoin, E. & Zoon, K. (1999). Divergence of binding,
+signaling, and biological responses to recombinant
+human hybrid IFN. J. Immunol. 163, 854–860.
+40. Wagner, T. C., Velichko, S., Chesney, S. K., Biroc, S.,
+Harde, D., Vogel, D. & Croze, E. (2004). Interferon
+receptor expression regulates the antiproliferative
+effects of interferons on cancer cells and solid tumors.
+Int. J. Cancer, 111, 32–42.
+41. Piehler, J. & Schreiber, G. (1999). Mutational and
+structural analysis of the binding interface between
+type I interferons and their receptor ifnar2. J. Mol. Biol.
+294, 223–237.
+42. Schmitt, H. M., Brecht, A., Piehler, J. & Gauglitz, G.
+(1997). An integrated system for optical biospecific
+interaction analysis. Biosens. Bioelectron. 12, 809–816.
+Edited by M. Moody
+(Received 21 June 2005; received in revised form 22 August 2005; accepted 22 August 2005)
+Available online 2 September 2005
+Mutational Analysis of the IFNAR1 Binding Site of IFNa2 281

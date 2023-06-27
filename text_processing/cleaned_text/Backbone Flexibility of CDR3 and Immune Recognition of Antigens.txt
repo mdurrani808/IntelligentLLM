@@ -1,0 +1,588 @@
+Backbone Flexibility of CDR3 and Immune  Recognition of Antigens  Jaafar N. Haidar 1, 2, Wei Zhu1  , Jacqueline Lypowy1  , Brian G. Pierce3, 4,  Amtul Bari 1  , Kris Persaud1  , Xenia Luna1, 1, Marshall Snavely1  ,  Dale Ludwig1 and Zhiping Weng2, 3, 4  1 - ImClone Systems, a wholly subsidiary of Eli Lilly and Company, Alexandria Center for Life Sciences, 450 East 29th Street, New  York, NY 10016, USA  2 - Department of Biomedical Engineering, Boston University, 44 Cummington Street, Boston, MA 02215, USA  3 - Bioinformatics Program, Boston University, 44 Cummington Street, Boston, MA 02215, USA  4 - Program in Bioinformatics and Integrative Biology, University of Massachusetts Medical School, 368 Plantation Street,  Worcester, MA 01605, USA  Correspondence to Jaafar N. Haidar and Zhiping Weng: J. N. Haidar is to be contacted at: ImClone Systems, a wholly  subsidiary of Eli Lilly and Company, Alexandria Center for Life Sciences, 450 East 29th Street, New York, NY 10016,  USA, Z. Weng to be contacted: Program in Bioinformatics and Integrative Biology, University of Massachusetts Medical  School, 368 Pantation Street, Worcester, MA 01605.
+jaafar.haidar@imclone.com; Zhiping.Weng@umassmed.edu  http://dx.doi.org/10.1016/j.jmb.2013.12.024  Edited by A. Panchenko  Abstract  Conformational entropy is an important component of proteinprotein interactions; however, there is no  reliable method for computing this parameter.
+We have developed a statistical measure of residual backbone  entropy in folded proteins by using the  distributions of the 20 amino acids in common secondary  structures.
+The backbone entropy patterns of amino acids within helix, sheet or coil form clusters that  recapitulate the branching and hydrogen bonding properties of the side chains in the secondary structure type.
+  The same types of residues in coil and sheet have identical backbone entropies, while helix residues have  much smaller conformational entropies.
+We estimated the backbone entropy change for immunoglobulin  complementarity-determining regions (CDRs) from the crystal structures of 34 low-affinity T-cell receptors and  40 high-affinity Fabs as a result of the formation of protein complexes.
+Surprisingly, we discovered that the  computed backbone entropy loss of only the CDR3, but not all CDRs, correlated significantly with the kinetic  and affinity constants of the 74 selected complexes.
+Consequently, we propose a simple algorithm to  introduce proline mutations that restrict the conformational flexibility of CDRs and enhance the kinetics and  affinity of immunoglobulin interactions.
+Combining the proline mutations with rationally designed mutants from  a previous study led to 2400-fold increase in the affinity of the A6 T-cell receptor for Tax-HLAA2.
+However, this  mutational scheme failed to induce significant binding changes in the already-high-affinity C225Fab/  huEGFR interface.
+Our results will serve as a roadmap to formulate more effective target functions to design  immune complexes with improved biological functions.
+   2013 Elsevier Ltd. All rights reserved.
+  Introduction  Proteins and protein complexes are the fundamental components of cellular machinery.
+Despite  decades of research, however, the thermodynamic  principles that govern protein folding and binding are  not completely understood.
+In particular, the loss of  side-chain and backbone conformational entropy  comprises a major free-energy penalty for these  processes [1].
+Nonetheless, many folding, docking  and design algorithms do not include this component  in their scoring functions due to the lack of an  accurate measure that can be rapidly computed  [25].
+Among the exceptions, three studies included  backbone entropy for evaluating binding free energies [1,6,7].
+  IMF YJMBI-64354; No. of pages: 17; 4C: 3, 6, 7, 8, 9, 10, 11  0022-2836/$ - see front matter  2013 Published by Elsevier Ltd. J. Mol.
+Biol. (2014) xx, xxxxxx  Article  Please cite this article as: Haidar Jaafar N., et al, Backbone Flexibility of CDR3 and Immune Recognition of Antigens, J Mol Biol  (2014), http://dx.doi.org/10.1016/j.jmb.2013.12.024Attempts to compute backbone entropy started in  the early 1950s [8,9].
+Entropy S is defined as R  Pi ln(Pi  ), where R is the universal gas constant, Pi  is the probability that the system resides in the ith  state and the summation is performed over all  possible states of the system [10].
+Thus, in order to  compute the backbone entropy of a residue, one  needs to determine the number of conformations the  residue's backbone can adopt and the corresponding probabilities.
+Two dihedral angles,  and ,  jointly specify a backbone conformation, which  corresponds to a point on the Ramachandran  map [11].
+Three main approaches can rely on such  calculations to assess backbone conformations from  unfolded proteins: (1) One could exhaustively  enumerate all sterically allowed conformations [12]  or dynamically sample these conformations [13] for  short peptide chains.
+(2) One may assume that the  collection of backbone conformations observed in a  large set of folded protein structures is representative  of all feasible conformations in the unfolded state [7].
+  (3) One can utilize nuclear magnetic resonance  (NMR) to monitor the motion of proteins [14].
+  Compared with the progress made in obtaining  favorable backbone conformations of unfolded  proteins, less attention has been paid to the extent  of backbone flexibility in folded proteins.
+There are  well-known examples of large conformational changes upon binding [15,16], indicating that ample  backbone flexibility exists in the folded state.
+For  example, Frederick et al. employed NMR to measure  the conformational flexibility of calmodulin and its  role in molecular recognition [17].
+Interestingly, the  conformational entropy change is linearly correlated  to the total change of the calmodulin binding entropy  [1719].
+In 1999, Willcox et al. also relied on isothermal  titration calorimetry to conclude that T-cell receptor  (TCR) complex formation is driven by favorable  enthalpic interactions that offset an unfavorable  entropic barrier induced by the flexibility of the  complementarity-determining regions (CDRs) [20].
+  Since then, multiple studies demonstrated that even  though CDRs undergo conformational rearrangements during TCR complex formation, determining  the impact of such structural changes on the thermodynamics of TCR binding is not trivial [2129].
+  Subsequently, Armstrong et al. examined the collective thermodynamic data of more than 41 TCR  interactions and concluded that there is no enthalpic  or entropic signature for TCR complex formation [30].
+  Hence, accurate assessment of the backbone flexibility of the CDRs might be particularly important to  further understand the thermodynamics of immunoglobulin binding.
+  With the rapid accumulation of structures in the  Protein Data Bank (PDB) [31], the backbone  conformational space of folded proteins is becoming  increasingly more comprehensive.
+In this study, we  investigate backbone conformations of 20 amino  acids in high-resolution PDB structures and compute  the corresponding statistical entropies in common  secondary structures (-helix, -strand or neither,  referred to as coil).
+We utilized these entropies to  define and compute the backbone flexibility of the  CDRs of immunoglobulin (Fabs and TCRs) structures.
+Interestingly, only the backbone flexibility of  CDR3 significantly correlated with the binding  kinetics of 74 immune complexes we mined from  the literature.
+Hence, our backbone flexibility measure should prove useful when developing structure-based target functions that compute the binding  free energy of immunoglobulin interactions.
+  Convoluting the impact of CDR structural changes  on the thermodynamics of TCR binding is not a trivial  matter [30] because protein flexibility might redistribute or even increase during the formation of protein  complexes [3234].
+In spite of this complexity, there  are multiple case studies that relate CDR rigidity to  the low affinity and the multi-specificity of TCRs [35]  and antibodies [3647].
+Additionally, Lipovsek et al.  demonstrated that constricting the flexibility of CDRs  with interloop disulfide bonds enhanced the affinity  of immunoglobulin interactions [48].
+This collective  experimental and computational evidence was  convincing to explore alternative structure-based  methods to decrease the conformational flexibility in  the backbone of CDR loops to enhance the binding  affinities of immunoglobulins.
+Our novel structurebased method systematically introduces prolines  into the CDR loops of low-affinity (A6/Tax-HLAA2)  and high-affinity (C225/huEGFR) immunoglobulin  interfaces.
+A combination of three proline CDR  mutations enhanced the binding kinetics and affinity  of the A6 TCR to the pep-MHC by 26 times.
+Upon  combining these mutations with our previously  engineered mutants (~ 100-fold affinity enhancement) [49], the stability of the A6/Tax-HLAA2  interaction increased by approximately 2400-fold.
+  This result is consistent with multiple case studies  regarding the loss of CDR structural plasticity while  affinity maturing antibodies [3647].
+On the other  hand, none of the C225 CDR proline mutations  significantly enhanced the affinity or kinetics of the  C225/huEGFR interaction.
+This suggests that backbone flexibility does not contribute significantly to  high-sensitivity/high-specificity immunoglobulins  that recognize protein targets in a lock-and-key-like  mode [41,43,50].
+  Results  We partitioned all residues in a set of 18,555  high-resolution PDB structures into -helix, -sheet  and coil (see Materials and Methods) and constructed a Ramachandran map for each residue in each  structure type separately.
+We divided these maps  into 10  10 bins, converted residue counts into  2 Backbone Flexibility of CDR3  Please cite this article as: Haidar Jaafar N., et al, Backbone Flexibility of CDR3 and Immune Recognition of Antigens, J Mol Biol  (2014), http://dx.doi.org/10.1016/j.jmb.2013.12.024probabilities and computed the statistical backbone  entropy from the probabilities above a cutoff Pc.  Backbone entropy clusters of 20 amino acid types  Figure 1 illustrates backbone entropies for individual residues in helix, sheet or coil.
+In Supplementary  Fig. S1, we pooled all amino acids to illustrate the  impact of secondary structures.
+We only used   bins with probabilities above cutoff Pc after renormalization of the probabilities (see Materials and  Methods).
+In Fig. 1, we plot entropy as a function  of Pc with each amino acid represented by a  separate curve.
+This reveals interesting clustering  patterns, with the curves within a cluster intersecting  each other at some value of Pc and curves between  clusters disjoint.
+Helix and sheet have distinctly  different clustering patterns, while surprisingly, sheet  and coil are very similar.
+Our clustering results did  not change when we recomputed and re-plotted Sjk  against Pc at bin sizes 6  6 and 14  14 for the  helix, sheet and coil secondary structures in Supplementary Fig. S2ac. In light of the redundancy of  the protein structures in the PDB, we obtained three  non-redundant lists of PDB structures from the  ASTRAL database [51], where proteins with greater  than 70%, 40% or 20% sequence identities were  excluded, respectively.
+Figure 1 was regenerated  with these datasets and remained essentially unchanged except for increased noise due to decreased data points (data not shown).
+Thus, we  decided to use the full set of PDB structures for all  analysis.
+Additionally, Supplementary Fig. S1 further  illustrates that the backbones of amino acids have  the same amount of entropy in sheet and coil but  much less entropy in helix.
+  Figure 1 indicates that the Gly backbone has the  highest  conformational entropy regardless of  the secondary structure, which is expected.
+Similarly, Pro has the least entropic backbone in sheet and  coil.
+However, the Ala backbone is the least entropic  in helix.
+The Ramachandran maps of Pro and Ala are  shown in Supplementary Fig. S3.
+They resemble the  map of all residues in right-handed -helices in  previous studies [52].
+Indeed, the  distribution of  Ala is mostly restricted to the primary peak while that  of Pro spreads into the secondary peak.
+Pc was set  at the default value of 6.1  104 in Supplementary  Fig. S3.
+This corresponds to a count threshold of 208  for Ala and of 50 for Pro.
+Total counts after  eliminating bins below the thresholds are 328,035  for Ala and 79,835 for Pro.
+Thus, our finding that Ala  has the most restricted backbone in -helices was  not an artifact caused by the lack of data.
+This result  is definitely related to the well-established fact  Fig. 1.
+The computed backbone entropy for 20 amino acids in three structure types, plotted as a function of the probability  cutoff Pc.
+In (a) -helix, (b) -sheet and (c) coil, one Ramachandran map was constructed for each amino acid type, and the  corresponding backbone entropy was computed.
+See Materials and Methods for the definition and rationale of Pc.
+  Table 1.
+Backbone flexibility clusters of 20 amino acids in  helix, sheet and coil  Helix Sheet and coil  Clusters Entropy Clusters Entropy  Sheet Coil  1. Gly 3.913 1.
+Gly 5.299 5.299  2.
+Asn 3.759 2.
+Asn Asp 5.21 5.234  3.
+Asp His Ser Thr 3.514 3. His 5.090 5.149  4.
+Cys Tyr 3.296 4.
+Arg Cys Glu  Gln Lys Ser  4.932 4.978  5.
+Phe 3.214 5.
+Ala Met Phe  Thr Trp Tyr  4.782 4.841  6.
+Arg Gln Glu Leu  Lys Met Pro Trp  2.910 6.
+Leu 4.666 4.722  7.
+Ile Val 2.676 7. Ile Val 4.259 4.330  8. Ala 2.610 8.
+Pro 3.842 3.862  Backbone flexibility clusters within a structure were determined  based on Fig. 1.
+The number next to a cluster is the average  backbone flexibility of the amino acids included in that cluster, at  Pc of 6.1  104  .
+  Backbone Flexibility of CDR3 3  Please cite this article as: Haidar Jaafar N., et al, Backbone Flexibility of CDR3 and Immune Recognition of Antigens, J Mol Biol  (2014), http://dx.doi.org/10.1016/j.jmb.2013.12.024regarding Ala being the best helix stabilizer among  all 20 amino acids [5355].
+  We clustered amino acids into eight groups for helix  and sheet/coil, respectively (Table 1).
+The standard  deviation of entropies within each group is around  0.01.
+These groups recapitulate three known concepts in protein chemistry: (1) C  -branched residues  tend to have less entropy than C  -branched residues  (e.g., Ile versus Leu), which reflects the steric  hindrance of early branching on backbone conformation.
+(2) Charged and polar residues tend to have  more entropy than hydrophobic residues (e.g., Thr  versus Val).
+The ability of the former in participating in  hydrogen bonding and other enthalpic interactions  renders some backbone conformations more favorable than otherwise. (3) Smaller residues tend to have  more entropy than larger ones (e.g., Asp versus Glu).
+  Bulkier side chains would place more constraint on the  backbone and thus decrease backbone entropy.
+  Two residues appear to be outliers of the abovementioned general trends: Ala and His.
+As mentioned  before, Ala has the smallest entropy in helix.
+It belongs  to the fourth smallest entropy cluster in sheet and coil.
+  This is surprising as Ala has only one methyl group as  its side chain, small and un-branched.
+His on the other  hand has an unexpectedly large entropy.
+It is C  branched with a bulky five-membered ring and has  more entropy than other C  -branched ring-containing  residues Phe, Trp and Tyr, in all structure types.
+This  may be due to the fact that His has a smaller ring than  the residues mentioned above and contains two  nitrogen atoms, becoming positively charged at  slightly acidic pH. Thus, its unique properties allow it  to participate in hydrogen bonding and other enthalpic  interactions, leading to a greater variety of observed  backbone conformations.
+  There are three notable differences between  residue entropies in helix and those in sheet/coil.
+  First, as mentioned above, helix residues have  smaller entropy than sheet/coil residues.
+The difference is so great that the most flexible residue in  helix, Gly, has almost the same amount of entropy as  the most rigid residue in sheet/coil, Pro.
+This reflects  the strong steric constraint helix imposes on the  backbones of its component residues in order to  form hydrogen bonds at a regular interval.
+Second,  even though the rankings of the 20 residues within  helix are similar to those within sheet or coil, only  eight residues are in the same rank cluster (if we  rank the clusters in the order of high-to-low entropy),  while eight residues jump between neighboring  clusters and four residues jump to a further cluster.
+  These four residues are Thr (third in helix and fifth in  sheet/coil), Arg (sixth in helix and fourth in sheet/  coil), Pro (sixth in helix and eighth in sheet/coil) and  Ala (eighth in helix and fifth in sheet/coil).
+The  unusual behavior of Thr and Arg might reflect the  greater impact of side-chain size on backbone  entropy of helix than that of sheet/coil.
+Third, the  20 helix residues spread evenly across the range of  entropy (Fig. 1a).
+In contrast, for sheet/coil, three  residues (Ile, Val and Pro) have much lower  entropies than the other 17 residues, which spread  out more or less evenly.
+As Ile, Val and Pro are  C  -branched nonpolar residues, their different behaviors indicate the greater impact of these two  features on restricting backbone  conformations  in sheet/coil versus those in helix.
+  The impact of solvent accessibility on  backbone entropy  The results in Fig. 1 and Supplementary Fig. S1  are the output of pooling together the  conformational data from 18,555 high-quality protein  crystal structures (see Materials and Methods).
+  Hence, our structural data collectively suggest that  the backbones of sheet and coil in folded proteins  have similar backbone conformational entropy.
+  However, it is counterintuitive to assume that the  backbone of any folded protein can explore all  the possible  conformations allowable by the  Ramachandran maps derived from the collective  structural data that lead to Fig. 1 (Table 1) and  Supplementary Fig. S1.
+This might be the case in the  unfolded state of the protein but not in its folded state.
+  In folded proteins, intrinsic conformational fluctuations  have been shown experimentally and computationally  to correlate significantly with the relative solvent  accessibility (Arel), which was defined as the amount  of surface area a protein exposes to the solvent  compared to what is expected given its molecular  weight [56].
+Additionally, Arel was also reported to be a  strong predictor of the conformational changes  induced by protein binding [57].
+  Because the intrinsic structural flexibility of proteins is strongly influenced by solvent accessibility,  we computed the percentage ASA (accessible  surface area) with NACCESS [58] for each secondary structure within 520 monomeric protein crystal  structures used as templates in eight rounds of the  CASP (Critical Assessment of protein Structure  Prediction; CASP 29) [59] (no NMR structures).
+  After extracting the secondary structure information  for this dataset from the S2C database [60], we  computed in Fig. 2 the average percentage ASA [58]  (backbone and side chain) with NACCESS program  [58] for each of the sheet and coil backbone clusters  (Table 1).
+The percentage ASA (normalized for sidechain size) in Fig. 2 follows a similar pattern when  comparing the coil and sheet entropy clusters.
+  However, it is apparent from Fig. 2 that sheet  residues are more buried (less exposed to the  solvent) than coil residues.
+Based on these results  and the conclusions of the study by J. A. Walsh  regarding solvent accessibility and protein flexibility  [56], we can deduce that the sheet residues are  structurally more constrained than coil residues  4 Backbone Flexibility of CDR3  Please cite this article as: Haidar Jaafar N., et al, Backbone Flexibility of CDR3 and Immune Recognition of Antigens, J Mol Biol  (2014), http://dx.doi.org/10.1016/j.jmb.2013.12.024while sampling their allowable Ramachandran   conformations in folded proteins.
+Hence, it is logical  to define structural flexibility in the backbone of  folded proteins as the backbone entropy (Table 1)  normalized by its corresponding percentage ASA.
+  Even though the collective analysis in Fig. 1 and  Supplementary Fig. S1 shows that the coil and sheet  have similar backbone entropies, this definition of  structural flexibility will render the coil backbone  more flexible than that of the sheet backbone  because a higher fraction of its entropy (Table 1)  remains in the folded state of proteins.
+  The effects of backbone flexibility on immunoglobulin interactions  The binding sites of antibodies and TCRs are  mostly coils and thus should contain high backbone  entropy.
+A large portion of this is lost upon complex  formation.
+Accordingly, a previous study indicated  that antibodies and TCRs undergo conformational  changes and significant entropic loss upon binding  to their ligands [20].
+Thus, immunoglobulin interfaces are ideal candidates for testing the effects of  backbone flexibility on the kinetics of protein  complex formation.
+  To probe the effect of backbone entropy on the  formation of immunoglobulin/protein interfaces, we  collected binding affinity and kinetics data for 40  antibody/antigen and 34 TCR/pep-MHC complexes  with solved X-ray structures (Supplementary Table  S1).
+As expected, Fig. 3 shows that the antibody/  antigen complexes have stronger affinities than the  TCR/pep-MHC due to faster on-rates and slower  off-rates.
+To probe the impact of CDR backbone  flexibility on the affinity of these complexes, we  computed the loss of backbone entropy (S) of the  CDRs in Supplementary Table S2 as the sum of  CDR entropies, proportional to the extents their  solvent accessibility varied upon complex formation:    XSi  ASAi 1  where Si is the backbone entropy (coil or sheet in  Table 1 because the Kabat definition of CDRs  includes residues in both secondary structures) of ith  CDR position and ASAi is the change of the  percentage solvent accessibility of the ith CDR  position {computed using the NACCESS program  [58]: ASA(bound)  ASA(unbound)}. We utilized the  percentage and not absolute ASA to eliminate biases  related to the size of the side chain and to stay  consistent with recent evidence that relative solvent  accessibility is a strong predictor of conformational  flexibility of folded proteins [56] and of conformational  changes induced by protein binding [57].
+For simplicity, we approximated the unbound structure of  antibody or TCR using their bound structures (Supplementary Table S1) but without the binding partner.
+  In Fig. 4, we compared the Fab and TCR scores  from Eq. (1) for all CDR pairs (i.e., CDR1 for  antibodies corresponds to the sum over the heavy  and light CDRs) with their corresponding total sum.
+  Figure 4 indicates that the TCR CDRs (lower  affinities) are losing more unfavorable backbone  flexibility than the Fab CDRs (higher affinities) upon  binding to their protein targets.
+Figure 4 also  illustrates that the TCR CDR3s significantly  (p-value = 1.1  106 by Wilcoxon rank sum test)  lose more unfavorable flexibility than the Fab CDR3s  loops and that no significant difference is observed  when comparing TCR and Fab entropy (flexibility)  loss of CDR1s and CDR2s.
+Hence, the flexibility loss  of the CDR3 pair is a classifier that can distinguish  between the high (Fab) and low (TCR) affinity  interfaces.
+Among each interface type (Fab or  TCR), Fig. 4 also demonstrates that the CDR3s  lose more backbone flexibility than CDR1s or  CDR2s.
+Hence, we concluded that immunoglobulin  binding to protein targets requires compensation for  an entropic barrier specifically enforced by the CDR3  loops, rather than by all six CDRs.
+In Fig. 4, we  pooled together the CDR3 data from both chains  (heavy, light, ,  and so on) because these loops  are usually responsible for antigen specificity and to  increase our sample size for statistical analysis.
+We  performed the same analysis with CDR1CDR2 for  consistency. If we separate the CDRs by their  chains, these trends do not change significantly  versus the pooled results in Fig. 4 (data not shown).
+  To further expound on the statistical observation  that CDR3s contribute to most of the unfavorable  Cluster 1  Cluster 2  Cluster 3  Cluster 4  Cluster 5  Cluster 6  Cluster 7  Cluster 8  0  10  20  30  40  50  The average %ASA for the backbone flexibility   clusters within the CASP 2-9 protein structures %ASA  Sheet  Coil  Fig. 2.
+Comparing the solvent accessibility of coil and  sheet secondary structures extracted from the crystal  structures of 520 protein domains that are used as  templates for protein structure predictions in CASP rounds  29.
+The secondary structure information was extracted  from the S2C database [60].
+NACCESS was utilized to  compute the percentage ASA for each residue within these  structures.
+We reported the average percentage ASA and  its standard error for the amino acids within each  secondary structure backbone flexibility cluster (Table 1).
+  Backbone Flexibility of CDR3 5  Please cite this article as: Haidar Jaafar N., et al, Backbone Flexibility of CDR3 and Immune Recognition of Antigens, J Mol Biol  (2014), http://dx.doi.org/10.1016/j.jmb.2013.12.024backbone flexibility (entropy) loss in Fig. 4, we  compared in Fig. 5 our backbone flexibility measure  [Eq. (1)] to the binding energetics derived from the  surface plasmon resonance (SPR) binding dataset  in Supplementary Table S1.
+Change in binding free  energy (G) is dependent on the SPR binding  affinity constants (KD) in Supplementary Table S1  according to the following equation G = RTlnKD  (R is the gas constant; T = 298 K) and on the kinetic  coefficients (kon and koff in Supplementary Table S1)  according to the following simple derivation:  G  RT  lnK D   RT  ln  k off=k on   RT  ln  k off   RT  ln  k on  In Fig. 5, we correlated the computed backbone  flexibility loss [Eq. (1)] of the CDR3s to G and its kon  [Gon = RT  ln(kon)] and koff [Goff = RT  ln(koff)] components to understand the impact of CDR3  flexibility on the affinity and kinetics of immunoglobulin complex formation and to further validate our  backbone entropy measures in Table 1.
+  The significant positive correlation (p-value =  0.0001) between the computed backbone flexibility  loss (S) of the CDR3s (third bin in Fig. 4) and the  experimentally determined Gon in Fig. 5 implies that  CDR3s with higher backbone flexibilities will slow  down the association phase of their corresponding  immunoglobulin/antigen interaction.
+Hence, CDR3s  with higher backbone flexibility need to sample a  larger  conformational space before rearranging  into the optimal structure required to recognize a  specific antigen.
+This is consistent with what has  been previously reported in the literature regarding the  relationship between the conformational entropy and  the association energy of proteinprotein interactions  [1,17,18,33,61].
+The novelty here is that only the  backbone flexibility of the CDR3s influences the  association of immunoglobulin interactions.
+In contrast,  the significant positive correlation (p-value b 0.0001)  with the experimentally determined Goff implies that  CDR3s with higher backbone flexibility lead to faster  dissociation of the immunoglobulin complex.
+This a  rather unexpected observation that needs further  investigation.
+Consequently, as the flexibility of  CDR3s increases in Fig. 5, the affinity of the Ig  fragments decreases (G increases with a positive  correlation; p-value b 0.0001).
+In spite of the statistical  significance of the patterns observed in Fig. 5, the  reported correlation coefficients 0.5, 0.5 and 0.55 for  Gon, Goff and G, respectively, are low because we  are only relating the backbone entropy to the total free  energy of binding, thus ignoring other energetic terms  that influence these interactions.
+When correlating the  computed S of all six CDRs rather than that of CDR3s  only, the observed correlations become statistically  insignificant.
+  Because the relative solvent accessible is a strong  predictor of the intrinsic conformational flexibility of  folded proteins [56] and of conformational changes  induced by protein binding [57], we sought to verify  that the relationship between backbone flexibility  and the binding energetics in Fig. 5 is not dominated  by the percentage ASA (computed with NACCESS  [58]) component of Eq. (1).
+Hence, we correlated the  averaged relative ASA change (bound  unbound)  Comparing the association constants of  TCRs and mAbs  TCR  mAb  103  104  105  106  107  p-value = 1.3 x 10-5  kon (1/Ms)  Comparing the dissociation constants of  TCRs and mAbs  TCR  mAb  10-6  10-5  10-4  10-3  10-2  10-1  100  p-value = 1.9 x 10-9  koff (1/s)  Comparing the affinity constants of  TCRs and mAbs  TCR  mAb  10-12  10-11  10-10  10-9  10-8  10-7  10-6  10-5  10-4  p-value = 2.6 x 10-11  KD (1/M)  Fig. 3.
+The distributions of the SPR kinetic and affinity  coefficients kon, koff and KD = koff/kon for the 34 TCR and  40 Fab complex structures in Supplementary Table 1.
+The  kinetic rates were reported in the literature by fitting the  binding response of the SPR (25 C; Biacore 3000) to a  simple Langmuir model.
+  6 Backbone Flexibility of CDR3  Please cite this article as: Haidar Jaafar N., et al, Backbone Flexibility of CDR3 and Immune Recognition of Antigens, J Mol Biol  (2014), http://dx.doi.org/10.1016/j.jmb.2013.12.024for the CDR3s of the 74 immunoglobulin complexes  (Supplementary Table S1) with their corresponding  SPR energetics.
+The correlation of the averaged  ASA change of CDR3 with Gon is 0.36 (p-value =  0.0023), with Goff is 0.42 (p-value = 0.0005) and  with G is 0.43 (p-value = 0.0002 in Supplementary  Fig. S4).
+These results highlight the influence of the  averaged relative ASA on the conformational flexibility of CDR3s and consequently on the kinetics of  immune recognition of antigens, yet these correlationsespecially for Gonare statistically less  significant than their counterparts in Fig. 5.
+Additionally, we correlated the sum of the CDR3s backbone  entropy loss that corresponds to setting the percentage ASA in Eq. (1) to unity, with the binding  energetics of the 74 complexes in Supplementary  Table S1.
+The correlations of the uncorrected CDR3  backbone entropy loss with Gon, Goff and G  are 0.36 (p-value = 0.002), 0.36 (p-value = 0.002)  and 0.43 (p-value = 0.0002 in Supplementary  Fig. S4), respectively.
+This correlation analysis  demonstrates that the individual terms relative ASA  and backbone entropy strongly impact the binding  energetics of the 72 immunoglobulin complexes in  Supplementary Table S1.
+However, the product  of these terms in Fig. 5 is statistically more significant  in capturing the kinetics and affinities of the 72  immunoglobulins than the individual terms of Eq. (1).
+  No significant correlations can be reported when this  analysis is repeated for CDR1 and CDR2.
+  Improving the affinity of A6/Tax-HLAA2 complex  by systematically introducing prolines into the  CDRs of the A6 TCR  Consistent with our results in Fig. 5, the literature  contains mounting evidence that the CDRs of  affinity-matured antibodies are structurally rigid  (Mohan et al. [41]; Thorpe et al. [43]) and that  high-affinity antibodies with known structures recognize antigens in a key-and-lock-like mode (Haidar et  al. [50]).
+It has also been suggested that incorporating  intraloop (Wu et al. [62]) and interloop (Lipovsek et al.  [48]) disulfide bonds would constrict the flexibility of  CDRs and thus help engineer and select high-affinity  antibodies.
+However, introducing novel cysteines into  peptide sequences can impede the folding of the  protein structure due to the possible formation of  non-native disulfide bonds.
+Proline scanning has  been proposed as an alternative to further enhance  the thermal stability of proteins by lowering the entropy  of the reference (unfolded) state in order to avoid such  complications [6368].
+Furthermore, Holler et al.  isolated by yeast display 2C TCR clones with  proline-rich sequence at the tip of their CDR3  loop that enhanced the affinity of 2C to the pep-MHC  targetdEV8/Kb  by more than 100-fold [69]. Moreover, phage display has isolated higher-affinity clones  that contained proline substitutions for the Mel5 [70]  and 1G4 [71].
+These observations, in addition to our  results from Table 1 and Figs. 4 and 5, led us to pursue  mutational schemes focused on structurally constricting the CDRs of immunoglobulins to further delineate  the impact of CDR flexibility (conformational entropy)  on the stability of Ig/protein complexes.
+We focused  on the A6/Tax-HLAA2 (PDB ID: 1AO7 [72]) complex  because of our previous experience with modulating  the low affinity of this interface [49,73].
+  Theoretically, amino acid mutations from upper  backbone flexibility clusters to lower clusters in  Table 1 would increase the rigidity of CDRs and  result in decreasing the unfavorable entropy loss  during proteinprotein recognition.
+Specifically, proline mutations will minimize entropy loss at each  CDR (coil) position because the proline backbone is  the most rigid in the coil/sheet category of Table 1  due to its constricting cyclic side chain.
+We decided  to utilize structural information to efficiently predict  the A6 CDR positions that will favor and accommodate proline substitutions by utilizing the graphical  tool in the Ramachandran Plot Server  to compute  and project the dihedral angles of the A6 CDR  structures onto high-quality proline and pre-proline  Ramachandran maps generated from all the PDB  [74].
+We ignored the helix content in the proline and  pre-proline  maps of the Ramachandran Plot  Server because prolines are rare within the helix  secondary structure.
+This server can identify sites in  a CDR structure that prefer proline and pre-proline  backbone conformation.
+  Comparing CDR backbone flexibity: TCR vs Fab  TCR CDR1  Fab CDR1  TCR CDR2  Fab CDR2  TCR CDR3  Fab CDR3  TCR CDR Sum  Fab CDR Sum  0  1000  2000  3000  4000  p = 1.1E-06  p = 4.2E-04  p = 0.7 p = 0.1  Computed  S  Fig. 4.
+Comparing the binding entropy loss (computed  S) distributions for CDRs of the 34 low-affinity TCR  complex structures (green) and the 40 high-affinity Fab  complex structures (red) of Supplementary Tables S1 and  S2.
+The binding entropy loss was computed according to  the following equation: Si  ASAi where Si (Table 1) is  the backbone flexibility of CDR residue i and ASAi =  ASAi  (bound)  ASAi  (unbound) is the change in solvent  accessibility of CDR residue i due to complex formation.
+  ASA was computed via NACCESS.
+The distributions were  compared between TCR and Fab complex structures for  CDR1s, CDR2s, CDR3s and all CDRs.
+The statistical  significance of these comparisons was reported as the  p-value of the one-tailed Wilcoxon ranked sum test.
+  Backbone Flexibility of CDR3 7  Please cite this article as: Haidar Jaafar N., et al, Backbone Flexibility of CDR3 and Immune Recognition of Antigens, J Mol Biol  (2014), http://dx.doi.org/10.1016/j.jmb.2013.12.024In addition to the graphical representation of data,  the Ramachandran Plot Server can quantify the  proline or pre-proline backbone preference at any  position of the CDR as being Preferred, Accessible or Un-preferred.
+The coordinates of the bound  A6 CDRs (1AO7) were uploaded to the Ramachandran Plot Server to compute the bound CDR dihedral  angles and project them on the proline and  pre-proline Ramachandran plots.
+A CDR position i  was considered for mutation into proline if and only if  the following backbone preferences were met:  (1) The  angular coordinates of CDR  position i are in a Preferred proline backbone conformation.
+  (2) The  angular coordinates of CDR  position i  1 (preceding CDR position) are  in a Preferred or Accessible pre-proline  backbone conformation.
+  Only eight CDR (four in CDR1, one in CDR2  and three in CDR3) and five CDR (one in CDR1,  two in CDR2 and two in CDR3) residues of the A6  TCR satisfied the conditions mentioned above.
+After  engineering the 13 proline mutations in Table 2  according to the protocols in Materials and Methods,  we utilized SPR (Biacore 3000) to determine their  kinetic and affinity constants to Tax-HLAA2.
+  Mutation R102P (CDR3) had a 26.5-fold improvement (KD_wt/KD_mut N 1 in Table 2) in its affinity  to the Tax-HLAA2 complex.
+The kon of this mutant  (15.7  104 1/Ms) was three times faster (favorable)  than the association rate of the wild-type A6  (5.1  104 1/Ms) and its koff (0.13  101 1/s) was  approximately nine times slower (favorable) than the  dissociation rate of the wild-type A6 (1.1  101 1/s).
+  Additionally, mutants K103P (CDR3) and A52P  (CDR2) had 1.6- and 1.7-fold improvements, respectively, in binding affinity to Tax-HLAA2.
+The kon of  mutant K103P was three times faster than the  association rate of the wild-type A6/Tax-HLAA2  interaction, yet the kon of A52P was slightly slower  (unfavorable) in Table 2.
+However, the koff of K103P  was approximately two times faster (unfavorable) and  that of A52P was two times slower.
+Mutations  R102A and K103A (the wild type at 52 is already  alanine) completely lost binding to pep-MHC (via  SPR); thus, the proline substitution at these positions  and not the shaving of the charged wild-type side  chains is the cause behind the affinity improvement.
+  Figure 6 contains the crystal structure of the wild-type  A6/Tax-HLAA2 complex (PDB ID: 1AO7) with the  backbones of CDR positions A52, R102 and K103  colored red.
+Among these three mutants, only residue  R102 directly contacts Tax-HLAA2 (Fig. 6).
+  Mutations R27P (CDR1) and G101P (CDR3)  also retained binding to Tax-HLAA2, but the affinities  of these interactions were half (KD_wt/KD_mut ~ 0.5  in Table 2) of that of the wild-type A6.
+Both the  association (kon) and dissociation (koff) constants for  these mutants were unfavorably impacted.
+Mutation  G102P (CDR3) bound to Tax-HLAA2 with very  low affinity (KD N 200 M) that was not possible to  accurately evaluate with Biacore 3000 (Langmuir  binding).
+In Fig. 6, CDR positions G101, R27 and  Fig. 5.
+Correlation between the weighted backbone  entropy change and the Gon [RT  ln(kon)], Goff  [RT  ln(koff)] and G (RT  lnKD) of the 34 TCR  complexes and 40 Fab complexes in Supplementary  Table S1.
+The TCR/pep-MHC and the Fab/antigen  complexes are labeled in the scatter plots with green  circles and red squares, respectively.
+  8 Backbone Flexibility of CDR3  Please cite this article as: Haidar Jaafar N., et al, Backbone Flexibility of CDR3 and Immune Recognition of Antigens, J Mol Biol  (2014), http://dx.doi.org/10.1016/j.jmb.2013.12.024G102 were highlighted in yellow.
+The remaining  seven proline mutations were labeled with no  binding (NB) in Table 2 because their affinity to the  Tax-HLAA2 complex was undetectable with Biacore  3000 and their positions were colored blue in Fig. 6.
+  Combining the A6 proline mutations with other  designed mutations leads to 2400-fold improvement in affinity for Tax-HLAA2  Proline CDR point mutations that improved binding  to pep-MHC were then combined into the triple  mutant K103P/A52P/R102P (KAR) to determine  whether it was possible to further improve the affinity  beyond those of the single-point mutants.
+To  engineer the KAR triple mutant, we combined the  double mutant A52P/R102P via standard  PCR-based mutagenesis and then expressed its  inclusion in Escherichia coli.
+The triple mutant KAR  was refolded and purified from the -chain inclusion  bodies of the double mutant A52P/R102P in  combination with the -chain inclusion bodies of  the mutant K103P.
+Surprisingly, the KAR proline  triple mutant only had a 15.7-fold improvement  (Table 3) in its affinity to the pep-MHC, less than  the 26.5-fold increase shown for the single mutant  R102P in Table 2.
+The kon of the KAR mutant  (4.3  0.8  104 1/Ms) was slightly slower than the  association rate of the wild-type A6 (5.1  104 1/Ms),  yet its koff (0.06  0.01  101 1/s) was 18 times  slower than the dissociation rate of the wild-type A6  (1.1  101 1/s).
+Hence, the affinity enhancement of  the KAR mutant to the pep-MHC was exclusively  caused by the protracted dissociation phase of the  interaction.
+  Table 2.
+The kinetics of Tax-HLAA2 binding to the immobilized A6 TCR wild type and single-point proline mutants  1AO7 CDR kon (104 1/Ms) koff (101 1/s) KD = koff/kon (M) KD_wt/KD_mut  WT 5.1 1.1 2.2 1  D26P 1 NB NB NB NB  R27P 1 4.4  0.2 1.6  0.1 3.7  0.2 0.6  G28P 1 NB NB NB NB  S29P 1 NB NB NB NB  N52P 2 NB NB NB NB  G102P 3 ND ND N200 b0.01  K103P 3 14.0  6.0 1.91  0.01 1.4  0.2 1.6  L104P 3 NB NB NB NB  H29P 1 NB NB NB NB  V50P 2 NB NB NB NB  A52P 2 4.4  0.2 0.56  0.03 1.27  0.03 1.73  G101P 3 3.9  0.7 1.8  0.1 4.7  1.2 0.5  R102P 3 15.7  1.0 0.13  0.02 0.083  0.002 26.5  The binding parameters kon, koff and KD = koff/kon were calculated by fitting the binding sensograms (Biacore 3000) of these interactions to  the Langmuir model of the BIAevaluation analysis package.
+The ratio KD_wt/KD_mut compares the affinity of Tax-HLAA2 to the proline  mutants with respect to its affinity to the wild-type A6 TCR.
+If the ratio KD_wt/KD_mut is greater than 1, then the corresponding proline mutant  binds to Tax-HLAA2 with a higher affinity than that to wild-type A6.
+Mutants labeled with NB (no binding) lost binding to Tax-HLAA2 (flat  SPR sensogram).
+  Fig. 6.
+The A6 CDR positions that allow proline  substitutions are mapped on the structure of A6/Tax-HLAA2 complex (PDB identifier 1AO7).
+The 1/2 domain of  HLAA2 is in white, the Tax peptide is in green and the A6  TCR is in ribbon (-chain and -chain are in light and dark  grays, respectively).
+The positions of the CDR proline  mutations that caused loss of binding to Tax-HLAA2  (labeled with NB in Table 2) are highlighted in blue.
+The  CDR positions that are highlighted in yellow correspond  to the proline mutations in that bound to Tax-HLAA2 with an  affinity similar to that of the wild-type A6 (KD_wt/KD_mut  1 in  Table 2).
+The CDR positions that are highlighted in red  correspond to the proline mutations K103P, A52P  and R102P that significantly enhanced the affinity of  the A6/Tax-HLAA2 interaction (KD_wt/KD_mut N 1 in  Table 2).
+  Backbone Flexibility of CDR3 9  Please cite this article as: Haidar Jaafar N., et al, Backbone Flexibility of CDR3 and Immune Recognition of Antigens, J Mol Biol  (2014), http://dx.doi.org/10.1016/j.jmb.2013.12.024To capture the cooperative nature of the combined  triple proline mutant (KAR), we compared its  measured kinetics (Table 3) to the sum of the  kinetics of the individual point mutants in Table 2.
+  Specifically, we employed the Moza et al. [75]  definition of cooperativity as the difference between  the measured G for the triple mutant and the sum  of the G values for the component single  mutations.
+According to Moza et al., the impact of  a mutational combination on binding to pep-MHC is  considered cooperative if this difference is less than  0.5 kcal/mol, anti-cooperative if greater than  0.5 kcal/mol and additive otherwise [75].
+We computed Gon [RT  ln(kon_wt/kon_mut)] and Goff  [RT  ln(koff_mut/koff_wt)] for the KAR mutant and the  component single mutants from the SPR determined  kinetics in Tables 2 and 3.
+The impact of the triple  mutation on the association rate was unexpectedly  anti-cooperative (+ 1.27 kcal/mol) since the kon  values of both single mutants R102P and K103P  were enhanced relative to that of the wild-type A6  (Table 2).
+However, the impact of KAR mutational  combination on the dissociation rate was additive  (cooperativity = 0.38 kcal/mol).
+  In Table 2, mutations R102P and K103P  enhanced the kon of binding to pep-MHC and the  double mutant K103P/R102P had a 7.9-fold  improvement (Table 3) in its affinity to pep-MHC.
+  The kon of the K103P/R102P mutant (52.7   10.5  104 1/Ms) was 10 times faster than that of  the wild-type A6 (5.1  104 1/Ms), while its koff  (1.50  0.36  101 1/s) was approximately identical with that of the wild-type A6 (1.1  101 1/s).
+The  impact of this double mutation on the association  (cooperativity = 0.12 kcal/mol) and dissociation  (cooperativity = 0.24 kcal/mol) rates was additive.
+  This is consistent with our previous observations  regarding the additivity of double mutants belonging  to the different TCR chains [49,73].
+The favorable kon  additivity of the double mutant K103P/R102P  demonstrates that the mutation A52P has an  unfavorable impact on the kon of the KAR mutant.
+  However, the favorable koff additivities of both  K103P/R102P and KAR mutants illustrate that  mutation A52P maintained its positive impact on  the dissociation phase of the interaction with  pep-MHC when combined with the two other proline  mutants.
+  We have previously combined single-point mutations that were computationally designed at positions 26, 27, 28, 51 and 100 of the A6 TCR chain  [49] to engineer the WFGMT (position 28 is not in  boldface because it was back-mutated to the wildtype substitution glycine [49]) mutant that bound to  the pep-MHC with an affinity 100-fold (KD_wt/KD_mut  ratio in Table 3) better than that of the wild-type A6  (kon = 6.32  104 1/Ms; koff = 0.0135  10 1 1/s)  [49].
+Combining the WFGMT (100-fold) and R102P  (26-fold) mutations only resulted in a 297-fold  Table 3.
+The kinetics of Tax-HLAA2 binding to the immobilized A6 TCR wild-type and A6 mutants that contain  combinations of proline single-point mutations from Table 2 in addition to previous mutations that we have rationally  designed  1AO7 kon (104 1/Ms) koff (101 1/s) KD = koff/kon (M) KD_wt/KD_mut  WT 5.1 1.1 2.2 1  K103P/A52P/R102P (KAR) 4.3  0.8 0.06  0.01 0.14  0.05 15.7  K103P/R102P 52.7  10.5 1.50  0.36 0.28  0.05 7.9  WFGMT 6.32 0.0135 0.0214 ~100  WFGMT/R102Pa 4.7 0.0035 0.0074 297  WFGMT/KARa 3.4 0.0003 0.0009 2444  The binding parameters kon, koff and KD = koff/kon were calculated by fitting the binding sensograms (Biacore 3000) of these interactions to  the Langmuir model of the BIAevaluation analysis package.
+The ratio KD_wt/KD_mut compares the affinity of Tax-HLAA2 to the proline  mutants with respect to its affinity to the wild-type A6 TCR.
+If the ratio KD_wt/KD_mut is greater than 1, then the corresponding mutant binds  to Tax-HLAA2 with a higher affinity than that to wild-type A6.
+a Statistics are not available because we were not able to regenerate the surface.
+  Fig. 7.
+The raw and unfitted SPR sensograms (Biacore)  of 9 M Tax/HLAA2 flown over 400 response units of  immobilized wild-type A6 TCR (black broken line) or A6  mutants KAR (black continuous line), WFGMT/R102P  (blue continuous line) and WFGMT/KAR (red continuous  line).
+This data were fitted into 1:1 binding model as part of  the reported analysis in Table 3.
+  10 Backbone Flexibility of CDR3  Please cite this article as: Haidar Jaafar N., et al, Backbone Flexibility of CDR3 and Immune Recognition of Antigens, J Mol Biol  (2014), http://dx.doi.org/10.1016/j.jmb.2013.12.024improvement (Table 3) in the TCR/pep-MHC affinity  over wild type.
+However, combining the WFGMT  (100-fold) with the KAR (15.7-fold) mutant leads to  2444-fold enhancement (Table 3) in the TCR/  pep-MHC affinity.
+To our knowledge, such affinity  improvement based on rational design has not  been previously reported in the literature for  immunoglobulins.
+  It is clear from the SPR sensograms in Fig. 7 that  the enhanced affinity for both combinations  WFGMT/R102P and WFGMT/KAR is due to their  slow dissociation rates as evaluated by the Langmuir  model in Table 3.
+While the association rate of  R102P significantly improved in Table 2, the  association rates of both WFGMT/R102P and  WFGMT/KAR did not vary from that of the wild-type  A6 in Table 3.
+For the high-affinity mutants in Fig. 7,  we have extended the SPR dissociation time to  1000 s. It is also important to note that we were not  able to run experimental replicates for WFGMT/  R102P and WFGMT/KAR because our regeneration buffer failed to restore the TCR baseline in the  sample flow cells.
+However, these data are reproducible when repeated in a separate experiment.
+  Proline substitution in the CDRs of C225 Fab  does not impact its affinity to huEGFR  Constricting the backbone of CDRs with proline  mutations enhanced the stability of the low-affinity  (KD = 2.2 M) A6/TAX-HLAA2 interface.
+Hence, we  tested this mutational scheme on the high-affinity  C225/huEGFR interface (KD = 1.31 nM in Table 4).
+  We uploaded the Euclidean coordinates of the C225  Fab bound CDRs (1YY9) [76] onto the Ramachandran  Table 4.
+The kinetics of C225 wild-type Fab and the C225 proline mutants binding to the immobilized huEGFR  1YY9 CDR kon (106 1/Ms) koff (103 1/s) KD = koff/kon (nM) KD_wt/KD_mut  WT 1.46  0.23 1.91  0.47 1.31  0.18 1  L29P H1 2.27  0.61 3.14  0.93 1.38  0.26 0.95  G33P H1 No expression  W52P H2 1.09  0.41 17.30  6.29 15.9  2.91 0.08  S53P H2 0.89  0.12 4.65  0.22 5.21  0.74 0.25  G54P H2 2.20  0.05 4.53  0.71 2.06  0.13 0.64  A98P H3 0.85  0.09 6.38  0.19 7.55  0.46 0.17  L99P H3 No expression  Y101P H3 1.46  0.71 31.10  5.42 21.3  3.8 0.06  F106P H3 No expression  A25P L1 0.67  0.09 1.0  0.1 1.48  0.06 0.89  S26P L1 2.14  0.31 2.75  0.29 1.29  0.34 1  S28P L1 2.36  0.62 2.13  0.76 0.90  0.08 1.5  S54P L2 2.08  0.85 2.63  0.37 1.27  0.17 1  W94P L3 No expression  T96P L3 0.024  0.015 26.60  11.73 1130  462 0.0012  The binding parameters kon, koff and KD = koff/kon were calculated by fitting the binding sensograms (Biacore 2000) of these interactions to  the Langmuir model of the BIAevaluation analysis package.
+The ratio KD_wt/KD_mut compares the affinity of huEGFR to the proline mutants  with respect to its affinity to the wild-type C225 Fab.
+If the ratio KD_wt/KD_mut is greater than 1, then the corresponding mutant has a higher  affinity to huEGFR than that to wild-type C225 Fab.
+Mutants that did not transiently express in HEK 293 were labeled with no expression.
+  Fig. 8.
+The C225 CDR positions that allow proline  substitutions are mapped on the structure of C225Fab/  huEGFR complex (PDB identifier 1YY9).
+Domain III of  huEGFR is in white and the variable region of C225 Fab is  in ribbon (heavy and light chains are in light and dark  grays, respectively).
+The CDR positions highlighted in blue  correspond to the proline mutations whose mutants did not  express in HEK 293 cells according to Table 4.
+The  positions of the CDR proline mutations that caused loss of  binding to huEGFR (KD_wt/KD_mut  0.5 in Table 4) are  highlighted in yellow.
+The CDR positions (only backbones)  that are highlighted in green correspond to the proline  mutations in Table 4 that bound to huEGFR with an affinity  similar to that of the wild-type C225 (0.5  KD_wt/  KD_mut  1 in Table 4).
+The light chain CDR position S29  is highlighted because S29P is the only mutation in Table 4  that slightly enhanced the affinity of the C225/huEGFR  interaction (KD_wt/KD_mut = 1.5).
+  Backbone Flexibility of CDR3 11  Please cite this article as: Haidar Jaafar N., et al, Backbone Flexibility of CDR3 and Immune Recognition of Antigens, J Mol Biol  (2014), http://dx.doi.org/10.1016/j.jmb.2013.12.024Plot Server to identify the CDR positions whose   angular coordinates would allow for proline substitution  according to the graphical scheme we discussed in the  A6/TAX-HLAA2 case study.
+The bound C225 Fab has  nine positions of its heavy chain CDRs (two in CDR1,  three in CDR2 and four in CDR3 of the heavy chain)  and six positions of its light chain CDRs (three in  CDR1, one in CDR2 and two in CDR3 of the light  chain) that satisfy the conditions needed for substitution with proline.
+After engineering the 15 proline  mutations in Table 4 according to the protocols in  Materials and Methods, we utilized SPR (Biacore  2000) to determine their kinetic and affinity constants to  huEGFR.
+  Surprisingly, heavy chain mutations G33P, L99P  and F106P and light chain mutation W94P (numbering  is consistent with the 1YY9 structure) did not express  transiently in HEK 293 cells.
+These CDR positions are  colored blue in Fig. 8.
+Of all the proline mutations in  Table 4, only the light chain mutation A25P had a  slower dissociation rate (koff = 1  103 1/s) than that  of the wild-type C225 (koff = 1.91  103 1/s).
+Additionally, heavy chain mutations L29P and G54P and  light chain mutations S26P, S28P and S54P had faster  kon values than those of the wild-type C225 in Table 4.
+  Only S28P of the light chain CDR1 (colored red in  Fig. 8) had a 1.5-fold improvement in its affinity to the  Tax-HLAA2 complex.
+Light chain mutants A25P,  S26P and S54P (backbone is colored green in  Fig. 8) retained similar affinity to that of the wild type  (KD_wt/KD_mut ~ 1).
+The rest of mutants (colored yellow  in Fig. 8) had reduced affinity to pep-MHC in Table 4  (KD_wt/KD_mut b 1).
+  Discussion  In this study, we took advantage of the rapid  growth of the PDB and estimated the backbone  entropies of the 20 amino acids in common  secondary structures.
+The relative rankings of  amino acids in each secondary structure type  agree well with previous knowledge on protein  biochemistry.
+We found helix residues to have  lowest backbone entropy.
+One surprising finding is  that sheet and coil residues have nearly identical  backbone entropies (Fig. 1, Table 1 and Supplementary Fig. S1), although the current paradigm  states that secondary structures are less flexible  than coils in folded protein structures.
+We do not  propose that a sheet residue in a particular folded  protein could explore all possible backbone conformations allowable by the Ramachandran map  derived from this type of residue in sheets of all  PDB structures.
+Rather, this might be the case in the  unfolded state of the protein.
+We suppose that a  fraction of this entropy, proportional to the percentage ASA of a residue, remains in the folded  secondary structure or coil.
+To support this argument, we computed in Fig. 2 the percentage ASA of  the backbone entropy clusters in Table 1 by utilizing  the structural data of 520 CASP protein templates  [59].
+It is apparent that coil residues are more  accessible to the solvent than sheet residues.
+  Consequently, the coil backbone can retain higher  fraction of its  conformational entropyproportional to the relative solvent accessibility [56]than  that of the sheet backbone in the final state of the  folded protein.
+Hence, the flexibility of a folded  protein backbone depends on two major variables:  solvent accessibility and backbone entropy.
+These  observations are captured in Eq. (1) and were  validated in Fig. 5.
+  The utility of our backbone flexibility measure is  illustrated in Fig. 4 as it was able to distinguish  low-affinity immunoglobulin complexes from highaffinity immunoglobulin complexes.
+Additionally, the  significant but marginal correlations between the  backbone flexibility loss and the affinity of immunoglobulin binding in Fig. 5 demonstrate the power of  our measures because backbone entropy is only  one component among many that usually contribute  to the total binding free energy of protein complexes.
+  In addition to utility, those measures revealed  interesting observations about immunoglobulin interactions.
+For example, this is the first comprehensive studynot a case studyto report that only  the flexibility of the CDR3, rather than the flexibility  of all six CDRs, impacts the kinetics and stability of  Table 5.
+Comparing the amino acid composition of the  CDR3s of affinity-matured (PDB) and germline  (KabatMan) antibodies  Cluster Amino acid Heavy CDR3 Light CDR3  KabatMan PDB KabatMan PDB  1 Gly 11.2 11.5 4.8 4.3  2 Asn 2.5 2.8 5.0 5.3  Asp 10.3 13.2 4.0 1.7  3 His 1.4 2.0 3.9 6.2  4 Arg 10.6 10.9 2.6 3.2  Cys 0.7 0.2 0.3 0.1  Gln 0.9 0.6 15.1 18.3  Glu 1.8 2.7 1.2 2.1  Lys 1.6 0.6 0.7 1.1  Ser 7.5 5.2 15.9 11.1  5 Ala 11.9 12.3 3.4 2.0  Met 2.1 2.6 0.7 0.3  Phe 5.4 6.6 2.8 4.3  Thr 3.8 4.3 5.2 3.6  Trp 2.7 2.2 5.5 5.8  Tyr 14.3 12.4 9.5 10.1  6 Leu 3.4 2.9 6.6 5.8  7 Ile 1.7 1.5 1.4 1.1  Val 3.5 2.4 2.6 1.5  8 Pro 2.8 3.1 8.6 12.2  The cluster number is consistent with the sheet/coil backbone  entropy cluster each amino acid belongs to in Table 1.
+Percentages in boldface indicate that the absolute difference between the  affinity-matured and germline CDRs is 0.9%.
+  12 Backbone Flexibility of CDR3  Please cite this article as: Haidar Jaafar N., et al, Backbone Flexibility of CDR3 and Immune Recognition of Antigens, J Mol Biol  (2014), http://dx.doi.org/10.1016/j.jmb.2013.12.024immunoglobulin/protein interfaces (Fig. 4).
+Additionally, Figs. 4 and 5 show that immunoglobulin  interactions that lose more CDR3 backbone flexibility will have slower association rates, faster dissociation rates and lower affinity.
+Losing more CDR3s  backbone conformational flexibility due to complex  formation would require the backbone of the CDR3  loops to sample a larger  conformational space  while rearranging into the optimal binding conformation.
+Hence, losing more conformational flexibility  upon complex formation will result with slower  association rate for the interaction, yet its impact  on the dissociation phase of the interaction needs  further investigation and explanation.
+  Upon comparing high-affinity (Fabs) to low-affinity  (TCR) CDRs in Figs. 4 and 5, we observed that  CDR3s lose the most backbone conformational  entropy among all immunoglobulin CDRs.
+This is  consistent with a recent observation by Pierce and  Weng regarding CDR3s that undergo the largest  conformational changes [77].
+Pierce and Weng  reached this conclusion by comparing the bound  and unbound crystal structures of 20 TCR molecules.
+  To explain this difference between the high-affinity  and low-affinity immunoglobulins, we compared in  Table 5 the amino acid content of the CDR3s of the 40  affinity-matured antibodies (Supplementary Table S1)  to that of the germline antibody sequences within the  KabatMan database [78].
+Upon close examination of  the abundance calculations in Table 5, we can  observe subtle fluctuations in amino acid propensity  between the two datasets. If we ignore biases  attributed to X-ray crystallography, we can say that  affinity maturation slightly enriches the abundance of  Pro and Gln in the CDR3 of the light chain in addition to  Asp in the CDR3 of the heavy chain.
+In contrast, Ser  and Asp get slightly depleted from the CDR3 of the  light chain.
+These subtle differences get even further  masked upon pooling the amino acids based on their  backbone flexibility cluster.
+Hence, we can conclude  that the sequence content of high- and low-affinity  CDR3s are being sampled from similar amino acid  distributions and consequently of similar amino acid  backbone cluster (Table 1) distributions.
+However,  Eq. (1) and the observations deduced from Figs. 4 and  5 demonstrate that the flexibility of CDR3s and its  relationship to the kinetics of immunoglobulin recognition are strongly impacted by two features of CDR3s:  primary sequence and structural constraints that are  captured by the percentage solvent accessibility  correction in Eq. (1).
+We have focused here on the  relationship between CDR3 flexibility and immunoglobulin sensitivity but not immunoglobulin specificity,  even though multiple case studies relate the multispecificity of antibodies to the structural plasticity of  their CDRs [3647].
+The backbone flexibility measures we reported in Table 1 and Eq. (1) may help  explain the structural mechanism by which highaffinity two-in-one antibodies recognize multiple antigens [7981] and of low-affinity TCRs such as 42 F3  whose CDR3 undergoes considerable conformational change to recognize two unrelated peptides  (QL9 and a fragment of p3A1) presented by H2-Ld  [35].
+  Traditionally, restricting CDR flexibility to enhance  binding affinity of antibodies has been achieved  through forming disulfide bridges by systematic  insertion of cysteine doublets into the CDRs [48].
+  Alternatively, we proposed in this study a simple  algorithm to achieve the same outcome by inserting  single-point proline mutations into the CDRs of  immunoglobulins.
+Interestingly, this simple mutational scheme yielded three single-point mutations  (Table 2) that enhanced the low affinity of the A6/  Tax-HLAA2 interaction.
+In contrast, no proline  mutations were able to significantly enhance the  already high affinity of the C225 Fab to its antigen,  huEGFR (Table 3).
+The latter observation is in  agreement with published reports that high-affinity  Fabslike C225recognize their antigens in a  key-and-lock-like manner [41,43,50] and thus cannot  be further rigidified by proline substitutions in their  CDRs.
+Consistent with Fig. 3, only single-point  mutations of the CDR3s (K103P and R102P)  significantly improved the kon (also koff) of the A6/  Tax-HLAA2 interaction in Table 2.
+However, Zaffi  our previously optimized target functionfailed to  predict these mutations because it did not include a  parameter to capture backbone stability [49].
+  In the future, protein design algorithms could take  advantage of our findings to redesign protein  interfaces to enhance the affinity and kinetics of  proteinprotein interactions [49,82].
+Alternatively,  our approach can be applied to residues that do  not directly contact the binding partner (K103P and  A52P in Fig. 6) yet are close enough to affect the  rigidity of the binding site backbone.
+In the example  of antibodies and TCRs, these would be positions at  the stems of the CDR loops.
+However, relying solely  on strategies that restrict CDR flexibility to enhance  the affinity of immunoglobulin will be limiting because  our Pro scanning method had low success rates in  Table 2 (3/13) and Table 4 (1/15) in achieving this  goal.
+Hence, our backbone measure should be  further incorporated into target function along with  other energy components to improve proteinprotein  and proteinligand docking algorithms.
+These entropic measures can be implemented to predict  flexible regions on protein surfaces, and it can be  applied to improve the performance of algorithms  that predict protein binding sites or patches that  impact protein solubility [83].
+Additionally, such  terms can aid with further understanding the  structural mechanisms that drive the somatic hypermutations within B-cells to generate a diversity  of antibodies with different affinities when  encountering antigens.
+With the ever-increasing  therapeutic usage of antibodies, such inferences  Backbone Flexibility of CDR3 13  Please cite this article as: Haidar Jaafar N., et al, Backbone Flexibility of CDR3 and Immune Recognition of Antigens, J Mol Biol  (2014), http://dx.doi.org/10.1016/j.jmb.2013.12.024will have a direct impact on the design of protein  pharmaceuticals.
+  Materials and Methods  PDB structures and backbone entropy computation  We used the 18,555 high-quality crystal structures  collected in a previous study [74], which included all  available structures in the PDB with a resolution of 2.5  or  better and an R-value of 0.25 or less.
+The secondary  structure type of each residue (-helix, -strand or coil)  was obtained directly from the PDB record.
+We constructed a Ramachandran map for each residue type in each  secondary structure type.
+The map was discretized into  10  10 bins to approximate 36  36 or 1296 backbone  conformations.
+The number of occurrences of each  conformation was tallied, which upon division by the total  number of residues yielded the probability of that  conformation.
+For 20 amino acids (j = 120) and three  secondary structure types (k = 1, 2, 3), we computed 60  entropy values (Sjk) using the entropy definition given in  Introduction.
+Similarly, we pooled 20 amino acids for each  secondary structure to obtain three entropy values (Sk),  which were used to investigate the impact of secondary  structures.
+  The absolute values of the resulting entropies depend  on how finely we discretize the Ramachandran map; that  is, S would increase with larger total number of bins.
+At  smaller bin sizes, there were too few data points in each  bin, while at larger bin sizes the discretization of the  Ramachandran map became too coarse.
+Nonetheless, the  relative rankings of the entropies of 20 amino acids (Sjk  and Sk) remain largely invariant.
+We performed all our  analysis using the bin size of 10  10 because it was  used in previous studies [7,84] and resulted in sufficient  data points in most bins yet was fine enough for  discretization of the Ramachandran map.
+Some of the  bins still had low counts and corresponded to energetically  unfavorable backbone conformations.
+To address these  rare counts, we computed the Sjk and Sk values at a  probability threshold Pc, with the probabilities of bins below  the cutoff set to 0.
+The probabilities of the remaining bins  were rescaled to ensure that they summed to 1.
+The  absolute S was a monotonically decreasing function of Pc.
+  We varied Pc and plotted SPc curves, which displayed  intriguing grouping patterns of residues (see Fig. 1 and  Results).
+We performed our calculations at Pc = 6.1  104  ;  however, our results were not sensitive toPc, as described in  Results.
+  Structural dataset of antibody and TCR complexes  We collected in Supplementary Table S1 the binding  kinetics data for 40 antibodies and 34 TCRs whose bound  structure coordinates were determined via X-ray crystallography and were deposited in the PDB [31].
+We only  included the complexes with published binding affinity and  kinetics constants as determined by SPR.
+We determined  the CDRs of the selected antibodies with the Kabat  numbering option of the Abnum server [85].
+We also  utilize the Kabat definitions to manually determine the  CDRs of the TCRs.
+The Kabat CDR regions for the  selected structures in Supplementary Table S1 are  marked in the primary sequences found in Supplementary  Table S2.
+  C225 sFab expression and purification  We cloned the heavy and light chains of the C225 Fab  into the GS vector.
+Point mutations were introduced into  the GS construct via site-directed mutagenesis using  standard PCR protocols.
+Human 293-Freestyle cells  (Invitrogen Corp., Carlsbad, CA) were cultivated and  transfected with wild-type and mutant GS vectors according to manufacturer's specifications in suspension shake  flask cultures.
+Briefly, uncut plasmid DNA and 293 fectin  were allowed to complex for 25 min.
+HEK 293 cells were  re-suspended in fresh medium (vortex to remove clumps)  and subsequently combined with DNA/fectin complex  before incubation at 37 C.
+Fifty milliliters of the conditioned supernatant was harvested after 6 days and  assayed for protein expression.
+We utilized standard  affinity column chromatography (Protein G agarose  column from Pierce; catalogue number: 20399) to purify  the soluble Fabs from the 50 ml of the HEK 293 cell  expression supernatant.
+Before loading the supernatant  onto the Protein G column, we concentrated the 50-ml  293-supernatant to 10 ml then mixed it with 2 volumes of  the binding buffer provided with the Pierce kit.
+  A6 TCR and TAX-HLA-A2 expression and purification  Wild-type HLA-A2, 2M, TCR (wild type and mutant) and  TCR (wild type and mutant) were expressed separately as  inclusion bodies in E. coli.
+Mutations were introduced to the  constructs via site-directed mutagenesis using standard  PCR protocols.
+The inclusion bodies were refolded using  protocols based on those of Garboczi et al. [86,87].
+  However, fast protein liquid chromatography using a  size-exclusion column (rather than dialysis and ion exchange) was used to purify the refolded proteins from the  aggregates [49]; this resulted in much faster purification of  the proteins than the previously published method [86].
+  Measurement of binding kinetics  HBSEP [0.01 M Hepes (pH 7.4), 0.15 mM NaCl, 3 mM  ethylenediaminetetraacetic acid and 0.005% (v/v) Surfactant P20] was used as a running buffer during the SPR  experiments while measuring the binding kinetics of C225  (wild type and mutants) to huEGFR-Fc and A6 (wild type  and mutants) to TAX-HLA-A2.
+We assessed the binding of  wild-type C225 and its proline mutants to huEGFR-Fc at  25 C using Biacore 2000 (SPR) biosensor.
+Around 500  1000 response units of huEGFR-Fc were immobilized onto  a CM5 chip using the standard amine coupling procedure.
+  The sFabs were injected for 180 s over immobilized  huEGFR-Fc at a flow rate of 10 l/min, followed by 300 s  dissociation using HBSEP buffer.
+The sFab concentrations were gradients of 2-fold dilutions.
+After the binding  dissociation phase, regeneration of the huEGFR-Fc  surface was achieved with a single 60-s injection of  10 mM HCl over all channels.
+  14 Backbone Flexibility of CDR3  Please cite this article as: Haidar Jaafar N., et al, Backbone Flexibility of CDR3 and Immune Recognition of Antigens, J Mol Biol  (2014), http://dx.doi.org/10.1016/j.jmb.2013.12.024Binding of wild-type and mutant A6 TCRs to the  Tax-HLA-A2 complex was evaluated at 25 C using  Biacore 3000 (SPR) biosensor.
+Approximately 400 response units of each TCR was immobilized on the CM5  chip using the standard amine coupling procedure.
+The  Tax-HLA-A2 complex was injected for 180 s over the  immobilized TCRs at a flow rate of 100 l/min, followed by  900 s dissociation using HBSEP buffer.
+The TAX-HLA-A2  concentrations were gradients of 2-fold dilutions.
+After the  binding dissociation phase, the TCR baseline was  regenerated with a single 120-s injection of 0.01 M  Hepes (pH 7.4) 1 M NaCl over all channels.
+  In order to correct for non-specific binding of the analyte  (C225 sFabs or Tax-HLA-A2) to the chip surface, we also  injected analyte over a reference surface on which no  ligand (huEGFR-Fc or A6 TCR) was bound; this signal was  subtracted from those of the ligand-bound cells.
+BIAevaluation (Biacore) was used to analyze the results from the  kinetic experiments.
+After double referencing to remove  artifacts from nonspecific binding, we performed simultaneous global fitting of the data for each concentration  gradient to a 1:1 Langmuir model to determine the  association rate (kon), dissociation rate (koff) and dissociation constant (KD = koff/kon).
+We used at least three  different concentration gradients of the analyte to compute  the kinetic parameters and their corresponding sample  standard deviation.
+  Acknowledgments  The authors thank Mr. Robert Anderson for giving  us access to the Rama Server. We also thank Ms.  Michelle Iacolina for sequencing the C225 proline  mutations.
+We also thank Dr. Yong Yu for his input  while refolding and purifying the TAX-HLAA2 and A6  mutants.
+The authors would like to acknowledge  Dr. Alan Rigby, Dr. Aaron Chamberlain, Dr. J. Michael  Sauder and Ms. Lee Mangiante for critically reading  this manuscript and for providing intriguing  discussions.
+  Appendix A. Supplementary data  Supplementary data to this article can be found  online at http://dx.doi.org/10.1016/j.jmb.2013.12.
+  024.
+  Received 11 September 2013;  Received in revised form 3 December 2013;  Accepted 19 December 2013  Available online xxxx  Keywords:  T-cell receptor;  antibody;  conformational flexibility;  backbone entropy;
+  affinity maturation  Abbreviations used:  CDR, complementarity-determining region; TCR, T-cell  receptor; PDB, Protein Data Bank; SPR, surface plasmon  resonance.
+  References  [1] Kamisetty H, Ramanathan A, Bailey-Kellogg C, Langmead  CJ.
+Accounting for conformational entropy in predicting  binding free energies of proteinprotein interactions.
+Proteins  2011;79:44462.
+  [2] Kuhlman B, Dantas G, Ireton GC, Varani G, Stoddard BL,  Baker D. Design of a novel globular protein fold with atomiclevel accuracy.
+Science 2003;302:13648.
+  [3] Chen R, Li L, Weng Z. ZDOCK: an initial-stage proteindocking algorithm.
+Proteins 2003;52:807.
+  [4] Wiehe K, Pierce B, Mintseris J, Tong WW, Anderson R, Chen  R, et al. ZDOCK and RDOCK performance in CAPRI rounds  3, 4, and 5.
+Proteins 2005;60:20713.
+  [5] Gordon DB, Marshall SA, Mayo SL.
+Energy functions for  protein design.
+Curr Opin Struct Biol 1999;9:50913.
+  [6] Kortemme T, Baker D. A simple physical model for binding  energy hot spots in proteinprotein complexes.
+Proc Natl  Acad Sci USA 2002;99:1411621.
+  [7] Vajda S. Conformational filtering in polypeptides and  proteins.
+J Mol Biol 1993;229:12545.
+  [8] Pauling L, Corey R. Configurations around single bonds: two  new pleated sheets.
+Proc Natl Acad Sci USA 1951;37:72940.
+  [9] Nemethy G, Scheraga HA.
+Theoretical determination of  sterically allowed conformations of a polypeptide chain by a  computer method.
+Biopolymers, 3; 1965. p. 15584.
+  [10] Brady GP, Sharp KA.
+Entropy in protein folding and in protein  protein interactions.
+Curr Opin Struct Biol 1997;7:21521.
+  [11] Ramachandran GN, Ramakrishnan C, Sasisekharan V.  Stereochemistry of polypeptide chain configurations.
+J Mol  Biol 1963;7:959.
+  [12] Pappu RV, Srinivasan R, Rose GD.
+The Flory isolated-pair  hypothesis is not valid for polypeptide chains: implications for  protein folding.
+Proc Natl Acad Sci USA 2000;97:1256570.
+  [13] Zaman MH, Shen MY, Berry RS, Freed KF, Sosnick TR.
+  Investigations into sequence and conformational dependence of  backbone entropy, inter-basin dynamics and the Flory isolatedpair hypothesis for peptides.
+J Mol Biol 2003;331:693711.
+  [14] Eisenmesser EZ, Bosco DA, Akke M, Kern D. Enzyme  dynamics during catalysis.
+Science 2002;295:15203.
+  [15] Bizebard T, Gigant B, Rigolet P, Rasmussen B, Diat O, Bosecke  P, et al. Structure of influenza virus haemagglutinin complexed  with a neutralizing antibody.
+Nature 1995;376:924.
+  [16] Hawse WF, Champion MM, Joyce MV, Hellman LM, Hossain M,  Ryan V, et al. Cutting edge: evidence for a dynamically driven  T cell signaling mechanism.
+J Immunol 2012;188:581923.
+  [17] Frederick KK, Marlow MS, Valentine KG, Wand AJ.
+  Conformational entropy in molecular recognition by proteins.
+  Nature 2007;448:3259.
+  Present address: X. Luna, Kadmon Corporation,  LLC, 450 East 29th Street, New York, NY 10016, USA.  http://zlab.bu.edu/rama  http://www.pdb.org/pdb/home/home.do  http://www.bioinfo.org.uk/abs/abnum  Backbone Flexibility of CDR3 15  Please cite this article as: Haidar Jaafar N., et al, Backbone Flexibility of CDR3 and Immune Recognition of Antigens, J Mol Biol  (2014), http://dx.doi.org/10.1016/j.jmb.2013.12.024[18] Frederick KK, Kranz JK, Wand AJ.
+Characterization of the  backbone and side chain dynamics of the CaM-CaMKIp  complex reveals microscopic contributions to protein conformational entropy.
+Biochemistry 2006;45:98418.
+  [19] Marlow MS, Dogan J, Frederick KK, Valentine KG, Wand AJ.
+  The role of conformational entropy in molecular recognition  by calmodulin.
+Nat Chem Biol 2010;6:3528.
+  [20] Willcox BE, Gao GF, Wyer JR, Ladbury JE, Bell JI, Jakobsen  BK, et al. TCR binding to peptide-MHC stabilizes a flexible  recognition interface.
+Immunity 1999;10:35765.
+  [21] Degano M, Garcia KC, Apostolopoulos V, Rudolph MG,  Teyton L, Wilson IA.
+A functional hot spot for antigen  recognition in a superagonist TCR/MHC complex.
+Immunity  2000;12:25161.
+  [22] Krogsgaard M, Prado N, Adams EJ, He XL, Chow DC,  Wilson DB, et al. Evidence that structural rearrangements  and/or flexibility during TCR binding can contribute to T cell  activation.
+Mol Cell 2003;12:136778.
+  [23] Davis-Harrison RL, Armstrong KM, Baker BM.
+Two different  T cell receptors use different thermodynamic strategies to  recognize the same peptide/MHC ligand.
+J Mol Biol  2005;346:53350.
+  [24] Ely LK, Beddoe T, Clements CS, Matthews JM, Purcell AW,  Kjer-Nielsen L, et al. Disparate thermodynamics governing T  cell receptorMHC-I interactions implicate extrinsic factors in  guiding MHC restriction.
+Proc Natl Acad Sci USA  2006;103:66416.
+  [25] Armstrong KM, Baker BM.
+A comprehensive calorimetric  investigation of an entropically driven T cell receptor-peptide/  major histocompatibility complex interaction.
+Biophys J  2007;93:597609.
+  [26] Colf LA, Bankovich AJ, Hanick NA, Bowerman NA, Jones LL,  Kranz DM, et al. How a single T cell receptor recognizes both  self and foreign MHC.
+Cell 2007;129:13546.
+  [27] Mazza C, Auphan-Anezin N, Gregoire C, Guimezanes A,  Kellenberger C, Roussel A, et al. How much can a T-cell  antigen receptor adapt to structurally distinct antigenic  peptides? EMBO J 2007;26:197283.
+  [28] Miller PJ, Pazy Y, Conti B, Riddle D, Appella E, Collins EJ.
+  Single MHC mutation eliminates enthalpy associated with T  cell receptor binding.
+J Mol Biol 2007;373:31527.
+  [29] Jones LL, Colf LA, Bankovich AJ, Stone JD, Gao YG, Chan  CM, et al. Different thermodynamic binding mechanisms and  peptide fine specificities associated with a panel of structurally similar high-affinity T cell receptors.
+Biochemistry  2008;47:12398408.
+  [30] Armstrong KM, Insaidoo FK, Baker BM.
+Thermodynamics of  T-cell receptor-peptide/MHC interactions: progress and  opportunities.
+J Mol Recognit 2008;21:27587.
+  [31] Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN,  Weissig H, et al. The Protein Data Bank.
+Nucleic Acids Res  2000;28:23542.
+  [32] Fayos R, Melacini G, Newlon MG, Burns L, Scott JD,  Jennings PA.
+Induction of flexibility through proteinprotein  interactions.
+J Biol Chem 2003;278:185817.
+  [33] Grunberg R, Nilges M, Leckner J. Flexibility and conformational  entropy in proteinprotein binding.
+Structure 2006;14:68393.
+  [34] Zidek L, Novotny MV, Stone MJ.
+Increased protein backbone  conformational entropy upon hydrophobic ligand binding.
+Nat  Struct Biol 1999;6:111821.
+  [35] Adams JJ, Narayanan S, Liu B, Birnbaum ME, Kruse AC,  Bowerman NA, et al. T cell receptor signaling is limited by  docking geometry to peptide-major histocompatibility complex.
+Immunity 2011;35:68193.
+  [36] Babor M, Kortemme T. Multi-constraint computational design  suggests that native sequences of germline antibody H3  loops are nearly optimal for conformational flexibility.
+Proteins  2009;75:84658.
+  [37] James LC, Roversi P, Tawfik DS.
+Antibody multispecificity  mediated by conformational diversity.
+Science  2003;299:13627.
+  [38] Jimenez R, Salazar G, Baldridge KK, Romesberg FE.  Flexibility and molecular recognition in the immune system.
+  Proc Natl Acad Sci USA 2003;100:927.
+  [39] Li Y, Li H, Yang F, Smith-Gill SJ, Mariuzza RA.
+X-ray  snapshots of the maturation of an antibody response to a  protein antigen.
+Nat Struct Biol 2003;10:4828.
+  [40] Manivel V, Sahoo NC, Salunke DM, Rao KV.
+Maturation of an  antibody response is governed by modulations in flexibility of  the antigen-combining site.
+Immunity 2000;13:61120.
+  [41] Mohan S, Kourentzi K, Schick KA, Uehara C, Lipschultz CA,  Acchione M, et al. Association energetics of cross-reactive  and specific antibodies.
+Biochemistry 2009;48:13908.
+  [42] Nair DT, Singh K, Siddiqui Z, Nayak BP, Rao KV, Salunke DM.
+  Epitope recognition by diverse antibodies suggests conformational convergence in an antibody response.
+J Immunol  2002;168:237182.
+  [43] Thorpe IF, Brooks CL.
+Molecular evolution of affinity and  flexibility in the immune system.
+Proc Natl Acad Sci USA  2007;104:88216.
+  [44] Wedemayer GJ, Patten PA, Wang LH, Schultz PG, Stevens  RC.
+Structural insights into the evolution of an antibody  combining site.
+Science 1997;276:16659.
+  [45] Wong SE, Sellers BD, Jacobson MP.
+Effects of somatic  mutations on CDR loop flexibility during affinity maturation.
+  Proteins 2011;79:8219.
+  [46] Yin J, Beuscher AE, Andryski SE, Stevens RC, Schultz PG.
+  Structural plasticity and the evolution of antibody affinity and  specificity.
+J Mol Biol 2003;330:6516.
+  [47] Yin J, Mundorff EC, Yang PL, Wendt KU, Hanway D, Stevens  RC, et al. A comparative analysis of the immunological  evolution of antibody 28B4.
+Biochemistry 2001;40:1076473.  [48] Lipovsek D, Lippow SM, Hackel BJ, Gregson MW, Cheng P,  Kapila A, et al. Evolution of an interloop disulfide bond in  high-affinity antibody mimics based on fibronectin type III  domain and selected by yeast surface display: molecular  convergence with single-domain camelid and shark antibodies.
+J Mol Biol 2007;368:102441.
+  [49] Haidar JN, Pierce B, Yu Y, Tong W, Li M, Weng Z. Structurebased design of a T-cell receptor leads to nearly 100-fold  improvement in binding affinity for pepMHC.
+Proteins  2009;74:94860.
+  [50] Haidar JN, Yuan QA, Zeng L, Snavely M, Luna X, Zhang H,  et al. A universal combinatorial design of antibody framework  to graft distinct CDR sequences: a bioinformatics approach.
+  Proteins 2012;80:896912.
+  [51] Chandonia JM, Hon G, Walker NS, Lo Conte L, Koehl P,  Levitt M, et al. The ASTRAL Compendium in 2004.
+Nucleic  Acids Res 2004;32:D18992.
+  [52] Ho BK, Brasseur R. The Ramachandran plots of glycine and  pre-proline.
+BMC Struct Biol 2005;5:14.
+  [53] Lopez-Llano J, Campos LA, Sancho J. Alpha-helix stabilization by alanine relative to glycine: roles of polar and apolar  solvent exposures and of backbone entropy.
+Proteins  2006;64:76978.
+  [54] Lyu PC, Liff MI, Marky LA, Kallenbach NR.
+Side chain  contributions to the stability of alpha-helical structure in peptides.
+  Science 1990;250:66973.
+  16 Backbone Flexibility of CDR3  Please cite this article as: Haidar Jaafar N., et al, Backbone Flexibility of CDR3 and Immune Recognition of Antigens, J Mol Biol  (2014), http://dx.doi.org/10.1016/j.jmb.2013.12.024[55] Munoz V, Serrano L. Elucidating the folding problem of  helical peptides using empirical parameters.
+Nat Struct Biol  1994;1:399409.
+  [56] Marsh JA. Buried and accessible surface area control  intrinsic protein flexibility.
+J Mol Biol 2013;425:325063.
+  [57] Marsh JA, Teichmann SA.
+Relative solvent accessible  surface area predicts protein conformational changes upon  binding.
+Structure 2011;19:85967.
+  [58] Department of Biochemistry and Molecular Biology, University  College London. (1993).
+NACCESS. Hubbard SJ & Thornton  JM.
+  [59] Kryshtafovych A, Moult J, Bartual SG, Bazan JF, Berman H,  Casteel DE, et al. Target highlights in CASP9: experimental  target structures for the critical assessment of techniques for  protein structure prediction.
+Proteins 2011;79:620.
+  [60] Wang W, Arthur JW & Dunbrack RL (2000).
+S2C: a database  correlating sequence and atomic coordinate numbering in the  Protein Data Bank.
+Available at: http://dunbrack.fccc.edu/  Guoli/s2c/index.php.
+  [61] Zhou T, Xu L, Dey B, Hessell AJ, Van Ryk D, Xiang SH, et al.  Structural definition of a conserved neutralization epitope on  HIV-1 gp120.
+Nature 2007;445:7327.
+  [62] Wu L, Oficjalska K, Lambert M, Fennell BJ,  Darmanin-Sheehan A, N Shilleabhin D, et al. Fundamental characteristics of the immunoglobulin VH repertoire  of chickens in comparison with those of humans, mice, and  camelids.
+J Immunol 2012;188:32233.
+  [63] Allen MJ, Coutinho PM, Ford CF.
+Stabilization of Aspergillus  awamori glucoamylase by proline substitution and combining  stabilizing mutations.
+Protein Eng 1998;11:7838.
+  [64] Bogin O, Peretz M, Hacham Y, Korkhin Y, Frolow F, Kalb AJ,  et al. Enhanced thermal stability of Clostridium beijerinckii  alcohol dehydrogenase after strategic substitution of amino  acid residues with prolines from the homologous thermophilic  Thermoanaerobacter brockii alcohol dehydrogenase.
+Protein  Sci 1998;7:115663.
+  [65] Herning T, Yutani K, Inaka K, Kuroki R, Matsushima M,  Kikuchi M. Role of proline residues in human lysozyme  stability: a scanning calorimetric study combined with X-ray  structure analysis of proline mutants.
+Biochemistry  1992;31:707785.
+  [66] Li Y, Reilly PJ, Ford C. Effect of introducing proline residues  on the stability of Aspergillus awamori.
+Protein Eng  1997;10:1199204.
+  [67] Nakamura S, Tanaka T, Yada RY, Nakai S. Improving the  thermostability of Bacillus stearothermophilus neutral protease by introducing proline into the active site helix.
+Protein  Eng 1997;10:12639.
+  [68] Prajapati RS, Das M, Sreeramulu S, Sirajuddin M, Srinivasan  S, Krishnamurthy V, et al. Thermodynamic effects of proline  introduction on protein stability.
+Proteins 2007;66:48091.
+  [69] Holler PD, Holman PO, Shusta EV, O'Herrin S, Wittrup KD,  Kranz DM.
+In vitro evolution of a T cell receptor with high  affinity for peptide/MHC.
+Proc Natl Acad Sci USA  2000;97:538792.
+  [70] Madura F, Rizkallah PJ, Miles KM, Holland CJ, Bulek AM,  Fuller A, et al. T-cell receptor specificity maintained by altered  thermodynamics.
+J Biol Chem 2013;288:1876675.
+  [71] Li Y, Moysey R, Molloy PE, Vuidepot AL, Mahon T, Baston E,  et al. Directed evolution of human T-cell receptors with  picomolar affinities by phage display.
+Nat Biotechnol  2005;23:34954.
+  [72] Garboczi DN, Ghosh P, Utz U, Fan QR, Biddison WE, Wiley  DC.
+Structure of the complex between human T-cell receptor,  viral peptide and HLA-A2.
+Nature 1996;384:13441.
+  [73] Pierce BG, Haidar JN, Yu Y, Weng Z. Combinations of affinityenhancing mutations in a T cell receptor reveal highly  nonadditive effects within and between complementarity determining regions and chains.
+Biochemistry 2010;49:70509.
+  [74] Anderson RJ, Weng Z, Campbell RK, Jiang X. Main-chain  conformational tendencies of amino acids.
+Proteins  2005;60:67989.
+  [75] Moza B, Buonpane RA, Zhu P, Herfst CA, Rahman AK,  McCormick JK, et al. Long-range cooperative binding effects  in a T cell receptor variable domain.
+Proc Natl Acad Sci USA  2006;103:986772.
+  [76] Li S, Schmitz KR, Jeffrey PD, Wiltzius JJ, Kussie P, Ferguson  KM.
+Structural basis for inhibition of the epidermal growth  factor receptor by cetuximab.
+Cancer Cell 2005;7:30111.
+  [77] Pierce BG, Weng Z. A flexible docking approach for  prediction of T cell receptorpeptideMHC complexes.
+  Protein Sci 2013;22:3546.
+  [78] Martin AC. Accessing the Kabat antibody sequence database by computer.
+Proteins 1996;25:1303.
+  [79] Bostrom J, Haber L, Koenig P, Kelley RF, Fuh G. High affinity  antigen recognition of the dual specific variants of herceptin is  entropy-driven in spite of structural plasticity.
+PLoS One  2011;6:e17887.  [80] Bostrom J, Yu SF, Kan D, Appleton BA, Lee CV, Billeci K,  et al. Variants of the antibody herceptin that interact with  HER2 and VEGF at the antigen binding site.
+Science  2009;323:16104.
+  [81] Schaefer G, Haber L, Crocker LM, Shia S, Shao L,  Dowbenko D, et al. A two-in-one antibody against HER3  and EGFR has superior inhibitory activity compared with  monospecific antibodies.
+Cancer Cell 2011;20:47286.
+  [82] Lippow SM, Wittrup KD, Tidor B. Computational design of  antibody-affinity improvement beyond in vivo maturation.
+Nat  Biotechnol 2007;25:11716.
+  [83] Banerjee PR, Puttamadappa SS, Pande A, Shekhtman A,  Pande J. Increased hydrophobicity and decreased backbone flexibility explain the lower solubility of a cataractlinked mutant of gammaD-crystallin.
+J Mol Biol  2011;412:64759.
+  [84] Jha AK, Colubri A, Zaman MH, Koide S, Sosnick TR, Freed  KF.
+Helix, sheet, and polyproline II frequencies and strong  nearest neighbor effects in a restricted coil library.
+Biochemistry 2005;44:9691702.
+  [85] Abhinandan KR, Martin AC.
+Analysis and improvements to  Kabat and structurally correct numbering of antibody variable  domains.
+Mol Immunol 2008;45:38329.
+  [86] Garboczi DN, Hung DT, Wiley DC.
+HLA-A2-peptide complexes: refolding and crystallization of molecules expressed  in Escherichia coli and complexed with single antigenic  peptides.
+Proc Natl Acad Sci USA 1992;89:342933.
+  [87] Garboczi DN, Utz U, Ghosh P, Seth A, Kim J, VanTienhoven  EA, et al. Assembly, specific binding, and crystallization of a  human TCR-alphabeta with an antigenic Tax peptide from  human T lymphotropic virus type 1 and the class I MHC  molecule HLA-A2.
+J Immunol 1996;157:540310.
+  Backbone Flexibility of CDR3 17  Please cite this article as: Haidar Jaafar N., et al, Backbone Flexibility of CDR3 and Immune Recognition of Antigens, J Mol Biol  (2014), http://dx.doi.org/10.1016/j.jmb.2013.12.024

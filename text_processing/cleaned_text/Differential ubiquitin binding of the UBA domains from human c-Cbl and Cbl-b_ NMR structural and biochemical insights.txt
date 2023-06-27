@@ -1,0 +1,296 @@
+Differential ubiquitin binding of the UBA domains  from human c-Cbl and Cbl-b: NMR structural  and biochemical insights  ZI-REN ZHOU,1,2 HONG-CHANG GAO,3 CHEN-JIE ZHOU,1 YONG-GANG CHANG,1,2  JING HONG,2,3 AI-XIN SONG,1 DONG-HAI LIN,3 AND HONG-YU HU1  1  State Key Laboratory of Molecular Biology, Institute of Biochemistry and Cell Biology, Shanghai Institutes for  Biological Sciences, Chinese Academy of Sciences, Shanghai 200031, China  2  Graduate School of the Chinese Academy of Sciences, Beijing 100039, China  3  Shanghai Institute of Materia Medica, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences,  Shanghai 201203, China  (RECEIVED May 10, 2008; FINAL REVISION June 16, 2008; ACCEPTED June 19, 2008)  Abstract  The Cbl proteins, RING-type E3 ubiquitin ligases, are responsible for ubiquitinating the activated  tyrosine kinases and targeting them for degradation.
+Both c-Cbl and Cbl-b have a UBA (ubiquitinassociated) domain at their C-terminal ends, and these two UBA domains share a high sequence  similarity (75%).
+However, only the UBA from Cbl-b, but not from c-Cbl, can bind ubiquitin (Ub).
+To  understand the mechanism by which the UBA domains specifically interact with Ub with different  affinities, we determined the solution NMR structures of these two UBA domains, cUBA from human  c-Cbl and UBAb from Cbl-b.
+Their structures show that these two UBA domains share the same fold,  a compact three-helix bundle, highly resembling the typical UBA fold.
+Chemical shift perturbation  experiments reveal that the helix-1 and loop-1 of UBAb form a predominately hydrophobic surface for  Ub binding.
+By comparing the Ub-interacting surface on UBAb and its counterpart on cUBA, we find  that the hydrophobic patch on cUBA is interrupted by a negatively charged residue Glu12.
+Fluorescence  titration data show that the Ala12Glu mutant of UBAb completely loses the ability to bind Ub, whereas  the mutation disrupting the dimerization has no significant effect on Ub binding.
+This study provides  structural and biochemical insights into the Ub binding specificities of the Cbl UBA domains, in which  the hydrophobic surface distribution on the first helix plays crucial roles in their differential affinities  for Ub binding.
+That is, the amino acid residue diversity in the helix-1 region, but not the dimerization,  determines the abilities of various UBA domains binding with Ub.
+  Keywords: c-Cbl; Cbl-b; UBA; ubiquitin; binding; NMR; structure  The Cbl proteins usually function as negative regulators  in several receptor protein tyrosine kinase signaling  pathways.
+They mediate the ubiquitination of activated  tyrosine kinases, such as EGFR, and target them for  degradation.
+So far, three members of the Cbl protein  family have been extensively studied in mammals,  namely c-Cbl, Cbl-b, and Cbl-3 (Thien and Langdon  2005).
+All the three proteins share a highly conserved  ps036384 Zhou et al. ARTICLE RA  Reprint requests to: Hong-Yu Hu, State Key Laboratory of Molecular  Biology, Institute of Biochemistry and Cell Biology, Shanghai Institutes  for Biological Sciences, Chinese Academy of Sciences, Shanghai 200031,  China; e-mail: hyhu@sibs.ac.cn; fax: 86-021-54921011; or Dong-Hai Lin,  Shanghai Institute of Materia Medica, Shanghai Institutes for Biological  Sciences, Chinese Academy of Sciences, Shanghai 201203, China; e-mail:
+  dhlin@mail.shcnc.ac.cn; fax: 86-021-50806036.
+  Article and publication are at http://www.proteinscience.org/cgi/doi/  10.1110/ps.036384.108.
+  Protein Science (2008), 17:18051814.
+Published by Cold Spring Harbor Laboratory Press.
+Copyright  2008 The Protein Society 1805  JOBNAME: PROSCI 17#10 2008 PAGE: 1 OUTPUT: Saturday September 6 15:51:26 2008  csh/PROSCI/170213/ps036384N-terminal region containing a tyrosine-kinase-binding  domain (TKB) and a RING finger domain (Joazeiro et al.  1999; Levkowitz et al. 1999).
+The C-terminal regions of  them are less well conserved; however, they do share common roles with abilities to interact with a range of SH2-  and SH3-domain-containing proteins, such as CIN85  (Petrelli et al. 2002; Soubeyran et al. 2002).
+Interestingly,  c-Cbl and Cbl-b, but not Cbl-3, have a ubiquitin-associated  (UBA) domain at their C-terminal ends (see Fig. 1A).
+  The two C-terminal UBA domains of Cbl proteins were  previously thought to be leucine-zipper motifs (Blake  et al. 1991; Keane et al. 1995), for they contain leucines  and isoleucines every seven amino acid residues and  mediate the homodimerization of c-Cbl and heterodimerization of c-Cbl and Cbl-b (Bartkiewicz et al. 1999;  Liu et al. 2003).
+Later, these two domains were predicted  to be UBA domains through bioinformatics approaches  (Robertson et al. 2000).
+The core sequences (Fig. 1B) of  these two UBA domains share 48% identities and 75%  similarities.
+However, a recent study by biochemical  approaches showed that only the UBA from Cbl-b, but  not from c-Cbl, could significantly interact with ubiquitin  (Ub) (Davies et al. 2004).
+  The UBA domain is a conserved sequence found in a  variety of proteins having connections to the ubiquitination pathway: (1) E2-25K and several other Ub-congugating  enzymes (E2); (2) several Ub ligases (E3); (3) a series of  deubiquitin enzymes, such as isopetidase T (isoT) (USP5  and USP13); and (4) many Ub-like proteins, such as  hHR23A, Dsk2, and BMSC-UbP, that usually contain both  UbL (ubiquitin-like) and UBA domains (Hofmann and  Bucher 1996; Chang et al. 2006; Kang et al. 2006, 2007).
+  Most of these UBA domains can bind with Ub, while some  cannot.
+Interestingly, Some UBAs can bind with both Ub  and UbL domains, such as isoT-UBA2, hHR23A-UBA2,  and ubiquilin-UBA (Raasi et al. 2005).
+There is a minority  of the UBA domains that can only bind with UbL domains,  but not with Ub.
+For example, the UBA domain of HOIP  protein binds directly to the UbL domain of HOIL-1L but  not to Ub, and the interaction is critical for stable complex  formation (Kirisako et al. 2006).
+In addition to the wellknown Ub/UbL domain binding ability, some UBA  domains can form homo- or heterodimers, such as Dsk2  UBA and Cbl UBA domains, in regulating biological  activities (Sasaki et al. 2005; Kozlov et al. 2007; Peschard  et al. 2007).
+  As Cbl proteins are important E3 ligases in ubiquitination, it is of interest to investigate the structural basis  for the differential binding properties of these two UBA  domains to Ub.
+Here, we report the NMR structural and  biochemical studies of the UBA domains from human  c-Cbl (cUBA) and Cbl-b (UBAb).
+A combination of  structural analysis, chemical shift perturbation, mutagenesis, and fluorescence titration reveals that the  hydrophobic surface distribution on the first helix  play crucial roles in their differential affinities for Ub  binding.
+  Results  Structure determination of cUBA and UBAb  The structures of the dimeric forms of both cUBA and  UBAb have been solved by crystallography (Peschard  et al. 2007) and NMR (RIKEN Structural Genomics/  Proteomics Initiative).
+To further explore the nature of the  different Ub binding abilities, structurally and biochemically, we cloned two UBA domains from c-Cbl and Cbl-b  and solved their 3D structures in solution by an NMR  approach (Fig. 2).
+The sequences for both cUBA and  UBAb contain an N-terminal five-residue extension compared to those in the literature (PDB: 2D9S for cUBA and  2DO6 for UBAb).
+It appears that both cUBA and UBAb  in crystal and probably in solution form symmetric  homodimers (Peschard et al. 2007).
+We have only  ambiguously identified several intermolecular NOEs in  solution on the NMR spectra of cUBA and UBAb, which  are not enough for computing an accurate structure in the  dimeric form.
+Therefore, in this study, both cUBA and  UBAb were calculated as monomers from intramolecular  NOEs.
+The experimental restraints and structural statistics for these two UBA domains in monomeric form are  summarized in Table 1.
+  cUBA and UBAb share the same fold, a highly compact  three-helix bundle  The overall fold of these two UBA domains is similar and  consists of three a-helices connected by two loops,  Figure 1.
+Multiple alignments of the UBA domains from Cbls.
+(A)  Schematic domain representation of c-Cbl, Cbl-b, and Cbl-3.
+The UBA  domain is located at the C terminus.
+(B) Sequence alignment of the UBA  domains from human c-Cbl (cUBA) and Cbl-b (UBAb).
+Residues 156  of cUBA correspond to 851906 of c-Cbl, and residues 157 of UBAb  correspond to 926982 of Cbl-b.
+Residues, which are same in these two  domains, are labeled on a dark background and those with high similarity  are highlighted by boxes.
+The secondary structures of cUBA are shown at  the top.
+The sequences were aligned using ClustalW and represented using  ESPript.
+  Zhou et al.  1806 Protein Science, vol. 17  JOBNAME: PROSCI 17#10 2008 PAGE: 2 OUTPUT: Saturday September 6 15:51:27 2008  csh/PROSCI/170213/ps036384flanked by coils at the two far ends, highly resembling the  typical UBA fold (Mueller and Feigon 2002; Chang et al.  2006).
+The structure of cUBA is stabilized by a hydrophobic core comprising residues Leu7, Ile11, Leu14,  Ile24, Leu28, Ile35, Ala38, and Leu42 (Fig. 3A).
+There  is a type I turn near loop-1 (residues 1620) and a type II  turn within loop-2 (3135).
+Its C-terminal tail (4657),  different from those of the known UBA domains, is not  totally random.
+Residues 4649 fold back to loop-1  through hydrophobic interactions and adopt an extended  conformation.
+The side chains of residues Val46 and Ile48  face toward the hydrophobic core, and those of residues  Ser47 and Ser49 are exposed to the solvent.
+This is also  coincident with the results from the secondary chemical  shifts of the backbone residues, and is evidenced by the  NOE connections between Ile48 and the residues within  loop-1.
+  The hydrophobic core of UBAb is composed of Val7,  Ile11, Leu14, Val24, Leu28, Val35, Ala38, and Leu42  residues (Fig. 3B).
+The orientations of these hydrophobic  residues, relative to the three helices, are nearly identical  to those of cUBA.
+Dissimilar to that of cUBA, the Cterminal segment of UBAb is largely flexible, for most  resonances of the nonproline residues in this region are  missing.
+The angles between the axes of helix-1 and  helix-2 for cUBA and UBAb are 132 and 120, respectively, those between helix-2 and helix-3 are 123 and  131, and those between helix-1 and helix-3 are 17.4 and  42.5 (Fig. 3C).
+In general, except for a little variation of  the angles between helix-1 and helix-3, the secondary  structure elements and the overall fold of these two UBA  domains are roughly similar.
+  UBAb but not cUBA binds to the hydrophobic surface  of Ub  To map the UBA recognition surface onto Ub, we  performed [1  H, 15N]-HSQC experiments with 15N-labeled  Ub alone and with an increasing amount of cUBA or  UBAb domain.
+The titration data show that no significant  chemical shift change occurs upon addition of cUBA at  a cUBA/Ub molar ratio of 3:1 (Fig. 4A). But when Ub  titrated with UBAb, some peaks such as Leu8, Leu43,  Lys48, His 68, Val70, and Leu71 disappear gradually  due to line broadening, and some peaks such as Gln40,  Gln41, Leu50, Ile61, and Ser65 largely shift at a molar  ratio of 2:1 (Fig. 4B).
+This indicates that the exchange  rate between free and bound Ub is in an intermediate to  fast exchange regime on the NMR timescale.
+The titration  results for UBAb binding are mapped onto the surface  diagram of the Ub molecule (Fig. 4C, PDB ID: 1UBQ)  (Vijay-Kumar et al. 1987).
+As usual, the UBAb-binding  site on Ub is formed by b-strands and a largely hydrophobic patch, which is the typical surface for Ub binding  to UBA and other domains (Hurley et al. 2006).
+  The Ub-binding surface on UBAb is different  from the counterpart on cUBA  We also performed the [1  H, 15N]-HSQC experiments with  15N-labeled cUBA or UBAb alone and with an increasing  amount of Ub for mapping the Ub-interacting surfaces  onto the UBA domains.
+Similarly, no significant chemical  shift change in the spectra of cUBA domain is observed  even when Ub is in twofold excess (Fig. 5A).
+However,  when unlabeled Ub is titrated into 15N-labeled UBAb,  some resonance peaks of the residues in helix-1 (Asn6,  Asp8, Ala9, Lys10, and Ala12), loop-1 (Gly16), and loop2 (Ala31) disappear immediately, while some peaks of the  residues in helix-1 (Leu14, Met15) and helix-2 (Glu22)  undergo large peak shifting (Fig. 5B).
+The chemical shift  perturbation data are also mapped onto the surface of  UBAb (Fig. 5C,D).
+In this manner, the Ub-binding surface on UBAb is composed of the hydrophobic residues in  helix-1 and part of loop-1 and helix-2.
+This binding mode  is slightly different from the reported UBA binding in  which the hydrophobic residues in helix-3 also contribute  to the Ub binding (Chang et al. 2006).
+The residues  involved in the UBAb-Ub interaction are mainly located  at helix-1 and loop-1.
+Note that residue Ala31 is located  Figure 2.
+cUBA and UBAb adopt the same fold of highly compact threehelix bundle.
+(A) Ensemble of the Ca traces representing a bundle of 15  representative structures of cUBA.
+(B) Ribbon representation of the cUBA  structure.
+The three helices are labeled as a1, a2, and a3.
+(C) Ensemble of  the Ca traces representing a bundle of 15 representative structures of  UBAb.
+(D) Ribbon representation of UBAb.
+The figures were prepared  with MOLMOL.
+  Ubiquitin binding of Cbl UBA domains  www.proteinscience.org 1807  JOBNAME: PROSCI 17#10 2008 PAGE: 3 OUTPUT: Saturday September 6 15:51:34 2008  csh/PROSCI/170213/ps036384at loop-2 that connects helix-2 and -3; therefore the  disappearance of this residue might be caused by the  conformational change upon binding, rather than directly  by the interaction with Ub itself.
+As for Lys10, though the  amide resonance disappears during titration, it is impossible that this residue is involved in the direct interaction  with Ub, because the side chain of Lys10 is directed  toward the opposite side of the interaction surface.
+This  result is also confirmed by the following experiments of  mutagenesis and fluorescence titration (see below).
+Interestingly, the largely perturbed residues of UBAb, such as  Ala9, Lys10, Ala12, and Gly16, upon Ub binding are  located at helix-1 and these residues are different in  cUBA (Fig. 1B).
+  The overall fold of these two UBA domains and the  secondary structure arrangement are nearly the same.
+To  investigate the differences in their affinities for Ub, we  compared the electrostatic potential around the Ub-binding  site of UBAb and the counterpart on cUBA (Fig. 6A,B).
+  The Ub-binding surface on UBAb is composed of predominately hydrophobic residues with some negatively charged  residues at the surface edges, while the hydrophobic surface  of the counterpart on cUBA is interrupted by an acidic  residue Glu12 and lacks the negatively charged edges.
+  Another key feature of the cUBA domain is that it contains  a relatively ordered C-terminal stretch formed by residues  Val46Ser49 that extends toward loop-1.
+This extended  stretch might, to some extent, contribute to the inability of  cUBA to bind Ub.
+  Ala12 is crucial for specific binding of UBAb with Ub  The chemical shift perturbation data show that the binding of UBAb to Ub is predominately through hydrophobic  interactions, and the differential binding abilities of  cUBA and UBAb to Ub come from the different electrostatic potential distributions on the first helix.
+To confirm  Table 1.
+Experimental restraints and structural statistics of the cUBA and UBAb domains  cUBA (156) UBAb (346)  No. of experimental restraints  Total unambiguous distance restraints 754 569  Intra-residual 353 311  Sequential (ji  jj  1) 179 122  Medium (2 # ji  jj # 4) 151 87  Long range (ji  jj # 5) 71 49  Hydrogen bond restraints 20 16  Dihedral angle restraints  F 37 31  C 37 31  Structural statistics  Coordinate precisions (A )  a  , residues 645  Backbone (N, Ca, CO) 0.44 6 0.13 0.76 6 0.17  Heavy atoms 1.26 6 0.19 1.72 6 0.23  RMSD from experimental restraints  NOE distances (A ) 0.0222 6 0.0011 0.0180 6 0.0013  Dihedral angles () 0.2804 6 0.0170 0.0466 6 0.0603  RMSD from idealized geometry  Bond lengths (A ) 0.0024 6 0.0001 0.0016 6 0.0001  Bond angles () 0.4485 6 0.0093 0.3142 6 0.0058  Impropers 0.3731 6 0.0099 0.2264 6 0.0116  Energies (kcal/mol)  Etotal 1947.7 6 16.9 1595.9 6 48.6  Restraint violations  Distances (>0.1 A ) 01  Dihedral angles (>5) 00  Hydrogen bonds 0 0  Ramachandran analysisb  Residues in most favored regions 84.7 83.0  Residues in additionally allowed regions 14.2 14.2  Residues in generously allowed regions 0.6 0.8  Residues in disallowed regions 0.5 2.0  a  The coordinate precision is defined as the average RMS deviation between the 15 refined structures and their mean coordinate positions.
+  bException of Pro and Gly residues.
+  Zhou et al.  1808 Protein Science, vol. 17  JOBNAME: PROSCI 17#10 2008 PAGE: 4 OUTPUT: Saturday September 6 15:51:43 2008  csh/PROSCI/170213/ps036384this observation, we constructed several mutants for  UBAb.
+The residues largely perturbed in Ub titration,  which are assumed to play roles in binding to Ub, are  mutated to their counterparts on cUBA (Fig. 1B).
+These  mutants include K10E, A12E, G16S, A9S/K10E, A12E/  G16S, and A9S/K10E/A12E/G16S.
+The Ub binding  affinities of wild-type cUBA and UBAb and their several  mutants were determined by fluorescence titration experiments.
+For the sake of fluorescence titration, we produced  F45W, a fluorescent-containing mutant of Ub, which was  thought to be virtually identical to the wild-type protein  in terms of thermodynamic stability, solution structure,  and biological activity (Khorasanizadeh et al. 1993; Laub  et al. 1995).
+As expected, cUBA does not bind with Ub  under the experimental condition, while UBAb binds with  Ub relatively strongly (Fig. 7A).
+By fitting the titration  curves, the dissociation constant (KD) for UBAb binding  with Ub is 53.1 mM, being similar to that from ITC  determination (Peschard et al. 2007).
+The Ub binding  affinities for K10E, G16S, and A9S/K10E mutants of  UBAb are roughly unchanged (Fig. 7B; Table 2).
+This  suggests that the affinity difference for Ub binding  between UBAb and cUBA is not chiefly caused by these  residues (A9S, K10E, and G16S).
+However, Ala12-to-Glu  mutations (A12E and other Glu12-containing mutants)  completely abolish the binding ability of UBAb to Ub  (Fig. 7B; Table 2).
+This finding strongly suggests that  Ala12 is critical for the interaction between UBAb and  Ub.
+Ala12 lies in the center of a hydrophobic patch  formed by residues Ala9, Ala12, Leu14, and Met15,  so the binding is predominately through hydrophobic  interactions.
+This is consistent with the electrostatic  potential mapping of the two UBA domains (Fig. 6A,B)  that the surface of helix-1 on cUBA is a bit negatively  charged while that of UBAb is largely hydrophobic.
+We  also generated the E12A mutant of cUBA and its Cterminal deletion mutant E12A(147), and tested their Ub  binding affinities.
+However, these two mutations still  cannot improve the binding affinity of cUBA with Ub  (Table 2), probably because Ala12 is crucially required  but not sufficient to Ub binding.
+Other residues also  contribute to the hydrophobic surface for the overall  binding environment.
+  Homodimerization has little effect on Ub binding  Both cUBA and UBAb readily form symmetric homodimers in solution, and it seems that cUBA forms a dimer  more strongly than UBAb (Davies et al. 2004).
+The  dimeric interfaces on these two UBA domains have been  reported (Fig. 6C,D; Kozlov et al. 2007; Peschard et al.  2007), suggesting that the Ub-binding surfaces of Cbl  UBA domains are roughly opposite to their dimerization  interfaces.
+We generated two mutants, I30E/I41E of  UBAb and E12A/I30E/I41E of cUBA, as it was reported  that these mutations can disrupt dimerization of UBA  (Kozlov et al. 2007; Peschard et al. 2007).
+The result  shows that I30E/I41E mutant of UBAb retains the Ub  binding ability, while E12A/I30E/I41E of cUBA still  possesses undetectable Ub binding (Fig. 7C; Table 2).
+  Gel filtration analysis reveals that the apparent molecular  weight of the I30E/I41E mutant is lower than that of wildtype UBAb (Fig. 7D), corroborating that wild-type UBAb  predominantly forms a dimer whereas the I30E/I41E  mutant is a monomer.
+Taken together, we conclude that  dimerization of the UBA domains have no significant  effect on the Ub binding properties.
+  Discussion  Cbl proteins are a family of Ub E3 ligases that function  as negative regulators of many tyrosine kinases.
+A  truncated form of c-Cbl missing its UBA domain has  been identified from the HUT78 T-lymphoma cells  (Blake and Langdon 1992).
+Deletion of the cUBA domain abolishes the interaction of c-Cbl with APS, a Lnk  family of adaptor protein that is tyrosine-phosphorylated  by the insulin receptor, as well as the APS-mediated  tyrosine phosphorylation of c-Cbl in response to insulin  Figure 3.
+Both cUBA and UBAb domain structures are stabilized by a  hydrophobic core.
+(A) Hydrophobic core of cUBA.
+The side chains  of the residues in the hydrophobic core are displayed in neon style  (orange); these residues include Leu7, Ile11, Leu14, Ile24, Leu28,  Ile35, Ala38, and Leu42.
+(B) Hydrophobic core of UBAb.
+The core  residues are Val7, Ile11, Leu14, Val24, Leu28, Val35, Ala38, and Leu42.  (C) Overlay of the secondary structure elements of cUBA (cyan) and  UBAb (red).
+  Ubiquitin binding of Cbl UBA domains  www.proteinscience.org 1809  JOBNAME: PROSCI 17#10 2008 PAGE: 5 OUTPUT: Saturday September 6 15:51:44 2008  csh/PROSCI/170213/ps036384  Fig. 3 live 4/C(Liu et al. 2003).
+A variant of Cbl-b without the  UBA domain has also been identified (Keane et al.  1995).
+Deletion of UBAb can partially alter the ability  of Cbl-b to down-regulate the activated EGFR (Ettenberg  et al. 2001) and to ubiquitinate Met RTK (Peschard et al.  2007).
+In addition, UBAb, but not cUBA, can mediate the  association with ubiquitinated proteins and the UBAb  preferentially binds to polyubiquitin chains (Davies  et al. 2004).
+Although cUBA does not bind Ub, it cannot  be excluded that cUBA binds with other special  UbL-domain-containing proteins.
+Further studies will be  needed to identify the proteins that interact with the  cUBA domain.
+  We have determined and compared the solution structures of cUBA and UBAb.
+The overall fold of these two  UBA domains is very similar, except for a difference  in the angle between helix-1 and -3.
+We presume that  the small change in the angle is unlikely to result in  the differential binding properties of cUBA and UBAb.
+  Actually, our results from NMR chemical shift perturbation support the viewpoint that the helix-1 and loop-1  of UBAb form a predominately hydrophobic surface,  which is required for Ub binding (Figs. 5, 6).
+This  is further confirmed by the combination of mutagenesis and fluorescence titration studies that show that  the Ala12-to-Glu mutation of UBAb completely abolishes the UBAbUb interaction.
+By comparing the Ubinteracting surface on UBAb and its counterpart on  cUBA, we find that the hydrophobic part on cUBA is  interrupted by a negatively charged residue Glu12  (Fig. 6A).
+  The UBA domains of c-Cbl and Cbl-b can mediate  their homo- and heterodimerization in vivo (Bartkiewicz  et al. 1999; Liu et al. 2003).
+Very recently, Gehrings  group reported the mechanism by crystallographic studies  underlying the Cbl dimerization that is mediated by the  UBA domains (Peschard et al. 2007).
+Both cUBA and  UBAb form homodimers in crystal and probably in  solution, and UBAb is able to bind with Ub relatively  strongly whereas cUBA is not.
+The results from our  experiments can exclude the possibility that dimerization  influences their Ub binding properties, for mutation of  Figure 4.
+The UBAb domain binds to the hydrophobic surface of ubiquitin.
+(A) Overlay of a representative region of the  [  1  H, 15N]-HSQC spectra of 15N-labeled ubiquitin alone (red) and at a molar ratio of 1:3 with unlabeled cUBA (blue).
+(B) Overlay of  the [1  H, 15N]-HSQC spectra of ubiquitin alone (red) and in the presence of an equimolar amount of UBAb (blue).
+UBAb titration causes severe line broadening and/or peak shifting of certain amide resonances of ubiquitin.
+(C) Mapping the perturbed resonances of ubiquitin to its ribbon diagram upon titration of UBAb.
+The residues with broadened resonances are  displayed in green (L8, I13, T14, R42, L43, F45, K48, Q49, H68, V70, L71, and R72), and those with chemical shift change  are colored in yellow (Q40, Q41, L50, I61, S65, R74).
+The opposite surface that does not contain perturbed residues is not shown in the  figure.
+  Zhou et al.  1810 Protein Science, vol. 17  JOBNAME: PROSCI 17#10 2008 PAGE: 6 OUTPUT: Saturday September 6 15:52:03 2008  csh/PROSCI/170213/ps036384  Fig. 4 live 4/Cthe key dimerization residues (I30E/I41E) in cUBA, and  UBAb has no significant impact on the Ub binding  abilities of them (Fig. 7C).
+In addition, cUBA has an  ordered C terminus; there is another possibility that this  part prevents the binding of cUBA to Ub through steric  hindrance effect.
+Again, the C-terminal deletion of cUBA  does not improve Ub binding (Table 2).
+So far, there is  still a possibility that, besides helix-1, other parts of  UBA, like helix-2, may considerably contribute to the  specific interaction.
+Nevertheless, we propose that Ub  binding of the UBA domains is independent on their  domain dimerization, and there are two distinct surfaces  on UBAs, one for specific Ub binding predominantly in  helix-1 and loop-1 regions, and the other for homo- or  heterodimerization in the C-terminal region.
+Although  cUBA does not bind Ub, it still has the possibility to bind  other UbL-containing proteins, for the UBA domain of  HOIP binds directly to the UbL domain of HOIL-1L but  not to Ub (Kirisako et al. 2006).
+Further studies will be  needed to identify the proteins that can interact with the  cUBA domain.
+  The previous work suggested that helix-1 in UBA  domains contributes to the Ub binding (Davies et al.  2004), and the present study provides a further  insight into the differential Ub binding properties of  the UBA domains.
+Combining the solution structural  and biochemical information, we conclude that the  alanine residue in the center of the hydrophobic  patch of these UBA domains from Cbl proteins plays  very important roles in the Ub binding specificity, but the  domain dimerization, as ever unexpected, does not appear  to have relevance to the binding property.
+  Materials and Methods  Sample preparation  The genes encoding cUBA (residues 851906 of c-Cbl, numbered 156) and UBAb (residues 926982 of Cbl-b, numbered  157) were chemically synthesized and cloned into pET-32M  vector and expressed in Escherichia coli strain BL21(DE3)  (Novagen).
+Site-directed mutagenesis was carried out on this  vector via the regular PCR method.
+Cells were allowed to grow  overnight in 5 mL of LB media at 37C and subsequently  transferred into 0.5 L of M9 minimal media containing 15NH4Cl  and/or 13C6-glucose (Cambridge Isotope Laboratories, Inc.) for  Figure 5.
+The ubiquitin-interacting surface on UBAb.
+(A) Overlay of a representative region of [1  H, 15N]-HSQC spectra of 15N-labeled cUBA alone (red) and at a molar ratio of 1:2 with unlabeled ubiquitin (blue).
+(B) Overlay of the [1  H, 15N]-HSQC  spectra of 15N-labeled UBAb alone (red) and with ubiquitin at a molar ratio of 1:0.5 (blue).
+(C,D) Ribbon and side chain  presentation (C) and surface display (D) of the surface of UBAb domain that interacts with ubiquitin.
+The broadened resonances are displayed in green (N6, D8, A9, K10, A12, G16, and A31), and the shifted ones are colored in yellow (L14, M15, and  E22).
+  Ubiquitin binding of Cbl UBA domains  www.proteinscience.org 1811  JOBNAME: PROSCI 17#10 2008 PAGE: 7 OUTPUT: Saturday September 6 15:52:28 2008  csh/PROSCI/170213/ps036384  Fig. 5 live 4/Cpreparation of 13C/15N-labeled or 15N-labeled proteins, respectively.
+The thioredoxin-His6 tag fusion proteins were purified by  Ni-NTA affinity chromatography (Qiagen), and the tags were  removed by on-column cleavage with thrombin, leaving Gly  Ser residues at their N termini.
+The cleaved proteins were  further purified by gel filtration (Superdex-75) using the AKTA  FPLC system (Amersham Biosciences).
+The protein purities  were >95% as judged by SDS-PAGE.
+  The construct pET-3a-Ub for expressing Ub was transformed  into E. coli strain BL21(DE3).
+Cells containing the plasmid  were grown at 37C in M9 minimal media using 15NH4Cl as the  sole nitrogen source.
+The expression of Ub was induced by  adding IPTG to a final concentration of 0.2 mM when an OD600  reached ;0.6.
+The protein was purified by acetic acid denaturation, ion exchange chromatography (SP XL16/10), and gel  filtration (Superdex-75).
+Fractions containing 15N-labeled Ub  were pooled together, dialyzed against water, lyophilized, and  then stored at 20C.
+The unlabeled Ub and its mutant F45W  (Khorasanizadeh et al. 1993) were prepared by using LB media,  following the similar purification procedure as that of the 15Nlabeled one.
+  NMR spectroscopy  The NMR experiments were carried out at 25C on a Varian  Unity INOVA 600-MHz spectrometer equipped with four RF  channels and a triple-resonance pulsed-field gradient probe.
+The  samples were prepared with 1 mM protein dissolved in 90%  H2O/10% D2O buffer containing 20 mM sodium phosphate  (pH 6.5), 50 mM NaCl, and 1 mM DTT.
+All the NMR spectra  were processed using NMRPipe (Delaglio et al. 1995) and  analyzed using Sparky (T.D. Goddard and D.G. Kneller).
+  Two-dimensional 15N-edited HSQC and three-dimensional  CBCA(CO)NH, HNCACB, HNCO, HNHA, (H)CC(CO)NHTOCSY, and HCCH-TOCSY experiments were performed to  obtain the chemical shift assignments of the backbone and  side-chain atoms.
+The three-dimensional 15N- and 13C-edited  NOESY-HSQC spectra were collected to confirm the chemical  shift assignments and generate distance restraints for structure  calculations.
+  Structure calculation  The structure calculations were performed using the program CNS (Brunger et al. 1998) with the ARIA2 module  (Rieping et al. 2007).
+Distance restraints were derived from  inter-proton NOEs.
+Dihedral angles (u and c) were calculated  from backbone chemical shifts using the program TALOS  (Cornilescu et al. 1999).
+Hydrogen bond restraints were  obtained using the secondary structural information from the  program CSI (Wishart and Sykes 1994) and confirmed by  intermediate-range NOEs.
+For both of these domains, 200  structures were calculated in the last iteration and the 15  lowest-energy structures were selected for refinement in water,  respectively.
+The final structures were analyzed using the  program packages MOLMOL (Koradi et al. 1996) and PROCHECK (Laskowski et al. 1996).
+  NMR titration experiments  The UBA-ubiquitin titration experiments were monitored by  a series of two-dimensional 15N-edited HSQC experiments.
+  The buffering systems were the same as for recording threedimensional spectra.
+During the titration, the molar ratios of  UBA/Ub and Ub/UBA were gradually increased from 0.5:1 to  3:1.
+The spectra were also recorded on a 600-MHz spectrometer  at 25C.
+  Fluorescence titration experiments  For preparing samples for fluorescence titration experiments,  the two UBA domains and their mutants were expressed in  Figure 6.
+Comparison of the electrostatic surfaces of cUBA (A)  and UBAb (B).
+The orientation of both cUBA and UBAb is identical  to that of panels C and D in Figure 4.
+The positive charges are shown in  blue, and the negative charges are colored in red.
+The surface presentation shows that the Ub recognition surface on UBAb is predominately  hydrophobic with positively charged edges while the corresponding  surface on cUBA is something negatively charged in the center.
+The  Ub recognition surface on UBAb and its counterpart on cUBA are  highlighted by green parallelograms and labeled with amino acid residues.
+The dimeric interfaces (indicated by green circles) of cUBA  (C) and UBAb (D) are rotated by ;180 relative to those in A and  B, respectively.
+Residues I30 and I41 that are involved in homodimerization are labeled.
+The PDB codes for the structures are 2JUJ  for cUBA and 2JNH for UBAb. (E) Glutamic acid; (A) alanine; (I)  isoleucine.
+  Zhou et al.  1812 Protein Science, vol. 17  JOBNAME: PROSCI 17#10 2008 PAGE: 8 OUTPUT: Saturday September 6 15:52:53 2008  csh/PROSCI/170213/ps036384  Fig. 6 live 4/CLB media and purified using the same method as above.
+  Fluorescence measurements were performed on a HITACHI  F-4010 fluorescence spectrometer at room temperature.
+  The concentration of F45W ubiquitin was 15 mM in a  square 3-mL quartz cuvette.
+The excitation wavelength was  285 nm (5-nm band pass), and the emission was observed at  353 nm (10-nm band pass).
+The molar ratios of UBA/F45W  were gradually increased from 0.2:1 to 8:1.
+The dissociation constants for UBA-Ub complexes were calculated by  fitting the data sets with the single binding site model (Hu et al.  2004).
+  Analytical gel filtration  Analytical gel filtration was performed on a Superose-12 HR  10/30 column (Pharmacia Biotech) with a flow rate of  0.5 mL/min and a sample injection of 0.1 mL. The elution  buffer for the analysis was 20 mM sodium phosphate  (pH 6.5), 50 mM NaCl, and 1 mM DTT; the protein concentrations of the samples were 610 mg/mL. The resolution  volume of the elution profile is <0.1 mL.  Protein Data Bank accession codes  Structural coordinates have been deposited in the RCSB Protein  Data Bank and are available under the accession code 2JUJ  Figure 7.
+Affinities of the UBA domains and their mutants for Ub. (A) Titration curves for the binding of wild-type cUBA  and UBAb to Ub F45W.
+The relative fluorescence intensity change (DRFI) of the F45W mutant of Ub is plotted against  the concentration of the UBA domains.
+(B) Titration curves for the binding of UBAb mutants to Ub F45W.
+(C) Titration curves for the binding of I30E/I41E mutant of UBAb and E12A/I30E/I41E of cUBA to Ub F45W.
+(D) Analytical gel filtration of UBAb and its I30E/I41E mutant.
+The I30E/I41E mutant of UBAb gives an elution volume larger than that of the wild  type.
+  Table 2.
+Dissociation constants (KD) for the  binding of cUBA, UBAb and their mutants to Ub  UBA KD (mM)  UBAb: WT 53.1 6 3.1  K10E 39.3 6 3.7  A9S/K10E 69.7 6 5.2  A12E >10,000  G16S 79.0 6 12.4  A12E/G16S >10,000  A9S/K10E/A12E/G16S >10,000  I30E/I41E 85.8 6 12.9  cUBA: WT >10,000  E12A >10,000  E12A(1-47) >10,000  E12A/I30E/I41E >10,000  Each value is the average of three independent experiments.
+  Data are presented as mean 6 MD.
+  Ubiquitin binding of Cbl UBA domains  www.proteinscience.org 1813  JOBNAME: PROSCI 17#10 2008 PAGE: 9 OUTPUT: Saturday September 6 15:53:08 2008  csh/PROSCI/170213/ps036384for c-Cbl UBA (cUBA) and 2JNH for Cbl-b UBA (UBAb),  respectively.
+  Acknowledgments  We thank Dr. Yong-Guang Gao, Dr.Yan-Hong Shi, and XiaoJing Lin for technical assistance.
+This work was supported by  grants from the National Basic Research Program of China  (2006CB806508 and 2006CB910305) and the National Natural  Science Foundation of China (30600103 and 30670431).
+  References  Bartkiewicz, M., Houghton, A., and Baron, R. 1999.
+Leucine zipper-mediated  homodimerization of the adaptor protein c-Cbl.
+A role in c-Cbls tyrosine  phosphorylation and its association with epidermal growth factor receptor.
+  J. Biol. Chem. 274: 3088730895.
+  Blake, T.J. and Langdon, W.Y. 1992.
+A rearrangement of the c-cbl protooncogene in HUT78 T-lymphoma cells results in a truncated protein.
+  Oncogene 7: 757762.  Blake, T.J., Shapiro, M., Morse III, H.C., and Langdon, W.Y. 1991.
+The  sequences of the human and mouse c-cbl proto-oncogenes show v-cbl was  generated by a large truncation encompassing a proline-rich domain and a  leucine zipper-like motif.
+Oncogene 6: 653657.  Brunger, A.T., Adams, P.D., Clore, G.M., DeLano, W.L., Gros, P., GrosseKunstleve, R.W., Jiang, J.S., Kuszewski, J., Nilges, M., Pannu, N.S., et al.  1998.
+Crystallography and NMR system: A new software suite for macromolecular structure determination.
+Acta Crystallogr.
+D Biol. Crystallogr.  54: 905921.  Chang, Y.G., Song, A.X., Gao, Y.G., Shi, Y.H., Lin, X.J., Cao, X.T., Lin, D.H.,  and Hu, H.Y. 2006.
+Solution structure of the ubiquitin-associated domain of  human BMSC-UbP and its complex with ubiquitin.
+Protein Sci. 15: 1248  1259.  Cornilescu, G., Delaglio, F., and Bax, A. 1999.
+Protein backbone angle  restraints from searching a database for chemical shift and sequence  homology.
+J. Biomol. NMR 13: 289302.  Davies, G.C., Ettenberg, S.A., Coats, A.O., Mussante, M., Ravichandran, S.,  Collins, J., Nau, M.M., and Lipkowitz, S. 2004.
+Cbl-b interacts with  ubiquitinated proteins; differential functions of the UBA domains of c-Cbl  and Cbl-b.
+Oncogene 23: 71047115.  Delaglio, F., Grzesiek, S., Vuister, G.W., Zhu, G., Pfeifer, J., and Bax, A. 1995.  NMRPipe: A multidimensional spectral processing system based on UNIX  pipes. J. Biomol. NMR 6: 277293.  Ettenberg, S.A., Magnifico, A., Cuello, M., Nau, M.M., Rubinstein, Y.R.,  Yarden, Y., Weissman, A.M., and Lipkowitz, S. 2001.
+Cbl-b-dependent  coordinated degradation of the epidermal growth factor receptor signaling  complex.
+J. Biol. Chem. 276: 2767727684.  Hofmann, K. and Bucher, P. 1996.
+The UBA domain: A sequence motif present  in multiple enzyme classes of the ubiquitination pathway.
+Trends Biochem.  Sci. 21: 172173.  Hu, H.Y., Horton, J.K., Gryk, M.R., Prasad, R., Naron, J.M., Sun, D.A.,  Hecht, S.M., Wilson, S.H., and Mullen, G.P. 2004.
+Identification of small  molecule synthetic inhibitors of DNA polymerase b by NMR chemical  shift mapping.
+J. Biol. Chem. 279: 3973639744.  Hurley, J.H., Lee, S., and Prag, G. 2006.
+Ubiquitin-binding domains.
+Biochem.  J. 399: 361372.  Joazeiro, C.A., Wing, S.S., Huang, H., Leverson, J.D., Hunter, T., and Liu, Y.C.  1999.
+The tyrosine kinase negative regulator c-Cbl as a RING-type, E2-  dependent ubiquitin-protein ligase.
+Science 286: 309312.  Kang, Y., Vossler, R.A., Diaz-Martinez, L.A., Winter, N.S., Clarke, D.J., and  Walters, K.J. 2006. UBL/UBA ubiquitin receptor proteins bind a common  tetraubiquitin chain.
+J. Mol. Biol. 356: 10271035.
+  Kang, Y., Zhang, N., Koepp, D.M., and Walters, K.J. 2007.
+Ubiquitin receptor  proteins hHR23a and hPLIC2 interact.
+J. Mol. Biol. 365: 10931101.  Keane, M.M., Rivero-Lezcano, O.M., Mitchell, J.A., Robbins, K.C., and  Lipkowitz, S. 1995.
+Cloning and characterization of cbl-b: A SH3 binding  protein with homology to the c-cbl proto-oncogene.
+Oncogene 10: 2367  2377.  Khorasanizadeh, S., Peters, I.D., Butt, T.R., and Roder, H. 1993.
+Folding and  stability of a tryptophan-containing mutant of ubiquitin.
+Biochemistry 32:  70547063.  Kirisako, T., Kamei, K., Murata, S., Kato, M., Fukumoto, H., Kanie, M., Sano, S.,  Tokunaga, F., Tanaka, K., and Iwai, K. 2006.
+A ubiquitin ligase complex  assembles linear polyubiquitin chains.
+EMBO J. 25: 48774887.  Koradi, R., Billeter, M., and Wuthrich, K. 1996.
+MOLMOL: A program for  display and analysis of macromolecular structures.
+J. Mol. Graph. 14: 2932.  Kozlov, G., Peschard, P., Zimmerman, B., Lin, T., Moldoveanu, T., MansurAzzam, N., Gehring, K., and Park, M. 2007.
+Structural basis for UBAmediated dimerization of c-Cbl ubiquitin ligase.
+J. Biol. Chem. 282:  2754727555.
+  Laskowski, R.A., Rullmannn, J.A., MacArthur, M.W., Kaptein, R., and  Thornton, J.M. 1996.
+AQUA and PROCHECK-NMR: Programs for  checking the quality of protein structures solved by NMR.
+J. Biomol.  NMR 8: 477486.  Laub, P.B., Khorasanizadeh, S., and Roder, H. 1995.
+Localized solution  structure refinement of an F45W variant of ubiquitin using stochastic  boundary molecular dynamics and NMR distance restraints.
+Protein Sci. 4:  973982.  Levkowitz, G., Waterman, H., Ettenberg, S.A., Katz, M., Tsygankov, A.Y.,  Alroy, I., Lavi, S., Iwai, K., Reiss, Y., Ciechanover, A., et al. 1999.
+  Ubiquitin ligase activity and tyrosine phosphorylation underlie suppression  of growth factor signaling by c-Cbl/Sli-1.
+Mol. Cell 4: 10291040.  Liu, J., DeYoung, S.M., Hwang, J.B., OLeary, E.E., and Saltiel, A.R. 2003.
+  The roles of Cbl-b and c-Cbl in insulin-stimulated glucose transport.
+  J. Biol. Chem. 278: 3675436762.  Mueller, T.D. and Feigon, J. 2002.
+Solution structures of UBA domains reveal a  conserved hydrophobic surface for proteinprotein interactions.
+J. Mol.  Biol.
+319: 12431255.
+  Peschard, P., Kozlov, G., Lin, T., Mirza, I.A., Berghuis, A.M., Lipkowitz, S.,  Park, M., and Gehring, K. 2007.
+Structural basis for ubiquitin-mediated  dimerization and activation of the ubiquitin protein ligase Cbl-b.
+Mol. Cell  27: 474485.  Petrelli, A., Gilestro, G.F., Lanzardo, S., Comoglio, P.M., Migone, N., and  Giordano, S. 2002.
+The endophilin-CIN85-Cbl complex mediates liganddependent down-regulation of c-Met.
+Nature 416: 187190.  Raasi, S., Varadan, R., Fushman, D., and Pickart, C.M. 2005.
+Diverse  polyubiquitin interaction properties of ubiquitin-associated domains.
+Nat.  Struct.
+Mol. Biol. 12: 708714.  Rieping, W., Habeck, M., Bardiaux, B., Bernard, A., Malliavin, T.E., and  Nilges, M. 2007.
+ARIA2: Automated NOE assignment and data integration  in NMR structure calculation.
+Bioinformatics 23: 381382.  Robertson, H., Hime, G.R., Lada, H., and Bowtell, D.D. 2000.
+A Drosophila  analogue of v-Cbl is a dominant-negative oncoprotein in vivo.
+Oncogene  19: 32993308.
+  Sasaki, T., Funakoshi, M., Endicott, J.A., and Kobayashi, H. 2005.
+Budding  yeast Dsk2 protein forms a homodimer via its C-terminal UBA domain.
+  Biochem. Biophys. Res. Commun.
+336: 530535.  Soubeyran, P., Kowanetz, K., Szymkiewicz, I., Langdon, W.Y., and Dikic, I.  2002.
+Cbl-CIN85-endophilin complex mediates ligand-induced downregulation of EGF receptors.
+Nature 416: 183187.  Thien, C.B. and Langdon, W.Y. 2005.
+c-Cbl and Cbl-b ubiquitin ligases:  Substrate diversity and the negative regulation of signalling responses.
+  Biochem. J. 391: 153166.  Vijay-Kumar, S., Bugg, C.E., and Cook, W.J. 1987.
+Structure of ubiquitin  refined at 1.8 A resolution.
+J. Mol. Biol. 194: 531544.  Wishart, D.S. and Sykes, B.D. 1994.
+The 13C chemical-shift index: A simple  method for the identification of protein secondary structure using 13C  chemical-shift data.
+J. Biomol. NMR 4: 171180.  Zhou et al.  1814 Protein Science, vol. 17  JOBNAME: PROSCI 17#10 2008 PAGE: 10 OUTPUT: Saturday September 6 15:53:31 2008  csh/PROSCI/170213/ps036384

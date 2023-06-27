@@ -1,0 +1,1157 @@
+14626 Biochemistry 1995,34, 14626- 14636 
+Articles 
+The Response Regulators CheB and CheY Exhibit Competitive Binding to the 
+Kinase CheA' 
+Jiayin Li,$ Ronald V. Swanson,§," Melvin I. Simon,$ and Robert M. Weis*3bJ 
+Department of Chemistry and Program in Molecular and Cellular Biology, University of Massachusetts, 
+Amherst, Massachusetts 01003, and Division of Biology, California Institute of Technology, 
+Pasadena, California 91125 
+Received June 20, 1995; Revised Manuscript Received September 11, 1995@ 
+ABSTRACT: The autophosphorylating lunase CheA of the bacterial chemosensory signaling pathway donates 
+a phosphoryl group to either of two response regulator proteins, CheY or the receptor methylesterase 
+(CheB). With isothermal titration calorimetry, it was demonstrated that CheA and a CheA fragment 
+composed of amino acid residues 1-233 (CheAl-233) bound to CheY with similar dissociation constants 
+of 2.0 and 1.2 pM at 298 K, respectively, indicating that the CheY binding site is wholly within the 
+1-233 amino acid locus. CheB bound to CheAl-233 with a KD of 3.2 pM, and also bound to intact CheA 
+with the same affinity. CheY was found to compete with CheB for binding to CheA1-233, in spite of the 
+low level'of sequence identity between CheY and the regulatory domain of CheB. The competitive nature 
+of CheY and CheB binding was determined in two independent sets of experiments: titration experiments 
+in which either a CheB-CheA1-233 complex was titrated with CheY or CheB was titrated with a CheY￾CheAl-233 complex, and competitive affinity chromatography experiments that used Ni-NTA-chelating 
+resin as an affinity matrix for complexes of the histidine-tagged CheA1-233 fragment and CheY or CheB. 
+The effects of phosphorylation, binding-site mutations, and active-site mutations were also studied to 
+probe the influence of conformational changes in CheY as a regulatory mechanism of CheY-CheA 
+interactions. Phosphorylated CheY, in the presence of excess EDTA, was found to have a 2-fold lower 
+affinity for CheA1-233, and 6 mM Mg2' further reduced the affinity of phosphorylated CheY for CheA1-233 
+(ca. 3-fold), although Mg2+ on its own had no effect on the interactions of either CheB or CheY with 
+CheAl-233. The data thus indicate that phosphorylated CheY has a significantly lower affinity for CheA 
+under physiological conditions. The idea that phosphorylation may induce a significant conformational 
+change, reducing the strength of the CheY-CheA interactions, is supported by the relative values of the 
+association constants measured for CheY active-site and binding-site mutants. A binding-site mutation 
+(A103V) in CheY, which is remote from the site of phosphorylation produced a 10-fold reduction in K,, 
+whereas active-site mutations produced a modest (2-fold) reduction. 
+As it swims through solution Escherichia coli continuously 
+samples the local concentrations of nutrients and toxins, 
+which are identified as attractants or repellents by their 
+specific binding interactions to integral membrane receptor 
+proteins and by the behavioral responses that are subse￾quently generated. Detection of chemoeffector concentration 
+versus time permits the bacterium to respond positively to 
+gradients of attractants and negatively to repellents using a 
+signal transduction pathway that couples changes in chemical 
+concentration to the motility apparatus of the cell [reviewed 
+A This research was supported by U.S. Public Health Service Grants 
+AI-19296 (M.I.S.) and GM-42636 (R.M.W.) and a Young Investigator 
+Award from the Beckman Foundation (R.M.W.). R.V.S. was supported 
+by a National Research Service Award Fellowship (GM- 14767). 
+* To whom correspondence should be addressed at the Department 
+of Chemistry, University of Massachusetts. * Program in Molecular and Cellular Biology, University of Mas￾sachusetts. 
+California Institute of Technology. I' Present address: Industrial BioCatalysis, Sharon Hill, Pennsylvania. 
+Department of Chemistry, University of Massachusetts. 
+Abstract published in Advance ACS Absrmcrs, November 1, 1995. 
+in Bourret et al. (1991); Stock et al. (1992), and Alex and 
+Simon (1994)l. The histidine kinase CheA plays a central 
+role in this pathway, as it is involved in the response and 
+adaptation to all of the chemoeffectors processed through 
+the methyl-accepting chemotaxis proteins, which are a 
+thoroughly characterized class of integral membrane receptor 
+proteins in prokaryotes [reviewed in Hazelbauer (1992)l. 
+Changes in receptor occupancy result in behavioral responses 
+that occur rapidly in comparison to the process of adaptation, 
+which is mediated by changes in the level of receptor 
+covalent modification. Both the receptor occupancy and the 
+level of covalent modification influence the autophospho￾rylation rate of CheA by ATP through direct protein 
+interaction between the kinase and chemoreceptors in a 
+complex also containing Chew (Gegner et al., 1992; Schuster 
+et al., 1993). Phosphorylated CheA kinase is the phosphate 
+donor for CheY and CheB (Hess et al., 1988), and signal 
+amplification is generated by repeated cycling through the 
+autophosphorylation and the phosphotransfer reactions. 
+CheY and CheB, 14 and 37 kDa, respectively, are members 
+of the response regulator family of signal transduction 
+0006-2960/95/0434- 14626$09.00/0 0 1995 American Chemical Society CheB and CheY Binding to CheA 
+proteins (Stock et al., 1985). Where CheY is composed only 
+of the response regulator domain, CheB has in addition a 
+catalytic domain at the carboxyl terminus facilitating the 
+hydrolysis of methyl esters on the receptor protein (Stock 
+& Koshland, 1978; Lupas & Stock, 1989; Stewart et al., 
+1990). Both phosphorylated CheY and CheB are the active 
+forms; phosphorylated CheY interacts with the motor switch 
+proteins, thereby promoting clockwise motor rotation in E. 
+coli and Salmonella typhimurium, a close relative of E. coli 
+(Welch et al., 1993), and phosphorylated S. typhimurium 
+CheB has over 10-fold higher methylesterase activity in vitro 
+relative to the unphosphorylated form (Lupas & Stock, 1989). 
+Since the elucidation of the basic biochemical (phospho￾rylation and methylation) reactions in the chemotaxis path￾way, the focus of this field has shifted more toward 
+identifying the noncovalent protein-protein interactions in 
+the signal transduction cascade with emphasis on the 
+formation and characterization of behaviorally relevant 
+multiprotein complexes (McNally & Matsumura, 199 1 ; 
+Gegner & Dahlquist, 1991; Gegner et al., 1992; Long & 
+Weis, 1992; Swanson et al., 1993; Schuster et al., 1993; 
+Welch et al., 1993; Blat & Eisenbach, 1994). CheA is 
+centrally positioned in the signal transduction chain, it 
+interacts both with the receptor and the response regulators, 
+CheY and CheB. CheA has been shown to form a high￾affinity complex with CheY (McNally & Matsumura, 1991; 
+Swanson et al., 1993). Fragments of CheA also bind to 
+CheY, allowing the binding domain on CheA to be localized 
+between residues 98 and 233 (Swanson et al., 1993; Momson 
+& Parkinson, 1994). 
+In this study, the interactions of CheY and CheB with 
+CheA have been characterized using ITC,' which provides 
+the first complete report of all the thermodynamic parameters 
+in the binding reactions. The competitive nature of CheB 
+and CheY binding was also established, and the effects of 
+point mutations in CheY and phosphorylation of CheY were 
+measured to determine the influence of conformation on the 
+strength of CheY-CheA interactions, which is a matter of 
+physiological significance for signal amplification. The 
+relative affinities of CheB and CheY, the arrangement of 
+the binding site, and the effect of phosphorylation are all 
+important in developing a quantitative understanding of the 
+signal transduction process through modeling studies (Bray 
+et al., 1993; Hauri & Ross, 1995). Finally, this binding study 
+provides information relevant to the analysis of molecular 
+recognition within the large family of histidine kinases and 
+response regulators. 
+MATERIALS AND METHODS 
+Protein Puri3cation. CheB was purified from the E. coli 
+cheA strain KO685 (Hess et al., 1987) containing the 
+expression vector pCW/cheB, a generous gift from A. F. Roth 
+and F. W. Dahlquist (University of Oregon). After reaching 
+an apparent absorbance at 600 nm (OD600) equal to ca. 0.8 
+(approximate conversion factor: lo9 cells/mL/absorbance 
+unit), 1-L LB cultures (typically three or four) of KO685 
+transformed with pCWlcheB at 37 "C were induced to 
+I Abbreviations: ITC, isothermal titration microcalorimetry; SDS￾PAGE, sodium dodecyl sulfate polyacrylamide gel electrophoresis; 
+IPTG, isopropyl thio-P-o-galactoside; PMSF, phenylmethylsulfonyl 
+fluoride; LB, Luria broth; GFC, gel filtration chromatography; Ni￾NTA, nickel-nitrilotriacetic acid. 
+Biochemistry, Vol. 34, No. 45, 1995 14627 
+express CheB by the addition of IPTG to 1 mM. Incubation 
+was maintained for 2-3 h more before the cells were 
+harvested by centrifugation (4800g for 10 min). The high 
+level of expression from this plasmid made possible a 
+simplified purification scheme adapted from the procedure 
+of Simms et al. (1985). Frozen cells were thawed and 
+resuspended in TrisNg buffer (25 mM Tris, 5 mM MgC12, 
+1 mM 2-mercaptoethanol, pH 7.5, 10% glycerol) containing 
+0.1 mg of RNaseNmL, 0.1 mg of DNase VmL, and 0.5 mM 
+PMSF. The suspended cells were lysed by sonication and 
+the resulting lysate was clarified by centrifugation for 30 
+min at 123 OOOg. The cleared lysate was fractionated by 
+adding 29.6 g of (NH4)2S04 per 100 mL while stirring on 
+ice. After 30 min on ice, the solution was centrifuged 
+(27000g for 30 min), the supernatant was discarded, and the 
+pellet was resuspended and dialyzed against TrisNg buffer. 
+The dialyzed solution was passed over a DEAE-cellulose 
+column (2.5 cm i.d. x 6 cm) equilibrated in TrisNg buffer. 
+The column flow-through and effluent from one column 
+volume wash were pooled and concentrated either by 
+centrifugation (3000g) in a Centriprep- 10 concentrator (Ami￾con, Beverly, MA) or by precipitation with 49 g of (NH& 
+SO4 per 100 mL. Concentrated protein was dialyzed against 
+50 mM NaP04, 5 mM MgC12, pH 7, 1 mM 2-mercapto￾ethanol. The final purification step was either FPLC gel 
+filtration performed at 0.5 mL/min using a Superdex-75 HR 
+10/30 column equilibrated in 25 mM Tris, 50 mM KCI, 5 
+mM MgC12, pH 7.5, or alternatively chromatography on a 
+2.5 cm i.d. x 4 cm Affi-gel Blue column. Affi-gel Blue 
+chromatography was performed by binding the protein to 
+the column and washing with the dialysis buffer containing 
+25 mM NaCl. The protein was then eluted with the same 
+buffer containing 1 M NaCI. 
+CheA1-233 was purified from E. coli strain M15 containing 
+plasmids pREP4 and pRS 1-4 by chromatography on a Ni￾NTA column as described previously (Swanson et al., 1993), 
+followed by DEAE ion-exchange chromatography which 
+consisted of a linear gradient from 0 to 0.7 M NaCl in 50 
+mM sodium phosphate, 5 mM EDTA, 2 mM /3-mercapto￾ethanol, pH 7.5. CheA was purified according to published 
+procedures (Hess et al., 1988) in the E. coli strain RP3808 
+transformed with the plasmid pDV4 (a gift from P. Mat￾sumura; McNally & Matsumura, 199 1) for CheA expression. 
+CheY was purified according to published protocols (Mat￾sumura et al., 1985; Sanders et al., 1989) from the E. coli 
+strain RP3808 transformed with the CheY expression plasmid 
+pCWlcheY, a gift from F. W. Dahlquist. C~~YYSIC, C~~YDI~K, 
+CheY~12~,~57~, and CheY~lo3" were purified as previously 
+described (Swanson et al., 1993). 
+Determination of 'Protein Concentrations. To measure 
+protein concentrations precisely, several methods were used 
+to determine the molar extinction coefficient at 280 nm (€280) 
+of CheA, CheA1-233, CheB, and CheY. The proteins used 
+in the determination of molar extinction coefficients were 
+judged to be '95% pure by scanning densitometry of 
+samples resolved on Coomassie-stained polyacrylamide gels. 
+Absorbance spectra for each of the proteins were recorded 
+from 250 to 340 nm using a Cary 14 UV-visible spectro￾photometer, and the absorbance difference between 280 and 
+320 nm was taken as A280. The masses of protein samples 
+were determined by amino acid analysis on an AB1 model 
+420/130A derivatizedanalyzer (Applied Biosystems, Foster 
+City, CA), and also, using independent samples, determined 14628 Biochemistry, Vol. 34, No. 45, 1995 
+by the BCA assay (Smith et al., 1985). The masses of CheY 
+and CheAI-233 were also determined by the method of dry 
+weights (Kupke & Dorrier, 1978). Values for the molar 
+extinction coefficient obtained by the different methods were 
+found to be in good agreement. The averaged unit absor￾bances at 280 nm in a 1 cm path cuvette were calculated to 
+be 2.9, 4.9, 1.7, and 1.3 mg/mL of CheA, CheA1-233, CheB 
+and CheY, respectively. Using molecular weights of 73, 27, 
+37, and 14 kDa for CheA, CheAl-r33, CheB, and CheY, the 
+respective 6280 values of 25 000, 5 500, 22 000, and 11 000 
+(M cm)-' were computed. 
+Phosphorylation of CheY. To test the effect of CheY 
+phosphorylation on CheA-CheY interactions, CheY was 
+phosphorylated using the protocol developed by Lukat et al. 
+(1992) using acetyl phosphate (Sigma, St. Louis, MO, 
+Catalog No. A0262) as the phosphodonor. The extent of 
+phosphorylation was determined by the quenching of tryp￾tophan fluorescence as described previously (Lukat et al., 
+1992) using a PTI QM-1 spectrofluorometer. CheY was 
+incubated in reaction buffer (20 mM sodium phosphate, 20 
+mM NaC1,6 mM MgC12, 1 mM EDTA, 1 mM PMSF, 10% 
+(v/v) glycerol, 20 mM acetyl phosphate, pH 7.4) for 20 min 
+at room temperature. Phosphorylated CheY was used 
+immediately in the calorimetry experiments described below. 
+In some cases the reactions were stopped by the addition of 
+EDTA to a final concentration of 20 mM. 
+All titrations were 
+carried out using a MicroCal MCS ultrasensitive titration 
+calorimeter (MicroCal Inc., Northampton, MA) with Ob￾server software for instrument control and data acquisition. 
+Instrumentation, software, and data analysis have been 
+described elsewhere (Wiseman et al., 1989; Brandts et al., 
+1990; Lin et al., 1994). Before a titration experiment, protein 
+samples designated for the reaction cell (1.343 mL) and the 
+syringe (100 or 250 pL) were dialyzed against buffer (0.5 
+L, 20 mM sodium phosphate, 20 mM NaCl, 1 mM EDTA, 
+1 mM PMSF, 10% (v/v) glycerol, pH 7.4) in the same flask 
+overnight at 4 "C. Titrations were carried out in the same 
+buffer over a range of temperatures (8.2-38.5 "C), using a 
+syringe-stirring speed of 500 rpm. Typical titration experi￾ments consisted of 10-30 injections in which the individual 
+injections were 5-10 pL each and were made every 3-4 
+min. The calibrated cell feedback signal @cal/s) was 
+collected at 2-s intervals. In most cases the areas derived 
+from the first injection were not used in the analysis since 
+anomolously small values were observed, presumably due 
+to sample dilution during the pre-equilibration step. Ex￾perimental data were corrected for buffer mismatch by 
+subtracting a value similar in magnitude to the heat of 
+injection after the system had reached saturation, which was 
+determined as the average heat of the last three injections. 
+The Origin software supplied with the instrument was used 
+to analyze data according to a single-set-of-sites model from 
+which values for the binding stoichiometry, n, the enthalpy 
+of binding, AH, and the association constant, K,, were 
+obtained. The n value is defined as the molar binding ratio 
+of the molecule in the syringe to the molecule in the reaction 
+cell, and binding enthalpies are expressed in kilocalories per 
+mole of injectant. The values of K,, AH, and n returned by 
+the fits were used to compute AS" and AGO at the 
+experimental temperature (r). Whenever possible the bind￾ing reactions were carried out at either two or more 
+temperatures, so that the change in the heat capacity (AC,,) 
+Isothermal Titration Calorimetry. 
+Li et al. 
+accompanying the association reaction could be determined 
+and used to compute values of the thermodynamic parameters 
+at the standard temperature (298 K, referred to hereafter as 
+TO) which were reported as average values for the association 
+reactions summarized in Table 1. To check the stability of 
+the proteins during a titration, samples were compared by 
+SDS -PAGE before and immediately after titration. There 
+was no proteolysis evident in the samples reported in this 
+study. 
+In experiments with phosphorylated CheY and CheA1-233, 
+fluorescence quenching was measured before and after 
+titration experiments to demonstrate that the level of phos￾phorylation was unchanged during the course of the experi￾ment. Since CheAl-233 has no Trp residues, it does not 
+contribute significantly to the tryptophan emission spectrum. 
+Fluorescence quenching was also used to monitor the extent 
+of CheY phosphorylation over the course of a typical titration 
+experiment (ca. 90 min) to evaluate the extent of CheY 
+phosphorylation in titration experiments where the phospho￾rylation and dephosphorylation reactions had not been 
+stopped by the prior addition of EDTA. In these experi￾ments, phosphorylated CheY was added to both the sample 
+cell and the reference cell to balance the effects of the 
+phosphorylation and hydrolysis heats of reaction. 
+Competitive Binding Assay with Ni-NTA Affinity Resin. 
+Experiments were carried out using Ni-NTA resin (Qiagen 
+Corp., Chatsworth, CA) to determine the competitive nature 
+of CheY and CheB binding by an independent method. 500 
+pmol His-tagged CheAl-233 was captured on Ni-NTA resin 
+(ca. 10 mg of resin, providing an excess of Ni-NTA binding 
+sites) in a mixture that contained either 250 pmol of CheY 
+or 380 pmol of CheB in phosphate buffer (50 mM sodium 
+phosphate, 150 mM NaC1, 2 mM /3-mercaptoethanol, pH 
+7.5). In some tubes either an additional 3.8 nmol of CheB 
+or 2.5 nmol of CheY was added. The total volume was 
+adjusted to 50 pL with buffer, and the samples were 
+equilibrated on ice for 5 min. The Ni-NTA resin was then 
+separated from the supernatant by passing the sample through 
+1.5 mL micropure separators (Amicon Corp., Beverly, MA) 
+at 16,OOOg for 4 min. Protein that remained bound to the 
+Ni-NTA resin was collected by resuspending the resin in 
+40 pL of phosphate buffer that also contained 250 mM 
+imidazole, and the supernatant was collected by centrifuga￾tion after a 5, min incubation period. 5-pL aliquots of the 
+supernatants were analyzed by SDS-PAGE. 
+RESULTS 
+Titration Calorimetry of CheY and CheAl-233. A series 
+of titration experiments were carried out which verified that 
+CheAl-233 bound to CheY in a 1:l ratio. The top data trace 
+in Figure la shows six 10-pL control injections, spaced at 
+200-s intervals, of a 0.51 mM CheAl-233 solution into buffer 
+at 1 1.5 "C. Titrations of CheAl-233 into solutions of CheY 
+at 11.3 and 28.5 "C are shown in the middle and lower traces 
+of Figure 1 a, respectively. Experimental parameters, includ￾ing protein concentrations and titration temperatures, are 
+summarized in Table 1. The large exothermic peaks 
+recorded in the middle and lower curves were due to the 
+specific binding of CheAl-233 to CheY. The injection heats 
+displayed a steady decrease in exothermicity as higher mole 
+ratios of CheAI-233 to CheY were produced. The heats 
+became endothermic and displayed little change in area once CheB and CheY Binding to CheA 
+Table 1: Thermodynamic Parameters for Titrations Involving CheA with CheY or CheB" 
+Biochemistry, Vol. 34, No. 45, 1995 14629 
+mean values at 298 K (fsd) AH AGO 4 protein (concn) 
+expt reaction cell temp Ka (kcall (kcal/ ASo (kcal/ Ka298 AH'298 no. OLM) syringe (mM) ("C) n (M-I x mol) mol) (eu) mol-"C) (M-l x (kcal mol) AS0298(eu) 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+CheY (37) CheAl-233 (1.13) 10.3 0.95 
+CheY (38) CheA1-233 (0.85) 11.3 0.94 
+CheY (40) CheAI-233 (1.13) 28.0 0.98 
+CheY (43) CheAl-233 (0.80) 28.5 0.90 
+CheY (47) CheAl-233 (0.83) 28.5 0.92 
+CheAl-2j3 (28) CheY (0.67) 10.2 1.04 
+CheA1-233 (35) CheY (1.29) 10.5 1.00 
+CheAl-233 (28) CheY (0.80) 28.0 0.97 
+CheA1-233 (33) CheY (1.29) 28.5 0.90 
+CheA (25) CheY (0.67) 10.1 1.02 
+CheA (31) CheY (0.80) 28.0 0.87 
+CheY-Mg2+(40)b CheAl-233 (1.13)b 28.0 1.01 
+CheY-P (21)' CheAl-233 (0.70) 8.2 0.95 
+CheY-P (50)' CheAl-233 (0.60) 28.2 1.01 
+CheYAlo3v (43) CheA1-233 (0.85) 11.5 0.91 
+CheYyslc (37) CheAl-233 (1.13) 10.8 0.96 
+CheYyslc (35) CheAl-233 (1.13) 28.0 0.92 
+CheB (59)d CheA1-233 (0.71) 8.5 nd 
+CheB (38) CheAl-233 (0.59) 18.8 0.96 
+CheB (36) CheA1-233 (0.59) 28.0 0.94 
+CheB (30) CheA1-233 (0.59) 38.2 0.88 
+CheB-Mg2+ CheAl-233 (1.13)" 28.0 0.94 
+CheYAloiv (43) CheAl-233 (0.83) 28.5 0.93 
+17.8 
+16.7 
+7.4 
+6.3 
+6.7 
+13.9 
+19.5 
+8.5 
+8.8 
+8.8 
+5.1 
+6.9 
+6.4 
+3.8 
+1.4 
+0.69 
+17.2 
+4.8 
+nd 
+3.2 
+2.7 
+1.7 
+2.96 
+-8.4 -8.1 -1.1 
+-9.3 -8.1 -4.1 -0.22 8.1f0.8 -12.0+0.5 -13h2 
+-12.4 -8.1 -14.4 
+-12.3 -8.0 -14.2 
+-13.5 -8.0 -18.0 
+-7.6 -8.0 1.2 
+-9.2 -8.2 -3.8 -0.23 9 k 2 -11.7f0.7 -12f2 
+-12.2 -8.2 -13.3 
+-12.8 -8.2 -15.3 
+-7.2 -7.7 1.7 -0.40 5 i 1 -13.1 iO.l -17.9f0.6 
+-14.3 -7.9 -21.5 
+-12.2 -8.0 -13.9 
+-7.1 -7.5 1.4 -0.29 4 i 1 -12.0fO.l -14.8 40.6 
+-12.9 -7.7 -17.4 
+-6.5 -6.7 0.86 -0.15 0.81 i 0.01 -8.4 +z 0.1 -5.6 f 0.3 
+-8.8 -6.7 -7.2 
+-8.4 -8.1 -1.04 -0.37 6.650.4 -13.6+0.1 -18.9i0.1 
+-14.7 -7.8 -22.9 
+0 nd nd 
+-10.1 -7.5 -8.7 
+-13.2 -7.4 -18.5 
+-8.2 -7.5 -2.1 
+-5.3 -7.4 6.9 -0.45 3.1 i0.5 -8.0 i0.8 -2 i 3 
+n, K,, and AH were obtained from the single-set-of-sites fit to the data. The other parameters were calculated as follows: AGO = -RT In K,, 
+AS" = (AH - AG")/T, AH0298 = AH f ACJ298 - T), ASOm = ASo + AC, ln(298/T), Ka298 = exp[-AHo298/298R + AS0298/R], where AC, was 
+determined as the slope of least-squares fit of AH uersus temperature. Standard deviations were calculated from the averages of Kd, AH", and ASo 
+at 298 K. The buffer in all experiments was 20 mM sodium phosphate, 20 mM NaC1, 1 mM EDTA, 1 mM PMSF, 10% (vh) glycerol, pH 7.4, 
+unless indicated otherwise. 6 mM MgC12 was added to the titration buffer. CheY-P: CheY was phosphorylated with 20 mM acetyl phosphate 
+in the titration buffer plus 6 mM MgC12 and quenched with 20 mM EDTA as described in Materials and Methods. nd, not determined. Neither 
+n nor K, could be determined from the data since AH % 0. 
+the binding sites on CheY for CheA1-233 were saturated. The 
+endothermic peaks (which point upward from the base line) 
+seen in the control and the last several injections in the 
+titrations were due to the buffer mismatch between the 
+solution in the syringe and the reaction cell. In several 
+control experiments, where the CheAl-233 fragment was 
+injected into buffer, the observed heats were nearly constant 
+as a function of the injection number (e.g., see Figure la). 
+The magnitudes of the heats in different control experiments 
+were found to be proportional to the difference in the sample 
+dialysis temperature prior to the experiment (4 "C) and the 
+experimental temperature (ranging from 8.5 to 38.5 "C). This 
+mismatch was attributed to the differences in the temperature 
+dependence of the buffer pH and the pH of the protein 
+solution, and was subtracted as background. 
+The background-corrected, integrated heats are plotted in 
+Figure lb as kcal per mol of CheA1-233 injected versus the 
+molar ratio of CheA1-233 to CheY. The open circles are the 
+integrated heats of titration at 11.3 "C, and the open squares 
+are the integrated data obtained at 28.5 "C. Fits of the data 
+to a single-set-of-sites model (Wiseman et al., 1989) were 
+drawn through the data in Figure lb and provided estimates 
+of the binding stoichiometry (n), the enthalpy of binding 
+(AH) and the association constant (K,). An n value of 0.94 
+was obtained from the fit of the 11.3 "C data. This n value 
+agreed well with the average value (0.94 & 0.03) determined 
+from five titrations (Table 1, expts 1-5), indicating that 
+CheAl-233 and CheY interacted in a 1:l ratio. The values 
+K, and AH were determined from the data plotted in Figure 
+lb were 16.7 x lo5 M-' and -9.3 kcal/mol, respectively, 
+at 11.3 "C and 6.7 x lo5 M-' and -13.5 kcal/mol at 28.5 
+"C. AC, of binding was found to be -0.22 kcal/mol/deg 
+using the values AH determined from five experiments 
+(Table 1, expts 1-5) including those determined from the 
+data plotted in Figure lb. Ka298 and AH298 were determined 
+to be 8.1 x lo5 f 8 x lo4 M-' and -12.0 f 0.5 kcal/mol, 
+respectively, from the same five experiments, using AC, to 
+adjust the values obtained from individual experiments to 
+TO so that they could be averaged. Finally, the average value 
+of the entropy change (AS"298) accompanying CheY￾CheAI-233 binding was calculated to be -13 f 2 eu. 
+To check the consistency of the parameters determined 
+from the experiments described above, CheA1-233 and CheY 
+were exchanged so that CheAl-233 (in the reaction cell) was 
+titrated with CheY (in the syringe) under otherwise identical 
+conditions. Figure 2a includes plots of the raw data of the 
+injection series of CheY into a solution of CheAl-233 at 10.5 
+"C (top) and 28.5 "C (middle). The raw data were subjected 
+to the same data treatment described above, resulting in the 
+integrated data and fit curves plotted in Figure 2b of 
+normalized binding heat per mole of CheY injected as a 
+function of the mole ratio of CheY to CheA1-233. The open 
+circles and squares represent the data obtained at 10.5 and 
+28.5 "C, respectively. The data were described very well 
+by a simple model that fit the data to a single set of sites. 
+Values for n, K,, AH, and AC, obtained from the titrations 
+of CheA1-233 with CheY were in good agreement with the 
+parameters obtained from the inverted titrations, i.e. CheY 
+titrated with CheAl-233. The average value of n determined 
+from four experiments (Table 1, expts 6-9) was 0.97 f 0.06. 14630 Biochemistry, Vol. 34, No. 45, 1995 
+Time, minutes 
+0 10 20 30 40 50 60 
+28 I 1 I I.i,j I1 1 
+,&&& control, 11 soc a 
+Li et al. 
+Time, minutes 
+0 10 20 30 40 50 
+CheA, 23, into CheY, 11 3% 
+CheA, 233 into CheY, 20 5 'C . 
+a- " -4 
+0.0 0.5 1.0 1.5 2.0 
+Molar Ratio 
+FIGURE 1: The results of titration calorimetry of CheY with 
+CheA1-233. The top curve in panel a is a control experiment 
+consisting of IO-pL injections of the CheA1-233 fragment into buffer 
+(as described in Materials and Methods) at 11.5 "C. The second 
+and third curves in panel a are titrations of CheY with CheAl-233 
+at 11.3 and 28.5 "C, respectively, using 10-pL injections and the 
+protein concentrations specified in Table 1 (expts 2 and 5). Panel 
+b shows the integrated areas for the titrations between CheAl-233 
+and CheY at 11.3 (0) and 28.5 "C (0). The lines plotted with the 
+data are the best-fit curves described by the values of n, Ka, and 
+AH listed in Table 1. 
+Also from the same four experiments AC,, was determined 
+to be -0.23 kcal/mol/deg using the AH values. Ka298, 
+AH'&, and As0298, obtained from the titrations of CheA1-233 
+with CheY (9 x lo5 & 2 x lo5 M-l, -1 1.7 f 0.7 kcal/mol, 
+and - 12 f 2 eu) were in agreement with the corresponding 
+values from titrations of CheY with CheAl-233 (see Table 
+1). Since the titrations of CheAl-233 with CheY (Figure 2a) 
+exhibited a small buffer mismatch (and slightly exothermic), 
+the possibility that the mismatch observed in titrations of 
+CheY with CheA1-233 (Figure la) could have significantly 
+affected the results was eliminated. 
+Intact CheA and CheAl-233 Bind to CheY with Similar 
+AfJinities. Most titrations were carried out using the CheAl-233 
+fragment since it was readily purified in high yield and did 
+not precipitate at the high concentrations required in the 
+syringe. However, a few titrations were carried out between 
+intact CheA and CheY to determine what effect, if any, the 
+deletion of amino acids 234-654 had on CheA-CheY 
+interactions. Raw data from one such titration (Table 1, expt 
+11) carried out at 28.0 "C is plotted in Figure 2a (bottom 
+curve) which after curve-fitting with the single-set-of-sites 
+model resulted in a value for the association constant of 5.1 
+x lo5 M-l. The value of K, determined for CheY and intact 
+CheA is ca. 60% of the value determined for CheAl-233. The 
+modest difference in K, measured by ITC contrasts sharply 
+with the relative values determined using SPR (Schuster et 
+al., 1993; Swanson et al., 1993), where CheY was observed 
+to bind 12-fold more tightly to intact CheA relative to 
+CheAl-233. The opportunity for multivalent interactions to 
+form between intact (dimeric) CheA and (surface-attached) 
+CheY but not with (monomeric) CheAl-233 may be largely 
+CheY into CheAq.233 10 5 'C 24 
+Molar Ratio 
+FIGURE 2: Results of titration calorimetry of CheAl-233 and intact 
+CheA with CheY. The upper and middle titration curves in panel a are titrations carried out with CheAI-233 in the reaction cell and 
+CheY in the syringe at 10.5 and 28.5 "C, respectively. The bottom 
+curve is data from a titration between intact CheA in the reaction 
+cell and CheY in the syringe at 28 "C. Protein concentrations given 
+in Table 1 (expts 7, 9, and 11). Panel b plots the integrated areas 
+for the titrations between CheAl-233 and CheY at 11.3 (0) and 
+28.5 "C (O), and for the titration between intact CheA and CheY 
+(W). The lines plotted through the data are the best-fit curves 
+described by the values of n, Ka, and AH listed in Table 1. 
+responsible for the difference in binding constants observed 
+by SPR (see Discussion). In contrast, the ITC experiments 
+(Figures 1 and 2; Table 1) measured single-site interactions, 
+which indicated that the majority of the binding interactions 
+between CheY and CheA resided in the first 233 amino acids. 
+The modest decrease in the affinity of the interactions 
+between CheY and intact CheA may be experimentally 
+significant. Two plausible explanations include either a small 
+(negative) contribution of the carboxyl tail of CheA to 
+binding or a weak negative cooperativity between sites in 
+the CheA dimer. 
+Effects of Mg2+, Phosphorylation, and Mutation on CheA￾CheY Interactions. Several factors that might influence the 
+interactions between CheA and CheY were explored: the 
+presence of divalent cation (Mg2+), which is required for 
+the phosphotransfer reaction; the influence of mutations near 
+the active site and the putative CheA-CheY-binding surface, 
+and phosphorylation of aspartate-57 in the active site. Figure 
+3 plots representative results of some of these experiments. 
+5 mM Mg2+ was observed to have no significant effect on 
+the interaction of CheY with CheAl-233. The values of K, 
+and AH determined from titrations in the presence of Mg2+ 
+were, within experimental error, the same as the values 
+obtained in its absence. (Compare expt 12 in Table 1 with 
+expts 3-5.) 
+CheY was phosphorylated using acetyl phosphate, which 
+has been shown to be able to transfer phosphate to CheY 
+(Lukat et al., 1992). The quenching of intrinsic tryptophan 
+fluorescence was used to estimate that the extent of CheY 
+phosphorylation was over 90% using the reaction conditions 
+described in Materials and Methods. Titrations were carried CheB and CheY Binding to CheA Biochemistry, Vol. 34, No. 45, 1995 14631 
+I'I'I'I'I'II 
+"i h z -12 
+Y 
+0.0 0.5 1.0 1.5 2.0 2.5 
+Molar Ratio 
+FIGURE 3:Injection heats from titrations between CheAl-233 and 
+various CheYs. CheY (reaction cell) was titrated with CheA1-233 
+(syringe) under different conditions: CheY in the presence of 6 
+mM MgC12 (0), phosphorylated CheY in the presence of excess 
+EDTA (*), and the A103V mutant of CheY (W) according to the 
+specific conditions summarized in Table 1, experiments 12, 14, 
+and 16, respectively. In the titration of phosphorylated CheY in 
+the presence of 6 mM MgClP (0), 40 pM CheY was titrated with 
+1.05 mM CheAl-233 in reaction buffer using 8-pL injections at 28 
+"C, as described in Materials and Methods. 
+out both on phosphorylated CheY (CheY-P) in which the 
+phosphorylation and dephosphorylation reactions had been 
+quenched by an excess of EDTA prior to the experiment 
+and also in the presence of excess Mg2+ and acetyl 
+phosphate. K, values obtained from experiments where the 
+phosphotransfer reaction was first quenched with EDTA were 
+ca. 50% of the values obtained with unphosphorylated CheY. 
+Figure 3 shows the integrated heats and fits to a titration 
+(Table 1, expt 14) between CheA1-233 and CheY-P carried 
+out at 28.2 "C that produced an association constant of 3.8 
+x IO5 M-'. Although the value for Ka298, determined with 
+CheY-P was ca. 50% of Ka298 determined with CheY, the 
+values of AH0298 were the same within experimental error 
+(12.0 f 0.1 kcal/mol). 
+Titration experiments performed with CheAl-233 and CheY 
+in which both acetyl phosphate and Mg2+ were present (Le., 
+in the absence of EDTA to quench the reaction) produced 
+values of K, that were ca. 6-fold lower than unphosphorylated 
+CheY. Integrated heats from a titration carried out at 28.0 
+"C between 1.05 mM CheAl-233 (syringe) and 40 pM CheY 
+(reaction cell) are plotted in Figure 3. The experiment 
+consisted of sixteen 8-pL injections in a buffer [20 mM 
+sodium phosphate, pH 7.4, and 20 mM NaC1, 1 mM EDTA, 
+1 mM PMSF, 10% glycerol (v/v)] that also contained 6 mM 
+MgC12 and 20 mM acetyl phosphate. Under these conditions 
+the phosphorylation reaction was estimated to be ca. 90% 
+complete by fluorescence quenching (data not shown). K,, 
+AH, and n were determined from the data and found to be 
+1.5 x lo5 M-I, -7.9 kcal/mol and 0.95, respectively. A 
+second experiment carried out in the same buffer system but 
+at 7.5 "C with 0.58 mM CheAl-233 and 60 pM CheY 
+produced respective values for K,, AH, and n of 3.0 x lo5 
+M-I, -9.0 kcal/mol, and 0.98. From these data it would 
+appear that binding of Mg2+ at the active site and phospho￾rylation at aspartate-57 of CheY together have a significant 
+effect on the interaction of CheA with CheY. 
+Four mutants of CheY were tested for altered affinity to 
+CheA. The most significant decrease in affinity was detected 
+with an alanine-103 to valine (A103V) point mutant of CheY 
+which yielded titration data with values for Ka298 that were 
+10-fold lower than wild type CheY (Figure 3 and Table 1). 
+Alanine-103 of CheY is proposed to be near to the CheY￾CheA binding interface, a conclusion based on the analysis 
+of changes in the I5N-'H correlation spectrum of CheY which 
+are observed to occur upon binding of CheAl-233. On this 
+basis, CheYA103v was investigated and shown to be defective 
+in binding CheAl-233 (Swanson et al., 1995). The active￾site point mutant aspartate-I3 to lysine (D13K), which 
+produces the tumble phenotype in cells without being 
+phosphorylated (Bourret et al., 1990), and the D12E, D57E 
+nonphosphorylatable double mutant of CheY were both 
+found to bind to CheA1-233 with an affinity ca. 2-fold lower 
+than wild type CheY (data not shown). Finally, the tyrosine￾51 to cysteine (Y51C) point mutant that was used in SPR 
+studies of CheA-CheY interactions (Schuster et al., 1993; 
+Swanson et al., 1993) was found to yield values of K, (Table 
+1, expts 17 and 18) similar to wild type CheY. Observations 
+from this small sample of CheY mutants were consistent with 
+the interpretation that the effects of the mutations tended to 
+be local, Le., the largest effects on binding were observed 
+when the mutations were made close to the CheA-CheY 
+binding interface. 
+Interaction of CheB with CheAl-233 Observed by GFC. 
+Gel filtration chromatography was used to qualitatively 
+characterize the interaction between CheA1-233 with CheB. 
+As shown in Figure 4a, top trace, CheB eluted from the gel 
+filtration column with a volume that was consistent with the 
+molecular mass of 37 kDa (upper trace) and agreed well with 
+the predicted mass of the monomer on the basis of sequence 
+data (Mutoh & Simon, 1986). As described by Swanson et 
+al. (1993) and shown in Figure 4a (bottom trace), CheAl-233 
+eluted with a retention time characteristic of a 45 kDa 
+globular protein, which was significantly larger than the 
+predicted M, of 27 kDa based on sequence. CheAl-233 was 
+a monomer nonetheless since it eluted with a retention 
+volume that was significantly smaller than the smallest 
+possible elution volume based on a globular dimer of 
+CheA1-233 (54 ma). When a mixture of CheAl-233 and 
+CheB (1.5-fold molar excess of CheA1-233) was coinjected 
+(Figure 4a, middle trace), the CheB was found to elute with 
+a larger apparent mass, as determined by PAGE analysis of 
+the column fractions (Figure 4b), suggesting that the two 
+proteins formed a 1:l complex. 
+Titration Calorimetry of CheB and CheA. Titrations of 
+CheB in the reaction cell with CheAl-233 in the syringe were 
+carried out under conditions similar to those of CheY with 
+CheA1-233 at four different temperatures, 8.5, 18.8, 28.0, and 
+38.2 "C, according to the concentrations of CheAl-233 and 
+CheB listed in Table 1 (expts 19-22). The heat of binding 
+was nearly zero at 8.5 "C (expt 19), which precluded 
+estimates of K, and n being made at that temperature. 
+Nevertheless, those data were still useful in determining ACp, 
+where a plot of AH versus temperature indicated a linear 
+relationship and produced a value of -0.45 kcal/mol/deg by 
+linear regression (R = 0.993). Using AC,, the association 
+constant for CheAl-233 and CheB (Ka298) was estimated as 
+3.1 x lo5 M-I, which was 40% of the value determined for 
+CheAl-233-CheY interactions. "Inverted" titrations with 
+CheA1-233 in the reaction cell and CheB in the syringe were 
+not carried out because the solubility limits of CheB 
+prevented its use in the syringe. 
+It was interesting to note that AH0298 and As0298 of 
+CheAl-vs-CheB association (Table 1) were both significantly 14632 Biochemistry, Vol. 34, No. 45, 1995 
+a 
+Li et al. 
+1 2 3 4 5 6 7 8 9 10 ?l 12 13 14 MW/loOO 
+11111111111 
+Volume (ml) 
+0 2 4 6 8 10 12 14 16 18 20 
+Fraction b 4 5 6 7 8 9 10 11 12 13 14 
+Chef3 
+Chef3 
+CheAl -233 
+CheAl -233 
+FIGURE 4: Results of GFC experiments with CheB and CheAl-2.33. 
+In panel a, the abosrbance at 280 nm is plotted as a function of 
+elution volume for CheB (top), a mixture of CheA1-232 and CheB 
+(middle) and CheAI-233 (bottom). Samples were eluted from a 
+Superdex-75 HR 10/3 column (Pharmacia) in 25 mM Tris, SO mM 
+KCI, 5 mM MgC12, pH 7.5, buffer at a flow rate of 0.5 mL/min. 
+The scale bar is 0.02 absorbance units. In panel b the SDS-PAGE 
+analysis of I-mL fractions collected from the above GFC trace of 
+the CheA,-233/CheB mixture are displayed. The CheAI -232 was 
+mixed with CheB in a 1.5 molar excess. 
+smaller than the values characterizing the interactions 
+between CheAt-233 and CheY. The decrease in magnitude 
+of both AH0298 and ASo298 had compensating effects on 
+AG0298, so the difference in AG0298 (and thus Ka?9g) for the 
+two processes was modest by comparison. The thermody￾namic parameters in Table 1 indicate that the enthalpic and 
+entropic contributions to AGO298 for the binding of CheY 
+and CheB to CheA 1-233 are significantly different. Com￾parison of the entropic contribution (ToASo298) to AG0z98 
+provides a simple illustration of the difference in the driving 
+force for complex formation. ToAS~~~IX only weakly opposes 
+CheB-CheAI -2.7; complex formation (ca. 0.6 kcal/mol), in 
+comparison to the unfavorably large value for formation of 
+the CheY -CheA1-233 complex (3.7 kcal/mol). 
+From the results of these experiments it was evident that 
+CheAI-233 and CheB formed a 1:l complex. Moreover, a 
+few titrations between intact CheA and CheB resulted in 
+CheY-b 
+4- 45 
+1- 36 
+0- 29 * 24 
+t- 20 
+4- 14 
+FIGURE 5:Analysis of competitive binding between CheY and 
+CheB with histidine-taggcd CheAl -23.1 by Ni-NTA affinity interac￾tions. As described in Materials and Methods, the SDS-polyacryl￾amide gel (15%) shows the proteins found in the supernatants of 
+Ni-NTA resin previously equilibrated with Che proteins in buffer 
+without imidazole (odd-numbered lanes) followed by supernatants 
+collected from a wash step carried out with buffer containing 250 
+mM imidazole (even-numbered lanes). The Che proteins (in each 
+of pair of lanes) were SO pmol of CheAI-233 (1 and 2); 38 pmol of 
+CheB (3 and 4); 25 pmol of CheY (5 and 6); SO pmol of CheA1-z33 
+and 38 pmol of CheB (7 and 8); 50 pmol of CheA1-2.13 and 25 
+pmol of CheY (9 and IO); SO pmol of CheA1-233,38 pmol of CheB 
+and 250 pmol of CheY (1 I and 12); 50 pmol of CheAl-233, 380 
+pmol of CheB, and 25 pmol of CheY (I 3 and 14). Lane 15 contains 
+molecular weight standards. 
+values of K;, which were the same as those obtained for CheB 
+and CheAl-7-33 within experimental error (data not shown). 
+These data indicate a similarity in the binding of CheY and 
+CheB to CheA, Le., residues 234-654 of CheA do not appear 
+to be involved in the binding process. 
+CheB arid CheY Conipetc for Biiidiiig to CheAI-2.q.q usiiig 
+a Ni-NTA Bincling Assci!. CheY binding to CheA was 
+previously localized between residues 135 and 233 of the 
+intact CheA molecule in an SPR binding study (Swanson et 
+al., 1993). The N-terminal regulatory domain of the meth￾ylesterase (CheB) is phosphorylated on a conserved aspartate 
+residue but otherwise has a relatively low (23%) amino acid 
+identity with CheY (Mutoh & Simon. 1986). To test whether 
+CheY and CheB recognized the same site on CheA, the 
+competitive binding experiment summarized in Figure 5 was 
+carried out. The gel lanes in Figure 5 report the ability of 
+CheAl-233. CheY, and CheB to bind to the affinity matrix 
+(Ni-NTA Sepharose). when the proteins were incubated 
+either individually or in various mixtures. When incubated 
+in phosphate buffer without imidazole, CheAl-7-33 was 
+completely removed from the solution by the Ni-NTA sites 
+on the Sepharose beads (which are in excess) through a high￾affinity interaction with the (histidine)h tag located at the 
+C-terminus of CheAI-233 (lane 1). The CheAI-233 eluted 
+when the Sepharose beads were washed with phosphate 
+buffer containing 250 mM imidazole (lane 2). Neither CheY 
+nor CheB bound to the Ni-NTA Sepharose when they were 
+subjected to the same treatment (lanes 3-6). When either 
+CheY or CheB was incubated with a stoichiometric excess 
+of CheA1-2.13 and Ni-NTA Sepharose, the majority of 
+protein was bound to the Ni-NTA Sepharose and then 
+coeluted (with CheAl-2;;) in the 250 mM imidazole wash 
+(lanes 7-10). These results demonstrated that CheY and 
+CheB were captured on the affinity matrix via specific 
+interactions with CheAI-2;;. In other experiments, a smaller 
+fragment of CheA (residues 1 - 134 of CheA followed by 
+the C-terminal-histidine affinity tag) could also be captured 
+by and eluted from the Ni-NTA Sepharose in the same 
+manner as CheAI-233. but neither ClieY nor CheB could he 
+captured using CheAI-l;l (data not shown). These results 
+demonstrate that amino acid residues 135-233 are required CheB and CheY Binding to CheA Biochemistry, Vol. 34, No. 45, 1995 14633 
+change in the magnitude of the heats between the first and 
+last injection was small, ca. 2 kcaYmol injectant. This range 
+was 4-fold smaller than the range of heats observed in simple 
+titrations and was consistent with the expected enthalpy 
+change (AAH) for the displacement of one Che protein by 
+the other. As described below a more careful analysis of 
+the data demonstrated that the results were consistent with 
+competitive binding between CheB and CheY. 
+The top injection series in Figure 6a consisted of eighteen 
+10-pL injections of 0.83 mM CheY into a solution that was 
+0.026 mM in CheAl-2p and 0.051 mM in CheB. The 
+gradual increase in the areas of the endothermic peaks was 
+indicative of an exothermic process. The heats tended toward 
+a steady level, which was assumed to contribute a constant 
+background and was subtracted from the data. This resulted 
+in a series of heats that resembled a low-affinity, weakly￾exothermic binding process which was expected for dis￾placement of CheB by CheY (calculated AAH -3 kcall 
+mol at 28.5 "C, see Table 1). The lower injection series of 
+Figure 6a were obtained with a larger proportion of CheB 
+(1.29 mM CheY, 0.035 mM CheA1-233, and 0.11 mM CheB). 
+These two experiments produced qualitatively similar results, 
+indicating that CheB was competing with CheY in binding 
+to CheAl-233. A second type of competitive titration 
+experiment (not shown), in which CheY was displaced from 
+the CheAl -233-CheY complex by CheB, was also consistent 
+with competitive binding. Finally a control experiment (not 
+shown) which consisted of nine 10-pL injections of 0.17 mM 
+CheY into 10 pM CheB gave no indication of an interaction 
+between CheY and CheB. 
+Data from the competitive titration experiments were found 
+to be in quantitative agreement with the thermodynamic 
+parameters determined from the simple binding studies of 
+CheY and CheB with CheA1-233. On the basis of competi￾tive binding, the trends displayed by the titration data in 
+Figure 6b could be explained with computed values for an 
+apparent binding constant, Kapp, and the difference in the 
+binding enthalpies of CheY and CheB, AAH. The latter 
+were estimated using the thermodynamic parameters obtained 
+in the direct binding experiments. An approximate expres￾sion for Kapp of CheY binding to CheA1-233 in the presence 
+of CheB is given by 
+Time, minutes 
+0 20 40 60 80 
+26 
+% 6 -1 c 
+0 
+0 1 2 3 Y 
+Molar Ratio 
+FIGURE 6:Raw data from competitive titration experiments of CheY 
+and CheB binding to CheAl-2p at 28.5 "C are plotted in panel a. 
+The upper and lower curves are displacement reactions of the 
+CheA, -233-CheB complex in the reaction cell titrated with CheY 
+in the syringe using 5-pL injections and respective concentrations 
+of CheA1-233, CheB, and CheY of 26 pM, 51 pM, and 0.83 mM 
+in the upper curve and 35 pM, 110 pM, and 1.29 mM in the lower 
+curve. Integrated areas are plotted in panel b from the upper (open 
+squares) and lower (open circles) curves of panel a. Control heats 
+were subtracted to adjust the data to the simulated binding 
+isotherms. The solid lines are simulated binding isotherms derived 
+from the estimates of Kapp and AAH as described in the text, with 
+n fixed as 1. 
+for CheB binding, as demonstrated previously for CheY 
+(Swanson et al., 1993). 
+CheB and CheY compete with one another for binding to 
+CheAl-233. For example, when a large excess of CheY was 
+added to the mixture of CheB and CheAl-233, the majority 
+of CheB was not captured by Ni-NTA Sepharose but 
+remained in the supernatant (Figure 5, lane 1 l), and CheY 
+was the predominant protein that coeluted with CheAl-233 
+(lane 12). Some CheB also coeluted with CheA1-233, but in 
+an amount that was consistent with the relative association 
+constants and concentrations of CheY and CheB used in the 
+experiment. Similar behavior was observed when the relative 
+concentrations of CheY and CheB were reversed. With a 
+large stoichiometric excess of CheB relative to CheY (ca. 
+15-fold), CheB was the major protein that was observed to 
+coelute with CheA1-233 (lanes 13 and 14). These results 
+provide strong evidence for competitive binding of CheB 
+and CheY to CheAl-233. The competition for binding to 
+CheAI-233 was not a nonspecific effect due to large protein 
+concentrations, since BSA at similar high concentrations did 
+not affect the interaction of either CheY or CheB with 
+CheAI-233 (data not shown). 
+Competitive ITC Experiments with CheAI-233, CheY, and 
+CheB. The results of the Ni-NTA affinity binding experi￾ments demonstrate that a large excess of CheY could 
+compete for binding with CheB to CheA1-233. Competition 
+between CheY and CheB was also tested in ITC experiments 
+in which the ratio of CheY to CheB was varied continuously. 
+Raw data from two experiments carried out at 28.5 "C are 
+plotted in Figure 6a, where the CheAl-233-CheB complex 
+(CheAl-233 in an excess of CheB) was titrated with CheY. 
+The integrated heats are plotted in Figure 6b. The overall 
+where KAY and KAB are the association constants between 
+CheAl-233 and CheY and between CheAl-233 and CheB, 
+respectively, and [BfJ is the average concentration of free 
+CheB during the course of the titration (see the Appendix). 
+Kapp was estimated using values for KAY and KAB of 6.5 x 
+lo5 and 2.5 x IO5 M-l, respectively, and -3.1 kcal/mol was 
+used for AAH. [Bfree] was computed as the average of the 
+free CheB concentration at the beginning and the end of the 
+titration. Values for Kapp of 2.7 x lo4 and 5.8 x IO4 M-I 
+were estimated from eq 1 using values of 93 and 41 pM for 
+[Bfree], respectively, and were used to generate the theoreti￾cal titration curves for the integrated heats plotted in Figure 
+6b (as circles and squares, respectively). Considering the 
+approximations that were made in deriving eq 1, estimating 
+[Bfree], and taking into account the small values of both Kapp 
+and AAH, the agreement between the simulations and the 
+- 
+- 
+- 
+- 14634 Biochemistiy, Vol. 34, No. 45, 1995 
+data was found to be quite reasonable, and thus these 
+titrations experiments provided additional support for com￾petitive binding of CheB and CheY to the same (or mutually 
+exclusive) site(s) on CheA. 
+Li et al. 
+found to differ significantly (2.7 x lo6 and 3.3 x lo7 M-I, 
+respectively), indicating that CheY interacted 10-fold more 
+tightly with intact CheA. In contrast the ITC experiments 
+reported here have produced comparable values of K, for 
+complexes of CheY and either CheA or CheA1-233 (Table 
+1). This rather significant discrepancy undoubtedly resides 
+in the differences between the two methods of measurement. 
+ITC measures the single-site equilibrium association constant 
+directly between two molecules in solution. SPR experi￾ments often determine K, indirectly using rates of binding 
+and dissociation between a molecule covalently attached to 
+a polymeric matrix on a sensing chip and a second freely 
+diffusing molecule. Furthermore, CheA-CheY interactions 
+measured by SPR may be influenced by possible multivalent 
+interactions between the intact CheA protein, which is 
+dimeric, and the polymer-bound CheY, which can behave 
+as a multivalent ligand if the density of sites is sufficiently 
+large. CheAI-233 has been demonstrated to be a monomer 
+(Swanson et al., 1993; Figure 4) and thus is unable to exhibit 
+the same avidity effect as the intact dimer. A similar 10- 
+fold ratio between the SPR and ITC-determined association 
+constants has been observed in a study of proline-rich 
+peptides (derived from the Ras guanine nucleotide releasing 
+factor, Son of Sevenless) binding to Grb2, which has two 
+peptide binding sites per Grb2 protein (Lemmon et al., 1994). 
+For a discussion of the effects of multivalency on the 
+measured values of K,, see Ladbury et al. (1995). It thus 
+appears that the major difference in K,(CheA)/K,(CheAI -233) 
+estimated by SPR and ITC may be explained by multivalent 
+interactions. Differences in the absolute values of K, 
+between our study and the previous studies of CheY￾CheA1-233 interactions might be due to differences in the 
+buffer composition, although conditions unique to the SPR 
+experiment (e.g., possible effects of the polymer matrix and 
+the determination of K, using kinetic data) may also be 
+significant. 
+Effects of CheY Phosphorylation on CheA-CheY Interac￾tions. Phosphorylated CheY generates tumbles of the 
+bacterial cell by enhancing the probability of clockwise motor 
+rotation through direct interaction with a switch complex 
+protein (FliM) on the motor (Welch et al., 1993). The data 
+presented here indicate that phosphorylation lowers the 
+affinity of CheY-CheA interactions (ca. 6-fold in the 
+presence of Mg2+). This may be physiologically significant, 
+since a higher affinity for unphosphorylated CheY will 
+improve the efficiency of the phosphotransfer reaction as a 
+signal amplification process. 
+Experimentally it was found that mutations in the phos￾phorylation site of CheY had little effect on CheY-CheA 
+interactions. For example the “activated” CheYD13K mutant, 
+which has been found to produce the same effect on tumble 
+generation as phosphorylated CheY (Bourret et al., 1990), 
+binds to CheA with an affinity comparable to wild type 
+CheY. Yet phosphorylation of CheY resulted in a com￾paratively large reduction in K,, and a similar large reduction 
+was produced by the A 103V mutation. Alanine- 103 residue 
+has been implicated in CheA-CheY interactions by NMR 
+studies (Swanson et al., 1995). These results may be 
+explained by postulating that phosphorylation produces a 
+significant conformational change which propagates from the 
+site of phosphorylation to the CheA-CheY binding interface, 
+and that mutations introduce relatively small perturbations 
+restricted to the region in close proximity to the mutation. 
+DISCUSSION 
+Properties of CheY and CheB Binding to CheA. The 
+results of this study demonstrate that the binding of CheY 
+and CheB to the CheA1-233 fragment is competitive, that the 
+individual affinities of CheY and CheB for CheA1-233 are 
+comparable (differing by a factor of 2), and that truncating 
+CheA has little effect on the strength of the interactions with 
+either CheB or CheY. These results are summarized in Table 
+1. On first inspection, the similarity in the strength of the 
+binding interaction is unexpected given that E. coli CheY 
+and the amino terminal domain of CheB have only a 
+moderate amount of sequence identity, ca. 23% (Mutoh & 
+Simon, 1986). Furthermore, the majority of the conserved 
+residues are found in the region of the active site, which are 
+regarded as part of the “consensus” residues in the CheY 
+superfamily (Volz, 1993). Considering that a seemingly 
+subtle change caused by a single mutation (A103V) near the 
+CheA-CheY binding interface can significantly reduce the 
+association constant (10-fold), one may arrive at the conclu￾sion that, while the specific (favorable and unfavorable) 
+interactions of CheA with CheY may be very different from 
+those of CheA with CheB, the sum of the interactions must 
+be similar for the two cases. 
+The negative value of AC, is a feature common to CheY 
+and CheB binding to CheA,~2~~, -0.22 and -0.45 kcal/mol/ 
+deg, respectively, and is typical of protein association 
+reactions (Hibbits et al., 1994, and references therein). A 
+negative AC, can be interpreted as qualitative evidence for 
+a decrease in the amount of hydrophobic surface in contact 
+with water (Brandts, 1964), although other factors may 
+contribute (Sturtevant, 1977). A comparison of the measured 
+ACp values with structure-based estimates determined from 
+changes in solvent-exposed hydrophobic surface could be 
+carried out were the structures of all of the Che proteins and 
+their complexes known. In other studies where such 
+comparisons have been made, the estimates were signifi￾cantly smaller in magnitude than the measured values, so 
+that additional factors (e.g., changes in protein conformation 
+and dynamics) were required to explain the decrease in C, 
+not accounted for by the burial of nonpolar surface (Connelly 
+et al., 1993; Ladbury et al., 1994; Spolar & Record, 1994). 
+In a similar vein, ITC experiments can provide two different 
+estimates of AH (i) AHcal as a direct result of the calorimetry 
+experiment and (ii) AH,,H derived from the temperature￾dependence of K, (van’t Hoff analysis). Analysis of the 
+equilibrium constants in Table 1 yielded values for AH\.H 
+that were consistently smaller than the AHcal (average 65 
+%, range 40-90 70). Although these differences appear to 
+be experimentally significant and have been observed in other 
+ITC studies [e.g., Lin et al. (1994), and J. F. Brandts, personal 
+communication], the reasons for the discrepancy are not 
+apparent. 
+Comparison of Association Constants Determined by ITC 
+and SPR. In previous SPR studies of CheA-CheY interac￾tions (Schuster et al., 1993; Swanson et al., 1993) the 
+association constants measured at 24 “C for CheY￾CheAl-233 and CheY -CheA (intact CheA) interactions were CheB and CheY Binding to CheA 
+This difference in the sphere of influence that mutations and 
+phosphorylation produce is consistent with the interpretations 
+drawn from 19F NMR studies of CheY conformation (Bourret 
+et al., 1993; Drake et al., 1993). The results of the ITC 
+experiments and the “global” effect of phosphorylation 
+uersus the “local” effect of a mutation taken together imply 
+that the CheA-CheY binding interface is (at least partly) 
+separate from the site of phosphorylation. 
+Sign8cance for Information Processing in Bacterial Signal 
+Transduction Systems. The chemosensory pathway requires 
+coordination of the receptor-mediated excitation and adapta￾tion processes, which are both influenced by changes in the 
+concentrations of chemoeffectors. The methylatable recep￾tors in E. coli exert their influence on swimming behavior 
+through the kinase CheA (Borkovich et al., 1992; Schuster 
+et al. 1993), whose activity is modulated both by ligand 
+(binding inhibits activity) and receptor covalent modification 
+(increased levels of methylation andor amidation attenuates 
+inhibition by ligand, Borkovich et al., 1992). The signaling 
+pathway branches at CheA-mediated phosphorylation and 
+directs phosphate along the excitation pathway to CheY and 
+along the adaptation pathway to CheB. Partitioning of 
+phosphate between CheY and CheB in the branchpoint is 
+thus a potential means of controlling the magnitude and 
+duration of the excitation and adaptation signals. An 
+understanding of the interactions between CheA, CheB, and 
+CheY is essential to determine whether control is exerted at 
+this level. The results of this study contribute to this goal 
+by (i) determining the association constants for the formation 
+of complexes between CheA, CheB, and CheY, (ii) finding 
+that binding is competitive, and (iii) finding that phospho￾rylation of CheY can affect the strength of the interaction 
+with CheA. 
+E. coli has numerous two-component systems which likely 
+have a high degree of structural homology in the response 
+regulator proteins at the site of phosphorylation (Le., the 
+CheY superfamily; Volz, 1993). The conservation of struc￾ture at the active site is dictated by the chemistry of the 
+phosphotransfer reaction, but this conservation might lead 
+to adventitious phosphorylation of response regulator proteins 
+from a physiologically-unrelated pathway (cross-talk). The 
+results of this study and the NMR study of CheY-CheA 
+interactions (Swanson et al., 1995) suggest that the surface 
+involved in CheA-CheY (and presumably CheA-CheB) 
+interactions includes protein-protein contacts at sites distinct 
+from the site of phosphorylation. This feature of the binding 
+interaction may serve to maintain the specificity of protein 
+interactions and thus reduce unwanted cross-talk between 
+signaling pathways. 
+Biochemistry, Vol. 34, No. 45, 1995 14635 
+where A,,, is the total concentration of CheA1-233 (and is 
+equal to [A] + [AY]). In the presence of CheB, A,,, is given 
+by the sum of all forms of CheAl-233, which includes the 
+unbound or free CheA1-233 and the complexes with CheY 
+and CheB. 
+APPENDIX 
+An ITC experiment measures the extent of ligand-receptor 
+complex as a function of the amount of added ligand. With 
+this in mind, the association constant for the formation of 
+the CheA1-233-CheY complex (KAY) can be written to reflect 
+the extent of complex formation out of the total number of 
+binding sites (in this example on the CheAI-233 protein) and 
+is given by 
+Substituting this expression for A,,, into eq A1 accounts 
+for the presence of CheA1-233-CheB complex and thus 
+becomes an expression for Kapp, the apparent association 
+constant of CheY and CheA1-23~ 
+which, after substitution of KAB[A][B] for the concentration 
+of the CheAI-233-CheB complex, [AB], and KAY for [AY]/ 
+[A][Y], yields eq 1 in the text, the expression for the apparent 
+association constant of CheY and CheAl-233. In the experi￾ments described in the text, the average concentration of free 
+CheB (which changes modestly over the course of the 
+competitive binding experiment) is used to provide an 
+estimate for Kapp. 
+It is worth noting that the expression for Kapp simplifies 
+to K,IK,[C] when the product of the association constant for 
+competitor binding (Kc) and the competitor concentration, 
+[C], is much greater than one, Le., KJC] >> 1 (in this specific 
+example KAB[B] >> I), and thus provides a means to estimate 
+K, for tight binding ligands if K, and [C] are known. 
+ACKNOWLEDGMENT 
+We thank A. F. Roth and F. W. Dahlquist at the University 
+of Oregon for providing the CheB, CheY, and Chew 
+expression plasmids pCWlcheB, pCWlcheY, and pCWlche W, 
+and Cheryl Cote in the Molecular and Cellular Biology 
+Program Core Facility at the University of Massachusetts 
+for carrying out amino acid analyses on CheA1-233, CheB, 
+and CheY. R.M.W. and J.L. also thank Drs. Lung-Nan Lin 
+and John F. Brandts for helpful discussions. 
+REFERENCES 
+Alex, L. A,, & Simon, M. I. (1994) Trends Genet. 10, 133-138. 
+Blat, Y., & Eisenbach, M. (1994) Biochemistry 33, 902-906. 
+Borkovich, K. A., Alex, L. A., & Simon M. I. (1992) Proc. Natl. 
+Bourret, R. B., Hess, J. F., & Simon, M. I. (1990) Proc. Natl. Acad. 
+Bourret, R. B., Borkovich, K. A., & Simon, M. 1. (1991) Annu. 
+Bourret, R. B., Drake, S. K., Chervitz, S. A., Simon, M. I., & Falke, 
+Brandts, J. F. (1964) J. Am. Ckem. SOC. 86, 4302-4314. 
+Brandts, J. F., Lin, L.-N., Wiseman, T., Williston, S., & Yang, C. 
+Bray, D., Bourret, R. B., & Simon, M. I. (1993) Mol. Biol. Cell 4, 
+Connelly, P. R., Thomson, J. A., Fitzgibbon, M. J., & Bruzzese, F. 
+Drake, S. K., Bourret, R. B., Luck, L. A., Simon, M. I., & Falke, 
+Gegner, J. A., & Dahlquist, F. W. (1991) Proc. Natl. Acad. Sci. 
+Acad. Sci. U.S.A. 89, 6756-6760. 
+Sei. U.S.A. 87, 41-45. 
+Rev. Biockem. 60, 401-441. 
+J. J. (1993) J. Biol. Ckem. 268, 13089-13096. 
+P. (1990) Int. Lab. 20, 29-35. 
+469 - 482. 
+J. (1993) Biochemistry 32, 5583-5590. 
+J. J. (1993) J. Biol. Ckem. 268, 13081-13088. 
+U. S. A. 88, 750- 754. 14636 Biochemistry, Vol. 34, No. 45, 1995 
+Gegner, J. A., Graham, D. R., Roth, A. F., & Dahlquist, F. W. 
+Hauri, D. C., & Ross, J. (1995) Biophys. J. 68, 708-722. 
+Hazelbauer, G. L. (1992) Curr. Opin. Struct. Biol. 2, 505-510. 
+Hess, J. F., Oosawa, K., Matsumura, P., & Simon, M. I. (1987) 
+Proc. Natl. Acad. Sci. U.S.A. 84, 7609-7613. 
+Hess, J. F., Oosawa, K., Kaplan, N., & Simon, M. I. (1988) Cell 
+53, 79-87. 
+Hibbits, K. A., Gill, D. S., & Willson, R. C. (1994) Biochemistry 
+33, 3584-3590. 
+Kupke, D. W., & Domer, T. E. (1978) Methods Enzymol. 48, 155- 
+162. 
+Ladbury, J. E., Wright, J. G., Sturtevant, J. M., & Sigler, P. B. 
+(1994) J. Mol. Biol. 238, 669-681. 
+Ladbury, J. E., Lemmon, M. A., Zhou, M., Green, J., Botfield, M. 
+C., & Schlessinger, J. (1995) Proc. Natl. Acad. Sci. U.S.A. 92, 
+3199-3203. 
+Lemmon, M. A,, Ladbury, J. E., Mandiyan, V., Zhou, M., & 
+Schlessinger, J. (1994) J. Biol. Chem. 269, 31653-31658. 
+Lin, L.-N., Li, J., Brandts, J. F., & Weis, R. M. (1994) Biochemistry 
+33, 6564-6570. 
+Long, D. G., & Weis, R. M. (1992) Biochemistry 31,9904-991 1. 
+Lukat, G. S., McCleary, W. R., Stock, A. M., & Stock, J. B. (1992) 
+Lupas, A,, & Stock, J. B. (1989) J. Biol. Chem. 264, 17337-17342. 
+Matsumura, P., Rydel, J. J., Linzmeier, R., & Vacante, D. (1985) 
+McNally, D. F., & Matsumura, P. (1991) Proc. Natl. Acad. Sci. 
+Morrison, T. B., & Parkinson, J. S. (1994) Proc. Natl. Acad. Sci. 
+Mutoh, N., & Simon, M. I. (1986) J. Bacteriol. 165, 161-166. 
+Sanders, D. A,, Gillece-Castro, B. L., Stock, A. M., Burlingame, 
+A. L., & Koshland, D. E., Jr. (1989) J. Biol. Chem. 264, 21770- 
+21778. 
+(1992) Cell 70, 975-982. 
+Proc. Natl. Acad. Sci. U.S.A. 89, 718-722. 
+J. Bacteriol. 160, 36-41. 
+U.S.A. 88, 6269-6273. 
+U.S.A. 91, 5485-5489. 
+Li et al. 
+Schuster, S. C., Swanson, R. V., Alex, L. A,, Bourret, R. B., & 
+Simms, S. A,, Keane, M. G., .& Stock, J. (1985) J. Biol. Chem. 
+Smith, P. K., Krohn, R. I., Hermanson, G. T., Mallia, A. K., Gartner, 
+F. H., Provenzano, M. D., Fujimoto, E. K., Goeke, N. M., Olson, 
+B. J., & Klenk, D. C. (1985) Anal. Biochem. 150, 76-85. 
+Spolar, R. S., & Record, M. T., Jr. (1994) Science 263, 777- 
+784. 
+Stewart, R. C., Roth, A. F., & Dahlquist, F. W. (1990) J. Bacteriol. 
+172, 338-3399, 
+Stock, A. M., Koshland, D. E., Jr., & Stock, J. B. (1985) Proc. 
+Natl. Acad. Sci. U.S.A. 82, 7989-7993. 
+Stock, J. B., & Koshland, D. E., Jr. (1978) Proc. Natl. Acad. Sci. 
+U.S.A. 75, 3659-3663. 
+Stock, J. B., Surette, M. G., McCleary, W. R., & Stock, A. M. 
+(1992) J. Biol. Chem. 267,19753-19756. 
+Sturtevant, J. M. (1977) Proc. Natl. Acad. Sci. U.S.A. 74, 2236- 
+2240. 
+Swanson, R. V., Schuster, S. C., & Simon, M. I. (1993) Biochem￾istry 32, 7623-7629. 
+Swanson, R. V., Lowry, D. F., McEvoy, M., Matsumura, P., Simon, 
+M. I., & Dahlquist, F. W. (1995) Nature Struct. Biol. 2, 906- 
+910. 
+Simon, M. I. (1993) Nature 365, 343-347. 
+260, 10 161 - 10168. 
+Volz, K. (1 993) Biochemistry 32, 1 174 1 - 1 1753. 
+Welch, M., Oosawa, K., Aizawa, %-I., & Eisenbach, M. (1993) 
+Proc. Natl. Acad. Sci. U.S.A., 90, 8787-8791. 
+Wiseman, T., Williston, S., Brandts, J. F., & Lin, L.-N. (1989) Anal. 
+Biochem. 179, 131-137. 
+BI951395F 

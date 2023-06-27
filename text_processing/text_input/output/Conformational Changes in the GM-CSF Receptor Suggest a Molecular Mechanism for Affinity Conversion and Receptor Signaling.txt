@@ -1,0 +1,940 @@
+Article
+Conformational Changes in the GM-CSF Receptor
+Suggest a Molecular Mechanism for Affinity
+Conversion and Receptor Signaling
+Graphical Abstract
+Highlights
+d Crystal structure of human GM-CSF receptor binary complex
+d Improved structure of human GM-CSF receptor ternary
+complex
+d Mutational and functional studies reveal major interactions
+for receptor activation
+d Observed conformational changes underlie mechanism of
+receptor signaling
+Authors
+Sophie E. Broughton,
+Timothy R. Hercus, Tracy L. Nero, ...,
+Jack King-Scott, Angel F. Lopez,
+Michael W. Parker
+Correspondence
+angel.lopez@sa.gov.au (A.F.L.),
+mparker@svi.edu.au (M.W.P.)
+In Brief
+GM-CSF receptor signaling is triggered in
+response to invading pathogens, but
+excessive GM-CSF signaling can lead to
+leukemia and inflammatory diseases.
+Broughton et al. report on the structural
+basis for cytokine recognition by the
+receptor in the binary and ternary states
+that reveal conformational changes
+leading to receptor activation.
+Accession Numbers
+4RS1
+4NKQ
+3CXE
+Broughton et al., 2016, Structure 24, 1–11
+August 2, 2016 ª 2016 Elsevier Ltd.
+http://dx.doi.org/10.1016/j.str.2016.05.017Structure
+Article
+Conformational Changes in the GM-CSF Receptor
+Suggest a Molecular Mechanism for Affinity
+Conversion and Receptor Signaling
+Sophie E. Broughton,1,4 Timothy R. Hercus,2,4 Tracy L. Nero,1,4 Mara Dottore,2 Barbara J. McClure,2 Urmi Dhagat,1
+Houng Taing,2 Michael A. Gorman,1 Jack King-Scott,1 Angel F. Lopez,2,5,
+* and Michael W. Parker1,3,5,
+* 1ACRF Rational Drug Discovery Centre, St. Vincent’s Institute of Medical Research, Fitzroy, VIC 3065, Australia
+2The Centre for Cancer Biology, SA Pathology and the University of South Australia, Adelaide, SA 5000, Australia
+3Department of Biochemistry and Molecular Biology, Bio21 Molecular Science and Biotechnology Institute, University of Melbourne, Parkville,
+VIC 3010, Australia
+4Co-first author
+5Co-senior author
+*Correspondence: angel.lopez@sa.gov.au (A.F.L.), mparker@svi.edu.au (M.W.P.)
+http://dx.doi.org/10.1016/j.str.2016.05.017
+SUMMARY
+The GM-CSF, IL-3, and IL-5 receptors constitute the
+bc family, playing important roles in inflammation,
+autoimmunity, and cancer. Typical of heterodimeric
+type I cytokine receptors, signaling requires recruit￾ment of the shared subunit to the initial cytokine:
+a subunit binary complex through an affinity conver￾sion mechanism. This critical process is poorly un￾derstood due to the paucity of crystal structures of
+both binary and ternary receptor complexes for the
+same cytokine. We have now solved the structure
+of the binary GM-CSF:GMRa complex at 2.8-A˚ reso￾lution and compared it with the structure of the
+ternary complex, revealing distinct conformational
+changes. Guided by these differences we performed
+mutational and functional studies that, importantly,
+show GMRa interactions playing a major role in re￾ceptor signaling while bc interactions control high￾affinity binding. These results support the notion
+that conformational changes underlie the mecha￾nism of GM-CSF receptor activation and also sug￾gest how related type I cytokine receptors signal.
+INTRODUCTION
+The bc cytokines, granulocyte-macrophage colony stimulating
+factor (GM-CSF), interleukin-3 (IL-3), and IL-5 play important
+roles in health and disease. Although these cytokines are not
+essential for steady-state hemopoiesis, they are produced
+by activated T cells in response to invading pathogens. In this
+context their expression leads to increased production and
+release of multiple myeloid cell types from the bone marrow
+and to their enhanced immune function at sites of infection (Her￾cus et al., 2009). On the other hand, excessive production of bc
+cytokines results in pathologies associated with elevated or
+abnormal cell signaling thus making the cytokines and their re￾ceptors desirable targets for developing novel therapeutics for
+use in treating certain leukemias and inflammatory diseases
+(Asquith et al., 2008; Hamilton, 2008). Monoclonal antibodies
+to GM-CSF are currently under development, some of which
+are in phase II clinical trials to treat arthritis (ClinicalTrials.gov
+identifier NCT01023256), while antibodies specific to the IL-3 re￾ceptor are in clinical trials for the treatment of acute myeloid leu￾kemia (ClinicalTrials.gov identifier NCT01632852). A structural
+and functional understanding of how these cytokines interact
+with, and activate, their receptors is essential for the develop￾ment of a new generation of cytokine-specific therapeutic
+agents that block excessive signaling from the bc cytokines.
+GM-CSF binds and signals through a heterodimeric cell-sur￾face receptor comprising a specific a subunit (GMRa) and the
+dimeric bc subunit that is shared with other members of the
+bc family. GMRa binds cytokine with low affinity (KD 10 nM),
+but the presence of bc converts this to high affinity (KD 100
+pM) through heterodimerization of both subunits and subse￾quent receptor activation (Stomski et al., 1996). The crystal
+structure of GM-CSF was solved in the mid 1990s (PDB:
+2GMF, 1CSG) (Hill et al., 1993; Rozwarski et al., 1996), followed
+by the structure of the GM-CSF:GMRa:bc ternary complex in
+2008 (PDB: 3CXE) (Hansen et al., 2008). The GM-CSF ternary
+complex revealed a hexameric arrangement containing two
+GM-CSF:GMRa binary complexes, one bound to each end of
+a central arch formed by the bc homodimer (Hansen et al.,
+2008). Although this structure revealed the assembly required
+for receptor signaling via the JAK-STAT pathway, it provided
+only limited insights into the role of GMRa in cytokine recogni￾tion and receptor activation, as the ternary complex structure
+had no electron density for the GMRa N-terminal domain
+(NTD) and only ambiguous density for much of the adjoining
+GMRa domain 2 (D2).
+Here we report the crystal structure of the GM-CSF:GMRa bi￾nary complex that elucidates all three GMRa fibronectin type III
+(FnIII) domains (NTD, D2, and D3) and details key interactions
+made by these three domains with GM-CSF. Importantly, the
+solving of the GM-CSF:GMRa binary complex structure has al￾lowed us to significantly improve the crystal structure of the orig￾inal ternary complex (Hansen et al., 2008), enabling us for the first
+Structure 24, 1–11, August 2, 2016 ª 2016 Elsevier Ltd. 1
+Please cite this article in press as: Broughton et al., Conformational Changes in the GM-CSF Receptor Suggest a Molecular Mechanism for Affinity
+Conversion and Receptor Signaling, Structure (2016), http://dx.doi.org/10.1016/j.str.2016.05.017time to compare the structures of binary and ternary receptor
+complexes for a member of the bc family. This comparison has
+revealed evidence of conformational changes that occur in the
+cytokine and receptor subunits following the binary to ternary
+complex transition. Mutational and functional studies show
+that these distinct structural adjustments are likely to contribute
+to the nanomolar to picomolar binding affinity conversion and to
+the initiation of signaling, with GM-CSF interactions involving
+GMRa (site 1) and bc (site 2) exhibiting differential roles in these
+events. Given the similarities in structure and function of the
+GM-CSF receptor and those of IL-3 and IL-5, it is likely that the
+mechanisms of affinity conversion and activation revealed for
+the GM-CSF receptor will be applicable in varying degrees to
+all members of the bc cytokine family and also more broadly to
+other type I cytokine receptors.
+RESULTS
+A Comparison of the Structures of the Binary and
+Ternary Complexes Reveals Discrete Conformational
+Changes
+A binary complex of soluble GMRa (sGMRa DN123) and GM￾CSF was purified and crystallized, and the structure of the com￾plex determined (see Experimental Procedures and Figure S1).
+The final model of the complex has been refined to 2.8-A˚ resolu￾tion with an R factor of 22.8% (Rfree = 28.7%). The final data
+collection and refinement statistics are given in Table 1.
+The binary complex shows the extracellular region of GMRa
+comprising three FnIII domains separated by linker regions: an
+immunoglobulin-like N-terminal FnIII domain (NTD residues
+S16 to P93) followed by a pair of FnIII domains, D2 (residues
+E98 to D192) and D3 (residues F199 to F296) that constitute
+the cytokine recognition module (CRM) (Figure 1A). The three
+GMRa FnIII domains adopt a ‘‘wrench-like’’ conformation that
+wraps around the four-helical bundle of GM-CSF. The hinge
+region between the D2 and D3 domains has an elbow angle of
+100, which is within the range observed in related type I
+cytokine receptor structures (Broughton et al., 2014; Kusano
+et al., 2012; LaPorte et al., 2008; Lupardus et al., 2010; Patino
+et al., 2011) and the elbow angle between D2 and NTD is
+65. GMRa contains five disulfide bonds as well as a free
+cysteine within the NTD (C68). Two disulfides are located in the
+NTD (C32-C60, C41-C62) and D2 domains (C107-C117,
+C146-C159) with one in the D3 domain (C209-C214) (Figures 1
+and S1E).
+The manner in which GMRa interacts with GM-CSF is similar
+to the interaction observed in the IL-5 binary complex (Fig￾ure S2A) (Kusano et al., 2012; Patino et al., 2011) and the closed
+IL-3:IL3Ra model (Broughton et al., 2014) (Figure S3A). The inter￾face between GMRa and GM-CSF is expansive with a total
+buried surface area of 1,175 A˚ 2 and a shape complementarity
+(Sc) value of 0.66, which is typical of oligomeric protein-protein
+complexes (Lawrence and Colman, 1993). The interface be￾tween the a subunit and cytokine is similar for each complex,
+with a total buried surface area of 1,115 A˚ 2 for IL-5:IL5Ra
+(Sc = 0.64) and 1,243 A˚ 2 for the closed IL-3:IL3Ra model
+(Sc = 0.62). Indeed, IL5Ra and the closed form of IL3Ra both
+superimpose reasonably well with GMRa despite low shared
+sequence identity (18%–32%), with the CRMs particularly similar
+(root-mean-square deviation [rmsd] of 1.4 A˚ for IL5Ra, and 2.4
+and 2.2 A˚ for the open and closed forms of IL3Ra, respectively)
+and the D2-D3 elbow angles being the same. The greatest differ￾ence between the GM-CSF, IL-5, and IL-3 a subunits is the posi￾tioning of the NTD relative to the CRM (for additional details see
+Supplemental Analysis).
+The crystal structures of the related IL13Ra1 and IL13Ra2
+(IL13Ra1/2) receptors also have a three FnIII domain architecture
+that wraps around IL-13 (PDB: 3BPO and 3LB6) (LaPorte et al.,
+2008; Lupardus et al., 2010) or IL-4 in the type II ternary complex
+(PDB: 3BPN) (LaPorte et al., 2008) in a ‘‘wrench-like’’ conforma￾tion (Figure S3B). The overall secondary structure in the CRMs of
+the GMRa and IL13Ra1/2 receptor subunits is conserved (D2-D3
+rmsd = 2.0, 3.2, and 1.5 A˚ , respectively), but the placement of the
+NTD relative to the CRM varies between the cytokine complexes
+(the comparison with IL-13 is shown in Figure S3B; see also Sup￾plemental Analysis).
+GMRa contacts GM-CSF primarily through the D strand and
+EF loop in the NTD, the CD and EF loops in D2, and the D2-D3
+linker and the BC and FG loops in D3, while GM-CSF interacts
+with GMRa via helix D and the b2 strand (Figure 1). There are
+two distinct GMRa interaction surfaces with the cytokine. Site
+1a comprises the interactions formed by GMRa D2 and D3 and
+conforms to the classical site 1 of type I cytokine receptors (de
+Vos et al., 1992). Site 1b is an interaction between GM-CSF
+and the a subunit NTD and is a feature of the bc cytokine family,
+as well as the IL-13 and IL-4 (type II complex) receptors (Figure 1)
+Table 1. Data Collection and Refinement Statistics
+GM-CSF Binary
+Complex
+GM-CSF Ternary
+Complex
+Data Collection
+Space group P22121 P6322
+Cell dimensions
+a, b, c (A˚ ) 49.8, 77.2, 117.7 166.7, 166.7, 213.1
+a, b, g (
+) 90, 90, 90 90, 90, 120
+Resolution (A˚ ) 38.02–2.8 (2.78–2.68)a 36.08–3.3 (3.48–3.2)
+Rmerge 0.06 (0.38) 0.08 (0.62)
+I/sI 19.9 (1.8) 17.7 (2.3)
+Completeness (%) 98.2 (85.3) 99.6 (99.6)
+Redundancy 6.0 (6.4) 4.7 (4.8)
+Refinement
+No. of reflections 13,304 25,439
+Rwork/Rfree 22.5/28.7 22.9/27.3
+No. of atoms
+Protein 3,076 5,706
+Water 20 0
+B factors
+Protein 61.1 84.8
+Water 34.0 70.2
+Rmsd
+Bond lengths (A˚ ) 0.011 0.011
+Bond angles () 1.40 1.41
+Related to Figures S1 and S4. a
+Values in parentheses denote highest-resolution shell.
+2 Structure 24, 1–11, August 2, 2016
+Please cite this article in press as: Broughton et al., Conformational Changes in the GM-CSF Receptor Suggest a Molecular Mechanism for Affinity
+Conversion and Receptor Signaling, Structure (2016), http://dx.doi.org/10.1016/j.str.2016.05.017    (Broughton et al., 2012, 2014; Kusano et al., 2012; LaPorte et al.,
+2008; Lupardus et al., 2010; Patino et al., 2011). A complete list
+of GM-CSF:GMRa site 1 interactions in the binary complex are
+detailed in Table S1 and additional analysis is included in the
+Supplemental Analysis.
+The more complete GMRa structure reported here enabled
+us to improve the published 3.3-A˚ resolution structure of the
+GM-CSF ternary complex (as described in Experimental Proce￾dures), and has led to a greatly improved electron density map
+for the ternary complex and the placement of an additional
+75 residues from GMRa (Figure S4A, see also Supplemental
+Analysis). Data collection and refinement statistics are given in
+Table 1 and a complete list of GM-CSF:GMRa site 1 interactions
+in the ternary complex are detailed in Table S1.
+Overall, the structures of the GM-CSF:GMRa component
+of the binary and ternary complexes appear quite similar (Fig￾ure 2A). Thus the GMRa CRM component (i.e., D2-D3) superim￾poses closely (Ca rmsd = 1.0 A˚ ), the elbow angle between the D2
+and D3 domains is the same, and the GM-CSF molecules are
+almost identical in the two complexes with a Ca rmsd of 0.8 A˚ .
+However, when the two complexes are superimposed via their
+CRMs, it is clear that the cytokine has tilted 9 toward the bc
+subunit in the ternary complex structure relative to a pivot point
+centered on R283 in the FG loop of GMRa D3 domain (Figures 2A
+and 2B). The region around the FG loop of GMRa is almost iden￾Figure 1. Structure of the GM-CSF Binary
+Complex
+(A) The wrench-like architecture adopted by GMRa
+(colored gray in all panels) when binding the four
+a-helical bundle of GM-CSF (colored orange in all
+panels). The b strands that make up the three FnIII
+domains (NTD, D2, and D3) and the N and C termini
+are labeled. The cysteine residues in GMRa are
+represented as yellow spheres, and the bound
+sugars at N116 and N176 of GMRa are shown as
+sticks.
+(B) A close-up view highlighting key interactions
+between GM-CSF and the GMRa NTD (site 1b).
+Hydrogen bonds are shown as black dotted lines in
+all panels.
+(C) A close-up view highlighting key interactions
+between GM-CSF and the GMRa D2-D3 linker re￾gion (site 1a).
+(D) A close-up view highlighting key interactions
+between GM-CSF and the GMRa D3 (site 1a). A
+crystallographic water molecule involved in site 1a
+D3 interactions is shown as a small red sphere.
+See also Figures S1–S3; Table S1.
+tical between the two complexes, with the
+backbone and side-chain atoms overlap￾ping very closely (Figure 2B). In contrast,
+the GMRa D3 D strand changes to a
+two-turn coiled loop in the ternary com￾plex (Figure 2C) and the side chains of
+GMRa T247 and E248 within this coiled
+loop interact with Q346 and R432 of bc
+D4 in an adjacent hexameric complex,
+which may help to stabilize the dodeca￾mer assembly (site 4, Figure S4B).
+Importantly, the binary and ternary complexes show a number
+of differences in the structure and orientation of the cytokine
+when aligned via the GMRa CRM. Significant local differences
+in the GM-CSF BC loop, as well as a portion of both B and C he￾lices, reveal a distinct shift toward bc in the ternary complex, with
+a maximal shift of 2.8 A˚ in the Ca atoms. Helix D of GM-CSF inter￾acts with GMRa NTD and D3 in the binary complex (Figure 1C)
+whereas in the ternary complex, the Ca of the C-terminal end of
+helix D has rotated 3 A˚ toward bc while still maintaining key
+anchoring interactions with GMRa D3 (Figure 2A). Weak electron
+density was observed for the ternary complex GMRa NTD, so it
+was modeled using the binary complex (as described in Experi￾mental Procedures). Analysis of this model suggests that the
+movement of GM-CSF upon binding to the bc subunit pulls the
+GM-CSF b2 strand away from the D strand of GMRa NTD and
+abolishes multiple hydrogen bonds present in the binary complex
+(Figures 1B and 2D). Loss of this extensive hydrogen bond
+network reduces but does not abolish GM-CSF interactions
+with GMRa and is consistent with the observation that weak re￾ceptor signaling occurs when the NTD is removed (Mirza et al.,
+2010). Subtle differences in the A and C helices of GM-CSF are
+also apparent when comparing the binary and ternary com￾plexes. In the binary complex conformation, the orientation of
+GM-CSF K72 would preclude interaction with a docked bc homo￾dimer (site 2, Figure 2E) whereas in the ternary complex, GM-CSF
+Structure 24, 1–11, August 2, 2016 3
+Please cite this article in press as: Broughton et al., Conformational Changes in the GM-CSF Receptor Suggest a Molecular Mechanism for Affinity
+Conversion and Receptor Signaling, Structure (2016), http://dx.doi.org/10.1016/j.str.2016.05.017 K72 actually forms a salt bridge with D107 and possibly polar
+contacts with S102 in bc D1 (Figure 2F). In the ternary complex
+GM-CSF E21 forms critical interactions with bc (site 2, Figure 2F)
+through polar contacts with bc D1 residues Y39 and V105 and bc
+D4 Y421. Thus the N-terminal end of GM-CSF helix A is rotated
+toward bc in the ternary complex compared with the binary com￾plex (Figures 2E and 2F), a conformational change that likely un￾derlies the strong affinity conversion provided by bc (see below).
+Changes in the bc conformation have also been noted when
+comparing the free homodimer (apo) to the bound form in the
+GM-CSF ternary complex. In the apo-bc crystal structure
+(PDB: 2GYS) (Carr et al., 2006) the BC loop in D4 adopts a
+conformation whereby Y365 and H367 are pointing away from
+Y421 and Y39 (Figure 2E). This orientation of the BC loop is
+incompatible with the GM-CSF orientation in the ternary com￾plex, and steric clashes would occur between GM-CSF residues
+Figure 2. Comparison of the GM-CSF Binary and Ternary Complexes
+(A) The binary and ternary complexes have been superimposed via their a subunit CRMs and shown as cartoons. In the binary complex, GM-CSF and GMRa have
+the same coloring as Figure 1. In the GM-CSF:GMRa:bc ternary complex, GM-CSF is colored green, GMRa pink, and the bc dimer dark and light blue (for clarity
+only part of the dimer is shown). Hydrogen bonds are shown as black dotted lines in all panels.
+(B) Comparison of the binary and ternary complexes at the GMRa D2-D3 and D3 linker region (site 1a).
+(C) Interactions between GMRa D3:bc D4 (site 3, bc D4 is shown as surface) showing the contrast in the GMRa D3 D strand conformation between the binary
+(gray) and ternary (pink) complexes.
+(D) Interactions involving GM-CSF and the GMRa NTD (site 1b) in the ternary complex (TC).
+(E) Docking of the binary complex (BC) to the apo-bc dimer (PDB: 2GYS) in silico to illustrate the residue movements that occur upon assembly of the ternary
+complex.
+(F) Interactions between GM-CSF and D1 and D4 of the bc dimer (site 2) in the ternary complex (TC).
+(G) Illustration of the movement in the bc D4 BC loop (Y365 on the BC loop is shown, apo in yellow and ternary complex in blue), R24 and E21 in GM-CSF that
+occur upon assembly of the ternary complex (TC). The steric clash between GM-CSF R24 in the ternary complex and apo-bc Y365 is depicted (for clarity the clash
+between GM-CSF N17 in the ternary complex and apo-bc H367 is not shown).
+(H) Model of the GM-CSF E21R mutation at site 2 in the ternary complex (TC). Steric clashes are indicated by red disks.
+See also Figure S4; Tables S1 and S3.
+4 Structure 24, 1–11, August 2, 2016
+Please cite this article in press as: Broughton et al., Conformational Changes in the GM-CSF Receptor Suggest a Molecular Mechanism for Affinity
+Conversion and Receptor Signaling, Structure (2016), http://dx.doi.org/10.1016/j.str.2016.05.017N17 and R24 and apo-bc H367 and Y365, respectively (Fig￾ure 2G). However, we observe the flexibility of this loop in the
+GM-CSF ternary complex, and a conformational change
+points Y365 and H367 toward bc D1 to form an aromatic
+pocket along with Y39 and Y421 (Figure 2F). A rotation of bc
+D4 5.4 inward and away from GMRa D3 in the ternary com￾plex, when overlaid with the apo-bc dimer (Carr et al., 2006; Han￾sen et al., 2008), results in the bc D4 FG loop tilting down toward
+the membrane, which allows Y421 to interact with GM-CSF E21
+(Figures 2E and 2F).
+Conformational Changes Observed in Binary to Ternary
+Conversion by Crystallography Are Supported by
+Mutagenesis Studies
+The question arises as to whether the conformational changes
+we observe between the binary and ternary complex crystal
+structures are due to crystal lattice forces or are a consequence
+of bc engagement by the binary complex. While crystal lattice
+forces may account for some of the conformational changes
+observed, the crystal structures of the binary and ternary com￾plexes convincingly recapitulate conclusions from extensive
+mutagenesis data presented here and published elsewhere.
+The most crucial evidence for this is that in the ternary complex
+GM-CSF E21 (A helix), a critical residue for bc binding (Hercus
+et al., 1994a, 1994b; Woodcock et al., 1994), forms hydrogen
+bonds with Y39, V105, and Y421 (Figures 2F and S4B; Table
+S3). If GM-CSF did not move (i.e., tilt and translate) during the
+transition from binary to ternary complexes into the position
+observed in the ternary complex, the side chain of E21 would
+be too distant to make these interactions (Figure 2E) and a longer
+side chain should be accommodated at this position in GM-CSF.
+We assessed the interaction of bc site 2 with GM-CSF using the
+GM-CSF E21R mutant, a GM-CSF-specific antagonist with unal￾tered binding to GMRa but no interaction with bc (Hercus et al.,
+1994a; McClure et al., 2003). In silico analysis of the GM-CSF
+E21R mutation within the ternary receptor complex model
+suggests that steric conflicts are likely to explain the functional
+properties of GM-CSF E21R (Figure 2H). Consistent with this
+conclusion, mutation of GM-CSF E21 to glutamine or smaller
+residues (A, F, or H) is functionally tolerated (Hercus et al.,
+1994a), and enlarging the bc site 2 pocket by mutation allows
+GM-CSF E21R to bind with intermediate affinity (Woodcock
+et al., 1994). Considering these observations, it seems likely
+that the E21R mutation prohibits the tilting and translational
+movement of the cytokine seen in the binary to ternary complex
+conversion, thereby preventing effective engagement with bc.
+Given the conformational changes observed between the
+binary and ternary complexes, we sought to understand their
+significance in receptor activation by performing mutagenesis
+and functional analyses of the protein-protein interactions at
+sites 1 and 2, guided by the new structural data.
+Site 1 Is Critical for Binding and Signaling
+Mutagenesis of residues that contribute to site 1, coupled with
+binding and functional analyses, revealed multiple interactions
+that allow formation of the binary complex. Initial poly-alanine
+mutagenesis of GMRa revealed a critical role for site 1a residues
+in the D2 EF loop/F strand, the D2-D3 linker region, and the D3
+BC and FG loops, but not the NTD EF loop or the D2 CD loop
+(Table 2). Co-expression of the non-binding GMRa mutants
+with bc allowed GM-CSF to bind with near wild-type affinity, indi￾cating that the defect in binding to GMRa is due to a reduction in
+affinity for GM-CSF rather than gross protein misfolding (Table 2).
+The restoration of cytokine binding to binding-defective GMRa
+mutants by bc co-expression is consistent with previous studies
+of GMRa (Hercus et al., 2009; Mirza et al., 2010) and IL3Ra
+(Broughton et al., 2014) and emphasizes the dominant contribu￾tion that bc makes to cytokine binding. Expression of all mutants
+was confirmed by flow cytometry studies using multiple anti￾bodies to overcome potential epitope disruption (Table S2).
+The complex interaction between GM-CSF and GMRa around
+the GMRa R283 pivot represents a critical and dynamic element
+of site 1a (Figure 1D). Mutation of residues within the GMRa FG
+loop of D3 confirmed that D281 and R283 are required for GM￾CSF binding (Table 2) (Rajotte et al., 1997). Residues V282 and
+R283 interact with helix D in GM-CSF with the R283 side chain
+protruding into a hydrophobic bulge of helix D, framed by resi￾dues L114, L115, I117, P118, and F119 in GM-CSF (Figure 1D).
+The position of R283 within this bulge is dependent upon multiple
+interactions involving residues from both GMRa and GM-CSF.
+A network of charged residues in GMRa, including K194 in the
+D2-D3 linker region, D231 in the BC loop of D3, and D281 in
+the FG loop of D3, help to position the R283 side chain (Fig￾ure 1D). Interactions with GM-CSF helix D residues, including
+charge-p interactions of the guanidine moiety with F119 and
+hydrogen bonds with the carbonyls of L114 and I117, also stabi￾lize the R283 side chain (Figure 1D). Mutation of residues in the
+D2-D3 linker demonstrated that K194 is required for GM-CSF
+binding while charge-reversal mutation of D231 in the BC loop
+of D3 revealed that this residue is critical for GM-CSF binding
+even in the presence of bc (Table 2). GM-CSF-mediated cell pro￾liferation was substantially reduced by charge-reversal mutation
+of GMRa residues K194 and D231, with further reductions in
+GM-CSF function observed for the K194D,D231K combination
+(Figures 3A and S5A). Mutations of GM-CSF L115 and F119
+reduce binding affinity for GMRa and in combination substan￾tially reduce biological activity (Table 3).
+A second prominent feature of site 1a centers around GM-CSF
+D112 in helix D, which is located within a network of salt bridges
+and hydrogen bonds involving E66, R170, D192, and K195 in
+GMRa (Figure 1C). Mutation of residues within the EF loop
+of D2 demonstrated that R170 is required for GM-CSF binding
+(Table 2) and although mutation of S169 has no effect on GM￾CSF binding (Table 2), S169 hydrogen bonds with D48 in GM￾CSF and mutation of D48 reduces the biological activity of
+GM-CSF and its binding affinity for GMRa (Table 3). Mutation
+of residues in the GMRa D2-D3 linker demonstrated that both
+D192 and K195 are required for GM-CSF binding (Table 2), sup￾porting the critical role played by this network of interacting
+residues. GM-CSF-mediated cell proliferation was substantially
+reduced by charge-reversal mutation of GMRa residues R170,
+D192, and K195 with further reductions in GM-CSF binding
+and function observed for the R170D,K195D combination
+(Figures 3A and S5A). Mutations of GM-CSF D112 reduce both
+biological activity and binding affinity for GMRa (Hercus et al.,
+1994b; Rajotte et al., 1997) and synergize with mutations of
+GM-CSF E45 and D48 (Table 3). Consistent with the arrange￾ment of this charged residue network, using GM-CSF D112K
+Structure 24, 1–11, August 2, 2016 5
+Please cite this article in press as: Broughton et al., Conformational Changes in the GM-CSF Receptor Suggest a Molecular Mechanism for Affinity
+Conversion and Receptor Signaling, Structure (2016), http://dx.doi.org/10.1016/j.str.2016.05.017 we observed partial restoration of binding and function in
+cells expressing the GMRa R170D,K195D combination mutant
+but greatly reduced binding and function for cells expressing
+GMRa D192R (Figures S5B–S5E).
+The site 1b interaction between GMRa and GM-CSF involves
+a b-sheet hydrogen bonding network between the D strand of
+GMRa NTD and the b2 strand of GM-CSF as well as a salt bridge
+between R54 in the D strand of GMRa NTD and E41 in the b1
+strand of GM-CSF (Figure 1B). Mutation of V51 in the D strand
+of GMRa NTD has been reported to abolish GM-CSF binding
+(Mirza et al., 2010), and mutation of GM-CSF V40-D48 has
+been reported to abolish GM-CSF activity (Kaushansky et al.,
+1989). GMRa R65 is adjacent to the NTD D strand and has the
+potential to form a salt bridge with E45 in GM-CSF (Figure 1C),
+and we observed that mutation of GM-CSF E45 reduces the
+binding affinity for GMRa and synergizes with mutations of
+GM-CSF D48 and D112 (Table 3). Additional analysis of site 1b
+is included in Supplemental Analysis.
+We observed that disruptive GMRa mutations typically allow
+wild-type high-affinity GM-CSF binding in the presence of bc
+Table 2. Binding Data for GMRa Site 1 Mutants
+GMRa Residues Expression
+GMRa Alone GMRa + bc
+n KD (nM) n KD (nM)
+wild-type ++++ 16 23.9 ± 12.8 20 0.49 ± 0.26
+NTD EF loop R65A,E66A,H70A ++++ 2 9.5 ± 2.0 2 1.2 ± 0.43
+D2 CD loop N137A,S138A,K139A,R140A ++++ 5 22.1 ± 10.6 2 0.77 ± 0.11
+D2 EF loop/F strand L167A,T168A,S169A ++ 3 16.6 ± 7.2 2 0.59 ± 0.08
+R170A,N171A,Y172A + 5 NB 6 0.28 ± 0.15
+R170A ++++ 5 NB 2 0.6 ± 0.06
+R170D ++++ 2 NB 2 0.43 ± 0.32
+N171A ++++ 4 22.1 ± 10.4 2 0.58 ± 0.02
+Y172A + 4 7.9 ± 1.7 6 0.26 ± 0.15
+Y172F ++++ 7 11.2 ± 4.4 6 0.33 ± 0.12
+D2-D3 linker D192A,T193A,K194A ++++ 3 NB 6 0.89 ± 0.44
+D192A ++++ 2 NB 2 0.64 ± 0.14
+D192R ++++ 2 NB 2 0.69 ± 0.13
+T193A ++++ 4 53.8 ± 19.4 2 0.84 ± 0.03
+K194A ++++ 5 NB 3 0.94 ± 0.06
+K194D ++++ 5 NB 6 2.94 ± 0.98
+K195A,I196A,E197A ++ 2 NB 4 0.15 ± 0.06
+K195A ++++ 2 104 ± 25.5 2 0.35 ± 0.12
+K195D ++++ 2 NB 4 0.35 ± 0.24
+I196A ++ 2 15.0 ± 1.8 2 0.45 ± 0.05
+E197A ++ 2 7.4 ± 0.35 2 0.27 ± 0.03
+D3 BC loop Y224A,Q225A,K226A,L227A
+S228A,Y229A + 3 NB 4 0.29 ± 0.03
+Y224A,Y229A ++++ 4 80.7 ± 16.8 4 0.17 ± 0.08
+Q225A ++++ 4 235 ± 91.7 2 0.25 ± 0.08
+K226A ++++ 3 38.1 ± 5.8 2 0.19 ± 0.02
+L227A ++++ 2 27.0 ± 2.6 2 0.73 ± 0.13
+S228A ++++ 2 67.6 ± 8.9 2 0.78 ± 0.2
+D231A ++++ 2 NB 2 0.59 ± 0.14
+D231K ++++ 2 NB 5 NB
+D3 FG loop D281A,V282A,R283A,I284A ++++ 5 NB 6 0.4 ± 0.2
+D281A ++++ 2 NB 2 0.96 ± 0.09
+D281E ++++ 2 NB 2 1.08 ± 0.08
+R283A ++++ 5 NB 4 0.9 ± 0.21
+R283D ++++ 5 NB 6 0.3 ± 0.25
+Binding of GM-CSF to GMRa mutants was measured in saturation binding assays using radioiodinated GM-CSF and COS cells transiently expressing
+GMRa alone (GMRa) or co-expressing wild-type bc (GMRa + bc). Relative expression of GMRa mutants on COS cells was determined by flow
+cytometry and is scored relative to wild-type expression. Errors represent SD. NB, no binding.
+Related to Figures S5 and S6; Table S2.
+6 Structure 24, 1–11, August 2, 2016
+Please cite this article in press as: Broughton et al., Conformational Changes in the GM-CSF Receptor Suggest a Molecular Mechanism for Affinity
+Conversion and Receptor Signaling, Structure (2016), http://dx.doi.org/10.1016/j.str.2016.05.017(Table 2) but have a reduced capacity to mediate GM-CSF
+cellular responses (Figures 3A and S5A). In contrast, the more
+conservative alanine mutations have little impact on cellular re￾sponses (Figures S5B and S5F). Of all mutations examined, the
+GMRa K194D and D231K mutations have the greatest reduction
+in cellular responses (Figures 3A and S5A) and are the only sin￾gle-residue mutations to display reduced GM-CSF binding in
+the presence of bc (Table 2). Combinations of disruptive muta￾tions such as GMRa K194D and D231K reduced cellular re￾sponses even further (Figure 3A) and abolished GM-CSF binding
+in the presence of bc (data not shown). Mutations of critical
+GM-CSF site 1 residues have similar functional consequences,
+with reductions in GMRa binding affinity and cellular response
+(Table 3). These results emphasize the affinity-converting role
+played by bc in cytokine binding, but unexpectedly demonstrate
+uncoupling of receptor binding from functional responses
+(Table 2; Figures 3A and 3C) and the critical role of site 1 interac￾tions in GM-CSF receptor signaling (Table 3).
+Site 2 Is Critical for High-Affinity Binding but Not
+Signaling
+In the GM-CSF ternary complex, GM-CSF E21 makes critical in￾teractions with bc D1 through hydrogen bonds with Y39, V105,
+and bc D4 through a hydrogen bond with Y421 (Figures 2F and
+S4B; Table S3). Alanine substitution of bc residues Y39 or
+F103 in D1 or Y365, H367, I368, or Y421 in D4 abolishes GM￾CSF high-affinity binding (Lock et al., 1994; Murphy et al.,
+2003; Woodcock et al., 1994, 1996), identifying multiple bc res￾idues that contribute to the site 2 interaction between GM-CSF
+and bc. Phenylalanine substitution of Y421 also abolishes high￾affinity binding of GM-CSF and reveals the critical role of the
+phenolic hydroxyl in GM-CSF binding (Hansen et al., 2008).
+Despite this, mutation of bc site 2 residues has little impact
+on GM-CSF-mediated cell proliferation, and it is only in the
+context of simultaneous mutation of residues in the BC loop
+(Y365A,E366A,H367A,I368A) and FG loop (Y421A) of bc D4
+that we observed a marked reduction in GM-CSF-mediated
+cell proliferation (Figure 3B). Functional analysis of the bc site 2
+mutants provides further evidence of the uncoupling of receptor
+binding from functional responses.
+We examined the ability of GM-CSF E21R to function through
+bc site 2 mutants and observed no proliferation of cells express￾ing wild-type bc but significant proliferation of cells expressing
+the Y421F, F103A, Y39A, E366A, or H367A bc mutants (Fig￾ure 3D). The individual bc site 2 mutations have differential
+effects on maximal cell proliferation in response to GM-CSF
+E21R (Y421F > F103A > Y39A = E366A > H367A) and weak
+but nearly identical dose responses (ED50 = 10–30 ng/ml), sug￾gesting that GM-CSF E21R is functioning through a low-affinity
+interaction. The partial restoration of agonist function to GM￾CSF E21R through selected bc site 2 mutations is consistent
+with multiple steric clashes contributing to the antagonist pheno￾type and is consistent with an array of bc residues that partici￾pate in the formation of site 2 interactions (Figures 2H and 3D).
+Molecular Basis for Receptor Activation
+To investigate the potential consequences of the conformational
+changes we observed (Figure 2) upon GM-CSF receptor activa￾tion, we examined how the spatial relationship of the membrane
+proximal domains of the GMRa and bc might be altered during
+the binary to ternary complex transition. We aligned the binary
+and ternary complex structures via the cytokine and, relative to
+Figure 3. Functional Characterization of
+GMRa Site 1 Mutants and bc Site 2 Mutants
+(A) CTL-EN cells stably expressing bc and wild￾type GMRa (gray -) or the R170D (blue B),
+D192R (black ,), K195D (blue >), R170D,K195D
+(blue C), K194D (red B), D231K (red ,), or
+K194D,D231K (red C) mutants, were stimulated
+with a titration of GM-CSF for 40 hr and cell pro￾liferation determined by [3
+H]thymidine incorpora￾tion. Data are the mean of triplicate determinations
+from a representative experiment (n = 2) and error
+bars represent SD.
+(B) CTL-EN cells stably expressing GMRa and
+wild-type bc (gray -) or the Y421A (white ,),
+Y421F (black -), Y39A (blue B), F103A (blue C),
+Y365A (white >), E366A (black A), H367A (white
+O), I368A (black :), Y365A,E366A,H367A,I368A
+(red ,), or Y365A,E366A,H367A,I368A,Y421A
+(red -) mutants, were stimulated with a titration of
+GM-CSF for 40 hr and cell proliferation determined
+as for (A).
+(C) The functional parameters for cells expressing
+wild-type GM-CSF receptors (white ,), GMRa site
+1 mutants (blue C), and bc site 2 mutants (red C)
+are plotted by comparing GM-CSF functional
+activity (ED50, ng/ml) against GM-CSF high-affinity binding (KD, nM). The measurement limit for GMRa mutants in high-affinity binding experiments is defined as
+KD = 250 nM (blue dashed line) while for bc mutants the limit is defined by the GMRa affinity, KD = 20 nM (red dashed line). Data for selected GMRa and bc mutants
+are labeled: K194D (a), D231K (b), R170D,K195D (c), K194D,D231K (d), and Y365A,E366A,H367A,I368A,Y421A (e).
+(D) CTL-EN cells stably expressing GMRa and the same bc variants described in (B) were stimulated with a titration of GM-CSF E21R for 40 hr and cell proliferation
+determined as for (A).
+See also Figures S5 and S6; Table S2.
+Structure 24, 1–11, August 2, 2016 7
+Please cite this article in press as: Broughton et al., Conformational Changes in the GM-CSF Receptor Suggest a Molecular Mechanism for Affinity
+Conversion and Receptor Signaling, Structure (2016), http://dx.doi.org/10.1016/j.str.2016.05.017the position of GM-CSF, observed rotation of the GMRa D3
+domain 6 inward along the x-y plane toward the bc D4 domain
+(Figure 4A) that we postulate would optimize the GMRa D3:bc D4
+interactions in the ternary complex (site 3). In addition there is a
+5 rotation of the bc D4 domain inwards toward the center of
+the dimer arch when comparing the apo form of bc (Carr et al.,
+2006) with that in the GM-CSF ternary complex (Figure 4B).
+Although we cannot exclude the influence of crystal packing, it
+is likely that these bc D4 domain movements optimize contact
+with the GMRa D3 domain and GM-CSF. The movement of the
+membrane proximal domains that is associated with formation
+of the ternary complex therefore has the potential to transmit
+conformational changes to the adjacent transmembrane and
+cytoplasmic domains.
+DISCUSSION
+A detailed molecular understanding of the basis for affinity
+conversion and signaling of heteromeric cytokine receptors
+has been hampered by the paucity of crystal structures for
+both the binary and ternary forms of representative receptor
+complexes. Here we report the crystal structure of the GM￾CSF:GMRa binary complex (Figure 1), which has enabled
+the determination of an improved structure for the GM￾CSF:GMRa:bc ternary complex (Figures 2 and S4) and a detailed
+comparison of the two structures. Our analysis suggests that
+GM-CSF actively transitions toward the bc subunit upon forma￾tion of the ternary complex so as to lock the cytokine in the
+ternary complex through numerous contacts with bc (site 2), at
+the expense of others with GMRa (site 1). Thus, ternary complex
+formation involves a net gain of surface contact between GM￾CSF and the GMRa (site 1) and bc (site 2) subunits as well as
+through the formation of new contacts between the two receptor
+subunits (site 3). Affinity conversion through interaction with bc
+results in decreased cytokine dissociation (Hayashida et al.,
+1990), so it seems likely that in the ternary complex the additional
+contacts with bc site 2 effectively hold GM-CSF to the receptor
+yielding a high-affinity interaction. Functional studies of site 1
+and site 2 mutants reveal a critical role for GM-CSF:GMRa site
+1 interactions in receptor signaling and for GM-CSF:bc site 2 in￾teractions in affinity conversion but not receptor signaling (Fig￾ures 3 and S5; Tables 2 and 3). Detailed comparison of the
+GMRa and bc receptor subunits in the binary and ternary com￾plexes revealed that ternary complex formation is associated
+with rotations of the membrane proximal domains that are likely
+to optimize site 3 and site 4 contacts (Figure 4 and Table S3).
+These changes are also likely to affect the position of the
+transmembrane helices that are required for activation of JAK2
+kinases associated with the cytoplasmic domains, and influ￾ence subsequent transmembrane signaling via the JAK-STAT
+pathway (Brooks et al., 2014).
+The crystal structure of the binary GM-CSF complex pre￾sented here completes the set of receptor a subunit structures
+for the bc family of cytokines (Broughton et al., 2014; Kusano
+et al., 2012; Patino et al., 2011). Although the extracellular do￾mains of the GM-CSF, IL-3, and IL-5 a subunits adopt a similar
+three FnIII domain architecture which engages the cytokine in
+a wrench-like fashion, each a subunit has unique structural fea￾tures that allow it to selectively recognize the appropriate cyto￾kine (Figures S2 and S3). The determination of the GM-CSF
+binary complex structure also provided us the opportunity to
+significantly improve our published GM-CSF ternary complex
+structure (PDB: 3CXE) (Hansen et al., 2008) that revealed new
+as well as more detailed descriptions of the key protein-protein
+interaction surfaces (Figures 2 and S4; Tables S1 and S3).
+The GM-CSF binary complex structure guided binding and ac￾tivity studies to assess the functional contribution of site 1 resi￾dues in GMRa and GM-CSF. These studies revealed a number
+of residues essential for GM-CSF function and identified two ma￾jor binding determinants in the binary complex: one centered
+around GM-CSF D112 and the other around GMRa R283 (Fig￾ures 1, 2, S4, and S5; Tables 2, 3, and S1). Residues comprising
+the GM-CSF D112 motif are only conserved among primates
+(Figure S6), providing one explanation for the species-restricted
+function observed for GM-CSF. In contrast, the residues of the
+GMRa R283 motif appear to be highly conserved across many
+species (Figure S6), although they are not sufficient for full recep￾tor recognition by themselves.
+We observed that many mutations of GMRa abolish direct
+measurable binding of GM-CSF but still allowed wild-type GM￾CSF binding in the presence of bc (Table 2). This observation is
+consistent with previous studies of both GMRa and IL3Ra
+(Broughton et al., 2014; Mirza et al., 2010; Rajotte et al., 1997)
+and emphasizes the dominant contribution bc makes to cytokine
+binding through affinity conversion. The recruitment of bc to form
+the high-affinity complex increases the overall cytokine interac￾tion surface from 1,175 A˚ 2 (site 1) in the binary complex to
+1,516 A˚ 2 (sites 1 and 2) in the ternary complex; however, there
+Table 3. Binding and Functional Data for GM-CSF Site 1 Mutants
+GM-CSF
+GMRa Only TF-1
+n KD (nM) n ED50 (ng/ml)
+Wild-type 8 1.9 ± 0.7 4 0.02 ± 0.004
+E45A 2 24.0 ± 13.1 4 0.03 ± 0.005
+E45K 2 70.4 ± 19.3 4 0.052 ± 0.02
+D48A 2 151 ± 54.0 5 0.084 ± 0.03
+D48K 3 550–1,160a 6 0.27 ± 0.1
+Q99A 3 4.2 ± 0.6 2 0.019 ± 0.001
+Q99E 2 14.7 ± 0.7 2 0.018 ± 0.001
+D112A 2 69.6 ± 9.2 2 0.03 ± 0.002
+D112K 3 466 ± 81.7 5 0.17 ± 0.04
+L115A 2 103 ± 43.6 2 0.02 ± 0.003
+F119A 2 530–1,200a 2 0.13 ± 0.01
+L115A,F119A 2 >2,000 2 1.47 ± 0.04
+E45K,D48K 2 >2,000 2 2.91 ± 0.39
+E45K,D112K 2 >2,000 2 2.0 ± 0.4
+D48K,D112K 2 >2,000 2 3.14 ± 0.06
+Binding of GM-CSF mutants was measured in competitive binding as￾says using radioiodinated GM-CSF on CHO cell lines expressing GMRa
+alone (GMRa). Functional activity of GM-CSF mutants was measured us￾ing proliferation of TF-1 cells (TF-1). Errors represent SD. >2,000 = no
+competition was observed at 2,000 nM of competitor. Related to Figures
+S5 and S6. a
+Extrapolated KD values, as only partial competition was observed at
+maximum competitor concentration.
+8 Structure 24, 1–11, August 2, 2016
+Please cite this article in press as: Broughton et al., Conformational Changes in the GM-CSF Receptor Suggest a Molecular Mechanism for Affinity
+Conversion and Receptor Signaling, Structure (2016), http://dx.doi.org/10.1016/j.str.2016.05.017  are also important qualitative changes as seen by a reduction of
+the site 1 interaction surface in the ternary complex (902 A˚ 2
+). Sur￾prisingly, the wild-type level of GM-CSF binding observed for
+GMRa site 1 mutants co-expressed with bc is not coupled to
+wild-type levels of GM-CSF function (Figure 3A), suggesting
+that the mutations are able to disrupt receptor activation without
+affecting the binding affinity of ligand in the ternary complex
+(Table 2). Supporting this notion, mutation of site 1 interacting
+residues in GM-CSF also affected binding to GMRa and GM￾CSF function (Table 3).
+Mutation of bc site 2 residues has previously been shown to
+abrogate affinity conversion or high-affinity binding for GM￾CSF, IL-3, and IL-5 (Hansen et al., 2008; Lock et al., 1994; Mur￾phy et al., 2003; Woodcock et al., 1994, 1996). While bc is
+considered the major signaling subunit (Hercus et al., 2009),
+we now show that mutation of bc site 2 has limited impact on
+GM-CSF-mediated cell proliferation unless multiple elements
+of site 2 are disrupted (Figure 3B). The importance of the GM￾CSF tilt (Figure 2B) for bc engagement and affinity conversion
+through site 2 is supported by our earlier studies of GM-CSF
+E21 mutants (Hercus et al., 1994a, 1994b). Loss of GM-CSF ac￾tivity associated with mutation of the E21 residue to larger resi￾dues such as arginine can now be understood in terms of steric
+inhibition of the tilt (Figure 2H). Our modeling suggests that IL-3
+may undergo a similar tilt when transitioning from the binary to
+the ternary complex (Broughton et al., 2015). Our mutational
+data support the critical role of bc site 2 interactions in GM￾CSF binding but demonstrate that this interaction does not
+directly correlate with receptor function (Figure 3C). Collectively
+our data support a model of receptor activation whereby GM￾CSF binding to GMRa through site 1 determines initial binding,
+cytokine specificity, and receptor activation while GM-CSF inter￾action with bc through site 2 determines high-affinity GM-CSF
+binding and signaling.
+A detailed mechanism of activation was recently presented
+for the archetypal homomeric human growth hormone receptor
+(hGHR), in which the transmembrane helices were shown to
+cross over to an ‘‘active’’ state upon hormone binding, leading
+to activation of the JAKs associated with the cytoplasmic tails
+(Brooks et al., 2014). Given the comparable distance between
+the juxtamembrane domains of hGHR and the site 4 bc subunits
+in the GM-CSF dodecameric complex (10 A˚ ), it seems plau￾sible that a similar mechanism of activation might operate in
+the more complex GM-CSF heterodimeric receptor system.
+Structural comparison of the apo-bc dimer and GM-CSF binary
+complex with the GM-CSF ternary complex (Figure 4) indicates
+that the membrane proximal domains of the receptor a and bc
+subunits could rotate upon assembly of the ternary complex
+and that these movements could be transmitted to the trans￾membrane helices. Of particular relevance were the observa￾tions of local conformational changes in the membrane proximal
+domain of GMRa upon ternary complex formation. Thus the
+GMRa D strand of domain 3 (D3) of the binary complex converts
+to a two-turn coil that forms interactions at the site 4 interface in
+the ternary complex (Figure 2C). These changes may contribute
+to the domain movements and, thus, signaling events that
+are initiated following receptor complex assembly. The distinct
+conformational changes in GM-CSF and its receptor upon com￾plex assembly raise the possibility that this novel tilt-and-lock
+mechanism is a conserved and necessary feature of cytokine
+receptor activation.
+EXPERIMENTAL PROCEDURES
+Full details can be found in Supplemental Experimental Procedures.
+Expression and Purification of the GM-CSF:sGMRa Binary Complex
+Partially glycosylated soluble GMRa (sGMRa DN123; residues L1 to G301 of
+the mature peptide with N27Q, N35Q, and N80Q mutations) was expressed
+from Sf21 insect cells and purified by affinity chromatography (McClure
+et al., 2003). Human GM-CSF (residues A1 to E127) was purified from
+Escherichia coli (Hercus et al., 1994a). Functional studies demonstrate that
+the N27Q, N35Q, and N80Q combination mutation has minimal impact on
+the function of GMRa (Figures S1A and S1B). The binary complex containing
+GM-CSF and sGMRa was isolated by preparative size-exclusion chromatog￾raphy (Figures S1C and S1D).
+Crystallization, Data Collection, and Structure Determination of
+GM-CSF:GMRa
+Crystallization was performed using the hanging-drop vapor diffusion method
+at 21C. The best crystals were obtained in 22% polyethylene glycol 8000, 1%
+2-methyl-2,4-pentanediol, 5 mM DTT, and 100 mM imidazole (pH 6.2–6.5). The
+crystals diffracted to resolution of 2.8 A˚ in the orthorhombic space group
+P22121. Data were collected at the MX2 beamline at the Australian Synchro￾tron. The structure was solved by molecular replacement using the a subunit
+of IL-5 (PDB: 3QT2). One GM-CSF:GMRa complex was found in the asym￾metric unit. The stereochemical quality of the final model correlates well with
+structures at similar resolutions, with 99.7% residues in the allowed regions
+of the Ramachandran plot. Data and refinement statistics are listed in Table 1.
+Figure 4. Movement of Membrane Proximal
+Domains upon Higher-Order Assembly
+(A) Overlay of the binary (BC) and ternary (TC)
+complex via GM-CSF, indicating movement of the
+D3 domain of GMRa upon bc recruitment (GMRa
+colored pink [TC] and gray [BC], cytokine orange
+[BC] and green [TC], and bc blue and deep teal).
+(B) Overlay of the apo-bc (colored gray) and bc in
+the ternary complex (TC) indicating an accommo￾dating shift of the bc D4 upon complex formation.
+Other colors as in (A).
+Domain movement is indicated by red arrows.
+See also Figure S4 and Table S3.
+Structure 24, 1–11, August 2, 2016 9
+Please cite this article in press as: Broughton et al., Conformational Changes in the GM-CSF Receptor Suggest a Molecular Mechanism for Affinity
+Conversion and Receptor Signaling, Structure (2016), http://dx.doi.org/10.1016/j.str.2016.05.017 Refinement the GM-CSF Ternary Complex
+The complete GMRa structure from the binary model was used in molecular
+replacement together with the previously published bc dimer (Carr et al.,
+2006) and the structure of GM-CSF from the ternary complex (Hansen et al.,
+2008). The solution led to an improvement of the electron density for large re￾gions of the GMRa D2 domain, and a few main-chain strands of the GMRa
+NTD domain became apparent. The stereochemical quality of the final model
+correlates well with structures at similar resolutions, with 99.3% residues in the
+allowed regions of the Ramachandran plot. Data and refinement statistics are
+listed in Table 1.
+Computational Modeling
+The dodecameric GM-CSF ternary complex model (Figure S4) was con￾structed by replacing the four partial GMRa subunits in the refined GM￾CSF ternary crystal structure dodecameric complex with complete
+‘‘chimeric’’ GMRa models. The ‘‘chimeric’’ GMRa model was obtained by
+splicing residues S16 to F199 from the binary complex GMRa subunit into
+the incomplete GMRa subunit from the ternary complex crystal structure.
+Structural optimization (MMFF94s force field and partial atomic charges,
+conjugate gradient method, termination upon successive steps being
+<0.05 kcal/mol d A˚ ) was performed using SYBYL-X 2.1 (Certara; http://
+tripos.com/) to remove any steric conflicts. The final minimized GM-CSF
+dodecameric receptor complex model and the refined GM-CSF ternary crys￾tal complex have an rsmd = 0.6 A˚ over 2,420 Ca atoms. Interactions within
+sites 1–5 of the dodecameric ternary receptor complex model are tabulated
+in Tables S1 and S3.
+Mutagenesis of GMRa and bc and Expression of GMRa Mutants
+Human GMRa and bc cDNA were cloned in the pSG5 expression vector
+(Stratagene) and mutations generated by PCR mutagenesis. HEK293T cells
+were transfected with pSG5 plasmids encoding wild-type or mutant GMRa
+using Lipofectamine (Invitrogen) and cell-surface expression of GMRa
+assessed by flow cytometry using monoclonal antibodies (mAbs) specific for
+GMRa, 4H1 (Stomski et al., 1998), 8G6 (Woodcock et al., 1994), and 1037
+(Millipore).
+Cell Binding Studies with GMRa Mutants
+COS cells were electroporated with pSG5 plasmids encoding wild-type or
+mutant GMRa, alone or in the presence of the pSG5H:bc plasmid encoding
+human bc. Cell-surface expression of receptor subunits was confirmed by
+flow cytometry using mAbs specific for GMRa (see above) or bc, 1C1 (Stomski
+et al., 1996). Saturation binding assays with radioiodinated GM-CSF were car￾ried out as previously described (Woodcock et al., 1996; Sun et al., 1999) and
+dissociation constants calculated using the EBDA and LIGAND programs
+(Munson and Rodbard, 1980) (KELL Radlig; Biosoft).
+Functional Studies with GMRa and bc Mutants
+Wild-type or mutant GMRa cDNA was cloned in the retroviral expression
+vector, pRufHygro, and used to transduce CTL-EN cells expressing hu￾man IL3Ra and bc (CTL-EN/IL3Ra/bc). Wild-type or mutant bc cDNA was
+cloned in the retroviral expression vector, pRufPuro, and used to transduce
+CTL-EN cells expressing human IL3Ra and GMRa (CTL-EN/IL3Ra/GMRa).
+Following selection with hygromycin or puromycin, respectively, cells were
+sorted for GMRa or bc expression, respectively, by flow cytometry as
+previously described (Woodcock et al., 1996). Cell proliferation assays
+using [6-3
+H]thymidine incorporation were performed as previously described
+(Hansen et al., 2008) and analyzed using GraphPad Prism to determine ED50
+values.
+Mutagenesis, Purification, and Testing of GM-CSF Mutants
+GM-CSF mutants were generated by PCR mutagenesis and purified from
+E. coli (Hercus et al., 1994a). Receptor binding was assessed in competitive
+binding assays using CHO cells stably expressing wild-type GMRa and radio￾iodinated GM-CSF (Hercus et al., 1994a). The functional activity of mutant GM￾CSF was assayed by measuring the proliferation of the human erythroleukemia
+cell line TF-1 (Kitamura et al., 1989) using [6-3
+H]thymidine incorporation (Han￾sen et al., 2008), and the data analyzed using GraphPad Prism to determine
+ED50 values.
+ACCESSION NUMBERS
+Atomic coordinates and structure factors of the GM-CSF binary and re-refined
+ternary receptor complexes have been deposited in the PDB under the codes
+PDB: 4RS1 and 4NKQ (which now supersedes 3CXE), respectively.
+SUPPLEMENTAL INFORMATION
+Supplemental Information includes Supplemental Experimental Procedures,
+Supplemental Analysis, six figures, and three tables and can be found with
+this article online at http://dx.doi.org/10.1016/j.str.2016.05.017.
+AUTHOR CONTRIBUTIONS
+J.K.-S. and S.E.B. performed the crystallographic studies and S.E.B.
+completed the structural determination and analyses; T.R.H. prepared pro￾teins and complexes for structural and functional studies; T.R.H., M.D.,
+B.J.M., and H.T. did binding and functional studies; T.L.N. did molecular
+modeling; T.L.N., U.D., and M.A.G. assisted with structural analyses; T.R.H.,
+M.W.P., and A.F.L. designed experiments; S.E.B., T.R.H., U.D., and T.L.N.
+prepared figures; S.E.B., T.R.H., T.L.N., U.D., M.W.P., and A.F.L. wrote the pa￾per. All authors discussed the results and commented on the manuscript.
+M.W.P. and A.F.L. supervised the research.
+ACKNOWLEDGMENTS
+This research was partly undertaken on the MX2 beamline at the Australian
+Synchrotron, Victoria, Australia, and we thank the beamline staff for their assis￾tance. We thank and acknowledge the use of the CSIRO Collaborative Crystal￾lisation Centre (C3), Melbourne, Australia for our initial crystallization studies.
+We thank Dene Littler for his contributions to the structural studies, Joanna
+Woodcock for helpful discussions, and Anna Sapa for technical assistance.
+This work was supported by grants from the National Health and Medical
+Research Council of Australia (NHMRC) to T.R.H., M.W.P., and A.F.L., and
+from the Australian Cancer Research Foundation to M.W.P. Funding from
+the Victorian Government Operational Infrastructure Support Scheme to St
+Vincent’s Institute is acknowledged. S.E.B. is a Postdoctoral Fellow supported
+by the Leukaemia Foundation. U.D. and M.W.P. are NHMRC Postdoctoral and
+Research Fellows, respectively.
+Received: May 2, 2016
+Revised: May 2, 2016
+Accepted: May 11, 2016
+Published: July 7, 2016
+REFERENCES
+Asquith, K.L., Ramshaw, H.S., Hansbro, P.M., Beagley, K.W., Lopez, A.F., and
+Foster, P.S. (2008). The IL-3/IL-5/GM-CSF common receptor plays a pivotal
+role in the regulation of Th2 immunity and allergic airway inflammation.
+J. Immunol. 180, 1199–1206.
+Brooks, A.J., Dai, W., O’Mara, M.L., Abankwa, D., Chhabra, Y., Pelekanos,
+R.A., Gardon, O., Tunny, K.A., Blucher, K.M., Morton, C.J., et al. (2014).
+Mechanism of activation of protein kinase JAK2 by the growth hormone recep￾tor. Science 344, 1249783.
+Broughton, S.E., Dhagat, U., Hercus, T.R., Nero, T.L., Grimbaldeston, M.A.,
+Bonder, C.S., Lopez, A.F., and Parker, M.W. (2012). The GM-CSF/IL-3/IL-5
+cytokine receptor family: from ligand recognition to initiation of signaling.
+Immunol. Rev. 250, 277–302.
+Broughton, S.E., Hercus, T.R., Hardy, M.P., McClure, B.J., Nero, T.L., Dottore,
+M., Huynh, H., Braley, H., Barry, E.F., Kan, W.L., et al. (2014). Dual mechanism
+of interleukin-3 receptor blockade by an anti-cancer antibody. Cell Rep. 8,
+410–419.
+Broughton, S.E., Nero, T.L., Dhagat, U., Kan, W.L., Hercus, T.R., Tvorogov, D.,
+Lopez, A.F., and Parker, M.W. (2015). The betac receptor family—structural in￾sights and their functional implications. Cytokine 74, 247–258.
+10 Structure 24, 1–11, August 2, 2016
+Please cite this article in press as: Broughton et al., Conformational Changes in the GM-CSF Receptor Suggest a Molecular Mechanism for Affinity
+Conversion and Receptor Signaling, Structure (2016), http://dx.doi.org/10.1016/j.str.2016.05.017Carr, P.D., Conlan, F., Ford, S., Ollis, D.L., and Young, I.G. (2006). An improved
+resolution structure of the human beta common receptor involved in IL-3, IL-5
+and GM-CSF signalling which gives better definition of the high-affinity binding
+epitope. Acta Crystallogr. Sect. F Struct. Biol. Cryst. Commun. 62, 509–513.
+de Vos, A.M., Ultsch, M., and Kossiakoff, A.A. (1992). Human growth hormone
+and extracellular domain of its receptor: crystal structure of the complex.
+Science 255, 306–312.
+Hamilton, J.A. (2008). Colony-stimulating factors in inflammation and autoim￾munity. Nat. Rev. Immunol. 8, 533–544.
+Hansen, G., Hercus, T.R., McClure, B.J., Stomski, F.C., Dottore, M., Powell, J.,
+Ramshaw, H., Woodcock, J.M., Xu, Y., Guthridge, M., et al. (2008). The struc￾ture of the GM-CSF receptor complex reveals a distinct mode of cytokine re￾ceptor activation. Cell 134, 496–507.
+Hayashida, K., Kitamura, T., Gorman, D.M., Arai, K., Yokota, T., and Miyajima,
+A. (1990). Molecular cloning of a second subunit of the receptor for human
+granulocyte-macrophage colony-stimulating factor (GM-CSF): reconstitution
+of a high-affinity GM-CSF receptor. Proc. Natl. Acad. Sci. USA 87, 9655–9659.
+Hercus, T.R., Bagley, C.J., Cambareri, B., Dottore, M., Woodcock, J.M.,
+Vadas, M.A., Shannon, M.F., and Lopez, A.F. (1994a). Specific human granu￾locyte-macrophage colony-stimulating factor antagonists. Proc. Natl. Acad.
+Sci. USA 91, 5838–5842.
+Hercus, T.R., Cambareri, B., Dottore, M., Woodcock, J., Bagley, C.J., Vadas,
+M.A., Shannon, M.F., and Lopez, A.F. (1994b). Identification of residues in the
+first and fourth helices of human granulocyte-macrophage colony-stimulating
+factor involved in biologic activity and in binding to the alpha- and beta-chains
+of its receptor. Blood 83, 3500–3508.
+Hercus, T.R., Thomas, D., Guthridge, M.A., Ekert, P.G., King-Scott, J., Parker,
+M.W., and Lopez, A.F. (2009). The granulocyte-macrophage colony-stimu￾lating factor receptor: linking its structure to cell signaling and its role in dis￾ease. Blood 114, 1289–1298.
+Hill, C.P., Osslund, T.D., and Eisenberg, D. (1993). The structure of granulo￾cyte-colony-stimulating factor and its relationship to other growth factors.
+Proc. Natl. Acad. Sci. USA 90, 5167–5171.
+Kaushansky, K., Shoemaker, S.G., Alfaro, S., and Brown, C. (1989).
+Hematopoietic activity of granulocyte/macrophage colony-stimulating factor
+is dependent upon two distinct regions of the molecule: functional analysis
+based upon the activities of interspecies hybrid growth factors. Proc. Natl.
+Acad. Sci. USA 86, 1213–1217.
+Kitamura, T., Tange, T., Terasawa, T., Chiba, S., Kuwaki, T., Miyagawa, K.,
+Piao, Y.F., Miyazono, K., Urabe, A., and Takaku, F. (1989). Establishment
+and characterization of a unique human cell line that proliferates dependently
+on GM-CSF, IL-3, or erythropoietin. J. Cell Physiol 140, 323–334.
+Kusano, S., Kukimoto-Niino, M., Hino, N., Ohsawa, N., Ikutani, M., Takaki, S.,
+Sakamoto, K., Hara-Yokoyama, M., Shirouzu, M., Takatsu, K., et al. (2012).
+Structural basis of interleukin-5 dimer recognition by its alpha receptor.
+Protein Sci. 21, 850–864.
+LaPorte, S.L., Juo, Z.S., Vaclavikova, J., Colf, L.A., Qi, X., Heller, N.M.,
+Keegan, A.D., and Garcia, K.C. (2008). Molecular and structural basis of cyto￾kine receptor pleiotropy in the interleukin-4/13 system. Cell 132, 259–272.
+Lawrence, M.C., and Colman, P.M. (1993). Shape complementarity at protein/
+protein interfaces. J. Mol. Biol. 234, 946–950.
+Lock, P., Metcalf, D., and Nicola, N.A. (1994). Histidine-367 of the human com￾mon beta chain of the receptor is critical for high-affinity binding of human
+granulocyte-macrophage colony-stimulating factor. Proc. Natl. Acad. Sci.
+USA 91, 252–256.
+Lupardus, P.J., Birnbaum, M.E., and Garcia, K.C. (2010). Molecular basis for
+shared cytokine recognition revealed in the structure of an unusually high affin￾ity complex between IL-13 and IL-13Ralpha2. Structure 18, 332–342.
+McClure, B.J., Hercus, T.R., Cambareri, B.A., Woodcock, J.M., Bagley, C.J.,
+Howlett, G.J., and Lopez, A.F. (2003). Molecular assembly of the ternary gran￾ulocyte-macrophage colony-stimulating factor receptor complex. Blood 101,
+1308–1315.
+Mirza, S., Walker, A., Chen, J., Murphy, J.M., and Young, I.G. (2010). The Ig￾like domain of human GM-CSF receptor alpha plays a critical role in cytokine
+binding and receptor activation. Biochem. J. 426, 307–317.
+Munson, P.J., and Rodbard, D. (1980). Ligand: a versatile computerized
+approach for characterization of ligand-binding systems. Anal. Biochem.
+107, 220–239.
+Murphy, J.M., Ford, S.C., Wiedemann, U.M., Carr, P.D., Ollis, D.L., and Young,
+I.G. (2003). A novel functional epitope formed by domains 1 and 4 of the human
+common beta-subunit is involved in receptor activation by granulocyte macro￾phage colony-stimulating factor and interleukin 5. J. Biol. Chem. 278, 10572–
+10577.
+Patino, E., Kotzsch, A., Saremba, S., Nickel, J., Schmitz, W., Sebald, W., and
+Mueller, T.D. (2011). Structure analysis of the IL-5 ligand-receptor complex re￾veals a wrench-like architecture for IL-5Ralpha. Structure 19, 1864–1875.
+Rajotte, D., Cadieux, C., Haman, A., Wilkes, B.C., Clark, S.C., Hercus, T.,
+Woodcock, J.A., Lopez, A., and Hoang, T. (1997). Crucial role of the residue
+R280 at the F0
+-G0 loop of the human granulocyte/macrophage colony-stimu￾lating factor receptor alpha chain for ligand recognition. J. Exp. Med. 185,
+1939–1950.
+Rozwarski, D.A., Diederichs, K., Hecht, R., Boone, T., and Karplus, P.A. (1996).
+Refined crystal structure and mutagenesis of human granulocyte-macrophage
+colony-stimulating factor. Proteins 26, 304–313.
+Stomski, F.C., Sun, Q., Bagley, C.J., Woodcock, J., Goodall, G., Andrews,
+R.K., Berndt, M.C., and Lopez, A.F. (1996). Human interleukin-3 (IL-3) induces
+disulfide-linked IL-3 receptor alpha- and beta-chain heterodimerization, which
+is required for receptor activation but not high-affinity binding. Mol. Cell Biol.
+16, 3035–3046.
+Stomski, F.C., Woodcock, J.M., Zacharakis, B., Bagley, C.J., Sun, Q., and
+Lopez, A.F. (1998). Identification of a Cys motif in the common beta chain of
+the interleukin 3, granulocyte-macrophage colony-stimulating factor, and
+interleukin 5 receptors essential for disulfide-linked receptor heterodimeriza￾tion and activation of all three receptors. J. Biol. Chem. 273, 1192–1199.
+Sun, Q., Jones, K., McClure, B., Cambareri, B., Zacharakis, B., Iversen, P.O.,
+Stomski, F., Woodcock, J.M., Bagley, C.J., D’Andrea, R., et al. (1999).
+Simultaneous antagonism of interleukin-5, granulocyte-macrophage colony￾stimulating factor, and interleukin-3 stimulation of human eosinophils by
+targetting the common cytokine binding site of their receptors. Blood 94,
+1943–1951.
+Woodcock, J.M., Zacharakis, B., Plaetinck, G., Bagley, C.J., Qiyu, S., Hercus,
+T.R., Tavernier, J., and Lopez, A.F. (1994). Three residues in the common beta
+chain of the human GM-CSF, IL-3 and IL-5 receptors are essential for GM-CSF
+and IL-5 but not IL-3 high affinity binding and interact with Glu21 of GM-CSF.
+EMBO J. 13, 5176–5185.
+Woodcock, J.M., Bagley, C.J., Zacharakis, B., and Lopez, A.F. (1996). A single
+tyrosine residue in the membrane-proximal domain of the granulocyte-macro￾phage colony-stimulating factor, interleukin (IL)-3, and IL-5 receptor common
+beta-chain is necessary and sufficient for high affinity binding and signaling by
+all three ligands. J. Biol. Chem. 271, 25999–26006.
+Structure 24, 1–11, August 2, 2016 11
+Please cite this article in press as: Broughton et al., Conformational Changes in the GM-CSF Receptor Suggest a Molecular Mechanism for Affinity
+Conversion and Receptor Signaling, Structure (2016), http://dx.doi.org/10.1016/j.str.2016.05.017

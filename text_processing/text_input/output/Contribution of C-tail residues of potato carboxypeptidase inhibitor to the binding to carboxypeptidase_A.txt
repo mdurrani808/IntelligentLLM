@@ -1,0 +1,815 @@
+Contribution of C-tail residues of potato carboxypeptidase inhibitor to the
+binding to carboxypeptidase A
+A mutagenesis analysis
+Cristina Marino-Buslje*,³, Gabriela VenhudovaÂ ³, Miguel A. Molina², Baldomero Oliva, Xavier Jorba,
+Francesc Canals, Francesc X. AvileÂ s and Enrique Querol
+Institut de Biologia Fonamental and Department de Bioquimica i Biologica Molecular, Universitat AutoÁnoma de Barcelona, Spain
+The role of each residue of the potato carboxypeptidase inhibitor (PCI) C-terminal tail, in the interaction with
+carboxypeptidase A (CPA), has been studied by the analysis of two main kinds of site-directed mutants: the point
+substitution of each C-terminal residue by glycine and the sequential deletions of the C-terminal residues. The
+mutant PCI±CPA interactions have been characterized by the measurement of their inhibition constant, Ki, in
+several cases, by their kinetic association and dissociation constants determined by presteady-state analysis, and
+by computational approaches. The role of Pro36 appears to be mainly the restriction of the mobility of the
+PCI C-tail. In addition, and unexpectedly, both Gly35 and Pro36 have been found to be important for folding of
+the protein core. Val38 has the greatest enthalpic contribution to the PCI±CPA interaction. Although Tyr37 has a
+minor contribution to the binding energy of the whole inhibitor, it has been found to be essential for the
+interaction with the enzyme following the cleavage of the C-terminal Gly39 by CPA. The energetic contribution
+of the PCI secondary binding site has been evaluated to be about half of the total free energy of dissociation of the
+PCI±CPA complex.
+Keywords: potato carboxypeptidase inhibitor; carboxypeptidase; mutational analysis; inhibition kinetics;
+enzyme±inhibitor complex.
+Protein±protein complexes are of great biological importance,
+and many efforts are being devoted to the understanding of the
+interactions responsible for these associations [1]. The com￾plexes of proteases and their proteic inhibitors constitute good
+models for the study of such interactions and are among the
+most frequently investigated [2,3]. In addition, the charac￾terization of the structural and energetic bases of the interaction
+of proteases with inhibitors is of great interest because of the
+involvement of both in fundamental biological processes, such
+as proprotein processing, defense mechanisms, fertilization,
+trauma and inflammation, virus replication, extracellular matrix
+remodelling, carcinogenesis, invasiveness and others [4,5].
+Potato carboxypeptidase inhibitor (PCI) is a small,
+39-residue, globular protein that competitively inhibits several
+metallocarboxypeptidases with a Ki in the nanomolar range [6].
+The 3D structure of PCI is known in aqueous solution [7] and in
+a crystal complex with carboxypeptidase A [8]. The 27-residue
+globular core of PCI is stabilized by three disulfide bridges
+and has little regular secondary structure besides a short
+five-residue helix. PCI belongs to the cystine-knot or T-knot
+superfamily of proteins, named because of their particular
+pattern of disulfide bridges [9]. A five-residue C-terminal tail
+protrudes from the globular core of PCI. This tail docks into the
+active site of carboxypeptidase, leading to a stopper-like
+inhibition mechanism [8]. The functional importance of this
+tail (residues 35±39) as the primary binding site to the enzyme,
+and of a short stretch of residues of the core, the secondary
+binding site located around Trp28, have been experimentally
+tested by chemical modification studies [10]. Both regions have
+been proposed to be essential in binding. All residues in the
+C-terminal tail of PCI establish contacts with the S2 and S3
+binding subsites of CPA except for Gly35. The involvement of
+residues from S10 and S1 subsites of CPA is also assumed in the
+pre and catalytic stages of the binding, in which the C-terminal
+glycine residue of PCI is cleaved in the active site of the
+enzyme [8]. Recently we have reported that a new carboxy￾peptidase inhibitor isolated from leech, with no structural
+similarity to PCI, presents a very similar C-terminal tail,
+probably as a consequence of convergent evolution [11]. This
+stresses the importance of this region for the interaction with
+carboxypeptidases.
+Although the structure of the PCI±CPA complex is relatively
+well known, knowledge of the basis of the complex formation
+and of its thermodynamic stability is still scarce. To gain insight
+into the molecular basis of the PCI±CPA interaction, we have
+previously constructed a synthetic gene for PCI, overexpressed
+it as soluble protein [12,13] and demonstrated that Val38 is a
+key residue for the stabilization of the PCI±CPA complex
+[14]. We have also performed computational simulations by
+molecular dynamics of PCI or PCI±CPA behavior [15]. We
+have recently reported that PCI has some structural
+similarities to epidermal growth factor, another protein of
+the T-knot superfamily, and can act as an antagonist of
+epidermal growth factor, showing interesting anti-tumor
+Eur. J. Biochem. 267, 1502±1509 (2000) q FEBS 2000
+Correspondence to E. Querol, Institut de Biologia Fonamental and
+Departament de BioquõÂmica i Biologia Molecular, Universitat AutoÁnoma
+de Barcelona, 08193 Bellaterra, Barcelona, Spain. Fax: + 34 93 5812011,
+Tel.: + 34 93 5811233, E-mail: ibfquer@blues.uab.es
+Abbreviations: PCI, potato carboxypeptidase inhibitor; CPA,
+carboxypeptidase A; dATPaS, deoxyadenosine 50
+-thiotriphosphate.
+*Present address: Department of Biochemistry, University of Cambridge,
+80 Tennis Court Road, Cambridge, UK.
+²Present address: Unitat de BioquõÂmica i Biologia Molecular, Facultat de
+CieÁncies. Universidad de Girona, 17071 Girona, Spain.
+³Note: the first two authors contributed equally to this work.
+(Received 12 November 1999, accepted 14 January 2000)q FEBS 2000 Role of PCI C-tail residues in the PCI±CPA complex (Eur. J. Biochem. 267) 1503
+properties [16]. Therefore, we decided to perform a systematic
+site-directed mutagenesis study to determine the contributions
+of specific residues and chemical groups of PCI to the
+thermodynamic stability of the complex with CPA, extending
+our previous analysis to all residues of the C-terminal tail.
+EXPERIMENTAL PROCEDURES
+Chemicals and enzymes
+Enzymes were purchased from Boehringer Mannheim
+Biochemicals, and Pharmacia. [a￾35S]dATPaS was obtained
+from Amersham. M13 sequencing kits were from Pharmacia
+(T7 sequencing kit). Oligonucleotides were synthesized by
+Clontech or by Boehringer. Deep Ventw polymerase was from
+New England Biolabs. Taq polymerase was from Perkin-Elmer.
+Cloning, site-directed mutagenesis and gene expression
+The construction of a synthetic gene for PCI, its expression in
+Escherichia coli and a procedure for purification of the
+recombinant PCI secreted into the culture medium have been
+previously reported [12,13]. The synthetic gene for PCI was
+cloned into the pINIII-ompA-3 vector [17] and fused in-frame
+to the OmpA signal sequence, generating the vector pIMAM3.
+Mutagenesis and sequencing were performed after cloning the
+XbaI±EcoRI fragment of pIMAM3, comprising the PCI gene
+and the OmpA signal peptide, into vectors M13mp18 and 19
+[18].
+Site-directed mutagenesis for the mutants: P36G, Y37F,
+V38G, delV38G39, was performed according to the method of
+Nakamaye and Eckstein [19] using the Sculptor in vitro
+mutagenesis system (Amersham). PCR techniques [20]
+were used to obtain G35P + P36G, Y37G, delY37V38G39,
+delP36Y37V38G39 and G39F mutants. PCR was made in one
+step, using a mutagenic primer for each mutant, and the
+Forward Universal Primer flanking the 50 end of the PCI gene.
+The oligonucleotides employed to obtain each mutant were
+the following:
+P36G: 50
+-TTAACCACGTAGCCGCCGCAGGTACG-30
+G35P + P36G: 50
+-GCTCGTACCTGCCCGGGCTACGTTG￾GTTAATAG-30
+Y37G: 50
+-CGAATTCCGGTCGACCTATTAACCAACGCC￾CGGGCCGCA-30
+Y37F: 50
+-TGCGGCCCGTTCGTTGGTTAA-30
+V38G: 50
+-CCCGTACGGTGGTTAAT-30
+delV38G39: 50
+-ACCTGCGGCCCGTACTAATAGGTCGA￾CGCG-30
+delY37V38G39: 50
+-CGAATTCCGGTCGACCTATTACGG￾GCCGCAGGTACGAGC-30
+delP36Y37V38G39: 50
+-CTTGAATTCTTACTAGCCGCAG￾GTACGAGC-30
+G39F: 50
+-GCGGCCCGTACGTTTTCTAATAGGTCGAC￾CG-30
+The mutated gene was cut with EcoRI/XbaI and ligated to a
+M13mp18 vector for sequencing. Sequence analyses were
+performed by the dideoxy method [21]. The strain TG1 [22]
+was used as a host for propagation of M13 derivatives. Mutant
+PCI genes were recloned in pIN-III-ompA-3 plasmid generating
+new pIMAM vectors. The E. coli strain MC1061 [23] carrying
+the pIMAM plasmids was used to produce wild-type and
+mutant recombinant PCIs, as previously reported [12]. Wild￾type and mutant inhibitors were expressed into the culture
+medium [12,13].
+Immunodetection
+Purified polyclonal antibodies against PCI were used to detect
+it by ELISA tests during production and purification of wild￾type and mutant forms of the inhibitor. They were obtained as
+previously reported [12].
+Purification and characterization of wild-type and mutant
+PCIs
+Wild-type and mutant forms of PCI were purified from
+extracellular medium of E. coli [pIMAM] cultures grown in
+aerobic fed-batch fermentation, by ion-exchange chromato￾graphy on DEAE FPLC and reverse-phase on C18 HPLC, as
+previously reported [13]. PCI was detected by inhibitory
+measurement assays, according to Hass and Ryan [24], and
+by ELISA. The concentration of the purified solutions of
+recombinant PCIs was determined from the A280 of the final
+solution (PCI extinction coefficient: :0.1% = 3.0 [24]), and also
+by Bradford assay using wtPCI as a standard. For mutants
+lacking the Tyr37 residue (except for Y37F PCI), the extinction
+coefficient was estimated from the sequence to be :0.1% = 2.8).
+Both methods gave the same results. Molecular masses were
+confirmed by MALDI-TOF spectrometry.
+The mutants delG39 and Y37G + delG39 were prepared by
+CPA digestion of wtPCI and the Y37G mutant, respectively, in
+1 : 1 ratio (w/w) for 4 h, until Gly39 was completely cut off, as
+monitored by MALDI-TOF MS. The proteins were then
+purified by C18 RP-HPLC.
+The Ki values of the wtPCI and mutants P36G, Y37G, Y37F,
+delG39 and G39F for the inhibition of bovine CPA were
+determined according to the Henderson method [25]. Ki values
+of mutants Y37G + delG39, V38G, delV38G39 and del
+Y37V38G39 were calculated according to the Lineweaver±
+Burk method. Assays were performed essentially as previously
+reported [12]. Benzoyl-glycyl-l-phenylalanine was used as a
+substrate at different concentrations. For each one, several
+measurements varying PCI concentration were made. Enzyme
+(bovine carboxypeptidase A) was 42.5 nm in all cases.
+Substrate hydrolysis was followed by A254 measurements
+every 2 s for a minimum of 2 min; this value was much longer
+in certain experiments. Velocities were expressed as the slope
+of the linear increase in absorbance and used to calculate Ki.
+Several independent Ki determinations were performed for
+mutant PCIs. The average Ki for each form of PCI and Gibbs
+free-energy (DGd8) for dissociation of the PCI±CPA complexes
+were calculated.
+The kinetic constants kon and koff for wtPCI, and mutants
+delG39, P36G, Y37G, and Y37G + delG39 were determined by
+a continuous photometric assay with the chromogenic substrate
+N-(4-methoxyphenylazoformyl)-l-phenylalanine [26]. The
+assay was performed in 50 mm Tris/HCl, 100 mm NaCl,
+pH 7.5, with a substrate concentration of 100 mm and CPA
+2 nm. Rate constants kon and koff were obtained by presteady￾state analysis [27]. Equilibrium dissociation constants were
+calculated (Ki = koff/kon) and corrected for substrate competi￾tion. Substrate consumption was less than 5% in all assays.
+Mass spectrometry
+MALDI-TOF MS was performed on a Bruker-BIFLEX
+spectrometer. Ionization was accomplished with a 337-nm
+pulsed nitrogen laser. Spectra were acquired in linear or
+reflectron, positive-ion mode, using a 19-kV acceleration
+voltage. Samples were prepared by mixing equal volumes of1504 C. Marino-Buslje et al. (Eur. J. Biochem. 267) q FEBS 2000
+a 1±10 mm solution of the protein and a saturated solution
+of a-cyano-4-hydroxycinnamic acid, used as a matrix, in
+aqueous 30% acetonitrile with 0.1% trifluoroacetic acid. One
+microliter of this mixture was spotted on the sample slide and
+allowed to evaporate to dryness.
+Peptide synthesis and characterization
+Peptides were synthesized by solid-phase peptide methodology
+[28], using Fmoc/OBu-t on a p-alcoxybenzyl alcohol resin. The
+resulting crude product was characterized by MALDI-TOF MS.
+Determination of the disulfide bond pairing of G35P + P36G
+mutant
+Assignment of the disulfide bond pairing of G35P + P36G PCI
+was accomplished by the partial reduction method [29]. Fifty
+micrograms of protein was denatured, partially reduced by
+90 nm Tris(2-carboxyethyl)phosphine, and cyanylated by
+4.8 mm 1-cyano-4-dimethylamino-pyridinum tetrafluoroborate.
+The reaction mixture was subjected to RP-HPLC HPLC and the
+three cyanylated isomers resulting from reduction of a single
+disulfide bond, identified by MALDI-TOF MS, were isolated.
+They were subjected to cleavage by aqueous ammonia on
+the N-terminal side of the cyanylated cysteines, and finally
+the remaining disulfide bonds were reduced by 0.1 m Tris
+(2-carboxyethyl)phosphine. The resulting mixtures of peptides
+were analyzed by MALDI-TOF MS and the disulfide bonds
+were deduced from the obtained mass maps.
+Computer simulation and graphics
+Molecular graphics and simulations were performed on SGI
+Crimson Elan and 8 processors of an SGI Origin 2000 computer
+from Silicon Graphics. The structure of wtPCI was taken from
+the X-ray structure of the PCI-IIa isoform in complex with CPA
+[8], adding the C-terminal Gly residue. The structure of the PCI
+mutants and the corresponding complexes with CPA were
+modelled and visualized by means of turbo frodo [30]. These
+structures were optimized by 5000 steps of steepest descent
+using the gromos package under explicit solvent force field
+[31]. The position of the main-chain atoms was constrained,
+assuming that conformational changes in mutants are small and
+do not significantly perturb the structure of PCI.
+RESULTS AND DISCUSSION
+The primary binding site of PCI that interacts with the active
+site residues of CPA in the PCI±CPA complex [8] is formed by
+the last four amino-acid residues of its five-residue C-terminal
+tail (Gly35, Pro36, Tyr37, Val38, Gly39). The principal inter￾residue interactions within this zone of the complex are shown
+in Fig. 1. In order to analyze in a systematic way the role and
+energetic contributions of these residues in the complex, a
+number of mutant inhibitors have been obtained, and their
+interaction with CPA characterized in terms of their inhibition
+constant Ki and the corresponding free energy of dissociation of
+the respective complexes DGd8 (Table 1), or their kinetic
+association and dissociation constants (kon, koff) (Table 2).
+Two complementary approaches have been considered for
+the choice of the mutant forms of PCI studied. In one approach,
+each one of the C-tail residues have been substituted by Gly, i.e.
+mutants P36G, Y37G and V38G (positions 35 and 39 already
+have a Gly in the wild-type form). The analyses of the stability
+of their corresponding complexes with CPA is expected to
+give an evaluation of the contribution of each of the side￾chains of the C-tail residues. In the other approach,
+sequential additive deletions of C-terminal residues of PCI
+have been constructed, i.e. mutants delG39, delV38G39,
+delY37V38G39 and delP36Y37V38G39. These can potentially
+show the contribution of each of the residues sequentially
+deleted. In addition, some other single and multiple mutant
+forms, i.e. G35P + P36G, Y37F, and G39F have been studied
+for specific purposes which will be discussed below.
+All mutant proteins were expressed in E. coli as secreted,
+soluble proteins. With the exceptions noted below, they showed
+a chromatographic behavior identical to that of wtPCI, both in
+DEAE ion-exchange and C18 reverse-phase columns, indicating
+that they keep their polarity, and most probably a native-like
+Fig. 1. Primary binding site of PCI to
+carboxypeptidase A. Interactions of the C-tail
+residues of PCI (Pro 36i, Tyr 37i, Val 38i, shown
+in light gray) with residues in the active site of
+CPA (dark gray), according to the X-ray structure
+of the PCI±CPA complex [8]. The C-terminal
+Gly of PCI (not shown in the figure) is trimmed
+by the enzyme, and the carboxylate group of
+Val 38i is coordinated with the active-site Zn ion.
+The distances in AÊ corresponding to the observed
+inter-residue contacts are indicated.q FEBS 2000 Role of PCI C-tail residues in the PCI±CPA complex (Eur. J. Biochem. 267) 1505
+conformation, and also that the disulfide pairing is not altered
+by the amino-acid replacements [32].
+The inhibition constants for CPA of the different PCI forms
+and DGd8 values derived for their complexes are shown in
+Table 1. In addition, the inhibition capacity of a synthetic
+pentapeptide corresponding to the C-tail of PCI has been
+evaluated. Kinetic association and dissociation constants for
+several PCI forms were measured by presteady-state analysis
+[27], using N-(4-methoxyphenylazoformyl)-l-phenylalanine
+[26] as the carboxypeptidase substrate. Results are shown in
+Table 2. The value of the second order association rate constant
+measured for wtPCI, 2.4  106 m21´s21
+, is in the range found
+for other protease±inhibitor interactions [2] as well as for other
+protein±protein interactions [33]. This value is about three
+orders of magnitude below that for the diffusion-controlled
+reaction. The values of the equilibrium dissociation constants
+(Ki) calculated from the kinetic constants are in good agreement
+with those determined by equilibrium methods (Table 1).
+Computational studies of mutants P36GPCI and Y37GPCI
+have also been performed as a complementary way to analyze
+the importance of the mutated residues in the conformation of
+the PCI C-tail, and thus its binding to the CPA.
+In light of the presented results, the role of the different
+C-tail PCI residues in the PCI conformation and its binding
+to CPA can be analyzed as follows.
+Roles of Gly35 and Pro36
+The mutant PCI P36G showed a Ki for CPA 100-fold higher
+than that of wtPCI (Table 1), indicating that the side-chain of
+Pro36 makes a significant contribution of 2.5 kcal´mol21 to the
+DGd8 of the complex. Although some contacts involving Pro36
+and Tyr198 of CPA have been suggested from the X-ray crystal
+structure, the covered surfaces seem not to be extensive [8]
+(Fig. 1), and they are not likely to contribute significantly to the
+stability of PCI±CPA complex. No hydrogen bonds between
+backbone atoms of Pro36 and CPA residues have been observed
+in the crystallographic structure; an intramolecular hydrogen
+bond has been observed between the carbonyl oxygen and the
+indol nitrogen proton of Trp28. Therefore, it seems likely that
+the importance of a Pro in position 36 for the binding of PCI to
+CPA is not a consequence of the contacts that it can
+establish with residues of CPA. Instead, proline probably
+keeps the C-terminal tail of PCI in an appropriate orientation to
+interact with CPA. Glycine can be considered a drastic
+replacement for proline in position 36. It probably has a strong
+influence on the main-chain directionality of the PCI C-tail,
+inducing an increased freedom of movement of the tail and
+therefore a smaller binding energy of the protease-inhibitor
+complex. Molecular dynamics studies support this hypothesis
+[34]. Residue 36 would therefore have a more entropic than
+enthalpic-based influence. The measured values of association
+and dissociation constants of P36G binding to CPA (Table 2)
+are also in agreement with the above hypothesis. The rate of
+association of P36G is one order of magnitude lower than that
+of wtPCI, which is in agreement with the higher conformational
+mobility of the PCI C-tail. The dissociation rate, although it is
+less affected by the mutation, increases with respect to the
+wtPCI, contributing also to a higher Ki.
+To further explore this issue we tried to extend the study
+to Gly35, a residue potentially involved as well in the
+maintenance of the C-tail conformation. According to X-ray
+crystallography, residue Gly35 of PCI is located away from the
+CPA active site in the enzyme±inhibitor complex, and is not
+in contact with any atom of CPA. However, there are two
+main-chain intramolecular hydrogen bonds between Gly35 and
+Ala26 of the PCI core. Previous molecular dynamics studies
+Table 1. Inhibition constants for CPA of different PCI forms and
+derived free energy of dissociation of the respective complexes
+PCI±CPA. Inhibition constants were calculated according to the
+Henderson method [25] in the case of PCI wt and mutants delG39,
+G39F, Y37F and Y37G, and according to the Lineweaver±Burk
+method in the case of PCIs delV38G39, del Y37V38G39, V38G, and
+P36G. Several independent determinations of the inhibition constant
+were made for each form of PCI. The dissociation free energy of the
+PCI±CPA complexes was calculated according to the formula
+DGd8 = ±RT ln Ki.
+PCI form Ki (m) DGd8of complex (kcal´mol21
+)
+wt 1.5 1029 11.8
+P36G 0.12 1026 9.3
+G35P + P36G ND ND
+Y37G 3.5 1029 11.3
+Y37G + delG39 ND 8.6 a
+Y37F 1.5 1029 11.8
+V38G 0.82 1026 8.1
+G39F 22 1029 10.2
+delG39 3.7 1029 11.4
+delV38G39 41 1026 5.9
+delY37V38G39 40 1026 5.9
+delP36Y37V38G39 ND ND
+GPYVG peptide < 1023 b 4
+a Calculated from the Ki determined by presteady state analysis
+(Table 2). b The inhibiton constant of the synthetic peptide was estimated
+from IC50 determination.
+Fig. 2. Double mutation of G35P + P36G affects the folding of PCI.
+(A) Chromatographic behavior on C18 RP-HPLC of the mutant proteins
+G35P + P36G, Y37G and delY37V38G39 PCI, compared to that of wtPCI
+(superimposed). (B) Disulfide pairing determined for wtPCI (above) and
+G35P + P36G PCI. The two mutated amino acids are shaded.          1506 C. Marino-Buslje et al. (Eur. J. Biochem. 267) q FEBS 2000
+have suggested that these intramolecular bonds could play an
+important role in maintenance of the C-tail of the free inhibitor
+in an appropriate orientation to bind CPA [15]. In order to test
+this hypothesis the mutant G35P + P36G was obtained: the
+replacement of Gly35 by Pro would prevent the formation of at
+least one of the hydrogen bonds, between Gly35(N) and
+Ala26(O), and the change of Pro36 by Gly would help to retain
+the C-tail conformation, avoiding the presence of two
+consecutive prolines. Only small amounts of such a mutant
+protein were expressed (about 1±5% of the production of
+wtPCI) and it showed a very different retention time in ion￾exchange FPLC and RP-HPLC compared to wtPCI and the
+other mutant proteins (Fig. 2A). The above observations
+seemed to indicate that the G35P + P36G mutant does not
+fold properly. This was confirmed by determining the disulfide
+pairing of this mutant by the method of partial reduction with
+Tris(2-carboxyethyl)phosphine [29], which resulted in a
+different pairing pattern from the wtPCI native form
+(Fig. 2B). This somewhat unexpected result suggests that the
+intramolecular hydrogen bonds connecting Gly35 with Ala26 in
+the PCI core could be involved in both the orientation of
+the C-terminal tail, and in the folding pathway of the inhibitor.
+Further evidence supporting this idea is the fact that other
+molecules with a similar fold, such as all trypsin squash
+inhibitors, have a Gly in this position, immediately after the last
+Cys of the T-knot motif [35].
+In addition, activity analysis of the purified G35P + P36G
+PCI protein was carried out. No inhibitory activity against CPA
+was detected even when using 2 mm mutant protein in the assay
+(100-fold higher than the concentration required to reach the
+50% of inhibition of CPA by wtPCI).
+Comparative analysis of mutants delY37V38G39 and
+delP36Y37V38G39 (PCI truncated in three or four residues at
+the C-terminus) was intended as a parallel way to analyze the
+role of Pro36. However, it was found that delP36Y37V38G39 is
+unable to fold properly. The expressed protein eluted in several
+peaks from the FPLC and HPLC columns, none of them
+showing retention times similar to wtPCI or properly folded
+mutants, nor inhibitory activity of CPA. Attempts to refold the
+protein led to the same mixture of misfolded forms. These
+results indicate that the C-tail residues close to the PCI core
+are involved in its folding. Such external effects on the
+folding pathway of the central globular core are very
+interesting and experiments are in progress to analyze this
+in depth. The mutant delY37V38G39 is analyzed in the
+following section.
+Finally, we prepared a synthetic pentapeptide with the
+sequence of the C-tail of PCI, GPYVG, to test whether this
+sequence in a linear peptide, thus having the maximal
+conformational freedom, was able to retain some inhibitory
+ability towards CPA. As a control, a mixture of random
+peptides having the same amino-acid composition was also
+synthesized. CPA was found to hydrolyze GPYVG, although
+the hydrolysis rate was slow enough to allow the measurement
+of its inhibitory capability (after 6 h the presence of the
+tetrapeptide hydrolysis product was undetectable and after 24 h
+only 22% of hydrolysis of the last Gly residue was observed). It
+was found that peptide GPYVG can act as a slow-binding
+inhibitor of CPA, with an estimated Ki about 106
+-fold higher
+than that of PCI, and being significantly lower than the random
+peptide mixture that did not show apparent inhibitory capability
+at the same concentration. This result is in agreement with
+those observed for P36G PCI, and reflects the importance of the
+conformational rigidity of the C-tail of PCI on its binding to
+CPA. The slow-binding behavior in the case of the pentapeptide
+(preincubation for longer than 1 min was necessary to get
+inhibition), could be the consequence of the reduction in
+Fig. 3. Biphasic behavior of the inhibition of
+CPA by Y37G mutant due to the hydrolysis of
+the C-terminal Gly residue. (Top) Progress
+curves of the hydrolysis of Bz-Gly-Phe (1 mm)
+by CPA (32 nm) in the presence of various
+concentrations of Y37G PCI, Y37G + delG39
+PCI (obtained by incubation of Y37G PCI
+with CPA and HPLC purification) and wtPCI.
+(Bottom) MALDI-TOF mass spectra of samples
+taken at the various times during the hydrolysis
+of Y37G PCI by CPA
+Table 2. Association (kon), dissociation (koff) and Ki kinetic constants for
+wt and mutant forms of PCI and CPA. Rate constants kon and koff were
+determined by presteady state analysis [27]. Equilibrium dissociation
+constants were calculated (Ki = koff/kon) and corrected for substrate
+competition. At least four determinations of the kinetic constants were
+made for each PCI form.
+PCI form kon (m21
+´s21
+) koff (s21
+) Ki (nm)
+wt 2.4  106 4.1 1023 1.7
+delG39 2.3  106 15.9 1023 6.9
+P36G 1.6  105 20 1023 125
+Y37G 3.6  106 20.2 1023 5.6
+Y37G + delG39 3.4  105 118 1023 347          q FEBS 2000 Role of PCI C-tail residues in the PCI±CPA complex (Eur. J. Biochem. 267) 1507
+association rate that results from a greater conformational
+freedom.
+Role of Tyr37
+The substitution of Tyr37 by Gly caused an approximately
+twofold increase of the inhibition constant of PCI. The crystal
+structure of the complex with wtPCI shows that carbon atoms
+of the Tyr37 side-chain of PCI can interact with the Cg2 methyl
+group of Thr164 and with the Tyr248 phenol ring of CPA
+(Fig. 1). No hydrogen bonds are observed involving the
+hydroxyl group of Tyr37. Another mutant, Y37F, was
+constructed to confirm that this hydroxyl group does not
+contribute to the binding energy between PCI and CPA. Indeed,
+the inhibition constants of wtPCI and Y37F mutant are
+identical. The drop of binding energy caused by substitution
+of Tyr37 by Gly, 0.5 kcal´mol21
+, can be then considered an
+estimation of the contribution of the Tyr37 benzyl group to the
+stability of the PCI±CPA complex.
+The Ki of the mutant Y37G is 3.5 nm, but it increases to
+about 0.4 mm if the mutant is incubated with the enzyme for
+10 min. Figure 3 shows the biphasic progress curve obtained
+for the hydrolysis of a chromophoric substrate by CPA in the
+presence of Y37G PCI. The corresponding progress curves for
+wtPCI and Y37G + delG39 PCI are shown for comparison.
+Monitoring the reaction by MALDI-TOF MS showed that such
+a biphasic behavior is parallel to the scission of the C-terminal
+Gly of Y37G PCI by the enzyme (Fig. 3). It is known that for
+the inhibition of CPA by wtPCI [8,36], following complex
+formation, the C-terminal glycine of the inhibitor is slowly
+cleaved by the enzyme. After the C-terminal peptide bond
+scission, the strong interaction between CPA and the trimmed
+PCI keeps the enzyme active site occluded and retards the
+release of the cleaved Gly. In the case of wtPCI, both PCI and
+trimmed PCI act as tight binding inhibitors of CPA, having
+approximately the same Ki. Therefore, the cleavage of Gly39 in
+wtPCI by the enzyme does not cause a biphasic behavior of the
+progress curve of substrate hydrolysis. However, the same
+cleavage drastically increase the Ki of the inhibitor when this is
+the Y37G mutant. This mutant was the only one studied that
+presented such a biphasic behavior, a consequence of a big
+difference between the Ki before and after Gly39 cleavage.
+To better characterize these two forms of the inhibitor, the
+cleaved form, Y37G + delG39 PCI, was prepared by digestion
+with CPA and HPLC purification. Kinetic association and
+dissociation constants of both Y37G PCI (at very short times of
+incubation with CPA), and Y37G + delG39 PCI (the purified
+form after a long incubation with CPA), were measured
+(Table 2). For comparison purposes, the kinetic constants of
+wtPCI and the corresponding cleaved form delG39 PCI were
+also measured.
+From the measured rate constants, it can be seen that the
+slight increase in Ki of Y37G PCI with respect to wtPCI is due
+to its faster dissociation from CPA (the measured association
+rate for Y37G mutant is even slightly higher than that of
+wtPCI). The clearly higher dissociation constant can be
+explained from the loss of the interactions of the Tyr37 side￾chain with CPA in the complex with Y37G mutant with respect
+to wtPCI; however, the behavior of this mutant after the scission
+of Gly39 is particularly striking.
+The large increase of Ki observed appears, from the values of
+the kinetic constants, to be the result of both one order of
+magnitude lower association rate and a sixfold higher
+dissociation rate with respect to Y37G PCI. For comparison,
+in the case of wtPCI, the cleavage of Gly39 leads to a fourfold
+higher dissociation rate, while the association rate is essentially
+unchanged. Thus, the change in dissociation rate upon deletion
+of Gly39 is of the same order for Y37G PCI and wtPCI.
+Therefore, the major difference in the behavior of Y37G mutant
+compared to wtPCI upon deletion of Gly39 is related to the
+decrease in its association rate constant. As Y37G PCI has a kon
+even higher than that of wtPCI, it seems likely that the
+substitution of Tyr37 by Gly does not strongly affect the
+conformation and mobility of the C-tail of PCI, as was the case
+of the P36G substitution. There is no apparent reason either to
+suppose that cleavage of Gly39 from Y37G PCI would
+affect the conformation of the C-tail. A computational
+analysis by molecular dynamics simulation of the conforma￾tional mobility of the C-terminal tail of wtPCI and P36G
+and Y37G mutants (performed in all three cases on the
+Gly39 cleaved form), agrees with this hypothesis (Fig. 4).
+Both the calculated B-factors for the C-tail residues and the
+dispersion of the angles of the conformations adopted by
+the C-tail show that the conformational mobility of Y37G PCI
+is similar to the wtPCI, and is increased for P36G PCI, which
+shows much larger B-factors and a wider angle dispersion.
+Therefore, the less favorable association of Y37G + delG39
+PCI with CPA is probably not related to the C-tail mobility, but
+it might be caused by a less precise interaction of its C-tail with
+the enzyme. The large reduction in Ki of the Y37G mutant upon
+cleavage of Gly39 reveals that, although the Tyr37 residue does
+not seem to be essential for the binding of the whole inhibitor, it
+plays a key role in the interaction (i.e. proper positioning) of the
+trimmed inhibitor after cleavage of the C-terminal Gly.
+Another approach to evaluate the contribution of Tyr37 in the
+binding to CPA has been the construction and comparative
+analysis of the deletion mutants delY37V38G39 and del
+V38G39. Surprisingly, the DGd8 of both mutants was identical,
+5.9 kcal´mol21 (see Table 1). This result seems to indicate that
+Tyr37 does not contribute at all to the binding energy, which
+would not be in agreement with the analysis of the mutant
+Y37G PCI that indicated that the side-chain of Tyr37
+contributes 0.5 kcal´mol21 to the binding. A hypothesis to
+account for this apparent contradiction was suggested from the
+computer graphics analysis of the PCI±CPA complex. It is
+found that the peptide bond between Pro36 and Tyr37 can
+rotate freely when PCI is in solution, but becomes fixed when
+Fig. 4. Computational analysis of the simulated dynamical behavior of
+the C-tail. Fluctuations of the last seven residues of PCI species (wt, X;
+Y37G, W; P36G, ) are shown as B-factors in the inset. The density of
+probability of the c angle (defined in [34]) between the C-tail and the plane
+formed by the core of PCI is shown in the main body of the figure. 1508 C. Marino-Buslje et al. (Eur. J. Biochem. 267) q FEBS 2000
+the complex with CPA is formed because of the extensive
+interactions that Val38 and Tyr37 establish with CPA in the
+active site of the enzyme. Tyr37 is then in an appropriate
+orientation to establish a p±p interaction with Tyr248 of CPA
+and a hydrogen bond involving the carbonyl oxygen of Tyr37
+and the guanidinium group of the CPA Arg71. In the mutant
+lacking the two C-terminal residues, delV38G39 PCI, Val38 is
+not present, and Tyr37 has more freedom to rotate around its
+peptide bond when it is in the active site of CPA. Therefore,
+neither the aromatic ring of Tyr37 is anymore in the adequate
+position to form a p±p interaction with Tyr248, nor the
+carbonyl oxygen can establish a hydrogen bond with Arg71. As
+a consequence, Tyr37 probably does not establish any stable
+interaction with CPA residues and therefore does not play any
+role in the stabilization of the complex delV38G39 PCI±CPA.
+Role of Val38
+The importance of Val38 for the binding of PCI to CPA has
+been previously studied. The contribution of its side-chain to
+the stability of the PCI±CPA complex is 3.7 kcal´mol21
+; each
+methyl or methylene group in the b or g position of residue 38
+enhances the binding energy of PCI to CPA by 1±1.5
+kcal´mol21 [14]. The difference in binding energies between
+delV38G39 and delG39 PCI had been assigned to the total
+contribution of the Val residue. However, as discussed above,
+analysis of the delY37V38G39 mutant performed in this work
+has shown that Tyr37 does not contribute to the energy binding
+of the delV38G39 mutant. Therefore, the difference in DGd8 of
+delV38G39 PCI and delG39 PCI, 5.5 kcal´mol21
+, has to
+account for the contributions of both Tyr37 and Val38. As the
+contributions of the side-chains of these residues can be
+estimated from the above analysis at 0.5 and 3.7 kcal´mol21
+,
+the remaining 1.3 kcal´mol21 can be attributed to the main￾chain contribution of these two residues.
+Role of Gly39
+The C-terminal residue of PCI, Gly39, is slowly cleaved off by
+the enzyme during the first stages of the inhibition process,
+acting therefore as a substrate. The Ki value of the mutant
+delG39 is only slightly higher than that of the wtPCI, indicating
+that Gly39 contributes with 0.4 kcal´mol21 to the binding
+energy of the complex PCI±CPA (see Table 1). As discussed
+above, this change is related to the fourfold faster speed of
+dissociation (Table 2).
+Gly is a poor substrate for metallocarboxypeptidases [37]. In
+order to test whether a PCI redesigned to be a better substrate
+would affect the interaction with the CPA active site, we
+constructed a mutant in which Gly39 was substituted by Phe, a
+preferred substrate for CPA. As expected, such a G39F mutant
+is more efficiently cleaved by CPA than wtPCI, giving rise
+quickly to delG39 PCI. Surprisingly, analysis of the mutant
+with incubation times with CPA short enough to avoid
+significant Phe39 cleavage during the measurements showed
+a Ki 10-fold higher than that of wtPCI. Thus, although the
+C-terminal Phe is a better substrate for CPA than Gly, the
+initial binding of the mutant to CPA is not efficient, probably as
+a result of a more difficult docking into the active site of the
+enzyme.
+Contribution of the secondary binding site
+X-ray studies have indicated that only residues 37±39 of the
+PCI C-tail (the primary binding site) establish extensive
+interactions with CPA residues and are the most important
+contributors to the binding of the inhibitor to the enzyme. As
+deduced above, Pro36 does not seem to make a significant
+enthalpic contribution to binding, its role being the main￾tenance of the C-tail in an appropriate orientation. According to
+this hypothesis, the mutant PCI lacking the three terminal
+residues, delY37V38G39 PCI, should not have any of the
+residues responsible for the binding interactions in the primary
+contact region. Therefore, the binding energy of this mutant to
+CPA, 5.9 kcal´mol21
+, could be considered as the overall
+energetic contribution of the secondary contact region of PCI,
+constituted by residues His15, Phe23, Trp28, Asn29, Ser30
+and Ala31 [8]. The particular contribution of each one of
+these residues to the binding to the enzyme await further
+experimentation to be determined.
+The ratio of estimated binding energies of the primary and
+secondary binding sites (5.9 kcal´mol21
+/5.9 kcal´mol21
+,
+assuming additivity) is in fair agreement with what can be
+expected from the analysis of the structure of the PCI±CPA
+complex [8], where the observed ratio of the number of atoms
+that establish contacts and the buried surface for primary to
+secondary binding regions is about 0.6 : 0.4. Our energetic
+estimation would imply that the `secondary' binding site would
+play a more important role than formerly expected.
+The question of additivity of mutational effects in proteins is
+a common point of interest in protein±protein interaction
+studies. It has been demonstrated in an significant number of
+cases that the sum of the free energy changes derived from
+single mutations is nearly equal to the free energy change
+measured in multiple mutants [38], with the exception of
+cases in which the mutations are altering the overall three￾dimensional structure or binding mode. Some of the mutants
+presented in this study could be examples of these latter cases.
+A striking example is the simultaneous deletion of Gly39 and
+substitution of Tyr37 by Gly which causes a 3.2 kcal´mol21
+decrease of binding energy, instead of 0.9 kcal´mol21 expected
+from the sum of the energy differences of the single mutations.
+Similarly, the deletion of the two and three C-terminal residues
+causes the same reduction in binding energy between PCI and
+CPA, and no contribution of Tyr37 can be seen from this
+comparison. This lack of additivity due to cooperative effects
+can, in some cases, limit the validity of simple site-directed
+mutagenesis approaches used to estimate the thermodynamic
+contributions of chemical groups to the stability of protein±
+protein complexes [39]. It also gives clues to the interpretation
+of the perturbations produced by the mutations.
+ACKNOWLEDGEMENTS
+This work has been supported by grant BIO97-0511, BIO98-0362, and
+IN94-0347 from the CICYT (Ministerio de EducacioÂn y Ciencia, Spain)
+and by the Centre de RefereÁncia de BiotecnologõÂa de la Generalitat de
+Catalunya. C. Marino, M. A. Molina, X. Jorba and G. VenhudovaÂ are or
+have been fellowship recipients either from the Programa de CooperacioÂn
+CientõÂfica con Iberoamerica, or the Ministerio de EducacioÂn y Ciencia
+(Spain), the Centre de RefereÁncia de BiotecnologõÂa de la Generalitat de
+Catalunya, or the CIRIT (Generalitat de Catalunya).
+REFERENCES
+1. Janin, J. (1995) The structure of protein±protein recognition sites.
+Prog. Biophys. Mol. Biol. 64, 145±166.
+2. Otlewski, J. & Apostoluk, W. (1997) Structural and energetic aspects of
+protein±protein recognition. Acta Biochim. Polon. 44, 367±387.
+3. Bode, W. & Huber, R. (1992) Natural protein proteinase inhibitors and
+their interaction with proteinases. Eur. J. Biochem. 204, 433±451.q FEBS 2000 Role of PCI C-tail residues in the PCI±CPA complex (Eur. J. Biochem. 267) 1509
+4. AvileÂs, F.X., ed. (1993) Innovations in Proteases and their Inhibitors.
+Walter de Gruyter, Berlin.
+5. Hooper, N.M., ed. (1996) Zinc Metalloproteases in Health and Disease.
+Taylor & Francis Ltd, London.
+6. Hass, G.M.J.E., Makus, D.J. & Ryan, C.A. (1979) Purification and
+characterization of the carboxypeptidase isoinhibitors from potatoes.
+Plant Physiol. 64, 1022±1028.
+7. Clore, G.M., Gronenborn, A.M., Nilges, M. & Ryan, C.A. (1987)
+Three-dimensional structure of potato carboxypeptidase inhibitor in
+solution. A study using nuclear magnetic resonance, distance
+geometry, and restrained molecular dynamics. Biochemistry 26,
+8012±8023.
+8. Rees, D.C. & Lipscomb, W.N. (1982) Refined crystal structure of the
+potato inhibitor complex of carboxypeptidase A at 2.5 AÊ resolution.
+J. Mol. Biol. 160, 475±498.
+9. Lin, S.L. & Nussinov, R. (1995) A disulphide-reinforced structural
+scaffold shared by small proteins with diverse functions. Nat. Struct.
+Biol. 2 (10), 835±837.
+10. Hass, G.M., Ako, H., Grahn, D.T. & Neurath, H. (1976) Carboxy￾peptidase inhibitor from potatoes. The effects of chemical modifi￾cations on inhibitory activity. Biochemistry 15, 93±100.
+11. Reverter, D., Vendrell, J., Canals, F., Horstmann, J., AvileÂs, F.X.,
+Fritz, H. & Sommerhof, Ch.P. (1998) A carboxypeptidase
+inhibitor from the medical leech Hirudo medicinalis. J. Biol.
+Chem. 273, 32927±32933.
+12. Molina, M.A., AvileÂs, F.X. & Querol, E. (1992) Expression of a
+synthetic gene encoding potato carboxypeptidase inhibitor using a
+bacterial secretion vector. Gene 116 (2), 129±138.
+13. Marino-Buslje, C., Molina, M.A., Canals, F., AvileÂs, F.X. & Querol, E.
+(1994) Overproduction of a recombinant carboxypeptidase inhibitor
+by optimization of fermentation conditions. Appl. Micribiol.
+Biotechnol. 41, 632±637.
+14. Molina, M.A., Marino, C., Oliva, B., AvileÂs, F.X. & Querol, E. (1994)
+C-tail valine is a key residue for stabilization of complex between
+potato inhibitor and carboxypeptidase A. J. Biol. Chem. 269,
+21467±21472.
+15. Oliva, B., Daura, X., Querol, E., AvileÂs, F.X. & Tapia, O. (1995)
+Structure and atomic fluctuation patterns of potato carboxypeptidase
+A inhibitor protein. Eur. Biophys. J. 24, 1±11.
+16. Blanco-Aparicio, C., Molina, M.A., FernaÂndez-Salas, E., Frazier, M.L.,
+Mas, J.M., Querol, E., de AvileÂs, F.X. & Llorens, R. (1998) Potato
+carboxypeptidase inhibitor, a T-knot protein, is an epidermal growth
+factor antagonist that inhibits tumor cell growth. J. Biol. Chem. 273,
+12370±12377.
+17. Ghrayeb, J., Kimura, H., Takahara, M., Hsiung, H., Masui, Y. &
+Inouye, M. (1984) Secretion cloning vectors in Escherichia coli.
+EMBO J. 3, 2437±2442.
+18. Yanisch-Perron, C., Vieira, J. & Messing, J. (1985) Improved M13
+phage cloning vectors and host strains: nucleotide sequences of the
+M13mp18 and pUC19 vectors. Gene 33, 103±119.
+19. Nakamaye, K.L. & Eckstein, F. (1986) Inhibition of restriction
+endonuclease NciI cleavage by phosphorothioate groups and its
+application to oligonucleotide-directed mutagenesis. Nucleic Acids
+Res. 14, 9679±9698.
+20. Juncosa-GinestaÁ, M., Pons, J., Planas, A. & Querol, E. (1994) Improved
+efficiency in site-directed mutagenesis by PCR using a Pyrococcus
+sp. GB-D polymerase. Biotechniques 16, 820±823.
+21. Sanger, F., Nicklen, S. & Coulson, A.R. (1977) DNA sequencing
+with chain-terminating inhibitors. Proc. Natl Acad. Sci. USA 74,
+5463±5467.
+22. Gibson, T.G. (1984) Studies of the Epstein±Barr Virus Genome.
+University of Cambridge, Cambridge, UK.
+23. Casadaban, M.J. & Cohen, S.N. (1980) Analysis of gene control signals
+by DNA fusion and cloning in Escherichia coli. J. Mol. Biol. 138,
+179±207.
+24. Hass, G.M. & Ryan, C.A. (1981) Amino acid sequence of a
+carboxypeptidase inhibitor from tomato fruit. Methods Enzymol. 80,
+778±791.
+25. Henderson, P.J. (1972) A linear equation that describes the steady-state
+kinetics of enzymes and subcellular particles interacting with tightly
+bound inhibitors. Biochem. J. 127, 321±333.
+26. Mock, W.L., Liu, Y. & Stanford, D.J. (1996) Arazoformyl peptide
+surrogates as spectrophotometric kinetic assay substrates for
+carboxypeptidase A. Anal. Biochem. 239, 218±222.
+27. Morrison, J.F. (1982) The slow-binding and slow, tight-binding
+inhibition of enzyme-catalysed reactions. Trends Biochem. Sci. 7,
+102±105.
+28. Atherton, E. & Sheppard, R.C. (1987) Solid phase peptide sythesis. A
+practical approach. In Solid Phase Peptide Sythesis. A Practical
+Approach. IRL Press, Oxford, UK.
+29. Wu, J. & Watson, J.T. (1997) A novel methodology for assignment of
+disulfide bond pairings in proteins. Protein Sci. 6, 391±398.
+30. Roussel, A. & Cambillau, C. (1991) Silicon Graphics Directory.
+Mountain View, California, USA.
+31. van Gunsteren, W.F. & Berendsen, H.J.C. (1987) Groningen Molecular
+Simulation (GROMOS) Library Manual. Biomos, Groningen
+32. Chang, J.Y., Canals, F., Schindler, P., Querol, E. & AvileÂs, F.X. (1994)
+The disulfide folding pathway of potato carboxypeptidase
+inhibitor. J. Biol. Chem. 269, 22087±22094.
+33. Fersht, A.R. (1985) Enzyme Structure and Mechanism. Freeman, San
+Francisco.
+34. Oliva, B., WaÈstlund, M., Nilsson, O., Cardenas, R., Querol, E., AvileÂs,
+F.X. & Tapia, O. (1991) Stability and fluctuations of the potato
+carboxypeptidase A protein inhibitor fold: a molecular dynamics
+study. Biochem. Biophys. Res. Commun. 176, 616±621.
+35. Otlewski, J. & Krowarsch, D. (1996) Squash inhibitor family of serine
+proteinases. Acta Biochim. Polon. 43, 431±444.
+36. Hass, G.M. & Ryan, C.A. (1980) Cleavage of the carboxypeptidase
+inhibitor from potatoes by carboxypeptidase A. Biochem. Biophys.
+Res. Commun. 97, 1481±1486.
+37. AvileÂs, F.X., Vendrell, J., Guasch, A., Coll, M. & Huber, R. (1993)
+Advances in metallo-procarboxypeptidases. Emerging details on the
+inhibition mechanism and on the activation process. Eur. J. Biochem.
+211, 381±389.
+38. Wells, J.A. (1990) Additivity of mutational effects in proteins.
+Biochemistry 29, 8509±8517.
+39. Mark, A.E. & van Gunsteren, W.F. (1994) Decomposition of the
+free energy of a system in terms of specific interactions.
+Implications for theoretical and experimental studies. J. Mol.
+Biol. 240, 167±176.

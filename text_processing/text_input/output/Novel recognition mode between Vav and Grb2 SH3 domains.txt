@@ -1,0 +1,991 @@
+Motohiko Nishida1,2
+, Koji Nagata3
+,
+Yukiko Hachimori3
+, Masataka Horiuchi1
+,
+Kenji Ogura1
+, Valsan Mandiyan4
+,
+Joseph Schlessinger4 and
+Fuyuhiko Inagaki1,2,5
+1
+Department of Structural Biology, Graduate School of Pharmaceutical
+Sciences, Hokkaido University, N-12, W-6, Kita-ku, Sapporo 060-0812,
+2
+CREST, Japan Science and Technology Corporation,
+Motomachi 4-1-8, Kawaguchi 332-0012, 3
+Department of Molecular
+Physiology, Tokyo Metropolitan Institute of Medical Science,
+Honkomagome 3-18-22, Bunkyo-ku, Tokyo 113-861, Japan and
+4
+Department of Pharmacology, New York University Medical School,
+New York, NY 10016, USA
+5
+Corresponding author
+e-mail: ®nagaki@pharm.hokudai.ac.jp
+Vav is a guanine nucleotide exchange factor for the
+Rho/Rac family that is expressed exclusively in
+hematopoietic cells. Growth factor receptor-bound
+protein 2 (Grb2) has been proposed to play important
+roles in the membrane localization and activation of
+Vav through dimerization of its C-terminal Src￾homology 3 (SH3) domain (GrbS) and the N-terminal
+SH3 domain of Vav (VavS). The crystal structure of
+VavS complexed with GrbS has been solved. VavS is
+distinct from other SH3 domain proteins in that
+its binding site for proline-rich peptides is blocked by
+its own RT loop. One of the ends of the VavS b-barrel
+forms a concave hydrophobic surface. The GrbS
+components make a contiguous complementary inter￾face with the VavS surface. The binding site of GrbS
+for VavS partially overlaps with the canonical binding
+site for proline-rich peptides, but is de®nitely differ￾ent. Mutations at the interface caused a decrease in
+the binding af®nity of VavS for GrbS by 4- to 40-fold.
+The structure reveals how GrbS discriminates VavS
+speci®cally from other signaling molecules without
+binding to the proline-rich motif.
+Keywords: crystal structure/growth factor receptor￾bound protein 2/protein±protein interaction/Src￾homology 3 domain/Vav
+Introduction
+The Src-homology 3 (SH3) domain is a family of
+molecular modules conserved among diverse proteins
+(Birge et al., 1996), which functions in protein±protein
+interactions for intracellular signal transduction. These
+interactions are mediated commonly among the SH3
+domain-containing proteins through the recognition of a
+short proline-rich sequence embedded in proteins (Feng
+et al., 1994; Lim et al., 1994; Terasawa et al., 1994). To
+accomplish the high speci®city and proper af®nity for the
+SH3 domain, the peptide must adopt a polyproline-type II
+(PPII) helical conformation. The most famous example of
+this recognition is the interaction of growth factor
+receptor-bound protein 2 (Grb2) with son of sevenless
+(Sos), the guanine nucleotide exchange factor for Ras.
+Grb2 is an adaptor protein consisting of one SH2 domain
+¯anked by two SH3 domains. It has been well established
+that Grb2 transmits the upstream signal through its
+association with proline-rich regions of Sos, via the SH3
+domains (Egan et al., 1993). As other targets of the Grb2
+SH3 domains, proline-rich proteins such as Cbl, dynamin
+and WASP have been reported (reviewed in Buday, 1999).
+Vav is among the proposed targets of Grb2 (Machide et al.,
+1995; Hanazono et al., 1996; Miyakawa et al., 1997).
+Vav is a protein with a molecular mass of 95 kDa, which
+is expressed exclusively in hematopoietic cells (Katzav
+et al., 1989). Vav contains a calponin-homology domain, a
+Dbl-homology domain, a pleckstrin-homology domain, an
+SH2 domain and two SH3 domains. Numerous biochem￾ical studies have established that Vav plays pivotal roles in
+lymphocyte cell differentiation and proliferation, lympho￾kine production and cytoskeletal reorganization (reviewed
+in Bustelo, 2000). These cellular responses are induced
+by extracellular stimuli to various receptors, most of
+which trigger rapid tyrosine phosphorylation of Vav.
+The C-terminal region of Vav arranged in the order
+SH3±SH2±SH3 is required for its transforming activity
+(reviewed in Bustelo, 1996). The downstream molecules
+of Vav include members of the Rho/Rac family of small
+G proteins. The Dbl-homology domain of Vav is the
+guanine nucleotide exchange factor for Rac1 that activates
+the c-Jun N-terminal kinases (JNKs) (Crespo et al., 1997).
+As suggested by its structure, an array of signaling proteins
+is associated with Vav. In manners that are dependent or
+independent of the extracellular stimuli, Vav is recruited to
+the multiple protein assemblies at the plasma membrane
+together with some of these proteins. Such signaling
+proteins include phosphatidylinositol 3-kinase (Lahesmaa
+et al., 1995), Slp76 (Tuosto et al., 1996) and Shc (Ramos￾Morales et al., 1994; Pedraza-Alva et al., 1998) in T cells,
+Slp65 (Wienands et al., 1998) in B cells, and Raf1 and
+mitogen-activated protein kinase (Song et al., 1996) in
+mast cells. It is notable that Grb2 also participates in these
+multiple protein assemblies, supporting the importance of
+Grb2 as an assembler of Vav and other molecules in the
+signaling complexes. Recent studies have focused on the
+transition mechanisms of Vav from the cytoplasm to
+cholesterol-enriched membrane microdomains (GEMs)
+(Simons and Ikonen, 1997). Vav is proposed to be tethered
+to GEMs by Grb2 (Kim et al., 1998; Salojin et al., 2000).
+The Grb2 recognition of Vav is notable as compared
+with the classical SH3 recognition of peptide ligands,
+because it is mediated through the dimerization of the SH3
+domains in both molecules. Using a yeast two-hybrid
+Novel recognition mode between Vav and Grb2
+SH3 domains
+The EMBO Journal Vol. 20 No. 12 pp. 2995±3007, 2001
+ã European Molecular Biology Organization 2995screening and a ®lter-binding assay, it was con®rmed that
+Vav binds to the Grb2 C-terminal SH3 domain via its own
+SH3 domain located on the N-terminal side of the SH2
+domain (Ye and Baltimore, 1994; Ramos-Morales et al.,
+1995). To understand further the role of the Vav SH3
+domain in signal transduction in the immune system, and
+to elucidate how Vav is recognized by Grb2 in the context
+of the entire domain, we have solved the crystal structure
+of the N-terminal SH3 domain of Vav complexed with the
+C-terminal SH3 domain of Grb2. On the basis of the
+crystal structure of the complex and the mutagenesis
+study, we present details of the protein±protein interaction
+by the SH3 domains independent of the recognition of the
+PPII helix.
+Results
+Structure determination
+The crystal structure of the N-terminal SH3 domain of Vav
+(VavS: residues 595±660 of mouse Vav) (Adams et al.,
+1992) complexed with the C-terminal SH3 domain of
+Grb2 (GrbS: residues 159±217 of human Grb2) was
+determined by multiple isomorphous replacement (MIR)
+(Table I). The complex was crystallized as one VavS and
+two GrbS molecules contained in an asymmetric unit. The
+®nal model at 1.68 AÊ resolution was re®ned to an R-factor
+of 20.7% (Table II). All of the non-glycine residues are
+located within the most favored or additionally allowed
+regions on the Ramachandran plot (Ramakrishnan and
+Ramachandran, 1965). The crystal structure of GrbS-free
+VavS was also solved by molecular replacement utilizing
+the structure of GrbS-bound VavS. The GrbS-free VavS
+crystal contains four VavS molecules in an asymmetric
+unit, and the model at 2.1 AÊ resolution was re®ned to an
+R-factor of 19.6%.
+Overall structure of GrbS-bound VavS
+The three-dimensional structure of GrbS-bound VavS and
+a stereo view of its a carbons are shown in Figure 1A and
+B, respectively. VavS is folded into the canonical topology
+conserved among all SH3 domain-containing proteins
+(Noble et al., 1993). Two antiparallel b-sheets, each
+consisting of three b-strands, are folded together so as to
+form a b-barrel as a whole. bA forms the smaller b-sheet
+together with bE and bB, while bC together with bB and
+bD forms the larger one. The two b-sheets are packed
+against each other at an approximate right angle. In
+accordance with previous reports, the loops consisting of
+residues 600±623, 630±635 and 642±646 are designated as
+the RT, n-Src and distal loops, respectively. There are two
+remarkable features of VavS as compared with known
+SH3 domain proteins.
+First, the RT loop of VavS is particularly notable for its
+unusual extension (Figure 2). The loop is arranged against
+the b-barrel such that it caps one of the ends (Figure 1A),
+and contains a continuous tetraproline sequence
+(607±610). The tetraproline region, which is in the PPII
+helical conformation, forms a close hydrophobic contact
+on the surface of the b-barrel (Figure 3). The pyrrolidine
+ring of Pro609 packs tightly into a hydrophobic pocket that
+is formed on the b-barrel surface as framed by Tyr603,
+Phe613, Gly614, Phe616 and Trp636, and thus is a pivot of
+this contact. Pro607 is located proximately to the side
+chains of Tyr603, Trp636 and Arg654. Pro610 that
+immediately succeeds Pro609 stacks closely against the
+side chains of Phe613 and Trp636. A hydrogen bond
+between the carbonyl group of Pro607 and the side chain
+of Tyr603 appears to be important for the stability of the
+backbone conformation of the tetraproline region. In
+contrast, the side chain of Pro608 is projected to the
+direction opposite to the b-barrel surface and does not
+contribute to any intra-domain interaction.
+Next, on another end of the b-barrel, the N- and
+C-terminal parts and the n-Src loop are assembled
+(Figure 1). This region includes the concave surface,
+which can be compared with a valley (Figure 5A and B).
+The valley runs on the base of the b-barrel and its
+dimensions are 15 AÊ in length, 8 AÊ in width and 5 AÊ in
+Table I. Data collection and phasing statistics
+Crystal GrbS-bound VavS GrbS-free VavS
+Data collection statistics
+data set native KAu(CN)4±1 KAu(CN)4±2 (CH3COO)2Pb (CH3COO)2Hg cisplatin
+spacing range (AÊ ) 39.5±1.68 45.1±1.99 20±3.3 100±2.7 20±3.0 100±3.0 100±2.1
+concentration (mM) 15.9 15.9 saturation 1.0 saturation
+wavelength (AÊ ) 1.0375 1.0375 1.5418 1.5418 1.5418 1.5418 1.5418
+No. of re¯ections 293 792 106 665 14 062 21 608 19 559 12 907 84 381
+No. of unique re¯ections 28 649 17 301 4093 6673 5417 4920 14 004
+completeness 0.972 0.968 0.985 0.925 0.991 0.939 0.942
+Rmergea 0.066 0.061 0.066 0.059 0.056 0.041 0.035
+Phasing statistics
+spacing (AÊ ) 2.5 3.3 2.7 3.0 3.0
+No. of sites 1 2 6 8 2
+Risob 0.156 0.258 0.218 0.262 0.243
+RCullisc,d 0.61/0.64 0.75/0.74 0.75/0.68 0.82/0.79 0.93/0.92
+mean ®gure of meritd,e 0.551/0.771
+aRmerge = (SS|Ii ± <I>|)/SSIi, where Ii is the intensity of the ith observation and <I> is the mean intensity. bRiso = S|FPH ± FP|/SFP, where FP and FPH are the native and derivative structure amplitudes, respectively. c
+RCullis = S|FPH±|FPexp(ifc) + FH||/S|FPH ± FP|, where FH is the calculated heavy-atom structure factor and fc is the calculated phase. dValues on the left and right sides of the solidus are for the acentric and centric re¯ections, respectively. e
+Figure of merit = SP(a)exp(ia)/SP(a), where a is the phase and P(a) is the phase probability distribution.
+M.Nishida et al.
+2996depth. The valley is lined at its bottom with hydrophobic
+residues, Met597, Leu627, Ala630 and Trp637, and is
+bordered by two side walls, one of which is de®ned by the
+N- and C-terminal residues of Pro595 and Pro657, and
+the other by residues 631±634 in the n-Src loop. Regard￾ing the four VavS molecules in the GrbS-free form,
+their structures are essentially identical to that of the
+GrbS-bound form. The most deviating regions from
+the GrbS-bound form are in the RT (611±613) and n-Src
+loops (631±634) (Figure 1B).
+Implications for the recognition of proline-rich
+peptides
+In principle, the PPII helix of the peptide ligand is
+recognized by the SH3 domain, with one face of the
+trigonal prism packing into the hydrophobic pockets
+named P±3, P±1, P0, P+2 and P+3 (notated by Yu et al.,
+1994). The PxxPxR motif (x = any amino acid) (minus
+orientation) is conserved as a minimum consensus in the
+proline-rich peptides, and two prolines and an arginine
+within the motif occupy the P+2, P±1 and P±3 sites,
+respectively (Feng et al., 1994; Lim et al., 1994; Terasawa
+et al., 1994). To clarify the features of the corresponding
+region of VavS, a mouse Sos-derived peptide (PPPVPPR),
+which is bound to the C-terminal SH3 domain of Sem-5 in
+the minus orientation (Lim et al., 1994), was placed on the
+expected binding site on the VavS surface (Figure 3B).
+Note that the numbering of the sites runs counter to the
+direction of the peptide ligand. Some structural features of
+VavS must make it impossible to bind to proline-rich
+peptides.
+First, the binding of VavS to the external peptides would
+be occluded due to the steric hindrance with its own
+tetraproline region (Figure 3B). In order to recognize the
+proline-rich peptide, detachment of the tetraproline region
+from the molecular surface is necessary. However, the
+intra-domain interactions around Pro609 are tight and
+seem to contribute signi®cantly to the stability of the VavS
+core (Figure 3). Indeed, the mutation of Tyr603 to
+phenylalanine, which disrupts the hydrogen bond between
+the side chain of Tyr603 and the carbonyl group of Pro607,
+caused a large decrease in the protein's solubility (our
+unpublished result). The crystal structures of the GrbS-free
+VavS molecules also support this idea, because the
+structures and the intra-domain recognition modes of the
+tetraproline region of the four molecules are identical to
+those of the GrbS-bound form (Figure 1B), suggesting that
+this region remains rigid irrespective of the crystallization
+conditions. Next, even if the tetraproline region was
+detached from the intra-domain binding site, VavS could
+not bind to the peptide ligand because it lacks some
+prerequisites for PPII helix binding. The acidic residue,
+which is indispensable for the peptide binding through
+electrostatic interactions with an arginine of the peptide
+ligand, is absent at the expected P±3 site of VavS. The
+aromatic amino acids de®ning the P+2 and P+3 sites, which
+are phenylalanine or tyrosine in general, are also replaced
+by Arg654 and Gln601 in VavS. As a result, the
+hydrophobic interactions between the conserved aromatic
+side chains and the proline of the peptide ligand at the P+2
+site, which are essential for the recognition of the peptide
+ligand, are lost (Nguyen et al., 1998).
+Biochemical studies are also consistent with this view
+derived from the present crystal structure. The C-terminal
+SH3 domain of Vav has been reported to bind to some
+proline-rich proteins (reviewed in Bustelo, 1996), whereas
+no targets for VavS other than Cbl-b have yet been
+proposed. For the binding of Cbl-b, both SH3 domains of
+Vav might function synergistically (Bustelo et al., 1997).
+Therefore, we have demonstrated that the functional
+signi®cance of VavS is not in the binding to proline-rich
+molecules.
+Interfaces between the VavS and GrbS molecules
+in the complex crystal
+In the complex crystal, VavS closely contacts two GrbS
+molecules, GrbS A and GrbS B, at two separate interfaces
+(Figure 4). The structures of GrbS A and GrbS B are
+essentially identical to those determined in a previous
+report (Maignan et al., 1995). The areas of the solvent￾accessible surface of VavS that decrease through contacts
+with GrbS A and GrbS B are 1044 and 877 AÊ 2, respect￾ively (calculated using a 1.4 AÊ radius probe).
+The VavS±GrbS A interface
+At the VavS±GrbS A interface, the N-terminal part of the
+RT loop, a 310 helix between bD and bE, and bE of GrbS
+A are assembled together (Figure 4). This assembly forms
+a convex surface as a whole, which packs against the
+valley formed at the base of the VavS b-barrel (Figures 5B
+and 6A). The side chains of three GrbS residues, Leu164,
+Phe165 and Thr211, protrude from the convex surface into
+the valley. They are lined along the valley in the order
+Thr211, Leu164 and Phe165 from the entrance to the exit.
+In particular, Leu164 and Phe165 in the RT loop are in
+close contact with the hydrophobic cluster at the bottom of
+the VavS valley, thereby forming a core of the inter￾domain interface. The side chain of Leu164 is positioned
+in close proximity to those of Leu627, Ala630 and Trp637
+Table II. Re®nement statistics
+GrbS-bound VavS GrbS-free VavS
+Spacing range (AÊ ) 8.0±1.68 8.0±2.1
+No. of re¯ections 27 162 13 692
+Completenessa 0.931 (0.772) 0.934 (0.771)
+R-factorb 0.207 0.196
+Free R-factorc 0.235 0.253
+No. of protein atoms 1481 2151
+No. of water molecules 189 190
+No. of MPD molecules 1 ±
+R.m.s. deviation
+bond lengths (AÊ ) 0.009 0.011
+angles (°) 1.395 1.562
+Average temperature factor (AÊ 2)
+main chain atoms 15.4 10.1
+side chain atoms 19.4 12.7
+solvent molecules 32.1 18.4
+a
+Values in parentheses are for the data between 1.85 and 1.68 AÊ
+resolution (for GrbS-bound VavS) and between 2.2 and 2.1 AÊ
+resolution (for GrbS-free VavS), respectively. bR-factor = S|Fobs ± Fcal|/SFobs, where Fobs and Fcal are the observed
+and calculated structure amplitudes, respectively. The structure
+amplitudes over twice their standard deviations were included in the
+re®nement.
+c
+Free R-factor was calculated for a randomly chosen 5% of the total
+re¯ections that was not included in the re®nement.
+Complex of Vav and Grb2 SH3 domains
+2997of VavS. As for Phe165, its aromatic ring is tightly locked
+into the crevice formed by the side chains of Met597,
+Trp637 and Pro657. These three GrbS residues are not
+only in contact with the bottom of VavS, but are also
+grasped by both side walls of the valley. On one of the side
+walls, three successive GrbS residues, Arg207, Asn208
+and Try209 in the 310 helix, are placed. The guanido group
+of Arg207 loosely covers the face of the side chain of
+Pro595, while the aromatic ring of Tyr209 surrounds
+Pro657 together with Phe165 (Figures 5B and 6A). Of
+particular note is the space between the side chains of
+Phe165 and Tyr209 that is occupied by VavS Pro657,
+because it is utilized ordinarily as the P+2 and P+3 sites for
+PPII helix binding. On another side wall, three hydrogen
+bonds are formed between the polypeptide backbone of
+Ala632 and the side chains of Gln162 and Arg179. The
+side chain of Arg179 is juxtaposed with Phe165 and
+partially occludes the exit of the VavS valley.
+The VavS±GrbS B interface
+The VavS±GrbS B interface consists of two sites, which
+are discontinuous. The VavS component of each site is the
+RT loop and the n-Src loop, respectively (Figure 4). The
+RT loop of VavS accounts for three-quarters of the overall
+area of the VavS±GrbS B interface through interactions
+with the PPII helix-binding site of GrbS B (Figure 6B).
+The tetraproline region in the RT loop is bound to GrbS B
+in a manner similar to that of the proline-rich peptide
+bound to the SH3 domain in the minus orientation.
+Namely, Pro607, Pro608 and Pro610 occupy the pockets
+on GrbS that de®ne the P+3, P+2 and P0 sites, respectively.
+The interactions at these sites exactly follow the canonical
+mode. It should be noted that the P±1 site of GrbS is
+occupied by Gly611 from VavS, which is surrounded by
+Asn192, Trp193, Pro206 and Asn208 of GrbS. In general,
+this site is occupied by a consensus proline residue of the
+peptide ligand. The polypeptide backbone of Gly611,
+however, packs into the P±1 site and makes tight contact
+with the four surrounding residues. The electrostatic
+interactions expected at the P±3 site are de®cient, since
+the VavS residues succeeding Gly611 are separated from
+the GrbS B surface and turn back to the VavS core. Note
+that Pro609 is recognized by the VavS core from the
+direction opposite to the GrbS B interface (Figure 3). In
+another site at the VavS±GrbS B interface, the n-Src loop
+of VavS interacts with the RT loop of GrbS (Figure 4). The
+interactions in this site are not as close as those in the
+former site, and are rather hydrophilic. The side chains of
+His634 and Asn635 hydrogen-bond to those of Glu171 and
+Asp168 of GrbS, respectively. The backbone amide group
+of Asn635 also hydrogen-bonds to the side chain of
+Gln170 (Figures 2 and 4).
+Mutagenesis study of the VavS±GrbS A interface
+To investigate which interface in the complex crystal has
+physiological signi®cance, we analyzed the effect of point
+mutations at each interface on the binding af®nity of VavS
+for GrbS by surface plasmon resonance (SPR) measure￾ments. GST-fused GrbS was immobilized on a sensor chip,
+and VavS solutions ranging from 1 to 500 mM were
+injected into the cells sequentially for the measurements.
+As the sensorgram of wild-type VavS shows, the associ￾ation and dissociation rates of VavS for the immobilized
+GrbS were so rapid that the binding af®nity was estimated
+based on the number of response units at equilibrium
+(Figure 7A). The Scatchard plot indicates that the binding
+of VavS to GrbS is monovalent (Figure 7B). As the targets
+for point mutations on VavS, we selected some residues
+based on the crystal structure. The elution pro®les of size
+exclusion chromatography and CD spectra pro®les
+(l = 200±260 nm) of all the mutants indicated that they
+maintain the folded architecture (data not shown). The
+results of the af®nity measurements are summarized in
+Table III.
+Fig. 1. Overall structures of VavS molecules. (A) The ribbon diagram for VavS in the complex crystal is shown in green. The b-barrel axis of VavS
+is horizontal and on the plane of the drawing. b-strands and loops are labeled with their identi®cation codes, and the N- and C-termini are labeled
+with N and C, respectively. The ®gure was prepared using MOLSCRIPT (Kraulis, 1991) and RASTER3D (Bacon and Anderson, 1998). (B) Stereo
+view of VavS a carbons in the complex crystal superposed on those in the GrbS-free form. GrbS-bound VavS is drawn as a thick line in red, and
+the four GrbS-free VavS molecules are drawn as thin lines in yellow, green, blue and magenta, respectively.
+M.Nishida et al.
+2998First, since Trp637 is the major component at the
+bottom of the GrbS-binding valley, replacement of its side
+chain by a smaller one is supposed to abolish the inter￾domain interactions. In addition, the importance of Trp637
+for supporting one of the side walls is emphasized, because
+it forms a hydrogen bond with the polypeptide backbone of
+His634 via its side chain (Figure 6A). As expected, the
+substitution of Trp637 for tyrosine caused a large decrease
+(~40-fold) in the binding af®nity. Secondly, two prolines
+de®ning one side wall, Pro595 and Pro657, were mutated
+to alanine. The large decrease (~9-fold) in the af®nity
+caused by the Pro657Ala mutation agrees well with the
+tight interactions of its pyrrolidine ring with Phe165 and
+Tyr209 of GrbS. On the other hand, the side chain
+interaction of Pro595 with the GrbS residues is less tight
+than that of Pro657, and its mutation was relatively
+tolerable. Finally, to investigate the role of the n-Src loop
+in GrbS binding, we mutated Ala632 to glycine. Ala632 is
+located at the tip of the n-Src loop, and its polypeptide
+backbone and methyl group both closely contact the GrbS
+residues at the side of the valley. The mutation resulted in
+an af®nity decrease of ~10-fold. This large decrease might
+be caused not only by the loss of the side chain
+interactions, but also by the change of the backbone
+conformation around Ala632 to the forms unsuitable for
+GrbS binding as a result of the glycine replacement.
+Mutagenesis study of the VavS±GrbS B interface
+Among the VavS residues at the VavS±GrbS B interface,
+Pro608 and Gly611 are in the closest contact with GrbS B.
+The mutation of each residue to alanine or valine was
+expected to reduce the binding af®nity, if the VavS±GrbS
+Fig. 2. Sequence alignment of VavS with other SH3 domain-containing proteins. The secondary structures of VavS (Vav_mouse), assigned using
+PROCHECK (Laskowski et al., 1993), are shown above the sequences as arrows with their identi®cation codes. 310 refers to the 310 helix occurring
+between bD and bE of most SH3 domain proteins. The numbering above the sequences is for VavS. The labels at both ends of each sequence are
+the residue numbers in the full-length protein. VavS and GrbS (Grb2C_human) residues involved in the VavS±GrbS A interface are colored in red
+and green, respectively. Some of the VavS residues at the interface that are conserved among N-terminal SH3s of other Vav members are also
+colored in their respective sequences. On the lower lines, C-terminal SH3s of Sem-5 (Sem5C) and Vav (VavC_human), N-terminal SH3 of Grb2
+(Grb2N_human) and SH3s of tyrosine kinases are listed. If available, their three-dimensional structures were used for the sequence alignment.
+Complex of Vav and Grb2 SH3 domains
+2999B interface has physiological signi®cance. The Pro608Ala
+mutation would remove the side chain interactions at the
+P+2 site of GrbS. On the other hand, the Gly611Val
+mutation could distort the backbone conformation of
+Gly611 to the forms unsuitable for GrbS binding by
+repulsion between the side chain and the carbonyl oxygen,
+or otherwise would introduce steric hindrance at the P±1
+site (Figure 6B). However, both mutants retained binding
+af®nities similar to that of wild-type VavS. Next, although
+the side chain of Pro609 does not face toward the GrbS
+residues, this residue is one of the key residues at the
+interface. The anchorage of its pyrrolidine ring in the
+hydrophobic pocket on VavS appears to support the
+backbone conformation around the residues interacting
+with GrbS, Pro607, Pro608, Pro610 and Gly611, from the
+back (Figure 3). However, the alanine substitution of
+Pro609 barely affected the binding af®nity, as also found
+with the mutations of Pro608 and Gly611.
+Discussion
+Physiological binding site for GrbS
+To provide the transient nature of the protein±protein
+interactions in signal transduction, recognition of the
+downstream proteins with the correct af®nity is crucial
+(Nguyen et al., 1998). The binding af®nity of GrbS for
+VavS, estimated by SPR measurements, is of the same
+degree as those of the SH3 domains for proline-rich
+peptides (5.7±73 mM; Feng et al., 1994; Yu et al., 1994).
+The VavS±GrbS B interface includes the inter-domain
+interactions that are reminiscent of classical PPII helix
+binding, albeit not in the optimal manner. Since there are
+previous reports on the intramolecular interactions of the
+c-Src (Sicheri et al., 1997) and Hck (Xu et al., 1997)
+tyrosine kinases in which the PPII helix recognition does
+not follow the canonical mode precisely, we predicted at
+®rst that the VavS±GrbS B interface has physiological
+relevance. Feng (1994) indicated that an alanine substitu￾tion of each proline located at the P±1 and P+2 sites caused
+an ~10-fold decrease in the binding af®nity of the Sos￾derived peptide for the Sem-5 SH3 domain, thus
+emphasizing the requirement of the pyrrolidine ring at
+each position. Pro608 and Gly611 occupy the P+2 and P±1
+sites of GrbS, respectively, with the former interacting
+with GrbS residues in the canonical manner, and the latter
+mimicking the proline±protein interactions by use of the
+polypeptide backbone. However, neither mutation caused
+a decrease in the af®nity. These results indicate that the
+VavS±GrbS B interface is an artifact resulting from the
+high protein and precipitant concentrations under the
+crystallization conditions. Ramos-Morales et al. (1995)
+reported that the truncated version of Vav, which spanned
+the VavS region with the multiple mutations of the four
+prolines (607±610) to alanine, failed to bind to Grb2 in the
+yeast two-hybrid system. However, they reported that the
+double mutation of Pro608 and Pro610 did not disrupt
+the binding af®nity in the same system. As the tetrapro￾line region is part of the VavS core (Figure 3), it is
+probable that the multiple mutations of this region
+resulted in structural instability, and thus disrupted the
+binding af®nity indirectly. In clear contrast to the
+VavS±GrbS B interface, all the four point mutations at
+the VavS±GrbS A interface caused a decrease in the
+binding af®nity at a physiological concentration, which
+can be rationalized in terms of the crystal structure. Based
+on these results, we have demonstrated that the
+VavS±GrbS A interface actually re¯ects the interaction
+Fig. 3. Tetraproline region and PPII helix-binding site of VavS. (A) The ribbon diagram for VavS in the complex crystal is shown with the
+tetraproline region close to the viewer. Residues 606±612 encompassing the tetraproline region, and the residues interacting with them or expected
+to form the PPII helix-binding site are drawn as rods in red and blue, respectively. (B) The molecular surface of VavS by GRASP (Nicholls et al.,
+1991) is colored according to the local electrostatic potential, with colors ranging from blue (positive) to red (negative) through white (neutral). The
+tetraproline region is drawn as red rods, and the peptide ligand for the Sem-5 SH3 domain is superposed on the molecular surface (yellow rods). The
+expected binding sites of VavS for the proline-rich peptide are labeled with their identi®cation codes.
+M.Nishida et al.
+3000between VavS and GrbS. The signi®cance of the involve￾ment of the tetraproline region in the VavS core might be
+in strengthening the folded architecture so that it is rigid
+enough to expose its large hydrophobic surface to the
+solvent for GrbS binding. Among the GrbS-bound and
+four GrbS-free VavS molecules, there are few differences
+in the positions of the residues at the VavS±GrbS A
+interface except for the n-Src loop. In the n-Src loop,
+which approximately retains the backbone conformation,
+the positions of the Ala632 Ca of the GrbS-free forms
+deviate from that of the GrbS-bound form by 1.6±4.2 AÊ
+toward the direction opposite to the VavS±GrbS A
+interface (Figure 1B). This indicates that some plasticity
+is tolerated around the region when VavS is free from
+GrbS.
+Structural elements required for GrbS binding
+Since members of the SH3 family share the same folded
+architecture, it is tempting to suppose that GrbS could
+recognize some SH3 domains other than those of VavS in
+a manner similar to that observed in the crystal structure.
+However, considering the stringent regulation of the
+immune system, mismatch in the recognition of down￾stream molecules must not be allowed. Using a set of SH3
+domains as a probe (N- and C- terminal SH3s of Grb2 and
+Vav, SH3s of tyrosine kinases Abl, Btk, Fyn, Hck, Lck,
+Lyn and c-Src) (Figure 2), Ye and Baltimore (1994) tested
+the interactions between VavS and other SH3 domain
+proteins. In their report, only the interaction between GrbS
+and VavS was detected. What are the structural elements
+that confer on VavS the high speci®city required for GrbS
+binding? In Figure 2, the N-terminal SH3 domains of four
+Vav members are listed. Vav2 and Vav3 are recently
+identi®ed isoforms of Vav, and their biological functions
+are still not clear relative to Vav. However, most of the
+VavS residues crucial for the domain architecture are also
+conserved or type-conserved among them, suggesting that
+they share similar structural features. Vav3 also forms a
+complex with Grb2 in vivo (Zeng et al., 2000). Among the
+®ve residues of VavS that are in closest contact with
+GrbS A, Pro595, Met597, Ala632, Trp637 and Pro657,
+four residues are conserved in the Vav members. The
+exception is in Vav2, where Ala632 is replaced by proline.
+Although the binding of Vav2 has yet to be reported, the
+proline can be modeled into the VavS±GrbS A interface
+with only a minor movement of the Gln162 side chain of
+GrbS. This set of hydrophobic residues is not conserved
+among other SH3 domains. For a comparison, the
+molecular surfaces of the Abl and Hck SH3 domains that
+correspond to the GrbS A-binding site of VavS are shown
+in Figure 5C. In GrbS recognition, the importance of
+Trp637 and Pro657 of VavS is remarkable, as proved by
+the mutagenesis study. Since both residues are the key
+elements for forming the surface complementary to GrbS,
+the substitution of either for any other amino acid would
+prevent binding (Abl, Cys100 for Trp637 of VavS; Hck,
+Arg135 for Pro657 of VavS). Substitutions of Pro595 for
+longer side chains (Abl, Asn64; Hck, Ile81) should also
+perturb the entrance of the VavS valley, thereby hamper￾ing the docking of Leu164 and Thr211 of GrbS into the
+valley. In the same context, small residues at the Ala630
+location should also be a prerequisite for GrbS binding.
+However, most of the SH3 domain proteins other than Vav
+have a bulkier residue at the corresponding location (Abl,
+Tyr93; Hck, Glu110). Moreover, the n-Src loop must be
+in the conformation to de®ne one of the side walls of
+the valley. This loop is the most divergent region, in
+addition to the RT loop, among the members of the SH3
+family. In the SH3 domain proteins other than Vav, the
+polypeptide backbone of the n-Src loop largely moves
+back from the binding surface, and is not in a conformation
+suitable for forming the complementary surface to GrbS.
+Fig. 4. Ribbon diagrams for VavS and two GrbS molecules in the complex crystal. VavS, GrbS A and GrbS B are colored in green, red and blue,
+respectively. The view in (B) is rotated by 120° with respect to that in (A) around the vertical axis on the plane.
+Complex of Vav and Grb2 SH3 domains
+3001Comparison of the recognition of VavS by
+GrbS with the classical recognition of the
+proline-rich peptide
+As shown in Figure 8, the VavS-binding site of GrbS and
+its recognition in the VavS±GrbS A interface are de®nitely
+different from those of the classical peptide binding of the
+SH3 domain. The binding of proline-rich peptides to SH3
+domains is mediated through the recognition of some
+steric features of the PPII helix by a relatively narrow area
+of the domain surface (~350 AÊ 2) (Figure 8B). In contrast,
+Fig. 5. Schematic views of the VavS±GrbS A interface. (A) The molecular surface of VavS is shown as a transparent worm with the VavS±GrbS
+A interface close to the viewer. The VavS residues at the interface are drawn as green rods. For clarity, some residues that interact minimally with
+GrbS A are omitted (His634, Cys652, Val655 and His 656). The polypeptide backbone of the N-terminal tail derived from the expression vector is
+traced as a dotted line in white. (B) The side chains (rods) and polypeptide backbone (magenta tubes) of the GrbS residues at the interface are
+superposed on VavS. (C) The molecular surfaces of the Abl (left) (Musacchio et al., 1994) and Hck (right) (Sicheri et al., 1997) SH3 domains are
+shown in the same orientation as that of VavS in (A) and (B). Only the regions corresponding to residues 595±659 of VavS are shown.
+M.Nishida et al.
+3002Table III. Dissociation constants of VavS mutants for GrbS
+VavS mutant Kd
+a (mM) Kd
+b No. of interactionsc
+(relative)
+Wild type 16.8 6 0.5 1.0
+VavS±GrbS A interface
+P595A 61.4 6 1.7 3.7 9 (R207, N208, V210, T211)
+A632G 165 6 3 9.8 7 (Q162, A163, G180)
+W637Y 630 6 30 38 7 (L164, F165, R179)
+P657A 155 6 2 9.2 15 (F165, N208, Y209)
+VavS±GrbS B interface
+P608A 20.6 6 0.3 1.2 7 (F165, N208, Y209)
+P609A 19.4 6 0.7 1.2 ±
+G611V 16.1 6 0.3 1.0 11 (P206, N192, W193, N208)
+a
+Kd is the mean value of three independent experiments with the error quoted as standard deviation. bThe dissociation constant of the mutants is represented by a value relative to that of the wild-type. c
+The total number of the intradomain interactions (<4.0 AÊ ) of the VavS residue with the GrbS residues quoted in parentheses. Except for Gly611, the
+number is for the side chain of the VavS residue.
+Fig. 6. Stereo views of the two interfaces between VavS and GrbS. (A) The VavS±GrbS A interface is shown with the exit of the GrbS-binding valley
+close to and the entrance distant from the viewer. The VavS and GrbS residues are colored in green and red, respectively. The side chains involved
+in the inter-domain interactions and some main chains are drawn as rods. The a carbons are traced as tubes. For clarity, some VavS residues that
+minimally interact with GrbS are omitted. Hydrogen bonds are drawn as dotted lines in cyan. (B) The VavS±GrbS B interface is shown according
+to the same scheme as in (A). The viewing point is at the VavS core. Note that the orientation of the tetraproline region of VavS is rotated by ~180°
+around the vertical axis on the plane with respect to that in Figure 3. Water molecules are drawn as circles.
+Complex of Vav and Grb2 SH3 domains
+3003the global architecture of the VavS molecule is essential
+for assembling the key structural elements into the proper
+positions required for recognition by GrbS. The high
+speci®city of GrbS for VavS is thus accomplished in the
+context of the entire domain architecture.
+Among the GrbS residues that form the PPII helix￾binding site, Phe165, Asn208 and Tyr209 participate in
+VavS binding (Figure 8A). Most of the VavS components
+contact these three residues at GrbS sites different from
+that for PPII helix binding. The exception is Pro657. The
+VavS-binding site of GrbS partially overlaps with its PPII
+helix-binding site at Pro657. The pyrrolidine ring of
+Pro657 packs into the pocket between the side chains of
+Phe165 and Tyr209, which is utilized as the P+2 and P+3
+sites in the canonical recognition of the peptide ligand. A
+dipeptide moiety of the ligand, Px or xP, is recognized at
+these sites by the aromatic side chains corresponding to
+Phe165 and Tyr209 of GrbS (Figure 8B). Although the
+disposition of VavS Pro657 toward them is not in
+agreement with either in the dipeptide moiety, it still
+interacts closely with the GrbS residues, and thus has a
+pivotal role in binding to GrbS, as shown by the
+mutagenesis study. As a consequence, it is explicit that
+GrbS could not simultaneously recognize Vav and other
+downstream molecules containing the proline-rich se￾quence such as Sos and WASP.
+Conclusions
+Responding to T-cell stimulations, Vav is translocated to
+GEMs, where it transmits the signals from upstream
+molecules to small G proteins. LAT, which is a mem￾Fig. 8. Comparison of the VavS±GrbS A interface with the PPII helix￾binding site of the Sem-5 SH3 domain. (A) Polypeptide backbones of
+GrbS and VavS are shown as tubes in magenta and green, respectively.
+Side chains of GrbS forming the PPII helix-binding site are shown as
+cyan rods. The four mutated residues of VavS at the VavS±GrbS
+A interface are shown in yellow. As a landmark, the tetraproline region
+of VavS is also shown in red. (B) The polypeptide backbone of the
+Sem-5 SH3 domain and the side chains forming the PPII helix-binding
+site are drawn according to the same scheme as in (A). The peptide
+ligand is drawn in yellow and the binding sites for the ligand are
+labeled with their identi®cation codes.
+Fig. 7. Determination of the dissociation constant of wild-type
+VavS for GrbS. (A) Sensorgrams for SPR measurements, which were
+corrected after subtracting the background signals, are superposed.
+For clarity, only those for the loading of 1, 5, 10, 20, 60, 150 and
+500 mM VavS are shown. The disorder at the end points of the
+injections stems from the subtraction procedure, since there was a
+time gap between the responses of the sample and blank cells with
+each injection. (B) Using the corrected response unit (cRU) and
+including all measurements, the dissociation constant was derived
+from the Scatchard plot. The SPR data are best ®tted by a line de®ned
+by the equation, y = ±16.8x + 333, and have a correlation coef®cient
+of 0.998.
+M.Nishida et al.
+3004brane-bound protein, is among the upstream targets of
+Vav, and its tyrosine phosphorylation by ZAP-70 is
+essential for the Grb2±Vav complex to be recruited into
+GEMs (Salojin et al., 2000). Since the SH2 domain of
+Grb2, but not that of Vav, binds to phosphorylated LAT,
+the GrbS±VavS dimerization is postulated to serve as the
+molecular glue for assembling multiple proteins into the
+signaling complexes in GEMs. Likewise, Grb2 is proposed
+to transmit the signals from CD28 to Vav in GEMs
+through GrbS±VavS dimerization (Kim et al., 1998). The
+mutation on CD28 that causes the loss of its binding to the
+Grb2 SH2 domain blocks the phosphorylation of Vav and
+the activation of JNKs.
+Recent studies have extended the repertoire of SH3
+recognition beyond the classical proline-rich peptide
+domain recognition. As precedents for the protein±protein
+interactions in which the SH3 domains are involved, the
+crystal structure of the complex of the Fyn SH3 domain
+and HIV-1 Nef (Lee et al., 1996), and that of the 53BP2
+protein and the core domain of the p53 tumor suppressor
+(Gorina and Palvetich, 1996) have been reported. In both
+complexes, other regions in the protein bear the major
+responsibility for accomplishing the high af®nity binding
+in conjunction with the PPII helix-binding site. More
+recently, a peptide motif, RkxxYxxY, which deviates from
+the canonical category of peptide ligands, was also
+reported to bind to SH3 domains in a manner distinct
+from that of the canonical mode (Kang et al., 2000). To
+recognize such a peptide motif or to function as part of a
+multiprotein assembly, the SH3 family utilizes its hydro￾phobic surface with considerable versatility.
+Materials and methods
+Protein preparations
+The region encoding VavS was inserted into the pET-28a (+) vector
+(Novagen) using the NdeI±EcoRI restriction sites with the addition of a
+hexahistidine tag and a thrombin cleavage site at its N-terminus. The
+expression and the Ni2+-af®nity column chromatography of the product
+were performed according to the protocol recommended by the
+manufacturer. After the hexahistidine tag was removed, VavS was
+puri®ed by chromatography on Superdex 75 gel ®ltration and Mono Q
+anion-exchange columns (Pharmacia). The ®nal yield of puri®ed VavS
+was 5.0 mg from a 1 l culture. The sample was ¯ash-frozen and stored at
+±80°C. The VavS mutants were prepared using the QuickChange site￾directed mutagenesis kit (Stratagene), and the constructs used for SPR
+measurements were puri®ed in the same way without thrombin cleavage.
+All the mutations were checked by protein sequence analysis or mass
+spectrometry. The preparation of GrbS was according to the previously
+reported procedure (Kohda et al., 1994).
+Crystallization and data collection of GrbS-bound VavS
+Both VavS and GrbS solutions were exchanged with a crystallization
+buffer consisting of 10 mM Tris±HCl (pH 9.0), 150 mM NaCl, 10±20 mM
+dithiothreitol (DTT) and 1 mM EDTA. A plate-shaped crystal appeared
+within 2 weeks after the protein mixture containing 1.5 mM VavS and
+3.0 mM GrbS was equilibrated against a reservoir consisting of 100 mM
+imidazole pH 6.5, 67% (v/v) 2-methyl-2,4-pentanediol (MPD), 75 mM
+MgCl2 and 1 mM DTT at 20°C by the hanging drop vapor diffusion
+method. The crystal was grown to 0.5 3 0.3 3 0.1 mm by macroseeding.
+Mass spectrometry and N-terminal sequence analysis con®rmed that the
+crystal contained VavS and GrbS molecules in a molar ratio of 1:2. This
+crystal is orthorhombic, belonging to the space group C2221 with unit cell
+dimensions of a = 48.05 AÊ , b = 126.82 AÊ and c = 83.37 AÊ , and has a
+solvent content of 57.5%. Diffraction data up to 1.68 AÊ resolution were
+collected from a frozen crystal in a nitrogen cryostream at 100 K on a
+MarCCD165 detector (Mar research) at beamline 41XU of the Japan
+Synchrotron Radiation Research Institute (Nishi-Harima, Hyogo). A gold
+derivative was prepared by soaking a crystal in the harvesting buffer
+containing a heavy atom reagent at 4°C. Both data sets of the native and
+gold derivative crystals were collected at 1.0375 AÊ , integrated using
+MOSFLM (Leslie, 1993), and scaled and merged by SCALA in the CCP4
+program suite (CCP4, 1994). The other derivative crystals were subjected
+to CuKa radiation generated by a Rigaku rotating-anode X-ray generator
+in the home laboratory. All data sets were collected by an imaging plate
+detector, and were processed by DENZO and SCALEPACK (Otwinowski
+and Minor, 1997). The results of the data collections are summarized in
+Table I.
+Structure determination of GrbS-bound VavS
+The initial phasing was performed by MIR using ®ve derivative crystals.
+All of the programs used for phasing were incorporated in the CCP4
+program suite. After scaling was applied to the derivative data sets by
+FHSCAL, the heavy-atom parameters were re®ned and the MIR phases
+were calculated by MLPHARE using the data between 10 and 2.5 AÊ
+resolution. The two gold derivatives, collected by a synchrotron light
+source or in the home laboratory, were treated as different derivatives.
+The anomalous dispersion data of the gold derivative collected at a
+1.0375 AÊ wavelength were also incorporated into the phasing. The mean
+®gure of merit for 8915 re¯ections included in the phasing is 0.574
+(Table I). After density modi®cation by solvent ¯attening and histogram
+matching was applied to the MIR map using DM (Cowtan and Main,
+1996), an initial model consisting of one VavS and two GrbS molecules
+was placed on the modi®ed electron density map. Re®nement of the
+model was performed by conjugate gradient minimization and simulated
+annealing with the slow-cooling protocol in X-PLOR version 3.1
+(BruÈnger, 1992). For each cycle, the model was rebuilt manually by the
+molecular modeling program, Turbo-Frodo (Roussel and Cambillau,
+1991). The ®nal model consists of VavS with the vector-derived
+sequence, GSHM, at the N-terminus, GrbS A with the vector-derived
+serine at the N-terminus, GrbS B, one MPD molecule and 189 water
+molecules. Residue 660 of Vav, and residues 216±217 and 214±217 of
+Grb2 were omitted from VavS, GrbS A and GrbS B, respectively, because
+they were not de®ned on the electron density map.
+Crystallization and data collection of GrbS-free VavS
+A protein solution containing 5.0 mM of VavS was equilibrated against
+a reservoir consisting of 100 mM Tris±HCl pH 8.5, 30% (w/v) PEG
+4000 and 9% (v/v) isopropanol at 4°C. A monoclinic crystal of the space
+group P21 (a = 32.21 AÊ , b = 101.12 AÊ , c = 39.71 AÊ and b = 91.34°) grew
+within 1±2 weeks. The crystal contains four VavS molecules in an
+asymmetric unit with a solvent content of 39.1%. After immersion in a
+cryoprotectant containing 15% (v/v) glycerol, diffraction data up to 2.1 AÊ
+resolution were collected by the home source from a ¯ash-frozen crystal.
+The data set was processed by DENZO and SCALEPACK.
+Structure determination of GrbS-free VavS
+The VavS molecules in the monoclinic crystal were located by molecular
+replacement using VavS in the GrbS-bound form as a probe. Using the
+data between 10 and 2.5 AÊ resolution, four solutions with a correlation
+coef®cient of 0.56 were obtained by rotation and translation function
+searches in AMoRe (Navaza, 1994). After rigid-body re®nement, the
+model was re®ned in a manner similar to that used for GrbS-bound VavS.
+Throughout the re®nement, non-crystallographic symmetry restraints
+(300 kcal/mol/AÊ 2) were imposed on the main chain atoms of the four
+VavS molecules, except for the regions of residues 609±614, 631±633,
+642±646 and 658±660. After the resolution was extended to 2.1 AÊ and
+159 water molecules were incorporated into the model, the restraints were
+lifted. The ®nal model consists of three VavS molecules with Pro595
+being omitted, one VavS with the vector-derived methionine at the
+N-terminus, and 190 water molecules.
+SPR measurements
+GST-fused GrbS was immobilized on a CM5 sensor chip via an anti-GST
+antibody as recommended by the manufacturer (BIAcore). The fusion
+protein includes a linker of eight residues. The amount of the fusion
+protein on the chip was adjusted to ~1300 RU (resonance units) by
+monitoring the change in the refractive index. The ¯ow rate and the
+temperature were kept at 5 ml/min and 25°C. Prior to each injection of
+the VavS solution, the sensor chip was washed with loading buffer
+[10 mM HEPES pH 7.4, 150 mM NaCl, 3 mM EDTA, 0.005% (v/v)
+polysorbate 20, and 2.5 mM 2-mercaptoethanol] for 20 min, which was
+suf®cient for the recovery of the baseline of the sensorgram. The level of
+the SPR response was con®rmed to be constant using a standard VavS
+solution before and after the 15 programmed runs. To measure the
+background response signal at equilibrium, a control experiment was
+Complex of Vav and Grb2 SH3 domains
+3005performed in parallel using a blank cell in which the same molar amount
+of GST as that of GST±GrbS was immobilized on the sensor chip. A set of
+the programmed runs was performed three times for calculating the mean
+dissociation constant. Prior to each set run, the cells were regenerated
+with 10 mM glycine pH 2.2, and GST and GST±GrbS were newly
+immobilized.
+Accession numbers
+The atomic coordinates and the structure factors of the re®ned models of
+GrbS-free VavS and GrbS-bound VavS have been deposited in the
+Protein Data Bank. The accession Nos are 1GCP and 1GCQ, respectively.
+Acknowledgements
+This work was supported by grant-in-aids for Core Research for
+Evolutional Science and Technology from Japan Science and
+Technology Corporation, and for Scienti®c Research on Priority Areas
+from the Ministry of Education, Science and Culture of Japan to F.I. M.N.
+was supported by a research fellowships for Young Scientists of Japan
+Science and Technology Corporation.
+References
+Adams,J.M., Houston,H., Allen,J., Lints,T. and Harvey,R. (1992) The
+hematopoietically expressed vav proto-oncogene shares homology
+with the dbl GDP±GTP exchange factor, the bcr gene and a yeast gene
+(CDC24) involved in cytoskeletal organization. Oncogene, 7,
+611±618.
+Bacon,D.J. and Anderson,W.F. (1998) A fast algorithm for rendering
+space-®lling molecule pictures. J. Mol. Graph., 6, 219±220.
+Birge,R.B., Knudsen,B.S., Besser,D. and Hanafusa,H. (1996) SH2 and
+SH3-containing adaptor proteins: redundant or independent mediators
+of intracellular signal transduction. Genes Cells, 1, 595±613.
+BruÈnger,A.T. (1992) X-PLOR Version 3.1: A System for X-ray
+Crystallography and NMR. Yale University Press, New Haven, CT.
+Buday,L. (1999) Membrane-targeting of signalling molecules by SH2/
+SH3 domain-containing adaptor proteins. Biochim. Biophys. Acta,
+1422, 187±204.
+Bustelo,X.R. (1996) The VAV family of signal transduction molecules.
+Crit. Rev. Oncogene, 7, 65±88.
+Bustelo,X.R. (2000) Regulatory and signaling properties of the Vav
+family. Mol. Cell. Biol., 20, 1461±1477.
+Bustelo,X.R., Crespo,P., LoÂpez-Barahona,M., Gutkind,J.S. and
+Barbacid,M. (1997) Cbl-b, a member of the Sli-1/c-Cbl protein
+family, inhibits Vav-mediated c-Jun N-terminal kinase activation.
+Oncogene, 15, 2511±2520.
+Collaborative Computational Project Number 4 (1994) The CCP4 suite:
+programs for protein crystallography. Acta Crystallogr. D, 50,
+760±763.
+Cowtan,K.D. and Main,P. (1996) Phase combination and cross validation
+in iterated density-modi®cation calculations. Acta Crystallogr. D, 52,
+43±48.
+Crespo,P., Schuebel,K.E., Ostrom,A.A., Gutkind,J.S. and Bustelo,X.R.
+(1997) Phosphotyrosine-dependent activation of Rac-1 GDP/GTP
+exchange by the vav proto-oncogene product. Nature, 385, 169±172.
+Egan,S.E., Giddings,B.W., Brooks,M.W., Buday,L., Sizeland,A.M. and
+Weinberg,R.A. (1993) Association of Sos Ras exchange protein with
+Grb2 is implicated in tyrosine kinase signal transduction and
+transformation. Nature, 363, 45±51.
+Feng,S., Chen,J.K., Yu,H., Simon,J.A. and Schreiber,S.L. (1994) Two
+binding orientations for peptides to the Src SH3 domain: development
+of a general model for SH3±ligand interactions. Science, 266,
+1241±1247.
+Gorina,S. and Pavletich,N.P. (1996) Structure of the p53 tumor
+suppressor bound to the ankyrin and SH3 domains of 53BP2.
+Science, 274, 1001±1005.
+Hanazono,Y., Odai,H., Sasaki,K., Iwamatsu,A., Yazaki,Y. and Hirai,H.
+(1996) Proto-oncogene products Vav and c-Cbl are involved in the
+signal transduction through Grb2/Ash in hematopoietic cells. Acta
+Haematol., 95, 236±242.
+Kang,H., Freund,C., Duke-Cohan,J.S., Musacchio,A., Wagner,G. and
+Rudd,C.E. (2000) SH3 domain recognition of a proline-independent
+tyrosine-based RkxxYxxY motif in immune cell adaptor SKAP55.
+EMBO J., 19, 2889±2899.
+Katzav,S., Martin-Zanca,D. and Barbacid,M. (1989) vav, a novel human
+oncogene derived from a locus ubiquitously expressed in
+hematopoietic cells. EMBO J., 8, 2283±2290.
+Kim,H.-H., Tharayil,M. and Rudd,C.E. (1998) Growth factor receptor￾bound protein 2 SH2/SH3 domain binding to CD28 and its role in
+co-signaling. J. Biol. Chem., 273, 296±301.
+Kohda,D., Terasawa,H., Ichikawa,S., Ogura,K., Hatanaka,H., Mandiyan,
+V., Ulrich,A., Schlessinger,J. and Inagaki,F. (1994) Solution structure
+and ligand-binding site of the carboxy-terminal SH3 domain of GRB2.
+Structure, 2, 1029±1040.
+Kraulis,P.J. (1991) MOLSCRIPT: a program to produce both detailed
+and schematic plots of protein structures. J. Appl. Crystallogr., 24,
+946±950.
+Lahesmaa,R., Allsup,A., Soderberg,C., Jackman,J., Findell,P. and
+Peltz,G. (1995) Modulation of the Grb2-associated protein complex
+in human CD4+ T cells by receptor activation. J. Immunol., 155,
+3815±3822.
+Laskowski,R.A., MacArthur,M.W., Moss,D.S. and Thornton,J.M. (1993)
+PROCHECK: a program to check the stereochemical quality of
+protein structures. J. Appl. Crystallogr., 26, 283±291.
+Lee,C.-H., Saksela,K., Mirza,U.A., Chait,B.T. and Kuriyan,J. (1996)
+Crystal structure of the conserved core of HIV-1 Nef complexed with
+a Src family SH3 domain. Cell, 85, 931±942.
+Leslie,A.G.W. (1993) In Sawyer,L., Isaac,N. and Bailey,S. (eds),
+Proceedings of the CCP4 Study Weekend, 29±30 January.
+Daresbury Laboratory Press, Warrington, UK, pp. 44±51.
+Lim,W.A., Richards,F.M. and Fox,R.O. (1994) Structural determinants
+of peptide-binding orientation and of sequence speci®city in SH3
+domains. Nature, 372, 375±379.
+Machide,M., Mano,H. and Todokoro,K. (1995) Interleukin 3 and
+erythropoietin induce association of Vav with Tec kinase through
+Tec homology domain. Oncogene, 11, 619±625.
+Maignan,S., Guilloteau,J.P., Fromage,N., Arnoux,B., Becquart,J. and
+Ducruix,A. (1995) Crystal structure of the mammalian Grb2 adaptor.
+Science, 268, 291±293.
+Miyakawa,Y., Oda,A., Druker,B.J., Ozaki,K., Handa,M., Ohashi,H. and
+Ikeda,Y. (1997) Thrombopoietin and thrombin induce tyrosine
+phosphorylation of Vav in human blood platelets. Blood, 89,
+2789±2798.
+Musacchio,A., Saraste,M. and Wilmanns,M. (1994) High-resolution
+crystal structures of tyrosine kinase SH3 domains complexed with
+proline-rich peptides. Nature Struct. Biol. 1, 546±551.
+Navaza,J. (1994) AMoRe: an automated package for molecular
+replacement. Acta Crystallogr. A, 50, 157±163.
+Nguyen,J.T., Turck,C.W., Cohen,F.E., Zuckermann,R.N. and Lim,W.A.
+(1998) Exploiting the basis of proline recognition by SH3 and WW
+domains: design of N-substituted inhibitors. Science, 282, 2088±2092.
+Nicholls,A., Sharp,K.A. and Honig,B. (1991) Protein folding and
+association: insights from the interfacial and thermodynamic
+properties of hydrocarbons. Proteins, 11, 281±296.
+Noble,M.E.M., Musacchio,A., Saraste,M., Courtneidge,S.A. and
+Wierenga,R.K. (1993) Crystal structure of the SH3 domain in
+human Fyn; comparison of the three-dimensional structures of SH3
+domains in tyrosine kinases and spectrin. EMBO J., 12, 2617±2624.
+Otwinowski,Z. and Minor,W. (1997) Processing of X-ray diffraction
+data collected in oscillation mode. Methods Enzymol., 276, 307±326.
+Pedraza-Alva,G., MeÂrida,L.B., Burakoff,S.J. and Rosenstein,Y. (1998)
+T cell activation through the CD43 molecule leads to Vav tyrosine
+phosphorylation and mitogen-activated protein kinase pathway
+activation. J. Biol. Chem., 273, 14218±14224.
+Ramakrishnan,C. and Ramachandran,G.N. (1965) Stereochemical
+criteria for polypeptide and protein chain conformation. Biophys. J.,
+5, 909±933.
+Ramos-Morales,F., Druker,B.J. and Fischer,S. (1994) Vav binds to
+several SH2/SH3 containing proteins in activated lymphocytes.
+Oncogene, 9, 1917±1923.
+Ramos-Morales,F., Romero,F., Schweighoffer,F., Bismuth,G.,
+Camonis,J., Tortolero,M. and Fischer,S. (1995) The proline-rich
+region of Vav binds to Grb2 and Grb3-3. Oncogene, 11, 1665±1669.
+Roussel,A. and Cambillau,C. (1991) TURBO-FRODO. In Silicon
+Graphics Geometry Partners Directory 86. Silicon Graphics,
+Mountain View, CA.
+Salojin,K.V., Zhang,J., Meagher,C. and Delovitch,T.L. (2000) ZAP-70 is
+essential for the T cell antigen receptor-induced plasma membrane
+targeting of SOS and Vav in T cells. J. Biol. Chem., 275, 5966±5975.
+Sicheri,F., Moare®,I. and Kuriyan,J. (1997) Crystal structure of the Src
+family tyrosine kinase Hck. Nature, 385, 602±609.
+M.Nishida et al.
+3006Simons,K. and Ikonen,E. (1997) Functional rafts in cell membranes.
+Nature, 387, 569±572.
+Song,J.S., Gomez,J., Stancato,L.F. and Rivera,J. (1996) Association of a
+p95 Vav-containing signaling complex with the FceRIg chain in the
+RBL-2H3 mast cell line. Evidence for a constitutive in vivo
+association of Vav with Grb2, Raf-1 and ERK-2 in an active
+complex. J. Biol. Chem., 271, 26962±26970.
+Terasawa,H.et al. (1994) Structure of the N-terminal SH3 domain of
+GRB2 complexed with a peptide from the guanine nucleotide
+releasing factor Sos. Nature Struct. Biol., 1, 891±897.
+Tuosto,L., Michel,F. and Acuto,O. (1996) p95vav associates with
+tyrosine-phosphorylated SLP-76 in antigen-stimulated T cells.
+J. Exp. Med., 184, 1161±1166.
+Wienands,J., Schweikert,J., Wollscheid,B., Jumaa,H., Nielsen,P.J. and
+Reth,M. (1998) SLP-65: a new signaling component in B lymphocytes
+which requires expression of the antigen receptor for phosphorylation.
+J. Exp. Med., 188, 791±795.
+Xu,W., Harrison,S.C. and Eck,M.J. (1997) Three-dimensional structure
+of the tyrosine kinase c-Src. Nature, 385, 595±602.
+Ye,Z.-S. and Baltimore,D. (1994) Binding of Vav to Grb2 through
+dimerization of Src homology 3 domains. Proc. Natl Acad. Sci. USA,
+91, 12629±12633.
+Yu,H., Chen,J.K., Feng,S., Dalgarno,D.C., Brauer,A.W. and
+Schreiber,S.L. (1994) Structural basis for the binding of proline-rich
+peptides to SH3 domains. Cell, 76, 933±945.
+Zeng,L., Sachdev,P., Yan,L., Chan,J.L., Trenkle,T., McClelland,M.,
+Welsh,J. and Wang,L.-H. (2000) Vav3 mediates receptor protein
+tyrosine kinase signaling, regulates GTPase activity, modulates cell
+morphology and induces cell transformation. Mol. Cell. Biol., 20,
+9212±9224.
+Received September 12, 2000; revised March 12, 2001;
+accepted April 23, 2001
+Complex of Vav and Grb2 SH3 domains
+3007

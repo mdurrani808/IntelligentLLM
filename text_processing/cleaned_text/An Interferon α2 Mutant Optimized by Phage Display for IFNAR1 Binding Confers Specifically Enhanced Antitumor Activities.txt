@@ -1,0 +1,349 @@
+An Interferon 2 Mutant Optimized by Phage Display for  IFNAR1 Binding Confers Specifically Enhanced  Antitumor Activities*  Received for publication,October 30, 2006, and in revised form, February 9, 2007 Published, JBC Papers in Press, February 19, 2007, DOI 10.1074/jbc.
+M610115200  Eyal Kalie1  , Diego A. Jaitin1  , Renne Abramovich, and Gideon Schreiber2  From the Department of Biological Chemistry, Weizmann Institute of Science, 76100 Rehovot, Israel  All -interferons (IFN) bind the IFNAR1 receptor subunit  with low affinity.
+Increasing the binding affinity was shown to  specifically increase the antiproliferative potency of IFN2.
+  Here, we constructed a phage display library by randomizing three  positions on IFN2 previously shown to confer weak binding to  IFNAR1.
+The tightest binding variant selected, comprised of  mutations H57Y, E58N, and Q61S (YNS), was shown to bind  IFNAR1 60-fold tighter compared with wild-type IFN2, and  3-fold tighter compared with IFN.
+Binding of YNS to IFNAR2  was comparable with wild-type IFN2.
+The YNS mutant conferred a 150-fold higher antiproliferative potency in WISH cells  compared with wild-type IFN2, whereas its antiviral activity  was increased by only 3.5-fold.
+The high antiproliferative activity was related to an induction of apoptosis, as demonstrated by  annexin V binding assays, and to specific gene induction, particularly TRAIL.
+To determine the potency of the YNS mutant in a  xenograft cancer model, we injected it twice a week to nude mice  carrying transplantedMDA231 human breast cancer cells.
+After  5 weeks, no tumors remained in mice treated with YNS, whereas  most mice treated with wild-type IFN2 showed visible tumors.
+  Histological analysis of these tumors showed a significant antiangiogenic effect of YNS, compared with wild-type IFN2.
+This  work demonstrates the application of detailed biophysical  understanding in the process of protein engineering, yielding an  interferon variant with highly increased biological potency.
+  Type I interferons (IFNs)3 are multifunctional cytokines that  orchestrate the antiviral innate immunity in vertebrates, acting  in virtually every nucleated cell.
+They belong to the helical cytokine superfamily (1), and consist of at least 17 different members in humans: 13 different IFN subtypes, IFN, IFN, and  IFN, all of which share significant amino acid homology (2).
+  All type I interferons induce their biological effects through a  common receptor, composed of two distinct transmembrane  proteins, namely IFNAR1 and IFNAR2 (35).
+Upon formation  of the ternary complex, the interferon signal is transduced  through receptor-associated Janus family kinases (JAK), which  activate the signal transducers and activators of transcription  (STAT) proteins.
+These, in turn, form homo- and heterodimers  that translocate to the nucleus, where they directly regulate the  transcription of specific interferon responsive genes (6).
+  In addition to their important roles at the first line of defense  against viral infections (7) and in modulation of the adaptive  immune system (8), type I interferons are capable of inducing a  significant antiproliferative activity (9).
+Consequently, interferons are widely used in the clinic for the treatment of multiple  sclerosis and chronic hepatitis (10, 11), as well as for a number  of malignancies (12).
+However, the efficiency of interferon  treatment in the majority of cancers is modest, limited by side  effects and varying resistance of malignant cells to this treatment (13, 14).
+  Despite their sequence homology and shared receptor, type I  interferons are not redundant, but rather induce their activities  differentially (15, 16).
+One important example is the substantially higher antiproliferative response induced by IFN relative  to IFN. The exact molecular mechanisms underlying this differential signaling, which is initiated through the same receptor  complex, remains unclear.
+However, we have recently shown  that whereas the binding affinity of interferon toward IFNAR2  correlates with both antiviral and antiproliferative activities  (17), a change in the affinity toward IFNAR1 translates differently between these two activities (18).
+Specifically, we have  found that increasing the affinity of IFN2 toward IFNAR1 is  accompanied by a significant increase in its antiproliferative  activity, whereas its antiviral activity is minimally affected.
+  Moreover, sequence alignment of the different human IFN  proteins showed that their weak binding toward IFNAR1 is a  conserved characteristic, as manifested by three conserved  positions on IFN2 (His57, Glu58, and Gln61), of which mutations to Ala caused a significant increase in the binding affinity  and antiproliferative activity of this mutant (termed HEQ).
+  Here, we exploited this important aspect of type I interferon  behavior by using phage display to further optimize the  IFNAR1-binding affinity of IFN2.
+Indeed, an optimized  IFNAR1 binder, screened out of a mutant library, exhibited a  150-fold enhanced antiproliferative activity on cell cultures,  accompanied by only a minor (3.5-fold) change in antiviral  activity.
+In light of the importance of IFN in cancer therapy, we  * This work was supported by the Human Frontier Science Program Grant  RGP 60/2002, a grant from the Yeda Fund for research and development,  and Israel Science Foundation founded by the Israel Academy of Sciences  and Humanities Grant 633/06.
+The costs of publication of this article were  defrayed in part by the payment of page charges.
+This article must therefore be hereby marked advertisement in accordance with 18 U.S.C. Section 1734 solely to indicate this fact.
+1 Both authors contributed equally to this work.
+  2 To whom correspondence should be addressed.
+Tel.: 972-8-934-3249; Fax:  972-8-934-6095; E-mail: gideon.schreiber@weizmann.ac.il.
+3 The abbreviations used are: IFN, interferon; STAT, signal transducers and  activators of transcription; ELISA, enzyme-linked immunosorbent assay;  PBS, phosphate-buffered saline; WT, wild type; ISG, interferon-stimulated  gene; PI, phosphatidylinositol; PI3K, phosphatidylinositol 3-kinase; JAK,  Janus family kinase.
+  THE JOURNAL OF BIOLOGICAL CHEMISTRY VOL.
+282, NO. 15, pp. 1160211611, April 13, 2007   2007 by The American Society for Biochemistry and Molecular Biology, Inc. Printed in the U.S.A.  11602 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 282NUMBER 15APRIL 13, 2007   at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from further discuss the implications of the YNS mutant in improving this mostly unfulfilled promise, and show how it confers a  significantly stronger anti-tumor activity in a mouse model.
+  EXPERIMENTAL PROCEDURES  Cell Lines and AntibodiesHuman epithelialWISH cells and  human MDA-MB-231 breast cancer cells were kindly provided  by Daniela Novick (Weizmann Institute of Science) and Lea  Eisenbach (Weizmann Institute of Science), respectively.
+  Monoclonal anti-IFNAR1-EC DB2 and AA3 antibodies were a  gift from Biogene.
+Monoclonal anti-IFNAR2-EC 46.10 and  117.7 were a gift from Daniela Novick.  Phage DisplayScreening for strong IFNAR1 binders was  carried out using a hybrid phage-display system comprised of a  phagemid encoding for a P3 viral-coat protein fused to an  IFN2 gene followed by a FLAG tag, which encodes for an  epitope peptide used to detect expression of this construct on  the phage envelope by ELISA.
+A helper phage is added to  encode for the necessary proteins for phage assembly (19).
+The  library was produced by site-directed mutagenesis at positions  57, 58, and 61 of the fused IFN, using T7 DNA polymerase for  primer extension on a single-stranded DNA template.
+The  template was produced in Escherichia coli CJ236 cells (dut/  ung) incorporating uracils.
+The resulting phagemid library  was transformed into ss320 bacteria by electrophoresis, and a  phage library was subsequently produced.
+Proper IFN protein  expression on the phages was confirmed by binding to Maxisorp plates (Nunc) coated with anti-FLAG antibodies, followed  by ELISA using horseradish peroxidase-conjugated anti-phage  antibodies.
+The proper folding of the expressed IFN was  assessed according to the ability to bind IFNAR2-EC, using a  similar ELISA sandwich assay where Maxisorp plates were  coated with non-neutralizing anti-IFNAR2 46.10 antibody, followed by addition of IFNAR2 and IFN-producing phages.
+  These were detected using horseradish peroxidase-conjugated  anti-phage antibodies.
+Specific IFNAR1 library screening was  done similarly, withMaxisorp plates coated with anti-IFNAR1-EC  DB2 antibody (20), followed by addition of IFNAR1 and IFN  producing phages.
+Control wells consisted of antibody coat  only.
+Phage elution was carried out in three sequential steps,  using 0.05, 0.1, and 0.2 M HCl.
+Phage numbers were calculated  from the number of bacterial colonies formed after phage transfection at serial dilutions.
+After the fifth round of panning, individual phages were tested individually for IFNAR1-EC binding  by ELISA.
+Phagemids from positive clones were extracted for  sequencing.
+  Protein Expression and PurificationIFN2 and IFNAR2-  EC were expressed using the expression vector pT7T318U in  E. coli BL21 strain and purified by ion-exchange and size-exclusion chromatography (21).
+YNS was expressed in the E. coli  Rosetta strain, where it was found mainly in inclusion bodies.
+  Following four washing cycles with Triton wash solution (0.5%  Triton X-100, 50 mM Tris, pH 8.0, and 100 mM NaCl) and one  additional wash without Triton, the protein was unfolded in 6 M  guanidine and then refolded by 1:20 dilution in 0.8 M arginine,  pH 9.3, followed by dialysis in 25 mM Tris, pH 7.4.
+The protein  was then purified on an ion-exchange column.
+Proteins were  analyzed by analytical gel filtration chromatography to assess  purity and binding activity.
+Protein concentrations were determined both by analytical gel filtration chromatography and  from the absorbance at 280 nm with 280  18,500 cm1 M1  for IFN2 and 280  26,500 cm1 M1 for IFNAR2-EC.
+  IFNAR1-EC was expressed in Sf9 insect cells and purified as  described before (22), and was a generous gift from Jacob  Piehler.
+  Binding MeasurementsBinding affinities of IFN toward  IFNAR1-EC or IFNAR2-EC were measured using the ProteOn  XPR36 Protein Interaction Array system (Bio-Rad), based on  surface plasmon resonance technology.
+A solution of 0.005%  Tween 20 in PBS, pH 7.4, was used as running buffer at a flow  rate of 30 l/min.
+For immobilization, an activated EDC/NHS  surface was covered with the non-neutralizing antibodies DB2  and 46.10 against IFNAR1-EC and IFNAR2-EC, respectively,  and blocked with ethanolamine.
+Thereafter, five of the six channels were reacted with IFNAR1-EC or IFNAR2-EC (180 l at a  concentration of 0.5 M), leaving one channel free as reference.
+  This was followed by cross-linking a second antibody, AA3 for  IFNAR1-EC and 117.7 for IFNAR2-EC (23).
+Interferons were  then injected perpendicular to ligands, at six different concentrations within a range of 37 to 8,000 nM for IFNAR1 binding  and 3.12 to 100 nM for IFNAR2 binding.
+Data were analyzed  with BIAeval 4.1 software, using the standard Langmuir models  for fitting kinetic data.
+Dissociation constants KD were determined from the rate constants according to,  KD  koff  kon  (Eq. 1)  or from the equilibrium response at six different analyte concentrations, fitted to the mass-action equation.
+  Determination of IC50 Binding Values on WISH CellsWildtype (WT) IFN2 was labeled with 125I using the chloramine T  iodination method (24).
+After iodination, the radiolabeled  interferon was cleaned using a homemade Sephadex column.
+  For the competition assay, WISH cells were grown on 24-well  plates, washed once with PBS  0.1% sodium azide, and then  incubated for 10 min with the same solution.
+Cells were then  incubated for 1 h at room temperature (20 C) with labeled  IFN2 (200,000 cpm/well) in the presence of unlabeled IFN2  WT or YNS at different concentrations (50 nM to 25 pM), in  culture medium  0.1% sodium azide.
+Thereafter, cells were  washed twice in PBS, trypsinated, and transferred into test  tubes for measuring of bound, 125I-labeled IFN2 WT, using a  -counter (Packard).
+The experiment was repeated three times,  each time in duplicates.
+IC50 values were calculated using Kaleidagraph Synergy Software.  Antiviral and Antiproliferative AssaysThe antiproliferative  assay (25) on WISH and MDA-MB-231 cells was conducted by  adding IFN (IFN2 WT, YNS, or IFN) at serial dilutions to the  growth medium in flat-bottomed microtiter plates, and monitoring cell density after 72 h by staining with crystal violet.
+The  50% activity concentrations (EC50), as well as the sensitivity of  cells to increasing amounts of interferon, were deduced from an  IFN dose-response curve (Kaleidagraph, Synergy Software)  using Equation 2,  y  A0   A/1   C/EC50  s (Eq. 2)  Activity of an IFNAR1-binding Optimized IFN2 Mutant  APRIL 13, 2007VOLUME 282NUMBER 15 JOURNAL OF BIOLOGICAL CHEMISTRY 11603   at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from where y is the absorbance and reflects the relative number of  cells, A0 is the offset, A is the amplitude, c is the IFN concentration, and s is the slope (25).
+Antiviral activity of IFN2 WT,  YNS, and IFN was assayed as the inhibition of the cytopathic  effect of vesicular stomatitis virus on human WISH and MDAMB-231 cells, as described previously (25, 26).
+In general, IFN  was added at serial dilutions to cells grown on flat-bottomed  microtiter plates.
+Four hours later vesicular stomatitis virus was  added to all wells, and after 17 h of incubation cell density was  measured by crystal violet staining.
+EC50 was calculated as  described for the antiproliferative experiment.
+Both the antiviral and antiproliferative assays were repeated at least 3 times for  each protein.
+The experimental error ( ) for both assays was  35%.
+Therefore, a 2   confidence level would suggest that differences smaller than 2-fold between interferons are within the  experimental error.
+  Annexin V/PI AssayApoptosis was monitored by the phosphatidylserine content on the outer leaflet of the cell membrane  with the annexin V-FITC/PI assay kit (Bender MedSystems).
+  Cells were detached with 5 mM EDTA in PBS and labeled with  annexin V following the kit manufacturers instructions.
+  Samples were analyzed with FACSCalibur flow cytometer  (BD Biosciences).
+  Quantitative PCRSelected human interferon-stimulated  gene (ISG) expression levels were measured with the ABI Prism  7300 Real-Time PCR System, using the SYBR Green PCR Master Mix (Applied Biosystems) and cDNA samples were produced with Superscript II (Invitrogen) from 1 g of total RNA,  extracted with the RNeasy kit (Qiagen).
+Primer sequences were  designed using the Primer Express software (Applied Biosystems).
+Standard curves were generated per primer pair using  serial dilutions of an IFN treatment sample, to ensure reaction  efficiencies of 100  5%: only primers that yielded a 3.3 slope  ( 0.3), corresponding to an amplification efficiency of 2 (efficiency  101/slope) were used.
+Both primer and template concentrations were optimized.
+Quantitative PCR was performed  using 1.25 ng of cDNA for HLA-F, ISG15, and MDA5, and 2.5  ng for TRAIL and CASP1 transcript levels, in a total volume of  20 l and at least in triplicate per sample.
+Relative expression  levels were calculated by the - cycle threshold (Ct) relative  quantification (RQ) method (ddCt, RQ  2ddCt), using the  untreated cells control as the calibrator sample, and glyceraldehyde-3-phosphate dehydrogenase as the endogenous control  detector (reference gene levels measured on the same sample),  at least in triplicate for each sample.
+Standard error of ddCt,  calculated per sample, was calculated as the square root of the  sum of squares of four S.E.  mean Ct; S.E. of tested gene in  treatment sample; S.E. of tested gene in control sample; S.E. of  reference gene in treatment sample; and S.E. of reference gene  in control sample.
+  Western Blot AnalysisTotal protein extracts were obtained  from WISH cells in RIPA buffer.
+Samples were separated by  SDS-PAGE and transferred to a Hybond ECL nitrocellulose  membrane (Amersham Biosciences).
+Membranes were probed  with rabbit polyclonal antiserum against STAT1 (1:4,000) or  pY701-STAT1 (1:1,000, Santa Cruz), and mouse monoclonal  antibodies against -tubulin (1:20,000, Sigma), detected using  horseradish peroxidase-conjugated anti-rabbit (Amersham  Biosciences) or anti-mouse (Jackson Immunochemicals)  antibodies.
+  In Vivo ExperimentsAll animal procedures were carried  out in accordance with the Guidelines for the Care and Use of  Research Animals at the Weizmann Institute of Science.
+Nude  mice (n  23, 8-week-old) were injected subcutaneously with  MDA-MB-231 human breast cancer cells (107 in 0.2 ml of PBS).
+  Mice were then divided randomly into four treatment groups  (IFN2, YNS, and control n  6; IFN, n  5).
+Interferon (20g  in 0.2 ml of PBS) was injected intraperitoneally; control mice were  injected with 0.2 ml of PBS.
+Treatments were given twice a  week, starting at day 3 up to day 35, after which mice were  sacrificed; tumor remainders and suspected scar tissues were  surgically removed, fixed in 4% formaldehyde, and embedded  in paraffin blocks.
+Sections were stained with hematoxylin-eosin (H&E) for histological analysis.
+The protocol closely followed that used successfully by Wagner et al. (27).
+  RESULTS  Screening a Phage-displayed IFN2 Library for Tight IFNAR1  BindingWe have previously identified three conserved residues at the IFNAR1-binding region of IFN2, namely His57,  Glu58, and Gln61, whose combined alanine substitution  (termed HEQ) resulted both in a large increase of affinity  toward IFNAR1 and a greatly enhanced antiproliferative but  not antiviral activity in WISH cells (18).
+As it is difficult to  envision alanine as an optimal binding residue, we established a  phage-display system to isolate even tighter IFNAR1-binding  interferon variants out of a library of IFN2 comprised of random mutations at these three positions.
+The gene encoding for  IFN2 was inserted into a phagemid encoding for a fusion protein consisting of a phage P3-coat protein at the C-terminal end  and a FLAG tag at the N terminus.
+The phagemid was transfected into E. coli bacteria, and expressed as part of the capsule  of M13 phages following infection with K07M13 helper phages.
+  To verify the proper translation of this fusion protein, we conducted an ELISA using anti-FLAG antibody-coated wells, and  horseradish peroxidase-conjugated anti-phage antibodies for  detection of specific binding.
+Positive signals were indicative of  both a correct translation of the entire fusion protein in the  correct reading frame, and a sufficient level of integration  within the phage capsule.
+Next, the proper folding of the fused  IFN2 was verified by its ability to bind IFNAR2-EC (KD  5  nM).
+This was done by a similar ELISA, using IFNAR2-ECcoated wells, which resulted in a significant signal of specifically  bound phages.
+  The phagemid library containing all possible codon combinations at positions 57, 58, and 61 (8000 different clones) was  constructed using degenerate primers, starting from a template  containing a stop codon at each of these positions.
+The use of  stop codons was necessary to avoid a high percentage of wildtype clones in the library, because the digestion of the singlestranded DNA template by the host SS320 bacteria is incomplete.
+The resulting library contained 1011 phages/ml (according  to serial dilutions), ensuring a high copy representation (107  phages/ml) of each clone.
+The first enrichment round of the  library included a relatively mild washing step prior to elution  with 0.1 mM HCl.
+As of the second round, the washing steps  Activity of an IFNAR1-binding Optimized IFN2 Mutant  11604 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 282NUMBER 15APRIL 13, 2007   at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from were increasingly aggressive, and starting from the third round  the elution step was made up of three sequential elutions using  0.05, 0.1, and 0.2 mM HCl.
+A graphic representation of specific  population enrichment along the panning rounds and the following decay thereof, which is a typical feature of this type of  screen, is given in Fig. 1.
+Specific binding levels peaked at the  fifth selection round, from which 20 single phage clones were  tested for binding to IFNAR1-EC by ELISA.
+Four of them produced a significant signal (3-fold higher than background).
+  The residues replacing His57, Glu58, and Gln61 in these clones  were YNS, MDL, YLD, and YAS.
+A clear preference for Tyr is  observed for position 57, but no clear preference was observed  at the other two positions (except for a preference for polar over  hydrophobic residues at a 5:2 ratio).
+Repeated phage ELISA has  shown that the YLD and YAS clones were not stable, as they  rapidly lost their binding activity toward both IFNAR1-EC and  IFNAR2-EC.
+We therefore concentrated our efforts on expression and purification of the MDL and YNS clones.
+  Expression, Purification, and Characterization of the IFN2-  YNS MutantThe standard protocol for expression and purification of IFN2 mutants (21) did not work properly for the  expression of YNS.
+We therefore elaborated a new expression  protocol, based on unfolding in guanidine HCl and refolding in  arginine (see Experimental Procedures).
+Using this protocol,  we were able to produce and purify 7.5 mg/liter of the IFN2-  YNS mutant.
+To examine its activity, we injected this mutant  alone or together with IFNAR1-EC, IFNAR2-EC, or both  receptor subunits to an analytical gel-filtration column (Fig. 2).
+  The peak corresponding to YNS was occluded by either receptor separately (orange and red lines), as well as by both receptors  together (dotted black line), while forming higher Mr heterodimers and ternary complexes, respectively.
+It should be  noted that the retention times of IFNAR1-EC and its complexes  are shorter than expected from their calculated molecular mass  (R1, 47 kDa; R2, 24.5 kDa; IFN, 18.5 kDa; R2  IFN, 43 kDa),  due to glycosylation of the protein during production (22).
+The  indicated receptor binding and ternary complex formation for  YNS is possible due to its higher affinity to IFNAR1-EC,  whereas occlusion of IFN2 WT by IFNAR1 was not detectable  in this type of assay.
+  YNS Binds IFNAR1 with 60-Fold Higher Affinity than Wildtype IFN2The binding affinities of various IFNs toward  IFNAR1-EC and IFNAR2-EC were measured using the multichannel ProteOn XPR36 instrument (Bio-Rad) (Fig. 3 and  Table 1).
+The binding affinity of the YNS mutant toward  IFNAR1-EC was 60-fold higher than that of the IFN2 WT and  about 3-fold higher than measured for IFN, HEQ, or MDL.
+In  contrast, the affinity of YNS, HEQ, and MDL toward the  IFNAR2 subunit was about equal to that of the IFN2 WT  protein.
+The binding parameters given here for IFN and the  HEQ mutant were similar to those reported by us previously  FIGURE 1.
+Specific enrichment of a phage population expressing a library  of mutated IFN2.
+y axis, the ratio between numbers of eluted phages from  IFNAR1-coated wells and wells lacking IFNAR1, as calculated by serial dilutions.
+x axis, panning round.
+Starting from the third round, phages were  eluted from wells in three steps, using 0.05, 0.1, and 0.2 M HCl.
+  FIGURE 2.
+The retention patterns of wild-type IFN2 and YNS when  injected along with IFNAR1 (R1) and/or IFNAR2 (R2) into a Sepharose  200GL analytical gel filtration column.
+y axis, detection of protein flow at  280 nm; x axis, retention volume.
+A ternary complex peak is visible with YNS  (14.2 ml), but not with wild-type IFN2 where two peaks, one of R2IFN and  the second of R1, are visible.
+  FIGURE 3.
+Representative IFNAR1-binding signals of YNS, IFN2 (WT),  HEQ, and IFN as recorded by the ProteOn with IFNAR1 being immobilized to the surface.
+The signals were normalized to the same relative signal  (1) to clearly show the differences in the rate of dissociation between these  different interferons.
+  Activity of an IFNAR1-binding Optimized IFN2 Mutant  APRIL 13, 2007VOLUME 282NUMBER 15 JOURNAL OF BIOLOGICAL CHEMISTRY 11605   at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from (18), but the affinity of IFN2 WT toward IFNAR1-EC is somewhat higher (1.9 versus 5 M).
+Due to the weak binding of  IFN2 WT to IFNAR1-EC, its calculated affinity relies on mass  action data rather than kinetic measurements as for the other  interferons.
+Moreover, the current measurements were done  on a ProteOn, whereas the previous measurements were done  using RIfS, with a different receptor immobilization method  applied in each study.
+  To verify the higher affinity of YNS also toward the full  IFNAR receptor complex within the cellular environment, a  binding competition assay on WISH cells was initiated.
+125ILabeled IFN2 WT was mixed with cold IFN (either WT or  YNS) at concentrations from 0.01 pM to 100 nM and binding of 125I to the cells was measured (see Experimental Procedures).
+  YNS exhibited a 20-fold lower IC50 value compared with the  wild-type protein (Table 1).
+The somewhat lower increase in  affinity compared with the in vitro assays can be attributed to  specific factors of the cellular environment, such as the effect of  receptor surface concentrations on ligand-receptor affinity  (28), the relative abundance of the receptors on the cell membrane, and the measuring of ternary complex stability rather  than single receptor subunit binding.
+Quantitative differences  between IC50 values and binding affinities toward purified  receptor subunits are frequently observed.
+  Antiproliferative and Antiviral Potencies of YNSNext, the  biological activities of YNS, MDL, HEQ, IFN2 WT, and IFN  were assessed on human WISH cells.
+Table 2 shows the antiproliferative and antiviral potencies of these interferons, which  were determined by their EC50 from a dose-response curve  (Equation 2).
+Consistent with its high affinity toward IFNAR1,  the YNS mutant exhibited the highest antiproliferative  potency, about 150-fold higher than the wild-type protein.
+  Importantly, the antiviral potency of YNS was only 3.5-fold  higher.
+This finding is in line with the small increase in antiviral  activity measured for the HEQ and MDL mutants and for IFN,  relative to their high antiproliferative potency, and further  stresses the notion that the antiproliferative activity is differentially affected by the binding affinity toward IFNAR1.
+  The activity of YNS was also assessed on MDA MB231  human breast cancer cells.
+The antiproliferative potency of  IFN2 on this cell line is similar to that measured onWISH cells  (Table 2).
+However, the increase in activity determined for YNS  and IFN is somewhat smaller (80- and 20-fold, relative to 150-  and 60-fold, respectively, Table 2).
+Interestingly, the antiviral  activity of YNS was 16-fold higher compared with IFN2 WT  on MDA cells.
+This is still much below the increase in the antiproliferative activity of this mutant, but above the small  increase observed in WISH cells.
+However, comparing the  absolute molar EC50 values for YNS in both cell lines shows that  they are virtually identical (0.2 versus 0.14 pM), suggesting that  the antiviral potency is close to its theoretical limit for IFN2  WT on WISH, but not on MDA231 cells.
+Differences in activities of interferon on different cell lines were commonly found  before.
+Nonetheless, both cell lines exhibit the same trend, with  the highest antiproliferative potency being measured for  IFN2-YNS, followed by IFN and a much lower potency for  IFN2 WT.
+Because YNS was a much more potent IFN mutant  than MDL (whose performance was similar to HEQ), further  characterization concentrated only on YNS.
+  The Higher Antiproliferative Potency of YNS Is Reflected by  Higher Levels of Apoptosis at Low Protein ConcentrationsThe  antiproliferative activity pattern of YNS presented an interesting phenomenon in which relatively low concentrations of the  YNS mutant were more efficient compared with IFN,  reflected by its lower EC50 value (Table 2), whereas at high  concentrations YNS reached a maximal activity (as measured  by cell density) similar to that observed for wild-type IFN2 and  the HEQ mutant, which is somewhat lower than the maximal  activity observed for IFN (18).
+The antiproliferative activity of  IFNs was previously reported to result from both growth arrest  (2931) and apoptosis (32).
+We therefore turned to focus on  the apoptotic activity of YNS.
+For this purpose, WISH cells  were incubated for 72 h with IFN2 WT, YNS, or IFN at  different concentrations, labeled with annexin V-FITC and PI,  TABLE 1  Kinetic and affinity binding values of interferons with their receptor subunits IFNAR1 and IFNAR2  Binding was measured using the SPR-based ProteOn XPR36 instrument.
+KD ratios are relative to wild-type IFN2 and determined from the ratio of kd/ka.
+  IFNAR1-EC IFNAR2-EC IC50 values on  WISH cellsa  ka kd KD Ratio ka kd  103 KD Ratio nM Ratio  M1 s  1 s  1 nM M1 s  1 b s  1 nM  IFN2 1900c 1 1   107 6.7 0.67 1 0.1  IFN 1.65   105 0.017 100 19 5   107 1.2 0.024 28  YNS 2   105 0.007 30 63 1   107 5 0.5 1.2 0.005 20  MDL 1.8   105 0.013 100 19 5 1.3  HEQ 1.6   105 0.017 110 18 1   107 6.9 0.69 1  a The IC50 values were determined by mixing cold IFN2 WT or YNS with 125I-labeled IFN2 (see Experimental Procedures).
+b ka values for binding IFNAR2 were measured using a stopped-flow (36).
+Each set of SPR measurements was averaged from six different analyte concentrations, and was repeated  3 times.
+c The affinity for IFN2 was determined using the mass-action equation over six different concentrations of the analyte.
+The error,  , for ka, kd, and KD values are 12, 25, and 35%,  respectively.
+  TABLE 2  Calculated EC50 values for wild type and mutant IFN2 and IFN  Antiproliferative activity Antiviral activity  WISH MDA 231 WISH MDA 231  EC50 Ratio EC50 Ratio EC50 Ratio EC50 Ratio  nM nM pM pM  IFN2 3.0 1 0.6 1 0.7 1 2.3 1  IFN 0.05 60 0.03 20 0.35 2.0  YNS 0.02 150 0.007 80 0.2 3.5 0.14 16  MDL 0.1 30 0.7 1.0  HEQ 25a 0.3 2.5  a Values were taken from Ref. 18.
+The experimental error ( ) for both assays was  35%, resulting in a 2   confidence level of 2-fold between treatments.
+  Activity of an IFNAR1-binding Optimized IFN2 Mutant  11606 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 282NUMBER 15APRIL 13, 2007   at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from and analyzed by flow cytometry.
+Annexin V is a specific apoptotic marker, whereas PI binds nucleic acids, thus detecting  necrotic cells in which the cell membrane is damaged.
+At this  point, we should mention that in this kind of cell culture it is  expected that the majority of apoptotic cells are already PI positive, i.e. the state of annexin V-positive/PI-negative is transient  (33).
+At low IFN concentrations, the apoptotic fraction was  highest in cells incubated with 30 pM YNS (Fig. 4), in agreement  with its EC50 (Table 2).
+Remarkably, at 1.5 nM IFN concentration, IFN slightly surpassed YNS, which has already reached  maximal activity at about 150 pM (similar apoptotic levels as  with 1.5 nM YNS), consistent with the maximal antiproliferative  activity of these IFNs after 3 days of incubation.
+However, after  longer incubation times the fraction of apoptotic cells induced  by YNS closely matches that of IFN.
+  4  YNS Is a Stronger ISG Inducer Than IFNWe have previously shown that the HEQ mutant induces a similar gene  expression profile as IFN (18).
+Here, we wanted to determine  whether the optimized YNS mutant could further increase the  induction of ISG expression.
+Accordingly, we monitored ISG  expression levels by quantitative PCR using the SYBR Green  method in human WISH cells treated with different concentrations of IFN2 WT, IFN, or YNS, for 8, 16, and 36 h. Fig. 5  shows the expression patterns of five genes selected from the  set of up-regulated genes in our microarray experiments (18).
+  Both YNS and IFN induced significantly higher expression levels  than IFN2 WT, but with the same expression pattern.
+Notably, the differences between IFNs and their different concentrations increased with treatment duration.
+At 8 h, all IFN treatments induced the expression of the genes tested at much the  same levels, whereas differences became apparent at the longer  treatments.
+Indeed, as the treatment length increased, YNS was  slightly more potent than IFN at the lower concentrations (30  pM), whereas IFN was more potent at the higher concentrations, in striking correlation with the antiproliferative activities  of these interferons.
+Of note, the expression levels of TRAIL, a  gene involved in the induction of apoptosis mainly by IFN and  less so by IFN (34), paralleled the apoptosis levels seen in Fig.  4, much like the relation observed between apoptosis and their  antiproliferation parameters: at the 30 pM concentrations, levels of TRAIL in cells incubated with YNS were the highest (particularly after 36 h), in agreement with the highest levels of  apoptosis at the same concentration; at the higher concentrations, IFN (150 pM) slightly surpasses the performance of YNS  (300 pM), and IFN2 WT at even 3 nM.  Phosphorylation of STAT1 Is Transient and Limited to the  Initial Few Hours of IFN SignalingSTAT1 is one of the main  IFN signal transducers, activated upon phosphorylation of  tyrosine at position 701.
+As the antiproliferative activity of IFN  on cell culture relies on continuous IFN treatment (data not  shown), we asked whether this activity, as well as ISG induction  at longer IFN treatments, requires STAT1 activity.
+Fig. 6A  shows that phosphorylated STAT1 rapidly accumulates at the  onset of the IFN treatment, reaching a maximum around 1 h of 4 D. A. Jaitin, R. Abramovich, and G. Schreiber, unpublished results.
+  FIGURE 4.
+Apoptotic activity of YNS, IFN WT, and IFN.
+Levels of phosphatidylserine in the outer leaflet of the plasma membrane, an apoptotic  marker detected by annexin V, were plotted along the y axis, and levels of cell  permeability (propidium iodide) were plotted along the x axis.
+Cells were  incubated in IFN for 72 h. A representative experiment from three repetitions  is shown.
+  FIGURE 5.
+Expression levels of selected genes upon IFN2 WT (orange  colors), IFN (blue colors), or YNS (gray colors) treatments as monitored  at the indicated time points and concentrations by real time PCR.
+  Activity of an IFNAR1-binding Optimized IFN2 Mutant  APRIL 13, 2007VOLUME 282NUMBER 15 JOURNAL OF BIOLOGICAL CHEMISTRY 11607   at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from 30 pM IFN2 induction, and around 30 min of 30 pM YNS, but  then gradually declines.
+Despite the strong induction of STAT1  protein levels at longer time points, in agreement with its gene  expression levels (18), no significant levels of pSTAT1 were  observed at prolonged IFN treatments, irrespective of the type  of IFN and its concentration used (Fig. 6B).
+These results seem  to indicate that other signaling elements mediate the IFN antiproliferative activity, in addition to or independently of the  canonical JAK/STAT signal transduction pathway.
+  The YNS Mutant Exhibits Increased Anti-tumor Activity in a  Mouse ModelFollowing the high antiproliferative activity of  YNS in tissue-cultured cells, we turned to assess its biological  potency as a tumor inhibitor in vivo.
+As human interferons are  active only in human cells, we extended the experiment to  breast cancer xenografts transplanted into nude mice.
+MDA  MB231 cells were subcutaneously injected to nude mice, and  the animals were divided into four treatment groups: YNS (n   6), wild type IFN2 (n  6), IFN (n  5), and buffer (PBS, n   6) as a negative control.
+These four treatments were injected  intraperitoneally twice a week, for a total of 5 weeks.
+Numbers  of tumor lumps and their relative size were evaluated and  recorded prior to each injection (Table 3).
+At the end of the  experiment (after 5 weeks), the animals were sacrificed, the size  of the lumps was measured, and samples were taken for histological analysis.
+Following 1 week of MDA231 cell injection, all  mice developed xenograft tumors.
+Within 26 days following the  first IFN injection, all xenograft tumors in the YNS-treated  mice were cleared, whereas in the wild-type treated group five  of six mice still displayed visible tumors.
+IFN-treated mice  were free of tumors 22 days after the first injection, with the  exception of a single lump.
+The PBS-treated group displayed visible tumors in all mice, which were larger compared with tumors in  the wild-type mice (Table 3 and Fig. 7A).
+Notably, the tumors of  four of six mice in the YNS-treated group went through a  necrotic process, as was the case for five of five tumors in the  IFN group.
+This phenomenon was absent in the wild-type  IFN2 and control groups.
+The remaining tumors, as well as  scars, were subjected to histological analysis (Fig. 7B).
+All sections from the YNS-treated group were clean of tumor cells,  displaying healthy scar tissues.
+The same picture was apparent  for sections from IFN-treated mice.
+The single visible lump in  the IFN group turned out to be an inflammatory response,  probably due to bacterial infection (implied by the large presence of neutrophils), and was clean of cancerous cells.
+Out of  the five visible tumors in the wild type-treated group, three  exhibited clear tumor morphology, and two consisted mainly of  fat cells.
+  DISCUSSION  IFN2 is the first approved biotherapy agent against human  malignancy, and is currently used in the clinic for the treatment  of different types of cancer, including hairy cell leukemia,  malignant melanoma, AIDS-related Kaposi sarcoma, follicular  lymphoma, and more.
+However, the efficiency of interferons in  the treatment of these malignancies varies, and for most solid  tumors remains poor.
+Treatments are limited by the varying  levels of cellular resistance exhibited by the tumors, and significant side effects that are most likely to stem from the pleiotropic nature of interferons.
+Our current understanding of the  molecular mechanisms that govern the diverse effects of interferons is incomplete.
+However, in a system consisting of 17  different ligands and a single shared receptor complex, receptor-ligand interactions are bound to play a significant functional role.
+Due to its low binding affinity toward IFN, IFNAR1  is widely referred to as the signaling subunit, confined to the  IFN signal transduction (35).
+In a recent work, we identified  three conserved positions on IFN2 that confer low binding  affinities toward IFNAR1 (25).
+Coupled to an enhanced  IFNAR1-binding affinity, combined alanine substitutions of  these three positions exhibited a higher antiproliferative activity in tissue culture, but only a minor change (2-fold) in antiviral activity (18).
+Given this substantial effect of the neutralized  positions, we assumed that an optimized IFNAR1 binder could  be engineered that will be used for further investigation of the  specific contributions of IFNAR1 to interferon activity.
+In the  work presented here, we successfully isolated such an optimized mutant using a phage display system.
+This elegant  method allows the rapid and simultaneous screen of extremely  diverse mutant libraries, whereas maintaining a physical link  FIGURE 6.
+STAT1 phosphorylation downstream of the IFN signal is transient and limited to the first few hours.
+A, pSTAT1 protein levels as induced  by 30 pM of either IFN2 WT or YNS.
+B, pSTAT1 protein levels at longer time  points as induced by either IFN2 WT or IFN at different concentrations.
+The  same amounts of total protein extracts were loaded per lane (40 g) and  verified by -tubulin levels (data not shown).
+  TABLE 3  Lump size of MDA231 breast cancer xenografts transplanted into  nude mice  Mice were injected with MDA231 cells on day 0, followed by injections of 20  g/mice of the different treatments at the indicated times.
+Six mice were treated for  each experimental condition, except five for IFN.
+Growth of tumors was estimated  by eye for all but day 34.
+On the last day (34) mice were sacrificed, and tumors were  extracted and measured.
+L, M, S and N stand for tumor size (in parentheses is the  measured diameter at day 34), L, large (5 mm); M, medium (2.55 mm); S, small  ( 2.5 mm); N, none.
+  Treatment  days  PBS IFN2 IFN YNS  LMSNLMSNLMSNLMSN  1 1 005 42 4 10 060  5 1 0411 0505 3 030  8 1 2211 0503 2 3 210  12 1 2 3 0 0 0 5 1 3 2 3 1 2 0  15 1 2 3 0 0 0 5 1 3 2 1 3 0 2  18 3 0 3 0 0 0 4 2 1 1 3 1 3 0 2  22 3 1 2 0 0 0 4 2 1 4 1 2 0 3  26 3 2 1 0 0 1 4 1 1 4 0 0 0 6  29 3 2 1 0 0 1 3 2 1 4 0 0 0 6  33 3 2 1 0 0 2 3 1 1 4 0 0 0 6  34 3 2 1 0 1 2 2 1 1 4 0 0 0 6  Activity of an IFNAR1-binding Optimized IFN2 Mutant  11608 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 282NUMBER 15APRIL 13, 2007   at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from between the displayed mutant and the DNA sequence encoding  it.
+Notably, within the most specific phage population along our  screen (following the fifth panning round) only four of 20 individually tested phages gave a significantly specific signal.
+This  was sufficient, however, for the identification of a clone with a  60-fold tighter binding affinity toward IFNAR1, bearing mutation Tyr57-Asn58-Ser61 (designated YNS).
+This binding affinity,  which is 3-fold stronger than that of IFN, is accompanied by  an affinity toward IFNAR2 similar to IFN2 wild-type, but  25-fold bellow that of IFN.
+The tighter binding of IFN to  IFNAR2 that is not accompanied by enhanced activity, suggests  that IFNAR1, and not IFNAR2 binding, is limiting the IFN biological activity.
+However, we have also shown that a mutation  on IFN2 where we replaced its tail with that of IFN8 resulted  in 20-fold increased binding affinity to IFNAR2 and 10-fold  increased antiproliferative potency (36).
+Thus, it seems that  activity cannot be simply described as the sum of binding affinities to the two receptors.
+  Notably, a unique role for IFNAR1 in IFN signaling has been  proposed by Pfeffer et al. (37) and later by Rani et al. (38), who  showed that this subunit can associate with PI3K in an indirect  or direct manner, respectively.
+A more defined role for PI3K as  a parallel pathway in IFN signaling was suggested by Thyrell et  al. (39), who showed that the treatment of multiple myeloma  cells with LY294002, an inhibitor of PI3K activity, inhibits IFNinduced apoptosis but not antiviral activity and STAT activation.
+However, in our system (usingWISH cells and IFN2WT,  YNS, or IFN) the inhibition of PI3K with LY294002 did not  have any effect on the antiproliferative activity of IFN.
+Indeed,  LY294002 inhibited cell growth in a dose-dependant manner,  but it did not alter the effects of interferon on growth as previously suggested (data not shown).
+In addition, we found no  apparent correlation between the IFN antiproliferative effect  and the phosphorylation of STAT1.
+This is particularly true  after longer times of IFN induction, which are absolutely  required for the antiproliferative response.4 Even though  STAT1 levels significantly rise during the long term induction,  they are not accompanied by phosphorylation (Fig. 6B).
+Yet, a  correlation was observed between apoptosis, the interferon  subtype used, its concentration and duration of treatment, and  specific gene expression patterns.
+This is particularly conspicuous in the TRAIL expression behavior (Fig. 5, TRAIL panel), a  gene highly implicated in interferon-mediated apoptosis (33).
+A  similar correlation was found by us also between IFNAR1 surface expression and antiproliferative activity of interferons.5  These observations suggest that additional factors are involved  in the transduction of the interferon antiproliferative signaling.
+  The YNS mutation changes the electrostatic profile of the  IFNAR1 binding surface (Fig. 8), as well as reduces the volume  of the side chains by 24 2  .
+The reduction in size seems to be an  important feature, as already the AAA mutation (termed HEQ  in Table 1) confers a 20-fold higher binding affinity compared  with the wild-type His, Glu, and Gln residues.
+However, the  YNS mutation adds additional binding energy over the AAA  mutation (whereas the MDL mutant does not), suggesting that  these residues also make new specific interactions with  IFNAR1, in addition to removing negatively contributing side  chains on the wild-type protein.
+One should note that the wild5 D. A. Jaitin, unpublished results.
+  FIGURE 7.
+Interferon activity in MDA231 breast cancer xenografts transplantedintonudemice.
+A,differencesbetween theobservedhealingprocessof  wild-type, YNS-, and IFN-treated tumors.
+Representative images from different  mice within each group are given.
+B, histological analysis (H&E staining) of visible  MDA231 tumors (PBS, wild type IFN2) or remaining scars (YNS, IFN) from  treated nude mice.
+Left lane, low magnification; right lane, high magnification.
+  Activity of an IFNAR1-binding Optimized IFN2 Mutant  APRIL 13, 2007VOLUME 282NUMBER 15 JOURNAL OF BIOLOGICAL CHEMISTRY 11609   at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from type HEQ residues are evolutionary conserved, suggesting that  weak binding is important for differential IFN action (18, 25).
+  As we expected, the antiproliferative potency of the YNS  mutant as measured in WISH cells substantially increased to an  EC50 value of 0.02 nM, which is 150-fold greater than for the  wild-type protein.
+The antiproliferative activity of YNS was  much higher compared with that of IFN2 wild-type or IFN,  also in MDA231 cells, suggesting that the enhanced activity is  not limited to WISH cells.
+Moreover, as MDA231 cells originate from human breast cancer, the anti-malignant activity of  YNS becomes evident.
+In marked contrast, the antiviral activity  of YNS was only slightly enhanced (3.5-fold).
+The significant  differences in biological responses within this unprecedented  range of affinity values support former data regarding the role  of IFNAR1 in facilitating the differential activities of IFNs in  cells, particularly that of IFN (see also Ref. 18).
+  In line with the observed activities in tissue culture, the  mouse xenograft experiment indicated that the efficiency of  YNS in eradicating MDA231 tumor cells is significantly high  also in an animal model.
+No tumors were visible following 26  and 22 days of treatment with YNS and IFN, respectively, as  was also confirmed by a following histological analysis.
+Tumor  morphology throughout the experiment provided us with  important information regarding an additional aspect of YNS  activity: a necrotic process accompanied tumor regression in  mice treated with YNS, as opposed to the wild-type IFN2 that  failed to induce this effect within the tested concentrations.
+A  similar necrotic process was evident in the IFN-treated group.
+  The observed process was identified as resulting from ischemia,  following a failure of the tumor cells to induce neovascularization within their microenvironment (40).
+The formation of new  blood vessels around tumors reflects a balance between proand anti-angiogenic factors, which  are produced by both the tumor  cells and the host (41); because  murine cells are not responsive to  human IFNs (42), the observed  effects can be attributed only to the  inhibition of pro-angiogenesis processes within the tumor cells.
+  Indeed, the inhibition of angiogenesis in tumors following exposure to  type I IFNs is well documented (42  44), and is ascribed to an IFN-induced down-regulation of pro-angiogenic genes such as bFGF, VEGF,  and MMP-9 (13, 45).
+The ability of  YNS to exert a significant anti-angiogenic effect, which cannot be  achieved using similar doses of the  wild-type protein IFN2, adds to its  enhanced antiproliferative potency  in the overall anti-tumor activity  observed in vivo.
+These data are of  particular value when considering  the relatively low effectiveness of  IFN2 on most solid tumorsin vivo,  and might provide the grounds for  the design of novel therapeutic agents of the IFN family.
+At the  molecular level, enhancement of the antiproliferative activity of  IFN2 in a discrete manner will make corresponding signaling  pathways easier to monitor, based on observed signal augmentation specifically relayed by YNS.
+  In this work we went from the IFN2 screening toward an  optimized IFNAR1-binding mutant, through its biophysical  characterization, evaluation of its biological activity showing  increased antiproliferative potency, and eventually demonstration of its enhanced antitumor activity in a mouse xenograft  model.
+Apart from the gained insights on the molecular mechanisms of IFN action, we demonstrated the importance of connecting proper biophysical understanding of a biological process along with a profound knowledge of the proteins involved,  to obtain a specifically optimized protein that is highly active,  and can potentially be used as a drug.
+  AcknowledgmentsWe thank Dr. Tal Peleg-Shulman for supporting  the setup of the phage display system, Dr. Ori Brenner for help in the  histological analysis, Prof. Lea Eisenbach for fruitful discussions,  Jacob Piehler, Daniela Novick, and Darren Baker for providing us  with IFNAR1 and the DB2, AA3, 46.10, and 117.7 antibodies, and  Prof. Yoram Shechter for help in the binding experiments.
+  REFERENCES  1.
+Klaus, W., Gsell, B., Labhardt, A. M., Wipf, B., and Senn, H. (1997) J. Mol.  Biol.
+274, 661675  2. Chen, J. B., Baig, E., and Fish, E. N. (2004) J. Interferon Cytokine Res. 24,  687698  3.
+Uze, G., Lutfalla, G., and Gresser, I. (1990) Cell 60, 225234  4.
+Cohen, B., Novick, D., Barak, S., and Rubinstein, M. (1995) Mol. Cell.
+Biol.  15, 42084214  5.
+Brierley, M. M., and Fish, E. N. (2002) J. Interferon Cytokine Res. 22,  FIGURE 8.
+Surface representation of WT IFN2 and the YNS mutant, color coded according to the electrostatic potential on the surface, with red and blue representing a change of 3 and 3 kT/e,  respectively.
+  Activity of an IFNAR1-binding Optimized IFN2 Mutant  11610 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 282NUMBER 15APRIL 13, 2007   at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from 835845  6.
+Stark, G. R., Kerr, I. M., Williams, B. R., Silverman, R. H., and Schreiber,  R. D. (1998) Annu.
+Rev. Biochem. 67, 227264  7.
+Haller, O., Kochs, G., and Weber, F. (2006) Virology 344, 119130  8.
+Theofilopoulos, A. N., Baccala, R., Beutler, B., and Kono, D. H. (2005)  Annu.
+Rev. Immunol. 23, 307336  9.
+Platanias, L. C. (2005) Nat.
+Rev. Immunol. 5, 375386  10.
+Cooksley, W. G., Piratvisuth, T., Lee, S. D., Mahachai, V., Chao, Y. C.,  Tanwandee, T., Chutaputti, A., Chang, W. Y., Zahm, F. E., and Pluck, N.  (2003) J. Viral Hepatitis 10, 298305  11.
+Goodin, D. S., Frohman, E. M., Garmany, G. P., Halper, J., Likosky, W. H.,  Lublin, F. D., Silberberg, D. H., Stuart, W. H., and van den Noort, S. (2002)  Neurology 58, 169178  12.
+Caraglia, M., Vitale, G., Marra, M., Budillon, A., Tagliaferri, P., and Abbruzzese, A. (2004) Curr.
+Protein Peptide Sci. 5, 475485  13.
+Slaton, J. W., Karashima, T., Perrotte, P., Inoue, K., Kim, S. J., Izawa, J.,  Kedar, D., McConkey, D. J., Millikan, R., Sweeney, P., Yoshikawa, C.,  Shuin, T., and Dinney, C. P. (2001) Clin.
+Cancer Res.
+7, 28402853  14. Einhorn, S., and Grander, D. (1996) J. Interferon Cytokine Res.
+16, 275281  15. Rosenblum, M. G., Yung,W. K., Kelleher, P. J., Ruzicka, F., Steck, P. A., and  Borden, E. C. (1990) J. Interferon Res. 10, 141151  16.
+Grumbach, I. M., Fish, E. N., Uddin, S., Majchrzak, B., Colamonici, O. R.,  Figulla, H. R., Heim, A., and Platanias, L. C. (1999) J. Interferon Cytokine  Res. 19, 797801  17.
+Piehler, J., Roisman, L. C., and Schreiber, G. (2000) J. Biol. Chem. 275,  4042540433  18.
+Jaitin, D. A., Roisman, L. C., Jaks, E., Gavutis, M., Piehler, J., Van der  Heyden, J., Uze, G., and Schreiber, G. (2006) Mol. Cell.
+Biol. 26,  18881897  19. Sidhu, S. S., Lowman, H. B., Cunningham, B. C., and Wells, J. A. (2000)  Methods Enzymol. 328, 333363  20.
+Goldman, L. A., Zafari, M., Cutrone, E. C., Dang, A. J., Brickelmeier, M.,  Runkel, L., Benjamin, C. D., Ling, L. E., and Langer, J. A. (1999) J. Interferon  Cytokine Res.
+19, 1526  21.
+Piehler, J., and Schreiber, G. (1999) J. Mol. Biol. 289, 5767  22. Lamken, P., Lata, S., Gavutis, M., and Piehler, J. (2004) J. Mol. Biol. 341,  303318  23.
+Piehler, J., and Schreiber, G. (2001) Anal.
+Biochem. 289, 173186  24.
+Jacobs, S., Hazum, E., Shechter, Y., and Cuatrecasas, P. (1979) Proc. Natl.  Acad. Sci. U. S. A. 76, 49184921  25. Roisman, L. C., Jaitin, D. A., Baker, D. P., and Schreiber, G. (2005) J. Mol.  Biol. 353, 271281  26.
+Rubinstein, M., and Pestka, S. (1981) Methods Enzymol. 78, 464472  27.
+Wagner, T. C., Velichko, S., Chesney, S. K., Biroc, S., Harde, D., Vogel, D.,  and Croze, E. (2004) Int.
+J. Cancer 111, 3242  28.
+Jaks, E., Gavutis, M., Uze, G., Martal, J., and Piehler, J. (2007) J. Mol. Biol.  366, 525539  29. Tiefenbrun, N., Melamed, D., Levy, N., Resnitzky, D., Hoffman, I., Reed,  S. I., and Kimchi, A. (1996) Mol. Cell.
+Biol. 16, 39343944  30.
+Subramaniam, P. S., Cruz, P. E., Hobeika, A. C., and Johnson, H. M. (1998)  Oncogene 16, 18851890  31.
+Vannucchi, S., Chiantore, M. V., Fiorucci, G., Percario, Z. A., Leone, S.,  Affabris, E., and Romeo, G. (2005) Oncogene 24, 25362546  32.
+Pokrovskaja, K., Panaretakis, T., and Grander, D. (2005) J. Interferon Cytokine Res. 25, 799810  33.
+Riss, T. L., and Moravec, R. A. (2004) Assay Drug Dev. Technol. 2, 5162  34. Chawla-Sarkar, M., Leaman, D. W., and Borden, E. C. (2001) Clin.
+Cancer  Res.
+7, 18211831  35. Domanski, P., and Colamonici, O. R. (1996) Cytokine Growth Factor Rev.  7, 143151  36.
+Slutzki, M., Jaitin, D. A., Yehezkel, T. B., and Schreiber, G. (2006) J. Mol.  Biol.
+360, 10191030  37.
+Pfeffer, L. M., Mullersman, J. E., Pfeffer, S. R., Murti, A., Shi, W., and Yang,  C. H. (1997) Science 276, 14181420  38.
+Rani, M. R. S., Leaman, D. W., Han, Y. L., Leung, S., Croze, E., Fish, E. N.,  Wolfman, A., and Ransohoff, R. M. (1999) J. Biol. Chem. 274,  3250732511  39.
+Thyrell, L., Hjortsberg, L., Arulampalam, V., Panaretakis, T., Uhles, S.,  Dagnell, M., Zhivotovsky, B., Leibiger, I., Grander, D., and Pokrovskaja, K.  (2004) J. Biol. Chem. 279, 2415224162  40.
+Dvorak, H. F., and Gresser, I. (1989) J. Natl. Cancer Inst. 81, 497502  41.
+Fidler, I. J. (2001) J. Natl. Cancer Inst. Monogr.
+1014  42.
+Sidky, Y. A., and Borden, E. C. (1987) Cancer Res. 47, 51555161  43.
+Streck, C. J., Ng, C. Y., Zhang, Y., Zhou, J., Nathwani, A. C., and Davidoff,  A. M. (2005) Cancer Lett. 228, 163170  44.
+Slaton, J. W., Perrotte, P., Inoue, K., Dinney, C. P., and Fidler, I. J. (1999)  Clin.
+Cancer Res.
+5, 27262734  45.
+von Marschall, Z., Scholz, A., Cramer, T., Schafer, G., Schirner, M., Oberg,  K., Wiedenmann, B., Hocker, M., and Rosewicz, S. (2003) J. Natl.
+Cancer  Inst. 95, 437448  Activity of an IFNAR1-binding Optimized IFN2 Mutant  APRIL 13, 2007VOLUME 282NUMBER 15 JOURNAL OF BIOLOGICAL CHEMISTRY 11611   at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from Abramovich and Gideon Schreiber  Eyal Kalie, Diego A. Jaitin, Renne     Activities  Confers Specifically Enhanced Antitumor  Phage Display for IFNAR1 Binding   An Interferon 2 Mutant Optimized by  Mechanisms of Signal Transduction:  doi: 10.1074/jbc.
+M610115200 originally published online February 19, 2007  J. Biol. Chem. 2007, 282:11602-11611.
+     Access the most updated version of this article at doi: 10.1074/jbc.
+M610115200     Find articles, minireviews, Reflections and Classics on similar topics on the JBC Affinity Sites.
+  Alerts:       When a correction for this article is posted   When this article is cited  Click here to choose from all of JBC's e-mail alerts     http://www.jbc.org/content/282/15/11602.full.html#ref-list-1  This article cites 44 references, 15 of which can be accessed free at   at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from

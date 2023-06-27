@@ -1,0 +1,391 @@
+A Mutational Analysis of Binding Interactions in an Antigen-Antibody  Protein-Protein Complex  William DallAcqua,,|, Ellen R. Goldman,, Wenhong Lin, Connie Teng, Daisuke Tsuchiya, Hongmin Li,  Xavier Ysern,# Bradford C. Braden,,3 Yili Li,O Sandra J. Smith-Gill,O and Roy A. Mariuzza*,  Center for AdVanced Research in Biotechnology, UniVersity of Maryland Biotechnology Institute, 9600 Gudelsky DriVe,  RockVille, Maryland 20850, Center for Drug EValuation and Research, U.S. Food and Drug Administration, 5600 Fishers Lane,  RockVille, Maryland 20857, Bowie State UniVersity, Bowie, Maryland 20715, and National Cancer Institute,  National Institutes of Health, Bethesda, Maryland 20892  ReceiVed January 20, 1998; ReVised Manuscript ReceiVed March 16, 1998  ABSTRACT: Alanine scanning mutagenesis, double mutant cycles, and X-ray crystallography were used to  characterize the interface between the anti-hen egg white lysozyme (HEL) antibody D1.3 and HEL.
+Twelve  out of the 13 nonglycine contact residues on HEL, as determined by the high-resolution crystal structure  of the D1.3-HEL complex, were individually truncated to alanine.
+Only four positions showed a G  (Gmutant - Gwild-type) of greater than 1.0 kcal/mol, with HEL residue Gln121 proving the most critical  for binding (G ) 2.9 kcal/mol).
+These residues form a contiguous patch at the periphery of the epitope  recognized by D1.3.
+To understand how potentially disruptive mutations in the antigen are accommodated  in the D1.3-HEL interface, we determined the crystal structure to 1.5  resolution of the complex between  D1.3 and HEL mutant Asp18 f Ala. This mutation results in a G of only 0.3 kcal/mol, despite the  loss of a hydrogen bond and seven van der Waals contacts to the Asp18 side chain.
+The crystal structure  reveals that three additional water molecules are stably incorporated in the antigen-antibody interface at  the site of the mutation.
+These waters help fill the cavity created by the mutation and form part of a  rearranged solvent network linking the two proteins.
+To further dissect the energetics of specific interactions  in the D1.3-HEL interface, double mutant cycles were carried out to measure the coupling of 14 amino  acid pairs, 10 of which are in direct contact in the crystal structure.
+The highest coupling energies, 2.7  and 2.0 kcal/mol, were measured between HEL residue Gln121 and D1.3 residues VLTrp92 and VLTyr32, respectively.
+The interaction between Gln121 and VLTrp92 consists of three van der Waals contacts,  while the interaction of Gln121 with VLTyr32 is mediated by a hydrogen bond.
+Surprisingly, however,  most cycles between interface residues in direct contact in the crystal structure showed no significant  coupling.
+In particular, a number of hydrogen-bonded residue pairs were found to make no net contribution  to complex stabilization.
+We attribute these results to accessibility of the mutation sites to water, such  that the mutated residues exchange their interaction with each other to interact with water.
+This implies  that the strength of the protein-protein hydrogen bonds in these particular cases is comparable to that of  the protein-water hydrogen bonds they replace.
+Thus, the simple fact that two residues are in direct  contact in a protein-protein interface cannot be taken as evidence that there necessarily exists a productive  interaction between them.
+Rather, the majority of such contacts may be energetically neutral, as in the  D1.3-HEL complex.
+  A detailed knowledge of the molecular basis of proteinprotein recognition is an essential element in understanding  protein function, since the ability of proteins to form specific  complexes with other proteins underlies most cellular  processes.
+X-ray crystallographic studies of protein-protein  complexes have provided much valuable information on the  molecular architecture of protein-protein interfaces, including the identity of contact residues, the amount of buried  surface area, the number and type of hydrogen bonds and  van der Waals contacts, and the magnitude of conformational  changes associated with complex formation (1-4).
+However, the relative contributions of surface complementarity,  hydrophobicity, and hydrogen bonding to the energetics of  binding, as well as the role of bound water molecules in  complex stabilization, remain to be elucidated.
+Furthermore,  the structural and functional consequences of specific amino  acid substitutions in a protein-protein interface are still  difficult to predict (5-7).
+Finally, the number, nature, and  location of interface residues that actively participate in  complex formation are an important issue; this has given  rise to the notion of functional or energetic epitopes   This work was supported by NIH Grant GM5280 and the Lucille  P. Markey Charitable Trust.
+   Atomic coordinates have been deposited in the Brookhaven Data  Bank as entry 1A2Y.
+  * To whom correspondence should be addressed.
+Tel: 301-738-6243.  Fax: 301-738-6255.
+E-mail: mariuzza@indigo2.carb.nist.gov.
+   University of Maryland Biotechnology Institute.  | Present address: Department of Molecular Oncology, Genentech  Inc., 1 DNA Way, South San Francisco, CA 94080.  These authors contributed equally to this work.
+  # Center for Drug Evaluation and Research.  3 Bowie State University.  O National Cancer Institute.  Biochemistry 1998, 37, 7981-7991 7981  S0006-2960(98)00148-2 CCC: $15.00  1998 American Chemical Society  Published on Web 05/14/1998defined by those contact residues accounting for most of the  binding energy.
+Some authors have described different  classes of functional epitopes (8-10) and questioned the  widely held view that protein-protein association is invariably mediated by only a few strong noncovalent interactions  (11-14).
+This highlights the complexity of protein-protein  association processes and serves as a warning against  temptations to generalize them. It is therefore apparent that  further structure-function studies are required in order to  progress from purely anatomical descriptions of proteinprotein interfaces to a precise understanding of how structural  features contribute to the affinity and specificity of binding  reactions.
+  Antigen-antibody complexes represent excellent models  for studying the structure and energetics of protein-protein  interactions (5, 6, 15-17).
+We have developed two independent, yet related, systems for this purpose: (1) the  complex between the bacterially expressed Fv fragment (a  heterodimer consisting of only the light and heavy chain  variable regions, VL and VH) of the anti-hen egg white  lysozyme (HEL)1 antibody D1.3 and HEL and (2) the  complex between FvD1.3 and the Fv fragment of the antiD1.3 antibody E5.2.
+The crystal structures of the FvD1.3-  HEL and FvD1.3-FvE5.2 complexes have been determined  to 1.8 and 1.9  resolution, respectively (18-20).
+In  addition, site-directed mutants of FvD1.3 and FvE5.2 can  be readily produced as secreted proteins in the periplasmic  space of Escherichia coli and their affinities measured by  surface plasmon resonance detection, equilibrium sedimentation, or titration calorimetry.
+  We previously analyzed the relative contributions of  individual residues of D1.3 to binding HEL and E5.2 by  alanine scanning mutagenesis and showed that the functionally important residues of D1.3 are different for binding these  two proteins, even though D1.3 contacts HEL and E5.2  through essentially the same set of combining site residues  (and most of the same atoms) (8). Thus, the same protein  may recognize different ligands in ways that are structurally  similar yet energetically distinct.
+To further map the D1.3-  E5.2 interface, double mutant cycles (21-23) were carried  out to measure the coupling energies (Gint) between  specific residue pairs (9).
+The highest Gint (4.3 kcal/mol)  was measured for a charged-neutral pair that forms a buried  hydrogen bond, while side chains that interact through  solvated hydrogen bonds had lower values (1.3-1.7 kcal/  mol).
+Interaction energies of similar magnitude (1.3-1.6  kcal/mol) were measured for residues forming only van der  Waals contacts.
+These results were broadly consistent with  expectations based on the three-dimensional structure of the  FvD1.3-FvE5.2 complex.
+  In the current study, we have extended our analysis of  binding interactions in the D1.3-HEL interface by sitedirected mutagenesis and X-ray crystallography to include  mutants of the antigen.
+A previous limitation of the  FvD1.3-HEL system was the lack of an efficient method  for expressing HEL mutants in secreted form in bacteria, as  for FvD1.3 and FvE5.2.
+We have now produced such  mutants by in vitro refolding from bacterial inclusion bodies,  as well as by secretion in yeast.
+Twelve nonglycine residues  of HEL in contact with D1.3 were individually mutated to  alanine and the affinities of the mutants for D1.3 determined  using surface plasmon resonance detection.
+We show that  the energetics of binding to the antibody are dominated by  only a small subset of HEL residues tested (2 of 12).
+This  is similar to the D1.3 side of the interface where only 3 out  of 13 contact residues contribute significantly to binding  HEL.
+In contrast, the binding of E5.2 by D1.3 is mediated  by a much larger subset of D1.3 residues (11 of 15) in contact  with E5.2 in the crystal structure (8). Thus, the D1.3-HEL  interface, unlike that between D1.3 and E5.2, is remarkably  tolerant to mutations.
+To understand how potentially destabilizing mutations are accommodated in the D1.3-HEL  interface, we determined the crystal structure to 1.5   resolution of the complex between FvD1.3 and a mutant of  HEL, Asp18 f Ala. Although this mutation results in the  loss of a hydrogen bond and a number of van der Waals  contacts to the Asp18 side chain, the affinity of the mutant  for D1.3 is nearly identical to that of wild-type HEL.
+The  crystal structure reveals a rearrangement of solvent structure  at the site of the mutation, but no significant changes in  protein structure.
+To further dissect the energetics of the  FvD1.3-HEL interface, double mutant cycles were constructed for 10 residue pairs in direct contact in the crystal  structure.
+In contrast to the D1.3-E5.2 interface in which  nearly all residues within 4  of each other had coupling  energies exceeding 1.0 kcal/mol, most contacting residues  in the D1.3-HEL interface showed no significant coupling.
+  These included residue pairs forming hydrogen bonds which,  on the basis of donor-acceptor distance and relative orientation of the interacting groups, were expected to be strong.
+  The reasons for the marked differences between actual and  expected coupling energies for these residue pairs are  discussed in terms of the theory of double mutant cycles  and the high-resolution crystal structure of mutant FvD1.3-  HEL complexes.
+  MATERIALS AND METHODS  Reagents.
+All chemicals were of analytical grade.
+Restriction enzymes and DNA-modifying enzymes were purchased from New England Biolabs, Inc. (Beverly, MA).
+  Oligonucleotides were synthesized on a 380B DNA synthesizer (Applied Biosystems, Foster City, CA).
+Radiolabeled  [35S]dATP was obtained from Amersham Corp.  Production of Wild-Type and Mutant FV Fragments.
+The  single-chain version of FvD1.3 (scFvD1.3; 24) and of the  mutants was expressed in E. coli BMH 71-18 cells as  previously described (8).
+The scFv fragments were purified  from culture supernatants by affinity chromatography using  either the anti-D1.3 antibody E5.2 or HEL coupled to  Sepharose 4B.
+Prior to BIAcore analysis, all scFv fragments  were further purified by size exclusion chromatography on  a Superose 12 column (Pharmacia, Uppsala, Sweden) in 0.2  M sodium phosphate, pH 7.4, to eliminate aggregated  material which could interfere with affinity measurements  (25).
+  In Vitro Refolding of HEL Mutants from Bacterial Inclusion Bodies.
+A cDNA encoding HEL inserted into the pSP72  cloning vector was kindly provided by Dr. Jose Moreno1 Abbreviations: HEL, hen egg white lysozyme; scFv, single chain  Fv fragment; PBS, phosphate-buffered saline; RU, resonance units;  CDR, complementarity-determining region; VL, light-chain variable  region; VH, heavy-chain variable region.
+  7982 Biochemistry, Vol. 37, No. 22, 1998 DallAcqua et al.Rodriguez (Centro Medico National Siglo XXI IMSS,  Mexico City).
+Two NdeI sites were introduced at the 5 and  3 ends of the HEL gene by the polymerase chain reaction,  using the primers 5-GGGAATTCCATATGAAAGTCTTTGGAC-3 and 5-TTCCCAAGCATATGTTATTACAGACGGCAACC-3 (NdeI sites underlined), to permitted cloning  into the pET11a expression vector (Stratagene, La Jolla, CA)  as an NdeI fragment.
+The sequence was verified by the  dideoxynucleotide sequencing method (26) using a Sequenase Version 2.0 Kit (USB, Cleveland, OH).
+  E. coli strain BL21(DE3) was transformed with constructs  expressing the different HEL mutants.
+Fresh transformants  were always used for protein production.
+A 10 mL preculture in Luria-Bertani medium containing 100 g/mL ampicillin was grown at 37 C under agitation to an absorbance  of 1.0 at 600 nm.
+This preculture was then used to inoculate  500 mL of LB containing 100 g/mL ampicillin.
+The  bacteria were grown at 37 C to an absorbance of 1.0, and  isopropyl -D-thiogalactoside was added to a final concentration of 1 mM. After 2 h of further incubation, the bacteria  were pelleted and frozen at -70 C.
+The frozen cells were  resuspended in 25 mL of 50 mM Bis-Tris, pH 6.0, and passed  through a French press twice at 1300 psi.
+The lysate was  centrifuged for 15 min at 10 000 rpm and the pellet washed  twice with 25 mL of Bis-Tris buffer.
+Each wash consisted  of resuspending the pellet and then centrifuging 10 min at  10 000 rpm.
+The final pellet was resuspended in 1 mL of  the Bis-Tris buffer, layered on a solution of 50% sucrose  (w/v) in Bis-Tris, and spun in an ultracentrifuge for 1 h at  30 000 rpm.
+After centrifugation, the sucrose solution was  discarded and the pellet washed twice with 25 mL Bis-Tris  buffer, twice with 25 mL of a solution of 0.5% (v/v) Triton  X-100, 1 mM EDTA, and 50 mM DTT in Bis-Tris, and a  final two times with Bis-Tris alone.
+The pellet was  resuspended in 15 mL of buffer A (8 M urea and 50 mM  DTT in Bis-Tris buffer), put under a nitrogen atmosphere,  sealed, and agitated overnight with a magnetic stirrer.
+  The next day the mix was transferred into microfuge tubes  and centrifuged for 10 min.
+The supernatant was loaded at  room temperature under gravity onto a 3 mL S-Sepharose  (Pharmacia) column which had been equilibrated with buffer  A. After loading, the column was washed with 40 mL of  buffer A and eluted with a gradient of buffer B (buffer A  containing 0.5 M NaCl).
+Thirteen 1.5 mL fractions were  collected, and the absorbance at 280 nm was measured to  identify protein-containing fractions; HEL mutants usually  eluted in fractions 6-10.
+The peak fractions were combined  so as not to exceed 1 mg/mL ( ) 2.37 mL/mg for denatured  HEL; 27).
+Three hundred milliliters of a renaturation mix  (3 M sarcosine, 4 M urea, 0.1 M Tris-HCl, pH 8.0, 1 mM  EDTA, 3 mM reduced glutathione, and 0.3 mM oxidized  glutathione) was prepared, filtered, and prewarmed to 40 C  for each preparation (28).
+The purified, denatured mutant  HEL was added dropwise to the renaturation buffer under  vigorous agitation to a final concentration of not more than  0.02 mg/mL. The renaturation mix was incubated at 40 C  overnight and then dialyzed extensively against phosphatebuffered saline (PBS) at 4 C; the dialysis bags were inverted  every few hours to homogenize the mixture.
+The protein  solution was concentrated from about 600 mL after dialysis  to 1 mL, using first an Amicon 8200 and then a Millipore  Ultrafree-15 (Bedford, MA) concentrator.
+Each HEL preparation was tested for lysozyme activity using Micrococcus  lysodeikticus cells from Sigma (St. Louis, MO) according  to Charlemagne and Jolles (29).
+Refolded HEL mutants were  further purified on a Mono S cation-exchange FPLC column  (Pharmacia) equilibrated with 50 mM MES, pH 6.5, and  developed with a linear NaCl gradient.
+All mutants eluted  as two major peaks between 0.3 and 0.4 M NaCl.
+The peaks  had lysozyme activities indistinguishable from that of commercial HEL and behaved identically in BIAcore experiments.
+Refolding yields were typically 2-5%.
+  Site-Directed Mutagenesis.
+Mutagenesis of HEL was  carried out after subcloning the gene as an XbaI/HindIII  fragment into M13mp19 as described (30) with a Muta-Gene  M13 in vitro Mutagenesis Kit (Bio-Rad, Richmond, CA).
+  Mutagenic oligonucleotides were designed to replace the  wild-type codons with that for alanine (GCT).
+Mutants of  scFvD1.3 were obtained previously (8).
+Prior to expression,  all mutations were confirmed by DNA sequencing.
+  Affinity Measurements.
+The interaction of soluble scFvD1.3  with immobilized HEL was measured by surface plasmon  resonance detection using a BIAcore instrument (Pharmacia  Biosensor, Uppsala, Sweden) as described (8).
+The data  were analyzed using the BIAevaluation 2.1 software package  (Pharmacia).
+Association constants (KAs) were determined  from Scatchard analysis, after correction for nonspecific  binding, by measuring the concentration of free reactants and  complex at equilibrium.
+Standard deviations for two or more  independent KA determinations were typically <30%.
+  Production of HEL Mutant D18A in Yeast.
+HEL mutant  Asp18 f Ala (HEL D18A) was produced using an Invitrogen Pichia Expression Kit (San Diego, CA).
+A cDNA  sequence encoding the mutant protein fused with the leader  sequence of R mating factor was cloned into plasmid pPic9  as a XhoI/NotI fragment (31).
+Yeast from a single colony  transformed with this plasmid was grown in 25 mL of  BMGY medium at 28-30 C in a shaking incubator at 200-  250 rpm.
+After the culture reached an absorbance of 2.0 at  600 nm, the cells were harvested by centrifuging at 1500g  for 5 min at room temperature.
+The pellet was suspended  in BMMY medium to an absorbance of 1.0 prior to induction.
+  Methanol was added to the culture to a final concentration  of 0.5% (v/v) every 24 h to maintain induction.
+The culture  was harvested by centrifugation after 3 days.
+The supernatant containing secreted HEL D18A was dialyzed overnight  against 0.1 M ammonium acetate, pH 9.0, and loaded on a  3 mL CM-Sepharose Fast Flow column (Pharmacia) previously equilibrated with the same buffer (32).
+The column  was washed with 10 vol of buffer; HEL D18A was eluted  with 5 column vol of 0.5 M ammonium acetate, pH 9.0.
+The  fractions containing protein were concentrated using a  Millipore Centrifugal Filter Device and further purified on  a MonoS column as described above for HEL mutants  refolded in vitro.
+  Crystallography.
+A small molar excess of HEL D18A  was added to FvD1.3 prepared as described (33) and the  mutant complex crystallized by vapor diffusion in hanging  drops.
+The crystallization conditions were similar to those  for the wild-type FvD1.3-HEL complex (34): 16% (w/v)  poly(ethylene glycol) 8000 (Sigma) and 0.1 M potassium  phosphate, pH 6.5.
+The mutant complex crystallized isomorphously with the wild-type in space group C2, a ) 128  , b ) 59.8 , c ) 56.3 , and  ) 119.3.
+Two sets of  Mutational Analysis of an Antigen-Antibody Complex Biochemistry, Vol. 37, No. 22, 1998 7983X-ray diffraction data were independently collected for the  structure determination (Table 1).
+Data set 1 was recorded  from one complex crystal at 100 K using a Siemens Hi-Star  multiwire area detector mounted on a Siemens rotating anode  X-ray generator.
+The crystal was soaked in 16% (w/v) poly-  (ethylene glycol) 8000, 20% glycerol, and 0.1 potassium  phosphate, pH 6.5, prior to flash-cooling in liquid N2.
+A  total of 85 606 observations were scaled and reduced to  31 162 independent reflections using XENGEN version 2.1  (35; Table 1).
+The data set is 90.1% complete in the  resolution range infinity-1.8  with Rmerge) 5.9 and 77.8%  complete between 1.9 and 1.8  with Rmerge) 18.3%.
+The  starting structure for the refinement was that of the wildtype complex (18) in which HEL Asp18 was replaced with  Ala. After rigid body refinement, the temperature factors  (B) of all atoms were shifted by the grouped B factor  refinement option of the program X-PLOR (36), which  simultaneously subtracted approximately 9 2 from the B  factors of all atoms.
+This presumably reflects the low  temperature at which the mutant data were collected (data  for the wild-type complex had been recorded at room  temperature).
+Further refinement consisted of iterative cycles  of simulated annealing, positional refinement, and individual  B factor refinement interspersed with manual model fitting  into Fo - Fc and 2Fo - Fc electron density maps using O  (37).
+During refinement, a higher resolution (1.5 ) data  set became available (data set 2; Table 1).
+These data were  recorded at 100 K using synchrotron radiation ( ) 0.928  ) at CHESS.
+A total of 403 840 observations were scaled  and reduced to 59 595 independent reflections using DENZO/  SCALEPACK (38).
+The data set is 90.4% complete up to  1.5  with Rmerge ) 6.9 and 50.6% complete between 1.55  and 1.50  with Rmerge ) 30.1%.
+Refinement was continued  using these data.
+Water molecules were initially placed at  positions where the Fo - Fc electron density was greater  than 3 and where reasonable hydrogen bonds were possible.
+  These waters were finally confirmed by Romit profile analysis  in which a water molecule is regarded as plausible if the  crystallographic Rfactor calculated without that water is higher  than the Rfactor of the complete structure.
+One phosphate  molecule was placed at a position where a large tetrahedralshaped electron density feature was observed.
+The final  Rfactor for the structure is 0.203 for the 56 703 reflections  with F > 3(F) in the range 7.0-1.5  with a free-R value  of 0.251.
+Two conformations were assigned to 10 side  chains.
+Refinement statistics for the FvD1.3-HEL D18A  complex are summarized in Table 1.
+  RESULTS AND DISCUSSION  Production of HEL Mutants by in Vitro Refolding from  Bacterial Inclusion Bodies and by Secretion in Yeast.
+We  used the method of Maeda et al. (28) for refolding denatured  and reduced HEL in vitro to produce mutants for binding  experiments.
+Although these authors reported refolding  yields of up to 90% in the presence of 4 M urea and 3 M  sarcosine, our best yields did not exceed 5%.
+We attribute  this difference, at least in part, to the different sources of  protein in the two cases.
+Maeda et al. (28) used highly  purified commercial HEL to prepare denatured and reduced  protein for their refolding experiments, whereas we used HEL  isolated from bacterial inclusion bodies and solubilized in  urea.
+We found that refolding yields were critically dependent on the purity of the starting material: inclusion bodies  prepared simply by centifugation and washing, even though  >90% pure on SDS-PAGE, yielded virtually no active  enzyme.
+Further purification of solubilized HEL polypeptides by sucrose gradient centrifugation and cation-exchange  chromatography was required to achieve refolding yields of  2-5%.
+These additional steps presumably eliminated both  protein and nonprotein (e.g., lipid, nucleic acid) contaminants  that interfered with refolding, perhaps by causing aggregation  of folding intermediates.
+  While the quantities of HEL mutants that could be  conveniently obtained from in vitro refolding (0.1-0.25 mg)  were adequate for affinity measurements by BIAcore, they  were insufficient for growing crystals of mutant complexes  for structural studies.
+For this purpose, we used the  methylotrophic yeast Pichia pastoris to express HEL in  secreted form (31).
+The advantage of this system is that  HEL is expressed and targeted to the supernatant in properly  folded form.
+In addition, P. pastoris secretes very low levels  of its own proteins, such that the secreted HEL comprises  the vast majority of the total protein in the medium, thereby  facilitating purification of the secreted product.
+The yield  of purified HEL D18A was 1.0 mg/1 L of yeast culture.
+  Measurement of Association Constants for the Binding of  D1.3 to HEL.
+A surface plasmon resonance profile for  equilibrium binding of scFvD1.3 mutant VHD54A to immobilized HEL mutant T118A is shown in Figure 1 (panel  A).
+The corresponding Scatchard plot, after correction for  nonspecific binding, is also shown (panel B); the apparent  KA, 9.6  106 M-1  , was calculated as the slope of the straight  line.
+The predicted maximum specific binding, calculated  Table 1: Summary of Data Collection and Refinement Statistics  data set 1 data set 2  data collection  space group C2 C2  unit cell dimensions  a () 128.07 130.67  b () 59.83 61.21  c () 56.34 57.43   (deg) 119.27 119.14  X-ray source CuKR synchrotron  maximum resolution () 1.80 1.50  number of observed reflections 85 606 403 840  number of independent reflections 31 162 59 595  Rmergea (total/  outer resolution shell)b  0.059/0.183 0.069/0.301  completeness (total/  outer resolution shell;b %)  90.1/77.8 90.4/50.6  Refinement  resolution range () 7.00-1.50  Rfactorc (total/  outer resolution shell)b  0.203/0.302  Rfreed (total/outer resolution shell)b 0.251/0.308  number of non-hydrogen protein atoms 2754  number of solvent molecules 486e  mean B-value  protein atoms (2) 21.48  solvent atoms (2) 39.27  rms deviations from ideal values  bond length () 0.012  bond angle (deg) 1.49  dihedral angle (deg) 25.9  improper angle (deg) 1.35  a Rmerge ) |I - I|/I. b 1.91-1.80  for data set 1 and 1.55-  1.50  for data set 2.
+c Rfactor ) ||Fo| - |Fc||/|Fo|.
+d 6% of reflections  were used for the calculation.
+e Includes one phosphate molecule.
+  7984 Biochemistry, Vol. 37, No. 22, 1998 DallAcqua et al.from the x-intercept assuming a linear relationship between  the mass of bound protein and the measured RU (39)  indicated that approximately 78% of the immobilized HEL  molecules was able to bind scFvD1.3 VHD54A.
+The KAs  for the interaction of wild-type scFvD1.3 with 12 HEL  alanine mutants are shown in Table 2 (section A).
+Affinity  constants have been previously reported for the interaction  of wild-type HEL with mutants of D1.3 (8).
+We remeasured  each of these KAs in the current study and found them to be  in good agreement with the published values.
+In general,  our BIAcore results were extremely reproducible, with errors  on KA consistently less than 30% on repeat measurements  of affinity.
+This translates into errors on G and Gint  of less than (0.2 and (0.3 kcal/mol, respectively.
+Thus,  the binding of a series of closely related mutant proteins may  be compared with a relatively high degree of precision using  this method.
+  Mapping the Energetics of the D1.3-HEL Interface.
+  Alanine scanning mutagenesis of D1.3 residues in contact  with HEL in the crystal structure of the FvD1.3-HEL  complex had previously shown that the energetics of binding  to the antigen are dominated by only 3 of 13 antibody  residues tested (8).
+In the present study, we individually  mutated 12 of the 13 total nonglycine HEL residues in  contact with D1.3 to alanine and measured the affinity of  the mutants for wild-type D1.3 (Table 2, section A).
+  Significant decreases in binding (G ) 1 kcal/mol) were  only observed for substitutions at four contact positions:  Gln121, Ile124, Arg125, and Asp119.
+The most destabilizing mutation was at position Gln121 (G ) 2.9 kcal/mol).
+  In the wild-type structure, this residue makes two hydrogen  bonds to the backbone of VL complementarity-determining  region 3 (CDR3) (Gln121HEL N2-O VLPhe91 and Gln121HEL  O1-N VLSer93) and is nearly completely buried upon  complex formation (18).
+Mutations at the remaining eight  contact positions (Asp18, Asn19, Tyr23, Ser24, Lys116,  Thr118, Val120, and Leu129) had little or no effect (G  < 1 kcal/mol).
+Therefore, for both the D1.3 and HEL sides  of this interface, only small subsets of the total contacting  residues appear to account for a large portion of the binding  energy.
+This result is similar to findings in the case of human  growth homone binding to its receptor (13, 14), but differs  from the interaction of D1.3 with the anti-D1.3 antibody E5.2  FIGURE 1: (A) Binding of scFv D1.3 D54A to immobilized HEL  T118A.
+The mutant D1.3 was injected at 11 different concentrations  ranging from 50 to 2000 nM over a surface to which 830 RU HEL  T118A had been coupled.
+Buffer flow rates were 5 L/min and  report points were taken 7 min after each injection.
+(B) Scatchard  analysis of the binding of scFv D1.3 D54A to HEL T118A derived  from the data in (A).
+The plot is linear with a correlation coefficient  of 0.993.
+The apparent KA is 9.6  106 M-1.
+The predicted  maximum binding capacity (1290 RU) indicated that about 78%  of the immobilized HEL molecules are available for binding.
+  Table 2: Association Constants and Relative Free-Energy Changes  for Single and Double Mutant Complexesa  D1.3 HEL KA (M-1  ) G (kcal/mol)  WT WT (8.0 ( 2.4)  107  Section A  WT D18A (4.5 ( 1.4)  107 0.3  WT N19A (4.1 ( 1.2)  107 0.3  WT Y23A (4.0 ( 1.2)  107 0.4  WT S24A (1.9 ( 0.6)  107 0.8  WT K116A (2.4 ( 0.7)  107 0.7  WT T118A (2.2 ( 0.7)  107 0.8  WT D119A (1.6 ( 0.5)  107 1.0  WT V120A (1.7 ( 0.5)  107 0.9  WT Q121A (6.2 ( 1.1)  105 2.9  WT I124A (1.0 ( 0.3)  107 1.2  WT R125A (3.6 ( 1.1)  106 1.8  WT L129A (6.0 ( 1.8)  107 0.2  Section B  VLY32A WT (4.4 ( 1.3)  106 1.7  VLY50A WT (3.3 ( 1.1)  107 0.5  VLW92A WT (2.8 ( 0.8)  105 3.3  VHY32A WT (1.2 ( 0.3)  107 1.1  VHW52A WT (1.7 ( 0.5)  107 0.9  VHD54A WT (1.5 ( 0.4)  107 1.0  VHD100A WT (5.6 ( 0.6)  105 2.9  VHY101A WT NB >4.0  VHY101F WT (5.5 ( 1.1)  106 1.6  Section C  VLY32A Q121A (1.0 ( 0.3)  106 2.6  VLY32A I124A (5.9 ( 1.8)  105 2.9  VLY50A D18A (9.4 ( 1.0)  106 1.3  VLY50A D119A (1.0 ( 0.3)  107 1.2  VLW92A Q121A (2.1 ( 0.6)  105 3.5  VLW92A I124A (1.2 ( 0.4)  105 3.8  VLW92A R125A (2.6 ( 0.8)  105 3.4  VLW92A L129A (3.0 ( 0.9)  105 3.3  VHY32A K116A (5.5 ( 1.6)  106 1.6  VHW52A D119A (1.8 ( 0.6)  106 2.2  VHD54A T118A (9.6 ( 0.3)  106 1.2  VHD100A S24A (2.7 ( 0.8)  105 3.4  VHY101F D119A (7.9 ( 2.5)  105 2.7  VHY101F V120A (1.1 ( 0.3)  106 2.5  a Affinity measurements were carried out by BIAcore as described  in the Materials and Methods.
+Residue numbering is according to Kabat  et al. (53).
+WT refers to wild-type protein.
+Differences in free-energy  changes are calculated as the difference between the Gs of the mutant  and wild-type reactions (G ) Gmutant - Gwild-type).
+Sections  A and B show affinities and Gs for single mutants of HEL and  D1.3, respectively.
+Section C shows values for the double mutants.
+  NB, no binding.
+  Mutational Analysis of an Antigen-Antibody Complex Biochemistry, Vol. 37, No. 22, 1998 7985in which nearly all D1.3 and E5.2 residues in contact in the  crystal structure play a significant role in complex stabilization (9).
+It also differs from the interaction of the T cell  receptor  chain with the bacterial superantigen staphylococcal enterotoxin C, where 8 of 11 superantigen residues  in contact with the  chain were shown to be energetically  important to binding (10).
+Thus, at least on the basis of this  limited number of examples, it appears that protein-protein  interfaces fall into one of two general categories: (i) ones  in which a small subset of contact residues on both protein  surfaces dominate the energetics of the association reaction  or (ii) ones in which most contact residues on both proteins  mediate productive binding.
+However, it cannot be excluded  that, in other protein-protein interfaces, a surface in which  only a few residues significantly contribute to binding may  juxtapose one in which the majority of residues do.
+  Figure 2 shows the residues of D1.3 and HEL important  in complex stabilization mapped onto the three-dimensional  structure of each protein.
+The residues of HEL most  important for binding D1.3 (Asp119, Gln121, Ile124, and  Arg125) form a contiguous patch located at the periphery  of the surface contacted by the antibody.
+In the threedimensional structure of the complex, Gln121 penetrates a  hydrophobic pocket where it is surrounded by the aromatic  side chains of VLTyr32, VLTrp92, and VHTyr101 (18).
+A  comparison of the two surfaces in Figure 2 reveals that hot  spot residues on the D1.3 side of the interface generally  correspond to hot spot positions on the HEL side.
+For  example, HEL hot spot residues Gln121 (G ) 2.9 kcal/  mol) and Arg125 (1.8 kcal/mol) contact D1.3 hot spot residue  VLTrp92 (3.3 kcal/mol); in addition, Gln121HEL contacts VLTyr32 (1.7 kcal/mol) and VHTyr101 (>4.0 kcal/mol).
+  Similarly, functionally less important D1.3 and HEL residues  tend to be juxtaposed in the antigen-antibody interface:  Asp18HEL (G ) 0.3 kcal/mol) and Thr118 (0.8 kcal/mol)  interact with D1.3 VLTyr50 (0.5 kcal/mol) and VHTrp52 (0.9  kcal/mol), respectively.
+A significant exception to this  complementarity is Ile124HEL, which is more than 4  away  from any D1.3 residue, yet whose replacement by alanine  results in a decrease in binding free energy of 1.2 kcal/mol.
+  
+However, since the Ile124 side chain is partially buried in  HEL, this may be an indirect effect due to structural  perturbations in the antigen propogating from the mutation  to neighboring D1.3-contacting residues, particularly Arg125.
+  Similar considerations probably apply to VHGlu98 (G )  1.1 kcal/mol), which is mostly buried in the D1.3 combining  site but which contacts VHAsp100 and VHTyr101.
+In several  cases, the side chains of D1.3 hot spot residues interact with  HEL main-chain atoms (e.g., VHAsp100 O1-N Ser24HEL),  such that the relative contribution of the HEL residue cannot  be assessed by simple alanine substitution.
+Overall, however,  our results are in agreement with findings in the growth  hormone-growth hormone receptor (14) and D1.3-E5.2 (9)  systems that energetically critical residues on one protein  match those on its partner in the corresponding complex.
+  As in the case of these two other complexes, the buried  surface area of individual HEL residues upon complex  formation does not correlate well with their relative importance in binding D1.3 (data not shown).
+  A modeling analysis of the D1.3-HEL interface by Covell  and Wallqvist (40) based on pairwise surface preferences  predicted that the largest changes in binding free energy  should arise from mutation of HEL residues Asn19 and  Gln121.
+Their calculations further suggested that three  glycine residues at HEL positions 22, 102, and 117, all of  which make hydrogen bonds to D1.3, also contribute  significantly to the binding.
+While the energetic contribution  of glycine residues cannot be evaluated by alanine scanning,  we did indeed find Gln121 to be functionally the most  important residue among those tested (Table 2, section A).
+  However, contrary to prediction, we also found Asn19HEL  to make essentially no net contribution to complex stabilization (G ) 0.3 kcal/mol).
+This is surprising since Asn19  makes one short hydrogen bond (VLThr53 O1-N2  Asn19HEL; 2.8 ), as well as a number of van der Waals  contacts, with D1.3 in the crystal structure of the complex  (18).
+  FIGURE 2: Space-filling model of the surface of D1.3 (left) in contact with HEL and of the surface of HEL (right) in contact with D1.3.
+  The two proteins are oriented such that they may be docked by folding the page along a vertical axis between the components.
+Residues  are color-coded according to the loss of binding free energy upon alanine substitution: red, >4 kcal/mol; yellow, 2-4 kcal/mol; green,  1-2 kcal/mol; blue, <1 kcal/mol.
+VL residues are labeled in white and VH residues in black.
+Glycine residues on HEL in contact with D1.3  are labeled at their R-carbons.
+  7986 Biochemistry, Vol. 37, No. 22, 1998 DallAcqua et al.Structural Basis for the Accommodation of a Potentially  DisruptiVe Mutation in the D1.3-HEL Interface.
+The results  described above demonstrate that the D1.3-HEL interface  is remarkably tolerant to mutations which, on the basis of  the three-dimensional structure of the wild-type complex,  might be expected to have pronounced effects on affinity.
+  For example, truncation of HEL residue Asp18 to alanine  should result in the loss of a direct hydrogen bond to the  side chain of D1.3 VLTyr50 (Asp18HEL O2-O D1.3 VLTyr50), as well as the loss of seven van der Waals contacts  to this residue (Asp18HEL C-C2 VLTyr50, Asp18HEL CC VLTyr50, Asp18HEL C-O VLTyr50, Asp18HEL O2-  C2 VLTyr50, Asp18HEL O2-C VLTyr50, Asp18HEL O1-  C VLTyr50, and Asp18HEL O1-O VLTyr50).
+Nevertheless,  the affinity of HEL D18A for D1.3 (4.5  107 M-1  ) is nearly  identical to that of the wild-type (8.0  107 M-1  ), corresponding to a G of only 0.3 kcal/mol (Table 2, section  A).
+To understand how this mutation is nearly completely  accommodated in the D1.3-HEL interface, we determined  the crystal structure of the FvD1.3-HEL D18A complex at  1.5  resolution.
+To our knowledge, this represents the  highest resolution structure yet reported for an antigenantibody complex involving a protein antigen.
+An omit map  in the region of the mutation is shown in Figure 3a.
+The  rms difference in R-carbon positions between mutant and  wild-type structures is only 0.45 , which is comparable to  an average error in atomic positions of 0.2  estimated using  Luzzati plots (41).
+This indicates that the mutation does not  significantly affect the overall structure of the complex.
+  Conformational changes in the proteins at the site of the  mutation are also small (Figure 3b).
+  The major difference in the structure of the FvD1.3-HEL  D18A complex is a rearrangement of solvent such that three  additional water molecules are stably incorporated in the  interface at the site of the mutation (Figure 4a).
+These bound  waters (designated WATa, WATb, and WATc) form several  hydrogen bonds with protein atoms and with other water  molecules, some of which mimic hydrogen bonds made by  HEL Asp18.
+In the wild-type structure (Figure 4b), one of  the carbonyl oxygens of HEL Asp18 forms two hydrogen  bonds with WAT1 and WAT2; the latter is in turn hydrogen  bonded to the hydroxy group of VLTyr32.
+In the mutant,  WATa serves as a substitute for Asp18 by partially occupying some of the volume taken up by the side chain of this  residue and by making hydrogen bonds with WAT1 and  WAT2, thereby preserving the interface water network.
+In  addition, WATa forms a hydrogen bond with the main chainnitrogen of HEL Leu25, which further anchors it in the  interface.
+The other carbonyl oxygen of HEL Asp18 forms  a direct hydrogen bond with the hydroxy group of VLTyr50  in the wild-type structure (Figure 4b).
+In the mutant, VLTyr50 makes hydrogen bonds with WATb and WATc which,  like WATa, are positioned to help fill the cavity created by  the mutation and form part of the rearranged solvent network  bridging antigen and antibody.
+Thus, the loss of complementarity in the D1.3-HEL interface resulting from replacement of HEL Asp18 by alanine is compensated by the stable  inclusion of additional water molecules and by local rearrangements in solvent structure rather than by adjustments  in the conformation of the protein.
+Similar mechanisms may  explain the tolerance of the D1.3-HEL interface to mutations  at other solvent-accessible sites on the antigen, such as HEL  Ser24 and Lys116, which also make multiple contacts with  D1.3.
+  We had previously observed solvent rearrangements,  including the incorporation of additional interface waters,  in X-ray crystallographic studies of three site-directed  mutants of FvD1.3 complexed with wild-type HEL: VLY50S, VHY32A, and VLW92D (7, 33).
+In the FvD1.3 VLY50S-HEL complex (Figure 4c), for example, two additional waters (WATd and WATe) occupy some of the  volume taken up by the VLTyr50 side chain in the wildtype structure.
+In these cases, however, the mutations were  only partially compensated by the solvent rearrangements,  since the VLY50S, VHY32A, and VLW92D mutant fragments  bound HEL with 10-, 4-, and 1000-fold lower affinities,  respectively, than the original antibody.
+Thus, there appears  to be a wide range in the extent to which solvent rearrangements in a protein-protein interface can accommodate  mutations, which probably depends on the nature of the local  environment.
+In this respect, it is interesting to note that  VLTyr50 and HEL Asp18 are juxtaposed in the complex  structure (Figure 4b).
+This suggests that these two residues  define a site in the interface that, perhaps because of its  peripheral location (Figure 2), is particularly suited for the  FIGURE 3: (A) Omit map of seven interface water molecules (spheres) in the vicinity of HEL Ala18 (labeled) in the FvD1.3 HEL D18A  mutant complex.
+Contours are at 2.
+(B) Superposition of the FvD1.3 HEL D18A mutant complex (green) onto the wild-type structure  (red).
+The view is the same as in panel A. Hydrogen bonds are drawn as thin lines.
+  Mutational Analysis of an Antigen-Antibody Complex Biochemistry, Vol. 37, No. 22, 1998 7987stable incorporation of new waters to occupy cavities or  channels created by side-chain truncations.
+  Analysis of the D1.3-HEL Interface Using Double Mutant  Cycles.
+As pointed out by Fersht (42), comparing the  binding of a wild-type protein with that of a mutant in which  a side chain has been truncated gives an apparent binding  energy which is generally different from the incremental  binding energy attributable to that side chain.
+In principle,  the method of double mutant cycles overcomes most of the  limitations of single mutant experiments and makes it  possible to estimate the effective interaction energy between  specific residues in each member of a protein-protein  complex independently of all interactions except those  between the residues mutated in the cycle (21-23).
+Thus,  FvD1.3 residue A and HEL residue B were mutated (i.e., A  f A, B f B) separately and together to construct the  following cycle:  The coupling, or interaction, energy between residues A and  B (Gint) is then given by  If Gint equals zero, the effects of the two mutations are  independent of each other and the two residues are not  coupled.
+A Gint other than zero indicates that residues  A and B are coupled, either directly or indirectly, since the  change in free energy for the association of the double mutant  complex is different from the sum of those for the two single  mutant complexes.
+The coupling energy between two  residues is defined thermodynamically and makes no assumptions about the underlying structural mechanisms nor  does it necessarily imply a proximity correlation (22).
+  Double mutant cycles were constructed for 14 amino acid  pairs in the D1.3-HEL interface in order to map the  interaction energies at the contact surfaces between these  two proteins (Table 2, section C).
+Of the 14 pairs tested,  10 have interacting side chains as judged from the crystal  structure, 2 do not form direct contacts but are in proximity  (4 ), and 2 are far apart (6-15 ).
+Coupling energies were  calculated according to eq 1 and are given in Table 3.
+  Surprisingly, only 3 of the 10 residue pairs in direct contact  in the crystal structure show coupling energies of greater  than 1.0 kcal/mol: VLTyr32-Gln121HEL (2.0 kcal/mol), VLTrp92-Gln121HEL (2.7 kcal/mol), and VLTrp92-Arg125HEL  (1.7 kcal/mol).
+Indeed, with the exception of the residue  pair VHAsp54-Thr118HEL (Gint ) 0.6 kcal/mol), none of  the remaining seven residue pairs have coupling energies  exceeding the estimated experimental error of ( 0.3 kcal/  mol: VLTyr50-Asp18HEL (-0.4 kcal/mol), VHTyr32-Lys116HEL  (0.2 kcal/mol), VHTrp52-Asp119HEL (-0.3 kcal/mol), VHAsp100-Ser24HEL (0.3 kcal/mol), VHTyr101-Asp119HEL (-0.1  kcal/mol), and VHTyr101-Val120HEL (0.0 kcal/mol).
+In fact,  in terms of their coupling energies, these residue pairs are  indistinguishable from the four pairs that do not form direct  contacts: VLTyr32-Ile124HEL (Gint ) 0.0 kcal/mol), VLTyr50-Asp119HEL (0.3 kcal/mol), VLTrp92-Ile124HEL (0.7  kcal/mol), and VLTrp92-Leu129HEL (0.2 kcal/mol).
+Therefore, the simple fact that two residues make direct contacts  in a protein-protein interface does not necessarily imply that  there exists a net productive interaction between them.
+In  fact, the majority of such contacts may be energetically  neutral, as in the present case.
+  These findings are in marked contrast to those for the  D1.3-E5.2 (9) and barnase-barstar (43) complexes in which  nearly all residues within 4  of each other showed  significant coupling (>1.0 kcal/mol).
+In the D1.3-E5.2 and  barnase-barstar interfaces, the relative strengths of coupling  energies were, in most cases, broadly consistent with  expectations based on the crystal structures.
+For example,  the highest coupling energy (4.3 kcal/mol) in the D1.3-E5.2  complex was measured for a charged-neutral pair forming a  buried hydrogen bond, while side chains interacting through  solvated hydrogen bonds had lower coupling energies (1.3-  1.7 kcal/mol) and solvent-mediated hydrogen bonds were  FIGURE 4: (A) Schematic representation of the FvD1.3-HEL D18A  complex in the vicinity of the mutation.
+(B) Schematic showing  the same region in the wild-type FvD1.3-HEL complex (18).
+(C)  Schematic of the FvD1.3 VLS50A-HEL mutant complex (33).
+  Water molecules present in all three structures are labeled WAT1,  WAT2, and WAT3; WAT4 is present in only the FvD1.3-HEL  D18A and wild-type complexes.
+WATa, WATb, and WATc are  additional waters in the FvD1.3-HEL D18A interface; WATd and  WATe are additional waters in the FvD1.3 VLS50A-HEL interface.
+  Hydrogen bonds are drawn as dotted black lines.
+  FvD1.3(A)HEL(B) FvD1.3(A)HEL(B)  FvD1.3(A)HEL(B) FvD1.3(A)HEL(B)  Gint ) -GABfAB + GABfAB + GABfAB  (1)  7988 Biochemistry, Vol. 37, No. 22, 1998 DallAcqua et al.energetically neutral (9).
+However, with one exception (see  below), none of the hydrogen bonds we examined in the  D1.3-HEL interface make significant net contributions to  complex stabilization (Table 3).
+These include hydrogen  bonds which, on the basis of donor-acceptor distance and  relative orientation of the interacting groups, would be  predicted to be strong, as well as ones expected to be weak.
+  For example, VHTyr101 is situated near the center of the  D1.3-HEL interface and makes a short (2.7 ) hydrogen  bond with good geometry to HEL residue Asp119 (VHTyr101  O-O1 Asp119HEL); in addition, this hydrogen bond  involves a charged-neutral pair and is buried in the interface.
+  We therefore expected a Gint of 3-4 kcal/mol, based on  measurements in other systems (9, 44-46).
+However, the  observed Gint for the VHTyr101-Asp119HEL residue pair  is in fact -0.1 kcal/mol, which is zero within experimental  error (Table 3).
+Similarly, VLTyr50 and VHAsp100 make  strong hydrogen bonds with HEL Asp18 and Ser24,  respectively: VLTyr50 O-O2 Asp18HEL (2.7 ) and VHAsp100 O2-O Ser24HEL (2.8 ).
+Although these two  bonds are solvated and might therefore be expected to be  weaker than the buried VHTyr101 O-O1 Asp119HEL  hydrogen bond, we had previously measured Gint values  of about 1.5 kcal/mol for residue pairs making similar bonds  in the D1.3-E5.2 interface (9).
+Nevertheless, there is no  apparent interaction between the hydrogen-bonded VLTyr50-  Asp18HEL and VHAsp100-Ser24HEL residue pairs in the  D1.3-HEL complex (Table 3).
+Finally, VHTyr32 makes a  long (3.5 ), solvent-exposed hydrogen bond to HEL Lys116  (VHTyr32 O-N Lys116HEL).
+No coupling was found  between these residues (Gint ) -0.1), but this bond was  expected to be weak.
+  The only hydrogen-bonded residues in this protein-protein  interface to show significant coupling are Gln121HEL and VLTyr32 (Gint ) 2.0 kcal/mol).
+This interaction consists  of a hydrogen bond between the N2 group of Gln121 acting  as a hydrogen bond donor and the center of the phenyl ring  of VLTyr32 acting as a hydrogen bond acceptor.
+Levitt and  Perutz (47) calculated that hydrogen bonds with aromatic  rings as proton acceptors should contribute approximately 3  kcal/mol of stabilizing free energy to molecular associations,  which is in good agreement with our measured value of 2.0  kcal/mol.
+  The reasons for the observed differences between actual  and expected coupling energies for most of the hydrogenbonded residue pairs we examined are probably best  understood in terms of an analysis of the theory of double  mutant cycles by Serrano et al. (48).
+If A and B are two  hydrogen-bonded residues and the mutations A f A and B  f B are nondisruptive (i.e., neither A nor any other protein  residue moves upon mutating B and vice versa), the coupling  energy between A and B is given by  where GA/solv is the solvation energy of A, GB/solv is the  solvation energy of B, and GA/B is energy of the hydrogen  bond between A and B. If mutation of A allows water to  bind to B, and vice versa, GA/solv and GB/solv are the  energies of the hydrogen bonds with water.
+Equation 2 then  measures the free energy change for the exchange reaction  A-H2O + H2O-B S A-B + H2O-H2O in which A and  B exchange their interactions with water to interact with each  other.
+If there is no access of water on mutation of A or B,  GA/solv + GB/solv is zero and Gint ) GA/B. For the  interaction of VLTyr50 with HEL Asp18 (Gint ) -0.4  kcal/mol), high-resolution X-ray crystallographic analysis of  the single mutant complexes has clearly shown that the  hydrogen-bonding potentials of the VLTyr50 and Asp18HEL  side chains are satisfied in the mutants and that the mutations  are nondisruptive.
+For the FvD1.3 VLY50S-HEL complex  (33), both carboxylate atoms of Asp18HEL are hydrogen  bonded to interface solvent molecules (Figure 4c), as is the  hydroxy group of VLTyr50 in the FvD1.3-HEL D18A  complex (Figure 4a).
+It is therefore likely that, at least in  this case, Gint is a measure of the free-energy change of  the exchange reaction, rather than of the intrinsic energy of  the VLTyr50 O-O2 Asp18HEL hydrogen bond.
+Since this  Gint is effectively zero, the strength of this particular  protein-protein hydrogen bond is comparable to that of the  water-protein hydrogen bonds it replaces and the bond  makes no net contribution to complex stabilization.
+The  observed lack of coupling between other hydrogen-bonded  residue pairs in the D1.3-HEL interface may be similarly  explained.
+However, this does not account for the finding  that hydrogen-bonded residue pairs in the D1.3-E5.2  interface showed coupling energies of 1-4 kcal/mol (9).
+One  possibility is that there is no access (or restricted access) of  solvent on mutation of residues A or B in the D1.3-E5.2  complex such that Gint more closely reflects GA/B. This  is unlikely in the case of solvated hydrogen bonds, but  probably applies to buried ones.
+Alternatively, hydrogen  bond strengths may be highly dependent on local environment (for example, on the dielectric constant at the site of  Table 3: Coupling Energies between the Indicated Amino Acid  Pairs in the FvD1.3-HEL Complex as Measured by Double Mutant  Cyclesa  D1.3 HEL  Gint  (kcal/mol)  number and type of side chainside chain interactions lost in double  mutants  VLY32 Q121 2.0 1 hydrogen bond  I124 0.0 no direct contacts (4.1  apart)  VLY50 D18 -0.4 1 hydrogen bond (solvent exposed)  7 van der Waals contacts  D119 0.3 no direct contacts (14  apart)  VLW92 Q121 2.7 3 van der Waals contacts  R125 1.7 3 van der Waals contacts  I124 0.7 no direct contacts (4.1  apart)  L129 0.2 no direct contacts (6.5  apart)  VHY32 K116 0.2 1 van der Waals contact  1 long hydrogen bond*  VHW52 D119 -0.3 3 van der Waals contacts  VHD54 T118 0.6 1 van der Waals contact  VHD100 S24 0.3 1 hydrogen bond (in water channel)  1 van der Waals contact  VHY101 D119 -0.1 1 hydrogen bond (partially buried)  1 van der Waals contact  V120 0.0 1 van der Waals contact  a Coupling energies are defined as Gint ) GABfAB +  GABfAB - GABfAB, where A and B represent wild-type and  HEL residues, respectively, and A and B represent the mutated  residues.
+All cycles were alanine truncations except the cycle with  VHY101 which involved a phenylalanine substitution.
+Intermolecular  contacts were defined by atomic pair distances () less than or equal  to the following: C-C, 4.1; C-N, 3.8; C-O, 3.7; N-N, 3.4; N-O,  3.4; O-O, 3.3.
+The one exception is the hydrogen bond labeled with  an asterisk (*) between D1.3 VHY32 and HEL K116 with a N-O bond  distance of 3.5 .  Gint ) GA/B - GA/solv - GB/solv (2)  Mutational Analysis of an Antigen-Antibody Complex Biochemistry, Vol. 37, No. 22, 1998 7989mutation), such that even bonds of similar lengths and  geometry may possess very different energies.
+X-ray  crystallographic studies of D1.3-E5.2 mutant complexes will  be required to distinguish between these possibilities for  individual hydrogen-bonded residue pairs.
+Regardless of the  physical interpretation of our Gint measurements in terms  of the actual strength of individual bonds in the D1.3-HEL  and D1.3-E5.2 interfaces, however, the fact remains that a  Gint equal to zero for any two target residues indicates  that there is no net interaction between them.
+Therefore,  the results from double mutant cycles confirm our conclusion  from single mutant experiments that most D1.3-HEL  contacts are energetically neutral and do not contribute to  complex stabilization.
+  The interaction of Gln121HEL with VLTrp92 had the largest  coupling energy (Gint ) 2.7 kcal/mol).
+Since this  interaction involves only three van der Waals contacts, whose  strength has been estimated at about 0.5 kcal/mol per contact  (7, 9), this implies that this Gint almost certainly includes  a significant contribution from the hydrophobic effect arising  from burial of the tryptophan side chain.
+Similar considerations may apply to the interaction of VLTrp92 with  Arg125HEL (Gint ) 1.7 kcal/mol).
+  Of the four residue pairs not involved in direct contacts  in the crystal structure (VLTyr32-Ile124HEL, 4.1 ; VLTyr50-  Asp119HEL, 14 ; VLTrp92-Ile124HEL, 4.1 ; and VLTrp92-  Leu129HEL, 6.5 ), only VLTrp92 and Ile124HEL showed  significant coupling (0.7 kcal/mol).
+However, this may result  from secondary interactions through a third residue, Arg125HEL,  which contacts both VLTrp92 and Ile124HEL.
+We do not find  examples of long-range interactions as in the D1.3-E5.2 (9),  barnase-barstar (43), and hemoglobin dimer-dimer (49)  interfaces, although a more extensive survey of noncontacting  residues would likely reveal these.
+  CONCLUSIONS  We have shown by alanine scanning mutagenesis of HEL  residues in contact with D1.3 that the energetics of binding  to the antibody are dominated by only 2 of 12 antigen  residues tested (G > 1.5 kcal/mol).
+A similar observation  was made for the D1.3 side of the interface, where only 3  of 13 antibody residues were found to play a significant role  in ligand binding (8).
+Thus, a small subset of contact  residues on each of these proteins dominates the energetics  of the association reaction.
+This is in contrast to the D1.3-  E5.2 interface in which most contact residues on both  proteins mediate productive binding (9).
+In both interfaces,  however, energetically important residues tend to be juxtaposed.
+These results demonstrate that the D1.3-HEL  interface, unlike the D1.3-E5.2 interface, is very tolerant  to mutations.
+The crystal structure at 1.5  resolution of  the complex between D1.3 and HEL D18A reveals how a  potentially destabilizing mutation that results in the loss of  a hydrogen bond and of a number of van der Waals contacts  is accommodated in the interface (G ) 0.3 kcal/mol).
+In  the mutant complex, three new water molecules are incorporated in the interface where they occupy a cavity created  by the mutation and form part of a rearranged solvent  network linking antigen and antibody.
+These bound waters  compensate the loss of complementarity at the site of the  mutation and satisfy the hydrogen-bonding potential of  neighboring residues.
+No significant adjustments in protein  structure are observed.
+Similar mechanisms probably explain  the ability of the D1.3-HEL interface to accommodate  mutations at other solvent-accessible sites.
+  The use of double mutant cycles has enabled us to  quantitate the interaction between specific amino acid pairs  in the D1.3-HEL complex.
+Surprisingly, only 3 of 10  residue pairs in direct contact in the crystal structure showed  significant coupling, in contrast to other protein-protein  interfaces in which nearly all residues within 4  of each  other displayed coupling energies exceeding 1.0 kcal/mol  (9, 43).
+With the exception of the two residues forming a  hydrogen bond with a phenyl ring as proton acceptor, none  of the other four hydrogen-bonded residue pairs we examined  make a net contribution to stabilizing the D1.3-HEL  complex, even though they involve hydrogen bonds expected  to be strong.
+We attribute these results to the accessibility  of the mutation sites to water, such that the mutated residues  exchange their interaction with each other for interactions  with water.
+This implies that the strength of these particular  protein-protein hydrogen bonds is comparable to that of the  protein-water hydrogen bonds they replace.
+Therefore, the  fact that two residues form direct contacts in a proteinprotein interface is not necessarily an indication that there  exists a productive interaction between them.
+Instead, the  majority of such interactions may be energetically neutral,  as in the D1.3-HEL complex.
+These results demonstrate  that considerable caution should be exercised when attempting to estimate the strengths of specific interactions in a  protein-protein interface on the basis of three-dimensional  structures alone.
+Although recent computational methods  for predicting the strengths of these interactions appear  promising (40, 50-52), information on the relative contribution of individual residues to complex stabilization can only  be reliably obtained at the present time through actual affinity  measurements of site-directed mutants of the interacting  species.
+  REFERENCES  1.
+Janin, J., and Chothia, C. (1990) J. Biol.
+Chem. 265, 16027-  16030.  2. Wilson, I. A., and Stanfield, R. L. (1993) Curr.
+Opin. Struct.  Biol. 3, 113-118.  3.
+Braden, B. C., and Poljak, R. J. (1995) FASEB J. 9, 9-16  (1995).
+  4.
+Davies, D. R., and Cohen, G. H. (1996) Proc.
+Natl. Acad.  Sci. U.S.A. 93, 7-12.  5.
+Tulip, W. R., Varghese, J. N., Laver, W. G., Webster, R. G.,  and Colman, P. M. (1992) J. Mol. Biol. 227, 122-148.  6.
+Tulip, W. R., Varghese, J. N., Webster, R. G., Laver, W. G.,  and Colman, P. M. (1992) J. Mol. Biol. 227, 149-159.
+  7. Ysern, X., Fields, B. A., Bhat, T. N., Goldbaum, F. A.,  DallAcqua, W., Schwartz, F. P., Poljak, R. J., and Mariuzza,  R. A. (1994) J. Mol.
+Biol. 238, 496-500.  8.
+DallAcqua, W., Goldman, E. R., Eisenstein, E., and Mariuzza,  R. A. (1996) Biochemistry 35, 9667-9676.
+  9.
+Goldman, E. R., DallAcqua, W, Braden, B. C., and Mariuzza,  R. A. (1997) Biochemistry 36, 49-56.  10.
+Leder, L., Llera, A., Lavoie, P. M., Lebedeva, M. I., Li, H.,  Sekaly, R. P., Bohach, G. A., Gahr, P. J., Schlievert, P. M.,  Karjalainen, K., and Mariuzza, R. A. (1998) J. Exp.
+Med. 187,  823-833.  11.
+Novotny, J., Bruccoleri, R. E., and Saul, F. A. (1989)  Biochemistry 28, 4735-4749.  12.
+Kelley, R. F., and OConnell, M. P. (1993) Biochemistry 32,  6828-6835.  7990 Biochemistry, Vol. 37, No. 22, 1998 DallAcqua et al.13.
+Cunningham, B. C., and Wells, J. A. (1993) J. Mol.
+Biol. 234,  554-563.  14.
+Clackson, T., and Wells, J. A. (1995) Science 267, 383-386.  15. Kam-Morgan, L. N. W., Smith-Gill, S. J., Taylor, M. G.,  Zhang, E., Wilson, A. C., and Kirsch, J. F. (1993) Proc. Natl.  Acad. Sci. U.S.A. 90, 3958-3962.  16.
+Malby, R. L., Tulip, W. R., Harley, V. R., McKimm-Breschkin,  J. L., Laver, W. G., Webster, R. G., and Colman, P. M. (1994)  Structure 2, 733-746.  17.
+Chacko, S., Silverton, E. W., Kam-Morgan, L., Smith-Gill,  S. J., Cohen, G., and Davies, D. R. (1995) J. Mol.
+Biol. 245,  261-274.  18.
+Bhat, T. N., Bentley, G. A., Boulot, G., Greene, M. I., Tello,  D., DallAcqua, W., Souchon, H., Schwarz, F. P., Mariuzza,  R. A., and Poljak, R. J. (1994) Proc.
+Natl. Acad. Sci. U.S.A.  91, 1089-1093.
+  19.
+Fields, B. A., Goldbaum, F. A., Ysern, X., Poljak, R. J., and  Mariuzza, R. A. (1995) Nature 374, 739-742.  20.
+Braden, B. C., Fields, B. A., Ysern, X, DallAcqua, W,  Goldbaum, F. A., Poljak, R. J., and Mariuzza, R. A. (1996) J.  Mol.
+Biol. 264, 137-151.  21.
+Carter, P. J., Winter. G., Wilkinson, A. J., and Fersht, A. R.  (1984) Cell 38, 835-840.  22.
+Ackers, G. K., and Smith, F. R. (1985) Annu. ReV. Biochem.  54, 597-629.  23.
+Horovitz, A. (1987) J. Mol. Biol. 196, 733-735.
+  24.
+McCafferty, J., Griffiths, A. D., Winter, G., and Chiswell, D.  J. (1990) Nature 348, 552-554.
+  25. van der Merwe, P. A., Barclay, A. N., Mason, D. W., Davies,  E. A., Morgan, B. P., Tone, M., Krishnam, A. K. C., Ianelli,  C., and Davis, S. J. (1994) Biochemistry 33, 10149-10160.  26.
+Sanger, F., Nicklen, S., and Coulson, A. R. (1977) Proc. Natl.  Acad. Sci. U.S.A. 74, 5463-5467.
+  27. Goldberg, M. E., Rudolph, R., and Jaenicke, R. (1991)  Biochemistry 30, 2790-2797.  28.
+Maeda, Y., Yamada, H., Ueda, T., and Imoto, T. (1996) Protein  Eng. 9, 461-465.
+  29.
+Charlemagne, D., and Jolles, P. (1970) C. R. Acad. Sci. Paris,  2721-2723.  30.
+Kunkel, T. A., Roberts, J. D., and Zakour, R. A. (1987)  Methods Enzymol. 154, 367-382.  31.
+Li, Y., Grivel, J.-C., Visiwanathan, M., Srinivasan, M., and  Smith-Gill, S. J. (1997) FASEB J. 11, A1043.
+  32.
+Malcolm, B. A., Rosenberg, S., Corey, M. J., Allen, J. S., de  Baetselier, A., and Kirsch, J. F. (1989) Proc.
+Natl. Acad. Sci.  U.S.A. 86, 133-137.  33. Fields, B. A., Goldbaum, F. A., DallAcqua, W, Malchiodi,  E. L., Cauerhff, A., Schwarz, F. P., Ysern, X, Poljak, R. J.,  and Mariuzza, R. A. (1996) Biochemistry 35, 15494-15503.
+  34. Boulot, G., Eisele, J.-L., Bentley, G. A., Bhat, T. N., Ward,  E. S., Winter, G., and Poljak, R. J. (1990) J. Mol.
+Biol. 213,  617-619.  35. Howard, A. J., Gilliland, G. L., Finzel, B. C., Poulos, T. L.,  Ohlendorf, D. H., and Salemme, F. R. (1987) J. Appl.  Crystallogr.
+20, 383-387.
+  36.
+Brunger, A. T. (1992) X-PLOR Version 3.1. A System for X-ray  Crystallography and NMR, Yale University Press, New Haven  and London.  37. Jones, T. A., Zou, J. Y., Cowan, S. W., and Kjeldgaard, M.  (1991) Acta Crystallogr., Sect.
+A 47, 110-119.
+  38.
+Otwinowski, Z., and Minor, W. (1997) Methods Enzymol. 276,  307-326.  39.
+Graznow, R., and Reed, R. (1992) Bio/Technology 10, 390-  393.
+  40. Covell, D. G., and Wallqvist, A. (1997) J. Mol.
+Biol 269, 281-  297.
+  41.
+Luzzati, V. (1952) Acta Crystallogr.
+5, 802-810.
+  42. Fersht, A. R. (1988) Biochemistry 27, 1577-1580.  43.
+Schreiber G,., and Fersht, A. R. (1995) J. Mol. Biol. 248, 478-  486.
+  44. Fersht, A. R., Shi, J., Knill-Jones, J., Lowe, D. M., Wilkinson,  A. J., Blow, D. M., Brick, P., Carter, P., Waye, M. M. Y.,  and Winter, G. (1985) Nature 314, 235-238.
+  45. Street, I. P., Armstrong, C. R., and Withers, S. G. (1986)  Biochemistry 25, 6021-6027.  46. Fersht, A. R., and Serrano, L. (1993) Curr.
+Opin. Struct. Biol.  3, 75-83.  47. Levitt, M., and Perutz, M. F. (1988) J. Mol.
+Biol. 201, 751-  754.  48. Serrano, L., Horovitz, A,.
+Avron, B., Bycroft, M., and Fersht,  A. R. (1990) Biochemistry 29, 9343-9352.
+  49.
+LiCata, V. J., and Ackers G. K. (1995) Biochemistry 34, 3133-  3139.  50.
+Horton, N., and Lewis, M. (1992) Protein Sci. 1, 169-181.
+  51. Kuntz, I. D., Meng, E. C., and Shoichet, B. K. (1994) Acc.  Chem. Res. 27, 117-123.  52.
+Wallqvist, A., Jernigan, R. L., and Covell, D. G. (1995) Protein  Sci. 4, 1881-1903.
+  53.
+Kabat, E. A., Wu, T. T., Perry, H. M., Gottesman, K. S., and  Foeller, C. (1991) Sequences of Proteins of Immunological  Interest, U. S. Public Health Service, National Institute of  Health, Washington, DC.
+  BI980148J  Mutational Analysis of an Antigen-Antibody Complex Biochemistry, Vol. 37, No. 22, 1998 7991

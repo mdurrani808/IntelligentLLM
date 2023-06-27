@@ -1,0 +1,772 @@
+Thermodynamics of Ras/Effector and Cdc42/Effector Interactions
+Probed by Isothermal Titration Calorimetry*
+Received for publication, December 22, 2000, and in revised form, March 1, 2001
+Published, JBC Papers in Press, April 5, 2001, DOI 10.1074/jbc.M011600200
+Markus G. Rudolph, Thomas Linnemann, Petra Gru¨ newald, Alfred Wittinghofer,
+Ingrid R. Vetter, and Christian Herrmann‡
+From the Abteilung Strukturelle Biologie, Max-Planck-Institut fu¨r Molekulare Physiologie, Otto-Hahn-Strasse 11,
+44227 Dortmund, Germany
+Proliferation, differentiation, and morphology of eu￾caryotic cells is regulated by a large network of signal￾ing molecules. Among the major players are members of
+the Ras and Rho/Rac subfamilies of small GTPases that
+bind to different sets of effector proteins. Recognition of
+multiple effectors is important for communicating sig￾nals into different pathways, leading to the question of
+how an individual GTPase achieves tight binding to di￾verse targets. To understand the observed specificity,
+detailed information about binding energetics is ex￾pected to complement the information gained from the
+three-dimensional structures of GTPase/effector protein
+complexes. Here, the thermodynamics of the interaction
+of four closely related members of the Ras subfamily
+with four different effectors and, additionally, the more
+distantly related Cdc42/WASP couple were quantified
+by means of isothermal titration calorimetry. The heat
+capacity changes upon complex formation were ratio￾nalized in light of the GTPase/effector complex struc￾tures. Changes in enthalpy, entropy, and heat capacity
+of association with various Ras proteins are similar for
+the same effector. In contrast, although the structures of
+the Ras-binding domains are similar, the thermodynam￾ics of the Ras/Raf and Ras/Ral guanine nucleotide disso￾ciation stimulator interactions are quite different. The
+energy profile of the Cdc42/WASP interaction is similar
+to Ras/Ral guanine nucleotide dissociation stimulator,
+despite largely different structures and interface areas
+of the complexes. Water molecules in the interface can￾not fully account for the observed discrepancy but may
+explain the large range of Ras/effector binding specific￾ity. The differences in the thermodynamic parameters,
+particularly the entropy changes, could help in the de￾sign of effector-specific inhibitors that selectively block
+a single pathway.
+Ras plays a central role in cellular signal transduction by
+distributing many different extracellular signals into distinct
+cellular responses through activation of various downstream
+pathways (1). In its resting state, Ras is in a GDP-bound form
+and becomes activated by stimulated exchange of GDP for GTP
+(2). The GTP form of Ras binds more tightly to the so-called
+effector molecules than the GDP form and as a result of this
+interaction initiates, in the case of Raf, a protein phosphoryl￾ation cascade (3) that eventually leads to cell proliferation.
+Alternatively, other activities may be induced, such as Ral￾GDS1 (4) or phosphatidylinositol 3-kinase (5). Using pull-down
+or two-hybrid assays, many other proteins were identified as
+Ras targets by their GTP-dependent association, all of which
+are sensitive to mutations in the effector-binding region of Ras
+(6). However, for many of these Ras targets an assigned bio￾logical function is yet to be determined. For instance, no se￾quence homology and no functional relationship has been as￾cribed to the putative Ras effectors AF6 (7) and Byr2 (8), the
+Schizosaccharomyces pombe homologue of the mammalian
+MEKK1 (9). Another avenue of the signals distributed by Ras
+leads to the Rho family of GTPases that consists of the mem￾bers Rac, Rho, and Cdc42. These proteins also control cell
+proliferation but additionally are involved in the regulation of
+the NADPH oxidase complex (10) and the reorganization of the
+actin cytoskeleton (11–13). A key step in the latter process is
+the interaction of Cdc42 with the Wiskott-Aldrich syndrome
+protein WASP (14–16).
+The three-dimensional structures of the RBDs of the effec￾tors Raf and RalGDS were first determined by NMR spectros￾copy and x-ray crystallography, respectively, and revealed the
+same ubiquitin-like fold for both domains (17–19). The crystal
+structures of the Ras/RalGDS-RBD and the Rap/Raf-RBD com￾plexes have been solved (20–23). Besides a 30° rotation of the
+RBD relative to Ras or Rap, the mode of binding to a Ras
+protein is similar for Raf- and RalGDS-RBD in both complexes.
+The contacting areas of the molecules are anti-parallel
+b-strands that are held together by interactions of predomi￾nantly hydrophilic amino acid side chains (Fig. 1). Whether
+this represents a paradigm for Ras/effector interactions is cur￾rently investigated by the structural determination of the
+RBDs of Byr2 and AF6 (24, 25). In contrast, the contact area of
+the Cdc42/WASP complex contains predominantly hydrophobic
+side chains, and it is much larger than in the Ras/effector
+complexes (Fig. 1) (26).
+Rap, TC21, and R-Ras are closely related to Ras and simi￾larly interact with the Ras effectors in a GTP-dependent fash￾ion. However, activation of enzymatic activity either could not
+be demonstrated or is much smaller than that induced by Ras.
+The interactions of Ras proteins with some of the effectors show
+large differences in individual affinities (27, 28). Intriguingly,
+Rap binds to some of the effectors more tightly than Ras, but
+* This work was supported by a grant from the Deutsche Forschungs￾gemeinschaft (to C. H.). The costs of publication of this article were
+defrayed in part by the payment of page charges. This article must
+therefore be hereby marked “advertisement” in accordance with 18
+U.S.C. Section 1734 solely to indicate this fact.
+‡ To whom correspondence should be addressed. Tel.: 49-231-133-2160;
+Fax: 49-231-133-2199; E-mail: christian.herrmann@mpi-dortmund.mpg.de.
+1 The abbreviations used are: RalGDS, Ral guanine nucleotide disso￾ciation stimulator; GDI, guanine nucleotide dissociation inhibition;
+GppNHp, guanosine 59-(b,g-imido)triphosphate; mant, N-methylan￾thraniloyl, a fluorophor attached to the 29 or 39 position of the nucleo￾tide; ITC, isothermal titration calorimetry; MEKK, mitogen-activated
+protein kinase kinase kinase; RBD, Ras-binding domain; WASP, Wis￾kott-Aldrich syndrome protein.
+THE JOURNAL OF BIOLOGICAL CHEMISTRY Vol. 276, No. 26, Issue of June 29, pp. 23914–23921, 2001
+© 2001 by The American Society for Biochemistry and Molecular Biology, Inc. Printed in U.S.A.
+23914 This paper is available on line at http://www.jbc.org
+ at Brown University on March 5, 2015 http://www.jbc.org/ Downloaded from apparently this does not result in correspondingly similar bio￾logical activities (29). Details about the effector binding of Ras
+proteins are known from biochemical and structural studies,
+but the differences in their biological functions could not be
+rationalized at the molecular level. To learn more about the
+origin of effector specificity for small GTP-binding proteins of
+the Ras subfamily, we investigated the thermodynamic prop￾erties of these interactions by means of isothermal titration
+calorimetry (ITC) and compared them to the thermodynamic
+characteristics of the Cdc42/WASP system. ITC is uniquely
+suited for this study because it directly measures the enthalpy
+of association, DH0
+, and the affinity constant, Ka (30). Striking
+differences in the thermodynamic parameters are observed
+even with the closely homologous complexes of Ras-related
+proteins and effector RBDs that are difficult to reconcile with
+their structural similarities. The role of water in the protein/
+protein interface that provides Ras proteins with a wide range
+of binding specificity and possible implications for its biological
+functions are discussed.
+EXPERIMENTAL PROCEDURES
+Protein Purification and Nucleotide Exchange—Ha-Ras and Rap1A
+used in this work are termed Ras and Rap, respectively. Ras and Rap
+were produced in Escherichia coli CK600K, whereas for all other pro￾teins E. coli BL-21 was used. Ras and Rap were cloned in ptac, and in
+the case of Rap, pGRO/EL, encoding the E. coli Hsp60 chaperonin, was
+co-transformed into the cells. TC21 was cloned in pGEX 2T and R-Ras
+in the pET 11a plasmid. Only the RBDs of the effectors were used and
+purified as described: Raf-RBD corresponding to residues 51–131
+cloned in pGEX 2T (31, 32), RalGDS-RBD 1–97 corresponding to resi￾dues 790–886 cloned in pGEX 4T3 (27), AF6-RBD corresponding to
+residues 1–141 cloned in pGEX 4T3 (28), and Byr2 corresponding to
+residues 65–180 cloned in pGEX 2T (24). Except for Byr2, which is from
+S. pombe, all proteins were derived from the human sequence. Gel
+filtration of Byr2 yielded both a monomer and a dimer. Only the mon￾omer was used, which was stable for several hours. The Ras proteins
+were purified, and bound nucleotide was exchanged as described (27).
+Two different fragments of WASP were used in this study, termed W4
+and W10 according to their molecular mass (in kDa), comprising amino
+acid residues 222–257 and 222–310, respectively. Cdc42 and W4 were
+prepared as described previously (33). GST-W10 containing an IgA
+protease recognition sequence was incubated overnight with the prote￾ase (1:200 w/w) in 50 mM Tris/HCl, pH 7.5, 100 mM NaCl. After gel
+filtration (Superdex 75) in 20 mM Tris/HCl, pH 8.5, the protein was
+concentrated over a 5-kDa cut-off membrane. All of the proteins were
+shock frozen in liquid nitrogen and stored at 280 °C. The protein purity
+was greater than 90% as judged by sodium dodecyl sulfate-polyacryl￾amide gel electrophoresis and Coomassie Blue staining. The protein
+concentrations of GTPases and Ras effectors were measured by the
+Bradford method (34) using bovine serum albumin as a standard,
+whereas the W4 and W10 concentrations were determined according to
+Gill and von Hippel (35) using absorption coefficients at 280 nm of 5690
+and 6970 M21 cm21
+, respectively.
+Spectroscopic and Calorimetric Measurements—Fluorescence meas￾urements were performed in a PerkinElmer Life Sciences LS50 instru￾ment with excitation and emission monochromators set to 360 and 450
+nm, respectively, and slits set to 5 nm resolution. The concentration of
+RaszmantGppNHp was 50 nM, and the integration time was 2 s. The
+data of the GDI assay were analyzed as described earlier (6, 27, 28).
+Far-UV CD spectra were recorded and converted to mean residue ellip￾ticities as described previously (33).
+GTPase/effector interactions were measured using an isothermal
+titration calorimeter (MCS-ITC, MicroCal, Inc.). The primary ligand
+was placed into a sensitively temperature-controlled cell, and the sec￾ondary ligand was placed into a syringe immersed into the cell (30). The
+concentrations of the primary ligand were 6–80 mM, and the concen￾tration of the secondary ligand was set to 10–20 times this value. The
+proteins were titrated by computer-controlled stepwise injections. The
+change in heating power was followed until equilibrium was reached
+before the next injection was started. Exothermic and endothermic
+processes were reflected by negative and positive power pulses, respec￾tively. Saturation of the complex formation was reached when the heat
+change leveled off to a constant background value because of dilution
+effects. This background was also measured in control experiments
+where the secondary ligand was injected into buffer alone. The back￾ground was subtracted from the integrated pulses, and the data were
+analyzed using the manufacturer’s software yielding the stoichiometry
+(N), the binary equilibrium association constant (Ka, which is equal to
+[GTPasezGppNHpzeffector]/[GTPasezGppNHp]/[effector] and equal to
+Kd
+21
+), and the enthalpy of binding (DH0
+). DH0 was assumed to be
+independent of primary ligand concentration. From the relationship
+DG0 5 2RTlnKa and the Gibbs-Helmholtz equation, the free energy of
+binding (DG0
+) and the entropy of association (DS0
+) were calculated. The
+experimental error on DH0 is 5–10% and is predominantly governed by
+the error on the protein concentration in the syringe, whereas the
+experimental error on DG0 is 0.2 kcal/mol, corresponding to an error of
+40% on Ka. The upper limit of reliable determination of Ka is ;108 M21
+.
+The data were averaged over two or three ITC experiments. The result
+for N was 1.0 6 0.2 for all measurements.
+FIG. 1. Interface areas of effector
+complexes. The figure illustrates the dif￾ferent modes of binding of the Rap/Raf￾RBD complex (upper panel) and the
+Cdc42-WASP complex (lower panel). Raf￾RBD and WASP are shown in green as
+backbone worms, and the GTP-binding
+proteins as molecular surfaces are colored
+according to their electrostatic potential.
+The boundaries of the effector contact
+area are marked by light green lines. In
+contrast to Raf-RBD, which displays a
+rather flat interface, WASP wraps around
+the GTP-binding protein in a largely ex￾tended conformation. The buried surface
+area is 1249 Å2 in the Rap/Raf-RBD com￾plex and 2939 Å2 in the Cdc42/WASP
+complex. It is predominantly hydrophobic
+in the Cdc42/WASP complex, whereas the
+Rap/Raf-RBD complex has a strongly
+charged interface. The figure was pre￾pared with GRASP (53).
+Thermodynamics of GTPase/Effector Interactions 23915
+ at Brown University on March 5, 2015 http://www.jbc.org/ Downloaded from RESULTS
+Direct Access to the Thermodynamics of GTPase/Effector
+Systems through ITC
+We have described previously a fluorescence-based method
+(GDI assay) that allows accurate but indirect determination of
+Ras/effector binding constants (6, 32). In contrast, with ITC,
+the enthalpy change DH0 and the association constant Ka are
+directly measured and therefore precise. Additionally, no
+chemical modification of the system under study is necessary.
+To compare the results from ITC experiments with those
+obtained by the GDI assay, we derived binding constants using
+both approaches for the Ras/RalGDS-RBD system. The disso￾ciation rate of the RaszmantGppNHp complex was measured at
+37 °C as a function of RalGDS-RBD concentration as described
+(27) (Fig. 2a). In the presence of 100 mM NaCl, the derived Kd
+value is 2.0-fold higher compared with the absence of NaCl.
+The Kd values resulting from ITC at 25 °C using the same
+buffers differ by a factor of 2.1, in excellent agreement with the
+difference observed in the GDI assay. This comparison is not
+derogated by the fact that both experiments were done at
+different temperatures because the binding partners are the
+same, and only relative, not absolute comparison is made.
+To further test the possible influence of the fluorescent mant
+group on effector binding, RaszmantGppNHp was used in ITC
+experiments and titrated versus Raf-RBD and RalGDS-RBD,
+respectively (data not shown). The calculated Kd values are
+about 1.5-fold smaller compared with the results obtained with
+RaszGppNHp, which is close to the error range. Thus, the mant
+group at the ribose of the nucleotide has only a weak effect on
+Ras/effector binding. This contrasts with the Cdc42/WASP in￾teraction in which both fluorescence and calorimetric titrations
+reveal a 7-fold lower affinity of the WASP fragments for
+Cdc42zmantGppNHp than for Cdc42zGppNHp (see Table II).
+WASP exhibits no significant GDI effect on Cdc42 but upon
+binding decreases the Cdc42zmantGppNHp fluorescence (33),
+which contrasts the Ras/effector interactions. As a result, the
+mant group does not seem to interfere with Ras/effector bind￾ing but does interfere in the Cdc42/WASP system.
+Proteins may form oligomers at the concentrations needed
+for ITC, thereby possibly altering the thermodynamics of their
+interaction. This was tested for the Ras/RalGDS-RBD interac￾tion at two different effector concentrations (6 and 50 mM; Fig.
+3). As anticipated for the absence of oligomerization, the results
+for DH0 and Kd are almost identical, albeit less accurate in the
+case of the lower effector concentration. Thus, within experi￾mental error, the results do not depend on the concentrations
+used, which excludes the possibility of protein oligomerization.
+This finding is corroborated by the fact that all proteins used
+here eluted as monomers in gel filtration studies. Also, swap￾ping of the primary and secondary ligand yielded the same
+results for DH0 and Ka (data not shown).
+Proton release or uptake by amino acid side chains or the
+protein termini upon association leads to additional enthalpy
+effects and can be evaluated by performing ITC in buffers with
+different protonation enthalpies (36–39). The protonation en￾thalpies for Tris and phosphate are 211.4 and 20.8 kcal/mol
+(40), respectively, and this large difference should reliably al￾low the detection of a proton transfer process. To determine
+whether protons are exchanged during Ras/effector interac￾tions and thereby influence the effector specificity of Ras, the
+FIG. 2. Comparison of the GDI and the ITC method. Experi￾ments were done in 50 mM Tris/HCl, pH 7.4, 5 mM MgCl2 (E) and in the
+same buffer supplemented with 100 mM NaCl (●). a, observed rate
+constants for the dissociation of RaszmantGppNHp at 37 °C as a func￾tion of the RalGDS-RBD concentration. The fitted curves yield Kd 5 2.4
+mM (●) and Kd 5 1.2 mM (E). b, isothermal titration at 25 °C of 62 mM
+RalGDS with 950 mM RaszGppNHp in the syringe. Analysis of the data
+yielded Kd 5 1.73 mM (●) and Kd 5 0.83 mM (E).
+FIG. 3. Concentration independence of the Ras/RalGDS inter￾action. a, calorimetric titration of Ras to 6 mM (upper curve) and 50 mM
+(lower curve) RalGDS-RBD in the cell at 25 °C in 50 mM Tris/HCl, pH
+7.4, 5 mM MgCl2. The base line was subtracted from the raw data, and
+an offset of 0.5 mcal/s was added to the upper curve. b, the theoretical
+curves fitted to the integrated data yield Kd 5 1.2 mM and DH0 5 215.0
+kcal/mol for RalGDS at 6 mM (E) and Kd 5 1.1 mM and DH0 5 214.8
+kcal/mol for RalGDS at 50 mM (●).
+23916 Thermodynamics of GTPase/Effector Interactions
+ at Brown University on March 5, 2015 http://www.jbc.org/ Downloaded from binding of Ras to all four effector RBDs was measured in both
+50 mM sodium phosphate, pH 7.4, 5 mM MgCl2, 100mM NaCl,
+and 50 mM Tris/HCl, pH 7.4, 5 mM MgCl2, 100 mM NaCl (Table
+I). Within experimental error, DH0 was buffer-independent for
+RalGDS, Byr2, and AF6, which corresponds to no net proton
+release or uptake upon complex formation. Interestingly, the
+Ras/Raf-RBD association has a DH0 value around 22.5 kcal/
+mol in phosphate buffer (data not shown) and 25.2 kcal/mol in
+Tris buffer and indicates a partial proton release upon forma￾tion of the Ras/Raf-RBD complex. Because no net proton trans￾fer is observed with the other three effectors, it may be inferred
+that Raf-RBD can loose a proton upon binding to Ras. Subtract￾ing this proton transfer effect, the difference in the thermody￾namic constants between Raf and RalGDS binding to Ras is
+even more pronounced (see below).
+Enthalpy and Entropy Characteristics of GTPase/Effector
+Binding
+To quantify the enthalpic and entropic contributions to the
+association reaction of small GTPases with their effectors, the
+interactions of Ras, Rap, TC21, and R-Ras with the RBD of Raf,
+RalGDS, Byr2, and AF6 were chosen. Additionally, the complex
+formation of Cdc42, a small GTPase of the Rho subfamily, with
+its effector WASP was investigated.
+The Ras Subfamily and Its Effectors—Table I shows the
+primary results of the ITC experiments, Ka and DH0
+, together
+with the calculated TDS0 values. The binding constants ob￾served and the resulting specificities for the different Ras pro￾teins are similar to data obtained earlier by means of the GDI
+method (27, 28). Raf-RBD binds most strongly to Ras, whereas
+AF6- and RalGDS-RBD bind more strongly to Rap. The binding
+of Byr2 to the Ras proteins is less differentiated, whereas TC21
+and R-Ras have similar and moderate effector affinities.
+The comparison of the Ras proteins shows moderate differ￾ences in the thermodynamic constants. The weaker binding of
+Raf-RBD to Rap compared with Ras is due to a smaller en￾thalpy change, whereas the entropy changes are similar. The
+lower affinities of TC21 and R-Ras for Raf-RBD are due to less
+positive entropy changes with the enthalpy changes being the
+same. The affinities of Rap for Raf-RBD and RalGDS-RBD are
+inverse to those of Ras, and the stronger binding of RalGDS￾RBD to Rap compared with Ras is the result of a less unfavor￾able entropy change, whereas the enthalpy change stays the
+same. TC21 and R-Ras show large differences of DS0 and DH0
+as compared with Ras that compensate each other almost en￾tirely and lead to very similar affinities for RalGDS-RBD as
+Ras. The binding affinities to Byr2 are not significantly differ￾ent for Ras and Rap, and the enthalpy and entropy changes are
+the same and close to zero. By contrast, significant differences
+in Ras and Rap binding to AF6 are observed. DH0 for Rap is less
+favorable by 6.1 kcal/mol, but TDS0 is increased by 7.7 kcal/
+mol, which increases Ka 15-fold.
+The binding of Raf-RBD to the Ras proteins is achieved to a
+similar extent by both favorable enthalpy and entropy changes.
+In contrast, the interaction of RalGDS-RBD with the Ras pro￾teins results from an unfavorable entropy change that is coun￾teracted by a large negative change in enthalpy. Byr2 and AF6
+exhibit similar enthalpy and entropy changes upon GTPase
+binding and lie in between the two extremes Raf and RalGDS;
+their binding to Ras is motivated by a medium-sized decrease
+in enthalpy, whereas the entropy change is close to zero.
+One of the most meaningful thermodynamic parameters in
+terms of characterizing the nature of protein/protein interac￾tions is the change in heat capacity, DCp
+0 (41–43). Provided the
+temperature dependence of DH0 is linear over the temperature
+range studied, DCp
+0 is obtained as the slope of a plot of DH0
+versus the temperature. Fig. 4a shows calorimetric titrations
+FIG. 4. Temperature dependence of Ras/effector interactions.
+a, ITC of Ras with Byr2-RBD at 13.6 °C (E), 23.3 °C (●), 33.2 °C (M),
+and 43.2 °C (f). b, plot of DH0 versus temperature for the interactions
+of Ras with the RBDs of Raf (E), RalGDS (●), Byr2 (M), and AF6 (f).
+The slopes of the linear regressions yield the DCp
+0 values listed in Table I.
+TABLE I
+Thermodynamic parameters of association for Ras proteins and
+effectors
+All Ras proteins were used in their GppNHp form. The measure￾ments were performed at 25 °C in 50 mM Tris/HCl, pH 7.4, 5 mM MgCl2,
+100 mM NaCl. TDS° rather than DS° is listed to simplify comparison of
+the entropic and enthalpic contributions to binding. Ka is given in units
+of 106 M21
+, DH° and TDS° are given in kcal/mol, and DCp
+° is given in
+cal/mol/K.
+Ras Rap TC21 R-Ras
+Raf-RBD Ka 12.5 1.5 1.6 2.2
+DH° 25.2 23.7 25.6 25.6
+TDS° 4.5 4.8 2.9 3.1
+DCp° 2390 2300
+RalGDS-RBD Ka 1.0 13 2.2 0.63
+DH° 214.5 214.5 29.8 28.8
+TDS° 26.2 24.7 21.1 20.8
+DCp° 2630 2640
+Byr2-RBD Ka 5.5 15
+DH° 29.0 29.0
+TDS° 0.2 0.8
+DCp° 2270
+AF6-RBD Ka 0.33 5
+DH° 28.5 22.4
+TDS° 21.0 6.7
+DCp° 2100 2160
+Thermodynamics of GTPase/Effector Interactions 23917
+ at Brown University on March 5, 2015 http://www.jbc.org/ Downloaded from for the Ras/Byr2 system at four different temperatures, and
+from Fig. 4b the linear dependence of DH0 on temperature for
+the interaction of all four effector RBDs with Ras is evident. All
+protein complexes studied exhibit a decrease in heat capacity
+upon association (Tables I and II), indicating that the complex
+buries hydrophobic areas. As with the observations on DH0 and
+DS0
+, the values of DCp
+0 are largely different between the effec￾tors, whereas similar results are obtained for both Ras and
+Rap. No apparent correlation exists between the DCp
+0 and DH0
+or DS0 values.
+The Rho Subfamily: Cdc42 and WASP—To compare the
+thermodynamic data of Ras and effector proteins to a more
+distantly related GTPase/effector couple, the interaction of
+Cdc42, a member of the Rho/Rac family of small GTPases, with
+two different fragments of its effector WASP was investigated.
+Although the RBD of Ras effectors is compactly folded, a short,
+unstructured 4-kDa sequence (W4) in WASP containing the
+Cdc42/Rac interactive binding motif is sufficient for Cdc42
+binding (33). Yet a 10-kDa fragment (W10) binds even more
+tightly (Table II). Effector-type binding of W10 is evidenced
+by a 470-fold difference in the affinities for the GDP- and
+GppNHp-bound form of Cdc42. The affinity of Cdc42 and
+WASP is at the high end compared with the Ras and effector
+proteins. Similar to the Ras/RalGDS complex, Cdc42 binding to
+WASP is strongly favored by a large negative enthalpy change
+that overcompensates for a negative entropy change. Intrigu￾ingly, there is a large difference in the enthalpy and entropy
+contributions for the W4 and W10 fragments. Whereas the
+enthalpy change becomes less favorable by 5.1 kcal/mol upon
+extension of W4 to W10, the entropy change becomes less
+unfavorable by 6.2 kcal/mol, which leads to the 7-fold stronger
+binding of W10. This large difference in entropy may reflect the
+ordering of the Cdc42/Rac interactive binding motif in W10 in
+a binding-competent conformation that is not present in W4.
+Indeed, the circular dichroism spectra of W4 and W10 reveal a
+significant amount of secondary structure in W10 but not in W4
+(data not shown). Comparing the GTP and GDP complex of
+Cdc42 binding to W10, the 470-fold drop in affinity is almost
+exclusively due to a less favorable enthalpy change of 3.8 kcal/
+mol for the GDP form, whereas the entropic contribution to
+binding is virtually unaltered. This could be interpreted as a
+structural difference between the GTP and GDP states of
+Cdc42 that does not affect the size of the interface area but only
+the intermolecular distance or particular conformations of the
+side chains involved. This would lead to impaired hydrogen
+bond or salt bridge formation between residues in the
+Cdc42zGDP/W10 complex. Alternatively, Cdc42zGDP may bind
+WASP in a manner similar to Cdc42zGTP, but extra energy is
+required to convert it to the GTP-like conformation.
+In contrast to the interaction of Ras and Rap with their
+respective effectors, where the presence of 100 mM NaCl in￾creases Ka by a factor of 2 or more, the Cdc42/WASP interaction
+is not influenced by even the presence of 2 M NaCl (data not
+shown). This indicates that the interaction between Cdc42 and
+its effector WASP is of a strongly hydrophobic nature, whereas
+the Ras and Rap interaction with their effectors has strong
+electrostatic components.
+Mutants of Ras and Raf-RBD—From the comparison of the
+GTPase/effector systems, it is apparent that enthalpy and en￾tropy changes are not directly evident from the high resolution
+crystal structures of the protein complexes. Even closely re￾lated proteins, as investigated here, show large variations in
+their thermodynamic parameters. To test whether single
+amino acid residues are responsible for this, we extended our
+studies using mutants of Ras and Raf-RBD. Residues to be
+mutated were selected among those that are involved in the
+interaction. Table III collects the DH0 and TDS0 values for Ras
+mutants that bind to wild type Raf and vice versa for Raf
+mutants that bind to Ras. Relatively small changes in compar￾ison with the wild type proteins are observed. No mutation
+causes a change of more than 2 kcal/mol in DH0 or TDS0
+. A
+clearly consistent effect of the elimination of a distinct residue
+on DH0 or TDS0 cannot be recognized among this limited num￾ber of mutants. In conclusion, the differences in binding ener￾getics observed for the different effectors are much larger than
+effects that can be evoked by single residues.
+Comparison of Measured and Calculated Heat Capacity of
+Binding
+From structural and protein folding studies, an empirical
+relationship between the heat capacity of folding DCp
+0 and the
+change in the accessible surface area (DASA) was derived (44)
+as follows.
+DCp° 5 0.45 cal/(mol K Å2
+) DASAapolar
+2 0.26 cal/(mol K Å2
+) DASApolar (Eq. 1)
+The apolar surface area that becomes buried in the interior of
+the protein upon folding results in a negative change of the
+heat capacity, whereas polar amino acid residues have a posi￾tive contribution that is smaller in amount. Protein folding and
+protein/protein association may be regarded as related because
+in both processes surface area is buried in the interior of a
+protein or a protein complex, respectively. For some of the
+Ras/effector complexes, the three-dimensional structures are
+known, namely for Rap/Raf-RBD (20), for Rap(E30D/K31E)/
+Raf-RBD (21), for Ras(E31K)/RalGDS-RBD (22), and for Ras/
+RalGDS-RBD (23).
+TABLE II
+Thermodynamics of the Cdc42/WASP interaction
+The interactions of Cdc42 bound to GppNHp or GDP with the W4 and
+W10 fragments of WASP were measured by ITC. Additionally, the
+interactions of Cdc42 z mantGppNHp were measured by fluorescence
+titration (in parentheses) and, in the case of W10, also by ITC. All
+measurements were done at 25 °C in 40 mM HEPES/NaOH, pH 7.4, 5
+mM MgCl2, 100 mM NaCl. Units are as in Table I.
+Cdc42 z GppNHp Cdc42 z GDP Cdc42 z mantGppNHp
+WASP W4 Ka 10.5 (2.1)
+DH° 217.8
+TDS° 28.2
+DCp° 2570
+WASP W10 Ka 75 0.16 (11) 9.4
+DH° 212.75 28.9 215.9
+TDS° 22.0 21.8 2 6.3
+DCp° 2530
+TABLE III
+Interactions of mutant Ras and Raf-RBD
+The experimental conditions and units are as in Table I.
+Raf-RBD wt
+Ka DH° TDS°
+Ras Wild type 12.5 25.2 4.5
+E31A 1.2 23.3 5.0
+D33A 3.9 23.8 5.2
+R41A 15 24.0 5.8
+Ras wt
+Ka DH° TDS°
+Raf-RBD R59A 0.4 24.0 3.6
+N64A 6.0 25.0 4.3
+R67A 1.0 23.2 5.0
+V69A 3.9 24.0 5.0
+K84A 0.4 24.2 3.4
+V88A 15 25.3 4.5
+23918 Thermodynamics of GTPase/Effector Interactions
+ at Brown University on March 5, 2015 http://www.jbc.org/ Downloaded from The DASA values for the three complexes were calculated on
+the assumption that complex formation does not induce large
+conformational changes that may lead to additional changes of
+the accessible surface area outside the interface (Table IV). The
+interface areas are similar in size, and the polar areas are
+about twice as large as the apolar areas (Fig. 1 and Table IV).
+A similar number of polar and apolar amino acid side chain
+interactions constitutes the complex interface. This lead to
+calculated DCp
+0 values for all complexes close to 0 that do not
+agree with the experimental results (Table IV). Whereas in
+protein folding essentially all solvent molecules are stripped off
+the protein surface to become part of the protein core, many
+examples are known where water molecules are bound at com￾plex interfaces. Consequently, the interface area of the Ras/
+effector complexes may not be completely desolvated, and the
+number of water molecules needs to be taken into account for
+the calculation of DCp
+0
+. The crystal structures of Rap/Raf-RBD
+and Ras/RalGDS-RBD show water molecules that bridge amino
+acid residues of the interacting proteins by simultaneously
+forming hydrogen bonds to both proteins. Although different
+numbers of such water molecules are observed in the different
+complexes (Table IV), they cannot by far account for the differ￾ent experimental DCp
+0 values or for the discrepancy to the
+calculated values. In addition, the different temperatures of
+x-ray data collection (277K for the Raf-RBD complexes and 92K
+for the RalGDS-RBD complex) and the different resolution
+ranges of the structures (1.8–2.1 Å) have to be considered,
+which may lead to the different numbers of water molecules
+found in the structures. Interestingly, for the Cdc42/WASP
+complex the measured and calculated DCp
+0 values are very
+similar (Table IV). The hydrophobic nature of this interface
+may prevent water molecules from being trapped upon complex
+formation. Thus, the equation for the calculation of DCp
+0 from
+the interprotein surface areas may be useful only for complex
+interfaces that are highly hydrophobic in nature.
+DISCUSSION
+The interaction of Ras with various effectors is essential for
+signal transduction into different pathways and is the basis for
+its high functional diversity. However, the biological impor￾tance of the closely related Ras proteins that bind to the same
+effectors still remains elusive. The effectors differ both in their
+functions and in their primary sequences, but it appears that a
+small domain in each of them, 80–140 amino acid residues in
+size and located in different parts of the effector, is responsible
+for Ras binding. Similarly, a sequence in WASP is responsible
+for its interaction with Cdc42 (33, 45), and in this study a 4-
+and a 10-kDa fragment were used. For the interactions of Ras
+proteins and effectors very different affinities were reported
+that span 3 orders of magnitude and thereby indicate a possible
+biological significance (27, 28). In addition, the three-dimen￾sional structures of RalGDS- and Raf-RBD revealed an identi￾cal fold and a docking similar to that of the Ras protein (20–23).
+Here, we wanted to characterize the underlying binding en￾ergetics by quantifying the enthalpic and entropic contribu￾tions to the GTPase/effector association reactions. This should
+provide information about the type of binding that can be
+grouped in a first approach into hydrophilic and hydrophobic
+interactions. The latter are believed to result predominantly in
+favorable entropy changes because strongly constrained water
+molecules from the surface of hydrophobic amino acid side
+chains are released into bulk water on complex formation (41).
+In contrast, the change in entropy caused by contact formation
+between hydrophilic residues should be small because the num￾ber of hydrogen bonds including inter-water binding does not
+change (46). However, the global conformational changes and
+the restriction of side chain mobility may substantially contrib￾ute to a decrease in entropy (see below). Although desolvation
+is entropically favored, a penalty in enthalpy must be paid that
+needs to be counterbalanced by formation of polar interactions
+such as hydrogen bonds and salt bridges. A priori it is difficult
+to predict the net energy outcome because many single molec￾ular events with large individual changes in enthalpy and
+entropy contribute to the association process (46). These for the
+most part compensate each other and result in relatively small DH0
+and DS0 values. We have tried to investigate to what extent the
+high homology among the Ras proteins and the same topology of
+Raf-RBD and RalGDS-RBD is reflected in the similarity of their
+binding energy profile and compared them to a different type of
+small GTPase/effector interaction, the Cdc42/WASP complex.
+Considering the structural similarities of Raf- and RalGDS￾RBD and their similar type of interaction with the Ras proteins
+(20–23) with respect to the number of hydrogen bonds and salt
+bridges and the size of the hydrophobic interface area, more
+similar thermodynamic parameters might have been expected.
+The opposite sign in the change of entropy for Raf and RalGDS
+binding, which leads to a difference of more than 10 kcal/mol in
+TDS0
+, is an especially intriguing finding and difficult to explain
+from the structures. We can exclude proton transfer reactions
+from being responsible for the difference in the thermodynamic
+constants, because only a small buffer-dependent effect on DH0
+was visible for Raf-RBD. No single amino acid residue causes
+the large differences either because mutants resulted only in
+moderate changes of DH0 and TDS0
+. Rather, the large differ￾ences in DH0 and TDS0 for the interaction of Ras proteins with
+Raf and RalGDS might indicate a different mode of binding
+that is not obvious from the three-dimensional structure.
+The hydrophobic effect, commonly believed to increase the
+entropy, cannot account for this difference because the apolar
+interface area in the Rap/Raf complex is even slightly smaller
+than in the Ras/RalGDS complex. The maximum gain in en￾tropy by the transfer of protein-bound water to bulk solution is
+7 cal/(mol K) corresponding to TDS0 # 2 kcal/mol at 25 °C (47).
+TABLE IV
+Structural observations of the available Ras/effector complex structures
+Calculations were done on the structures of Rap z Raf-RBD (20), Rap(E30D,K31E) z Raf-RBD (termed Raps z Raf) (21), Ras(E31K) z RalGDS (22),
+and Cdc42 z WASP (26).
+Rap z Raf Raps z Raf Ras z RalGDS Cdc42 z WASP
+Interface area (Å2
+) apolar 399 387 449 1857
+polar 834 972 757 931
+Gly 16 16 59 122
+total 1249 1375 1265 2939
+Interface volume (Å3
+) 239 270 245 539
+Number of structures
+bridging water
+23 6
+Calculated DCp° (cal/mol/K)a 37 79 25 2594
+Measured DCp° (cal/mol/K) 2300 2270 2630 2530
+a According to Equation 1.
+Thermodynamics of GTPase/Effector Interactions 23919
+ at Brown University on March 5, 2015 http://www.jbc.org/ Downloaded from If the strongly bound water molecules were responsible for the
+observed entropy effects, Raf binding should release at least six
+water molecules more than RalGDS binding. This seems un￾likely, because there are no clefts or other sites on the Raf-RBD
+surface that could fix water. In fact, the interface volumes of
+the x-ray structures suggest the same number of water mole￾cules in the Rap/Raf and Ras/RalGDS complexes (21, 22).
+Another source of entropy change is the loss of side chain
+flexibility or conformational freedom of the protein backbone.
+Comparison of the RBD structures in the free state (17–19) and
+in the complexes reveals no major structural rearrangements.
+Huang et al. (22) suggest that a conformational difference
+between free and complexed RalGDS-RBD, localized in loops
+b1/b2 and a1/b3, might play a role in the activation of the
+catalytic domain. However, the Ca root mean square deviation
+of 1.3 Å is not exceedingly large. A decrease in entropy as
+observed here for Ras/RalGDS binding would support this no￾tion if this structural rearrangement resulted in decreased
+conformational freedom of the complex. However, this evidence
+is weak, and the structures of the free and complexed proteins
+do not have significantly different temperature factors indicat￾ing similar main chain mobility. It is difficult to quantitatively
+relate structural to entropy changes, and here not even the
+large differences in DS0 between Raf- and RalGDS-RBD can be
+attributed to obvious structural differences. In conclusion, sub￾tle conformational changes of amino acid side chains or loop
+regions or incorporation of solvent molecules into the binding
+site may lead to the large observed differences in entropy.
+Additionally, a change in hydration of bound metal ions can
+also contribute to the DS0 value, but a different influence of the
+effectors on the environment of the nucleotide-bound Mg21 ion
+seems to be unlikely.
+The heat capacity changes are also different for all effectors
+and are not reconcilable with the empirical relationship be￾tween DCp
+0 and the burial of surface area in protein folding. A
+more refined set of parameters taking a different contribution
+of Ser and Thr into account (43, 48) or using a set of parameters
+derived from hydrophobic model compounds (49, 50) does not
+lead to an agreement either. In protein folding the change in
+heat capacity is predominantly due to a change in hydration
+(95%). Noncovalent bond formation contributes to DCp
+0 only by
+5% (43), and these figures should be essentially the same for
+protein/protein association. Even a significant difference in the
+number of noncovalent bonds in the effector complexes could
+not explain the large differences of the DCp
+0 values. But similar
+to the differences in the DS0 values, the decrease of polar and
+apolar surface area upon complex formation cannot explain the
+experimental DCp
+0 results. According to the interface areas of
+the complexes and their similar partitioning into hydrophilic
+and hydrophobic parts, DCp
+0 should be roughly the same for the
+Raf and RalGDS complexes, which is not the case. The possi￾bility of small conformational changes unique for each complex
+that may influence the change in heat capacity cannot be
+excluded.
+The thermodynamic results for the Cdc42/WASP couple
+strongly resemble the values obtained for the interaction of
+Rap or Ras with RalGDS, although the interaction is very
+different from the two structural points of view. First, the
+WASP fragments appear to be less structured in their free form
+(33) than the RBDs, and therefore a large conformational
+change must parallel the binding process. Second, the WASP
+fragments do not form a globular domain when bound to Cdc42,
+but part of it, including the Cdc42/Rac interactive binding
+motif, wraps around Cdc42 leading to an interface area more
+than twice as large as in the Ras/effector complexes (26). This
+results in unpredictable thermodynamics because the enthalpy
+and entropy changes are probably a combination of peptide
+folding and Cdc42 binding and impossible to disentangle.
+Our results do not allow general conclusions as to how the
+GTPase/effector structures and their changes with respect to
+the free proteins are related to the thermodynamics of their
+interactions. Nevertheless, the data reported here indicate that
+the effectors not only exert different Ras affinities but also
+show fundamental differences in their binding modes that in
+turn could be used to develop inhibitors for specific signaling
+pathways. The differences in DS0 may prove particularly useful
+in complementing electrostatic force field models that underlie
+conventional calculations of biomolecular interactions. Future
+work shall address in more detail the role of interfacial water
+by heat capacity measurements (44, 50) and osmotic stress
+experiments (51). Double mutant cycle analysis (52) will help
+quantify the contributions of single amino acids. This knowl￾edge will ultimately be useful not only to block Ras/effector
+function but also for the general understanding of protein/
+protein interaction in the cell and how to interfere with it in a
+rational approach.
+Acknowledgments—We thank S. Wohlgemuth for excellent technical
+assistance, D. Klostermeier for helpful comments on the manuscript,
+K. P. Hofmann and G. Weiss for initial help with calorimetric measure￾ments, and H. Tu and M. Wigler for providing the Byr2 DNA construct.
+REFERENCES
+1. Marshall, M. S. (1995) FASEB. J. 9, 1311–1318
+2. Bourne, H. R., Sanders, D. A., and McCormick, F. (1990) Nature 348, 125–132
+3. Morrison, D. K., and Cutler, R. E. (1997) Curr. Opin. Cell Biol. 9, 174–179
+4. Urano, T., Emkey, R., and Feig, L. A. (1996) EMBO J. 15, 810–816
+5. Rodriguezviciana, P., Warne, P. H., Vanhaesebroeck, B., Waterfield, M. D.,
+and Downward, J. (1996) EMBO J. 15, 2442–2451
+6. Herrmann, C., and Nassar, N. (1996) Prog. Biophys. Mol. Biol. 66, 1–41
+7. Yamamoto, T., Harada, N., Kano, K., Taya, S., Canaani, E., Matsuura, Y.,
+Mizoguchi, A., Ide, C., and Kaibuchi, K. (1997) J. Cell Biol. 139, 785–795
+8. Tu, H., Barr, M., Dong, D. L., and Wigler, M. (1997) Mol. Cell. Biol. 17,
+5876–5887
+9. Minden, A., Lin, A., McMahon, M., Lange-Carter, C., De´rijard, B., Davis, R. J.,
+Johnson, G. L., and Karin, M. (1994) Science 266, 1719–1723
+10. Bokoch, G. M. (1994) Curr. Opin. Cell Biol. 6, 212–218
+11. Hall, A. (1998) Science 279, 509–514
+12. Kaibuchi, K., Kuroda, S., and Amano, M. (1999) Annu. Rev. Biochem. 68,
+459–486
+13. Ridley, A. J. (1999) Prog. Mol. Subcell. Biol. 22, 1–22
+14. Ochs, H. D. (1998) Springer Semin. Immun. 19, 435–458
+15. Carlier, M. F., Ducruix, A., and Pantaloni, D. (1999) Chem. Biol. 6, R235–R240
+16. Rohatgi, R., Ma, L., Miki, H., Lopez, M., Kirchhausen, T., Takenawa, T., and
+Kirschner, M. W. (1999) Cell 97, 221–231
+17. Emerson, S. D., Madison, V. S., Palermo, R. E., Waugh, D. S., Scheffler, J. E.,
+Tsao, K. L., Kiefer, S. E., Liu, S. P., and Fry, D. C. (1995) Biochemistry 34,
+6911–6918
+18. Huang, L., Weng, X. W., Hofer, F., Martin, G. S., and Kim, S. H. (1997) Nat.
+Struct. Biol. 4, 609–615
+19. Geyer, M., Herrmann, C., Wohlgemuth, S., Wittinghofer, A., and Kalbitzer,
+H. R. (1997) Nat. Struct. Biol. 4, 694–699
+20. Nassar, M., Horn, G., Herrmann, C., Scherer, A., McCormick, F., and
+Wittinghofer, A. (1995) Nature 375, 554–560
+21. Nassar, N., Horn, G., Herrmann, C., Block, C., Janknecht, R., and
+Wittinghofer, A. (1996) Nat. Struct. Biol. 3, 723–729
+22. Huang, L., Hofer, F., Martin, G. S., and Kim, S. H. (1998) Nat. Struct. Biol. 5,
+422–426
+23. Vetter, I. R., Linnemann, T., Wohlgemuth, S., Geyer, M., Kalbitzer, H. R.,
+Herrmann, C., and Wittinghofer, A. (1999) FEBS Lett. 451, 175–180
+24. Huber, F., Gronwald, W., Wohlgemuth, S., Herrmann, C., Geyer, M.,
+Wittinghofer, A., and Kalbitzer, H. R. (2000) J. Biomol. NMR 16, 355–356
+25. Steiner, G., Kremer, W., Linnemann, T., Herrmann, C., Geyer, M., and
+Kalbitzer, H. R. (2000) J. Biomol. NMR 18, 73–74
+26. Abdul-Manan, N., Aghazadeh, B., Liu, G. A., Majumdar, A., Ouerfelli, O.,
+Siminovitch, K. A., and Rosen, M. K. (1999) Nature 399, 379–383
+27. Herrmann, C., Horn, G., Spaargaren, M., and Wittinghofer, A. (1996) J. Biol.
+Chem. 271, 6794–6800
+28. Linnemann, T., Geyer, M., Jaitner, B. K., Block, C., Kalbitzer, H. R.,
+Wittinghofer, A., and Herrmann, C. (1999) J. Biol. Chem. 274,
+13556–13562
+29. Bos, J. L. (1998) EMBO J. 17, 6776–6782
+30. Wiseman, T., Williston, S., Brandts, J. F., and Lin, L. N. (1989) Anal. Biochem.
+179, 131–137
+31. Vojtek, A. B., Hollenberg, S. M., and Cooper, J. A. (1993) Cell 74, 205–214
+32. Herrmann, C., Martin, G. A., and Wittinghofer, A. (1995) J. Biol. Chem. 270,
+2901–2905
+23920 Thermodynamics of GTPase/Effector Interactions
+ at Brown University on March 5, 2015 http://www.jbc.org/ Downloaded from 33. Rudolph, M. G., Bayer, P., Abo, A., Kuhlmann, J., Vetter, I. R., and
+Wittinghofer, A. (1998) J. Biol. Chem. 273, 18067–18076
+34. Bradford, M. M. (1976) Anal. Biochem. 72, 248–254
+35. Gill, S. C., and von Hippel, P. H. (1989) Anal. Biochem. 182, 319–326
+36. Doyle, M. L., Louie, G., Dal Monte, P. R., and Sokoloski, T. D. (1995) Methods
+Enzymol. 259, 183–194
+37. Baker, B. M., and Murphy, K. P. (1996) Biophys. J. 71, 2049–2055
+38. Bradshaw, J. M., and Waksman, G. (1998) Biochemistry 37, 15400–15407
+39. Fukada, H., and Takahashi, K. (1998) Proteins 33, 159–166
+40. Martell, A. E., and Smith, R. M. (1974) Critical Stability Constants, Plenum
+Press, New York
+41. Sturtevant, J. M. (1977) Proc. Natl. Acad. Sci. U. S. A. 74, 2236–2240
+42. Murphy, K. P., Privalov, P. L., and Gill, S. J. (1990) Science 247, 559–561
+43. Gomez, J., Hilser, V. J., Xie, D., and Freire, E. (1995) Proteins 22, 404–412
+44. Murphy, K. P., and Freire, E. (1992) Adv. Protein Chem. 43, 313–361
+45. Burbelo, P. D., Drechsel, D., and Hall, A. (1995) J. Biol. Chem. 270,
+29071–29074
+46. Fersht, A. R. (1987) Trends Biochem. Sci. 12, 301–304
+47. Dunitz, J. D. (1994) Science 264, 670–670
+48. Habermann, S. M., and Murphy, K. P. (1996) Protein Sci. 5, 1229–1239
+49. Spolar, R. S., Livingstone, J. R., and Record, M. T. J. (1992) Biochemistry 31,
+3947–3955
+50. Livingstone, J. R., Spolar, R. S., and Record, M. T. J. (1991) Biochemistry 30,
+4237–4244
+51. Parsegian, V. A., Rand, R. P., and Rau, D. C. (1995) Methods Enzymol. 259,
+43–94
+52. Schreiber, G., and Fersht, A. R. (1995) J. Mol. Biol. 248, 478–486
+53. Nicholls, A., Sharp, K. A., and Honig, B. (1991) Proteins 11, 281–296
+Thermodynamics of GTPase/Effector Interactions 23921
+ at Brown University on March 5, 2015 http://www.jbc.org/ Downloaded from R. Vetter and Christian Herrmann
+Petra Grünewald, Alfred Wittinghofer, Ingrid 
+Markus G. Rudolph, Thomas Linnemann,
+ 
+Isothermal Titration Calorimetry
+Cdc42/Effector Interactions Probed by 
+Thermodynamics of Ras/Effector and
+TRANSDUCTION:
+MECHANISMS OF SIGNAL
+doi: 10.1074/jbc.M011600200 originally published online April 5, 2001
+J. Biol. Chem. 2001, 276:23914-23921.
+ 
+Access the most updated version of this article at doi: 10.1074/jbc.M011600200
+ 
+Find articles, minireviews, Reflections and Classics on similar topics on the JBC Affinity Sites.
+Alerts: 
+ 
+• When a correction for this article is posted
+• When this article is cited
+Click here to choose from all of JBC's e-mail alerts
+ 
+http://www.jbc.org/content/276/26/23914.full.html#ref-list-1
+This article cites 52 references, 14 of which can be accessed free at
+ at Brown University on March 5, 2015 http://www.jbc.org/ Downloaded from 

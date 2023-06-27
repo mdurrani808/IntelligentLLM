@@ -1,0 +1,262 @@
+Full-Length GqPhospholipase C-3 Structure Reveals Interfaces of the C-terminal Coiled-Coil Domain Phospholipase C- (PLC) is directly activated by Gq, but the molecular basis for how its distal C-terminal domain (CTD) contributes to maximal activity is poorly understood.
+Herein we present both the crystal structure and cryo-EM 3D reconstructions of human full-length PLC3 in complex with murine Gq.
+The distal CTD forms an extended, monomeric helical bundle consisting of three anti-parallel segments with structural similarity to membrane-binding binamphiphysinRvs (BAR) domains.
+Sequence conservation of the distal CTD identifies putative membrane and protein interaction sites, the latter of which bind the N-terminal helix of Gq in both the crystal structure and cryo-EM reconstructions.
+Functional analysis suggests the distal CTD plays roles in membrane targeting and in optimizing the orientation of the catalytic core at the membrane for maximal rates of lipid hydrolysis.
+ Phospholipase C (PLC) isozymes hydrolyze the inner membrane lipid phosphatidylinositol-4,5-bisphosphate (PIP2) to generate the second messengers diacylglycerol and inositol 1,4,5-triphosphate (IP3), which in turn promote the release of intracellular calcium and activate protein kinase C (PKC).
+Among the PLC subfamilies, PLC enzymes are unique in their ability to be stimulated via direct interactions with the heterotrimeric G protein subunits Gq and G.
+PLC proteins contribute to diverse cellular functions, including chemotaxis, neural signalingand opioid sensitivity.
+More recently, excess Gq signaling has been implicated in the development of ocular cancer.
+One of the best characterized roles of PLC is in the cardiovascular system, where it regulates cardiomyocyte and vascular smooth muscle function.
+Maladaptive changes in these pathways can result in the onset and maintenance of cardiac arrhythmias, cardiac hypertrophy, and heart failure.
+ Like most other PLC enzymes, PLC contains an N-terminal pleckstrin homology (PH) domain, four tandem EF hand repeats, a triose phosphate isomerase (TIM) barrel-like catalytic domain separated into X and Y halves by the X-Y linker, and a C2 domain, which forms the catalytic core of the enzyme.
+Unlike other PLC isoforms, PLC also has a ~400 amino acid C-terminal extension to the catalytic core that contains the proximal and distal C-terminal domains (CTDs) separated by a non-conserved, low complexity linker of variable length (Fig. 1a, Supplementary Fig. 1).
+The proximal CTD is a highly conserved ~40 amino acid segment that contains the principal binding site for activated Gq (the H1-H2 hairpin) followed by an autoinhibitory helix (H2') that binds to the catalytic core.
+When Gq binds to the hairpin, the H2' helix is displaced from the catalytic core, leading to enhanced lipid hydrolysis.
+The distal CTD is less well conserved but numerous studies suggest that it is important for full activity, membrane binding, regulation by Gq, and GAP activity.
+However, the molecular basis for how it contributes to these processes remains poorly defined even in light of the structure of a distal CTD from turkey PLC .
+To elucidate a structural basis for the functional roles of the distal CTD, we used X-ray crystallography and single particle electron cryo-microscopy (cryo EM) to determine the structure of human full-length PLC3 in complex with activated Gq, revealing the distal CTD in the context of a fully functional signaling complex where it forms unanticipated interactions with Gq and the catalytic core of PLC that likely contribute to regulation.
+ RESULTS Crystal Structure of Gq in Complex with Human PLC3 The GqPLC3 complex crystallized as an asymmetric dimer, with the two-fold interface mediated by the Rac1-binding surface of the PH domains (Table 1, Fig. 1b, Supplementary Fig. 2a).
+Each GqPLC3 catalytic core complex is similar to the structure of Gq in complex with PLC3-887 (PDB entry 3OHM) (r.m.s.d. of 0.57  for 932 C atoms from Gq and residues 11867 of PLC3), although the relative orientation of Gq with respect to the catalytic core differs from 3OHM by 3 in each GqPLC3 catalytic core complex.
+The greatest conformational differences are observed in the1-2 and5-6 loops of the PH domain, likely due to their contribution to the dimer interface (Supplementary Fig. 2b), and in the H2' helix, which adopts a different orientation in each of the GqPLC3 complexes in this structure and the 3OHM structure (Supplementary Fig. 2c).
+ Only one copy of the distal CTD is observed in the asymmetric unit, despite the preponderance of full length PLC3 in the crystals (Supplementary Fig. 3), suggesting the other distal CTD is disordered rather than proteolyzed.
+The CTD linker (residues 883933) is not observed in the structure, and thus the distal CTD could be attached to a number of different adjacent catalytic cores in the crystal lattice (e.g. Supplementary Fig. 4).
+The distal CTD (residues 9341192) consists of three primarily anti-parallel helical segments that extend nearly the full-length (~140 ) of the domain (Fig. 1b, 2a).
+The first segment contains the D1 (residues 935946), D2 (954958) and D3 (9601008) helices.
+D3 forms an extended anti-parallel coiled-coil interaction with the D4 helix (residues 10271107) in the second segment.
+D4 in turn forms an extended anti-parallel coiled-coil interaction with D5 (residues 11151183) in the third segment.
+The D1 and D2 helices at the beginning of the first segment, and D6 (residues 11841192) at the end of the third segment, form arms that cross the same face of the domain and pack against the principal helices of the other two segments (Fig. 1b, 2a).
+ Although clearly sharing the same fold, the PLC3 distal CTD superimposes poorly with that of turkey PLC (PDB entry 1JAD) (Fig. 2a), with an r.m.s.d.
+of 4.4  for the D2-D6 helices (197 C atoms), much higher than the expected 1.6  r.m.s.d.
+based on sequence identity alone (27%).
+One difference lies in the D5 helix, which is kinked in the PLC3 CTD structure by Pro1166.
+A second difference is that the PLC3 CTD is more curved than the turkey CTD, such that when the two domains are superimposed, the ends of the PLC3 domain are bent more towards the side of the domain with the arms. This could be due to differences in the crystal packing of each structure, or to the fact that the turkey CTD crystallized as a homodimer, or to the multiple protein-protein interactions formed by the PLC3 distal CTD within its crystal lattice, or to a combination of all these factors.
+Although the turkey CTD contained a deletion in the D3-D4 loop at one end of the domain, this deletion corresponds to residues that are disordered in the PLC3 CTD and are therefore unlikely to be responsible for global differences in domain conformation.
+A homology search using Dali confirmed the structural similarities between the distal CTD and the turkey CTD structure (Z-scores of 15.4 and 8.6 for the B and A chains of the turkey CTD homodimer, respectively) as well as homology to bin-amphiphysin-Rvs (BAR) domains, with Z-scores between 6.78.3.
+BAR domains are also extended helical bundles composed of three helical segments and have a similar topology (Supplementary Fig. 5).
+BAR domains interact nonspecifically with negatively charged phospholipids, as has been reported for the PLC isozymes, and can sense and/or induce membrane curvature.
+ Conservation of the Distal CTD Reveals Putative Interaction Surfaces Most of the highly conserved residues in the distal CTD (Supplementary Fig. 1) are hydrophobic and pack between the three segments of the domain to form a hydrophobic core, with the largest cluster located at the interface of the D2, D4, and D5 helices at the center of the domain (Fig. 2b).
+Two other clusters of conserved residues are on the surface of the domain and likely serve other functions.
+A ridge of highly conserved basic residues runs along the same face of the D3 and D4 helices (Fig. 2c) and constitutes a potential membrane-interaction site.
+Indeed, previous studies found that deletion of the distal CTD abolishes particulate association, and mutation of conserved basic residues within D3 of PLC1 impairs maximal Gq-stimulated activity.
+The electrostatic surface of the domain (Fig. 2d) is also consistent with the ability to bind negatively charged membranes.
+Some BAR domains also have basic patches located at similar topological positions to those observed in D3 and D4, suggesting a functional relationship with the PLC distal CTD.
+A second patch of conserved surface residues is formed by residues Ile1129, Val1133, and Ile1136 in the D5 helix (Fig. 2c).
+This region is orthogonal to the putative membrane-binding surface, and may therefore represent a protein-protein interaction site involved in regulation of PLC at the membrane.
+ Solution Architecture of the GqPLC3 Complex The distal CTD makes several direct contacts with Gq and the catalytic core of PLC3 in the crystal lattice.
+Although of all these interactions could not be formed at the same time by a single distal CTD in the context of a PLC monomer, each one represents an interaction that could contribute to activity and/or regulation.
+To identify which of the interactions made by the distal CTD also occur in solution, we used single particle cryo-EM to determine the solution structure of the GqPLC3 complex.
+A combination of thin vitrified ice and CCD image acquisition under an electron accelerating voltage of 120 kV allowed adequate contrast for alignment of the ~180 kDa protein particle projections (Fig. 3).
+We initially calculated a preliminary 3D reconstruction from our entire dataset of 40,124 projections by using the GqPLC3 structure without the distal CTD as initial reference.
+The reconstruction was characterized by relatively poor definition for the GqPLC3 core, and lacked clear density for the distal CTD.
+Instead, several noise-like densities appeared at various positions about the core complex (Supplementary Fig. 6).
+ To test whether the observed peripheral densities corresponded to flexibility or multiple distinct conformations of the distal CTD with respect to the catalytic core, we employed multiple 3D reference-supervised classification to categorize the cryo-EM projections.
+The categorization was based on the similarities of projections to reprojections of four 20 -filtered volumes representing different direct GqPLC3 interactions with the distal CTD that were observed in the crystal lattice.
+We then used the cryo-EM projections in each category to generate four independent 3D reconstructions, all using the same starting reference, which corresponded to a 20 -filtered volume of the GqPLC3 catalytic core without the distal CTD (Fig. 3).
+The omission of the CTD density in the reference volume ensured that we eliminated any reference bias for its position with respect to the catalytic core.
+ The majority of cryo-EM projections showed good agreement with two of the initial reference structures (>30% of projections each, Fig. 3).
+These two subgroups provided 3D reconstructions with very good definition for the core complex and additional elongated density attached at two different positions (Fig. 4a, b).
+These non-biased reconstructions (for the CTD), with estimated resolutions of 19  and 21  (at FSC=0.5, Supplementary Fig. 7), showed excellent agreement with the two corresponding models used for particle categorization with a cross-correlation greater than 0.93.
+In contrast, the other subgroups (with ~18% of projections each, Fig. 3) not only failed to reveal a clear density for the distal CTD, but also showed very poor volumes for the GqPLC3 core complex.
+This may indicate that the orientation of the distal CTD within these subgroups is highly variable, resulting in overall projection misalignment and consequently poor quality 3D reconstructions.
+ Therefore, under our experimental conditions, two of the interactions of the distal CTD are favored in solution and recapitulated in the crystal lattice (Fig. 4).
+Both involve conserved residues.
+The first interaction is between the distal CTD and the N-terminal amphipathic helix of Gq (Fig. 4a, c).
+The second is between the distal CTD and the hydrophobic ridge of the PLC3 catalytic core (Fig. 4b, d), a cluster of conserved and solvent exposed hydrophobic residues adjacent to the active site that are thought to insert into the membrane and promote catalysis.
+The latter interaction would therefore be predicted to simultaneously hinder access of substrates into the active site and prevent the conserved basic patch on D3 from interacting with membranes.
+ Functional Analysis of the Gq N-terminusDistal CTD Interaction To assess the significance of the interaction between the distal CTD and the N-terminal helix of Gq (Fig. 4a, c) we expressed a truncated Gq in which the first 36 residues, corresponding to its N-terminal helix, were deleted (Gq-N), and a PLC3 I1129E V1133E I1136E triple mutant (PLC3 EEE), which eliminates the hydrophobic patch on D5.
+We used a liposome-based assay to measure the rates of basal and Gq-stimulated PIP2 hydrolysis.
+The maximum activities of PLC3 and PLC3 L876A, which contains a mutation that abrogates H2' autoinhibition, were significantly lower when stimulated by Gq-N than wild-type Gq (Table 2, Supplementary Fig. 8a, b).
+The Gq-stimulated activities of PLC3 EEE and PLC3 L876A EEE were also significantly reduced compared to wild-type PLC3 and PLC3 L876A, respectively.
+Conversely, the activities of PLC3-892, which lacks the distal CTD, and PLC3 EEE were the same for Gq and Gq-N, indicating these PLC3 variants were insensitive to the presence of the N-terminal helix of Gq (Table 2).
+ We also tested whether perturbation of the Gq interfaces formed by the distal CTD would decrease binding affinity for activated Gq.
+We used a flow cytometry-based bead-binding assay to measure the ability of PLC3 variants to displace a fluorescently labeled mutant of PLC3 (PLC3-892 R872A L876A L879A) from bead-bound Gq.
+In this assay, PLC3 bound Gq with higher affinity than PLC3-892 (Ki values of 220  30 nM and 490  66 nM, respectively), but with significantly less affinity than PLC3 L876A (Ki= 20  3.2 nM) (Table 2, Supplementary Fig. 8c), consistent with the L876A mutation abrogating the autoinhibitory interaction of H2' with the catalytic core.
+Although these Ki values are overall higher than reported in prior studies, they maintain the same trends.
+The values are also higher than the EC50 values we measured for activation.
+This is likely because the bead-binding assay lacks liposomes, which likely enhance the apparent affinity of Gq and PLC3.
+We next tested whether the interaction between the distal CTD and the N-terminal helix of Gq was responsible for the difference in binding affinities between PLC3 and PLC3-892, using the Gq-N and PLC3 EEE variants to abolish the interface.
+However, neither variant showed a significant binding defect (Table 2, Supplementary Fig. 8d), consistent with their similar EC50 values for activation.
+Thus, our results support the conclusion that a direct interaction between the N-terminus of Gq and the hydrophobic patch of D5 in the distal CTD occurs during catalysis that is required for full efficacy, but not potency.
+ Gq Palmitoylation Also Contributes to Full Efficacy The Gq proteins used in these experiments were purified from the soluble fraction of baculovirus-infected insect cells, but some fraction of these proteins may retain palmitoyl groups at Cys9 and Cys10 (ref.), which could account for the higher efficacy observed for full-length Gq relative to Gq-N.
+Acyl-biotin exchange chemistry confirmed at least a fraction of the purified Gq was palmitoylated (Supplementary Fig. 9).
+Thus, we assessed the ability of palmitoylation-defective Gq (Gq C9S C10S) to activate PLC3 variants (Table 2, Supplementary Fig. 8b).
+Gq-N and Gq C9S C10S activated PLC3 and PLC3 L876A with similarly low efficacies, indicating that palmitoylation does contribute to the higher efficacy observed for wild-type Gq in vitro.
+However, palmitoylated Gq likely increases PLC3 activity through a mechanism other than increased localization of the complex to vesicles, as it does not seem to increase association of PLC3 with membranes.
+PLC3-892 was activated to similar extents by Gq, Gq-N and Gq C9S C10S (Table 2), indicating that the palmitoylation status of Gq is irrelevant in the absence of the distal CTD.
+ PLC3 and the GqPLC3 Complex Are Monomeric The residues that comprise the hydrophobic patch in D5 contribute to a homodimer interface in the turkey distal CTD structure.
+Therefore, defects in specific activity exhibited by mutants such as PLC3 EEE could be attributed to disruption of the dimer interface.
+In addition, dimerization of the distal CTD, though structurally incompatible with the Gq N-terminal helix-distal CTD interaction (Fig. 4a, c), could occur simultaneously with the PLC3 core-distal CTD interface (Fig. 4b, d).
+We therefore tested whether full-length PLC3 or GqPLC3 formed higher order complexes using multi-angle light scattering.
+PLC3 and GqPLC3 elute from a WTC-050S5 silica-based column with molecular weights of 152 kDa and 182 kDa, respectively, very close to the expected molecular weights for monomeric PLC3 (139 kDa) and GqPLC3 species (181 kDa).
+Furthermore, cryo-EM images of the GqPLC3 complex incubated on the surface of PIP2 lipid monolayers did not reveal higher order assemblies of the complex (data not shown), suggesting membrane association does not induce oligomerization.
+Thus, the differences in efficacy measured for mutants such as PLC3 EEE do not seem to be linked to changes in the oligomeric state of the enzyme.
+ Analysis of Other Interfaces of the Distal CTD Formed in Crystals The interface formed between the distal CTD and the PLC3 hydrophobic ridge (Fig. 4b, d) could represent a mechanism by which the distal CTD contributes to the regulation of basal activity.
+We therefore generated Leu341, Phe381, Met383, Thr652, and Val654 point mutants in both PLC3 and PLC3-892.
+Of these, only T652E could be expressed and purified in the background of the PLC3 construct, suggesting these residues are essential for protein folding and/or stability.
+PLC3 T652E and PLC3-892 T652E showed significant decreases in basal activity, higher EC50 values, and greatly reduced efficacies upon Gq activation, confirming the importance of the hydrophobic ridge in PLC3 for overall activity (Table 2).
+The activity of the T652E mutant was the same regardless of the presence of the distal CTD, suggesting that the distal CTD does not influence basal activity.
+However, our inability to confirm this with other mutations in this region renders interpretation difficult.
+ The distal CTD also contacts the Ras-like domain of Gq, burying ~850 2 of surface area (Supplementary Fig. 2d).
+In this interaction, the Gq 3-4 loop and 4 helix interact with residues in D3 and D4 of the distal CTD.
+Gq Pro298 forms a hydrophobic contact with the side chains of Arg1062 and Gln1066 in B, and electrostatic interactions are formed between Gq Asp296 and K311A and D3 residues Arg969, Asp973, and Glu976.
+To test this interaction, we expressed D296A P298D and K311A variants of Gq and tested their ability to bind and activate PLC3 variants.
+All were able to activate PLC3 variants with EC50 values and maximum activity comparable to wild-type Gq, although EC50 values for D296A P298D were elevated.
+However, none had a significant effect on binding affinity (Table 2).
+ Another interaction observed in crystals is between the D3-D4 loop of the distal CTD and the second EF hand (E2 and F2 helices) of the catalytic core.
+Although this interaction is sufficient to cause a conformational change in a loop of the EF hand relative to the 3OHM structure and the other chain of PLC3 in our structure, the residues involved in this interaction are poorly conserved and not well ordered.
+Indeed, D3-D4 loop residues 10091026 could not be modeled.
+Thus, this interaction most likely represents a simple crystal contact.
+ The CTD Linker Is Required for Gq Activation Point mutants of residues in the hydrophobic ridge that interact with the distal CTD suggest that these positions are essential for folding and basal activity, consistent with their proposed role in catalysis.
+We therefore indirectly tested this interface by deleting the CTD linker, which should prevent the distal CTD from forming any of the interactions observed in the crystal lattice or by cryo-EM.
+PLC3-882938 showed a significant increase in basal activity compared to PLC3 (Table 2).
+This increase could be attributed to a loss of autoinhibition mediated by the distal CTD or to an increase in the local concentration of the catalytic core at the membrane by virtue of a shorter linker.
+However, deletion of the CTD linker had no significant effect on basal activity in the background of PLC3 L876A (Table 2).
+Thus the mechanism by which basal activity is increased is not clear.
+Strikingly, Gq failed to activate PLC3-882938 or PLC3-882938 L876A at all concentrations tested (Table 2, Supplemental Fig. 8a) even though both proteins bound Gq with comparable affinity to PLC3 and PLC3 L876A, respectively (Table 2, Supplementary Fig. 8c).
+Because the sequence of the CTD linker is not conserved among PLC isozymes, its length and/or flexibility seems to be required for the proximal and distal CTDs to make all the interactions necessary for activation by Gq.
+ DISCUSSION The structure of Gq in complex with full-length human PLC3 provides new insights into the structure and potential functions of the enigmatic distal CTD of PLC isozymes.
+One edge of this domain bears highly conserved basic residues that likely directly interact with negatively charged membranes.
+Structural similarity between the distal CTD and BAR domains (Supplementary Fig. 5) is also consistent with membrane targeting being a key role for the distal CTD, and raises the possibility that the distal CTD may likewise sense or influence membrane curvature.
+Orthogonal to this surface is a conserved hydrophobic patch that interacts with the amphipathic N-terminal helix of Gq in both the crystal structure and cryo-EM reconstructions.
+Our in vitro functional analysis supports a role for this interaction in promoting full efficacy of activation by Gq.
+However, oligomerization does not appear to play a role in this process as PLC3 and the GqPLC3 complex are monomeric by structural analysis and multi-angle light scattering.
+ Our structural and functional analysis of the distal CTD in the context of a fully functional signaling complex allows re-interpretation of prior functional studies.
+Ilkeava et al identified five regions in the distal CTD of rat PLC1 that caused significant defects in Gq activation and GAP activity (Group III mutants; Supplementary Fig. 1).
+The first three regions perturbed the conserved basic residues in D3 and D4 that we propose to be involved in membrane binding.
+The fourth region perturbed the hydrophobic patch that interacts with the N-terminus of Gq.
+Site-directed mutation of the conserved basic residues (particularly within D3) reduced Gq-stimulated activity and greatly reduced association with the particulate fraction of cells.
+Considered along with our data, substitution of the conserved basic residues most likely decreases Gq-stimulated activity because the enzyme is impaired in its ability to associate with the membrane where its substrate is located.
+Defects in GAP activity resulting from perturbations of the distal CTD could likewise be explained as defects in membrane binding, as this property was measured in steady state assays using receptor and heterotrimeric G proteins reconstituted in lipid vesicles.
+ However, membrane binding is clearly not the sole function of the distal CTD.
+Perturbation of the hydrophobic patch in D5 leads to a significant decrease in maximum Gq-stimulated activity, despite the presence of palmitoylated Gq and an intact membrane-binding surface on the distal CTD.
+Furthermore, deletion of the CTD linker leads to complete loss of Gq activation in our assays (Table 2, Supplementary Fig. 8a).
+The simplest explanation for these observations is that the interaction between the distal CTD and the palmitoylated N-terminus of Gq optimizes the orientation of the catalytic core at the membrane (Fig. 5).
+Thus, activation of the enzyme by Gq is at least a combination of allosteric control (e.g. release of autoinhibition by H2') and proper positioning of the catalytic core.
+Either or both of these processes could also influence displacement of the X-Y linker from the active site through a process of interfacial activation.
+ Adding to the complexity is the regulation of PLC by G subunits and small GTPases.
+G and small GTPases are typically geranylgeranylated, resulting in their constitutive association with the cell membrane.
+Activation by G and Rac1 has also been proposed to involve the optimization of the orientation of the PLC active site at the membrane, but the role of the distal CTD in response to these activators is less clear.
+Future structural studies will be essential in understanding how G interacts with and activates PLC, in some cases synergistically with Gq.
+ ONLINE METHODS Protein expression, purification, and mutagenesis N-terminally His-tagged human PLC3 (residues 101234) and variants were expressed in baculovirus infected insect cells and purified as described previously, with the modification that resuspended cells were lysed by douncing on ice.
+Murine Gq (residues 7359) and variants were expressed and purified with a TEV-cleavable N-terminal His-tag as described previously, with some modifications.
+Following elution from an Ni-NTA column, the protein was concentrated and applied to two tandem Superdex S200 columns equilibrated with 20 mM HEPES pH 8, 200 mM NaCl, 2 mM DTT, 1 mM MgCl2, and 10 M GDP.
+Gq used for complex crystallization had the His-tag removed by the addition of TEV protease at 2% (w/w) of Gq, then dialyzed overnight at 4 C in Buffer B (20 mM HEPES pH 8, 100 mM NaCl, 10 mM ME, 3 mM MgCl2, and 10 M GDP).
+Following dialysis, the proteins were applied to a Ni-NTA column pre-equilibrated with Buffer B. The flow-through, containing TEV-cleaved Gq, was collected, passed through the column three times, then concentrated and applied to two tandem Superdex S200 columns.
+Point mutations and internal deletions in the coding regions of PLC3 and Gq were introduced using QuikChange Site-Directed Mutagenesis (Stratagene), and were confirmed by sequencing over the entire open reading frame.
+ Purification of the GqPLC3 Complex TEV-cleaved Gq was incubated on ice with Buffer C (20 mM HEPES pH 8, 200 mM NaCl, 2mM DTT, 0.9 mM CaCl2, 5 mM MgCl2, 10 mM NaF, 30 M AlCl3, and 50 M GDP) for 1520 min.
+Purified PLC3 was added to Gq in a 1:1.2 molar ratio, and incubated for an additional 30 min on ice.
+The reaction was loaded on two tandem Superdex S200 columns equilibrated with Buffer C. Peak fractions containing GqPLC3 were pooled and concentrated in a 100 kDa Amicon concentrator.
+ Crystallization and Structure Determination of the GqPLC3 Complex GqPLC3 was suspended in hanging drops containing 1 l GqPLC3 at 6.2 mg ml1 mixed with 1 l well solution.
+The well solution contained 100 mM MES pH 6.75, 100200 mM NaCl, and 1112% PEG 3350, with crystals appearing in 47 d at 4 C.
+Crystals were harvested in 20 mM HEPES pH 8, 400500 mM NaCl, 2 M DTT, 0.9 mM CaCl2, 5 mM MgCl2, 10 mM NaF, 30 M AlCl3, 50 M GDP, 15% (w/v) PEG 3350, and 30% (v/v) 1,3-butanediol, then frozen on nylon loops in liquid nitrogen for data collection.
+ Diffraction data was collected at the Advanced Photon Source at LS-CAT Beam line 21-ID-D and GM/CA-CAT beam line 23-ID-D from crystals maintained at 110 K at wavelengths of 1.13  and 1.03  respectively.
+Although initial diffraction to 3.3  spacings was observed, rapid decay limited useful data to 4.0  spacings (Table 1).
+Data sets were reduced using HKL2000, and initial phases were derived by molecular replacement using the 3OHM structure as a search model.
+Models were refined via restrained refinement with TLS using the program REFMAC5.
+Five TLS groups were used: one for each Gq chain, its ligands (Mg2+, GDP, and AlF4 molecules) and its bound PLC3 proximal CTD (residues 863881), one for each PLC3 catalytic core and its associated Ca2+ atom, and one for the distal CTD.
+NCS restraints were imposed on the two Gq chains (residues 39353 and its ligands) and the two PLC3 chains (residues 16194, 202862, and the Ca2+ atoms).
+Stereochemical correctness of the final model was assessed with MolProbity.
+In the final model, 94.7% of residues were in favored regions of the Ramachandran plot, 4.9% of residues in allowed regions, and 0.4% in disallowed regions.
+Residues in disallowed regions were also observed the 2.7  GqPLC3-887 structure.
+Electron density was observed for residues 11470 and 573881 in chain A of PLC3, and 10196, 199470, and 575881 in the second.
+Residues 471572 correspond to a region of the X-Y linker that has low sequence homology and is typically poorly ordered.
+In the distal CTD, the D3-D4 (residues 10091025) and D4-D5 (residues 11081114) loops and C-terminal residues 11931234 lacked electron density, consistent with being disordered (Supplementary Fig. 3a).
+In Gq, electron density was observed for residues 18354 in the first molecule and 35355 in the second.
+ Cryo-EM Sample Preparation and Imaging 3 l of purified GqPLC3 was adsorbed on glow-discharged Quantifoil R2/2 200 mesh grids, and vitrified using a Vitrobot (FEI Mark IV).
+The specimen was imaged on a Tecnai F20 transmission electron microscope (FEI) equipped with a field emission gun and operated at 120kV. Images were recorded at a magnification of 71,138x on a Gatan US4000 CCD camera and defocus values ranging from 2 to 3 m.
+All images were binned (2  2 pixels) to obtain a pixel size of 4.48  on the specimen level.
+ Cryo-EM 3D reconstructions and molecular modeling 40,124 particle projections from GqPLC3 images were interactively selected and excised using Boxer (EMAN 1.9 software suite).
+The CTF parameters for each micrograph were determined using ctfit, and CTF correction was applied accordingly using the program Applyctf (part of EMAN 1.9 package).
+Multiple 3D reference-supervised classification was applied to the data set, using four possible models of the complex observed in the crystal lattice.
+These unique particle datasets were used to calculate four independent 3D reconstructions using the same initial reference of the GqPLC3 core but lacking the distal CTD.
+20 -filtered volumes of GqPLC3 structures observed in the crystal lattice were computationally fitted as rigid bodies in the EM maps and cross-correlation values obtained using Chimera.
+For a more detailed description, see Supplementary Note.
+ PLC3 activity assays PLC3 basal and Gq-stimulated activity was determined by measuring the amount of free [3H]-IP3 released from [3H]-PIP2-containing liposomes, as previously described.
+PLC3 variants were assayed at a final concentration that resulted in activity within the linear range over the time course of the experiment.
+PLC3, PLC3 EEE, and PLC3-882937 were assayed at 0.3 ng l1 and PLC3 T652E at 3 ng l1.
+PLC3-L876A, PLC3 L876A EEE, and PLC3-882937 L876A were assayed at 0.05 ng l1.
+PLC3- 892 was assayed at 10 ng l1 and PLC3-892 T652E at 20 ng l1.
+ Flow Cytometry Protein Interaction Assay (FCPIA) Equilibrium binding of PLC3 variants to Gq variants was measured using FCPIA as described previously, wherein a PLC3 variant with high affinity for Gq (PLC3-892 R872A L876A L879A) was fluorescently labeled with Alexa-Fluor-488 (AF488) C5-maleimide (Invitrogen).
+Gq proteins were biotinylated (b-Gq) and linked to SPHERO Streptavidin Coated Particles (Spherotech).
+Unlabeled PLC3 variants were added to the bead-bound b-Gq proteins over a range of concentrations, after which AF488-labeled PLC3-892 R872A L876A L879A was added at its measured KD (40 nM) and incubated for 1 h prior to being processed with an Accuri C6 flow cytometer.
+ Detection of Palmitoylated Gq Purified His-tagged Gq variants at identical concentrations were diluted to a final volume of 400 l in 50 mM HEPES pH 7.5, 150 mM NaCl, 1% Triton X-100, 25 mM N-ethylmaleimide (USB), protease inhibitors, and 0.1% SDS, then rotated overnight at 4 C with 35 l Ni-NTA beads.
+Samples were divided in half, with controls incubated with 0.5 M HEPES pH 7.5, and all other samples with 0.25 M HEPES pH 8 and 0.25 M hydroxylamine (Sigma-Aldrich).
+Samples were incubated and rocked for 4 h at room temperature.
+Ni-NTA beads were washed twice with PBS, and resuspended in 225 l PBS.
+Samples were treated with 0.4 mM N-[6-(biotinamido)hexyl]-3'-(2'-pyridyldithio)propionamide (HPDP-biotin, Thermo Scientific) and incubated and rocked for 2 h at room temperature.
+Beads were washed once with PBS, and resuspended in SDS loading dye.
+Protection of cysteines via palmitoylation was then detected by western blot using a biotin antibody (StrepTactin-HRP Conjugate at 1:10,000 dilution, Biorad).
+ Multi-Angle Light Scattering Purified PLC3 or GqPLC3 were filtered and applied to a 50S size exclusion column with a molecular weight range of 15,0005,000,000 Da connected to multi-angle wavelength detector (Wyatt Technology).
+The system was equilibrated with either PLC3 Buffer A (20 mM HEPES pH 8, 200 mM NaCl, 2 mM DTT, 0.1 mM EGTA, and 0.1 mM EDTA), or GqPLC3 Buffer C. The molecular weights of PLC3 and GqPLC3 were determined by fitting the elution peak of the protein using ASTRA software. Statistical Methods Statistical analyses used analysis of variance (ANOVA) with a Tukeys post test as implemented in Prism (version 5.0a).
+All comparisons deemed significant had P values of at least < 0.01. Figures.
+Structure images were generated using Pymol Version 1.5.0 (Schrdinger, LLC), and electrostatic surfaces were calculated using APBS.
+Figures were created using Adobe Photoshop and Illustrator. Supplementary Material ACCESSION CODES Coordinates and diffraction intensities for the GqPLC3 complex are deposited with the Protein Data Bank as entry 4GNK.
+ AUTHOR CONTRIBUTIONS A.M.L., G.S., and J.J.G.T. designed the overall experimental approach.
+A.M.L. and C.A.B. cloned, expressed and purified all Gq and PLC3 variants and conducted FCPIA assays.
+A.M.L. carried out all activity-based assays.
+A.M.L. and C.A.B. crystallized the GqPLC3 complex, and A.M.L. determined the structure.
+S.D. and G.S. carried out all cryo-EM experiments.
+A.M.L., S.D., G.S., and J.J.G.T. co-wrote the manuscript.
+ REFERENCES The phospholipase C isozymes and their regulation Mammalian phospholipase C Activation of the 1 isozyme of phospholipase C by  subunits of the Gqclass of G proteins Regulation of purified subtypes of phosphatidylinositol-specific phospholipase C by G protein  and  subunits Regulation of polyphosphoinositide-specific phospholipase C activity by purified Gq Roles of phospholipase C 2 in chemoattractant-elicited responses Phospholipase C isozymes selectively couple to specific neurotransmitter receptors Genetic alteration of phospholipase C 3 expression modulates behavioral and cellular responses to  opioids Frequent somatic mutations of GNAQ in uveal melanoma and blue naevi High glucose increases the expression of Gq/11 and PLC proteins and associated signaling in vascular smooth muscle cells Role of growth factor receptor transactivation in high glucose-induced increased levels of Gq/11 and signaling in vascular smooth muscle cells Temporal dispersion of activation of phospholipase C-1 and - isoforms by angiotensin II in vascular smooth muscle cells.
+Role of q/11, 12, and  G protein subunits Phosphoinositide signalling and cardiac arrhythmias The extreme C-terminal region of phospholipase C1 determines subcellular localization and function; the "b" splice variant mediates 1-adrenergic receptor responses in cardiomyocytes Gq-initiated cardiomyocyte hypertrophy is mediated by phospholipase C1b Phospholipase C gene expression, protein content, and activities in cardiac hypertrophy and heart failure due to volume overload Potential treatment of cardiac hypertrophy and heart failure by inhibiting the sarcolemmal binding of phospholipase C1b Kinetic scaffolding mediated by a phospholipase C- and Gqsignaling complex An autoinhibitory helix in the C-terminal region of phospholipase C- mediates Gqactivation Activation of phospholipase C-2 mutants by G protein qand  subunits The role of carboxyl-terminal basic amino acids in Gq-dependent activation, particulate association, and nuclear localization of phospholipase C-1 Removal of the carboxyl-terminal region of phospholipase C-1 by calpain abolishes activation by Gq Identification of critical regions on phospholipase C-1 required for activation by G-proteins Mutational analysis of phospholipase C-2.
+Identification of regions required for membrane association and stimulation by guanine-nucleotide-binding protein  subunits Membrane-binding properties of phospholipase C-1 and phospholipase C-2: role of the C-terminus and effects of polyphosphoinositides, G-proteins and Ca2+ A unique fold of phospholipase C- mediates dimerization and interaction with Gq Mutations in the carboxyl-terminal domain of phospholipase C-1 delineate the dimer interface and a potential Gqinteraction site Regulation of PLC1a membrane anchoring by its substrate phosphatidylinositol (4,5)-bisphosphate PLC isoforms differ in their subcellular location and their CT-domain dependent interaction with Gq The relation between the divergence of sequence and structure in proteins Dali server: conservation mapping in 3D Phospholipase C 2 association with phospholipid interfaces assessed by fluorescence resonance energy transfer.
+G protein betagamma subunit-mediated translocation is not required for enzyme activation Let's go bananas: revisiting the endocytic BAR code Mechanisms of membrane curvature sensing BAR domains as sensors of membrane curvature: the amphiphysin BAR structure Crystal structure of a mammalian phosphoinositide-specific phospholipase C Catalytic domain of phosphoinositide-specific phospholipase C (PLC).
+Mutational analysis of residues within the active site and hydrophobic ridge of PLC1 Functional importance of the amino terminus of Gq Phospholipase C3 is distributed in both somatodendritic and axonal compartments and localized around perisynapse and smooth endoplasmic reticulum in mouse Purkinje cell subsets General and versatile autoinhibition of PLC isozymes -subunit activation of G-protein-regulated phospholipase C Stimulation of phospholipase C-2 by the Rho GTPases Cdc42Hs and Rac1 Crystal structure of Rac1 bound to its effector phospholipase C-2 A dynamic model of membrane-bound phospholipase C2 activation by G subunits Synergistic activation of phospholipase C-3 by Gqand G describes a simple two-state coincidence detector Synergistic Ca2+responses by Gi- and Gq-coupled G-protein-coupled receptors require a single PLC  isoform that is sensitive to both G and Gq Differential association of the pleckstrin homology domains of phospholipases C-1, C-2, and C-1 with lipid bilayers and the  subunits of heterotrimeric G proteins Methods-Only-References Processing of X-ray diffraction data collected in oscillation mode Macromolecular TLS refinement in REFMAC at moderate resolutions MolProbity: all-atom contacts and structure validation for proteins and nucleic acids EMAN: semiautomated software for high-resolution single-particle reconstructions UCSF Chimera--a visualization system for exploratory research and analysis Assay for G protein-dependent activation of phospholipase C  using purified protein components Assembly of high order Gq-effector complexes with RGS proteins Labeling and quantifying sites of protein palmitoylation Palmitoylation: policing protein stability and traffic Electrostatics of nanosystems: application to microtubules and the ribosome Crystal structure of GqPLC3 reveals the C-terminal coiled-coil domain (distal CTD) in the context of a fully active signaling complex.
+(a) Primary structure of human PLC3.
+Numbers above the diagram correspond to domain boundaries.
+The catalytic core of the enzyme is defined as extending from the N-terminus to the end of the C2 domain.
+(b) A monomer of GqPLC3 from the asymmetric unit.
+Domains of PLC3 are colored as in (a).
+The observed C-terminus of the proximal CTD and the N-terminus of the distal CTD are marked with black asterisks, although this represents only one possible linkage between the catalytic core and distal CTD in the crystal lattice (see Supplementary Fig. 4).
+The observed N and C-termini of PLC3 and Gq are labeled N and C, and N' and C', respectively.
+Ca2+ and Mg2+ are shown as black spheres.
+Activated Gq is shown in gray, with bound GDP and AlF4 drawn as red sticks.
+Dashed lines correspond to disordered loops.
+ Structural comparison and sequence conservation of the PLC distal CTD.
+(a) Superposition of the distal CTDs from PLC3 (purple) and turkey PLC (blue).
+Although they have the same fold, they differ substantially in conformation in that the PLC3 distal CTD is more curved.
+Disordered loops within the distal CTD are marked as dashed lines.
+(b) The distal CTD is stabilized by conserved hydrophobic residues (gray spheres) that pack between the three segments of the domain (see Supplementary Fig. 1).
+The view is from the opposite side of the domain as shown in panel (a), rotated around a horizontal axis.
+(c) The distal CTD has two conserved, solvent-exposed regions: a basic ridge along D3 and D4 (blue spheres), and a hydrophobic patch on D5 (yellow spheres).
+In our structure the hydrophobic patch interacts with the N-terminus of Gq (see Fig. 1b and Fig. 4a, c).
+(d) Electrostatic surface of the distal CTD.
+The top image corresponds to the same view as in (b).
+The surface is colored from 4 kTe1 (red) to +4 kTe1 (blue).
+ Cryo-EM projection classification and 3D reconstruction scheme.
+40,124 particle projections were subjected to multiple 3D reference-supervised classification against volumes of four GqPLC3 core complexes observed in the crystal lattice.
+The density corresponding to Gq is shown in gray, the PLC3 core in blue, and the distal CTD in purple.
+Each group of particles was used to generate a unique 3D reconstruction using the GqPLC3 structure, omitting the distal CTD, as the initial reference.
+Two final 3D reconstructions were of good quality as judged by the definition of the GqPLC3 core complex (green stars).
+In the first model the distal CTD is docked with the N-terminal helix of Gq, and in the second with the hydrophobic ridge of the catalytic core of PLC3.
+The third represents a contact between the D3-D4 loop of the distal CTD and the second EF hand (E2 and F2 helices) of the catalytic core.
+The fourth model represents an interaction between the distal CTD and the Ras-like domain of Gq (Supplementary Fig. 2d).
+Based on functional analysis (Table 2) and failure to obtain reliable reconstructions, the last two interactions (models 3 and 4) likely represent simple lattice contacts.
+A representative cryo-EM image of purified GqPLC3 complexes is shown at the top of the figure.
+ The distal CTD interacts with the N-terminal helix of Gq and the PLC3 catalytic core in solution and in crystals.
+(a) A 19  3D EM reconstruction with docked crystal structure of the distal CTD in complex with the N-terminal helix of Gq.
+The distal CTD is shown in purple, the PLC3 core in teal, and Gq in gray.
+(b) A 21  3D reconstruction with docked crystal structure of the distal CTD in complex with the hydrophobic ridge of the catalytic core.
+(c) The interface between the distal CTD hydrophobic patch and the N-terminal helix of Gq, burying ~850 2 of accessible surface area.
+(d) The interface between the D3 helix and the hydrophobic ridge of the catalytic core, burying ~1000 2 of accessible surface area.
+ Model of PLC3 regulation by the distal CTD and Gq.
+In the absence of Gq (left), the H2' inhibitory helix from the proximal CTD (cyan), is bound to the catalytic core (gray surface), stabilizing the enzyme in a more quiescent conformation (based on PDB entry 3QR0).
+The primary Gq binding site (dashed blue line) is disordered in this state.
+The distal (purple) and proximal CTDs are connected by the disordered CTD linker (dashed red lines).
+Red asterisks mark the start and end of the linker in the basal state.
+The distal CTD could help partition the enzyme between membrane-associated and cytosolic populations by forming a transient interaction with the hydrophobic ridge of the catalytic core (see Fig. 4b, d).
+Upon activation, Gq binds to the H1-H2 helical hairpin (blue), displacing H2' from the catalytic core.
+The hydrophobic patch of the distal CTD engages the N-terminal helix of Gq (green), and helps orient the catalytic core of PLC with respect to the lipid bilayer.
+The palmitoylated cysteines of the Gq N-terminus (green lines) also help anchor the complex at the membrane.
+This model was created by independently docking the N-terminal helix of Gq in complex with the distal CTD, and the remainder of Gq in complex with the PLC3 core at a common membrane surface, then translating the distal CTD complex such that the Gq N-terminal helix makes a reasonable connection to the rest of Gq.
+The model also brings the PH domain in close proximity to the membrane, consistent with studies indicating this domain also contributes to membrane binding.
+ Data collection and refinement statistics  GqPLC3   Data collection    Space group P212121   Cell dimensions    a, b, c () 91.2, 190, 291   , ,  () 90, 90, 90   Resolution () 20.04.00 (4.074.00)*   Rmerge 0.14 (0.33)   I / I 8.8 (1.9)   Completeness (%) 76.7 (36.7)   Redundancy 3.3 (2.1)   Refinement    Resolution () 20.04.0   No. reflections 32,433   Rwork / Rfree 0.214/0.255   No. atoms    Protein 39,306   Ligand/ion 98   B-factors (2)    Protein 136   Ligand/ion 100   R.m.s.
+deviations    Bond lengths () 0.005   Bond angles () 0.86    Values in parentheses are for highest-resolution shell.
+Data sets collected from multiple regions of two crystals were merged, and a  cutoff of 0 was applied during scaling to help limit the effects of radiation damage that occurred over each sweep of data.
+The data was 85.6% complete at 6.8  resolution.
+Before applying the  cutoff, there were 41,201 total reflections, corresponding to 91.1% overall completeness.
+ Functional analysis of interactions of the distal CTD PLC3 variant Basal specificactivity  SEM(nmol IP3/min/nmol PLC3) (n)b Gq variant Ki  SEM(nM) (n)b EC50  SEM(nM) Max specificactivity  SEM(nmol IP3/min/nmolPLC3) (n)b   PLC3 54  2.7* Gq 220  30 (24) 120  30 2900  130 (32)     -N 270  110 (9) 39  1 1600  100 (6)     -K311A 260  39 (4) 130  21 2900  360 (10)     -D296A/P298D 270  23 (3) 430  110 3400  400 (12)     -C9S/C10S NDa 90  11 1800  190 (6)      PLC3 L876A 950  69* Gq 20  3.2 (11) 19  2 6500  460 (6)     -N 24  7.7 (7) 5  1 2800  250 (6)     -K311A 16  3.9 (3) 14  2 4400  150 (4)     -D296A/P298D 12  3.4 (4) 27  3 6800  640 (5)     -C9S/C10S NDa 40  4 3900  440 (6)      PLC3-892 4.7  0.6* Gq 490  66 (14) 59  7 39  2 (6)     -N 490  130 (6) 59  7 31  1 (6)     -K311A 380  70 (3) 150  20 48  3 (6)     -D296A/P298D 420  88 (6) 540  250 40  4 (8)     -C9S/C10S NDa 150  20 29  2 (6)      PLC3 EEE 46  7 (9) Gq 93  23 (5) 280  130 1900  170 (5)     -N 78  26 (3) 120  30 2000  150 (6)      PLC3 L876AEEE 730  63 (10) Gq 26  9.1 (4) 32  20 3900  1300 (4)     -N 42  30 (4) 9  3 3400  680 (6)      PLC3 T652E 5.0  0.5 (6) Gq 160  38 (5) 1150  790 460  170 (6)   PLC3-892 T652E 1.0  0.1 (7) Gq 250  88 (3) 250  80 13  2 (4)   PLC3-882-937 200  8 (7) Gq 230  100 (3) NDa 200  20 (6)      PLC3-882-937 L876A 500  95 (9) Gq 12  2.3 (3) NDa 450  25 (5)    Previously reported.
+ Not Determined.
+ Number (n) of independent experiments conducted in duplicate.
+ 

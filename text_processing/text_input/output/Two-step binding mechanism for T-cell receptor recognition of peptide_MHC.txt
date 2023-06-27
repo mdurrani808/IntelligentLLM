@@ -1,0 +1,590 @@
+C. Roy and J. Kagan for help with confocal microscopy; K. Zichichi, C. Horensavitz and
+C. Deloyer-Pypaert for help with electron microscopy; Olympus for providing some of the
+microscopes; J. Shorter and E. Procyk for critically reading the manuscript; and the Warren
+and Mellman labs for discussions. This work was supported by National Institutes of Health
+grants (to G.W., I.M., K.A.J. and D.S.R.) and the Ludwig Institute for Cancer Research.
+Competing interests statement
+The authors declare that they have no competing financial interests.
+Correspondence and request for materials should be addressed to G.W.
+(e-mail: graham.warren@yale.edu).
+..............................................................
+Two-step binding mechanism
+for T-cell receptor recognition
+of peptide–MHC
+Lawren C. Wu*†, Delphine S. Tuot*, Daniel S. Lyons*†
+K. Christopher Garcia† & Mark M. Davis*†
+* Howard Hughes Medical Institute, † Department of Microbiology and
+Immunology, Stanford University School of Medicine, B221 Beckman Center,
+Stanford, California 94305, USA
+.............................................................................................................................................................................
+T cells probe a diverse milieu of peptides presented by molecules
+of the major histocompatibility complex (MHC) by using the T￾cell receptor (TCR) to scan these ligands with high sensitivity and
+specificity1
+. Here we describe a physical basis for this scanning
+process by studying the residues involved in both the initial
+association and the stable binding of TCR to peptide–MHC,
+using the well-characterized TCR and peptide–MHC pair of
+2B4 and MCC-IEk (moth cytochrome c, residues 88–103)2
+. We
+show that MHC contacts dictate the initial association, guiding
+TCR docking in a way that is mainly independent of the peptide.
+Subsequently, MCC-IEk peptide contacts dominate stabilization,
+imparting specificity and influencing T-cell activation by mod￾ulating the duration of binding. This functional subdivision of
+the peptide–MHC ligand suggests that a two-step process for
+TCR recognition facilitates the efficient scanning of diverse
+peptide–MHC complexes on the surface of cells and also makes
+TCRs inherently crossreactive towards different peptides bound
+by the same MHC.
+The ab TCR is a heterodimeric molecule consisting of variable
+and constant immunoglobulin domains in which the complemen￾tarity determining regions (CDRs) of the variable domains com￾prise the peptide–MHC binding surface3
+. The TCR binds peptide–
+MHC in a conserved diagonal orientation that positions the CDR1
+and CDR2 loops mainly over the MHC and the CDR3 loops over
+peptide. TCR recognition is highly sensitive to small numbers of
+ligands among thousands of different peptide–MHC complexes
+and yet is often highly specific for a particular peptide–MHC
+combination1
+.
+The ability of a peptide–MHC complex to activate a T cell
+generally correlates with the strength and duration of TCR binding2
+.
+We evaluated the contribution of individual residues in MCC-IEk to
+TCR binding by mutating amino acids to alanine (or glycine if the
+original amino acid was alanine) and measuring the effects using
+surface plasmon resonance (Fig. 1 and Table 1). When mapped onto
+the structure of MCC-IEk (ref. 4), these measurements delineate a
+broad contact surface for the 2B4 TCR (Fig. 2a), which is similar to
+that seen in the crystal structures of other TCR and peptide–MHC
+complexes3
+. MHC residues spanning Gln 61 to Ala 72 on the a￾chain and Gln 64 to Thr 77 on the b-chain of MCC-IEk all
+contribute to binding affinity. These residues include charged,
+polar and neutral residues (such as b-chain Asp 76, b-chain Thr
+77, a-chain Ala 65), and most contribute only modestly to binding
+stability (two- to fourfold decreases in affinity). A small cluster of
+residues spanning positions 64–73 on the b-chain has a larger
+impact on stability (8- to 40-fold decreases in affinity) and may
+comprise an MHC anchor point for TCR recognition, similar to
+that seen in a complex of a TCR and a class I MHC molecule5
+.
+Notably, alanine substitutions at each of the three TCR contact
+positions in the MCC peptide6,7 result in very large decreases in
+affinity, such that binding is not measurable (on the basis of BIAcore
+3000 sensitivity, this corresponds to more than a 200-fold decrease
+in binding). As compared with MHC contact residues, the much
+larger contribution of peptide contact residues to complex stability
+indicates that the peptide is a hotspot for TCR binding.
+In apparent contrast to these observations, alanine scanning
+mutagenesis of the 2C TCR, in conjunction with competitive
+enzyme-linked immunoabsorbent binding assays to either the
+agonist ligand SIYR-Kb or the alloreactive ligand QL9-Ld
+, suggests
+a smaller energetic role for those portions of the TCR that contact
+peptide than those observed here8,9. But the 2C TCR forms a poor
+complementary fit to peptide when bound to Kb
+, as compared with
+other TCR/peptide–MHC complexes10,11. Perhaps these few poor
+contacts must be overcome by increasing the relative energetic
+importance of MHC contacts for stable binding, thereby contribut￾Figure 1 Binding of 2B4 TCR to wild-type MCC-IEk and selected point mutants in the
+peptide–MHC epitope, monitored by surface plasmon resonance (BIAcore). RU,
+resonance units. a, Interaction of wild-type MCC-IEk with 1, 2.5, 5, 7.5 and 10 mM 2B4
+TCR. b, Representative binding curves for interaction of 2B4 TCR with wild-type MCC-IEk
+,
+MHC a-chain mutant Ala68 ! Gly and peptide mutant Thr102 ! Asn.
+letters to nature
+552 © 2002 Nature PublishingGroup NATURE | VOL 418 | 1 AUGUST 2002 | www.nature.com/natureing to Ld alloreactivity. Alternatively, alanine scanning of 2C, whose
+CDR3b loop consists largely of glycine, may miss important
+stabilizing contacts between the polypeptide backbone of the
+CDR3b loop and the peptide ligand. Mutagenesis of peptide
+contacts for the 3L.2 (ref. 12) and A6 (ref. 13) TCRs suggests that
+a peptide energetic hotspot may be a more common feature of TCR
+and peptide–MHC interactions.
+We analysed the contribution of individual residues in MCC-IEk
+to the initial association with 2B4. The interactions that are
+important for this transition-state complex can be determined by
+analysing association rate constants. This type of analysis, phi (f)
+value determination, has been used to study unimolecular protein
+folding pathways and the association-induced folding of protein
+fragments14. The f value for a given residue incorporates its
+contribution to the activation energy of association, normalized
+by its contribution to the free energy of binding. Contacts with f
+values of zero are not formed in the transition state nor involved in
+the initial association, whereas those with large f values (up to a
+maximum of one, which represents full formation in the transition
+state) help to guide the course of the reaction.
+In the 2B4/MCC-IEk complex, 8 out of the 11 contacts on the
+MHC helices that contribute to binding affinity are also present in
+the transition state, with f values ranging from 0.2 to 0.7 (Fig. 2b
+and Table 1). These residues comprise a continuous surface on the
+a- and b-chains of the MHC molecule and surround the central
+portion of the peptide antigen. f values for the peptide contacts of
+2B4 on MCC-IEk could not be calculated from alanine mutations,
+because binding was undetectable. We therefore characterized a set
+of peptide variants in which portions of amino acid side chains were
+modified or removed without abolishing detectable TCR binding or
+grossly changing the peptide–MHC structure. By choosing peptide
+variants that in combination delineated each amino acid side chain,
+we could infer a f value for each residue.
+We found that TCR contacts with the MCC peptide mainly
+influence the off rate of binding but not the on rate (Table 1). In
+particular, the f values for all variants at positions 97 and 102 of the
+peptide are zero, which indicates that specific TCR contacts with
+these residues do not form in the transition state. The f value for the
+central peptide contact, as judged by the Lys99 ! Arg variant, is
+0.17 and shows a high degree of specificity for the positive charge at
+the tip of the lysine side chain. This value is smaller than that for
+most of the MHC contacts and suggests only partial involvement in
+the transition state. Notably, the MCC-IEk residues with the largest
+f values are charged residues on the MHC helices. Molecular
+modelling indicated that these residues comprise patches of elec￾trostatic complementarity with the 2B4 TCR, which is consistent
+with other studies that indicate that long-range electrostatic steering
+can have an important role in protein–protein association15,16.
+It is noteworthy that peptide contacts with TCR contribute
+substantially to complex stability and yet have little effect on
+association, whereas MHC contacts contribute little to stability
+but dominate association. This dichotomy is marked, as our
+measurements suggest that the MCC peptide accounts for ,85%
+of the stabilization energy, but only ,10% of the association energy
+(Methods). We conclude that MHC interactions guide the docking
+of the TCR with only minor contributions from the peptide,
+whereas peptide contacts largely determine the stability of binding.
+To determine whether our observed functional subdivision of
+MCC-IEk was a general property of peptide–MHC or a unique case,
+we analysed the data for another well-studied TCR/peptide–MHC
+system, A6/Tax-HLA-A2 (refs 5, 13). Although kinetic data for all of
+the residues comprising the A6 interaction surface on Tax-A2 were
+not available, we applied f analysis to all published MHC and
+peptide contacts (see Supplementary Information). The available
+data suggest that MHC contacts are more prominent in the
+transition state than are peptide contacts. Four out of the six
+MHC contacts that we analysed have f values between 0.5 and
+1.0, whereas all peptide contacts have f values that are less than 0.3
+Table 1 Binding parameters for the 2B4 TCR-binding epitope on MCC-IEk
+k on (M21 s21
+) k off (s21
+) Keq (mM) Keq,mut/Keq,wt DDG (kcal mol21
+) f ...................................................................................................................................................................................................................................................................................................................................................................
+Wild type 4,000 ^ 370 0.022 ^ 0.0003 5.5 ^ 0.5
+...................................................................................................................................................................................................................................................................................................................................................................
+MHC mutants
+...................................................................................................................................................................................................................................................................................................................................................................
+aQ61A 3,920 ^ 170 0.0336 ^ 0.0001 8.6 ^ 0.3 1.6 ^ 0.2 0.278 ^ 0.035 0.045*
+aA65G 2,600 ^ 190 0.0644 ^ 0.0013 24.8 ^ 2.0 4.5 ^ 0.5 0.890 ^ 0.099 0.29
+aA68G 3,200 ^ 300 0.0492 ^ 0.002 15.4 ^ 1.6 2.8 ^ 0.4 0.610 ^ 0.087 0.22
+aK71A 2,020 ^ 120 0.0286 ^ 0.0003 14.3 ^ 0.9 2.6 ^ 0.3 0.566 ^ 0.065 0.73
+aA72G 2,780 ^ 220 0.0638 ^ 0.0031 22.9 ^ 2.1 4.2 ^ 0.5 0.850 ^ 0.101 0.25
+aE79A 3,960 ^ 240 0.0217 ^ 0.0009 5.5 ^ 0.4 1.0 ^ 0.1 0 0
+bE59A 3,950 ^ 630 0.022 ^ 0.001 5.5 ^ 0.9 1.0 ^ 0.2 0 0
+bS63A 3,910 ^ 650 0.0225 ^ 0.0014 5.75 ^ 1.0 1.1 ^ 0.2 0.056 ^ 0.010* 0.076*
+bQ64A 3,800 ^ 420 0.41 ^ 0.016 108 ^ 13 20 ^ 3 1.77 ^ 0.27 0.017*
+bE66A 1,150 ^ 180 0.049 ^ 0.002 42.6 ^ 6.9 7.8 ^ 1.4 1.22 ^ 0.22 0.61
+bE69A 2,100 ^ 280 0.25 ^ 0.005 119 ^ 16 22 ^ 4 1.83 ^ 0.33 0.21
+bA73G 1,280 ^ 100 0.29 ^ 0.01 227 ^ 19 41 ^ 5 2.20 ^ 0.27 0.31
+bD76A 2,110 ^ 200 0.0498 ^ 0.0017 23.6 ^ 2.4 4.3 ^ 0.6 0.864 ^ 0.121 0.44
+bT77A 3,900 ^ 520 0.076 ^ 0.0008 19.5 ^ 2.6 3.6 ^ 0.6 0.758 ^ 0.126 0.02*
+bH81A 4,000 ^ 650 0.024 ^ 0.006 6.0 ^ 1.8 1.1 ^ 0.3 0.056 ^ 0.010* 0
+aK71A/bE66A 640 ^ 10 0.045 ^ 0.003 70 ^ 5 13 ^ 1.5 1.52 ^ 0.18 0.72
+...................................................................................................................................................................................................................................................................................................................................................................
+Peptide mutants
+...................................................................................................................................................................................................................................................................................................................................................................
+pY97A ND ND ND .200 .3.14 ND
+pY97F 4,000 ^ 190 0.0263 ^ 0.0002 6.6 ^ 0.3 1.2 ^ 0.1 0.108 ^ 0.009 0
+pY97Cha 4,000 ^ 260 0.112 ^ 0.005 28 ^ 2.2 5.1 ^ 0.6 0.965 ^ 0.114 0
+pK99A ND ND ND .200 .3.14 ND
+pK99Orn ND ND ND .200 .3.14 ND
+pK99K(Ac) ND ND ND .200 .3.14 ND
+pK99Nle ND ND ND .200 .3.14 ND
+pK99R 2,070 ^ 190 0.50 ^ 0.04 240 ^ 30 44 ^ 7 2.24 ^ 0.36 0.17
+pT102A ND ND ND .200 .3.14 ND
+pT102S 3,960 ^ 160 0.134 ^ 0.001 33.8 ^ 1.4 6.1 ^ 0.6 1.07 ^ 0.11 0.006*
+pT102N 4,030 ^ 680 0.175 ^ 0.005 43.4 ^ 7.4 7.9 ^ 1.5 1.22 ^ 0.23 20.004
+pY97F/pT102S 4,200 ^ 230 0.18 ^ 0.003 42.9 ^ 2.5 7.8 ^ 0.8 1.22 ^ 0.13 20.024* ...................................................................................................................................................................................................................................................................................................................................................................
+*Values are not significant because of the magnitude of error in the kinetic rate constants. These residues are therefore not considered to contribute to stability or association. ND, not determined. Cha,
+cyclohexylalanine; Orn, ornithine; K(Ac), acetyl-lysine; Nle, norleucine.
+letters to nature
+NATURE | VOL 418 | 1 AUGUST 2002 | www.nature.com/nature © 2002 Nature PublishingGroup 553except for the central tyrosine, which protrudes into the CDR3
+loops of the A6 TCR and has a f value of 0.56. Given the unusually
+fast association rate of the A6 TCR (105 M21 s
+21
+), as compared with
+most TCR agonist ligands (103
+–104 M21 s
+21
+; ref. 2), the f values for
+its association might be expected to be higher throughout the
+epitope, as is observed.
+We also measured the average backbone distances between TCR
+CDR loops and their contacts on MHC helices and peptide in the
+crystal structures of four TCR/peptide–MHC complexes, including
+two class-I-restricted and two class-II-restricted TCRs (Protein Data
+Bank (PDB) accession codes, 2CKB, 1FO0, 1D9K and 1FYT). We
+found that on average a greater distance separates the TCR from
+peptide than from MHC, especially for the CDR1 and CDR2
+contacts with peptide–MHC. These differences range from 0.2 to
+0.8 A˚ and, although small, are significant and show that an
+approaching TCR will initially encounter the MHC helices, which
+will present a structural barrier to the TCR and force longer range
+contacts with the peptide. Although the depth of the bound peptide
+varies in different class I and class II MHC molecules, with some
+class I peptides having an upward bulge, in general most of the
+peptide surface in peptide–MHC structures is deep in the binding
+groove and lies below the surfaces of the MHC helices3
+.
+These structural features of TCR/peptide–MHC complexes,
+together with our current data, suggest a two-step mechanism for
+TCR recognition (Fig. 3). In this model, initial TCR–MHC inter￾actions, aided by minor contributions from TCR contacts with the
+peptide, guide the TCR to its ligand. This is followed by a final
+folding of the two CDR3 loops of the TCR over the peptide. T-cell
+activation would be triggered only on the formation of stable
+peptide contacts. This model suggests that MHC restriction may
+be viewed as a ‘kinetic gatekeeper’ that promotes peptide sampling
+by guiding the docking of TCR onto peptide–MHC in a way that is
+mainly independent of peptide. It is intriguing that the CDR3 loops
+of TCRs are highly flexible and mobile in the unbound state17 and
+adopt conformations that cannot specifically contact peptide resi￾dues without substantial rearrangement, sometimes up to 15 A˚ (refs
+3, 18). In contrast, the CDR1 and CDR2 loops are much more rigid,
+generally showing little or no rearrangement on binding peptide–
+MHC. Thus, the TCR may scan MHC molecules using a ‘lock and
+key’ type of binding with its CDR1 and CDR2 loops, followed by an
+induced fit of its CDR3 loops over the peptide19,20.
+A two-step TCR recognition mechanism might be necessary to
+scan efficiently the many thousands of peptides displayed by MHC
+molecules on an antigen-presenting cell. It would also help explain
+the inherent crossreactivity of TCRs21, because the CDR3 loops of
+the TCR could adopt several conformations and thus form stable
+contacts with structurally very different peptides. Studies of other
+protein–protein interactions indicate that small subsections of a
+binding epitope can account for a significant portion of the total
+stabilization energy, comprising a binding ‘hotspot’22. In our
+studies, we have found that different parts of a binding surface
+may have distinct roles in the association and stabilization of a
+protein complex, comprising association and stabilization hotspots.
+This functional subdivision of a binding epitope might be especially
+important for interactions in which one binding partner must
+search quickly among many similar targets for an optimal one,
+such as in the recognition of specific sequence motifs by DNA￾binding proteins.
+The functional subdivision of the peptide–MHC epitope would
+have broad implications for T cell biology. One example is in thymic
+development, during which the TCR repertoire undergoes selection
+to yield T cells that are skewed to recognize self-MHC alleles23,24. A
+study has indicated that MHC reactivity is inherent in the germline￾encoded portions of the TCR25, which suggests that most TCRs may
+have rudimentary scanning capability. Our studies indicate that the
+TCR recognition of MHC and peptide can be separable events,
+which suggests that thymic selection may imprint MHC restriction
+by enriching for TCRs that can scan a particular self-MHC and may
+be unable to scan other MHCs efficiently. Although most MHC
+polymorphisms are buried in the peptide-binding groove, high￾resolution structural studies indicate that they can still have signifi￾cant effects on MHC helix conformation and may thereby influence
+scanning26,27. The mature TCR repertoire need not be enriched for
+specific V regions, however, because structural studies indicate that
+there is flexibility in MHC recognition by a given V region and
+therefore no specific MHC ‘footprint’ for TCR binding3,18. Thymic
+a b
+Figure 2 Structures of MCC-IEk
+, showing the amino acid residues mutated in this study
+and their effects on TCR complex stability and association. The peptide-binding pocket of
+IEk and the MCC peptide are shown as white ribbons. Residues studied are shown as
+space-filling representations and are colour-coded with respect to their effect on stability
+and association. a, Contributions of residues to complex stability (DDG). Residues are
+shaded white (no effect, DDG ¼ 0 kcalmol21Þ to red (maximum effect in this study,
+DDG . 3:14 kcal mol21Þ: b, Contributions of residues to complex association (f).
+Residues are shaded white (no interaction, f ¼ 0) to red (maximum interaction in this
+study, f ¼ 0.73). Models were generated with MOLSCRIPT30 using coordinates from the
+crystal structure of MCC-IEk (ref. 4).
+Figure 3 Model for TCR sampling of peptide–MHC (pMHC), showing formation of specific
+MHC and peptide contacts during the course of the binding reaction. The CDR1 and CDR2
+loops of the TCR are primed to scan the MHC scaffolding, and form specific contacts
+(yellow) in the transition state that guide the TCR to a general orientation over peptide. The
+CDR3 loops show structural plasticity and form strong specific peptide contacts (red) by
+induced-fit binding subsequent to the docking of TCR on MHC.
+letters to nature
+554 © 2002 Nature PublishingGroup NATURE | VOL 418 | 1 AUGUST 2002 | www.nature.com/natureselection may also be assisted by the inherent crossreactivity of the
+TCR that arises from CDR3 loop flexibility, which enables inter￾actions with self-peptide–MHC that may resemble a foreign pep￾tide–MHC28 or may be very different. A similar process may be
+involved in peripheral T-cell homeostasis, which also depends on
+recognition of self-peptide–MHC29. A
+Methods
+Alanine-scanning mutagenesis
+Sites of mutation were chosen on the basis of the following two criteria: first, positions
+known from T-cell activation studies using peptide–MHC mutants to have biological
+effects on T-cell recognition (refs 6, 7; and M. Krogsgaard and L.C.W., unpublished data);
+and second, likely positions of contact deduced from homology modelling using the
+crystal structures of 2C/dEV8-H2Kb (PDB accession code 2CKB) and IEk bound to a
+haemoglobin peptide (PDB accession code 1IEA). We chose residues such that mutations
+would affect only interaction with the TCR and not the structure of the rest of the peptide–
+MHC surface. Notably, the three peptide residues that form TCR contacts point up and
+away from the peptide-binding cleft and do not contact MHC. In addition, we minimized
+complications arising from conformational heterogeneity by mutating residues on the
+peptide–MHC, which undergoes minimal conformational change on binding TCR. There
+was no evidence for large-scale destabilization or unfolding of peptide–MHC owing to our
+mutations, as all mutants contained bound peptide, had small and distinct effects on
+association and dissociation, and were bound by an antibody specific for native structure
+(14.4.4). Local structural perturbations caused by mutations could affect this type of
+analysis by changing the effective concentration of molecules that are competent for
+binding; however, the rate of such conformational fluctuations is much faster than our
+observed protein association rates, suggesting a pre-equilibrium of binding-competent
+species. In combination, our mutants comprised about 75% of the total surface area
+buried under the footprint of the TCR and covered the highest contact points on the
+peptide–MHC surface.
+Protein production and purification
+We produced MCC-IEk and the various mutants by in vitro refolding of bacterially
+produced recombinant a- and b-subunits with chemically synthesized peptides. MHC
+mutants were produced by PCR site-directed mutagenesis and verified by DNA
+sequencing. The a-subunit of IEk contained a carboxy-terminal amino acid tag encoding a
+signal sequence for attaching biotin with the BirA enzyme. Bacterial IEk subunits were
+expressed in Escherichia coli BL21 DE3 pLysS as inclusion bodies. After bacterial lysis,
+inclusion bodies were washed with detergent buffers. Subunits were solubilized and
+oxidized in 6 M guanidinium hydrochloride and then diluted to a final concentration of
+2 mM in a redox folding buffer containing 50 mM sodium phosphate (pH 7.5), 25%
+glycerol, 2 mM EDTA, 5 mM reduced and 0.5 mM oxidized glutathione, 10 mM peptide
+(MCC 88–103 wild-type sequence, ANERADLIAYLKQATK) and protease inhibitors.
+Correctly folded material was purified by affinity chromatography with 14.4.4. antibody
+against IEk
+, biotinylated with BirA enzyme, and size-purified on an S200 sephacryl fast
+protein liquid chromatography (FPLC) sizing column.
+We produced 2B4 TCR as a glycosyl phosphatidylinositol (GPI)-linked membrane￾bound protein in transfected Chinese hamster ovary (CHO) cells using a Cell Pharm
+system (Cellex Biosciences). Protein was cleaved from the CHO cells with PI-PLC enzyme
+and purified sequentially on two antibody affinity columns (A2B4, against TCRa and H57,
+against TCRb). TCR was size-purified on an S200 sephacryl FPLC column before use.
+BIAcore measurements of binding
+Kinetic parameters for 2B4 binding to wild-type MCC-IEk and mutants were obtained on
+BIAcore 2000 and 3000 instruments (BIAcore). Peptide–MHC was attached by the C￾terminal biotin tag on the IEk a-subunit to a streptavidin sensor chip surface to a total
+resonance unit (RU) value of 250–500. Binding constants were not dependent on the
+amount of peptide–MHC coupled to the sensor chip. Subsequent to sensor chip loading
+with peptide–MHC, extra biotin-binding sites were blocked by injection of free biotin. All
+measurements were baseline-corrected by subtracting TCR injected over a blank, biotin￾blocked surface, and all mutant measurements were referenced to wild-type MCC-IEk
+,
+which was measured simultaneously. We injected 2B4 TCR in PBS plus 0.005% P20
+(BIAcore) at a flow rate of 30 ml min21 at 25 8C, over a concentration range of 1–150 mM
+according to the peptide–MHC mutant being measured. Data were fit to a 1:1 Langmuir
+binding model using both separate on rate and off rate determinations and global fitting
+(BiaEval, BIAcore). Rate constants were the same, within error, for both methods of fitting
+and did not vary systematically with the concentration of 2B4 TCR. Two residues (Glu 79
+on the a-chain and Glu 59 on the b-chain of IEk
+), which are located far outside the
+predicted 2B4 binding surface and do not affect T-cell activation6
+, do not contribute to 2B4
+binding affinity. As predicted, the kinetic binding parameters of alanine mutants at these
+positions are identical to those of wild-type MCC-IEk
+.
+Data analysis
+The dissociation of 2B4 from MCC-IEk is described by the following equation:
+½2B4=MCC–IEk O
+koff
+kon
+½2B4þ½MCC–IEk
+where koff is the dissociation constant and k on is the association constant. R is the gas
+constant and T is the temperature in Kelvin. The equilibrium constant for dissociation is
+Keq ¼ koff =kon; and DG ¼ RT lnKeq: The association constant for binding can be
+converted to an activation energy, Ea ¼ 2RT lnkon: Comparison of activation energies for
+wild-type versus mutant MCC-IEk are given as f values, which are calculated as DEa
+normalized by DDG (ref. 14):
+f ¼ 2RT lnðkon;wt=kon;mutÞ= 2 RT lnðKeq;mut=Keq;wtÞ
+To estimate the contribution of peptide to stabilization and activation energies, we first
+calculated a total stabilization energy of 7.17 kcal mol21 and a total activation energy of
+4.91 kcal mol21
+, which were based on an equilibrium binding constant of 5.5 mM and an
+association rate of 4,000 M21 s
+21
+, for the binding of 2B4 to wild-type MCC-IEk
+.
+For stabilization, we assumed that the MCC peptide was subdivided into two largely
+independent contact points comprising residues Tyr 97/Lys 99 and Thr 102. This was
+based on structural studies of MCC-IEk
+, which indicate that Tyr 97 and Lys 99 are in close
+proximity4
+, and on binding measurements of the double peptide mutant Tyr97Phe/
+Thr102Ser, which show the additive effects of the single mutants. Assuming that each
+peptide contact point accounts for 3.14 kcal mol21 (on the basis of alanine mutations at
+each of the three peptide contact positions), we calculated a net peptide contribution that
+is about 85% of the total binding energy.
+For association, only position 99 of the peptide contributes to the activation energy.
+Assuming that Lys 99 contributes a stabilization energy of 3.14 kcal mol21
+, its f value of
+0.17 yields a net peptide contribution of 0.53 kcal mol21
+, which is about 10% of the total
+activation energy.
+TCR/peptide–MHC distance measurements
+We measured TCR/peptide–MHC distances with the program O7, using lists of published
+TCR/peptide–MHC contacts (both van der Waals and hydrogen-bond contacts).
+Distances were measured between the backbone a-carbons of contacting residues, which
+were classified as either TCR–peptide or TCR–MHC, and averaged for comparison.
+Received 19 February; accepted 24 May 2002; doi:10.1038/nature00920.
+1. Germain, R. N. & Stefanova, I. The dynamics of T cell receptor signalling: complex orchestration and
+the key roles of tempo and cooperation. Annu. Rev. Immunol. 17, 467–522 (1999).
+2. Davis, M. M. et al. Ligand recognition by ab T cell receptors. Annu. Rev. Immunol. 16, 523–544 (1998).
+3. Rudolph, M. G. & Wilson, I. A. The specificity of TCR/pMHC interaction. Curr. Opin. Immunol. 14,
+52–65 (2002).
+4. Fremont, D. H.et al. Structural basis of cytochrome c presentation by IEk
+. J. Exp. Med. 195, 1043–1052
+(2002).
+5. Baker, B. M., Turner, R. V., Gagnon, S. J., Wiley, D. C. & Biddison, W. E. Identification of a crucial
+energetic footprint on the a1 helix of human histocompatibility leukocyte antigen (HLA)-A2 that
+provides functional interactions for recognition by Tax peptide/HLA-A2-specific T cell receptors.
+J. Exp. Med. 193, 551–562 (2001).
+6. Ehrich, E. W.et al. T cell receptor interactions with peptide/major histocompatibility complex (MHC)
+and superantigen/MHC ligands is dominated by antigen. J. Exp. Med. 178, 713–722 (1993).
+7. Reay, P., Kantor, R. M. & Davis, M. M. Use of global amino acid replacements to define the
+requirements for MHC binding and T cell recognition of moth cytochrome c (93–103). J. Immunol.
+152, 3946–3957 (1994).
+8. Manning, T. C. et al. Alanine scanning mutagenesis of an ab T cell receptor: mapping the energy of
+antigen recognition. Immunity 8, 413–425 (1998).
+9. Lee, P. U., Churchill, H. R., Daniels, M., Jameson, S. C. & Kranz, D. M. Role of 2C T cell receptor
+residues in the binding of self- and allo-major histocompatibility complexes. J. Exp. Med. 191,
+1355–1364 (2000).
+10. Degano, M.et al. A functional hot spot for antigen recognition in a superagonist TCR/MHC complex.
+Immunity 12, 251–261 (2000).
+11. Garcia, K. C. et al. Structural basis of plasticity in T cell receptor recognition of a self peptide–MHC
+antigen. Science 279, 1166–1172 (1998).
+12. Kersh, G. J., Kersh, E. N., Fremont, D. H. & Allen, P. M. High- and low-potency ligands with similar
+affinities for the TCR: the importance of kinetics in TCR signaling. Immunity 9, 817–826 (1998).
+13. Baker, B. M., Ding, Y.-H., Garboczi, D. N., Biddison, W. E. & Wiley, D. C. Structural, biochemical, and
+biophysical studies of HLA-A2/altered peptide ligands binding to viral-peptide-specific human T-cell
+receptors. Cold Spring Harb. Symp. Quant. Biol. 64, 235–241 (1999).
+14. Fersht, A. R. Nucleation steps in protein folding. Curr. Opin. Struct. Biol. 7, 3–9 (1997).
+15. Schreiber, G. & Fersht, A. R. Rapid electrostatically assisted association of proteins. Nature Struct. Biol.
+3, 427–431 (1996).
+16. Davis, S. J., Davies, E. A., Tucknott, M. G., Jones, E. Y. & van der Merwe, P. A. The role of charged
+residues mediating low affinity protein-protein recognition at the cell surface by CD2. Proc. Natl Acad.
+Sci. USA 95, 5490–5494 (1998).
+17. Hare, B. J. et al. Structure, specificity, and CDR mobility of a class II restricted single-chain T cell
+receptor. Nature Struct. Biol. 6, 574–581 (1999).
+18. Reiser, J. B. et al. A T cell receptor CDR3b loop undergoes conformational changes of unprecedented
+magnitude upon binding to a peptide/MHC class I complex. Immunity 16, 345–354 (2002).
+19. Boniface, J. J., Reich, Z., Lyons, D. S. & Davis, M. M. Thermodynamics of T cell receptor binding to
+peptide-MHC: evidence for a general mechanism of molecular scanning. Proc. Natl Acad. Sci. USA 96,
+11446–11451 (1999).
+20. Willcox, B. E. et al. TCR binding to peptide-MHC stabilizes a flexible recognition interface. Immunity
+10, 357–365 (1999).
+21. Mason, D. A very high level of cross-reactivity is an essential feature of the T-cell receptor. Immunol.
+Today 19, 395–404 (1998).
+22. Clackson, T. & Wells, J. A. A hot spot of binding energy in a hormone-receptor interface. Science 267,
+383–386 (1995).
+23. Bevan, M. J. In a radiation chimaera, host H-2 antigens determine immune responsiveness of donor
+cytotoxic cells. Nature 269, 417–418 (1977).
+24. Zinkernagel, R. M. et al. On the thymus in the differentiation of ‘H-2 self-recognition’ by T cells:
+evidence for dual recognition? J. Exp. Med. 147, 882–896 (1978).
+25. Zerrahn, J., Held, W. & Raulet, D. H. The MHC reactivity of the T cell repertoire prior to positive and
+negative selection. Cell 88, 627–636 (1997).
+letters to nature
+NATURE | VOL 418 | 1 AUGUST 2002 | www.nature.com/nature © 2002 Nature PublishingGroup 55526. Hennecke, J. & Wiley, D. C. Structure of a complex of the human a/b T cell receptor (TCR) HA1. (7),
+influenze hemagglutinin peptide, and major histocompatibility complex class II molecule, HLA-DR4
+(DRA*0101 and DRB1*0401): insight into TCR cross-restriction and alloreactivity. J. Exp. Med. 195,
+571–581 (2002).
+27. Luz, J. G. et al. Structural comparison of allogeneic and syngeneic T cell receptor-peptide-major
+histocompatibility complex complexes: a buried alloreactive mutation subtly alters peptide
+presentation substantially increasing Vb interactions. J. Exp. Med. 195, 1175–1186 (2002).
+28. Savage, P. A. & Davis, M. M. A kinetic window constricts the T cell receptor repertoire in the thymus.
+Immunity 14, 243–252 (2001).
+29. Tanchot, C., Lemonnier, F. A., Pe´rarnau, B., Freitas, A. A. & Rocha, B. Differential requirements for
+survival and proliferation of CD8 naı¨ve or memory T cells. Science 276, 2057–2058 (1997).
+30. Kraulis, P. J. MOLSCRIPT: a program to produce both detailed and schematic plots of protein
+structures. J. Appl. Crystallogr. 24, 946–950 (1991).
+Supplementary Information accompanies the paper on Nature’s website
+(http://www.nature.com/nature).
+Acknowledgements
+We thank J. Boniface, C. Gerke, S. Hedrick, D. Herschlag, J. Huppa, M. Krogsgaard,
+M. Kuhns, Z. Reich, R. Sciammas and members of the Davis lab for discussions and
+comments on the manuscript; B. Malissen and D. Fremont for communicating results
+before publication; N. Prado for assistance with TCR production; and A. Cochran and
+H. Lowman for use of their BIAcore 2000. L.C.W. is a postdoctoral fellow of the Cancer
+Research Fund of the Damon Runyon Walter Winchell Foundation. D.S.L. was a Howard
+Hughes Medical Institute predoctoral fellow. This work was supported by the NIH
+(M.M.D. and K.C.G.), the Howard Hughes Medical Institute (M.M.D.), the Multiple
+Sclerosis Society (K.C.G.), and the Cancer Research Institute (K.C.G.).
+Competing interests statement
+The authors declare that they have no competing financial interests.
+Correspondence and requests for materials should be addressed to M.M.D.
+(e-mail: mdavis@cmgm.stanford.edu)
+..............................................................
+APC-dependent proteolysis
+of the mitotic cyclin Clb2
+is essential for mitotic exit
+Ralph Wa¨ sch & Frederick R. Cross
+The Rockefeller University, 1230 York Avenue, New York, New York 10021, USA
+.............................................................................................................................................................................
+Cyclin degradation is central to regulation of the cell cycle.
+Mitotic exit was proposed to require degradation of the S phase
+cyclin Clb5 by the anaphase-promoting complex1,2 activated by
+Cdc20 (APCCdc20)
+3
+. Furthermore, Clb5 degradation was thought
+to be necessary for effective dephosphorylation and activation of
+the APC regulatory subunit Cdh1 (also known as Hct1) and the
+cyclin-dependent kinase inhibitor Sic1 by the phosphatase
+Cdc14, allowing mitotic kinase inactivation and mitotic exit3–7.
+Here we show, however, that spindle disassembly and cell div￾ision occur without significant APCCdc20-mediated Clb5 degra￾dation, as well as in the absence of both Cdh1 and Sic1. We find
+instead that destruction-box-dependent degradation of the mito￾tic cyclin Clb2 is essential for mitotic exit. APCCdc20 may be
+required for an essential early phase of Clb2 degradation, and
+this phase may be sufficient for most aspects of mitotic exit. Cdh1
+and Sic1 may be required for further inactivation of Clb2–Cdk1,
+regulating cell size and the length of G1.
+CDC20 is essential for mitosis. Cdc20-dependent degradation of
+the securin Pds1 is required for chromosome separation. pds1
+deletion (pds1D) allows chromosome separation but not mitotic
+exit in cdc20D cells8
+, suggesting that additional APCCdc20 targets
+must be degraded. Cdc20-dependent degradation of Clb5 was
+proposed to be essential for mitotic exit, as cdc20D pds1D clb5D
+cells are viable3
+.
+To determine whether APCCdc20-dependent Clb5 degradation
+was dependent on the Clb5 destruction box (D box)9,10we expressed
+Clb5 and Clb5Ddb (where the D box is deleted) from the GAL1
+promoter in cdc20D or CDC20 cells. cdc20 deletion stabilized Clb5
+(ref. 3). Deletion of the Clb5 D box stabilized Clb5 similarly with or
+without CDC20 (Fig. 1a), suggesting that the D box was the main
+target for Cdc20 recognition. Inactivation of additional candidate
+Clb5 D boxes (RXXL), SCF or Cdh1 did not affect Clb5 stability
+(Supplementary Information Fig. S1a, b). Unexpectedly, D-box
+deletion from endogenous CLB5 had little cell cycle phenotype,
+although Clb5 abundance was significantly deregulated (Figs 1b, c
+and 2f, g). Thus D-box-dependent Clb5 degradation is not required
+for exit from mitosis and viability.
+To examine the D-box dependence of Clb5 proteolysis at
+endogenous expression levels during mitotic exit, we constructed
+cdc20D pds1D GALL-CDC20 yeast strains3 containing CLB5 or
+CLB5Ddb (exact gene replacement). Both strains arrested before
+mitotic exit on glucose medium (unlike cdc20D pds1D clb5D (ref.
+3)), indicating that CLB5Ddb restrained mitotic exit in the cdc20D
+pds1D background. Therefore it is unlikely that the Clb5 D box is
+required for inhibition of mitotic exit, although it could still be
+required for other untested mitotic Clb5 functions. GALL-CDC20
+re-induction released mitotic arrest (Fig. 1d–f), and wild-type Clb5
+was completely degraded 20 min later. Clb5Ddb showed only
+moderate decline at later time points. The mitotic cyclins Clb2
+and Clb3 were degraded rapidly after release, in both strains, and
+this degradation initiated while Clb5Ddb levels were high (Fig. 1e,
+f). Thus, significantly inhibiting APCCdc20-dependent Clb5 degra￾dation had no effect on mitotic exit (Fig. 1d–f).
+The moderate decline in levels of Clb5Ddb in this experiment
+could result from minor Cdc20-dependent degradation signals in
+Clb5 that are independent of the D box. This decline is probably not
+required for mitotic exit, as strong overexpression of Clb5Ddb￾haemagglutinin (HA) from the GAL1 promoter caused lethality but
+did not block mitotic exit10. Furthermore, amino-terminal Myc￾tagging made Clb5Ddb almost completely stable, and was lethal at
+endogenous expression levels without an evident block to mitotic
+exit (Supplementary Information Fig. S2a, b). It is possible that the
+moderate Cdc20-dependent decline in Clb5Ddb could combine
+with inhibition by the Sic1 Clb kinase inhibitor11 to effectively
+eliminate Clb5Ddb activity at endogenous expression levels. There￾fore, to more fully deregulate Clb5Ddb activity we also deleted SIC1.
+CLB5Ddb sic1D GAL-SIC1 strains were semi-lethal on glucose
+medium (GAL-SIC1 off) (Fig. 2f), but a shift to glucose caused
+accumulation of cells with replicated but unseparated DNA, and
+without long mitotic spindles (Fig. 2b). Thus these cells were
+primarily defective in entry into mitosis and not in mitotic exit.
+We constructed a CLB5Ddb sic1D GAL-SIC1 cdc15-2 strain to
+examine a single cycle of mitotic exit. These cells exited mitosis
+(disassembled mitotic spindles) after release from cdc15-2 anaphase
+block, despite Sic1 depletion (to below the level of detection) for 4 h
+in glucose medium at 37 8C (Fig. 3a). Compare Sic1 re-accumu￾lation in cdc15-2 SIC1 strains, 10–20 min before spindle disassembly
+(Fig. 3a). Unlike Clb5, Clb5Ddb persisted through the cdc15-2
+anaphase block and subsequent release (Fig. 3a).
+To examine mitotic exit in sic1D CLB5Ddb cells in an unper￾turbed cell cycle, we incubated a sic1D CLB5Ddb GAL-SIC1 strain in
+glucose medium to deplete Sic1, elutriated small-budded cells and
+released into mating-factor to block the succeeding cell cycle after
+mitosis. Incubation in glucose for 30 min depleted Sic1 to about
+physiological levels in the initial elutriated fraction, but cell division
+occurred normally (Fig. 3b). Incubation in glucose for 60 min
+depleted Sic1 to below the level of detection, and most cells still
+completed cell division on schedule (Fig. 3b). The small number of
+cells that failed to divide were mostly blocked before nuclear
+division. Thus, we observed no inhibition of mitotic exit by
+Clb5Ddb, even in the absence of Sic1. Clb5Ddb only gradually
+letters to nature
+556 © 2002 Nature PublishingGroup NATURE | VOL 418 | 1 AUGUST 2002 | www.nature.com/nature

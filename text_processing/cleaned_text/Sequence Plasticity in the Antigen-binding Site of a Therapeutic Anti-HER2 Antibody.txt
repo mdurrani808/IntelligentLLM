@@ -1,0 +1,349 @@
+Sequence Plasticity in the Antigen-binding Site of a  Therapeutic Anti-HER2 Antibody  Resi B. Gerstner1,2, Paul Carter2 and Henry B. Lowman1*  1  Department of Protein  Engineering, Genentech, Inc.  1 DNA Way, South San  Francisco, CA 94080, USA  2  Departments of Molecular  Oncology, Genentech, Inc.  1 DNA Way, South San  Francisco, CA 94080, USA  We have examined the plasticity of the antigen-combining site of a highaffinity antibody.
+In phage-displayed Fab libraries, selected CDR positions  and one FR position of the humanized anti-Her2 antibody hu4D5 were  substituted with all 20 amino acids.
+Antigen-binding selections were  used to enrich for high-affinity variants, and a large number of sequences  were obtained prior to convergence of the selected pool to a small set of  clones.
+As expected, sequence variability of the antigen-binding site is  overall diminished compared to known IgG sequences; however, certain  positions retain much higher variability than others.
+The sequence variability map of the hu4D5 binding site is compared with a map derived  from previous alanine-scanning of the antibody.
+Affinities of soluble Fab  fragments for antigen confirm that multiple variants were selected with  high affinity for antigen, including one variant with a single point  mutation that was about threefold improved in affinity compared to the  parental hu4D5.
+Interestingly, this mutation is one of the most radical in  terms of changing side-chain chemistry (Trp for Asp) and occurs at the  most plastic site as calculated by the WuKabat variability coefficient.
+  Thus variability mapping yields information about the antibodyantigen  interaction that is useful and complementary to that obtained by alanine  scanning mutagenesis.
+  q 2002 Elsevier Science Ltd. All rights reserved  Keywords: erbB2; tumor antigen; phage display; affinity maturation;  *Corresponding author trastuzumab  Introduction  Antibodies bind to antigens through contacts  with regions of their structure known as complementarity-determining regions (CDRs), a set of six  loops that extend from a more conserved set of  framework region (FR) residues (see review1  ).
+The  CDR loops are naturally diverse in sequence  among different antibodies, with certain CDR  positions showing greater variability than others.2  Combinatorial sequence diversity in naturally  occurring antibodies arises in B-cells with the  recombination of selected diverse gene segments:  VH, DH and JH for the heavy chain and Vk and Jk or  Vl and Jl for k and l light chains, respectively.
+  Further diversity, including nucleotide insertions,  is created by imprecise recombination of these  gene segments.
+Additionally, the so-called somatic  hypermutation gives rise to point changes during  maturation of the immune response.
+These  changes serve to enhance the specificity and  effectiveness of the immune response through the  selection of B-cell clones producing antibodies of  increasing affinity and specificity.
+The affinity  maturation process has been effectively mimicked  in vitro using antibody diversity libraries primarily  displayed on phage but also on yeast, or other  hosts (see reviews35).
+More recently ribosome  display libraries have also been used for isolation  of antibodies in vitro.
+  Both in vivo and in vitro, the process of affinity  maturation can produce striking improvements  in affinity compared to the parental antibody.
+  A study in the mouse showed tenfold to 103  -fold  improvements in KD during in vivo affinity  maturation.6 Using a yeast-displayed scFv library,  Wittrup and co-workers were able to improve the  binding affinity of an anti-fluorescein antibody  0022-2836/02/$ - see front matter q 2002 Elsevier Science Ltd. All rights reserved  Present address: P. Carter, Department of Protein  Engineering, Immunex Corporation, 51 University Street,  Seattle, WA 98101, USA.  E-mail address of the corresponding author:  hbl@gene.com  Abbreviations used: CDR, complementaritydetermining region; FR, framework region; HER2-ECD,  extracellular domain of erbB2 or p185HER2; PBS,  phosphate-buffered saline; SPR, surface plasmon  resonance;
+WT, wild-type.
+  doi:10.1016/S0022-2836(02)00677-0 available online at http://www.idealibrary.com on wB J. Mol. Biol. (2002) 321, 851862.1000-fold in vitro, to 48 fM (KD  4.8  10214 M).7  Equally striking is the fact that a small number of  mutations can sometimes effect these changes.
+For  example, antigen-binding affinities were improved  by 16-fold in a CDR-L3 point mutant of another  anti-erbB2 antibody,8 14-fold in a CDR-H3 point  mutant of an anti-VEGF,9 and eightfold in a  CDR-H3 point mutant of an anti-gp120.10  For an antibody that has already been affinitymatured in vivo or in vitro, it seems likely that the  antigen:antibody interface would be intolerant to  possible variations; that is, mutations of contact  residues might often disrupt the binding interaction.
+However, studies of other proteinprotein  interactions suggest that there can be a great  deal of plasticity in the interface between two  proteins that interact with high affinity.11  13  Recognition of an antibody often involves a  subset of the CDR residues with contacts at the  center of the antigen-combining site.8,14 This is the  case in the recognition of the tumor antigen HER2  by a humanized antibody known as hu4D58.15  This antibody was derived from a murine monoclonal antibody, 4D5,16 raised against the product  of the protooncogene, HER2/neu, also known  as erbB2, p185HER2 or HER2.17 Both the murine  parent antibody, 4D5, and the humanized version,  hu4D5-8, demonstrate antiproliferative activity  against carcinoma cells overexpressing  p185HER2.
+  15,18 The IgG form of hu4D58  (Herceptinw; trastuzumab) is an FDA-approved  treatment for HER2-overexpressing metastatic  breast cancer (see review19).
+X-ray structures were  determined for hu4D58 Fv and Fab fragments20  of two closely related humanized 4D5 variants at  resolutions of 2.22.7 A ,  20 and an alanine scan  of the variable regions is available.21 Four residues, namely H91(VL), R50(VH), W95(VH), and  Y100a(VH), are critical to binding HER2 as judged  by reductions of 50 to 5000-fold in binding affinity  (KD) when mutated to Ala.21 Thus the functionally  important residues in the binding site of this  high-affinity antibody have been effectively  mapped in the absence of a co-crystal structure  with antigen.
+  We used hu4D58, which we refer to as hu4D5,  as a model system for investigating what degree  of sequence plasticity can be tolerated in an antibody within the context of a high-affinity antigencombining site.
+Such information is useful for the  design of affinity-maturation experiments as well  as for further modifications of the binding site.
+  Phage display allowed us to explore the overall  variability of the binding site, revealing positions  at which further substitutions might be made  without adversely affecting affinity.
+Furthermore,  although extremely stringent binding selections  were avoided in order to preserve library diversity,  we nevertheless identified a point mutant with  threefold improved affinity for the HER2 antigen.
+  High variability is limited to a few sites in the  contact region of an antibody with high affinity  for a specific epitope.
+The degree to which many  key residues are conserved in these libraries  suggests that for affinity maturation, targeting  small sets of residues on the antibody surface  with libraries that over-represent the theoretical  diversity can be useful for identifying affinity  improvements.
+Randomization of much larger sets  of residues, including those that are relatively  invariant, may yield too few competent binders to  permit efficient binding selection.
+  Results  Library design and selection  We tested sequence variability within the  high-affinity HER2-binding site of the hu4D5 antibody by constructing monovalently displayed  Fab-phage libraries.
+These were filtered by selecting for HER2 binding clones, and analyzed by  sequencing a large sample (5070 clones) from  each library pool at a point in the selection process  where a high level of overall diversity with  minimal siblings (i.e. occurrence of identical  clones) was observed.
+  Design of the phage libraries centered on four  key residues from an earlier alanine scan study.21  These included CDR residues both in the lightchain (VL) and heavy-chain (VH) variable domains:  H91(VL), R50(VH), W95(VH), and Y100a(VH).21 We  selected additional surface-exposed residues that  were proximal to the VL:VH interface, near the  center of the antigen combining site, based on  inspection of the hu4D5 crystal structure.20  Residues known to be important for the main  chain conformation, or canonical structure,22,23  were omitted from the libraries.
+In order to achieve  adequate representation of all variants the targeted  positions were divided into five smaller libraries  based solely on their surface location.
+Each library  consisted of a small cluster of surface positions  with no more than seven residues targeted in each  (Figure 1).
+All libraries except for one targeting  five residues in CDR-H3 allowed variation of  residues from both VL and VH (Figure 1).
+Certain  residues were represented in more than one library  in order to test for context effects and allow for  co-variation with other proximal positions.
+  Initially, a total of 19 residues of hu4D5 were  randomized using site-directed mutagenesis with  degenerate NNS codons (N  A, G, T or C; S  G  or C) that encode all 20 amino acids.
+  The libraries had initial estimated diversities of  3  1010 4  1010; in each case, the actual diversity  was 101  104 times greater than the theoretical  diversity.
+Stop codons were used to prevent trivial  contamination from WT.
+Phage were amplified in  Escherichia coli and subjected to several rounds  of antigen-binding selection using decreasing  HER2-ECD concentrations beginning with  10 nM HER2-ECD in round 1. While some enrichment was observed after selection with 1 nM  852 Sequence Plasticity in Anti-Her2 Antibody hu4D5HER2-ECD, all libraries displayed enrichment by  round 4, with selection using 0.01 nM antigen.
+  Clones were screened by a phage-ELISA for  binding to immobilized HER2-ECD.
+These assays  demonstrated that 12 randomly picked clones all  retained high binding affinity (IC50  0.52.6 nM;  50% inhibitory concentration) to antigen.
+However,  we were unable to detect significant differences in  binding affinities between selected clones using  this assay (data not shown), in part because of  a relatively large error in IC50 determinations  (average SD  ^24%) at the low phage concentrations required.
+There were also no detectable  differences in expression or phage yield relative to  WT for the 12 clones tested.
+The IC50 for hu4D5  averaged 1.9(^0.6) nM, about tenfold weaker than  measurements using soluble Fab.
+We therefore  prepared soluble Fab fragments to compare  binding affinities (see below).
+  Variability analysis  Clones from each library were sequenced after  four rounds of HER2-ECD selection.
+Sequence  data were normalized to adjust for multiple codons  encoding the same amino acid.
+In most libraries,  there were few siblings (clones with identical  DNA sequence).
+However, library-4 was dominated by a single sequence, that of WT.
+The second  most prevalent clone had a point mutation at a  residue that was not intentionally mutated  (Y100a(VH)).
+Since all but two residues (G96(VH)  Figure 1. (a) A total of 19 target residues (white) on the surface of the hu4D5 Fab were initially randomized  using NNS codon degeneracy.
+The light chain (VL) is highlighted in red while the heavy chain (VH) is in blue.
+(b) The  randomized residues (Kabat numbering)24 were grouped into five smaller libraries based on their location on the  surface of the antibody structure.
+Green residues are the ones randomized in each particular library while the remainder of the 19 target residues are in white.
+Some of the targeted residues are randomized in more than one library.
+  Sequence Plasticity in Anti-Her2 Antibody hu4D5 853Table 1.
+Frequencies of amino acids in Fab-phage clones  Residue 4D5 f LIB  D  (%) E (%)  K  (%)  R  (%)  H  (%)  G  (%)  S  (%)  T  (%)  C  (%)  N  (%)  Q  (%)  A  (%)  V  (%)  L  (%)  I  (%)  M  (%)  P  (%)  F  (%)  W  (%)  Y  (%)  NU NT  Class 1  VL30 N N 2 3 53 34 2 7 31 78  VH33 Y Y 1 39 61 31 68  VH50 R R 1 100 31 68  R 2 100 31 78  VH56 Y Y 1 3 10 13 74 31 68  VH58 R R 1 12 56 3 23 6 31 68  VH95 W W 1 26 59 15 30 67  W 2 6 82 12 32 78  VH99 G G 2 100 33 78  G 3 90 3 3 3 1 70 71  VH100a Y Y 2 100 33 78  Y3 1 10 88 69 70  Class 2  VL49 Y F 3 4 3 3 1 13 12 4 6 28 9 69 70  W 5 4 16 2 2 11 8 2 7 7 31 9 57 57  VL53 F F 3 2 2 1 2 2 5 2 67 16 2 69 70  W 5 1 1 2 1 2 2 3 2 10 16 55 4 57 57  VL55 Y W 5 2 1 2 1 1 2 3 3 12 58 12 57 57  VL91 H F 2 26 3 3 44 9 15 33 78  F 3 19 1 1 45 1 32 69 70  VL92 Y W 2 3 3 3 19 16 41 16 31 78  VL94 T T 1 5 45 5 2 11 5 27 30 67  VH100 F F 3 1 2 14 26 2 52 2 2 67 68  W 5 7 1 17 7 30 34 3 54 55  Class 3  VH98 D W 3 2 2 2 6 6 2 2 3 2 2 4 6 4 9 2 5 6 23 9 69 70  VH102 Y V 5 3 6 4 4 1 3 3 3 6 19 12 6 14 9 3 57 57  For each position, the source library, wild-type residue, and the most commonly observed residue (f) after four rounds of selection is shown.
+The observed frequency (%) of each amino acid at  each position (Kabat numbering)24 was calculated based upon the number of unique sequenced clones (NU; that is, removing sibling clones) and normalized for codon bias.
+The most-common frequencies are shown in bold.
+NT, total number of sequenced clones (including siblings) for this position.
+Residues are grouped according to their variability scores: class 1, relatively invariant residues (VS , 10); class 2, moderately variable residues (VS  1040); and class 3, highly variable residues (VS . 40).and G97(VH)) in library-4 were mutated in other  libraries, this library was omitted from further  analysis.
+Any siblings in the remaining libraries  were also omitted in the amino acid analysis.
+  In order to map the sequence plasticity within  the binding site of hu4D5 quantitatively, we  calculated the WuKabat variability coefficient  from the sequence data (Table 1).
+Variability (VS)  is the number of different amino acids at a given  position divided by the frequency of the most  common amino acid at that position.2 Using this  measure, the variability of phage-selected amino  acids can be compared to the natural variability of  roughly 2000 human Ig k light chains and 4500  human Ig heavy chains found in the Kabat  database.24  The results (Figure 2) show diminished variability at many positions of hu4D5 as compared  with variability of a wide range of antibodies in  the Kabat database.
+There are only two exceptions,  VL49 and VH102, where the variability detected in  the phage libraries exceeds natural variability.
+We  can rank the positions according to their variability  score: class 1, relatively invariant residues (VS , 0);  class 2, moderately variable residues (VS  1040);  and class 3, highly variable residues (VS . 40).
+  Sequence information for the clones selected from  the four libraries is presented according to this  classification system in Table 1.
+All amino acids  were observed among the libraries, but Cys and  Gln were only rarely observed (23% at two  positions each).
+We were also interested in whether  these patterns of variability could be related to the  effects of substitutions on binding affinity.
+  Selected mutations in the hu4D5 binding site  Overall, wild-type residues were strongly conserved at many positions.
+Heavy-chain residues  Y33, R50, Y56, R58, W95, G99, F100, and Y100a  along with light-chain residues F53 and T94, were  all conserved with normalized frequencies $45%  (Table 1).
+Y100a(VH), a .12,000-fold effect when  mutated to Ala,21 R50(VH), a .2000-fold effect  when mutated to Ala, and G99(VH), not previously  mutated, were about 90100% conserved, the latter  two in two independent libraries.
+On the other  hand, some of the residues mutated in multiple  libraries did show context-dependent differences  in amino acid occurrences.
+F53 (VL) is preferred  by 67% to 16% over Trp in library-3, while in  library-5, the preference was reversed with Trp  favored over Phe by 55% to 16% (Table 1).
+  W95(VH), a .18,000-fold Ala hit, showed wildtype as the preferred residue with 82% frequency  in one library (library-2), but with only 59% in  another (library-1).
+F100(VH) is another example of  how some selected residues varied with context.
+  While F100(VH) was a modest sevenfold Ala hit,  it was rather strongly conserved in one library  (library-3), but approximately equally often  substituted by Trp or Met in another (library-5).
+  Wild-type residues were not so predominant at  other positions.
+Interestingly, at T94(VL), where  Ala substitution had little effect, we found 45%  conservation of Thr, but a rather high occurrence  (27%) of a chemically distinct substitution, Trp.
+  Several light-chain residues that had shown a  range of Ala-scan effects from sixfold to 200-fold  also showed strong selection ($45% frequency)  of non-wild-type residues, but preserved the  wild-type chemical character: N30(VL), Y55(VL),  H91(VL) in two libraries, and Y92(VL).
+At VL30 the  wild-type Asn occurs in only 34% of the selected  clones and is replaced with Ser in 53% of the  selected clones.
+Interestingly, at the neighboring  VL92, Trp occurs in 41% of the selected clones,  while Met, Phe, and Tyr (wild-type) each occur in  1619% of the clones.
+The Tyr at VL55 is preferably  substituted by Trp (58%) and less frequently by  Phe or Tyr (12% each).
+Because the substitution of  a chemically similar amino acid may have unpredictable effects on binding affinity, these types of  substitutions are examined further (see below) as  point mutations in the context of soluble hu4D5  Fab preparations.
+  At the remaining three positions, Y49(VL),  D98(VH), and Y102(VH), the patterns of substitution  were more complex, with no single amino acid  occurring with more than about 30% frequency.
+  All retain WT identity with frequency ,10% and  have the largest variety of amino acids.
+Two of  Figure 2.
+Variability of selected  residues in hu4D5.
+The WuKabat  variability parameter (VS) for the  phage-selected results (filled) versus  the natural variability of human  kappa light chains and human  heavy chains (striped) is calculated  as follows: VS  naa/(Nmax/Ntotal),  where naa is the number of different  amino acids (i.e. of the 20 possible)  at a given position, Nmax is occurrences of the most common amino  acid at that position, and Ntotal is  total number of amino acids at that  position.2  Sequence Plasticity in Anti-Her2 Antibody hu4D5 855these residues are at the light-chain/heavy-chain  interface: VL49 faces VH100 and VL55 faces VH102.
+  VL49 is poorly conserved (only 9% WT) in two  libraries and shows a preference for Trp or Phe,  depending on the context.
+Both Val and Tyr often  occur in human Ig heavy chains at VH102.24 The  Tyr at this site is a residue from the murine CDR  that was added during humanization15 to improve  binding affinity; however, the point mutation in  isolation did not affect affinity.21 From the  phage library data here, the human framework  residue Val is actually preferred at this position.
+A  neighboring residue, VL55, is poorly conserved  (mentioned above).
+The most poorly conserved  residue is D98(VH), located in the tip of variable  loop 3 of the heavy chain.
+It is mutated in 98% of  all selected clones and substitution of every amino  acid except Cys was observed here.
+The most  frequent amino acid at this position is Trp,  occurring with 23% frequency.
+Because of the  changes in side-chain chemistry, these substitutions were also of interest and were examined  further (see below) as point mutations.
+  Antigen binding affinities of Fab variants  We examined six point mutants and two combination mutants as soluble Fab fragments to determine how selected substitutions affected HER2  binding as compared with the hu4D5 Fab.
+These  mutations represent a sampling of sites with a  high frequency of occurrence of non-wild-type  residues and a range of variability scores (Table 1).
+  Although sibling data were not used in analyzing the variety of mutations at individual sites, we  considered these data in designing variants for  binding experiments.
+We reasoned that if a single  clone is present in multiple copies after several  rounds of selection it could be due to improvements in binding, stability, or expression.
+Three of  the most abundant siblings were chosen: a triple  mutant, called M.3 (N30(VL)S  H91(VL)F   Y92(VL)W) and the single mutants T94(VL)S and  Y100a(VH)F. These clones represented roughly 20%  of the total number of sequenced clones.
+One  of these mutations, Y100a(VH)F, derived from  library-4 and was not intentionally produced.
+  We also combined all of the above individual  mutations into one multiple-mutant clone, M.7,  (N30(VL)S  H91(VL)F  Y92(VL)W  T94(VL)S   D98(VH)W  Y100a(VH)F  Y102(VH)V).
+  Surface plasmon resonance (SPR) was used to  measure the binding kinetics of overexpressed  Fabs to immobilized HER2-ECD receptor on a  BIAcore instrument.
+Kinetics data for mutant  Fabs binding to HER2-ECD at physiological  Table 2.
+Antigen-binding kinetics of Fab mutants at 37 8C  Mutant  kon  (105 M21 s21  )  koff  (1024 s21  )  KD  (37 8C)  (nM)  WT 10 ^ 1.6 3.5 ^ 0.1 0.35 ^ 0.05  N30(VL)S 10 ^ 3.4 4.0 ^ 0.1 0.39 ^ 0.11  H91(VL)F 9.7 ^ 3.3 3.6 ^ 0.2 0.37 ^ 0.15  N30(VL)S  H91(VL)F  Y92(VL)W 11 ^ 4.4 3.5 ^ 0.3 0.31 ^ 0.16  T94(VL)S 9.3 ^ 3.5 5.5 ^ 0.2 0.59 ^ 0.25  D98(VH)W 17 ^ 4.5 1.9 ^ 0.2 0.11 ^ 0.04  Y100a(VH)F 9.0 ^ 3.6 13 ^ 0.2 1.4 ^ 0.56  Y102(VH)V 12 ^ 1.4 6.2 ^ 1.6 0.51 ^ 0.15  N30(VL)S  H91(VL)F  Y92(VL)W  T94(VL)S  D98(VH)W  Y100a(VH)F  Y102(VH)V 22 ^ 3.1 8.4 ^ 1.6 0.38 ^ 0.04  Values for kon and koff measured by SPR on a BIAcore 2000 or BIAcore 3000.
+These represent a mean of four measurements at four  different densities of HER2-ECD.
+Multiple mutants are M.3 (N30(VL)S  H91(VL)F  Y92(VL)W) and M.7 (N30(VL)S  H91(VL)F   Y92(VL)W  T94(VL)S  D98(VH)W  Y100a(VH)F  Y102(VH)V).
+  Figure 3.
+Binding affinities of Fab variants to HER2-  ECD.
+Mutants are compared to wild-type at each temperature indicated.
+Over this temperature range WT varies only slightly (DDG  0.20).
+Differences in binding  energies as compared with hu4D5 were calculated  for each mutant using KD values as shown in Table 2:  DDG  2RT lnKmutant  D =Kwild-type  D : The order of  mutants represented is the same for each temperature  panel: (1) Y100a(VH)F; (2) T94(VL)S; (3) Y102(VH)V; (4)  N30(VL)S; (5) H91(VL)F; (6) the multiple mutant M.3:  N30(VL)S  H91(VL)F  Y92(VL)W; (7) the multiple  mutant M.7: N30(VL)S  H91(VL)F  Y92(VL)W   T94(VL)S  D98(VH)W  Y100a(VH)F  Y102(VH)V; and  (8) D98(VH)W.  856 Sequence Plasticity in Anti-Her2 Antibody hu4D5temperature (37 8C) are shown in Table 2.
+The Fab  mutants generally have very similar association  and dissociation rate constants, kon and koff.
+As a  result, most of the mutants have KD values similar  to hu4D5 Fab.
+The spontaneous mutation  Y100a(VH)F had a fourfold negative effect on  KD.
+One variant, the single mutant D98(VH)W,  had slightly improved KD with an improvement  over WT of about threefold at 37 8C (Table 2).
+  As often observed in the affinity maturation of  antibodies,9 this improvement resulted primarily  from a slower dissociation rate constant, koff  (Table 2).
+  Over a temperature range of 1937 8C, all of the  mutants tested showed binding energies within  about 1 kcal/mol of that for binding of the wildtype hu4D5 to HER2 (Figure 3).
+Over the same  range, hu4D5 affinity varied only slightly, with KD  ranging from 0.13 to 0.33 nM.  We have not reported binding constants for  mutant Y92(VL)W because expression levels were  reduced by tenfold when compared to the other  Fabs and it bound poorly to HER2. While it was  selected by phage, these results indicate that  Y92(VL)W is unable to function in the wild-type  hu4D5 Fab background.
+Interestingly, this mutation was rescued in the context of either of  the multiple mutants, M.3 or M.7.
+Fusion to the g3  protein may assist in folding or solubility, as  observed for certain phage-displayed mutants of  IGF-1 which were poorly behaved as soluble  proteins.25  Discussion  Comparison of sequence variability and Ala  scan data  An alanine scanning experiment replaces WT  residues with Ala and generally measures loss of  function.
+In our mapping of hu4D5 sequence plasticity, we have sought to maintain function through  random substitutions and antigen-binding selection.
+We can compare the degree of sequence variation using the VS coefficient (Figure 2) with the  Ala-scan map21 of hu4D5 in the context of the crystal structure of the antibody (Figure 4).
+The two  maps show some common and some distinct  features.
+  Four residues of hu4D5 had been found to be  most critical for antigen binding based on alanine  mutagenesis.21 We find that these sites are relatively invariable (see Figure 4).
+R50(VH), W95(VH),  and Y100a(VH) are consistently selected as their  WT residue despite the context in which they  were randomized.
+However, phage display indicates four additional residues, N30(VL), Y56(VH),  R58(VH), and G99(VH), that are highly conserved  as WT and were not large hits by alanine scanning  (Figure 4).
+Two of these, N30(VL) and Y56(VH),  were found to decrease KD by four to sixfold when  mutated to alanine.
+These residues do not make  major contributions to binding energetics21 and  show limited plasticity.
+It is likely that mutations  Figure 4.
+Comparison of sequence variability and Ala-scan results on the hu4D5 structure.
+Residues selected from  phage libraries (a) fall into three categories (Table 1 and Figure 2): class 1, low variability (blue), class 2, moderate  variability (yellow), and class 3, high variability (red).
+Residues not included in the libraries are shown in gray.
+  (b) Alanine scan results21 showing residues with effects on KD of 50 to 5000-fold in red, 1.5- to twofold in yellow, and  ,1.5-fold (including small improvements in KD) in blue.
+Residues not included in the Ala scan are in gray.
+  Sequence Plasticity in Anti-Her2 Antibody hu4D5 857at these positions introduce deleterious effects to  binding, folding, or expression.
+  A contrasting case occurs at VL91.
+When H91(VL)  is mutated to alanine, there is a 200-fold decrease  in binding.
+However, H91(VL) is mutated to a Phe  in 4445% of all selected clones in two different  libraries.
+While the wild-type His has only 22%  exposed surface area in the crystal structure there  is still room to fit a Phe.20 This non-polar aromatic  ring could pack against nearby residues and  extend the hydrophobic core.
+  Ala occurs in only six (VL49, VL53, VL55, VH98,  VH99, VH102) of the 17 residues analyzed and at a  frequency of ,6% for five of these residues, 14%  for the other (VH99).
+Four of these six residues  were included in the alanine scan and all four of  them were shown to decrease KD by twofold.26  The lack of Ala selection at these positions agrees  with these results, provided that the HER2-binding  selection process was efficient in eliminating  variants with .2-fold reductions in binding  affinity.
+Our analysis of Fab binding affinities of  prevalent substitutions supports this (Tables 1 and  2) because all of the high-frequency (.50%)  variants showed binding affinities within twofold  of wild-type.
+In contrast, a low-frequency (10%)  substitution, Y100aF(VH), demonstrated about fivefold weaker binding affinity than that of hu4D5  (Table 2).
+  The antigen-binding selection used here was  intended to identify mutants with high variability  while maintaining high affinity for antigen.
+Conservation of particular side-chains could be the  result of direct antigen contact, an influence on the  conformation of other residues that contact antigen, requirements for antibody structural stability  or expression, or a combination of these effects.
+  An example of a likely structure-stabilizing conservation is at G99(VH).
+VH99 is a highly conserved  residue in variable loop 3 of the heavy chain.
+This  loop forms a type II b-turn where the i  2  position, corresponding to VH99 in hu4D5, is most  commonly a Gly.27 It therefore seems likely that  G99(VH) is a structure-stabilizing residue.
+  Chemical characteristics of  observed substitutions  While sequence variability was observed at most  sites, the chemical character of the wild-type  residue is often preserved.
+Aliphatic side-chains  were not specifically targeted in the libraries  examined here. Perhaps not surprisingly, hydrophobic substitutions fail to dominate at any given  site; however, these residues do appear at low  frequencies (Table 1).
+Two of the three polar sidechains mutated here, R50(VH) and R59(VH), were  well conserved, and aromatic residues were  especially conserved in character.
+There are six  aromatic residues (VH100a, VH56, VL53, VH33,  VH95, and VL55) that are selected to be aromatic in  80% or more of the sequenced clones.
+  Three highly conserved residues are likely  involved in a cation-p interaction: R50(VH),  Y33(VH), and W95(VH).28 When mutated in one  library, Arg occurs at VH50 in 93% of the clones,  Trp at VH95 is selected in 59% of the clones and  Tyr at VH33 in 61% of selected clones.
+Other  amino acid substitutions at VH95 and VH33 include  hydrophobic residues such as Phe or Tyr (VH95),  and Trp (VH33).
+These mutations are all likely to  preserve the stabilizing chemistry with Arg VH50.
+  This result is supported by the fact that two of  these residues, VH50 and VH95, drastically reduce  affinity when mutated to Ala.21  Other aromatic amino acids were also conserved  on the surface of hu4D5 near the center of the antigen-combining site (Figure 4).
+Several of these  mutations involve a set of putative pp interactions.
+One example is at positions VL53, VL49  and VH100.
+In hu4D5 these are Phe, Tyr, and Phe,  respectively.
+The structure of hu4D5 illustrates  that these residues are within 5 A of each other  and stack the aromatic rings face to face or in the  preferred T-shaped conformation typical of a pp  interaction.29 In the context of library-3, VL53 and  VH100 are conserved while the Tyr in between  prefers Phe.
+In a different context, library-5, all  three residues are altered.
+Trp is often found at  VL49 and VL53, and either Trp or Phe is often  found at VH100.
+The fact that these positions prefer  aromatic amino acids in both of the libraries in  which they were mutagenized suggests that conservation of the stabilizing pp interaction on the  surface of hu4D5 is important to antibody structure. They may also contribute to antigen binding  contacts.
+  Another pp interaction appears to occur in  hu4D5 between two Tyr residues (VL55 and  VH102) located at the interface of the light and  heavy chain.
+These Tyr residues are in a T-shaped  geometry and could be a source of stabilization.
+  Surprisingly, this interaction is lost in the selected  clones.
+A total of 35% of the clones replace VL55  with Trp while VH102 has a 19% occurrence of Val.
+  Almost any other amino acid is tolerated at VH102,  but Val is slightly preferred.
+  Identification of an affinity-improved variant  The binding affinity of hu4D5 Fab for HER2 has  previously been reported to be in the sub-nanomolar range.21 We have selected a single mutant,  D98(VH)W, that has a threefold improvement over  WT.
+D98(VH) is located at the tip of variable loop 3  of the heavy chain and is the most protruding residue on the surface of the antibody.20 Furthermore,  it is adjacent to W95(VH), one of the four strong  hits in the alanine scan.
+D98(VH) is also the most  variable position of all those randomized here.
+Trp  does not dominate the selected pool, but it is still  the most frequent substitution selected.
+The exact  role of W98(VH) in HER2 binding is unclear.
+  However, its location on the antibody surface  within the putative binding site suggests that this  858 Sequence Plasticity in Anti-Her2 Antibody hu4D5could be a site of sequence plasticity that also  directly contacts antigen.
+Such sequence plasticity  may correlate with structural plasticity11 or may  reflect limited contacts with portions of the sidechain (e.g. Cb  ) that are common to such disparate  amino acids as Trp and Asp.
+  We cannot rule out the possibility that further  improvements in binding affinity might be found  using alternative methods of binding selection  with the libraries described here or with libraries  randomized at other positions.
+Clearly, the binding  conditions used here were not sufficiently stringent  to yield efficient selection of the highest affinity  variants because W98(VH) was not found to be a  predominant substitution (Table 1).
+We are therefore pursuing additional affinity maturation efforts  including, for example, off-rate selection.9  Non-additive effects on binding free energy  The hu4D5 phage libraries analyzed here  mutated 17 residues in the context of four distinct  clusters on the surface of the antibody.
+Several  residues were present in more than one library in  an attempt to examine the co-variation of residues  in proximity to each other.
+Of the residues represented in duplicate libraries, some differences  were observed (Table 1) depending on the context  as noted above.
+However, using a statistical analysis of co-variation, there were no significant pairwise correlations of substitutions at any of these  positions.
+A much larger number of sequences  might make these correlations more apparent.
+  The effects of single point mutations in hu4D5  do not always follow additivity principles.30  Y92W(VL), which adversely affected binding and/  or folding was rescued by combination with  other mutations to yield a variant, M.7, that was  essentially equivalent to WT (Table 2).
+This underscores the utility of mutating contiguous patches  of residues.
+  Amino acid plasticity in the antigen-binding site  Here we have explored the plasticity of an antibodyantigen interface with respect to the antibodys tolerance for mutations within its putative  contact region with a protein antigen.
+Shotgunalanine scanning31 and alanine-scanning21 of  antibody interfaces can provide a map of those  residues whose side-chains have a critical role in  antigen-binding in the WT.
+Here, sequence variability analysis has been used as a measure of  plasticity, which measures the potential for further  substitutions and optimization.
+In the hu4D5  libraries, all 20 amino acids were initially substituted, yet after antigen-binding selections, there is  an average of six amino acids substituted at each  position.
+Most of the residues have a rather strong  preference for a select few amino acids.
+At seven  positions there are .ten different amino acids  selected.
+  It is interesting to note the analogy between the  plasticity of the antigen-combining site observed  here and the naturally occurring sequence variability among evolutionary variants of other proteins.
+For example, it has been noted that among  the Kazal family of serine protease inhibitors,  the functionally important consensus contact  residues that modulate binding to proteases are  hypervariable.32 Here, we find that even among  high-affinity variants of an antibody, the variability  of residues within the putative contact region is not  strictly correlated with their functional importance  as measured by Ala scanning as seen in the distinct  patterns of Figure 4(a) and (b).
+  Plastic positions, having tolerance for a variety  of substitutions are of interest for therapeutic antibodies where it may be desirable to mutate specific  sites in order to modulate stability (thermodynamic, chemical or proteolytic), isomerization,33  expression, or labeling with imaging or cytotoxic  agents.
+Such sites may also be useful for rapidly  generating further improvements in binding  affinity to antigen.
+Residues that do not vary are  unlikely sources of improved binding, while residues that are more plastic are a prime source for  optimization.
+By understanding residue variability  with respect to antigen binding one can rapidly  combine key residues for affinity maturation  and increase the speed at which tighter binding  variants are found.
+  Materials and Methods  Oligonucleotides  Specific amino acids were randomized by using  degenerate NNS codons (N  A/C/G/T and S  G/C)  which encode all 20 amino acids.
+Site-directed mutagenesis was carried out using the following oligonucleotides  (50  30  ): Lib1.1 GCCAGTCAGGATGTGNNSACTGCTGTAGCCTGG; Lib1.2 CTTATTACTGTCAGCAANNSNNSACTACTCCTCCCACG; Lib1.3 CCTGGAATGGGTTGCANNSATTTATCCTACGAATGG; Lib1.4 CTATTATTGTTCTAGANNSGGAGGGGACNNSTTCNNSGCTATGGACTACTGGGG; Lib2.1 CCGAAACTACTGATTNNSTCGGCATCCNNSCTCTACTCTGGAGTC; Lib2.2 CGCAACTTATTACTGTCAGCAANNSTATACTACTCCTCCC;  Lib2.3 GTTCTAGATGGGGAGGGNNSNNSNNSNNSGCTATGGACTACTGGG; Lib3.1 CAACATTAAAGACACCNNSATACACTGGGTGCGTC; Lib3.2 GGGCCTGGAATGGGTTGCANNSATTTATCCTACGAATGGTNNSACTNNSTATGCCGATAGCG; Lib3.3 CTATTATTGTTCTAGANNSGGAGGGGACGGCTTC; Lib3.4 CAGCAACATTATACTNNSCCTCCCACGTTCGGACA; Lib4.1  GCGTGCTGAGGACACTGCCGTCTATTATTGTTCTAGATGGNNSNNSNNSNNSNNSTATGCTATGGACTACTGGGGTCAAGG; Lib5.1 CCGAAACTACTGATTNNSTCGGCATCCNNSCTCNNSTCTGGAGTCCCTTCTCGC;  Lib5.2 GGGGAGGGGACGGCNNSTATGCTATGGACNNSTGGGGTCAAGGAACC.
+  Oligonucleotides used to sequence the selected phage  were RG13 TGTAAAACGACGGCCAGTCCGTTTAGGTGTTTTCACGAGCACT; RG14 CAGGAAACAGCTATGACCGTTCCACGACACCGTCACCGGTTC.
+  Sequence Plasticity in Anti-Her2 Antibody hu4D5 859Library construction  The hu4D5 phagemid (564/11) was made by fusing  the heavy chain of the hu4D5 Fab26 to a truncated form  of the bacteriophage M13 gene-3 (gIII), and co-expressing the light chain in the same phagemid.
+Expression  was under control of the Ptac promoter.
+The hu4D5  libraries were constructed as described in previous  methods.34,35 For each library, the template was a modified version of phagemid 564/11 that contained stop  codons (TAA) introduced at positions where amino  acids were to be mutated.
+A different stop template was  made for each library.
+The stop templates and mutagenic  oligos described in the previous section were used in  standard Kunkel mutagenesis36 to repair the stop codon  and introduce the desired mutations.
+All libraries were  on the order of 1010 transformants in size, exceeding  the theoretical diversities by 101  104  -fold.
+Thus at least  one copy of each mutant should have been present in  each library.
+  Library sorting  The phage libraries were selected by their ability to  bind to the HER2 receptor using a strategy similar to  that previously described.37 Library phage that bound  to biotinylated HER2-ECD antigen in solution at 25 8C  were captured with magnetic beads (Dynal Biotech,  Oslow, Norway) that had been blocked with milk protein  for one hour at 37 8C.
+A preincubation of phage with  beads for one hour at 37 8C minimized non-specific  binding of the phage selected.
+Complexes were separated and washed five times during round 1, and ten  times for all subsequent rounds of sorting.
+Phage were  eluted from the beads with 0.1 M HCl and neutralized  with 1 M Tris (pH 8.0).
+A portion of the eluted phage  were propagated in rapidly dividing XL-1 (Stratagene,  La Jolla, CA) or SS32034 cells in the presence of  M13-VCS (Stratagene), but without IPTG induction.
+  Library size was determined by plating serial dilutions  of cells onto agar containing 50 mg/ml carbenicillin.
+  Library enrichment was determined by comparing the  number of phage isolated in the presence and in the  absence of antigen.
+Eluted phage was otherwise treated  identically with regard to pre-incubation, separation by  magnetic beads, and wash steps.
+  In the initial round of selection, 1  1013 of library  phage were incubated with 10 nM antigen.
+The antigen  concentration was then decreased tenfold during each  subsequent round of screening.
+The phage supernatants  of individual clones were assayed for activity in a phage  ELISA35 and showed that more than 50% were positive  after the second round of selection.
+  DNA sequencing and analysis  Phage were sequenced directly from cell-culture  supernatants.
+Standard PCR reactions with phage amplified the light and heavy chains of the Fab.
+The forward  and reverse M13 universal primer sequence was  included in the PCR primers so that the product could  be easily sequenced with standard sequencing primers.
+  The sequences obtained were first analyzed in the  program SGcount as previously described.38 Clones  with sequence uncertainties were removed from the  analysis.
+The remaining sequences were then filtered by  removing siblings.
+Frequencies of occurrence of each  amino acid were calculated with normalization for (1)  any codon bias that resulted from the use of NNS  codons, and (2) the total number of sequences, so that  the results from different libraries could be directly compared.
+The number of clones analyzed for each library  was as follows: 71 from library-1, 82 from library-2, 71  from library-3, 74 from library-4, and 57 from library-5.
+  Fab constructs and purification  Mutations were introduced with QuikChangew mutagenesis (Stratagene, La Jolla, CA) to the Fab-expression  plasmid pAK19, described previously.15 Hu4D5 Fab was  overexpressed by secretion in E. coli39 and purified  using a protein-G affinity column.26 The concentration  of each mutant was determined spectrophotometrically  as well as by quantitative amino acid analysis; the two  methods agreed within 512%.
+  SPR binding affinity measurements  A BIAcore-2000 or BIAcore-3000 real-time kinetic  interaction analysis system (Biacore Inc., Piscataway, NJ)  was used to determine association (kon) and dissociation  (koff) constants40 of the hu4D5 Fab mutants.
+A B1 biosensor chip (Biacore, Inc.) was activated according to  the manufacturers instructions and coupled with  86500 RUs (response units) of HER2-ECD in 10 mM  sodium acetate (pH 4.8).
+Unreacted groups were blocked  with 1 M ethanolamine.
+The kinetics of hu4D5 mutants  binding to immobilized HER2-ECD were measured  with twofold serial dilutions beginning with 100 nM  Fab in running buffer (PBS, 0.05% (v/v) Tween, 0.01%  (w/v) sodium azide) at a flow rate of 20 ml/minute.
+  Binding measurements were recorded at 19 8C, 25 8C,  31 8C, and 37 8C at four different densities of immobilized HER2-ECD.
+Data were fit to a 1:1 Langmuir binding model using BIAcore evaluation software version 3,  which calculated konkoff rates.
+An equilibrium constant,  KD, was calculated from koff/kon.
+Free energy differences,  as compared with wild-type hu4D5 were calculated as  described:30 DDG  2RT lnKmutant  D =Kwild2type  D :  Acknowledgments  We thank Y. Chen for help with Fab purification,  A. Zhong and A. Goddard for help with sequencing,  and the Genentech oligo synthesis and AAA analysis  groups.
+We also thank S. Sidhu, K. Clark, C. Eigenbrot,  F. Vajdos, and L. Presta for helpful and stimulating  discussions.
+  References  1.
+Fell, H. P. & Tucker, P. W. (1989).
+Immunoglobulin  genes.
+Immunol. Ser.
+43, 181202.
+  2. Wu, T. T. & Kabat, E. A. (1970).
+An analysis of the  sequences of the variable regions of Bence Jones  proteins and myeloma light chains and their implications for antibody complementarity.
+J. Expt. Med.  132, 211250.  3. Rader, C. & Barbas, C. F., III (1997).
+Phage display of  combinatorial antibody libraries.
+Curr. Opin. Biotechnol. 8, 503508.  4.
+Hoogenboom, H. R. & Chames, P. (2000).
+Natural  and designer binding sites made by phage display  technology.
+Immunol. Today, 21, 371378.  860 Sequence Plasticity in Anti-Her2 Antibody hu4D55. Maynard, J. & Georgiou, G. (2000).
+Antibody engineering.
+Annu. Rev. Biomed. Eng. 2, 339376.  6.
+Foote, J. & Milstein, C. (1991).
+Kinetic maturation of  an immune response.
+Nature, 352, 530532.  7.
+Boder, E. T., Midelfort, K. S. & Wittrup, K. D. (2000).
+  Directed evolution of antibody fragments with  monovalent femtomolar antigen-binding affinity.
+  Proc. Natl Acad. Sci. USA, 97, 1070110705.  8. Schier, R., McCall, A., Adams, G. P., Marshall, K. W.,  Merritt, H., Yim, M. et al. (1996).
+Isolation of picomolar affinity anti-c-erbB-2 single-chain Fv by  molecular evolution of the complementarity determining regions in the center of the antibody binding  site.
+J. Mol. Biol. 263, 551567.  9. Chen, Y., Wiesmann, C., Fuh, G., Li, B., Christinger,  H. W., McKay, P., de Vos, A. M. & Lowman, H. B.  (1999).
+Selection and analysis of an optimized antiVEGF antibody: crystal structure of an affinitymatured Fab in complex with antigen.
+J. Mol. Biol.  293, 865881.  10.
+Barbas, C. F., III, Hu, D., Dunlop, N., Sawyer, L.,  Cababa, D., Hendry, R. M. et al. (1994).
+In vitro evolution of a neutralizing human antibody to human  immunodeficiency virus type 1 to enhance affinity  and broaden strain cross-reactivity.
+Proc. Natl Acad.  Sci. USA, 91, 38093813.  11. Atwell, S., Ultsch, M., De Vos, A. M. & Wells, J. A.  (1997).
+Structural plasticity in a remodeled protein  protein interface.
+Science, 278, 11251128.
+  12.
+Atwell, S., Ridgway, J. B., Wells, J. A. & Carter, P.  (1997).
+Stable heterodimers from remodeling the  domain interface of a homodimer using a phage  display library.
+J. Mol. Biol.
+270, 2635.
+  13. Swint-Kruse, L., Elam, C. R., Lin, J. W., Wycuff, D. R.  & Shive Matthews, K. (2001).
+Plasticity of quaternary  structure: twenty-two ways to form a LacI dimer.
+  Protein Sci. 10, 262276.  14.
+Kabat, E. A., Wu, T. T., Perry, H. M., Gottesman, K. S.  & Foeller, C. (1991).
+Sequences of Proteins of Immunological Interest, 5th edit., National Institutes of Health,  Bethesda, MD.  15. Carter, P., Presta, L., Gorman, C. M., Ridgway, J. B.,  Henner, D., Wong, W. L. et al. (1992).
+Humanization  of an anti-p185HER2 antibody for human cancer  therapy.
+Proc. Natl Acad. Sci. USA, 89, 42854289.  16. Fendly, B. M., Winget, M., Hudziak, R. M., Lipari,  M. T., Napier, M. A. & Ullrich, A. (1990).
+Characterization of murine monoclonal antibodies reactive to  either the human epidermal growth factor receptor  or HER2/neu gene product.
+Cancer Res. 50,  15501558.  17.
+Slamon, D. J., Godolphin, W., Jones, L. A., Holt, J. A.,  Wong, S. G., Keith, D. E. et al. (1989).
+Studies of the  HER-2/neu proto-oncogene in human breast and  ovarian cancer.
+Science, 244, 707712.  18.
+Hudziak, R. M., Lewis, G. D., Winget, M., Fendly,  B. M., Shepard, H. M. & Ullrich, A. (1989).
+  p185HER2 monoclonal antibody has antiproliferative  effects in vitro and sensitizes human breast tumor  cells to tumor necrosis factor.
+Mol. Cell. Biol. 9,  11651172.  19. McKeage, K. & Perry, C. M. (2002).
+Trastuzumab: a  review of its use in the treatment of metastatic breast  cancer overexpressing HER2.
+Drugs, 62, 209243.  20. Eigenbrot, C., Randal, M., Presta, L., Carter, P. &  Kossiakoff, A. A. (1993).
+X-ray structures of the antigen-binding domains from three variants of humanized anti-p185HER2 antibody 4D5 and comparison  with molecular modeling. J. Mol.
+Biol. 229, 969995.  21.
+Kelley, R. F. & OConnell, M. P. (1993).
+Thermodynamic analysis of an antibody functional epitope.
+  Biochemistry, 32, 68286835.  22.
+Chothia, C. & Lesk, A. M. (1987).
+Canonical structures for the hypervariable regions of immunoglobulins. J. Mol. Biol.
+196, 901917.
+  23. Chothia, C., Lesk, A. M., Tramontano, A., Levitt, M.,  Smith-Gill, S. J., Air, G. et al. (1989).
+Conformations  of immunoglobulin hypervariable regions.
+Nature,  342, 877883.
+  24. Johnson, G. & Wu, T. T. (2001).
+Kabat database and  its applications: future directions.
+Nucl. Acids Res.  29, 205206.  25.
+Dubaquie, Y. & Lowman, H. B. (1999).
+Total  alanine-scanning mutagenesis of insulin-like  growth factor I (IGF-I) identifies differential binding  epitopes for IGFBP-1 and IGFBP-3.
+Biochemistry, 38,  63866396.  26.
+Kelley, R. F., OConnell, M. P., Carter, P., Presta, L.,  Eigenbrot, C., Covarrubias, M. et al. (1992).
+  Antigen binding thermodynamics and antiproliferative effects of chimeric and humanized antip185HER2 antibody Fab fragments.
+Biochemistry, 31,  54345441.  27.
+Wilmot, C. M. & Thornton, J. M. (1988).
+Analysis and  prediction of the different types of beta-turn in  proteins.
+J. Mol. Biol. 203, 221232.  28.
+Gallivan, J. P. & Dougherty, D. A. (1999).
+Cation-pi  interactions in structural biology.
+Proc. Natl Acad.  Sci. USA, 96, 94599464.  29.
+Burley, S. K. & Petsko, G. A. (1985).
+Aromaticaromatic interaction: a mechanism of protein structure  stabilization.
+Science, 229, 2328.
+  30.
+Wells, J. A. (1990).
+Additivity of mutational effects in  proteins.
+Biochemistry, 29, 85098517.  31.
+Vajdos, F. F., Adams, C., Breece, T. N., Presta, L. G.,  de Vos, A. A. & Sidhu, S. S. (2002).
+Comprehensive  functional maps of the antigen binding site of an  anti-ErbB2 antibody obtained with shotgun scanning  mutagenesis.
+J. Mol. Biol., 320, 415428.  32.
+Lu, S. M., Lu, W., Qasim, M. A., Anderson, S.,  Apostol, I., Ardelt, W. et al. (2001).
+Humanization of  an anti-p185HER2 antibody for human cancer  therapy.
+Proc. Natl Acad. Sci. USA, 98, 42854289.  33. Cacia, J., Keck, R., Presta, L. G. & Frenz, J. (1996).
+  Isomerization of an aspartic acid residue in  the complementarity-determining regions of a  recombinant antibody to human IgE: identification  and effect on binding affinity.
+Biochemistry, 35,  18971903.  34. Sidhu, S. S., Lowman, H. B., Cunningham, B. C. &  Wells, J. A. (2000).
+Phage display for selection of  novel binding peptides.
+Methods Enzymol. 328,  333363.  35.
+Lowman, H. B. (1998).
+Phage display of peptide  libraries on protein scaffolds.
+Methods Mol. Biol. 87,  249264.  36.
+Kunkel, T. A., Bebenek, K. & McClary, J. (1991).
+  Efficient site-directed mutagenesis using uracil-containing DNA.
+Methods Enzymol. 204, 125139.  37. Hawkins, R. E., Russell, S. J. & Winter, G. (1992).
+  Selection of phage antibodies by binding affinity.
+  Mimicking affinity maturation.
+J. Mol. Biol. 226,  889896.  38. Weiss, G. A., Watanabe, C. K., Zhong, A., Goddard,  A. & Sidhu, S. S. (2000).
+Rapid mapping of protein  functional epitopes by combinatorial alanine scanning.
+Proc. Natl Acad. Sci. USA, 97, 89508954.  Sequence Plasticity in Anti-Her2 Antibody hu4D5 86139.
+Carter, P., Kelley, R. F., Rodrigues, M. L., Snedecor, B.,  Covarrubias, M., Velligan, M. D. et al. (1992).
+High  level Escherichia coli expression and production of a  bivalent humanized antibody fragment.
+Biotechnology  (NY), 10, 163167.  40. Karlsson, R., Michaelsson, A. & Mattsson, L.  (1991).
+Kinetic analysis of monoclonal antibody  antigen interactions with a new biosensor based analytical system.
+J. Immunol. Methods, 145, 229240.  Edited by I. Wilson  (Received 11 April 2002; received in revised form 26 June 2002; accepted 2 July 2002)  862 Sequence Plasticity in Anti-Her2 Antibody hu4D5

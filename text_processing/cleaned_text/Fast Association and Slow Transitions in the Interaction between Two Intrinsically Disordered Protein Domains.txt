@@ -1,0 +1,281 @@
+Fast Association and Slow Transitions in the Interaction  between Two Intrinsically Disordered Protein Domains*  Received for publication, July 11, 2012, and in revised form, August 21, 2012 Published, JBC Papers in Press, August 22, 2012, DOI 10.1074/jbc.
+M112.399436  Jakob Dogan1  , Tanja Schmidt, Xin Mu, ke Engstrm, and Per Jemth2  From the Department of Medical Biochemistry and Microbiology, Uppsala University, BMC Box 582, SE-75123 Uppsala, Sweden  Background: Intrinsically disordered proteins are common regulators of protein-protein interactions, but little is known  about their mechanisms of interaction.
+  Results: Two intrinsically disordered protein domains, from ACTR and CREB-binding protein, interact through rapid association and slow conformational changes.
+  Conclusion: Electrostatics governs the fast association, but the overall reaction is multistep.
+  Significance: The slow conformational search may be common among intrinsically disordered proteins with many binding  partners.
+  Proteins that contain long disordered regions are prevalent in  the proteome and frequently associated with diseases.
+However,  the mechanisms by which such intrinsically disordered proteins  (IDPs) recognize their targets are not well understood.
+Here, we  report the first experimental investigation of the interaction  kinetics of the nuclear co-activator binding domain of CREBbinding protein and the activation domain from the p160 transcriptional co-activator for thyroid hormone and retinoid
+  receptors.
+Both protein domains are intrinsically disordered in  the free state and synergistically fold upon binding each other.
+  Using the stopped-flow technique, we found that the binding  reaction is fast, with an association rate constant of 3  107 M1  s  1 at 277 K. Mutation of a conserved buried intermolecular salt  bridge showed that electrostatics govern the rapid association.
+  Furthermore, upon mutation of the salt bridge or at high salt  concentration, an additional kinetic phase was detected (20  and 40 s1  , respectively, at 277 K), suggesting that the salt  bridge may steer formation of the productive bimolecular complex in an intramolecular step.
+Finally, we directly measured  slow kinetics for the IDP domains (1 s1 at 277 K) related to  conformational transitions upon binding.
+Together, the experiments demonstrate that the interaction involves several steps  and accumulation of intermediate states.
+Our data are consistent with an induced fit mechanism, in agreement with previous  simulations.
+We propose that the slow transitions may be a consequence of the multipartner interactions of IDPs.
+  Completely or partially disordered proteins make up a sizable fraction of proteins encoded by the eukaryotic genome (1,  2).
+These intrinsically disordered proteins (IDPs)3 have rugged  and flattened energy landscapes, resulting in the absence of a  well defined three-dimensional structure at physiological conditions when unbound, but they often undergo a coupled folding and binding event when interacting with their ligands.
+IDPs  have important roles in various critical cellular regulatory processes, for instance, in signaling, transcription, cell cycle control, and translation (3, 4).
+The abundance in the proteome,  together with their functional importance, and frequent association with different types of diseases, such as cancer and neurodegenerative disorders (5), have recently sparked a momentous interest in IDPs, which calls for a better understanding of  their structural, thermodynamic, and kinetic properties (6, 7).
+  The disordered state of IDPs has been suggested to give them  certain advantages, such as the possibility of having numerous  binding partners.
+In fact, for many IDPs, distinct structures are  adopted when bound to different targets (4, 810).
+It has also  been theorized (11) that IDPs have a larger capture radius than  ordered proteins, which would then allow for a higher association rate.
+  One of the most comprehensive studies on the kinetics of  IDP-target interactions was conducted by Wright and colleagues (12) a few years ago, where they used NMR relaxation  dispersion experiments to investigate the coupled folding and  binding of the intrinsically disordered pKID from the cAMPregulated transcription factor (CREB) to the three-helix bundle  KIX domain from the co-activator CREB-binding protein.
+They  showed that pKID binds KIX through an induced fit mechanism and were able to identify and characterize intermediate  states along the binding reaction pathway, providing key  insights into the mechanisms of molecular recognition.
+However, despite the growing identification of proteins that are  intrinsically disordered (13), remarkably few experimental  studies on the binding kinetics involving IDPs have been  reported that would provide answers on the mechanisms that  these proteins utilize in the interaction with their targets.
+  In this work, we have investigated the kinetics of the specific  interaction between the nuclear co-activator binding domain  * This work was supported by the Swedish Research Council (Natural and  Engineering Sciences) and the Human Frontiers Young Investigator Science Program and the Lars Hierta Memorial Foundation.
+1 To whom correspondence may be addressed. E-mail: Jakob.
+Dogan@  imbim.uu.se.
+2 To whom correspondence may be addressed. Tel.: 46-18-4714557; E-mail:  Per.
+Jemth@imbim.uu.se.
+3 The abbreviations used are: IDP, intrinsically disordered protein; CREB,  cAMP-response element-binding protein; NCBD, nuclear co-activator  binding domain; ACTR, activator for thyroid hormone and retinoid receptors; TMAO, trimethylamine N-oxide; pKID, phosphorylated kinase inducible activation domain.
+  THE JOURNAL OF BIOLOGICAL CHEMISTRY VOL.
+287, NO. 41, pp.
+34316 34324, October 5, 2012   2012 by The American Society for Biochemistry and Molecular Biology, Inc. Published in the U.S.A.  34316 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 287NUMBER 41OCTOBER 5, 2012   by guest on March 3, 2015 http://www.jbc.org/ Downloaded from (NCBD) of CREB-binding protein and the activation domain  from the p160 transcriptional co-activator for thyroid hormone  and retinoid receptors (ACTR) (see Fig. 1).
+Both are intrinsically disordered in the free state and synergistically fold upon  complex formation to form a well folded structure (8) with a  nanomolar dissociation constant (Kd).
+  NCBD has many of the characteristics of a molten globule,  whereas ACTR is completely disordered (8, 1416).
+A backbone NMR relaxation study (15) showed that although both  ACTR and NCBD exhibit substantial flexibility on the pico- to  nanosecond time scale, both proteins displayed restricted backbone motions in the bound state.
+This results in a significant  unfavorable conformational entropy change for binding, which  is also reflected in the total entropy change upon complex formation, obtained from isothermal titration calorimetry (15).
+  Clearly, disorder is important in modulating the binding free  energy.
+However, characterization of the binding kinetics is an  essential part in the elucidation of the binding mechanism of  the interaction between NCBD and ACTR.
+Therefore, to shed  light on the binding mechanism, we have performed fluorescence-based binding kinetic experiments.
+We show that the  initial association between NCBD and ACTR is fast but that  subsequent slow conformational changes are necessary to  reach the most stable bound ground state.
+  EXPERIMENTAL PROCEDURES  Protein Expression and PurificationThe DNA sequence of  human ACTR (residues 10181088) was purchased from  GENEART (Germany), whereas human NCBD (20582116)  (8) was PCR-amplified using a human brain cDNA library as  template and inserted into a modified pRSET vector (Invitrogen).
+The final construct was made up of an N-terminal hexahistidine-tagged lipoyl fusion protein followed by a thrombin  cleavage site (LVPRGS) and finally the ACTR or NCBD  sequence.
+Mutants were generated by inverted PCR.
+Escherichia coli BL21(DE3) pLysS cells (Invitrogen) were grown in  2 TY medium at 37 C and then induced with 1 mM isopropyl-  -D-thiogalactopyranoside when A600 reached 0.7 0.8 to overexpress the fusion protein at 18 C overnight.
+Cells were lysed  by sonication followed by centrifugation at 4 C, after which the  supernatant was passed through a 0.2-m filter (Sarstedt), and  then loaded onto a nickel-Sepharose fast flow (GE Healthcare)  column.
+After washing the column with binding buffer (40 mM  Tris pH  8.0, 500 mM NaCl, 20 mM imidazole), the His-tagged  fusion protein was eluted using buffer containing 250 mM imidazole.
+The fusion protein was then dialyzed against 20 mM Tris  pH  8.0, 120 mM NaCl, after which the lipoyl protein was  cleaved off using thrombin (GE Healthcare) and separated from  ACTR or NCBD by loading the solution onto the nickel-Sepharose fast flow column.
+The flow-through, containing ACTR  or NCBD, was subjected to a reversed phase chromatography  step, using C-8 (ACTR or NCBD) or C-18 (NCBD only) columns (Grace Davison Discovery Sciences).
+The identity of purified ACTR or NCBD was verified by MALDI-TOF mass  spectrometry.
+  The concentration of NCBDY2108W and NCBDWT was determined by measuring the Trp and Tyr absorbance at 280 nm,  respectively.
+For wild-type ACTR (ACTRWT), which does not  contain any Trp or Tyr, the concentration was determined by  measuring the absorbance at 205 nm using an extinction coefficient obtained from amino acid analysis.
+  Stopped-flow MeasurementsThe kinetics of NCBD/ACTR  association was characterized using an upgraded SX-17MV  stopped-flow spectrometer (Applied Photophysics, Leatherhead, UK).
+Measurements were performed at T  277 or 283 K,  in 20 mM sodium phosphate (pH  7.4), 150 mM NaCl.
+  Stopped-flow experiments at high salt conditions were carried  out in 20 mM sodium phosphate (pH  7.4), 0.93 M NaCl,  whereas binding kinetic measurements at high trimethylamine  N-oxide (TMAO) concentrations were performed in 20 mM  sodium phosphate (pH  7.4), 150 mM NaCl, 1 M TMAO.
+Excitation was at 280 nm, and the change in fluorescence upon  binding was monitored using a 320-nm long-pass cutoff filter.
+  Association rate constants (kon  app) were determined by varying  the concentration of ACTRWT while keeping the concentration  of NCBDY2108W constant at 1 M. In the case of ACTRQ1042W/  NCBDWT and ACTRL1076W/NCBDWT, kon  app was determined  by varying the concentration of NCBDWT, with the concentration of the Trp-ACTR variants held constant at 1 M (277 K) or  3 M (283 K).
+Overall dissociation rate constants (koff  app) were  determined using displacement experiments.
+For  NCBDY2108W/ACTRWT, the koff  app was measured by mixing a  preformed NCBDY2108W/ACTRWT complex solution (1.12.2  M NCBDY2108W mixed with 12 M ACTRWT) with an excess  of [NCBDWT] and monitoring the change in fluorescence.
+For  NCBDWT/ACTRWT, koff  app was determined by mixing a preformed NCBDWT/ACTRWT (23 M NCBDWT mixed with 2  M ACTRWT) with an excess of [NCBDY2108W].
+For  ACTRQ1042W/NCBDWT and ACTRL1076W/NCBDWT, the preformed complex solution contained 2.2 M ACTRQ1042W or  ACTRL1076W mixed with 2 M NCBDWT, and koff  app was  obtained by adding an excess of [ACTRWT].
+The fluorescence  change upon binding for the salt bridge mutants, ACTRD1068L  and NCBDR2104L, was very different from that of the ACTRWT/  NCBDY2108W, and two other optical filters were used in the  experiments, a 330-nm band-pass filter and a 355-nm cutoff  filter, respectively.
+  Circular Dichroism SpectroscopyCD spectra were recorded  using a JASCO-810 spectropolarimeter equipped with a Peltier  temperature control system.
+A cuvette with a path length of 1  mm was used, and far-UV spectra were recorded at T  298 K,  from 260 to 200 nm with a scan speed of 50 nm/min, and a 2-s  response time.
+Sample conditions were 1023 M protein in 20  mM sodium phosphate (pH  7.4), 150 mM NaCl.
+All spectra  were corrected for the contribution from the buffer.
+CD-monitored thermal denaturation was performed by following the  signal at 222 nm, using a scan speed of 1 K/min.
+  Equilibrium Fluorescence MeasurementsEquilibrium  measurements were carried out on an SLM 4800 spectrofluorometer (SLM instruments).
+Experiments were performed in  20 mM sodium phosphate (pH  7.4), 150 mM NaCl.
+For binding experiments between NCBD and ACTR, Trp excitation was  at 280 nm, and emission spectra were recorded from 300 to 400  nm, whereas for 8-anilino-1-naphthalenesulfonic acid (SigmaAldrich) fluorescence, experiments were performed at T  298  Binding Mechanism of Intrinsically Disordered Proteins  OCTOBER 5, 2012VOLUME 287NUMBER 41 JOURNAL OF BIOLOGICAL CHEMISTRY 34317   by guest on March 3, 2015 http://www.jbc.org/ Downloaded from K, excitation was at 350 nm, and the fluorescence emission was  recorded from 400 to 662.5 nm.
+  RESULTS  Design and Validation of Tryptophan Variants of NCBD and  ACTRTrp residues greatly facilitate the use of fluorescencebased methods to study the kinetics of binding with high sensitivity.
+However, neither NCBD nor ACTR contain any Trp.
+  Early attempts were made to see whether the fluorescence of  the sole tyrosine, Tyr-2108, in NCBD could be used to monitor  the binding to ACTRWT.
+However, only a small fluorescence  change could be observed with the stopped-flow technique, and  a high concentration of NCBD (10 M) was needed to obtain  reliable observed rate constants.
+We therefore performed a  screening where we made single amino acid substitutions,  replacing a certain residue with a Trp at different locations in  NCBD.
+These Trp variants where then evaluated on the basis of  binding kinetics and of their free and bound state behavior  using CD spectroscopy and equilibrium fluorescence measurements to determine which of these engineered Trp variants  would be most suitable as a model for wild-type NCBD (NCBDWT).
+Out of these, the replacement of Tyr with Trp at position  2108 (NCBDY2108W) resulted in an NCBD variant that exhibited the largest fluorescence change upon binding of ACTRWT  (Figs. 1 and 2A).
+The apparent dissociation rate constant,  koff  app, as well as its temperature dependence (data not shown),  as determined by displacement experiments, was the same for  NCBDY2108W/ACTRWT and NCBDWT/ACTRWT (Table 1).
+  The CD spectrum of NCBDY2108W was very similar to that of  NCBDWT in terms of both shape and magnitude of the CD  signal (Fig. 3A).
+The high similarity of the CD properties is also  extended to the NCBDY2108W/ACTRWT and NCBDWT/  ACTRWT complexes (Fig. 3B).
+Furthermore, CD-monitored  thermal denaturation of NCBDY2108W showed an apparent  noncooperative transition similar to that of NCBDWT (Fig. 3C)  and in good agreement with previous studies (14, 16).
+The  thermal denaturations of the bimolecular complexes,  NCBDY2108W/ACTRWT and NCBDWT/ACTRWT, respectively,  show that both have a clear transition, with a melting temperature of around 52 C, reflecting well folded structures of the  complexes (Fig. 3D).
+In addition, both NCBDY2108W and NCBDWT bind the fluorescent hydrophobic probe, 8-anilino-1-naphthalenesulfonic acid, resulting in an increase in fluorescence intensity and with a blue-shifted emission, which is characteristic for  proteins with molten globular properties.
+Finally, kinetic binding  experiments using high concentrations of NCBDWT and monitoring Tyr fluorescence suffered from a low signal-to-noise ratio, but  were consistent with those of NCBDY2108W.
+Taken together,  NCBDY2108W proved to be a good pseudo-wild-type of NCBDWT  and was therefore subjected to a detailed kinetic study.
+  We also inserted Trp residues in ACTR, just prior to helix 1  (ACTRQ1042W) or in the C-terminal helix (ACTRL1076W), to  probe different regions of the ACTR/NCBD complex.
+The  determined apparent association rate constants for  ACTRQ1042W/NCBDWT and ACTRL1076W/NCBDWT, at 277 K,  were very similar to those of NCBDY2108W/ACTRWT (Table 1),  which further validates the use of NCBDY2108W as a representation of NCBDWT.
+  Binding Kinetics for NCBD and ACTRWe measured the  kinetics of association of NCBD/ACTR using the stopped-flow  technique and by varying the concentration of ACTRWT and  monitoring the fluorescence change of NCBDY2108W.
+Alternatively, NCBDWT was varied at a constant concentration of  ACTRQ1042W or ACTRL1076W, respectively. Because of the fast  binding kinetics, the experiments were performed at low temperatures, 283 and 277 K, to accurately determine the observed  rate constant, kobs.
+  The binding kinetics of NCBDY2108W/ACTRWT was biphasic  with a fast phase with positive amplitude and a slow phase with  negative amplitude (Fig. 4A) at 20 mM phosphate (pH  7.4),  150 mM NaCl.
+The concentration dependences of both kinetic  phases were analyzed (Fig. 4B).
+The fast phase increased linearly with ACTRWT concentration with a slope of 3  107 M1  s  1  , which is the apparent association rate constant at 277 K  (Table 1).
+The slow phase remained rather constant with  ACTRWT concentration with a rate constant 1.2 s1  .
+  The apparent overall dissociation constant, koff  app, was 2.6  s  1 at 277 K (Fig. 5), as determined in a displacement experiment.
+In a multistep binding reaction, this experimental  parameter is a function of all first order rate constants, and it  is normally equal to or smaller than the lowest microscopic  off-rate constant on the reaction pathway.
+Biphasic dissociation kinetics was observed for the complex between  ACTRL1076W and NCBDWT, i.e. when the Trp was placed in  the C-terminal helix of ACTR, with koff  app  3.3 and 0.5 s1  ,  respectively.
+  The initial association of NCBD and ACTR is thus very rapid,  and the apparent kon  app is among the fastest that has been  determined so far for an IDP system and the first to be characterized for a system where both binding partners are IDPs.
+A  FIGURE 1.
+Structure of the NCBD/ACTR complex (Protein Data Bank (PDB)  code 1KBH).
+NCBD is shown in cyan and ACTR is in green, with side chains of  NCBDY2108, ACTRL1076, and ACTRQ1042 shown in red.
+These residues were  mutated to Trp in this study.
+Also shown is the buried salt bridge formed  between ACTRD1068 (red spheres) and NCBDR2104 (blue spheres).
+  Binding Mechanism of Intrinsically Disordered Proteins  34318 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 287NUMBER 41OCTOBER 5, 2012   by guest on March 3, 2015 http://www.jbc.org/ Downloaded from simple extrapolation using the values of kon  app, determined at  277 and 283 K to the physiological temperature 310 K, shows  that the binding reaction approaches the diffusion-controlled  limit, with a kon 109 M1 s  1  .
+The temperature dependences  of koff  app for NCBDY2108W/ACTRWT, NCBDWT/ACTRWT,  NCBDWT/ACTRL1076W, and NCBDWT/ACTRQ1042W are all  similar.
+The koff  app at physiological temperature (310 K) was  determined to be around 130 s1 for NCBDWT/ACTRWT.
+  We also performed measurements at high salt concentration  to investigate the role of electrostatics in the binding reaction.
+  At 0.9 M NaCl, an additional kinetic phase was detected.
+This  phase was rather constant with ACTRWT concentration  (within the range it could be accurately fitted) with a value of  40 s1 (Fig. 6).
+Interestingly, both the fast and the slow phases  were not significantly affected by the addition of salt (2  107  M1 s  1 and 0.9 s1  , respectively).
+This suggested that the salt  affected a particular step in the binding reaction that was too  fast to detect at low salt.
+We note, however, that we could not  detect the 40 s1 phase when an excess of NCBDY2108W was  mixed rapidly with ACTRWT.
+The reason might be that the  higher total fluorescence in this experiment obscured the  phase.
+  Binding Kinetics of Salt Bridge MutantsThe importance of  a highly conserved and buried salt bridge in the NCBD/ACTR  complex, formed between Asp-1068 in ACTR and Arg-2104 in  NCBD, has been the subject of an experimental mutational  analysis by Wright and colleagues (14), where both Asp-1068  and Arg-2104 were mutated to leucine, thus replacing the salt  bridge with a hydrophobic interaction.
+Further, in a recent  molecular dynamics simulation study (17), it was concluded  that this salt bridge stabilizes an on-pathway intermediate  toward the bound state.
+  FIGURE 2.
+Fluorescence-based equilibrium binding titration measurements at 20 mM phosphate (pH  7.4), 150 mM NaCl.
+Excitation was at 280 nm.
+  A, fluorescence emission monitored at 350 nm for NCBDY2108W/ACTRWT (283 K), where NCBDY2108W was held constant at 2.8 M at different concentrations of  ACTRWT.
+B, fluorescence emission monitored at 390 nm for NCBDR2104L/ACTRD1068L at 277 K, where the concentration of NCBDR2104L was held constant at 2M,  at different ACTRD1068L concentrations.
+Data were fitted to F  (([ACTR]0  Kd  [NCBD]0)/2  (([ACTR]0  Kd  [NCBD]0)  2  /4  [ACTR]0 [NCBD]0)  0.5)  B  C. F  is the fluorescence signal, B is its total amplitude, C is its intercept value, and [ACTR]0 and [NCBD]0 are the respective total concentrations of the ACTR and NCBD  variants.
+Fitting was performed using KaleidaGraph (Synergy Software).
+As seen in A, the binding between NCBDY2108W and ACTRWT is stoichiometric, which  precludes a reliable and accurate determination of the dissociation binding constant, Kd.
+This is in good agreement with a previous study, which determined  the Kd to be 34 nM at 304 K, using ITC (8).  FIGURE 3.
+CD experiments on NCBDWT, NCBDY2108W, and ACTRWT.
+A, CD  spectra of NCBDWT (blue), NCBDY2108W (red), and ACTRWT (green) at 298 K. deg,  degree.
+B, CD spectra of the NCBDWT/ACTRWT (blue) and NCBDY2108W/ACTRWT  (red) complexes at 298 K. C, thermal denaturation of NCBDWT (blue) and  NCBDY2108W (red) monitored at 222 nm.
+D, thermal denaturation of the  NCBDWT/ACTRWT (blue) and NCBDY2108W/ACTRWT (red) complexes monitored  at 222 nm.
+  TABLE 1  Binding kinetics of NCBD/ACTR variants in 20 mM phosphate (pH  7.4), 150 mM NaCl at two different temperatures  NV, not visible.
+  NCBD/ACTR variant  T  277 K T  283 K  koff  app kon  app  107 3 koff  app kon  app  107 3  s  1 M1 s  1 s  1 s  1 M1 s  1 s  1  NCBDY2108W/ACTRWT 2.6  0.04 2.8  0.1 1.15  0.07 4.5  0.04 5.9  0.1 1.88  0.04  NCBDWT/ACTRWT 2.6  0.1 NV 4.4  0.5 NV  NCBDWT/ACTRQ1042W 1.5  0.1 3.5  0.2 NV 2.9  0.1 9.8  1.0 NV  NCBDWT/ACTRL1076W 3.3  0.2a 2.3  0.2 NV 6.9  0.5a 7.4  0.6 NV  0.5  0.03a 1.0  0.2a  a Two dissociation phases were observed.
+  Binding Mechanism of Intrinsically Disordered Proteins  OCTOBER 5, 2012VOLUME 287NUMBER 41 JOURNAL OF BIOLOGICAL CHEMISTRY 34319   by guest on March 3, 2015 http://www.jbc.org/ Downloaded from To test whether the 40 s1 phase detected at high salt concentration corresponded to formation of this salt bridge, we  made the mutant D1068L in ACTRWT and R2104L in  NCBDY2108W and performed binding experiments at high and  low salt.
+All three kinetic phases were affected by the D1068L/  R2104L mutations.
+In addition, the fluorescence properties  were modulated such that the sign of the amplitude for the fast  phase turned negative (Fig. 7).
+At low salt, the concentration  dependence of the first phase yielded a kon  app value of 1.5  106  M1 s  1  , i.e. 20-fold lower than that of the wild-type domains  (Table 1).
+The second phase 2 was now clearly hyperbolic, with  a 2  max value of around 20 s1 (Fig. 7 and Table 2).
+The presence of the slow phase 3 was not clear.
+It showed a decrease  (0.2 s1  ), along with a small amplitude, such that it approached  a phase related to photobleaching.
+Further, fitting of all three  phases simultaneously yielded a k3 value that was much lower  than koff  app from a separate displacement experiment (3 s1  ).
+  On the other hand, fitting of a simpler two-step scheme to the  salt bridge mutant gave parameters that were consistent with  both koff  app and overall Kd value (Table 2, Figs. 2B and 7).
+At 0.9  FIGURE 4.
+Binding kinetics of the interaction between NCBDY2108W and  ACTRWT at 20 mM phosphate (pH  7.4), 150 mM NaCl, and 277 K. A, a  typical stopped-flow trace between NCBDY2108W (1 M) and ACTRWT (6 M),  using a 320-nm long pass cut-off filter.
+Excitation was at 280 nm.
+The kinetics  is biphasic with the inset showing the slow phase.
+B, the observed rate constant for the fast (solid circles) and slow phase (solid squares) as a function of  ACTRWT concentration at 277 K. The concentration of NCBDY2108W was held  constant at 1 M. The fast phase 1 was analyzed using the general equation  for association of two molecules (28).
+The inset shows a closer view of the  concentration dependence of the slow phase, 3.
+  FIGURE 5.
+Dissociation kinetics at 20 mM phosphate (pH  7.4), 150 mM  NaCl, and 277 K. A, example of a stopped-flow trace in a displacement experiment, where a premixed NCBDY2108W/ACTRWT (1.1 M/1 M) solution was  rapidly mixed with an excess of [NCBDWT], which competed out NCBDY2108W,  resulting in a single exponential fluorescence change.
+The residuals from the  fit are shown below the trace.
+B, the dependence of kobs on NCBDWT  concentration.
+  Binding Mechanism of Intrinsically Disordered Proteins  34320 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 287NUMBER 41OCTOBER 5, 2012   by guest on March 3, 2015 http://www.jbc.org/ Downloaded from FIGURE 6.Binding kinetics ofNCBDY2108W/ACTRWT at 20mM phosphate (pH7.4), 0.9 M NaCl, and 277 K. Three phases were experimentally observed.
+The  inset shows a closer view on the concentration dependence of the slow phase, 3.
+The dependence of the three observed rate constants on ACTRWT concentration was globally fitted to a four-state sequential binding mechanism model (as illustrated in Fig. 8) to estimate the microscopic rate constants, using the  Prism software (GraphPad).
+The analytical solution to the four-state model is known and has been described in detail by Chemes et al. (26).
+A, data fitted to a  model that involves initial binding and two on-pathway intermediate states (Fig. 8, Scheme 1).
+Best fit gives k1  1.6  0.2  107 M1 s  1  , k1  8.4  13 s1  ,  k2  40  74 s1  , k2  1.2  74 s1  , k3  3.9  104  52 s1  , k3  0.8  50 s1  .
+B, data fitted to a model involving the selection of a binding-competent  species followed by binding and an intermediate state (Fig. 8, Scheme 2).
+Best fit gives k1  41  3 s1  , k1  8.2  4.5 s1  , k2  1.6  0.2  107 M1 s  1  , k2  1.3   13 s1  , k3  3.2  104  9 s1  , k3  0.8  9 s1  .
+The standard errors from the fits are large for several of the rate constants, in particular k3 and k3, due to the  lack of concentration dependence of the slower phases, 2 and 3.
+  FIGURE 7.
+Biphasic binding kinetics of the salt bridge mutant NCBDR2104L/ACTRD1068L at 20 mM phosphate (pH  7.4), 150 mM NaCl, and 277 K.  A, stopped-flow binding trace using a 355-nm long-pass cut offfilter (excitation at 280 nm).
+1M NCBDR2104Lwas mixed with 20M ACTRD1068L.
+Data werefitted  to a double exponential function, and the residuals from the fit are shown below the trace.
+Global fit of the dependence of the two experimentally observed  rate constants on ACTRD1068L concentration was performed to obtain the microscopic rate constants.
+In C, a model describing a two-step induced fit mechanism was employed to fit the data (panel B, Scheme 1).D, a conformational selection model (panel B, Scheme 2) was used to fit the data.
+The fitting was restricted  by reducing the number of free variables through the use of a dissociation binding constant Kd  5.4 M, which was determined in a separate equilibrium  binding experiment (Fig. 2B).
+See Table 2 for the estimated microscopic rate constants for the two models.
+The fitting was performed using the Prism software  (GraphPad).
+  Binding Mechanism of Intrinsically Disordered Proteins  OCTOBER 5, 2012VOLUME 287NUMBER 41 JOURNAL OF BIOLOGICAL CHEMISTRY 34321   by guest on March 3, 2015 http://www.jbc.org/ Downloaded from M NaCl, the amplitude of the fast phase 1 decreased such that  a quantitative analysis was difficult.
+However, we estimated the  slope of the phase, kon  app, to 0.2  106 M1 s  1  , showing that  other residues than Asp-1068 in ACTRWT and Arg-2104 in  NCBDY2108W influence binding electrostatics.
+  It was shown previously that NCBDR2104L displays a more  cooperative urea denaturation than NCBDWT (14), with an  unfolding transition that occurs at about 1 M higher urea concentration.
+Furthermore, the magnitude of the CD signal at 222  nm of the unbound NCBDR2104L corresponded to a 25%  increase in helix content when compared with NCBDWT, a  result that was corroborated by NMR experiments (14); thus,  the ground state structures are different for NCBDWT and  NCBDR2104L, which complicates the kinetic analysis.
+Although  the kinetic analysis of the D1068L/R2104L double mutation is  complex, it is clear that these charged residues contribute to the  high association rate constant observed for the binding of  ACTR and NCBD.
+The most likely explanation for the appearance of the middle phase 2 is slowing down of an intramolecular step that is facilitated by formation of the salt bridge  because the phase appears both at high salt (with wild-type  domains) as well as upon mutation of the salt bridge.
+  The Order of EventsThe fact that we observe more than one  phase in stopped-flow experiments means that the interaction  between NCBD and ACTR is not a simple one-step reaction.
+In  a multistep reversible reaction, such as the one under study,  each kobs value is a complex function of all microscopic rate  constants.
+Therefore, kinetic phases often cannot be directly  assigned to a certain step.
+For example, the slow phase, 3, is  dependent not only on k3 and k3 but also on the other first  order rate constants in Fig. 8, Scheme 1.
+Nevertheless, the order  of events may be inferred or demonstrated using different  techniques.
+  Our data are consistent with a binding mechanism that  involves at least two intermediate states, as schematically  shown in Fig. 8, Scheme 1.
+However, the observed rate constants  are also consistent with an initial conformational change (Fig. 8,  Scheme 2, and see also Fig. 6).
+If we consider the slow step as the  initial one (Scheme 2), the best fit gives rate constants of 1.1  and 0.5 s1 for k1 and k1, respectively, resulting in equilibrium  concentrations of 31% of NCBD and 69% as NCBD*. The amplitude of the slow phase (negative) is 1020% of the fast phase.
+  Thus, if the slow phase is due to an initial conformational transition between NCBD and NCBD*, then the fluorescence yield  of NCBD must be much larger than the fluorescence yield of  NCBD*. We rule out an initial slow step (Scheme 2) because (i)  the large expected difference in fluorescence yield between the  NCBD conformers is unlikely.
+Further, in kinetic experiments  where NCBD was mixed with TMAO, we observed no slow  phase, which would be expected if Scheme 2 applies; (ii) mutations in both ACTR and NCBD modulate the magnitude of the  slow phase; (iii) signals in the heteronuclear single quantum  coherence spectra are significantly broadened at lower temperatures (15, 16), suggesting exchange between NCBD conformers on the s-ms time scale, much more rapid than the  observed slow phase; and (iv) the biphasic dissociation of  ACTRL1076W/NCBDWT suggests that there are two conformational transitions in the complex because ACTR is completely  disordered.
+  The 40 s1 phase detected at 0.9 M NaCl is likely related to  formation of the buried salt bridge.
+At low salt, this step would  be rapid and not visible. With the D1068L/R2104L mutations,  the 40 s1 phase is replaced by a hyperbolic phase saturating at  20 s1  , in agreement with the experiment in 0.9 M NaCl.
+On a  kinetic basis, this phase may be related to a conformational  transition occurring before or after binding.
+However, for the  wild-type domains, the presence of 1 M TMAO affects the offrate constant significantly and only marginally affects kon  app  (Table 3).
+If the conformational changes occurred before binding, TMAO should affect the fast equilibrium and thus the association rate constant because TMAO selectively stabilizes more  ordered structures.
+The lack of effect on kon also suggests that  native interactions are formed late in the binding reaction (18,  19).
+Thus, we propose that the two non-concentration-dependent phases we observe are related to steps occurring after initial binding (induced fit).
+  DISCUSSION  IDPs may assume different structures when interacting with  different ligands (20).
+A clear example of this structural plasticFIGURE 8.
+Schemes that were used to quantitatively describe our kinetic  data.
+Scheme 1 involves two productive on-pathway intermediates along the  binding reaction, whereas in Scheme 2, there is an initial selection of a binding-competent species of NCBD followed by the formation of an on-pathway  intermediate.
+PDB accession codes 2KKJ and 1KBH were used for the structural models of unbound NCBDWT and the NCBDWT/ACTRWT complex, respectively.
+ACTRWT in the free state is completely disordered, and the schematic  model of ACTRWT is shown only to visualize such a state.
+  TABLE 2  Estimated microscopic rate constants from global fitting of experimental binding kinetics data obtained for the NCBDR2104L/ACTRD1068L  mutant complex at 277 K  Units are in s1  , unless otherwise stated.
+  k1 k1 k2 k2  Scheme 1a 1.5  0.2  106b 48  3.7 16  2.0 2.8  0.2  Scheme 2a 19  2.2 50  3.5 1.3  0.2  106b 2.8  0.2  a See Fig. 7B.
+b Units are in M1 s  1  .
+  TABLE 3  Apparent association and dissociation rate constants of binding for  NCBDY2108W/ACTRWT at different solution conditions  T  277 K.  Solution conditions koff  app kon  app  107  s  1 M1 s  1  1 M TMAOa 0.57  0.01 4.6  0.2  0.9 M NaClb 1.4  0.1 1.6  0.2  a In 20 mM sodium phosphate (pH  7.4), 150 mM NaCl.
+b In 20 mM sodium phosphate (pH  7.4).
+  Binding Mechanism of Intrinsically Disordered Proteins  34322 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 287NUMBER 41OCTOBER 5, 2012   by guest on March 3, 2015 http://www.jbc.org/ Downloaded from ity is in fact NCBD, which adopts a three-dimensional structure  in its interaction with interferon regulatory factor 3 (IRF-3) (9)  that has a different topology when compared with the structure  when bound to ACTR (8). There are also other examples where  IDPs adopt distinct structures with different ligands (4, 10).
+  Further, in a recent NMR study, Poulsen and colleagues (16)  were able to determine the three-dimensional structure of free  state NCBD and showed that the conformer, which was longlived enough to be structurally characterized by NOEs, is very  similar to that of NCBD when bound to ACTR or to the transactivation domain of p53 (21), suggesting that a conformational  selection mechanism is taking place.
+These experiments raise  the question about what binding mechanisms that are involved  in the recognition processes for IDPs.
+  Here, we directly address the reaction mechanism for the  interaction between NCBD and ACTR.
+Our kinetic data on  NCBD/ACTR demonstrate that slow conformational transitions occur after an initial rapid binding, in agreement with  NMR studies and simulation on another IDP system, pKID/  KIX (12, 22).
+Such binding mechanism is consistent with the  observed structural plasticity of IDP complexes, where disordered regions search the most stable conformation with specific interactions after the initial encounter event.
+The presence  of intermediate states is also in agreement with recent molecular dynamics simulation studies (17, 23) on NCBD/ACTR,  where it was suggested that productive on-pathway intermediates may arise through two different pathways.
+One intermediate was formed by docking of the C-terminal helices and stabilized by the highly conserved and buried salt bridge between  Asp-1068 in ACTR and Arg-2104 in NCBD, whereas formation  of the second intermediate was found to be initiated by interactions between the N-terminal helices.
+  Although it is very difficult to experimentally distinguish  binding reaction mechanisms involving several steps, we can  say that the simplest mechanism that is consistent with the  observed kinetics is one with three consecutive steps, most  probably with two conformational changes occurring after  binding, as depicted in Fig. 8, Scheme 1.
+The parallel pathways  for initial binding suggested by the molecular dynamics simulations is neither confirmed nor ruled out by our data.
+For  example, the observed small differences in the apparent kon  values for variants with different Trp probes (Table 1) may  reflect parallel pathways for the initial encounter but could  equally well be explained by mutational effects in a consecutive  binding mechanism.
+Our data also do not rule out very rapid  conformational transitions in NCBD as suggested by NMR  experiments (15, 16).
+However, if the initial binding of ACTR is  to a high energy conformer of NCBD, the microscopic kon must  be higher than the observed kon (which is already very high) due  to the conformational selection.
+Thus, it is possible that there  are unbound NCBD conformers with preformed binding-competent elements that are similar to those in the bound state  NCBD.
+The binding reaction would then involve subsequent  induced fit steps, as indicated by recent molecular dynamics  simulations studies (17), where the authors argued that both  conformational selection and induced fit may in fact be in operation in the interaction between NCBD and ACTR, as suggested as a general mechanism (24).
+Although we cannot rule  out a fast conformational selection in the binding reaction, we  can say that observable rate-limiting step(s) follow the induced  fit mechanism.
+  There are indications from previous NMR studies that different bound species that are in exchange could be present, as  observed in the current study.
+A backbone NMR relaxation  study (15) showed that although pico- to nanosecond and  micro- to millisecond (s-ms) backbone dynamics for bound  NCBD and ACTR were reduced when compared with the free  state, several residues for both proteins in the bound state had  chemical exchange contributions to the transverse relaxation  rate R2, indicative of s-ms motions and possibly the result of  exchange between different states.
+In another study (25), the  authors concluded that the NMR structure of the complex  between the activation domain of stereo receptor co-activator 1  (SRC1) and NCBD (SRC1 is a ACTR homolog), which they  determined, was in exchange with another minor bound species, due to the presence of additional cross-peaks.
+  The removal of the buried salt bridge by mutation  (NCBDR2104L and ACTRD1068L) has a profound effect on the  association rate constant, reducing it by a factor of 20.
+IDPs  tend to be enriched in charged residues and depleted of bulky  hydrophobic residues, making it difficult to form a hydrophobic  core.
+For instance, NCBD has a total of 7 Arg and Lys residues,  and only 1 Asp residue, whereas ACTR has 13 Glu and Asp  residues and 5 Arg and Lys residues.
+This suggests that electrostatics may be one of the key determinants for the fast associations that have been experimentally observed for some IDPs  (26).
+We note that in general, kon values for IDPs and intrinsically disordered regions may not be larger than those of ordered  proteins (18, 19, 26, 27).
+  In conclusion, although our results show that initial binding  could be fast for IDPs, they also highlight the disadvantage of  having multiple binding partners, namely that finding the most  stable conformation in the bimolecular complex may be a relatively slow process.
+  REFERENCES  1.
+Dunker, A. K., Lawson, J. D., Brown, C. J., Williams, R. M., Romero, P., Oh,  J. S., Oldfield, C. J., Campen, A. M., Ratliff, C. M., Hipps, K. W., Ausio, J.,  Nissen, M. S., Reeves, R., Kang, C., Kissinger, C. R., Bailey, R.W., Griswold,  M. D., Chiu, W., Garner, E. C., and Obradovic, Z. (2001) Intrinsically  disordered protein.
+J. Mol. Graph. Model. 19, 2659  2. Tompa, P. (2002) Intrinsically unstructured proteins.
+Trends Biochem. Sci.  27, 527533  3. Dunker, A. K., Brown, C. J., Lawson, J. D., Iakoucheva, L. M., and  Obradovic, Z. (2002) Intrinsic disorder and protein function.
+Biochemistry  41, 65736582  4. Dyson, H. J., and Wright, P. E. (2005) Intrinsically unstructured proteins  and their functions.
+Nat. Rev. Mol.
+Cell Biol. 6, 197208  5. Uversky, V. N., Oldfield, C. J., and Dunker, A. K. (2008) Intrinsically disordered proteins in human diseases: introducing the D2 concept.
+Annu.  Rev. Biophys.
+37, 215246  6.
+Dyson, H. J. (2011) Expanding the proteome: disordered and alternatively  folded proteins.
+Q. Rev. Biophys.
+44, 467518  7. Rezaei-Ghaleh, N., Blackledge, M., and Zweckstetter, M. (2012) Intrinsically disordered proteins: from sequence and conformational properties  toward drug discovery.
+Chembiochem 13, 930950  8. Demarest, S. J., Martinez-Yamout, M., Chung, J., Chen, H., Xu, W., Dyson,  H. J., Evans, R. M., and Wright, P. E. (2002) Mutual synergistic folding in  recruitment of CBP/p300 by p160 nuclear receptor co-activators.
+Nature  415, 549553  Binding Mechanism of Intrinsically Disordered Proteins  OCTOBER 5, 2012VOLUME 287NUMBER 41 JOURNAL OF BIOLOGICAL CHEMISTRY 34323   by guest on March 3, 2015 http://www.jbc.org/ Downloaded from 9. Qin, B. Y., Liu, C., Srinath, H., Lam, S. S., Correia, J. J., Derynck, R., and Lin,  K. (2005) Crystal structure of IRF-3 in complex with CBP.
+Structure 13,  12691277  10.
+Oldfield, C. J., Meng, J., Yang, J. Y., Yang, M. Q., Uversky, V. N., and  Dunker, A. K. (2008) Flexible nets: disorder and induced fit in the associations of p53 and 14-3-3 with their partners.
+BMC Genomics 9, Suppl. 1, S1  11.
+Shoemaker, B. A., Portman, J. J., and Wolynes, P. G. (2000) Speeding  molecular recognition by using the folding funnel: the fly-casting mechanism.
+Proc. Natl. Acad. Sci. U.S.A. 97, 88688873  12.
+Sugase, K., Dyson, H. J., and Wright, P. E. (2007) Mechanism of coupled  folding and binding of an intrinsically disordered protein.
+Nature 447,  10211025  13. Sickmeier, M., Hamilton, J. A., LeGall, T., Vacic, V., Cortese, M. S., Tantos,  A., Szabo, B., Tompa, P., Chen, J., Uversky, V. N., Obradovic, Z., and  Dunker, A. K. (2007) DisProt: the Database of Disordered Proteins.
+Nucleic Acids Res.
+35, D786D793  14.
+Demarest, S. J., Deechongkit, S., Dyson, H. J., Evans, R. M., and Wright,  P. E. (2004) Packing, specificity, and mutability at the binding interface  between the p160 co-activator and CREB-binding protein.
+Protein Sci. 13,  203210  15. Ebert, M. O., Bae, S. H., Dyson, H. J., and Wright, P. E. (2008) NMR  relaxation study of the complex formed between CBP and the activation  domain of the nuclear hormone receptor co-activator ACTR.
+Biochemistry 47, 12991308  16. Kjaergaard, M., Teilum, K., and Poulsen, F. M. (2010) Conformational  selection in the molten globule state of the nuclear co-activator binding  domain of CBP.
+Proc. Natl. Acad. Sci. U.S.A. 107, 1253512540  17.
+Zhang, W., Ganguly, D., and Chen, J. (2012) Residual structures, conformational fluctuations, and electrostatic interactions in the synergistic  folding of two intrinsically disordered proteins.
+PLoS Comput. Biol. 8,  e1002353  18.
+Haq, S. R., Chi, C. N., Bach, A., Dogan, J., Engstrm, ., Hultqvist, G.,  Karlsson, O. A., Lundstrm, P., Montemiglio, L. C., Strmgaard, K., Gianni, S., and Jemth, P. (2012) Side-chain interactions form late and cooperatively in the binding reaction between disordered peptides and PDZ  domains.
+J. Am. Chem. Soc.
+134, 599605  19.
+Karlsson, O. A., Chi, C. N., Engstrm, A., and Jemth, P. (2012) The transition state of coupled folding and binding for a flexible -finger.
+J. Mol.  Biol. 417, 253261  20. Wright, P. E., and Dyson, H. J. (2009) Linking folding and binding.
+Curr.  Opin.
+Struct. Biol. 19, 3138  21.
+Lee, C. W., Martinez-Yamout, M. A., Dyson, H. J., and Wright, P. E. (2010)  Structure of the p53 transactivation domain in complex with the nuclear  receptor co-activator binding domain of CREB-binding protein.
+Biochemistry 49, 99649971  22.
+Turjanski, A. G., Gutkind, J. S., Best, R. B., and Hummer, G. (2008) Binding-induced folding of a natively unstructured transcription factor.
+PLoS  Comput. Biol. 4, e1000060  23.
+Ganguly, D., Zhang, W., and Chen, J. (2012) Synergistic folding of two  intrinsically disordered proteins: searching for conformational selection.
+  Mol. Biosyst. 8, 198209  24.
+Csermely, P., Palotai, R., and Nussinov, R. (2010) Induced fit, conformational selection, and independent dynamic segments: an extended view of  binding events.
+Trends Biochem. Sci. 35, 539546  25.
+Waters, L., Yue, B., Veverka, V., Renshaw, P., Bramham, J., Matsuda, S.,  Frenkiel, T., Kelly, G., Muskett, F., Carr, M., and Heery, D. M. (2006)  Structural diversity in p160/CREB-binding protein co-activator complexes.
+J. Biol. Chem. 281, 1478714795  26. Chemes, L. B., Snchez, I. E., and de Prat-Gay, G. (2011) Kinetic recognition of the retinoblastoma tumor suppressor by a specific protein target.
+J.  Mol. Biol. 412, 267284  27.
+Papadakos, G., Housden, N. G., Lilly, K. J., Kaminska, R., and Kleanthous,  C. (2012) Kinetic basis for the competitive recruitment of TolB by the  intrinsically disordered translocation domain of colicin E9.
+J. Mol. Biol.  418, 269280  28. Malatesta, F. (2005) The study of bimolecular reactions under non-pseudo-first order conditions.
+Biophys. Chem. 116, 251256  Binding Mechanism of Intrinsically Disordered Proteins  34324 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 287NUMBER 41OCTOBER 5, 2012   by guest on March 3, 2015 http://www.jbc.org/ Downloaded from Engstrm and Per Jemth  Jakob Dogan, Tanja Schmidt, Xin Mu, ke     Disordered Protein Domains  the Interaction between Two Intrinsically   Fast Association and Slow Transitions in  Molecular Biophysics:  doi: 10.1074/jbc.
+M112.399436 originally published online August 22, 2012  J. Biol. Chem. 2012, 287:34316-34324.
+     Access the most updated version of this article at doi: 10.1074/jbc.
+M112.399436     Find articles, minireviews, Reflections and Classics on similar topics on the JBC Affinity Sites.
+  Alerts:       When a correction for this article is posted   When this article is cited  Click here to choose from all of JBC's e-mail alerts     http://www.jbc.org/content/287/41/34316.full.html#ref-list-1  This article cites 28 references, 4 of which can be accessed free at   by guest on March 3, 2015 http://www.jbc.org/ Downloaded from

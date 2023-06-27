@@ -1,0 +1,1750 @@
+Analysis of the Interactions of Human Ribonuclease
+Inhibitor with Angiogenin and Ribonuclease A by
+Mutagenesis: Importance of Inhibitor Residues Inside
+versus Outside the C-terminal ``Hot Spot''
+Robert Shapiro1,2
+*, Melisa Ruiz-Gutierrez1 and Chang-Zheng Chen1
+1
+Center for Biochemical and
+Biophysical Sciences and
+Medicine
+2
+Department of Pathology
+Harvard Medical School
+Boston, MA 02115, USA
+Ribonuclease inhibitor (RI) binds diverse mammalian RNases with extra￾ordinary avidity. Here, we have investigated the structural basis for this
+tight binding and broad speci®city by mutational analysis of the complexes
+of RI with angiogenin (Ang) and RNase A (KD  0.5 fM and 43 fM, respect￾ively). Both crystal structures are known; the interfaces are large, and the
+ligands dock similarly, although few of the speci®c interactions formed are
+analogous. Our previous mutagenesis studies focused primarily on one
+contact region, containing RI 434-438 and the enzymatic active site. Many
+single-residue replacements produced extensive losses of binding energy
+(2.3-5.9 kcal/mol), suggesting that this region constitutes a ``hot spot'' in
+both cases. We have now explored the roles of most of the remaining RI
+residues that interact with Ang and/or RNase A. One major cluster in each
+complex lies in a Trp-rich area of RI, containing Trp261, Trp263, Trp318,
+and Trp375. Although the energy losses from individual replacements in
+this portion of the Ang complex were small-to-moderate (0-1.5 kcal/mol),
+the changes from multiple substitutions were much greater than additive,
+and the binding energy provided by this region is estimated to be 6 kcal/
+mol (30 % of total). Effects of replacing combinations of hot spot com￾ponents had also been found to be superadditive, and this negative coop￾erativity is now shown to extend to the neighboring contact residue RI
+Ser460. The overall contribution of the hot spot, taking superadditivity into
+account, is then 14-15 kcal/mol. The hot spot and Trp-rich regions,
+although spatially well separated, are themselves functionally linked. No
+other parts of the RI-Ang interface appear to be energetically important.
+Binding of RNase A is more sensitive to substitutions throughout the inter￾face, with free energy losses 5 1 kcal/mol produced by nearly all replace￾ments examined, so that the sum of losses greatly exceeds the binding
+energy of the complex. This discrepancy can be explained, in part, by posi￾tive cooperativity, as evident from the subadditive effects observed when
+combinations of residues in either the hot spot or Trp-rich region are
+replaced. These ®ndings suggest that the binding energy may be more
+widely distributed in the RNase A complex than in the Ang complex.
+# 2000 Academic Press
+Keywords: angiogenin; ribonuclease inhibitor; protein-protein interactions;
+*Corresponding author binding energy; site-directed mutagenesis
+E-mail address of the corresponding author: Robert Shapiro@hms.harvard.edu
+Present address: M. Ruiz-Gutierrez and C.-Z. Chen, Whitehead Institute for Biomedical Research, Massachusetts
+Institute of Technology, Cambridge, MA 02142, USA.
+Abbreviations used: RI, ribonuclease inhibitor; LRR, leucine-rich repeat; pRI, porcine RI; RNase, ribonuclease; Ang,
+angiogenin; hRI, human RI; wt, wild-type; 3W, hRI variant in which Trp261, Trp263, and Trp318 have been replaced
+by Ala; 4W, hRI variant in which Trp261, Trp263, Trp318, and Trp375 have been replaced by Ala; ASA, solvent￾accessible surface area; Pyr1, pyroglutamic acid; Mes, 2-(N-morpholino)ethanesulfonic acid; BSA, bovine serum
+albumin; CpA, cytidylyl-(30
+!50
+)adenosine; CpG, cytidylyl-(30
+!50
+)guanosine; FAM, 50
+,6-carboxy¯uorescein.
+doi:10.1006/jmbi.2000.4075 available online at http://www.idealibrary.com on J. Mol. Biol. (2000) 302, 497±519
+0022-2836/00/020497±23 $35.00/0 # 2000 Academic PressIntroduction
+RNase inhibitor (RI), a 50 kDa leucine-rich
+repeat (LRR) protein, binds diverse 14 kDa pro￾teins in the pancreatic RNase superfamily with dis￾sociation constants extending from 10ÿ13 M to
+below 10ÿ15 M (Lee et al., 1989b; Vicentini et al.,
+1990; Shapiro & Vallee, 1991; Boix et al., 1996;
+Hofsteenge, 1997). The molecular basis for this
+extraordinarily high af®nity and broad speci®city
+has been explored in some detail in recent years by
+X-ray crystallography and site-directed mutagen￾esis. Crystal structures have been determined for
+the complexes of porcine RI (pRI) with bovine pan￾creatic RNase A (KD  67 fM (Vicentini et al.,
+1990)) (Kobe & Deisenhofer, 1995) and human RI
+(hRI) with human angiogenin (Ang) (KD < 1 fM
+(Lee et al., 1989b)) (Papageorgiou et al., 1997), a
+ribonucleolytic enzyme that induces formation of
+new blood vessels (Fett et al., 1985; Shapiro et al.,
+1986). In both cases, RI utilizes its ``horseshoe''
+shape, formed by symmetrical arrangement of the
+16 homologous tandem LRR units that comprise
+nearly the entire molecule (Figure 1), to partially
+engulf its target. The contact points on RI lie within
+the central cavity and on the upper surface of the
+horseshoe, and are distributed among 12 (RNase A
+complex) and 13 (Ang complex) of the LRRs.
+Although nearly two-thirds of the inhibitor resi￾dues that interact with Ang and RNase A are the
+same, few of the contacts that they make are analo￾gous.
+Initial studies on the effects of single-residue
+mutations on binding af®nity (Chen & Shapiro,
+1997) suggested that the complexes of RI with Ang
+and RNase A both conform to the ``hot spot''
+model proposed by Clackson & Wells (1995): repla￾cements within one part of each interface
+decreased binding af®nity substantially, whereas
+substitutions of various residues in other interface
+regions produced much smaller changes. The
+locations of the putative hot spots on RI for bind￾ing Ang and RNase A are nearly identical. Both
+contain primarily residues on the ba loop 433-439,
+with additional involvement of the adjacent amino
+acid residue Ser460. However, the speci®c inter￾actions formed in this region of the two complexes
+are largely different.
+A subsequent investigation of the RI-Ang and
+RI-RNase A hot spots using multi-site mutagenesis
+revealed additional details of their functioning,
+including some dramatic cooperativities, which
+were distinctive in the two complexes (Chen &
+Shapiro, 1999). The losses in binding energy for the
+RNase A complex associated with replacing pairs
+of hRI residues in this site were markedly less than
+additive (``subadditive''), suggesting that the
+effects of the substitutions are partially interdepen￾dent and that the overall contribution of this region
+may not be as large as it seemed from the single￾site variants. In contrast, the effects of these
+multiple replacements on af®nity for Ang were
+fully additive or much greater than additive
+(``superadditive'', LiCata & Ackers, 1995). Super￾additivity was also found in several cases when
+these hRI residues were substituted together with
+hot spot residues on Ang. Thus this region of the
+interface may provide even more binding energy
+than was ®rst apparent.
+Here, we have explored the roles of additional
+components of the hRI-Ang and hRI-RNase A
+interfaces, both inside and outside the hot spot, by
+single-site and multi-site mutagenesis. Our ®nd￾ings, while con®rming the energetic predominance
+of the key region in the Ang complex identi®ed
+previously, demonstrate that a tryptophan-rich
+area, containing Trp261, Trp263, Trp318 and
+Trp375 of hRI and Trp89 of Ang, also makes an
+important contribution. Some of the residues in
+this part of the interface, like those in the hot spot,
+are shown to work cooperatively, and these two
+regions themselves, although well separated in the
+3D structure, are functionally linked as well. The
+RNase A complex is sensitive to losses of contacts
+over a much larger portion of the interface than is
+the Ang complex, suggesting that the binding
+energy may be more widely distributed. Moreover,
+we ®nd that replacements of residues just outside
+the contact surface can also weaken af®nity for
+RNase A signi®cantly.
+Results
+Role of the C-terminal region of hRI
+Eight residues within the C-terminal LRR unit of
+RI make contact with Ang; these same amino acid
+residues, plus three others from this segment, inter￾act with RNase A (Table 1).{ Previous mutagenesis
+studies examined the roles of four of these hRI resi￾dues (Tyr434, Asp435, Tyr437 and Ser460) in the
+Ang and RNase A complexes and some of the Ang
+residues that contact this region of hRI (Arg5,
+His8, Gln12, Lys40 and His114) (Lee & Vallee,
+1989a; Shapiro & Vallee, 1989, 1992; Chen &
+Shapiro, 1997, 1999). Individual substitutions of
+hRI Tyr434 and Asp435, and the Ang residues
+Arg5 and Lys40 were shown to increase the KD for
+the hRIAng complex substantially (50 to 1300-
+fold), whereas deletion of the C-terminal residue
+Ser460 of hRI and replacements of the other resi-
+{ The RI-RNase A interactions cited throughout are
+those observed in the crystal structure of the pRIRNase
+A complex (Kobe & Deisenhofer, 1996). Except where
+indicated otherwise, we assume that these contacts are
+present also in the hRI complex; pRI and hRI bind
+RNase A with almost identical af®nities (Lee et al.,
+1989b; Vicentini et al., 1990), the sequences of the two
+proteins are 85 % similar (77 % identical), and only four
+of the contact residues on pRI are not present in the
+human inhibitor (all but one are conservatively
+replaced). The N terminus of hRI is extended by four
+residues with respect to pRI; there are no other
+insertions or deletions.
+498 RNase Inhibitor Interactionsdues produced less extensive changes (1.6 to eight￾fold). All four hRI mutations greatly diminished
+af®nity for RNase A, by factors ranging from 84 to
+23,000-fold. The effects of numerous multi-site sub￾stitutions were also determined, focusing on hRI
+Tyr434, Asp435 and Tyr437, and the two Ang resi￾dues (Arg5 and Lys40) that appear to interact most
+strongly with the inhibitor loop containing these
+amino acids.
+We have now extended these studies to investi￾gate additional interrelationships within this por￾tion of the hRI-Ang interface and the importance
+of those contact residues for Ang and RNase A on
+the 430 to 460 segment of hRI that were not exam￾ined previously.
+Interactions of des(460)-hRI with the Ang
+variants R5A and K40G
+In the hRIAng crystal structure, hRI Ser460
+lies next to the inhibitor loop 433-439 but these
+two C-terminal elements contact entirely different
+Figure 1. Crystal structures of the hRI/pRI (top) and Ang/RNase A (bottom) components of the hRIAng and
+pRIRNase A complexes (Papageorgiou et al., 1997; Kobe & Deisenhofer, 1996), showing a-carbon backbone and side￾chain atoms of the contact residues. The orientations of the RI and ligand molecules are the same, but the ligand
+structures have been enlarged by 15 % with respect to the inhibitors. hRI residue numbering is used. The Figure was
+drawn with MOLSCRIPT (Esnouf, 1997; Kraulis, 1991).
+RNase Inhibitor Interactions 499sets of residues on Ang (Table 1). Their func￾tional connection was assessed by measuring KD
+values for the complexes of des(460)-hRI with
+the Ang variants R5A and K40G, in which the
+two major residues that interact with the loop
+have been replaced. Rate constants for associ￾ation (ka) and dissociation (kd) were determined
+as described in Materials and Methods, and KD
+values were calculated as kd/ka (Table 2). For￾mation of the wild-type (wt) hRIAng complex
+is accompanied by a marked increase in Trp ¯u￾orescence; monitoring of this increase under
+stopped-¯ow conditions has indicated that
+association proceeds via a two-step mechanism
+in which rapid formation of a loose complex EI
+(dissociation constant K1) is followed by a slower
+isomerization to the tight complex EI* (rate con￾stant k2) (Lee et al., 1989a).{ Values for K1 and
+k2 can be obtained from the dependence of
+1/kobs on 1/[Ang], where kobs is the rate con￾stant for the increase in Trp ¯uorescence and
+[Ang] is the concentration of Ang; the 1/kobs
+intercept is at 1/k2, the 1/[Ang] intercept is at
+ÿ1/K1, and the slope is 1/ka, where ka ( k2/K1)
+is the apparent second-order rate constant
+of association. Binding of both R5A-Ang and
+K40G-Ang to des(460)-hRI produced ¯uorescence
+enhancements similar to that for the wt complex,
+and again followed a two-step mechanism. The
+values for ka were three- to fourfold lower,
+re¯ecting both increases in K1 and decreases in
+k2. Dissociation was affected more substantially:
+the half-lives of the R5A and K40G complexes
+were 73 and 16 minutes, respectively, versus
+73 days for the wt complex. The reductions in
+overall af®nity (5520-fold and 18,400-fold,
+respectively) were 13-fold and ninefold larger
+than expected if the pairs of residues replaced
+were to function independently: i.e. the
+mutational effects were superadditive. The values
+for G, representing the difference between
+the sum of the losses in binding free energy
+(G values) for the individual replacements
+and the measured G values for the double
+variant complexes, were ÿ1.5 kcal/mol (R5A)
+and ÿ1.3 kcal/mol (K40G).
+Interactions of hRI variants Q430A/V432A,
+W438A/S439A/E440A, R457A, and I459A with
+Ang and RNase A
+The roles of six residues on the hRI C-terminal
+segment 430 to 460 that contact or approach Ang
+and RNase A in the crystal structures of the com￾plexes (Gln430, Val432, Trp438, Ser439, Glu440 and
+Ile459; Table 1) were not studied previously, and
+that of a seventh (Arg457) was examined only with
+respect to RNase A dissociation (Chen & Shapiro,
+1997). The effects of substituting these residues by
+Ala either singly or in groups were now deter￾mined (Table 2). Some of the replacements (those
+of Glu440 and Ile459) eliminate interactions with
+both ligands; others remove contacts with only one
+of them (Trp438 (Ang); Gln430, Val432, and
+Arg457 (RNase A)); and one (Ser439) deletes no
+direct interactions with either enzyme (all contacts
+involve main-chain atoms or CB). Q430A/V432A
+and R457A bound Ang with avidities similar to
+that of wt hRI, but their af®nities for RNase A
+were reduced by four- to ®vefold. Replacement of
+Ile459 produced threefold and 1.8-fold increases in
+the KD values for Ang and RNase A, respectively.
+The variant W438A/S439A/E440A bound 20 to
+30-fold less strongly to both ligands.
+Role of the tryptophan-rich region of hRI
+Analysis of the hRI-Ang crystal structure reveals
+one area of extended complementarity between the
+surfaces of the two proteins outside the hot spot
+already identi®ed (Papageorgiou et al., 1997). This
+region includes a cluster of four tryptophan resi￾dues (Trp261, Trp263, Trp318, and Trp375), Ser289,
+Glu344 and Glu401, which line the inside of the
+hRI horseshoe from the ``9-o'clock'' to the ``12-
+o'clock'' position (Figure 1), and residues 84 to 89
+on the B4/B5 loop of Ang (Leonidas et al., 1999).
+The intermolecular contacts formed are two direct
+hydrogen bonds (linking hRI residues Ser289 and
+Glu344 with Gly86 and Trp89 of Ang, respect￾ively), two water-mediated hydrogen bonds
+(between hRI Trp263 and Glu344, and Ang Gly86
+and Trp89, respectively), and 53 van der Waals
+contacts (out of 113 for the entire complex) (Table 1
+and Figure 2(a)).
+The RNase A loop segment 86 to 92 differs con￾siderably from the corresponding residues (84 to
+89) of Ang in both sequence and conformation,
+and its surface is less complementary to that of RI
+(Kobe & Deisenhofer, 1996; Papageorgiou et al.,
+1997). Four direct hydrogen bonds connect this
+RNase A loop with RI (Ser89, Gly88, Ser89 and
+Glu86 interact with Glu206, Trp261, Trp263 and
+Lys320, respectively); Lys91 of RNase forms a non￾hydrogen-bonding ionic interaction with RI
+Glu287; and RNase residues Gly88, Ser90, and
+Lys91 make a total of 20 van der Waals contacts
+with Glu206, Asp232, Trp261, Trp263, Glu287 and
+Trp318 of RI (Table 1, Figure 2(b)). Trp375 of hRI is
+substituted by Cys in pRI, so the pRIRNase A
+crystal structure does not indicate whether a Trp at
+this position would interact with RNase A. How￾ever, modeling of the complex of RNase A with
+C375W-pRI suggests that it might approach Arg39.
+{ As noted by Lee et al. (1989a), the kinetic data are also consistent with an alternative mechanism in which Ang
+and hRI can associate to form either EI or EI* in a single step and the two complexes are not interconvertible;
+however, it seems more plausible that formation of the tight complex EI* would require multiple steps. The apparent
+second-order rate constant of association and KD value are the same for both mechanisms.
+500 RNase Inhibitor InteractionsHere, we have determined the effects of repla￾cing by Ala most of the RI residues that interact
+with Ang and/or RNase A in this interface region,
+and two of the contact residues on Ang. Prelimi￾nary data on the dissociation of the complexes of
+RNase A with three of these hRI variants (E287A,
+K320A, and E401A) were reported previously
+(Chen & Shapiro, 1997).
+Effects of single-residue Ang and hRI
+replacements on hRI-Ang binding affinity
+The interactions of the Ang variants H84A and
+W89A with wt hRI and of hRI variants W261A,
+W263A, E287A, S289A, W318A, K320A, E344A,
+W375A, and E401A with wt Ang were investi￾gated. The KD values for the complexes of H84A￾Table 1. Contacts of selected RI residues with Ang and RNase A in crystal structures of complexes
+RI residue Contacts on Ang Contacts on RNase A
+A. Contacts of C-terminal region of RI
+Q430 None VDW: R39(1)
+V432 None VDW: R39(1)
+Y434 VDW: K40(7) HB: L35 (OH-O)
+VDW: R39(3), K41(8), P42(2)
+D435a HB: K40 (OD1-NZ, OD2-NZ) HB: V43:(OD2-O)
+VDW: K40(3), Q117(4) VDW: K41(1), H119(2)
+Y437 VDW: E67(2), A106(2), E108(1), HB: N71 (OH-ND2), E111 (OH-OE1)
+H114(4) VDW: N67(1), Q69(2), N71(4), A109(2),
+E111(4), H119(3)
+W438 HB: R5 (O-NH1, O-NH2) VDW: E111(1)
+VDW: R5(3)
+S439b VDW: R5(1)
+, E108(1) VDW: E111(2)
+E440 VDW: R5(2), E108(1) VDW: E111(5)
+R457 None HB: D38 (NH1-OD1)
+VDW: D39(3)
+I459 VDW: S37(1), P38(1) VDW: D38(1)
+S460 HB: H8 (OG-NE2), Q12 (OG-NE2) HB: K7 (OG-NZ), Q11 (OCT I-NE2)
+VDW: H8(2), Q11(1) VDW: K7(6)
+B. Contacts of RI with Ang/RNase A loop residues 84-89/86-91
+E206 None HB: S89 (OE1-OG)
+VDW: S89(1)
+S235 VDW: H84(1) None
+W261 VDW: S87(1) HB: G88 (NE1-O)
+VDW: K91(1)
+W263 VDW: H84(4), G85(7), G86(7) HB: S89 (NE1-OG)
+VDW: G88(6), S89(4)
+E287 None VDW: K91(3)
+S289 HB: G86 (OG-O) None
+VDW: G86(3)
+W318 VDW: G86(1), S87(1), P88(5), W89(3) VDW: S90(1), K91(3)
+K320 [VDW: D41(1)
+]
+c HB: E86 (NZ-OE1)
+E344 HB: W89 (OE1-NE1) None
+VDW: W89(5)
+Q346 VDW: P88(1) None
+W375 VDW: P88(10)
+, W89(3) Unknownd
+E401 VDW: W89(1) [HB: R39 (OE2-NH1, OE2-NH2)]
+[VDW: R39(7)]
+Hydrogen bonds (HB) and van der Waals interactions (VDW) are listed. Interatomic contacts are shown only for hydrogen bonds;
+the RI atom is listed ®rst and the Ang or R.Nase A atom second. The number of van der Waals contacts with each Ang or RNase A
+residue is indicated in parentheses. Reference structures are 1A4Y-PDB (hRIAng (Papageorgiou et al., 1997)) and 1DFJ-PDB
+(pRIRNase A (Kobe & Deisenhofer, 1996)). Contacts were assigned by criteria speci®ed in the respective publications, except that
+the donor-hydrogen-acceptor cutoff angle for hydrogen bonds in the hRIAng complex has been relaxed from >120  to >90 .
+Distance cutoffs were generally shorter for the hRI-Ang complex (2.0 AÊ resolution) than for the pRIRNase A complex (2.5 AÊ resolu￾tion). hRI residue numbering is used. The contacts listed for the Ang complex are those observed in molecule 1 of the non-crystallo￾graphic dimer; contacts in molecule 2 differ only for hRI Lys320, which forms one van der Waals contact with Asp41 of Ang in
+molecule 1, and a hydrogen bond with this residue in molecule 2. pRI Asp232, which forms two contacts with Ser89 of RNase A, is
+replaced by Ala in hRI and is therefore not listed. a Under the conditions used for kinetic characterization, RI Asp435 probably forms hydrogen bonds with Lys41 analogous to
+those with Lys40 of Ang rather than the hydrogen bond with Val43 seen in the crystal structure (see Discussion). b Ser439 of hRI is substituted by Thr in pRI. The interactions with RNase A listed are only those that could be formed by a Ser
+residue. c Contacts shown in brackets involve Ang or RNase A residues outside the segment 84-89/86-91.
+d The contacts of hRI Trp375 with RNase A are not indicated by the pRI-RNase structure, since Trp375 is substituted by Cys in
+pRI.
+RNase Inhibitor Interactions 501and W89A-Ang were found to be nearly identical
+with that of the wt enzyme (Table 3). (Previous
+substitutions of Ang Trp89 by Met (Chen &
+Shapiro, 1997) or oxindolylalanine (Lee & Vallee,
+1989a) also had little effect on af®nity for RI.)
+The Trp ¯uorescence emission spectrum of the
+hRIW89A-Ang complex was blue-shifted by
+several nanometers with respect to the sum of the
+spectra of the two individual components, and its
+maximum was only 8 % higher, compared to an
+increase of 50 % for the wt complex. (Maxima for
+the complexes of the Met89 (Chen & Shapiro, 1997)
+and oxindolylalanine-89 (Lee et al., 1989a) deriva￾tives are 17 % and 33 % lower, respectively.) This
+Figure 2. (a) Stereo representation of the detailed contacts between the Trp-rich region of hRI (yellow) and Ang
+residues 84 to 89 (cyan) (Papageorgiou et al., 1997), with oxygen atoms in red and nitrogen atoms in blue. Hydrogen
+bonds are indicated by broken lines. (b) Stereoview of the detailed contacts between the Trp-rich region of pRI and
+RNase A residues 39 and 86 to 91 (Kobe & Deisenhofer, 1996), as in (a). The Figures were drawn with MOLSCRIPT
+(Esnouf, 1997; Kraulis, 1991).
+502 RNase Inhibitor InteractionsTable 2. Kinetic constants for the complexes of hRI variants containing replacements in C-terminal region
+hRI Ligand kd (sÿ1
+)
+K1
+(mM)
+k2
+(sÿ1
+)
+ka
+(Mÿ1 sÿ1
+)
+KD
+(M)
+KD,var/
+KD,wt
+
+
+Ga 
+
+
+G)
+b
+(kcal/mol)
+wt Ang 1.1(
+0.2)  10ÿ7 0.38 77 2.0(
+0.1)  108 5.4(
+1.0)  10ÿ16
+des (460) R5A-Ang 1.6(
+0.1)  10ÿ4 0.59 31 5.3(
+0.4)  107 3.0(
+0.3)  10ÿ12 5520 5.1(
+0.1) (
+ÿ1.5(
+0.1))
+des(460) K40G-Ang 7.3(
+0.5)  10ÿ4 0.43 32 7.4(
+0.3)  107 9.9(
+0.7)  10ÿ12 18,400 5.8(
+0.1) (
+ÿ1.3(
+0.1))
+Q430A/V432A Ang 8.4(
+0.6)  10ÿ8 0.50 58 1.4(
+0.2)  108 6.1(
+0.8)  10ÿ16 1.1 0.1(
+0.1)
+W438A/S439A/E440A Ang 1.7(
+0.1)  10ÿ6 1.13 151 1.3(
+0.4)  108 1.1(
+0.3)  10ÿ14 20 1.8(
+0.2)
+R457A Ang 5.8(
+0.7)  10ÿ8 0.46 70 1.5(
+0.1)  108 3.7(
+0.5)  10ÿ16 0.7
+ÿ 0.2(
+0.1)
+I459A Ang 2.0(
+0.1)  10ÿ7 0.50 58 1.2(
+0.1)  108 1.7(
+0.2)  10ÿ15 3.2 0.7(
+0.1)
+wt RNase A 1.2(
+0.1)  10ÿ5 - - 2.8(
+0.1)  108 4.3(
+0.7)  10ÿ14
+Q430A/V432A RNase A 4.0(
+0.1)  10ÿ5 - - 1.9(
+0.1)  108 2.1(
+0.1)  10ÿ13 4.8 0.9(
+0.1)
+W438A/S439A/E440A RNase A 2.5(
+0.1)  10ÿ4 - - 2.0(
+0.1)  108 1.2(
+0.1)  10ÿ12 29 2.0(
+0.2)
+R457A RNase A 3.2(
+0.2)  10ÿ5 - - 1.8(
+0.2)  108 1.8(
+0.3)  10ÿ13 4.1 0.8(
+0.1)
+1459A RNase A 1.2(
+0.2)  10ÿ5 - - 1.6(
+0.1)  108 7.6(
+1.1)  10ÿ 14 1.8 0.3(
+0.1)
+Kinetic parameters were determined as described in Materials and Methods.
+a 
+G values are the differences in binding free energies for the wild-type and variant complexes, calculated from the equation 
+G  ÿ RTln(
+KD,wt/KD,var). b 
+G values are the sum of 
+G values for single-residue variants minus the 
+G value for the variant-variant complex. 
+G values for the single-residue variants are from previous
+studies (Che
+n
+& Shapiro, 1997, 1999; Shapiro & Vallee, 1992).                                    Table 3. Kinetic constants for variant hRIAng complexes: effects of replacements in the hRI Trp-rich region and the 84-89 loop of Ang
+KD,var/ G G)a
+hRI Ang kd (sÿ1) K1 (mM) k2 (sÿ1) ka (Mÿ1 sÿ1) KD (M) KD,wt (kcal/mol)
+wt wt 1.1(0.2)  10ÿ7 0.38 77 2.0(0.1)  108 5.4(1.0)  10ÿ16
+wt H84A 1.4(0.1)  10ÿ7 0.39 76 1.9(0.2)  108 7.2(0.9)  10ÿ16 1.3 0.2(0.1)
+wt W89A 1.6(0.1)  10ÿ7 - - 2.0(0.1)  108 8.1(0.4)  10ÿ16 1.5 0.2(0.1)
+W261A wt 1.0(0.3)  10ÿ7 0.60 95 1.6(0.1)  108 6.4(1.7)  10ÿ16 1.2 0.1(0.2)
+W263A wt 6.9(0.3)  10ÿ7 0.36 68 1.8(0.2)  108 3.9(0.4)  10ÿ15 7.2 1.2(0.1)
+E287A wt 8.8(0.9)  10ÿ8 1.0 134 1.4(0.1)  108 6.4(0.7)  10ÿ16 1.2 0.1(0.1)
+S289A wt 6.3(1.2)  10ÿ8 - - 1.1(0.1)  108 5.8(1.1)  10ÿ16 1.1 0.0(0.2)
+W318A wt 1.3(0.1)  10ÿ6 - - 2.0(0.3)  108 6.8(1.0)  10ÿ15 12.5 1.5(0.1)
+K320A wt 9.4(0.9)  10ÿ8 0.57 164 2.9(0.2)  108 3.2(0.4)  10ÿ16 0.6 ÿ0.3(0.1)
+E344A wt 9.8(2.0)  10ÿ8 0.89 121 1.4(0.1)  108 7.3(1.5)  10ÿ16 1.4 0.2(0.2)
+W375A wt 3.1(0.1)  10ÿ7 1.79 179 1.0(0.0)  108 3.1(0.1)  10ÿ15 5.8 1.0(0.1)
+E401A wt 3.2(0.1)  10ÿ7 0.82 111 1.4(0.2)  108 2.4(0.1)  10ÿ15 4.3 0.9(0.1)
+3Wc wt 3.1(0.2)  10ÿ4 - - 9.1(0.8)  107 3.4(0.4)  10ÿ12 6250 5.2(0.2)(ÿ2.4(0.3))
+Kinetic parameters were measured as described in Materials and Methods.
+a G and G values were determined as described in the legend to Table 2.
+b 3W is the triple variant W261A/W263A/W318A.                                       change was too small to allow use of the stopped-
+¯ow method for monitoring association, and the ka
+value was determined instead by measuring com￾petition with RNase A in an enzymatic assay (see
+Materials and Methods).
+The effects of Trp89 modi®cations on ¯uor￾escence indicate that this residue, the sole Trp in
+Ang, is directly or indirectly responsible for the
+large increase in ¯uorescence upon formation of
+the wt complex. Therefore, it seemed likely that
+replacements of some of the hRI residues that
+interact with the Trp89 loop would alter the ¯uor￾escence of the complex. Such changes might have
+repercussions for measurements of complex associ￾ation and might also provide insight into the inter￾actions within this region. Therefore, ¯uorescence
+studies were performed with the hRI variants
+W261A, W263A, S289A, W318A, E344A, W375A,
+and E401A. The emission intensities of the free pro￾teins varied considerably (Figure 3(a)), ranging
+from 9 % higher than that of wt hRI (E401A) to as
+much as 31 % lower (W263A) (all comparisons are
+based on emission at lmax). Binding of Ang to
+E401A produced a somewhat larger ¯uorescence
+increase (69 %) than for the wt inhibitor, whereas
+the enhancements were smaller for S289A (38 %),
+E344A (24 %), W263A (23 %), W261A (22 %), and
+W375A (22 %). Binding of Ang to W318A-hRI
+decreased emission by 12 % rather than causing an
+increase (Figure 3(b)). In all cases, the ¯uorescence
+of the complex was red-shifted with respect to that
+of the free inhibitor.
+The changes accompanying formation of the
+complexes of all hRI variants except for W318A
+were suf®cient to allow ¯uorimetric monitoring of
+the association process. Binding clearly followed
+the usual two-step mechanism (i.e. the dependence
+of kobs on [Ang] was hyperbolic) except with
+S289A, where kobs was linearly dependent on
+[Ang] throughout the range used. We infer from
+the data for S289A that K1 for this variant is at
+least tenfold higher than for wt hRI or that associ￾ation proceeds by a single step. In either case, ka
+represents the slope of the plot of kobs versus [Ang].
+Despite the marked change in K1 or mechanism,
+the ka value for S289A is only twofold lower than
+for wt hRI. The ka for the W375A complex was
+decreased similarly and the values for the other
+complexes were altered even less (Table 3).
+To measure association of W318A-hRI with Ang,
+a new competition method was developed based
+on the difference between the ¯uorescence emis￾sions of the W318A and wt hRI complexes. In this
+method, a mixture of the two inhibitor forms is
+combined with Ang, and the proportioning of Ang
+between them is determined from the amplitude of
+the observed ¯uorescence change together with the
+amplitudes measured when each hRI form is com￾bined with Ang separately. The concentrations of
+the free inhibitor species are then used to calculate
+the ka value for the variant according to the
+equation given in Materials and Methods. Fluor￾escence was monitored with the stopped-¯ow
+instrument, which is more precise and less suscep￾tible to mixing artifacts than the standard ¯uori￾meter. The ¯uorescence changes measured should
+closely approximate those for the entire association
+process (i.e. no signi®cant binding should occur
+during the mixing time) because the protein con￾centrations are expected to be well below K1 (see
+Materials and Methods). The amplitude measured
+with a 1:1.5 mixture of wt hRI and W318A was
+found to be 40 % of that obtained with wt hRI
+alone, and greater than tenfold larger than that
+with W318A alone. The ka value for the W318A
+complex calculated from these data is 2.0  108
+Mÿ1 sÿ1
+, identical with that for the wt inhibitor.
+Measurements of the rate constants for complex
+dissociation revealed signi®cant increases for
+W263A (sixfold), W318A (12-fold), W375A (three￾fold), and E401A (threefold); values for W261A,
+S289A, and E344A were similar to, or lower than,
+that for wt hRI (Table 3). Hence the KD values for
+the W263A, W318A, W375A, and E401A com￾plexes are four- to 13-fold higher than for wt
+inhibitor (G  0.9-1.5 kcal/mol), and those for
+the other three variants are nearly unchanged.
+The effects of replacing two additional residues
+from the Trp-rich region of hRI, Glu287 and
+Lys320, were also determined (Table 3). Although
+both contact the 86-92 loop of RNase A, neither
+interacts with the Trp89 loop of Ang: Lys320 inter￾acts with a residue on another segment of Ang
+(Asp41), whereas Glu287 does not contact Ang at
+all. The af®nity of E287A was indistinguishable
+from that of wt hRI. Binding of K320A was actu￾ally slightly tighter than for wt inhibitor, largely
+due to more rapid association. (As shown below,
+these replacements did have a signi®cant effect on
+RNase A binding.)
+Interactions of multi-residue hRI variants with Ang
+We investigated the additivity of mutational
+effects in the Trp-rich region of hRI by producing
+the two variants: W261A/W263A/W318A (3W)
+and W261A/W263A/W318A/W375A (4W).
+Tryptophan residues at positions 261, 263, and 318
+wrap around the 85 to 87 main-chain of Ang and
+are in close proximity in the 3D structure (closest
+distances of the pairs 261/263, 261/318, and 263/
+318 are 3.9, 4.5, and 7.2 AÊ , respectively) (Table 1,
+Figure 2(a)). Trp375 extends this network (distance
+to Trp318 is 3.8 AÊ ) and, like Trp318, forms numer￾ous contacts with Pro88 and Trp89 of Ang.
+The Trp ¯uorescence emission of free 3W was
+50 % lower than for wt hRI (Figure 3(a)), and
+addition of Ang produced only a small change
+(Figure 3(b)). Therefore, complex association was
+studied by using the same competition method as
+for W318A; the ka value measured was 2.2-fold
+lower than with wt hRI, although the three indi￾vidual replacements had produced decreases of
+only 3-20 % (Table 3).
+Attempts to determine the kd value for the
+3WAng complex by the standard method used
+RNase Inhibitor Interactions 505 for the single-site variants were unsuccessful
+because the complex dissociated almost completely
+during the chromatographic procedure for separ￾ation of bound and free Ang. Dissociation was fol￾lowed instead by ¯uorescence: wt hRI was added
+to the 3WAng complex, and the increase in Trp
+¯uorescence as Ang dissociated from 3W and
+bound to wt inhibitor was measured. This change
+occurred over a time-span of hours and was moni￾tored by recording emission spectra periodically.
+The increases in ¯uorescence at multiple wave￾lengths during the ®rst apparent half-life were trea￾ted as ®rst-order processes; the resultant ®ts were
+good (average r
+2  0.998) and the kd value
+obtained was 3.07(0.15)  10ÿ4 sÿ1 (t1/2  38(2)
+minutes). Therefore, the KD for the 3WAng com￾plex is 3.4 pM. This value is 6250-fold higher
+than for the wt complex, whereas an increase of
+Figure 3. (a) Fluorescence emission spectra of wt hRI and the hRI variants E401A, S289A, W318A, W375A, E344A,
+W261A, W263A, 3W, and 4W, color-coded as shown on the Figure. (b) Emission spectra of the complexes of Ang
+with wt hRI (black), W318A (red), and 3W (blue) shown as broken lines, and the sum of emission spectra of the cor￾responding free proteins (shown as continuous lines). Excitation was at 285 nm. Proteins were 0.1 mM in 0.1 M Mes
+(pH 6.0) containing 0.1 M NaCl and 1 mM EDTA at 25 C.
+506 RNase Inhibitor Interactions 108-fold would be expected if the individual repla￾cements in¯uence activity by completely indepen￾dent mechanisms: i.e. the mutational effects are
+superadditive, with G  ÿ 2.4 kcal/mol.
+The Trp ¯uorescence emission of the quadruple
+variant 4W was 68 % less intense than that of wt
+hRI (Figure 3(a)), and, as with 3W and W318A,
+Ang binding produced no signi®cant increase. In
+this case, however, we were unable to measure the
+ka value for technical reasons, and only kd was
+determined. The half-life of the complex, measured
+by the same procedure used for 3W, was 12 min￾utes, i.e. 3.2-fold faster than for the 3WAng com￾plex. This change is similar to that produced by
+replacing Trp375 in the context of wt hRI: thus,
+introduction of the fourth substitution did not
+reveal any superadditivity beyond that observed
+with 3W, and we estimate that G for 4W is
+6.2 kcal/mol (i.e. G for 3W plus G for
+W375A).
+Effects of hRI replacements on affinity for RNase A
+We investigated the interactions of RNase A
+with ten hRI variants containing single-residue
+replacements in the Trp-rich region: the nine
+whose binding to Ang was characterized, plus
+E206A (Table 4). As with wt hRI (Lee et al., 1989a),
+no signi®cant change in Trp ¯uorescence was
+observed after addition of one molar equivalent of
+RNase A to any of the variants. Values of ka and kd
+were therefore measured by standard methods
+based on the enzymatic activity of RNase A, and
+KD values were again calculated as kd/ka. All var￾iants exhibited decreased af®nity for the enzyme,
+by factors ranging from 3.8-fold for S289A to 42-
+fold for W263A (G  0.8-2.2 kcal/mol).{ These
+changes re¯ected faster dissociation and, in all but
+three cases (E206A, W263A and W318A), slower
+association as well. For two of the variants, S289A
+and E344A, the residues replaced do not contact
+RNase A in the crystal structure of the complex. It
+is surprising that the Glu344 mutation resulted in
+one of the largest KD increases.
+The complex of RNase A with 3W was also stu￾died. Dissociation was found to be too rapid to
+allow accurate quanti®cation of either kd or ka by
+the standard procedures, and the KD value was
+determined by measuring the effect of inhibitor on
+RNase A-catalyzed cleavage of the ¯uorescent sub￾strate 50
+-FAM-mAmArUmAmA-C7-QSYTM-7-30
+. In
+this ultrasensitive assay, it was possible to employ
+an extremely low concentration of RNase A
+(3 pM), expected to be in the same range as KD,
+and a concentration of substrate well below Km;
+therefore the inhibition constant could be obtained
+directly by ®tting initial velocity data to the
+equation for tight-binding inhibition given in
+Materials and Methods. The KD value measured
+was 8.7 pM, an increase of 202-fold compared to
+wt hRI. This change is tenfold less than the
+product of the KD increases for the three individ￾ual replacements; thus, the effects of the mut￾ations on RNase A binding are subadditive
+(G  1.4 kcal/mol), in contrast with the
+superadditivity found with Ang.
+Inter-relationship between the Trp-rich and hot
+spot regions in the hRIAng complex
+The interactions of 3W-hRI with the Ang var￾iants R5A and K40G were investigated to assess
+the extent to which the Trp-rich region and the hot
+spot containing Arg5 and Lys40 of Ang and the C￾terminal segment of hRI function independently
+(Table 5). The kd values were calculated from the
+rates of increase in Trp ¯uorescence after addition
+of wt hRI to the complexes. Values for ka were
+determined by the competition method used above
+for the complexes of W318A and 3W with wt Ang.
+The KD values derived from these rate constants
+were about one million-fold (R5A) and ®ve
+million-fold (K40G) higher than for the wt com￾plex. G0
+, the difference between the G
+value for the complex of 3W with Ang variant and
+the sum of G values for the complexes of 3W
+with wt Ang and wt hRI with Ang variant, is
+ÿ0.9 kcal/mol in both cases. Thus the effects of the
+3W triple replacement and each single-residue Ang
+substitution are superadditive, although less so
+than for many of the multiresidue replacements
+within the two interface regions.
+Role of hRI Tyr150 in binding Ang
+Seven hRI residues outside the C-terminal and
+Trp-rich regions contact Ang in the crystal struc￾ture of the complex: Gln10, Cys11, Asp35, Asp36,
+Asn93, Tyr150 and Asn406. The ®rst four of these
+interact only with Arg31 or Arg32, whose roles in
+hRI binding were assessed previously by mutagen￾esis (Shapiro & Vallee, 1992). R31A-Ang had nearly
+the same af®nity for hRI as wt Ang, whereas R32A
+bound 4.6-fold less tightly. Asn93 and Asn406 of
+hRI each form a single van der Waals interaction
+with Ang; the contributions of these residues were
+considered likely to be small and were not investi￾gated. The OH group of hRI Tyr150 hydrogen
+bonds to NH1 of Ang Arg95 and lies slightly
+beyond hydrogen-bonding distance from OE1 of
+Ang Gln93; it also forms a van der Waals contact
+with CD of the latter residue. The importance of
+this tyrosine residue was investigated by character￾izing the interaction of the variant Y150A with
+Ang. The kd value for the complex was found to be
+1.8(0.2)  10ÿ7 sÿ1 i.e. 1.7-fold higher than for the
+{ Leland et al. (1998) have reported that wt hRI and the W263A variant inhibit RNase A similarly in an agarose
+gel-based assay measuring degradation of 16 S and 23 S rRNA. It is likely that a KD increase of the magnitude
+measured in our study would not have been evident in this assay.
+RNase Inhibitor Interactions 507 wt complex. The value for ka was identical with
+that measured with wt hRI, 2.0(0.1)  108 Mÿ1
+sÿ1
+, although the individual parameters comprising
+this rate constant, K1 and k2, were both increased
+by three- to fourfold (to 1.3 mM and 250 sÿ1
+respectively). The calculated KD value is then
+0.92 fM (G  0.3(0.1) kcal/mol).
+Discussion
+Basis for tight binding of hRI to angiogenin
+The hRIAng interface buries 2908 AÊ of the sol￾vent-accessible surface areas (ASAs) of the two
+proteins (Papageorgiou et al., 1997), considerably
+more than the average for protein-protein com￾plexes studied thus far (Lo Conte et al., 1999). The
+interface residues on hRI are dispersed throughout
+the central cavity of the horseshoe, from Gln10
+near the N terminus to Ser460 at the C terminus,
+and are located on the upper face of the horseshoe
+near the C terminus as well (Figure 1). The contact
+residues on Ang are drawn from the enzymatic
+active center and several distinct structural
+elements outside this site. The degree of shape
+complementarity between the hRI and Ang
+surfaces at the interface is high, in general, but is
+particularly impressive in two regions with concen￾trations of contact residues: that containing hRI
+residues 434 to 438 and 460 and the active site of
+Ang, and that formed by tryptophan residues at
+positions 261, 263 and 318 of hRI and the Trp89
+loop of Ang.
+The results shown here, in conjunction with ear￾lier mutational data, offer a picture of the binding
+energetics that is both simpler and more compli￾cated than that suggested by this analysis of the
+crystal structure: simpler in that key contacts are
+relatively few in number and are con®ned largely
+to one small part of the interface, and more compli￾cated in that many contact residues function coop￾eratively rather than independently, even in some
+cases where there is no apparent structural connec￾tion between them.
+Energetics as revealed by single-site mutagenesis
+The roles of 17 of the 26 contact residues on hRI
+and 10 of the 24 on Ang have now been investi￾gated in detail by mutagenesis (Figures 4(a) and 5).
+The various substitutions eliminate all of the 12
+direct hydrogen bonds and all but four of the 113
+van der Waals contacts. In only a few cases
+do individual replacements have a substantial
+impact on binding (G > 2 kcal/mol): hRI
+Asp435 ! Ala (3.5 kcal/mol), hRI Tyr434 ! Ala
+(3.3 kcal/mol), Ang Lys40 to Gly (3.2 kcal/mol)
+(4.2 kcal/mol for Lys40 ! Gln (Lee & Vallee,
+1989a)), and Ang Arg5 ! Ala (2.3 kcal/mol).
+None of the other Ang mutations decrease binding
+Table 4. Kinetic constants for variant hRIRNase A complexes: effects of replacements in the Trp-rich region of hRI
+KD,var/ G G)
+a
+hRI kd (sÿ1
+) ka (Mÿ1 sÿ1
+) KD (M) KD,wt (kcal/mol)
+wt 1.2(0.1)  10ÿ5 2.8(0.1)  108 4.3(0.7)  10ÿ14
+E206A 7.6(0.5)  10ÿ5 3.2(0.5)  108 2.4(0.4)  10ÿ13 5.5 1.0(0.1)
+W261A 8.0(0.7)  10ÿ5 2.0(0.1)  108 4.1(0.4)  10ÿ13 9.5 1.3(0.1)
+W263A 4.6(0.8)  10ÿ4 2.5(0.3)  108 1.8(0.4)  10ÿ12 42 2.2(0.2)
+E287A 5.2(0.3)  10ÿ5 1.3(0.1)  108 4.0(0.4)  10ÿ13 9.3 1.3(0.1)
+S289A 3.4(0.3)  10ÿ5 2.1(0.2)  108 1.7(0.2)  10ÿ13 3.8 0.8  0.1
+W318A 7.8(0.5)  10ÿ5 3.4(0.1)  108 2.3(0.2)  10ÿ13 5.3 1.0  0.1
+K320A 5.6(0.3)  10ÿ5 1.5(0.1)  108 4.0(0.3)  10ÿ13 9.0 1.3  0.1
+E344A 1.1(0.2)  10ÿ4 1.8(0.1)  108 6.0(1.2)  10ÿ13 14.0 1.6  0.1
+W375A 9.9(0.7)  10ÿ5 1.4(0.0)  108 7.2(0.5)  10ÿ13 16.7 1.7  0.1
+E401A 4.3(0.2)  10ÿ5 1.1(0.1)  108 3.9(0.3)  10ÿ13 9.2 1.3  0.1
+3Wb ± ± 8.7(0.4)  10ÿ12 202 3.1  0.1 (1.4(0.3))
+Kinetic constants were determined as described in Materials and Methods. The ka values for the corresponding hRIAng com￾plexes used to calculate the ka values shown here are listed in Table 3, except for that of E206A, which was determined by stopped-
+¯ow ¯uorescence measurements to be 1.9(0.2)  108 Mÿ1 sÿ1
+. a G and G values were calculated as described in the legend to Table 2. b W261A/W263A/W318A-hRI.
+Table 5. Kinetic constants for the complexes of 3W-hRI with R5A-Ang and K40G-Ang
+KD,var/ G G0a
+hRI Ang kd (sÿ1
+) t1/2 ka (Mÿ1 sÿ1
+) KD (M) KD,wt (kcal/mol) (kcal/mol)
+wt wt 1.1(0.2)  10ÿ7 73(14) d 2.0(0.1)  108 5.4(1.0)  10ÿ16
+3W R5A 4.1(0.4)  10ÿ2 17(2) s 7.7(1.2)  107 5.3(1.0)  10ÿ10 990,000 8.2(0.2) ÿ0.9(0.3)
+3W K40G 1.1(0.0)  10ÿ1 6.5(0.1) s 3.9(1.1)  107 2.7(0.8)  10ÿ9 5,070,000 9.1(0.2) ÿ0.9(0.3)
+Kinetic parameters and G values were determined as described in Materials and Methods and the legend to Table 2. a G0 values are the sum of G values for the 3W-hRIAng and hRIAng variant complexes minus G for the 3W￾hRIAng variant complex. G values for the hRIAng variant complexes are from previous studies (Chen & Shapiro, 1999;
+Shapiro & Vallee, 1992).
+508 RNase Inhibitor Interactions                                             energy by more than 1 kcal/mol, and only three of
+them (substitutions of His8, Arg32 and His114)
+produce G values greater than 0.5 kcal/mol.
+Four modi®cations of hRI (replacements of Trp263,
+Trp318 and Trp375 by an Ala residue and deletion
+of Ser460) diminish binding energy by 1-1.5 kcal/
+mol, and three (substitutions of Glu401, Tyr437
+and Ile459) reduce it by 0.7-0.9 kcal/mol. The
+others (replacements of Tyr150, Trp261, Ser289,
+Lys320 and Glu344) have no signi®cant effect on
+af®nity. These ®ndings suggest that the hRI-Ang
+interface contains a single energetic hot spot,
+formed by the hRI segment 434 to 438 and portions
+of the Ang active site (the catalytic residue Lys40
+and Arg5), and that the contribution of this region
+is enhanced by interactions of the neighboring resi￾dues hRI Ser460 and Ile459 with other Ang com￾ponents within (His8 and Gln12) or adjacent to
+(Ser37 and Pro38) the active center. The Trp-rich
+region of the interface (Trp263, Trp318 and Trp375
+of hRI and the 84-89 loop of Ang) appears to
+provide a small amount of additional binding
+energy, and no other areas seem to play any
+appreciable role.
+This view of the interface energetics is incom￾plete, however, because the effects of the single￾residue replacements do not account for the enor￾mous free energy of complex formation, 21 kcal/
+mol. The shortfall is most dramatically evident
+when the Ang side of the complex is considered:
+the sum of the G values for the ten Ala or Gly
+substitutions performed (Figure 4(a)) is less than
+9 kcal/mol, the sum of G values for non-redun￾dant hRI replacements that delete essentially all of
+the interactions of another 12 residues (Ser37,
+Pro38, Asp41, Glu67, Gly85, Gly86, Ser87, Pro88,
+Gln93, Arg95, Ala106 and Gln117) is about 5 kcal/
+mol, and the two remaining contact residues
+(Arg24 and Arg121) form only one or two van der
+Waals interactions and are unlikely to have signi®-
+cant roles. The sum of G values obtained by an
+analogous treatment focusing on the hRI side of
+Figure 4. (a) G values for replacements of hRI (left) and Ang (right) residues in the hRIAng complex. Values
+not determined in the present study were reported previously (Chen & Shapiro, 1997, 1999; Shapiro & Vallee, 1989,
+1992). (b) G values for replacements of hRI residues in the hRIRNase A complex, as in (a). The value shown for
+C408A-hRI is an estimate based on data for the rate constant of dissociation (Chen & Shapiro, 1997), which was not
+affected signi®cantly by the replacement.
+RNase Inhibitor Interactions 509the complex is also 5G. Moreover, the true dis￾crepancies are even larger: the total binding energy
+provided by the contact residues must be higher
+than G because G also includes a generic
+energy penalty for the decrease in translational
+entropy due to association of the two protein mol￾ecules, estimated at 2.4 kcal/mol (Murphy et al.,
+1994; Covell & Wallqvist, 1997).
+It seems unlikely that contributions from water￾mediated hydrogen bonds can ®ll this gap. Seven
+of the 15 water-mediated interactions observed in
+the crystal structure were already eliminated by
+the replacements cited, preliminary results with the
+Ang variants Q93A and des(121-123) (R.S., unpub￾lished data) indicate that removal of another three
+has little effect on af®nity, and all but one of the
+remaining ®ve are long (53.2 AÊ ). In addition, the
+water molecules seen in the hRIAng crystal struc￾ture do not improve the surface complementarity
+at the interface (Papageorgiou et al., 1997). Burying
+of non-contact residues is also unlikely to account
+for the ``missing'' binding energy. Only ®ve resi￾dues (Arg63, Glu264, Asn349 and Glu443 of hRI
+and Lys82 of Ang) not involved in intermolecular
+interactions undergo losses of ASA greater than
+10 AÊ 2 in the complex, and the combined decrease
+in hydrophobic ASA for these amino acid residues,
+98 AÊ 2
+, is 6 % of that for the complex (this calcu￾lation takes into account that only 55 % of the total
+ASA cited above is for non-polar components).
+Additional burying of the hydrophilic portions of
+these residues, only one of which forms a hydro￾gen bond (also present in free RI), is energetically
+unfavorable.
+Marked discrepancies between G and the sum
+of G values for single-site replacements have
+been found previously for most protein-protein
+complexes examined, but have usually been in the
+opposite direction (G4G) from that for the
+hRIAng interaction (see, for example, Clackson &
+Wells, 1995; Clackson et al., 1998; Dall'Acqua et al.,
+1996; Goldman et al., 1997; and Muller et al., 1998).
+In either case, the differences suggest that the
+effects of many individual mutations are not inde￾pendent. Where G exceeds G, some of the
+free energy losses for the replacements may re¯ect
+indirect as well as direct effects. Where G is
+less than G, as for the hRIAng complex, some of
+the disruptive effects of the replacements may be
+offset by favorable changes in the interface. In such
+instances, the decreases in binding energy
+measured for the single-site mutations would rep￾resent underestimates of the actual contributions of
+the interactions eliminated.
+In attempting to assess whether the energetic
+effects of the individual replacements in the
+Figure 5. Space-®lled models of hRI (left) and pRI (right) in their complexes with Ang and RNase A, respectively,
+with contact residues color-coded according to the loss of binding free energy upon elimination of their interactions:
+red, >2 kcal/mol; yellow, 1-2 kcal/mol; white, <1 kcal/mol. Cys375 of pRI has been replaced by Trp, as in hRI. The
+general orientations are the same as in Figure 1, but the structures have been rotated somewhat in order to better
+show the inner surface of the horseshoes, particularly in the C-terminal half of the molecules; residues can be ident￾i®ed by reference to Figures 1 and 4. Most of the G values shown are for individual Ala replacements or deletion
+of RI residues; the values indicated for several hRI residues (H10, C11, D35, D36, S235, and W438 (main-chain)) are
+based on the effects of substituting the contacts of these residues on Ang (R31, R32, R31, R32, H84, and R5, respect￾ively) by an Ala residue, and the values for the N-terminal pRI residues Q10, C11, D35, and N89 are based on the
+effect of deleting the entire N-terminal segment 1 to 94. The effects of the simultaneous replacements of RI W438,
+S439, and E440 in the two complexes (Table 2, Figure 4) cannot be ascribed to loss of any individual residue(s) and
+are not indicated (see Discussion).
+510 RNase Inhibitor InteractionshRIAng interface are ``reasonable'' in terms of the
+crystal structure, one is faced with a general pro￾blem: despite recent progress in the calculation of
+interaction energies by theoretical methods (e.g.
+Novotny et al. (1997) and Covell & Wallqvist
+(1997)), it has not yet proved possible to reliably
+predict the energetic contributions of interactions
+based purely on structural analysis. No doubt, this
+is partially due to the type of indirect effects under
+consideration here. However, it also re¯ects
+additional complexities of the systems being scruti￾nized, which include solvent as well as the pro￾teins, and an incomplete understanding of the
+thermodynamics of the various interactions within
+the context of these systems. Despite these limi￾tations, the results of studies with small molecules
+and the accumulated database of mutational effects
+in proteins suggest some rough guidelines that can
+be useful for gauging expectations. Good hydrogen
+bonds involving at least one charged partner have
+been proposed to contribute 4 kcal/mol of bind￾ing energy, with hydrogen bonds between
+uncharged groups providing 0.5-1.7 kcal/mol
+(Fersht et al., 1985). Lower energies would be
+anticipated when the geometry is suboptimal or
+the interaction is not well shielded from solvent.
+Another consideration is the mobility of the atoms
+involved: if one or both of these has a high B-factor
+in the crystal structure, it is doubtful that a strong
+interaction has actually been formed. van der
+Waals contacts contribute primarily through the
+hydrophobic effect, with estimates generally ran￾ging from 24 to 50 cal/mol for each AÊ 2 of non￾polar ASA buried (Chothia, 1974; Nicholls et al.,
+1991; Vaughan et al., 1999).
+Examination of the hRIAng interaction in light
+of these considerations suggests that the effects of
+most single-residue replacements are in accord
+with qualitative expectations, but that some devi￾ate considerably. All of the G values greater
+than 2 kcal/mol fall into the ®rst category. The
+Lys40 and Asp435 replacements eliminate two
+medium-length, well-buried hydrogen bonds
+between these charged residues. Attribution of the
+af®nity decreases to removal of these interactions
+seems particularly warranted because the G
+values for the hRIK40G-Ang, D435-hRIAng, and
+D435A-hRIK40G-Ang complexes are all similar
+(Figures 4(a) and 6). Substitution of Arg5 also elim￾inates two hydrogen bonds (Table 1), one well bur￾ied but long and the other partially buried but
+short. The side-chain of Tyr434, which forms only
+van der Waals contacts with Lys40, undergoes an
+ASA decrease from 112 AÊ 2 to 8 AÊ 2 in the complex,
+potentially explaining the large G for Y434A.
+One apparent problem with this interpretation is
+that the effects of replacing Tyr434 and Lys40 are
+fully additive (Figure 6). However, modeling of the
+hRIK40G-Ang complex suggests that in fact del￾etion of the Lys40 side-chain has minimal impact
+on the extent to which Tyr434 is buried in the com￾plex (the ASA of Tyr434 in the model is 17 AÊ 2
+).
+The mutational results also conform to the
+guidelines outlined in many cases where less
+extensive decreases in af®nity, or none at all, were
+measured. hRI Trp263, Trp318 and Trp375, whose
+replacements produce G values of 1.0-1.5 kcal/
+mol, undergo 34-60 AÊ 2 reductions in hydrophobic
+ASA upon complex formation. Substitutions of
+Trp261 and Lys320 of hRI, and His84 and Glu108
+of Ang barely alter af®nity; these residues form
+only van der Waals contacts and the changes in
+non-polar ASA attributable to them are quite
+small. In four instances (replacements of Arg31
+and Arg32 on Ang, and Tyr150 and Ser289 on
+hRI), disruption of contacts that technically qualify
+as hydrogen bonds had little or no effect. For the
+®rst three of these, the B-factors of one or both of
+the interaction partners in the crystal are high, and
+for the last, the angle is far from optimal.
+In one instance, W438A/S439A/E440A-hRI, the
+free energy loss (1.8 kcal/mol) seems greater than
+expected as a direct consequence of the mutations.
+The three side-chains replaced make only two van
+Figure 6. Comparison of G
+values for multi-site replacements
+(black bars) in the hRIAng and
+hRIRNase A complexes with
+G values for the individual
+replacements (gray bars). Ang
+variants are marked by asterisks.
+RNase Inhibitor Interactions 511der Waals interactions with Ang, and the decrease
+in hydrophobic ASA upon complex formation is
+negligible. However, deletion of the intramolecular
+contacts of Trp438 (hydrophobic packing against
+Ile414, Ile436, Met442 and Leu446) might allow the
+434 to 438 segment to have greater freedom of
+motion, thereby diminishing the strength of its
+interactions with Ang.
+Finally, there are several examples where bind￾ing energy losses are smaller than might be antici￾pated. Tyr437 undergoes an even larger decrease
+in hydrophobic ASA in the complex (from 173 AÊ 2
+to 31 AÊ 2
+) than does Tyr434, and yet the G value
+for Y437A is only 0.8 kcal/mol, i.e. 2.5 kcal/mol
+smaller than for Y434A. Replacement of Ang Trp89
+by Ala has no effect on binding, although this resi￾due forms a well-ordered, buried hydrogen bond
+and its hydrophobic ASA is reduced by 80 AÊ 2
+. In
+addition, the G values of 1.3 and 0.9 kcal/mol,
+respectively, for des(460)-hRI and H8A-Ang are
+perhaps out of line with the 2.8-AÊ buried hydrogen
+bond between Ser460 and His8 (which is probably
+charged at the pH used for kinetic measurements
+(Lequin et al., 1997)).
+Role of cooperativity in the interface
+The free energy shortfalls, both general and
+speci®c, described in the preceding section can
+potentially be explained by the existence of nega￾tive cooperativity in the hRIAng interface. We
+showed previously (Chen & Shapiro, 1997) that
+many residues in the hot spot containing the 434 to
+438 segment of hRI and Arg5 and Lys40 of Ang
+indeed exhibit this type of interrelationship
+(Figure 6). The KD increase for the hRI double
+variant Y434A/Y437A exceeded the product of
+the increases for Y434A and Y437A by 74-
+fold (G  ÿ 2.5 kcal/mol). Superadditivities
+(G  ÿ 0.9 to ÿ2.4 kcal/mol) were also
+observed when Arg5 of Ang was replaced together
+with Tyr434 or Asp435, and Lys40 of Ang was
+mutated together with Tyr437. Importantly, the
+magnitudes of G do not decrease appreciably
+when a third residue is also substituted. As a con￾sequence, the losses of binding energy for some of
+the triple substitutions were extremely large:
+10.1 kcal/mol for Arg5/Tyr434/Asp435, 9.1 kcal/
+mol for Lys40/Tyr434/Tyr437, and 8.5 kcal/mol
+for Arg5/Tyr434/Tyr437. We have proposed that
+superadditivity may arise when replacement of
+one residue within a pair or group strengthens the
+contacts of others or allows the formation of new
+interactions (Chen & Shapiro, 1999). This would
+then imply that the energetic contributions of some
+of these residues are greater than is apparent from
+the single-site variants, even in some instances
+where the G value was judged reasonable in
+terms of the 3D structure (R5A, K40G, D435A,
+Y434A).
+Here, we have demonstrated that the functional
+coupling in this region of the interface extends
+beyond the interactions of the hRI 434 to 438 seg￾ment to include those of a neighboring hRI residue,
+Ser460 (Figure 6). The effects of deleting this amino
+acid and replacing either Arg5 or Lys40 on Ang
+were superadditive, with G  ÿ 1.3 to
+ÿ1.5 kcal/mol. Ser460 is not in direct contact with
+either Ang residue: the closest distances are 7.6 AÊ
+(to Arg5) and 6.2 AÊ (Lys40). However, in each case
+there are triangulated contacts between the residue
+pairs (involving hRI Trp438 and Tyr434, respect￾ively) that may allow changes at one site to be pro￾pagated to the other.
+The present study also reveals negative coopera￾tivity in the Trp-rich region of the hRI-Ang inter￾face (Figure 6). The increase in KD for W261A/
+W263A/W318A-hRI is 60-fold greater than the
+product of the increases for the three single-residue
+variants (G  ÿ 2.4 kcal/mol). None of the
+residues replaced contacts any of the others,
+although the 261/263 and 261/318 pairs are separ￾ated by only 3.9 AÊ and 4.5 AÊ , respectively. The
+observed cooperativity may re¯ect the inherent
+malleability of the Ang loop 84-93 and the hRI
+tryptophan residues, whose conformations change
+considerably upon complex formation, improving
+the complementarity of the two protein surfaces
+(see Kobe & Deisenhofer (1996) and Papageorgiou
+et al. (1997)). The ¯exibility of this region may
+allow it to undergo rearrangements to form new or
+stronger interactions when individual contact resi￾dues are mutated. An alternative explanation of
+the superadditivity, that the triple substitution dis￾rupts interactions of other residues but the individ￾ual replacements did not, can be largely
+discounted because: (i) the effects of these replace￾ments on af®nity for RNase A were subadditive
+(Table 4); (ii) the effects of the triple substitution
+and mutation of Trp375 appear to be fully addi￾tive; and (iii) the G values for replacements of
+other residues in this region are small.
+The hot spot and Trp-rich regions in the
+hRIAng interface are also functionally linked,
+although not as strongly as some of the residues
+within each of them. The KD increases produced by
+replacing Trp261, Trp263 and Trp318 of hRI
+together with Arg5 or Lys40 of Ang are both
+approximately fourfold larger than the products of
+the increases for 3W-hRI and R5A-Ang or K40G￾Ang. These couplings occur over much greater dis￾tances (19-28 AÊ ) than for the intra-regional coop￾erativities, and may be mediated by adjustments in
+the RI backbone. The N and C-terminal ends of the
+horseshoe are >2 AÊ farther apart in the RNase A
+complex than in free RI, suggesting that the struc￾ture is somewhat plastic and can adapt to maxi￾mize ligand interactions (Kobe & Deisenhofer,
+1996).
+Conclusions and unanswered questions
+A major goal of our studies has been to explain
+the remarkably high af®nity between hRI and Ang.
+The approach taken, mutational mapping of the
+crystallographically observed interface, is one that
+512 RNase Inhibitor Interactionshas been applied to many protein-protein com￾plexes, but we have emphasized an aspect not
+usually examined in detail: the interrelationships
+between contact residues, both on the same mol￾ecule and on different molecules, including many
+residue pairs or groups that appear to have little
+functional connection in the 3D structure. The
+cooperativities revealed, together with those
+instances where mutational effects con¯ict with
+expectations from the 3D structure, underscore the
+dif®culty of rigorously assigning all the sources of
+binding energy in quantitative terms.
+Despite these complications, it is now possible to
+propose an accounting of the energetics within the
+hRI-Ang interface that yields the appropriate total
+amount of free energy. The sum of the G values
+for non-redundant single-residue mutations that
+eliminate the interactions of hRI residues 434, 435,
+437, 438 and 460 in the hot spot is 11 kcal/mol.
+The observed superadditivities indicate that the
+actual combined contributions of these interactions
+is still greater, probably by at least 3 kcal/mol.
+Thus, it seems reasonable to conclude that this part
+of the interface provides 14-15 kcal/mol. Another
+6 kcal/mol appears to derive from the Trp-rich
+region. This estimate is based on the G value
+for the quadruple replacement of Trp261, Trp263,
+Trp318 and Trp375, which includes 2.4 kcal/mol
+due to superadditivity, and assumes that no other
+hRI residues in this region contribute signi®cantly.
+The superadditivities of the effects of the Trp261/
+Trp263/Trp318 and Arg5 or Lys40 replacements
+indicate that residues of one or both of these inter￾face regions may yet provide some additional
+energy (1-2 kcal/mol). Elsewhere in the interface,
+only the interactions of Ang Arg32 with hRI
+appear to supply any further energy (0.9 kcal/
+mol). The sum of these energies, taking into con￾sideration the cumulative errors and subtracting
+the entropy penalty discussed above, is essentially
+equivalent to the total binding energy for the wt
+complex of 21 kcal/mol.
+Numerous questions remain to be answered.
+The physical bases for the cooperative effects are
+unknown. These may involve changes in protein
+conformation or solvent structure that could be
+illuminated by crystallographic studies on com￾plexes of hRI and/or Ang variants. It is striking
+that some of the strongest functional linkages (hRI
+Tyr437 with hRI Tyr434 and Ang Lys40) are for
+residues that are separated by at least 13 AÊ and
+have no obvious structural connection other than
+that they lie on or interact with the same tetrapep￾tide segment of the inhibitor. Both local and global
+(up to 17 AÊ ) responses to replacements in other
+protein-protein interfaces have been observed
+in crystal structures (local: lysozyme-antibody
+(Chacko et al., 1995; Ysern et al., 1994) and barnase￾barstar (Vaughan et al., 1999) complexes; global:
+growth hormone-receptor complex (Atwell et al.,
+1997)). Other factors that may underlie the super￾additivity, such as changes in electrostatic ®elds or
+protein dynamics, would be more dif®cult to
+evaluate experimentally. We also note that only a
+small percentage of the potential functional con￾nectivities between contact residues in the
+hRIAng complex have been investigated so far.
+Although we believe that the most important of
+these have already been explored, it is possible
+that unsuspected cooperativities exist and that the
+proposed energetic map would have to be modi-
+®ed accordingly.
+Basis for tight binding of hRI to RNase A
+The overall docking of RNase A to RI resembles
+that of Ang, and the ligand forms a similar number
+of interactions with inhibitor residues lining the
+central cavity and on the upper face of the horse￾shoe: 18 direct hydrogen bonds or salt-links and 99
+van der Waals contacts, plus at least four water￾mediated hydrogen bonds. Again the contacts are
+distributed widely over both proteins and the ASA
+buried is large (2878 AÊ 2
+). The main regions of
+ligand and inhibitor involved are the same as in
+the Ang complex: i.e. the enzymatic active site and
+86-91 loop of RNase A and the C-terminal segment
+and Trp-rich region of RI. Nonetheless, only two of
+the hydrogen bonds formed and <30 % of the van
+der Waals contacts in the two complexes are analo￾gous, even using extremely relaxed criteria for the
+comparison. Moreover, the surface complementari￾ties in the two interfaces differ in striking ways
+(Papageorgiou et al., 1997). The complementarity of
+the C-terminal region of RI (401-460) to RNase A is
+high over a broader region than for Ang, consistent
+with the greater number of RI residues (16 versus
+10) and interactions (79 versus 44) involved. In
+addition, the surface of the Trp-rich region of RI is
+much less complementary to RNase A than to
+Ang. From this analysis, it appears that the role of
+the RI C-terminal region may be even more predo￾minant in the RNase A complex than in the com￾plex with Ang. However, as for the interaction of
+RI with Ang, the mutagenesis data collected here
+and in previous studies may undermine the simple
+structure-based view.
+Energetics in the hRIRNase A interface as
+revealed by mutagenesis
+The energetic effects of replacing or deleting 24
+of the 28 contact residues for RNase A on hRI have
+been determined so far (Figure 5). Twenty of the
+residues were mutated in hRI individually or in
+groups (Figure 4(b)), and the others (His10, Cys11,
+Asp35, Asn93) were eliminated in pRI by deletion
+of the N-terminal segment through amino acid
+residue 94 (Hofsteenge et al., 1991). The residues
+not yet examined (Asp121, Val409, Gly410 and
+Asp411) form a total of two hydrogen bonds and
+nine van der Waals contacts. Therefore, the vast
+majority of the RI side of the interface has been
+explored. In contrast, the effects of truncating only
+one contact residue on RNase A, Lys7, have been
+measured (Neumann & Hofsteenge, 1994). Leland
+RNase Inhibitor Interactions 513et al. (1998) and Suzuki et al. (1999) have enlarged
+interface residues 88 of RNase A and 89 of human
+pancreatic RNase, respectively. The extensive
+decreases in af®nity measured probably re¯ect the
+introduction of steric clashes, as intended, rather
+than simple loss of the interactions of the residues
+replaced.)
+The single-residue RI mutations in general
+reduce af®nity for RNase A much more severely
+than that for Ang. In ®ve cases (versus two for the
+Ang complex), the G values are above 2 kcal/
+mol: Tyr434 ! Ala, Asp435 ! Ala, deletion of
+Ser460, Tyr437 ! Ala, and Trp263 ! Ala. Another
+seven replacements (versus four in the Ang com￾plex) produce free energy losses of 1-2 kcal/mol:
+Glu206, Trp261, Glu287, Trp318, Lys320, Trp375
+and Glu401 to Ala. Indeed, only three of the G
+values measured (for substitutions of Cys408 and
+Ile459 and deletion of residues 1 to 94) were
+40.5 kcal/mol.
+In constructing a map of the energetics in the
+RIRNase A interface based on these results, the
+problem faced is the opposite of that presented by
+the Ang complex. Although the effects of
+mutations in the C-terminal segment of RI are par￾ticularly large, replacements throughout most of
+the rest of the interface also diminish af®nity con￾siderably. As a consequence, G for the indi￾vidual variants exceeds G for the wt complex by
+far, 31.2 kcal/mol versus 18.2 kcal/mol. This indi￾cates that many interface components on RI do not
+function independently in binding RNase A, and
+that the direct contributions of some of the residues
+replaced are lower than the energy losses
+measured.
+Such overestimates seem especially likely to
+have occurred for Y434A, des(460), and W438A/
+S439A/E440A (G  5.9 kcal/mol, 3.5 kcal/mol,
+and 2.0 kcal/mol, respectively). The hydrogen
+bond of Tyr434 has been shown to be unimportant
+(Chen & Shapiro, 1999) and the decrease in hydro￾phobic ASA for this residue (from 73 to 6 AÊ 2
+) and
+its contact partners upon complex formation is not
+substantial. Ser460 forms hydrogen bonds with
+Lys7 and Gln11, but neither is also a charge-charge
+interaction, the bond with Lys7 has high solvent
+accessibility, and that with Gln11 is long (3.3 AÊ ).
+The high G value for the 438/439/440 triple
+variant probably re¯ects indirect effects, as pro￾posed above for the Ang complex.
+The magnitudes of most other energy losses
+accord better with the structural observations.
+Replacements of Trp261 and Trp263 yield G
+values of 1.3 and 2.2 kcal/mol, respectively; these
+residues each form one non-optimal hydrogen
+bond and undergo moderate (37-54 AÊ 2
+) reductions
+in ASA in the complex. G for mutation of
+Glu206, which deletes a partially exposed hydro￾gen bond, is 1 kcal/mol. Tyr437, whose replace￾ment diminishes the binding energy by 2.6 kcal/
+mol, forms two hydrogen bonds and its hydro￾phobic ASA decreases from 102 to 6 AÊ 2 in the com￾plex. Most of the contribution of this residue is
+through the hydrogen bonds (Chen & Shapiro,
+1999). Replacements of Lys320, Glu401, and
+Arg457 of hRI produce only moderate G
+values, although all of these residues appear to
+form interactions that satisfy the distance and
+angle requirements for hydrogen bonds and all are
+also salt-links. However, in each case at least one
+of the contact partners is extremely ¯exible (B-fac￾tor > 90 AÊ 2
+). Deletion of the 1 to 94 segment of RI
+and replacements of Cys408 and Ile459 have little
+impact on af®nity. None of these structural altera￾tions is expected to affect ASA signi®cantly and
+the putative hydrogen bonds eliminated
+(Asn89(RI) to Asn24(RNase) and Cys408(RI) to
+Lys66(RNase)) are solvent-exposed and, in the lat￾ter case, not well ordered.
+In the crystal structure of the pRIRNase A com￾plex, Asp435 interacts with a sulfate ion and Val43
+rather than with the catalytic lysine residue (Lys41)
+as in the hRIAng complex. However, replacement
+of Asp435 produces equivalent losses in af®nity for
+RNase A and Ang (Chen & Shapiro, 1997),
+suggesting that in the absence of sulfate or similar
+anions (as in the kinetic experiments) Asp435
+would form hydrogen bonds with Lys41 of RNase
+A. This possibility was also raised by Kobe &
+Deisenhofer (1996), who noted that the sulfate ion
+might cause other rearrangements in this part of
+the interface as well.
+The hRIRNase A complex is also sensitive to
+changes on the periphery of the interface. The
+G values for replacements of Ser289 and
+Glu344 were 0.8 kcal/mol and 1.6 kcal/mol,
+respectively; these residues are 4.5-5.4 AÊ from their
+nearest neighbors on RNase A, Gly86 and Lys91,
+and neither of them contacts any interface com￾ponent on RI. Thus the structure provides no
+explanation for the increases in KD. Af®nity losses
+due to mutations of non-interface residues have
+been described for other protein-protein systems
+(e.g. see Schreiber et al., 1997; Clackson et al., 1998;
+and Otzen & Fersht, 1999). However, in most of
+these cases the replacements deleted important
+intramolecular interactions with contact residues or
+were thought to affect folding. In contrast to our
+®ndings for the hRIRNase A complex, substi￾tutions of four residues on the periphery of the
+hRIAng interface (Glu287, Gln430, Val432 and
+Arg457 of hRI, which are 8.8, 3.7, 4.2 and 5.7 AÊ ,
+respectively, from the nearest Ang residue) had no
+discernible effect.
+Cooperativity in the hRIRNase A interface
+The discrepancy between G and G for the
+complex of hRI with RNase A, like that for the
+complex with Ang, can potentially derive from
+cooperativity between contact residues. However,
+the cooperativity here would need to be positive
+rather than negative, so that mutation of one resi￾due impairs the interactions of others or, approach￾ing from the opposite direction, the interactions of
+one residue support those of others. The presence
+514 RNase Inhibitor Interactionsof such effects in the hRIRNase A complex has
+not been explored as extensively as for the Ang
+complex, but in all instances where the indepen￾dence of mutational effects was evaluated, non￾additivities of the type anticipated were measured.
+We found previously (Chen & Shapiro, 1997) that
+the losses in binding energy for replacements of
+the hRI residue pairs Tyr434/Asp435 and Tyr434/
+Tyr437 are subadditive, by 2.4 and 1.3 kcal/mol,
+respectively (Figure 6). This suggested that the
+unexpectedly large energy loss associated with the
+Tyr434 substitution might re¯ect indirect effects on
+Asp435 and Tyr437, and that part of the function
+of Tyr434 is to enhance the interactions of these
+other residues.
+Here, we report that the energy losses for re￾placements of Trp261, Trp263, and Trp318 are also
+subadditive, by 1.4 kcal/mol. This contrasts with
+the superadditive effects of these mutations on
+binding of Ang, but may have an analogous struc￾tural basis: the proximity of the three Trp residues
+in the complex (261/263, 261/318, and 263/318
+distances are 3.5, 4.4, and 7.4 AÊ , respectively) and
+the ¯exibility of these residues and the RNase A
+loop with which they interact.
+The different types of non-additivities observed
+for the complexes of RI with Ang and RNase A
+might be a natural consequence of the evolution of
+the inhibitor to bind extremely tightly to multiple
+protein targets whose sequences are only 25-35 %
+identical. A requirement for broad speci®city
+places considerable constraints on the extent to
+which the interactions with any particular ligand
+can be optimized. Therefore, mutation of a speci®c
+interface residue might produce opposite effects
+on contacts of other residues in the RIAng and
+RIRNase A complexes: enhancing them in the
+®rst case (resulting in superadditivity) by destabi￾lizing an unfavorable conformation, while impair￾ing them in the second (resulting in subadditivity)
+by destabilizing a favorable conformation.
+Conclusions
+The map of the distribution of binding energy in
+the hRIRNase A interface suggested by the com￾bined structural and mutational data is less satis￾factory than for the Ang complex. In part, this is
+due to the nature and magnitude of the cooperativ￾ity in this interface, both demonstrated and
+implied, which undermines any efforts to correlate
+G values with contributions of speci®c inter￾actions. The sum of G values for mutations of
+the four residues in the C-terminal segment of hRI
+that appear to play key roles, Tyr434, Asp435,
+Tyr437 and Ser460, is 15.6 kcal/mol. The combined
+energy loss for truncations of additional contact
+residues in this segment, Gln430, Val432, Trp438,
+Ser439, Glu440, Arg457 and Ile459, is another
+4 kcal/mol, bringing the subtotal for this region
+alone to 19.6 kcal/mol (versus 20.6 kcal/mol, i.e.
+the sum of G for the complex plus the entropy
+penalty). However, it is clear that several subtrac￾tions are warranted. In the two cases where single
+and double variants were compared, subadditiv￾ities totaling 3.7 kcal/mol were measured, and it is
+likely that much of the losses for substitutions of
+438, 439 and 440 are due to indirect effects. If other
+pairs and groups of these residues in this region
+are also connected, the local ``concentration'' of
+free energy might be reduced even further. None￾theless, the energy losses for mutations of hRI 434,
+435 and 460 are well beyond those found for re￾placements outside this region, and our results
+indicate, minimally, that the effects of some of
+these other substitutions are also subadditive.
+Therefore, it still seems reasonable to consider the
+C-terminal region of hRI as a major hot spot in the
+binding interface. A more complete understanding
+of the basis for tight binding between RI and
+RNase A must await studies on the interrelation￾ships between additional contact residues on the
+two protein molecules and on the structural
+changes induced by the various mutations.
+Finally, we note that interpretive dif®culties of
+the type encountered here for the complexes of hRI
+with Ang and RNase A are not con®ned to them,
+but seem to pertain to many protein-protein inter￾actions. Indeed, G values for extensive sets of
+single-site mutations rarely ``add up'' correctly,
+and examples of functional couplings between resi￾dues on the same protein partner have been found
+in most protein-protein complexes where this ques￾tion has been examined (e.g. Kelley & O'Connell,
+1993; and Jin & Wells, 1994). Moreover, non-inter￾acting residues on different partners have often
+been demonstrated to be linked, even in numerous
+instances where there are no direct or triangulated
+contacts between them (LiCata & Ackers, 1995;
+Schreiber & Fersht, 1995; Goldman et al., 1997).
+Materials and Methods
+Materials
+Primers were synthesized by Genosys or Promega.
+Human Ang (native Pyrl form), [14C-(U)]Ang (2700
+cpm/mg), the Ang variants R5A and K40G, wt hRI, and
+the hRI variants E287A, K320A, E401A, R457A, and
+des(460) were produced in Escherichia coli as described
+previously (Chen & Shapiro, 1997; Lee & Vallee, 1990;
+Shapiro & Vallee, 1992). The RNase A substrate 50
+-FAM￾mAmArUmAmA-C7-QSYTM-7- 30 was a generous gift
+from Integrated DNA Technologies (Coralville, IA)
+(FAM is 50
+,6-carboxy¯uorescein, rU is ribouridine, mA is
+20
+-O-methyl-riboadenosine, and QSYTM-7 (Molecular
+Probes; Eugene, OR) is a rhodamine-based ¯uorescence
+quencher). Sources of all other materials and procedures
+for protein quanti®cation are given by Chen & Shapiro
+(1999).
+Site-directed mutagenesis and production of
+variant proteins
+Fragments of hRI cDNA containing the desired
+mutations were generated by overlap extension PCR (Ho
+et al., 1989). The template was pTRP-PRI (Lee & Vallee,
+RNase Inhibitor Interactions 5151989b) for all mutants except 3W and 4W, where the
+templates were the mutant plasmids encoding W318A
+and 3W, respectively. The external ¯anking primers
+were those listed previously (Chen & Shapiro, 1999),
+except with Y150A and E206A, where 50
+-AACTAG￾TACGCAAGTTCA-30 (from the 50
+-non-coding region)
+and the antisense strand internal primer for W318A
+described below were used. The internal mutagenic pri￾mers were the following, listed for each of the mutants
+indicated as sense oligonucleotide (numbered according
+to the hRI cDNA sequence (Lee et al., 1988)), followed by
+antisense oligonucleotide, and ®nally the replacement
+codon(s): Y150A, 562-586, 560-584, GCT; E206A, 730-752,
+728-750, GCT; W261A, 895-918, 893-916, GCT; W263A,
+901-925, 900-923, GCT; S289A, 979-1004, 977-1001, GCT;
+W318A, 1067-1091, 1065-1088, GCT; E344A, 1144-1169,
+1143-1166, GCT; W375A and 4W, 1237-1261, 1236-1258,
+GCT; 3W, 889-925, 889-923, GCT for both replacement
+codons; Q430A/V432A, 1403-1436, 1397-1431, GCG
+(430), GCC (432); W438A/S439A/E440A, 1426-1460,
+1420-1455, GCG (438), GCT (439), GCG (440); and I459A,
+1493-1517, 1486-1510, GCT. The ®nal PCR products were
+digested with StuI and either P¯MI (Y150A and E206A)
+or EcoRI (all others) and ligated into pTRP-PRI that had
+been cleaved with the same enzymes. Plasmids for
+expression of Ang variants were generated from pAng3
+(Shapiro & Vallee, 1992) by using a Quick Change kit
+(Stratagene). The mutagenic primers were 50
+-GTTA￾CAACTTGCAAACTTGCTGGGGGGTCCCCGTGGCCG￾30 and 50
+-CGGCCACGGGGACCCCCCAGCAAGTTTG￾CAAGTTGTAAC-30 (H84A) and 50
+-GCAAACTTCATG
+GGGGGTCCCCGGCGCCGCCATGCCAG-30 and 50
+-CT
+GGCATGGCGGCGCCGGGGACCCCCCATGAAGTTTG
+C-30 (W89A); these primers also introduce a silent
+mutation that eliminates a BamHI site and thereby facili￾tates screening of transformants. Sequencing of ampli®ed
+regions in all cases con®rmed the presence of the
+intended mutations and the absence of any spurious
+changes. hRI and Ang variants were expressed in E. coli,
+puri®ed to homogeneity (as judged by SDS-PAGE), and
+stored as described previously (Lee & Vallee, 1990); the
+®nal chromatography of all hRI variants was performed
+with RNase A-Sepharose.
+Kinetics
+Kinetic parameters were determined at 25 C in 0.1 M
+Mes (pH 6.0) containing 0.1 M NaCl and 1 mM EDTA,
+supplemented with RNase-free bovine serum albumin
+(BSA) and/or DTT as listed in the references cited
+below. The enzymatic activity of RNase A was measured
+spectrophotometrically with 75 mM CpA or CpG as the
+substrate and 10 mg/ml of BSA (Witzel & Barnard, 1962);
+Ang has no detectable activity in this assay.
+Rate constants for dissociation of all inhibitor-ligand
+complexes except for those of 3W-hRI and 4W-hRI were
+determined by methods described in detail previously.
+In all of these procedures, a scavenger for free inhibitor
+was added to the complex, and the appearance of free
+ligand was followed by physical techniques or by enzy￾matic activity. For RNase A complexes, the scavenger
+was Ang and free RNase A was quanti®ed by activity
+toward CpA (Lee et al., 1989b). For the complexes of
+H84A-Ang and W89A-Ang with wt hRI and R5A-Ang
+with des(460)-hRI, RNase A was the scavenger and free
+Ang variant was quanti®ed by Mono S chromatography
+(Lee et al., 1989b). For the complexes of wt Ang, 14
+C￾labeled Ang was used for initial complex formation, the
+scavenger was unlabeled Ang, and bound and free
+radiolabeled Ang were separated chromatographically
+and quanti®ed by scintillation counting (Chen &
+Shapiro, 1997). Dissociation of the complex of K40G-Ang
+with des(460)-hRI was monitored by ¯uorescence spec￾troscopy, with W89M-Ang as the scavenger (Chen &
+Shapiro, 1999). Dissociation of the complexes of Ang and
+Ang variants with 3W and 4W (0.1 mM) was measured
+by modi®cations of this ¯uorescence technique in which
+wt hRI is added as scavenger for free ligand and the
+increase in Trp ¯uorescence is monitored. In this exper￾iment, there is an instantaneous rise in ¯uorescence due
+to the presence of free wt hRI, followed by a slower
+increase as Ang or Ang variant dissociates from the hRI
+variant and binds to wt inhibitor; the binding step is suf-
+®ciently rapid that the slow ¯uorescence increase
+observed re¯ects only dissociation of the original com￾plex. The scavenger was used in only approximately
+twofold excess because of its high ¯uorescence and cal￾culations were based on the ®rst half-life of dissociation.
+For the wt Ang complexes, emission spectra were
+recorded every 3-20 minutes and rate constants were
+obtained by ®tting the readings at each of four wave￾lengths (345, 350, 355 and 360 nm) to a single-exponen￾tial process with SigmaPlot 4.0 (SPSS). The readings for
+the 3W complex were corrected for a slow (1 % per hour)
+¯uorescence increase measured with a control sample
+prepared by mixing the same concentrations of wt hRI
+and Ang, and then adding 3W; this increase may re¯ect
+instrument instability or evaporation of sample. No cor￾rection was required for the 4W complex, which disso￾ciated more quickly. Dissociation of the complexes of 3W
+with Ang variants was monitored continuously with a
+stopped-¯ow ¯uorimeter (see below), and the rate con￾stants were again calculated by treating the data as a
+single-exponential process.
+Rate constants for association of all Ang or Ang var￾iant complexes except for those involving W89A-Ang,
+W318A-hRI, or 3W-hRI were determined by using a
+stopped-¯ow ¯uorimeter as detailed previously (Chen &
+Shapiro, 1997; Lee et al., 1989a). The observed ¯uor￾escence change could be ®tted to a single-exponential
+process in all cases. Rate constants for association of the
+complexes of Ang with W318A-hRI and 3W-hRI and
+Ang variants with 3W were obtained by measuring com￾petition between wt and variant hRI for ligand with the
+stopped-¯ow instrument. One syringe contained 50 nM
+Ang or Ang variant and the other a mixture of 50 nM wt
+hRI and 50-75 nM hRI variant; equal volumes were
+mixed and the resultant increases in Trp ¯uorescence
+were measured. The concentrations of bound and free
+wt hRI and hRI variant were then calculated from
+the amplitude of this increase (Fmix) together with the
+amplitudes observed when ligand was combined with
+wt and variant hRI separately: [wtAng]/
+[Ang]T  (Fmix ÿ Fvar)/(Fwt ÿ Fvar); [wt]F  [wt]T ÿ
+[wtAng]  [varAng]; [var]F  [var]T ÿ [varAng],
+where wt and var refer to wild-type and variant hRI,
+respectively, and F and T denote total and free, respect￾ively. The ka value for the variant complex was then
+obtained from the equation ka,var  ka,wtln([var]T/
+[var]F)/ln([wt]T/[wt]F). This equation (Lee et al., 1989a) is
+valid as long as the protein concentrations are well
+below K1, a condition that is expected to be satis®ed,
+since the K1 values for all AnghRI complexes examined
+thus far are 5140 nM (in most instances >300 nM). A
+single concentration of hRI variant (yielding a 33-60 %
+reduction in ¯uorescence amplitude compared to that for
+wt hRI) was used in each experiment, and at least six
+replicate measurements were performed.
+516 RNase Inhibitor InteractionsValues of ka for the complexes of RNase A with hRI
+variants were determined from the rate constants for the
+corresponding Ang complexes by measuring the compe￾tition between the two ligands for inhibitor in a spectro￾photometric assay of RNase A activity (Lee et al., 1989a).
+The value for the complex of H84A-Ang with wt
+hRI was determined from the rate constant for the
+hRIRNase A complex by the same procedure.
+KD values for all complexes except that of 3W-hRI
+with RNase A were calculated from the rate constants
+for dissociation and association (KD  kd/ka). The KD
+value for the 3 WRNase complex was determined by
+measuring the effect of 3W on cleavage of the substrate
+FAM-mAmArUmAmA-C7-QSY-7. The enzymatic reac￾tion was followed by monitoring the ¯uorescence
+increase that occurs upon separation of the 50 ¯uorescent
+group FAM from the 30 quenching group QSY-7. This
+assay of RNase A activity is a minor modi®cation of the
+method reported by Keleman et al. (1999); a similar ¯uor￾escence-based assay was used previously to study the
+interaction of RNase A with wt pRI (Zelenko et al., 1994).
+The RNase A concentration employed was 3 pM, the
+concentration range of 3W was 15-50 pM, and substrate
+was 0.1 mM (well below Km). KD values were calculated
+by ®tting the data to the equation for tight-binding inhi￾bition (Morrison, 1969):
+vi  v0=2EtfKD  I ÿ Et
+2  4KDEt
+1=2 ÿ KD  I ÿ Etg
+with SigmaPlot 4.0, where vi and v0 are initial velocities
+(<5 % of the reaction) in the presence and absence of
+inhibitor, respectively, and Et and I are the total enzyme
+and inhibitor concentrations, respectively. RNase A and
+3W were preincubated for 15 minutes prior to addition
+of substrate.
+The G values for complex formation were calculated
+as ÿRT lnKD. The G values associated with amino
+acid replacements were calculated as ÿRTln(KD,wt/
+KD,var). The G values for multiple-residue variants
+represent the sum of G values for the single-residue
+variants minus the G value measured for the mul￾tiple-residue variant. Standard errors for KD values and
+free energies were calculated as described previously
+(Chen & Shapiro, 1999).
+Fluorescence measurements
+Fluorescence spectra of proteins and their complexes
+were measured with a Jobin Yvon-Spex FluoroMax-2
+¯uorimeter. Excitation was at 285 nm, and emission was
+recorded from 300 to 400 nm. Time-based acquisition of
+protein ¯uorescence data on this instrument and on the
+stopped-¯ow ¯uorimeter (Applied Photophysics) were
+conducted as detailed previously (Chen & Shapiro,
+1999). Kinetic assays of RNase activity toward FAM￾mAmArUmAmA-C7-QSY-7 were performed with an
+excitation wavelength of 495 nm (1 nm slit) and emission
+wavelength of 525 nm (5 nm slit).
+Structural analysis and modeling
+ASAs were calculated with the program Quanta (Mol￾ecular Simulations) using a 1.4 AÊ radius spherical probe.
+Areas reported for free RI were calculated from the free
+pRI crystal structure (PDB code 2BNH (Kobe &
+Deisenhofer, 1996)) except that the value for hRI residue
+Trp375, which is substituted by Cys in pRI, is for the
+``free'' hRI structure obtained by removing Ang from the
+hRIAng complex (Papageorgiou et al., 1997). Values for
+other RI residues in these two structures did not differ
+appreciably. ASAs for free Ang were computed from the
+Pyr1 Ang crystal structure (PDB code 1B1I (Leonidas
+et al., 1999)). Replacements of Ang Lys40 by Gly in the
+structure of the hRIAng complex and pRI Cys375 in the
+pRIRNase A complex were performed with Quanta.
+Acknowledgments
+We thank Thamara Desilva and Cecilia Roh for excel￾lent technical assistance, Drs A. C. Papageorgiou and G.
+B. Chavali for Figures 1 and 2, Drs K. R. Acharya and J.
+F. Riordan for helpful advice and discussions, and Dr R.
+Devor of Integrated DNA Technologies for the ¯uor￾escent RNase substrate. This work was supported by the
+National Institutes of Health (grant HL52096 to R.S.) and
+the Endowment for Research in Human Biology, Inc.,
+Boston.
+References
+Atwell, S., Ultsch, M., De Vos, A. M. & Wells, J. A.
+(1997). Structural plasticity in a remodeled protein￾protein interface. Science, 278, 1125-1128.
+Boix, E., Wu, Y., Vasandani, V. M., Saxena, S. K.,
+Ardelt, W., Ladner, J. & Youle, R. J. (1996). Role of
+the N terminus in RNase A homologues: differences
+in catalytic activity, ribonuclease inhibitor inter￾action and cytotoxicity. J. Mol. Biol. 257, 992-1007.
+Chacko, S., Silverton, E., Kam-Morgan, L., Smith-Gill, S.,
+Cohen, G. & Davies, D. (1995). Structure of an anti￾body-lysozyme complex unexpected effect of con￾servative mutation. J. Mol. Biol. 245, 261-274.
+Chen, C. Z. & Shapiro, R. (1997). Site-speci®c mutagen￾esis reveals differences in the structural bases for
+tight binding of RNase inhibitor to angiogenin and
+RNase A. Proc. Natl Acad. Sci. USA, 94, 1761-1766.
+Chen, C. Z. & Shapiro, R. (1999). Superadditive and sub￾additive effects of ``hot spot'' mutations within the
+interfaces of placental ribonuclease inhibitor with
+angiogenin and ribonuclease A. Biochemistry, 38,
+9273-9285.
+Chothia, C. (1974). Hydrophobic bonding and accessible
+surface area in proteins. Nature, 48, 338-339.
+Clackson, T. & Wells, J. A. (1995). A hot spot of binding
+energy in a hormone-receptor interface. Science, 267,
+383-386.
+Clackson, T., Ultsch, M. H., Wells, J. A. & de Vos, A. M.
+(1998). Structural and functional analysis of the 1:1
+growth hormone:receptor complex reveals the mol￾ecular basis for receptor af®nity. J. Mol. Biol. 277,
+1111-1128.
+Covell, D. G. & Wallqvist, A. (1997). Analysis of pro￾tein-protein interactions and the effects of amino
+acid mutations on their energetics. The importance
+of water molecules in the binding epitope. J. Mol.
+Biol. 269, 281-297.
+Dall'Acqua, W., Goldman, E. R., Eisenstein, E. &
+Mariuzza, R. A. (1996). A mutational analysis of the
+binding of two different proteins to the same anti￾body. Biochemistry, 35, 9667-9676.
+Esnouf, R. M. (1997). An extensively modi®ed version of
+MolScript that includes greatly enhanced coloring
+capabilities. J. Mol. Graph. Model. 15, 132-134.
+RNase Inhibitor Interactions 517Fersht, A. R., Shi, J. P., Knill-Jones, J., Lowe, D. M.,
+Wilkinson, A. J., Blow, D. M., Brick, P., Carter, P.,
+Waye, M. M. & Winter, G. (1985). Hydrogen bond￾ing and biological speci®city analysed by protein
+engineering. Nature, 314, 235-238.
+Fett, J. W., Strydom, D. J., Lobb, R. R., Alderman, E. M.,
+Bethune, J. L., Riordan, J. F. & Vallee, B. L. (1985).
+Isolation and characterization of angiogenin, an
+angiogenic protein from human carcinoma cells.
+Biochemistry, 24, 5480-5486.
+Goldman, E. R., Dall'Acqua, W., Braden, B. C. &
+Mariuzza, R. A. (1997). Analysis of binding inter￾actions in an idiotope-antiidiotope protein-protein
+complex by double mutant cycles. Biochemistry, 36,
+49-56.
+Ho, S. N., Hunt, H. D., Horton, R. M., Pullen, J. K. &
+Pease, L. R. (1989). Site-directed mutagenesis by
+overlap extension using the polymerase chain reac￾tion. Gene, 77, 51-59.
+Hofsteenge, J. (1997). Ribonuclease inhibitor. In Ribonu￾cleases. Structures and Functions (D'Alessio, G. &
+Riordan, J. F., eds), pp. 621-658, Academic Press,
+New York.
+Hofsteenge, J., Vincentini, A. & Stone, S. R. (1991). Puri-
+®cation and characterization of truncated ribonu￾clease inhibitor. Biochem. J. 275, 541-543.
+Jin, L. & Wells, J. A. (1994). Dissecting the energetics of
+an antibody-antigen interface by alanine shaving
+and molecular grafting. Protein Sci. 3, 2351-2357.
+Kelemen, B. R., Klink, T. A., Behlke, M. A., Eubanks,
+S. R., Leland, P. A. & Raines, R. T. (1999). Hyper￾sensitive substrate for ribonucleases. Nucl. Acids
+Res. 27, 3696-3701.
+Kelley, R. F. & O'Connell, M. P. (1993). Thermodynamic
+analysis of an antibody functional epitope. Biochem￾istry, 32, 6828-6835.
+Kobe, B. & Deisenhofer, J. (1995). A structural basis of
+the interactions between leucine-rich repeats and
+protein ligands. Nature, 374, 183-186.
+Kobe, B. & Deisenhofer, J. (1996). Mechanism of ribonu￾clease inhibition by ribonuclease inhibitor protein
+based on the crystal structure of its complex with
+ribonuclease A. J. Mol. Biol. 264, 1028-1043.
+Kraulis, P. J. (1991). MOLSCRIPT - a program to pro￾duce both detailed and schematic plots of protein
+structures. J. Appl. Crystallog. 24, 946-950.
+Lee, F. S. & Vallee, B. L. (1989a). Binding of placental
+ribonuclease inhibitor to the active site of angio￾genin. Biochemistry, 28, 3556-3561.
+Lee, F. S. & Vallee, B. L. (1989b). Expression of human
+placental ribonuclease inhibitor in Escherichia coli.
+Biochem. Biophys. Res. Commun. 160, 115-120.
+Lee, F. S. & Vallee, B. L. (1990). Kinetic characterization
+of two active mutants of placental ribonuclease
+inhibitor that lack internal repeats. Biochemistry, 29,
+6633-6638.
+Lee, F. S., Fox, E. A., Zhou, H. M., Strydom, D. J. &
+Vallee, B. L. (1988). Primary structure of human
+placental ribonuclease inhibitor. Biochemistry, 27,
+8545-8553.
+Lee, F. S., Auld, D. S. & Vallee, B. L. (1989a). Trypto￾phan ¯uorescence as a probe of placental ribonu￾clease inhibitor binding to angiogenin. Biochemistry,
+28, 219-224.
+Lee, F. S., Shapiro, R. & Vallee, B. L. (1989b). Tight-bind￾ing inhibition of angiogenin and ribonuclease A by
+placental ribonuclease inhibitor. Biochemistry, 28,
+225-230.
+Leland, P. A., Schultz, L. W., Kim, B. M. & Raines, R. T.
+(1998). Ribonuclease A variants with potent cyto￾toxic activity. Proc. Natl Acad. Sci. USA, 95, 10407-
+10412.
+Leonidas, D. D., Shapiro, R., Allen, S. C., Subbarao,
+G. V., Veluraja, K. & Acharya, K. R. (1999). Re®ned
+crystal structures of native human angiogenin and
+two active site variants: implications for the unique
+functional properties of an enzyme involved in neo￾vascularisation during tumour growth. J. Mol. Biol.
+285, 1209-1233.
+Lequin, O., Thuring, H., Robin, M. & Lallemand, J. Y.
+(1997). Three-dimensional solution structure of
+human angiogenin determined by 1
+H,15N-NMR
+spectroscopy-characterization of histidine protona￾tion states and pKa values. Eur. J. Biochem. 250, 712-
+726.
+LiCata, V. J. & Ackers, G. K. (1995). Long-range, small
+magnitude nonadditivity of mutational effects in
+proteins. Biochemistry, 34, 3133-3139.
+Lo Conte, L., Chothia, C. & Janin, J. (1999). The atomic
+structure of protein-protein recognition sites. J. Mol.
+Biol. 285, 2177-2198.
+Morrison, J. F. (1969). Kinetics of the reversible inhi￾bition of enzyme-catalysed reactions by tight-bind￾ing inhibitors. Biochim. Biophys. Acta, 185, 269-286.
+Muller, Y. A., Chen, Y., Christinger, H. W., Li, B.,
+Cunningham, B. C., Lowman, H. B. & de Vos, A. M.
+(1998). VEGF and the Fab fragment of a humanized
+neutralizing antibody: crystal structure of the com￾plex at 2.4 AÊ resolution and mutational analysis of
+the interface. Structure, 6, 1153-1167.
+Murphy, K. P., Xie, D., Thompson, K. S., Amzel, L. M.
+& Freire, E. (1994). Entropy in biological binding
+processes: estimation of translational entropy loss.
+Proteins: Struct. Funct. Genet. 18, 63-67.
+Neumann, U. & Hofsteenge, J. (1994). Interaction of
+semisynthetic variants of RNase A with ribonu￾clease inhibitor. Protein Sci. 3, 248-256.
+Nicholls, A., Sharp, K. A. & Honig, B. (1991). Protein
+folding and association: insights from the interfacial
+and thermodynamic properties of hydrocarbons.
+Proteins: Struct. Funct. Genet. 11, 281-296.
+Novotny, J., Bruccoleri, R. E., Davis, M. & Sharp, K. A.
+(1997). Empirical free energy calculations: a blind
+test and further improvements to the method. J. Mol.
+Biol. 268, 401-411.
+Otzen, D. E. & Fersht, A. R. (1999). Analysis of protein￾protein interactions by mutagenesis: direct versus
+indirect effects. Protein Eng. 12, 41-45.
+Papageorgiou, A. C., Shapiro, R. & Acharya, K. R.
+(1997). Molecular recognition of human angiogenin
+by placental ribonuclease inhibitor: an X-ray crystal￾lographic study at 2.0 AÊ resolution. EMBO J. 16,
+5162-5177.
+Schreiber, G. & Fersht, A. R. (1995). Energetics of pro￾tein-protein interactions: analysis of the barnase￾barstar interface by single mutations and double
+mutant cycles. J. Mol. Biol. 248, 478-486.
+Schreiber, G., Frisch, C. & Fersht, A. R. (1997). The role
+of Glu73 of barnase in catalysis and the binding of
+barstar. J. Mol. Biol. 270, 111-122.
+Shapiro, R. & Vallee, B. L. (1989). Site-directed mutagen￾esis of histidine-13 and histidine-114 of human
+angiogenin. Alanine derivatives inhibit angiogenin￾induced angiogenesis. Biochemistry, 28, 7401-7408.
+Shapiro, R. & Vallee, B. L. (1991). Interaction of human
+placental ribonuclease with placental ribonuclease
+inhibitor. Biochemistry, 30, 2246-2255.
+518 RNase Inhibitor InteractionsShapiro, R. & Vallee, B. L. (1992). Identi®cation of func￾tional arginines in human angiogenin by site￾directed mutagenesis. Biochemistry, 31, 12477-12485.
+Shapiro, R., Riordan, J. F. & Vallee, B. L. (1986). Charac￾teristic ribonucleolytic activity of human angio￾genin. Biochemistry, 25, 3527-3532.
+Suzuki, M., Saxena, S. K., Boix, E., Prill, R. J.,
+Vasandani, V. M., Ladner, J. E., Sung, C. & Youle,
+R. J. (1999). Engineering receptor-mediated cytotox￾icity into human ribonucleases by steric blockade of
+inhibitor interaction. Nature Biotechnol. 17, 265-270.
+Vaughan, C. K., Buckle, A. M. & Fersht, A. R. (1999).
+Structural response to mutation at a protein-protein
+interface. J. Mol. Biol. 286, 1487-1506.
+Vicentini, A. M., Kieffer, B., Matthies, R., Meyhack, B.,
+Hemmings, B. A., Stone, S. R. & Hofsteenge, J.
+(1990). Protein chemical and kinetic characterization
+of recombinant porcine ribonuclease inhibitor
+expressed in Saccharomyces cerevisiae. Biochemistry,
+29, 8827-8834.
+Witzel, H. & Barnard, E. A. (1962). Mechanism and
+binding sites in the ribonuclease reaction II. Kinetic
+studies on the ®rst step of the reaction. Biochem. Bio￾phys. Res. Commun. 7, 295-299.
+Ysern, X., Fields, B. A., Bhat, T. N., Goldbaum, F. A.,
+Dall'Acqua, W., Schwarz, F. P., Poljak, R. J. &
+Mariuzza, R. A. (1994). Solvent rearrangement in an
+antigen-antibody interface introduced by site￾directed mutagenesis of the antibody combining
+site. J. Mol. Biol. 238, 496-500.
+Zelenko, O., Neumann, U., Brill, W., Pieles, U., Moser,
+H. E. & Hofsteenge, I. (1994). A novel ¯uorogenic
+substrate for ribonucleases. Synthesis and enzymatic
+characterization. Nucl. Acids Res. 22, 2731-2739.
+Edited by J. Wells
+(Received 26 April 2000; received in revised form 17 July 2000; accepted 31 July 2000)
+RNase Inhibitor Interactions 519

@@ -1,0 +1,460 @@
+Single MHC Mutation Eliminates Enthalpy Associated  with T Cell Receptor Binding  Peter J. Miller1  , Yael Pazy2  , Brian Conti1  , David Riddle2  Ettore Appella3 and Edward J. Collins1,2  1  Department of Biochemistry  and Biophysics, The University  of North Carolina at Chapel Hill,  Chapel Hill, NC 27599, USA  2  Department of Microbiology  and Immunology, The  University of North Carolina  at Chapel Hill, Chapel Hill,  NC 27599, USA  3  Laboratory of Cell Biology,  National Cancer Institute,  National Institutes of Health,  Bethesda, MD 20892, USA  The keystone of the adaptive immune response is T cell receptor (TCR)  recognition of peptide presented by major histocompatibility complex  (pMHC) molecules.
+The crystal structure of AHIII TCR bound to MHC,  HLA-A2, showed a large interface with an atypical binding orientation.
+  MHC mutations in the interface of the proteins were tested for changes in  TCR recognition.
+From the range of responses observed, three representative HLA-A2 mutants, T163A, W167A, and K66A, were selected for further  study.
+Binding constants and co-crystal structures of the AHIII TCR and the  three mutants were determined.
+K66 in HLA-A2 makes contacts with both  peptide and TCR, and has been identified as a critical residue for  recognition by numerous TCR.
+The K66A mutation resulted in the lowest  AHIII T cell response and the lowest binding affinity, which suggests that  the T cell response may correlate with affinity.
+Importantly, the K66A  mutation does not affect the conformation of the peptide.
+The change in  affinity appears to be due to a loss in hydrogen bonds in the interface as a  result of a conformational change in the TCR complementarity-determining  region 3 (CDR3) loop.
+Isothermal titration calorimetry confirmed the loss of  hydrogen bonding by a large loss in enthalpy.
+Our findings are inconsistent  with the notion that the CDR1 and CDR2 loops of the TCR are responsible  for MHC restriction, while the CDR3 loops interact solely with the peptide.
+  Instead, we present here an MHC mutation that does not change the  conformation of the peptide, yet results in an altered conformation of a  CDR3.
+   2007 Elsevier Ltd. All rights reserved.
+  *Corresponding author Keywords: MHC; TCR; binding; structure; cytolysis  Introduction  T cells are an integral part of the ability of the  adaptive immune system to recognize virtually any  pathogen that might attack the host.
+A critical step  required for T cell activation is the recognition of  peptides derived from these pathogens when presented by the major histocompatibility complex  protein (MHC).
+Recognition of foreign peptide  bound to MHC is achieved through the clonotypic  T cell receptor (TCR).
+Upon TCR recognition of a  peptide bound to MHC (pMHC), sets of T cells either  kill the cell presenting the foreign peptide (cytotoxic  T cells) or produce cytokines to help B cells and  other T cells (helper T cells).
+The pathogens are  subsequently eliminated from the host by a combination of killing infected cells to remove reservoirs  of replicating pathogen, and antibody-mediated  neutralization of the pathogen outside of the cell.
+  Although TCR binding to pMHC is paramount for T  cell activation, there are still many unanswered  questions regarding how TCR-pMHC interactions  dictate T cell responses.
+  Recognition of pMHC by the TCR heterodimer is  accomplished using the three complementarity  determining region (CDR) loops from each chain.
+  The CDR1 and CDR2 loops are germ-line encoded  within the variable gene segment of each TCR and  TCR chain.
+The CDR3 loop of each chain is unique  Abbreviations used: MHC, major histocompatibility  complex; TCR, T cell receptor; pMHC, peptide bound to  MHC; CDR, complementarity determining region; SPR,  surface plasmon resonance; ITC, isothermal titration  calorimetry.
+  E-mail address of the corresponding author:  edward_collins@med.unc.edu  doi:10.1016/j.jmb.2007.07.028 J. Mol. Biol. (2007) 373, 315327  0022-2836/$ - see front matter  2007 Elsevier Ltd. All rights reserved.and arises through V(D)J recombination.1,2 While  recognition of the pMHC is carried out using all the  CDR loops of each chain, generally, the CDR3 makes  more contacts with the bound peptide than CDR1  and CDR2.3  Engagement of TCR with pMHC may result in  a variety of reactions from the T cell, and the mechanisms that generate these different responses are  not understood.3 The structures of TCR bound to  partial agonist or antagonist pMHC complexes do  not show changes in the TCR domains that would  suggest a way for the TCR to propagate a qualitatively different signal to the T cell through the plasma  membrane.4,5 It is generally accepted that there is  great plasticity in the interaction between TCR and  pMHC.
+However, as seen in a variety of TCR-pMHC  co-crystal structures, the degree and location of this  plasticity is not uniform.
+For example, the co-crystal  structures of 2C-dEV8/Kb  ,  6 2C-SIYR/Kb  ,  4 and KB5-  C20-pKB1/Kb7 when compared to crystal structures  of those TCRs alone show great flexibility in the  CDR3 loops of the TCR.
+The LC138 and BM3.39 TCRs  undergo changes in their CDR3s and in their CDR1  and CDR2 loops.
+Conversely, the A6-Tax/A210 and  ELS4-EPLP/B*350111 co-crystal structures exhibit  conformational changes in the peptides upon TCRpMHC binding.
+Finally, the crystal structures of the  1G4 TCR alone and complexed with its pMHC  ligands show no significant change in either the TCR  or the pMHC.12  Similarly, there appear to be no general thermodynamic rules that describe TCR binding to pMHC.
+  Although surface plasmon resonance (SPR) has been  used for more than a decade to examine binding  of TCR to pMHC, it measures kinetic constants  between TCR and pMHC, and binding via Scatchard  analysis or mathematically using the kinetic constants.
+Isothermal titration calorimetry (ITC) provides a direct measure of H and is hence considered  a more reliable determination of thermodynamic  parameters.
+ITC has rarely been used for TCRpMHC studies because of the much larger amounts  of protein required for the studies.
+Early experiments  suggested that TCR-pMHC interactions seem to be  governed by large enthalpically favorable and  entropically unfavorable thermodynamics.1316  However, more recent thermodynamic data of L13-  FLR/B8,17 A6-Tax/A2,18 and 2C-QL9/Ld19 all show  entropically favorable associations.
+  The human MHC, HLA-A2 (A2), is the most frequent MHC found in Caucasians and African Americans.20 A large panel of A2 mutants were created  by Baker et al. and tested against a panel of T cells.21  Most interesting from that study, the K66A mutant  was found to adversely affect recognition of 98% of  the T cells examined.21 K66 has been shown to be a  critical residue in TCR recognition of A2, regardless  of the peptide presented,2124 resulting in K66 to be  labeled a potential hot spot for TCR recognition of  A2.
+Importantly, even though K66 interacts with the  peptide, the structure of Tax/A2(K66A) shows that  the K66A mutation does not alter the structure of A2  or the conformation of the Tax peptide.24 However,  the effect of the K66A mutation on the cognate TCR  has never been determined structurally.
+  AHIII12.2 (AHIII) is a murine T cell clone that  recognizes human HLA-A2.125 when peptide 1049  (ALWGFFPVL) is presented.26 Reactivity towards  p1049/A2 does not require binding of the TCR  co-receptor CD8,27 which allows for the study of  TCR-pMHC interactions without the additional  complexity of the third protein.
+We have previously  described the crystal structure of the AHIII TCR  complexed with p1049/A2.28 From the AHIIIp1049/A2 co-crystal structure, we identified a number of A2 surface residues that may be responsible  for binding the AHIII TCR.
+These residues were  mutated in A2 and the changes in T cell cytolytic  activity were examined as a function of the mutation.
+Three mutants were then selected for kinetic,  thermodynamic, and structural studies.
+Most  importantly, the K66A mutation causes substantial  changes to cytotoxicity and the affinity.
+This change  in affinity appears to be due to a large reduction in  hydrogen bonding that is a result of a large  conformational change in the CDR3 loop.
+This loss  of hydrogen bonding is reflected in the almost  complete loss of enthalpy in the binding reaction.
+  Results  AHIII T cell reactivity  On the basis of the co-crystal structure of AHIII  bound to p1049/A2,28 13 HLA-A2 mutations were  selected to probe the interface.
+The ability of AHIII T  cells to lyse target cells expressing this panel of A2  variants was assessed by loading the target cells  with radioactive chromium (51Cr), incubating the T  cells with the target cells for four hours and then  measuring the radioactivity released to the medium.
+  Measured lysis was normalized to AHIII lysis of  wild-type A2-expressing cells in each experiment.
+A  spectrum of responses to the mutations was seen  (Figure 1).
+Some of the mutants showed little effect  on reactivity (E166A and T163A).
+At the other end of  the spectrum, the K66A mutation abolished the  response almost completely.
+In addition to the K66  hot spot in A2,2124 it has been suggested that  positions 65, 69, and 155 could be critical to MHCrestriction due to the high frequency with which  they are seen contacting TCRs in TCR-pMHC  structures.3,29,30 Consistent with those data, mutations at positions 65, 69, and 155 all had deleterious  effects on AHIII cytotoxicity.
+  Three A2 variants that represent the range of T cell  reactivity were chosen for further study: T163A  (high), W167A (medium), and K66A (low).
+Mutant  proteins were expressed recombinantly as inclusion  bodies in Escherichia coli and refolded in vitro with  peptide p1049.
+Binding to the recombinant AHIII  TCR was measured using SPR.
+Binding curves for  these three complexes in addition to wild-type A2  are shown in Figure 2.
+The mutations in the MHC  cause significant changes to the affinity for AHIII  316 MHC Mutation Results in CDR3 Loop RearrangementTCR (Table 1) with Kd values ranging from 4.7 M  (p1049/A2(T163A)) to 31.8 M (p1049/A2(K66A)).
+  The kinetics was also dramatically affected.
+The  dissociation rates (koff) were both faster and slower  than wild-type p1049/A2 (0.27 s1  ).
+Interestingly,  even though the affinity of AHIII for p1049/A2  (K66A) is significantly lower than for wild-type A2,  the dissociation rate is significantly slower (Figure 2  and Table 1).
+Association rates (kon) were generally  less affected by the substitutions, except for p1049/  A2(K66A) (4.7  103 M1  s  1  ), which has a much  slower on-rate compared to that of wild-type A2  (3.1  104 M1  s  1  ).
+  Structural analysis of A2 variants  The physical manifestation of the differences  found in T cell recognition and binding was examined using X-ray crystallography.
+The three  mutants described above (A2(K66A) A2(T163A)  and A2(W167A)) were co-crystallized with AHIII  TCR.
+The locations of the mutations in the interface  between the AHIII TCR and p1049/A2 are shown in  Figure 3.
+On the basis of previous work, it seemed  unlikely that these relatively small alterations  would cause large changes in the overall structures  of the TCR or pMHC, or the docking orientation  of the TCR.5 Therefore, we hypothesized that the  substitutions resulted in local alterations in the  Figure 1.
+CTL killing as a function of mutations in the p1049/A2  Complex.
+Cytotoxic lysis assays  (  51Cr release assays) were performed with AHIII T cells against  cells expressing mutant A2.
+Data  were normalized such that lytic  activity against native HLA-A2 is  100%.
+  Figure 2.
+AHIII TCR binding to p1049/A2 variants as  measured by SPR.
+Kinetic data between AHIII TCR and  wild-type p1049/A2 as well as p1049/A2 mutants at  various concentrations of pMHC were obtained using SPR  and globally fit to a reversible bimolecular reaction using  Clamp.50 Model binding curves are drawn in black.
+Curve  fits are drawn in grey.
+  Table 1.
+Equilibrium and kinetic binding parameters for  AHIII TCR binding p1049/A2 mutants  pMHC complex  Kd equilibrium  (M)  Kd kinetic  (M)  kon  (M1  s  1  )  koff  (s1  )  p1049/A2 9.3 8.7 3.1  104 0.27  p1049/A2(T163A) 4.7 4.6 3.3  104 0.16  p1049/A2(W167A) 15.4 14.8 4.1  104 0.63  p1049/A2(K66A) 31.8 34.0 0.47  104 0.15  Parameters were obtained by fitting data with Scrubber 2.0 and  CLAMP.50 Kinetic dissociation constants (Kd) were obtained from  kinetic data using the determined kon and koff values.
+Equilibrium  dissociation constants were obtained separately by fitting maximum binding responses for various concentrations of pMHC  using Scrubber (BioLogic Software, Campbell, Australia).
+  MHC Mutation Results in CDR3 Loop Rearrangement 317MHC or peptide, changing hydrogen bonds or  van der Waals contacts present in our previously  determined AHIII-p1049/A2 structure.28 Crystallographic data were collected from three single cocrystals comprised of AHIII TCR complexed with  p1049/A2(T163A), p1049/A2(W167A), or p1049/  A2(K66A), to a resolution of 2.4 , 2.5 , and  2.88 , respectively.
+All the crystals were nearly  isomorphous with AHIII-p1049/A2.28 Data collection and refinement statistics can be found in Table 2.
+  As might be expected because of the similar level  of T cell activity, no gross structural change was  observed in the structure of p1049/A2(T163A)  bound to AHIII TCR (Figure 4(a)).
+For all three  structures, superimposition was performed using the  align feature in PyMol, restraining the alignment  to the -carbon atoms of the TCR-pMHC interface  (TCR V, V; and MHC 1, 2 and peptide).
+The  AHIII-p1049/A2(T163A) complex superimposed  onto AHIII-p1049/A2 with an RMSD of 0.20 2  .
+  Difference electron density (FoFc) maps show a large  negative electron density peak in the position of the  mutated residue, which demonstrates the quality of  the data and confirms the location of the mutation  (Figure 4(a)).
+One change in the TCR was observed.
+  The side-chain of serine 99 in the TCR CDR3 has  rotated into the cavity where the MHC threonine  side-chain is found in the wild-type structure.
+  Interestingly, the electron density maps show the  location of the serine without ambiguity, but there is  no contact visible for the serine side-chain.
+This sidechain orientation is not the most preferred rotamer;31  the preferred conformation is found in the wild-type  structure.
+Therefore, it may be that this position  reduces undesired energetic contributions to the  binding, such as the fixation of solvent or the  production of a cavity in the interface.
+  In addition to its importance to this study  concerning T cell reactivity, the A2(W167A) complex  was interesting also because W167 forms a boundary of the peptide-binding cleft (Figure 3) and helps  form the conserved pocket that binds the amino  terminus of the peptide.32 This tryptophan is highly  conserved in HLA-A2 subtypes (96%), and across all  human class I MHC molecules (88.5%).33 Mutating  tryptophan to alanine results in the loss of a  hydrogen bond between the Trp indole nitrogen  atom to the Tyr28 hydroxyl group on the TCR CDR2  (Figure 4(b)).
+Aside from the loss of the W167-Y28  hydrogen bond, the structure of AHIII bound to  p1049/A2(W167A) shows no significant change in  the peptide amino terminus, the CDR2 or CDR3  of the AHIII TCR, or the MHC itself.
+The mutant  complex alpha carbon atoms have an RMSD of  0.27 2 when superimposed onto the wild-type  atoms.
+The difference electron density (FoFc) map  once again shows a large negative peak in the  position of the mutated residue demonstrating the   http://pymol.sourceforge.net/ quality of the data and confirming the loss of the Trp  Figure 3.
+Structure of AHIII TCR bound to p1049/A2.
+The AHIII TCR  (green) and  (blue) chains, interact with the  p1049/A2 surface via CDR loops.
+pMHC, consisting of a heavy chain, A2, (yellow) and 2m (magenta), present the  peptide, p1049 (red).
+(Inset) The surface of the p1049/A2 is contacted by the CDR loops of the AHIII TCR.
+Residues that  have been mutated to alanine for structural experiments (T163, W167, K66) are shown.
+The Figure was generated using  PDB coordinates 1LP9 and PyMol [http://pymol.sourceforge.net/].
+  318 MHC Mutation Results in CDR3 Loop Rearrangementside-chain.
+Two side-chains in A2 near the site of  mutation do change conformation, but these differences do not alter binding to the TCR.
+The amino  terminus of the peptide is still coordinated by  hydrogen bonds to three tyrosine hydroxyl groups  Tyr7, Tyr 159, and Tyr171 of the MHC, as in wildtype p1049/A2.
+The AHIII-p1049/A2(W167A) structure shows weak positive difference density in the  location where the nitrogen atom of the indole ring  of wild-type Trp167 would be (data not shown).
+This  suggests that there may be a weakly associated water  molecule replacing the amine, which could hydrogen  bond to the hydroxyl group on Tyr28 of CDR2.
+  The structure of AHIII bound to p1049/A2(K66A)  is critical to this study because of the significantly  different binding constants of p1049/A2(K66A)  (Table 1).
+Additionally, K66 on the 1  helix of  HLA-A2 has been identified as a hot spot for TCR  recognition of HLA-A2 in a number of studies.2124  Structures of A6-Tax/A2,10,34 and AHIII-p1049/  A228 also show that K66 is rare, in that it makes  critical contacts with both the TCR and the peptide.
+  K66A mutants have increased peptide dissociation  rates; yet this is not likely to be responsible for the  decrease in T cell function because T cell clones have  been identified that do not have altered recognition  to the K66A mutation.21,22 Furthermore, the K66A  mutation does not alter the MHC structure or the  conformation of the Tax peptide in Tax/A2(K66A).24  So, if increased peptide dissociation from A2(K66A)  mutants does not influence T cell activation, and the  pMHC molecular surface is not altered by the  mutation, the next logical hypothesis would be  that the K66A variation results in a change in the  TCR that negatively affects T cell function.
+  The co-crystal structure of AHIII-p1049/A2  (K66A) determined to 2.88  resolution shows an  altered conformation of the CDR3 of the AHIII  TCR (Figure 4(c)).
+The AHIII-p1049/A2(K66A)  structure superimposes onto AHIII bound to wildtype A2 with an RMSD of 0.37 2  .
+The 2FoFc  electron density map shows the new conformation  of the loop (Figure 4(d)) and this location is  confirmed by omit maps.
+The conformational  change in CDR3 is that the loop appears to fill  the void left by the removal of the Lys66 side-chain.
+  The C atoms of the loop move, on average, 2.0   with Ala97 moving over 4.0  (Table 3).
+This  altered conformation of the loop likely disrupts  the hydrogen bonding contacts found in the  native structure between the CDR3 and wild-type  p1049/A2 (Figure 4(e)).28 In a manner similar to  the Tax/A2(K66A) structure,24 the K66A mutation  does not change MHC or peptide conformation in  this AHIII-p1049/A2(K66A) structure.
+The CDR3  loop change negatively affects the surface complementarity (SC).
+The SC value for the wild-type  AHIII-p1049/A2 structure is 0.71 and drops to 0.55  for AHIII-p1049/A2(K66A).
+  The Tax/A2(K66A) structure showed a water  molecule replacing the Lys66 side-chain, mediating  hydrogen bonds between Glu63 of A2 and the Tax  peptide.24 There is no electron density that would  suggest a water molecule replaces the Lys66 sidechain in our AHIII-p1049/A2(K66A) structure.
+It  appears that the new conformation of the CDR3  loop pushes further into the peptide-binding cleft  along the MHC 1  helix, where the Lys66 sidechain would have been, displacing any water  that might have filled the void before TCR binding.
+  The number of reflections associated with the  Table 2.
+Data statistics  AHIII-p1049/  A2(T163A)  AHIII-p1049/  A2(W167A)  AHIII-p1049/  A2(K66A)  A. Data collection  Space group P21 P21 P21  Cell parameters  a () 93.49 94.28 93.42  b () 84.18 84.35 83.89  c () 121.77 122.47 122.27   (deg.) 92.05 92.53 92.21  Molecules/  asymmetric unit  222  Resolution () 50.02.10 50.02.5 50.02.88  Rmergea,b (%) 5.9 (46.7) 6.6 (31.8) 7.8 (42.1)  bI/Nc 11.4 (1.6) 18.0 (1.8) 11.2 (1.3)  Unique reflections 76,682 61,781 40,707  Average  redundancy  2.7 (1.7) 4 (2.5) 3.4 (2.3)  Completeness (%) 70.0 (24.7) 92.8 (67.8) 95.7 (69.0)  Solvent content  (%, v/v)  41.5 40.7 44.1  B. Refinement  Resolution range () 30.02.4 30.02.5 30.02.88  No. reflections 59,694 58,660 38,683  Rfacd 24.0 25.3 26.8  Rfree 28.9 29.9 29.3  No. non-H atoms 13,160 12,995 12,956  No. water molecules  modeled  267 52 0  bRs fitNe 93% 93% 90%  Coordinate errorf  ,  45,46 0.25 0.32 0.46  RMS deviations from  ideality  Bond lengths () 0.006 0.006 0.005  Bond angles (deg.) 1.040 1.192 0.750  bTemperature factorN  Overall 37.6 49.7 47.2  TCR 37.8 49.6 47.5  MHC 37.6 50.1 47.1  Peptide 34.7 48.6 37.5  Ramachandran plot  Most favored (%) 91.4 90.7 90.4  Additionally  allowed (%)  8.5 9.2 9.4  Generously  allowed (%)  000  Disallowed (%) 0.1 0.1 0.1  PDB entry 2UWE 2JCC 2J8U  a Rmerge=hkl i |Ii  bIN|/ hkl i, where Ii is the observed  intensity and bIN is the average intensity of multiple observations  of symmetry-related reflections.
+b Numbers in parentheses refer to the highest resolution shell.
+c I/I for the highest resolution shells: 2.492.37 , 2.592.50 ,  3.02.9  (T163A, W167A, and K66A, respectively).
+d R=hkl ||Fobs| k |Fcal||/ hkl|Fobs|, where Rfree is  calculated for a randomly chosen 5% of reflections, and Rwork is  calculated for the remaining 95% of reflections used for structure  refinement.
+e bRs fitN is the average real space fit of all atoms on a 2Fobs   Fcalc electron density map.
+f Error is the mean coordinate error estimate based on  maximum likelihood measurements.
+  MHC Mutation Results in CDR3 Loop Rearrangement 319Figure 4 (legend on next page)  320 MHC Mutation Results in CDR3 Loop Rearrangement2.88  resolution data cannot support the modeling  of water molecules in the structure of AHIII-p1049/  A2(K66A).
+However, there is a small peak in the  2Fo  Fc electron density map that suggests that there  may be a weakly associated water molecule that  would hydrogen bond with Glu63 of A2 and Ser100  on CDR3 of AHIII (Figure 4(f)).
+The only other  plausible hydrogen bond between the AHIII CDR3  to p1049/A2(K66A) is from the Ser102 nitrogen  atom to the Gly4 oxygen atom of the peptide (2.88 )  (Figure 4(f)).
+In summary, there is a large alteration  in the AHIII CDR3 loop when bound to p1049/A2  (K66A) as compared to the wild-type complex, and  this alteration appears to dramatically change the  number of hydrogen bonds in the complex.
+  Calorimetric measurement of AHIII TCR and  HLA-A2 binding  The altered hydrogen bonding pattern proposed  here on the basis of the crystal structure of AHIIIp1049/A2(K66A) suggests that there should be a  large change in the enthalpy of binding.
+To examine  this directly, the heat of binding was measured using  ITC.
+Our data show that the wild-type complex  binding has a relatively small enthalpic component  (3.9 kcal/mol) and that the binding is more  entropically driven (Table 4 and Figure 5(a)).
+As  predicted, this small enthalpic contribution to  binding is almost completely eliminated by mutation of K66 to alanine.
+This change is manifest  clearly during the experiments because the K66A  mutation changes the reaction from exothermic to  endothermic (Figure 5(b)).
+The enthalpy of binding  (H) goes from 3.9 kcal/mol for AHIII-p1049/A2  to almost zero (0.6 kcal/mol) for AHIII-p1049/A2  (K66A).
+The free energy of binding (G) measured  for the two complexes is in agreement with those  determined for other TCR-pMHC (Table 4).
+The thermodynamic changes for AHIII-p1049/A2(K66A)  correspond to a G of only 1.4 kcal/mol, which  highlights the tight range between activating and  non-activating signals for TCR.
+  Discussion  The initial goal of this study was to determine how  structural alterations in the TCR are responsible for  the spectrum of T cell cytolysis by AHIII T cells.
+  Mutations in HLA-A2 were made and changes in  cytolysis examined as a function of the mutation.
+  Recombinant protein for three A2 variants was  produced, and binding constants were determined  by SPR.
+Surprisingly, A2(K66A) showed very different kinetic constants as compared to the wildtype complex.
+Structural studies showed that most  hydrogen bonds involving the CDR3 loop in the  complex were lost upon mutation.
+ITC confirmed a  greatly decreased enthalpy of binding associated  with the conformational change of the loop.
+  On the basis of the AHIII-p1049/A2 co-crystal  structure,28 A2 residues that were predicted to be  involved in binding the AHIIII TCR were mutated.
+  The AHIII T cells reacted with a full spectrum  of outcomes from very low cytotoxicity to slightly  improved cytotoxicity as a result of changing  residues in the interface between the proteins.
+  Residues at positions 662124 and 65, 69 and  1553,29,30 have all been identified as critical contacts  in a number of TCR-pMHC systems.
+Mutations at  all four of these positions in A2 resulted in a  reduction of AHIII T cell cytotoxicity of 30% to  almost 100%.
+Clearly, these residues are critical for  AHIII TCR binding.
+As an important control, it  has been shown that peptide binding does not  change significantly for the mutations studied except  K66A (it has a faster peptide off-rate).22 However,  this faster peptide off-rate cannot account for the  Figure 4.
+Mutation of Lys66 to alanine results in a large change in the CDR3 loop.
+(a) The complex of AHIII TCR  bound to p1049/A2(T163A) superimposed on the wild-type structure of AHIII-A2.
+Mutant A2 (cyan) and peptide (blue)  show little difference from wild-type A2 (yellow) or peptide (orange).
+The conformations of TCR CDR2 and CDR3 loops  and side-chains are not different between the mutant (magenta) and wild-type (green) structures (the coloring scheme is  the same throughout the Figure).
+(b) The complex of AHIII TCR bound to p1049/A2(W167A) also shows no change in  TCR structure and only minor alterations in local MHC side-chains.
+(c) Superimposition with of AHIII TCR bound to  p1049/A2(K66A) onto wild-type shows a major rearrangement of the AHIII CDR3 loop, while the structure of pMHC is  unchanged.
+(a)(c) Mutations at T163A, W167A, and K66A are confirmed by difference electron density (FoFc) contoured  at 3 surrounding the side-chains.
+(d) The 2FoFc density map (blue), contoured at 1 , confirms placement of the final  modeled CDR3 loop at 2.88 . (e) Five hydrogen bond interactions occur between AHIII TCR CDR3 and wild-type  p1049/A2. As shown above, some or all of these bonds may be broken due to loop movement.
+(f) The 2FoFc electron  density suggests the presence of a water molecule in the AHIII-p1049/A2(K66A) structure, which would allow for a  water-mediated hydrogen bond between Glu63 of A2 and Ser100 on CDR3 of AHIII (water is shown for illustration, but  is not included in PDB).
+The only other possible hydrogen bond to CDR3 is from the Ser102 nitrogen atom to the Gly4  oxygen atom of the peptide.
+The Figure was generated using PyMol [http://pymol.sourceforge.net/].
+  Table 3.
+CDR3 movement  Residue Distance ()  Leu96 1.0  Ala97 4.2  Ser98 2.6  Ser99 3.0  Ser100 2.6  Phe101 0.3  Ser102 1.7  Lys103 0.7  Mean 2.0  Distances are limited to two significant figures due to the low  resolution of AHIII-p1049/A2(K66A).
+  MHC Mutation Results in CDR3 Loop Rearrangement 321changes in activity because T cells can be found that  are not affected by the K66A mutation.21,22 This  implies that significant peptide bound to MHC  remains on the cell surface even with the K66A  mutation.
+In addition, the levels of expression of the  various mutants studied here were confirmed to be  similar by flow cytometry (data not shown).
+Therefore, any observed changes in reactivity, binding, or  structure should be due to changes in how the  complexes interact.
+A more thorough study of how  those mutations resulted in a change of function was  then initiated.
+  A sub-set of the MHC mutants that represent  dramatically reduced to full reactivity (K66A,  W167A, and T163A, respectively) were chosen to  study the physical manifestation of the differences.
+  TCR-pMHC binding studies were performed using  SPR.
+While all mutants showed some degree of  change from wild-type A2, the K66A mutation  resulted in remarkably slower on and off-rates than  the wild-type complex.
+The three mutant complexes  were then co-crystallized with AHIII TCR.
+The  structures were determined and compared to the  wild-type co-crystal structure.
+Similar to the results  seen for the altered peptide ligands for the Tax/A2  specific TCR,5 there was no gross differences in any  of the structures examined.
+Significantly, there was  no change in domain packing of the TCR that would  suggest a mode to transmit information through the  domains to the interior of the cell to confer different  activities, as previously suggested.14 There is always  the possibility that the domain movements are  dynamic and/or weakly manifested, and are overcome here by crystal packing forces that would make  it impossible to view using protein crystallography.
+  Similarly, it has been suggested that upon TCR  pMHC interaction, a conformational change in the  AB loop of the TCR C domain is required for  signaling into the cell.8 Although the position of the  AB loop for the non-liganded AHIII TCR is  unknown, the loop in the AHIII TCR bound to all  p1049/A2, even p1049/A2(K66A), is identical, and  is the same conformation as that seen in the liganded  LC13 TCR.8 Importantly, the AB loop in the AHIII  structures are not involved in any crystal contact.
+  These data imply that the AB loop has no impact on  the level of cytotoxicity seen in the AHIII system.
+  There is no definitive structural explanation for  the improved AHIII T cell reactivity for the A2  (T163A) mutant.
+With threonine being conserved in  98% of all known HLA-A2 subtypes,33 we had  expected a greater impact mutating it to alanine.
+If  anything, the rotation of the TCR CDR3 Ser99 into  the cavity formed by the removal of the MHC  threonine side-chain would be expected to contribute negatively to the binding due to the less  favorable rotamer that is chosen.
+There is no  hydrogen bonding partner near the new position  of the serine hydroxyl group.
+There is no significant  increase in the complementarity in the fit between  the complexes.
+The complementarity of fit of AHIII  to p1049/A2(T163A) is 0.72 versus 0.71 for the wildtype structure.
+We conclude that the most likely  explanation for the slightly increased binding  affinity is that there is a set of very subtle changes  that increase the complementarity of fit.
+  The A2(W167A) mutation results in a 20% loss in  lysis by the AHIII T cells.
+There is no significant  structural change other than the loss of the W167-  Y28 hydrogen bond.
+Loss of the W167 indole group  also affects surface complementarity between  AHIII-p1049/A2(W167A) (SC= 0.68) compared to  AHIII-p1049/A2 (SC= 0.71).
+Therefore, the dramatic  loss of affinity to the AHIII TCR is likely a result of  the lost hydrogen bond and the concomitant loss of  complementarity (i.e. van der Waals contacts).
+The  fact that the absence of the indole group from the  end of the peptide-binding cleft in the AHIII-p1049/  A2(W167A) structure did not significantly alter the  conformation of the bound peptide is surprising.
+  Tryptophan is present at position 167 in 96% of all  known HLA-A2 subtypes and 88.5% conserved in  all human class I MHC molecules.33 It begs the  question, why is this amino acid so highly conserved? Unfortunately, the data provided in the  AHIII-p1049/A2(W167A) structure are unable to  address this.
+  Of all the mutants tested, the K66A mutation  caused the largest decrease in AHIII cytolysis.
+The  slow on-rate seen for AHIII-p1049/A2(K66A) and  significant energy barriers measured for other TCRpMHC35,36 imply that there are structural changes  associated with binding and, in fact, a large change  was seen in the CDR3 loop of the AHIII TCR.
+This  Table 4.
+Thermodynamic parameters of TCR-pMHC binding as measured by ITC  Complex H (kcal/mol) TS (kcal/mol) G (kcal/mol) Kd (M) Reference  AHIII-p1049/A2 3.9a 4.4 8.3 1  5  AHIII-p1049/A2(K66A) 0.6b 6.3 6.9 7  20  A6-Tax/A2 5.7 13.6 7.9 2.2 18  JM22-flu/A2 19.7 12.6c 7.1c 6.6c 15  2C-dEV8/Kb 22.7 16.2 6.3 84 17  2C-QL9/Ld 4.19 3.4 7.6 2 19  LC13-FLR/B8 3.6 3.4 7.0 8.1  2.7 17  2B4-MCC/IEk 14.8 8.2 6.7 12.6  7 14  2B4-K5/IEk 13.5 6.4 7.2 6.2  0.2 14  a Error b5%.
+b Error b20%.
+c van't Hoff calculation.
+  322 MHC Mutation Results in CDR3 Loop Rearrangementsuggests that binding requires a conformational  change in the TCR, but when exactly does this  occur? Does the AHIII TCR make initial contact with  p1049/A2(K66A) and then the CDR3 loop moves  (induced fit) or does p1049/A2(K66A) associate  with a minority member of the population of the  AHIII TCRs in solution (pre-existing equilibrium).
+  The induced-fit or two-step model has been a  popular means of describing TCR-pMHC interaction.37 However, the validity of the two-step  model has been questioned by both thermodynamic35 and structural8,9,12 data.
+We propose  that a pre-existing equilibrium model better  describes TCRpMHC association.
+The idea that  CDR loops exist in alternative pre-existing conformations in solution has been shown in antibody  crystal structures.38 Knowing the structural similarities between antibodies and TCR, it is easy to  imagine this binding mechanism to exist for TCR  and pMHC.
+The total number of possible conformations that the CDR loops can adopt is finite and  limited by the conserved framework regions of the  TCR and/or antibody structure.3942 The residues  that constitute the loop will maintain  and  angles  that allow for the lowest potential energy.
+Loops in  higher potential energy conformations would be  found less often in the population (minority  member).
+Therefore, the pMHC surface that allows  the TCR to have the greatest number of its CDR  loops in conformations with the lowest energy  would provide the most stable interaction, a higher  affinity, and subsequent greater activation of the T  cell.
+The structural and thermodynamic data presented here for AHIII TCR-p1049/A2(K66A)  demonstrate this relationship between energetics  and activation.
+When the CDR3 loop is required to  take a conformation with higher energy, the interactions between TCR and pMHC suffer, and T cell  activation is adversely affected.
+As the structure of  AHIII TCR alone is not available, we cannot be sure  where the CDR3 loop lies when it is free in  solution.
+However, the on-rate of AHIII-p1049/A2  (K66A) being an order of magnitude slower than  wild-type AHII-p1049/A2 binding, suggests the  loop to undergo greater change in order to bind  p1049/A2(K66A) than wild-type p1049/A2.
+We  propose the TCR conformations seen in our AHIIIp1049/A2(K66A) complex are minor in the population, so the longer kon is a reflection of the unFigure 5.
+K66A mutation in p1049/A2 decreases the  enthalpy of binding dramatically.
+The binding enthalpy of  AHIII TCR was measured directly with ITC for both wildtype p1049/A2, and p1049/A2(K66A).
+(a) A power versus  molar ratio plot for titration of 234 M p1049/A2 into  19 M of AHIII TCR (upper panel) and a plot of integrated  heat versus molar ratio after baseline correction (lower  panel).
+The baseline was generated by averaging heat  measured for the last ten injections. (b) A plot of power  versus molar ratio for titration of 394 M p1049/A2(K66A)  into 40 M of AHIII TCR (upper panel) and integrated  heat versus molar ratio after baseline correction (lower  panel).
+The baseline derived from titrating p1049/A2  (K66A) into buffer alone.
+All experiments were done at  25 C.
+The fitted curves are from the model for single-site  binding provided in Microcal Origin Software.
+The  thermodynamic parameters determined are given in  Table 4.
+  MHC Mutation Results in CDR3 Loop Rearrangement 323favorable equilibrium of the pMHC binding that  minority member.
+  The AHIII-p1049/A2(K66A) structure also suggested most of the hydrogen bonds found between  AHIII CDR3 and wild-type p1049/A2 are not  present in the mutant structure.
+The conformational  change in CDR3 potentially leaves only the Ser102  to Gly4 hydrogen bond.
+This suggested that the  enthalpy of binding is greatly diminished.
+The ITC  data complement the structural data, as they show  there is a significant loss in binding enthalpy.
+Due to  the small amount of heat absorbed upon AHIIIp1049/A2(K66A) binding, the titration curve generated does not allow for confident analysis of the  entropy in the system.
+However, the endothermic  binding combined with the loss of enthalpy suggests  that the binding of AHIII TCR to p1049/A2(K66A) is  nearly entirely entropically driven.
+For TCR-pMHC  complexes where heats of binding have been measured directly (and inferred from van't Hoff calculations), the enthalpic and entropic contributions are  different for each TCRpMHC system without any  unifying thermodynamic properties.
+Originally it  was thought that TCRpMHC interactions were  governed by enthalpically favorable and entropically unfavorable thermodynamics features;1315  however, AHIII-p1049/A2 joins LC13-FLR/B8,17  A6-Tax/A2,18 and 2C-QL9/Ld19 as TCRpMHC  systems that rely on entropically favorable binding.
+  One of the difficulties associated with studying  diverse receptor systems such as TCR recognition of  pMHC is that it is difficult to extract general rules  about the system.
+However, in the context of what  has been done with other TCRpMHC, there are  some general features that we can present from these  data.
+Previous structural studies have highlighted  TCR recognition of altered peptide ligands,5,12 different peptides presented by the same MHC,4,6,9,43  or the effects of mutation in the TCR to binding,44  but not the structural effects of MHC mutation on  TCRpMHC binding.
+The effects of mutations in  the MHC through biological readout, co-crystal  structures, and thermodynamics suggest a correlation between T cell response and affinity.
+As many  as 32 hydrogen bonds determine specificity in  BM3.3-pBM1/Kb  ,  43 but only 21 in AHIII-p1049/  A228 and approximately 15 in the AHIII-p1049/A2  (K66A) complex.
+The recently determined structure  of 2C-QL9/Ld19 reveals an interface with less than  ten hydrogen bonds and entropically favorable  binding.
+What does this say about specificity?
+  If there are no hydrogen bonds determining  specificity, the only way the TCR can be sure to  recognize only the foreign complex must be  complementarity of fit.
+Not surprisingly perhaps,  AHIII-p1049/A228 and 2C-QL9/Ld19 have the  greatest complementarity of fit of all TCR-pMHC  structures determined to date.
+In addition to other  published results, our data suggest that the  thermodynamics for each TCRpMHC interaction  is unique.
+The large range of thermodynamic  constants reveals that there are many ways to  induce T cell activation.
+This all suggests that the  pathways to activation are not important, just the  end point.
+  Most importantly, the AHIII-p1049/A2(K66A)  structure provides evidence that a variation in the  MHC and not the peptide can directly affect a CDR3  loop.
+The idea of CDR1 and CDR2 recognition of  MHC followed by CDR3 binding to peptide works  for a select few TCR, but not for most.
+In the case of  K66, Lys is not conserved across all MHC (93% of  HLA-A2 subtypes, but only 42.5% conserved in  HLA-A overall, and only 1.5% of HLA-B molecules33).
+Therefore, the presence of this charge is not  required, but can be thought of as another piece of  the antigen surface.
+TCR recognition of the pMHC  surface cannot be divorced into separate binding  events of peptide and MHC.
+  Materials and Methods  Cell lines  The HLA-A2 mutants transfected into Hmy2.C1R cells  have been described.23 All cell lines showed cell surface  expression of HLA-A2 at levels similar to that of wild-type  HLA-A2 as detected by the HLA-A2-specific Ab BB7.2.47  Protein production and purification  Soluble AHIII12.2 TCR was produced as described.28  Briefly, the ectodomains of AHIII TCR  and  chains  were expressed as inclusion bodies in E. coli.
+Purified  inclusion bodies, previously dissolved in 8M urea, were  injected rapidly into a folding buffer optimized for the  AHIII TCR at a final concentration of 50 g/ml.
+After  incubation for 36 h at 10 C and extensive dialysis, the  native TCR was purified and concentrated by DE52 anionexchange chromatography (Whatman, Florham Park, NJ))  followed by gel-filtration chromatography (Phenomenex,  Torrance, CA) on HPLC.
+The purified AHIII TCR was  concentrated to 10 mg/ml and stored at 80 C.
+Soluble  AHIII TCR was tested for proper folding and activity  through an ELISA using HLA-A2 tetramer.
+Typical yield  for each 1 l of refold is about 35 mg of active TCR.
+  Similarly, soluble HLA-A2 variants were produced as  inclusion bodies in E. coli and refolded in vitro.
+  48 Peptide  p1049 (ALWGFFPVL), presented by A2, was synthesized  by the UNC Peptide Synthesis Facility (Chapel Hill, NC).
+  Briefly, peptide, 2m, and heavy chain were injected in  that order into a folding buffer optimized for refolding  class I MHC at a concentration of 50 g/ml.
+After  incubation for 2436 h at 10 C the folded pMHC was  concentrated in an Amicon ultrafiltration cell (Millipore,  Billerica, MA) and purified using gel-filtration chromatography (Phenomenex) on HPLC.
+The purified wild-type  and A2 variants were concentrated to 10 mg/ml and  stored at 80 C.
+Typical yield for each 1 l of refold is about  5 mg of pMHC.
+  Cytotoxicity assay  Cytotoxicity was assayed using a standard 4 h 51Cr  release assay as described.49 Briefly, between 5.0  103 and  5.0  104 AHIII 12.2 T cells were incubated with 5000  peptide-pulsed 51Cr-labeled A2 mutant-transfected cells.
+  324 MHC Mutation Results in CDR3 Loop RearrangementSince p1049 is a human self-antigen, the transfectants were  recognized without the addition of p1049 to the cells.
+  Additional p1049 did not increase cytotoxicity (data not  shown).
+  Surface plasmon resonance experiments  Five-thousand resonance units (RUs) of H57-597 (capturing molecule, anti-TCR C Ab) were covalently bound  to a Biacore CM5 sensor chip (Uppsala, Sweden) using  standard amine coupling.
+Soluble AHIII12.2 TCR (ligand)  was then added to the Ab at a final concentration of  50100 nM to generate 300400 RU of bound TCR.
+Soluble  class I MHC (analyte) was injected onto the surface at a  flow-rate of 100 l/min in a 30 s pulse.
+TCR and MHC  were removed from the surface with 0.1 M glycine  (pH 2.5), 0.5 M NaCl and the procedure was repeated  until at least three curves were obtained for the different  concentrations of analyte.
+Curves obtained at each  concentration were subtracted from a reference surface  that contained Ab alone without TCR or using recombinant P14 TCR as a negative control.
+Data were processed  using Scrubber (BioLogic Software, Campbell, Australia)  and CLAMP.50 The suitability of the fit was measured  based on 2 values and the appearance of residuals.
+In all  cases, 2 was b1, residuals were small and random, and  the experimental curves visually matched the predicted  curves.
+  Protein crystallization and structure determination  The crystallization conditions for the crystal complexes  were similar to those optimized for AHIII TCR with wildtype A2.28 Briefly, crystals were grown by hanging-drop,  vapor-diffusion, using AHIII TCR and A2 variants mixed  at equal ratios at a concentration of 10 mg/ml.
+Drops  contain 1 l of protein solution mixed with 1 l of a well  solution containing 25 mM Hepes (pH 7.58.0), 1 M NaCl,  1418% (w/v) PEG 8000.
+Small crystals formed within  three days along with precipitate in the drops.
+Crystal size  was improved by macro-seeding under identical conditions. Crystals were transferred to mother liquor containing 25% (v/v) glycerol as cryoprotectant.
+Crystallographic  data were collected at the Southeast Regional Collaborative Access Team (SER-CAT) 22-ID and 22-BM beamlines at the Advanced Photon Source, Argonne National  Laboratory (Argonne, IL).
+Data for AHIII-p1049/A2(T163A)  were collected on the 22-BM beamline at 12,398.42 eV for  360 at a distance of 200 mm using 1.0 oscillations.
+Two  datasets for AHIII-p1049/A2(W167A) were collected on  the 22-ID beamline at 12,759.89 eV at a distance of 300 mm  using 1.0 oscillations: a 180 dataset was collected at an   angle of 90 and an additional 45 dataset was collected at  an  angle of 45.
+These datasets were indexed separately  and then scaled together.
+Data for AHIII-p1049/A2(K66A)  were collected on the 22-ID beamline at 12,759.89 eV for  180 at a distance of 300 mm using 1.0 oscillations.
+Data for  all co-crystal complexes were indexed and scaled  with HKL2000.51 The dataset for AHIII-p1049/A2(T163A)  was collected originally out to 2.1 , but it was highly  anisotropic.
+As a result, the statistics in the highest shells  were poor, so the dataset was truncated at 2.4 . Molecular  replacement solutions were determined using rigid body  refinement in Refmac 5.0,52 with AHIII-p1049/A2 (1LP9) as  the search model.28 Temperature factors were set to 30.0  using Moleman.53 Positional refinement using non-crystallographic symmetry restraints for the first few cycles and  TLS refinement54 in Refmac 5.0 was performed iteratively  with manual intervention with O.55 When the statistics  did not improve over two subsequent rounds of refinement and the Rfree value was below 30%, water molecules  were added using Arp within Refmac 5.0 to AHIII-p1049/  A2(T163A) and AHIII-p1049/A2(W167A) models.
+All  water molecules were examined to confirm the presence  of hydrogen bond donors or acceptors at reasonable  geometries.
+For the AHIII-p1049/A2(K66A) model, an  omit map of the CDR3 loop was generated to verify the  conformational change.
+The refinement statistics for the  final models are presented in Table 2.
+Surface complementarity (SC) values were calculated using Sc56 in the  CCP4 suite.52  Isothermal titration calorimetry  ITC experiments on AHIII TCR with wild-type p1049/  A2 and p1049/A2(K66A) were performed on a Microcal  VP-ITC in the UNC Macromolecular Interactions Facility  (Chapel Hill, NC).
+Thermodynamic constants were  obtained for AHIII TCR binding wild-type p1049/A2 as  well as p1049/A2(K66A) by fitting the calorimetric data  using a one-site binding model in Microcal Origin version  5.0 Software (OriginLab Corporation, Northampton, MA).
+  Soluble AHIII TCR was placed in the mixing chamber.
+  p1049/A2 or p1049/A2(K66A) was titrated into the AHIII  TCR solution until binding reached saturation.
+Titration of  wild-type p1049/A2 into AHIII TCR was performed in  duplicate, once in 10 mM sodium phosphate buffer (pH  7.5), and then in 10 mM TrisHCl buffer (pH 7.5), to ensure  that the determined enthalpy was not affected by  ionization enthalpy of the buffer.57 Concentrations of  AHIII TCR and p1049/A2 were 17 M and 217 M,  respectively, in the phosphate buffer and 19 M and  234 M, respectively, in the Tris buffer.
+For wild-type  p1049/A2 experiments, a volume of 3 l was used for the  first four injections, and then 5 l for the remaining  titrations.
+The baseline, generated by averaging the heat  measured for the last ten injections, was subtracted from  all peaks.
+Titration of p1049/A2(K66A) in AHIII TCR was  performed in triplicate in the phosphate buffer.
+Concentrations of AHIII TCR and p1049/A2(K66A) were 40 M  and 618 M, 65 M and 450 M, and 43 M and 394 M,  respectively, for the three replicates.
+For all p1049/A2  (K66A) experiments, a volume of 5 l was injected for the  first four peaks, increased to 10 l for the remainder of the  experiment.
+Because of the relatively small amount of heat  released upon AHIII-p1049/A2(K66A) binding, a more  accurate baseline was determined by injecting p1049/A2  (K66A) into the phosphate buffer to measure the heat of  dilution.
+This reference dataset was subtracted from the  experimental dataset in Origin Software.
+All concentrations were determined before the proteins were placed in  the microcalorimeter using extinction coefficients.
+H and  S were calculated using the Origin software.
+Gibbs free  energy was calculated as G=H  TS, where T= 298 K.  Acknowledgements  We thank Dr William E. Biddison of the Molecular  Immunology Section of the National Institutes of  Health, Bethesda, MD for supplying the HLA-A2  variant cells lines for our cytotoxicity assays.
+Data  MHC Mutation Results in CDR3 Loop Rearrangement 325were collected at the Southeast Regional Collaborative Access Team (SER-CAT) 22-ID beamline at the  Advanced Photon Source, Argonne National  Laboratory.
+Staff at the beamline are acknowledged  for assistance in data collection.
+Use of the  Advanced Photon Source was supported by the  U. S. Department of Energy, Office of Science, Office  of Basic Energy Sciences, under contract no. W-31-  109-Eng-38.
+The director of the UNC Macromolecular Interactions Facility, Dr. Ashutosh Tripathy,  Ph.D. is gratefully acknowledged for his assistance  with collecting and interpreting ITC data.
+Members  of the Collins and Frelinger labs are acknowledged  for helpful discussions.
+Funding provided by NIH  grant CA92368-02.
+  References  1.
+Schatz, D. G. & Spanopoulou, E. (2005).
+Biochemistry  of V(D)J recombination.
+Curr.
+Top.
+Microbiol. Immunol.  290, 4985.  2.
+Spicuglia, S., Franchini, D. M. & Ferrier, P. (2006).
+  Regulation of V(D)J recombination.
+Curr. Opin.
+Immunol. 18, 158163.  3.
+Rudolph, M. G., Stanfield, R. L. & Wilson, I. A. (2006).
+  How TCRs bind MHCs, peptides, and coreceptors.
+  Annu.
+Rev. Immunol. 24, 419466.  4. Degano, M., Garcia, K. C., Apostolopoulos, V.,  Rudolph, M. G., Teyton, L. & Wilson, I. A. (2000).
+A  functional hot spot for antigen recognition in a  superagonist TCR/MHC complex.
+Immunity, 12,  251261.
+  5. Ding, Y. H., Baker, B. M., Garboczi, D. N., Biddison,  W. E. & Wiley, D. C. (1999).
+Four A6-TCR/peptide/  HLA-A2 structures that generate very different T cell  signals are nearly identical.
+Immunity, 11, 4556.  6.
+Garcia, K. C., Degano, M., Pease, L. R., Huang, M.,  Peterson, P. A., Teyton, L. & Wilson, I. A. (1998).  Structural basis of plasticity in T cell receptor recognition of a self peptide-MHC antigen.
+Science, 279,  11661172.
+  7.
+Reiser, J. B., Gregoire, C., Darnault, C., Mosser, T.,  Guimezanes, A., Schmitt-Verhulst, A. M. et al. (2002).
+  A T cell receptor CDR3beta loop undergoes conformational changes of unprecedented magnitude upon  binding to a peptide/MHC class I complex.
+Immunity,  16, 345354.  8.
+Kjer-Nielsen, L., Clements, C. S., Purcell, A. W., Brooks,  A. G., Whisstock, J. C., Burrows, S. R. et al. (2003).
+A  structural basis for the selection of dominant alphabeta  T cell receptors in antiviral immunity.
+Immunity, 18,  5364.  9. Reiser, J. B., Darnault, C., Gregoire, C., Mosser, T.,  Mazza, G., Kearney, A. et al. (2003).
+CDR3 loop  flexibility contributes to the degeneracy of TCR  recognition.
+Nature Immunol. 4, 241247.  10.
+Garboczi, D. N., Ghosh, P., Utz, U., Fan, Q. R.,  Biddison, W. E. & Wiley, D. C. (1996).
+Structure of the  complex between human T-cell receptor, viral peptide  and HLA-A2.
+Nature, 384, 134141.  11. Tynan, F. E., Reid, H. H., Kjer-Nielsen, L., Miles, J. J.,  Wilce, M. C., Kostenko, L. et al. (2007).
+AT cell receptor  flattens a bulged antigenic peptide presented by a  major histocompatibility complex class I molecule.
+  Nature Immunol. 8, 268276.  12.
+Chen, J. L., Stewart-Jones, G., Bossi, G., Lissin, N. M.,  Wooldridge, L., Choi, E. M. et al. (2005).
+Structural and  kinetic basis for heightened immunogenicity of T cell  vaccines.
+J. Expt.
+Med. 201, 12431255.
+  13. Lee, J. K., Stewart-Jones, G., Dong, T., Harlos, K., Di  Gleria, K., Dorrell, L. et al. (2004).
+T cell cross-reactivity  and conformational changes during TCR engagement.
+  J. Expt.
+Med. 200, 14551466.
+  14. Krogsgaard, M., Prado, N., Adams, E. J., He, X. L.,  Chow, D. C., Wilson, D. B. et al. (2003).
+Evidence that  structural rearrangements and/or flexibility during  TCR binding can contribute to T cell activation.
+Mol.  Cell, 12, 13671378.  15. Willcox, B. E., Gao, G. F., Wyer, J. R., Ladbury, J. E.,  Bell, J. I., Jakobsen, B. K. & van der Merwe, P. A.  (1999).
+TCR binding to peptide-MHC stabilizes a  flexible recognition interface.
+Immunity, 10, 357365.
+  16. Garcia, K. C., Radu, C. G., Ho, J., Ober, R. J. & Ward,  E. S. (2001).
+Kinetics and thermodynamics of T cell  receptor- autoantigen interactions in murine experimental autoimmune encephalomyelitis.
+Proc. Natl  Acad. Sci. USA, 98, 68186823.  17.
+Ely, L. K., Beddoe, T., Clements, C. S., Matthews, J. M.,  Purcell, A. W., Kjer-Nielsen, L. et al. (2006).
+Disparate  thermodynamics governing T cell receptor-MHC-I interactions implicate extrinsic factors in guiding MHC  restriction.
+Proc. Natl Acad. Sci. USA, 103, 66416646.  18.
+Davis-Harrison, R. L., Armstrong, K. M. & Baker,  B. M. (2005).
+Two different T cell receptors use different thermodynamic strategies to recognize the  same peptide/MHC ligand.
+J. Mol. Biol. 346, 533550.  19. Colf, L. A., Bankovich, A. J., Hanick, N. A., Bowerman,  N. A., Jones, L. L., Kranz, D. M. & Garcia, K. C. (2007).
+  How a single T cell receptor recognizes both self and  foreign MHC.
+Cell, 129, 135146.
+  20.
+Ellis, J. M., Henson, V., Slack, R., Ng, J., Hartzman, R. J.  & Katovich Hurley, C. (2000).
+Frequencies of HLA-A2  alleles in five U.S. population groups.
+Predominance  Of A*02011 and identification of HLA-A*0231.
+Hum.  Immunol.
+61, 334340.
+  21. Baker, B. M., Turner, R. V., Gagnon, S. J., Wiley, D. C. &  Biddison, W. E. (2001).
+Identification of a crucial  energetic footprint on the alpha1 helix of human  histocompatibility leukocyte antigen (HLA)-A2 that  provides functional interactions for recognition by tax  peptide/HLA-A2-specific T cell receptors.
+J. Expt.
+  Med. 193, 551562.  22.
+Baxter, T. K., Gagnon, S. J., Davis-Harrison, R. L.,  Beck, J. C., Binz, A. K., Turner, R. V. et al. (2004).
+  Strategic mutations in the class I major histocompatibility complex HLA-A2 independently affect both  peptide binding and T cell receptor recognition.
+J. Biol.  Chem. 279, 2917529184.  23.
+Wang, Z., Turner, R., Baker, B. M. & Biddison, W. E.  (2002).
+MHC allele-specific molecular features determine peptide/HLA-A2 conformations that are recognized by HLA-A2-restricted T cell receptors.
+J. Immunol.  169, 31463154.
+  24.
+Gagnon, S. J., Borbulevych, O. Y., Davis-Harrison,  R. L., Baxter, T. K., Clemens, J. R., Armstrong, K. M.  et al. (2005).
+Unraveling a hotspot for TCR recognition on HLA-A2: evidence against the existence of  peptide-independent TCR binding determinants.
+  J. Mol. Biol. 353, 556573.  25.
+Engelhard, V. H. & Benjamin, C. (1982).
+Isolation and  characterization of monoclonal mouse cytotoxic T  lymphocytes with specificity for HLA-A,B or -DR  alloantigens.
+J. Immunol.
+129, 26212629.
+  26. Henderson, R. A., Cox, A. L., Sakaguchi, K., Appella,  E., Shabanowitz, J., Hunt, D. F. & Engelhard, V. H.  (1993).
+Direct identification of an endogenous peptide  326 MHC Mutation Results in CDR3 Loop Rearrangementrecognized by multiple HLA-A2.1-specific cytotoxic T  cells.
+Proc. Natl Acad. Sci. USA, 90, 1027510279.  27.
+Buslepp, J., Kerry, S. E., Loftus, D., Frelinger, J. A.,  Appella, E. & Collins, E. J. (2003).
+High affinity  xenoreactive TCR:MHC interaction recruits CD8 in  absence of binding to MHC.
+J. Immunol. 170, 373383.  28.
+Buslepp, J., Wang, H., Biddison, W. E., Appella, E. &  Collins, E. J. (2003).
+A correlation between TCR Valpha  docking on MHC and CD8 dependence: implications  for T cell selection.
+Immunity, 19, 595606.  29. Tynan, F. E., Burrows, S. R., Buckle, A. M., Clements,  C. S., Borg, N. A., Miles, J. J. et al. (2005).
+T cell receptor  recognition of a super-bulged major histocompatibility complex class I-bound peptide.
+Naturer Immunol.
+6, 11141122.
+  30. Clements, C. S., Dunstone, M. A., Macdonald, W. A.,  McCluskey, J. & Rossjohn, J. (2006).
+Specificity on a  knife-edge: the alphabeta T cell receptor.
+Curr. Opin.  Struct.
+Biol. 16, 787795.  31.
+Lovell, S. C., Davis, I. W., Arendall, W. B., 3rd, de Bakker,  P. I., Word, J. M., Prisant, M. G. et al. (2003).
+Structure  validation by Calpha geometry: phi,psi and Cbeta  deviation.
+Proteins: Struct. Funct. Genet.
+50, 437450.
+  32.
+Madden, D. R. (1995).
+The three-dimensional structure of peptide-MHC complexes.
+Annu. Rev. Immunol.
+  13, 587622.  33. Robinson, J., Waller, M. J., Parham, P., de Groot, N.,  Bontrop, R., Kennedy, L. J. et al. (2003).
+IMGT/HLA  and IMGT/MHC: sequence databases for the study of  the major histocompatibility complex.
+Nucl. Acids Res.  31, 311314.  34. Ding, Y. H., Smith, K. J., Garboczi, D. N., Utz, U.,  Biddison, W. E. & Wiley, D. C. (1998).
+Two human T  cell receptors bind in a similar diagonal mode to the  HLA-A2/Tax peptide complex using different TCR  amino acids.
+Immunity, 8, 403411.  35.
+Davis-Harrison, R. L., Insaidoo, F. K. & Baker, B. M.  (2007).
+T cell receptor binding transition states and recognition of peptide/MHC.
+Biochemistry, 46, 18401850.  36. Wu, W., Harley, P. H., Punt, J. A., Sharrow, S. O. &  Kearse, K. P. (1996).
+Identification of CD8 as a peanut  agglutinin (PNA) receptor molecule on immature  thymocytes.
+J. Expt.
+Med. 184, 759764.  37. Wu, L. C., Tuot, D. S., Lyons, D. S., Garcia, K. C. &  Davis, M. M. (2002).
+Two-step binding mechanism for  T-cell receptor recognition of peptide MHC.
+Nature,  418, 552556.  38. James, L. C., Roversi, P. & Tawfik, D. S. (2003).
+  Antibody multispecificity mediated by conformational diversity.
+Science, 299, 13621367.  39. Chothia, C., Lesk, A. M., Tramontano, A., Levitt, M.,  Smith-Gill, S. J., Air, G. et al. (1989).
+Conformations of  immunoglobulin hypervariable regions.
+Nature, 342,  877883.  40. Chothia, C., Lesk, A. M., Gherardi, E., Tomlinson, I. M.,  Walter, G., Marks, J. D. et al. (1992).
+Structural  repertoire of the human VH segments.
+J. Mol. Biol.  227, 799817.
+  41. Al-Lazikani, B., Lesk, A. M. & Chothia, C. (1997).  Standard conformations for the canonical structures  of immunoglobulins.
+J. Mol. Biol. 273, 927948.  42. Morea, V., Tramontano, A., Rustici, M., Chothia, C. &  Lesk, A. M. (1998).
+Conformations of the third  hypervariable region in the VH domain of immunoglobulins. J. Mol. Biol. 275, 269294.  43.
+Reiser, J. B., Darnault, C., Guimezanes, A., Gregoire,  C., Mosser, T., Schmitt-Verhulst, A. M. et al. (2000).  Crystal structure of a T cell receptor bound to an  allogeneic MHC molecule.
+Nature Immunol. 1,  291297.
+  44.
+Borg, N. A., Ely, L. K., Beddoe, T., Macdonald, W. A.,  Reid, H. H., Clements, C. S. et al. (2005).
+The CDR3  regions of an immunodominant T cell receptor dictate  the 'energetic landscape' of peptide-MHC recognition.
+  Nature Immunol. 6, 171180.  45. Murshudov, G. N., Vagin, A. A. & Dodson, E. J. (1997).
+  Refinement of macromolecular structures by the  maximum-likelihood method. Acta Crystallog.
+sect.
+D,  53, 240255.  46. Reed, N. S. P. a. R. J. (1996).
+Improved structure refinement through maximum likelihood.
+Acta Crystallog.  sect.
+A, 52, 659668.  47. Brodsky, F. M., Parham, P., Barnstable, C. J.,  Crumpton, M. J. & Bodmer, W. F. (1979).
+Monoclonal  antibodies for analysis of the HLA system.
+Immunol.  Rev. 47, 361.  48.
+Garboczi, D. N., Hung, D. T. & Wiley, D. C. (1992).
+  HLA-A2-peptide complexes: refolding and crystallization of molecules expressed in Escherichia coli and  complexed with single antigenic peptides.
+Proc. Natl  Acad. Sci. USA, 89, 34293433.  49. Loftus, D. J., Chen, Y., Covell, D. G., Engelhard, V. H.  & Appella, E. (1997).
+Differential contact of disparate class I/peptide complexes as the basis for  epitope cross-recognition by a single T cell receptor.
+  J. Immunol. 158, 36513658.  50.
+Myszka, D. G. & Morton, T. A. (1998).
+CLAMP: a biosensor kinetic data analysis program.
+Trends Biochem.  Sci. 23, 149150.  51.
+Otwinowski, Z. & Minor, W. (1997).
+Processing of  X-ray diffraction data collection in oscillation mode.
+  Methods Enzymol. 276, 307326.  52. (1994).
+The CCP4 suite: programs for protein crystallography.
+Acta Crystallog. sect.
+D, 50, 760763.  53. Kleywegt, G. J. (19922004).
+Uppsala University,  Uppsala, Sweden.  54.
+Winn, M. D., Isupov, M. N. & Murshudov, G. N.  (2001).
+Use of TLS parameters to model anisotropic  displacements in macromolecular refinement.
+Acta  Crystallog.
+sect.
+D, 57, 122133.  55. Jones, T. A., Zou, J. Y., Cowan, S. W. & Kjeldgaard  (1991).
+Improved methods for building protein  models in electron density maps and the location of  errors in these models.
+Acta Crystallog. sect.
+A, 47,  110119.
+  56. Lawrence, M. C. & Colman, P. M. (1993).
+Shape  complementarity at protein/protein interfaces. J. Mol.  Biol. 234, 946950.
+  57. Baker, B. M. & Murphy, K. P. (1996).
+Evaluation of  linked protonation effects in protein binding reactions  using isothermal titration calorimetry.
+Biophys. J. 71,  20492055.  Edited by I. Wilson  (Received 17 April 2007; received in revised form 7 July 2007; accepted 10 July 2007)  Available online 26 July 2007  MHC Mutation Results in CDR3 Loop Rearrangement 327

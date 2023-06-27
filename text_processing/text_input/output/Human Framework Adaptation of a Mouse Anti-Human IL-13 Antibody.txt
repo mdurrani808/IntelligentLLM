@@ -1,0 +1,1273 @@
+Human Framework Adaptation of a Mouse Anti-Human
+IL-13 Antibody
+Johan Fransson1
+†, Alexey Teplyakov2
+†, Gopalan Raghunathan1
+†,
+Ellen Chi1
+, Wendy Cordier1
+, Thai Dinh1
+, Yiqing Feng2
+, Jill Giles-Komar2
+,
+Gary Gilliland2
+, Bridget Lollo1
+, Thomas J. Malia2
+, Walter Nishioka1
+,
+Galina Obmolova2
+, Shanrong Zhao1
+, Yonghong Zhao2
+,
+Ronald V. Swanson1 and Juan C. Almagro2
+⁎
+1
+Centocor R&D, Inc., 3210
+Merryfield Row, San Diego,
+CA 92121, USA
+2
+Centocor R&D, Inc., 145 King
+of Prussia Road, Radnor,
+PA 19087, USA
+Received 12 January 2010;
+received in revised form
+2 March 2010;
+accepted 3 March 2010
+Available online
+10 March 2010
+Humanization of a potent neutralizing mouse anti-human IL-13 antibody
+(m836) using a method called human framework adaptation (HFA) is
+reported. HFA consists of two steps: human framework selection (HFS) and
+specificity-determining residue optimization (SDRO). The HFS step
+involved generation of a library of m836 antigen binding sites combined
+with diverse human germline framework regions (FRs), which were
+selected based on structural and sequence similarities between mouse
+variable domains and a repertoire of human antibody germline genes.
+SDRO consisted of diversifying specificity-determining residues and
+selecting variants with improved affinity using phage display. HFS of
+m836 resulted in a 5-fold loss of affinity, whereas SDRO increased the
+affinity up to 100-fold compared to the HFS antibody. Crystal structures of
+Fabs in complex with IL-13 were obtained for m836, the HFS variant chosen
+for SDRO, and one of the highest-affinity SDRO variants. Analysis of the
+structures revealed that major conformational changes in FR-H1 and FR-H3
+occurred after FR replacement, but none of them had an evident direct
+impact on residues in contact with IL-13. Instead, subtle changes affected
+the VL/VH (variable-light domain/variable-heavy domain) interface and
+were likely responsible for the 5-fold decreased affinity. After SDRO,
+increased affinity resulted mainly from rearrangements in hydrogen￾bonding pattern at the antibody/antigen interface. Comparison with
+m836 putative germline genes suggested interesting analogies between
+natural affinity maturation and the engineering process that led to the
+potent HFA anti-human IL-13 antibody.
+© 2010 Elsevier Ltd. All rights reserved.
+Edited by I. Wilson
+Keywords: antibody engineering; humanization; affinity maturation; X-ray
+crystallography; phage display
+*Corresponding author. E-mail address: jalmagro@its.jnj.com.
+† J.F., A.T., and G.R. contributed equally to this study.
+Present address: B. Lollo, SomaLogic, Inc., 2945 Wilderness Place, Boulder, CO 80304, USA.
+Abbreviations used: HFA, human framework adaptation; HFS, human framework selection; SDRO, specificity￾determining residue optimization; FR, framework region; HACA, human anti-chimeric antibody; CDR,
+complementarity-determining region; wt, wild type; PDB, Protein Data Bank; b-IL-13R111Q, biotinylated IL-13R111Q;
+IL-13Rα2, IL-13 receptor α2; PBS, phosphate-buffered saline; mAb, monoclonal antibody; PEG, polyethylene glycol.
+doi:10.1016/j.jmb.2010.03.004 J. Mol. Biol. (2010) 398, 214–231
+Available online at www.sciencedirect.com
+0022-2836/$ - see front matter © 2010 Elsevier Ltd. All rights reserved.Introduction
+Humanization has played a fundamental role in
+the approval of antibody-based drugs by the Food
+and Drug Administration.1 The goal of a humaniza￾tion protocol is to produce molecules with minimal
+immunogenicity when applied to humans while
+retaining the specificity and potency of the parental
+nonhuman antibody. The first step toward making
+nonhuman antibodies more human-like was
+chimerization.2 It consisted of combining the vari￾able domains of nonhuman antibodies with human
+constant domains to generate molecules with ∼70%
+human content. Chimeric antibodies successfully
+retained parental antibody specificity, but still
+elicited a human anti-chimeric antibody (HACA)
+response. The incidence and effect of such a response
+varied depending on the antibody and indication or
+patient population.3,4 For instance, rituximab did not
+induce a HACA response when administered for the
+treatment of non-Hodgkin's lymphoma,5 whereas
+abciximab indicated for percutaneous coronary
+intervention induced a HACA response in 19.0% of
+patients after readministration.6
+In a further attempt to minimize immunogenicity,
+Jones et al. envisioned complementarity-determin￾ing region (CDR) grafting.7 It was first applied to
+humanize an antibody with therapeutic value in the
+treatment of B-cell chronic lymphocytic leukemia,8
+currently marketed as Campath® (generic name:
+alemtuzumab).9 In subsequent work, Queen et al.10
+humanized the first antibody approved by the Food
+and Drug Administration for therapeutic use in the
+United States, termed daclizumab, now with well￾established indication for organ transplantation.11
+Daclizumab was generated by identifying the
+human framework regions (FRs) with the highest
+level of homology to the mouse antibody sequence.
+Mouse CDRs were then grafted onto human FRs
+together with a set of key mouse amino acids
+outside the CDRs identified as interacting with the
+CDRs or the antigen (i.e., backmutations).10 This
+improvement to the original CDR grafting method
+led to a molecule that retained one-third the affinity
+of the parental nonhuman antibody.
+After these pioneering works, a large number of
+CDR-grafted antibodies have been reported, with
+concomitant affinity losses.12 Thus, when starting a
+humanization project, one should be aware that any
+mutation introduced in the variable region could, in
+principle, affect antibody conformation and hence
+antigen binding. For instance, Foote and Winter
+identified a set of residues referred to as the “Vernier
+Zone,” which modulates the conformation and
+positioning of CDRs and consequently impacts
+affinity.13 Residues involved in the VL/VH (vari￾able-light domain/variable-heavy domain) interface
+have also been found to play an important role in
+affinity modulation.14 Furthermore, Wedemayer
+et al. have shown that the affinity of an anti-hapten
+antibody could be increased by more than 4 orders
+of magnitude through mutations located 10 Å away
+from the hapten binding site.15 Similar findings have
+more recently been reported for anti-protein
+antibodies.16 Therefore, several rounds of design
+and testing might be needed to determine the
+minimum number of backmutations required for
+restoring or improving the affinity of the humanized
+antibody. This process is termed design cycle.1
+To simplify the design cycle, Dall'Acqua et al.
+developed a humanization method based on the
+generation of a library of humanized antibody
+variants by combining nonhuman CDRs with a
+repertoire of mixed human germline FRs, followed
+by selection of variants with improved binding
+profiles.17 For this method, called FR shuffling,
+there is no need to design backmutations. Instead,
+it allows for the selection of the most favorable
+combinations of FRs in terms of maintaining parental
+antibody binding. Because a large number of human
+FRs are mixed and matched, a large combinatorial
+space can be sampled, significantly increasing the
+expected success rate of this strategy. The method
+was applied to humanize an antibody with a
+potential indication for cancer therapy.17 Still, the
+best variants had an affinity 5-fold to 8-fold lower
+than that of the parental antibody.17 Therefore,
+depending on the indication of the antibody-based
+drug, affinity may need to be restored or in some
+cases improved beyond that of the parental antibody.
+Affinity maturation is typically accomplished by a
+display technology that allows the selection of
+variants from large combinatorial libraries (e.g.,
+phage,18 ribosome,19 or yeast display20). The most
+critical step of the in vitro affinity optimization is the
+diversification scheme, of which there are two schools
+of thought. Diversity is either introduced randomly
+across the variable gene21,22 or targeted to specific
+regions of the antibody such as CDRs, with amino
+acids in critical positions left invariant (determined
+by, e.g., alanine scanning mutagenesis).23 The inher￾ent properties of ribosome display (i.e., PCR ampli￾fication between selection rounds) make it well suited
+for the former, whereas the latter is typically applied
+to phage and yeast display. As the need for very￾high-affinity antibodies is becoming commonplace in
+therapeutic programs, combinations of different
+display systems with both random and targeted
+mutagenesis schemes have been implemented to
+meet such goals.24,25
+IL-13 is a member of the short-chain four-helix￾bundle family of growth-hormone-like cytokines.26
+It has been shown to be a significant risk factor for
+asthma development,27,28 and treatment with an IL￾13 neutralizing antibody in a mouse model inhibited
+asthmatic response in stimulated animals.29 We
+recently reported a potent anti-IL-13 neutralizing
+antibody obtained by phage display.30 Here we
+describe the humanization of a mouse anti-human
+IL-13 antibody (m836) using a method called human
+framework adaptation (HFA). The HFA method
+consisted of two steps: (i) human germline FR
+selection [human framework selection (HFS)], fol￾lowed by (ii) affinity improvement of HFS variants
+by specificity-determining residue optimization
+(SDRO). In the first step, a relatively small library
+Human Adaptation of a Mouse Anti-Human IL13 Antibody 215Fig. 1. Alignment of parental VL m836, its putative mouse IGKV germline gene (mGL), and VL HFS library variants (L1–L15). Kabat's CDRs, Chothia's hypervariable HV
+loops, and HFA regions used to generate the HFS library are shown on top of the alignment. Numbering and gaps follow the conventions of Chothia and Lesk.36 The second
+column indicates the name of the human IGKV/IGKJ germline genes used as FR donors, as reported in the ImMunoGeneTics database.34,35
+216 Human Adaptation of a Mouse Anti-Human IL13 AntibodyFig. 2. Alignment of parental VH m836, its putative mouse IGHV germline gene, and VH HFS library variants. Numbering and nomenclature are similar to those used in Fig. 1.
+The second column refers to germline gene usage. For mGL, the putative IGHV/IGHD/IGHJ is given. For the VH HFS library variants, only IGHV/IGHJ is given. Note that one
+variant (H4) was designed using Kabat's definition in CDR-H1.
+217 Human Adaptation of a Mouse Anti-Human IL13 Antibodyof HFS variants was generated by combining the
+binding site of m836 with human germline genes
+selected based on sequence and structural consid￾erations. In the second step, residues proposed to be
+involved in the interaction with antigen31 were
+diversified in one of the best HFS variants, and
+clones with improved affinity were selected using
+phage display. To gain insight into the consequences
+of adapting the m836 binding site to human FRs and
+improving affinity by specificity-determining resi￾due variation, we solved the Fab crystal structures
+of m836, the HFS variant chosen for SDRO, and one
+of the best SDRO molecules in complex with IL-13.
+Detailed analysis of the structures revealed that both
+global and local changes affected the interaction
+with IL-13 after HFS and SDRO.
+Results and Discussion
+m836 and its interaction with human IL-13
+m836 was obtained by hybridoma technology,32
+immunizing Balb/c mice with a natural variant of
+human IL-13 known as R130Q.33 It should be noted
+that this numbering refers to the full sequence as in
+Swiss-Prot entry IL13_HUMAN prior to January
+2010; now it should be R144Q when including the
+signal peptide or R111Q of the mature sequence,
+which is adopted throughout this work. The
+putative germline genes of m836 were determined
+by V-Quest at the international ImMunoGeneTics
+information system®‡34,35 (see top of Figs. 1 and 2
+for m836 VL and VH amino acid sequences,
+respectively). The IGKV and IGKJ germline genes
+closest to m836 VL were IGKV12-104*01 and
+IGKJ2*01, with only two mutations: one in FR-L1
+(Ile21Leu) and another in FR-L3 (Tyr87Phe). IGHV8-
+8*01 was identified as the IGHV germline gene
+precursor of m836 VH. It differed from m836 by
+eight amino acid residues: four located in CDRs
+(Kabat's definition)37 (Phe31aTyr in CDR-H1,
+Asp56Val and Tyr58Arg in CDR-H2, and Ile95Met
+in CDR-H3 and the remaining four located in FR3
+(Lys75Gly, Asn76Ser, Asn80bSer, and Ala85Ser).
+The IGHD and IGHJ genes closest to m836 VH were
+IGHD2-4*01 and IGHJ3*01, respectively, with no
+somatic mutations.
+To gain insight into the interaction of m836 with
+IL-13, we determined the structure of the chimeric
+ch836 Fab (m836 variable domains and human
+IgG1/κ constant domains) in complex with wild￾type (wt) IL-13 at 2.0 Å resolution (Table 1) and
+deposited it in the Protein Data Bank (PDB) (PDB
+code 3L5W). The antibody/antigen interface covers
+620 Å2 on each of the interacting molecules.
+Residues at the structural epitope and paratope, as
+defined by a 4-Å cutoff interatomic distance, are
+shown in Fig. 3. The epitope (Fig. 3a) includes eight
+Table 1. X-ray data and refinement statistics
+ch836 H2L6 M1295
+Data
+Space group P21 P212121 P212121
+Unit cell axes (Å) 76.62, 65.56, 118.74 63.78, 73.02, 114.86 63.37, 72.50, 114.20
+Unit cell angles (°) 90, 107.02, 90 90, 90, 90 90, 90, 90
+Molecules/asymmetric unit 2 1 1
+Vm (Å3
+/Da) 2.35 2.23 2.18
+Solvent content (%) 48 45 43
+Resolution (Å) 20–2.0 (2.07–2.00) 64–1.9 (1.97–1.90) 48–2.8 (2.90–2.80)
+Number of measured reflections 422,024 (24,186) 693,142 (14,717) 231,503 (18,539)
+Number of unique reflections 76,032 (7453) 42,621 (3859) 13,539 (1328)
+Completeness (%) 99.7 (98.6) 98.9 (91.1) 99.9 (99.9)
+Redundancy 5.6 (3.3) 16.3 (3.8) 17.1 (14.0)
+Rmerge 0.083 (0.415) 0.084 (0.392) 0.088 (0.419)
+〈I/σ(I)〉 9.7 (2.4) 14.5 (2.3) 12.1 (3.5)
+B-factor (Wilson) (Å2
+) 38.3 36.5 64.0
+Refinement
+Resolution (Å) 15–2.0 15–1.9 15–2.8
+Number of reflections used in refinement 72,036 41,061 12,619
+Number of atoms 8510 4498 3994
+Number of water molecules 426 352 0
+R-factor (%) 20.5 19.7 21.1
+Rfree (5% data) (%) 25.3 24.7 26.5
+RMSD bond lengths (Å) 0.011 0.012 0.011
+RMSD bond angles (°) 1.4 1.4 1.5
+Mean B-factor (Å2
+) 49.5 48.7 55.6
+Ramachandran plot
+Most favored (%) 88.8 90.1 85.3
+Additionally allowed (%) 10.3 9.0 14.1
+Generously allowed (%) 0.9 0.9 0.7
+Disallowed (%) 0.0 0.0 0.0
+PDB code 3L5W 3L5X 3L5Y
+Values for the highest-resolution shell are indicated inside the parentheses.
+‡ http://imgt.cines.fr
+218 Human Adaptation of a Mouse Anti-Human IL13 Antibodyresidues: three from helix A (Arg11, Ile14, and
+Glu15) and five from helix D (Leu101, Lys104,
+Phe107, Arg108, and Glu109). Arg11 and Arg108
+seem to be key epitope residues, since they
+participate in numerous interactions with ch836.
+Arg11 stacks with the VL residue Tyr32 and forms
+hydrogen bonds with the VH residue Asp100 and
+the VL residue His91. Arg108 is positioned with its
+aliphatic side chain against VH Trp52, and with the
+guanidinium group opposite Asp54 at VH as well.
+Comparison with another IL-13 neutralizing anti￾body recently published by our group,30 CNTO607,
+indicates that five of the eight residues defining
+ch836 epitope overlap with residues in contact with
+CNTO607, thus suggesting a similar mechanism of
+IL-13 receptor inhibition (Teplyakov et al., manu￾script in preparation).
+The ch836 paratope (Fig. 3b) is defined by 12
+residues located in all CDRs, except for CDR-L2. VH
+has the predominant role in the interaction, with
+nine residues contacting IL-13 (Tyr31a, Trp52,
+Trp53, Asp54, Val56, Arg58, Asp98, Tyr99, and
+Asp100). VL has three contact residues (Tyr32,
+His91, and Asn92). The key anchor residue is
+Tyr32, which stacks against Arg11 and forms a
+hydrogen bond with Glu15 of IL-13. Comparison
+with antibodies of known structure indicates that
+the main-chain conformation of hypervariable loops
+Fig. 3. (a) Epitope recognized by ch836 on IL-13. Residues identified as in contact, using a 4-Å distance cutoff, are
+shown in red. (b) m836 paratope. Only VH and VL are shown to simplify the figure. All figures were created in PyMOL,
+except when stated otherwise.38
+Human Adaptation of a Mouse Anti-Human IL13 Antibody 219follows one of the established canonical structure
+types,39 namely, types 2, 1, and 1 in CDR-L1, CDR￾L2, and CDR-L3, respectively, and types 3 and 1 in
+CDR-H1 and CDR-H2, respectively.
+To visualize the positions of putative somatic
+hypermutations that lead to the in vivo maturation of
+m836, we show the antibody/antigen complex in
+Fig. 4. Three out of four mutated positions in CDRs
+contact IL-13 (Tyr31a, Val56, and Arg58). The
+Ile95Met residue in CDR-H3 is buried and thus
+does not contact the antigen. As part of the
+characterization of the m836 antibody interaction
+with IL-13, we performed an alanine scan40 of the
+residues in CDRs. Alanine replacements of any of
+the three somatic mutations in contact residues
+resulted in a dramatic loss of binding. This
+suggested that mutations in these residues had a
+contribution to the in vivo affinity maturation of
+m836. Moreover, two of the four somatic mutations
+in FR-H3 (Gly75 and Ser76) are residues adjacent to
+the binding site in a loop known to have high
+variability values,41,42 which we will refer to as
+Fig. 4. IL-13/ch836 complex. Side chains of the residues identified as putative somatic mutations (Figs. 1 and 2) are
+indicated in red and labeled accordingly.
+220 Human Adaptation of a Mouse Anti-Human IL13 AntibodyCDR-H4. It has been shown that mutations at these
+residues can modulate the affinity of antibodies.43
+Thus, somatic mutations in CDR-H4 could also have
+contributed to the in vivo affinity maturation of
+m836.
+HFS and its impact on IL-13 interaction
+The first step in the HFA strategy was to generate
+a library of human FR variants by combining
+Kabat's CDRs and Chothia's hypervariable regions
+of m836 (defined in Figs. 1 and 2) with diverse
+human germline genes (HFS library). The HFS
+library included 6 VH chains (H1–H6) and 15 VL
+chains (L1–L15), designed based on sequence and
+structural similarities with the variable regions of
+m836. Three human FRs were selected from the VH2
+germline gene family, two human FRs were selected
+from the VH4 family, and one human FR was
+selected from the VH3 family. For FR4, human IGHJ￾1 was chosen. The VL library was built by combining
+11 genes from the Vk1 gene family and 2 genes each
+from the Vk2 and Vk3 families with IGHJ-1, IGHJ-2,
+IGHJ-4, and IGHJ-5 genes.
+All 90 HFS variants were produced in IgG1 format
+by transfection of each HFS VL variant paired with
+each HFS VH variant. The resulting library was
+initially screened using direct binding to biotiny￾lated IL-13R111Q (b-IL-13R111Q) in solution and
+the ability to inhibit IL-13R111Q from binding to IL￾13 receptor α2 (IL-13Rα2) (Fig. 5). Both assays
+showed similar results, although the receptor
+inhibition assay allowed better discernment of
+differences among the VL and VH combinations.
+The H2 variant exhibited the best binding profile in
+both assays combined with all VL chains, except for
+L7, L9, L12, and L13. The promiscuity of VL usage is
+consistent with the predominant role of m836 VH in
+the interaction with IL-13.
+To further characterize the interaction of HFS
+variants with wt IL-13, we evaluated five VL chains
+combined with H2 (H2L2, H2L3, H2L6, H2L8, and
+H2L14) by BIAcore (Table 2). In addition, two VL
+variants with H1—one positive in inhibition assays
+(H1L3) and one negative in both assays (H1L7)—
+were tested. The affinity of the parent m836
+antibody and the chimeric ch836 antibody was
+also determined. m836 and ch836 had the same
+Fig. 5. HFS library screening. VL and VH regions of the HFS library (Figs. 1 and 2) were cloned into mAb vectors for
+matrix transfection and production of intact IgG1 antibodies. A total of 90 clones were tested for binding (left) and
+receptor inhibition (right) by ELISA. The performance of each mAb was ranked, and the color scheme indicates activity in
+the two assays, with green being most active, black being average, and red being the least active.
+Table 2. Kinetic parameters of HFS variants interaction with wt IL-13 measured by surface plasmon resonance
+Antibody mAb ID Affinity Kd [pM] ka [(ms−1
+) × 104
+] kd [(s−1
+) × 10−4
+]
+Mouse m836 52 ± 10 977 ± 189 5.06 ± 0.13
+Chimera ch846 54 ± 11 1030 ± 7 5.57 ± 1.01
+H2L14 256 ± 19 652 ± 43 16.7 ± 0.5
+H2L8 272 ± 22 648 ± 25 17.6 ± 1.3
+H2L6 269 ± 24 647 ± 7 17.4 ± 1.6
+HFS variants H2L3 246 ± 24 633 ± 16 15.6 ± 1.5
+H2L2 365 ± 15 563 ± 16 20.6 ± 0.6
+H1L7 132,000 ± 43,000 1.62 ± 0.4 21.5 ± 4.5
+H1L3 529 ± 56 552 ± 51 29.2 ± 1.7
+Human Adaptation of a Mouse Anti-Human IL13 Antibody 221affinity for IL-13 (50 pM). Consistent with results
+from binding and inhibition assays (Fig. 5), H2
+combinations showed similar Kd values (250–
+370 pM). H1L3 exhibited a 2-fold affinity loss
+(530 pM) with respect to the H2 variant having the
+same VL. H1L7 expected to yield poor binding
+indeed showed a 2000-fold loss in affinity when
+compared to m836.
+Human FRs used to build H1 and H2 (Fig. 2)
+belong to the same VH germline gene family
+(IGHV-2). These two genes only differ by four
+amino acids in the FRs: three in FR1 (positions 10, 16,
+and 24) and one in FR3 (position 76). Mutations in
+positions 10 and 16 are distant from the IL-13
+binding site, whereas the residues at positions 24
+and 76 are in close proximity to the CDRs. m836 and
+H1 have a Phe in position 24, whereas H2 has a Val.
+In the structure of ch836 with IL-13, the side chain of
+Phe24 packs against Leu29, the anchor residue of the
+canonical structure at CDR-H1.39 The mutation in
+position 76 is located in CDR-H4, which contacts
+CDR-H1. Thus, amino acid replacements at posi￾tions 24 and 76 may account for the 2-fold difference
+in affinity between the HFS H1 and H2 variants.
+Remarkably, H4, H5, and H6 variants have a
+substitution at residue 71. In m836, this position
+has a Lys, which is retained in H1, H2, and H3,
+whereas it is replaced with Val in H4 and H5, and
+with Arg in H6. Position 71 is known to influence the
+canonical structure of CDR-H2.44,45 Thus, a change
+in this position could have contributed to loss of
+binding in combinations with H4, H5, and H6.
+Structural changes upon HFS
+To gain insight into how the FR replacement
+affected m836 interaction with wt IL-13, we solved
+the structure of the H2L6 Fab/IL-13 complex at
+1.9 Å resolution (Table 1). Comparison with the
+crystal structure of ch836 in complex with IL-13
+Fig. 6. (a) Trace superposition of parental ch836 (VH, blue; VL, cyan) and the HFS variant H2L6 (VH, orange; VL,
+yellow). CDRs and the regions with major conformational changes (CDR-H4 and FR-H1 kink) are labeled. (b)
+Comparison of the CDR-H4 regions between ch836 (blue) and H2L6 (orange). (c) Comparison of the FR-H1 kink regions
+between ch836 (blue) and H2L6 (orange). The supposition and figures were generated with Discovery Studio (Accelrys).
+222 Human Adaptation of a Mouse Anti-Human IL13 Antibodyindicated that the epitope was preserved after HFS.
+The local conformation of the CDRs was also
+preserved (Fig. 6a). Only two major conformational
+changes in VH were observed: one is at CDR-H4 (Fig.
+6b), and the other is around Pro9 in FR-H1 (Fig. 6c).
+In both regions, the main-chain shift exceeds 5 Å.
+The likely cause of the rearrangement in CDR-H4
+is the substitution of Lys for Gly in position 75. The
+Lys75 residue was introduced during HFS, and all
+HFS variants had a Lys in this position. As
+mentioned above, the mouse germline gene also
+had a Lys at position 75 that mutated to a Gly during
+somatic maturation of m836 (Fig. 2). Although CDR￾H4 packs against CDR-H1 in ch836, only immediate
+neighbors, namely, residues 24 and 29, were affected
+by HFS. The residue Tyr31a in CDR-H1, which is in
+contact with IL-13, has not changed its conformation
+(Fig. 6b). Thus, the conformational change at CDR￾H4 does not seem to have a direct impact on the
+5-fold drop in affinity after HFS.
+The change around Pro9 is located in a kink at the
+N-terminal β-strand of FR-H1, so that it can form
+β-bridges to both β-sheets of the VH domain. Gly10
+adopts a conformation with positive φ that would be
+unfavorable for any other amino acid. Substitution of
+Val for Gly10 leads to the flip of the backbone, with
+some β-bridges lost and some new β-bridges formed
+(Fig. 6c). The rearrangement involves only residues
+Gly8-Pro9-Gly10 at the kink, while the surrounding
+residues retain their positions. The conformational
+changes in FR-H1 are distal from the antigen binding
+site and involve only a few residues. Therefore,
+neither the conformational change at CDR-H4 nor
+the conformational change at the FR-H1 kink region
+apparently affected the binding of IL-13.
+Further analysis of the structures indicated a
+rotation of the aromatic ring of Tyr87 in H2L6
+with respect to Phe87 in ch836 (Fig. 7). The hydroxyl
+group of Tyr87 finds no room at the tightly packed
+VL/VH interface resulting in a different side-chain
+rotamer. The gap created by the swing of the phenyl
+group is closed by the countermovement of the
+entire domains, since the β-sheet structures are
+fairly rigid. In fact, pairwise superposition of the
+variable domains indicates a change of 7.5° in the
+VL/VH tilt angle. This global rotation of the domains
+translates into shifts of the FR residues of about 2 Å,
+while the antigen-binding residues shift by only
+about 0.5 Å. The change in the tilt angle between
+ch836 and H2L6 is observed in both the antigen￾bound state (7.5°) and the free state (5.5°), as
+evidenced by the superposition of the free Fab
+structures (data not shown). On the other hand,
+comparison of the free and bound forms of H2L6
+shows no change in the tilt angle. Apparently, the
+rearrangement of the variable domains is caused by
+Fig. 7. Superposition of ch836 (VL, cyan; VH, blue) and H2L6 (VL, yellow; VH, orange) in the VL/VH interface region.
+Rotation of residue 87 is associated with a change in the tilt angle between the VL domain and the VH domain.
+Human Adaptation of a Mouse Anti-Human IL13 Antibody 223HFS mutations rather than induced by the interac￾tion with IL-13, and it is this rearrangement that
+likely accounts for the 5-fold drop in affinity after FR
+replacement. Interestingly, Phe in position 87 is one
+of the two somatic mutations in VL, and Tyr
+introduced during the FR replacement restored the
+mouse germline sequence. All the human germline
+genes used as FR donors had a Tyr at position 87
+(Fig. 1). This mutation at VL, together with the
+putative somatic mutations at the CDRs of VH,
+seems to be responsible for the affinity improvement
+of m836 in vivo. Therefore, analysis of putative
+somatic mutations could offer a means for designing
+changes to restore affinity after FR replacement.
+Specificity-determining residue optimization
+Following previous reports,46–49 we focused our
+diversification scheme on CDR-L1, CDR-L3, CDR￾H1, and CDR-H2 to restore the affinity of one of the
+best HFS variants (H2L6) to at least 50 pM, which
+was the affinity of the mouse antibody. To limit the
+size of each library, we targeted a subset of the
+CDRs, the anti-protein-specificity-determining
+residues,31,50 for diversification. Four combinatorial
+phage display libraries were created by randomiz￾ing each targeted position within a given CDR using
+NNK codons and then cloning the resulting libraries
+into a phagemid Fab-pIX vector (Tornetta et al.,
+manuscript in preparation). Phage was produced,
+incubated with b-IL-13R111Q, and captured on
+streptavidin beads. Expression of monoclonal Fabs
+was induced after the second and third rounds of
+panning and then screened for binding to b-IL￾13R111Q in a single-point ELISA (data not shown).
+Clones with improved binding compared to the
+parent Fab H2L6 came from the CDR-L3 library and
+were picked for sequence analysis. All sequence￾unique hits were cloned into IgG1 expression
+vectors, produced, and purified, and the binding
+Table 3. Sequence analysis and kinetic parameters of the interaction between SDRO variants and IL-13R111Q
+mAb ID H91 N92 E93 Y94 Affinity Kd [pM] ka [(ms−1
+) × 104
+] kd [(s−1
+) × 10−5
+]
+M460 — Del D — 8 103 0.83
+M480 Q Del D S 21 186 3.9
+M463 Q D L G 37 170 6.3
+M442 Q Del D G 40 132 5.3
+M453 — D W G 44 106 4.7
+M447 Q D I G 55 98 5.4
+M464 — E W G 55 129 7.1
+M450 — D P G 63 171 11
+M454 Q D Y G 65 113 7.4
+M443 — S W G 88 88 7.8
+M449 — E S G 89 102 9.0
+M448 — S H G 92 139 13
+M468 — F W G 94 106 9.9
+M469 — D W E 100 143 14
+ch836 — ——— 135 238 32
+M456 — S Y G 148 124 18
+M451 P L D V 177 188 33
+M444 — V W G 184 120 22
+M455 ——— A 186 163 30
+M475 — L M G 187 114 21
+M479 P L D T 192 125 24
+M457 — D Y A 193 111 21
+M461 — S I G 193 133 26
+M478 — — H G 208 119 25
+M466 — D W S 225 97 22
+M452 — L N G 233 116 27
+M470 — L D S 239 130 31
+M471 P I D A 253 144 36
+M472 P L D S 259 144 38
+M445 — L L G 262 111 29
+M482 — L D S 296 102 30
+M465 — D N S 306 110 34
+M473 — D R D 312 129 40
+M476 — S V G 315 102 32
+M446 — V G G 345 135 47
+M459 P L — A 356 126 45
+M474 — D L G 365 95 35
+M462 — — F G 366 114 42
+M467 — S W A 452 100 46
+M477 — S S G 495 97 48
+H2L6 — ——— 754 125 94
+All mAb variants, except for ch836 and H2L6 (bold), were derived from Fabs selected from a phage pIX library. Amino acid numbering of
+VL library positions as in Chothia and Lesk.36 The mAb variants were sorted based on affinity. Dashes indicate that the residue is identical
+with the parent, whereas Del represents an amino acid deletion.
+224 Human Adaptation of a Mouse Anti-Human IL13 Antibodyaffinity for IL-13R111Q of each clone was measured
+by BIAcore.
+The binding affinities and sequences in the CDR￾L3 library positions of the clones are summarized in
+Table 3. A number of optimized clones restored
+affinity similar to that of the murine antibody. In
+position 91, the parental amino acid (His) was
+preferred (75%); Gln and Pro were observed at a
+lesser frequency (12% each). Tyrosine in position 94
+was replaced by smaller amino acids such as Gly
+(60%), Ser (15%), and Ala (13%). Specifically,
+Tyr94Gly is prevalent in the highest-affinity clones.
+In positions 92 and 93, any amino acid replacement
+was well tolerated. Alanine scanning mutagenesis
+results were consistent with this pattern (data not
+shown). Replacements of His with Ala in position 91
+prevented binding, whereas replacements at posi￾tions 92 and 93 were tolerated. Replacement of Tyr
+with Ala in position 94 increased binding.
+The best clone M460 had an 8 pM affinity for
+IL-13R111Q, a 100-fold improvement over the HFS
+variant H2L6. Interestingly, M460 had a three￾nucleotide deletion in CDR-L3, which was not part
+of the library design. Of note, two other highly
+ranked clones also had similar deletions (M442 and
+M480). Clone M455 is a good example of how a
+smaller amino acid in position 94 is favorable, since
+the only change in M455 compared to the HFS
+variant H2L6 is Tyr94Ala, which results in a 4-fold
+affinity improvement (754–186 pM).
+Structural changes upon SDRO
+In addition to the modifications introduced in
+CDR-L3 during affinity maturation, we tested
+several mutants in the CDRs of VH. One of the
+variants, M1295, had two methionine residues
+replaced (Met32Val and Met95Leu). Thus, to avoid
+Fig. 8. (a) Trace superposition of H2L6 (VH, orange; VL, yellow) and the SDRO variant M1295 (VH, black; VL, silver).
+(b) Close-up of the CDR-L3 region of H2L6 showing major interactions with Arg11 of wt IL-13. (c) CDR-L3 region of
+M1295 in the same orientation as (b). (a) was generated in Discovery Studio, whereas (b) and (c) were generated in
+PyMOL.
+Human Adaptation of a Mouse Anti-Human IL13 Antibody 225potential chemical instabilities due to methionine
+oxidation, we combined this variant with the VL of
+M460, resulting in a molecule with an affinity of
+10.69 ± 4.7 pM (n= 3) for IL-13R111Q. The affinity of
+M1295 for wt IL-13 was determined by BIAcore to
+be 5.7 ± 1.3 pM (n= 4). Since the variability in
+measuring affinity with BIAcore is large in the low
+picomolar range, these affinity values were mea￾sured in KinExA, showing similar results (data not
+shown).
+In order to understand the structural effect of
+amino acid replacement and deletion in CDR-L3, we
+solved the structure of M1295 in complex with wt
+IL-13 at 2.8 Å resolution (Table 1). Comparison of the
+M1295 and H2L6 crystal structures indicated no
+significant conformational changes at the CDRs of
+VH, or at CDR-L1 or CDR-L2 (Fig. 8a). The critical
+changes between M1295 and H2L6 are located in
+CDR-L3. In Fig. 8b, the interaction between CDR-L3
+of H2L6 and IL-13 is visualized. Fig. 8c shows a
+similar interaction between the affinity-matured
+M1295 and IL-13. The one-amino-acid deletion
+pulled Asp92 to occupy the space previously held
+by Asn-Glu, whereas the flanking residues His91
+and Tyr94 stayed in approximately the same
+positions. These changes allowed for a better
+interaction with IL-13, enabling Asp92 to form a
+salt bridge with a key epitope residue, Arg11. This
+salt bridge does not exist in H2L6 because a
+potential partner, Glu93, points away from Arg11.
+Another possible improvement is the hydrogen
+bond between Asp92 and Ser7 at the N-terminus
+of IL-13. This new interaction extended the epitope
+by one residue. As a result, the interface area
+increased by 20 Å2
+. Although this is a small increase
+in surface area (only 3%), it contributes to significant
+improvement in binding affinity. Therefore, replace￾ment of a weak interaction (Asn92) and a noninter￾acting residue (Glu93) with one residue (Asp92) that
+is well suited for interacting with Arg11, as well as
+the increase in surface area due to a new interaction
+with Ser7, could explain the increase in binding
+affinity with respect to H2L6.
+The success of the CDR-L3 library could poten￾tially be attributed to the fact that the VL of m836
+was essentially in germline configuration, whereas
+the interactions with VH were perhaps optimized
+during the in vivo affinity maturation process. m836
+VL has only two somatic mutations, which are both
+distal to the antigen binding site. In contrast, VH has
+eight somatic mutations, including three in contact
+residues with the antigen. Similarly to the present
+work, structural analysis of a humanized and
+affinity-matured antibody to vascular endothelial
+growth factor51 indicated that the antigen binding
+site was almost entirely composed of VH residues. In
+contrast to our work, however, libraries were
+created only in VH, resulting in the selection of
+parental amino acids in most positions with small
+improvements in affinity, with the exception being
+one-amino-acid change (His97Tyr), which was
+responsible for approximately one-log affinity im￾provement. The lack of publications on humaniza￾tion, followed by affinity maturation studies with
+comprehensive structural data, makes it difficult to
+assign a general benchmark method for affinity
+maturation. Nonetheless, our experience indicates
+that avoiding the most critical interactions while
+targeting CDRs with limited somatic mutations, but
+with the potential to create new contacts with the
+antigen, could be one of the keys to success during
+affinity maturation campaigns.
+Concluding Remarks
+We have described the humanization of the mouse
+anti-IL-13 antibody m836 by HFA. We first studied
+the in vivo maturation process that likely led to this
+potent IL-13 neutralizing antibody. Next, the struc￾ture of ch836 in complex with IL-13 was determined
+at high resolution. Only two somatic mutations in
+VL/JL and eight somatic mutations in VH/D/JH
+likely generated m836. From these 10 mutations,
+only three took place in contact residues with IL-13.
+The remaining mutations were in residues adjacent
+to the CDRs or away from the antigen binding site.
+The first step of the HFA protocol consisted of
+generating a relatively small library of HFS variants
+by combining the binding site of m836 with human
+germline genes. Generation of the HFS library differs
+in several respects from other humanization meth￾ods, including CDR grafting7,10 and FR shuffling.17
+First, the definition of the binding site, and thus
+regions used to transfer specificity from the nonhu￾man antibody in the human FRs, includes not only
+CDRs but also the hypervariable loops definition.
+Second, a relatively small library of HFS variants was
+generated by taking into account sequence and
+structural considerations. Third, FRs were not
+mixed to generate the HFS library; only FRs coming
+from the same human IGVH or IGVK genes were
+used as building blocks of the library.
+Several HFS VL variants, combined with the same
+HFS VH, exhibited a similar binding profile, consis￾tent with the structural analysis of the ch836 complex
+with IL-13, indicating the VH has a predominant role
+in the interaction. Comparison of the ch836 and
+H2L6 structures indicates that no major conforma￾tional changes were introduced in residues in direct
+contact with IL-13 after FR replacement, even when
+major local changes occurred in FR-H1 and CDR-H4.
+The latter changes are adjacent to the binding site of
+the antibody, but do not seem to have an impact on
+binding to IL-13. Instead, changes in the VL/VH
+interface induced a global shift in the relative
+position of the CDRs, likely responsible for the 5-
+fold affinity drop after FR replacement. Remarkably,
+one of the residues replaced in FR-L3, away from the
+antigen binding site and likely responsible for the
+shift in the tilt angle between VL and VH, coincided
+with a putative somatic mutation. Since determining
+backmutations required for restoring or improving
+affinity in humanization protocols is a difficult task,
+this finding suggests that analysis of somatic muta￾tions could be a useful means for identifying
+226 Human Adaptation of a Mouse Anti-Human IL13 Antibodybackmutations for testing as part of the design cycle
+in future humanization protocols.
+The second step of the HFA protocol led to SDRO
+variants with a gain in affinity for IL-13R111Q of up
+to a hundred fold. Structural analyses of the H2L6
+and M1295 Fab/wt IL-13 complexes helped us to
+dissect the mechanism of affinity maturation that
+generated this two-log improvement in affinity. It
+was achieved through a few major local changes in
+CDR-L3, as opposed to the global conformational
+changes that occurred during HFS and perhaps
+during in vivo somatic hypermutation. The replace￾ment of two residues—one residue in contact
+(Asn92) and a noninteracting residue (Glu93)—
+with one residue (Asp92) that was well suited for
+interacting with Arg11 in IL-13, as well as a new
+interaction with Ser7, explained the increase in
+binding affinity. Comparing these results to others,51
+we suggest that as a design principle in affinity
+maturation strategies after FR replacement, libraries
+should focus on CDRs with few or no contact
+residues and few or no somatic hypermutations
+but with the potential to generate new contacts. This
+strategy avoids major perturbations of the already
+optimized interaction that took place during the
+affinity maturation in vivo.
+Materials and Methods
+Human framework selection
+Initial selection of human sequences for VH was based
+on the sequence similarity of the VH germline genes to the
+entire length of the mouse VH. In the next stage, the
+selected human sequences were rank ordered using a
+score that takes into account both the length of the CDRs
+and the sequence similarities between the CDR of mouse
+sequences and the CDR of human sequences. The
+BLOSUM 62 substitution matrix52 was used for scoring
+alignments of the CDRs of mouse and human sequences,
+and a large penalty was applied if there was an insertion
+and/or deletion in CDR loops. This leads to selection of
+FR1, FR2, and FR3. FR4 was selected based on the
+sequence similarity of the IGJH germline genes with
+m836 FR4. A similar procedure was used for selecting
+human VL FRs. The repertoire of human genes was
+obtained from Vbase§.
+HFS library synthesis
+HFS variants of VH were fused to the human CH1–CH3
+IgG1 domains, whereas the VL fragments were fused to
+human CL. For each variable chain, a mouse–human IgG1
+chimera construct was also made, bringing the total to 16
+VL and 7 VH chains, respectively. The HFS library and the
+chimera of parent molecules were synthesized and cloned
+into the proper vectors. DNA was produced and used in
+batch transient transfections using Lipofectamine 2000
+(Invitrogen, Carlsbad, CA). Antibodies were purified on
+AKTA Xpress or AKTA FPLC chromatography systems
+(GE Healthcare, Piscataway, NJ).
+Cell supernatants from transiently transfected HEK293-
+E or CHO-S cells were harvested 4 days after transfection,
+clarified by centrifugation ( 6000 rpm for 30 min), and
+filtered (using a 0. 2-μm PES membrane; Corning,
+Corning, NY). The relative amount of IgG was determined
+with the Octet instrument (ForteBio, Menlo Park, CA).
+Supernatants were loaded onto an equilibrated [phos￾phate-buffered saline (PBS), pH 7] HiTrap MabSelect Sure
+Protein A column (GE Healthcare) at a relative concen￾tration of ∼10 mg of protein per milliliter of resin. After
+loading, we washed the column and we eluted the protein
+with 10 column volumes of 0.1 M Na-acetate (pH 3). The
+eluted protein fractions were neutralized immediately by
+elution into tubes containing 2.0 M Tris (pH 7) at a 20%
+fraction volume (i.e., if 2 mL of eluate was collected, the
+tubes were prefilled with 0.4 mL of Tris buffer). Peak
+fractions were pooled, filtered (0. 2 μm), and dialyzed
+against PBS (pH 7) overnight at 4 °C. The proteins were
+removed from dialysis and filtered (0.2 μ m), and the
+protein concentration was determined by absorbance at
+280 nm and 310 nm on a BioTek SynergyHT™ spectro￾photometer. If necessary, the purified proteins were
+concentrated with a 10,000 MWCO centrifugal concentra￾tor (Millipore, Billerica, MA). The quality of the purified
+proteins was assessed by SDS-PAGE and size-exclusion
+HPLC (Dionex, Sunnyvale, CA). Endotoxin levels were
+measured by LAL assay (Cape Cod Associates, Cape Cod,
+MA), when required. Purified proteins were stored at 4 °C.
+Assay of anti-IL-13 activity
+The pairing of each of the six heavy-chain variants and
+each of the 15 light-chain variants resulted in 90
+monoclonal antibodies (mAbs), referred to as the HFS
+library. These mAbs were expressed in HEK293-E cells,
+and crude supernatants were used to screen for binding of
+the naturally occurring variant IL-13R111Q and for
+blocking of the binding of IL-13R111Q to its receptor, IL￾13Rα2. Human IL-13 variant R130Q was purchased from
+PeproTech (Rocky Hill, NJ). IL-13R130Q was reconstituted
+in accordance with the manufacturer's instructions and
+dialyzed against Dulbecco's PBS. The sample was
+biotinylated with the EZ-Link Sulfo-NHS LC biotin kit
+(Thermo Scientific, Rockford, IL) in accordance with the
+manufacturer's instructions at a 4:1 biotin/protein molar
+ratio. Afterwards, the sample was extensively dialyzed
+against PBS and quantitated on a nanodrop (Thermo
+Scientific) to determine recovery. A small portion was
+analyzed by mass spectroscopy. The remaining amount
+was aliquoted and stored at −80 °C. The HFS variant mAb
+in the transfection supernatant was quantitated using the
+AlphaScreen General IgG (Protein A) Detection Kit
+(Perkin Elmer, Waltham, MA). The streptavidin-conjugat￾ed donor bead was coated with biotin-conjugated Goat
+Anti-Human IgG(κ) antibody (Thermo Scientific). Briefly,
+the supernatant was exposed to the Protein-A-coated
+acceptor bead. After the mAb had been washed, its
+amount was detected with the gt-anti-human IgG(κ)
+donor bead. The signal was measured with the Envision
+2102 Multilabel Plate Reader (Perkin Elmer). The assays
+were performed in 384-well white plates (Corning) The
+amount of mAb was calculated against a standard curve
+of purified reference mAb.
+An ELISA-based assay was used to detect IL-13R111Q
+antigen binding to HFS variants captured on a microtiter
+plate. This assay was used to screen and rank the HFS
+variants. Briefly, F-type black Nunc Maxisorp plates
+§ http://vbase.mrc-cpe.cam.ac.uk/ (Roskilde, Denmark) were coated with goat anti-human
+Human Adaptation of a Mouse Anti-Human IL13 Antibody 227Fc capture antibody. After blocking and washing, we
+added the HFS variant transfection supernatants normal￾ized for IgG content for capture. Human b-IL-13R111Q was
+added. After washing, we developed the amount of bound
+IL-13R130Q with streptavidin–alkaline phosphatase and
+BM Chemiluminescence substrate (Roche, Indianapolis,
+IN). The amount of bound b-IL-13R111Q was read on the
+Envision plate reader using luminescence application.
+In IL-13Rα2 binding inhibition assay, soluble human
+IL-13Rα2 (R&D Systems, Minneapolis, MN) was used to
+coat the plates. After washing and blocking, we added
+the normalized HFS variant supernatants to be tested.
+Next, a standard amount of b-IL-13R111Q was added
+to each well. The amount of b-IL-13R111Q bound to
+IL-13Rα2 was developed with streptavidin–alkaline
+phoshatase with BM AttoPhos substrate. Luminescence
+was read on the Envision plate reader and analyzed
+using the Spotfire® software (Tibco).
+Phage library construction
+The phagemid vector used for the display of antibody
+Fab fragments on phage coat protein 9 (pIX) was similar to
+pCNTO-Fab-pIX (Tornetta et al., manuscript in prepara￾tion), with some modifications to restriction enzyme sites.
+The pCNTO-Fab-pIX vector was derived from
+pCGMT9.53 The variable regions of the mouse anti￾human IL-13 antibody m836 and HFS variant H2L6
+were amplified directly from the mAb templates and
+cloned into the pCNTO-Fab-pIX vector. These clones
+served as controls for phage display, Fab expression, and
+binding. The affinity maturation library was designed to
+randomize four anti-protein specificity-determining resi￾dues in SDR-L3. More specifically, these residues were
+H91, N92, E93, and Y94, and the library was designed to
+introduce full diversity using NNK codons. The library
+was assembled using nested PCR and cloned into a parent
+construct that contained a sequence of a non-IL-13 binding
+light chain. Thus, successful insertion of library sequences
+would replace the non-IL-13 light-chain sequences. Un￾successful ligations would result in phage that could not
+bind to IL-13. Library PCR products were cloned using
+NheI and RsrII and electroporated into Escherichia coli
+MC1061F′ cells.
+Phage selections
+Phage preparation from the transformed library plates
+and selection using soluble b-IL-13R111Q were carried out
+using standard protocols.54 For each round of panning,
+antigen concentration was lowered (ranging from 10 nM in
+the first round to 10 pM in the final round). Panning was
+performed overnight at 4 °C or at room temperature for
+1 h, and extensive washing procedures were employed to
+enrich clones with improved affinity. No elution of phage
+was needed as the Fab was displayed on pIX, which is
+located on the opposite end of pIII on the phage particle,
+thus not interfering with reinfection of E. coli.
+Affinity determination by BIAcore
+Affinity measurements using surface plasmon reso￾nance were performed using a BIAcore 3000 optical
+biosensor (BIAcore; GE Healthcare). A biosensor surface
+was prepared by coupling anti-human IgG Fc fragment
+specific antibody (cat. no.109-005-098; Jackson ImmunoR￾esearch, West Grove, PA) to the carboxymethylated
+dextran surface of a CM-5 chip (cat. no. BR-1000-14;
+BIAcore) using the manufacturer's instructions for amine￾coupling chemistry. Approximately 20,000 RU (response
+units) of anti-human IgG Fc antibodies was immobilized
+in each of four flow cells. Kinetic experiments were
+performed at 25 °C in PBS running buffer (containing
+0.005% surfactant P20 and 3 mM ethylenediaminetetraa￾cetic acid). This buffer was filtered and degassed for at
+least 30 min prior to use. Serial dilutions of IL-13R111Q
+from 33 nM to 0.046 nM were prepared in running buffer.
+About 250 RU of tested mAb was captured on flow cells 2,
+3, and 4 of the sensor chip. Flow cell 1 was used as
+reference surface. Capturing of mAb was followed by
+a 3-min injection (association phase) of IL-13R111Q
+at 50 μ L/min, followed by 10 min of buffer flow
+(dissociation phase). The chip surface was regenerated
+by two pulses of a 12-s injection of 100 mM H3PO4
+(cat. no. 7961; Sigma) at 50 μL /min. The data collected
+were processed using BIAevaluation software, version 3.2
+(BIAcore). First, double-reference subtraction of the data
+was performed by subtracting the curves generated by
+buffer injection from the reference-subtracted curves for
+analyte injections. Then kinetic analysis of the data was
+performed using a 1:1 binding model with a global fit. The
+result for each mAb was reported in the format of ka
+(on-rate), kd (off-rate), and Kd (affinity constant).
+Protein purification for crystallization
+The His-tagged chimeric version of m836 Fab was
+expressed in CHO cells (10 L) and purified as follows. The
+supernatant concentrated to 700 mL was supplemented
+with 77 mL of 10× PBS and loaded onto a 10-mL TALON
+column at a flow rate of 1 mL/min, after which the
+column was washed with 50 mL of wash buffer [50 mM
+sodium phosphate (pH 7.0) and 350 mM NaCl]. The
+column was then further washed with buffer A [7.5 mM
+imidazole, 150 mM NaCl, and 50 mM sodium phosphate
+(pH 7.0)] to remove proteins that were nonspecifically
+bound to the column. The His-tagged ch836 Fab was
+eluted from the column with a gradient of 0–80% of
+buffer B [100 mM imidazole, 150 mM NaCl, and 50 mM
+sodium phosphate (pH 7.0)]. The fractions containing
+ch836 Fab were pooled and dialyzed into 20 mM Tris
+(pH 7.4) with 50 mM NaCl. The Fab was further purified
+using a Superdex200 column (GE Healthcare). The Fab
+fragments of H2L6 and M1295 were prepared by papain
+cleavage of corresponding mAbs and purified using
+affinity and size-exclusion chromatography as follows.
+mAb was dialyzed into a buffer containing 20 mM
+sodium phosphate (pH 7.0) and 10 mM ethylenediami￾netetraacetic acid, and then concentrated to 20 mg/mL.
+Antibody digestion was performed using the Immuno￾Pure Fab Preparation Kit (Pierce, Rockford, IL) in
+accordance with the manufacturer's instructions. Immo￾bilized papain (10 mL, suspended) was incubated with
+H2L6 mAb in the column (11 mm ID and 100 mm long) at
+room temperature. The digested protein fragments were
+eluted from the column, and Fab was separated from Fc
+and intact mAb using a MabSelect column (GE Health￾care). Fab was then loaded onto a HiLoad 26/60
+Superdex 200 column (GE Healthcare), which was
+developed at 2 mL/min with 50 mM NaCl and 20 mM
+Tris (pH 7.4). Both Fabs H2L6 and M1295 eluted from the
+Superdex 200 column as a single peak.
+The purity of Fabs was evaluated by SDS-PAGE and
+analytical size-exclusion chromatography. Under
+228 Human Adaptation of a Mouse Anti-Human IL13 Antibodynonreducing conditions, SDS-PAGE shows a single band
+of ∼49 kDa that corresponds to the covalently linked Fab.
+Under reducing conditions, the heavy chain and the light
+chain migrate as a single band of ∼28 kDa. The proteins
+elute as a single peak on a TSKgel G3000SWXL column
+(TOSOH Bioscience, Tokyo, Japan).
+Complex preparation and crystallization
+Recombinant human IL-13 was purchased from R&D
+Systems (cat. no. 213-IL/CF). The sample was reconsti￾tuted in PBS buffer in accordance with the manufacturer's
+protocol. Fab/IL-13 complexes were prepared by mixing
+Fab and IL-13 at a molar ratio of 1:1.2 (excess of IL-13),
+followed by purification on a Superdex 200 10/300 column
+(GE Healthcare). Fractions corresponding to the main peak
+were pooled, concentrated to 6.2 mg/mL with an Amicon￾Ultra (5 kDa) device , and used for crystallization.
+Crystallization of the complexes was carried out by the
+vapor-diffusion hanging-drop method at 20 °C. Screening
+for crystallization conditions was performed with a Hydra
+II eDrop robot (Thermo Scientific) using a 96-well plate
+format. The experiments were composed of droplets of
+0.5 μL of protein solution mixed with 0.5 μL of reservoir
+solution. The droplets were equilibrated against 90 μL of
+reservoir solution.
+Initial screening was performed with Crystallization
+Screen HT (Hampton Research, Aliso Viejo, CA) and in￾house crystallization screens. Needle-like microcrystals of
+H2L6 Fab/IL-13 were obtained from 20% polyethylene
+glycol (PEG) 3350, 0.2 M ammonium citrate, and 0.1 M
+4-morpholineethanesulfonic acid (pH 6.5). The other two
+complexes did not produce any crystals. The microcrys￾tals of H2L6 Fab/IL-13 were used as seeds for the second
+screening by the microseed matrix method55 for all three
+complexes. Diffraction-quality crystals of H2L6 Fab/IL￾13 were obtained from 14% PEG 3350 and 0.2 M
+ammonium tartrate. They belong to the orthorhombic
+space group P212121 with unit cell parameters a= 63.78 Å,
+b= 73.02 Å, and c= 114.86 Å. The asymmetric unit
+contains one molecule of the complex with a 45% solvent
+content.
+The crystals of M1295 Fab/IL-13 were obtained from
+25% PEG 8000 and 0.1 M sodium acetate buffer (pH 4.5).
+They appeared to be isomorphous to the H2L6 Fab/IL-13
+crystals. The crystals of ch836 Fab/IL-13 were obtained
+from 20% PEG 3350, 0.2 M sodium tartrate, and 0.1 M
+Hepes (pH 7.5). The crystals belong to the monoclinic
+space group P21 with unit cell parameters a= 76.62 Å,
+b= 65.56 Å, c= 118.74 Å, and β= 107.02°. The asymmetric
+unit contains two molecules of the complex with a 48%
+solvent content.
+X-ray data collection and structure determination
+For X-ray data collection, one crystal of each complex
+was soaked for a few seconds in mother liquor supple￾mented with 20% glycerol and flash frozen in a stream of
+nitrogen at 100 K. Diffraction data were collected and
+processed at Centocor using a Rigaku MicroMax™-007HF
+microfocus X-ray generator equipped with an Osmic™
+VariMax™ confocal optics, a Saturn 944 CCD detector, and
+an X-Stream™ 2000 cryocooling system (Rigaku, Wood￾lands, TX). Diffraction intensities were detected over at
+least a 360° crystal rotation with 2-min to 3 -min exposures
+per 0.5° image and processed with the program D⁎TREK
+(Rigaku). X-ray data statistics are given in Table 1.
+The structures were determined by molecular replace￾ment using the program PHASER.56 First, the structure of
+the ch836 Fab/IL-13 complex was solved using the
+structure of anti-carbohydrate antibody S25-2 (PDB code
+1Q9Q) as search model.57 The refined structure of ch836
+Fab/IL-13 was used for molecular replacement of the
+other two complexes. Atomic positions and temperature
+factors were refined with REFMAC.58 Water molecules
+were added at the (Fo−Fc) electron density peaks within
+hydrogen-bond distance of the protein atoms. All crystal￾lographic calculations were performed with the CCP4
+suite of programs.59 Model adjustments were carried out
+with Coot.60 Refinement statistics are given in Table 1.
+Accession numbers
+Coordinates and structure factors have been deposited
+in the PDB with accession numbers 3L5W, 3L5X, and 3L5Y.
+Acknowledgements
+We would like to thank Jamie Fisher for permis￾sion to obtain the m836 hybridoma, Qiang Chen for
+phage library construction, Dan Diamant for se￾quencing, Judy Connor and Serena Nelson for mAb
+purifications, and Eilyn Lacy for part of the BIAcore
+work. Furthermore, we acknowledge the expertise
+and help of the Centocor's Screening and Selection
+Technologies Group, specifically Catherine Reyes,
+Ann Lacombe, Mark Ware, and David Santa Ana;
+and the Centocor Synthetic Gene Engineering
+Group for HFS library synthesis and cloning,
+specifically Christian Martinez, Rachelle Bonesteel,
+Colin Aston, and Mimi Zhou. Also, thanks to the
+Centocor's Protein Sciences Group for help with
+DNA scaleup and transfections, specifically Li Ying
+Wang, Matt Husovsky, Annalee Ledesma, Ingeborg
+Feil, and Phil Sheridan. We further acknowledge the
+assistance from the Computational Discovery
+Group, Venkata Koka, and Sandor Szalma. We
+would like to thank Ray Sweet and Jin Lu from the
+V-region Engineering Group for useful discussions
+and comments. Finally, we would like to express
+thanks to William Glass and Sally Allain for project
+support, as well as to Miguel Barbosa for leadership
+and inspiration.
+References
+1. Almagro, J. C. & Fransson, J. (2008). Humanization of
+antibodies. Front. Biosci. 13, 1619–1633.
+2. Morrison, S. L., Johnson, M. J., Herzenberg, L. A. & Oi,
+V. T. (1984). Chimeric human antibody molecules:
+mouse antigen-binding domains with human constant
+region domains. Proc. Natl Acad. Sci. USA, 81,
+6851–6855.
+3. Mirick, G. R., Bradt, B.M., Denardo, S. J. & Denardo, G. L.
+(2004). A review of human anti-globulin antibody
+(HAGA, HAMA, HACA, HAHA) responses to mono￾clonal antibodies. Not four letter words. Q. J. Nucl.
+Med. Mol. Imaging, 48, 251–257.
+Human Adaptation of a Mouse Anti-Human IL13 Antibody 2294. Wagner, C. L., Schantz, A., Barnathan, E., Olson, A.,
+Mascelli, M. A., Ford, J. et al. (2003). Consequences of
+immunogenicity to the therapeutic monoclonal antibo￾dies ReoPro and Remicade. Dev. Biol. (Basel), 112, 37–53.
+5. Piro, L. D., White, C. A., Grillo-Lopez, A. J.,
+Janakiraman, N., Saven, A., Beck, T. M. et al. (1999).
+Extended rituximab (anti-CD20 monoclonal antibody)
+therapy for relapsed or refractory low-grade or
+follicular non-Hodgkin's lymphoma. Ann. Oncol. 10,
+655–661.
+6. Tcheng, J. E., Kereiakes, D. J., Lincoff, A. M., George,
+B. S., Kleiman, N. S., Sane, D. C. et al. (2001).
+Abciximab readministration: results of the ReoPro
+Readministration Registry. Circulation, 104, 870–875.
+7. Jones, P. T., Dear, P. H., Foote, J., Neuberger, M. S. &
+Winter, G. (1986). Replacing the complementarity￾determining regions in a human antibody with those
+from a mouse. Nature, 321, 522–525.
+8. Riechmann, L., Clark, M., Waldmann, H. & Winter, G.
+(1988). Reshaping human antibodies for therapy.
+Nature, 332, 323–327.
+9. Lundin, J., Kimby, E., Bjorkholm, M., Broliden, P. A.,
+Celsing, F., Hjalmar, V. et al. (2002). Phase II trial of
+subcutaneous anti-CD52 monoclonal antibody alem￾tuzumab (Campath-1H) as first-line treatment for
+patients with B-cell chronic lymphocytic leukemia
+(B-CLL). Blood, 100, 768–773.
+10. Queen, C., Schneider, W. P., Selick, H. E., Payne, P. W.,
+Landolfi, N. F., Duncan, J. F. et al. (1989). A humanized
+antibody that binds to the interleukin 2 receptor. Proc.
+Natl Acad. Sci. USA, 86, 10029–10033.
+11. Mottershead, M. & Neuberger, J. (2007). Daclizumab.
+Expert Opin. Biol. Ther. 7, 1583–1596.
+12. Hwang, W. Y., Almagro, J. C., Buss, T. N., Tan, P. &
+Foote, J. (2005). Use of human germline genes in a
+CDR homology-based approach to antibody human￾ization. Methods, 36, 35–42.
+13. Foote, J. & Winter, G. (1992). Antibody framework
+residues affecting the conformation of the hypervari￾able loops. J. Mol. Biol. 224, 487–499.
+14. Acierno, J. P., Braden, B. C., Klinke, S., Goldbaum, F. A.
+& Cauerhff, A. (2007). Affinity maturation increases
+the stability and plasticity of the Fv domain of anti￾protein antibodies. J. Mol. Biol. 374, 130–146.
+15. Wedemayer, G. J., Patten, P. A., Wang, L. H., Schultz,
+P. G. & Stevens, R. C. (1997). Structural insights into
+the evolution of an antibody combining site. Science,
+276, 1665–1669.
+16. Li, Y., Li, H., Yang, F., Smith-Gill, S. & Mariuzza, R.
+(2003). X-ray snapshots of the maturation of an
+antibody response to a protein antigen. Nat. Struct.
+Biol., 482–488.
+17. Dall'Acqua, W. F., Damschroder, M. M., Zhang, J.,
+Woods, R. M., Widjaja, L., Yu, J. & Wu, H. (2005).
+Antibody humanization by framework shuffling.
+Methods, 36, 43–60.
+18. Barbas, C. F. R., Hu, D., Dunlop, N., Sawyer, L.,
+Cababa, D., Hendry, R. M. et al. (1994). In vitro
+evolution of a neutralizing human antibody to human
+immunodeficiency virus type 1 to enhance affinity
+and broaden strain cross-reactivity. Proc. Natl Acad.
+Sci. USA, 91, 3809–3813.
+19. Hanes, J., Jermutus, L.,Weber-Bornhauser, S., Bosshard,
+H. R. & Pluckthun, A. (1998). Ribosome display
+efficiently selects and evolves high-affinity antibodies
+in vitro from immune libraries. Proc. Natl Acad. Sci. USA,
+95, 14130–14135.
+20. Midelfort, K. S., Hernandez, H. H., Lippow, S. M.,
+Tidor, B., Drennan, C. L. & Wittrup, K. D. (2004).
+Substantial energetic improvement with minimal
+structural perturbation in a high affinity mutant
+antibody. J. Mol. Biol. 343, 685–701.
+21. Hawkins, R. E., Russell, S. J., Baier, M. & Winter, G.
+(1993). The contribution of contact and non-contact
+residues of antibody in the affinity of binding to
+antigen. The interaction of mutant D1.3 antibodies
+with lysozyme. J. Mol. Biol. 234, 958–964.
+22. Hawkins, R. E., Russell, S. J. & Winter, G. (1992).
+Selection of phage antibodies by binding affinity.
+Mimicking affinity maturation.J. Mol. Biol. 226, 889–896.
+23. Lowman, H. B., Bass, S. H., Simpson, N. & Wells,
+J. A. (1991). Selecting high-affinity binding proteins
+by monovalent phage display. Biochemistry, 30,
+10832–10838.
+24. Finlay, W. J., Cunningham, O., Lambert, M. A.,
+Darmanin-Sheehan, A., Liu, X., Fennell, B. J. et al.
+(2009). Affinity maturation of a humanized rat
+antibody for anti-RAGE therapy: comprehensive
+mutagenesis reveals a high level of mutational
+plasticity both inside and outside the complementar￾ity-determining regions. J. Mol. Biol. 388, 541–558.
+25. Thom, G., Cockroft, A. C., Buchanan, A. G., Candotti,
+C. J., Cohen, E. S., Lowne, D. et al. (2006). Probing a
+protein–protein interaction by in vitro evolution. Proc.
+Natl Acad. Sci. USA, 103, 7619–7624.
+26. Moy, F. J., Diblasio, E., Wilhelm, J. & Powers, R.
+(2001). Solution structure of human IL-13 and
+implication for receptor binding. J. Mol. Biol. 310,
+219–230.
+27. Heinzmann, A., Mao, X. Q., Akaiwa, M., Kreomer,
+R. T., Gao, P. S., Ohshima, K. et al. (2000). Genetic
+variants of IL-13 signalling and human asthma and
+atopy. Hum. Mol. Genet. 9, 549–559.
+28. Howard, T. D., Whittaker, P. A., Zaiman, A. L.,
+Koppelman, G. H., Xu, J., Hanley, M. T. et al. (2001).
+Identification and association of polymorphisms in
+the interleukin-13 gene with asthma and atopy in a
+Dutch population. Am. J. Respir. Cell. Mol. Biol. 25,
+377–384.
+29. Yang, G., Volk, A., Petley, T., Emmell, E., Giles￾Komar, J., Shang, X. et al. (2004). Anti-IL-13 monoclo￾nal antibody inhibits airway hyperresponsiveness,
+inflammation and airway remodeling. Cytokine, 28,
+224–232.
+30. Teplyakov, A., Obmolova, G., Wu, S. J., Luo, J., Kang,
+J., O'Neil, K. & Gilliland, G. L. (2009). Epitope
+mapping of anti-interleukin-13 neutralizing antibody
+CNTO607. J. Mol. Biol. 389, 115–123.
+31. Almagro, J. C. (2004). Identification of differences in
+the specificity-determining residues of antibodies that
+recognize antigens of different size: implications for
+the rational design of antibody repertoires. J. Mol.
+Recognit. 17, 132–143.
+32. Kohler, G. & Milstein, C. (1975). Continuous cultures
+of fused cells secreting antibody of predefined
+specificity. Nature, 256, 495–497.
+33. Graves, P. E., Kabesch, M., Halonen, M., Holberg, C. J.,
+Baldini, M., Fritzsch, C. et al. (2000). A cluster of seven
+tightly linked polymorphisms in the IL-13 gene is
+associated with total serum IgE levels in three
+populations of white children. J. Allergy Clin. Immunol.
+105, 506–513.
+34. Lefranc, M. P., Clement, O., Kaas, Q., Duprat, E.,
+Chastellan, P., Coelho, I. et al. (2005). IMGT—
+choreography for immunogenetics and immunoinfor￾matics. In Silico Biol. 5, 45–60.
+35. Lefranc, M. P., Giudicelli, V., Kaas, Q., Duprat, E.,
+Jabado-Michaloud, J., Scaviner, D. et al. (2005). IMGT,
+230 Human Adaptation of a Mouse Anti-Human IL13 Antibodythe international ImMunoGeneTics information sys￾tem. Nucleic Acids Res. 33, D593–D597.
+36. Chothia, C. & Lesk, A. M. (1987). Canonical structures
+for the hypervariable regions of immunoglobulins.
+J. Mol. Biol. 196, 901–917.
+37. Kabat, E. A., Wu, T. T., Perry, H. M., Gottesman, K. S.
+& Foeller, C. (1991). , 5th edit. Public Health Service,
+NIH, Washington, DC.
+38. DeLano, W. L. (2009). The PyMOL Molecular Graphics
+System. DeLano Scientific, Palo Alto, CA.
+39. Al-Lazikani, B., Lesk, A. M. & Chothia, C. (1997).
+Standard conformations for the canonical structures of
+immunoglobulins. J. Mol. Biol. 273, 927–948.
+40. Cunningham, B. C. & Wells, J. A. (1989). High￾resolution epitope mapping of hGH–receptor interac￾tions by alanine-scanning mutagenesis. Science, 244,
+1081–1085.
+41. Capra, J. D. & Kehoe, M. (1974). Variable region
+sequences of five human immunoglobulin heavy
+chains of the VHTTI subgroup: definitive identifica￾tion of four heavy chain hypervariable regions
+(myeloma proteins/amino acid sequences/antibody
+combining site). Proc. Natl Acad. Sci. USA, 71, 845–848.
+42. Bond, C. J., Wiesmann, C., Marsters, J. C. J. & Sidhu,
+S. S. (2005). A structure-based database of antibody
+variable domain diversity. J. Mol. Biol. 348, 699–709.
+43. Baca, M., Presta, L. G., O'Connor, J. & Wells, J. A.
+(1997). Antibody humanization using monovalent
+phage display. J. Biol. Chem. 272, 10678–10684.
+44. Holmes, M. A. & Foote, J. (1997). Structural con￾sequences of humanizing an antibody. J. Immunol. 158,
+2192–2201.
+45. Tramontano, A., Chothia, C. & Lesk, A. M. (1990).
+Framework residue 71 is a major determinant of the
+position and conformation of the second hypervari￾able region in the VH domains of immunoglobulins.
+J. Mol. Biol. 215, 175–182.
+46. Wu, H., Beuerlein, G., Nie, Y., Smith, H., Lee, B. A.,
+Hensler, M. et al. (1998). Stepwise in vitro affinity
+maturation of Vitaxin, an alphav beta3-specific hu￾manized mAb. Proc. Natl Acad. Sci. USA, 95, 6037–6042.
+47. Wu, H., Pfarr, D. S., Johnson, S., Brewah, Y. A.,
+Woods, R. M., Patel, N. K. et al. (2007). Development
+of motavizumab, an ultra-potent antibody for the
+prevention of respiratory syncytial virus infection in
+the upper and lower respiratory tract. J. Mol. Biol. 368,
+652–665.
+48. Yang, G. H., Yoon, S. O., Jang, M. H. & Hong, H. J.
+(2007). Affinity maturation of an anti-hepatitis B
+virus PreS1 humanized antibody by phage display.
+J. Microbiol. 45, 528–533.
+49. Yoon, S. O., Lee, T. S., Kim, S. J., Jang, M. H., Kang,
+Y. J., Park, J. H. et al. (2006). Construction, affinity
+maturation, and biological characterization of an
+anti-tumor-associated glycoprotein-72 humanized
+antibody. J. Biol. Chem. 281, 6985–6992.
+50. Padlan, E. A., Abergel, C. & Tipper, J. P. (1995).
+Identification of specificity-determining residues in
+antibodies. FASEB J. 9, 133–139.
+51. Chen, Y., Wiesmann, C., Fuh, G., Li, B., Christinger,
+H. W., McKay, P. et al. (1999). Selection and analysis
+of an optimized anti-VEGF antibody: crystal structure
+of an affinity-matured Fab in complex with antigen.
+J. Mol. Biol. 293, 865–881.
+52. Henikoff, S. & Henikoff, J. G. (1992). Amino acid
+substitution matrices from protein blocks. Proc. Natl
+Acad. Sci. USA, 89, 10915–10919.
+53. Gao, C., Mao, S., Kaufmann, G., Wirsching, P., Lerner,
+R. A. & Janda, K. D. (2002). A method for the
+generation of combinatorial antibody libraries using
+pIX phage display. Proc. Natl Acad. Sci. USA, 99,
+12612–12616.
+54. Marks, J. D. & Bradbury, A. (2004). Selection of human
+antibodies from phage display libraries. Methods Mol.
+Biol. 248, 161–176.
+55. Ireton, G. C. & Stoddard, B. L. (2004). Microseed
+matrix screening to improve crystals of yeast cytosine
+deaminase. Acta Crystallogr. Sect. D, 60, 601–605.
+56. Read, R. J. (2001). Pushing the boundaries of
+molecular replacement with maximum likelihood.
+Acta Crystallogr. Sect. D, 57, 1373–1382.
+57. Nguyen, H. P., Seto, N. O., MacKenzie, C. R., Brade,
+L., Kosma, P., Brade, H. & Evans, S. V. (2003).
+Germline antibody recognition of distinct carbohy￾drate epitopes. Nat. Struct. Biol. 10, 1019–1025.
+58. Murshudov, G. N., Vagin, A. A. & Dodson, E. J.
+(1997). Refinement of macromolecular structures by
+the maximum-likelihood method. Acta Crystallogr.
+Sect. D, 53, 240–255.
+59. CCP4. (1994). The CCP4 suite: programs for protein
+crystallography. Acta Crystallogr. Sect. D, 50, 760–763.
+60. Emsley, P. & Cowtan, K. (2004). Coot: model-building
+tools for molecular graphics. Acta Crystallogr. Sect. D,
+60, 2126–2132.
+Human Adaptation of a Mouse Anti-Human IL13 Antibody 231

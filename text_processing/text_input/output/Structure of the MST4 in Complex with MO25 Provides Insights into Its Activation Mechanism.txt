@@ -1,0 +1,909 @@
+Structure
+Article
+Structure of the MST4 in Complex with MO25
+Provides Insights into Its Activation Mechanism
+Zhubing Shi,1,2 Shi Jiao,1,2 Zhen Zhang,1,2 Miao Ma,1 Zhao Zhang,1 Cuicui Chen,1 Ke Wang,1 Huizhen Wang,1
+Wenjia Wang,1 Lei Zhang,1 Yun Zhao,1,
+* and Zhaocai Zhou1,
+* 1State Key Laboratory of Cell Biology, Institute of Biochemistry and Cell Biology, Shanghai Institutes for Biological Sciences,
+Chinese Academy of Sciences, Shanghai 200031, China
+2These authors contribute equally to this work
+*Correspondence: yunzhao@sibcb.ac.cn (Y.Z.), zczhou@sibcb.ac.cn (Z.Z.)
+http://dx.doi.org/10.1016/j.str.2013.01.007
+SUMMARY
+Mammalian STE20-like kinase MST4 regulates
+multiple cellular aspects such as cell polarity and
+proliferation. MST4 acts downstream of LKB1/
+MO25/STRAD complex to induce brush border
+formation. MO25 directly interacts with MST4 to
+promote its kinase activity. Here, we report the
+crystal structure of MST4 in complex with MO25.
+Association of MO25 rotates the aC helix of MST4
+toward its catalytic core, stabilizing the aC helix in
+an active position. The kinase domain of MST4 forms
+a specific homodimer that is required for trans￾autophosphorylation. MO25-stimulated activation
+of MST4 promotes apoptosis in HEK293T cells.
+Atomic resolution permitted the study of interface
+mutations capable of disrupting the MST4-MO25
+interaction or the kinase-domain-mediated homodi￾merization. These mutations impaired MST4 kinase
+activation and function within the cell. Collectively,
+our study identifies the activation mechanism of
+MST4 and provides a structural basis for further
+functional study.
+INTRODUCTION
+The mammalian STE20-like kinases play multiple roles in the
+regulation of signaling pathways governing cell mitosis, homeo￾stasis, polarity, migration, apoptosis, proliferation, and differen￾tiation (Dan et al., 2001; Delpire, 2009; Fanger et al., 1997).
+Germinal center kinases (GCKs) constitute the majority of the
+STE20 family and participate in development, stress responses,
+and immune regulation (Dan et al., 2001; Delpire, 2009; Ling
+et al., 2008; Pombo et al., 2007; Yin et al., 2012). GCKs are
+divided into eight subfamilies, and all possess a relatively con￾served N-terminal kinase domain and a diversified C-terminal
+domain.
+MST4 is a member of the GCK-III subfamily and is highly
+expressed in placenta, thymus, and peripheral blood leukocytes
+(Dan et al., 2002; Lin et al., 2001; Qian et al., 2001). The
+C-terminal domain of MST4 mediates homodimerization, which
+influences kinase activation (Dan et al., 2002; Qian et al.,
+2001). MST4a, an alternatively spliced isoform lacking
+substrate-binding subdomains, is specifically expressed during
+early stages of development (Qian et al., 2001).
+MST4 may activate the extracellular signal-regulated kinase
+(ERK) signaling pathway to regulate cell growth and transforma￾tion (Lin et al., 2001). Overexpression of MST4 in prostate
+cancer cell lines increases cell proliferation and contributes to
+anchorage-independent growth (Sung et al., 2003). During this
+process, MST4 may be activated by epidermal growth factor
+(EGF) and function downstream of the EGF receptor (EGFR)
+family. However, other studies, done with different cell lines,
+showed that MST4 might not readily activate ERK, p38, JNK,
+and NF-kB pathways (Qian et al., 2001).
+The scaffold protein MO25 binds to the pseudokinase STE20-
+related adaptor (STRAD) and liver kinase B1 (LKB1) to form
+a ternary complex, which is critical for the activation of LKB1
+(Boudeau et al., 2003; Zeqiraj et al., 2009a). LKB1 induces
+complete polarization of intestinal epithelial cells, which allows
+the regulated uptake of nutrients (Baas et al., 2004). During this
+process, MST4 acts downstream of LKB1 to phosphorylate the
+actin-binding protein Ezrin and induce brush border formation
+(ten Klooster et al., 2009). Recently, the small G protein Rap2A
+was identified as a molecular link directly coupling microvilli
+formation to the preceding cell polarization (Gloerich et al.,
+2012). LKB1 triggered apicobasal polarity creates a microenvi￾ronment for Rap2A signaling through its downstream effector
+TRAF2 and NCK-interacting protein kinase (TNIK), which, in
+turn, targets MST4 for apical recruitment. The brush border
+formation is therefore controlled by Rap2A and TNIK through
+apical localization of MST4 followed by phosphorylation of Ezrin.
+In addition to activating LKB1, MO25 can directly interact with
+certain STE20 kinases including MST4, MST3, STK25, oxidative
+stress-responsive 1 protein (OSR1), and STE20/SPS1-related
+proline-alanine-rich protein kinase (SPAK) and dramatically
+increase their kinase activities (Filippi et al., 2011). The structure
+of MO25 in complex with the pseudokinase STRAD was previ￾ously resolved, revealing an active conformation of STRAD
+(Zeqiraj et al., 2009b). The concave surface of MO25 forms an
+extensive interaction network with STRAD. The 3-amino-acid
+(Trp-Glu-Phe, WEF) motif C-terminal to the kinase domain of
+STRAD, which is essential for MO25 binding, is embedded into
+a hydrophobic pocket of the horseshoe shaped MO25 (Boudeau
+et al., 2003; Milburn et al., 2004). Based on the conserved motif
+analysis, it was proposed that MST4 would bind to MO25 in
+a similar manner as does STRAD (Filippi et al., 2011). However,
+Structure 21, 449–461, March 5, 2013 ª2013 Elsevier Ltd All rights reserved 449it is unclear whether this is the case, and, if so, how MO25
+regulates the activation and function of MST4 remains largely
+unknown.
+Here, we report the crystal structure of MST4 kinase domain
+in complex with MO25. The MST4 kinase domain N-lobe, aE
+helix of C-lobe, and the conserved Trp-Ser-Phe (WSF) motif
+interact intensively with MO25 in a similar manner observed in
+STRAD-MO25 complex (Filippi et al., 2011; Zeqiraj et al.,
+2009b). Importantly, MO25 binding rotates the aC helix of
+MST4 to a closed active conformation, promoting the kinase
+activity of MST4. Moreover, in the presence of MO25, the kinase
+domain of MST4 forms a homodimer that differs from the
+previously reported dimer of apo MST4. Structure-guided
+biochemical and cell-based studies support and further corrob￾orate the mechanistic model of MST4 activation in which MST4
+is regulated by MO25 binding and homodimerization of kinase
+domain.
+RESULTS
+Reconstitution of the MST4-MO25 Complex
+MST4 comprises a kinase domain (amino acids 1–297), a linker
+region (amino acids 298–346) with a MO25-binding motif (WSF
+in MST4; WEF in STRAD), and a C-terminal dimerization domain
+(amino acids 347–416) (Figure 1A) (Ceccarelli et al., 2011; Record
+et al., 2010). MO25 is composed of seven a-helical repeats
+(designated as R0–R6) (Milburn et al., 2004). Previous work has
+demonstrated that MST4 is a MO25-regulated kinase (Filippi
+et al., 2011; ten Klooster et al., 2009). To confirm the biological
+existence of a stable MST4-MO25 complex in vivo and in vitro,
+we first transfected HEK293T cells with constructs encoding
+cyan fluorescent protein (CFP)-tagged MO25 or/and YFP￾tagged MST4 to check the cellular localization of MO25 and
+MST4 (Figure 1B). Consistent with previous notion that MO25
+diffused freely between cytoplasm and nucleus (Boudeau
+et al., 2003), we found that MO25 was widely distributed
+throughout the cell when overexpressed alone. On the other
+hand, MST4 was predominantly localized in cytoplasm and
+could hardly be detected in nucleus. Strikingly, MO25 was
+dramatically excluded from nucleus and retained in cytoplasm
+when cotransfected with MST4, a phenomenon also observed
+when MO25 was cotransfected with STRAD (Boudeau et al.,
+2003). Overall, these observations suggested that MST4 and
+MO25 are colocalized in cells and their association prevents
+MO25 from shuttling between cytoplasm and nucleus by free
+diffusion.
+We then performed coimmunoprecipitation (co-IP) by trans￾fecting HEK293T cells with constructs expressing Myc-tagged
+MO25 and different fragments of Flag-tagged MST4 including
+full-length MST4 (amino acids 1–416), C-terminal truncation
+MST4 (amino acids 1–327), and MST4 (amino acids 1–297), as
+well as a kinase dead mutation MST4 D162A (amino acids 1–
+416). Flag-tagged MST4 was immunoprecipitated and then
+precipitates were immunoblotted with anti-Flag and anti-Myc
+antibody (Figure 1C). Myc-tagged MO25 was detected in the im￾munoprecipates of all MST4 fragments. Together with the coloc￾alization analysis, these results clearly indicated that MST4 and
+MO25 coexist in a complex in cells, possibly through MST4
+kinase domain.
+Next, we used purified recombinant proteins to detect the
+direct interactions between MO25 and different MST4 frag￾ments using Octet Red 96 (ForteBio). Compared with full-length
+MST4, the fragment 18–327 had similar binding affinity to
+MO25, yet the fragment 18–297 showed apparently reduced
+level of MO25 binding (Table 1; Figure S1 available online).
+This observation indicated that the MST4 linker region contain￾ing the MO25-binding motif (WSF motif) might enhance its
+interaction with MO25, although MST4 kinase domain alone
+could form complex with MO25. It has been reported that
+ATP could promote STRAD binding to MO25 (Zeqiraj et al.,
+2009b). We then tested whether the binding of MST4 and
+MO25 was influenced by the presence of ATP. Our results
+showed that ATP did not seem to affect MST4 binding to
+MO25 (Table 1; Figure S1). The binding affinity of MST4 for
+MO25 is higher than that of STRAD in the absence of ATP,
+while similar binding affinities for MO25 were observed when
+ATP is present (Figure S1).
+It was previously shown that MO25 promotes MST4 kinase
+activity toward myelin basic protein (MBP), a general kinase sub￾strate (Filippi et al., 2011). We performed in vitro kinase assays
+using purified proteins of full-length MST4 and various frag￾ments. As shown in Figure 1D, full-length MST4 and truncation
+fragments 18–327 or 18–297 had similar kinase activities. Addi￾tion of MO25 increased MST4 kinase activity by approximately
+10-fold. As a negative control, the kinase dead mutant of
+MST4 (D162A) did not show significant activity alone or in the
+presence of MO25 (Figure 1D).
+Structure of MST4-MO25 Complex
+After the confirmation of the stable MST4-MO25 complex and
+the characterization of the minimum domains required for
+complex assembly, we purified MST4 kinase domain (amino
+acids 18–297, D162A) in complex with MO25 (amino acids 11–
+334) and crystallized the complex with or without a cyclin-depen￾dent kinase 1/2 (CDK1/2) inhibitor III (DKI) and a peptide
+‘‘EWSFT’’ which mimics the MO25-binding motif (Figures S2A–
+S2C). The crystal of MST4-MO25 complex diffracted to 3.15 A˚
+resolution. Structures were determined by molecular replace￾ment with final Rwork of 0.206 and Rfree of 0.252. The refinement
+statistics were summarized in Table 2.
+The overall structures of MST4-MO25 complex with inhibitor
+compound DKI or WSF motif peptide are very much the same
+to that of the MST4-MO25 complex alone (Figure 2A). The asym￾metric unit of the MST4-MO25 crystals contains one molecule of
+MST4 and one molecule of MO25 bound to each other, forming
+a 1:1 subcomplex. Further examination of symmetry-related
+molecules indicated that MST4 and MO25 form a 2:2 tetrameric
+heterocomplex on the basis of MST4-kinase-domain-mediated
+homodimer, consistent with in vitro kinase assays (see more
+details below). No significant conformational change was
+observed for MO25. The rmsd value is 1.35 A˚ on 311 Ca atoms
+when the complexed-MO25 structure overlapped with the apo
+MO25 structure reported previously (Milburn et al., 2004). In
+brief, MO25 is composed of seven a-helical repeats and forms
+a horseshoe shape. The concave surface of MO25 interacts
+with the N-lobe and the aE helix of MST4 kinase domain. The
+monomer structure of the MST4 kinase domain observed in
+MST4-MO25 complex crystals is similar to the MST4 kinase
+Structure
+Structure of MST4-MO25 Complex
+450 Structure 21, 449–461, March 5, 2013 ª2013 Elsevier Ltd All rights reserveddomain structure determined alone with the exception of a repo￾sitioned aC helix and a well defined activation loop (A-loop) (Fig￾ure S3) (Record et al., 2010). The rmsd of overlapping these two
+MST4 structures is 1.84 A˚ for the complete kinase domain (amino
+acids 18–297), and 1.41 A˚ when the aC helix and A-loop were
+excluded. Notably, the ordered A-loop of MST4 in our complex
+structures adopted an inactive conformation that would block
+substrate binding.
+A DKI compound was found in the ATP binding pocket of
+MST4 in the MST4-MO25-DKI complex (Figure 2A), consistent
+with previous finding that DKI binds to MST4 with high affinity
+(Record et al., 2010). The glycine-rich loop and the region
+between b4 and aD of MST4 tether the DKI molecule to the
+hydrophobic active cleft between the two lobes of the kinase
+domain (Figure S3). Similar as observed for the quinazoline inhib￾itor compound GVD bound to MST4, residues L102 and D109 of
+Figure 1. MO25 Binds to MST4 and Stimulates Its Kinase Activity
+(A) Schematic illustration of domain organization for human MST4 and MO25. MST4 contains a kinase domain at the N terminus, following with a linker
+region, which contains a Trp-Ser-Phe (WSF) motif, and a dimerization domain at the C terminus. MO25 is composed of seven a-helical repeats (designated as
+R0-R6).
+(B) The CFP-tagged MO25 and YFP-tagged MST4 were transfected alone or cotransfected into HEK293T cells, and proteins were visualized by confocal
+microscopy.
+(C) The indicated constructs of Myc-tagged MO25 and Flag-tagged MST4 were cotransfected into HEK293T cells. Cells were lysed, and Flag-tagged MST4 was
+immunoprecipitated (IP) with anti-Flag antibody and subjected to immunoblot (IB) analysis. The relative association was calculated by ratio of Myc-tagged and
+Flag-tagged protein level in IB and the association between MST4 (amino acids 1–416) and MO25 was set to 1.0. b-actin was used as an independent loading
+control.
+(D) The different MST4 fragments were assayed for determining the ability of MST4 to phosphorylate myelin basic protein (MBP) in the absence or presence of
+MO25. Error bars represent SD of data obtained in three independent experiments.
+Structure
+Structure of MST4-MO25 Complex
+Structure 21, 449–461, March 5, 2013 ª2013 Elsevier Ltd All rights reserved 451MST4 directly interacted with the oxygen atom and the amino
+group of DKI by hydrogen bonding.
+Details of the MST4-MO25 Interaction
+Previous studies identified four major sites (termed A, B, C, and D
+sites) on STRAD for the binding of MO25, three of which interact
+with the concave surface of MO25 (Filippi et al., 2011; Zeqiraj
+et al., 2009b). Correspondingly, MST4 mainly interacts with the
+MO25 concave surface through three major sites involving the
+MST4 kinase domain N-lobe and the aE helix (Figure 2A). For
+site A, the loop between the b3 sheet and the aC helix of
+MST4 kinase domain forms intensive interactions with the H3
+helix of the MO25 repeat R4 and R5 (termed R4H3 and R5H3,
+similarly naming hereinafter). This binding network involves
+residues Y223, R227, K231, S267, and N269 of MO25 and
+E58, E61, and E63 from the aC helix region of MST4, which
+form hydrogen bonding and electrostatic interactions, contrib￾uting a total of 222 A˚ 2 buried surface area (Figure 2B). In addition,
+the aC helix of MST4 walks along the concave surface of MO25,
+burying a total of 354 A˚ 2 surface area (Figure 2C). Particularly
+residues E65 and Q68 in the aC helix of MST4 interact with
+S182 and Q228 from the H3 helix of the MO25 repeat R3 and
+R4 by electrostatic interactions.
+For site B, residue F178 in the H3 helix of the MO25 repeat R3
+extends to a hydrophobic region of MST4, involving residues L57
+near the b3 sheet, L90 in the b4 sheet, L95 in the b5 sheet, and
+V224 in the H3 helix of the MO25 repeat R4. The buried surface
+area of the hydrophobic region is up to 275 A˚ 2 (Figure 2D). More￾over, residue D179 in the H3 helix of the MO25 repeat R3 inter￾acts with residues Y85 and S88 from the MST4 b4 sheet through
+hydrogen bonding.
+At C site, the aE helix from the C-lobe of MST4 kinase domain
+interacts with the H3 helix of the MO25 repeat R1 (Figure 2E).
+Specifically, residues E93 and K96 of MO25 interacted with
+Y134 and E138 of MST4. These interactions were mainly medi￾ated by hydrogen bonding and salt bridges.
+For the relatively isolated site D, the WSF motif of MST4 binds
+intimately to the hydrophobic pocket on the C-terminal convex
+surface of MO25 (Figure 2F). Hydrophobic packing mediated
+by the WSF motif appears dominant in this site. For example,
+the side chains of W324 and F326 of the WSF motif form hydro￾phobic interactions with residues K257, M260, L263, F278, I294,
+K301, L302, and F305 of MO25, burying a total of 424 A˚ 2 molec￾ular surface. In addition, K297, N298, and K301 of MO25 form
+hydrogen bonds with S325 and the main chain of the motif.
+Moreover, a pair of cation-p interaction was observed between
+W324 of the WSF motif and R264 of MO25, highlighting W324
+as a critical residue for interaction with MO25. All the key resi￾dues in the interface of MST4 and MO25 are highly conserved
+between different species, indicating a conserved role of
+MO25 for regulating MST4 (Figures S4A and S4B).
+MST4 Kinase Activity Is Regulated by MO25 Binding
+After the examination of the MST4-MO25 interface, we per￾formed biochemical- and cellular-based assays to verify our
+crystallographic analysis and identify specific amino acids
+most critical for MST4-MO25 association. To this end, a series
+of mutants based on the full-length MST4 and MO25 were con￾structed. Purified recombinant proteins were then used to detect
+interactions between wild-type or mutant of MST4 and MO25 by
+Octet Red 96. Circular dichroism (CD) spectroscopy results
+showed that the overall structures and folds of these mutant
+proteins have not been altered when compared with wild-type
+MST4 or MO25 (Figure S5). Single mutations F178E (site B),
+Y223A, R227A (site A), M260E (site D) and double mutation
+F178E/V224E (site B) of MO25 greatly impaired its interaction
+with MST4 (Table 3; Figure S6). Similarly, single mutations
+L95E (site B), Y134A (site C), W324E (site D), and double muta￾tion L90E/L95E (site B) of MST4 markedly reduced its associa￾tion with MO25. Single mutation E138A (site C) of MST4 did
+not significantly affect their association. Furthermore, co-IP
+Table 1. MST4 Directly Interacts with MO25 In Vitro through
+N-Terminal Region
+Analyte KD1 (nM) KD2 (nM)
+MST4 9.12 80.0
+MST4 (18–326) 9.18 281
+MST4 (18–297) 99.1 69.5
+MST4 + ATP 10.8 118
+Binding of MO25 to various MST4 fragments was determined by Octet
+Red 96 using purified recombinant proteins. Various fragments of
+biotinylated-MST4 were immobilized on streptavidin (SA) biosensors
+and incubated with varying concentrations of MO25 protein. Association
+(kon) and dissociation (koff) rates were measured and calculated
+using Octet Data Analysis Software 7.0. KD values were calculated as
+KD = kon/koff. See also Figure S1.
+Table 2. Data Collection and Refinement Statistics
+MST4-MO25
+MST4-MO25-
+WSF
+MST4-MO25-
+DKI
+Data Collection
+Space group I432 I432 I432
+Cell dimensions
+a, b, c (A˚ ) 237.6, 237.6,
+237.6
+239.3, 239.3,
+239.3
+239.5, 239.5,
+239.5
+a, b, g (
+) 90, 90, 90 90, 90, 90 90, 90, 90
+Resolution (A˚ ) 50.0–3.15
+(3.20–3.15)a
+50.0–3.25
+(3.31–3.25)
+50.0–3.65
+(3.71–3.65)
+Rmerge 0.138 (0.906) 0.099 (0.816) 0.189 (0.815)
+I / sI 28.0 (4.0) 23.0 (2.9) 19.1 (4.1)
+Completeness (%) 99.9 (100.0) 99.6 (99.8) 99.6 (100.0)
+Redundancy 20.8 (19.9) 6.8 (6.5) 12.8 (13.6)
+Refinement
+No. reflections 18,854 17,610 12,643
+Rwork / Rfree 0.206/0.252 0.220/0.260 0.252/0.309
+No. atoms
+Protein 4,870 4,589 4,859
+Ligand/ion 18 6 28
+Water 12 3 0
+Rmsds
+Bond lengths (A˚ ) 0.008 0.007 0.007
+Bond angles () 1.305 1.133 1.323
+a
+Values in parentheses are for highest-resolution shell.
+Structure
+Structure of MST4-MO25 Complex
+452 Structure 21, 449–461, March 5, 2013 ª2013 Elsevier Ltd All rights reservedwas performed to analyze these interactions in cells (Figures 3A
+and 3B). Mutations F178E, Y223A, R227A, M260E, and F178E/
+V224E of MO25 and E58A (site A), L95E, Y134A, W324E, and
+L90/L95E of MST4 impaired MO25 association with MST4,
+consistent with Octet results. Collectively, these observations
+suggest that all four sites are required for MST4 interaction
+with MO25; i.e., disruption any of these sites would block
+complex formation.
+To further analyze the mechanism of MST4 activation stimu￾lated by MO25 binding, we used purified recombinant proteins
+to measure the kinase activity of MST4 toward MBP in the pres￾ence or absence of MO25 (Figures 3C and 3D). Our results
+showed that wild-type MO25 promoted the kinase activity of
+wild-type MST4 dramatically. However, the MO25 mutants
+(F178E, Y223A, R227A, M260E, and F178E/V224E) and MST4
+mutants (E58A, W324E, E58A/E61A, and E63A/E65A) that im￾paired MST4-MO25 interactions as shown by Octet and co-IP
+could not activate MST4 kinase as did wild-type proteins, corre￾lating MO25 binding to the regulation of MST4 kinase activity.
+Moreover, these MST4 mutants (except Y134A) retained a basal
+level of kinase activity similar to that of wild-type MST4 in the
+absence of MO25, corroborating the folding integrity of MST4
+mutant proteins. These results further confirmed the necessity
+of all four sites for complex formation and MST4 activation.
+It is interesting that Y134A mutant of MST4 showed no kinase
+activity regardless of MO25 binding (Figure 3D). We checked the
+structure of MST4 and found that the residue Y134 lies under the
+aC helix and forms hydrogen bond and salt bridges with residues
+Q76, C77, and D78 near the aC helix (Figure S7). Thus, Y134A
+mutant abolished MST4 activity probably through alteration of
+the aC helix conformation.
+Kinase-Domain-Mediated Homodimerization
+Is Required for MST4 Activation
+In the crystals of MST4-MO25 complex, the MST4 kinase
+domain can form homodimer in two different manners (referred
+Figure 2. Interface of MST4 and MO25 Complex
+(A) Overall structure and interface of MST4 and MO25 complex. MST4 is shown in cartoon representation and colored yellow, and MO25 is shown in cartoon
+representation and colored green. The WSF motif is colored red and the inhibitor compound DKI is shown as stick and colored magenta. MST4 has four
+conserved sites for MO25 binding, termed sites A, B, C, and D, respectively.
+(B) Detailed view of site A. The aC helix of MST4 interacts with helices Helix 3 of Repeat 3 (R3H3), R4H3, and R5H3 in the concave surface of MO25 via hydrogen
+bonding and electrostatic interactions.
+(C) Representative experimental electron density map at 3.15 A˚ resolution contoured at 1.0 s. The aC helix of MST4 and part of MO25 are shown.
+(D) Detailed view of site B. The b4 and b5 sheets of MST4 and helices R3H3 and R4H3 of MO25 form a hydrophobic core. Hydrogen bonds are also involved
+in this site.
+(E) Detailed view of site C. The aE helix of MST4 interacts with R1H3 helix of MO25 via hydrogen bonding and electrostatic interactions.
+(F) Detailed view of site D. The WSF motif of MST4 binds to a hydrophobic pocket in the C-terminal convex surface of MO25.
+The magenta dashes represent hydrogen bonding or electrostatic interactions. Single-letter abbreviations for the amino acid residues are as follows: A, Ala;
+C, Cys; D, Asp; E, Glu; F, Phe; G, Gly; H, His; I, Ile; K, Lys; L, Leu; M, Met; N, Asn; P, Pro; Q, Gln; R, Arg; S, Ser; T, Thr; V, Val; W, Trp; and Y, Tyr.
+See also Figures S2–S4.
+Structure
+Structure of MST4-MO25 Complex
+Structure 21, 449–461, March 5, 2013 ª2013 Elsevier Ltd All rights reserved 453to as type A and type B, respectively). For type A dimer, the A￾loop and the following aEF and aG helices form a symmetric
+interface with a nature of hydrophobic interactions (Figure 4A).
+Residues M186 in the A-loop, V190, and I191 in the aEF helix
+and M225, L228, and F229 in the aG helix form a hydrophobic
+core, while residues D171 and K233 form salt bridges
+surrounding the dimeric core for additional stabilization. The total
+buried accessible surface for this type of dimerization is 822 A˚ 2
+.
+Alternatively, the aE helix and the aH, aJ and aK helices of MST4
+mediate type B dimerization (Figure 4B). In this case, two
+aromatic residues (F119) in the aE helix of two MST4 molecules
+pack against each other. Residues D242 and T244 near the aH
+helix, K276 in the aJ helix, and Y283 and E286 in the aK helix
+of one MST4 molecule form hydrogen bonding and electrostatic
+interactions with the same group of residues of other molecule. A
+total of 422 A˚ 2 surface area is buried in this type of dimerization.
+As crystal packing may cause artifacts, we carried out co-IP
+and in vitro kinase assays to verify our crystallographic observa￾tion regarding the MST4-kinase-domain-mediated dimerization.
+The C-terminal region of MST4 is known to mediate homodime￾rization. To assess the kinase-domain-mediated dimerization
+without interference by the C-terminal dimerization domain, we
+used the N-terminal fragment of MST4 containing the kinase
+domain with WSF motif (amino acids 1–327) to perform co-IP
+assay in HEK293 cells. According to different types of dimeriza￾tion, two groups of mutations based on the N-terminal fragment
+of MST4 were designed to probe MST4 homodimerization
+through kinase domain. The first group of mutations derived
+from type A dimeric interface, including mutations M225E,
+L228E and F229A, and deletion of residues 222–233 (del 222–
+233), impaired homoassociation of the MST4 kinase domain as
+shown by co-IP in HEK293T cells (Figures 5A). Moreover, this
+group of mutations abolished the kinase activity of MST4 no
+matter MO25 is present or not (Figure 5B). On the contrary,
+the second group of mutations derived from type B dimeric
+interface (mutations F119E and D242A/K276A) only partly
+reduced homoassociation of the MST4 kinase domain and
+slightly decreased its kinase activity (Figures 5A and 5B). To
+rule out the possibility that mutation alters overall structural
+folding of MST4 and therefore affect its dimerization, we used
+CD spectroscopy to monitor secondary structures of these
+mutant proteins (Figure S5). The CD results suggested that no
+major change of overall folding occur upon introduction of muta￾tions. Additionally, we tested the interactions between wild-type
+MO25 and different MST4 mutants. The Octet results indicated
+that the binding affinity decreased, especially for those muta￾tions in type A dimerization interface (Figure S8). We speculate
+that this could be caused by decreased avidity due to disruption
+of MST4 dimer, as well as perturbed conformation of the activa￾tion loop that is adjacent to the MO25 binding interface. Taken
+together, these observations indicated that type A but not type
+B dimerization is of physiological relevance, and that the
+kinase-domain-mediated homoassociation of MST4 is a prereq￾uisite for its autophosphorylation, activation, and further stimula￾tion by MO25.
+MO25-Stimulated Activation of MST4 Promotes
+Apoptosis
+To gain further functional insights into the MST4-MO25 complex,
+we overexpressed wild-type and mutant MST4 in HEK293T
+cells. Propidium iodide staining showed that transfection of
+either wild-type MST4 or MO25 significantly promoted apoptosis
+(Figure 6A). More strikingly, coexpression of wild-type MST4 and
+MO25 resulted in dramatically increased apoptosis. Similarly,
+coexpression of wild-type MO25 with MST4 E138A mutant,
+which partially impaired kinase activation stimulated by MO25,
+also enhanced apoptosis, although to a lesser extent. However,
+coexpression of wild-type MO25 and MST4 mutants W324E or
+E58A/E61A that disrupted MST4-MO25 association did not
+induce substantial apoptosis, indicating a critical role of MO25
+association induced MST4 activation. Moreover, coexpression
+of a kinase dead version of MST4 (D162A) with wild-type
+MO25 did not cause apoptosis, suggesting that MST4 kinase
+activity is essential for MST4 and/or MO25 induced apoptosis.
+Finally, we further confirmed these observations by TUNEL
+assay. As shown in Figure 6B, coexpression of MO25 with
+wild-type or mutant MST4 promoted apoptosis in a similar trend
+as observed by fluorescence-activated cell sorting.
+DISCUSSION
+Comparison of MST4-MO25 with STRAD-MO25
+The overall structure of the MST4-MO25 complex is similar to
+that of the pseudokinase STRAD in complex with MO25
+(Figure 7A), consistent with previous studies (Filippi et al.,
+2011; Zeqiraj et al., 2009b). The interaction between MST4 and
+MO25 is mediated by several conserved sites identified from
+the STRAD-MO25 complex interface. Mutation or deletion of
+the WEF motif of STRAD abolished its binding with MO25 (Bou￾deau et al., 2003). Our crystallographic study, Octet analysis,
+in vitro kinase assays and co-IP results indicate that removal of
+the WSF motif (site D) by truncation reduces but does not disrupt
+MST4-MO25 complex formation. However, mutation of this
+site in the context of full-length MST4 significantly limited its
+interaction with MO25, suggesting that the WSF-motif-mediated
+interaction stabilizes a needed conformation of MST4 when it
+associates with MO25 in cells.
+When associated with MO25, STRAD adopts an active confor￾mation and as such its A-loop is extended to ‘‘touch’’ the R0 and
+R1 helical repeats from the concave side of MO25. However, in
+Table 3. Mutational Analysis of MST4-MO25 Interface
+Analyte
+KD1
+(nM)
+KD2
+(nM) Analyte
+KD1
+(nM)
+KD2
+(nM)
+MO25 (WT) 9.12 80.0 MST4 (WT) 9.12 80.0
+MO25 (F178E) 22.8 39.7 MST4 (L95E) ND ND
+MO25 (Y223A) 77.9 24.2 MST4 (Y134A) ND ND
+MO25 (R227A) 51.7 22.0 MST4 (E138A) 18.7 35.6
+MO25 (M260E) ND ND MST4 (W324E) ND 109
+MO25 (F178E/V224E) ND ND MST4 (L90E/L95E) ND ND
+Binding affinities between MST4 and MO25 were determined by Octet
+Red 96 using purified wild-type and mutant proteins. Wild-type or mutant
+biotinylated-MST4 were immobilized on SA biosensors and incubated
+with varying concentrations of wild-type or mutant MO25 proteins. Asso￾ciation (kon) and dissociation (koff) rates were measured and calculated
+using Octet Data Analysis Software 7.0. KD values were calculated as
+KD = kon/koff. ND, not determined. See also Figures S5 and S6.
+Structure
+Structure of MST4-MO25 Complex
+454 Structure 21, 449–461, March 5, 2013 ª2013 Elsevier Ltd All rights reservedour structure of the MST4-MO25 complex, MST4 appears to be
+in a transition state between the ‘‘inactive’’ and fully ‘‘active’’
+states. A feature of the MST4 transition state is that its aC helix
+is in a closed conformation while its A-loop is folded back to
+the substrate cleft. Based on comparison of MST4-MO25 and
+STRAD-MO25 complexes, we propose that upon activation,
+the loop between the R0 and R1 helices of MO25 shifts toward
+MST4. Together with R0 and R1 repeats, this rearranged loop
+of MO25 can interact with the autophosphorylated A-loop of
+MST4 to stabilize an extended active conformation (see more
+below).
+Conformational Change of MST4 aC Helix Induced
+by MO25 Binding
+When compared with the structure of the MST4 kinase domain in
+apo state (Record et al., 2010), the aC helix of MST4 in complex
+state is rotated by MO25 toward its catalytic core (Figure 7B).
+Figure 3. MST4 Kinase Activity Regulated
+by MO25
+(A) The indicated constructs of Flag-tagged wild￾type MST4 and Myc-tagged wild-type or mutant
+MO25 were cotransfected into HEK293T cells.
+Cells were lysed, and Flag-tagged MST4 was
+immunoprecipitated with anti-Flag antibody and
+subjected to immunoblot (IB) analysis. The relative
+association was calculated by ratio of Myc-tagged
+and Flag-tagged protein level in IB and the asso￾ciation between wild-type MST4 and MO25 was
+set to 1.0. b-actin was used as an independent
+loading control.
+(B) The indicated constructs of Myc-tagged wild￾type MO25 and Flag-tagged wild-type or mutant
+MST4 were cotransfected into HEK293T cells.
+Cells were lysed, and Myc-tagged MO25 was
+immunoprecipitated with anti-Myc antibody and
+subjected to IB analysis. The relative association
+was calculated by ratio of Flag-tagged and Myc￾tagged protein level in IB and the association
+between wild-type MO25 and MST4 was set
+to 1.0.
+(C and D) In vitro kinase assay of MST4 using MBP
+as substrate. The purified wild-type MST4 protein
+was mixed with various purified MO25 mutant
+proteins for detection of kinase activity (C). The
+purified wild-type MO25 protein was mixed with
+various purified MST4 mutant proteins for detec￾tion of kinase activities (D). The wild-type and
+mutant MST4 proteins in the absence of MO25
+were used for detection of basal level of kinase
+activity. Error bars represent SD of data obtained
+in three independent experiments.
+See also Figures S5 and S7.
+This conformational change of aC helix
+resulted in an 8 A˚ shortening of the
+distance between the K53 residue of the
+conserved Val-Ala-Ile-Lys (VAIK) motif
+and the E70 residue of the aC helix,
+promoting formation of a canonical ion
+pair, which keeps the MST4 kinase
+domain in a closed conformation. This
+effect renders the aC helix of MST4 in a position that is observed
+in active conformations of kinases such as MST3 (Ko et al., 2010)
+and STK25 (Protein Data Bank [PDB] ID: 2XIK). The distance of
+the K53-E70 pair is reduced from 11.9 A˚ (apo MST4, inactive
+state) to 3.1 A˚ (MST4-MO25 complex), which is even shorter
+than those of MST3 (4.0 A˚ ) and STK25 (4.2 A˚ ) in their active states
+(Figure 7B).
+Together with our mutational studies, these observations
+suggested that the conformational change of the aC helix is a
+hallmark of the mechanisms through which MO25 stimulates
+MST4 activation. This principle has been observed for other
+kinases such as cyclin-dependent kinase 2 (CDK2) (Honda
+et al., 2005; Jeffrey et al., 1995). Cyclin A or cyclin E binds to
+the C helix of CDK2, resulting in a rotation of the C helix (i.e.,
+the PSTAIRE helix, similar to aC helix) and subsequent formation
+of K33-E51 ion pair which keeps CDK2 in an active conforma￾tion. Moreover, the binding mode between MST4 and MO25
+Structure
+Structure of MST4-MO25 Complex
+Structure 21, 449–461, March 5, 2013 ª2013 Elsevier Ltd All rights reserved 455also resembled the interactions between CDK2 and cyclin A/E.
+Notably, the hydrophobic cleft nearby the C helix of CDK is
+also involved in the association with cyclin A/E. Other examples
+include cyclic-AMP-dependent protein kinase (PKA) and Aurora
+A/B kinases. The C-terminal hydrophobic motif of PKA binds to
+its kinase domain N-lobe and activates PKA (Knighton et al.,
+1991). Aurora A/B can be activated by binding of a hydrophobic
+motif in targeting protein for Xklp2 (TPX2)/inner centromere
+protein (INCENP) (Bayliss et al., 2003; Sessa et al., 2005). These
+shared features reflect a universal activation mechanism in
+which a hydrophobic area of a regulatory partner or a hydro￾phobic motif of a subunit or domain binds to the hydrophobic
+cleft nearby the aC helix of the kinase domain to induce a closed
+conformation.
+Kinase-Domain-Mediated Homodimerization Is
+Required for MST4 trans-Autophosphorylation
+Previous structural study of the MST4 kinase domain alone also
+revealed a dimeric association involving the A-loop (Record
+et al., 2010). Our current work revealed a 2:2 MST4-MO25
+complex with homodimerization of the MST4 kinase domain
+involving the aEF/aG helices and the A-loop. Structural compar￾ison of the MST4 kinase domain homodimer identified in this
+study and the previously reported one reveal conformational
+rearrangements of the dimer from the apo state to the MO25-
+complexed state (Figures 7C, 7D, and S9A–9C). It is likely that
+MO25 binding alters the conformation of the MST4 kinase
+domain by rotating the aC helix, which then induces reorganiza￾tion of the dimeric interface for activation. Our co-IP and in vitro
+kinase assay showed that mutations disrupting the dimeric
+interface of MST4 abolished its kinase activity, highlighting the
+functional importance of the particular dimeric conformation
+identified in the structure of MST4 in complex with MO25
+(Figure 5).
+Single mutation such as M225E or L228E that disrupt the type￾A homodimerization of the MST4 kinase domain completely
+Figure 4. MST4 Kinase Domain Forms Sym￾metric Homodimers in Crystal Structure
+(A) Type A dimerization interface of MST4 kinase
+domain. The two molecules of MST4 are colored
+yellow and orange, respectively. The activation
+loop (A-loop) and the following aEF and aG helices
+form a symmetric dimer through hydrophobic
+interactions.
+(B) Type B dimerization interface of MST4 kinase
+domain. The colors are the same as type A
+dimerization. The aE, aH, aJ, and aK helices of
+MST4 are involved in this dimerization.
+abolished MST4 kinase activity, even
+though the rest of the catalytic elements
+including the aC helix, A-loop, active
+cleft, and the substrate binding motif
+were intact. However, mutations disrupt￾ing type-B homodimer of MST4 did not
+significantly affect its kinase activity.
+These observations strongly indicate
+that it is the type A dimeric conformation
+of the kinase domain, per se, is required for the activation
+of MST4.
+In the presence of MO25, the MST4 kinase domain forms
+a dimer via the aEF/aG helices and the A-loop. A-loop exchange
+of kinases has recently been discussed as a mechanism for
+trans-autophosphorylation (Lee et al., 2009; Pike et al., 2008;
+Villa et al., 2008). For example, the A-loop and aEF, aF, and
+aG helices are involved in dimerization in certain kinases
+including STE20-like serine/threonine-protein kinase (SLK),
+lymphocyte-oriented kinase (LOK), OSR1, and death-associated
+protein kinase 3 (DAPK3). In our structure, in addition to the
+A-loop, the homodimerization interface of MST4 also includes
+the Ala-Pro-Glu (APE) motif and P+1 loop, which are related
+to substrate binding, suggesting that one MST4 molecule
+may serve as a substrate of another. Therefore, dimerization
+of the MST4 kinase domain is required for its trans￾autophosphorylation.
+Functional Implications of the MST4-MO25 Complex
+MST4 has been implicated in the regulation of cell polarity and
+growth control (Dan et al., 2002; Lin et al., 2001; Ma et al.,
+2007; Sung et al., 2003; ten Klooster et al., 2009). In fact, the
+other two GCK-III subfamily members MST3 and STK25, which
+are highly homologous with MST4, are also involved in cas￾pase-dependent or independent apoptosis (Chen et al., 2009;
+Huang et al., 2002; Lin et al., 2010; Nogueira et al., 2008; Wu
+et al., 2008, 2011).
+Our cell-based assays indicated that MST4 and MO25 asso￾ciate together to promote apoptosis in HEK293T cells. These
+studies corroborated the structural and biochemical studies of
+the MST4-MO25 complex. We found that neither MST4 kinase
+dead mutant (D162A) nor MST4 mutations (W324E and E58A/
+E61A) that disrupt its interaction with MO25 could efficiently pro￾mote apoptosis. Our results suggest that these MST4 mutants
+play a dominant-negative role by forming homodimers with
+endogenous MST4 and therefore preventing efficient MO25
+Structure
+Structure of MST4-MO25 Complex
+456 Structure 21, 449–461, March 5, 2013 ª2013 Elsevier Ltd All rights reservedstimulation on MST4. Taken together, our observations suggest
+that MO25-stimulated activation of MST4 promotes apoptosis,
+but further studies are required to identify and dissect molecular
+signaling pathways by which MST4 induces apoptosis.
+Conclusions
+The actions of most kinases are regulated by different mecha￾nisms involving phosphorylation, dimerization, subdomain and
+subunit interactions, and coregulator binding. Our study iden￾tifies a working model for MO25 stimulated MST4 activation, in
+which binding of MO25 poses two major conformational effects
+on MST4. The first is to promote a closed conformation of the
+active site by rotating the aC helix inward and formation of the
+conserved K53-E70 ion pair; the second is to induce specific
+homodimerization of the kinase domain, which is required
+for trans-autophosphorylation of MST4 (Figure 7E). After trans￾autophosphorylation, conformational change of A-loop destabi￾lizes the kinase domain-mediated MST4 homodimer, allowing
+substrate binding. This model is also applicable for the activation
+Figure 5. MST4 Kinase Activity Regulated
+by Homodimerization
+(A) Wild-type HA-tagged MST4 (amino acids 1–
+327) and the indicated constructs of Flag-tagged
+MST4 (amino acids 1–327) were cotransfected into
+HEK293T cells. Cells were lysed, and Flag-tagged
+MST4 (amino acids 1–327) was immunoprecipi￾tated (IP) with anti-Flag and subjected to immu￾noblot (IB) analysis. The relative association was
+calculated by ratio of HA-tagged and Flag-tagged
+protein level in IB and the association between
+wild-type HA-tagged MST4 (amino acids 1–327)
+and Flag-tagged MST4 (amino acids 1–327) was
+set to 1.0. b-actin was used as an independent
+loading control.
+(B) In vitro kinase assay of MST4 using MBP as
+substrate. The kinase activities of purified wild￾type and mutant MST4 proteins were detected in
+the absence or presence of purified wild-type
+MO25. Error bars represent SD of data obtained in
+three independent experiments.
+See also Figure S5 and S8.
+of other MO25-stimulated STE20 kinases
+such as MST3 and STK25.
+EXPERIMENTAL PROCEDURES
+Cloning, Protein Expression, and
+Purification
+Human MST4 (amino acids 18–297, D162A) and
+MO25 (amino acids 11–334) were cloned into
+vector HT-pET-28a and expressed in E. coli
+BL21(DE3) cells. MST4 and MO25 were purified
+by Ni affinity chromatography and size exclusive
+chromatography. Purified proteins of MO25 and
+MST4 were mixed with equimolar ratio and applied
+to HiLoad 16/60 Superdex 200 again.
+Crystallization, Structure Determination,
+and Refinement
+The protein of MST4-MO25 complex was concen￾trated to 10 mg/ml. When performing crystal
+screen experiment, we added different kinase inhibitors such as DKI, stauro￾sporine, purvalanol B, GSK-3 inhibitor XIII, ATP analogs such as adenosine
+50
+-(b,g-imido) triphosphate (ANP), adenosine 50
+-(g-thio) triphosphate (AGS)
+and MO25-binding peptide (EWSFT) to the protein for crystallization purpose.
+Crystals were grown in reservoir solution consisted of 0.1 M Tris (pH 8.0),
+18%–20% polyethylene glycol 350 monomethyl ether. Diffraction data were
+collected at beamline BL17U, Shanghai Synchrotron Radiation Facility
+(SSRF) of China, and processed using HKL2000 (Otwinowski and Minor,
+1997). The structure of MST4-MO25 complex was resolved by molecular
+replacement.
+Interaction Analysis Using Octet Red 96
+Interaction analysis was performed using an Octet Red 96 instrument (Forte￾Bio) (Ekiert et al., 2011). Wild-type or mutant MST4 was labeled by biotin in
+20 mM HEPES (pH 7.5), 100 mM NaCl, 1 mM DTT, and biotinylated proteins
+were immobilized on streptavidin (SA) biosensors and incubated with varying
+concentrations of MO25 in 1 3 kinetics buffer. Data were analyzed using Octet
+Data Analysis Software 7.0 (ForteBio).
+Confocal Microscopy
+HEK293T cells were transfected with indicated constructs encoding CFP￾tagged MO25 or/and YFP-tagged MST4. Cells were stained for the nucleus
+Structure
+Structure of MST4-MO25 Complex
+Structure 21, 449–461, March 5, 2013 ª2013 Elsevier Ltd All rights reserved 457using 10 mg/ml DAPI in PBS and prepared for confocal analysis (Leica
+LAS SP5).
+Immunoprecipitation
+HEK293T cells were transiently transfected with constructs encoding Myc￾tagged MO25 or/and Flag-tagged MST4. Cells were lysed and the superna￾tants were incubated with anti-Myc or anti-Flag antibody and protein A/G
+agarose antibody (Santa Cruz). The immune complexes were subjected to
+SDS-PAGE, and analyzed by western blot.
+In Vitro Kinase Assay
+The activity of recombinant MST4 and its mutants were assayed by using
+myelin basic protein (MBP) as substrate. One unit (U) of protein kinase activity
+is that amount that catalyzes the incorporation of 1 nmol phosphate into MBP
+in 1 min (Hastie et al., 2006).
+Flow Cytometry
+HEK293T cells were transfected with constructs encoding Myc-tagged MO25
+or/and Flag-tagged MST4. The cells were incubated with 50 mg/ml propidium
+iodide (PI) in PBS with 0.2 mg/ml RNase A and 0.1% Triton X-100, and
+analyzed by flow cytometer.
+TUNEL Assay
+HEK293T cells were transfected with constructs encoding Myc-tagged MO25
+or/and Flag-tagged MST4. Apoptosis was determined by TUNEL assay using
+an in situ cell death detection kit (Roche Applied Science).
+Figure 6. MO25-Stimulated Activation of MST4 Promotes Apoptosis
+(A) HEK293T cells were transfected with the indicated constructs encoding Myc-tagged MO25 and/or Flag-tagged MST4. Cells were stained with PI
+and analyzed by flow cytometer. The apoptosis fraction is indicated by purple line. The numbers are the percentage of apoptosis corresponding to each
+sample.
+(B) HEK293T cells were transfected with the indicated constructs encoding Myc-tagged MO25 and/or Flag-tagged MST4. Apoptosis was determined by TUNEL
+assay using an in situ cell death detection kit. Cells were fixed and assayed for TUNEL activity (green), a measure of caspase-dependent DNA fragmentation
+typically produced in apoptotic cells. Nuclei were stained red by PI.
+Structure
+Structure of MST4-MO25 Complex
+458 Structure 21, 449–461, March 5, 2013 ª2013 Elsevier Ltd All rights reservedFigure 7. Structural Features of MST4 Activation
+(A) Structural comparison of MST4-MO25 with STRAD-MO25. The MO25 molecule in these two complexes was used for superimposition. The overall structure of
+MST4-MO25 complex is similar to that of STRAD-MO25 complex (PDB ID: 3GNI). MST4 is colored yellow, and STRAD colored slate. MO25 is colored green.
+(B) Structural comparison of MST4 in MO25-complexed state (yellow) with apo MST3 (cyan, PDB ID: 3A7G) and STK25 (purple, PDB ID: 2XIK) kinases in their
+active states, and apo MST4 (light blue, PDB ID: 3GGF) in its inactive state. MO25 binding rotates MST4 aC helix toward catalytic center, promoting an active
+conformation of the aC helix. During this process, the distance between the conserved key residues K53 and E70 (numbered in MST4) was decreased from 11.9
+to 3.1 A˚ , resulting in ion pair interaction.
+(C and D) Structural comparison of MST4 homodimerization in MO25-complexed state and apo state. The conformations of MST4 homodimer in MO25-
+complexed state (yellow and orange) (C) and apo state (light blue and wheat) (PDB ID: 3GGF) (D) are distinct. However, the A-loop and following aEF and aG
+helices are involved in MST4 homodimerization in both states.
+(E) A schematic model for MO25 regulated MST4 activation. MO25 activates MST4 by rotating the aC helix to a closed active conformation and modulating the
+specific dimerization mode that is required for trans-autophosphorylation. After trans-autophosphorylation, conformational change of A-loop destabilizes the
+kinase domain-mediated MST4 homodimer, allowing substrate binding.
+See also Figure S9.
+Structure
+Structure of MST4-MO25 Complex
+Structure 21, 449–461, March 5, 2013 ª2013 Elsevier Ltd All rights reserved 459ACCESSION NUMBERS
+The coordinate files and structure factors for the MST4-MO25, MST4-MO25
+with WSF motif, and MST4-MO25 with DKI crystal structures were deposited
+in the Protein Data Bank under accession codes 4FZA, 4FZD, and 4FZF,
+respectively.
+SUPPLEMENTAL INFORMATION
+Supplemental Information includes nine figures, Supplemental Experimental
+Procedures, and three 3D molecular models and can be found with this article
+online at http://dx.doi.org/10.1016/j.str.2013.01.007.
+ACKNOWLEDGMENTS
+We thank the staff at beamline BL17U of the Shanghai Synchrotron Radiation
+Facility (SSRF) for help with data collection. Special thanks go to Dr. Mark I.
+Greene at the University of Pennsylvania and Dr. Dangsheng Li at the Shanghai
+Information Center for Life Sciences for their critical reading of the manuscript.
+This work was supported by the 973 program of the Ministry of Science
+and Technology of China (2010CB529701, 2012CB910204, 2010CB912101,
+and 2011CB943902), the National Natural Science Foundation of China
+(31270808, 30970566, 10979005, 30971647, and 31171414), the Science
+and Technology Commission of Shanghai Municipality (11JC14140000), and
+the ‘‘Strategic Priority Research Program’’ of the Chinese Academy of
+Sciences (XDA01010405). Y.Z. and Z.Z. are scholars of the Hundred Talents
+Program of the Chinese Academy of Sciences.
+Received: September 21, 2012
+Revised: December 12, 2012
+Accepted: January 11, 2013
+Published: February 21, 2013
+REFERENCES
+Baas, A.F., Kuipers, J., van der Wel, N.N., Batlle, E., Koerten, H.K., Peters, P.J.,
+and Clevers, H.C. (2004). Complete polarization of single intestinal epithelial
+cells upon activation of LKB1 by STRAD. Cell 116, 457–466.
+Bayliss, R., Sardon, T., Vernos, I., and Conti, E. (2003). Structural basis of
+Aurora-A activation by TPX2 at the mitotic spindle. Mol. Cell 12, 851–862.
+Boudeau, J., Baas, A.F., Deak, M., Morrice, N.A., Kieloch, A., Schutkowski, M.,
+Prescott, A.R., Clevers, H.C., and Alessi, D.R. (2003). MO25alpha/beta interact
+with STRADalpha/beta enhancing their ability to bind, activate and localize
+LKB1 in the cytoplasm. EMBO J. 22, 5102–5114.
+Ceccarelli, D.F., Laister, R.C., Mulligan, V.K., Kean, M.J., Goudreault, M.,
+Scott, I.C., Derry, W.B., Chakrabartty, A., Gingras, A.C., and Sicheri, F.
+(2011). CCM3/PDCD10 heterodimerizes with germinal center kinase III
+(GCKIII) proteins using a mechanism analogous to CCM3 homodimerization.
+J. Biol. Chem. 286, 25056–25064.
+Chen, C.B., Ng, J.K., Choo, P.H., Wu, W., and Porter, A.G. (2009). Mammalian
+sterile 20-like kinase 3 (MST3) mediates oxidative-stress-induced cell death by
+modulating JNK activation. Biosci. Rep. 29, 405–415.
+Dan, I., Watanabe, N.M., and Kusumi, A. (2001). The Ste20 group kinases as
+regulators of MAP kinase cascades. Trends Cell Biol. 11, 220–230.
+Dan, I., Ong, S.E., Watanabe, N.M., Blagoev, B., Nielsen, M.M., Kajikawa, E.,
+Kristiansen, T.Z., Mann, M., and Pandey, A. (2002). Cloning of MASK, a novel
+member of the mammalian germinal center kinase III subfamily, with
+apoptosis-inducing properties. J. Biol. Chem. 277, 5929–5939.
+Delpire, E. (2009). The mammalian family of sterile 20p-like protein kinases.
+Pflugers Arch. 458, 953–967.
+Ekiert, D.C., Friesen, R.H., Bhabha, G., Kwaks, T., Jongeneelen, M., Yu, W.,
+Ophorst, C., Cox, F., Korse, H.J., Brandenburg, B., et al. (2011). A highly
+conserved neutralizing epitope on group 2 influenza A viruses. Science 333,
+843–850.
+Fanger, G.R., Gerwins, P., Widmann, C., Jarpe, M.B., and Johnson, G.L.
+(1997). MEKKs, GCKs, MLKs, PAKs, TAKs, and tpls: upstream regulators of
+the c-Jun amino-terminal kinases? Curr. Opin. Genet. Dev. 7, 67–74.
+Filippi, B.M., de los Heros, P., Mehellou, Y., Navratilova, I., Gourlay, R., Deak,
+M., Plater, L., Toth, R., Zeqiraj, E., and Alessi, D.R. (2011). MO25 is a master
+regulator of SPAK/OSR1 and MST3/MST4/YSK1 protein kinases. EMBO J.
+30, 1730–1741.
+Gloerich, M., ten Klooster, J.P., Vliem, M.J., Koorman, T., Zwartkruis, F.J.,
+Clevers, H., and Bos, J.L. (2012). Rap2A links intestinal cell polarity to brush
+border formation. Nat. Cell Biol. 14, 793–801.
+Hastie, C.J., McLauchlan, H.J., and Cohen, P. (2006). Assay of protein kinases
+using radiolabeled ATP: a protocol. Nat. Protoc. 1, 968–971.
+Honda, R., Lowe, E.D., Dubinina, E., Skamnaki, V., Cook, A., Brown, N.R., and
+Johnson, L.N. (2005). The structure of cyclin E1/CDK2: implications for CDK2
+activation and CDK2-independent roles. EMBO J. 24, 452–463.
+Huang, C.Y., Wu, Y.M., Hsu, C.Y., Lee, W.S., Lai, M.D., Lu, T.J., Huang, C.L.,
+Leu, T.H., Shih, H.M., Fang, H.I., et al. (2002). Caspase activation of mamma￾lian sterile 20-like kinase 3 (Mst3). Nuclear translocation and induction of
+apoptosis. J. Biol. Chem. 277, 34367–34374.
+Jeffrey, P.D., Russo, A.A., Polyak, K., Gibbs, E., Hurwitz, J., Massague´ , J., and
+Pavletich, N.P. (1995). Mechanism of CDK activation revealed by the structure
+of a cyclinA-CDK2 complex. Nature 376, 313–320.
+Knighton, D.R., Zheng, J.H., Ten Eyck, L.F., Ashford, V.A., Xuong, N.H., Taylor,
+S.S., and Sowadski, J.M. (1991). Crystal structure of the catalytic subunit of
+cyclic adenosine monophosphate-dependent protein kinase. Science 253,
+407–414.
+Ko, T.P., Jeng, W.Y., Liu, C.I., Lai, M.D., Wu, C.L., Chang, W.J., Shr, H.L., Lu,
+T.J., and Wang, A.H. (2010). Structures of human MST3 kinase in complex with
+adenine, ADP and Mn2+. Acta Crystallogr. D Biol. Crystallogr. 66, 145–154.
+Lee, S.J., Cobb, M.H., and Goldsmith, E.J. (2009). Crystal structure of domain￾swapped STE20 OSR1 kinase domain. Protein Sci. 18, 304–313.
+Lin, J.L., Chen, H.C., Fang, H.I., Robinson, D., Kung, H.J., and Shih, H.M.
+(2001). MST4, a new Ste20-related kinase that mediates cell growth and trans￾formation via modulating ERK pathway. Oncogene 20, 6559–6569.
+Lin, C.Y., Wu, H.Y., Wang, P.L., and Yuan, C.J. (2010). Mammalian Ste20-like
+protein kinase 3 induces a caspase-independent apoptotic pathway. Int. J.
+Biochem. Cell Biol. 42, 98–105.
+Ling, P., Lu, T.J., Yuan, C.J., and Lai, M.D. (2008). Biosignaling of mammalian
+Ste20-related kinases. Cell. Signal. 20, 1237–1247.
+Ma, X., Zhao, H., Shan, J., Long, F., Chen, Y., Chen, Y., Zhang, Y., Han, X., and
+Ma, D. (2007). PDCD10 interacts with Ste20-related kinase MST4 to promote
+cell growth and transformation via modulation of the ERK pathway. Mol. Biol.
+Cell 18, 1965–1978.
+Milburn, C.C., Boudeau, J., Deak, M., Alessi, D.R., and van Aalten, D.M. (2004).
+Crystal structure of MO25 alpha in complex with the C terminus of the pseudo
+kinase STE20-related adaptor. Nat. Struct. Mol. Biol. 11, 193–200.
+Nogueira, E., Fidalgo, M., Molnar, A., Kyriakis, J., Force, T., Zalvide, J., and
+Pombo, C.M. (2008). SOK1 translocates from the Golgi to the nucleus upon
+chemical anoxia and induces apoptotic cell death. J. Biol. Chem. 283,
+16248–16258.
+Otwinowski, Z., and Minor, W. (1997). Processing of X-ray diffraction data
+collected in oscillation mode. Methods Enzymol. 276, 307–326.
+Pike, A.C., Rellos, P., Niesen, F.H., Turnbull, A., Oliver, A.W., Parker, S.A.,
+Turk, B.E., Pearl, L.H., and Knapp, S. (2008). Activation segment dimerization:
+a mechanism for kinase autophosphorylation of non-consensus sites. EMBO
+J. 27, 704–714.
+Pombo, C.M., Force, T., Kyriakis, J., Nogueira, E., Fidalgo, M., and Zalvide, J.
+(2007). The GCK II and III subfamilies of the STE20 group kinases. Front.
+Biosci. 12, 850–859.
+Qian, Z., Lin, C., Espinosa, R., LeBeau, M., and Rosner, M.R. (2001). Cloning
+and characterization of MST4, a novel Ste20-like kinase. J. Biol. Chem. 276,
+22439–22445.
+Structure
+Structure of MST4-MO25 Complex
+460 Structure 21, 449–461, March 5, 2013 ª2013 Elsevier Ltd All rights reservedRecord, C.J., Chaikuad, A., Rellos, P., Das, S., Pike, A.C., Fedorov, O.,
+Marsden, B.D., Knapp, S., and Lee, W.H. (2010). Structural comparison of
+human mammalian ste20-like kinases. PLoS ONE 5, e11905.
+Sessa, F., Mapelli, M., Ciferri, C., Tarricone, C., Areces, L.B., Schneider, T.R.,
+Stukenberg, P.T., and Musacchio, A. (2005). Mechanism of Aurora B activation
+by INCENP and inhibition by hesperadin. Mol. Cell 18, 379–391.
+Sung, V., Luo, W., Qian, D., Lee, I., Jallal, B., and Gishizky, M. (2003). The
+Ste20 kinase MST4 plays a role in prostate cancer progression. Cancer Res.
+63, 3356–3363.
+ten Klooster, J.P., Jansen, M., Yuan, J., Oorschot, V., Begthel, H., Di Giacomo,
+V., Colland, F., de Koning, J., Maurice, M.M., Hornbeck, P., and Clevers, H.
+(2009). Mst4 and Ezrin induce brush borders downstream of the Lkb1/Strad/
+Mo25 polarization complex. Dev. Cell 16, 551–562.
+Villa, F., Deak, M., Alessi, D.R., and van Aalten, D.M. (2008). Structure of the
+OSR1 kinase, a hypertension drug target. Proteins 73, 1082–1087.
+Wu, H.Y., Lin, C.Y., Chen, T.C., Pan, S.T., and Yuan, C.J. (2011). Mammalian
+Ste20-like protein kinase 3 plays a role in hypoxia-induced apoptosis of
+trophoblast cell line 3A-sub-E. Int. J. Biochem. Cell Biol. 43, 742–750.
+Wu, H.Y., Lin, C.Y., Lin, T.Y., Chen, T.C., and Yuan, C.J. (2008). Mammalian
+Ste20-like protein kinase 3 mediates trophoblast apoptosis in spontaneous
+delivery. Apoptosis 13, 283–294.
+Yin, H., Shi, Z., Jiao, S., Chen, C., Wang, W., Greene, M.I., and Zhou, Z. (2012).
+Germinal center kinases in immune regulation. Cell. Mol. Immunol. 9, 439–445.
+Zeqiraj, E., Filippi, B.M., Deak, M., Alessi, D.R., and van Aalten, D.M. (2009a).
+Structure of the LKB1-STRAD-MO25 complex reveals an allosteric mecha￾nism of kinase activation. Science 326, 1707–1711.
+Zeqiraj, E., Filippi, B.M., Goldie, S., Navratilova, I., Boudeau, J., Deak, M.,
+Alessi, D.R., and van Aalten, D.M. (2009b). ATP and MO25alpha regulate the
+conformational state of the STRADalpha pseudokinase and activation of the
+LKB1 tumour suppressor. PLoS Biol. 7, e1000126.
+Structure
+Structure of MST4-MO25 Complex
+Structure 21, 449–461, March 5, 2013 ª2013 Elsevier Ltd All rights reserved 461

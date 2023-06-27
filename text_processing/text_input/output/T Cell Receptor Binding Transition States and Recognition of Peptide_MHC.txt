@@ -1,0 +1,1161 @@
+T Cell Receptor Binding Transition States and Recognition of Peptide/MHC †
+Rebecca L. Davis-Harrison,‡ Francis K. Insaidoo,‡ and Brian M. Baker*,‡,§
+Department of Chemistry and Biochemistry and Walther Cancer Research Center, 251 Nieuwland Science Hall,
+UniVersity of Notre Dame, Notre Dame, Indiana 46556
+ReceiVed August 21, 2006; ReVised Manuscript ReceiVed NoVember 20, 2006
+ABSTRACT: T cell receptor recognition of peptide/MHC has been described as proceeding through a “two￾step” process in which the TCR first contacts the MHC molecule prior to formation of the binding transition
+state using the germline-encoded CDR1 and CDR2 loops. The receptor then contacts the peptide using
+the hypervariable CDR3 loops as the transition state decays to the bound state. The model subdivides
+TCR binding into peptide-independent and peptide-dependent steps, demarcated at the binding transition
+state. Investigating the two-step model, here we show that two TCRs that recognize the same peptide/
+MHC bury very similar amounts of solvent-accessible surface area in their transition states. However,
+1300-1500 Å2 of surface area is buried in each, a significant amount suggestive of participation of peptide
+and associated CDR3 surface. Consistent with this interpretation, analysis of peptide and TCR variants
+indicates that stabilizing contacts to the peptide are formed within both transition states. These data are
+incompatible with the original two-step model, as are transition state models built using the principle of
+minimal frustration commonly employed in the investigation of protein folding and binding transition
+states. These findings will be useful in further explorations of the nature of TCR binding transition states,
+as well as ongoing efforts to understand the mechanisms by which T cell receptors recognize the composite
+peptide/MHC surface.
+T cell receptor (TCR)1 recognition of a peptide bound and
+presented by a major histocompatibility complex (MHC)
+molecule is required for the initiation and propagation of a
+cellular immune response, as well as selection of the T cell
+repertoire. Structural studies of TCR-peptide/MHC ternary
+complexes have indicated that TCRs contact both the peptide
+and the MHC molecule, with the MHC typically contributing
+two-thirds or more of the contacted surface area (1). Despite
+the small contribution of the peptide to the buried surface,
+TCRs generally maintain high levels of peptide specificity,
+but this is contrasted by an inherent cross-reactivity (reviewed
+in refs 2 and 3). This duality of specificity and cross￾reactivity is a key feature of T cell biology, yet a clear picture
+of its physical basis has yet to emerge. Although recent
+descriptions of cross-reactive binding suggest that it remains
+highly peptide-specific (3, 4), degenerate peptide/MHC
+binding has been implicated in a variety of T cell functions,
+including thymic selection (5), the scanning of multiple
+peptides (6), and TCR signaling (7).
+On the basis of Φ analysis (8), or the effects of mutations
+on association kinetics relative to their effects on binding
+affinities, Wu et al. have proposed a conceptually appealing
+yet controversial two-step model for TCR recognition of
+peptide/MHC (9). This model, which neatly integrates the
+concepts of peptide specificity and binding degeneracy, posits
+that the germline-encoded TCR CDR1 and/or CDR2 loops
+are driven to contact the MHC molecule early in the
+recognition process, prior to the occurrence of the TCR￾peptide/MHC binding transition state. Contacts to the peptide
+are then made as the transition state decays to the bound
+state. The model subdivides the ligand recognition process
+into peptide-independent and peptide-dependent steps, de￾marcated at the binding transition state.
+Other than the Φ analysis of Wu et al. (9), there have
+been few characterizations of TCR-peptide/MHC transition
+states that could yield insight into this process. A number
+of studies have measured activation energies for TCR binding
+(6, 10-12), indicating that movement of a TCR from the
+unbound state to the transition state is typically characterized
+by a high activation enthalpy and either a positive or negative
+activation entropy. However, as these thermodynamic values
+are also dependent upon the properties of the unligated
+proteins, they cannot be directly used to infer structural
+details about the association phase of the binding reaction.
+An exception is the elegant study of Lee et al. (12), who
+showed that the G10 TCR recognizes a native and single
+amino acid variant HIV epitope bound to the class I MHC
+HLA-A2 with nearly identical activation thermodynamics,
+despite the observation that the two peptides have different
+conformations in the free peptide/MHC complexes. Assum￾ing that the conformation of the peptides is similar in the
+† Supported by Grant GM067079 from the National Institute of
+General Medical Sciences, National Institutes of Health.
+* Corresponding author. E-mail: bbaker2@nd.edu. Phone: (574)
+631-9810. Fax: (574) 631-6652.
+‡ Department of Chemistry and Biochemistry, University of Notre
+Dame.
+§ Walther Cancer Research Center, University of Notre Dame.
+1 Abbreviations: TCR, T cell receptor; MHC, major histocompat￾ibility complex; CDR, complementarity determining region; RMSD,
+root mean square deviation; MD, molecular dynamics.
+1840 Biochemistry 2007, 46, 1840-1850
+10.1021/bi061702p CCC: $37.00 © 2007 American Chemical Society
+Published on Web 01/24/2007TCR-bound states, these results suggest that peptide con￾formational changes occur upon relaxation from the transition
+state to the bound state, i.e., after formation of the TCR￾peptide/MHC transition state.
+A6 and B7 are two different TCRs that both recognize
+the Tax peptide (LLFGYPVYV) presented by HLA-A2. The
+A6 and B7 TCRs bind Tax/HLA-A2 with nearly identical
+affinities and kinetics, and they both bury approximately
+2000 Å2 of solvent-accessible surface area in the bound state
+(10, 13, 14). We recently showed that the thermodynamics
+associated with movement from the unbound states to the
+transition states are also very similar for A6 and B7, although
+there are large differences in the thermodynamics for
+movement from the transition states to the bound states (10).
+The similarities in the association phases of the A6 and B7
+binding reactions are consistent with a common association
+mechanism as predicted by the two-step binding model,
+although, as noted above, the thermodynamic values provide
+no details regarding the structural properties of the transition
+states.
+To gain further insight into the nature of the A6 and B7
+binding transition states (or, more formally, the transition
+state ensembles), we used m values, or the dependence of
+free energies on denaturant, to measure the amount of
+solvent-accessible surface area buried in the two binding
+transition states. Again consistent with the two-step model,
+we find that the A6 and B7 transition states are very
+similar: both transition states bury 65-70% of the total
+buried surface area, amounting to 1300-1500 Å2
+. However,
+burial of such a large amount of surface in either transition
+state is unlikely to be achieved by the germline-encoded
+CDR1 and CDR2 loops alone, suggesting large contributions
+from the CDR3 loops and the Tax peptide. Consistent with
+this interpretation, analysis of peptide and TCR variants via
+Φ analysis indicates that stabilizing contacts to the central
+tyrosine of the Tax peptide are formed within both transition
+states. The data are thus in conflict with the two-step model
+as originally formulated, as are transition state models
+generated using the principle of minimal frustration (i.e.,
+binding reactions proceeding with a low probability for
+contacts in the transition state that are not present in the
+bound state) (15-17). These results are discussed in terms
+of both specific A6 and B7 recognition of Tax/HLA-A2 and
+TCR recognition of peptide/MHC in general and will be
+useful in further explorations of the nature of TCR binding
+transition states and ongoing efforts to understand the
+mechanisms by which T cell receptors recognize the
+composite peptide/MHC surface.
+MATERIALS AND METHODS
+Proteins and Peptides. Wild-type and mutant A6 and B7
+TCRs and peptide/HLA-A2 complexes were refolded from
+Escherichia coli inclusion bodies and purified as described
+(10). Peptide/HLA-A2 concentrations were determined spec￾trophotometrically as described (10). Peptides were synthe￾sized and purified locally using an ABI 433A instrument.
+Peptide purity and molecular weight were confirmed by
+analytical HPLC/mass spectrometry. The S31RA and Y104âA
+mutants of the A6 and B7 TCRs were generated via
+QuickChange mutagenesis (Strategene) and refolded and
+purified similarly to wild type. Mutations were confirmed
+via forward and reverse DNA sequencing.
+Biacore Measurements. Steady-state and kinetic Biacore
+experiments were performed as described (10). Briefly, A6
+or B7 TCR was coupled to a CM5 sensor chip using amine
+coupling. Peptide/MHC was injected over both reference and
+ligand-coupled cells simultaneously, and each injection was
+repeated twice. For steady-state experiments, a flow rate of
+5 µL/min was used. Two separate concentration series were
+injected, from 1 to 50 µM. For kinetic experiments, the flow
+rate was 100 µL/min. Two separate concentration series were
+injected, ranging from 3 to 100 µM depending on the
+experiment. All injections were double-referenced using
+buffer injections and protein injections over a blank flow
+cell (18). Experiments were performed at 25 °C in HBS-EP
+buffer (10 mM HEPES, 150 mM NaCl, 3 mM EDTA,
+0.005% surfactant P20, pH 7.4) prepared in our laboratory
+with the indicated concentration of urea. HBS-EP/urea
+solutions were made fresh the day of each experiment. In
+the urea experiments, to minimize any influence of weaker
+peptide binding to HLA-A2, we avoided the use of low Tax/
+HLA-A2 concentrations and maintained the Biacore sample
+block at 4 °C.
+Analysis of Binding and Dissociation Data. Binding and
+dissociation data as a function of urea concentration were
+analyzed globally to provide free energy changes in the
+absence of urea and the derivatives of ∆G with respect to
+urea concentration, or m values. For the steady-state binding
+data, 22 (A6) or 24 (B7) data sets were fit globally to a
+single-site binding model of the form:
+where K′ was represented as
+RUmax in eq 1 was a local variable for each data set indicating
+the activity of each surface, whereas ∆G° and m°
+eq in eq 2
+were global variables common to all data sets. ∆G° thus
+represents the binding free energy change in the absence of
+urea, and m°
+eq represents ∂∆G°/∂[urea]. For presentation of
+the steady-state binding data in Figure 1, each data set was
+normalized to its fitted RUmax to illustrate the effects of urea
+on binding.
+For dissociation data, 55 (A6) or 44 (B7) Biacore
+dissociation phases were normalized to the beginning value
+and globally fit to a single-exponential decay of the form:
+where k′ was represented as
+A0 and b in eq 3 were local variables for each data set
+indicating initial amplitudes and baseline offsets, whereas
+∆Goff
+q and moff
+q in eq 4 were global variables common to all
+data. ∆Goff
+q represents the activation free energy for dis￾sociation in the absence of urea, and moff
+q represents
+∂∆Goff
+q /∂[urea]. Approximately 2 s of data was excluded
+from the beginning of the Biacore dissociation phases to
+RU ) RUmax
+K′[Tax/HLA-A2]
+1 + K′[Tax/HLA-A2] (1)
+K′ ) exp(- ∆G° + m°
+eq[urea]
+RT ) (2)
+y ) A0 exp(-k′t) + b (3)
+k′ ) (
+kbT
+h ) exp(- ∆Goff
+q + moff
+q [urea]
+RT ) (4)
+TCR Binding Transition States Biochemistry, Vol. 46, No. 7, 2007 1841account for disturbances arising from subtraction of the bulk
+refractive index shift. The differing number of data sets for
+A6 vs B7 was due to the improved activity of A6 on Biacore
+CM5 sensor surfaces (10). No statistically significant changes
+were seen in the fitted global parameters if the number of
+A6 dissociation phases fitted was reduced to the same
+number of B7 dissociation phases, owing to the large number
+of degrees of freedom in the global analyses (see below).
+Global analysis was performed with OriginPro 7.5 (Orig￾inLab). The steady-state analyses had 257 degrees of freedom
+for the measurements with A6 and 219 for the measurements
+with B7. The dissociation analyses had 13091 degrees of
+freedom for A6 and 9775 for B7. There was no significant
+parameter correlation in any of the four analyses. Values of
+R2 for each fit were >0.99.
+The value of mon
+q , or the dependence of the activation free
+energy for association on urea concentration, was calculated
+from the sum of m°
+eq and moff
+q . We used this approach rather
+than fitting Biacore on-rates as a function of urea, as off￾rates are more objectively determined by surface plasmon
+resonance and more easily lend themselves to the kind of
+global analyses performed here. Furthermore, the concentra￾tions used in the kinetic experiments were not optimal for
+determining accurate on-rates across all urea concentrations
+(18).
+Errors in m values were propagated to account for the error
+in mon
+q and the mon
+q /m°
+eq ratio. Φ values were determined
+using -ln(kon,mutant/kon,wild type)/ln(KD,mutant/KD,wild type), account￾ing for and propagating experimental error in rates and
+equilibrium constants to arrive at experimental errors in Φ.
+When both were available, calculations of Φ values used
+affinities determined by steady-state rather than kinetic
+measurements. Error propagation was performed using
+standard statistical approaches as described (10). All errors
+and error bars are reported at one standard deviation.
+Binding data for the TCR mutants and Tax-Y5W peptide
+were analyzed similarly, except that experiments were not
+collected as a function of urea. Affinities were determined
+by analysis of steady-state binding data, off-rates by analysis
+of Biacore dissociation rates, and on-rates from the ratio of
+koff to KD.
+CD Spectroscopy. CD spectra as a function of urea were
+collected at 25 °C using an Aviv 62DS instrument. Protein
+solutions of 3 µM were prepared in 20 mM NaH2PO4 and
+75 mM NaCl, pH 7.4. Urea was added to 0.2, 0.4, 0.6, 0.8,
+and 1 M concentrations using a stock concentration of 6.25
+M urea, 20 mM NaH2PO4, and 75 mM NaCl, pH 7.4.
+Peptide Dissociation. Peptide dissociation from HLA-A2
+in 0.6 M urea was measured using steady-state fluorescence
+anisotropy with a fluorescent Tax peptide variant (Tax￾3K5Flc) as described (19). Briefly, 7.5 nM labeled peptide/
+HLA-A2 was mixed with 7.5 µM unlabeled Tax peptide and
+the decrease in anisotropy measured vs time using a Beacon
+2000 instrument (Invitrogen). Conditions were 10 mM
+HEPES, 150 mM NaCl, and 0.6 M urea, pH 7.4, at 25 °C.
+Data were fit using a single-exponential decay function.
+Molecular Dynamics Simulations. Coordinates for the free
+TCRs were extracted from the A6- and B7-Tax/HLA-A2
+crystal structures (13, 14). Missing side chains were added
+using the WHATIF server (20). For the A6 TCR, the CR
+domain was modeled in using the coordinates from the A6-
+Tax-P6A/HLA-A2 crystal structure (21). Hydrogens were
+added using the Protonate tool of the AMBER 8 suite (22).
+Using the xLEaP tool, the TCRs were immersed in TIP3P
+water boxes such that no protein atoms were less than 12 Å
+from any side. Sodium cations were added for neutrality.
+This resulted in systems consisting of 61914 atoms for the
+A6 TCR and 62749 atoms for the B7 TCR. Dynamics
+simulations were then performed using the Sander module,
+with parameters from the parm99 set. Equilibration consisted
+of 10000 steps of conjugate gradient energy minimization,
+followed by 20 ps of MD with restraints applied to the
+proteins to equilibrate the water. A series of energy mini￾mizations were then carried out to relax the proteins, whereby
+the restraints were gradually eliminated. The systems were
+then warmed to 300 K over three MD simulations for a total
+of 480 ps of dynamics. This was followed by production
+runs of 16.9 ns for A6 and 16.4 ns for B7. The SHAKE
+algorithm was used, allowing the use of a 2 fs time step.
+Long-range electrostatics were treated via particle mesh
+Ewald. Trajectory analysis was carried out with the Ptraj
+tool.
+Determination of Buried Surface Areas. Buried solvent￾accessible surface areas were calculated with the program
+ACCESS (Scott Presnell), using a probe radius of 1.4 Å and
+a slice width of 0.05 Å. Buried surface areas were determined
+as the negative of the surface area of the complex minus the
+sum of the surface areas of the two free proteins. Coordinates
+of the free A6 and B7 TCRs either were extracted from the
+A6- or B7-Tax/HLA-A2 crystal structures or were from
+molecular dynamics simulations of the free receptors. For
+determination of surface areas buried by individual CDR
+loops or loop combinations, calculations were done using
+only the coordinates for the CDR loop amino acids for the
+TCR components.
+RESULTS
+Equilibrium and Kinetic m Values for the Interactions of
+A6 and B7 with Tax/HLA-A2 Indicate Their Transition States
+Bury Similar Amounts of Surface Area. Commonly reported
+in protein denaturation experiments, an m value is the
+dependence of the free energy change on the concentration
+of denaturant, typically urea or guanidine hydrochloride
+(recently reviewed in ref 23). As chemical denaturants
+destabilize proteins by preferentially interacting with the
+protein rather than solvent (24, 25), m values are also a
+representation of a protein’s solvent-accessible surface area
+(26). m values can be determined for equilibrium measure￾ments, i.e., the dependence of the unfolding free energy
+change on denaturant (m°
+eq), as well as for kinetic measure￾ments, i.e., the dependence of the folding or unfolding rate
+on denaturant (mq). The ratio of kinetic-to-equilibrium m
+values (mq
+/m°
+eq) has seen considerable use in the field of
+protein folding (e.g., refs 27-31), as this ratio provides the
+amount of surface area buried in the transition state relative
+to the amount of surface area buried in the folded state. This
+ratio is often interpreted as a measure of the amount of
+“native-like” character possessed by a folding transition state.
+Ratios of m values can also be used to study protein￾protein interactions, reporting on the amount of surface area
+buried in the binding transition state relative to the fully
+bound state. Although only a small number of studies have
+1842 Biochemistry, Vol. 46, No. 7, 2007 Davis-Harrison et al.been performed (32-34), the available data indicate that
+protein-protein interactions can bury between 50% and 80%
+of their total buried surface within the binding transition state.
+To examine the transition states formed between the A6
+and B7 TCRs and Tax/HLA-A2, we measured TCR binding
+affinities and dissociation kinetics as a function of urea
+concentration, with urea ranging from 0 to 0.6 M. Higher
+urea concentrations were avoided in order to limit destabi￾lization of the proteins. Measurements were performed using
+surface plasmon resonance with the A6 or B7 TCRs coupled
+to the sensor surfaces. Experiments were performed under
+conditions to maximize SPR data quality (18); our previous
+work demonstrated no dependence of binding parameters on
+coupling method or which protein was tethered to the surface
+(10, 21, 35). Steady-state binding and kinetic dissociation
+data were analyzed globally as described in Materials and
+Methods to determine the equilibrium and kinetic m values.
+Data are shown in Figure 1. As expected, the affinities
+weakened and dissociation rates increased with increasing
+urea. Figure 2 shows the data in traditional linear form, with
+free energies determined from individual fits to the data at
+each concentration of urea and straight lines generated from
+the results of the four global analyses.
+The global parameters from each fit are shown in Table
+1. The free energy changes in the absence of urea compare
+very well with those determined previously for the interac￾tions of A6 and B7 with Tax/HLA-A2: our analysis yielded
+values for KD and koff of 2.3 µM and 0.10 s-1 for A6 and
+1.3 µM and 0.12 s-1 for B7; we previously reported values
+of 2.2 µM and 0.11 s-1 for A6 and 1.4 µM and 0.13 s-1 for
+B7 (10). The various m values for A6 and B7 are slightly
+different, consistent with the differing composition of the
+two protein-protein interfaces (10). There is a good cor￾relation of the on, off, and equilibrium m values for each
+interaction with the various heat capacity changes determined
+previously (10), as expected from the relationship of both
+parameters to changes in solvation (26) (R2 values for heat
+capacity vs m value plots are 0.99 for both the A6 and B7
+data alone and 0.91 for both data sets combined; if the
+association values, which were derived from the equilibrium
+and dissociation values, are excluded, the correlation is 0.93).
+Most interestingly, the kinetic-to-equilibrium m value ratios
+are very similar for the A6 and B7 interactions and indicate
+that the receptors bury 65-70% of the total buried solvent￾accessible surface area within their transition state ensembles.
+Low Urea Concentrations HaVe Little Influence on Protein
+Structure or ActiVity. To examine the effects of urea on the
+A6 and B7 T cell receptors and the Tax/HLA-A2 complex,
+we collected CD wavelength spectra as a function of urea
+concentration (Figure 3). Due to poor signal to noise at high
+urea concentrations and possibly irreversible unfolding
+transitions, we could not collect a complete protein dena￾FIGURE 1: Surface plasmon resonance data for A6 and B7 binding Tax/HLA-A2 as a function of urea concentration. (A, B) Steady-state
+equilibrium data for the A6 (A) and B7 (B) interactions. (C, D) Biacore dissociation phases for the A6 (C) and B7 (D) interactions.
+Residuals for the dissociation phases are below the plots. Steady-state and kinetic data were globally fit as described in Materials and
+Methods. For all panels red lines indicate responses at 0 M urea, green, 0.2 M urea, blue, 0.3 M urea, cyan, 0.4 M urea, purple, 0.5 M urea,
+and yellow, 0.6 M urea. Lines were generated from use of the fitted parameters in eqs 1-4. The residuals for the kinetic data represent the
+differences between each data set, and lines were calculated using the global and local parameters from the global fit.
+TCR Binding Transition States Biochemistry, Vol. 46, No. 7, 2007 1843turation curve for any of the three proteins. However, no
+significant changes were seen in the spectra between 0 and
+1 M urea for either TCR. This minimal effect of urea on the
+TCRs is especially clear when examining difference spectra
+between data collected at 0.6 M urea, the highest concentra￾tion used in the binding and dissociation experiments, and 0
+FIGURE 2: TCR binding free energies and activation energies for dissociation as a function of urea concentration. (A, B) Binding free
+energies for A6 (A) and B7 (B). (C, D) Activation free energies for dissociation of A6 (C) and B7 (D) from Tax/HLA-A2. For all panels,
+points were generated from individual fits to the data at the indicated concentration of urea and lines from the global parameters shown in
+Table 2.
+Table 1: Global Parameters for Analysis of A6 and B7 Binding Tax/HLA-A2 as a Function of Urea Concentration
+TCR ∆G° a KDb m°
+eqc ∆Goff
+q d koffe moff
+q f mon
+q g mon
+q /m°
+eqh
+A6 -7691.0 ( 11.7 2.3 868.7 ( 38.3 18799.6 ( 0.5 0.10 -261.0 ( 1.4 607.7 ( 38.3 0.70 ( 0.05
+B7 -8050.7 ( 8.2 1.3 716.2 ( 40.5 18699.4 ( 0.6 0.12 -251.4 ( 1.7 464.8 ( 40.5 0.65 ( 0.07
+a Binding free energy in 0 M urea determined from global analysis of steady-state binding data as a function of urea; units of cal/mol. b Binding
+affinity calculated from binding ∆G°. c Dependence of ∆G° on urea determined from global analysis of steady-state binding data as a function of
+urea; units of cal mol-1 M-1
+. d Activation free energy for dissociation in 0 M urea determined from analysis of dissociation kinetics as a function
+of urea; units of cal/mol. e Dissociation rate in units of s-1 calculated from ∆Goff
+q . f Dependence of ∆Goff
+q on urea determined from global analysis
+of dissociation kinetics as a function of urea; units of cal mol-1 M-1
+. g Dependence of ∆Gon
+q on urea calculated from m°
+eq and mon
+q . h Surface area
+buried in the binding transition state relative to surface area buried in the fully bound state.
+FIGURE 3: CD spectra of A6, B7, and Tax/HLA-A2 as a function of urea concentration. Concentrations of urea, from 0 to 1 M, are
+indicated. Solid lines represent difference spectra between 0.6 and 0 M urea.
+1844 Biochemistry, Vol. 46, No. 7, 2007 Davis-Harrison et al.M urea (solid lines in Figure 3A,B). As a second control for
+the effects of urea on receptor activity, we compared the
+activities (RUmax) of A6 and B7 SPR sensor surfaces
+measured in the absence of urea and in the presence of 0.6
+M urea. These data indicated that 0.6 M urea resulted in
+modest and reversible reductions in activity of 8 ( 3% for
+the A6 surface and 8 ( 2% for the B7 surface (for
+comparison, experiments where the temperature was shifted
+from 12.5 to 28.5 °C resulted in activity reductions of 16 (
+2% for A6 and 30 ( 4% for B7; R. Davis-Harrison and B.
+M. Baker, unpublished results).
+Urea had a larger effect on the Tax/HLA-A2 complex than
+the TCRs, as evident by the difference spectrum in Figure
+3C. As significant destabilization of the molecule should
+result in faster peptide dissociation, we further examined the
+effects of urea on the Tax/HLA-A2 complex by measuring
+the rate of peptide dissociation using fluorescence anisotropy.
+In this experiment (Figure 4), 0.6 M urea reduced the half￾life of the peptide-MHC complex from 7.6 to 5.3 h at 25
+°C (amounting to a 30% increase in peptide off-rate). By
+comparison, a shift from 25 to 37 °C results in a much more
+substantial drop to 1.1 h (an 86% increase in peptide off￾rate) (19). We concluded that although 0.6 M urea may have
+a small effect on the Tax/HLA-A2, it does not significantly
+destabilize the peptide/MHC complex (low concentrations
+of Tax/HLA-A2 were avoided and samples were stored at 4
+°C prior to each injection to limit any influence from weaker
+peptide binding).
+The Amount of SolVent-Accessible Surface Buried in the
+A6 and B7 Binding Transition States. Based on the TCR￾Tax/HLA-A2 crystal structures, A6 and B7 bury ∼2000 Å2
+of solvent-accessible surface area in the bound state (10, 13,
+14). The m value analysis thus yields an A6-Tax/HLA-A2
+transition state that buries 1394 Å2 and a B7-Tax/HLA-A2
+transition state that buries 1306 Å2
+. However, these calcula￾tions assume a rigid body interaction, which may not be the
+case for many TCR-ligand interactions (e.g., refs 36-38).
+Although the structure of the unligated Tax/HLA-A2 mol￾ecule indicates only minor conformational differences be￾tween the bound and free states (14, 39), the structures of
+the unligated A6 and B7 TCRs have not been determined.
+However, based on their fast binding kinetics relative to other
+TCR-peptide/MHC interactions, neither A6 nor B7 TCRs
+are predicted to populate significantly different conforma￾tional states prior to binding (10, 40). In support of this
+prediction, Chen et al. recently showed that the structure of
+the 1G4 TCR, which binds the NY-ESO157-165 peptide
+presented by HLA-A2 at a rate slightly slower than A6 or
+B7 TCRs bind Tax/HLA-A2, is very similar in both the
+bound and free states (41).
+Nonetheless, even small conformational differences in the
+CDR loops between the free and bound states could impact
+the calculations of buried surface areas and influence our
+pictures of the two transition states. To address this, we
+performed unrestrained explicit-solvent molecular dynamics
+simulations of the free A6 and B7 TCRs. Using coordinates
+output every 2 fs, we recalculated the amount of surface area
+that would be buried by the A6 and B7 TCRs (additional
+details of the MD simulations are provided as Supporting
+Information). Table 2 lists the amount of surface area buried
+in the two transition states for three cases: (1) surface area
+buried calculated using the TCR conformations present in
+the two crystal structures, (2) surface area buried calculated
+using the TCR conformations from the MD simulations that
+show the greatest change in CDR loop conformation relative
+to the crystal structures, and (3) the average amount of
+surface buried calculated using each set of coordinates output
+from the MD simulations. Inclusion of the MD data increases
+the amount of surface area buried in each interaction,
+indicating that the MD simulations result in conformations
+with greater solvent accessibility. Using the simulated
+coordinates raises the solvent-accessible surface area buried
+in the transition states to ∼1500 Å2 for A6 and ∼1400 Å2
+for B7.
+The shifts seen in the MD simulations for the A6 TCRs
+are reflective of those observed experimentally in A6
+recognition of variant Tax peptides presented by HLA-A2
+FIGURE 4: Urea (0.6 M) has only a marginal influence on
+dissociation of the Tax peptide from HLA-A2 as measured by
+steady-state fluorescence anisotropy. Circles show data collected
+in 0.6 M urea; the solid line is a fit to a single-exponential decay.
+The dashed line represents dissociation in 0 M urea from ref 19.
+Table 2: Solvent-Accessible Surface Area (Å2
+) Buried in the A6
+and B7 TCR-Tax/HLA-A2 Complexes
+crystal
+structurea
+MD max
+RMSDb
+MD
+averagec
+A6 Complex
+surface area buried in
+bound state
+1991 2174 1482 ( 33
+surface area buried in
+transition state
+ensembled
+1394 ( 100 1522 ( 109 1545 ( 106
+B7 Complex
+surface area buried in
+bound state
+2009 2141 2117 ( 29
+surface area buried in
+transition state
+ensembled
+1306 ( 141 1392 ( 150 1376 ( 148
+a Calculated using coordinates from the A6- or B7-Tax/HLA-A2
+crystal structures for the free TCRs and CDR loops. Assumes a rigid
+body interaction. b Calculated using the coordinates for the free TCRs
+from the MD simulations that showed the highest backbone RMSD
+relative to the crystal structures for the six CDR loops. See Supporting
+Information for more detail. c Calculated using the average solvent￾accessible surface area of the free TCRs calculated over the length of
+the MD simulations, excluding the first 1 ns. Errors are the standard
+deviation of the mean. d Equal to total surface area buried multiplied
+by m-value ratio.
+TCR Binding Transition States Biochemistry, Vol. 46, No. 7, 2007 1845(21, 42) (see Supporting Information). The shifts include
+changes in CDR loop positions, including CDR3R and
+CDR3â (maximum shifts of 4.4 and 4.8 Å at the apex of
+the loops, respectively), but the loops are not wholly
+remodeled, as seen in the structures of A6 with the Tax￾V7R variant (21) and the Tax-5K-IBA variant (42). They
+also include small shifts in R and â domain positioning, as
+also seen in the A6-Tax-5K-IBA/HLA-A2 structure (42).
+Although as indicated above there is no structure of the free
+A6 TCR which would be best for comparing with the results
+of the MD simulations, the observation that the simulations
+capture the kinds of structural changes seen with A6 supports
+their use here. Other than the structure with the Tax peptide,
+there are no additional structural data for the B7 TCR.
+However, the B7 MD simulations result in similar structural
+changes as seen in A6: shifts in CDR loop position
+(maximum of 6.7 Å for CDR3R and 5.0 Å for CDR3â) and
+small changes in domain orientation, which we anticipate
+mimic those observed experimentally with A6.
+Participation of Tyr5 in the A6 and B7 Binding Transition
+States. The buried surface areas determined by m-value
+analysis do not indicate what structures are present at the
+transition states, nor do they indicate what intermolecular
+contacts may or may not be present. As opposed to m values,
+Φ analysis allows one to directly evaluate whether a given
+amino acid position participates in a transition state (8).
+Indeed, Φ analysis and m values are frequently used as
+complementary approaches to investigate the native-like
+character of protein folding transition states (e.g., refs 27-
+31). For binding, a Φ value for an amino acid position is
+defined as ∆∆Gon
+q /∆∆G°
+eq, where ∆∆Gon
+q represents the
+effect of a mutation on the height of the transition state barrier
+relative to the unbound state, and ∆∆G°
+eq represents the
+effect of a mutation on the overall binding free energy. A Φ
+value near 1 indicates that any destabilizing effects of a
+mutation arise only from a decrease in the on-rate and is
+interpreted to mean that any stabilizing interactions made to
+the site of mutation are fully formed in the binding transition
+state. A Φ value of zero indicates that any destabilizing
+effects of a mutation arise only from an increase in the off￾rate and is interpreted to indicate that stabilizing interactions
+made to the mutated position are only formed as the transition
+state relaxes into the fully bound state. Intermediate Φ values
+are usually taken to indicate partial or weakened participation
+of the mutated position in the transition state.
+We were particularly interested in the potential participa￾tion of peptide surface in the binding transition states. In
+the structures of both A6 and B7 with Tax/HLA-A2, Tyr5
+of the Tax peptide projects up from the plane of the MHC
+R1/R2 helices into pockets formed by multiple CDR loops,
+including CDR3R and CDR3â, and in A6, CDR1R (13, 14).
+Tyr5 is thus arguably the best position in the Tax/HLA-A2
+molecule to evaluate the participation of peptide surface in
+the A6 and B7 binding transition states. Data for the A6
+and B7 TCRs binding Tyr5 f Ala (Y5A) and Tyr5 f Phe
+(Y5F) variants of the Tax peptide presented by HLA-A2 are
+available (10, 43). We also collected new data on the binding
+of A6 and B7 to the Tyr5 f Trp (Y5W) Tax variant. Binding
+affinities and kinetics as well as Φ values calculated from
+these data are shown in Table 3 (Biacore data for the Y5W
+variant are shown in the Supporting Information).
+For the A6 TCR, the position 5 Φ values range from 0.91
+to 0.35. Although the upper value of 0.9 for the Y5F
+substitution has a large error ((0.6, resulting from the very
+small ∆∆G°), the values for the Y5A and Y5W substitutions
+are considerably more reliable (0.52 ( 0.10 and 0.35 ( 0.05).
+Altogether, the mean value for the A6 data is 0.6 (0.4 if the
+value of 0.9 is disregarded). For the B7 TCR, the position 5
+Φ values range from 1.0 to 0.25, with a mean of 0.6 (data
+to calculate a Φ value for the B7 TCR with the Y5A
+substitution are unavailable due to a lack of detectable
+binding of B7 to the Tax Y5A variant; J. R. Clemens and
+B. M. Baker, unpublished results). These data, encompassing
+multiple substitutions at position 5, strongly suggest that
+stabilizing interactions to Tyr5 of the Tax peptide are formed
+in both the A6 and B7 binding transition states.
+To further test whether Tyr5 participates in the A6 and
+B7 TCR binding transition states, we evaluated by Φ analysis
+select amino acids in A6 and B7 that contact Tyr5 in the
+TCR-Tax/HLA-A2 crystal structures. In A6, we chose Ser31
+of CDR1R, whose side chain hydrogen bonds with the Tyr5
+side chain hydroxyl at the top of the “Tyr5 pocket” in A6
+(14). In B7, we chose Tyr104 of CDR3â, whose side chain
+contacts the aromatic ring of the Tyr5 side chain, forming
+one wall of the Tyr5 pocket in B7 (13). Other candidates
+were excluded as they either were very near the limit of our
+definition of an interatomic contact (distances e4 Å) or
+involved charged amino acids participating in long-range
+electrostatic interactions with HLA-A2 (40). Binding affini￾ties, kinetics, and Φ values for the interaction of the A6
+Table 3: Kinetics, Affinities, and Φ Values for Wild-Type and Mutant A6 and B7 Recognition of Native and Position 5 Variants of the Tax
+Peptidea
+peptide TCR KD (µM) koff (s-1
+) kon (M-1 s-1
+) ∆∆G° (kcal/mol) ∆∆Gon
+q (kcal/mol) Φ
+native Tax A6 2.23 ( 0.10 0.11 4.90 ( 0.02 × 104
+B7 1.35 ( 0.04 0.13 9.60 ( 0.03 × 104
+Tax-Y5F A6 2.79 ( 0.39 0.11 4.0 ( 0.1 × 104 0.13 ( 0.09 0.12 ( 0.28 0.91 ( 0.63
+B7 6.49 ( 0.17 0.42 6.50 ( 0.02 × 104 0.93 ( 0.02 0.23 ( 0.02 0.25 ( 0.02
+Tax-Y5A A6 33 ( 5 0.50 1.2 ( 0.3 × 104 1.60 ( 0.01 0.83 ( 0.15 0.52 ( 0.10
+B7 NDb ND ND
+Tax-Y5W A6 10 ( 1 0.30 2.9 ( 0.2 × 104 0.89 ( 0.06 0.31 ( 0.05 0.35 ( 0.05
+B7 35 ( 1 0.13 3.7 ( 0.1 × 103 1.93 ( 0.02 1.93 ( 0.02 1.00 ( 0.02
+native Tax A6 S31RA 5.48 ( 0.24 0.14 2.5 ( 0.1 × 104 0.53 ( 0.04 0.40 ( 0.03 0.74 ( 0.08
+B7 Y104âA 2.99 ( 0.10 0.13 4.2 ( 0.1 × 104 0.47 ( 0.03 0.49 ( 0.03 1.04 ( 0.08
+a Values at 25 °C in HBS-EP buffer. Data for the native and Y5F peptides are from ref 10, data for the Y5A peptide are from ref 43, and data
+for the Y5W peptide and TCR mutants are from this work. b Insufficient binding was seen with B7 and the Y5A variant to determine binding
+affinities or kinetics.
+1846 Biochemistry, Vol. 46, No. 7, 2007 Davis-Harrison et al.S31RA and B7 Y104â TCR mutants with native Tax/HLA￾A2 are shown in Table 3 (Biacore data are shown in the
+Supporting Information). The Φ values, 0.74 ( 0.08 for
+position 31R in A6 and 1.04 ( 0.08 for position 104â in
+B7, further support the conclusion that stabilizing contacts
+to Tyr5 are formed within both TCR binding transition states.
+Moreover, together with the Φ for Tyr5, the data imply that
+the environment around Tyr5 in the two binding transition
+states is similar to that seen in the bound states.
+Transition State Models Based on the Structures of the
+Bound States Require CDR3 Participation in the Binding
+Transition States. Although inconsistent with the two-step
+model (9), the m and Φ value experiments only give a limited
+picture of the nature of the A6 and B7 binding transition
+states: burial of a considerable amount of solvent-accessible
+surface area and bound-like contacts to and from Tyr5 of
+the Tax peptide. To date, most work on the nature of protein
+binding transition states has assumed that binding pathways
+follow a smooth energy funnel toward the bound state (16,
+44-46), with a low probability for contacts in the binding
+transition state that are not present in the bound state. This
+assumption follows from a considerable body of work in
+protein folding, in which theoretical folding models based
+only on the topology of the native state are able to accurately
+reproduce a wide range of structural, thermodynamic, and
+kinetic observations (recently reviewed in ref 17), and builds
+on the landscape theory of protein folding (47), also
+applicable to binding (48, 49). If we assume that this
+“principle of minimal frustration” (15) holds for the A6 and
+B7 interactions with Tax/HLA-A2, we can use the structures
+of the bound states to generate models of the A6 and B7
+binding transition states.
+Table 4 lists the amount of surface area buried by each
+CDR loop (and loop combinations) in the A6 and B7
+complexes, using the crystallographic structures as well as
+the coordinates of the free TCRs generated by the MD
+simulations (to aid in interpretation of Table 4, images
+showing the position of each loop on Tax/HLA-A2 are
+available in the Supporting Information). For the A6 TCR,
+transition state models that are compatible with these data
+include those which bury significant portions of one or more
+of the R chain loops along with CDR3â or all of the R chain
+loops while the three â chain loops remain solvent exposed
+[using the X-ray coordinates, the A6 transition state buries
+1394 ( 100 Å2 (Table 2), CDR3â and CDR1R together bury
+1368 Å2
+, and all three R loops alone bury 1409 Å2
+]. Despite
+the fact that the MD simulations indicate movement in the
+CDR loops (see Supporting Information), this motion does
+not greatly impact the solvent-accessible surface area buried
+by the various loops. We note that the Φ values exclude a
+model in which the requisite amount of surface area is buried
+by only CDR3R and CDR3â, as this would prevent the
+interaction between Tyr5 and Ser31 in CDR1R. Thus, while
+the surface area data do suggest that one or both CDR3 loops
+participate in the transition state, this does not seem to be at
+the expense of the germline-encoded loops.
+Slightly different results are seen with the B7 TCR. Again
+assuming that the minimal frustration principle applies,
+through simple addition the amount of surface buried in the
+transition state could be achieved by burial of the four
+germline-encoded CDR loops [using the average MD
+coordinates, the transition state buries 1394 ( 100 Å2 (Table
+2), and the combined CDR1 and CDR2 loops bury 1388 Å2
+in the bound state]. Realistically, however, docking of all
+four germline-encoded loops could not occur without con￾comitant burial of at least some CDR3-associated surface.
+Furthermore, exclusion of CDR3â from the transition state
+would prevent the participation Tyr104â, in conflict with
+the Φ value data. Compatible transition state models for the
+B7 TCR thus include those which fully bury all three loops
+of the â chain and partially bury one or more loops of the R
+chain or, vice versa, those which fully bury all of the three
+R chain loops and partially bury one or more â chain loops.
+Other models within these two extremes are also possible,
+yet participation of CDR3â is mandatory.
+DISCUSSION
+The role of the transition state in T cell receptor recogni￾tion of ligand has recently been highlighted by a two-step
+model in which TCR recognition proceeds via peptide￾independent and peptide-dependent phases, demarcated at
+the binding transition state (9). The model neatly integrates
+TCR binding degeneracy with peptide specificity and has
+been implicated in a number of processes involving TCR
+recognition of ligand (50). Yet the model remains contro￾versial (50, 51), with data from different TCR-ligand
+Table 4: Solvent-Accessible Surface Area (Å2
+) Buried by CDR
+Loops in the A6 and B7 TCR-Tax/HLA-A2 Complexesa
+CDR loop or
+loop combination
+crystal
+structureb
+MD max
+RMSDc
+MD
+averaged
+A6 Complex
+R1 596 663 632 ( 10
+R2 273 261 296 ( 8
+R3 625 646 572 ( 21
+R1 + R2 896 912 936 ( 13
+R1 + R2 + R3 1409 1423 1398 ( 29
+â1 72 103 91 ( 2
+â2 14 53 51 ( 1
+â3 772 811 800 ( 21
+â1 + â2 86 144 126 ( 2
+â1 + â2 + â3 813 870 870 ( 18
+surface area buried in
+transition statee
+1394 ( 100 1522 ( 109 1545 ( 106
+B7 Complex
+R1 660 673 690 ( 10
+R2 324 413 343 ( 7
+R3 560 550 595 ( 11
+R1 + R2 927 989 933 ( 13
+R1 + R2 + R3 1315 1513 1466 ( 21
+â1 26 213 202 ( 3
+â2 217 278 408 ( 4
+â3 487 466 540 ( 12
+â1 + â2 240 469 455 ( 6
+â1 + â2 + â3 719 788 903 ( 15
+surface area buried in
+transitions statee
+1306 ( 141 1392 ( 150 1376 ( 148
+a Surface area buried by CDR loops is total surface area, including
+contributions from the loops as well as the pMHC molecule. Values
+for loop combinations are not perfectly additive due to side-to-side
+packing of adjacent loops. b Calculated using coordinates from the A6-
+or B7-Tax/HLA-A2 crystal structures for the free TCRs and CDR loops.
+Assumes a rigid body interaction. c Calculated using the coordinates
+for the free TCRs from the MD simulations that showed the highest
+backbone RMSD relative to the crystal structures for the six CDR loops.
+See Supporting Information for more detail. d Calculated using the
+average solvent-accessible surface area of the free TCRs calculated
+over the length of the MD simulations, excluding the first 1 ns. Errors
+are the standard deviation of the mean. e From Table 2.
+TCR Binding Transition States Biochemistry, Vol. 46, No. 7, 2007 1847systems varying in their support of it (9, 12, 52, 53). Here,
+we sought to characterize the binding transition states of A6
+and B7, two Râ T cell receptors which recognize the Tax
+peptide presented by HLA-A2. Our goal was to provide
+additional experimental data relating to TCR binding transi￾tion states on which the two-step model could be tested or
+refined.
+Using ratios of kinetic-to-equilibrium m values, we found
+that the two TCRs bury 65-70% of their total buried surface
+area in their binding transition states, a percentage compa￾rable to that found in other protein-protein transition states
+(32-34). With the crystallographic structures of the TCR￾peptide/MHC complexes as a reference, this amounts to
+burial of 1300-1400 Å2 of solvent-accessible surface area.
+Attempting to account for conformational differences in the
+TCRs between the bound and unbound states increases the
+range to 1400-1500 Å2
+. Either range reflects burial of a
+large amount of surface that would seem to necessitate a
+significant number of contacts made from the TCRs to the
+MHC-bound peptide (see Figure S1 in the Supporting
+Information). In support of this conclusion, Φ values for Tyr5
+of the Tax peptide indicate that stabilizing contacts to this
+position are made in both the A6 and B7 binding transition
+states. Reciprocal Φ experiments with two positions in A6
+and B7 that contact Tyr5 further support this conclusion and
+suggest that the environment around Tyr5 in the two
+transition states is similar to that seen in the two TCR￾peptide/MHC crystal structures.
+Additional insight into the nature of the two binding
+transition states was gained by considering the surface area
+buried by each CDR loop in the bound states. This analysis
+indicated that, for both A6 and B7, the amount of surface
+area buried in the two binding transition states requires
+participation of the CDR3 loops. The models generated from
+this analysis are speculative, as they require that contacts
+not present in the bound state are minimally populated along
+the binding pathway. Although generally accepted in studies
+of protein folding (17), the extent to which this principle of
+minimal frustration applies in binding reactions has not been
+experimentally well tested (54). However, these models are
+the simplest of those that are compatible with both the m
+and Φ value data. Alternative models for the binding
+transition states would require burial of a large amount of
+surface that is not buried in the bound state, with “non￾native” contacts formed not just by Tyr5 but also Ser31R in
+A6 and Y104â in B7. Conceivably, this could arise from
+alternate CDR loop configurations within the transition states
+and a positioning of the TCRs on the MHC molecules in a
+fashion very different than seen in the crystal structures. To
+account for the data, however, the resulting transition states
+would need to be radically different from the bound states.
+In the structure of the unligated Tax/HLA-A2 complex,
+Tyr5 of the peptide projects up from the center of the peptide
+backbone, which has a slight bulge characteristic of nonamers
+bound to class I MHC molecules. From the “side” of the
+Tax/HLA-A2 complex, if the â strands of the peptide binding
+groove are defined as the horizontal, the Tyr5 hydroxyl group
+defines a high point on the peptide/MHC, just above the
+extending side chains of Arg65 of the HLA-A2 R1 helix
+and Gln155 of the HLA-A2 R2 helix (see Supporting
+Information). Thus it is perhaps not too surprising that the
+A6 and B7 T cell receptors engage Tyr5 early in binding, as
+noted by Wu et al. in their derivation of the two-step model
+(9). However, projection of amino acid side chains above
+the MHC R1/R2 helices is not unusual in class I MHC
+complexes: a survey of class I peptide/MHC structures in
+the Protein Data Bank revealed a number of similar cases.
+Peptides presented in this fashion include nonamers, decam￾ers, 11-mers, and in one case a 14-mer (55-64). Thus,
+although the exact details of any given TCR-peptide/MHC
+binding transition state are probably heavily dependent upon
+the nature of the bound peptide, contacts to projecting peptide
+side chains within TCR-peptide/MHC binding transition
+states may be relatively common.
+It is striking that the transition states with A6 and B7 are
+so similar. In previous work, we have shown that A6 and
+B7 bind Tax/HLA-A2 with very different thermodynamics
+(∆∆H° and T∆∆S° are both near 10 kcal/mol at 25 °C), but
+this arises almost entirely from how the two receptors move
+from the transition state to the bound state (∆∆Hon
+q and
+∆∆Son
+q are both near zero, with a negligible ∆∆Cp,on
+q ) (10).
+Thus, not only do A6 and B7 bury very nearly the same
+amount of surface in their transition states, they bind with
+nearly identical activation thermodynamics. This could be
+indicative of very similar structures formed within the two
+transition states, an interpretation compatible with the m value
+and Φ value data presented here. Yet, A6 and B7 have
+different VR domains, and their CDR3 loops are entirely
+different. In the face of these sequence differences, how could
+the activation thermodynamics and the nature of the two
+transition states be so similar? Perhaps the A6 and B7
+transition states consist of actual intermolecular contacts to
+protruding side chains only (such as Tyr5), with the majority
+of the association energetics and surface removed from bulk
+water, resulting not from intermolecular contacts but from
+dehydration of similar surfaces as the molecules approach,
+as discussed by Gabdoulline and Wade in their analysis of
+protein-protein encounter complexes (65). This binding
+model would limit the formation of different interatomic
+contacts that could give rise to differing activation energies,
+yet is still compatible with the m and Φ value data indicating
+removal of a significant amount of surface from bulk solvent
+and a bound-like environment around Tyr5 of the Tax
+peptide.
+The results with A6 and B7 are reminiscent of the recent
+work of Lee et al., who studied the binding of the G10 TCR
+to an HIV epitope and a single amino acid variant presented
+by HLA-A2 (12). Remarkably, the TCR bound both peptide/
+MHC complexes with the same activation thermodynamics,
+despite the fact that the peptides were found to occupy
+different conformations in the free peptide/MHC complexes.
+Assuming the peptides adopted the same conformation in
+the TCR-bound state, the authors interpreted their results as
+the TCR initially engaging the MHC molecule relatively
+independent of the peptide and then contacting the peptide
+as the transition state decayed to the bound state, i.e., in the
+context of the two-step model. However, it is also possible
+that the G10 TCR initially engages these ligands in a fashion
+similar to that noted above (minimal interatomic contacts
+along with the exclusion of bulk solvent, followed by
+formation of specific contacts as the transition state decays).
+Additional work is needed to distinguish between these
+possibilities.
+1848 Biochemistry, Vol. 46, No. 7, 2007 Davis-Harrison et al.If the two-step model as originally formulated is not
+generally applicable, is there an alternative which might
+permit a physical distinction between the peptide and the
+MHC molecule in TCR recognition of ligand? Perhaps
+certain TCR binding reactions proceed via the formation of
+a binding intermediate resulting from strong interactions with
+the MHC molecule [i.e., a state whose free energy is in
+between fully bound and free, with fully bound and free
+separated by multiple transition state barriers, as seen in the
+interaction between RNase S and the S-peptide (32)].
+Although thus far there are no physical data suggesting the
+existence of such an intermediate in TCR binding reactions,
+its presence would be expected to be strongly dependent on
+the nature of individual TCRs and peptides, and it could be
+selected against during TCR positive selection (66). Detection
+of such an intermediate would therefore require careful
+selection of systems and likely kinetic methods without the
+low temporal resolution of surface plasmon resonance (67).
+ACKNOWLEDGMENT
+We thank Samy Meroueh and Alison Wojnarowicz for
+expert assistance, John R. Clemens for providing unpublished
+binding data, and Jim Horn for helpful discussion.
+SUPPORTING INFORMATION AVAILABLE
+Data as described in the text. This material is available
+free of charge via the Internet at http://pubs.acs.org.
+REFERENCES
+1. Rudolph, M. G., Luz, J. G., and Wilson, I. A. (2002) Structural
+and thermodynamic correlates of T cell signaling, Annu. ReV.
+Biophys. Biomol. Struct. 31, 121-149.
+2. Wucherpfennig, K. W. (2004) T cell receptor crossreactivity as a
+general property of T cell recognition, Mol. Immunol. 40, 1009-
+1017.
+3. Shih, F. F., and Allen, P. M. (2004) T cells are not as degenerate
+as you think, once you get to know them, Mol. Immunol. 40,
+1041-1046.
+4. Maynard, J., Petersson, K., Wilson, D. H., Adams, E. J., Blondelle,
+S. E., Boulanger, M. J., Wilson, D. B., and Garcia, K. C. (2005)
+Structure of an autoimmune T cell receptor complexed with class
+II peptide-MHC: insights into MHC bias and antigen specificity,
+Immunity 22, 81-92.
+5. Zerrahn, J., Held, W., and Raulet, D. H. (1997) The MHC
+reactivity of the T cell repertoire prior to positive and negative
+selection, Cell 88, 627-636.
+6. Boniface, J. J., Reich, Z., Lyons, D. S., and Davis, M. M. (1999)
+Thermodynamics of T cell receptor binding to peptide-MHC:
+evidence for a general mechanism of molecular scanning, Proc.
+Natl. Acad. Sci. U.S.A. 96, 11446-11451.
+7. Krogsgaard, M., Li, Q. J., Sumen, C., Huppa, J. B., Huse, M.,
+and Davis, M. M. (2005) Agonist/endogenous peptide-MHC
+heterodimers drive T cell activation and sensitivity, Nature 434,
+238-243.
+8. Fersht, A. R. (1995) Characterizing transition states in protein
+folding: an essential step in the puzzle, Curr. Opin. Struct. Biol.
+5, 79-84.
+9. Wu, L. C., Tuot, D. S., Lyons, D. S., Garcia, K. C., and Davis,
+M. M. (2002) Two-step binding mechanism for T-cell receptor
+recognition of peptide MHC, Nature 418, 552-556.
+10. Davis-Harrison, R. L., Armstrong, K. M., and Baker, B. M. (2005)
+Two different T cell receptors use different thermodynamic
+strategies to recognize the same peptide/MHC ligand, J. Mol. Biol.
+346, 533-550.
+11. Anikeeva, N., Lebedeva, T., Krogsgaard, M., Tetin, S. Y.,
+Martinez-Hackert, E., Kalams, S. A., Davis, M. M., and Sykulev,
+Y. (2003) Distinct molecular mechanisms account for the specific￾ity of two different T-cell receptors, Biochemistry 42, 4709-4716.
+12. Lee, J. K., Stewart-Jones, G., Dong, T., Harlos, K., Di, Gleria,
+K., Dorrell, L., Douek, D. C., van der Merwe, P. A., Jones, E.
+Y., and McMichael, A. J. (2004) T cell cross-reactivity and
+conformational changes during TCR engagement, J. Exp. Med.
+200, 1455-1466.
+13. Ding, Y. H., Smith, K. J., Garboczi, D. N., Utz, U., Biddison, W.
+E., and Wiley, D. C. (1998) Two human T cell receptors bind in
+a similar diagonal mode to the HLA-A2/Tax peptide complex
+using different TCR amino acids, Immunity 8, 403-411.
+14. Garboczi, D. N., Ghosh, P., Utz, U., Fan, Q. R., Biddison, W. E.,
+and Wiley, D. C. (1996) Structure of the complex between human
+T-cell receptor, viral peptide and HLA-A2, Nature 384, 134-
+141.
+15. Bryngelson, J. D., and Wolynes, P. G. (1987) Spin glasses and
+the statistical mechanics of protein folding, Proc. Natl. Acad. Sci.
+U.S.A. 84, 7524-7528.
+16. Levy, Y., Cho, S. S., Onuchic, J. N., and Wolynes, P. G. (2005)
+A survey of flexible protein binding mechanisms and their
+transition states using native topology based energy landscapes,
+J. Mol. Biol. 346, 1121-1145.
+17. Baker, D. (2000) A surprising simplicity to protein folding, Nature
+405, 39-42.
+18. Myszka, D. G. (1999) Improving biosensor analysis, J. Mol.
+Recognit. 12, 279-284.
+19. Binz, A. K., Rodriguez, R. C., Biddison, W. E., and Baker, B. M.
+(2003) Thermodynamic and kinetic analysis of a peptide-class I
+MHC interaction highlights the noncovalent nature and confor￾mational dynamics of the class I heterotrimer, Biochemistry 42,
+4954-4961.
+20. Rodriguez, R., Chinea, G., Lopez, N., Pons, T., and Vriend, G.
+(1998) Homology modeling, model and software evaluation: three
+related resources, Bioinformatics 14, 523-528.
+21. Ding, Y. H., Baker, B. M., Garboczi, D. N., Biddison, W. E., and
+Wiley, D. C. (1999) Four A6-TCR/peptide/HLA-A2 structures
+that generate very different T cell signals are nearly identical,
+Immunity 11, 45-56.
+22. Case, D. A., Darden, T. A., Cheatham, T. E., Simmerling, C. L.,
+Wang, J., Duke, R. E., Luo, R., Merz, K. M., Wang, B., Pearlman,
+D. A., Crowley, M., Brozell, S., Tsui, V., Gohlke, H., Mongan,
+J., Hornak, V., Cui, G., Beroza, P., Schafmeister, C., Caldwell, J.
+W., Ross, W. S., and Kollman, P. A. (2004) AMBER 8, University
+of California, San Francisco.
+23. Zarrine-Afsar, A., and Davidson, A. R. (2004) The analysis of
+protein folding kinetic data produced in protein engineering
+experiments, Methods 34, 41-50.
+24. Zou, Q., Habermann-Rottinghaus, S. M., and Murphy, K. P. (1998)
+Urea effects on protein stability: Hydrogen bonding and the
+hydrophobic effect, Proteins:Struct., Funct., Genet. 31, 107-115.
+25. Makhatadze, G. I., and Privalov, P. L. (1992) Protein interactions
+with urea and guanidinium chloride. A calorimetric study, J. Mol.
+Biol. 226, 491-505.
+26. Myers, J. K., Pace, C. N., and Scholtz, J. M. (1995) Denaturant
+m values and heat capacity changes: Relation to changes in
+accessible surface areas of protein unfolding, Protein Sci. 4, 2138-
+2148.
+27. Sanchez, I. E., and Kiefhaber, T. (2003) Hammond behavior versus
+ground state effects in protein folding: evidence for narrow free
+energy barriers and residual structure in unfolded states, J. Mol.
+Biol. 327, 867-884.
+28. Fowler, S. B., and Clarke, J. (2001) Mapping the folding pathway
+of an immunoglobulin domain: structural detail from phi value
+analysis and movement of the transition state, Structure 9, 355-
+366.
+29. Parker, M. J., Spencer, J., and Clarke, A. R. (1995) An integrated
+kinetic analysis of intermediates and transition states in protein
+folding reactions, J. Mol. Biol. 253, 771-786.
+30. Matthews, J. M., and Fersht, A. R. (1995) Exploring the energy
+surface of protein-folding by structure-reactivity relationships and
+engineered proteinssobservation of Hammond behavior for the
+gross structure of the transition-state and anti-Hammond behavior
+for structural elements for unfolding folding of barnase, Biochem￾istry 34, 6805-6814.
+31. Itzhaki, L. S., Otzen, D. E., and Fersht, A. R. (1995) The structure
+of the transition state for folding of chymotrypsin inhibitor 2
+analysed by protein engineering methods: evidence for a nucleation￾condensation mechanism for protein folding, J. Mol. Biol. 254,
+260-288.
+TCR Binding Transition States Biochemistry, Vol. 46, No. 7, 2007 184932. Goldberg, J. M., and Baldwin, R. L. (1998) Kinetic mechanism
+of a partial folding reaction. 1. Properties of the reaction and
+effects of denaturants, Biochemistry 37, 2546-2555.
+33. Gloss, L. M., and Matthews, C. R. (1998) Mechanism of folding
+of the dimeric core domain of Escherichia coli Trp repressor: A
+nearly diffusion-limited reaction leads to the formation of an on￾pathway dimeric intermediate, Biochemistry 37, 15990-15999.
+34. Dwyer, J. J., Dwyer, M. A., and Kossiakoff, A. A. (2001) High
+affinity RNase S-peptide variants obtained by phage display have
+a novel “hot-spot” of binding energy, Biochemistry 40, 13491-
+13500.
+35. Baker, B. M., and Wiley, D. C. (2001) alpha beta T cell receptor
+ligand-specific oligomerization revisited, Immunity 14, 681-692.
+36. Reiser, J. B., Gregoire, C., Darnault, C., Mosser, T., Guimezanes,
+A., Schmitt-Verhulst, A. M., Fontecilla-Camps, J. C., Mazza, G.,
+Malissen, B., and Housset, D. (2002) A T cell receptor CDR3beta
+loop undergoes conformational changes of unprecedented mag￾nitude upon binding to a peptide/MHC class I complex, Immunity
+16, 345-354.
+37. Kjer-Nielsen, L., Clements, C. S., Purcell, A. W., Brooks, A. G.,
+Whisstock, J. C., Burrows, S. R., McCluskey, J., and Rossjohn,
+J. (2003) A structural basis for the selection of dominant alphabeta
+T cell receptors in antiviral immunity, Immunity 18, 53-64.
+38. Garcia, K. C., Degano, M., Pease, L. R., Huang, M., Peterson, P.
+A., Teyton, L., and Wilson, I. A. (1998) Structural basis of
+plasticity in T cell receptor recognition of a self peptide-MHC
+antigen, Science 279, 1166-1172.
+39. Madden, D. R., Garboczi, D. N., and Wiley, D. C. (1993) The
+antigenic identity of peptide-MHC complexes: a comparison of
+the conformations of five viral peptides presented by HLA-A2,
+Cell 75, 693-708 [erratum: (1994) Cell 76, 410].
+40. Gagnon, S. J., Borbulevych, O. Y., Davis-Harrison, R. L., Baxter,
+T. K., Clemens, J. R., Armstrong, K. M., Turner, R. V., Damirjian,
+M., Biddison, W. E., and Baker, B. M. (2005) Unraveling a hotspot
+for TCR recognition on HLA-A2: evidence against the existence
+of peptide-independent TCR binding determinants, J. Mol. Biol.
+353, 556.
+41. Chen, J.-L., Stewart-Jones, G., Bossi, G., Lissin, N. M., Woold￾ridge, L., Choi, E. M. L., Held, G., Dunbar, P. R., Esnouf, R. M.,
+Sami, M., Boulter, J. M., Rizkallah, P., Renner, C., Sewell, A.,
+van der Merwe, P. A., Jakobsen, B. K., Griffiths, G., Jones, E.
+Y., and Cerundolo, V. (2005) Structural and kinetic basis for
+heightened immunogenicity of T cell vaccines, J. Exp. Med. 201,
+1243-1255.
+42. Gagnon, S. J., Borbulevych, O. Y., Davis-Harrison, R. L., Turner,
+R. V., Damirjian, M., Wojnarowicz, A., Biddison, W. E., and
+Baker, B. M. (2006) T cell receptor recognition via cooperative
+conformational plasticity, J. Mol. Biol. 363, 228-243.
+43. Baker, B. M., Ding, Y. H., Garboczi, D. N., Biddison, W. E., and
+Wiley, D. C. (2000) Structural, biochemical, and biophysical
+studies of HLA-A2/altered peptide ligands binding to viral-peptide￾specific human T-cell receptors, Cold Spring Harbor Symp. Quant.
+Biol. 64, 235-241.
+44. Levy, Y., Wolynes, P. G., and Onuchic, J. N. (2004) Protein
+topology determines binding mechanism, Proc. Natl. Acad. Sci.
+U.S.A. 101, 511-516.
+45. Yang, S., Cho, S. S., Levy, Y., Cheung, M. S., Levine, H.,
+Wolynes, P. G., and Onuchic, J. N. (2004) From the cover:
+domain swapping is a consequence of minimal frustration, Proc.
+Natl. Acad. Sci. U.S.A. 101, 13786-13791.
+46. Tovchigrechko, A., and Vakser, I. A. (2001) How common is the
+funnel-like energy landscape in protein-protein interactions?,
+Protein Sci. 10, 1572-1583.
+47. Dill, K. A., and Chan, H. S. (1997) From Levinthal to pathways
+to funnels, Nat. Struct. Biol. 4, 10-19.
+48. Miller, D. W., and Dill, K. A. (1997) Ligand binding to proteins:
+The binding landscape model, Protein Sci. 6, 2166-2179.
+49. Ma, B., Kumar, S., Tsai, C.-J., and Nussinov, R. (1999) Folding
+funnels and binding mechanisms, Protein Eng. 12, 713-720.
+50. Krogsgaard, M., and Davis, M. M. (2005) How T cells “see”
+antigen, Nat. Immunol. 6, 239-245.
+51. Housset, D., and Malissen, B. (2003) What do TCR-pMHC crystal
+structures teach us about MHC restriction and alloreactivity?,
+Trends Immunol. 24, 429-437.
+52. Reiser, J. B., Darnault, C., Gregoire, C., Mosser, T., Mazza, G.,
+Kearney, A., van der Merwe, P. A., Fontecilla-Camps, J. C.,
+Housset, D., and Malissen, B. (2003) CDR3 loop flexibility
+contributes to the degeneracy of TCR recognition, Nat. Immunol.
+4, 241-247.
+53. Borg, N. A., Ely, L. K., Beddoe, T., Macdonald, W. A., Reid, H.
+H., Clements, C. S., Purcell, A. W., Kjer-Nielsen, L., Miles, J. J.,
+Burrows, S. R., McCluskey, J., and Rossjohn, J. (2005) The CDR3
+regions of an immunodominant T cell receptor dictate the
+“energetic landscape” of peptide-MHC recognition, Nat. Immunol.
+6, 171-180.
+54. Levy, Y., and Onuchic, J. N. (2006) Mechanisms of protein
+assembly: lessons from minimalist models, Acc. Chem. Res. 39,
+135-142.
+55. Miles, J. J., Elhassen, D., Borg, N. A., Silins, S. L., Tynan, F. E.,
+Burrows, J. M., Purcell, A. W., Kjer-Nielsen, L., Rossjohn, J.,
+Burrows, S. R., and McCluskey, J. (2005) CTL recognition of a
+bulged viral peptide involves biased TCR selection, J. Immunol.
+175, 3826-3834.
+56. Stewart-Jones, G. B., di Gleria, K., Kollnberger, S., McMichael,
+A. J., Jones, E. Y., and Bowness, P. (2005) Crystal structures
+and KIR3DL1 recognition of three immunodominant viral peptides
+complexed to HLA-B*2705, Eur. J. Immunol. 35, 341-351.
+57. Meijers, R., Lai, C. C., Yang, Y., Liu, J. H., Zhong, W., Wang, J.
+H., and Reinherz, E. L. (2005) Crystal structures of murine MHC
+Class I H-2 D(b) and K(b) molecules in complex with CTL
+epitopes from influenza A virus: implications for TCR repertoire
+selection and immunodominance, J. Mol. Biol. 345, 1099-110.
+58. Stewart-Jones, G. B., Gillespie, G., Overton, I. M., Kaul, R., Roche,
+P., McMichael, A. J., Rowland-Jones, S., and Jones, E. Y. (2005)
+Structures of three HIV-1 HLA-B*5703-peptide complexes and
+identification of related HLAs potentially associated with long￾term nonprogression, J. Immunol. 175, 2459-2468.
+59. Gillespie, G. M. A., Stewart-Jones, G., Rengasamy, J., Beattie,
+T., Bwayo, J. J., Plummer, F. A., Kaul, R., McMichael, A. J.,
+Easterbrook, P., Dong, T., Jones, E. Y., and Rowland-Jones, S.
+L. (2006) Strong TCR conservation and altered T cell cross￾reactivity characterize a B*57-restricted immune response in
+HIV-1 infection, J. Immunol 177, 3893-3902.
+60. Macdonald, W. A., Purcell, A. W., Mifsud, N. A., Ely, L. K.,
+Williams, D. S., Chang, L., Gorman, J. J., Clements, C. S., Kjer￾Nielsen, L., Koelle, D. M., Burrows, S. R., Tait, B. D., Hold￾sworth, R., Brooks, A. G., Lovrecz, G. O., Lu, L., Rossjohn, J.,
+and McCluskey, J. (2003) A naturally selected dimorphism within
+the HLA-B44 supertype alters class I structure, peptide repertoire,
+and T cell recognition, J. Exp. Med. 198, 679-691.
+61. Zernich, D., Purcell, A. W., Macdonald, W. A., Kjer-Nielsen, L.,
+Ely, L. K., Laham, N., Crockford, T., Mifsud, N. A., Bharadwaj,
+M., Chang, L., Tait, B. D., Holdsworth, R., Brooks, A. G.,
+Bottomley, S. P., Beddoe, T., Peh, C. A., Rossjohn, J., and
+McCluskey, J. (2004) Natural HLA class I polymorphism controls
+the pathway of antigen presentation and susceptibility to viral
+evasion, J. Exp. Med. 200, 13-24.
+62. Cole, D. K., Pierre, J. R. F. G., Neil, I. W., Jonathan, M. B., John,
+I. B. M. S., George, F. G., and Bent, K. J. (2006) Crystal structure
+of HLA-A*2402 complexed with a telomerase peptide, Eur. J.
+Immunol. 36, 170-179.
+63. Hulsmeyer, M., Fiorillo, M. T., Bettosini, F., Sorrentino, R.,
+Saenger, W., Ziegler, A., and Uchanska-Ziegler, B. (2004) Dual,
+HLA-B27 subtype-dependent conformation of a self-peptide, J.
+Exp. Med. 199, 271-281.
+64. Probst-Kepper, M., Hecht, H.-J., Herrmann, H., Janke, V., Ock￾lenburg, F., Klempnauer, J., van den Eynde, B. J., and Weiss, S.
+(2004) Conformational restraints and flexibility of 14-meric
+peptides in complex with HLA-B*3501, J. Immunol. 173, 5610-
+5616.
+65. Gabdoulline, R. R., and Wade, R. C. (1999) On the protein-protein
+diffusional encounter complex, J. Mol. Recognit. 12, 226-234.
+66. Ignatowicz, L., Kappler, J., and Marrack, P. (1996) The repertoire
+of T cells shaped by a single MHC/peptide ligand, Cell 84, 521-
+529.
+67. Gakamsky, D. M., Luescher, I. F., and Pecht, I. (2004) T cell
+receptor-ligand interactions: A conformational preequilibrium or
+an induced fit, Proc. Natl. Acad. Sci. U.S.A. 101, 9063-9066.
+BI061702P
+1850 Biochemistry, Vol. 46, No. 7, 2007 Davis-Harrison et al.

@@ -1,0 +1,1698 @@
+Deep Mutational Scans as a Guide to Engineering 
+High-affinity T Cell Receptor Interactions with Peptide-bound MHC
+Daniel T. Harris*
+, Ningyan Wang*
+, Timothy P. Riley†, Scott D. Anderson*
+, 
+Nishant K. Singh†, Erik Procko*
+, Brian M. Baker†, David M. Kranz*
+*
+Department of Biochemistry, University of Illinois, 600 S. Matthews Ave., Urbana, IL 61801, 
+USA
+†Department of Chemistry and Biochemistry and the Harper Cancer Research Institute, 
+University of Notre Dame, 1234 Notre Dame Avenue, South Bend, IN 46557, USA
+Running Title: Engineering protein-protein interactions
+To whom correspondence should be addressed: Prof. David M. Kranz, Department of 
+Biochemistry, University of Illinois, 600 S. Matthews Ave., Urbana, IL 61801, USA, Tel: 217-244-
+2821, E-mail d-kranz@illinois.edu
+Keywords: Major histocompatibility complex (MHC), Protein engineering, Protein-protein
+Interaction, T-cell receptor (TCR), Immunotherapy, Cancer targets, Computational analysis
+ABSTRACT 
+Proteins are often engineered to have 
+higher affinity for their ligands in order to 
+achieve therapeutic benefit. For example,
+many studies have used phage- or yeast￾display libraries of mutants within 
+complementarity determining regions (CDRs)
+to affinity mature antibodies and T cell 
+receptors (TCRs). However, these
+approaches do not allow rapid assessment or 
+evolution across the entire interface. By 
+combining directed evolution with deep 
+sequencing it is now possible to generate 
+sequence fitness landscapes that survey the
+impact of every amino acid substitution 
+across the entire protein-protein interface. 
+Here we used the results of deep mutational 
+scans of a TCR:peptide-major 
+histocompatibility complex (pepMHC) 
+interaction to guide mutational strategies. The 
+approach yielded stable TCRs with affinity 
+increases of over 200-fold. The substitutions 
+with the greatest enrichments based on the 
+deep sequencing were validated to have 
+higher affinity, and could be combined to 
+yield additional improvements. We also 
+conducted in silico binding analyses for every 
+substitution to compare with the fitness 
+landscape. Computational modeling did not 
+well predict the impacts of mutations distal to 
+the interface, and did not account for yeast 
+display results that depended on 
+combinations of affinity and protein stability. 
+However, computation accurately predicted 
+affinity changes for mutations within or near 
+the interface, highlighting the complementary 
+strengths of computational modeling and 
+yeast surface display coupled with deep 
+mutational scanning for engineering high 
+affinity TCRs.
+The process of increasing the affinity 
+of a protein occurs naturally with antibodies, 
+where somatic mutation within the variable 
+region genes is followed by antigen-driven 
+selection of B cells that express membrane￾bound antibodies. In contrast, T cell receptors 
+(TCRs) do not undergo somatic mutations 
+and bind to their antigen, a peptide:MHC 
+The latest version is at http://www.jbc.org/cgi/doi/10.1074/jbc.M116.748681
+JBC Papers in Press. Published on September 28, 2016 as Manuscript M116.748681
+Copyright 2016 by The American Society for Biochemistry and Molecular Biology, Inc.
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Engineering protein-protein interactions
+2!
+complex (pepMHC), with low (micromolar) 
+affinities. However, improvements in TCR 
+affinity to the same levels of antibodies can 
+be achieved by in vitro approaches involving 
+the generation of mutant TCR libraries 
+followed by antigen selection (1-3). 
+For therapeutic purposes, the affinity 
+of a variety of protein-protein interactions, 
+and especially antibody:antigen interactions,
+have been enhanced using in vitro directed 
+evolution approaches including phage, yeast, 
+ribosomal, and mammalian display (e.g. (4-
+7)). These methods rely on the generation of 
+large libraries of mutants at residues within
+the protein-protein interface, followed by 
+several rounds of selection for desired 
+parameters (such as affinity, stability and 
+expression levels) (8,9). 
+While directed evolution using larger 
+degenerate libraries has been successful, the 
+most recent techniques involving deep 
+sequencing of single-codon libraries have the 
+potential to provide both mechanistic 
+structural information about a binding site and 
+at the same time provide leads for affinity 
+improvements. Sequence fitness landscapes 
+have successfully been utilized to map 
+protein-DNA interactions (10), protein-peptide 
+interactions (11), and protein-protein 
+interactions (12). Furthermore, using a PDZ 
+protein domain as a model system, 
+McLaughlin and colleagues were able to 
+manipulate ligand-binding specificity through 
+key mutations identified using sequence 
+fitness landscapes (13). Additionally, a 
+sequence fitness landscape of an influenza￾binding protein inhibitor was used to enhance 
+affinity and redirect specificity towards a 
+single H1 hemagglutinin subtype (14). 
+A major goal in protein engineering is 
+to be able to accurately identify mutations 
+that yield improvements in stability or affinity. 
+In addition to directed evolution and 
+sequence fitness landscapes, when the 
+protein structures are known, structure-based 
+computational design has also been used to 
+achieve these goals. Although there have 
+been inspiring successes (reviewed in (15)), 
+advances in computational approaches 
+require a thorough understanding of the 
+relationships between protein structural and 
+physical properties, as well as increases in 
+the ability to rapidly and accurately sample 
+different conformational and configurational 
+states (16). 
+In the present study, we focused on 
+TCRs because they have evolved to bind to a 
+diverse repertoire of clinically relevant targets
+and thus represent a class of molecules with 
+significant therapeutic potential. In addition, 
+because of their naturally low affinities they 
+represent protein-engineering targets for both 
+stability and affinity. Previously, we reported
+successful affinity engineering of TCRs by 
+directed evolution using yeast display (2,17-
+21) and mammalian cell display (7,22). We 
+also described structure-guided design 
+strategies that estimated the binding energies 
+of both favorable and unfavorable mutations 
+and led to the design of additional high￾affinity TCRs (23,24).
+More recently, we reported the use of 
+single-codon libraries with two different TCRs 
+to generate sequence fitness landscapes that 
+allowed analysis of the impact of each 
+residue on binding to their cognate pep-HLA￾A2 complexes (25). Sequence fitness 
+landscapes offer a powerful perspective of 
+protein-protein interactions not available from 
+structural data alone by experimentally 
+determining, on a residue-by-residue basis, 
+which amino acids contribute to binding as 
+well as the most optimal amino acids at each 
+position (11,26). Accordingly, the two higher 
+affinity TCRs, A6-c134 and RD1-MART1HIGH, 
+that are specific for Tax/HLA-A2 and 
+MART1/HLA-A2 respectively, were examined 
+both structurally and by deep scanning
+mutagenesis to determine the basis of 
+specificity and binding (25). 
+Here we further studied the mutations 
+that were highly enriched in the sequence 
+fitness landscape of the cancer antigen￾specific TCR, RD1-MART1HIGH, interacting 
+with its target peptide-MHC by yeast surface 
+display. We demonstrate that the mutations 
+that exhibited the highest levels of 
+enrichment acted both individually and in 
+synergy to significantly increase the affinity 
+and yeast surface levels of the RD1-
+MART1HIGH TCR. We also compared 
+strategies that involved individual 
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Engineering protein-protein interactions
+3!
+combinations of mutations versus 
+construction and selection of multi-codon 
+libraries, both based on the sequence fitness 
+landscape. These approaches were further 
+compared to computationally predicted 
+affinity enhancing mutations using a 
+previously described in silico approach
+(24,27). Some of the highest enriched 
+residues identified in the sequence fitness 
+landscape were successfully identified by the 
+in silico approach, but these were not 
+distinguished from many other substitutions 
+that did not yield substantial enrichment. This 
+is likely due in part to the sensitivity of yeast 
+surface display to not only changes in 
+binding, but also changes in protein stability. 
+The in silico approach nonetheless performed 
+well when focused on mutations 
+experimentally shown to improve binding and 
+proved advantageous for providing structural
+interpretations. Overall, we show that deep 
+sequencing methods combined with yeast 
+display provides for significant opportunities 
+for enhancing TCR affinity while also 
+controlling for impacts on stability, and 
+demonstrate the utility of computational 
+modeling in providing structural 
+interpretations for affinity gains. 
+RESULTS 
+Approaches to engineering a 
+TCR/MHC interaction for higher affinity - The 
+A6 TCR was previously used as a template
+for directed evolution of a novel peptide 
+specificity, whereby the specificity was 
+switched from Tax/HLA-A2 to the completely 
+distinct cancer peptide, MART1/HLA-A2 (21). 
+The resulting TCR, called RD1-MART1, was 
+further affinity-matured to yield the RD1-
+MART1HIGH TCR, with a KD value of about 
+100 nM. Recently, we generated a sequence 
+fitness landscape of RD1-MART1HIGH by deep 
+sequencing analysis of antigen-selected, 
+single-codon libraries (25). For the sequence 
+fitness landscape and the work conducted in 
+the present study, RD1-MART1HIGH and 
+various mutants were displayed on the 
+surface of yeast as single-chain TCRs 
+containing the Vβ and Vα domains linked by 
+a flexible linker (Fig. 1A). Hemagglutinin (HA) 
+and c-myc tags were attached at the N￾terminus and C-terminus, respectively. 
+In order to understand the most 
+expeditious strategy to generate higher 
+affinity binding leads from a protein, here we 
+explored three approaches. The first two 
+were based on the substitutions from the 
+single-codon libraries that yielded increases 
+in the number of antigen-selected TCR, 
+characterized as enrichment values (Fig. 1B). 
+In the third, the results of these experimental 
+approaches were compared to an in silico 
+computational approach using the structure of 
+the RD1-MART1HIGH:MART1/HLA-A2 
+complex to predict the structural 
+consequences and the energetic impacts of 
+every individual substitution in the CDRs.
+The individual enrichment values for 
+the top substitutions of the RD1-MART1HIGH
+TCR are plotted in Fig. 1C. To explore the 
+robustness of these results from the 
+sequence fitness landscape, we tested eight 
+individual mutants (arrows in Fig. 1C) within 
+this range of enrichment values, from 10- to 
+51-fold (T91Qα, A99Yβ, V50Dβ, 
+G28Eα, S51Gα, Y50Wα, N28Gβ, K97Qα). 
+The top binders among this group were then
+tested in combination to determine if there 
+was binding additivity (Fig. 1B, left). 
+It is possible that the individual 
+mutation approach, followed by combination 
+of improved mutations, will not identify those 
+collections of mutations that act additively or 
+cooperatively to yield the highest affinity 
+TCRs. Furthermore, positions where there 
+were multiple enriched substitutions (e.g. 
+positions 91α and 99β) would not be fully 
+sampled by analyzing only eight of the
+individual mutations. Accordingly, we took an 
+alternative approach in which a combinatorial 
+library at four residues with the highest 
+enrichment values was generated. This 
+combinatorial library was sorted with 
+MART1/HLA-A2 by fluorescence activated 
+cell sorting (FACS) (Fig. 1B, right) to yield 
+clones that bound with higher affinity. 
+Site-specific mutants act individually 
+and in combination to enhance affinity and 
+expression - Based on the sequence fitness 
+landscape of RD1-MART1HIGH, 8.3% of the 
+mutations showed enrichment above the wild-
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Engineering protein-protein interactions
+4!
+type TCR (25). As indicated, eight mutations 
+with enrichment values ranging from 10- to 
+51-fold (Fig. 1C, arrows) were expressed 
+individually on the surface of yeast and tested 
+for binding to the MART1/HLA-A2 ligand. 
+Interestingly, the four residues with the 
+highest enrichment values were each in 
+different CDR loops (Fig. 2A), raising the 
+possibility that the combined mutations could 
+yield additive effects. Mutants on yeast were 
+stained with various concentrations of 
+MART1/HLA-A2 monomer to determine 
+affinities (Fig. 3A and Table 1). Previous 
+studies with TCR domains or scFv fragments 
+have shown that KD values determined by 
+such flow cytometry-based titrations are 
+similar to KD values determined for the 
+soluble proteins by surface plasmon 
+resonance, at least in the nanomolar KD
+range (e.g. (18,28,29)).
+In some cases we also stained yeast 
+with an excess of MART1/HLA-A2 tetramer to 
+compare relative surface levels of the TCR 
+mutants (Table 1) because surface levels of
+properly folded TCRs in the yeast display 
+system are known to be influenced by
+stability of the proteins (18,30-36), and the 
+multimeric form would be able to assess total 
+surface levels even with lower affinity 
+mutants, due to avidity (37). We also used 
+high levels of the multimeric ligand for this 
+purpose, rather than antibodies to the C￾terminal c-myc tag, because the yeast quality 
+control machinery may allow expression of
+full-length fusions even if mis-folded or 
+partially folded domains are present (38). 
+This would allow us to address the possibility 
+that the enrichment of TCRs with mutations in 
+the single-codon libraries were due to
+enhanced affinity or higher surface levels of 
+the folded protein, or both. 
+Of the eight mutations, five showed 
+significant improvements in affinity compared 
+to the RD1-MART1HIGH TCR (Fig. 3A and 
+Table 1). The five mutants exhibited 3-fold 
+(Y50Wα) to 11-fold (A99Yβ) increases in 
+affinity above the wild-type protein. While the 
+other three mutants did not exhibit affinity 
+increases, they did appear to be expressed at 
+higher surface levels which likely accounts for 
+the enhancement values observed in the 
+deep mutational scan. 
+To test whether the mutations could 
+be combined to yield further improvements, 
+four double mutants and a triple mutant were 
+generated (Figs. 3 and 4, Table 1). The 
+double mutants yielded increases of 10- to 
+20-fold, while the triple mutant yielded an 
+increase of almost 100-fold, to an estimated 
+KD value of 2 nM. Furthermore, combination 
+of these mutations also led to increased TCR 
+surface levels (Table 1), indicating that the 
+mutations also may operate by stabilizing the 
+TCR domains. A plot of affinities (KD values)
+versus enrichment value (Fig. 4C) supports 
+the view that the highest enhancement 
+values in a deep mutational scan can be 
+used to reliably generate higher affinity 
+variants of a protein. Indeed, when the eight 
+mutants were viewed as changes in binding 
+free energy relative to “wild-type” RD1-
+MART1HIGH, there is a linear relationship 
+between enrichment and ΔΔG°, with a 
+correlation coefficient (R) of -0.82 (Fig. 4C, 
+inset). This relationship is also apparent 
+based on the finding that the three top 
+mutations could be combined to yield an 
+additive effect of 100-fold higher affinity.
+Selection of a combinatorial library 
+yields further improvements and correlates 
+with the sequence fitness landscape - To 
+compare with individual site-specific
+mutagenesis, we generated a combinatorial 
+library at the four residues (28α, 91α, 50β, 
+99β) with the most highly enriched mutations 
+in the deep mutational scan (Figs. 1C and 
+2A). Selection of this library could yield 
+improved combinations that were not 
+identified in the one-by-one mutational 
+approach. The combinatorial library was 
+sorted three times with MART1/HLA-A2 
+monomer at concentrations ranging from 1 
+µM to 1 nM, and the top 1% fluorescent 
+population was collected (Fig. 5A). After the 
+third sort, eight clones were sequenced and 
+there were three unique sequences identified 
+(represented by clones S3-2, S3-7, and S3-8)
+(Table 2). Titrations of these three clones 
+were performed and compared to the triple 
+mutant described above (Fig. 5B,C). Mutants 
+S3-7 and S3-8 were similar in affinity to the 
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Engineering protein-protein interactions
+5!
+triple mutant, but clone S3-2 consistently 
+appeared to have a slightly higher affinity and 
+a higher surface level (Table 1). Based on 
+this result, the combinatorial library/selection 
+approach can yield modest but significant 
+improvements above the single mutation 
+approach (e.g. when there are positions 
+where multiple substitutions yield high 
+enrichment values).
+The sequences of the mutants were 
+interesting when considered in regards to the 
+sequence fitness landscape, and the triple 
+mutant. For example, the T91Qα mutation
+had one of the highest affinities and 
+expression levels among individual mutants 
+(Table 1), and this mutation was present in all 
+three clones from the combinatorial library. 
+Position 50β had either an aspartic or 
+glutamic acid in all three clones isolated, 
+consistent with the nearly four-fold 
+improvement of V50Dβ (Table 1) and the 
+deep mutational scan results (Fig. 1C). While 
+all three clones identified in the combinatorial 
+library did not contain the A99Yβ mutation
+that showed the highest affinity individually 
+(Table 1), each had a different highly
+enriched mutation (A99Dβ, A99Eβ, A99Vβ) 
+(Fig. 1C). Interestingly, in clones S3-2 and 
+S3-8, the G28α position was mutated to 
+arginine despite this residue having a strong 
+preference for glutamic acid in the deep 
+mutational scan (Fig. 1C) and the 
+improvement in affinity of the G28Eα mutant. 
+In fact, the G28Rα mutation was not enriched 
+compared to wild-type in the deep mutational 
+scan, suggesting that this mutation may have 
+operated only in the context of one or more of 
+the other three CDR mutations. 
+In conclusion, the combinatorial 
+approach yielded the greatest improvement 
+as shown by the S3-2 mutant which exhibited
+a KD value of 0.7 nM, an increase in affinity of
+about 250-fold compared to RD1-MARTHIGH. 
+The improvement in affinity of the S3-2 
+mutant was also validated by a separate 
+approach using soluble single-chain TCRs 
+refolded from E. coli inclusion bodies. 
+Previous surface plasmon resonance (SPR)
+measurements of soluble RD1-MARTHIGH
+TCR yielded a KD value of 250 nM (21). Here 
+we examined soluble S3-2 TCR by SPR, 
+which yielded a KD value of 2.2 nM (Fig. 5D). 
+Evaluation of the sequence fitness 
+landscape and individual mutations via an in 
+silico approach - We next evaluated the same 
+residues from the sequence fitness 
+landscape computationally, examining all 20 
+amino acids at the 39 CDR loop positions 
+explored in the RD1-MART1HIGH TCR. We 
+used our previously described in silico
+structure-guided design approach and 
+scoring function developed and trained using 
+TCR-pMHC binding data (24,39) (Note: 
+values less than 1 considered candidates for 
+improved affinity). There was a general, 
+qualitative agreement between prediction and 
+experiment, as the majority (92%) of the 
+mutations predicted to weaken affinity were 
+also selected against (Fig. 6A). However, 
+25% of the negatively enriched mutations 
+were also predicted to improve binding. 
+The majority (78%) of the negatively 
+enriched mutations predicted to improve 
+binding were mutations that reduced polarity,
+with 62% involving introduction of a 
+hydrophobic amino acid. This suggests that 
+some of the discrepancy between 
+computational prediction and sequence 
+enrichment can be attributed to changes in 
+protein stability. As noted above this is a well￾characterized selection parameter in yeast 
+display (18,30-36), but is not an output of a 
+computational design approach focused 
+solely on improving affinity. A good example 
+is found in the mutation of A99β. Mutation of 
+A99β to Tyr improved affinity as shown in 
+Table 1. Mutation of A99β to Trp was 
+predicted to have an even more substantial 
+impact on affinity as the modeling indicated 
+the Trp side chain would pack more tightly 
+against the peptide. However, substitution of 
+A99β with Trp is predicted to result in the 
+added exposure of ~50 Å2 of hydrophobic 
+surface area when the TCR is displayed on 
+the yeast surface (compared to substitution 
+with Tyr). Using well-recognized estimates of 
+20-30 kcal/mol in free energy per Å2 of 
+exposed hydrophobic surface area (40,41), 
+the resultant destabilization could be as high 
+as ~1.5 kcal/mol. 
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Engineering protein-protein interactions
+6!
+A wider comparison of enrichment vs. 
+predicted changes in hydrophobic solvent 
+accessible surface further suggested that 
+sequence enrichment in the fitness 
+landscapes was at least in part associated 
+with reduced exposed hydrophobic surface 
+area, and vice versa (Fig. 6B). Of the 
+residues with log2 enrichment ratios ≥1, 68% 
+are predicted to have reduced solvent 
+exposed hydrophobic surface. In contrast, for 
+those residues with enrichment ratios ≤1, 
+66% are predicted to have increases in 
+exposed hydrophobic surface.
+We attempted to compute changes in 
+protein stability and incorporate them into 
+binding predictions as performed previously
+(14). We used multiple approaches to 
+compute stability changes, including 
+quantifying energetic costs of changes in 
+hydrophobic surface exposure and computing 
+stability using both our TCR-specific as well 
+as more general scoring procedures. These
+approaches however did not provide 
+additional insight beyond that obtained from 
+qualitatively assessing hydrophobicity as 
+noted above and in Fig. 6C. This result may 
+be related to recognized difficulties in 
+computing protein stability (42),! especially! in!
+loop!structures, as well as an intrinsically low 
+stability of the single-chain RD1-MART1HIGH
+protein coupled with kinetic, rather than 
+thermodynamic, stability effects that may lead 
+to low yeast surface expression levels (43). 
+To test if reduced yeast surface levels 
+of the properly folded mutants were in part 
+responsible for lower enhancement values, 
+we examined four individual mutants. These 
+mutants were predicted to have higher
+affinities, yet they were observed to have 
+negative enrichment values (Fig. 5A, green). 
+The four mutants (A99Wβ, S94Mα, G28Wα, 
+G28Fα) were compared to the wild-type RD￾MART1HIGH TCR for binding to MART1/HLA￾A2 monomers (Fig. 7A for mutants, and Fig. 
+3A for wild type) and tetramers (Table 1)
+using flow cytometry. Consistent with the 
+notion that negative enrichment values could 
+be due to lower surface levels of the properly 
+folded proteins, all four mutants, and 
+especially the S94Mα, G28Wα, and G28Fα
+mutants, were expressed at significantly 
+lower surface levels than wild-type RD￾MART1HIGH TCR. Although the A99Wβ
+mutant appeared to have a similar affinity to 
+the wild-type RD-MART1HIGH TCR, based on 
+the monomer titrations (Fig. 7B), it was not 
+possible to estimate affinities for the other 
+three mutants due to their low surface levels.
+Computational analysis of mutations 
+that yielded higher affinities - If we restrict the 
+focus solely to mutations with binding 
+measurements, after computing binding ΔΔG°
+relative to RD-MART1HIGH using the values in 
+Table 1, moderate agreement between 
+computation and experiment is observed, 
+with a correlation coefficient of 0.68 (Fig. 8A). 
+This analysis however includes the N28Gβ
+and K97Qα mutations. Neither of these 
+positions interacts directly with pepMHC 
+either in the wild type complex or in the 
+models of the mutants through either short- or 
+long-range interactions (the closest predicted 
+approaches for the N28Gβ and K97Qα
+mutants are 16 and 11 Å, respectively). 
+Excluding these mutants from the comparison 
+substantially improved the correlation 
+between prediction and experiment (R = 
+0.91). Prediction scores of the double and 
+triple mutants also corroborated well with 
+experiment, with a correlation coefficient of 
+0.87 when these were included in the 
+comparison (Fig. 8B). 
+The accurate recapitulation of the 
+relative binding energies of the RD1-
+MART1HIGH mutants in Table 1 suggested the 
+structural models would be of use in 
+rationalizing how the mutations acted to 
+impact binding. The V50Dβ mutation, which 
+improved binding nearly 4-fold, may function 
+by introducing an electrostatic interaction with 
+the side chain of R65 of HLA-A2 (Fig. 2B). 
+The T91Qα mutation occurs in the Vα/Vβ
+interface, and may stabilize the CDR3α loop
+through an intra-loop hydrogen bond and 
+electrostatic interactions within the 
+neighboring CDR3β loop (Fig. 2C). A99Yβ is 
+the most favored mutation, and is predicted to 
+improve packing with the peptide and the 
+HLA-A2 α1 helix (Fig. 2D). The new 
+interactions for A99Yβ are largely non-
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Engineering protein-protein interactions
+7!
+directional contacts, perhaps accounting for 
+why multiple substitutions here are both 
+highly enriched and favorably predicted. 
+G28Eα is predicted to form new van der 
+Waals and electrostatic interactions with 
+Trp167 of HLA-A2 (Fig. 2E). 
+It is notable that, with the exception of 
+A99Yβ, the distance of these positions from 
+the interface would tend to place them as a 
+lower priority for investigation in typical 
+structure-guided design studies, with the 
+V50Dβ mutation serving as the best example. 
+This highlights the strength of deep 
+sequencing and yeast surface display in 
+identifying important affinity-enhancing 
+“second shell” mutations, which for TCRs 
+could be important in preserving or even 
+improving antigen specificity (25). 
+DISCUSSION
+Proteins often require affinity and 
+stability enhancements for therapeutic 
+purposes. To achieve the desired 
+characteristics, various protein-engineering 
+techniques that use in vitro directed evolution 
+have been employed. These include
+ribosomal, phage, bacterial, yeast, and 
+mammalian display of degenerate mutational
+libraries, followed by various selection 
+schemes. More recently, it has been possible 
+to conduct deep mutational scans of every 
+residue in a protein’s binding site to construct 
+a sequence fitness landscape. Here we used 
+information from the sequence fitness 
+landscape of a TCR (RD1-MART1HIGH) 
+specific for the cancer antigen MART1/HLA￾A2 as a guide to compare various 
+approaches to engineer improvements in the 
+affinity and/or stability. We were able to 
+identify specific mutants that enhanced the 
+affinity over 200-fold and increased the yeast
+surface level expression by 6-fold. 
+Furthermore, we compared these site-specific 
+mutants to structure-based predictions using 
+an in silico approach that modeled the effects 
+of the mutations and predicted the impacts on 
+binding. 
+To determine the robustness of 
+identifying higher affinity mutations strictly 
+from the results of the sequence fitness 
+landscape, we generated single site-specific 
+mutations with enrichment values ranging 
+from 10- to 51-fold. These mutations were 
+tested as individual and combined mutants. 
+Site-specific mutagenesis was able to
+increase the TCR affinity by 100-fold when 
+three of the highest-affinity mutants were 
+combined. A previous study that aimed to 
+improve the affinity of an influenza inhibitor, 
+reported a maximum affinity improvement of 
+28-fold using a combination of eight 
+mutations identified from a sequence fitness 
+landscape (14). In our study, when
+enrichment values were >12 we observed a 
+direct correlation with enrichment value and 
+affinity enhancement. In addition to affinity
+increases, the yeast display approach also 
+selects for TCRs that are expressed at higher 
+levels due to the increased stability of the 
+mutant (18,30-32). Accordingly, the present 
+study identified mutations that increased 
+surface levels up to about 6-fold. Similar 
+observations have been made about the role 
+of residues in the thermal stability of antibody 
+scFv fragments (32,44,45). 
+While the individual mutations with the 
+highest enhancement values in the sequence 
+fitness landscape yielded higher affinity, and 
+their combinations provided even higher 
+affinity (100-fold), we were interested in 
+determining if a directed evolution approach 
+based on the same data could yield 
+combined mutations with even higher affinity 
+or stability. This combinatorial approach 
+would include variants with multiple mutations 
+that have additivity or positive cooperativity in 
+binding. To test this, we generated a 
+combinatorial library at the four highest 
+enriched residues (G28α, T91α, V50β, 
+A99β). Three successive selections of this
+library yielded multiple clones that bound with 
+higher affinity than RD1-MART1HIGH to the 
+MART1/HLA-A2 ligand. One of these clones 
+(S3-2) had the highest affinity (700 pM) and 
+greatest surface level (6-fold above RD1-
+MART1HIGH) among all of the mutants 
+examined in the present study. The 
+sequences of this and the other two unique 
+clones revealed that three of the four
+positions in the library had mutations that 
+were highly enriched in the sequence fitness 
+landscape. Unexpectedly, the G28α position 
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Engineering protein-protein interactions
+8!
+had two clones, including S3-2, with an
+arginine substitution, whereas the G28Rα
+substitution was not enriched in the sequence 
+fitness landscape. As G28Rα is predicted to 
+interact strongly with Glu1 of the peptide as 
+well as Glu58 of HLA-A2, this mutation alone 
+may destabilize the TCR, a consequence 
+offset by the other mutations. Accordingly, the
+use of sequence fitness landscapes to 
+generate higher affinity mutants can benefit 
+by subsequent selections of combinatorial 
+libraries in the codons of enriched amino acid 
+positions.
+Our recently described structure￾guided computational design approach for 
+engineering TCRs (24,39) provided an 
+opportunity to evaluate the sequence fitness 
+landscapes computationally and compare 
+enrichment with predicted impacts on binding. 
+While there was qualitative agreement 
+between those mutations predicted to 
+weaken binding and sequence depletion, the 
+in silico approach did not distinguish well 
+between mutations predicted to improve 
+binding and sequence enrichment, as 25% of 
+mutations selected against were predicted to 
+enhance binding. Much of this may reflect the 
+sensitivity of yeast surface display to changes 
+in protein stability, resulting in some 
+substitutions that are either reduced or 
+enhanced in surface levels. This is supported 
+by our analysis of the modeled structures of 
+each mutant for changes in exposed 
+hydrophobic surface area: sequences 
+enriched showed a much stronger trend to 
+reduce hydrophobic solvent accessible 
+surface area, and vice versa. There can be a 
+tendency for structure-guided design to select 
+for hydrophobic mutations (12)(and 
+manuscript submitted) and our findings
+reiterate that improvements in in silico
+approaches may be found from continued 
+attention to electrostatic features such as 
+polar solvation, hydrogen bonding, and 
+interactions with formal charges (16,46-49).
+For those mutants studied directly, our 
+in silico analysis showed very good 
+agreement between predicted and impacted 
+effects on binding, permitting the use of the 
+structural models in helping to assess how 
+the mutations acted to improve binding. A key 
+observation was that multiple “second shell” 
+mutations appeared to be enriched and these 
+most likely act via indirect or long range 
+effects (exemplified by the V50Dβ mutation). 
+Such sites are not always considered in 
+structure-guided computational design, 
+highlighting a strength of sequence fitness 
+landscapes and yeast surface display, as well 
+as further suggesting how in silico methods 
+might be extended.
+The single-codon approach used with 
+sequence fitness landscapes also improves 
+upon the many early studies using directed 
+evolution and error-prone PCR techniques. 
+While the latter can sample the entire protein 
+interface, it is limited to single-site mutations 
+that are generated by a single base 
+substitution. This is because the probability of 
+having two substitutions in the same codon or 
+in two codons with beneficial substitutions is 
+quite low and often beyond the size of the 
+libraries (or detrimental mutations at a higher 
+error-rate would obscure these mutations). 
+As an example, the A99Yα mutant was one 
+of the highest enriched mutations of RD1-
+MART1HIGH but it would require two 
+nucleotide substitutions to mutate from 
+alanine to tyrosine. 
+Finally, it is worth considering whether 
+information about binding affinities of mutants 
+gained in the yeast display system could be 
+extrapolated to these TCRs expressed in 
+their normal context, T cells. The TCRs are in 
+single-chain form (Vβ-linker-Vα) as Aga2-
+fusions for yeast display, whereas in T cells 
+the Vα and Vβ each contain transmembrane 
+spanning constant regions. Despite these 
+differences, we have invariably observed with 
+other TCRs that the mutations yielding higher 
+affinity in the yeast display system also 
+yielded higher affinity when used as full￾length TCRs transferred into T cells 
+(18,37,50,51). Thus, although not formally 
+tested, we have reason to believe that the 
+mutations of RD1-MARTHIGH TCRs identified 
+in the present work would exhibit binding with 
+enhanced affinities when transferred to the 
+full-length TCR context. 
+In conclusion, deep mutational scans 
+of the entire protein-protein interface provide 
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Engineering protein-protein interactions
+9!
+physical insights into binding, and they will 
+allow improvements in structure-guided in 
+silico analyses. Sequence fitness landscapes 
+also serve as a robust guide for conducting 
+site-specific mutagenesis to enhance affinity.
+In the future one might be able to simply 
+combine all of the top enriched mutations into 
+a single mutant and thus bypass the need for 
+any selections. This might be especially true 
+where the residues are located at different 
+locations in the interface. However, the 
+combinatorial library/selection approach, 
+based on the results of the sequence fitness 
+landscape, yielded an improved mutant
+compared to the single-site mutant strategy.
+Thus, there may still be advantages to using 
+a directed evolution, selection-based strategy 
+for optimizing improvements. 
+EXPERIMENTAL PROCEDURES
+Reagents and Flow cytometry - 
+Procedure for induction of yeast to express 
+single-chain TCRs has been described 
+previously (21). HLA-A2 heavy chain and β2
+microglobulin were expressed as inclusion 
+bodies in Escherichia coli and refolded with a 
+UV-cleavable peptide (KILGFVFJV) (52). At 
+the C-terminus of HLA-A2 heavy chain a 
+biotinylation site was included for addition of 
+biotin with BirA enzyme (Avidity). To 
+exchange peptide, refolded HLA-A2 with UV￾cleavable peptide was incubated with 100-
+fold excess MART1 10mer peptide 
+(ELAGIGILTV) during 45 min of UV￾exposure. 
+Yeast stained with HLA-A2 monomer 
+were incubated with various concentrations of 
+MART1/HLA-A2 monomers (at the lowest 
+concentration, a minimum of 2-fold excess 
+monomer relative to total number of TCRs, 
+estimated to be 50,000 receptors/cell, was 
+used). Cells were washed and stained with 
+streptavidin-PE (1:300) and subsequently 
+analyzed by flow cytometry. To determine 
+binding affinities, the mean fluorescence 
+intensity (MFI) of secondary reagent control 
+was subtracted from the MFI of the yeast 
+cells stained with monomer. Binding 
+constants were calculated using non-linear 
+regression of the binding curve (one site 
+specific binding in Graphpad). Maximum MFI 
+values were either the MFI achieved at the
+highest concentration of monomer (for 
+titrations that had a plateau) or in cases 
+where saturation was not reached, (e.g.
+N28Gβ and K97Qα mutants), maximum MFI 
+values were estimated from the ratio of 
+tetramer binding to a TCR run at the same 
+time which did exhibit a plateau. Titrations 
+were performed a minimum of two times, in 
+completely separate experiments.
+Yeast were additionally stained with 
+anti-HA (1:50) and anti-c-myc (1:100) 
+followed by secondary goat anti-mouse Alexa 
+Fluor 647 (1:100) and goat anti-chicken Alexa 
+Fluor 647 (1:100) respectively. For tetramer 
+stains, yeast were stained with 50 nM 
+MART1/HLA-A2 tetramer for 1.5 h, washed 
+and analyzed by flow cytometry.
+Single-Site Mutants and 
+Combinatorial Library Design - Single-site 
+mutants of the RD1-MART1HIGH TCR in the 
+pCT302 yeast-display vector were created 
+using the QuikChange II Site-Directed 
+Mutagenesis Kit (Agilent Technologies). 
+Identity of mutants was confirmed by 
+sequencing. EBY100 yeast were 
+subsequently transformed using a lithium 
+acetate heat shock protocol (53). A 4-codon 
+combinatorial library of RD1-MART1HIGH
+spanning 4 CDR domains was created by 
+splice overlap extension (SOE) PCR. Pre￾SOE products were created using the 
+following primers: Splice4/L: 5'- GGC AGC 
+CCC ATA AAC ACA CAG TAT -3'; T7 rev: 5'- 
+TAA TAC GAC TCA CTA TAG GG -3'; V50b￾fwd: 5'-TGG GCT TAA GAT TGA TTC ACT 
+ATT CAN NKG GTG TTG GCA TCA CTG 
+ATC A-3'; V50b-rev: 5'-TGA ATA GTG AAT 
+CAA TCT TAA GCC CA-3'; A99b-fwd: 5'-TCC 
+CGT CCG GGT TGG ATG NNK GGG GGG 
+GTG GAA CTG T-3'; A99b-rev: 5'-CAT CCA 
+ACC CGG ACG GGA-3'; G28a-fwd: 5'-GCG 
+TCT TTA AAC TGT ACA TAT TCA GAT AGA 
+NNK AGC ACG TCT TTC TTT TGG TAT C￾3'; G28a-rev: 5'-TCT ATC TGA ATA TGT 
+ACA GTT TAA AGA CGC-3'; T91a-fwd: 5'-
+CAC ATA CTT GTG CGC GGT TNN KAA 
+GTA CTC GTG GGG TAA ACT G-3'; T91a￾rev: 5'-AAC CGC GCA CAA GTA TGT G-3'. 
+Pre-SOE products were combined by SOE 
+PCR using the T7 and Splice 4L primers. 
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Engineering protein-protein interactions
+10
+Libraries were created using homologous 
+recombination in EBY100 yeast as described 
+previously (54). The theoretical diversity of 
+the four-codon library is 324
+, or 1 x 106
+. 
+Based on the number of independent 
+transformants, the estimated size of the 
+combinatorial library was 2 x 107
+, which 
+should provide coverage of all amino acid 
+combinations of the library. The library was 
+sorted three times with MART1/HLA-A2 
+monomer at 50nM, 0.5nM, 0.1nM 
+respectively, collecting the top 1% of 
+fluorescent cells at each sort. After the third 
+sort, eight high-affinity clones were 
+sequenced of which three unique sequences 
+were identified.
+Characterization of binding by surface 
+plasmon resonance – Recombinant single 
+chain S3-2 TCR and MART1/HLA-A2 were 
+generated from bacterially expressed 
+inclusion bodies, refolded, and purified as 
+described (25). Binding analysis was 
+performed at 25 °C using surface plasmon 
+resonance on a Biacore T200 instrument. 150 
+RU of S3-2 TCR was coupled to a CM5 
+sensor surface using standard amine 
+coupling. MART1/HLA-A2 analyte was 
+injected in a series of concentrations at a flow 
+rate of 45 µl/min. Data were corrected for 
+injections over a blank surface, and the 
+responses vs. time fit globally to a 1:1 kinetic 
+binding model using Biacore T200 evaluation 
+software 3.0. 
+Computational prediction of mutations
+- Structural modeling and energetic scoring 
+followed closely the procedures described in
+Riley et al (24). For modeling, Rosetta with 
+the Talaris2013 score function was used (55-
+57), using the PyRosetta interface (58). The 
+crystallographically-absent linker region of the 
+RD1-MART1HIGH structure was constructed 
+and modeled using kinematic loop closure
+(59). Following linker modeling, the entire 
+structure was relaxed through multiple cycles 
+of backbone minimization and rotamer 
+optimization (60). For comparison with the 
+experimental sequence landscapes, 19 
+amino acids were introduced separately into 
+each position, and the mutants plus the wild￾type structures (760 in total) modeled from 
+three, independent, Monte Carlo-based 
+simulated annealing trajectories. Modeling 
+utilized Rosetta’s Loop_Mover_Refine_CCD 
+mover with 3 outer cycles and 10 inner 
+cycles, with an initial metropolis acceptance 
+criterion of 2.2 that decreased linearly to 0.6
+(61). For double and triple mutants, mutations 
+were introduced simultaneously, followed by 
+a minimum of six independent minimization 
+trajectories to account for additional structural 
+impacts. For all models, the large number of 
+packing operations introduced some minor 
+variability when scoring. Therefore, the 
+unweighted score terms for the three 
+trajectories were averaged and stored for 
+calculations (62). 
+Each model was scored in the 
+Rosetta interface with the TR3 score function 
+trained on TCR-specific data (manuscript 
+submitted). TR3 utilizes dynamic information 
+from the wild-type structure as positional 
+modifiers to account for protein flexibility. 
+Accordingly, molecular dynamics simulations 
+were calculated using the AMBER molecular 
+dynamics suite (63). Starting coordinates for 
+the complex used the relaxed structure 
+described above, and the coordinates for the
+free TCR were generated by stripping away 
+the pepMHC. After adding solvent and 
+counter-ions, systems were energy minimized 
+and heated to 300K with solute restraints. 
+Solute restraints were gradually relaxed and 
+followed with 2 ns of simulation with no solute 
+restraints for equilibration, after which 100 ns 
+production trajectories were calculated. 
+Trajectory analysis for determining root mean 
+square fluctuations (RMSF) values used 
+ccptraj from the AMBER suite. The RMSF 
+values were used along with the additional 
+terms of the TR3 function to score each of the 
+760 modeled structures. The scores of the 
+114 wild-type control structures determined 
+the baseline score of 0.92 energy units, 
+where lower scores indicated stronger affinity 
+and higher scores weaker affinity. For double 
+and triple mutants, RMSF descriptors were 
+averaged between the positions for scoring 
+purposes (i.e., for double mutant XY, the 
+RMSF of position X is averaged with the 
+position Y RMSF to give an RMSF descriptor 
+for double XY). Solvent accessible surface 
+areas were calculated using a 1.4 Å probe.
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Engineering protein-protein interactions
+11
+Calculations of protein stability 
+included using structural models to calculate 
+changes in exposed hydrophobic surface 
+area and computing changes in stability using 
+both the Talaris2013 and TR3 score 
+functions. Computing binding probabilities as 
+in Whitehead et al. (14) or by accounting for 
+percent bound ligand using both folding and 
+binding partition functions together did not 
+yield more quantitative insight than simply 
+considering changes in exposed hydrophobic 
+surface area. 
+Acknowledgements: We thank Barbara Pilas and Alvaro Hernandez for assistance with flow 
+cytometry and deep sequencing, respectively, and Cory Ayres for performing molecular 
+dynamics simulations. 
+Conflict of Interests: The authors declare that they have no conflicts of interest with the 
+contents of this article. 
+Author Contributions: DTH, NW, TPR, SDA, and NKS performed experiments and analyzed 
+data. DMK, EP, and BMB conceived and organized the project. DTH, NW, TPR, SDA, NKS, EP,
+BMB, and DMK wrote the manuscript.
+REFERENCES
+1.! Foote,! J.,!and!Eisen,!H.!N.! (2000)! Breaking! the!affinity! ceiling! for!antibodies!and!T! cell!
+receptors.!Proc%Natl%Acad%Sci%U%S%A 97,!10679J10681
+2.! Holler,!P.!D.,!Holman,!P.!O.,!Shusta,!E.!V.,!O'Herrin,!S.,!Wittrup,!K.!D.,!and!Kranz,!D.!M.!
+(2000)! In! vitro! evolution! of! a! T! cell! receptor! with! high! affinity! for! peptide/MHC.! Proc%
+Natl%Acad%Sci%U%S%A 97,!5387J5392
+3.! Li,!Y.,!Moysey,!R.,!Molloy,!P.!E.,!Vuidepot,!A.!L.,!Mahon,!T.,!Baston,!E.,!Dunn,!S.,!Liddy,!N.,!
+Jacob,! J.,! Jakobsen,!B.!K.,!and!Boulter,! J.!M.! (2005)!Directed!evolution!of!human!TJcell!
+receptors!with!picomolar!affinities!by!phage!display.!Nature%biotechnology 23,!349J354
+4.! Huse,! W.! D.,! Sastry,! L.,! Iverson,! S.! A.,! Kang,! A.! S.,! AltingJMees,! M.,! Burton,! D.! R.,!
+Benkovic,!S.!J.,!and!Lerner,!R.!A.!(1989)!Generation!of!a!large!combinatorial!library!of!the!
+immunoglobulin!repertoire!in!phage!lambda![see!comments].!Science 246,!1275J1281
+5.! Hanes,!J.,!and!Pluckthun,!A.!(1997)!In!vitro!selection!and!evolution!of!functional!proteins!
+by!using!ribosome!display.!Proc%Natl%Acad%Sci%U%S%A 94,!4937J4942
+6.! Boder,! E.! T.,! and!Wittrup,! K.! D.! (2000)! Yeast! surface! display! for! directed! evolution! of!
+protein!expression,!affinity,!and!stability.!Methods%in%enzymology 328,!430J444
+7.! Chervin,!A.!S.,!Aggen,!D.!H.,!Raseman,!J.!M.,!and!Kranz,!D.!M.!(2008)!Engineering!higher!
+affinity!T!cell!receptors!using!a!T!cell!display!system.!J%Immunol%Methods 339,!175J184
+8.! Hoogenboom,! H.! R.! (2005)! Selecting! and! screening! recombinant! antibody! libraries.!
+Nature%biotechnology 23,!1105J1116
+9.! Van! Deventer,! J.! A.,! and! Wittrup,! K.! D.! (2014)! Yeast! surface! display! for! antibody!
+isolation:! library! construction,! library! screening,! and! affinity! maturation.! Methods% in%
+molecular%biology%(Clifton,%N.J.) 1131,!151J181
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Engineering protein-protein interactions
+12
+10.! Shultzaberger,!R.! K.,!Malashock,!D.!S.,! Kirsch,! J.!F.,!and!Eisen,!M.!B.! (2010)!The! fitness!
+landscapes!of!cisJacting!binding!sites!in!different!promoter!and!environmental!contexts.!
+PLoS%genetics 6,!e1001042
+11.! Fowler,!D.!M.,!Araya,!C.!L.,!Fleishman,!S.!J.,!Kellogg,!E.!H.,!Stephany,!J.!J.,!Baker,!D.,!and!
+Fields,! S.! (2010)! HighJresolution! mapping! of! protein! sequenceJfunction! relationships.!
+Nature%methods 7,!741J746
+12.! Procko,!E.,!Hedman,!R.,!Hamilton,!K.,!Seetharaman,!J.,!Fleishman,!S.!J.,!Su,!M.,!Aramini,!
+J.,! Kornhaber,! G.,! Hunt,! J.! F.,! Tong,! L.,! Montelione,! G.! T.,! and! Baker,! D.! (2013)!
+Computational!design!of!a!proteinJbased!enzyme!inhibitor.!J%Mol%Biol 425,!3563J3575
+13.! McLaughlin,!R.!N.,!Jr.,!Poelwijk,!F.!J.,!Raman,!A.,!Gosal,!W.!S.,!and!Ranganathan,!R.!(2012)!
+The!spatial!architecture!of!protein!function!and!adaptation.!Nature 491,!138J142
+14.! Whitehead,! T.! A.,! Chevalier,! A.,! Song,! Y.,! Dreyfus,! C.,! Fleishman,! S.! J.,! De! Mattos,! C.,!
+Myers,!C.!A.,!Kamisetty,!H.,!Blair,!P.,!Wilson,!I.!A.,!and!Baker,!D.!(2012)!Optimization!of!
+affinity,!specificity!and!function!of!designed!influenza!inhibitors!using!deep!sequencing.!
+Nature%biotechnology 30,!543J548
+15.! Schreiber,! G.,! and! Fleishman,! S.! J.! (2013)! Computational! design! of! proteinJprotein!
+interactions.!Current%opinion%in%structural%biology 23,!903J910
+16.! Das,!R.!(2011)!Four!small!puzzles!that!Rosetta!doesn't!solve.!PLoS%One 6,!e20044
+17.! Holler,!P.!D.,!Chlewicki,!L.!K.,!and!Kranz,!D.!M.!(2003)!TCRs!with!high!affinity!for!foreign!
+pMHC!show!selfJreactivity.!Nat%Immunol 4,!55J62
+18.! Weber,!K.!S.,!Donermeyer,!D.!L.,!Allen,!P.!M.,!and!Kranz,!D.!M.!(2005)!Class!IIJrestricted!T!
+cell! receptor! engineered! in! vitro! for! higher! affinity! retains! peptide! specificity! and!
+function.!Proc%Natl%Acad%Sci%U%S%A 102,!19033J19038
+19.! Aggen,!D.!H.,!Chervin,!A.!S.,!Insaidoo,!F.!K.,!Piepenbrink,!K.,!H.,!Baker,!B.!M.,!and!Kranz,!
+D.! M.! (2011)! Identification! and! engineering! of! human! variable! regions! that! allow!
+expression! of! stable! singleJchain! T! cell! receptors.! Protein% Engineering,% Design,% &%
+Selection 24,!361J372
+20.! Smith,!S.!N.,!Sommermeyer,!D.,! Piepenbrink,! K.!H.,! Blevins,!S.! J.,! Bernhard,!H.,!Uckert,!
+W.,!Baker,!B.!M.,!and!Kranz,!D.!M.!(2013)!Plasticity!in!the!Contribution!of!T!Cell!Receptor!
+Variable!Region!Residues!to!Binding!of!PeptideJHLAJA2!Complexes.!J%Mol%Biol 425,!4496J
+4507
+21.! Smith,!S.!N.,!Wang,!Y.,!Baylon,!J.!L.,!Singh,!N.!K.,!Baker,!B.!M.,!Tajkhorshid,!E.,!and!Kranz,!
+D.! M.! (2014)! Changing! the! peptide! specificity! of! a! human! TJcell! receptor! by! directed!
+evolution.!Nature%communications 5,!5223
+22.! Schmitt,!T.!M.,!Aggen,!D.!H.,!Stromnes,!I.!M.,!Dossett,!M.!L.,!Richman,!S.!A.,!Kranz,!D.!M.,!
+and! Greenberg,! P.! D.! (2013)! EnhancedJaffinity! murine! TJcell! receptors! for! tumor/selfJ
+antigens! can! be! safe! in! gene! therapy! despite! surpassing! the! threshold! for! thymic!
+selection.!Blood 122,!348J356
+23.! Pierce,!B.!G.,!Hellman,!L.!M.,!Hossain,!M.,!Singh,!N.!K.,!Vander!Kooi,!C.!W.,!Weng,!Z.,!and!
+Baker,!B.!M.!(2014)!Computational!design!of!the!affinity!and!specificity!of!a!therapeutic!
+T!cell!receptor.!PLoS%Comput%Biol 10,!e1003478
+24.! Riley,! T.! P.,! Ayres,! C.! M.,! Hellman,! L.! M.,! Singh,! N.! K.,! Cosiano,! M.,! Cimons,! J.! M.,!
+Anderson,!M.! J.,! Piepenbrink,! K.!H.,! Pierce,! B.!G.,!Weng,!Z.,!and! Baker,! B.!M.! (2016)!A!
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Engineering protein-protein interactions
+13
+generalized! framework! for! computational! design! and! mutational! scanning! of! T! cell!
+receptor!binding!interfaces.!Protein%Eng%Des%Sel In-Press
+25.! Harris,!D.!T.,!Singh,!N.!K.,!Cai,!Q.,!Smith,!S.!N.,!Vander!Kooi,!C.!W.,!Procko,!E.,!Kranz,!D.!
+M.,!and!Baker,!B.!M.!(2016)!An!Engineered!Switch!in!T!Cell!Receptor!Specificity!Leads!to!
+an! Unusual! but! Functional! Binding! Geometry.! Structure% (London,% England% :% 1993) 24,!
+1142J1154
+26.! Araya,! C.! L.,! and! Fowler,! D.! M.! (2011)! Deep! mutational! scanning:! assessing! protein!
+function!on!a!massive!scale.!Trends%in%biotechnology 29,!435J442
+27.! Riley,!T.!P.,!Singh,!N.!K.,!Pierce,!B.!G.,!Weng,!Z.,!and!Baker,!B.!M.!(2016)!Computational!
+Modeling! of! T! Cell! Receptor! Complexes.! Methods% in% molecular% biology% (Clifton,% N.J.)
+1414,!319J340
+28.! Feldhaus,!M.,!Siegel,!R.,!Opresko,!L.,!Coleman,!J.!R.,!WeaverJFeldhaus,!J.!M.,!Yeung,!Y.!A.,!
+Cochran,!J.!R.,!Heinzelman,!P.,!Colby,!D.,!Swers,!J.,!Graff,!C.,!Wiley,!H.!S.,!and!Wittrup,!K.!
+D.! (2003)! FlowJcytometric! isolation! of! human! antibodies! from! a! nonimmune!
+Saccharomyces%cerevisiae!surface!display!library.!Nature%biotechnology 21,!163J170
+29.! Kieke,!M.!C.,!Sundberg,!E.,!Shusta,!E.!V.,!Mariuzza,!R.!A.,!Wittrup,!K.!D.,!and!Kranz,!D.!M.!
+(2001)!High!affinity!T!cell!receptors!from!yeast!display!libraries!block!T!cell!activation!by!
+superantigens.!J%Mol%Biol 307,!1305J1315.
+30.! Kieke,!M.!C.,!Shusta,!E.!V.,!Boder,!E.!T.,!Teyton,!L.,!Wittrup,!K.!D.,!and!Kranz,!D.!M.!(1999)!
+Selection!of!functional!T!cell!receptor!mutants!from!a!yeast!surfaceJ!display!library.!Proc%
+Natl%Acad%Sci%U%S%A 96,!5651J5656
+31.! Shusta,! E.! V.,! Kieke,! M.! C.,! Parke,! E.,! Kranz,! D.! M.,! and! Wittrup,! K.! D.! (1999)! Yeast!
+polypeptide!fusion!surface!display!levels!predict!thermal!stability!and!soluble!secretion!
+efficiency.!J.%Mol.%Biol. 292,!949J956
+32.! Orr,!B.!A.,!Carr,!L.!M.,!Wittrup,!K.!D.,!Roy,!E.!J.,!and!Kranz,!D.!M.!(2003)!Rapid!Method!for!
+Measuring!ScFv!Thermal!Stability!by!Yeast!Surface!Display.!Biotechnol%Prog 19,!631J638
+33.! Starwalt,! S.! E.,! Masteller,! E.! L.,! Bluestone,! J.! A.,! and! Kranz,! D.! M.! (2003)! Directed!
+evolution!of!a! singleJchain!class!II!MHC!product!by!yeast!display.!Protein%Eng 16,! 147J
+156
+34.! Jones,! L.! L.,! Brophy,! S.!E.,! Bankovich,! A.! J.,! Colf,! L.! A.,!Hanick,!N.! A.,!Garcia,! K.! C.,!and!
+Kranz,! D.! M.! (2006)! Engineering! and! characterization! of! a! stabilized! alpha1/alpha2!
+module! of! the! class! I! major! histocompatibility! complex! product! Ld.! J% Biol% Chem 281,!
+25734J25744
+35.! Traxlmayr,! M.! W.,! Hasenhindl,! C.,! Hackl,! M.,! Stadlmayr,! G.,! Rybka,! J.! D.,! Borth,! N.,!
+Grillari,!J.,!Ruker,!F.,!and!Obinger,!C.!(2012)!Construction!of!a!stability!landscape!of!the!
+CH3! domain! of! human! IgG1! by! combining! directed! evolution! with! high! throughput!
+sequencing. J%Mol%Biol 423,!397J412
+36.! Traxlmayr,!M.!W.,!and!Obinger,! C.! (2012)!Directed!evolution! of! proteins! for! increased!
+stability!and!expression!using!yeast!display.!Archives%of%biochemistry%and%biophysics 526,!
+174J180
+37.! Stone,!J.!D.,!Artyomov,!M.!N.,!Chervin,!A.!S.,!Chakraborty,!A.!K.,!Eisen,!H.!N.,!and!Kranz,!
+D.!M.!(2011)!Interaction!of!streptavidinJbased!peptideJMHC!oligomers!(tetramers)!with!
+cellJsurface!TCRs.!J%Immunol 187,!6281J6290
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Engineering protein-protein interactions
+14
+38.! Park,!S.,!Xu,!Y.,!Stowell,!X.!F.,!Gai,!F.,!Saven,!J.!G.,!and!Boder,!E.!T.!(2006)!Limitations!of!
+yeast!surface!display!in!engineering!proteins!of!high!thermostability.!Protein%Eng%Des%Sel
+19,!211J217
+39.! Riley,!T.!P.,!Singh,!N.!K.,!Pierce,!B.!G.,!Baker,!B.!M.,!and!Weng,!Z.!(2016)!Computational!
+Reprogramming! of! T! Cell! Antigen! Receptor! Binding! Properties.! Methods% in% molecular%
+biology%(Clifton,%N.J.) 1414,!305J318
+40.! Chothia,!C.!(1974)!Hydrophobic!bonding!and!accessible!surface!area!in!proteins.!Nature
+248,!338J339
+41.! Reynolds,! J.! A.,! Gilbert,! D.! B.,! and! Tanford,! C.! (1974)! Empirical! correlation! between!
+hydrophobic!free!energy!and!aqueous!cavity!surface!area.!Proc%Natl%Acad%Sci%U%S%A 71,!
+2925J2927
+42.! Thiltgen,! G.,! and! Goldstein,! R.! A.! (2012)! Assessing! predictors! of! changes! in! protein!
+stability!upon!mutation!using!selfJconsistency.!PLoS%One 7,!e46084
+43.! Baker,! D.,! and! Agard,! D.! A.! (1994)! Kinetics! versus! thermodynamics! in! protein! folding.!
+Biochemistry 33,!7505J7509
+44.! Honegger,! A.,! Malebranche,! A.! D.,! Rothlisberger,! D.,! and! Pluckthun,! A.! (2009)! The!
+influence! of! the! framework! core! residues! on! the! biophysical! properties! of!
+immunoglobulin!heavy!chain!variable!domains.!Protein%Eng%Des%Sel 22,!121J134
+45.! Miller,!B.!R.,!Demarest,!S.!J.,!Lugovskoy,!A.,!Huang,!F.,!Wu,!X.,!Snyder,!W.!B.,!Croner,!L.!J.,!
+Wang,!N.,!Amatucci,!A.,!Michaelson,!J.!S.,!and!Glaser,!S.!M.!(2010)!Stability!engineering!
+of!scFvs! for! the!development!of!bispecific!and!multivalent!antibodies.!Protein%Eng%Des%
+Sel 23,!549J557
+46.! Nielsen,! J.!E.,!Gunner,!M.! R.,! and!GarciaJMoreno,! B.!E.! (2011)!The! pKa! Cooperative:! a!
+collaborative! effort! to! advance! structureJbased! calculations! of! pKa! values! and!
+electrostatic!effects!in!proteins.!Proteins 79,!3249J3259
+47.! Li,!Z.,!Yang,!Y.,!Zhan,!J.,!Dai,!L.,!and!Zhou,!Y.!(2013)!Energy!functions!in!de!novo!protein!
+design:! current! challenges! and! future! prospects.!Annual% review% of% biophysics 42,! 315J
+335
+48.! Fleishman,!S.!J.,!Whitehead,!T.!A.,!Strauch,!E.!M.,!Corn,!J.!E.,!Qin,!S.,!Zhou,!H.!X.,!Mitchell,!
+J.!C.,!Demerdash,!O.!N.,!TakedaJShitaka,!M.,!Terashi,!G.,!Moal,!I.!H.,!Li,!X.,!Bates,!P.!A.,!
+Zacharias,!M.,!Park,!H.,!Ko,!J.!S.,!Lee,!H.,!Seok,!C.,!Bourquard,!T.,!Bernauer,!J.,!Poupon,!A.,!
+Aze,! J.,!Soner,!S.,!Ovali,!S.!K.,!Ozbek,!P.,!Tal,!N.!B.,!Haliloglu,!T.,!Hwang,!H.,!Vreven,!T.,!
+Pierce,!B.!G.,!Weng,!Z.,!PerezJCano,!L.,!Pons,!C.,!FernandezJRecio,! J.,! Jiang,!F.,!Yang,!F.,!
+Gong,!X.,!Cao,!L.,!Xu,!X.,!Liu,!B.,!Wang,!P.,!Li,!C.,!Wang,!C.,!Robert,!C.!H.,!Guharoy,!M.,!Liu,!
+S.,!Huang,!Y.,!Li,!L.,!Guo,!D.,!Chen,!Y.,!Xiao,!Y.,!London,!N.,!Itzhaki,!Z.,!SchuelerJFurman,!
+O.,!Inbar,!Y.,!Potapov,!V.,!Cohen,!M.,!Schreiber,!G.,!Tsuchiya,!Y.,!Kanamori,!E.,!Standley,!
+D.!M.,!Nakamura,!H.,!Kinoshita,!K.,!Driggers,!C.!M.,!Hall,!R.!G.,!Morgan,!J.!L.,!Hsu,!V.!L.,!
+Zhan,! J.,! Yang,! Y.,! Zhou,! Y.,! Kastritis,! P.! L.,! Bonvin,! A.! M.,! Zhang,! W.,! Camacho,! C.! J.,!
+Kilambi,! K.! P.,! Sircar,! A.,! Gray,! J.! J.,! Ohue,! M.,! Uchikoga,! N.,! Matsuzaki,! Y.,! Ishida,! T.,!
+Akiyama,! Y.,! Khashan,! R.,! Bush,! S.,! Fouches,! D.,! Tropsha,! A.,! EsquivelJRodriguez,! J.,!
+Kihara,! D.,! Stranges,! P.! B.,! Jacak,! R.,! Kuhlman,! B.,! Huang,! S.! Y.,! Zou,! X.,! Wodak,! S.! J.,!
+Janin,! J.,! and! Baker,! D.! (2011)! CommunityJwide! assessment! of! proteinJinterface!
+modeling!suggests!improvements!to!design!methodology.!J%Mol%Biol 414,!289J302
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Engineering protein-protein interactions
+15
+49.! Stranges,! P.! B.,! and! Kuhlman,! B.! (2013)! A! comparison! of! successful! and! failed! protein!
+interface!designs!highlights!the!challenges!of!designing!buried!hydrogen!bonds.!Protein%
+science%:%a%publication%of%the%Protein%Society 22,!74J82
+50.! Holler,! P.! D.,! and! Kranz,! D.! M.! (2003)! Quantitative! analysis! of! the! contribution! of!
+TCR/pepMHC!affinity!and!CD8!to!T!cell!activation.!Immunity 18,!255J264
+51.! Chervin,!A.!S.,!Stone,! J.!D.,!Holler,!P.!D.,!Bai,!A.,!Chen,! J.,!Eisen,!H.!N.,!and!Kranz,!D.!M.!
+(2009)!The!impact!of!TCRJbinding!properties!and!antigen!presentation!format!on!T!cell!
+responsiveness.!J%Immunol 183,!1166J1178
+52.! Rodenko,!B.,!Toebes,!M.,!Hadrup,!S.!R.,!van!Esch,!W.!J.,!Molenaar,!A.!M.,!Schumacher,!T.!
+N.,! and! Ovaa,! H.! (2006)! Generation! of! peptideJMHC! class! I! complexes! through! UVJ
+mediated!ligand!exchange.!Nat%Protoc 1,!1120J1132
+53.! Gietz,!R.!D.,!and!Woods,!R.!A.!(2002)!Transformation!of!yeast!by!lithium!acetate/singleJ
+stranded!carrier!DNA/polyethylene!glycol!method.!Methods%in%enzymology 350,!87J96
+54.! Smith,! S.! N.,! Harris,! D.! T.,! and! Kranz,! D.! M.! (2015)! T! Cell! Receptor! Engineering! and!
+Analysis! Using! the! Yeast! Display! Platform.!Methods% in%molecular% biology% (Clifton,%N.J.)
+1319,!95J141
+55.! Kaufmann,! K.! W.,! Lemmon,! G.! H.,! Deluca,! S.! L.,! Sheehan,! J.! H.,! and! Meiler,! J.! (2010)!
+Practically!useful:!what!the!Rosetta!protein!modeling!suite!can!do!for!you.!Biochemistry
+49,!2987J2998
+56.! LeaverJFay,!A.,!O'Meara,!M.!J.,!Tyka,!M.,!Jacak,!R.,!Song,!Y.,!Kellogg,!E.!H.,!Thompson,!J.,!
+Davis,!I.!W.,!Pache,!R.!A.,!Lyskov,!S.,!Gray,!J.!J.,!Kortemme,!T.,!Richardson,!J.!S.,!Havranek,!
+J.! J.,! Snoeyink,! J.,! Baker,! D.,! and! Kuhlman,! B.! (2013)! Scientific! benchmarks! for! guiding!
+macromolecular!energy!function!improvement.!Methods%in%enzymology 523,!109J143
+57.! Moretti,! R.,! Fleishman,! S.! J.,! Agius,! R.,! Torchala,! M.,! Bates,! P.! A.,! Kastritis,! P.! L.,!
+Rodrigues,! J.!P.,!Trellet,!M.,!Bonvin,!A.!M.,!Cui,!M.,!Rooman,!M.,!Gillis,!D.,!Dehouck,!Y.,!
+Moal,!I.,!RomeroJDurana,!M.,!PerezJCano,!L.,!Pallara,!C.,!Jimenez,!B.,!FernandezJRecio,!J.,!
+Flores,!S.,!Pacella,!M.,!Praneeth!Kilambi,!K.,!Gray,!J.!J.,!Popov,!P.,!Grudinin,!S.,!EsquivelJ
+Rodriguez,! J.,!Kihara,!D.,!Zhao,!N.,!Korkin,!D.,!Zhu,!X.,!Demerdash,!O.!N.,!Mitchell,! J.!C.,!
+Kanamori,!E.,!Tsuchiya,!Y.,!Nakamura,!H.,!Lee,!H.,!Park,!H.,!Seok,!C.,!Sarmiento,!J.,!Liang,!
+S.,! Teraguchi,! S.,! Standley,! D.! M.,! Shimoyama,! H.,! Terashi,! G.,! TakedaJShitaka,! M.,!
+Iwadate,!M.,!Umeyama,!H.,!Beglov,!D.,!Hall,!D.!R.,!Kozakov,!D.,!Vajda,!S.,!Pierce,!B.!G.,!
+Hwang,! H.,! Vreven,! T.,! Weng,! Z.,! Huang,! Y.,! Li,! H.,! Yang,! X.,! Ji,! X.,! Liu,! S.,! Xiao,! Y.,!
+Zacharias,!M.,!Qin,!S.,!Zhou,!H.!X.,!Huang,!S.!Y.,!Zou,!X.,!Velankar,!S.,!Janin,!J.,!Wodak,!S.!
+J.,!and!Baker,!D.!(2013)!CommunityJwide!evaluation!of!methods!for!predicting!the!effect!
+of!mutations!on!proteinJprotein!interactions.!Proteins 81,!1980J1987
+58.! Chaudhury,!S.,! Lyskov,!S.,!and!Gray,! J.! J.! (2010)! PyRosetta:!a! scriptJbased!interface! for!
+implementing! molecular! modeling! algorithms! using! Rosetta.! Bioinformatics% (Oxford,%
+England) 26,!689J691
+59.! Mandell,! D.! J.,! Coutsias,! E.! A.,! and! Kortemme,! T.! (2009)! SubJangstrom! accuracy! in!
+protein! loop! reconstruction! by! roboticsJinspired! conformational! sampling.! Nature%
+methods 6,!551J552
+60.! Bradley,! P.,! Misura,! K.! M.,! and! Baker,! D.! (2005)! Toward! highJresolution! de! novo!
+structure!prediction!for!small!proteins.!Science 309,!1868J1871
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Engineering protein-protein interactions
+16
+61.! Canutescu,! A.! A.,! and! Dunbrack,! R.! L.,! Jr.! (2003)! Cyclic! coordinate! descent:! A! robotics!
+algorithm!for!protein!loop!closure.!Protein%science%:%a%publication%of%the%Protein%Society
+12,!963J972
+62. Kellogg,!E.!H.,! LeaverJFay,!A.,!and!Baker,!D.! (2011)!Role! of! conformational! sampling!in!
+computing! mutationJinduced! changes! in! protein! structure! and! stability.! Proteins 79,!
+830J838
+63.! Gotz,!A.!W.,!Williamson,!M.! J.,!Xu,!D.,!Poole,!D.,!Le!Grand,!S.,!and!Walker,!R.!C.!(2012)!
+Routine! Microsecond! Molecular! Dynamics! Simulations! with! AMBER! on! GPUs.! 1.!
+Generalized!Born.!Journal%of%chemical%theory%and%computation 8,!1542J1555
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Engineering protein-protein interactions
+17
+FOOTNOTES
+This work was supported by NIH grants CA178844 and CA187592 to DMK, GM118166 to BMB, 
+and CA180723 to DTH. TPR is supported by a fellowship from the Indiana CTSI, funded in part 
+by NIH grant UL1TR001108. The content is solely the responsibility of the authors and does not 
+necessarily represent the official views of the National Institutes of Health.
+The abbreviations used are: TCR, T cell receptor; pepMHC, peptide MHC; HA, hemagglutinin; 
+CDR, complementarity determining regions; FACS, fluorescence activated cell sorting; MHC, 
+major histocompatibility complex; RU, resonance units; scFv, single-chain fragment variable; 
+SPR, surface plasmon resonance
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Engineering protein-protein interactions
+18
+Table 1- Affinity and MFIMAX ratios of RD1-MART1HIGH mutations identified from sequence 
+fitness landscape. The affinities of RD1-MART1HIGH and its mutants are indicated, based on 
+the average values determined from two or more titrations (n) for each TCR, with monomeric 
+MART1/HLA-A2. MFIMAX ratio is the ratio of mean fluorescence units (MFI) from staining 
+mutants with either a high concentration of MART1/HLA-A2 tetramer or the highest 
+concentration of monomer, both relative to MFI from RD1-MART1HIGH. N/D, not determined.
+TCR n=
+KD Average 
+(nM)
+KD Standard 
+Deviation
+MFIMAX Ratio 
+(Tetramer)
+MFIMAX Ratio 
+(Monomer)
+RD1-MART1HIGH 5 137 26 1 1 
+G28Eα 2 61 27 1.2 1.1
+T91Qα 3 52 23 1.6 1.7
+V50Dβ 2 66 32 0.8 0.95
+A99Yβ 2 30 8 0.7 0.9
+Y50Wα 3 76 21 0.4 0.5
+N28Gβ 2 218 56 1.5 1.7
+S51Gα 2 129 55 0.5 0.6
+K97Qα 2 188 54 1.3 1.4
+A99Wβ 2 N/D - 0.6 N/D
+S94Mα 2 N/D - 0.4 N/D
+G28Wα 2 N/D - 0.3 N/D
+G28Fα 2 N/D - 0.5 N/D
+G28Eα/T91Qα 2 10 3 5.3 5.4
+G28Eα/V50Dβ 2 18 8 4 4.1
+G28Eα/A99Yβ 2 15 3 2.6 3.4
+T91Qα/A99Yβ 2 16 14 3.5 4.3
+G28Eα/T91Qα/A99Yβ 4 2.1 2.5 3.2 4.3
+S3-2 4 0.7 0.3 5.5 6.2
+S3-7 3 1.6 0.5 4.1 4.4
+S3-8 3 1.3 1.2 3.2 4.2
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Engineering protein-protein interactions
+19
+TABLE 2. Amino acid residues at selected CDR positions of RD1-MART1HIGH TCR 
+mutants. The wild-type RD1-MART1HIGH sequence at the 28α, 91α, 50β and 99β CDR residues 
+is indicated. Mutants created based on the sequence fitness landscape and mutations of clones 
+isolated from the combinatorial library are shown. Residues that differ from wild-type are bolded.
+ TCR Position
+TCR 28α 91α 50β 99β
+RD1-MART1HIGH G T V A
+G28Eα E T V A
+T91Qα G Q V A
+V50Dβ G T D A
+A99Yβ G T V Y
+G28Eα/T91Qα E Q V A
+G28Eα/V50Dβ E T D A
+G28Eα/A99Yβ E T V Y
+T91Qα/A99Yβ G Q V Y
+G28Eα/T91Qα/A99Yβ E Q V Y
+S3-2 R Q E D
+S3-7 E Q D E
+S3-8 R Q E V
+ 
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Engineering protein-protein interactions
+20
+FIGURE LEGENDS
+FIGURE 1. Methods for identifying affinity-enhancing mutations of RD1-MART1HIGH. (A) 
+Schematic of the single-chain TCR (scTCR) of RD1-MART1HIGH with HA and c-myc tags at N￾terminus and C-terminus respectively. (B) Diagram of steps used in different methods for 
+identifying affinity-enhancing mutations of RD1-MART1HIGH. (C) Rank-ordered mutations from 
+the RD1-MART1HIGH sequence fitness landscape with enrichment scores ≥ 10 are shown with 
+their respective enrichment value. Mutations tested for binding by yeast-display are indicated 
+with a red arrow. 
+FIGURE 2. Structure of RD1-MART1HIGH TCR:MART1/HLA-A2 complex and models for 
+affinity-enhancing mutations. (A) View of the the TCR:MART1/HLA-A2 complex with the four 
+CDR residues with the highest enrichments values are highlighted in yellow. (B) Close up view 
+of V50β (left) and the modeled D50β structure (right). D50β is predicted to introduce a long 
+range electrostatic interaction with R65 of the HLA-A2 α1 helix. (C) Close up view of T91α (left) 
+and the modeled Q91α structure (right). Q91α is predicted to form an electrostatic interaction 
+with R94β of the neighboring CDR3β loop as well as form an intraloop hydrogen bond with the 
+backbone of Y93α. Both could stabilize the loop in a binding-competent conformation. (D) Close 
+up view of A99β (left) and the modeled Y99β structure (right). Y99β is predicted to pack against 
+T9 of the peptide and V76 of the HLA-A2 α helix. (E) Close up view of G28α (left) and the 
+modeled E28α structure (right). E28α is predicted to interact with W167 of the HLA-A2 α2 helix.
+FIGURE 3. Flow cytometry staining histograms of RD1-MART1HIGH mutants identified from 
+sequence fitness landscape. (A) The RD1-MART1HIGH TCR, four single mutants (G28Eα, 
+T91Qα, V50Dβ, A99Yβ), and one triple mutant (G28Eα/T91Qα/A99Yβ) were stained with 
+various concentrations of MART1/HLA-A2 monomer at concentrations ranging from 1 µM to 8 
+nM (1 µM black, 500 nM blue, 125 nM green, 31 nM purple, 15 nM teal, 8 nM gray). (B) Double 
+mutants of RD1-MART1HIGH (G28Eα/T91Qα, G28Eα/V50Dβ, G28Eα/A99Yβ, and 
+T91Qα/A99Yβ) were stained with various concentrations of MART1/HLA-A2 monomer from 250 
+nM to .2 nM (250 nM black, 125 nM blue, 62.5 nM purple, 31.25 nM green, 15.125 nM yellow, 
+7.56 nM maroon, 3.8 nM teal, 1.9 nM silver, 950 pM navy, 470 nM lime, 235 pM black, 120 pM 
+red). 
+FIGURE 4. Titrations of mutants of RD1-MART1HIGH identified from the sequence fitness 
+landscape. (A)(B) Mean fluorescence intensity (MFI) of the indicated mutants were plotted 
+against concentration of MART1/HLA-A2 monomer. (C) The enrichment values of RD1-
+MART1HIGH and the indicated mutants were plotted against the calculated binding disassociation 
+constant (affinity, in nanomolar) from titrations with yeast and MART1/HLA-A2 monomer. Error 
+bars are indicative of the range of maximum and minimum values from multiple titrations (RD1-
+MART1HIGH; n=5, T91Qα, Y50Wα; n=3, N28Gβ, S51Gα, K97Qα, G28Eα, V50Dβ, A99Yβ; n=2). 
+Binding constants were calculated using non-linear regression of the binding curve (one site 
+specific binding in Graphpad) based on the highest concentrations of pepMHC as an estimate 
+for maximum MFI. For the N28Gβ and K97Qα mutants, a maximum MFI could not be 
+determined strictly from pepMHC monomer staining, therefore maximum MFI was estimated
+based on the ratio of tetramer binding to A99Yβ, for which a maximum MFI was reached with
+monomer. Inset: a plot of the ΔΔG values calculated for each mutant relative to the wild type 
+RD1-MART1HIGH interaction, versus enrichment value. Dashed line shows a linear regression to 
+the data. The correlation coefficient (R) is -0.82.
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Engineering protein-protein interactions
+21
+FIGURE 5. Titrations of RD1-MART1HIGH high-affinity clones isolated from a combinatorial 
+library. (A) The combinatorial library of RD1-MART1HIGH and the subsequent sorted libraries 
+were stained with MART1/HLA-A2 monomer at concentrations ranging from 167 nM to 25 pM 
+(167 nM blue, 19 nM green, 6 nM yellow, 2 nM red, 700 pM teal, 200 pM gray, 100 pM navy, 25 
+pM lime). (B) The G28Eα/T91Qα/A99Yβ mutant identified from the sequence fitness landscape 
+and the three clones isolated from a combinatorial library were titrated with MART1/HLA-A2 
+monomer at concentrations ranging from 167 nM to 25 pM. (C) The mean fluorescence intensity 
+(MFI) of the indicated mutants was plotted against concentration of MART1/HLA-A2 monomer. 
+(D) Surface plasmon resonance kinetic analysis of the interaction between the S3-2 variant and 
+MART1/HLA-A2. Red lines show response vs. time; black lines are from a global 1:1 fit to the 
+data. Injected concentrations ranged from 0.3 nM to 8 nM. kon was determined as 9.3x105
+ M-1 s-1 
+and koff as 2.0x10-3 s-1, yielding a KD of 2.2 nM. 
+FIGURE 6. In silico modeling of the RD1-MART1HIGH deep mutational scan. (A) Predicted 
+binding scores for each mutation in the deep mutational scan vs. experimental enrichment score 
+(see ref. (25) for definition of enrichment scores). The horizontal dashed line indicates a binding 
+score of 0.92, above which binding is predicted to be weaker compared to wild type, and below 
+which binding is predicted to be stronger. The majority of the negatively enriched mutants are 
+predicted to bind weaker, but there are many mutants predicted to bind stronger that are also 
+negatively enriched. The four highest enriched mutants are indicated in red and noted on the 
+plot. Four mutants that were examined further in Fig. 7 are highlighted in green. (B) Of the 
+amino acids with enrichment ratios ≥1, 68% are predicted to have reduced solvent exposed 
+hydrophobic surface. In contrast, for those residues with enrichment ratios ≤1, 66% are 
+predicted to have increases in exposed hydrophobic surface. (C) Prediction score vs. 
+enrichment score with each data point colored by the predicted change in hydrophobic solvent 
+accessible surface area. 
+FIGURE 7. Monomer MART1/HLA-A2 titrations of RD1-MART1HIGH mutants identified from 
+computational approach. (A) Single mutants of RD1-MART1HIGH (A99Wβ, S94Mα, G28Fα, 
+and G28Wα) were stained with various concentrations of MART1/HLA-A2 monomer from 1 mM 
+to 4 nM (1 mM black, 500 nM blue, 250 nM purple, 125 nM green, 32 nM maroon, 4 nM navy). 
+(B) Mean fluorescence units (MFI) of RD1-MART1HIGH single mutants were plotted against 
+concentration of MART1/HLA-A2 monomer. 
+FIGURE 8. Prediction scores versus measured ΔΔG for each of the experimentally 
+studied RD1-MART1HIGH mutants. (A) When including all single, double and triple mutants 
+examined, the correlation coefficient (R) was 0.68. (B) As in panel A, but with the two mutants 
+that are more distant (N28Gβ and K97Qα) excluded from the comparison; the correlation 
+coefficient (R) was 0.87.
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Sequence Fitness Landscape 
+Test single site mutants 
+of highest enriched 
+substitutions 
+Combine highest affinity 
+mutants 
+Create combinatorial 
+library at highest 
+enriched positions 
+Sort yeast multiple 
+times with low 
+concentrations of ligand 
+Identify highest affinity 
+clones and sequence 
+A HA Vβ13 Linker Vα2 c-myc
+B 
+Figure 1 
+C 
+Identify highest affinity 
+combined clones 
+Enrichment 
+51
+39 38
+31 30 29
+25 24 23 23
+19 18 16 16 16 15 14 13 13 12 12 10
+0
+10
+20
+30
+40
+50
+60
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Figure 2 
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from RD1-MART1-HIGH MART1/HLA-A2 Stain
+FL2-A
+Count
+102 103 104
+0
+42
+85
+127
+169
+V50D MART1/HLA-A2 Stain
+FL2-A
+Count
+102 103 104 105
+0
+38
+76
+113
+151
+G28E MART1/HLA-A2 Stain
+FL2-A
+Count
+102 103 104 105
+0
+38
+77
+115
+153
+A99Y MART1/HLA-A2 Stain
+FL2-A
+Count
+102 103 104 105
+0
+40
+80
+120
+160
+T91Q MART1/HLA-A2 Stain
+FL2-A
+Count
+102 103 104 105
+0
+38
+76
+113
+151
+RD1-MART1-HIGH MART1/HLA-A2 Stain
+FL2-A
+Count
+102 103 104
+0
+34
+68
+101
+135
+RD1-MART1HIGH G28Eα
+T91Qα
+V50Dβ A99Yβ
+G28Eα/T91Qα/A99Yβ
+Figure 3 
+A 
+B 
+G28E + A99Y
+FL2-A
+Count
+102 103 104 105
+0
+42
+84
+126
+168
+G28E + V50D
+FL2-A
+Count
+102 103 104 105
+0
+49
+98
+146
+195
+A99Y + T91Q
+FL2-A
+Count
+102 103 104 105
+0
+42
+84
+125
+167
+G28E + T91Q
+FL2-A
+Count
+102 103 104 105
+0
+39
+78
+117
+156
+G28Eα/T91Qα G28Eα/V50Dβ
+G28Eα/A99Yβ T91Qα/A99Yβ
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from RD1-MART1HIGH
+G28Eα/T91Qα
+G28Eα/A99Yβ
+G28Eα/V50Dβ
+T91Qα/A99Yβ
+A 
+B 
+Figure 4 
+RD1-MART1HIGH
+G28Eα
+T91Qα
+V50Dβ
+A99Yβ
+G28Eα/T91Qα/A99Yβ
+C 
+0 
+50 
+100 
+150 
+200 
+250 
+300 
+0 10 20 30 40 50 60 
+RD1 
+Enrichment 
+Affinity 
+Y50Wα
+S51Gα
+K97Qα
+N28Gβ
+G28Eα V50Dβ
+A99Yβ
+T91Qα
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Figure 5 
+Sort 1
+FL2-A
+Count
+10
+2 10
+3 10
+4 10
+5
+0
+30
+61
+91
+121
+Sort 2
+FL4-A
+Count
+10
+2 10
+3 10
+4 10
+5
+0
+25
+49
+74
+98
+Sort 3
+FL4-A
+Count
+10
+2 10
+3 10
+4 10
+5
+0
+22
+43
+65
+86
+Unsorted
+FL2-A
+Count
+10
+2 10
+3 10
+4 10
+5
+0
+36
+71
+107
+142
+RD1-MART1HIGH
+Library 
+Sort #1 
+Sort #2 
+Sort #3 
+S3-8
+FL2-A
+Count
+10
+2 10
+3 10
+4 10
+5
+0
+20
+41
+61
+81
+Triple
+FL2-A
+Count
+10
+2 10
+3 10
+4 10
+5
+0
+22
+45
+67
+89
+S3-2
+FL2-A
+Count
+10
+2 10
+3 10
+4 10
+5
+0
+44
+89
+133
+177
+S3-7
+FL2-A
+Count
+10
+2 10
+3 10
+4 10
+5
+0
+24
+48
+72
+96
+G28E
+α/T91Q
+α/ 
+A99Y
+β
+S3-2
+S3-7
+S3-8
+MART1/HLA-A2 
+Monomer 
+A B 
+C 
+MART1/HLA-A2 
+Monomer 
+S3-2 
+S3-7 
+S3-8 
+Triple
+D 
+S3-2 
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Figure 6 
+A 
+B 
+C 
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from A99W S94M
+G28F G28W
+A99W
+β
+G28F
+α G28W
+α
+A S94M
+α
+B 
+Figure 7 
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Figure 8 
+B 
+A 
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from Erik Procko, Brian M. Baker and David M. Kranz
+Daniel T. Harris, Ningyan Wang, Timothy P. Riley, Scott D. Anderson, Nishant K. Singh,
+interactions with peptide-bound MHC
+Deep mutational scans as a guide to engineering high-affinity T cell receptor
+J. Biol. Chem. published online September 28, 2016
+ 
+Access the most updated version of this article at doi: 10.1074/jbc.M116.748681
+Alerts: 
+ 
+• When a correction for this article is posted
+• When this article is cited
+Click here to choose from all of JBC's e-mail alerts
+ 
+http://www.jbc.org/content/early/2016/09/28/jbc.M116.748681.full.html#ref-list-1
+This article cites 0 references, 0 of which can be accessed free at
+ by guest on September 30, 2016 http://www.jbc.org/ Downloaded from 

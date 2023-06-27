@@ -1,0 +1,274 @@
+Structural and Biophysical Characterization of the  EphB4EphrinB2 Protein-Protein Interaction  and Receptor Specificity*  Received for publication, June 15, 2006, and in revised form, July 21, 2006 Published, JBC Papers in Press, July 25, 2006, DOI 10.1074/jbc.
+M605766200  Jill E. Chrencik  , Alexei Brooun  , Michelle L. Kraus  , Michael I. Recht  , Anand R. Kolatkar  , Gye Won Han  ,  Jan Marcus Seifert  , Hans Widmer  , Manfred Auer  , and Peter Kuhn1  From the   Department of Cellular Biology, The Scripps Research Institute, La Jolla, California 92037,   Scripps-PARC Institute for  Advanced Biomedical Sciences, Palo Alto Research Center, Palo Alto, California 94304,   Discovery Technologies-Innovative  Screening Technologies, Novartis Institutes for BioMedical Research GmbH & Co. KG, A-1235 Vienna, Austria,   Novartis Institutes  for BioMedical Research, CH-4002 Basel, Switzerland  Increasing evidence implicates the interaction of the EphB4  receptor with its preferred ligand, ephrinB2, in pathological  forms of angiogenesis and in tumorigenesis.
+To identify the  molecular determinants of the unique specificity of EphB4 for  ephrinB2, we determined the crystal structure of the ligand  binding domain of EphB4 in complex with the extracellular  domain of ephrinB2.
+This structural analysis suggested that one  amino acid, Leu-95, plays a particularly important role in defining the structural features that confer the ligand selectivity of  EphB4.
+Indeed, all other Eph receptors, which promiscuously  bind many ephrins, have a conserved arginine at the position  corresponding to Leu-95 of EphB4.
+We have also found that  amino acid changes in the EphB4 ligand binding cavity,  designed based on comparison with the crystal structure of the  more promiscuous EphB2 receptor, yield EphB4 variants with  altered binding affinity for ephrinB2 and an antagonistic peptide.
+Isothermal titration calorimetry experiments with an  EphB4 Leu-95 to arginine mutant confirmed the importance of  this amino acid in conferring high affinity binding to both ephrinB2 and the antagonistic peptide ligand.
+Isothermal titration  calorimetry measurements also revealed an interesting thermodynamic discrepancy between ephrinB2 binding, which is an  entropically driven process, and peptide binding, which is an  enthalpically driven process.
+These results provide critical  information on the EphB4ephrinB2 protein interfaces and their  mode of interaction, which will facilitate development of small  molecule compounds inhibiting the EphB4ephrinB2 interaction as novel cancer therapeutics.
+  The protein-protein interaction between the membranebound Eph receptor tyrosine kinases with the membrane-bound  ephrin ligands have now been reported in the overexpression/dysregulation in numerous tumor cell lines (1).
+First reported for their  role in axonal guidance, this group of proteins now has defined  roles in regulating several cellular processes including developmental patterning, cell attachment, and motility (24).
+The  importance of these proteins in development is underscored by  the fact that deletion of either the EphB4 receptor or the ephrinB2  ligand resultsinlethality by embryonic day 11 as a result of arrested  angiogenesis but not vasculogenesis (5).
+Understanding the  EphB4ephrinB2 interaction and exploring the determinants for  the unique specificity of this receptor-ligand complex is at the core  of modulating this activity and will allow for a deeper understanding into the basic biology behind this interaction and for the development of novel anti-angiogenesis and anti-tumorigenesis therapeutic approaches.
+  The EphB4 receptor and the ephrinB2 ligand are capable of  transducing a signal bi-directionally into either the EphB4-expressing cell (forward signaling) or the ephrinB2-expressing  cell (reverse signaling) (12, 13).
+Therefore, a cellular response is  conducted only upon cell-cell contact.
+The Eph receptors are  divided into two subclasses, A and B, based on both sequence  conservation and binding preferences with the ephrins (6).
+The  receptors have a modular domain architecture, extracellularly  characterized by an N-terminal ligand binding domain, a cysteine-rich domain, and two fibronectin type III-like repeats.
+  Intracellularly, the receptors consist of a juxtamembrane  domain, a conserved tyrosine kinase domain, a C-terminal sterile -domain, and a PDZ binding motif.
+The ephrin ligands are  also divided into two subclasses, A and B; ephrinA ligands are  anchored to the membrane through a glycosylphosphatidylinositol linker, whereas members of the B-subclass are tethered to the membrane by a transmembrane region and contain a cytoplasmic PDZ domain binding motif.
+In general,  EphA receptors (EphA1-EphA10) are promiscuously activated by ephrinA ligands (ephrinA1-ephrinA6), whereas EphB  receptors (EphB1-EphB6) are promiscuously activated by ephrinB ligands (ephrinB1-ephrinB3) (7).
+Cross-subclass interactions have been identified specifically between EphB2 and ephrinA5 (8) and between EphA4 and ephrinB2/B3 (9); however,  these interactions are rare and appear to be exceptions to the  general rule.
+Unlike the other promiscuous receptors in this  family, however, the EphB4 receptor has a distinctive specificity  * This work was supported by grant SFP-1543 (to P. K.).
+This is TSRI manuscript No. 18293.
+The costs of publication of this article were defrayed in  part by the payment of page charges. This article must therefore be  hereby marked advertisement in accordance with 18 U.S.C. Section  1734 solely to indicate this fact.
+  The atomic coordinates and structurefactors(code 2HLE) have been deposited in  the Protein Data Bank, Research Collaboratory for Structural Bioinformatics,  Rutgers University, New Brunswick, NJ (http://www.rcsb.org/).
+1 To whom correspondence and requests for reprints should be addressed:  Dept. of Cellular Biology, The Scripps Research Institute, 10550 N. Torrey  Pines Rd., CB 265, La Jolla, CA 92037.
+Tel.: 858-784 9114; Fax: 858-784-  8996; E-mail: pkuhn@scripps.edu.  THE JOURNAL OF BIOLOGICAL CHEMISTRY VOL.
+281, NO.
+38, pp. 2818528192, September 22, 2006   2006 by The American Society for Biochemistry and Molecular Biology, Inc. Printed in the U.S.A.  SEPTEMBER 22, 2006VOLUME 281NUMBER 38 JOURNAL OF BIOLOGICAL CHEMISTRY 28185   at Australian National University on March 16, 2015 http://www.jbc.org/ Downloaded from for a single ligand, ephrinB2 while binding only weakly to both  ephrinB1 and ephrinB3.
+EphrinB2, on the other hand, binds to  several receptors within the B-subclass (10).
+The ligand specificity of the EphB4 receptor is somewhat surprising, since the  receptor has the characteristics of a promiscuous receptor,  including a large and hydrophobic binding cavity and a flexible  lid capable of accommodating a range of ligands (11).
+Here we  provide a structural perspective describing the molecular  determinants of EphB4 specificity.
+  Crystal structures have been previously determined for ephrin ligands (ephrinB2, ephrinB1) and Eph receptors (EphB2,  EphB4) as well as receptor-ligand complexes (EphB2ephrinB2,  EphB2ephrinA5, EphB4-TNYL-RAW (8, 10, 19).
+The crystal  structure of the homodimeric ephrinB2 ligand reveals a -barrel structure arranged in a deviation of the common Greek Key  topology (17).
+Comparison of the crystal structures of both apo  and receptor-bound ephrinB2 revealed that the solvent-exposed and high affinity G-H loop is conserved in position  between the two structures.
+This critical loop shares high  sequence homology in both A and B subclasses, respectively,  and is involved in receptor-ligand heterodimerization as well as  in ephrinB2 homodimerization (10, 17).
+In addition, the crystal  structures of the ligand binding domains of EphB2 and EphB4,  which share only 44% sequence identity, show a similar jellyroll  folding topology, with 13 antiparallel -sheets connected by  loops of varying length (18, 19).
+The crystal structure of the  EphB4 receptor in complex with the phage display derived  TNYL-RAW peptide revealed that the peptide binds to the ephrin binding cavity of the receptor, effectively inhibiting interaction with the ligand (19).
+Furthermore, the structure of the  EphB2ephrinB2 complex showed that the ligand binding channel of the receptor is located at the upper convex surface of  EphB2 and is formed by the flexible J-K, G-H, and D-E loops,  which become ordered to accommodate the solvent-exposed  ephrin G-H loop (10).
+A low affinity tetramerization interface  was also identified at the concave surface of the receptor H-I  loop, which interacts with the C-D loop of the ephrin.
+  Given that the EphB4ephrinB2 interaction is important in  angiogenesis and that EphB4 is overexpressed in several tumor  types (1, 2022), modulating this protein-protein interaction is  a potential approach to slowing tumor angiogenesis and tumor  growth.
+In mouse models of breast cancer, high EphB4 expression correlates with increased malignancy and tumor aggressiveness (2325).
+EphB4 expression is also increased in human  primary infiltrating ductal breast carcinoma and is correlated to  increased malignancy (26).
+There is evidence that the EphB4  ectodomain stimulates endothelial cell migration and proliferation, suggesting that ephrinB2-expressing endothelial cells  interact with the EphB4 ectodomain to promote angiogenesis  and tumor progression.
+Furthermore, a kinase-deficient EphB4  mutant has been shown to increase breast cancer cell growth,  indicating that downstream forward kinase signaling is not an  absolute requirement for tumorigenesis, at least in breast cancer  cells (27).
+Several groups have more recently demonstrated that  the full extracellular domain of EphB4 is indeed a viable therapeutic target.
+First, the soluble extracellular domain of EphB4 was  described to block both forward and reverse signaling, resulting in  an inhibition of tumor growth in vivo (28, 29).
+Second, phage display studies have identified a peptide (TNYL-RAW) that antagonizes the EphB4ephrinB2interactionin the high nanomolar range  (30).
+However, a more complete understanding of the biological  role of EphB4ephrinB2 signaling in tumorigenesis and in forms of  pathological angiogenesis is now required.
+  To enable anti-EphB4ephrinB2 therapeutic development  and probe EphB4 specificity, we determined the three-dimensional crystal structure of the EphB4ephrinB2 complex to high  resolution.
+In addition, we conducted site-directed mutagenesis and biophysical analyses to investigate the role of several  residues within the ligand binding cavity of EphB4 in contributing to the binding of both ephrinB2 and the antagonistic  TNYL-RAW peptide.
+These results will enable the development of predictive models for structure-based drug design of  small molecule compounds for use as therapeutics and to probe  the biology of EphB4ephrinB2 bi-directional signaling.
+  EXPERIMENTAL PROCEDURES  Protein Expression and PurificationThe human EphB4  receptor (17196) was expressed and purified in insect cells as  described elsewhere (19).
+The wild type EphB4 construct was  used as a template for the generation of site-specific mutants.
+  The human ephrinB2 (extracellular domain, residues 25187)  was designed based on the previously published EphB2  ephrinB2 structure and cloned into a modified pFastBac1 vector containing a GP67 leader peptide.
+Recombinant baculovirus  was generated using the Bac-to-Bac system (Invitrogen).
+  Briefly, large scale expression of ephrinB2 was carried out using  Wave Bioreactors on a 5-liter scale at a multiplicity of infection  of 5 for 48 h, resulting in 10 mg of ephrinB2/liter of Hi-5  insect cells (Invitrogen).
+Media containing secreted ephrinB2  protein was concentrated and buffer was exchanged using a  Hydrostart Crossflow Filter (Sartorius Edgewood, NY).
+The  ligand was purified by immobilized metal affinity chromatography and cleaved overnight with tobacco etch virus protease.
+  Material was further re-purified by immobilized metal affinity chromatography (S2000) to remove the protease and  an N-terminal fragment containing the histidine tag.
+The  EphB4ephrinB2 complex was formed with a 1.5-fold molar  excess of ephrinB2 overnight at 4 C in buffer containing 50 mM  Tris, pH 7.8, 100 mM NaCl, and 10 mM Imidazole.
+The complex  was purified by immobilized metal affinity chromatography followed by size exclusion chromatography to remove trace aggregates (Phenomenex, Torrance, CA).
+The final purity of the  complex was greater than 95%.
+  Crystallization, Data Collection, and Structure SolutionThe  EphB4ephrinB2 complex was concentrated to 20 mg/ml in a  buffer containing 25 mM Tris, pH 7.8,
+150 mM NaCl, and 5 mM  CaCl2 and crystallized by sitting drop vapor diffusion at 20 C  against a precipitant of 2.2 M ammonium sulfate and 100 mM  Tris, pH 7.8.
+EphB4ephrinB2 crystals were cryoprotected in  25% glycerol and flash-cooled.
+Crystals formed in the P41 space  group and contained one monomer of receptor and one monomer of ligand in the asymmetric unit.
+Data were collected  at the Advance Photon Source (Argonne, IL) on beamline  GM/CA-CAT.
+Images were processed and reduced using  HKL2000 (31).
+The structure was solved by molecular replacement with MolRep (CCP4i), using the EphB2ephrinB2 strucEphB4EphrinB2 Complex Structure  28186 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 281NUMBER 38SEPTEMBER 22, 2006   at Australian National University on March 16, 2015 http://www.jbc.org/ Downloaded from ture (Protein Data Bank code 1KGY) as a search model (10,  32).
+The structure was refined by a rigid body refinement  followed by model building in O and iterative refinements  with Refmac (32, 33).
+The structure exhibits good geometry  with no Ramachandran outliers.
+  Isothermal Titration CalorimetryAll mutants and ligands  were dialyzed into buffer containing 50 mM Tris-Cl, pH 7.8, 150  mM NaCl, and 1 mM CaCl2 before use in isothermal titration  calorimetry (ITC)2 experiments.
+All experiments were performed with a Microcal MCS ITC at 25 C.
+Titrations were  completed as described (19).
+EphB4 (wild type or mutant) was  present in the sample cell at a concentration of 1215 M, and  the injection syringe contained either 127 M ephrinB2 or 200  M TNYL-RAW.
+Titrations of TNYL-RAW with the L95R  mutant of EphB4 were performed with 2 mM TNYL-RAW in  the injection syringe and 15 M EphB4 (L95R) in the sample  cell.
+Data for these titrations were fit assuming a stoichiometry  of 1, and at least 60% saturation at the final peptide concentration as described (19, 34).
+  Fluorescent Polarization AssayAlexa-532 labeled TNYLRAW peptide was synthesized by Biopetide (San Diego, CA).
+A  serial dilution of EphB4 was prepared in assay buffer (50 mM Tris,  pH 7.8, 150 mM NaCl, 1 mM CalCl2, 0.1% Pluronic 124).
+TNYLRAW-Alexa-532 labeled peptide was prepared as a 100 M stock  solution in the assay buffer, and a 300 nM working solution was  made fresh before the measurements by dilution in the assay  buffer.
+5 l of serially diluted EphB4 (92362 nM concentration  range) was combined with 5l of labeled peptide (final concentration 75 nM)in the final volume of 20lin the absence and presence  of 200 M TNYL-RAW as a control for nonspecific binding.
+The  mixture was allowed to equilibrate for 30 min at room temperature, and measurements were performed with a Tecan Genios Pro  (Tecan Instruments) using 535-nm excitation and 580-nm emission wavelength.
+All experimental data were analyzed using Prism  4.0 software (GraphPad Software Inc., San Diego, CA), and Kd  values were generated by fitting the experimental data using a onesite binding hyperbola nonlinear regression model.
+The calculated  Z-factor for 108 samples, each at 2 different protein concentrations representing upper and lower plateaus of the dose response  curve, is 0.715.
+  RESULTS  Overall StructureEphB4 and ephrinB2 were co-concentrated to 20 mg/ml and crystallized by sitting drop vapor diffusion against a precipitant of 2.2 M ammonium sulfate and 100  mM Tris, pH 7.8, at 20 C.
+The co-crystal structure was refined  to 2.0- resolution with an R-factor of 23% and a free R factor  of 29% (Table 1; Fig. 1).
+Unlike crystals of the of the  EphB2ephrinB2 complex, which consisted of a heterotetramer,  crystals of the EphB4ephrinB2 complex consist of a heterodimer.
+Previously, formation of EphB2ephrinB2 heterotetramers was observed for a concentration range around 1 mM  using size exclusion chromatography analysis, whereas analytical ultracentrifugation demonstrated that the EphB2ephrinB2  complex was a heterodimer at concentrations in the low micromolar range (10).
+Our size exclusion chromatography analysis  of the EphB4ephrinB2 complex in a concentration range up to  500 M indicates that the EphB4ephrinB2 complex exists as a  heterodimer.3 The overall structure of the EphB4ephrinB2  complex is similar to that of the EphB2ephrinB2 complex, with  a root mean square deviation of 5.0  over 316 equivalent C  positions.
+Significant deviation is mostly evident, however,  throughout the structure of the receptor loop regions compared with the EphB4-TNYL-RAW and EphB2ephrinB2 structures, with root mean square deviations of 1.8 and 5.3 , respectively, in the J-K loop.
+The ephrinB2 ligand deviates minimally  2 The abbreviations used are: ITC, isothermal titration calorimetry; L, ligand; R,  receptor.
+3 A. Brooun and J. E. Chrencik, manuscript in preparation.
+  FIGURE 1.
+The ephrin binding domain of the EphB4 receptor in complex  with the ephrinB2 extracellular domain.
+The EphB4 receptor (red) consists  of a jellyroll folding topology with 13 anti-parallel B-sheets connected by  loops of varying lengths, whereas the ephrin ligand (blue) is similar to the  Greek key folding topology.
+The interface is formed by insertion of the ligand  G-H loop into the hydrophobic binding cleft of EphB4.
+  TABLE 1  Crystallographic statistics for the EphB4ephrinB2 complex  Resolution () 20-2.0 (2.1-2.0)a  Wavelength () 0.98  Space group P41  Unit cell dimensions () a  b  81.09 81.09 c  50.95  Completeness (%) 99.6 (99.9)  Rsym (%)b 3.9 (20.8)  I/ 4.8  Mean redundancy 4.7  No. of reflections 19,785  Rcryst (%)c 22.6 (26.5)  Rfree (%)d 29.5 (30.0)  Root mean square deviations  Bond length () 0.02  Bond angle () 1.7  Average B factor (2  ) 56.6  Number of atoms  Protein 4,992  Solvent 78  aThe number in parentheses is for the highest shell.
+  bRsym  I  I/I, where I is the observed intensity, and I is the average  intensity of multiple symmetry-related observations of that reflection.
+c  Rcryst  Fobs  Fcalc/Fobs, where Fobs and Fcalc are the observed and calculated structure factors.
+dRfree  Fobs  Fcalc/Fobs for 10% of the data not used at any stage of structural refinement.
+  EphB4EphrinB2 Complex Structure  SEPTEMBER 22, 2006VOLUME 281NUMBER 38 JOURNAL OF BIOLOGICAL CHEMISTRY 28187   at Australian National University on March 16, 2015 http://www.jbc.org/ Downloaded from between previously described apo and receptor-bound structures, shifting only 0.91 and 0.90 , respectively (10, 17).
+  EphB4EphrinB2 InterfaceThe high affinity EphB4  ephrinB2 heterodimer is formed by insertion of the solventexposed ligand G-H loop into the upper convex and hydrophobic surface of the EphB4 receptor, positioned above receptor  strands E and M. Hydrophobic contacts drive receptor-ligand  binding in this region.
+Ligand (L) residues Phe-120L, Pro-122L,  Trp-125L, and Leu-127L participate in van der Waals interactions with receptor residues lining the receptor binding cavity  in the D-E, G-H, and J-K loops (Fig. 2).
+Phe-120L forms hydrophobic interactions with Leu-95R (R, receptor; see below), LeuFIGURE 2.Detailed ligplot diagram of critical EphB4ephrinB2 interactions.
+All interactions are less than 4  and are indicated by dashed green lines(16).
+The  ligand is depicted with all bonds shown, whereas receptor residues (cyan) are drawn schematically.
+  EphB4EphrinB2 Complex Structure  28188 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 281NUMBER 38SEPTEMBER 22, 2006   at Australian National University on March 16, 2015 http://www.jbc.org/ Downloaded from 100R, and Pro-101R, whereas Leu-124L interacts with  Thr-147R from the receptor J-K loop.
+Meanwhile, Trp-125L  extends to the surface of the receptor in between the J-K and  G-H loops, participating in hydrophobic interactions  with residues Leu-48R, Glu-50R, Val-159R, Leu-188R, and Ala186R.
+In addition, Pro-122L, similar to all previous crystal  structures, maintains its position by participating in a direct  interaction with the receptor Cys-61R-Cys-184R disulfide  bridge.
+Few polar contacts are formed at the receptor-ligand  dimer interface.
+Ser-121L forms a side chain side-chain hydrogen bond with Glu-59R as well as a main chain-side chain  hydrogen bond with Lys-149R, whereas Asn-123L forms a  hydrogen bond with the main chain oxygen of Leu-48R.
+Additionally, Lys-149R extends to the body of the ephrinB2 G-H  loop, forming side chain-side chain hydrogen bonds with Glu128L, and side chain-main chain hydrogen bonds with  Ser-121L and Asn-123L, which are both part of the high affinity  ligand FSPN sequence (Fig. 3).
+The introduction of this new  interaction at the EphB4ephrinB2 interface is certain to contribute to the high affinity of this receptor-ligand complex.
+  Similar to the EphB2ephrinB2 structure, a second portion of  the high affinity heterodimerization interface exists immediately adjacent to the ligand binding cavity, formed by  ligand strands C, G, and F, and receptor strands B-C, E, and  D. This region of the complex deviates minimally from the  corresponding EphB2ephrinB2 complex, with a maximum  deviation of 2.1  from furthest atoms, and is predominantly  characterized by backbone-backbone, backbone-side chain,  and side chain-side chain hydrogen bonds.
+In particular, side  chain-side chain interactions between Glu-59R (Glu-68 in  EphB2)-Gln-118L and Ser-121L, Asp-29R (Glu-40 in EphB2)-  Lys-112L, and Glu-43 (Glu-52, EphB2)-Lys-116L provide the  binding potential characteristic of this low nanomolar interaction.
+Side chain-main chain interactions between Ser-55 and  Lys-116L, and between Glu-44R and Lys-60R complete the  binding network in this region.
+  Although the overall shape of the EphB4ephrinB2 interaction  interface is in good agreement with that previously described in  the EphB2ephrinB2 structure,marked differences exist within the  receptor loops that frame the ligand binding channel.
+The EphB4  J-K loop assumes a distinct position compared with previously  described crystal structures and is situated directly above the ligand G-H  loop and 15  from the D-E loop (Fig.  4).
+The corresponding J-K loop from  the EphB2ephrinB2 structure, on the  other hand, is positioned only 6.4   from the D-E loop and, therefore,  maintains a more compact binding  cavity.
+In fact, the J-K loops differ in  position by up to 10  from furthest  positions between the two ephrinB2-  bound complex structures.
+Not surprisingly, the J-K loop shows remarkable flexibility in each structure  described, also shifting in position by  up to 20  from furthest positions  between the EphB4-TNYL-RAW  structure.
+Furthermore, crystallization trials with the apo form of  EphB4 failed to produce crystals, likely because of the inherent  flexibility of the J-K and D-E loops.
+A feature unique to EphB4 is a  three-residueinsertin the J-K loop, whichis absentin all other Eph  receptors.
+It has been speculated that this insert contributes to the  ligand binding specificity inherent to the EphB4 receptor (35).
+  Indeed, two (Pro-151, Gly-152) of the three residues (Pro-151,  Gly-152, Ala-153) form the tip of the J-K loop and make contacts  with the ligand; Pro-151R forms a hydrophobic contact with Phe120L, whereas Gly-152R makes a main chain to side chain polar  contact with Glu-152L.
+In addition, the G-H and D-E loops, which  form two walls of the ligand binding cleft, also shift to accommodate the ligand.
+The G-H loop is shifted by over 4.5  between the  EphB4 and EphB2-bound ephrinB2 structures, whereas the D-E  loop only deviates by 1.5  between the two structures.
+  EphB4 SpecificitySequence comparison and structural  analysis of the EphB4 and EphB2 receptors suggested that one  residue in EphB4 is particularly important in determining the  specificity of the EphB4ephrinB2 interaction: Leu-95.
+The corresponding residue in EphB2, Arg-103, is strictly conserved  across both A and B subclasses and deviates only in the EphB4  receptor.
+Arg-103R participates in hydrogen bonds with residues from the high affinity ephrin G-H loop, including Ser121L and Glu-128L, and is situated in proximity to Phe-120L, a  residue critical for receptor binding.
+However, superposition of  an Arg at position 95 in the EphB4ephrinB2 structure suggests  that a steric clash would result between the superposed arginine  and Phe-120L.
+The corresponding Leu-95R, on the other hand,  is able to form a 3.2  van der Waals interaction with Phe-120L  due to its position within the ligand binding cavity.
+Not surprisingly, Arg-95R would also sterically clash with the phenylalanine from the TNYL-RAW peptide in the EphB4-TNYL-RAW  structure (19), whereas the smaller Leu-95R forms favorable  contacts with the peptide.
+Interestingly, the highly conserved  Phe-120L is shifted in position by 90 as compared with previous complex structures (8, 10, 19) and is buried within the  hydrophobic cleft of the receptor, unlike its position in the  EphB2ephrinB2 complex structure, where it is directed toward  the surface (Fig. 5).
+In addition, the position of Arg-103R  requires the J-K loop of the EphB2 receptor to extend away  from the ligand G-H loop and toward the receptor D-E loop to  FIGURE 3.Stereoview ofAweighted 2 Fobs  Fcalc electrondensity at 2.
+0 resolution, contoured at 1for  the EphB4ephrinB2 interface.
+EphB4 is in green, and ephrinB2 is in yellow.
+Clear density of the interface shows  Phe-120 in a novel position with respect to previously described structures in order to interact with Leu-95.
+  EphB4EphrinB2 Complex Structure  SEPTEMBER 22, 2006VOLUME 281NUMBER 38 JOURNAL OF BIOLOGICAL CHEMISTRY 28189   at Australian National University on March 16, 2015 http://www.jbc.org/ Downloaded from avoid steric interference with residues lining the ephrinB2 G-H  loop.
+The smaller Leu-95R together with Phe-120L allows the  J-K loop of EphB4 to adopt a novel position directly above the  ligand G-H loop.
+  Biophysical Characterization of EphB4 Specificity; Enthalpic  Versus Entropic ContributionsA series of site-specific mutations was generated by changing residues lining the EphB4 G-H  and J-K loops to the corresponding residues found in EphB2  (Table 2).
+The EphB4 mutants were analyzed based on their binding to fluorescently labeled Alexa-532-TNYL-RAW peptide.
+Fluorescence polarization (FP) analysis corroborated the prediction  that Leu-95 is a critical determinant for binding of the TNYLRAW peptide because the L95R mutant did not exhibit significant  binding of the peptide in our assay.
+EphB4 mutants T147F, A186S,  and K149Q showed an 45-fold reduction in binding affinity of  the fluorescently labeled peptide.
+  Based on the structural information and preliminary binding  characterization by fluorescence polarization analysis, two EphB4  mutants, L95R and K149Q, were chosen for a more detailed thermodynamic analysis of their binding to both ephrinB2 and the  TNYL-RAW peptide ligand using ITC.
+As reported previously,  EphB4 binds to ephrinB2 with an affinity of 40 nM and a Hobs of  3.3 kcal mol1 (19).
+Mutation of EphB4 Lys-149 to Gln has no  effect on the binding affinity or enthalpy of ephrinB2 binding  (Table 3).
+In contrast, mutation of EphB4 Leu-95 to Arg reduces  the binding affinity of ephrinB2 by nearly 2 orders of magnitude.
+Binding of ephrinB2 to all forms of EphB4 is endothermic,  and the binding of ephrinB2 is more endothermic with the  L95R mutation in EphB4 (5.2 versus 3.3 kcal mol1 for wild type  EphB4).
+Preliminary experiments carried out in a buffer with  different enthalpy of ionization showed a similar enthalpy  change to that reported here.
+For  example, binding of ephrinB2 to  EphB4 (K149Q) resulted in a Hobs  of 3.9 (0.1) kcal mol1 in phosphate (Hion  0.8 kcal mol1)  compared with the Hobs of 3.7  (0.2) kcal mol1 value obtained in  Tris (Hion  11.34 kcal mol1  )  (Table 3).
+Thus, it appears that protonation/deprotonation is not coupled to ephrinB2 binding under the  conditions of the ITC experiments.
+  Binding of the TNYL-RAW peptide to the wild type, K149Q, and  L95R forms of EphB4 was also monitored by ITC.
+TNYL-RAW binds to  EphB4 with an affinity of 70 nM and  a Hobs of 14.7 kcal mol1 (19).
+In  contrast to the different effects of  mutations in EphB4 on the interaction of EphB4 with ephrinB2, mutation of EphB4 of either Lys-149 to  Gln or Leu-95 to Arg reduces the  affinity of the EphB4-TNYL-RAW  interaction (3- and 500-fold, respectively; Table 3).
+Binding of the  TNYL-RAW peptide to all three  forms of EphB4 is characterized by  an exothermic enthalpy.
+  Thus, thermodynamic analysis  reveals that TNYL-RAW binding to  the EphB4 ligand binding domain is  an enthalpically driven process,  whereas ephrinB2 binding to EphB4  is an entropically driven process.
+  The differences in the binding thermodynamics are consistent with the  available structural information.
+  Burial of the hydrophobic ligand  G-H loop within the hydrophobic  receptor binding cleft should  entropically drive the interaction  through the release of water,  FIGURE 4.
+Stereoview of the superposition of the Eph receptor ligand binding domains from the  EphB4ephrinB2 (red), EphB2ephrinB2 (green), and EphB4TNYL-RAW complex structures (blue).
+Clear  deviation is seen at the J-K loop, whereas more minor changes are seen in the receptor D-E and G-H loops (Ref.  10; Protein Data Bank code 1KGY).
+The overall root mean square deviation between the EphB4ephrinB2 and  the EphB2ephrinB2 and EphB4-TNYL-RAW structures is 5.0 and 2.5 , respectively.
+  FIGURE 5.
+EphrinB2 specificity region in the EphB2/EphB4ephrinB2 complexes.
+Left, the region near the  EphB4 Leu-95R of the EphB4ephrinB2 complex structure is shown in schematic representation.
+The van der  Waals interaction between the ephrinB2 Phe-120L and the EphB4 Leu-95R is depicted as a dotted line.
+Right, the  region near the EphB2 Arg-103R of the EphB2ephrinB2 complex structure is shown in the same orientation as  that on the left.
+The EphB2 Arg-103R, Ser-156R, and Ser-107R side chains are shown as colored sticks.
+Hydrogen  bonds between Arg-103R and the two serines are shown as dotted lines.
+The J-K loops of EphB2 and EphB4 are  shown in yellow highlighting the change in loop position between the two complexes.
+  EphB4EphrinB2 Complex Structure  28190 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 281NUMBER 38SEPTEMBER 22, 2006   at Australian National University on March 16, 2015 http://www.jbc.org/ Downloaded from increasing the solvent entropy.
+In addition, the ephrinB2 ligand  G-H loop is quite rigid, both in apo and receptor-bound structures, minimizing massive conformational entropy losses.
+The  small loss of conformational entropy counteracts the heterodimerization process by ordering the otherwise flexible  receptor J-K, D-E, and G-H loops.
+Unlike ephrinB2, however,  the free peptide ligand will lose significant conformational  degrees of freedom upon EphB4 binding, resulting in an overall  entropy loss.
+This is compensated by an enthalpy gain due to  the formation of favorable interactions, both polar and nonpolar, at the receptor-peptide interface.
+A complete structurebased thermodynamic analysis is precluded, however, due to  our inability to crystallize apo EphB4.
+  It should be noted that we produced the ephrinB2 extracellular domain in insect cells in a glycosylated form, whereas the  ephrins used for previous crystal structure determinations were  produced in Escherichia coli and, therefore, not glycosylated.
+A  conserved glycosylation site exists in ephrinB2 at residue Asn39, in proximity to the low affinity tetramerization interface.
+  Consistent with its possible glycosylation, Asn-39 is located  near the surface of the protein, and its side chain extends  toward the surface of the complex.
+Although the carbohydrate  was not observed in our electron density map, likely because it  was disordered, it is conceivable that a sugar at this location  could interfere with the formation of receptor-ligand tetramers  in the crystal lattice.
+However, previous reports have suggested  that carbohydrate moieties would play more a favorable than an  unfavorable role in tetramerization (36).
+  DISCUSSION  We have determined the three-dimensional crystal structure of  the EphB4 receptor ligand binding domain in complex with the  extracellular domain of its ligand, ephrinB2, and identified the  determinants for EphB4 specificity.
+A multiple sequence alignment with members of the EphB subclass reveals that the EphB4  receptor lacks a conserved arginine and instead contains a leucine  at position 95.
+A L95R mutation was previously predicted to result  in steric interference with the antagonistic TNYL-RAW peptide  ligand (19).
+Here we report that this mutation would also result in  steric clashes with Phe-120L in the G-H loop of ephrinB2 due to  the unique positioning of the J-K loop of EphB4.
+A leucine instead  of an arginine at position 95 of the EphB4 receptor indeed appears  to be sufficient to cause a substantial structural rearrangement of  the receptor J-K loop.
+Of particular interest is the novel position of  the conserved Phe-120L in the high affinity FSPN sequence of the  ephrinB2 G-H loop.
+Although ephrinB2 is conserved in structure  in both receptor-bound and apo structures, there appears to be  variability within the rigid G-H loop to conform to a specific  receptor.
+  EphrinB2 shares 46 and 40% sequence identity with ephrinB1  and ephrinB3, respectively.
+EphB4 binds only weakly to both of  these ligands while exhibiting high affinity for ephrinB2.
+Considering the B-subclass ephrin G-H loop (ephrinB1-B3), it is interesting to speculate on why EphB4 preferentially binds ephrinB2 over  other B-subclass ligands.
+EphrinB1 shares significant sequence  identity with the high affinity ephrinB2 G-H loop, except at position 124, which is a Tyr in ephrinB1 and a Leu in ephrinB2.
+  Although Leu-124L does not form substantial interactions with  EphB4, the small size of the leucine allows tight packing within the  receptor binding cavity and maintains the hydrophobic nature of  the binding cleft.
+Superposition of a tyrosine on the ephrinB2  structure would require the rearrangement of the EphB4 J-K loop  to accommodate the bulky tyrosine, likely accounting for the  reduced affinity of EphB4 for ephrinB1.
+The ephrinB3 G-H loop is  also very similar to the ephrinB2 G-H loop but deviates in the  FSPN sequence, which contains a tyrosine instead of the phenylalanine (YSPN).
+Phe-120L forms critical interactions with residueslining the EphB receptor-ephrinB2 binding cavityin the three  complex crystal structures thus far described (8, 10, 19).
+In the  previous crystal structures Phe-120L extends to the surface of the  binding cavity, adjacent to the receptor G-H loop.
+Thus, superposition of a tyrosine on the EphB2ephrinB2 structure would not  affect the dynamics of the ligand binding cavity, and this residue  would likelyinteract with several watermolecules on the surface of  the complex.
+However, in our structure the Phe-120L of ephrinB2  is observed in a novel position, buried within the hydrophobic  binding cleft and forming interactions with Leu-95R and the Cys61RCys-184R disulfide bridge.
+Insertion of a tyrosine at this position would, therefore, resultin both steric clashes within the receptor binding cavity and a polar redistribution of the active site,  consistent with the weak affinity of EphB4 for ephrin-B3.
+  Insights into the Modulation of EphB4EphrinB2 Interaction  Unlike the heterotetrameric EphB2ephrinB2 crystal structure,  EphB4 and ephrinB2 only form heterodimers, both in the cryTABLE 2  Effects of EphB4 mutation on binding to Alexa-532-TNYLRAW  EphB4 mutant Kd  nM  Wild type 5  0.9  L95R NDa  T147F 25  5.6  R148S 4.5  0.7  K149Q 23  8  R150V 6.1  0.8  R148S/K149Q/R150V 21  6  A186S 16  4  a Fluorescence polarization (FP) window is not significant to accurately determine Kd.
+  TABLE 3  Binding of peptide (TNYL-RAW) and human ephrinB2 to the human EphB4 ephrin binding domain and EphB4 mutants  Experiments were performed at 25 C in 50 mM Tris, pH 7.8, 150 mM NaCl, 1 mM CaCl2.
+All values represent the average of at least two experiments.
+  Receptor Ligand Kd G H TS  nM kcal mol1 kcal mol1 kcal mol1  EphB4 (wild type) EphrinB2 40  20 10.2  0.3 3.3  0.1 13.4  0.4  EphB4 (K149Q) EphrinB2 20  10 10.6  0.4 3.7  0.2 14.4  0.3  EphB4 (L95R) EphrinB2 1,900  1,100 7.8  0.3 5.2  0.7 13.0  0.8  EphB4 (wild type) TNYL-RAW 71  14 9.8  0.1 14.7  0.2 4.9  0.2  EphB4 (K149Q) TNYL-RAW 160  120 9.4  0.5 12.5  1.2 3.2  1.3  EphB4 (L95R) TNYL-RAW 35,900  5,000 6.1  0.1 12.0  0.3 5.8  0.4  EphB4EphrinB2 Complex Structure  SEPTEMBER 22, 2006VOLUME 281NUMBER 38 JOURNAL OF BIOLOGICAL CHEMISTRY 28191   at Australian National University on March 16, 2015 http://www.jbc.org/ Downloaded from stals and in solution.
+Interestingly, this is most similar to the  EphB2ephrinA5 co-crystal structure than the more related  EphB2ephrinB2 structure.
+Our studies suggest that higher order  oligomerization may require regions outside of the ligand binding  domain, which is consistent with previous reports (14, 37).
+  Mutagenesis studies have demonstrated that biologically active  Eph-ephrin multimeric complexes are dependent on three interfaces; the high affinity dimerization interface, the tetramerization  interface, and a third interface in the cysteine-rich region, which is  immediately adjacent to the ligand binding domain and previously  reported to mediate receptor-ligand low affinity interaction.
+  The thermodynamic discrepancies between peptide and ephrin  binding should be considered in the design of therapeutics to treat  disease related to the Eph receptor family.
+Iterative rounds of  structure-based drug design will require an understanding of the  enthalpic and entropic contributions of small molecule compounds.
+The ephrin ligand, with entropically driven binding,interacts with multiple members of the EphB family.
+In contrast, the  TNYL-RAW peptide, with enthalpically driven binding, is a specific inhibitor of the EphB4ephrinB2 interaction.
+The specific  nature of the enthalpically driven peptide binding is consistent  with the observationmade by the group of Ernesto Freire concerning the selectivity of binding of human immunodeficiency virus-1  protease inhibitors (15).
+Further studies are needed to determine  whether the correlation between the specificity of the interaction  and the contribution of the enthalpic component to the total binding energy is a coincidence or a more general property of the interaction of inhibitors.
+  We have characterized the interaction between the EphB4  ligand binding domain and the extracellular domain of ephrinB2 both structurally and biophysically.
+We now better  understand the structural determinants that confer the high  affinity and specificity of EphB4 for ephrinB2 and the role of the  critical EphB4 residue, Leu-95.
+Structure-based design of  EphB4 and ephrinB2 mutants will provide more precise tools  for understanding the mechanisms of tumorigenesis stimulated  by their interaction.
+The characterization of enthalpic versus  entropic contributions in EphB4 ligand binding using ITC  complements the structure-based approach to compound and  ligand design.
+Our results combined with the information from  other related Eph receptor-ephrin complex structures offer the  possibility to rationally design small molecule compounds and  bio-therapeutics with improved pharmacokinetic properties  that would antagonize the EphB4ephrinB2 interaction.
+  AcknowledgmentsWe gratefully acknowledge Elena B. Pasquale and  Raymond C. Stevens for insightful discussions and guidance.
+We also  acknowledge the helpful support of the beamline staff at the Advanced  Photon Source (BL GM-CA CAT) for helpin data collection.
+The General  Medicine and Cancer Institutes Collaborative Access Team is supported  by NCI, National Institutes of Health (NIH) Grant Y1-CO-1020 and  NIGMS, NIH Grant Y1-GM-1104.
+  REFERENCES  1.
+Dodelet, V. C., and Pasquale, E. B. (2000) Oncogene 19, 56145619  2.
+Pasquale, E. B. (2005) Nat.
+Rev. Mol.
+Cell Biol. 6, 462475  3.
+Wilkinson, D. G. (2001) Nat.
+Rev. Neurosci. 2, 155164  4.
+Wilkinson, D. G. (2000) Int.
+Rev. Cytol. 196, 177244  5.
+Blits-Huizinga, C. T., Nelersa, C. M., Malhotra, A., and Liebl, D. J. (2004)  IUBMB Life 56, 257265  6.
+Gale, N. W., Holland, S. J., Valenzuela, D. M., Flenniken, A., Pan, L., Ryan,  T. E., Henkemeyer, M., Strebhardt, K., Hirai, H.,Wilkinson, D. G., Pawson,  T., Davis, S., and Yancopoulos, G. D. (1996) Neuron 17, 919  7.
+Committee, E. N. (1997) Cell 90, 403404  8.
+Himanen, J. P., Chumley, M. J., Lackmann, M., Li, C., Barton, W. A.,  Jeffrey, P. D., Vearing, C., Geleick, D., Feldheim, D. A., Boyd, A. W., Henkemeyer, M., and Nikolov, D. B. (2004) Nat. Neurosci.
+7, 501509  9. Takemoto, M., Fukuda, T., Sonoda, R., Murakami, F., Tanaka, H., and  Yamamoto, N. (2002) Eur. J. Neurosci.
+16, 11681172  10.
+Himanen, J. P., Rajashankar, K. R., Lackmann, M., Cowan, C. A., Henkemeyer, M., and Nikolov, D. B. (2001) Nature 414, 933938  11.
+Hopkins, A. L., Mason, J. S., and Overington, J. P. (2006)Curr.
+Opin. Struct.  Biol.
+16, 127136  12.
+Holland, S. J., Gale, N. W., Mbamalu, G., Yancopoulos, G. D., Henkemeyer, M., and Pawson, T. (1996) Nature 383, 722725  13. Schmucker, D., and Zipursky, S. L. (2001) Cell 105, 701704  14.
+Smith, F.M., Vearing, C., Lackmann,M., Treutlein, H., Himanen, J., Chen, K.,  Saul, A., Nikolov, D., and Boyd, A. W. (2004) J. Biol. Chem. 279, 95229531  15.
+Ohtaka, H., Muzammil, S., Schon, A., Velazquez-Campoy, A., Vega, S.,  and Freire, E. (2004) Int.
+J. Biochem.
+Cell Biol. 36, 17871799  16.
+Wallace, A. C., Laskowski, R. A., and Thornton, J. M. (1995) Protein Eng. 8,  127134  17.
+Toth, J., Cutforth, T., Gelinas, A. D., Bethoney, K. A., Bard, J., and Harrison, C. J. (2001) Dev.
+Cell 1, 8392  18. Himanen, J. P., Henkemeyer, M., and Nikolov, D. B. (1998) Nature 396,  486491  19.
+Chrencik, J. E., Brooun, A., Recht, M. I., Kraus, M. L., Koolpe, M., Kolatkar,  A. R., Bruce, R. H., Martiny-Baron, G., Widmer, H., Pasquale, E. B., and  Kuhn, P. (2006) Structure 14, 321330  20.
+Nakamoto, M., and Bergemann, A. D. (2002) Microsc. Res.
+Tech. 59, 5867  21.
+Liu,W., Ahmad, S. A., Jung, Y. D., Reinmuth, N., Fan, F., Bucana, C. D., and  Ellis, L. M. (2002) Cancer 94, 934939  22.
+Berclaz, G., Karamitopoulou, E., Mazzucchelli, L., Rohrbach, V., Dreher,  E., Ziemiecki, A., and Andres, A. C. (2003) Ann. Oncol. 14, 220226  23.
+Andres, A. C., Reid, H. H., Zurcher, G., Blaschke, R. J., Albrecht, D., and  Ziemiecki, A. (1994) Oncogene 9, 14611467  24.
+Nikolova, Z., Djonov, V., Zuercher, G., Andres, A. C., and Ziemiecki, A.  (1998) J. Cell Sci. 111, 27412751  25.
+Munarini, N., Jager, R., Abderhalden, S., Zuercher, G., Rohrbach, V., Loercher, S., Pfanner-Meyer, B., Andres, A. C., and Ziemiecki, A. (2002)  J. Cell Sci. 115, 2537  26.
+Berclaz, G., Andres, A. C., Albrecht, D., Dreher, E., Ziemiecki, A., Gusterson, B. A., and Crompton, M. R. (1996) Biochem.
+Biophys. Res. Commun.  226, 869875  27.
+Noren, N. K., Lu, M., Freeman, A. L., Koolpe, M., and Pasquale, E. B. (2004)  Proc. Natl. Acad. Sci. U. S. A. 101, 55835588  28.
+Kertesz, N., Krasnoperov, V., Reddy, R., Leshanski, L., Kumar, S. R., Zozulya, S., and Gill, P. S. (2006) Blood 107, 23302338  29.
+Martiny-Baron, G., Korff, T., Schaffner, F., Esser, N., Eggstein, S., Marme,  D., and Augustin, H. G. (2004) Neoplasia 6, 248257  30.
+Koolpe, M., Burgess, R., Dail, M., and Pasquale, E. B. (2005) J. Biol.
+Chem.  280, 1730117311  31. Otwinowski, Z., and Minor, W. (1997) in Methods in Enzymology, Macromolecular Crystallography, Part A(Carter, C.W., Jr. and Sweet, R. M., eds)  Vol. 276, pp. 307326, Academic Press, Inc., New York  32. CCP4 (1994) Acta Crystallogr. D Biol.
+Crystallogr. 50, 760763  33. Jones, T. A., Zou, J. Y., Cowan, S. W., and Kjeldgaard, M. (1991) Acta  Crystallogr.
+A 47, 110119  34.
+Turnbull, W. B., and Daranas, A. H. (2003) J. Am. Chem. Soc. 125,  1485914866  35.
+Nikolov, D. B., Li, C., Barton, W. A., and Himanen, J. P. (2005) Biochemistry 44, 1094710953  36.
+Himanen, J. P., and Nikolov, D. B. (2002) Acta Crystallogr. D Biol.
+Crystallogr.
+58, 533535  37. Day, B., To, C., Himanen, J. P., Smith, F. M., Nikolov, D. B., Boyd, A. W.,  and Lackmann, M. (2005) J. Biol.
+Chem. 280, 2652626532  EphB4EphrinB2 Complex Structure  28192 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 281NUMBER 38SEPTEMBER 22, 2006   at Australian National University on March 16, 2015 http://www.jbc.org/ Downloaded from Widmer, Manfred Auer and Peter Kuhn  Gye Won Han, Jan Marcus Seifert, Hans  Kraus, Michael I. Recht, Anand R. Kolatkar,   Jill E. Chrencik, Alexei Brooun, Michelle L.     Specificity  Protein-Protein Interaction and Receptor  Characterization of the EphB4EphrinB2   Structural and Biophysical  Protein Structure and Folding:  doi: 10.1074/jbc.M605766200 originally published online July 25, 2006  J. Biol. Chem. 2006, 281:28185-28192.     Access the most updated version of this article at doi: 10.1074/jbc.
+M605766200     Find articles, minireviews, Reflections and Classics on similar topics on the JBC Affinity Sites.
+  Alerts:       When a correction for this article is posted   When this article is cited  Click here to choose from all of JBC's e-mail alerts     http://www.jbc.org/content/281/38/28185.full.html#ref-list-1  This article cites 36 references, 9 of which can be accessed free at   at Australian National University on March 16, 2015 http://www.jbc.org/ Downloaded from

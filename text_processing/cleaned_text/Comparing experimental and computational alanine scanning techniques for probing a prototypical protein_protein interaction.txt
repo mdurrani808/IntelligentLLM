@@ -1,0 +1,293 @@
+Comparing experimental and computational alanine  scanning techniques for probing a prototypical  protein protein interaction  Richard T.Bradshaw, Bhavesh H.Patel, Edward W.Tate,  Robin J.Leatherbarrow and Ian R.Gould1  Department of Chemistry and Chemical Biology Centre, Imperial College  London, South Kensington Campus, London SW7 2AZ, UK  1  To whom correspondence should be addressed.
+  E-mail: i.gould@imperial.ac.uk  Received June 20, 2010; revised June 20, 2010;  accepted June 21, 2010  Edited by Tony Wilkinson  The central role of proteinprotein interactions in a wide  range of cellular processes makes them a target for  research and drug discovery.
+A variety of methods, both  experimental and theoretical, exist for probing protein  interfaces for residues that affect activity and binding  affinity.
+Using as an example a proteinprotein complex  between trypsin and a nine-residue synthetic peptide, we  experimentally assay-binding affinities for a variety of  mutants and determine their relative free energy of  binding, DDG, to rank the importance of interface residues to binding.
+We then compare how accurately, precisely and reliably computational methods for calculating  DDG can replicate these results.
+We find that a postprocess alanine scanning protocol of a single native  complex trajectory gives results with better accuracy than  running separate molecular dynamics (MD) trajectories  for individual mutants.
+Compared across 10 independent  simulations, we find that results from the post-process  alanine scanning are also more precise and are obtained  over five times faster than their equivalent with the full  MD protocol.
+These results suggest that, although not  suitable in every case, post-process alanine scanning is a  useful and reliable tool in predicting important residues  at protein interfaces with potential for modulation.
+  Keywords: alanine scanning/free energy/hot-spots/MMPBSA/proteinprotein interactions  Introduction  Probing protein protein interactions  Proteinprotein interactions (PPIs) are involved in a wide  variety of cellular processes, and their function or malfunction has been implicated in a variety of diseases and cancers  (Ryan and Matthews, 2005).
+Binding at proteinprotein  interfaces is controlled mostly by hot-spotsresidues or  groups of residues which contribute disproportionately to the  Gibbs free energy of binding, DG, and these hot-spots represent interesting targets for drug discovery (Arkin and  Wells, 2004; Zhao and Chmielewski, 2005; Moreira et al.,  2007a, b; Wells and McClendon, 2007).
+  Screening for these hot-spots experimentally, typically by  mutagenesis followed by a comparative functional assay, can  be expensive and time-consuming.
+Ideally, it would be  useful to have a reliable method of predicting which residues  at an interface represent hot-spots, which would allow the  number of experimental assays carried out to be minimised.
+  A variety of computational methods for predicting free  energies exist, and in some cases, these have been adapted  and optimised for use in predicting hot-spots at protein  interfaces (Tuncbag et al., 2009).
+The MM-PBSA (molecular  mechanics-PoissonBoltzmann surface area) and the MMGBSA (molecular mechanics-generalised Born surface area)  methods have been used to investigate PPIs and other interactions for around a decade (Srinivasan et al., 1998; Kollman  et al., 2000).
+They combine the speed of a continuum  approach to modelling solvent interactions with the  theoretical accuracy of an MM-based approach to atomistically modelling proteinligand interactions.
+In order to  predict the location of hot-spots at interfaces, they have also  been used in various alanine-scanning mutagenesis protocolscalculating the relative free energy change (DDG)  between the wild-type and mutant complex on mutation of  an individual residue to alanine (Massova and Kollman,  1999; Huo et al., 2002; Moreira et al., 2006; Cui et al.,  2008).
+  Calculating free energies with MM-PBSA/GBSA  The MM-PBSA and the MM-GBSA methods both use the  same general equation for calculating the free energy of a  protein complex, GTOT, in solution:  kGTOTl  kEMMl  kGPOLl  kGNONPOLl  TkSl 1  The first term, EMM, corresponds to the MM energy of the  solute, which is its internal energy of bond, angle and dihedral terms and its electrostatic and van der Waals energies.
+  The second term, GPOL, is the polar contribution to the solvation free energy, calculated using either the Poisson  Boltzmann or the generalised Born equation for the PB and  the GB methods, respectively.
+The third term, GNONPOL, is  the non-polar solvation free energy, calculated from the molecular solvent-accessible surface area (SASA), and the final  term is the entropic contribution for the solute.
+To calculate  the absolute DG upon complexation, Gibbs free energies are  calculated for the complex, receptor and ligand individually  across a configurational ensemble generated from a molecular dynamics (MD) trajectory and the difference between the  complex and the receptor/ligand free energies taken:  kDGTOTl  kGCOMl  kGRECl  kGLIGl 2  The configurational ensembles for the complex, receptor and  ligand structures can be generated either from three separate  # The Author 2010.
+Published by Oxford University Press. All rights reserved.
+  For Permissions, please e-mail: journals.permissions@oup.com  197  Protein Engineering, Design & Selection vol. 24 no. 12 pp.
+197207, 2011  Published online July 23, 2010 doi:10.1093/protein/gzq047   at J.N. Desmarais Library, Laurentian University on November 4, 2014 http://peds.oxfordjournals.org/ Downloaded from simulations or from a single simulation of the complex, from  which the unbound receptor and ligand structures are  extracted.
+The latter method is faster and involves better cancellation of errors in the DG calculation, but assumes that  there are no great structural or dynamical changes between  the bound and the unbound proteins, which can lead to an  incorrect estimation of absolute DG values (Gohlke and  Case, 2004).
+  Following the absolute DG calculation, the relative free  energy of binding between a mutant and a native complex,  DDG, is the difference between the DG of both:  DDGBIND  DGMUT  DGNAT 3  For the calculation of relative free energies between a set of  closely related complexes, it is often assumed that the entropic contributions to the absolute free energies cancel each  other out when calculating Equation (3) (Kollman et al.,  2000).
+For systems where this assumption is true, it is greatly  advantageous, as the calculation of the entropy term is computationally costly for molecules the size of proteins as it  requires extremely well minimised structures for a Normal  Mode analysis, or large numbers of snapshots for a  Quasiharmonic analysis (Srinivasan et al., 1998; Gohlke and  Case, 2004; Baron et al., 2009).
+  Because of the computational expense needed to carry out  these entropy calculations and the assumption that they will  make little difference to the calculation of relative free energies, we neglect the entropic contribution to DDG in this  study.
+We comment on the potential effects of this, both  positive and negative, in our discussion.
+Henceforth where  references are made to computationally calculated DG, DDG  or free energies of binding, they refer to the effective free  energy, which is the sum of the enthalpic EMM and GSOL/  GNONPOL contributions without the solute entropyTS term  included.
+  Computational alanine-scanning mutagenesis  The above approach to virtual screening of an interface for  hot-spots using DDG calculations has been termed computational alanine-scanning mutagenesis (Massova and  Kollman, 1999).
+The theory of hot-spot determination relies  on the assumption that alanine is a neutral residue at an interfacethat its methyl group side chain is small and non-polar  enough not to significantly contribute to binding, yet it is  chiral and structurally rigid enough, unlike glycine, not to  fundamentally change the backbone structure of the protein.
+  The same theory has been used in experimental mutagenesis  experiments for over two decades (Cunningham and Wells,  1989).
+Hence, the change in binding free energy on mutation  of a desired residue side chain to alanine should correspond  to the contribution of that residue to the binding affinity.
+  Using the MM-PBSA/GBSA free energy calculation method  and snapshots from MD simulations, we can carry out  alanine scanning in one of the two ways.
+  Full MD protocol.
+The first of these is to carry out separate  MD simulations from separate starting structures, one each  of the native and the alanine mutant structure.
+Where NMR  or crystal structures of the alanine mutant exist, these can be  used as the starting points.
+Where they are not available, the  structure of the mutant can be estimated by truncating the  coordinates of the desired residue back to the Cb atom in the  crystal structure and allowing the hydrogen atoms of the  methyl group to be placed in the standard positions.
+MD  simulations of both starting complexes are then performed  and snapshots of structure from both trajectories saved at  equally spaced intervals.
+The absolute DG values for each  complex are then calculated as means across the trajectories  and their difference taken as the DDG.
+This full MD protocol, where simulations are performed for both native and  mutant proteins, should theoretically be a representative of  any structural rearrangements at the interface that may occur  on mutation, and hence be a representative of the biological  reality of an alanine mutation.
+  Post-processing protocol.
+The second method used to generate a trajectory of an alanine mutant is referred to as the  post-processing protocol.
+In this case, only the MD trajectory of the native complex is run.
+After the simulation, each  of the individual structure snapshots is mutated to alanine at  the desired residue, by truncating back to the Cb atom.
+The  additional two (for V/I/T residues) or one (for all other residues) hydrogen atoms of the alanine methyl side chain are  added at the standard CH bond length along the vectors of  the previous C&bgr;Cg bond or bonds.
+Thus, a trajectory is  generated for the mutant complex in which the coordinates  of every residue other than the alanine mutant are identical  to those in the native trajectory.
+  Originally developed by Massova and Kollman (1999), the  post-process alanine-scanning protocol has been widely  implemented to study a variety of PPIs.
+The results obtained  have varied depending on the system investigated, but can  generally show a good agreement with the experiment within  an accuracy of roughly 1.0 kcal mol21 (Huo et al., 2002;  Moreira et al., 2007a, b, 2008).
+This protocol can fail where  large backbone rearrangements take place on mutation, and  particularly for charged residues (Huo et al., 2002), but these  caveats will be discussed further in reference to our results.
+  Investigation of a PPI system  In this study, we apply both the full MD and the post-process  protocol to probe the interface of the interaction between  trypsin and a synthetic loop of the Mung Bean Trypsin  Inhibitor (MBTI).
+The structure of the native complex is  available as PDB entry 1SMF (Li et al., 1994).
+In order to  gain an understanding of the reliability of the two techniques, results have been generated from 10 independent trajectories of the native complex and each of the alanine  mutants described below.
+To our knowledge, this is the first  study where DDG results from multiple independent trajectories of the same system have been compared, and we aim  to provide an insight into the inherent uncertainties in the  results from both protocols.
+  The simulated system is a complex between bovine trypsin  and a nine-residue synthetic loop modelled on MBTI.
+The  loop is cyclised by a single disulfide bridge and its sequence  is shown in Fig. 1 using the standard Schechter/Berger  nomenclature (Schechter and Berger, 1967).
+  The MBTI loop is part of a group of protease inhibitors  with similar structures known as the BowmanBirk inhibitors  (BBIs; Bowman, 1946; Birk et al., 1963).
+BBIs show a wide  range of specificities and also have been investigated for their  medicinal applications (Qi et al., 2005).
+Modification of  R.T.Bradshaw et al.  198   at J.N. Desmarais Library, Laurentian University on November 4, 2014 http://peds.oxfordjournals.org/ Downloaded from various residues around BBI inhibition loops can lead to  changes in structure or activity (Brauer et al., 2002; Brauer  and Leatherbarrow, 2003; Costa and Yaliraki, 2006).
+As a  small peptide with well-defined structure and activity it lends  itself well to both experimental synthesis and computational  simulation.
+Within the MBTI scaffold, the two proline and  two cysteine residues are key for the structure of the turn and  cyclisation, respectively.
+This leaves five residues, P2Thr,  P1Lys, P1Ser, P2Ile and P5Glu, with potential for modification and/or alanine scanning.
+All five alanine mutants were  prepared by synthesis and assayed for their inhibition of  trypsin experimentally, and changes in binding affinity compared with computational DDG values calculated with both  the full MD and the post-process alanine-scanning protocols  described above.
+This has allowed us to compare the accuracy, precision and speed of both protocols and evaluate their  potential for reliably predicting hot-spot residues at a sample  proteinprotein interface.
+  Methods  Solid-phase peptide synthesis  All general laboratory chemicals obtained from chemical  suppliers were used without further purification.
+Peptides  were synthesised using an Advanced ChemTech Apex 396  multiple peptide synthesiser (Advanced ChemTech Europe,  Cambridge, UK).
+Purification of crude peptides was performed on a Gilson semi-preparative RP-HPLC system  (Anachem Ltd, Luton, UK) equipped with 306 pumps and a  Gilson 155 UV/Vis detector.
+Analytical RP-HPLC was performed on a Gilson analytical HPLC system (Anachem Ltd)  equipped with a Gilson 151 UV/Vis detector and Gilson 234  auto injector.
+For both the HPLC systems, the peptide bond  absorption was detected at 223 nm.
+Peptides were eluted in a  gradient of 298% acetonitrile in H2O over 40 min.
+Mobile  phases all contained 0.1% trifluoroacetic acid (TFA) as an  ion-pairing agent.
+  Linear peptides were synthesised using the standard  Fmoc-protected solid-phase peptide synthesis; 25 mmol per  well-preloaded Fmoc-Cys(Trt)-Wang resin (Novabiochem,  UK) was swelled in DMF for 60 min before coupling each  cycle.
+The N-a-Fmoc protecting group was treated with 20%  (v/v) piperidine in dimethylformamide (DMF) for 15 min, and  this was repeated three times.
+Five equivalents of the incoming  N-a-Fmoc-protected amino acid (125 mmol, 250 ml of 0.5 M  solution in DMF) were used for each coupling.
+Coupling was  carried out with a mixture of N-hydroxybenzotriazole/  O-benzotriazole-N,N,N,N-tetramethyluroniumhexafluorophosphate (125 mmol, 250 ml) and diisopropylethylamine  (125 mmol, 250 ml) as 0.5 M solutions in DMF.
+Resin was  then washed three times with 1 ml DMF and the cycle of  deprotection, DMF wash, coupling, DMF wash continued for  each amino acid in the peptide sequence.
+The final N-a-Fmoc  protecting group was removed under the standard conditions at  the end of synthesis.
+Resins were removed from the synthesiser, washed with DMF, dichloromethane, methanol and diethyl  ether (4  2 ml each) and dried under vacuum.
+  The synthesised peptides were then cleaved from the resin  and deprotected using 2 ml of deprotection mixture (94.5%  TFA, 2.5% H2O, 2.5% ethanedithiol, 1% trimethylisopropylsilane).
+The mixture was shaken for 2 h at room temperature  and then filtered.
+The resin was washed with a small amount  of the deprotection mixture and the washings and filtrate  combined.
+The combined filtrate was precipitated with 12 ml  of ice-cold t-butylmethylether (TBME), and then centrifuged  at 3500 rpm (959g) for 15 min.
+The supernatant was discarded, the peptide washed with a fresh aliquot of TBME  and centrifuged again at 959 g for 10 min.
+This step was  repeated twice to ensure the removal of all organic impurities.
+The linear peptides were then dried overnight in a desiccator before analysis and purification.
+  A small sample of crude peptide was analysed by analytical  RP-HPLC before purification by preparative RP-HPLC.
+  Purification was carried out using the gradient detailed above,  with all mobile phases containing 0.1% HPLC-grade TFA  and using a HICHROM C18 column (250  21.2 mm).
+  Individual fractions were collected and analysed by MALDI  TOF mass spectrometry to determine purity.
+Pure fractions  were combined, diluted to ,10% acetonitrile with deionised  water and freeze dried on a Christ Alpha 24 Freeze Dryer  (Osterode am Harz, Germany).
+A white solid was obtained.
+  Cyclisation of the pure linear peptides was performed by oxidation and crosslinking of the two terminal cysteine residues  with dimethylsulfoxide (DMSO)-mediated oxidation (Tam  et al., 1991).
+Linear peptide was dissolved, at 1 mg ml21 concentration, in an aqueous solution of 20% (v/v) DMSO, 5%  (v/v) acetic acid (adjusted to pH 6.0 with ammonia), and shaken  for 24 h at room temperature.
+Crude cyclised peptides were purified using the same method as above.
+Characterisation data for  the cyclic peptides is shown in Table I.  Trypsin inhibition assay  Bovine b-trypsin (TPCK treated, Sigma, UK) concentration  was standardised by active site titration with p-nitrophenylp-guanidinobenzoate HCl prior to use in inhibition assays  (Chase and Shaw, 1970).
+Competitive-binding assays were  carried out using a Cytofluor series 400 microplate reader  (Perseptive Biosystems, Warrington, UK) and Titertekw microtitration 96-well plates.
+Trypsin (12.5 nM, 50 ml) was incubated  with serial dilutions of cyclic peptide in buffer (50 mM  TrisHCl, 150 mM NaCl, 0.01% Triton X-100, 0.01% sodium  Fig. 1.
+Schematic diagram of sequence and structure of the synthetic MBTI  loop.
+Disulfide bridge between two terminal Cys residues cyclises the  peptide, giving it its inherent structure and activity.
+Scissile bond denoted by  an asterisk, residues labelled using the SchechterBerger nomenclature.
+  Alanine scanning of PPIs by theory and experiment  199   at J.N. Desmarais Library, Laurentian University on November 4, 2014 http://peds.oxfordjournals.org/ Downloaded from azide, pH 7.6) for 40 min at 378C.
+Measurement was started  with the addition of carbobenzoxy-L-arginine-7-amino4-methylcoumarin (Z-Arg-AMC, 75 mM, 100 ml).
+The initial  rate of hydrolysis was monitored by the release of AMC from  the substrate at an excitation wavelength of 360 nm and emission of 460 nm.
+Assays were performed in duplicate.
+Initial rate  data were fitted to determine Ki using the GraFit software  package (http://www.erithacus.com/grafit).
+  MD simulations  All MD simulations presented here were performed using the  PMEMD module of the Amber 10 suite of software (Case  et al., 2005, 2008) and the Amber ff99SB force field (Hornak  et al., 2006).
+Initial coordinates were taken (in the case of  the native structure) or modified (in the case of the alanine  mutants) from the RCSB Protein Data Bank, entry 1SMF  (Li et al., 1994).
+Crystallographic water molecules present in  the initial structure were kept and a calcium atom present  was modelled as a 2 charged ion.
+Prior to simulation,  initial structures were charged neutralised with an appropriate  number of Cl2 ions and a sufficient number of TIP3P water  molecules (Jorgensen et al., 1983) added to create a truncated  octahedron in which no solute atom was closer than 8 A  from the edge of the box.
+In total, 5531 water molecules  were added using the Leap module of Amber.
+Chloride  counterions were assigned a charge of 21 and van der  Waals radius and well depth from Fox and Kollman (1998),  as standard in the ff99SB force field.
+Periodic boundary conditions were imposed and a cut-off of 8 A was used for explicit calculation of non-bonded interactions, beyond which the  particle mesh Ewald method was used to treat long-range  interactions (Darden et al., 1993).
+  Solvated complexes were minimised in two stages.
+  Initially, solvent molecules and Cl2 ions were relaxed with  500 steps of steepest descent and 500 steps of conjugate  gradient minimisation.
+Solute atoms were restrained with  500 kcal mol21 A 21 restraints.
+Following this, restraints were  removed and the complex re-minimised with 1000 steps of  steepest descent and 1500 steps of conjugate gradient minimisation.
+Minimisations were only performed once for each  complexthe final coordinates of each were then used as the  starting structures for the sets of 10 independent simulations.
+  The 10 independent simulations for each complex were conducted as follows.
+Each system was heated from 0 to 300 K  over 50 ps in the NVT ensemble.
+This was followed by 50 ps  of equilibration at 1.0 bar in the NPT ensemble, and then by  10 ns of simulation in the NPT ensemble, from which structure  snapshots were saved every 10 ps, giving a total of 1000  snapshots.
+In each case, the Langevin dynamics (Pastor et al.,  1988; Loncharich et al., 1992; Izaguirre et al., 2001) was used  to maintain temperature, with a collision frequency of 1.0 ps21  and pressure was maintained with a pressure relaxation time of  2.0 ps.
+The SHAKE algorithm (Ryckaert et al., 1977) was used  to constrain bond lengths in bonds containing hydrogen atoms,  thus allowing a time step of 2 fs to be used in all simulations.
+  Independence of the trajectories was achieved with the use of a  different seed for the random number generator of the  Langevin thermostat for each run (Cerutti et al., 2008).
+  Free energy calculations  Free energy calculations were performed using the  MM-PBSA Perl scripts in Amber.
+Prior to analysis, each  snapshot was stripped of all water molecules and ions.
+MM  contributions were calculated with a dielectric constant of  1.0 and an interaction cut-off of 999 A .
+GB solvation energies were calculated with an internal dielectric constant of  1.0 and an external constant of 80.0.
+PB solvation energies  were calculated with the pbsa module of Amber, with a grid  spacing of 0.5 A , an internal dielectric of 1.0, an external  dielectric of 80.0 and a solvent radius of 1.4 A .
+For both  Amber PBSA and GBSA calculations, the non-polar contribution to solvation energy was calculated as GNONPOL   gSASA, with g set to 0.0072 kcal mol21 A 22 and SASA as  the Connolly surface calculated with the Molsurf program  with a solvent probe radius of 1.4 A and Bondi atomic radii  (Bondi, 1964; Connolly, 1983; Still et al., 1990).
+  Results  Experimental results  Ki values calculated from the inhibition assays of the cyclic  peptides are shown in Table II.
+Error bars are based on the  standard errors of the inhibition constants.
+DG and DDG  values are calculated at 300 K using the following equation:  DG  RT lnKi 4  The P1Ala mutant showed no measurable inhibition, even  at 500 mM concentration.
+This was not surprising however,  as the lysine in the P1 position of the native structure determines the specificity of the inhibitor, and replacement with  an alanine residue removes the positive charge that  Table II.
+Experimentally determined Ki values (calculated as inhibitor concentration at half maximal inhibition) and associated binding free energies  for native 1SMF complex and various alanine mutants  Mutation Ki (mM) DG (kcal mol21  ) DDG (kcal mol21  )
+  Native 1SMF 0.304+0.03 28.94+0.06 0  P5Ala 1.68+0.12 27.92+0.18 1.02+0.19  P1Ala 7.51+0.46 27.03+0.04 1.91+0.07  P2Ala 9.61+0.48 26.88+0.03 2.06+0.07  P2Ala 114+27.50 25.41+0.60 3.53+0.60  P1Ala .4500a .23.22 .5.72  Binding free energies calculated at 300 K for comparison to computational  results.
+  a  Less than 10% inhibition at 500 mM, which suggests Ki . 4500 mM.  Table I. Characterisation data for synthesised cyclic peptides  Peptide Sequence M.W.  (g mol21  )  Overall  yield (%)  MALDITOF  peak (m/z)  R.T.  (min)  1SMF CTKSIPPEC 975.16 2.7 976 [M  H] 16.9  P2Ala CAKSIPPEC 945.13 5.9 946 [M  H] 17.2  P1Ala CTASIPPEC 918.06 7.4 919 [M  H] 19.1  P1Ala CTKAIPPEC 959.16 7.4 960 [M  H] 18.3  P2Ala CTKSAPPEC 933.08 12.6 934 [M  H] 15.6  P5Ala CTKSIPPAC 917.12 4.5 918 [M  H] 16.8  M.W. is the molecular weight of cyclised product; R.T. is the retention time  of product peak on RP-HPLC using the gradient defined above.
+  R.T.Bradshaw et al.  200   at J.N. Desmarais Library, Laurentian University on November 4, 2014 http://peds.oxfordjournals.org/ Downloaded from favourably salt bridges with Asp189 of trypsin in the complexed structure (Li et al., 1994).
+Alanine mutations at the  other positions give well-defined reductions in inhibition  potency by 13.5 kcal mol21  .
+The experimental alanine  scanning results were then compared with those obtained  computationally.
+Computational DDG results fall into one of  the four categories; full MD alanine scanning, with either the  MM-PBSA or the MM-GBSA method, and post-process  alanine scanning, with either the MM-PBSA or the  MM-GBSA method.
+For the full MD protocol, 10 runs of the  native structure were each compared with 10 runs of the  mutant structures, giving a total of 100 DDG results for each  individual mutant and solvation method.
+The post-process  protocol uses only the runs of the 10 native structures, giving  10 DDG results for each individual mutant and solvation  method.
+  Full MD protocol DDG results  Computational results from the full MD protocol are shown  in Table III.
+To investigate the effects of complex equilibration time on DDG, results were recalculated after excluding the first 2 ns of each trajectory as equilibration.
+The  ordering of the P5Ala and P1Ala mutants was reversed for  PB solvation, but the difference between the two values was  not statistically significant.
+No other differences to ordering  were observed.
+  For both the PB and the GB solvation methods, the computational technique correctly replicates the ordering of the  experimental results.
+Compared with experiment (excluding  the experimentally unknown P1Ala DDG), the PB method  has a mean unsigned error of 1.74 kcal mol21  , and the GB  method a mean unsigned error of 2.66 kcal mol21  .
+Figure 2  shows the correlation of calculated results with their experimental counterparts, excluding the P1Ala mutant, for which  an experimental DDG has not been unambiguously  determined.
+Although the mean computational results correlate well with experiment, it is worth noting that the individual results (Supplementary Information) are inherently  variable, indicated by the high standard deviations for all  mutants in Table III.
+In fact, for the P1Ala mutation, which  experimentally is highly detrimental to inhibition and shows  a large positive DDG, computational results range from  24.50 to 23.32 kcal mol21 for PB and from 24.33 to  2.11 kcal mol21 for GB.
+The large standard deviation and  the range of the results obtained imply that any single result  from the comparison of the trajectories of a single native and  mutant structure is unreliable.
+Only the mean of a large  number of individual DDG values correctly replicates the  experimental ordering, and even then the standard deviations  of the results highlight their large potential error.
+  Full MD protocol timings  The time taken to complete a single DDG calculation with  both protocols was also compared.
+Timings for the full MD  protocol are shown in Table IV.
+Timings for MD simulations  are based on performance in parallel across 8 Intel Xeon  E5462 2.80 GHz cores, whereas MM-PBSA/GBSA calculations were performed in serial on Intel Xeon 5150 processors at 2.66 GHz.
+  The total time of 105 h is meant to be a representative of a  single DDG calculation for a single mutant.
+It does not take  into account the fact that 10 MD runs of both the native and  the mutant structures were carried out, nor any potential  speed-up by running multiple MD runs or free energy calculations at once on multiple machines.
+In total, the 60 MD  simulations and 60 MM-PBSA/GBSA calculations carried  out for the full MD protocol required 22 000 CPU hours,  plus analysis time.
+  Post-processing protocol DDG results  Computational results using the post-process alanine-scanning  protocol are also shown in Table III.
+To again investigate the  effects of equilibration time on DDG, results were recalculated  after excluding the first 2 ns of each trajectory as equilibration.
+  No differences to ordering were observed.
+  The results using PB solvation again correctly replicate  the experimental ordering.
+For GB solvation, the P2Ala and  P2Ala results are incorrectly ordered; however, the difference between them is not statistically significant (two-tailed  heteroscedastic Students t-test, P  0.91).
+  Correlation of the calculated and experimental results is  again plotted in Fig. 2.
+Comparing the calculated DDG  values to experiment, excluding the P1Ala result, gives a  mean unsigned error of 0.84 kcal mol21 for PB solvation  and 1.19 kcal mol21 for GB solvation.
+The magnitude of  these errors compares well to those obtained in other postprocess alanine-scanning experiments (Massova and  Kollman, 1999; Huo et al., 2002).
+In addition, the variation  in these results is clearly much lower than those for the  full MD protocol, as indicated by the lower standard deviations.
+Interestingly, the one result which does show significant variation between runs, the P1Ala mutation with  PB solvation, involves the loss of a salt bridge on mutation  to alanine.
+This is not surprising, as previous work has  shown that DDG calculated with this protocol are particularly prone to error when mutations remove salt bridges  (Huo et al., 2002).
+Despite this, the post-process protocol  Table III.
+Computationally determined mean relative free energies using  either the full MD or the post-process protocols and either PB or GB  solvation  Mutation Protocol Solvation Mean DDG  (kcal mol21  )  Std.
+  Dev.
+  95%  CI(kcal mol21  )  P5ALA Full MD PB 2.59 5.59 +1.11  P1ALA Full MD PB 2.88 5.74 +1.14  P2ALA Full MD PB 3.43 5.46 +1.08  P2ALA Full MD PB 6.57 5.62 +1.12  P1ALA Full MD PB 9.04 5.87 +1.16  P5ALA Full MD GB 2.43 4.04 +0.80  P1ALA Full MD GB 3.40 4.26 +0.85  P2ALA Full MD GB 5.33 4.18 +0.83  P2ALA Full MD GB 7.98 4.34 +0.86  P1ALA Full MD GB 11.22 4.94 +0.98  P5ALA Post-process PB 0.45 0.27 +0.19  P1ALA Post-process PB 0.93 0.46 +0.33  P2ALA Post-process PB 3.02 0.69 +0.49  P2ALA Post-process PB 4.39 0.61 +0.44  P1ALA Post-process PB 9.45 3.44 +2.46  P5ALA Post-process GB 20.07 0.19 +0.14  P1ALA Post-process GB 0.65 0.13 +0.09  P2ALA Post-process GB 4.00 0.32 +0.23  P2ALA Post-process GB 3.98 0.47 +0.34  P1ALA Post-process GB 6.55 0.58 +0.41  Results include the associated standard deviations across 10 independent  trajectories, and the 95% confidence interval of the mean of the results.
+  Alanine scanning of PPIs by theory and experiment  201   at J.N. Desmarais Library, Laurentian University on November 4, 2014 http://peds.oxfordjournals.org/ Downloaded from generates results that are consistently more accurate and  more precise than the equivalent from the full MD  protocol.
+  Post-process protocol timings  Timings for a single DDG calculation, run on the same hardware as the full MD protocol above, are shown in Table V.  The lack of a second MD simulation means that a single  DDG calculation is 40% faster than the full MD method.
+  Taking into account the fact that multiple mutations still only  require a single native structure MD run, this relative speed  increase improves as more and more mutations are performed.
+As an illustration, a total of 4000 CPU hours were  required for performing 10 MD simulations and 60 free  energy calculations with this protocolover five times fewer  than the equivalent results generated with full MD.
+  Single structure free energy calculations  It has been suggested (Kuhn et al., 2005; Rastelli et al.,  2009) that DDG values could be calculated even more  efficiently using single proteinligand structures for  MM-PBSA/GBSA calculations rather than an ensemble from  an MD trajectory.
+This is also the idea behind the Robetta  server (Kortemme et al., 2004), a popular online tool for performing automated interface alanine scanning that also uses  an empirically scaled MM equation to calculate free energy  changes on mutation (Kortemme and Baker, 2002).
+In comparison to the protocols above, both of these methods take  only minutes to perform.
+We carried out MM-PBSA and  -GBSA analyses on three sets of individual snapshots; the  1SMF crystal structure compared with its relevant alanine  mutants generated using the post-process alanine-scanning  method of truncating coordinates, the minimised crystal  structure compared with its relevant alanine mutants generated using the post-process alanine-scanning method, and the  minimised crystal structure compared with minimised relevant alanine mutants.
+As the Robetta method includes its  own side-chain rotamer optimisation, only the 1SMF crystal  structure was submitted to the online Robetta server.
+DDG  results from all four single structure comparisons are shown  in Table VI.
+  Fig. 2.
+Correlation between the calculated and the experimental DDG values (kcal mol21  ) for both post-process (above) and full MD (below) protocols and  PB (crosses and solid line) and GB (squares and dashed line) solvation methods.
+  Table IV.
+Representative timings (h) for analysis of one mutation using one  trajectory and the full MD protocol  Calculation Time (h) Cumulative  time (h)  Structure setup 1 1  Native MD simulation 45 46  MM-PBSA 6 52  MM-GBSA 1 53  Mutant MD simulation 45 98  MM-PBSA 6 104  MM-GBSA 1 105  Table V. Representative timings (h) for analysis of one mutation using one  trajectory and the post-process protocol  Calculation Time (h) Cumulative  time (h)  Structure setup 1 1  Native MD simulation 45 46  Native MM-PBSA 6 52  Native MM-GBSA 1 53  Mutant MM-PBSA 6 59  Mutant MM-GBSA 1 60  R.T.Bradshaw et al.  202   at J.N. Desmarais Library, Laurentian University on November 4, 2014 http://peds.oxfordjournals.org/ Downloaded from Neither the MM-PBSA nor the MM-GBSA method  perform particularly well with single structures.
+The Robetta  server gives DDG predictions that are of more realistic magnitudes, although this is to be expected as the various contributions to free energy have been empirically scaled to fit an  experimental data set. That said, Robetta still misplaces the  P2Ala mutation through a combination of the overestimation  of its DDG and an underestimation of the DDG of the P2Ala  mutation.
+Interestingly, the contribution of the P2Thr residue  to binding is systematically overestimated and mis-ordered  across all methods and solvation techniques, suggesting a  particularly favourable conformation is present in the crystal  structure and that the P2Thr residue is more correctly  sampled by MD simulations.
+Hence, for this system, the  post-process alanine-scanning results give the most accurate  and precise predictions of DDG, albeit at far greater computational cost than the single structure techniques.
+  Discussion  Comparison of full MD protocol with post-process protocol  In theory, the full MD alanine-scanning methodology is a  more accurate representation of the biological effects of an  alanine mutation as potential changes in the protein  dynamics are taken into account.
+The post-process  alanine-scanning method, because it simply truncates the  coordinates of the native complex snapshots, assumes that  there are no backbone or side-chain rearrangements in the  alanine mutant and that the dynamics of the native and  mutant structures are identical.
+The extent to which this is a  reasonable assumption is likely to depend on the complex  investigated.
+Nevertheless, this approximation also enhances  the potential for cancellation of errors between native and  mutant MM-PBSA/GBSA calculations.
+  It is clear from our results that there are substantial differences in the calculated relative free energies between MD  runs unless the post-process protocol is used.
+The variation  in DDG calculated with the full MD protocol (Table III) has  two potential contributors; fluctuations in the MM and solvation terms, or fluctuations in the entropy term.
+Entropic  contributions to free energy have been neglected in these calculations and the potential effects of this are discussed  below.
+The variation in the MM and solvation terms however  is easily viewed and analysed.
+The DG values for the 10 trajectories of the native complex were decomposed into  by-residue contributions.
+Contributions of residues in the  ligand were then compared with their x1 dihedral angles  (representing side-chain rotation about the CaCb bond)  throughout the trajectory.
+  The populations of side-chain rotamers differed between all  10 runs.
+The P2Ile residue in particular showed marked differences, with a x1 dihedral of 2608 in 7571 snapshots of the  total 10 000, 21808 in 1519 snapshots and 608 in 910 snapshots.
+The possible effect these side-chain rotations had on the  contributions of P2Ile to DG is illustrated in Fig. 3, which  compares the dihedral angles and DG contributions of P2Ile in  runs 1 and 7 of the native structure.
+Although only runs 1 and 7  are shown because they most clearly show the differences in  dynamics, similar effects were seen where side-chain rotations  were observed in other runs and for other mutants.
+  Whereas the contribution of P2Ile to DG remains relatively constant for run 1, where no side-chain rotation is  observed, run 7 shows a clear increase in DG after around  200 snapshots, which correlates with a flip of the P2Ile  residue from a x1 dihedral of 2608 to 21808.
+Increases of a  similar magnitude, and equally correlated with changes in  dihedral angle, were observed in the other runs where P2Ile  side-chain rotations were present.
+Hence, we see that independent MD trajectories, although starting from the same  structure, can simulate different dynamics, sample different  conformational substates and have markedly different enthalpic contributions to binding free energies.
+  The effect that this has on DDG calculation for the P2Ala  mutation is shown in Figs 4 and 5.
+In Fig. 4, the overall DG  results for runs 1 and 7 are shown before and after the postprocess alanine scanning.
+As the native and the mutant DG  results fluctuate together, the DDG of the mutation remains  relatively constant at around 4 kcal mol21 for both runs 1  and 7.
+Figure 5 shows the overall DG results comparing runs  1 and 7 using the full MD protocol.
+As the native and the  mutant DG values fluctuate asynchronously, so too do the  DDG results, varying from 1 to 10 kcal mol21 for run 1  and 25 to 5 kcal mol21 for run 7.
+  Thus, the sampling of different conformational substates  by independent MD simulations, and the associated variation  in binding free energies, seems to be the source of much of  Table VI.
+Relative free energies for alanine mutants of single structures calculated with the MM-PBSA, MM-GBSA and Robetta methods  Mutation Solvation Cryst.
+Struct.a  (kcal mol21  )  Minimised 1b  (kcal mol21  )  Minimised 2c  (kcal mol21  )  Robettad  (kcal mol21  )  P5Ala PB 23.28 1.14 20.59 0.47  P1Ala PB 2.56 1.68 4.28 1.37  P2Ala PB 7.76 6.84 11.77 2.69  P2Ala PB 4.39 6.58 9.88 2.02  P1Ala PB 20.52 26.25 15.86 6.94  P5Ala GB 26.46 20.59 20.76 N/A  P1Ala GB 0.45 1.50 20.83 N/A  P2Ala GB 5.25 5.83 8.57 N/A  P2Ala GB 2.86 5.66 4.75 N/A  P1Ala GB 8.90 11.61 12.94 N/A  a  Calculations performed on 1SMF crystal structure, stripped of water and ions and post-process alanine mutants thereof.
+  b  Calculations performed on minimised 1SMF crystal structure, stripped of water and ions and post-process alanine mutants thereof.
+  c  Calculations performed on minimised 1SMF crystal structure, stripped of water and ions and minimised alanine mutants thereof.
+  d  Calculations performed on 1SMF crystal structure, analysed with the Robetta online server.
+Solvation methods not applicable.
+  Alanine scanning of PPIs by theory and experiment  203   at J.N. Desmarais Library, Laurentian University on November 4, 2014 http://peds.oxfordjournals.org/ Downloaded from the variability in DDG seen for the full MD method.
+  Although this is to be expected from MD simulations of this  length and has been recognised previously (Kuhn et al.,  2005; Stoica et al., 2008), it also casts doubt on the  reliability of using single comparisons between native and  mutant MD trajectories to generate relative free energies,  even if these simulations are individually equilibrated.
+Using  a post-processing alanine-scanning method, there are no  differences in dynamics between the native and the mutant  structures.
+This eliminates much of the variability in both the  MM and the entropy terms, hence the variability in the DDG  values calculated across different runs is greatly reduced,  allowing the results calculated from a single run to be treated  with greater confidence.
+  Fig. 3.
+Variation in DG contribution (kcal mol21  , below) and dihedral angle (above) for P2Ile over the course of runs 1 (solid) and 7 (dashed).
+Both variables  shown as running averages for clarity.
+Dihedral angles above 1208 have been corrected to be calculated as negative dihedrals (less than 21808) for ease of  visualisation.
+  Fig. 4.
+Comparison of DG running averages (kcal mol21  ) through trajectory for runs 1 (above) and 7 (below) and native (solid) and P2Ala (dashed lines)  complexes.
+Post-process alanine-scanning protocol used.
+  R.T.Bradshaw et al.  204   at J.N. Desmarais Library, Laurentian University on November 4, 2014 http://peds.oxfordjournals.org/ Downloaded from Comparison of PB and GB solvation methods  The PoisonBoltzmann equation is a theoretically more rigorous way of treating the polar contribution to the solvation  energy than the generalised Born equation.
+Computationally  it is a more costly approach, but also leads to solvation energies better in agreement with experiment for biological  macromolecules (Feig et al., 2004).
+  In our case, the use of PB solvation over GB improves the  accuracy of results for both the full MD and the post-process  protocols when compared with experiment, as seen by the  improvement in mean unsigned errors.
+However, this  improvement also comes at an approximately six times  greater computational cost over the GB solvation calculation.
+  In addition, the PB results for both the full MD and the postprocess protocols (Table III) consistently show higher standard deviations than their GB equivalents.
+  The reasons for this increased variance are not immediately clear.
+It has been previously reported that the DDG of  residues involved in salt bridges, such as the P1Lys in the  trypsin/MBTI system, may not be modelled well by the postprocess alanine-scanning method and PB solvation (Huo  et al., 2002).
+Within the MM-PBSA DDG calculation, any  changes in the molecular mechanical electrostatics term on  mutation must be compensated by an equal change in the PB  solvation term.
+As both these terms are relatively large in  magnitude (in the order of 102  103 kcal mol21  ), small fluctuations in structure can have large effects on the cancellation of the two terms, leading to large fluctuations in the  overall relative binding free energies from snapshot to snapshot.
+In addition, the largest changes in the electrostatics  terms are likely to come from mutations involving charged  residues and/or salt bridges.
+As the standard deviation of the  P1Ala mutation DDG is the highest seen in Table III, we  presume that a similar effect occurs here.
+  The GB solvation method seems to suffer less from this  sensitivity, particularly for the P1Ala mutation.
+However, the  extent to which this is generalisable to other systems remains  unclear.
+A preference for using PB over GB is likely to  depend on the complex investigated therefore.
+Overall,  although PB does produce more accurate results, this is at  the expense of computational time and a slightly higher  uncertainty in the DDG values.
+  Entropic considerations  The full calculation of absolute binding free energy for a  complex involves a term describing the entropy change on  complexation:  kGl  kEMMl  kGPBSA=GBSAl  TkSl 5  However, in our calculations of relative free energy changes  between native and mutant complexes, we have assumed that  the entropy terms for the native and mutant complexes  cancel.
+Where changes between the native and the mutant  structures are small this is often taken as a reasonable  assumption to make given the computational time taken in  estimating entropic contributions reliably through normal  mode analysis and can still give effective DG results that  correlate well with experiment (Kollman et al., 2000; Gohlke  et al., 2003).
+  However, neglecting entropic contributions to relative free  energies can have a negative effect on the accuracy and  ordering of the results (Stoica et al., 2008) as well as a positive one (Rastelli et al., 2009).
+Recent attempts to improve  the predictive ability of entropy calculations with the  MM-PB/GBSA approaches have focused on the speed and  accuracy of both quasi-harmonic (Baron et al., 2009) and  normal mode (Kongsted and Ryde, 2009) entropy analyses.
+  Fig. 5.
+Comparison of DG running averages (kcal mol21  ) through trajectory for runs 1 (above) and 7 (below) and native (solid) and P2Ala (dashed lines)  complexes.
+Full MD alanine-scanning protocol used.
+  Alanine scanning of PPIs by theory and experiment  205   at J.N. Desmarais Library, Laurentian University on November 4, 2014 http://peds.oxfordjournals.org/ Downloaded from In our case, however, inclusion of an entropy term in calculation of DDG with the post-processing method would still  seem to be counterproductive.
+Given that snapshots are  essentially identical in the native and the mutant structures, it  is expected that entropy terms would also be close to identical for native and mutant structures.
+Thus, as one of the  major advantages of the post-processing technique is its  speed, for our system any improvement in precision gained  through including entropy would likely be outweighed by the  increase in computational cost of the free energy calculation.
+  Summary  In summary, the post-process alanine-scanning protocol provides a fast and reproducible tool to estimate relative free  energies of binding for PPIs.
+Although not as fast as single  structure techniques, it still relies on sampling of the full  dynamics of the complex and an atomistic MM description  of interfacial interactions, which shows improved results for  our system.
+The theoretical lack of need of an entropy calculation also improves its speed advantage over the full MD  technique.
+The reduction in variation it shows across runs is  a direct result of the structural similarities between native  and mutant snapshots, ensuring that it is only the effect of  the individual mutation that is measured, rather than the  inclusion of other effects arising from differences in protein  dynamics between simulations.
+Although the system tested  here involves relatively few mutations, results from the other  studies on PPIs using the post-process protocol detailed  above seem to confirm this effect.
+  We have also seen that the averaging of multiple independent trajectories using the full MD protocol generates relative  free energies that match the ordering of experimental results,  albeit with lower precision and accuracy than the postprocessing technique, while comparisons of single trajectories with the same approach do not do this.
+The use of  multiple independent trajectories to enhance sampling in  thermodynamic integration experiments (Lawrenz et al.,  2009) or to rapidly converge MM-GBSA results (Genheden  and Ryde, 2009) has also recently been reported.
+In the latter  study, the high degree of statistical convergence achieved is  presumably due to the short lengths of each independent  simulation, during which it may be unlikely that side-chain  rotations or conformational changes occur, as we do not see  a similar level of convergence achieved here despite using a  similar number of snapshots overall.
+Nevertheless, our results  would also seem to highlight the usefulness of carrying out  multiple simulations of the system of interest when using  MM-PBSA/GBSA, either to calculate a statistical uncertainty  in the results, to converge free energies more precisely for  absolute DG calculations, or simply to verify that results  obtained from a single simulation were not fortuitously good  or bad.
+  Finally, although the post-processing protocol has only  been applied to alanine scanning at present, there is no  reason why it could not be similarly applied to mutations  involving structurally related residues, such as I/V, C/S, T/V,  S/C/A and so on.
+Mutations to unnatural amino acids would  also be possible.
+Where the coordinates of heavy atoms in a  residue already exist from a simulation of a native structure,  the computational code, time and analysis required to make a  sensible mutation to a structurally related residue is minimal.
+  Whether these structurally related mutations would also  reasonably replicate experimental results, despite the inherent  approximations about dynamics, would be of great interest  for further work.
+  Supplementary data  Supplementary data are available at PEDS online.
+  Acknowledgements  R.T.B. thanks the Chemical Biology Centre of Imperial College London and  the Engineering and Physical Sciences Research Council (EPSRC), UK, for  the award of a studentship.
+E.W.T. thanks the Biotechnology and Biological  Sciences Research Council (BBSRC), UK, for the award of a David Phillips  Fellowship (BB/D02014X/1).
+  Funding  This work was supported by an Engineering and Physical  Sciences Research Council (EPSRC) Life Sciences Interface  (LSI) Doctoral Training Centre grant (EP/F500416/1).
+  References  Arkin,M.R. and Wells,J.A. (2004) Nat. Rev. Drug Discov., 3, 301317.  Baron,R., Hunenberger,P.H. and McCammon,J.A. (2009) J. Chem.
+Theory  Comput., 5, 31503160.  Birk,Y., Gertler,A. and Khalef,S. (1963) Biochem. J., 87, 281284.  Bondi,A. (1964) J. Phys.
+Chem., 68, 441451.  Bowman,D. (1946) Proc.
+Soc. Exp.
+Biol. Med., 63, 547550.  Brauer,A.B.E. and Leatherbarrow,R.J. (2003) Biochem.
+Biophys. Res.  Commun., 308, 300305.  Brauer,A.B.E., Domingo,G.J., Cooke,R.M., Matthews,S.J. and  Leatherbarrow,R.J. (2002) Biochemistry, 41, 1060810615.  Case,D.A., et al. (2005) J. Comput.
+Chem., 26, 16681688.  Case,D.A., et al. (2008) AMBER 10, University of California,  San Francisco.  Cerutti,D.S., Duke,R., Freddolino,P.L., Fan,H. and Lybrand,T.P. (2008)  J. Chem.
+Theory Comput., 4, 16691680.  Chase,T.J. and Shaw,E. (1970) In Perlmann,G.E. and Lorand,L. (eds.),  Methods in Enzymology.
+New York: Academic Press, pp. 2027.  Connolly,M.L. (1983) J. Appl. Crystallogr., 16, 548558.  Costa,J.R. and Yaliraki,S.N. (2006) J. Phys. Chem. B, 110, 1898118988.  Cui,Q.Z., Sulea,T., Schrag,J.D., Munger,C., Hung,M.N., Naim,M.,  Cygler,M. and Purisima,E.O. (2008) J. Mol. Biol., 379, 787802.  Cunningham,B.C. and Wells,J.A. (1989) Science, 244, 10811085.  Darden,T., York,D. and Pedersen,L. (1993) J. Chem. Phys., 98,  1008910092.  Feig,M., Onufriev,A., Lee,M.S., Im,W., Case,D.A., Charles,L. and Brooks,I.  (2004) J. Comput. Chem., 25, 265284.  Fox,T. and Kollman,P.A. (1998) J. Phys.
+Chem. B, 102, 80708079.  Genheden,S. and Ryde,U. (2009) J. Comput. Chem., 31, 837846.  Gohlke,H. and Case,D.A. (2004) J. Comput. Chem., 25, 238250.  Gohlke,H., Kiel,C. and Case,D.A. (2003) J. Mol. Biol., 330, 891913.  Hornak,V., Abel,R., Okur,A., Strockbine,B., Roitberg,A. and Simmerling,C.  (2006) Proteins, 65, 712725.  Huo,S., Massova,I. and Kollman,P.A. (2002) J. Comput. Chem., 23, 1527.  Izaguirre,J.A., Catarello,D.P., Wozniak,J.M. and Skeel,R.D. (2001) J. Chem.  Phys., 114, 20902098.  Jorgensen,W.L., Chandrasekhar,J., Madura,J.D., Impey,R.W. and Klein,M.L.  (1983) J. Chem. Phys., 79, 926935.  Kollman,P.A., et al. (2000) Acc. Chem. Res., 33, 889897.  Kongsted,J. and Ryde,U. (2009) J. Comput. Aided Mol. Des., 23, 6371.  Kortemme,T. and Baker,D. (2002) Proc. Natl Acad. Sci. USA, 99,  1411614121.  Kortemme,T., Kim,D.E. and Baker,D. (2004) Sci. STKE, 219, pl2.
+  Kuhn,B., Gerber,P., Schulz-Gasch,T. and Stahl,M. (2005) J. Med. Chem.,  48, 40404048.  Lawrenz,M., Baron,R. and McCammon,J.A. (2009) J. Chem.
+Theory  Comput., 5, 11061116.  R.T.Bradshaw et al.  206   at J.N. Desmarais Library, Laurentian University on November 4, 2014 http://peds.oxfordjournals.org/ Downloaded from Li,Y., Huang,Q., Zhang,S., Liu,S., Chi,C. and Tang,Y. (1994) J. Biochem.,  116, 1825.
+  Loncharich,R.J., Brooks,B.R. and Pastor,R.W. (1992) Biopolymers, 32,  523535.  Massova,I. and Kollman,P.A. (1999) J. Am. Chem. Soc., 121, 81338143.
+  Moreira,I.S., Fernandes,P.A. and Ramos,M.J. (2006) J. Phys.
+Chem. B, 110,  1096210969.  Moreira,I.S., Fernandes,P.A. and Ramos,M.J. (2007a) J. Comput. Chem., 28,  644654.  Moreira,I.S., Fernandes,P.A. and Ramos,M.J. (2007b) Proteins, 68,  803812.  Moreira,I.S., Fernandes,P.A. and Ramos,M.J. (2008) Theor. Chem. Acc.,  120, 533542.  Pastor,R.W., Brooks,B.R. and Szabo,A. (1988) Mol. Phys., 65, 14091419.  Qi,R.F., Song,Z.W. and Chi,C.W. (2005) Acta Biochim. Biophys.
+Sin., 37,  283292.  Rastelli,G., Del Rio,A., Degliesposti,G. and Sgobba,M. (2009) J. Comput.  Chem., 31, 797810.  Ryan,D.P. and Matthews,J.M. (2005) Curr.
+Opin. Struct. Biol., 15, 441446.  Ryckaert,J.P., Ciccotti,G. and Berendsen,H.J.C. (1977) J. Comput. Phys., 23,  327341.  Schechter,I. and Berger,A. (1967) Biochem.
+Biophys. Res. Commun., 27,  157162.  Srinivasan,J., Cheatham,T.E., Cieplak,P., Kollman,P.A. and Case,D.A.  (1998) J. Am. Chem. Soc., 120, 94019409.
+  Still,W.C., Tempczyk,A., Hawley,R.C. and Hendrickson,T. (1990) J. Am.  Chem.
+Soc., 112, 61276129.  Stoica,I., Sadiq,S.K. and Coveney,P.V. (2008) J. Am. Chem. Soc., 130,  26392648.  Tam,J.P., Wu,C.R., Liu,W. and Zhang,J.W. (1991) J. Am. Chem. Soc., 113,  66576662.  Tuncbag,N., Kar,G., Keskin,O., Gursoy,A. and Nussinov,R. (2009) Brief  Bioinform., 10, 217232.  Wells,J.A. and McClendon,C.L. (2007) Nature, 450, 10011009.  Zhao,L. and Chmielewski,J. (2005) Curr.
+Opin. Struct. Biol., 15, 3134.  Alanine scanning of PPIs by theory and experiment  207   at J.N. Desmarais Library, Laurentian University on November 4, 2014 http://peds.oxfordjournals.org/ Downloaded from

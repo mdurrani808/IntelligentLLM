@@ -1,0 +1,758 @@
+Structural and Mutational Analyses of the Interaction
+between the Barley α-Amylase/Subtilisin Inhibitor
+and the Subtilisin Savinase Reveal a Novel Mode
+of Inhibition
+Pernille Ollendorff Micheelsen1
+⁎, Jitka Vévodová2
+, Leonardo De Maria1
+,
+Peter Rahbek Østergaard1
+, Esben Peter Friis1
+, Keith Wilson3
+and Michael Skjøt1
+1
+Research and Development,
+Novozymes A/S, Krogshøjvej
+36, 2880 Bagsværd, Denmark
+2
+Sir William Dunn School of
+Pathology, University of Oxford,
+South Parks Road, Oxford OX1
+3RE, UK
+3
+York Structural Biology
+Laboratory, University of York,
+Heslington, York YO10 5YW,
+UK
+Received 5 February 2008;
+received in revised form
+9 May 2008;
+accepted 14 May 2008
+Available online
+22 May 2008
+Subtilisins represent a large class of microbial serine proteases. To date, there
+are three-dimensional structures of proteinaceous inhibitors from three
+families in complex with subtilisins in the Protein Data Bank. All interact
+with subtilisin via an exposed loop covering six interacting residues. Here
+we present the crystal structure of the complex between the Bacillus lentus
+subtilisin Savinase and the barley α-amylase/subtilisin inhibitor (BASI).
+This is the first reported structure of a cereal Kunitz-P family inhibitor in
+complex with a subtilisin. Structural analysis revealed that BASI inhibits
+Savinase in a novel way, as the interacting loop is shorter than loops
+previously reported. Mutational analysis showed that Thr88 is crucial for the
+inhibition, as it stabilises the interacting loop through intramolecular inter￾actions with the BASI backbone.
+© 2008 Elsevier Ltd. All rights reserved.
+Edited by R. Huber
+Keywords: barley α-amylase/subtilisin inhibitor; subtilisin; Savinase;
+inhibition; X-ray crystallography
+Introduction
+Subtilisins represent a large class of microbial se￾rine proteases, of which those secreted by the Bacillus
+species (e.g., BPN′ from Bacillus amyloliquefaciens,
+subtilisin Carlsberg from Bacillus subtilis and Savi￾nase from Bacillus lentus) are the most studied. Sub￾tilisins are endopeptidases with a catalytic triad con￾sisting of Asp32, His64 and Ser221 (with BPN′
+numbering used consistently1
+). Subtilisins are glob￾ular proteins, with the active site situated in a
+shallow groove on the surface. The mechanism is
+identical with that of trypsin-like family enzymes but
+is evolutionary and structurally different.2 The sub￾strate binding cleft of Savinase provides six subsites
+for binding of the side chains of the protein to be
+degraded, designated S4–S2′ (nomenclature accord￾ing to Ref. 3). Inhibitor residues corresponding to the
+subsites are numbered P4–P2′, and adjacent inhibitor
+residues are numbered sequentially; cleavage occurs
+between the P1 and P1′ residues. More than 50% of
+the 275 amino acids have been subjected to muta￾genesis, and this has provided great insight into en￾zyme catalysis.4 Furthermore, subtilisins are impor￾tant industrial enzymes, being used in various fields
+such as detergent production, food production, feed
+production, leather and textile processing, pharma￾ceutical production, diagnostics and waste manage￾ment.5 The three-dimensional fold is highly con￾served, with a central seven-stranded parallel β-sheet
+flanked on both sides by α-helices.6–8 There is a highly
+conserved calcium binding site in most Bacillus sub-
+*Corresponding author. E-mail address:
+pnmi@novozymes.com.
+Abbreviations used: BASI, barley α-amylase/subtilisin
+inhibitor; WASI, wheat α-amylase/subtilisin inhibitor;
+CI-2, chymotrypsin inhibitor 2; AMY2, α-amylase 2; SAS,
+solvent-accessible surface.
+doi:10.1016/j.jmb.2008.05.034 J. Mol. Biol. (2008) 380, 681–690
+Available online at www.sciencedirect.com
+0022-2836/$ - see front matter © 2008 Elsevier Ltd. All rights reserved.tilisins coordinated by an aspartic acid and five car￾bonyl oxygens, four of which are found in the loop
+made up by residues 75–81. There is a second and
+much weaker ion binding site on the surface 32 Å
+away from the strong calcium site that coordinates to
+residues 195 and 197. This region actually has two ion
+binding sites close to each other; one accommodates
+sodium and the other accommodates calcium. These
+two sites cannot be occupied simultaneously.4
+Complexes of the serine proteases with proteinac￾eous inhibitors have been the object of intensive
+study. Inhibitors identified to date fall into about 20
+structural families.9 Proteinaceous subtilisin inhibi￾tors are found in 3 families [Potato I inhibitor family,
+Streptomyces subtilisin inhibitor (SSI) family and
+Kazal inhibitor family7,10,11] and are all canonical in￾hibitors. The structures of inhibitors from all 3 classes
+have been solved in complex with a subtilisin: chy￾motrypsin inhibitor 2 (CI-2, from the Potato I inhi￾bitor family)7 and SSI (from the SSI family) both in
+complex with subtilisin Novo (BPN′)
+10 and the tur￾key ovomucoid third domain (OMTKY3, from the
+Kazal inhibitor family) in complex with subtilisin
+Carlsberg.11 Although the 3 families of inhibitors
+have different overall folds, they all interact with
+subtilisin via a structurally conserved exposed loop
+surrounding the fully exposed P1 residue. The
+interaction is stabilised through a highly conserved
+hydrogen bonding pattern.7,12–15
+Hordeum vulgare α-amylase/subtilisin inhibitor
+(BASI) is a double-headed inhibitor that acts both on
+α-amylase 2 (AMY2) from barley and on serine pro￾teases from the subtilisin family. BASI is thought to
+have two functions: to control degradation of starch
+during premature sprouting16 and to protect the seed
+from pathogen-derived subtilisin-type serine
+proteases17 (for a review, see the work of Bellincampi
+et al.18 and Nielsen et al.19). It is a single-chain protein
+of 181 amino acids and belongs to the Kunitz-P-type
+inhibitor family.16,20,21 BASI shares about 30%
+sequence identity with Kunitz-type inhibitors from
+other plants that contain two conserved disulfide
+bridges.22 The closest homologues to BASI are from
+wheat (WASI) and rice, and these share 92% and 58%
+sequence identities, respectively.23,24 The structure of
+BASI has been solved in complex with AMY225 and
+barley thioredoxin (HvTrxh2)26: In both complexes,
+BASI displays the β-trefoil topology. BASI does not
+inhibit barley thioredoxin but rather serves as a
+substrate.
+In this study, we present the X-ray structure of
+BASI in complex with the B. lentus subtilisin Savi￾nase, which shows that BASI inhibits subtilisins in a
+novel way.
+Results and Discussion
+Architecture of the BASI–Savinase complex
+There are two independent complexes in the asym￾metric unit, with very similar structures: superpo￾sition of the two results in a root-mean-square (rms)
+difference of 0.8 Å over 450 Cα atoms. The inhibitor
+binds to the active site of the enzyme, situated in a
+shallow groove on the surface (Fig. 1), in agreement
+with biochemical experiments that supported a
+strictly competitive inhibition mode.27 Eighteen resi￾dues of the inhibitor interact with 28 residues of the
+enzyme. The overall contact area between the en￾zyme and the inhibitor is 1800 Å2
+, which is equi￾valent or slightly higher than areas in other subti￾lisin–proteinaceous inhibitor complexes (Fig. 2a,
+upper panel).28 In the standard mechanism for
+canonical protein inhibition of serine proteases, the
+inhibitor binds to the protease in a substrate-like
+manner, with the protease interacting loop kept in a
+well-ordered conformation. BASI residues Ala86–
+Thr89 bind to Savinase S5 to S2 by hydrogen bon￾ding. At the interface, there are 144 contacts less than
+4 Å. BASI residues Ala86–Thr89 (P5–P2) make 77
+contacts with 17 residues in Savinase, 7 of which are
+hydrogen bonds. In the cleft leading to the active site,
+the P4–P2 residues make five main chain–main chain
+hydrogen bonds, which follow the expected hydro￾gen bonding pattern typical for P4–P2 interactions
+(Fig. 2, lower panel).6 Two additional side chain–
+main chain hydrogen bonds are formed between
+BASI Ala86–Savinase Ser126 and BASI Tyr87–Savi￾nase Ser130.
+Savinase fold and mobility
+Savinase displays the subtilisin-like fold with the
+same topology as reported previously.2 Superposi￾tion of the Cα atoms from the two Savinase mole￾cules in the asymmetric unit gives an rms difference
+of 0.3 Å for 269 Cα atoms. Superposing the current
+model on native Savinase (1SVN)2 gives a similar
+rms of 0.3 Å over the same 269 Cα atoms. There is no
+significant rearrangement of Savinase side chains in
+the active site on BASI inhibition.
+BASI fold and mobility
+In the complex, BASI displays the β-trefoil topol￾ogy with the same topology as reported previous￾ly.25,26 Superposition of the 181 Cα atoms from the
+two independent BASI molecules gives an rms differ￾ence of 1.1 Å. Furthermore, BASI can be superposed
+with the BASI molecule (chain C) in complex with
+AMY2 (1AVA)25 and with the BASI molecule in com￾plex with HvTrxh2 (2IWT),26 resulting in rms differ￾ences of 2.3 and 1.8 Å, respectively (based on 181
+and 179 Cα atoms, respectively). The relatively high
+differences for superposition of BASI are due to the
+high level of flexibility of the loops (definition of
+loops and β-strands as in Vallee et al.25). Twenty-eight
+residues, all situated in loops found on the surface of
+BASI, have B-factors above 50. When those residues
+are omitted from the superposition and the remain￾ing 153 Cα atoms are superposed, the rms difference
+drops to 0.8 Å, whereas if only the core structure,
+omitting all loops, is superposed, the rms is 0.5 Å
+(62 Cα
+). In the BASI–AMY2 complex, a large part of
+682 Novel Inhibition Mode of a Subtilisinthe BASI surface is tightly bound in the interface; the
+loops involved in the BASI–AMY2 interface are
+therefore in a different conformation compared with
+the BASI–Savinase complex. The rms value drops to
+1.4 Å (113 Cα atoms used, BASI–Savinase chain C and
+1AVA chain C) when residues involved in the AMY2
+binding are omitted from the superposition (Fig. 3).25
+Positioning of the metal ions
+All subtilisins are calcium dependent, and many of
+the Bacillus enzymes have a conserved strong
+calcium binding site (site A) and a weaker ion
+binding site (site B).2,7,8 In addition to the four
+peptide chains, 4 calcium ions, 6 sodium ions and 24
+Fig. 2. Subtilisin inhibition modes. Upper panel: The subtilisin surface is shown in white, and residues in contact with
+the inhibitor are shown in blue. Residues of the inhibitor spanning subsites P4′ to P9 are shown as red sticks. Lower panel:
+Zoom-in on the interaction. P5–P2′ inhibitor residues and interacting subtilisin residues are shown as sticks; subtilisin
+residues, active site residues and inhibitor residues are shown in blue, yellow and red, respectively. β-Strands are shown
+as arrows. (a) BASI (this work, chains A and C). (b) SSI (2SIC). (c) CI-2 (2SNI). (d) OMTKY3 (1YU6, chains A and C).
+Fig. 1. Overall structure of the BASI–Savinase complex. BASI is shown in red; Savinase, in blue; the calcium in site A,
+in green; and the sodium in site B, in yellow.
+Novel Inhibition Mode of a Subtilisin 683chloride ions were modelled into the electron
+density. All identified ions are present in the crystal￾lisation solution. Two of the calcium ions are bound
+in site A and coordinate to Savinase as previously
+described.2,7,8,29 The other two calcium ions are coor￾dinated to Savinase Val153 and four water mole￾cules; there is no coordination with BASI. Site B is
+occupied by a sodium ion in both complexes (Fig. 1).
+Comparison of the two complexes in the
+asymmetric unit
+The overall structures of the two complexes are
+essentially identical. However, there are some small
+differences, with one significant difference in the
+enzyme–inhibitor interface. The buried surface area
+in the interface of the AC complex is 1866 Å2
+, while
+that of the BD complex is 1798 Å2
+.
+28 In the interface,
+only two BASI residues, Arg61 and Arg85, differ
+significantly in the interface area contribution, due to
+side chain rearrangement (Fig. 4). The solvent-acces￾sible surface (SAS) for the two residues was calcu￾lated (Table 1) in order to better understand the
+effects of the side chain rearrangements on the inter￾face area. The biggest difference arises from Arg61.
+Taking the entire residue into account, 77% and 86%
+of the SAS are covered by BASI itself in the C and D
+chains, respectively; in addition, when BASI is
+bound to Savinase, 70% and 0% of the SAS are
+covered by Savinase in the AC and BD complexes,
+respectively. Thus, Arg61 contributes to the interface
+area with 60 and 0 Å2 in the AC and BD complexes,
+respectively. The opposite situation is seen for Arg85,
+which contributes to the interface area with 40 and
+80 Å2 in the AC and BD complexes, respectively.
+Furthermore, in the AC complex, BASI Ala181 has
+seven contacts with Savinase Thr132, two of which
+are hydrogen bonds; on the other hand, in the DB
+complex, Ala181 is not involved in the interface. In
+general, there are more contacts and hydrogen bonds
+in the AC complex compared with the BD complex.
+These differences probably reflect differences in the
+crystal contacts of the two complexes. The D chain is
+more solvated than the C chain, and this could
+explain the difference observed in the mobility of the
+two chains.
+Comparison with other subtilisin–inhibitor
+complexes
+BASI interacts with Savinase via an exposed loop,
+but the length of the loop differs from that observed
+in the complexes previously reported (Fig. 2). Where￾as the subtilisin interacting loops in the previous
+structures constitute the P4–P2′ residues, the loop in
+BASI is composed of the P5–P2 residues (Ala86–
+Thr89). After the P2 residue, the BASI loop is pulled
+out of the Savinase cleft, as Cys90 (which would be
+the P1 residue) forms a disulfide bond with Cys43.
+This moves the potential scissile bond, between
+Cys90 and Leu91, 6.4 Å away from the active serine,
+compared with about 2.6 Å in the other three types of
+inhibitors (Fig. 2, lower panel). Since the interacting
+loop in BASI is shorter, the triple-stranded β-sheet
+seen in other subtilisin–proteinaceous inhibitor com￾plexes is missing (Fig. 2, lower panel). This is a novel
+Fig. 3. BASI plasticity I. Cα
+–Cα distance between corresponding BASI residues after superimposition onto chain C of
+the BASI–Savinase complex; loops are marked with gray shading. Upper panel: BASI (this work, chain D). Middle panel:
+AMY2–BASI complex (2AVA, chain C). Lower panel: HvTrxh2–BASI complex (2IWT). In the small panel at the bottom,
+orange, red and yellow squares identify BASI residues in contact with Savinase, AMY2 and HvTrxh2, respectively.
+684 Novel Inhibition Mode of a Subtilisinway for a proteinaceous inhibitor to interact with a
+subtilisin. The inhibition is basically canonical, but as
+the interacting loop is shorter, it lacks the reactive
+bond. As the potential scissile bond is pulled away
+from the active serine, BASI is not degraded, in
+contrast to other known serine protease inhibitors
+where the P1–P1′ bond is slowly degraded by the
+enzyme.30–32 This suggests that the BASI–subtilisin
+complex is more stable than other known subtilisin–
+inhibitor complexes. The cysteine that prevents BASI
+from being degraded is conserved in the close homo￾logues in WASI23 and rice α-amylase/subtilisin
+inhibitor,24 which can be assumed to share this
+novel mode of interaction.
+Biological role and regulation of BASI
+In addition to inhibiting Savinase, BASI inhibits
+AMY2 from barley, and indeed both enzymes can be
+inhibited simultaneously.16,33 The Savinase inhibi￾tion is calcium independent, while the AMY2 inhibi￾tion is calcium dependent, as there is a fully hydrated
+calcium ion in the interface between BASI and AMY2
+that is absent from the AMY2 structure.25 It has been
+suggested that the calcium ion in the BASI–AMY2
+interface plays an important role in the regulation of
+the AMY2 inhibition.33 Amylases in grains must be
+inhibited to prevent premature sprouting, but the
+inhibition needs to be regulated in order for the seed
+to germinate at a later point. The ability of BASI to
+simultaneously inhibit AMY2 and Savinase, the
+possible regulatory role of the calcium ion in the
+BASI–AMY2 interaction and the unregulated nature
+of the BASI–Savinase interaction are consistent with
+the proposed biological roles of BASI: to prevent
+premature sprouting and to inhibit pathogen￾derived proteases. The AMY2 and the Savinase
+binding sites are located on opposite surfaces of BASI
+(Fig. 5). Therefore, the ternary complex between
+AMY2, BASI and Savinase might occur naturally,
+although it has not yet been isolated to date.
+Savinase inhibition by BASI mutants
+The binding loop of CI-2 is supported and confor￾mationally constrained by an extensive network of
+hydrogen bonds and intramolecular interactions.7,34
+This network is not present in BASI, but BASI has a
+more extended hydrogen bond network between the
+P5–P2 residues and the residues in the subtilisin
+groove. Although BASI and CI-2 hydrogen bond to
+Savinase in the same manner with respect to the P4–
+P2 residues and the cores of the loop consisting of the
+P7–P2 residues have the same conformation, only the
+P2 residue is conserved (BASI Thr89 and CI-2 Thr58).
+All BASI P7–P2 residues were mutated individually
+to those present in the CI-2 P7–P2 sequence to gain a
+better understanding of the role of each residue in the
+Table 1. SASs for Arg61 and Arg85 (Å2
+)
+AC BD
+ISO BASI CPLX ISO BASI CPLX
+Arg61
+Side chain 233.00 84.59 24.63 228.72 48.23 48.23
+Backbone 151.78 0.42 0.42 143.53 0.51 0.51
+Total 384.78 85.02 25.05 372.25 48.74 48.74
+Arg85
+Side chain 228.01 46.13 10.83 229.21 87.34 16.53
+Backbone 145.87 4.47 0.00 145.10 9.83 0.12
+Total 373.88 50.60 10.83 374.31 97.17 16.65
+The residues were considered as isolated (ISO), in the context of
+BASI (BASI) and in the context of the enzyme (CPLX). The
+contributions were split into backbone and side chain.
+Fig. 4. BASI plasticity II. The side chains of the interacting residues are shown as sticks; BASI residues are shown in
+red, and the surface of Savinase is shown in blue. (a) BASI–Savinase, corresponding to chains A and C. (b) BASI–Savinase,
+corresponding to chains B and D of this work.
+Novel Inhibition Mode of a Subtilisin 685inhibition. In addition, Y87A and T89A, two BASI
+point mutations, previously reported to have a 3.5-
+fold decrease in affinity and no affinity change, res￾pectively,35 were included in this study.
+The effect of the mutations on the inhibition of
+Savinase was assayed on N-Suc-AAPF-pNA (N￾succinyl-L-alanyl-L-alanyl-L-prolyl-L-phenylalanine
+4-nitroanilide). The Ki values increased for all
+mutants, ranging from a few to more than 120-fold
+(Fig. 6 and Table 2). Mutation of the outermost resi￾dues of the P7–P2 loop (P7, F84V; P6, R86G; P2, T89A)
+had little effect on Ki, while mutation of the P3–P5
+residues resulted in changes ranging from 11-fold to
+more than 120-fold. Both the A86T and the Y87T
+mutants showed a 25- to 30-fold reduction in Ki.
+Ala86 is situated in a hydrophobic pocket, and,
+presumably, introducing a hydrophilic residue desta￾bilises the interaction. In the wild-type BASI, Tyr87 is
+involved in a side chain hydrogen bond to Savinase
+Ser130. When mutated into a residue with a shorter
+side chain, the hydrogen bond is presumably lost; the
+Y87A mutant showed an 11-fold decrease in affinity.
+The Y87A mutant was previously reported to in￾crease Ki by only 3.5-fold35 compared with the 10-
+fold increase seen here. In addition, Bønsager et al.
+reported a value for Ki for the wild-type enzyme
+higher than that measured in this study. The differ￾ences seen in the two studies must be due to experi￾mental differences, including assay conditions, pro￾tein expression, protein purification method and
+protein modifications.
+The most significant change in inhibition effect
+results from mutation of the P3 residue (T88V). The
+side chain of Thr88 forms two intramolecular hydro￾Fig. 6. Inhibition of Savinase by BASI wild type and
+BASI variants. (▪) BASI wild type; (▴) F84V; (O) R85G;
+(●) A86T; (□) Y87I; (△) Y87A; (◊) T88V; (○) T89A. The
+inhibition assay was carried out at pH 9.8 (see Materials
+and Methods). Curves are drawn through the experi￾mental points.
+Fig. 5. The ternary complex AMY2–BASI–Savinase. AMY2 is shown in yellow; BASI, in red; Savinase, in blue; and the
+calcium situated in the AMY2–BASI interface, in green.
+686 Novel Inhibition Mode of a Subtilisingen bonds to Cys90 and Leu91; in addition, there are
+several intramolecular interactions between the
+Thr88 side chain and the BASI backbone, which are
+presumably lost when valine is introduced.
+From the present study, it is clear that Ala86, Thr87
+and especially Thr88 are important for Savinase in￾hibition, and all are conserved in the wheat inhibitor,
+while only Ala86 and Thr88 are conserved in the rice
+inhibitor.23,24 The variation in loop sequence in
+subtilisin inhibitors suggests that the side chains
+play a major role in constraining the loops in the right
+conformation necessary for subtilisin inhibition.
+Sequence conservation of protease inhibiting
+loops
+Within inhibitor families, there is high sequence
+variability in the interacting loops, with some clear
+amino acid preferences. The Kunitz-P-type inhibitors
+from soybean have a conserved proline at the P3
+position, whereas in the barley, wheat and rice inhi￾bitors, there is a threonine.9 The present study shows
+that threonine is crucial for BASI inhibition of Savi￾nase. In canonical inhibitors, the side chain of the P3
+residue is not involved in the interface with the
+enzyme, as it points away from the enzyme and to￾wards the solvent or the inhibitor itself.6 In contrast,
+in the BASI–Savinase complex, the side chain of
+Thr88 forms hydrogen bonds with the backbones of
+Cys90 and Leu91, leading to stabilisation of the P5–
+P2 loop. When the polar OH moiety of Thr88 is
+replaced by a hydrophobic CH3 (T88V), the loop is
+no longer restrained in the conformation necessary
+for binding, and the inhibitory power is lost.
+Proteinase K inhibition by cereal Kunitz-P-type
+inhibitors
+A low-resolution structure of the WASI, which
+shares 92% sequence identity with BASI, has been
+solved in complex with proteinase K.36 Given the
+high sequence identity between BASI and WASI, the
+ability of BASI to inhibit proteinase K was tested, and
+it was observed that BASI inhibits proteinase K to the
+same extent as it inhibits Savinase (data not shown).
+A model of the complex between BASI and pro￾teinase K was generated by superposing proteinase
+K [Protein Data Bank (PDB) ID 1OYO] onto Savinase
+in complex with BASI (the coordinates for the pro￾teinase K–WASI complex are not available). Al￾though proteinase K and Savinase share only 37%
+sequence identity, the region around the active site
+superposes well and the enzyme–inhibitor interface,
+including the hydrogen bonding pattern, is con￾served. The only clash in the interface is seen bet￾ween the side chain of proteinase K Tyr104 and BASI
+Tyr87. However, a significant side chain rearrange￾ment has been reported in the proteinase K complex
+with WASI, leading to stacking of proteinase K
+Tyr104 and WASI Tyr86 (equivalent to BASI Tyr87),
+thereby contributing to the tight binding in this
+complex.36 It is reasonable to assume that the same
+side chain rearrangement would occur in a protei￾nase K complex with BASI.
+Conclusions
+In this study, the first cereal Kunitz-P-type inhi￾bitor in complex with a subtilisin has been deter￾mined. BASI inhibits subtilisin in a novel way, as the
+interacting loop only includes the P4–P2 residues,
+while the interacting loop of inhibitors from other
+families consists of the P4–P2′ residues. The inter￾acting loop is pulled away from the active serine by a
+disulfide bridge between Cys90 and Cys43, prevent￾ing cleavage of the inhibitor. BASI also inhibits pro￾teinase K, and it is reasonable to assume that the
+same residues are involved in the interface, based on
+superposition of Savinase and proteinase K. The roles
+of the loop residues have been analysed by mutating
+them one by one. All seven variants showed in￾creased Ki values, ranging from a few times to more
+than 120 times. The P3 residue (Thr88) is shown to be
+crucial for the inhibition, as it stabilises the conforma￾tion of the interacting loop, through hydrogen bon￾ding and intramolecular interactions with the BASI
+backbone.
+Materials and Methods
+Cloning
+All constructs were cloned as described previously.37
+The BASI gene was synthesised by PCR-based gene syn￾thesis.38 All oligonucleotides were purchased from
+Invitrogen. BASI cDNA without signal sequence and the
+truncated α-factor secretion signal37 was amplified and
+combined using splicing-by-overlapping extension PCR.
+All constructs were subcloned in the TOPO vector using a
+TOPO Blunt TOPO PCR Cloning Kit (Invitrogen).
+Variants were generated by PCR methods essentially
+like QuickChange (Stratagene) using a BASI template.
+The following internal mutagenic primers were used to
+i n t r od u c e mu t a ti o n s (u nd e rli n ed ): F 8 4 V, 5′-
+GTACGCATATCCGTCCGCGCCTACACG-3′; R85G, 5′-
+CGCATATCCTTCGGCGCCTACACGACG-3′; A86T, 5′-
+CATATCCTTCCGCACCTACACGACGTGTC-3′; Y87I,
+5′-CCTTCCGCGCCATCACGACGTGTCTG-3′; Y87A,
+5′-CCTTCCGCGCCGCCACGACGTGTCTGC-3′; T88V,
+5′-CTTCCGCGCCTACGTGACGTGTCTGCAG-3′; and
+T89A, 5′-CGCGCCTACACGGCCTGTCTGCAGTCC-3′.
+Table 2. Ki values for Savinase inhibition by BASI variants
+Inhibitor Ki/nM
+Wild type 4.5 (±0.6)
+F84V 9.0 (±1.2)
+R85G 8.2 (±1.1)
+A86T 100.0 (±14.6)
+Y87I 91.1 (±12.4)
+Y87A 40.3 (±5.3)
+T88V 541.8 (±250.4)
+T89A 6.0 (±0.8)
+All experiments were carried out in triplets.
+Novel Inhibition Mode of a Subtilisin 687Protein expression, purification and characterisation
+Wild-type BASI and all seven variants were expressed as
+reported previously.37 Mutation did not alter the expres￾sion levels, indicating proper global folding of the proteins.
+Molecular size and purity were verified by SDS-PAGE and
+mass spectroscopy (not shown). BASI was precipitated
+from the supernatant by adding solid ammonium sulfate
+[(NH4)2SO4] to a final concentration of 3.2 M, and the so￾lution was stirred for 30 min. The precipitate was collected
+by centrifugation (20,000g, 20 min) and dissolved in a
+minimal volume of buffer A (20 mM CH3COOH/NaOH,
+pH 5.0). The dissolved BASI was transferred to buffer A by
+gel filtration (desalting) on a G25 Sephadex column. The
+desalted BASI solution was slightly turbid, and this tur￾bidity was removed by 0.45-μm filtration. The filtrate was
+applied to a HighLoad SP-Sepharose column equilibrated
+in buffer A. After washing with buffer A, the column was
+eluted with a linear NaCl gradient (0→0.5 M) in buffer A
+over 10 column volumes. Fractions from the column with
+BASI were pooled and diluted 10 times with deionised
+water to reduce the conductivity. The diluted BASI pool
+was applied to a SOURCE S column equilibrated in buffer
+A. After washing with buffer A, the column was eluted
+with a linear NaCl gradient (0→0.5 M) in buffer A over 10
+column volumes. BASI-containing fractions from the
+column were analysed by SDS-PAGE, and pure fractions
+were pooled. G25 Sephadex, HighLoad SP-Sepharose and
+SOURCE S are column materials from GE Healthcare.
+Crystallisation
+Savinase was purified by affinity chromatography and
+ion-exchange chromatography. BASI and Savinase were
+mixed with a small molar excess of BASI. The mixture was
+dialysed overnight in 10 mM Mes (4-morpholineethane￾sulfonic acid) and 2 mM CaCl2, pH 6.0, and concentrated
+by centrifugation in an Amicon Ultra-15 device (with a
+cutoff of 5000 Da, Millipore Corporation). The BASI–Savi￾nase complex was concentrated to 23 mg ml−1 in 10 mM
+Mes buffer, pH 6.0, and 2 mM CaCl2. Crystallisation
+screening was conducted using sitting-drop vapour diffu￾sion with Crystal Screen 1, Crystal Screen 2, Index Screen
+(all from Hampton Research) and PACT Screen (Molecular
+Dimensions Limited). Small single crystals were obtained
+in index screen condition A9 (0.1 M Bis–Tris, pH 5.5, and
+3 M NaCl). Subsequently, hanging-drop vapour diffusion
+was applied to optimise those conditions that had led to
+the most promising results, as well as exploring a range of
+different pH levels and types and concentrations of
+precipitant. Drops containing 1 μl of the protein and 1 μl
+of reservoir solution were equilibrated against 500 μl of
+reservoir solution at 18 °C. Crystals suitable for X-ray
+diffraction were obtained from 0.1 M sodium acetate
+buffer, pH 5.6, and 4 M NaCl in the form of bipyramids of
+average dimensions 0.4 mm × 0.3 mm × 0.3 mm, which
+appeared after 5–10 days.
+Data collection and processing
+Prior to data collection, crystals were mounted in nylon
+CryoLoops (Hampton Research) and vitrified. No cryo￾protectant was required due to the high concentration of
+NaCl in the mother liquor. Data were collected at ESRF
+ID23-1 at 100 K with an ADSC Q315 detector. The crystals
+diffracted to a resolution of 1.85 Å and belong to the
+primitive tetragonal space group P41212, with unit cell
+parameters a=b= 100.64 Å and c= 216.24 Å. There are two
+molecules of the BASI–Savinase complex per asymmetric
+unit giving a Matthews coefficient39 of 2.77 Å3
+/Da, corres￾ponding to a solvent content of ∼56%. The intensity data
+were indexed, integrated and scaled using the HKL2000
+package with DENZO and SCALEPACK40 (Table 3).
+Structure solution and refinement
+The structure was solved by molecular replacement
+using the program PHASER,41 with the wild-type Savinase
+(PDB ID 1SVN) and BASI (PDB ID 1AVA) molecules as
+independent components in the rotation and translation
+parameter search. Both complexes of BASI–Savinase were
+clearly placed in the asymmetric unit, and the R-factors
+after the first 10 cycles of maximum-likelihood refinement
+by REFMAC542 were 25.8% and 33.6% for Rcryst and Rfree,
+respectively.
+The model was completed by visual inspection of the
+2Fo−Fc and Fo−Fc electron density maps using the prog￾ram Coot.43 Non-crystallographic symmetry averaging
+was used to improve the map, and non-crystallographic
+symmetry restraints were applied during the first steps of
+refinement. The R-factors converged to 23.3% and 28.1%
+for Rcryst and Rfree, respectively.
+At this stage, a number of water molecules were added
+to the model using Coot. The data were at first refined to
+2 Å. In the final part of the refinement, the data set was
+reprocessed to 1.85 Å, but with the Rfree test set of reflec￾tions imported from the original 2-Å data set. This im￾proved the electron density maps and helped rebuild the
+flexible loops. Following several steps of refinement,
+combined with visual checking of the model, Rcryst and
+Rfree dropped to 20.2% and 23.9%, respectively. The final
+model contains 6620 non-hydrogen protein atoms and 574
+water molecules. Electron density peaks greater than the
+Table 3. Crystallographic data and refinement statistics
+Data collection
+Wavelength (Å) 1.0039
+Space group P41212
+Cell dimensions (Å) a=b= 100.64
+c= 216.24
+Resolution (Å) 50–1.85 (1.92–1.85)
+Rmergea 0.105 (0.471)
+I/σ(I) 16.3 (1.6)
+Completeness (%) 87.7 (41.4)
+Redundancy 4.3 (1.6)
+Mosaicity 0.52
+Total no. of reflections 364,148
+No. of unique reflections 84,089
+Refinement
+Rcryst 0.202
+Rfree 0.239
+Free R-value test set size (no reflections) (%) 5.0
+No. of non-hydrogen atoms 6620
+No. of water molecules 574
+Mean B value (Å2
+) 34.3
+B value from Wilson plot (Å2
+) 27.0
+Bonds (Å) 0.017
+Angles (°) 1.915
+Ramachandran plot regions (%)
+Most favoured 88.5
+Additionally allowed 11.4
+Generously allowed 0.1
+Disallowed 0.0
+a Rmerge ¼ P
+hkl
+P
+i
+jIið Þ h; k; l h ij I hð Þ ; k; l =
+P
+hkl
+P
+i
+Iið Þ h; k; l .
+688 Novel Inhibition Mode of a Subtilisin 3σ level were identified as 4 Ca2+, 6 Na+ and 24 Cl− ions, all
+present in the crystallisation medium. The average B-factor
+for main chain atoms is 34.3 Å2
+. The refinement statistics
+are summarised in Table 3.
+The Ramachandran plot was defined by Procheck,44 and
+the distribution of residues is summarised in Table 3.
+Interface calculations
+The interface area of the complex between Savinase and
+BASI was obtained by evaluating the solvent-accessible
+area of A12 of the complex and then the solvent-accessible
+areas of A1 and A2, the surface areas of dissociated Savinase
+and BASI, respectively, and then computing B= (A1+A2−
+A12). The surfaces were computed analytically using the
+Lee and Richards algorithm28 and a probe radius of 1.4 Å.
+Inhibition of Savinase and proteinase K
+BASI wild type, F84V, R85G, A86T, Y87I, Y87A, T88V
+and T89A (seven concentrations ranging from 0 to 100 nM)
+were preincubated with Savinase or proteinase K (40 nM)
+for 10 min at room temperature in 50 mM glycine, pH 9.8,
+150 mM KCl, 0.5 mM CaCl and 0.01% Triton X-100. N-Suc￾AAPF-pNA (Sigma S 7388) was added (five concentrations
+ranging from 0.16 to 6.4 mM, in 250 μl). Changes in ab￾sorbance at 405 nM were measured and converted into
+initial rates of reaction. Km, Vmax and Ki were calculated for
+all BASI variants by non-linear regression; competitive in￾hibition was calculated using GraphPad prism, version
+5.01 (GraphPad Software).
+PDB accession number
+The coordinates and structure factors have been depo￾sited in the PDB under PDB ID 3BX1.
+Acknowledgements
+This work was financially supported by the STF
+Program of the Danish Research Agency Ministry of
+Science, Technology and Innovation. We thank Lars
+Kobberøe Skov, Lars Beier and Søren Neve for help￾ful discussions and Allan Svendsen and Jürgen Cars￾ten Franz Knötzel for proofreading of the manu￾script. We also thank Lars Østergaard for valuable
+assistance with the enzyme kinetics.
+Supplementary Data
+Supplementary data associated with this article
+can be found, in the online version, at doi:10.1016/
+j.jmb.2008.05.034
+References
+1. Smith, E. L., Markland, F. S., Kasper, C. B., De Lange,
+R. J., Landon, M. & Evans, W. H. (1966). The complete
+amino acid sequence of two types of subtilisin, BPN′
+and Carlsberg. J. Biol. Chem. 241, 5974–5976.
+2. Betzel, C., Klupsch, S., Papendorf, G., Hastrup, S.,
+Branner, S. & Wilson, K. S. (1992). Crystal structure of
+the alkaline proteinase Savinase™ from Bacillus lentus
+at 1.4 Å resolution. J. Mol. Biol. 223, 427–445.
+3. Schechter, I. & Berger, A. (1967). On the size of the
+active site in proteases: I. Papain. Biochem. Biophys. Res.
+Commun. 27, 157–162.
+4. Bryan, P. N. (2000). Protein engineering of subtilisin.
+Biochim. Biophys. Acta, 1543, 203–222.
+5. Saeki, K., Ozaki, K., Kobayashi, T. & Ito, S. (2007).
+Detergent alkaline proteases: enzymatic properties,
+genes, and crystal structures. J. Biosci. Bioeng. 103,
+501–508.
+6. Siezen, R. J. & Leunissen, J. A. M. (1997). Subtilases: the
+superfamily of subtilisin-like serine proteases. Protein
+Sci. 6, 501–523.
+7. McPhalen, C. A. & James, M. N. G. (1988). Structural
+comparison of two serine proteinase–protein inhibitor
+complexes: eglin-C–subtilisin Carlsberg and CI-2–
+subtilisin Novo. Biochemistry, 27, 6582–6598.
+8. Bode, W., Papamokos, E. & Musil, D. (1987). The high￾resolution X-ray crystal structure of the complex
+formed between subtilisin Carlsberg and eglin C, an
+elastase inhibitor from the leech Hirudo medicinalis.
+Structural analysis, subtilisin structure, and interface
+geometry. Eur. J. Biochem. 166, 673–692.
+9. Krowarsch, D., Cierpicki, T., Jelen, F. & Otlewski, J.
+(2003). Canonical protein inhibitors of serine pro￾teases. Cell. Mol. Life Sci. 60, 2427–2444.
+10. Takeuchi, Y., Satow, Y., Nakamura, K. T. & Mitsui, Y.
+(1991). Refined crystal structure of the complex of
+subtilisin BPN′ and Streptomyces subtilisin inhibitor at
+1.8 Å resolution. J. Mol. Biol. 221, 309–325.
+11. Maynes, J. T., Cherney, M. M., Qasim, M. A.,
+Laskowski, M. J. & James, M. N. G. (2005). Structure
+of the subtilisin Carlsberg–OMTKY3 complex reveals
+two different ovomucoid conformations. Acta Crystal￾logr., Sect. D: Biol. Crystallogr. 61, 580–588.
+12. Heinz, D. W., Priestle, J. P., Rahuel, J., Wilson, K. S. &
+Grutter, M. G. (1991). Refined crystal structures of
+subtilisin novo in complex with wild-type and two
+mutant eglins. Comparison with other serine protei￾nase inhibitor complexes. J. Mol. Biol. 217, 353–371.
+13. Takeuchi, Y., Noguchi, S., Satow, Y., Kojima, S.,
+Kumagai, I., Miura, K. et al. (1991). Molecular recogni￾tion at the active site of subtilisin BPN′: crystallogra￾phic studies using genetically engineered proteinac￾eous inhibitor SSI (Streptomyces subtilisin inhibitor).
+Protein Eng. 4, 501–508.
+14. Takeuchi, Y., Satow, Y., Nakamura, K. T. & Mitsui, Y.
+(1991). Refined crystal structure of the complex of
+subtilisin BPN′ and Streptomyces subtilisin inhibitor at
+1.8 Å resolution. J. Mol. Biol. 221, 309–325.
+15. Perona, J. J. & Craik, C. S. (1995). Structural basis of
+substrate specificity in the serine proteases. Protein Sci.
+4, 337–360.
+16. Mundy, J., Svendsen, I. & Hejgaard, J. (1983). Barley
+alpha-amylase/subtilisin inhibitor. Isolation and char￾acterization. Carlsberg Res. Commun. 48, 81–90.
+17. Pekkarinen, A. I. & Jones, B. L. (2003). Purification and
+identification of barley (Hordeum vulgare L.) proteins
+that inhibit the alkaline serine proteinases of Fusarium
+culmorum. J. Agric. Food Chem. 51, 1710–1717.
+18. Bellincampi, D., Camardella, L., Delcour, J. A.,
+Desseaux, V., D'Ovidio, R., Durand, A. et al. (2004).
+Potential physiological role of plant glycosidase
+inhibitors. Biochim. Biophys. Acta, 1696, 265–274.
+19. Nielsen, P. K., Bonsager, B. C., Fukuda, K. & Svensson,
+B. (2004). Barley alpha-amylase/subtilisin inhibitor:
+Novel Inhibition Mode of a Subtilisin 689structure, biophysics and protein engineering. Bio￾chim. Biophys. Acta, 1696, 157–164.
+20. Leah, R. & Mundy, J. (1989). The bifunctional alpha￾amylase/subtilisin inhibitor of barley: nucleotide and
+patterns of seed-specific expression. Plant Mol. Biol. 12,
+673–682.
+21. Svendsen, I., Hejgaard, J. & Mundy, J. (1986). Com￾plete amino acid sequence of the alpha-amylase/sub￾tilisin inhibitor from barley. Carlsberg Res. Commun. 51,
+43–50.
+22. Onesti, S., Brick, P. & Blow, D. M. (1991). Crystal struc￾ture of a Kunitz-type trypsin inhibitor from Erythrina
+caffra seeds. J. Mol. Biol. 217, 153–176.
+23. Mundy, J., Hejgaard, J. & Svendsen, I. (1984).
+Characterization of a bifunctional wheat inhibitor of
+endogenous α-amylase and subtilisin. FEBS Lett. 167,
+210–214.
+24. Ohtsubo, K. I. & Richardson, M. (1992). The amino
+acid sequence of a 20 kDa bifunctional subtilisin/
+alpha-amylase inhibitor from bran of rice (Oryza sativa
+L.) seeds. FEBS Lett. 309, 68–72.
+25. Vallee, F., Kadziola, A., Bourne, Y., Juy, M., Roden￾burg, K. W., Svensson, B. & Haser, R. (1998). Barley
+alpha-amylase bound to its endogenous protein inhi￾bitor BASI: crystal structure of the complex at 1.9 Å
+resolution. Structure, 6, 649–659.
+26. Maeda, K., Hagglund, P., Finnie, C., Svensson, B. &
+Henriksen, A. (2006). Structural basis for target
+protein recognition by the protein disulfide reductase
+thioredoxin. Structure, 14, 1701–1710.
+27. Laskowski, M., Jr & Kato, I. (1980). Protein inhibitors
+of proteinases. Annu. Rev. Biochem. 49, 593–626.
+28. Lee, B. & Richards, F. M. (1971). The interpretation of
+protein structures: estimation of static accessibility.
+J. Mol. Biol. 55, 379–400.
+29. Gros, P., Kalk, K. H. & Hol, W. G. (1991). Calcium
+binding to thermitase. Crystallographic studies of
+thermitase at 0, 5, and 100 mM calcium. J. Biol. Chem.
+266, 2953–2961.
+30. Siekmann, J., Wenzel, H. R., Matuszak, E., von
+Goldammer, E. & Tschesche, H. (1988). The pH
+dependence of the equilibrium constant KHyd for
+the hydrolysis of the Lys15–Ala16 reactive-site pep￾tide bond in bovine pancreatic trypsin inhibitor
+(aprotinin). J. Protein Chem. 7, 633–640.
+31. Otlewski, J., Zbyryt, T., Dryjanski, M., Bulaj, G. &
+Wilusz, T. (1994). Single peptide bond hydrolysis/
+resynthesis in squash inhibitors of serine proteinases:
+2. Limited proteolysis of Curcurbita maxima trypsin
+inhibitor I by pepsin. Biochemistry, 33, 208–213.
+32. Musil, D., Bode, W., Huber, R., Laskowski, M., Jr, Lin,
+T. Y. & Ardelt, W. (1991). Refined X-ray crystal struc￾tures of the reactive site modified ovomucoid inhi￾bitor third domains from silver pheasant (OMSVP3*)
+and from Japanese quail (OMJPQ3*). J. Mol. Biol. 220,
+739–755.
+33. Nielsen, P. K., Bønsager, B. C., Berland, C. R.,
+Sigurskjold, B. W. & Svensson, B. (2003). Kinetics and
+energetics of the binding between barley alpha￾amylase/subtilisin inhibitor and barley alpha-amylase
+2 analyzed by surface plasmon resonance and isother￾mal titration calorimetry. Biochemistry, 42, 1478–1487.
+34. Radisky, E. S. & Koshland, D. E., Jr (2002). A clogged
+gutter mechanism for protease inhibitors. Proc. Natl
+Acad. Sci. USA, 99, 10316–10321.
+35. Bønsager, B. C., Nielsen, P. K., Abou, H. M., Fukuda,
+K., Praetorius-Ibba, M. & Svensson, B. (2005). Muta￾tional analysis of target enzyme recognition of the
+beta-trefoil fold barley alpha-amylase/subtilisin inhi￾bitor. J. Biol. Chem. 280, 14855–14864.
+36. Pal, G. P., Kavounis, C. A., Jany, K. D. & Tsernoglou,
+D. (1994). The three-dimensional structure of the
+complex of proteinase K with its naturally occurring
+protein inhibitor, PKI3. FEBS Lett. 341, 167–170.
+37. Micheelsen, P. O., Ostergaard, P. R., Lange, L. & Skjot,
+M. (2008). High-level expression of the native barley
+[alpha]-amylase/subtilisin inhibitor in Pichia pastoris.
+J. Biotechnol. 133, 424–432.
+38. Hoover, D. M. & Lubkowski, J. (2002). DNAWorks:
+an automated method for designing oligonucleotides
+for PCR-based gene synthesis. Nucleic Acids Res. 30,
+e43.
+39. Matthews, B. W. (1968). Solvent content of protein
+crystals. J. Mol. Biol. 33, 491–497.
+40. Otwinowski, Z. & Minor, W. (1997). Processing of X￾ray diffraction data collected in oscillation mode. In:
+Charles WC, ed. Methods in Enzymology, Macromole￾cular Crystallography, Part A. pp. 307–326,.
+41. Read, R. J. (2001). Pushing the boundaries of mole￾cular replacement with maximum likelihood. Acta
+Crystallogr., Sect. D: Biol. Crystallogr. 57, 1373–1382.
+42. Murshudov, G. N., Vagin, A. A. & Dodson, E. J. (1997).
+Refinement of macromolecular structures by the
+maximum-likelihood method. Acta Crystallogr., Sect.
+D: Biol. Crystallogr. 53, 240–255.
+43. Emsley, P. & Cowtan, K. (2004). Coot: model-building
+tools for molecular graphics. Acta Crystallogr., Sect. D:
+Biol. Crystallogr. 60, 2126–2132.
+44. Laskowski, R. A., Macarthur, M. W., Moss, D. S. &
+Thornton, J. M. (1993). Procheck—a program to check
+the stereochemical quality of protein structures.
+J. Appl. Crystallogr. 26, 283–291.
+690 Novel Inhibition Mode of a Subtilisin

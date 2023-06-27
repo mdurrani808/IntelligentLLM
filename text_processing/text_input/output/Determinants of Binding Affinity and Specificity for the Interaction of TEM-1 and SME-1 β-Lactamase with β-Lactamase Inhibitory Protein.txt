@@ -1,0 +1,665 @@
+Determinants of Binding Affinity and Specificity for the
+Interaction of TEM-1 and SME-1 -Lactamase with -Lactamase
+Inhibitory Protein*
+Received for publication, August 4, 2003, and in revised form, August 18, 2003
+Published, JBC Papers in Press, August 21, 2003, DOI 10.1074/jbc.M308572200
+Zhen Zhang‡ and Timothy Palzkill‡§¶
+From the ‡Structural and Computational Biology and Molecular Biophysics Program, the §Department of Molecular
+Virology and Microbiology, and the ¶Department of Biochemistry and Molecular Biology, Baylor College of Medicine,
+Houston, Texas 77030
+The hydrolysis of -lactam antibiotics by class A -lac￾tamases is a common cause of bacterial resistance to
+these agents. The -lactamase inhibitory protein (BLIP)
+is able to bind and inhibit several class A -lactamases,
+including TEM-1 -lactamase and SME-1 -lactamase.
+Although the TEM-1 and SME-1 enzymes share 33%
+amino acid sequence identity and a similar fold, they
+differ substantially in surface electrostatic properties
+and the conformation of a loop-helix region that BLIP
+binds. Alanine-scanning mutagenesis was performed to
+identify the residues on BLIP that contribute to its bind￾ing affinity for each of these enzymes. The results indi￾cate that the sequence requirements for binding are
+similar for both enzymes with most of the binding free
+energy provided by two patches of aromatic residues on
+the surface of BLIP. Polar residues such as several
+serines in the interface do not make significant contri￾butions to affinity for either enzyme. In addition, the
+specificity of binding is significantly altered by muta￾tion of two charged residues, Glu73 and Lys74, that are
+buried in the structure of the TEM-1BLIP complex as
+well as by residues located on two loops that insert into
+the active site pocket. Based on the results, a E73A/Y50A
+double mutant was constructed that exhibited a 220,000-
+fold change in binding specificity for the TEM-1 versus
+SME-1 enzymes.
+Protein-protein interactions play a central role in many cel￾lular processes, such as signal transduction, the immune re￾sponse, and biochemical regulation of enzyme function. Engi￾neering of protein-protein interactions or the rational design of
+drugs that disrupt interactions requires an understanding of
+the physical basis of affinity and specificity within an interface
+(1). Protein-protein interfaces are commonly large (900 Å2
+)
+and exhibit good shape and electrostatic complementarity (2–
+5). Hydrophobic patches on the surface of one protein com￾monly pack against hydrophobic patches on the other protein,
+whereas charged residues also commonly match across an in￾terface. Alanine-scanning mutagenesis has been used to exper￾imentally test the contributions of individual residues to pro￾tein interactions (6, 7). Studies of several interfaces suggest
+that functional epitopes determined by mutagenesis are more
+restricted than structural epitopes revealed by x-ray crystal￾lography (8). The presence of a small subset of “hotspot” resi￾dues that contribute significantly to the binding free energy of
+a complex may be a general feature of protein-protein inter￾faces (3). Based on current understanding, however, it is not
+possible to reliably predict the energetic contributions of indi￾vidual residues based on the structure of a protein-protein
+interface (5). Therefore, additional structure-function studies
+are required to generate a detailed understanding of the criti￾cal components of protein-protein interfaces.
+-Lactam antibiotics such as the penicillins and cephalospor￾ins are among the most frequently used antimicrobial agents.
+Resistance to these drugs is most commonly due to the action of
+-lactamase enzymes. -Lactamases catalyze the hydrolysis of
+the amide bond in the -lactam ring to create an ineffective
+antimicrobial (9). There are four classes (A–D) of -lactamases
+based on primary sequence homology (10). TEM-1 and SME-1
+are class A -lactamases that are found in Gram-negative
+bacteria. These enzymes are clinically significant because of
+their ability to confer -lactam antibiotic resistance, which has
+become a serious threat for human health. Both enzymes are
+able to hydrolyze most of the penicillins and early cephalospor￾ins but not third generation cephalosporins. SME-1 has a wider
+substrate spectrum than TEM-1 in that it catalyzes the hydrol￾ysis of carbapenem antibiotics (11). The TEM-1 and SME-1
+enzymes are 33% identical at the amino acid sequence level.
+The x-ray structure of the TEM-1 and SME-1 -lactamases
+have been solved and indicate the enzymes possess a similar
+fold (12, 13). The charge characteristics of TEM-1 and SME-1
+are substantially different, however, with pI values of 5.4 and
+9.5, respectively (11).
+The -lactamase inhibitory protein (BLIP)1 is a 165-amino
+acid protein produced by Streptomyces clavuligerus that has
+been shown to be a potent inhibitor of class A -lactamases
+including TEM-1 (14–16). The x-ray structure of BLIP reveals
+that it is a flat molecule composed of a tandem repeat of a
+76-amino acid domain (16). The two domains form a concave
+surface that is largely lined with uncharged, polar residues
+such as serine and tyrosine. However, there are also three
+tryptophan and two phenylalanine residues that contribute to
+two hydrophobic patches on the concave surface. The co-crystal
+structure of BLIP with TEM-1 -lactamase indicates that BLIP
+uses the large (2636-Å2
+) concave surface to clamp over a pro￾truding loop and helix region of TEM-1 (residues 99–114) (17).
+In addition, at the periphery of the interface, two loops from
+BLIP insert into the active pocket of TEM-1 to block substrate
+binding (17). BLIP also contains three charged residues on its
+* This work was supported by National Institutes of Health Grant
+AI32956 (to T. P.). The costs of publication of this article were defrayed
+in part by the payment of page charges. This article must therefore be
+hereby marked “advertisement” in accordance with 18 U.S.C. Section
+1734 solely to indicate this fact.
+ To whom correspondence should be addressed. Tel.: 713-798-5609;
+Fax: 713-798-7375; E-mail: timothyp@bcm.tmc.edu. 1 The abbreviation used is: BLIP, -lactamase inhibitory protein.
+THE JOURNAL OF BIOLOGICAL CHEMISTRY Vol. 278, No. 46, Issue of November 14, pp. 45706–45712, 2003
+© 2003 by The American Society for Biochemistry and Molecular Biology, Inc. Printed in U.S.A.
+45706 This paper is available on line at http://www.jbc.orgsurface, Asp49, Glu73, and Lys74, which become buried on com￾plex formation with TEM-1 (17). Asp49 is on a loop inserted into
+the TEM-1 active site pocket and has previously been shown to
+contribute to binding (14, 15). The role of residues 73 and 74
+has not yet been assessed. However, Albeck and Schreiber (14)
+have demonstrated that electrostatic interactions between
+BLIP and TEM-1 strongly influence the association kinetics for
+complex formation. At neutral pH, both TEM-1 and BLIP carry
+a net negative charge, and mutations at the periphery of the
+interface that decrease the negative charge on either molecule
+increase the association rate (14, 18).
+In this study, alanine-scanning mutagenesis has been per￾formed to determine the functional epitope of BLIP for binding
+two class A -lactamases from Gram-negative bacteria. Ala￾nine-scanning mutagenesis is a powerful tool for understand￾ing the contributions of the side chains of individual residues to
+binding affinity (6, 7, 19, 20). The apparent binding constants
+(Ki
+) of wild type BLIP and 23 alanine mutants for the interac￾tion with TEM-1 and SME-1 were determined using a kinetic
+assay of -lactamase inhibition. Several previous studies have
+focused on the TEM-1BLIP complex (14, 15, 17, 18, 21–23).
+The use of SME-1 in this study allowed an additional investi￾gation into the determinants of binding specificity. It was found
+that the specificity of binding is significantly altered by muta￾tion of two charged residues, Glu73 and Lys74, that are buried
+in the structure of the TEM-1BLIP complex as well as by
+residues located on two loops that insert into the active site
+pocket. This information was used to engineer a BLIP molecule
+with a 220,000-fold change in binding specificity relative to
+wild type.
+EXPERIMENTAL PROCEDURES
+Materials—All enzymes were purchased from New England Biolabs
+except for Pfu polymerase, which was purchased from Stratagene. Ol￾igonucleotide primers were purchased from Integrated DNA Technolo￾gies. Talon cobalt resin was purchased from Clontech. Cephalosporin C
+was purchased from Sigma. Cation exchange columns (SP Fast Flow)
+were purchased from Amersham Biosciences.
+BLIP Cloning and PCR Mutagenesis—Wild type, D49A, and F142A
+BLIPs with N-terminal His tags were constructed previously (15). All
+other BLIP mutants were constructed by overlapping PCR (24) and
+cloned into pGR32 with an N-terminal His tag as previously described
+(15). The external PCR primers used to amplify BLIP were as follows:
+PD-bla1 (top strand, N-terminal), 5-CGGGGAGCTCGTTTCTTA￾GACGTCAGGTGGC-3; MALBLI-2 (bottom strand C-terminal), 5-GG￾GAAATCTAGATTATACAAGGTCCCACTGCCG-3. A SacI site in PD￾bla1 and an XbaI site in MALBLI-2 allowed the PCR product to be
+digested with SacI and XbaI and cloned into SacI and XbaI-digested
+pTP123 following treatment of the vector with calf intestinal alkaline
+phosphatase (15). The internal top and bottom primers used for con￾structing the BLIP mutants are shown in Table I. The double mutant
+E73A/Y50A was constructed by overlap extension PCR using the BLIP
+Y50A mutant as the template and E73A top and bottom as inside
+primers. The coding sequences of the R160A and W162A mutants
+overlap with the MALBLI-2 primer, and therefore the inside primers
+for the two mutants were not useful, and the external MALBLI-2 was
+modified to contain the appropriately mutated codon. GCC was chosen
+as the alanine codon for the mutants because of its abundant usage in
+Escherichia coli (25). The DNA sequence of each mutant was confirmed
+by the dideoxy chain termination method using an ABI 3100 capillary
+DNA sequencer.
+BLIP Expression and Purification—Wild type BLIP and the BLIP
+mutants were expressed and purified using the protocol published
+previously with minor changes (15). The plasmids containing either
+wild type BLIP or the mutants were electrotransformed into E. coli
+RB791 (equivalent to strain W3110 lacIQL8) (26). An overnight culture
+of each mutant was grown at 37 °C with shaking in 10 ml of LB medium
+in the presence of 12.5 g/ml chloramphenicol. 1.5 liters of LB medium
+containing 12.5 g/ml chloramphenicol were then inoculated using the
+10-ml overnight culture. The culture was then grown shaking at 37 °C
+until A600  1.2. For induction of BLIP, 3 mM isopropyl-1-thio--D￾galactopyranoside was added to each culture, and the cultures were
+allowed to grow overnight at 25 °C. The cells were pelleted and frozen
+at 80 °C for at least 1 h. The frozen cells were then thawed and
+resuspended in 40 ml of B-Per (Pierce). The cell debris was removed by
+centrifugation, and the soluble protein in the supernatant was purified
+over a 4-ml TALON cobalt resin column (Clontech) according to the
+manufacturer’s instructions. A 10 mM imidizole wash step was utilized
+to remove protein from the column that bound less tightly than the
+His-tagged BLIP. BLIP was eluted using a buffer consisting of 50 mM
+imidizole in washing buffer (20 mM Tris-HCl and 500 mM NaCl, pH 8.0).
+TABLE I
+Primers for construction of BLIP mutants
+Mutation Top (5–3) Bottom (5–3)
+E31A GGA GAA CTG TGC CAC CGG CGG GTC G CGA CCC GCC GGT GGC ACA GTT CTC C
+S35A GAC CGG CGG GGC CTT CGG GGA CAG CTG TCC CCG AAG GCC CCG CCG GTC
+F36A GGC GGG TCG GCC GGG GAC AGC ATC GAT GCT GTC CCC GGC CGA CCC GCC
+S39A GTC GTT CGG GGA CGC CAT CCA CTG CCG CGG CAG TGG ATG GCG TCC CCG AAC GAC
+H41A GGA CAG CAT CGC CTG CCG GGG GC GCC CCC GGC AGG CGA TGC TGT CC
+G48A GGC ACG CGG CAG CCG ACT ACT ACG CC GGC GTA GTA GTC GGC TGC CGC GTG CC
+D49A CGG GGG CAC GCG GCA GGG GCT TAC TAC GCC
+TAC GCC ACC
+GGT GGC GTA GGC GTA GTA GGC CCC TGC CGC GTG
+CCC CCG
+Y50A CG GCA GGG GAC GCC TAC GCC TAC GCC GGC GTA GGC GTA GGC GTC CCC TGC CG
+Y51A GCA GGG GAC TAC GCC GCC TAC GCC ACC GGT GGC GTA GGC GGC GTA GTC CCC TGC
+Y53A GAC TAC TAC GCC GCC GCC ACC TTC G CGA AGG TGG CGG CGG CGT AGT AGT C
+S71A GTG GAC TCG AAG GCC CAG GAG AAG CTC CTG G CCA GCA GCT TCT CCT GGG CCT TCG AGT CCA C
+E73A GGA CTC GAA GAG CCA GGC CAA GCT GCT GG CCA GCA GCT TGG CCT GGC TCT TCG AGT CC
+K74A CGA AGA GCC AGG AGG CCC TGC TGG CCC GGG CCA GCA GGG CCT CCT GGC TCT TCG
+W112A GGT CCT GCA CCA CCG CCA GTG AGT ACT ACC
+CG
+CGG GTA GTA CTC ACT GGC GGT GGT GCA GGA CC
+S113A TGC ACC ACC TGG GCC GAG TAC TAC CCG G CCG GGT AGT ACT CGG CCC AGG TGG TGC A
+G141A CGG TTA CTC GTC GAC GGC CTT CTA CCG AGG
+CTC G
+CGA GCC TCG GTA GAA GGC CGT CGA CGA GTA ACC G
+F142A GGT TAC TCG TCG ACG GGG GCT TAC CGA GGC
+TCG GCG CA
+GTG CGC CGA GCC TCG GTA AGC CCC CGT CGA CGA
+GTA ACC
+Y143A CG ACG GGG TTCGCC CGA GGCTCG G CCG AGC CTC GGG CGA ACC CCG TCG
+R144A GGG TTC TAC GCC GGC TCG GCG CAC GTG CGC CGA GCC GGC GTA GAA CCC
+H148A CGA GGC TCG GCG GCC CTC TGG TTC ACG CGT GAA CCA GAG GGC CGC CGA GCC TCG
+W150A CG GCG CAC CTC GCC TTC ACG GAC GGG CCC GTC CGT GAA GGC GAG GTG CGC CG
+R160Aa GGG AAA TCT AGA TTA TAC AAG GTC CCA CTG GGC
+CTT GCC CTG
+W162Aa GGG AAA TCT AGA TTA TAC AAG GTC GGC CTG CCG
+CTT GC
+a The coding sequences for these mutants overlap with MALbli-2 primer. Therefore, these constructions were performed by one-step PCR with
+the PDbla-1 primer and modified Malbli-2 primers as described in Experimental Procedures.
+Analysis of -Lactamase-BLIP Interactions 45707           Fractions were examined by SDS-PAGE to estimate purity and yield.
+Fractions with more than 90% purity were pooled, concentrated, and
+then changed into 50 mM phosphate, pH 7.0, buffer using Amicon
+Ultra-4 centrifugal filter devices (Millipore Corp.). SDS-PAGE was used
+to determine the purity of the BLIP preparations (Fig. 1). BLIP concen￾trations were determined by Bradford assay with a standard curve
+calibrated by quantitative amino acid analysis of purified, wild type
+BLIP (27).
+TEM-1 and SME-1 -Lactamase Expression and Purification—
+TEM-1 -lactamase was purified to greater than 95% homogeneity as
+previously described (28). SME-1 was expressed and purified from
+E. coli as previously described (29).
+Kinetic Inhibition Assay—The kinetic assay was performed as de￾scribed previously with minor changes (15). The assays were performed
+in a 96-well quartz plate. 12 reactions were monitored simultaneously
+in a Tecan ultraviolet spectrophotometer controlled by Magellan (Phe￾nix) software. 2 nM TEM-1 -lactamase or 4 nM SME-1 -lactamase was
+incubated with 12 different concentrations of BLIP for 1 h at 25 °C in 50
+mM phosphate buffer (pH 7.0) containing 1 mg/ml bovine serum albu￾min. 100 M cephalosporin C (Km is 700 M for TEM-1 and 1300 M for
+SME-1) was added to the -lactamase/BLIP incubation buffer with a
+12-channel pipetter. The final reaction volume was 0.3 ml, and hydrol￾ysis of cephalosporin C was monitored at A280. Plots of the concentration
+of free -lactamase versus inhibitor concentration were fit by nonlinear
+regression analysis to Equation 1,
+Efree  [E0]  [E0]  Ki  [E0]  [I0]  Ki*)2  (4[E0][I0])
+2 (Eq. 1)
+where [Efree] is the concentration of active -lactamase calculated from
+the measured velocity and the activity and concentration of uninhibited
+-lactamase, [EO] is the total -lactamase concentration, and [IO] is the
+total inhibitor concentration (30). From the equation, apparent equilib￾rium dissociation constants (Ki
+*) were determined.
+RESULTS
+Determination of the Functional Epitope for BLIP Binding to
+TEM-1 -Lactamase—Alanine-scanning mutagenesis of BLIP
+was performed to identify the determinants critical for binding
+TEM-1 -lactamase. Amino acid residues in BLIP within 4 Å
+from TEM-1 in the co-crystal structure were chosen for mu￾tagenesis (17). Wild type BLIP and the 23 BLIP mutants were
+expressed in E. coli and purified (Fig. 1), and apparent binding
+constant data were obtained using a kinetic assay of inhibition
+of -lactam hydrolysis (Fig. 2, Table II). Residues that result in
+a 10-fold decrease in binding affinity when mutated are con￾sidered components of the functional epitope. By this defini￾tion, 11 residues including Phe36, His41, Asp49, Tyr53, Lys74,
+Trp112, Phe142, His148, Trp150, Arg160, and Trp162 (Fig. 3) com￾prise the functional epitope. The critical residues are largely
+located in two patches near the center of the interface as well in
+the two loops that insert in the active site pocket of the enzyme
+(Fig. 3).
+As described above, two loops on BLIP (loop 1, residues
+46–51; loop 2, residues 136–144) insert into the active site of
+TEM-1 -lactamase (17). Within loop 1, Asp49 forms two salt
+bridges and two hydrogen bonds with four conserved TEM-1
+residues that are essential for enzyme activity: Ser130, Lys234,
+Ser235, and Arg244 (17). The carboxylate of Asp49 assumes the
+position of the carboxylate of penicillin G in the acyl-enzyme
+complex of TEM-1 with penicillin G (17). Phe142 accounts for
+most of the van der Waals interactions in loop 2, and it mimics
+the benzyl group of penicillin G for binding TEM-1 (17). As
+expected based on these interactions and consistent with pre￾vious results, mutation of these residues to alanine results in
+20-fold loss of binding affinity for TEM-1 -lactamase (Table
+II). Other loop residues do not play a significant role in binding
+with the exception of Tyr50. Surprisingly, mutation of this
+residue to alanine results in a 50-fold increase in binding
+affinity. Tyr50 forms extensive van der Waals interactions in￾teractions with Pro107, Val216, and Met129 of TEM-1. In addi￾tion, Tyr50 forms an aromatic patch on BLIP together with
+residues Tyr51, Phe36, His41, and Tyr53. The aromatic ring of
+Tyr50 is located between the hydrophobic rings of Pro107 of
+TEM-1 and Tyr51 of BLIP. Perhaps the Tyr50 side chain hin￾ders Asp49 or other residues in loop 1 from assuming optimal
+interactions in the active site of TEM-1 -lactamase. For ex￾ample, removal of the bulky Tyr50 side chain could result in
+better contacts between BLIP residues His41 and Tyr51 and the
+TEM-1 enzyme.
+The x-ray structure of the BLIPTEM-1 complex reveals sev￾eral ordered water molecules at the interface between BLIP
+and the Gln99–His112 region of -lactamase (17). The water
+molecules are clustered near polar residues such as several
+serines on the concave surface of BLIP. Mutation of Ser35,
+Ser39, Ser71, and Ser113 at the interface had no effect on binding
+(Table II). It has been proposed that the intervening waters at
+the BLIP-TEM-1 interface may form an adaptable interface
+that allows BLIP to bind several different -lactamase se￾quences (17). These results suggest that the BLIP side of this
+interface is also adaptable in that the serine residues do not
+contribute to binding affinity.
+Two negatively charged BLIP residues in the interface, Glu31
+and Glu73, do not contribute to binding affinity (Table II).
+There is a salt bridge between Glu31 and Lys215 of TEM-1 that
+FIG. 1. SDS-PAGE gel of wild type BLIP and BLIP mutants.
+WT, wild type. 5 g of protein was loaded into each lane.
+45708 Analysis of -Lactamase-BLIP Interactions      is partially exposed to the solvent (17). The solvation effect may
+limit the contribution of Glu31 to binding affinity. Glu73 is fully
+buried inside the interface and makes hydrogen bonds with
+Glu104, Tyr105, and Ser106 of TEM-1. Removal of the Glu73 side
+chain, however, does not affect binding affinity to TEM-1
+(Table II).
+In contrast, mutation of several positively charged residues
+on the binding surface of BLIP significantly increased Ki values
+(Table II). The mutated residues include Lys74, Arg160, His41,
+and His148. The significance of the histidine residues may arise
+from their ring structure rather than the partial positive
+charge, which will be discussed below. Lys74 is fully buried at
+the interface and makes a salt bridge with Glu104 from TEM-1
+and neutralizes a negative region formed by Glu73 of BLIP and
+Glu104 of TEM-1 (17). Schreiber and colleagues (14, 18) have
+shown that electrostatic effects strongly influence the associa￾tion rate and thereby the equilibrium constant for the BLIP￾TEM-1 interaction. It was observed that mutations that reduce
+the negative charge on either molecule increase the association
+rate. Since removal of the Lys74 side chain increases the neg￾ative charge of BLIP, the mutation may act by slowing the
+association rate. A similar explanation may apply to Arg160,
+which is near the periphery of the interaction surface. How￾ever, the aliphatic portion of the side chain also makes packing
+interactions with His148, Trp150, and Trp162 in BLIP that, as
+described below, form an aromatic patch on BLIP that is crit￾ical for binding affinity. The only positively charged residue
+that did not affect binding when mutated to alanine was
+FIG. 2. Determination of wild type BLIP Ki values for TEM-1
+and SME-1 -lactamase. BLIP inhibitory activity is expressed as the
+percentage of the remaining concentration of free -lactamase at vary￾ing inhibitor concentrations (BLIP concentrations (nM) are shown on
+the x axis). Data for the inhibition of TEM-1 -lactamase are shown
+with open circles, and SME-1 inhibition is shown with filled squares.
+The lines represent the nonlinear regression fit of the data to calculate
+the Ki (see “Experimental Procedures”).
+TABLE II
+Inhibitor parameters for wild type and mutant BLIP derivatives
+BLIP Ki for TEM-1 Ki for SME-1
+nM
+Wild type 0.5  0.1 2.4  0.2
+E31A 2.0  0.5 7.7  1.9
+S35A 0.5  0.2 1.8  0.6
+F36A 40  15 120  17
+S39A 0.3  0.1 1.4  0.1
+H41A 34  10 189  5
+G48A 0.7  0.2 2.6  1.2
+D49A 20  4 185  39
+Y50A 0.011  0.004 32  10
+Y51A 0.5  0.03 76  24
+Y53A 21  2 223  64
+S71A 0.2  0.06 1.9  0.6
+E73A 0.4  0.06 2,700  71
+K74A 46  8 0.1  0.01
+W112A 13  3 2,600  700
+S113A 0.11  0.006 2.7  0.6
+G141A 1.8  0.2 3.1  0.5
+F142A 16  3 15  6
+Y143A 0.6  0.2 11  1
+R144A 0.6  0.2 1.7  0.4
+H148A 21  2 1,400  300
+W150A 184  52 830  190
+R160A 11  2 322  125
+W162A 20  3 97  19
+E73A/Y50A 0.04  0.01 44,000  1400
+FIG. 3. Dissection of the BLIP--lactamase interaction inter￾face. A, space fill model of the BLIP--lactamase structure determined
+by Strynadka et al. (17). TEM-1 -lactamase is colored white, and BLIP
+is colored yellow. B, same view as in A, except the TEM-1 molecule has
+been deleted from the figure. Residues identified as critical (10-fold
+increase in Ki
+) in the alanine-scanning experiments are colored red.
+Residues that had no effect on binding when changed to alanine are
+colored green, whereas residues that influence the substrate specificity
+of binding are colored cyan. Residues that were not mutated are colored
+yellow. The aromatic patch from domain one includes residues Phe36,
+His41, Tyr50, and Tyr53, whereas the patch from domain two includes
+residues His148, Trp150, and Trp162. The figure was prepared with Py￾MOL (W. L. DeLano; available on the World Wide Web at
+www.pymol.org).
+Analysis of -Lactamase-BLIP Interactions 45709Arg144. This residue is at the edge of loop 2 on the periphery of
+the binding surface and remains largely exposed on complex
+formation. The lack of effect is not surprising from the stand￾point of its limited direct interactions with -lactamase, but it
+might have been expected to decrease affinity based on the
+change in electrostatics (14, 18).
+In contrast to the diverse effect of mutating hydrophilic
+residues, the majority of the hydrophobic residues tested con￾tribute significantly to the BLIPTEM-1 interaction (Table II).
+The mutation of these residues to alanine increases Ki values
+at least 20-fold. It should be noted that all hydrophobic resi￾dues mutated in this study are also aromatic residues. Two
+patches of aromatic residues account for most of the binding
+affinity, with His148, Trp150, and Trp162 forming one patch and
+Phe36, His41, Tyr50, and Tyr53 near loop 1 forming the other
+(Fig. 3). Mutation of Trp150 results in the largest increase
+(370-fold) in the Ki value among all mutants tested (Table II).
+The patch centered at His148 makes extensive interactions with
+Gln99-Asn100 and Leu102-Val103 in TEM-1 -lactamase,
+whereas the patch near loop 1 makes contacts with Ser106-
+Pro107-Val108 of TEM-1. Leu102-Val103 and Pro107-Val108 are
+conserved positions in the loop-helix domain among several
+class A -lactamases (10). In addition, a previous study from
+this laboratory demonstrated that residues Leu102, Val103,
+Ser106, Pro107, and Val108 in TEM-1 are important for binding
+to BLIP (23). Therefore, the residues in the critical aromatic
+patches in BLIP largely interact with TEM-1 residues that are
+also important for binding. This suggests that the residues in
+the aromatic patches make precise interactions with the
+TEM-1 residues in these regions.
+Determination of the Functional Epitope for BLIP Binding to
+SME-1 -Lactamase—SME-1 -lactamase is 33% identical to
+TEM-1 but differs significantly from TEM-1 in both surface
+charge and shape in the loop-helix region that BLIP binds (Fig.
+4). The inhibition assay indicated that wild type BLIP inhibits
+SME-1 with a Ki of 2.4 nM, which is 5-fold weaker than the
+interaction with TEM-1 (Fig. 2, Table II). Clearly, the differ￾ence in both surface charge and shape of SME-1 does not
+abolish the protein-protein interaction. The differences be￾tween the TEM-1 and SME-1 -lactamases provide an inter￾esting system with which to investigate the determinants of
+binding specificity for BLIP.
+The functional epitope of BLIP for binding SME-1 (10-fold
+increase in Ki
+) consists of 12 residues: Phe36, His41, Asp49,
+Tyr50, Tyr51, Tyr53, Glu73, Trp112, His148, Trp150, Arg160, and
+Trp162 (Table II). The sequence requirements for the SME-1-
+BLIP interaction are, in general, similar to those for the TEM￾1-BLIP interaction. For example, the two aromatic patches
+critical for the TEM-1-BLIP interaction are also critical for the
+SME-1-BLIP interaction. The loop 1 residue Asp49 that makes
+multiple interactions in the active site of TEM-1 is also impor￾tant for binding to SME-1, as is the positively charged residue
+Arg160. Finally, the multiple serine residues are not essential
+for the interaction of BLIP with either enzyme.
+There are, however, two significant differences between the
+functional epitopes of BLIP for TEM-1 and SME-1. First, two
+charged residues buried at the interface strongly influence
+binding specificity. Glu73 is very important for binding to
+SME-1 -lactamase but does not contribute to binding TEM-1
+-lactamase. In contrast, Lys74 is important for binding
+TEM-1, but the K74A substitution actually binds SME-1 10-
+fold tighter than wild type BLIP. As stated above, Lys74 of
+BLIP interacts with Glu73 of BLIP and Glu104 of TEM-1 -lac￾tamase. Based on a sequence alignment between TEM-1 and
+SME-1, the equivalent residue to Glu104 of TEM-1 is Tyr104 of
+SME-1, which would interact differently with Lys74. In addi￾tion, the topology of the loop-helix region is somewhat different
+between TEM-1 and SME-1 in this region (Fig. 4), which could
+alter multiple interactions. Finally, the mutation of Lys74 in￾creases the negative charge on BLIP, which may augment
+electrostatic interactions with the positively charged SME-1
+(14). It should be noted, however, that mutation of Arg144 and
+Arg160 would have a similar effect on electrostatics, but these
+mutations either do not affect or are detrimental for binding to
+SME-1 (Table II).
+The second significant difference in sequence requirements
+for binding the enzymes is that mutation of loop 1 residues
+Tyr50 and Tyr51 either improves or does not affect binding of
+BLIP to TEM-1 -lactamase but significantly reduces affinity
+for SME-1. In contrast, mutation of loop 2 residue Phe142 sig￾nificantly reduces binding to TEM-1 but has a relatively minor
+effect on binding affinity for SME-1. In fact, none of the loop 2
+residues examined displayed significantly altered Ki values for
+SME-1 when mutated to alanine. Taken together, these data
+suggest that loop 1 of BLIP does not make optimal interactions
+with the TEM-1 active site, whereas loop 2 of BLIP does not
+interact strongly with the SME-1 active site. Subtle differences
+in the active sites of the enzymes may influence the loop inter￾actions. Alternatively, differences in the interactions of BLIP
+with the loop-helix region of the -lactamases may alter the
+positioning of the loops with respect to the enzymes. Although
+the exact mechanisms for changes in binding affinity are not
+clear, it is apparent that a relatively small number of residues,
+Glu73, Lys74, Tyr50, Tyr51, and Phe142, are important determi￾nants of the binding specificity of BLIP.
+Engineering the Binding Specificity of BLIP—The observa￾tion that single alanine substitutions result in large changes in
+the binding specificity of BLIP suggested that the binding
+specificity could be drastically altered with just a few changes
+in sequence (Fig. 5). For example, the BLIP mutant containing
+the Y50A substitution binds TEM-1 -lactamase 50-fold tighter
+than wild type but binds SME-1 13-fold weaker. In addition,
+the E73A mutant binds TEM-1 with the same affinity as wild
+type BLIP but binds SME-1 1,100-fold weaker than wild type
+(Fig. 5, Table II). Because the Tyr50 and Glu73 residues are not
+in direct contact in the BLIP structure and mutations of resi￾dues that are not in contact often act additively when combined
+(31), it was reasoned that the Y50A/E73A double mutant would
+possess the combined effects of the mutations and thereby
+exhibit a vast difference in binding specificity for TEM-1 versus
+SME-1 -lactamase. This was found to be the case, since the
+Y50A/E73A double mutant binds TEM-1 -lactamase 10-fold
+tighter than wild type BLIP, whereas it binds SME-1 18,300-
+fold weaker than wild type (Fig. 5, Table II). As a result, wild
+type BLIP exhibits a 5-fold preference for binding TEM-1 ver￾sus SME-1 -lactamase, whereas the double mutant displays a
+1.1 million-fold preference for binding TEM-1 versus SME-1
+FIG. 4. Electrostatic surface representation of TEM-1 and
+SME-1 -lactamase. Regions of negative charge are shown in red, and
+positive charge is shown in blue. The boxed region of each enzyme is
+bound by BLIP. The yellow circle denotes the active site pocket. The
+figure was generated using the GRASP program (38) and the PDB
+coordinates 1BTL (TEM-1) (39) and 1DY6 (SME-1) (12).
+45710 Analysis of -Lactamase-BLIP Interactions-lactamase (Fig. 5, Table II). Therefore, the binding specificity
+of BLIP can be drastically altered with relatively few amino
+acid substitutions.
+DISCUSSION
+The common functional epitope of BLIP for binding both
+TEM-1 and SME-1 -lactamase consists of 9 of the 23 residues
+mutagenized and includes positions Phe36, His41, Asp49, Tyr53,
+Trp112, His148, Trp150, Arg160, and Trp162 (Fig. 3). These resi￾dues represent two aromatic patches in addition to Asp49 from
+loop 1. It is interesting that each domain of BLIP contributes
+an aromatic patch (Fig. 3). The locations of the patches with
+respect to the binding surfaces, however, are somewhat differ￾ent. For example, the patch from domain one includes residues
+Phe36, His41, and Tyr53 and is located in the center of the
+binding interface provided by domain one. The periphery of this
+patch contains the polar residues Ser35, Ser39, and Ser71, which
+do not contribute substantially to binding of either -lacta￾mase. This type of organization has been noted for several
+protein-protein interaction interfaces, and it has been proposed
+that the major role of the residues on the periphery of the
+critical residues is to serve as an “O-ring” to occlude bulk
+solvent from the hotspot (8).
+The aromatic patch from domain two includes residues
+His148, Trp150, and Trp162. Although not an aromatic residue,
+Arg160 is critical for binding and also packs into this hotspot
+(Fig. 3). In contrast to the patch from domain one, this patch
+is located near the periphery of the binding interface (Fig. 3).
+For example, His148, Trp150, Arg160, and Trp162 retain 1.1,
+28.6, 71.2, and 26.0 Å2 of accessible surface area in the
+complex, respectively, due to their position near the edge of
+the interface. In contrast, Phe36, His41, and Tyr53 from patch
+one exhibit only 0.3, 0.0, and 0.46 Å2 of accessible surface
+area in the complex, respectively, due to their more centered
+position in the domain one binding interface. Therefore, it
+appears that the aromatic patch in domain two does not
+require a ring of surrounding residues to protect the hotspot
+(8). Finally, it is of interest that Trp112 is critical for binding
+but does not belong to either of the aromatic patches. Rather,
+Trp112 serves as a bridge between the aromatic patches from
+domains one and two (Fig. 3B).
+Analysis of an extensive alanine-scanning database has
+shown that the amino acid composition of hotspots is enriched
+for tryptophan, arginine, tyrosine, aspartate, isoleucine, and
+histidine residues (8, 32). With the exception of isoleucine,
+these residues are also enriched on the binding surface of BLIP
+(17). Of the 23 BLIP residues within 4 Å of the TEM-1 -lac￾tamase surface, 13 are within this class. In general, these
+residues were also found to be important for the -lactamase￾BLIP interaction (Table II). For example, all three of the tryp￾tophan residues, both of the histidine residues, and the loop 1
+aspartate residue at the interface are important for binding to
+both TEM-1 and SME-1 -lactamase. In contrast, only one of
+the four tyrosine residues at the interface contributes signifi￾cantly to binding TEM-1 -lactamase based on the mutation
+results. However, two additional tyrosines on loop 1, Tyr50 and
+Tyr51, are important for binding SME-1 -lactamase.
+Phenylalanine is not enriched at hotspots in the alanine￾scanning database (32). Nevertheless, it is important at the
+BLIP interface in that Phe36 is a critical residue from one of the
+aromatic patches and Phe142 on loop 2 is critical for binding
+TEM-1 -lactamase. These results are consistent with an anal￾ysis of structurally conserved residues and binding energy
+hotspots that showed tryptophan and phenylalanine are con￾served at interaction surfaces but not on the exposed surface
+of proteins (33). In addition, analysis of the alanine-scanning
+database as well as structurally conserved residues in binding
+sites indicates that serine residues are very rarely found in
+energy hotspots (8, 33). This is true for the BLIP interface as
+well in that none of the four serines at the interaction interface
+make a significant contribution to the binding of either -lac￾tamase. A similar result was reported for the peripheral polar
+residues in the human growth hormone and hormone receptor
+complex (20). The serines on the periphery of BLIP interact
+with water molecules that bridge the interface with -lacta￾mase. The intervening water molecules may contribute to the
+adaptability of the periphery of the interface.
+BLIP binds a number of -lactamases from both Gram-neg￾ative and Gram-positive bacteria (16). Examination of the bind￾ing of the alanine scan mutants to TEM-1 and SME-1 -lacta￾mase indicates that most of the positions, including the two
+aromatic patches, make similar contributions to binding each
+enzyme. Only a relatively small number of residues influence
+binding specificity. Two fully buried charged residues in BLIP,
+Glu73 and Lys74, contribute to the specificity of binding, as do
+Tyr50 and Tyr51 located on loop 1 and Phe142 on loop 2. Schre￾iber and colleagues (14, 18) have shown that alteration of
+charged residues on the periphery of the BLIP-TEM-1 -lacta￾mase interface can strongly influence the association rate and
+thereby the equilibrium binding constant. Although Glu73 and
+Lys74 are not in the periphery but rather fully buried in the
+binding interface, it is possible that they could act on the
+association rate. It has previously been suggested that buried
+electrostatic interactions may contribute to specificity (34).
+Further studies are required, however, to determine the mech￾anism for the specificity change associated with Glu73 and
+Lys74.
+The roles of Tyr50, Tyr51, and Phe142 in binding specificity
+may be due to altered interactions between loop 1 and loop 2
+with the TEM-1 and SME-1 active sites. Removal of the Tyr50
+side chain significantly increases binding affinity of BLIP with
+TEM-1 but not SME-1 -lactamase (Table II). The side chain of
+Tyr50 fits into a pocket formed by TEM-1 residues Pro107,
+Met129, and Val216 (17). Although the catalytic machinery of
+the SME-1 active site is similar to TEM-1, there are several
+differences that could prevent similar interactions from occur￾ring. For example, the equivalent Tyr50-interacting residues in
+SME-1 are Pro107, Tyr129, and Thr216 that form a somewhat
+FIG. 5. Comparison of G values for binding to TEM-1 (white
+bars) and SME-1 (black bars) for BLIP alanine mutants. Relative
+binding free energy is the difference between binding free energy of
+wild-type BLIP versus the alanine mutants: G  RTln(Ki
+w.t./
+Ki
+mut), where R is the gas constant and T stands for absolute temper￾ature. The units of G are kcal/mol.
+Analysis of -Lactamase-BLIP Interactions 45711   altered binding pocket. In contrast, Tyr51 packs onto Tyr50 but
+does not directly contact -lactamase. Changes at Tyr51, how￾ever, could alter the position of Tyr50 or the conformation of
+loop 1 and thereby affect binding.
+Replacement of the Phe142 side chain with alanine signifi￾cantly reduces binding affinity of BLIP with TEM-1 but not
+SME-1 -lactamase. The Phe142 side chain interacts with sev￾eral TEM-1 active site residues including Glu104, Tyr105,
+Asn170, Gly238, and Glu240. The equivalent residues in SME-1
+are Tyr104, His105, Asn170, Cys238, and Ala240. These differences
+may result in a poor interaction between loop 2 and SME-1 and
+therefore little contribution from Phe142.
+The ability to engineer protein-protein interactions or design
+binding sites could facilitate the design of new therapeutics.
+One interesting challenge is to engineer the specificity of pro￾tein interactions. Wild type BLIP exhibits a 5-fold binding
+affinity preference for TEM-1 versus SME-1 -lactamase. The
+results of the mutational analysis, however, suggested that the
+binding specificity of BLIP could be tailored to interact strongly
+with one substrate but not another. For example, the K74A
+mutant exhibits a significant change in binding specificity in
+that it binds SME-1 460-fold tighter than TEM-1 rather than
+5-fold weaker as seen with wild type BLIP. Thus, a single
+amino acid substitution in BLIP resulted in a 2300-fold change
+in specificity versus wild type.
+The observation that the E73A mutation greatly reduced
+BLIP binding to SME-1 while not affecting binding to TEM-1 as
+well as the finding that the Y50A mutant bound more tightly to
+TEM-1 but not SME-1 suggested that the Y50A/E73A double
+mutant would exhibit greatly altered specificity. This was the
+case, since the double mutant exhibited a 1.1 million-fold
+preference for binding TEM-1 versus SME-1 -lactamase. Be￾cause wild type BLIP exhibits a 5-fold preference for TEM-1 the
+double mutant exhibits a 220,000-fold change in binding
+specificity.
+One reason for the changes in specificity observed here is
+that the Tyr50 side chain not only does not favor binding to
+TEM-1 -lactamase; it actually decreases affinity by an order of
+magnitude. Similarly, Lys74 side chain decreases affinity of
+BLIP for SME-1 by more than an order of magnitude. A large
+increase in affinity upon mutation of a residue has not been
+frequently observed in other protein-protein interfaces (6, 7, 35,
+36). Nevertheless, it is clear from these results that the binding
+affinity of BLIP for either TEM-1 or SME-1 -lactamase has
+not been optimized by evolution. This is not surprising in that
+it is very unlikely that BLIP evolved to bind either TEM-1 or
+SME-1 -lactamase, since BLIP is produced by a Gram-positive
+soil bacterium, and TEM-1 and SME-1 -lactamase are found
+in Gram-negative enteric bacteria (37). The role of BLIP in the
+biology of S. clavuligerus is not known, so it is difficult to
+speculate on the selective pressures that did shape BLIP
+function.
+Although BLIP binds to several class A -lactamases, it does
+not efficiently bind other classes of -lactamase or penicillin￾binding proteins (16). The results presented here suggest that
+BLIP can be engineered to serve as an inhibitor of a number of
+clinically important -lactamases and penicillin-binding pro￾teins. More generally, the results suggest that the specificity of
+protein-protein interactions can be modified with limited
+amino acid substitutions.
+Acknowledgments—We thank Hiram Gilbert for assistance with the
+-lactamase inhibition assay, Fahd Majiduddin for providing SME-1
+-lactamase, and Wanzhi Huang for providing technical assistance. We
+also thank Natalie Strynadka for the coordinates of the BLIP/TEM-1
+-lactamase structure.
+REFERENCES
+1. Clackson, T., and Wells, J. A. (1995) Science 267, 383–386
+2. Sheinerman, F. B., Norel, R., and Honig, B. (2000) Curr. Opin. Struct. Biol. 10,
+153–159
+3. Lo Conte, L., Chothia, C., and Janin, J. (1999) J. Mol. Biol. 285, 2177–2198
+4. Jones, S., and Thornton, J. M. (1996) Proc. Natl. Acad. Sci. U. S. A. 93, 13–20
+5. DeLano, W. L. (2002) Curr. Opin. Struct. Biol. 12, 14–20
+6. Cunningham, B. C., and Wells, J. A. (1989) Science 244, 1081–1085
+7. Cunningham, B. C., and Wells, J. A. (1993) J. Mol. Biol. 234, 554–563
+8. Bogan, A. A., and Thorn, K. S. (1998) J. Mol. Biol. 280, 1–9
+9. Bush, K., Jacoby, G. A., and Medeiros, A. A. (1995) Antimicrob. Agents Che￾mother. 39, 1211–1233
+10. Ambler, R. P., Coulson, F. W., Frere, J.-M., Ghuysen, J.-M., Joris, B., Forsman,
+M., Levesque, R. C., Tiraby, G., and Waley, S. G. (1991) Biochem. J. 276,
+269–272
+11. Queenan, A. M., Torres-Viera, C., Gold, H. S., Carmeli, J., Eliopoulos, G. M.,
+Moellering, R. C., Quinn, J. P., Hindler, J., Medeiros, A. A., and Bush, K.
+(2000) Antimicrob. Agents Chemother. 44, 3035–3039
+12. Sougakoff, W., L’Hermite, G., Pernot, L., Naas, T., Guillet, V., Nordmann, P.,
+Jarlier, V., and Delettre, J. (2002) Acta Crystallogr. Sect. D 58, 267–274
+13. Strynadka, N. C. J., Adachi, H., Jensen, S. E., Johns, K., Sielecki, A., Betzel,
+C., Sutoh, K., and James, M. N. G. (1992) Nature 359, 700–705
+14. Albeck, S., and Schreiber, G. (1999) Biochemistry 38, 11–21
+15. Petrosino, J., Rudgers, G., Gilbert, H., and Palzkill, T. (1999) J. Biol. Chem.
+274, 2394–2400
+16. Strynadka, N. C. J., Jensen, S. E., Johns, K., Blanchard, H., Page, M.,
+Matagne, A., Frere, J.-M., and James, M. N. G. (1994) Nature 368, 657–660
+17. Strynadka, N. C. J., Jensen, S. E., Alzari, P. M., and James, M. N. G. (1996)
+Nat. Struct. Biol. 3, 290–297
+18. Selzer, T., Albeck, S., and Schreiber, G. (2000) Nat. Struct. Biol. 7, 537–541
+19. Atwell, A., Ultsch, M., De Vos, A. M., and Wells, J. A. (1997) Science 278,
+1125–1128
+20. Wells, J. A. (1996) Proc. Natl. Acad. Sci. U. S. A. 93, 1–6
+21. Huang, W., Petrosino, J., and Palzkill, T. (1998) Antimicrob. Agents Che￾mother. 42, 2893–2897
+22. Huang, W., Zhang, Z., and Palzkill, T. (2000) J. Biol. Chem. 275, 14984–14988
+23. Rudgers, G. W., and Palzkill, T. (1999) J. Biol. Chem. 274, 6963–6971
+24. Ho, S. N., Hunt, H. D., Horton, R. M., Pullen, J. K., and Pease, L. R. (1989)
+Gene (Amst.) 77, 51–59
+25. Gribskov, M., Devereux, J., and Burgess, R. (1984) Nucleic Acids Res. 12,
+539–549
+26. Amann, E., Brosius, J., and Ptashne, M. (1983) Gene (Amst.) 25, 167–178
+27. Bradford, M. M. (1976) Anal. Biochem. 72, 248–254
+28. Cantu, C., III, Huang, W., and Palzkill, T. (1997) J. Biol. Chem. 272,
+29144–29150
+29. Majiduddin, F. K., and Palzkill, T. (2003) Antimicrob. Agents Chemother. 47,
+1062–1067
+30. Dennis, M. S., and Lazarus, R. A. (1994) J. Biol. Chem. 269, 22129–22136
+31. Wells, J. A. (1990) Biochemistry 29, 8509–8517
+32. Thorn, K. S., and Bogan, A. A. (2001) Bioinformatics 17, 284–285
+33. Ma, B., Elkayam, T., Wolfson, H., and Nussinov, R. (2003) Proc. Natl. Acad.
+Sci. U. S. A. 100, 5772–5777
+34. Hendsch, Z. S., and Tidor, B. (1994) Protein Sci. 3, 211–226
+35. del Alamo, M., Neira, J. L., and Mateu, M. G. (2003) J. Biol. Chem. 278,
+27923–27929
+36. Myers, D. P., Jackson, L. K., Ipe, V. G., Murphy, G. E., and Phillips, M. A.
+(2002) Biochemistry 49, 13230–13236
+37. Doran, J. L., Leskiw, B. K., Aippersbach, S., and Jensen, S. E. (1990) J.
+Bacteriol. 172, 4909–4918
+38. Nicholls, A., Sharp, K. A., and Honig, B. (1991) Proteins 11, 281–296
+39. Jelsch, C., Mourey, L., Masson, J.-M., and Samama, J.-P. (1993) Proteins 16,
+364–383
+45712 Analysis of -Lactamase-BLIP Interactions

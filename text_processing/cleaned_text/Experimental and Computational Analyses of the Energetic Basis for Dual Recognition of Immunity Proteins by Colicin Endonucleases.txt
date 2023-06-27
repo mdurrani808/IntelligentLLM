@@ -1,0 +1,407 @@
+Experimental and Computational Analyses of the  Energetic Basis for Dual Recognition of Immunity  Proteins by Colicin Endonucleases  Anthony H. Keeble1  , Lukasz A. Joachimiak2  , Mara Jesus Mat1  ,  Nicola Meenan1  , Nadine Kirkpatrick1  , David Baker2 and Colin Kleanthous1    1  Department of Biology,  University of York, Heslington,  York YO10 5YW, UK  2  Department of Biochemistry,  Howard Hughes Medical  Institute, University of  Washington, HSB J559 Seattle,  WA 98195, USA  Received 13 February 2008;  received in revised form  19 March 2008;  accepted 25 March 2008  Available online  3 April 2008  Colicin endonucleases (DNases) are bound and inactivated by immunity  (Im) proteins.
+Im proteins are broadly cross-reactive yet specific inhibitors  binding cognate and non-cognate DNases with Kd values that vary between  104 and 1014 M, characteristics that are explained by a dual-recognition  mechanism.
+In this work, we addressed for the first time the energetics of Im  protein recognition by colicin DNases through a combination of E9 DNase  alanine scanning and double-mutant cycles (DMCs) coupled with kinetic  and calorimetric analyses of cognate Im9 and non-cognate Im2 binding, as  well as computational analysis of alanine scanning and DMC data.
+We  show that differential Gs observed for four E9 DNase residues  cumulatively distinguish cognate Im9 association from non-cognate Im2  association.
+E9 DNase Phe86 is the primary specificity hotspot residue in the  centre of the interface, which is coordinated
+by conserved and variable  hotspot residues of the cognate Im protein.
+Experimental DMC analysis  reveals that only modest coupling energies to Im9 residues are observed, in  agreement with calculated DMCs using the program ROSETTA and  consistent with the largely hydrophobic nature of E9 DNaseIm9 specificity  contacts.
+Computed values for the 12 E9 DNase alanine mutants showed  reasonable agreement with experimental G data, particularly for  interactions not mediated by interfacial water molecules.
+G predictions  for residues that contact buried water molecules calculated using solvated  rotamer models met with mixed success; however, we were able to predict  with a high degree of accuracy the location and energetic contribution of  one such contact.
+Our study highlights how colicin DNases are able to  utilise both conserved and variable amino acids to distinguish cognate from  non-cognate Im proteins, with the energetic contributions of the conserved  residues modulated by neighbouring specificity sites.
+   2008 Elsevier Ltd. All rights reserved.
+  Edited by B. Honig  Keywords: proteinprotein interactions; specificity; alanine scanning;  double-mutant cycles; crystallography  *Corresponding author.
+E-mail address: ck11@york.ac.uk.  Present addresses: A. H. Keeble, MRC Laboratory of Molecular Biology, Hills Road, Cambridge CB2 0QH, UK; M.-J.  Mat, Centro de Investigaciones Biolgicas, Consejo Superior de Investigaciones Cientificas, C/Ramiro de Maeztu 9,  Madrid 28040, Spain.  Abbreviations used: E9 DNase, endonuclease domain of colicin E9; Im2, immunity protein for colicin E2 DNase; Im9,  immunity protein for colicin E9 DNase; IPE, immunity protein exosite; ITC, isothermal titration calorimetry; DMC,  double-mutant cycle; Gkin  obs, observed change in the free energy of binding determined kinetically; kon, association rate  constant; koff, dissociation rate constant; Gcalc, calculated change in the free energy of binding; GH2O  calc, calculated  change in the free energy of binding incorporating a solvated rotamer model; GITC  obs , observed change in the free energy  of binding determined by ITC; Gint  obs, observed interaction energy obtained from DMC analysis; Gint  calc, calculated  interaction energy obtained from DMC analysis.
+  doi:10.1016/j.jmb.2008.03.055 J. Mol. Biol. (2008) 379, 745759  Available online at www.sciencedirect.com  0022-2836/$ - see front matter  2008 Elsevier Ltd. All rights reserved.
+Introduction  Most biological processes involve the recognition  of one protein by another.
+High-throughput screening of proteinprotein interactions in prokaryotic  and eukaryotic proteomes has shown cells to be a  conglomeration of interconnected complexes, the  principal components of which are protein hubs,  nodes with a larger-than-average number of interaction partners.1 Hubs tend to come in two flavours,  with recent studies indicating that each has distinct  evolutionary trajectories; hubs that simultaneously  accommodate multiple partners at distinct binding  sites appear to evolve slowly, while those that  distinguish multiple binding partners at a single  interaction site in a specific mutually exclusive  fashion evolve more quickly.2 This latter group of  proteinprotein interaction complexes can be further  subdivided as those that bind unrelated partners at  the binding site, such as the Fc hinge region of  human immunoglobulin G,3 and those that distinguish members of a highly related protein family,  which is typical of protein inhibitors of enzymes and  intra- and intercellular signalling complexes.4,5 The  present work addressed the fundamental problem  of specificity in this latter type of complex, where,  using protein engineering and X-ray crystallography in combination with kinetic, thermodynamic  and computational analyses, we dissected the  specific recognition of the colicin E9 endonuclease  (E9 DNase) by cognate and non-cognate immunity  (Im) proteins.
+Colicin DNaseIm protein complexes  are a powerful model system with which to study  discrimination at a single binding site since specificity in this family of closely related complexes spans  the thermodynamic stability of all known protein  protein interactions.6  The E colicin DNases E2, E7, E8 and E9 are 15-kDa  C-terminal domains of larger bacterial toxins produced by strains of Escherichia coli under times of  environmental stress that kill competing cells  through random degradation of genomic DNA.7,8  Cell suicide is prevented by the co-production of  small Im proteins (Im2, Im7, Im8 and Im9) that form  1:1 complexes with the corresponding DNase  domains, thereby neutralising their enzymatic activity in the host.6,9 One of the distinguishing features of  these complexes is that the inhibitors bind at an Im  protein exosite (IPE) on the DNase that, in contrast to  the majority of other protein inhibitors of enzymes,  results in inhibition through steric and electrostatic  occlusion of nucleic acid substrates.10,11 Colicin  DNases share a high degree of sequence identity  (65%) and structural conservation and so cleave  DNA by the same basic mechanism.
+Importantly,  however, much of the sequence variation is confined  to residues 7298 in these 134 amino acid domains,  which coincides with the location of the IPE (Fig. 1a)  and explains how Im proteins have evolved to  recognise specific colicin DNases.6  Previous work from our laboratory had shown  that Im proteins, which share 50% sequence  identity, are specific, high-affinity inhibitors of  colicin DNases (Kd = 10141015 M), with cognate  complexes binding 106  - to 1010-fold tighter than  non-cognate complexes.1416 Non-cognate Im protein binding, typically in the micromolar to nanomolar range, has been attributed to a conserved  hotspot on the Im protein that is accommodated at  the sequence-variable DNase IPE largely through  backbone hydrogen bonds and van der Waals  interactions.13 Im proteins are helical proteins that  bind the DNase through a dual-recognition  mechanism; a long specificity helix (helix II)  preferentially stabilises cognate binding, while a  shorter conserved helix (helix III) forms a hotspot  that stabilises cognate and non-cognate complexes  alike and is responsible for the basal DNase crossreactivity of Im proteins.16,17,18 Although neither  protein undergoes substantial structural change on  binding, their association is a special case of a  conformational change-type mechanism where cognate and non-cognate complexes alike form an  electrostatically steered encounter complex centred  on the conserved residues of helix III of the Im  protein, followed by rigid-body rotation, allowing  optimal alignment of specificity residues across the  interface.19 Such a mechanism has strong similarities  to recent theories of anchor residue binding in  proteinprotein interactions, as described by Rajamani et al.,20 where conserved polar or aromatic  anchor residues, as are found in helix III of Im9, bind  to pre-organised pockets on the binding partner to  form the encounter complex and neighbouring latch  (specificity) residues contribute to forming the final  high-affinity complex.
+  While the kinetics of binding are conserved between the different DNaseIm protein complexes,16,19  isothermal titration calorimetry (ITC) has shown that  the underlying thermodynamics of binding vary  significantly.21 Specificity is enthalpically driven and  coupled to a reduction in side-chain or backbone  flexibility in the cognate complexes of colicins E2, E7  and E8.
+In contrast, changes in flexibility appear to  play a lesser role in Im9 binding to the colicin E9  DNase, where instead specificity is entropically  driven and coupled to the loss of hydrophobic  hydration.21  In addition to studies aimed at investigating the  kinetics and thermodynamics of colicin DNaseIm  protein complexes, the system has also served as a  model in a number of computational and evolutionary studies aimed at understanding specificity  in proteinprotein recognition.
+Goh and Cohen  showed how evolutionary trace methods could  correctly assign Im protein specificity to colicin  DNases.22 Bernath et al.23 devised a novel in vitro  compartmentalisation strategy for investigating the  directed evolution of Im protein specificity of  colicin DNases and showed that this correlates  with those isolated naturally.
+Baker and co-workers redesigned colicinIm protein specificity  through de novo computational methods, showed  that the structure of the redesigned complex  matched closely that predicted and demonstrated  746 Colicin DNase Immunity Protein Specificitya change in binding specificity of over 2 orders of  magnitude.24,25  Previous investigations of binding in colicin  DNaseIm protein complexes focused on how Im  proteins recognise the enzyme.
+The present study  addressed for the first time the role of E9 DNase IPE  residues in binding Im proteins through an alanine  scan, how these impact cognate (Im9) and noncognate (Im2) binding and the structural consequences of the most destabilising mutations.
+We also  report our double-mutant cycle (DMC) analysis of a  subset of interfacial residues that play a critical role  in stabilising the complex in order to explore the role  of additivity.
+Importantly, we compared alanine  scanning and DMC data on the cognate E9 DNase  Im9 complex with computationally derived calculations where we investigated the correlation between  experimental data and theoretical predictions for  alanine mutations, with and without explicit interfacial water molecules.
+  Results and Discussion  Alanine scanning mutagenesis of the E9 DNase  IPE and analysis of Im2 and Im9 binding  In order to investigate the importance of E9 DNase  IPE residues in affinity and specificity of Im protein  Fig. 1.
+(a) Sequence alignment of the colicin E9, E2, E8 and E7 DNases highlighting the position of the IPE.
+Underlined  residues are those of the E9 DNase that are buried at the interface with Im9 and were selected for alanine mutagenesis.
+  Asterisks represent residues previously implicated in Im protein specificity by Curtis and James.12 (b) Molecular surface  of the E9 DNase showing the solvent-accessible surface area buried by Im9 (Protein Data Bank code 1EMV)13 and residues  chosen for mutagenesis.
+Also shown is the location of the enzyme active site, proximal to the IPE.
+The buried surface area  (shown in red) is defined as that where a change in solvent-accessible surface area N10 2 upon binding the Im protein  occurs.
+Numbered residues are those mutated to alanine.
+  Colicin DNase Immunity Protein Specificity 747binding, we conducted an alanine scan across the  surface of the enzyme, guided by the 1.7- crystal  structure of the E9 DNaseIm9 complex,13 and  determined changes in the free energy of binding  using kinetic methods (Gkin  obs).
+The E9 DNase IPE  is composed predominantly of a single contiguous  epitope (residues 7298) but includes Arg54 at the  periphery of the Im protein binding site.
+Arg54  contacts substrate DNA and is required for catalysis;  its burial by Im9 largely accounts for the inhibition  of DNA binding by the acidic Im protein.26 Thirteen  residues were selected (Materials and Methods) and  mutated singly to alanine (Fig. 1b).
+All were purified  with the exception of E9 DNase Y83A, which was  not expressed to any detectable level in bacteria and  so could not be purified.
+The 12 mutants were folded  and adjudged not to be significantly destabilised by  the mutations as deduced by intrinsic tryptophan  fluorescence, far-UV CD spectroscopy and thermal  denaturation experiments, all of which were similar  to the wild-type protein (Materials and Methods).
+  Association (kon) and dissociation (koff) rate constants for both cognate (Im9) and non-cognate (Im2)  E9 DNaseIm protein complexes were determined  as described previously,14,15,19 from which the equilibrium dissociation constant (Kd) for each complex  was obtained using Eq. (1).
+  Kd  koff=kon 1  The kon data for the 12 E9 DNase alanine mutants  binding Im9 and those binding Im2 are shown in  Tables 1 and 2, respectively.
+The alanine mutations  generally decreased values of kon by less than 3-fold,  with the largest decrease accompanying removal of  charged groups.
+Notable exceptions are the acceleration of the kon values for several mutants (N72A,  N75A and F86A) binding Im2.
+Given that this rate  enhancement occurs upon truncation to alanine of  both polar (e.g., Asn72) and non-polar (Phe86)  residues, the origin is likely to be due to geometric  rather than electrostatic factors, consistent with the  studies by Janin29 and Schreiber.30 Hence, in these  instances, the mutations likely remove a restriction  to alignment of the E9 DNase and Im2 during  association.
+In contrast to the kon data, the koff data  for the 12 E9 DNase alanine mutants in complex  with cognate Im9 and non-cognate Im2 were  affected by up to 1000-fold (Tables 1 and 2,  respectively), indicating that koff provides the kinetic  discrimination between cognate and non-cognate  binding, consistent with previous mutagenesis  studies on Im proteins.1416,19  Experimental and computational determination  of G for Im9 binding E9 DNase IPE alanine  mutants  Kinetically derived equilibrium dissociation constants were used to obtain values of G (Gkin  obs)  for all E9 DNase alanine mutants binding Im9  (Table 1), according to Eq. (2), and mapped onto  the E9 DNaseIm9 complex in Fig. 2.
+  DDG  RT ln Kmutant  d =Kwild type  d    2  The data highlight a series of important characteristics about the energetics of the DNase in its  recognition of the cognate Im9.
+First, values for  Table 1.
+Kinetic and thermodynamic parameters for E9 DNase alanine mutants binding the cognate Im9  Im9 complex  kon  107  (M1 s  1  )  a  koff  (s1  )  b  Kd,kinetic  (M)c  Gkin  obs  (kcal mol1  )  d  Gcalc  (kcal mol1  )  e  GH2O  calc  (kcal mol1  )  f  Wild type 7.24 (0.21) 2.36 (0.14)  106 3.26 (0.28) 1014  R54A 6.52 (0.34) 3.54 (0.27)  105 5.43 (0.66) 1013 1.7 1.8 1.7  N72A 5.50 (0.14) 1.28 (0.04)  105 2.33 (0.13) 1013 1.1 1.7 0.7  S74A 8.05 (0.1) 1.75 (0.21)  106 2.17 (0.28) 1014 0.2 0.2 3.8  N75A 10 (0.6) 1.68 (0.22)  104 1.68 (0.30) 1012 2.3 0.6 1.3  S77A 7.18 (0.37) 1.58 (0)  106 2.20 (0.11)  1014 0.2 0.0 0.6  S78A 7.76 (0.23) 1.02 (0.01)  106 1.31 (0.05) 1014 0.5 0.1 0.1  S84A 6.91 (0.04) 1.87 (0)  106 2.71 (0.01) 1014 0.1 0.1 0.1  F86A 7.91 (0.49) 1.80 (0.2)  103 2.28 (0.37) 1011 3.9 2.9 4.0  T87A 5.73 (0.39) 2.44 (0.05)  106 4.26 (0.35) 1014 0.2 0.0 0.1  Q92A 7.78 (0.28) 1.59 (0.15)  106 2.04 (0.26) 1014 0.3 0.9 1.6  K97A 3.42 (0.4) 3.05 (0.1)  105 8.92 (1.1)  1013 2.0 0.3 0.8  V98A 7.09 (0) 1.45 (0.06)  105 2.05 (0.09) 1013 1.1 0.2 0.3  All experiments were carried out in 50 mM Mops buffer, pH 7.0, containing 200 mM NaCl and 1 mM DTT at 25 C and represent the  average of duplicate experiments, usually carried out on the same preparation of protein.
+Errors (shown in parentheses) were generally in  the range of 5%30% for duplicate measurements.
+a E9 DNaseIm9 kon values were determined by stopped-flow fluorescence under pseudo-first-order conditions.
+b E9 DNaseIm9 koff values were determined by radioactive subunit exchange kinetics as described by Wallis et al.15  c Kinetically derived equilibrium dissociation constant (Kd,kinetic) values calculated according to Eq. (1).
+The value determined in this  study for wild-type Im9 is very close to that published previously (2.4  1014 M).15  d Observed free energy change as a result of alanine substitution relative to the wild-type E9 DNaseIm9 complex from kinetically  determined equilibrium dissociation constants according to Eq. (2).17  e Calculated free energy change as a result of alanine substitution relative to the wild-type E9 DNaseIm9 for each of the 12 purified E9  DNase alanine mutants using the program ROSETTA.27  f Calculated free energy change as above but incorporating solvated rotamers.28  748 Colicin DNase Immunity Protein SpecificityGkin  obs fall into three categories: those that affect  binding by (1) b1 kcal/mol, (2) 12 kcal/mol and (3)  24 kcal/mol (coloured blue, green and yellow,  respectively, in Fig. 2), with half of the mutants  analysed (S74A, S77A, S78A, S84A, T87A and  Q92A) being in the first category and so having  little or no effect on binding.
+These include the three  residues described above that, although buried by  Im9, make no direct contact with the protein.
+  Second, the three most important residues (Asn75,  Phe86 and Lys97) form a central belt on the surface  of the enzyme that comprises the hotspot, consistent  with other proteinprotein interactions where the  binding energy is not distributed evenly across the  interface but localised.3134 Third, previous alanine  scans of IPE contacting residues in Im9 showed that  Im protein mutations, particularly of conserved  hotspot residues from helix III, have a much greater  impact on binding than do mutations of Im proteincontacting residues in the E9 DNase IPE reported  here.
+Mutation of the three helix III hotspot residues  in Im9 (Asp51, Tyr54 and Tyr55) generates Gkin  obs  N5 kcal/mol compared with b3 kcal/mol for most  DNase mutants, with the exception of E9 DNase  F86A (3.9 kcal/mol).
+Im9 Asp51 is accommodated at  the sequence-variable IPE of the DNase through  direct and water-mediated hydrogen bonds to the  backbone, whereas DNase IPE residues mostly  engage in side-chain interactions.13 Notwithstanding these differences, it is clear that the hotter spot  of Im9, in particular, Tyr54 and Tyr55, meets that of  the E9 DNase IPE centred on Phe86 (Fig. 2).
+  Several authors have stressed the importance of  validating alanine scanning data by computational  approaches.35 In the present work, we computed the  effects of these alanine substitutions on the free  energy of binding (Gcalc) for E9 DNase alanine  mutants binding Im9 for direct comparison with  Gkin  obs not only to further probe the physical basis  for binding but also as a test of the robustness of  computational approaches using this model system.
+  Computational strategies employing a simple physical model have successfully recapitulated experimental alanine scanning data for many protein  interfaces36 and have paved the way for developing  tools aimed at the rational design of proteinprotein  complexes.24,25,3739 Here we applied the program  ROSETTA27 to compute binding free energies for a  set of alanine-substituted models of the colicin  DNase E9Im9 complex.
+Agreement between the  experimentally determined Gkin  obs and predicted  Gcalc is reasonable over the 12 residues on the E9  DNase side of the interface (Fig. 3; Table 1), with a  linear fit yielding a correlation coefficient of 0.75.
+  These initial calculations did not take account of  buried, interfacial water molecules.
+Indeed, prediction performance is dependent on whether a given  residue is involved in a water-mediated contact; if  the four residues that make water-mediated contacts  are excluded from the mutation set (Asn72, Asn75,  Gln92 and Lys97), the linear fit for the remaining  eight mutations yields a correlation coefficient of  0.94.
+In the field of design, we have had success  optimising the packing arrangement of non-polar  residues comprising the core to thermostabilise a  protein40 and in the design of proteinprotein  interaction specificity by engineering a hydrogen  bond network.24,25 However, protein interfaces tend  to also be solvated; to this end, it is important to  develop tools able to capture the energetic contribution of water-mediated contacts.
+In all four cases of  residues that engage in water-mediated hydrogen  bond networks at the interface, the computed Gcalc  values are incorrectly assigned (Fig. 3a, data points  coloured red).
+  To try to capture the loss of the water-mediated  energetics, we used a solvated rotamer approach28  to hydrate the interface and compute GH2O  calc  Table 2.
+Kinetic and thermodynamic parameters for E9 DNase alanine mutants binding the non-cognate Im2  Im2 complex  kon  107  (M1 s  1  )  a  koff  (s1  )  b  Kd,kinetic  (M)c  Kd,ITC  (M)d  Gkin  obs  (kcal mol1  )  e  GITC  obs  (kcal mol1  )  f  Wild type 6.90 (0.21) 0.90 (0.04) 1.30 (0.09)  108 1.50 ( 0.04) 107  R54A 7.85 (0.34) 6.92 (0.24) 8.82 (0.65)  108 4.20 ( 0.3)  107 1.1 0.6  N72A 17.7 (0.14) 10.83 (1.25) 6.12 (0.75)  108 3.40 ( 0.15) 107 0.9 0.5  S74A 8.71 (0.10) 0.27 (0.02) 3.10 (0.03)  109 4.0 ( 0.7)  107 0.9 0.6  N75A 35.8 (0.60) 37.59 (1.22) 1.05 (0.05)  107 1.27 ( 0.1)  106 1.2 1.3  S77A 7.13 (0.37) 0.33 (0.02) 4.63 (0.49)  109 9.0 ( 0.1)  108 0.6 0.3  S78A 6.41 (0.23) 0.65 (0.03) 1.01 (0.08)  108 1.4 ( 0.15) 107 0.2 0.0  S84A 7.18 (0.04) 0.80 (0.04) 1.11 (0.06)  108 1.4 ( 0.1)  107 0.1 0.0  F86A 58.6 (0.49) 54.93 (2.62) 9.37 (0.52)  108 7.4 ( 0.2)  107 1.2 0.9  T87A 3.26 (0.39) 1.03 (0.01) 3.16 (0.36)  108 2.2 ( 0.13) 107 0.5 0.2  Q92A 6.90 (0.28) 0.41 (0.01) 5.94 (0.37)  108 1.2 ( 0.1)  107 0.5 0.1  K97A 2.26 (0.23) 0.68 (0.01) 3.01 (0.29)  108 5.8 ( 0.7)  107 0.5 0.8  V98A 6.60 (0) 1.05 (0.09) 1.59 (0.14)  108 3 ( 0.25) 107 0.1 0.4  Experimental conditions and error analysis are as those for Im9 binding, described in Table 1.
+a E9 DNaseIm2 kon values were determined by stopped-flow fluorescence under second-order conditions.
+b E9 DNaseIm2 koff values were determined by stopped-flow fluorescence competition experiments ( Materials and Methods).
+c Kinetically derived equilibrium dissociation constants (Eq. (1)).
+d Equilibrium dissociation constants determined by ITC ( Materials and Methods).
+e Changes in the free energy of binding Im2 by E9 DNase alanine mutants where Kd was determined kinetically.
+f Changes in the free energy of binding Im2 by E9 DNase alanine mutants where Kd was determined by ITC.
+  Colicin DNase Immunity Protein Specificity 749(change in the free energy of binding incorporating a  solvated rotamer model).
+The agreement between  the experimentally determined Gkin  obs and predicted GH2O  calc is worse than Gcalc over the  same 12 residues (Table 1), with a linear fit yielding a  correlation coefficient of 0.58 (data not shown).
+  However, we were specifically interested whether  our solvated rotamer approach improves our predictions for residues known to be involved in watermediated interactions and, in particular, Asn72,  Asn75, Gln92 and Lys97.
+The comparison results  of GH2O  calc and Gobs values for these four  residues are shown in Fig. 3a (data points coloured  blue).
+In two cases (Asn72 and Lys97), the introduction of the localised water worsens the correlation by  grossly underestimating the influence of the alanine  mutation, while in the case of Gln92, it causes  marginal overestimation.
+In the case of Asn75, the  positioning of the water molecule is accurately  predicted and the computed binding energy using  a solvated model gives a GH2O  calc value of  1.33 kcal/mol (Fig. 3a, N75A_H2O, blue), hence  capturing some of the water-mediated energetics  (Table 1).
+This asparagine extends a hydrogen bond  network by donating to the backbone carbonyl of  Phe86 and a tightly bound water molecule (W2)  while accepting from a backbone amide of Phe86  (Fig. 3b).
+We conclude that while the solvated  rotamer approach can be useful in determining  placement of functionally important water molecules that are tightly bound and buried (b2  hydrogen bonds and low B-factors) and their  energetic contribution to binding can be quantitated,  there is still a degree of variability in the success of  this approach.
+Likely reasons for the failure of the  solvated approach can be attributed to errors in the  energy model and are compounded by uncertainties  in the positions of the water molecules.
+Improved  prediction of water placement at protein interfaces  are likely to be achieved by using larger solvated  rotamer libraries and changes in the solvation and  watervan der Waals components of the energy  function.
+  Differential effects of E9 DNase IPE alanine  mutants on Im9 and Im2 binding reveal  contributions from both conserved and variable  residues to specificity  The Kd for Im2 binding the E9 DNase is 107 M, at  pH 7 in buffer containing 200 mM NaCl and at  25 C, 7 orders of magnitude weaker than cognate  Fig. 2.
+The conserved hotspot of  Im9 meets the variable hotspot of the  E9 DNase.
+Molecular surface representation of the E9 DNase, coloured  according to values of G for alanine mutants, in the context of the  complex with Im9 (Table 1).
+Only two  of the four helices of Im9 are shown  for simplicity.
+Colour code for values  of Gkin  obs: yellow, 24 kcal/mol;  green, 12 kcal/mol; blue, b1 kcal/  mol.
+With the exception of Arg54 and  Asn75, the surface of the IPE is largely  variable in the DNase family.
+By  contrast, the three Im9 residues of  helix III (shown as ribbon), Asp51,  Tyr54 and Tyr55, are all conserved  (underlined in the figure).
+Wallis et  al.  17 showed previously that mutation  of these residues to alanine generates  much greater values of G  (N5 kcal/mol).
+The docking of helix  III into the concave cleft of the DNase  IPE positions the specificity helix of  the Im protein for the appropriate  recognition of residue 86 on the  DNase and to make additional specificity contacts, such as with Lys97.
+  The correct positioning of helix II is  thought to be through rotation about  the conserved hotspot of the Im  protein in the encounter complex,  possibly mediated by three conserved  water molecules, shown as red  spheres in the figure.
+  750 Colicin DNase Immunity Protein SpecificityIm9 binding.19 To determine whether our set of E9  DNase alanine mutants could provide information  on how the enzyme discriminates between these  close homologues, we obtained kinetically determined equilibrium dissociation constants and hence  Gkin  obs for all E9 DNase alanine mutants binding  Im2 (Table 2), determined according to Eq. (2).
+We  showed recently that complications in the analysis  of biphasic dissociation kinetics of E9 DNaseIm2  complexes have led to erroneous Kd determinations  due to misassignment of the rate-limiting step for  dissociation of the complex.19 We therefore checked  all kinetically derived values of Kd (Kd,kinetic) by ITC  (Kd,ITC), from which Gkin  obs and GITC  obs (observed  change in the free energy of binding determined by  ITC) were obtained (Table 2).
+This analysis shows  that while kinetically and calorimetrically determined Kd values for Im2 mutants binding the E9  DNase show some variability (2- to 20-fold), there is  nonetheless reasonable agreement between values  of Gobs from the two approaches (b0.5-kcal/mol  discrepancy for 11/12 mutations).
+Since there is no  high-resolution structure for the E9 DNaseIm2 complex or indeed any non-cognate complex, Gcalc  was not computed.
+  Figure 4 compares values of Gkin  obs for Im9 and  Im2 binding the 12 E9 DNase alanine mutants and  illustrates a number of key points concerning the  specific recognition of Im proteins.
+First, none of the  12 mutations affected Im2 binding by significantly  more than 1 kcal/mol (Table 2), with three-quarters  having a negligible effect.
+Second, two mutation  sites on the E9 DNase (Arg54 and Asn72) yield  similar changes in Im binding for Im2 and Im9, both  of which are on the periphery of the IPE.
+Third,  comparisons with Im9 data show clear evidence of  differential binding effects at the four positions  within the IPE (75, 86, 97 and 98; Fig. 4) and  therefore identify these as specificity sites, three of  which (Asn75, Phe86 and Lys97) form the central  hotspot belt for the cognate complex.
+The identification of Lys97 and Val98 as specificity residues is  consistent with their contacting helix II residues,  with the specificity helix in Im9 (Glu41 and Val34,  respectively) and with previous alanine scanning  data of Im2 and Im9 showing that these positions  specify E9 and not E2 DNase binding.16 That these  sites are of more general importance to colicin  specificity comes from the data of Curtis and  James,12 who found that swapping residues 97 and  98 in colicin E9 DNase for those in colicin E8 resulted  in stronger protection by Im8 in vivo.
+Fourth, more  surprising are the context-dependent Gkin  obs effects  seen for conserved DNase residues on Im protein  specificity.
+Alanine mutation of Asn75, which is  conserved in all colicin DNases and, as described  above, only contacts the Im protein indirectly  Fig. 3.
+(a) Calculated versus observed changes in G  for alanine mutations of colicin E9 DNase IPE residues  binding the cognate partner Im9.
+Line reflects a fit with a  fixed zero intercept.
+Residues marked in red are reported  to form water-mediated hydrogen bonds in the interface.
+  Residues marked in blue (e.g., N75_H2O) were computed  using a solvated rotamer model.
+A linear fit to all 12  residues yields a correlation coefficient of 0.75; a linear fit  to residues not involved in water-mediated contacts yields  a correlation coefficient of 0.94.
+See the text for details. (b)  Rotamer water prediction coordinating Asn75 in the  native E9 DNaseIm9 Im protein complex.
+Figure shows  a comparison of the native (red) and predicted (blue)  water molecules that mediate the interfacial hydrogen  bond between Asn75 of the E9 DNase and the backbone of  Im9.
+  Fig. 4.
+Differential effects of E9 DNase alanine mutants  on Gobs for cognate Im9 and non-cognate Im2 binding.
+  Histogram showing the change in the free energy of  binding relative to wild-type E9 DNase of 12 alanine  mutants binding Im9 (gray bars; see Table 1 for details)  and Im2 (white bars; see Table 2 for details).
+In each case,  data are the average of two independent experiments.
+  Colicin DNase Immunity Protein Specificity 751through a conserved water molecule (Fig. 3b), has a  differential effect on Im9 versus Im2 binding.
+E9  DNase F86A shows the largest differential effect on  Im2 and Im9 binding, yet Phe86 is conserved in the  E2 and E9 DNases (Fig. 1a).
+Fifth, Fig. 4 suggests no  role for Ser77 and Ser78 in defining the specificity of  Im9 relative to Im2 for the E9 DNase, consistent  with a lack of stabilising interactions with Im9 residues at these sites.
+These positions are however  involved in mediating specificity in both the E7 and  E8 complexes as revealed by crystallography and  mutagenesis, respectively.10,12 This implies that  different combinations of residues are used by the  different colicins to achieve specific recognition of  their cognate Im proteins, which mirrors how Im  proteins recognise the different colicin DNases.16 In  summary, specific recognition of Im9 relative to Im2  by the E9 DNase is largely due to a group of four  residue contact points, with position 86 taking the  predominant role.
+The expectation is that a similar  distributive specificity mechanism will pertain to  other cognate colicin DNaseIm protein complexes  all having position 86 as their centrepoint (as seen in  the colicin E7 DNaseIm7 complex),10 albeit elaborated with different combinations of other specificity  contacts.
+  Structures of mutant E9 DNaseIm9 complexes  reveal only localised structural changes  We determined the crystal structures of the four  most destabilising alanine mutations in the E9  DNase (R54A, N75A, F86A and K97A), which  largely define its specific recognition of Im9 relative  to Im2, in complex with Im9 at or below 2-  resolution (Fig. 5; Table 3).
+These structures were  used to ascertain the extent to which the complex  had been disrupted.
+RMSDs for a structural superposition of the four mutants with the wild-type  complex based on the E9 DNase all had values  b0.7 ; structural changes were generally localised  to flexible regions in the endonuclease, which have  been described previously by Kuhlmann et al.,  13 and  to the immediate vicinity of the mutation.
+Hence,  truncation of these side chains to alanine did not  propagate large-scale structural changes through  the interface.
+The amount of solvent-accessible  surface area buried at the mutant interfaces was  similar to the wild-type complex (15001600 2  ).
+  The other main observation from the four structures  is that numerous water molecules flood into the  cavities created by the alanine mutations in order to  fill gaps at the interface, replace hydrogen bonding  interactions of deleted heteroatoms or shield  unpaired electrostatic interactions.
+None of these  water molecules corresponds to water molecules  previously observed in colicin DNaseIm protein  complexes.
+  E9 DNase F86AIm9 complex  The mutation of the key specificity determinant  Phe86 for alanine generates a cavity in the interface  that is filled by two water molecules, W35 and  W153, with both water molecules completely buried  at the interface (accessibility values calculated with  AREAIMOL of 0.0 for W35 and 2.0 for W153).
+As  well as being hydrogen bonded to each other, W36 is  also hydrogen bonded to W59 and the hydroxyl of  Im9 Tyr54.
+The stacking interaction made by Tyr54  to the phenyl ring of Phe86 in the native complex is  only slightly rotated in the mutant, its orientation  stabilised by the hydrogen bond to W35.
+It is  interesting to note that the additional water molecules are not present in the E7 DNaseIm7 complex  in which Phe86 is replaced by a lysine residue.
+  E9 DNase N75AIm9 complex  Two water molecules substitute for the side chain  of the residue, W4 and W25, both having almost  zero accessibility to bulk solvent.
+In the native  complex, Asn75 is hydrogen bonded to W2, one of  the three conserved water molecules at the interface,  which mediates hydrogen bonds between the  DNase domain and Im protein.
+W2 is present in  the mutant structure (W34) and is hydrogen bonded  to W25.
+  E9 DNase K97AIm9 complex  The side chain of Lys97 in the wild-type complex  is in a salt bridge with Im9 Glu41, one of only two  salt bridges at the interface.
+Substitution of the lysine  for alanine results in four water molecules, W35,  W52, W53 and W58, entering the interface, none of  which is found in the E7 DNaseIm7 complex where  this specificity residue is replaced by a threonine.
+  The accessibility values of these four water molecules are slightly higher than those of the water  molecules in the other mutant complexes (accessibility values of 3, 10, 2 and 11, respectively).
+Other  water molecules are also present in the mutant  complex but have much higher accessibility indices,  and so we do not consider them here.
+In the absence  of Lys97, Im9 Glu41 is slightly rotated and hydrogen  bonded to three water molecules: W35, W39 and  W42.
+This mutant was the only one to reveal longrange structural changes wherein Arg54 from the  enzyme swivels away from its salt bridge partner,  Im9 Glu30, in order to form a salt bridge with a  sulfate ion that was present in the crystallisation  buffer.
+No other structure change was evident  between Lys97 and Arg54, which are 14  apart,  suggesting that the reorientation of Arg54 is solely  due to the fortuitous location of the sulfate ion.
+  E9 DNase R54AIm9 complex  The second salt bridge at the interface of the wildtype complex is formed between the side chain of E9  DNase Arg54 and Im9 Glu30.
+In the R54A mutant,  the side chain of the arginine is replaced by four  water molecules that are hydrogen bonded to other  water molecules and to Im9 Glu30, which is almost  in its native conformation.
+The side chain of E9  752 Colicin DNase Immunity Protein SpecificityDNase Asp51 is rotated in this mutant and hydrogen bonded to two water molecules.
+  Experimental and computational DMC analyses  of Im protein residues surrounding the key E9  DNase specificity determinant Phe86  The close interconnections between stabilising  hotspot residues of Im9 with its own specificity  residues and those of E9 DNase Phe86 prompted us  to use DMC analysis to investigate the energetic  linkage of these residues at the core of the protein  protein interaction.
+We also investigated these  linkages for Im2 binding E9 DNase in a non-cognate  context to determine their importance to specificity.
+  DMCs have been used extensively for investigating  the architecture and organisation of proteinprotein  complexes, where both super- and subadditivity of  alanine mutations have been recorded.4,4144 In the  current analysis, the interaction energy (Gint)  between two side chains was calculated using Eq.  (3), which is the difference between the sum of G  for each individual alanine mutant and that for the  double mutant.
+  DDGint  DDGE9 DNase  DDGIm  bind   DDGE9 DNase;Im  bind 3  In general, mutation of interface residues that are  not in close proximity (N7 ) will tend to produce  Fig. 5.
+Crystal structures of E9 DNase alanine mutants in complex with Im9.
+See Table 3 for details of refinement  statistics.
+(a) E9 DNase F86A.
+(b) E9 DNase N75A.
+(c) E9 DNase K97A.
+(d) E9 DNase R54A.
+See the text for details of the  structural changes in the immediate vicinity of each mutation and the changes in bound water.
+All mutant structures  (green, with additional water molecules shown in red) are overlaid with the wild-type structure (gray).
+  Colicin DNase Immunity Protein Specificity 753simple additive effects in DMCs, whereas complex  patterns of additivity can result in cases where  residues are in direct contact, signifying cooperative  effects.41,44,45 DMCs have the advantage over single  alanine mutant studies in that they allow individual  interactions to be quantified even if side chains  interact with more than one other residue.
+They are  also less sensitive to artifacts arising from mutations  destabilising the structure of proteins (rather than  binding directly) as these effects cancel out since  they are present in both single- and double-mutant  G values.
+Lastly, we compared experimental  values of Gint (observed interaction energy  obtained from DMC analysis, Gint  obs) with values  calculated using ROSETTA (calculated interaction  energy obtained from DMC analysis, Gint  calc) for  the cognate complex, as described in Materials and  Methods and presented in Table 4, to determine  whether the program is able to capture interaction  energies for residues surrounding Phe86.
+  Considering first DMC data for the cognate  complex, the measured and calculated values of  Gint for the E9 F86A mutant binding Im9 L33A,  Im9 V34A, Im9 V37A, Im9 Y54A and Im9 Y55A are  Table 3.
+Data collection and structure refinement statistics for complexes of E9 DNase alanine mutants binding Im9  E9 DNase R54AIm9 E9 DNase N75AIm9 E9 DNase F86AIm9 E9 DNase K97AIm9  Data collection  Space group P21 P21 P21 P21  Unit cell dimensions  a () 36.28 36.28 36.05 36.38  b () 77.92 77.93 77.49 78.61  c () 41.40 41.72 41.81 40.21   () 100.07 100.06 100.21 99.35  Resolution () 30.02.0 40.01.6 40.01.6 30.01.8  Unique reflections 15,357 29,843 29,183 19,052  Completeness (%)a 98.4 (98.4) 98.9 (98.9) 97.8 (85.4) 91.9 (91.9)  Multiplicitya 4.3 (4.3) 7.6 (4.8) 3.9 (3.1) 2.8 (1.9)  Rmeas (%)a 7.3 (33.5) 7.6 (39.3) 6.9 (34.3) 5.7 (25.1)  I/(I)  a 18.0 (5.8) 22.2 (3.9) 17.4 (4.1) 13.9 (3.9)  Refinement  R-factor (%)b 16.55 16.83 16.43 17.4  Rfree (%)b 22.86 19.80 20.31 22.8  RMSDs from ideal  Bond lengths () 0.018 0.017 0.019 0.019  Bond angles () 1.57 1.71 1.77 1.81  No. of protein atoms 1703 1706 1735 1762  No. of water molecules 212 329 300 218  Average protein B-factor (2  ) 24.56 14.08 12.50 12.68  Average water B-factor (2  ) 31.03 24.63 28.76 33.83  Ramachandran plot (%)  Most favoured 95.1 96.7 95.6 94.7  Additional allowed 4.4 3.8 2.8 4.3  Generously allowed 0.5 0.5 1.6 1.0  Disallowed 0 0 0 0  a Numbers in parentheses correspond to the highest-resolution shell.
+b R-factor =hkl||Fobs|k|Fcalc||/ hkl|Fobs|; Rfree, the same for a test set of 5% reflections not used during refinement.
+  Table 4. DMC analysis of E9 DNase F86A binding Im9 alanine mutants  Double-mutant  complex  kon  107  (M1 s  1  )  a  koff  (s1  )  b  Kd,kinetic  (M)c  Gkin  obs  (kcal mol1  )  d  Gint  obs  (kcal mol1  )  e  Gint  calc  (kcal mol1  )  f  E9 F86AIm9 L33A 5.83 ( 0.4) 0.15 ( 0.01) 2.57 (0.4)  109 6.9 0.4 0.4  E9 F86AIm9 V34A 5.79 ( 0.1) 4.97 ( 0.23) 103 8.58 (0.6)  1011 4.8 1.6 0.3  E9 F86AIm9 V37A 5.44 ( 0.04) 1.7 ( 0.1)  103 3.13 (0.1)  1011 4.3 1.3 0.5  E9 F86AIm9 Y54A 3.93 ( 0.05) 3.18 ( 0.02) 8.09 (0.16) 108 8.9 0.2 1.1  E9 F86AIm9 Y55A 8.07 ( 0.04) 3.00 ( 0.04) 3.72 (0.07) 108 8.4 0.1 0.0  Experimental conditions and error analysis are as those described in Table 1.
+Dissociation constant data for wild-type E9 DNase binding  Im9 mutants L33A, V34A, V37A, Y54A and Y55A were taken from Wallis et al.17  a E9 DNase F86AIm9 kon values were determined as described in Table 1.
+b E9 DNase F86AIm9 koff values were determined as described in Table 1.
+c Kinetically determined equilibrium dissociation constants.
+d Change in the free energy of binding E9 DNase F86A for Im9 alanine mutants determined kinetically.
+e Observed Gint values determined according to Eq. (3).
+f Calculated values of Gint determined as described in Materials and Methods.  754 Colicin DNase Immunity Protein Specificitytabulated in Table 4, with Gint  obs data presented in  Fig. 6.
+Both experimental and computational values  of Gint for interactions centred on the specificity  hotspot residue E9 DNase Phe86 are small and  positive (1.31.6 kcal/mol), which indicates that in  each case the single mutations have a greater effect  than the double mutant but not by much relative to experimental error.
+Interestingly, the largest  interaction energies recorded for the phenyl ring  of E9 DNase Phe86 are toward the specificity sites  of Im9 and not Tyr54, which presents Phe86  toward the specificity sites, or Tyr55, which closes  off solvent access to the core of the interface.
+  Gint  calc correctly predicted the additive effects  between Phe86 and Leu33 in helix II and Tyr55 in  helix III and the mildly superadditive effects  between Phe86 and Val37 on Im9 (Table 4).
+However, ROSETTA did not capture the magnitude of  the additivity for the E9 DNase Phe86Im9 Val34  interaction.
+Lastly, for the interaction between Phe86  and Tyr54, the experimental data indicate modest or  no cooperativity, whereas our calculations suggest  this to be superadditive, likely reflecting the overestimation of the alanine contribution.
+We note that  values of Gint  obs for hotspot residues in the colicin  E9 DNaseIm9 complex are much smaller than  those measured for other high-affinity nuclease  inhibitor complexes, such as barnasebarstar, where  values of up to 7 kcal/mol have been recorded.41  This reflects the differences in chemistries at the  respective hotspots of these complexes, with localised non-polar interactions predominating at the  core of the E9 DNaseIm9 complex but highly  cooperative chargecharge interaction networks  dominating at the barnasebarstar interface.
+The  preponderance of van der Waals contacts for the  specificity residue Phe86 at the core of this protein  protein interaction also explains the ability of  ROSETTA to correctly predict these interaction  energies with reasonable accuracy.
+  DMC data for the non-cognate Im2 protein  residues binding E9 DNase Phe86 reveal clear differences from those for Im9 (Table 5).
+No binding  could be detected for either of the tyrosine substitutions of Im2, reiterating the importance of these  conserved hotspots to non-cognate binding.
+In  contrast to Im protein specificity sites in the cognate  complex, which show mildly positive DMC values,  those in Im2 are predominantly negative, highlighting the destabilising influences of these Im2  side chains to E9 DNase binding that are alleviated  on substitution to alanine.
+In summary, DMC data  for Im protein binding the E9 DNase Phe86Ala  mutant emphasise the role Im protein residues 33  and 37 take in discriminating the key specificity  determinant at position 86 in cognate and noncognate DNases.
+  Conclusions  Discrimination of related proteins at a single  binding site is a common occurrence at hubs in  intracellular proteinprotein interaction networks.
+  Dual recognition is a thermodynamic mechanism  that underpins such discrimination, first described  for colicin DNaseIm protein complexes13,17 but also  seen in other proteinprotein interactions.46,47 A  conserved hotspot, which is a common feature of  proteinprotein interactions,34,48 from the Im protein (helix III) provides broad colicin DNase crossreactivity, while neighbouring residues (helix II)  confer specificity.
+What remain unresolved are the  thermodynamic basis for cognate Im protein recognition by the enzyme IPE, which is variable in  Fig. 6.
+DMC analysis of Im9 alanine mutants binding  E9 DNase F86A indicating that interaction energies at the  core of the interface are largely additive.
+See Table 4 and  the text for details.
+Values in red are interaction energies  (Gint  obs, according to Eq. (3)) for residues in close  proximity to the E9 DNase specificity residue Phe86  determined by DMC analysis.
+Residues from helix II (that  help define specificity) and helix III (that stabilise the  complex) of Im9 form a hydrophobic cage that accepts the  specificity residue of the enzyme.
+  Table 5.
+DMC analysis of E9 DNase F86A binding Im2  alanine mutants  Double-mutant  complex Kd (M)a  GITC  obs  (kcal mol1  )  b  Gint  obs  (kcal mol1  )  c  E9 F86AIm2  D33A  1.20 ( 0.22) 107 0.3 1.7  E9 F86AIm2  N34A  1.47 ( 0.08) 106 1.2 1.4  E9 F86AIm2  V37A  2.87 ( 0.15) 105 2.9 0.3  E9 F86AIm2  Y54A  n/d n/d n/d  E9 F86AIm2  Y55A  n/d n/d n/d  n/d represents values not determined due to lack of any  measured binding for the indicated combination of mutants.
+a Equilibrium dissociation constants were determined by ITC.
+  Dissociation constants for Im2E9 DNase wild type, Im2E9  DNase F86A, Im2 D33AE9 DNase wild type, Im2 N34AE9  DNase wild type and Im2 V37AE9 DNase wild type used in the  analysis were determined by ITC as 2.07 (0.29) 107 M, 1.44  ( 0.10)  106 M, 1  109 M, 2.3 (+ 0.29)  106 M and 2.56  (0.11)  106 M, respectively (data not shown).
+b Observed change in the free energy of binding for doublemutant combinations determined by ITC.
+c Observed Gint values determined according to Eq. (3).
+  Colicin DNase Immunity Protein Specificity 755sequence, and how non-cognate Im proteins are  distinguished.
+  We addressed these questions using a combination of experimental and computational alanine  scanning and DMC analysis.
+Gobs and Gcalc,  determined using ROSETTA, for Im9 binding 12 IPE  alanine mutants showed reasonable agreement.
+The  inclusion of solvated rotamer models for ROSETTA  calculations correctly predicted the location and  energetic contribution of one important conserved  water-mediated interaction between an E9 DNase  residue (Asn75) and Im9, although this was not  replicated for other water-mediated interactions.
+  Surprisingly, Gs for E9 DNase IPE mutants are  substantially smaller than those for Im9, particularly  for conserved Im9 residues where many of the  contacts are to the DNase backbone.17 Four E9  DNase residues comprise the hotspot for the IPE,  forming a belt across the centre of the interface, three  of which are also the points of greatest discrimination between Im9 and Im2.
+The alanine mutation  with the greatest observed and predicted effects on  G for Im9 binding was E9 DNase Phe86.
+Phe86 is  the centrepoint of the interface and is coordinated by  the conserved hotspot of Im9 (Tyr54 and Tyr55)  along with its hydrophobic specificity residues  (Val34 and Val37).
+The two tyrosines form a clamp  that docks helix III of the Im protein onto the DNase  IPE cleft and form the rotation axis that expedites  rigid-body rotations of the Im protein over the  DNase surface in the conformational search for  specificity contacts.13,19 Consistent with the hydrophobic nature of the contacts at the centre of the  interface, experimental and computational DMC  analyses suggested only minor additivity effects that  were nonetheless significantly altered in the noncognate Im2 complex, further supporting the role of  these contacts in conferring specificity.
+Although  Phe86 is a key specificity site in colicin DNases (Arg  and Lys in E8 and E7, respectively), phenylalanine is  nevertheless conserved between the E2 and E9  DNases, suggesting that the energetic contribution  of this residue is context dependent, the context  being the surrounding specificity residues.
+A similar  effect is seen for Asn75, whose water-mediated  interaction is conserved in colicin DNaseIm protein  complexes,13 which differentially stabilises the Im9  complex over that of Im2.
+Additional discrimination  of Im9 over Im2 is accomplished through neighbouring specificity contacts, principally through  Lys97 and Val98 on the DNase contacting sites on  helix II on the Im protein.
+  In conclusion, colicin DNase specificity for Im  proteins is determined by both conserved and  variable amino acids within the IPE, with the  binding free energy contribution of conserved  contact points modulated by neighbouring variable  specificity sites.
+Such a mechanism has similarities  with the framework effects of constant heavy  regions on the affinity and specificity of antibodies  for antigens,49 although, in contrast to what we  observe in colicin DNaseIm protein complexes,  these effects are indirect.
+  Materials and Methods  Selection of E9 DNase IPE residues for alanine  mutagenesis  Thirteen IPE residues (Arg54, Asn72, Ser74, Asn75, Ser77,  Ser78, Ser84, Tyr83, Phe86, Thr87, Gln92, Lys97 and Val98)  were selected for alanine mutagenesis based on three  criteria: (1) significant burial upon Im9 binding (change in  accessible surface area, N10 2  ); (2) readily identifiable contacts with Im9 in the high-resolution structure (1.7 ) of  the E9 DNaseIm9 complex13; and (3) implication in Im  protein specificity from previous studies.12 Some residues  that become buried in the complex with Im9 but whose  side chains make no discernible contact with the inhibitor  (Ser74, Ser84 and Thr87) were included.
+With the  exception of Arg54, all IPE residues reside within a single  linear epitope in the enzyme (residues 7298), many of  which have previously been implicated in conferring Im  protein specificity (Ser77, Ser78, Tyr83, Lys97 and Val98).12  Arg54 was also mutated because, although not part of the  linear epitope of the IPE, it forms a salt bridge with Im9  Glu30, a helix II residue previously shown to be important  for E9 DNase binding.17 The 13 residues selected for  mutagenesis are underlined in the DNase domain  sequence alignment (Fig. 1a) and shown on the molecular  surface of the E9 DNase IPE (Fig. 1b).
+  Site-directed mutagenesis of the E9 DNase  Plasmid pRJ353 (based on pET21d from Novagen),  containing the gene for the wild-type E9 DNase and Im9,50  was used as the template for the mutagenesis, which was  carried out by the QuikChange PCR mutagenesis method  (Stratagene), with primers purchased from MWG Biotech  (Germany).
+Mutations were confirmed by sequencing  (MWG Biotech).
+In all cases, the identity of purified  proteins was confirmed by electrospray ionisation mass  spectrometry.
+  Protein purification and quantification  Purifications of E9 DNase, Im2, Im9 and tritiated Im9  ([3  H]Im9) have all been described previously.1416,51  Protein concentrations were by absorbance at 280 nm  using molar absorption coefficients of 17,550 M1 cm1 for  the E9 DNase domain and 11,400 M1 cm1 for Im  proteins determined previously.16  Biophysical characterisation of E9 DNase alanine  mutants  Preliminary assessment of the effect of alanine  substitution on the stability of the protein was undertaken of all purified mutants by intrinsic tryptophan  fluorescence emission spectroscopy and far-UV CD  spectroscopy, as previously reported for colicin E9  DNase domain,51 and shown to be indistinguishable  from wild type.
+In addition, intrinsic tryptophan fluorescence spectroscopy was used to follow the temperature denaturation of each protein, from which was  obtained the thermal denaturation midpoint.51 For all  mutants, the thermal denaturation midpoint was similar  to the wild-type protein.
+  Fluorescence spectra of 1 M wild-type and alanine  mutant E9 DNases in 50 mM triethanolamine, pH 7.5 and  756 Colicin DNase Immunity Protein Specificity25 C, were recorded on a Spex Fluoromax 3.
+Tryptophan  fluorescence was excited at 295 nm with fluorescence  emission monitored from 300 to 450 nm.
+In all cases, the  peak emission wavelength was close to 333 nm, typical of  a folded protein and close to that previously observed for  the E9 DNase51 under similar conditions.
+  CD spectra of metal-free E9 DNase alanine mutants  (typically at a concentration of 10 M) were taken after  dialysis into 10 mM potassium phosphate, pH 7.5, overnight at 4 C.
+Spectra were recorded every nanometer  from 190 to 260 nm in a Jasco J-810 spectropolarimeter in a  1-cm pathlength cell, with 10 measurements averaged to  produce each final spectrum.
+In all cases, spectra recorded  at 25 C resembled closely those previously observed for  the wild-type E9 DNase.51  Thermal denaturation profiles of mutant proteins were  also followed by far-UV CD spectroscopy.
+Proteins were  dialysed into 10 mM potassium phosphate, pH 7.5, and  put into a stirred 1-cm pathlength cell within a Jasco J-810  spectropolarimeter.
+Spectra were recorded as described  above every 5 C from 15 to 75 C, and the wavelength of  maximum change (typically 198 or 203 nm) was used to  quantify the change in CD signal with temperature.
+Fitted  Tm values were close to those previously observed for the  E9 DNase.51  E9 DNaseIm protein dissociation constant (Kd)  All experiments were carried out in 50 mM Mops buffer,  pH 7.0, containing 200 mM NaCl and 1 mM DTT at 25 C.
+  The bimolecular rate constant (kon) for E9 DNaseIm  protein association was measured by stopped-flow  fluorescence using pseudo-first-order or second-order  binding kinetics as appropriate as described by Wallis  et al.  14 and Li et al.  16 The koff was determined by radioactive  subunit exchange for slow koff values (b103 s  1  ) or from  fluorescence chase stopped-flow experiments for fast koff  values (N103 s  1  ) as described by Li et al.  16 and Keeble and  Kleanthous.19 The equilibrium dissociation constant was  calculated from the ratio of the koff and kon (Kd =koff/kon).
+In  the case of non-cognate E9 DNaseIm2 complexes, all  equilibrium Kd data were verified by ITC, as described by  Keeble and Kleanthous.19  Protein crystallography of E9 DNase mutants in  complex with Im9  Crystals for the four mutants of E9 (R54A, N75A, F86A  and K97A) in complex with Im9 were grown by the  hanging-drop vapour-diffusion method.
+The crystallisation condition was 2.9 M ammonium sulfate and 100 mM  BisTris, pH 5.5, with diffraction-quality crystals  obtained by iterative seeding in fresh equilibrated drop.
+  Crystals were flash-cooled using sodium malonate as  cryo-protectant.
+A data set at 1.8- resolution was  collected at the beamline 10.1 at the Daresbury Synchrotron Radiation Source (Daresbury, England) for the  mutant complex E9 K97AIm9, while the other three  mutant complex data sets were collected using the  beamline ID14.1 at the European Synchrotron Radiation  Facility (Grenoble, France).
+All data sets were integrated  and scaled using MOSFLM and SCALA.52 Table 3 shows  the final statistics for each of the four structures.
+All  crystals belonged to space group P21, as per the wildtype complex, with one molecule in the asymmetric unit.
+  The structures were solved by molecular replacement  using the program MOLREP53 and the structure of the  wild-type E9 DNaseIm9 complex (Protein Data Bank  code 1EMV) as the model.
+Structures were refined using  REFMAC,54 and rebuilding was done with Coot.55 The  final electron density map allowed us to identify most  of the residues from the sequence.
+For the E9 DNase  K97AIm9 complex, six molecules of ammonium sulfate  were modeled; for each of the other three complexes,  three molecules of malonic acid were identified, all  originating from the crystallisation conditions or cryoprotectant.
+  Computational alanine scan on interfaces  Binding free energy changes upon alanine mutation  were calculated using previously described equations.36  For modeling side-chain conformational changes on  complex formation and mutation, side chains were  represented as rotamers on a fixed backbone template.
+  Rotamers were taken from a backbone-dependent  library by Bower et al.,56 with additional rotamers  added by rotations around the 1 and 2 angles by  520 and extra rotamers for 3 and 4 angles as  described by Dahiyat and Mayo.57 The X-ray coordinates of the native side chains at each position were  included in the library for both the complex and the  isolated partners.
+All residues having at least one sidechain atom within a sphere of 5- radius of the site of  mutation were repacked.
+All other amino acid side  chains were left in the conformations observed in the  parent crystal structures.
+Energies were computed for  each rotamer with the constant part of the molecule (the  template backbone and all unchanged side chains) and  for all pairwise rotamerrotamer combinations by using  the free energy function described by Kortemme and  Baker.36 Global optimisation of side-chain conformations was performed using a Monte Carlo simulated  annealing procedure,27 in which a move consisted of  the replacement of a randomly picked side-chain  rotamer at a single position by another rotamer from the  library.
+  Application of the model to computational alanine  scanning on protein interfaces  The energy function was parametrised using a data set  of experimentally determined stability changes taken from  the PROTHERM database as described previously.36 The  parameterised free energy function was used to compute  Gcalc and Gint  calc for the E9 DNaseIm9 Im protein  complex and compared with the experimentally measured  changes in binding energy on alanine mutagenesis and  experimentally derived interaction energies from the  DMC analysis.
+  Solvated rotamer approach  For the solvated rotamer approach, we started with the  backbone-dependent library compiled by Bower et al.  56  and added water molecules at allowed backbone and  polar side-chain atoms as described by Jiang et al.  28  Energies were computed using the free energy function  described by Kortemme and Baker36 with an additional  proteinwater interaction composed of a LennardJones  repulsive potential and a water-mediated hydrogen  bonding potential.
+Global energy optimisation was  performed as in the work of Kuhlman and Baker.27 The  Colicin DNase Immunity Protein Specificity 757free energy function was parametrised as previously  described by Kortemme and Baker.36  Accession numbers  All mutant complex structures have been deposited in  the Protein Data Bank with the following coordinate/  structure factor codes: 2vlq/r2vlqsf for F86A, 2v1n/r2v1nsf  for N75A, 2vlo/r2vlosf for K97A and 2vlp/r2vlpsf for  R54A.
+  Acknowledgements  This work was funded by Biotechnology and  Biological Sciences Research Council grants (C.K.)  and a grant from the National Institutes of Health  (L.J. and D.B.).
+We thank Ansgar Pommer and Ulrike  Khlmann (Magdeburg) for their help and advice  during the early stages of this work.
+  References  1.
+Han, J. D., Bertin, N., Hao, T., Goldberg, D. S., Berriz,  G. F., Zhang, L. V.et al. (2004).
+Evidence for dynamically  organized modularity in the yeast proteinprotein  interaction network.
+Nature, 430, 8893.  2. Kim, P. M., Lu, L. J., Xia, Y. & Gerstein, M. B. (2006).  Relating three-dimensional structures to protein networks provides evolutionary insights.
+Science, 314,  19381941.  3. DeLano, W. L., Ultsch, M. H., de Vos, A. M. & Wells,  J. A. (2000).
+Convergent solutions to binding at a  proteinprotein interface.
+Science, 287, 12791283.  4. Laskowski, M., Jr., Qasim, M. A. & Yi, Z. (2003).
+  Additivity-based prediction of equilibrium constants  for some proteinprotein associations.
+Curr. Opin.
+Struct.  Biol. 13, 130139.
+  5. Pawson, T. & Nash, P. (2003).
+Assembly of cell  regulatory systems through protein interaction  domains.
+Science, 300, 445452.  6.
+Kleanthous, C. & Walker, D. (2001).
+Immunity  proteins: enzyme inhibitors that avoid the active site.
+  Trends Biochem. Sci. 26, 624631.  7.
+Cascales, E., Buchanan, S. K., Duche, D., Kleanthous,  C., Lloubes, R., Postle, K. et al. (2007).
+Colicin biology.
+  Microbiol. Mol.
+Biol. Rev. 71, 158229.  8. James, R., Penfold, C. N., Moore, G. R. & Kleanthous,  C. (2002).
+Killing of E. coli cells by E group nuclease  colicins.
+Biochimie, 84, 381389.  9. Kleanthous, C. & Pommer, A. J. (2000).
+Protein  protein recognition.
+In (Kleanthous, C., ed.), Oxford  University Press, Oxford, UK.
+  10.
+Ko, T. P., Liao, C. C., Ku, W. Y., Chak, K. F. & Yuan,  H. S. (1999).
+The crystal structure of the DNase  domain of colicin E7 in complex with its inhibitor  Im7 protein.
+Structure, 7, 91102.  11. Kleanthous, C., Kuhlmann, U. C., Pommer, A. J.,  Ferguson, N., Radford, S. E., Moore, G. R. et al.  (1999).
+Structural and mechanistic basis of immunity  toward endonuclease colicins.
+Nat. Struct.
+Biol. 6,  243252.  12. Curtis, M. D. & James, R. (1991).
+Investigation of the  specificity of the interaction between colicin E9 and its  immunity protein by site-directed mutagenesis.
+Mol.  Microbiol. 5, 27272733.
+  13.
+Kuhlmann, U. C., Pommer, A. J., Moore, G. R., James, R.  & Kleanthous, C. (2000).
+Specificity in proteinprotein  interactions: the structural basis for dual recognition  in endonuclease colicinimmunity protein complexes.
+  J. Mol. Biol. 301, 11631178.  14. Wallis, R., Leung, K. Y., Pommer, A. J., Videler, H.,  Moore, G. R., James, R. & Kleanthous, C. (1995).
+  Proteinprotein interactions in colicin E9 DNase  immunity protein complexes: 2.
+Cognate and noncognate interactions that span the millimolar to femtomolar  affinity range.
+Biochemistry, 34, 1375113759.  15. Wallis, R., Moore, G. R., James, R. & Kleanthous, C.  (1995).
+Proteinprotein interactions in colicin E9  DNaseimmunity protein complexes: 1.
+Diffusioncontrolled association and femtomolar binding for the  cognate complex.
+Biochemistry, 34, 1374313750.  16. Li, W., Keeble, A. H., Giffard, C., James, R., Moore,  G. R. & Kleanthous, C. (2004).
+Highly discriminating  proteinprotein interaction specificities in the context  of a conserved binding energy hotspot.
+J. Mol. Biol. 337,  743759.  17. Wallis, R., Leung, K. Y., Osborne, M. J., James, R.,  Moore, G. R. & Kleanthous, C. (1998).
+Specificity in  proteinprotein recognition: conserved Im9 residues  are the major determinants of stability in the colicin E9  DNaseIm9 complex.
+Biochemistry, 37, 476485.  18. Li, W., Hamill, S. J., Hemmings, A. M., Moore, G. R.,  James, R. & Kleanthous, C. (1998).
+Dual recognition  and the role of specificity-determining residues in  colicin E9 DNaseimmunity protein interactions.
+  Biochemistry, 37, 1177111779.  19.
+Keeble, A. H. & Kleanthous, C. (2005).
+The kinetic basis  for dual recognition in colicin endonucleaseimmunity  protein complexes.
+J. Mol. Biol. 352, 656671.  20.
+Rajamani, D., Thiel, S., Vajda, S. & Camacho, C. J.  (2004).
+Anchor residues in proteinprotein interactions.
+Proc. Natl. Acad. Sci. USA, 101, 1128711292.  21.
+Keeble, A. H., Kirkpatrick, N., Shimizu, S. &  Kleanthous, C. (2006).
+Calorimetric dissection of  colicin DNaseimmunity protein complex specificity.
+  Biochemistry, 45, 32433254.  22.
+Goh, C. S. & Cohen, F. E. (2002).
+Co-evolutionary  analysis reveals insights into proteinprotein interactions.
+J. Mol. Biol. 324, 177192.  23. Bernath, K., Magdassi, S. & Tawfik, D. S. (2005).
+  Directed evolution of protein inhibitors of DNAnucleases by in vitro compartmentalization (IVC) and  nano-droplet delivery. J. Mol. Biol. 345, 10151026.
+  24.
+Kortemme, T., Joachimiak, L. A., Bullock, A. N.,  Schuler, A. D., Stoddard, B. L. & Baker, D. (2004).
+  Computational redesign of proteinprotein interaction specificity.
+Nat. Struct.
+Mol. Biol. 11, 371379.  25.
+Joachimiak, L. A., Kortemme, T., Stoddard, B. L. &  Baker, D. (2006).
+Computational design of a new  hydrogen bond network and at least a 300-fold  specificity switch at a proteinprotein interface. J. Mol.  Biol. 361, 195208.  26.
+Mat, M. J. & Kleanthous, C. (2004). Structure-based  analysis of the metal-dependent mechanism of HNH  endonucleases.
+J. Biol. Chem. 279, 3476334769.  27. Kuhlman, B. & Baker, D. (2000).
+Native protein  sequences are close to optimal for their structures.
+  Proc. Natl. Acad. Sci. USA, 97, 1038310388.  28.
+Jiang, L., Kuhlman, B., Kortemme, T. & Baker, D.  (2005).
+A solvated rotamer approach to modeling  water-mediated hydrogen bonds at proteinprotein  interfaces.
+Proteins, 58, 893904.  758 Colicin DNase Immunity Protein Specificity29.
+Janin, J. (1997).
+The kinetics of proteinprotein  recognition.
+Proteins, 28, 153161.  30. Schreiber, G. (2002).
+Kinetic studies of proteinprotein  interactions.
+Curr. Opin.
+Struct. Biol. 12, 4147.  31.
+Clackson, T. & Wells, J. A. (1995).
+A hot spot of  binding energy in a hormonereceptor interface.
+  Science, 267, 383386.  32.
+Bogan, A. & Thorn, K. S. (1998).
+Anatomy of hot spots  in protein interfaces.
+J. Mol. Biol. 280, 19.
+  33.
+Chakrabarti, P. & Janin, J. (2002).
+Dissecting protein  protein recognition sites.
+Proteins, 47, 334343.  34. Halperin, I., Wolfson, H. & Nussinov, R. (2004).
+  Proteinprotein interactions; coupling of structurally  conserved residues and of hot spots across interfaces.
+  Implications for docking.
+Structure, 12, 10271038.  35. DeLano, W. L. (2002).
+Unraveling hot spots in binding  interfaces: progress and challenges.
+Curr. Opin.
+Struct.  Biol.
+12, 1420.
+  36.
+Kortemme, T. & Baker, D. (2002).
+A simple physical  model for binding energy hot spots in proteinprotein  complexes.
+Proc. Natl. Acad. Sci. USA, 99, 1411614121.  37. Reina, J., Lacroix, E., Hobson, S. D., FernandezBallester, G., Rybin, V., Schwab, M. S. et al. (2002).
+  Computer-aided design of a PDZ domain to recognize  new target sequences.
+Nat. Struct.
+Biol. 9, 621627.  38.
+Shifman, J. M. & Mayo, S. L. (2002).
+Modulating  calmodulin binding specificity through computational protein design.
+J. Mol. Biol. 323, 417423.  39. Havranek, J. J. & Harbury, P. B. (2003).
+Automated  design of specificity in molecular recognition.
+Nat.  Struct.
+Biol. 10, 4552.  40. Dantas, G., Kuhlman, B., Callender, D., Wong, M. &  Baker, D. (2003).
+A large scale test of computational  protein design: folding and stability of nine completely  redesigned globular proteins.
+J. Mol. Biol. 332, 449460.
+  41. Schreiber, G. & Fersht, A. R. (1995).
+Energetics of  proteinprotein interactions: analysis of the barnase  barstar interface by single mutations and double  mutant cycles.
+J. Mol. Biol. 248, 478486.  42.
+Goldman, E. R., Dall'Acqua, W., Braden, B. C. &  Mariuzza, R. A. (1997).
+Analysis of binding interactions  in an idiotopeantiidiotope proteinprotein complex by  double mutant cycles.
+Biochemistry, 36, 4956.  43. Chen, C. Z. & Shapiro, R. (1999).
+Superadditive and  subadditive effects of hot spot mutations within the  interfaces of placental ribonuclease inhibitor with  angiogenin and ribonuclease A. Biochemistry, 38,  92739285.
+  44.
+Reichmann, D., Rahat, O., Albeck, S., Meged, R., Dym,  O. & Schreiber, G. (2005).
+The modular architecture of  proteinprotein binding interfaces.
+Proc. Natl. Acad.  Sci. USA, 102, 5762.  45.
+Reichmann, D., Rahat, O., Cohen, M., Neuvirth, H. &  Schreiber, G. (2007).
+The molecular architecture of  proteinprotein binding sites.
+Curr. Opin.
+Struct. Biol.  17, 6776.  46. Gilquin, B., Braud, S., Eriksson, M. A., Roux, B., Bailey,  T. D., Priest, B. T. et al. (2005).
+A variable residue in the  pore of Kv1 channels is critical for the high affinity of  blockers from sea anemones and scorpions.
+J. Biol.  Chem. 280, 2709327102.
+  47. Su, Z., Osborne, M. J., Xu, P., Xu, X., Li, Y. & Ni,  F. (2005).
+A bivalent dissectional analysis of the  high-affinity interactions between Cdc42 and the  Cdc42/Rac interactive binding domains of signaling kinases in Candida albicans.
+Biochemistry, 44,  1646116474.  48. Keskin, O., Ma, B. & Nussinov, R. (2005).
+Hot regions  in proteinprotein interactions: the organization and  contribution of structurally conserved hot spot residues.
+J. Mol. Biol. 345, 12811294.  49.
+Torres, M. & Casadevall, A. (2008).
+The immunoglobulin constant region contributes to affinity and specificity.
+  Trends Immunol. 29, 9197.
+  50. Garinot-Schneider, C., Pommer, A. J., Moore, G. R.,  Kleanthous, C. & James, R. (1996).
+Identification of  putative active-site residues in the DNase domain of  colicin E9 by random mutagenesis.
+J. Mol. Biol. 260,  731742.  51.
+Pommer, A. J., Kuhlmann, U. C., Cooper, A., Hemmings, A. M., Moore, G. R., James, R. & Kleanthous, C.  (1999).
+Homing in on the role of transition metals in  the HNH motif of colicin endonucleases.
+J. Biol. Chem.  274, 2715327160.
+  52. Collaborative Computational Project No. 4 (1994).
+The  CCP4 suite: programs for protein crystallography.
+  Acta Crystallogr., Sect.
+D: Biol.
+Crystallogr. 50, 760763.  53.
+Vagin, A. & Teplyakov, A. (1997).
+MOLREP: an  automated program for molecular replacement.
+J.  Appl. Crystallogr.
+30, 10221025.
+  54.
+Murshudov, G. N., Vagin, A. A. & Dodson, E. J. (1997).
+  Refinement of macromolecular structures by the  maximum-likelihood method. Acta Crystallogr., Sect.
+  D: Biol. Crystallogr. 53, 240255.  55.
+Emsley, P. & Cowtan, K. (2004).
+Coot: model-building  tools for molecular graphics.
+Acta Crystallogr., Sect.
+D:  Biol.
+Crystallogr. 60, 21262132.  56. Bower, M. J., Cohen, F. E. & Dunbrack, R. L., Jr. (1997).
+  Prediction of protein side-chain rotamers from a  backbone-dependent rotamer library: a new homology modeling tool.
+J. Mol. Biol. 267, 12681282.  57.
+Dahiyat, B. I. & Mayo, S. L. (1997).
+De novo protein  design: fully automated sequence selection.
+Science,  278, 8287.
+  Colicin DNase Immunity Protein Specificity 759

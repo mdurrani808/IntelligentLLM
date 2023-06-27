@@ -1,0 +1,250 @@
+The basis for limited specificity and MHC restriction in a T cell receptor interface  T cell receptors (TCRs) recognize peptides presented by major histocompatibility complex (MHC) proteins using multiple complementarity determining region (CDR) loops.
+TCRs display an array of poorly understood recognition properties, including specificity, cross-reactivity, and MHC restriction.
+Here we report a comprehensive thermodynamic deconstruction of the interaction between the A6 TCR and the Tax peptide presented by the class I MHC HLA-A*0201, uncovering the physical basis for the receptor's recognition properties.
+Broadly, our findings are in conflict with widely-held generalities regarding TCR recognition, such as the relative contributions of central and peripheral peptide residues and the roles of the hypervariable and germline CDR loops in engaging peptide and MHC.
+Instead we find that the recognition properties of the receptor emerge from the need to engage the composite peptide/MHC surface, with the receptor utilizing its CDR loops in a cooperative fashion such that specificity, cross-reactivity, and MHC restriction are inextricably linked.
+ Introduction Recognition of peptide antigens by the  T cell receptor (TCR) underlies cellular immunity.
+TCRs recognize peptides bound and presented by major histocompatibility complex (MHC) proteins, using multiple complementarity-determining region (CDR) loops to contact the composite peptide-MHC surface (pMHC).
+A notable aspect of the TCR-pMHC interaction is that the distribution of binding energy within the interface has significant functional implications.
+The immune response is directed towards the peptide, yet TCRs invariably contact both peptide and MHC.
+It is commonly expected that contacts between the TCR and peptide should be stronger than those between TCR and MHC to ensure antigen specificity.
+Within this conceptual framework, the various CDR loops have often been ascribed roles in TCR recognition, with weak recognition of the MHC attributed to the germline-encoded CDR1 and CDR2 loops and recognition of the peptide attributed to the hypervariable CDR3 loops.
+While this view logically pairs the diverse and genetically-conserved regions of the TCR-pMHC interface (peptide with CDR3; MHC with CDR1/CDR2), such simplifying distinctions are rarely evident in TCR-pMHC crystallographic structures.
+ Several studies have attempted to address the energetic contributions of different interfacial regions to TCR-pMHC binding through mutagenesis, and alanine scans of both receptor and ligand have been performed.
+Varying conclusions from these studies together with the growing number of TCR-pMHC structures have indicated that the energetic contributions of regions will likely vary among TCR-pMHC interfaces.
+Thus alanine scans have been followed with more targeted substitutions, aiming to identify trends that might yield insight into phenomena such as MHC restriction, peptide specificity, or TCR cross-reactivity.
+ However, while single mutagenesis is useful for examining regions that influence binding and specificity, single mutations cannot probe the strengths of pairwise interactions and provide poor estimates of the contributions of sidechains to binding affinity.
+These caveats have been reviewed in detail, and in one case resulted in incorrect conclusions regarding TCR specificity.
+More direct measurements of energetic contributions to binding are obtainable from double mutant cycles, which can account for both structural and energetic responses to mutations and permit the direct probing of the strengths of interactions between sidechains .
+ Here, we utilize double mutant cycles to dissect the interface between the  TCR A6 and its best studied ligand, the Tax peptide presented by the class I MHC HLA-A*0201 (HLA-A2).
+The significant amount of structural, biophysical, and function al data available for the A6 TCR provided context in which to interpret the measurements.
+For comparison, select measurements are repeated with two additional TCR-pMHC pairs.
+Our observations, several of which conflict with widely-held generalities regarding TCR recognition, shed new light on the origin of TCR limited specificity and MHC restriction, two defining features of TCR recognition for which a variety and sometimes competing explanations have been offered.
+Conclusions applicable to TCR recognition in general relate to the role of hyper variable loop flexibility in promoting limited rather than tight specificity, and that TCR specificity and MHC restriction can be inextricably linked, the latter reflecting the fact that the TCR must engage a composite peptide/MHC ligand with tightly coupled structural properties.
+ Results Double mutant cycles in the A6 TCR  Tax/HLA-A2 interface We began by identifying all interacting sidechains in the interface between the A6 TCR and Tax/HLA-A2.
+There are 21 such pairs, involving 16 amino acids of the TCR, 10 of HLA-A2, and three of the peptide.
+The interaction free energy ( ) between each pair was measured via double mutant cycles.
+Including controls, 38 cycles in the A6-Tax/HLA-A2 interface were performed.
+Eight additional cycles were performed in the interfaces between the B7 TCR and Tax/HLA-A2 and the DMF5 TCR and MART-126(27L)-35/HLA-A2.
+The data were collected and analyzed using a strategy in which all four measurements of a cycle were performed in a single surface plasmon resonance experiment and the data fit globally.
+This approach substantially increased sensitivity and improved accuracy and reproducibility compared to the traditional approach in which cycles are constructed from independently measured values.
+ A representative double mutant cycle is shown in Fig. 1A, and the results of all cycles are listed in Supplementary Tables S1 and S2.
+Errors in the   measurements ranged from 0.1 to 0.5 kcal/mol, with an average error of 0.1 kcal/mol.
+Reproducibility was excellent: each cycle included two replicates, and seven cycles were performed at least two additional times.
+In all but one case the   values for repeated cycles were identical within error, and in the single outlying case the values were weak.
+In all but one easily rationalized case, cycles repeated with different amino acids (e.g., separate cycles with alanine and phenylalanine substituted for pTyr5) yielded identical conclusions.
+Control cycles performed between residues whose sidechain atoms were far apart and not poised to interact yielded   values of zero within error.
+The average G for the interaction between wild-type A6 and Tax/HLA-A2 was -7.6  0.1 kcal/mol, in excellent agreement with values determined previously .
+ The G values resulting from single mutations were poorly correlated with the   values involving the same sites (Fig. 1B).
+Generally, the most destabilizing single mutations were involved in the most favorable interactions, but quantitatively the G values from the single mutations were poor predictors of the strengths of these interactions.
+We found several cases where single mutations had significant effects on binding, yet the mutated sites participated in interactions that were either negligible or weakly unfavorable.
+Two examples are highlighted in Fig. 1B: the hydrogen bond between Thr98 of A6 and Arg65 of HLA-A2 is significantly stronger than predicted by the G of the T98A mutation, and the van der Waals interaction between Gln30 of A6 and Tyr159 of HLA-A2 is almost negligible, despite the large G for the Y159A mutation.
+ Interactions at the periphery dominate peptide contributions In the A6-Tax/HLA-A2 structure, eight sidechains of the TCR interact with three of the peptide.
+The majority of the interactions are made with pTyr5, which lies at the center of the interface and is accommodated in a pocket formed by the TCR  and  chains (Fig.2A).
+Two hydrogen bonds are formed to the tyrosine hydroxyl, one between Ser31 of CDR1 and one with Arg95 of CDR3.
+Only the hydrogen bond with Ser31 was significant (  of -0.9 kcal/mol).
+The strength of the hydrogen bond with Arg95 was negligible at -0.2 kcal/mol, likely due to the entropic cost of ordering the flexible CDR3 loop .
+The remaining interactions with pTyr5 ranged from weakly favorable to unfavorable.
+Summing the various   values leads to a negligible contribution of -0.1 kcal/mol for the interactions with the tyrosine sidechain.
+The data thus indicate that contacts to tyrosine 5 contribute a negligible amount to the affinity of A6 towards Tax/HLA-A2, despite the position of the sidechain in the center of the interface.
+Note that summation of the   values assumes additivity between the double mutant cycles, an assumption subjected to caveats as noted below.
+However, the results explain the ability of T cells expressing A6 to recognize targets presenting Tax variants with a wide range of amino acids substituted for pTyr5, including alanine and bulky non-natural amino acids .
+ The sidechain of pLeu1 forms a single van der Waals interaction with the sidechain of Gln30 of CDR1.
+The Q30A variant of the A6  chain expressed poorly, prohibiting a cycle with alanine at this position.
+However, substitutions with leucine and valine could be made, both yielding an almost negligible   of +0.2 kcal/mol.
+Consistent with this result, A6 T cells are widely tolerant of substitutions to pLeu1 .
+ As opposed topTyr5, pTyr8 is at the periphery of the interface and only interacts with two sidechains of A6.
+A hydrogen bond is formed between the pTyr8 hydroxyl and the sidechain of Glu30 of CDR1, and van der Waals contacts are formed between the tyrosine ring and the sidechain of Leu98 of CDR3.
+Both interactions were found to be unusually strong (Fig.2B): the   for the pTyr8 - Glu30 hydrogen bond was measured as -1.7 kcal/mol, and the   for the interactions with Leu98 was measured as -1.6 kcal/mol.
+The hydrogen bond measurement was repeated twice, first in the background of an affinity-enhancing modification to the pTyr5 sidechain, and second with a phenylalanine substitution at position 8.
+Both measurements yielded results identical within error to the first.
+The strength of the hydrogen bond likely arises because both pTyr8 and Glu30 remain solvent-exposed after forming the TCR-pMHC complex, minimizing the desolvation penalty that occurs upon hydrogen bond formation .
+ Overall, the data indicate that the sidechain of pTyr8 dominates the peptide side contribution to TCR binding affinity.
+This dominance is reflected in functional measurements with A6 T cells, which tolerate substitutions to the sidechain of tyrosine 8 poorly .
+Further, unlike interactions to the center of the peptide, the interactions between the TCR and pTyr8 are conserved across all 10 crystal structures of A6 bound to different peptides.
+ Interactions with CDR3 dominate 1 helix contributions Five sidechains of the A6 CDR1 and CDR3 loops interact with a range of sidechains across the HLA-A2 1 helix.
+The   values were dominated by extremely favorable interactions between the sidechains of Thr98 and Asp99 of CDR3 and Arg65 of the HLA-A2 1 helix (Fig. 3A).
+The strength of the hydrogen bond between Thr98 and Arg65 was measured as -2.8 kcal/mol.
+The salt bridge between Asp99 and Arg65 was even stronger, with two independent   measurements of -3.4 and -3.0 kcal/mol.
+These measurements could only be made with the aid of affinity-enhancing substitutions in CDR3 .
+However, a cycle could be performed without using an altered CDR3 by mutating position 99 to an asparagine rather than alanine.
+In that case, the   value was still an exceptionally strong -2.5 kcal/mol.
+Engagement of Arg65 thus contributes a remarkable degree of favorable binding free energy: assuming additivity between the cycles, the total   amounts to -5 to -6 kcal/mol.
+The interactions between Arg65 and residues of the hypervariable CDR3 loop account for the largest energetic contributions measured in the A6-Tax/HLA-A2 interface.
+The substantial contributions may reflect an optimal electrostatic environment together with the reduced desolvation penalty required for burial of an arginine .
+ The remaining interactions between the TCR and the 1 helix of HLA-A2 ranged from moderately favorable to weakly unfavorable.
+The two interactions between the germline CDR1 loop and the 1 helix were unfavorable, with   values of +0.5 kcal/mol (Asp26  Glu58) and +0.6 kcal/mol (Gln30  Lys66).
+ Interactions with the 2 helix are at best moderate Six sidechains of the A6 TCR, including those from CDR1, CDR2, HV4, and CDR3, interact with eight sidechains across the HLA-A2 2 helix (Fig. 3B).
+Unlike the interactions with the peptide or the 1 helix, the interactions between the TCR and the 2 helix were not dominated by highly favorable interactions, but rather had   values distributed between moderately favorable and moderately unfavorable.
+The interactions between sidechains of CDR1 and the 2 helix were all unfavorable, with   values of +0.1, +0.5, and +1.0 kcal/mol.
+These repulsive interactions were balanced by favorable interactions between sidechains of CDR2 and the 2 helix, consisting of hydrogen bonds with strengths of -1.0 and -0.7 kcal/mol.
+ The interaction between Tyr50 of CDR2 and Gln155 of the 2 helix is of interest given descriptions of conserved interactions occurring between germline loops of TCRs and the  helices of MHC proteins.
+The A6 TCR shares the V 12-2 domain with two other TCRs that have been crystallized with peptide/HLA-A2 complexes .
+Although there are no conserved contacts between the TCRs and HLA-A2 in these structures, there is a shared pattern of interactions involving Tyr50 of CDR2 and Gln155.
+The interaction between Tyr50 and Gln155 in the A6-Tax/HLA-A2 was indeed found to be favorable, although only moderately so, with a   of -0.6 kcal/mol.
+The adjacent hydrogen bond between Asn52 of CDR2 and Glu166 of the HLA-A2 2 helix was more favorable at -1.1 kcal/mol, but this hydrogen bond is not conserved in the three V 12-2 TCR-peptide/HLA-A2interfaces.
+ The interactions between the HV4 loop and HLA-A2, involving electrostatic interactions between Lys68 and Thr163 and Glu166, were moderate, with interaction free energies of -0.9 and -0.7 kcal/mol, respectively.
+The sole interaction between CDR3 and the 2 helix, between Pro103 and Gln155, was also moderate, with a   of -0.7 kcal/mol. Contributions tabulated by interface component The   values from the double mutant cycles in the A6-Tax/HLA-A2 interface are arranged according to CDR loop in Fig. 4.
+The extremely favorable interactions between sidechains of CDR3 and the HLA-A2 1 helix are especially clear, as are the favorable interactions between sidechains of the CDR1 loops and the peptide.
+Also of interest are the opposing interactions between the peptide and CDR3 (unfavorable) and the peptide and CDR3 (favorable).
+Note that the summation in Fig. 4 assumes additivity with caveats discussed below, as noted earlier the results explain a wealth of functional data, and the distribution in Fig. 4 agrees well with computational calculations on the distribution of energy in the A6-Tax/HLA-A2 interface.
+ In addition to global effects, including changes in flexibility that propagate away from the binding sites and the loss in rotational/translational entropy that occurs upon binding (estimated at 4-6 kcal/mol) , a notable component missing from our analysis is interactions with backbone atoms, which cannot be probed by double mutant cycles.
+Within the A6-Tax/HLA-A2 interface there are three backbone-mediated hydrogen bonds, all to the peptide (Fig. 4C).
+Two are between the carbonyl oxygen of pGly4 and Ser100 of CDR3.
+The third is between the carbonyl oxygen of pLeu2 and Gln30 of CDR1.
+The majority of hydrogen bonds within protein structures have been found to be modestly favorable (a recent analysis of double mutant cycles found an average strength of -0.5 kcal/mol).
+Our analysis thus likely underestimates the favorable contributions of CDR1 and CDR3 to recognition of the Tax peptide, but not to an extent that would alter our conclusions.
+ Shared interactions between V 12-2 TCRs and HLA-A2 are weak As noted above, Tyr50 of CDR2 and Gln155 of HLA-A2 share a pattern of interactions in three V 12-2 TCR-peptide/HLA-A2 interfaces .
+We therefore probed the interaction between Tyr50 and Gln155 in the interface between the V 12-2 TCR DMF5 and its MART-126(27L)-35/HLA-A2 ligand.
+The strength of this interaction was identical to that measured in the A6 interface, with a weak   of -0.6 kcal/mol (Fig. 5).
+We also probed the interaction between Asn52 and Glu166 in the DMF5 interface, as these sidechains also interact in both the A6 and DMF5 interfaces (although the hydrogen bond is not present with DMF5).
+Consistent with the structural differences, the strength of the interaction was weaker in the DMF5 interface, with a   of only -0.3 kcal/mol with DMF5 (compared to -1.1 kcal/mol with A6).
+ Analysis of the B7 TCR supports conclusions drawn from A6 The B7 TCR also recognizes the Tax peptide presented by HLA-A2, allowing us to ask to what extent observations made with A6 are shared with B7.
+As with A6, the B7 TCR accommodates the pTyr5sidechain in a pocket formed by the CDR3 and CDR3 loops.
+However, the two pockets have opposing electrostatics: the pocket is positively charged in A6, whereas in B7 it is negatively charged due to the presence of Asp30 of B7 CDR1.
+ The interaction between Asp30 of B7 and pTyr5 was found to be very strong, with a   of -3.8 kcal/mol for a double mutant cycle using alanine at position 5 (Fig. 6A).
+However, this cannot be attributable to the hydrogen bond to Asp30, as a cycle with phenylalanine yielded a weak   of only -0.2 kcal/mol.
+The interaction between Tyr104 of CDR3 and pTyr5 was stronger, with a   of -0.8 kcal/mol.
+Although these cycles do not probe the entirety of B7 contacts to pTyr5, they are nonetheless instructive: engagement of pTyr5 by A6 is negligible, whereas it seems very favorable with B7.
+As the difference cannot be attributed to hydrogen bonds, it may arise from differences in packing and flexibility between the two TCRs, resulting in an entropic penalty with A6 not present with B7.
+This interpretation is supported by the specificities of the two TCRs: A6 tolerates a wide range of modifications to the center of the peptide, yet B7 will only recognize targets with a tyrosine or a phenylalanine at position 5.
+ The B7 TCR utilizes the same V 13-2 gene segment as A6, and the A6 and B7 CDR1 loops are positioned similarly over the peptide C-terminus .
+A double mutant cycle between pTyr8 and Glu30 of B7 yielded a   of -1.6 kcal/mol, identical within error to that measured between pTyr8 and Glu30 of A6 (Fig. 6B).
+Unlike the A6 TCR, the B7 CDR3 loop does not interact with pTyr8, which may explain the greater tolerance of B7 T cells to substitutions at position 8.
+Nonetheless, the presence of a strongly favorable hydrogen bond from CDR1 to pTyr8 in both interfaces indicates that both TCRs arrive at the same germline loop-driven solution for optimizing electrostatic interactions with the peptide.
+ Lastly, we examined engagement of Arg65 on the HLA-A2 1 helix by B7.
+In the B7 complex, Arg65 forms a salt-bridge with Glu94 of CDR3, mimicking somewhat the salt-bridge formed between Arg65 and Asp99 of the A6 CDR3 loop.
+However, compared to the highly favorable interaction formed in the A6 complex, the strength of the salt-bridge with B7 was more modest, with a   of only -0.7 kcal/mol.
+The differences between A6 and B7 likely reflect the suboptimal arrangement between the sidechains in the B7 interface (Fig. 6C).
+However, with B7, Arg65 also forms two hydrogen bonds with the carbonyl oxygen of Glu94, which will likely provide additional favorable free energy.
+The existence of a favorable interaction between Arg65 and CDR3 of B7 is consistent with the observation that the B7 TCR does not recognize Arg65 mutants in functional assays .
+Thus, both TCRs utilize CDR3 to productively engage Arg65 of the HLA-A2 1 helix.
+ Discussion Owing to their usual location in the center of the interface, the central sidechains of a peptide are often assumed to be the focal point in antigen-specific TCR recognition.
+This is not the case with the A6 TCR: despite being accommodated in a central pocket with multiple hydrogen bonds, engagement of the sidechain of pTyr5 of the Tax peptide contributes little to binding.
+This observation helps explain a key aspect of A6 cross-reactivity: the receptor tolerates significant alterations at the center of the peptide , with the CDR3 loop changing its conformation significantly with different peptides.
+The high intrinsic flexibility of the A6 CDR3 loop  likely underlies the overall lack of stabilizing interactions between CDR3 and the peptide center, as the entropic cost of ordering the loop will offset enthalpic gains from interatomic interactions.
+Cross-reactivity in the A6 TCR can thus be attributed to a combination of flexibility and thermodynamic ambivalence (or entropy/enthalpy compensation) at the center of the interface.
+This point is further established by the measurements with the B7 TCR: unlike A6, accommodation of pTyr5 by the B7 TCR is favorable.
+Yet the B7 TCR is less accommodating to substitutions at this position than A6 , and evidence suggests that the B7 hypervariable loops are less flexible than those of A6.
+ Although flexibility and thermodynamic ambivalence at the interface center promotes A6 cross-reactivity, this does not exclude a role for the peptide center and its interactions with the TCR in defining some degree of specificity.
+A weak (or neutral) interaction is better than an unfavorable interaction, and the chemistry of the CDR3/CDR3 loops and their accessible conformations will limit what sidechains will be tolerated.
+For example, A6 tolerates charged amino acids at position 5 of the peptide poorly .
+Flexibility and thermodynamic ambivalence thus provides a mechanism for limited cross-reactivity (or equivalently, limited specificity), a hallmark of T cell recognition.
+The TCR structural database indicates that TCR CDR loop flexibility is concentrated in the hypervariable loops , indicating this strategy may be commonly, if not exclusively, utilized.
+ In contrast with the peptide center, pTyr8 near the C-terminal end dominates the peptide sidechain contributions to the binding of A6, demonstrating the impact peripheral peptide residues can have in TCR recognition.
+The interactions between the TCR and pTyr8 are a strong element of peptide specificity, as a tyrosine at position 8 is conserved in all known A6 agonists, and the interactions with the pTyr8 sidechain are among the few TCR-peptide interactions that are conserved in all 10 crystal structures of A6 bound to a pMHC.
+Comparing positions 5 and 8, the picture that emerges is that from a free energy perspective, pTyr8 acts as a lynchpin for binding of the A6 TCR, whereas pTyr5 is more of a neutral chemical dollop around which the TCR molds.
+It is notable that a significant amount of favorable energy resulting from engaging pTyr8 comes from the germline-encoded CDR1 loop, demonstrating the importance germline loops can have in determining antigen specificity.
+The observation that the B7 TCR utilizes CDR1 to make a similar stabilizing interaction with pTyr8 reinforces this point.
+ Another striking observation is the dominance of the interactions between the A6 hypervariable CDR3 loop and the HLA-A2 1 helix.
+This finding demonstrates conclusively that TCR hypervariable loops can have a significant influence on MHC restriction.
+Yet given the strength of these interactions, how is it that the A6 TCR maintains sufficient peptide specificity to have escaped the filtering process of negative selection?
+Crucially, the interactions between CDR3 and Arg65 cannot be considered in isolation, as their formation is dependent upon the peptide.
+In the bound state, the conformation the flexible A6 CDR3 loop adopts is dependent on the need to avoid steric clashes with other sidechains of HLA-A2.
+However, this conformation can only be reached because of the glycine at peptide position four: due to steric crowding, any other amino acid would prevent CDR3 from adopting its bound conformation and making the crucial interactions with Arg65 (Fig. 7).
+Indeed, A6 is intolerant of any amino acid other than glycine at position 4.
+The peptide and MHC specificity of the A6 TCR are therefore inextricably linked.
+Although the extent to which similar results apply to other TCRs is unknown, this finding underscores the limitations of perspectives that consider MHC and peptide specificity as arising through independent mechanisms.
+ The co-dependency of peptide and MHC specificity in the A6 TCR relates to the observation that the interactions between the germline-encoded loops and the MHC 1/2 helices range from only moderately favorable to moderately unfavorable.
+This includes germline-MHC interactions that are shared in interfaces formed with multiple V 12-2 TCRs .
+The extent to which evolution has influenced interactions between TCR germline loops and MHC proteins is controversial .
+As discussed above though, weak interactions do not necessarily imply a lack of specificity.
+One interpretation consistent with our data is that rather than selecting for residues that will strongly stabilize the interaction of a TCR with an MHC, evolution has selected for sequences and conformations that can add some degree of stabilization when docked alongside the MHC  helices, but can also give when stronger interactions can be made elsewhere .
+An evolutionarily-selected permissiveness could explain not only the lack of strongly favorable germline-MHC contacts in the interfaces explored here, but also observations of non-canonical TCR binding modes , the finding that changes to a peptide alone can alter receptor binding geometry , the impact different CDR3 loops can have on TCR-MHC contacts , and the observation that TCRs that have not undergone selection can engage non-MHC targets .
+It can also explain functional consequences of CDR2 mutations , as these will perturb the energetic balance that leads to permissiveness.
+Such permissiveness may be a strategy for ensuring any given TCR is able to best optimize its interactions with the composite peptide/MHC surface, and provided it is still able to engage with a conducive geometry, initiate T cell signaling.
+ Methods Proteins and peptides TCRs and MHC proteins were refolded from bacterially expressed inclusion bodies according to established procedures .
+TCRs utilized an engineered disulfide bond across the constant domains to ensure stability .
+Amino acids targeted for mutations were identified from the TCR-pMHC structures using a 4  cutoff.
+Mutations were generated from the wild-type plasmids using PCR mutagenesis and confirmed by sequencing or in some cases were available from previous studies .
+Peptides were either synthesized in-house via solid state synthesis using an ABI 433A instrument or synthesized and purified commercially (Genscript).
+ Double mutant cycles In a double mutant cycle, the interaction free energy between two amino acid sidechains is determined via four measurements.
+The first measures the G for the interaction between the two wild-type proteins.
+The second measures the effect of a single mutation on binding free energy ( ) and the third measures the effect of a second mutation ( ), typically at a position that interacts with the site of the first.
+The fourth measurement measures the effect of both mutations simultaneously ( ).
+The measurements refer to a cycle as shown in Fig. 1A. If there is no interaction (or coupling) between the two mutated sites, then the consequences of both mutations simultaneously is equal to the sum of the consequences of first and second mutations alone.
+Subject to the caveats described below, the extent to which this relationship does not hold defines the free energy of interaction between the two sidechains, i.e.: which simplifies to: where   is the double mutant binding free energy,   the binding free energy for the first single mutant,   the binding free energy for the second single mutant, and   the binding free energy for the wild-type proteins.
+ Surface plasmon resonance data collection and analysis Double mutant cycles were performed with surface plasmon resonance utilizing a Biacore 3000instrument.
+Each cycle was performed with a strategy in which all four measurements (wild type, first single mutant, second single mutant, and the double mutant) were performed in one experiment and fit globally.
+Wild-type and mutant TCR were coupled to adjacent flowcells.
+Coupling levels were between 400 and 1200 RU.
+Two identical concentration series of wild-type and mutant pMHC were then simultaneously injected over both flowcells in succession, using concentrations as high as 400 M, resulting in eight datasets for each cycle.
+All binding experiments were performed at 25 C in 150 mM NaCl, 3mM EDTA, 25 mM HEPES, 0.005% P-20, pH 7.4 using a steady-state equilibrium approach.
+Data were processed with BiaEvaluation 4.1.
+ For data analysis, after subtraction of the signal from a third blank flowcell, the eight datasets for each cycle were simultaneously fit to a model in which the four G values and the surface activities of the two flowcells were fitted parameters.
+Global fitting as was performed with custom scripts in OriginPro 7.5 or 9.0.
+This strategy provides significant advantages over the traditional approach in which individual measurements are made and each cycle constructed from independent experiments, as it allows the determination of highly accurate G and   values.
+Constraining the surface activities to values common to multiple datasets in which one has higher affinity than the other greatly increases the affinity range of surface plasmon resonance , an advantage important for weak interactions involving mutants.
+Global fitting of multiple datasets reduces the influence of dataset variation, enforces consistency, and reduces parameter correlation.
+Lastly, when the same sensor surfaces and dilution series are utilized in a titration, systematic errors such as instrumental noise and inaccuracies in protein concentration cancel when differences in free energies (i.e., G and   values) are computed.
+This last point is crucial, as noise and concentration errors contribute significantly to the error and uncertainty in low affinity measurements, as they have a disproportionate impact on regions of a binding curve that show large curvature.
+Note that because of this, in some cycles the measurements of G and   may be more accurate than the individual G measurements comprising it, a caveat that has no impact on our results.
+ In almost all cases, the mutations in each double mutant cycle were to alanine.
+As indicated in Supplementary Tables S1 and S2, exceptions were leucine and valine for Q30 of A6 (as the Q30A mutant expressed poorly), asparagine for D99 of A6 (to verify the strength of the interaction with R65 as described below), both alanine and phenylalanine for pY5 and pY8 (to investigate contacts to the tyrosine hydroxyl vs. contacts to the aromatic ring), and glycine for A69 of HLA-A2.
+Additionally, cycles involving K66 of HLA-A2 were performed in the background of the E63Q mutation to avoid complications arising from the complex electrostatic environment at this position .
+In B7, both alanine and phenylalanine were substituted for pY5 to explore hydrogen bonding vs. packing.
+Also with B7 we utilized asparagine for Asp30, as the D30A mutant expressed poorly.
+ With the A6 TCR, five cycles yielded data in which the affinity of one or more interactions was too weak to yield an accurate value of   (cycles in which Asp99 was mutated to alanine and three of four cycles in which pPhe8 was replaced with alanine or phenylalanine).
+These cycles were repeated with the high affinity TCR variant A6 c134 (CDR3: 99MSAE102) or the fluorinated high affinity Tax peptide variant Y5FFF .
+The Y5FFF substitution has been shown previously to act independently of other substitutions in the interface, and select cycles performed with and without the A6 c134 variant yielded the same conclusions.
+Further, as shown in Supplementary Tables S1 and S2 and described in the main text, the conclusions from the A6 D99  HLA-A2 R65 and A6 E30  Tax pY8 cycles with the high affinity variants were the same when performed in the wild-type background but instead substituting asparagine for D99 and alanine for pY8.
+The experiments with the DMF5 TCR utilized the high affinity D26Y/L98W variant .
+ In some instances (e.g., Fig. 4B) we consider the effects of double mutant cycles in groups, a consideration that implicitly assumes additivity between the measurements.
+The extent to which additivity is permissible depends upon how well the chief assumptions in double mutant cycles hold, i.e., that the mutations are structurally independent and that any perturbations resulting from mutations are the same in the two single-mutant interfaces and the double-mutant interface .
+While these necessarily limiting assumptions are unlikely to be valid in every instance, they have been supported when explicitly explored .
+Support here can be found in the cases where very similar or even identical   measurements were obtained when cycles were repeated using different amino acids at a single position (i.e., Q30-pL1, S31-pY5, D99-R65, E30-pY8, and R95-pY5 in the A6 interface).
+These measurements probed a range of environments, including those with complex electrostatics (D99-R65) and high intrinsic flexibility (R95-pY5).
+ Error propagation of   values was performed using standard statistical error propagation methods .
+When multiple measurements were available, the values in the text and figures were the averages of the multiple measurements.
+ Supplementary Material Author contributions: K.H.P. and S.J.B. performed all experiments.
+Experimental design, data analysis, and interpretation was performed by K.H.P, S.J.B., and B.M.B. D.R.S. assisted in data interpretation.
+The paper was written by K.H.P. and B.M.B., with input and editing performed by all authors. Conflicting financial interests: The authors declare no conflicting financial interests.
+ Hard wiring of T cell receptor specificity for the major histocompatibility complex is underpinned by TCR adaptability The CDR3 regions of an immunodominant T cell receptor dictate the energetic landscape of peptide-MHC recognition Alanine scanning mutagenesis of an alphabeta T cell receptor: mapping the energy of antigen recognition The energetic basis underpinning T-cell teceptor tecognition of a super-bulged peptide bound to a major histocompatibility complex class I molecule Identification of a Crucial Energetic Footprint on the 1 Helix of Human Histocompatibility Leukocyte Antigen (HLA)-A2 That Provides Functional Interactions for Recognition by Tax Peptide/HLA-A2-specific T Cell Receptors T cell receptor CDRs: starring versus supporting roles Unraveling hot spots in binding interfaces: progress and challenges Unraveling a Hotspot for TCR Recognition on HLA-A2: Evidence Against the Existence of Peptide-independent TCR Binding Determinants Double-mutant cycles: a powerful tool for analyzing protein structure and function Structure of the complex between human T-cell receptor, viral peptide and HLA-A2 Two Different T Cell Receptors use Different Thermodynamic Strategies to Recognize the Same Peptide/MHC Ligand Four A6-TCR/peptide/HLA-A2 structures that generate very different T cell signals are nearly identical Disparate Degrees of Hypervariable Loop Flexibility Control T-Cell Receptor Cross-Reactivity, Specificity, and Binding Mechanism Peptide recognition by two HLA-A2/Tax11-19-specific T cell clones in relationship to their MHC/peptide/TCR crystal structures T Cell Receptor Recognition via Cooperative Conformational Plasticity Fluorine substitutions in an antigenic peptide selectively modulate T-cell receptor binding in a minimally perturbing manner Classical electrostatics in biology and chemistry Conformational Melding Permits a Conserved Binding Geometry in TCR Recognition of Foreign and Self Molecular Mimics T cell receptor cross-reactivity directed by antigen-dependent tuning of peptide-MHC molecular flexibility Design of Soluble Recombinant T Cell Receptors for Antigen Targeting and T Cell Inhibition The hydration structure of guanidinium and thiocyanate ions:
+Implications for protein stability in aqueous solution T Cell Receptor Signaling Is Limited by Docking Geometry to Peptide-Major Histocompatibility Complex Structural evidence for a germline-encoded T cell receptor-major histocompatibility complex interaction codon TCRs Used in Cancer Gene Therapy Cross-React with MART-1/Melan-A Tumor Antigens via Distinct Mechanisms Germline-governed recognition of a cancer epitope by an immunodominant human T-cell receptor How T cell receptors interact with peptide-MHCs: A multiple steered molecular dynamics study Cutting Edge: Evidence for a Dynamically Driven T Cell Signaling Mechanism Entropy in protein folding and in protein--protein interactions Theory of free energy and entropy in noncovalent binding Membrane protein folding: how important are hydrogen bonds? Two human T cell receptors bind in a similar diagonal mode to the HLA- A2/Tax peptide complex using different TCR amino acids T Cell Receptor Binding Transition States and Recognition of Peptide/MHC Conformational changes and flexibility in T-cell receptor recognition of peptide-MHC complexes TCR-MHC docking orientation: natural selection, or thymic selection?
+ The molecular basis of TCR germline bias for MHC is surprisingly simple Structural and dynamic control of T-cell receptor specificity, cross-reactivity, and binding mechanism Structural alterations in peptide-MHC recognition by self-reactive T cell receptors Structural insights into the editing of germ-lineencoded interactions between T-cell receptor and MHC class II by V CDR3  T Cell Receptors that Do Not Undergo Major Histocompatibility Complex-Specific Thymic Selection Possess Antibody-like Recognition Specificities Germline-encoded amino acids in the [agr][bgr] T-cell receptor control thymic selection Stable, soluble T-cell receptor molecules for crystallization and therapeutics Strategic mutations in the class I MHC HLA-A2 independently affect both peptide binding and T cell receptor recognition Methods for Quantifying T Cell Receptor Binding Affinities and Thermodynamics Global analysis of biochemical and biophysical data A structural double-mutant cycle: estimating the strength of a buried salt bridge in barnase Double mutant cycles in the A6-Tax/HLA-A2 interface.
+(A) Data for all four interactions defining a double mutant cycle (in this example the A6 T98  Tax/HLA-A2 pY5 interaction) were collected in one experiment, in which duplicate concentration series of wild type or mutant pMHC were injected over adjacent flow cells coupled with wild-type or mutant TCR.
+All eight datasets were fit globally to a model in which the surface activities for the four datasets over the wild-type TCR surface (indicated with red) and the four datasets over the mutant TCR surface (indicated with blue) were shared parameters.
+Construction of the double mutant cycle and the resulting interaction free energy for the T98  pY5 interaction are shown to the right of the plot.
+(B) For cycles in the A6-Tax/HLA-A2 interface, plotting the free energy of interaction of each residue ( ) vs. the effect of its mutation on the binding free energy (G) showed that while the most destabilizing mutations were generally involved in the strongest interactions, the results were poorly correlated.
+Two data points that illustrate the poor correlation are highlighted: the hydrogen bond between Thr98 of A6 and Arg65 of HLA-A2 is stronger than predicted by the G of the T98A mutation, and the van der Waals interaction between Gln30 of A6 and Tyr159 of HLA-A2 is almost negligible, despite the large G for the Y159A mutation.
+Error bars reflect standard parameter error from the global fits of eight datasets.
+ Cross-eyed stereo views of the interactions between the position 5 and position 8 tyrosines of the Tax peptide and sidechains of the A6 TCR.
+(A) Engagement of pTyr5 at the center of the interface by sidechains of CDR1, CDR3, and CDR3 contributes little to TCR affinity.
+Interactions between sidechains are highlighted by red lines, and the free energies of each interaction are indicated in units of kcal/mol.
+(B) In contrast with pTyr5, engagement of pTyr8 by sidechains of CDR1 and CDR3 contributes significantly to TCR affinity.
+ Cross-eyed stereo views of the interactions between sidechains of the HLA-A2 1 and 2 helices and those of the A6 TCR.
+(A) Recognition of the HLA-A2 1 helix by sidechains of CDR1 and CDR3 is dominated by interactions between Arg65 and the sidechains of Thr98 and Asp99 of the CDR3 loop.
+The remainder of the interactions range from moderately unfavorable to moderately favorable.
+Interactions between sidechains are highlighted by red lines, and the free energies of each interaction are indicated in units of kcal/mol.
+(B) Recognition of the HLA-A2 2 helix by sidechains of CDR1, CDR2, CDR3, HV4 proceeds via a range of moderately favorable to moderately unfavorable interactions.
+ Summary of the double mutant cycle results for the A6 TCR and the contributions of various interfacial regions to binding.
+(A) Results of each cycle grouped by CDR loop.
+Cycles involving a peptide sidechain are indicated with a p in the graph.
+Error bars reflect standard parameter error from the global fits of eight datasets.
+(B) Contributions to the overall binding free energy of the A6 TCR tabulated by interfacial region.
+As discussed in the text and as indicated within an asterisk, the contributions of CDR1 and CDR3 are likely an underestimate given the presence of hydrogen bonds from residues of these loops to the backbone of the Tax peptide.
+In panels A and B, the interaction free energies are colored according to the scale at the bottom, with blue reflecting favorable interactions and red unfavorable.
+Errors reflect propagated error from values in panel A and Supplementary Tables S1 and S2.
+(C) Hydrogen bonds involving backbone atoms in the interface between the A6 TCR and Tax/HLA-A2.
+ Comparison of CDR2  HLA-A2 interactions conserved in two V 12-2 TCR interfaces.
+In the DMF5 interface, the interaction between Tyr50 of CDR2 and Gln155 is weakly stabilizing, with a   of -0.6 kcal/mol.
+This is identical to the strength of the Y50-Q155interaction in the A6 interface.
+The interaction between Asn52 of CDR2 and Glu166 is weak in the DMF5 interface, with a   of -0.3 kcal/mol.
+The interaction is much stronger in the A6 interface, with a   of -1.1 kcal/mol.
+ Select interactions in the B7-Tax/HLA-A2 interface for comparison with similar interactions in the A6-Tax/HLA-A2 interface.
+(A).
+Engagement of pTyr5 of the Tax peptide is more substantive with B7 than with A6, but this is not attributable to hydrogen bonding.
+A double mutant cycle between pTyr5 and Asp30 of CDR1 yielded an interaction free energy of -0.2 kcal/mol with phenylalanine substituted for pTyr5.
+However, a cycle with alanine yielded a much more substantial value of -3.8 kcal/mol.
+The interaction between pTyr5 and Tyr104 of CDR3 yielded a moderate interaction free energy of -0.8 kcal/mol.
+(B) The hydrogen bond between Glu30 of CDR1 and pTyr8 of the Tax peptide is strong in the B7 interface, with an interaction free energy of -1.6 kcal/mol.
+An identical interaction with the same strength is formed in the interface with A6 (see Fig. 2B).
+(C) The hydrogen bond between Arg65 of the 1 helix and Glu94 of CDR3 in the interface with the B7 TCR is moderate, with an interaction free energy of -0.7 kcal/mol. Arg65 also makes a bifurcated hydrogen bond with the carbonyl oxygen of Glu94, which as discussed in the main text is also predicted to be stabilizing.
+ The peptide and MHC specificity of the A6 TCR are inextricably linked.
+For TCR binding to proceed, the CDR3 loop must move from its position in the unbound structure to its position in the bound .
+The conformational change is driven in part by a steric clash that would occur between the carbonyl oxygen of Thr98 and the sidechain of Arg65 (left panel).
+This conformational change permits formation of strongly stabilizing hydrogen bonds between from Thr98 and Asp99 to Arg65 (top right).
+However, if an amino acid other than glycine were present at peptide position 4, a steric clash would occur between the Thr98 carboxyl and the position 4  carbon (bottom right), preventing the loop from adopting its bound-state conformation and interacting with Arg65.
+Thus formation of the strong interactions with between CDR3 and Arg65 is dependent on the presence of glycine at peptide position 4.
+Glycine at position 4 is conserved in all known agonists for the A6 TCR.
+ 

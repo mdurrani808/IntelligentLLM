@@ -1,0 +1,305 @@
+Structural insights into regulatory mechanisms of MO25-mediated  kinase activation  Qian Hao 1  , Miao Feng 1  , Zhubing Shi, Chuanchuan Li, Min Chen, Wenjia Wang, Meng Zhang, Shi Jiao,  Zhaocai Zhou   Institute of Biochemistry and Cell Biology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, Shanghai 200031, China  article info  Article history:  Received 22 January 2014  Received in revised form 1 April 2014  Accepted 8 April 2014  Available online 16 April 2014  Keywords:  MO25  Germinal center kinases  aC helix  Activation-loop  Lysineglutamate ion pair  abstract  The tumor suppressor kinase LKB1 and germinal center kinases (GCKs) are key regulators of various cellular functions.
+The adaptor molecule MO25 not only recruits and activates LKB1 through the pseudokinase STRAD, but also may directly activate GCKs like MST3, MST4, STK25, OSR1 and SPAK.
+Targeting MO25  in a pathological setting has been recently studied in mouse.
+Yet the regulatory mechanism of MO25-  mediated kinase activation is not fully understood.
+Here, our structural studies of MO25-related kinases  reveal that MO25 binds to and activates GCK kinases or pseudokinase through a unified structural mechanism, featuring an active conformation of the aC helix and A-loop stabilized by MO25.
+Compared to  GCKs that are directly activated by MO25-binding, activation of LKB1 has evolved additional layer of regulatory machinery, i.e., MO25 activates the pseudokinase STRAD, which in turn activates LKB1.
+Importantly, the structures of MO25aSTK25 and MO25aMST3 determined in this work represent a  transition/intermediate state and a fully activated state, respectively during the MO25-mediated kinase  activating process.
+   2014 Elsevier Inc. All rights reserved.
+  1.
+Introduction  MO25 is a key component of the LKB1STRADMO25 complex  that acts as an upstream kinase for AMPK family of kinases (Baas  et al., 2003; Boudeau et al., 2003, 2004; Lizcano et al., 2004).
+Consisting of seven helical repeats in a horseshoe shape with a concave  surface and a convex surface, MO25 structurally resembles the  armadillo repeat proteins such as PUM1, b-catenin and importina (Conti and Kuriyan, 2000; Graham et al., 2000; Milburn et al.,  2004; Wang et al., 2001).
+It is thought that MO25 functions as an  adaptor protein of the LKB1STRADMO25 heterotrimeric complex to stabilize a closed conformation of STRAD, which in turn  interacts with and activates the tumor suppressor LKB1 (Zeqiraj  et al., 2009).
+In addition to its prominent role in complex with  STRAD and LKB1, MO25 can independently interact with at least  five other kinases MST3, MST4, STK25, OSR1 and SPAK to dramatically enhance their activities (Filippi et al., 2011; Fuller et al.,  2012; Mehellou et al., 2013; Shi et al., 2013; ten Klooster et al.,  2009).
+These kinases, as well as STRAD, all belong to the germinal  center kinase (GCK) family, which has been implicated in multiple  biological processes including cell proliferation, apoptosis, migration, polarity, stress responses, metabolic and immune regulation  (Dan et al., 2001; Delpire, 2009; Ling et al., 2008; Sugden et al.,  2013; Yin et al., 2012).
+  The GCK-III subfamily includes MST3, MST4 and STK25, all of  which are classical kinases that possess a highly conserved N-terminal catalytic domain, a C-terminal dimerization domain and a  variable linker region in between (Filippi et al., 2011; Ling et al.,  2008; Shi et al., 2013; Zeqiraj et al., 2009).
+GCK-III kinases are constitutively autophosphorylated with significant basal activities, but  binding of MO25 further stimulates their activation up to several  folds (Filippi et al., 2011; Huang et al., 2002; Osada et al., 1997;  Qian et al., 2001).
+Increasing evidences suggest that this group of  kinases may exert their functions by forming heterocomplexes  with other proteins.
+For example, GCK-III kinases are now realized  as components of a newly identified supramolecular complex  called striatin-interacting phophatase and kinase (STRIPAK)  (Ceccarelli et al., 2011; Gordon et al., 2011; Goudreault et al.,  2009; Kean et al., 2011).
+In the STRIPAK complex, striatins act as  a scaffolding to recruit phosphatases such as PP2A, and adaptor  molecules such as cerebral cavernous malformation 3 (CCM3) that  directly interacts with GCK-III kinases.
+  http://dx.doi.org/10.1016/j.jsb.2014.04.005  1047-8477/ 2014 Elsevier Inc. All rights reserved.
+   Corresponding author.
+Address: Institute of Biochemistry and Cell Biology, SIBS,  CAS.
+320 Yue-Yang Road, Shanghai 200031, China. Fax: +86 21 54921291.  E-mail address: zczhou@sibcb.ac.cn (Z. Zhou).
+1 These authors contributed equally to this work.
+  Journal of Structural Biology 186 (2014) 224233  Contents lists available at ScienceDirect  Journal of Structural Biology  journal homepage: www.elsevier.com/locate/yjsbiOSR1 and SPAK are two members of the GCK-VI subfamily, and  STRAD is identified as a GCK-VI-related protein (Filippi et al.,  2011).
+STRAD is a pseudokinase that probably loses its kinase  activity caused by inactive mutation during evolution, and specialized for regulation of other kinases such as LKB1.
+OSR1 and SPAK  have extremely low basal activities probably due to self-inhibition,  and their activation largely depends on multiple upstream regulators such as WNK (Vitari et al., 2005) and MO25 (Filippi et al.,  2011).
+Thus members of GCK-VI subfamily and STRAD appear to  evolve distinct regulatory features for their biological functions.
+  Previously we and others have determined the crystal structures of GCK-III kinase MST4 in apo state, as well as in complex  with MO25a and CCM3 (Record et al., 2010; Shi et al., 2013;  Zhang et al., 2013), which revealed the activation mechanism of  MST4 by MO25, and the heterodimeric interactions between  MST4 and CCM3.
+To further clarify the structural mechanisms of  MO25-mediated kinase activation, we determined the crystal  structures of MO25a in complex with the MST3 and STK25, respectively.
+In these complexes, the activation loop (A-loop) of MST3  adopts an active conformation, while that of STK25 adopts an inactive conformation.
+Subsequent structural comparison of MO25a in  complex with MST3, MST4, STK25 and STRADa strongly indicates  that MO25 binds to all these kinases in a highly conserved manner,  which stabilizes a closed conformation of the bound kinase.
+These  observations highlight a regulatory nature of MO25, i.e., directly  stabilize a closed conformation of the classic kinases MST3,  MST4, STK25, OSR1, and SPAK to promote their activation; or  directly stabilize a closed conformation of the pseudokinase  STRAD, which in turn activates LKB1.
+  2.
+Materials and methods  2.1.
+Cloning, protein expression and purification  Human MST3 (amino acids 18-297, T178E), STK25 (amino acids  1-293, D158A) and MO25a (amino acids 11-334) were respectively  cloned into vector HT-pET28a, which was reconstructed from the  vector pET-28a (Novagen), with an N-terminal 6  His tag and a  TEV protease site.
+These constructed plasmids were then transformed into Escherichia coli (E. coli) BL21 (DE3) competent cells  to produce the recombinant proteins.
+The cells were cultured in  Terrific Broth medium to an A600 of 1.0 with rigorous shaking at  37 C, and subsequently protein expression was induced by adding  isopropyl b-D-1-thiogalactopyranoside to a final concentration of  0.5 mM. After incubation for 18 h at 16 C, the cells were harvested  and resuspended in lysis buffer containing 20 mM Hepes pH 7.5,  500 mM NaCl, 5% glycerol, 20 mM imidazole, 1 mM DTT and  1 mM PMSF.
+The cells were broken using a High Pressure Homogenizer (JNBIO) and the supernatant was collected by centrifuging at  20,000g for 40 min.
+Afterwards, these proteins were purified at 4 C  by nickel affinity chromatography.
+The supernatant was mixed  with Ni Sepharose (GE Healthcare) for 1 h. Then the resin was settled by low speed centrifugation at 800g and washed with wash  buffer containing 20 mM Hepes pH 7.5, 500 mM NaCl, 5% glycerol,  40 mM imidazole and 1 mM DTT.
+The target protein was finally  eluted using the wash buffer plus 500 mM imidazole.
+To remove  the His tag, the proteins were digested with TEV protease.
+Besides,  MST3 and STK25 were treated with lambda phosphatase.
+Then the  protein was applied to HiLoad 16/60 Superdex 200 column (GE  Healthcare) using the buffer containing 20 mM Hepes pH 7.5,  100 mM NaCl and 1 mM DTT.
+Purified MST3 (18-297) or STK25  (1-293) was mixed with MO25a (11-334) with equal molar ratio  and applied to gel filtration once more to obtain the binary complex.
+Wild-type and mutant proteins of human MST3 (1-431),  STK25 (1-293) and MO25a (1-341) were also cloned, expressed  and purified according to the methods described above.
+Due to  low expression, only wild-type STK25 (1-426), but not its mutants,  was expressed and purified for kinase assay.
+Full-length MO25a  (1-341) was used for biochemical assays.
+  2.2.
+Crystallization, structure determination and refinement  The MO25aMST3 complex was concentrated to 12 mg/ml and  pre-incubated with 2 mM ADP, 2 mM MnCl2 and 5 mM DWIFE  peptide.
+Crystallization of the MO25aMST3 complex was  achieved by sitting drop vapor diffusion at 16 C in reservoir solution consisting of 100 mM Tris pH 8.5, 2.0 M ammonium sulfate.
+  On the other hand, the MO25aSTK25 complex was concentrated  to 10 mg/ml and pre-incubated with 1 mM kinase inhibitor 5-  [(E)-(5-chloro-2-oxo-1,2-dihydro-3H-indol-3-ylidene)methyl]-N-  [2-(diethylamino)ethyl]-2,4-dimethyl-1H-pyrrole-3-carboxamide  (J60).
+Crystals of the MO25aSTK25 complex were obtained by sitting drop vapor diffusion at 4 C in reservoir solution comprising  0.1 M Hepes pH 7.0, 1 M sodium citrate.
+Diffraction data of the  MO25aMST3 and MO25aSTK25 complexes were collected from  flash-cooled crystals at beamline BL17U, Shanghai Synchrotron  Radiation Facility (SSRF) of China.
+The diffraction data were then  processed with HKL2000 (Otwinowski and Minor, 1997).
+The  structures of the MO25aMST3 and MO25aSTK25 complexes  were solved by molecular replacement using apo structures of  MST3, STK25 and MO25a as searching models.
+  2.3.
+Kinetic assay  Interactions between purified proteins of MO25a (1-341) and  MST3 (1-431) or STK25 (1-293) were detected in vitro by biolayer  interferometry experiment (Octet Red 96, ForteBio) following a  protocol as described previously (Shi et al., 2013; Zhang et al.,  2013).
+Briefly, biotinylated wild-type MST3 or STK25 protein was  immobilized on the streptavidin biosensors and incubated with  varying concentrations of wild-type or mutant MO25a in  1  kinetics buffer (10 mM Na2HPO4, 2 mM KH2PO4, 137 mM NaCl,  2.7 mM KCl, 0.002% Tween 20, 0.1 mg/ml BSA, pH 7.4).
+The same  system was applied to the biotinylated wild-type MO25a with  wild-type or mutant MST3 or STK25.
+Data were analyzed using  Octet Data Analysis Software 7.0 (ForteBio).
+  2.4. Kinase assay  The recombinant MST3 or STK25 and related mutants were pretreated in a buffer containing 50 mM TrisHCl pH 7.5, 0.1 mM  EGTA, 1 mM DTT, 10 mM magnesium acetate and 1 mM ATP for  30 min at 30 C in the absence or presence of 5-fold molar excess  of wild-type MO25a.
+The activities of pre-treated MST3 or STK25  were measured using myelin basic protein (MBP) as substrate in  the buffer described above with [c32P] ATP instead of ATP for  30 min at 30 C. The reactions were terminated by applying the  reaction mixture onto P81 membranes and membranes were  washed with phosphoric acid three times.
+The radioactivity was  measured by scintillation counting according to standard procedures as previously described (Hastie et al., 2006).
+  2.5.
+Accession numbers  The coordinate files and structure factors for crystal structures  of MO25aMST3 and MO25aSTK25 complexes were deposited  in the Protein Data Bank under accession codes 4O27 and 4NZW.
+  Q. Hao et al. / Journal of Structural Biology 186 (2014) 224233 225Fig.1.
+Sequence alignment and domain organization of GCKs.
+(A) Sequence alignment of GCKs, including MST3, MST4, STK25, STRAD, OSR1 and SPAK, was performed with  ClustalW2 (Goujon et al., 2010; Larkin et al., 2007) and ESPript (Gouet et al., 1999).
+The secondary structure of the MST3 kinase domain is labeled.
+Identical residues among  these kinases are colored white on a red background, other conserved residues are colored red, and all of these residues are boxed with a blue frame.
+The conserved sites (A, B,  C and D) that interact with MO25 are labeled with asterisk.
+(B) Schematic illustration of domain organization for human MST3, MST4, STK25 and MO25a.
+GCK-III kinases  contain a conserved kinase domain at the N terminus, a linker region with a Trp-x-Phe (WxF) motif, and a dimerization domain at the C terminus.
+MO25a is composed of  seven a-helical repeats (designated as R0R6).
+  226 Q. Hao et al. / Journal of Structural Biology 186 (2014) 2242333.
+Results and discussion  3.1.
+Structural analysis of MO25a in complex with MST3/STK25  Previous structural analysis of MO25 in complex with STRADa,  MST4 and MST3 demonstrated that MO25 not only extensively  contacts with their kinase domains, but also provides a docking  site for a C-terminal WxF motif of these kinases (Mehellou  et al., 2013; Shi et al., 2013; Zeqiraj et al., 2009).
+Sequence alignment of MO25-binding kinases including STRADa, MST3, MST4,  STK25, OSR1 and SPAK indicated a relatively conserved kinase  domain followed by a WxF motif (Fig. 1A and B).
+In order to further study the structural mechanisms of MO25-mediated kinase  activation, we cloned, purified and crystallized human MO25a  (amino acids 11-334) in complex with MST3 (amino acids 18-  297, T178E) and STK25 (amino acids 1-293, D158A) respectively.
+  For crystallization, a peptide DWIFE corresponding to the WxF  motif was added to the MO25aMST3 sample, while a kinase  inhibitor J60 was added to the MO25aSTK25 sample.
+These two  complexes were solved by molecular replacement and refined at  3.2 and 3.6  resolutions respectively.
+Detailed refinement statistics were listed in Table 1.
+Within the crystallographic asymmetric  unit, one molecule of MO25a interacted with one molecule of  MST3/STK25 (Fig. 2A).
+In the MO25aMST3 complex, substitution  of residue T178 with a glutamic acid mimicking the autophosphorylation of A-loop allowed MST3 to adopt an active conformation  with an ordered and extended A-loop (Fig. 2A).
+Besides, an ADP  molecule was observed to bind to the ATP-binding site of MST3.
+  In the MO25aSTK25 complex, mutation of D158A in the DFG  motif of STK25 impaired its ability to bind to the metal-ion cofactor, causing a disordered A-loop (Fig. 2A).
+As an ADP in MST3, a  kinase inhibitor J60 occupied the ATP-binding site of STK25.
+  Consistent with previous studies, MO25a tightly interacts with  the N-lobe, the aE helix, as well as the WxF motif of MST3/STK25,  forming a four-site (termed sites A, B, C and D) interface (Fig. 2A).
+  Sites AC are located on the concave surface of MO25a, which  mainly mediate interactions with the kinase domain.
+Site D is  located on the C-terminal convex surface of MO25a, which forms  a hydrophobic pocket to accommodate the WxF motif.
+In detail,  the critical residue at site A, i.e., residue E58 of MST3 (E59 of  STK25) located in the loop between the aC helix and b3 sheet  forms hydrogen bonding with Y223, S267 and N269 from MO25a  repeats R4 and R5 (Fig. 2B).
+In addition, residue E65 in the aC helix  of MST3 forms electrostatic interactions with residues K189, K231  and Q228 in MO25a repeat R4.
+Residue Q64 in the aC helix of  STK25 contacts with S182 from MO25a repeat R3.
+At site B, residues L90 and L95 of MST3 (L86 and L91 of STK25) from the strands  b4 and b5 form central hydrophobic contacts with F178 and V224  from MO25a repeats R3 and R4 (Fig. 2C).
+Besides, residues Y85 and  S88 of MST3 (Y81 and S84 of STK25) from the b4 sheet form hydrogen bonding with D179 from MO25a repeat R3.
+At site C, residues  Y134 and E138 of MST3 (Y129 and E134 of STK25) from the aE  helix form two pairs of hydrogen bonding with residues E93 and  K96 from MO25a repeat R1 (Fig. 2D).
+At site D, the WxF (DWIFE  in MST3) fits into the hydrophobic pocket of MO25a, forming a set  of separated interactions away from those related to kinase  domain at sites AC (Fig. 2E).
+The side chains of residues W325  and F327 make contact with a group of hydrophobic residues  including residues M260, L263, F278, I294, K301, L302, and F305  of MO25a.
+Taken together, these results strongly indicate that  the overall binding manner and primary binding sites between  MO25 and MO25-bound kinases are highly conserved.
+  Besides the interactions at sites AD, the A-loop of MST3, which  adopts an extended active conformation, also interacts with  MO25a (Fig. 2F).
+Residue D171 located at the A-loop of MST3 forms  hydrogen bonding with residues Y55 and N104 of MO25a, stabilizing the A-loop in active conformation.
+On the other hand, the residue R13 located at the N-terminus of STK25 is observed to form  hydrogen bonding with the residue E174 of MO25a repeat R3  (Fig. 2G).
+Together, these observations suggest that specific conformations of the A-loop and the N-terminal region adjacent to the aC  helix, both of which are closely related to kinase activation, may  help to stabilize the interactions between MO25 and the bound  kinases.
+  3.2.
+Mutational analysis of the interface between MO25a and MST3/  STK25  To confirm the interfaces between MO25a and MST3/STK25  derived from the complex, we performed structure-guided sitespecific mutagenesis.
+A series of mutants were designed based on  the full-length MST3 and MO25a.
+As to STK25, due to the low  expression of full-length STK25 in E. coli, we used STK25 (1-293)  which lacked site D instead of STK25 (1-426) to perform the kinetic  assays and the following kinase assays.
+Biolayer interferometry  experiment was used to detect interactions between purified proteins of wild-type or mutant MST3/STK25 and MO25a (Tables 2  and 3).
+Our results indicated that mutations at site B, including single mutations L95E of MST3 and L91A of STK25 disrupted their  association with MO25a.
+Consistently, single mutation F178E of  MO25a almost completely abrogated its binding ability to MST3  or STK25.
+Moreover, mutating residues at site D, such as W325E  and F327E in MST3 or M260E in MO25a also abolished interactions  between MO25a and MST3.
+Besides, substitution of residue Y223  (site A) or K96 (site C) of MO25a with alanine resulted in a reduced  binding affinity to MST3.
+Slightly different from MST3, MO25a  mutant Y223A (site A) disrupted the interaction between MO25a  and STK25, whereas its mutant K96A (site C) had no significant  effect on its ability for STK25-binding.
+This difference was possibly  due to the distinct fragments of MST3 and STK25 adopted in this  experiment.
+Noteworthily, the MO25a-binding affinity of  wild-type STK25 (1-293) was lower than that of wild-type MST3  (1-431), probably attributing to the absence of site D in STK25  Table 1  Data collection and refinement statistics.
+  MO25MST3 MO25STK25  Data collection  Wavelength () 0.97915 0.9793  Resolution range () 503.2 (3.263.2) 503.6 (3.663.6)  Space group P43212 P43212  Unit cell dimensions a = b = 119.111,  c = 149.258  a=b= 116.72,  c = 126.81  Total reflections 249,070 110,016  Unique reflections 18,536 10,754  Completeness (%) 99.76 (97.96) 99.72 (98.45)  Redundancy 13.4 (14.1) 10.2 (10.3)  Rmerge 0.101 (0.9) 0.179 (0.963)  Mean I/r(I) 23.02 (4.84) 15.91 (5.25)  Refinement  Rwork/Rfree 0.1965/0.2601 0.2068/0.2529  No. atoms 4870 4715  Macromolecules 4842 4686  Ligands 28 29  Protein residues 611 574  R.m.s.
+deviations  Bond lengths () 0.010 0.005  Bond angles () 1.28 0.68  Ramachandran favored (%) 85 92  Ramachandran outliers (%) 3.8 2.3  Average B-factor 88.90 66.80  Macromolecules 88.90 66.70  Ligands 107.20 80.60  Values in parentheses are for the highest resolution shell.
+  Q. Hao et al. / Journal of Structural Biology 186 (2014) 224233 227(1-293).
+Accordingly, mutation Y223A of MO25a at site A might  disturb its association with the kinase domain of STK25 more easily compared with the case of full-length MST3.
+On the other hand,  MST3 mutants including E58A at site A and E138A at site C, or  STK25 mutants including E59A at site A and E134A at site C  showed similar MO25a-binding affinity with the wild-type proteins.
+Taken together, these results demonstrated that hydrophobic  interactions at sites B and D play a vital role in the formation of  interactions between MO25a and MST3/STK25, while hydrogen  bonding and electrostatic interactions at sites A and C assist in  the maintenance of their association.
+  To further investigate the biological functions of MO25a binding  to MST3/STK25, we performed kinase assays for MST3 (1-431) and  STK25 (1-293) in the absence or presence of MO25a using MBP as a  substrate.
+Before this, we detected the catalytic activity of MST3  Fig.2.
+Interfaces of MO25aMST3 and MO25aSTK25 complexes.
+(A) Cartoon representation for overall structures of MO25aMST3 and MO25aSTK25 complexes.
+MST3,  STK25 and MO25a are colored lightpink, cyan and green, respectively.
+The WIF motif of MST3 is colored red and the compounds ADP and J60 are shown as sticks and colored  orange.
+The A-loop of MST3 is colored pink.
+MST3 has four conserved sites (A, B, C and D) for MO25a binding.
+The MO25aSTK25 complex shows three conserved sites (A, B  and C).
+(BD) Detailed view of sites A, B and C in MO25aMST3 and MO25aSTK25 complexes.
+The magenta dashes represent hydrogen bonding or electrostatic interactions.
+  Residues in the interfaces are represented as sticks.
+(E) Detailed view of site D in MO25aMST3 complex.
+The WIF motif of MST3 binds to a hydrophobic pocket in the Cterminal convex surface of MO25a.
+(F) The interface between the activation loop of MST3 and MO25a.
+(G) The interface between the N-terminus of STK25 and MO25a.
+  Table 2  Mutational analysis of MO25aMST3 interface.
+  Sites Analyte KD (nM) Analyte KD (nM)  MO25a (WT) 25 MST3 (WT) 25  A MO25a (Y223A) 188 MST3 (E58A) 46.8  B MO25a (F178E) ND MST3 (L95E) ND  C MO25a (K96A) 141 MST3 (E138A) 41.6  D MO25a (M260E) ND MST3 (W325E) ND  MST3 (F327E) ND  Binding affinities between MST3 (1-431) and MO25a were measured by Octet Red  96 with purified wild-type and mutant proteins in vitro.
+KD values, as kon (associtation)/koff (dissociation), were measured and calculated by Octet Data Analysis  Software 7.0.
+ND, not determined.
+  Table 3  Mutational analysis of MO25aSTK25 interface.
+  Sites Analyte KD (nM) Analyte KD (nM)  MO25a (WT) 504 STK25 (WT) 504  A MO25a (Y223A) ND STK25 (E59A) 873  B MO25a (F178E) ND STK25 (L91A) ND  C MO25a (K96A) 573 STK25 (E134A) 921  Binding affinities between STK25 (1-293) and MO25a were measured by Octet Red  96 with purified wild-type and mutant proteins in vitro.
+KD values, as kon (associtation)/koff (dissociation), were measured and calculated by Octet Data Analysis  Software 7.0.
+ND, not determined.
+  228 Q. Hao et al. / Journal of Structural Biology 186 (2014) 224233(18-297) and STK25 (1-293) used for co-crystallization with  MO25a.
+As shown in Fig. 3A, the kinase domain of STK25 was successfully activated in vitro, and its activity was further enhanced by  MO25a-binding as much as the full-length protein, which was similar to the case of MST4 (Shi et al., 2013).
+On the contrary, the basal  activity of MST3 retaining the kinase domain only was lower than  that of the full-length MST3, consistent with the previous result  (Mehellou et al., 2013) (Fig. 3B).
+Moreover, MO25a-dependent  stimulation of MST3 activity was not observed when MST3 lacked  the linker region and the C-terminal domain.
+These results indicated that the activation mechanisms of MST3, MST4 and STK25  are more complicated than expected.
+The linker region and the Cterminal domain may be also involved in the interaction between  GCK-IIIs and MO25, as well as the regulation of GCK-IIIs activity.
+  Fig.3.
+MST3/STK25 kinase activity regulated by MO25a.
+(A and B) Relative kinases activities of the indicated constructs of MST3/STK25 were measured in the absence or  presence of MO25a.
+The activity of wild-type MST3/STK25 determined in the absence of MO25a was set to 1.0.
+(C and D) Kinase activities were measured with full-length  MST3 (1-431) and the kinase domain of STK25 (1-293) proteins purified from E. coli.
+The left panel showed the relative kinase activities of MST3 (C) or STK25 (D) in the  presence of wild-type or mutant MO25a.
+The right panel showed the relative kinase activities of wild-type and mutant MST3 (C) or STK25 (D) in the absence or presence of  wild-type MO25a.
+The activity of wild-type MST3/STK25 determined in the absence of MO25a was set to 1.0.
+All the kinase assays used MBP as substrate.
+Error bars represent  SD of data obtained in three independent experiments.
+  Q. Hao et al. / Journal of Structural Biology 186 (2014) 224233 229Then we performed the kinase assays using the wild-type or  mutant proteins of MST3 (1-431), STK25 (1-293) and MO25a (1-  341).
+The kinase activity of MST3 was increased three-folds upon  MO25a stimulation (Fig. 3C).
+Mutations F178E of MO25a and  L95 E of MST3 at site B that impaired their interaction could not  efficiently promote the activation of MST3.
+Mutations K96A of  MO25a and E138A of MST3 at site C, which didnt significantly  affect their interaction, enhanced the kinase activity of MST3 as  wild-type proteins.
+However, mutations Y223A of MO25a and  E58A of MST3 at site A didnt disrupt their association, but remarkably impaired MST3 activation by MO25a.
+In contrast, mutations  M260E of MO25a and W325E and F327E of MST3 at site D, which  showed abolished interaction, didnt significantly suppress the  activity of MST3 enhanced by MO25a.
+In the case of STK25, it  was also activated 3-fold by the supply of wild-type MO25a  (Fig. 3D).
+Expect mutation Y223A of MO25a, mutations K96A and  F178E of MO25a and E59A, L91A and E134A of STK25 showed similar effects on STK25 kinase activity as MST3.
+However, the  impaired binding affinity of MO25a mutation Y223A to STK25 is  consistent with its disability to promote STK25 activity.
+  In summary, the key residues from sites A to D are responsible  for the formation of MO25aMST3/STK25 complex.
+Mutations of  these residues inhibit the binding of MST3/STK25 to MO25a in  varying degrees, and further suppress the activation of MST3/  STK25 stimulated by MO25a at different levels.
+However, results  from kinetic and kinase assays are not very consistent at sites A  and D, which may be caused by other regulatory mechanisms.
+  For example, the linker region and dimerization domain of MST3,  as well as those of STK25, might regulate its activity (Mehellou  et al., 2013).
+In this regard, note that, although MST3, MST4 and  STK25 are highly conserved in their kinase domains, their linker  regions are relatively diversified, which may account for differential regulation of activities.
+Moreover, we have identified multiple  autophosphorylation sites at the linker region of GCK-IIIs by mass  spectrometry analysis, which might modulate their activation  (data not shown).
+The potential regulatory function of the linker  region is also partially supported by the evidence that phosphorylation of the residue T328 in MST3 is responsible for the formation  of the MST3MO25a complex (Fuller et al., 2012).
+Further study is  required to clearly define such a regulatory mechanism.
+  Fig.4.
+Structural features of GCK kinases activation.
+(A) Structural comparison of MO25aMST3, MO25aMST4 (PDB ID: 4FZA), MO25aSTK25 and MO25aSTRADa (PDB ID:  3GNI) complexes.
+MST3, MST4, STK25, STRADa and MO25a are colored lightpink, yellow, cyan, gray and green respectively.
+Sites D of kinases are highlighted with red stick  representation.
+The A-loops of kinases are colored pink.
+(BD) Structural comparison of MST4 (B), MST3 (C) and STK25 (D) in apo and MO25a-complexed states respectively.
+  Structures used in comparison: apo MST3 (slate, PDB ID: 3A7J), MST4 (sky blue, PDB ID: 3GGF) and STK25 (limegreen, PDB ID: 2XIK), respectively.
+The distances between  lysine and glutamate in structures are shown.
+  230 Q. Hao et al. / Journal of Structural Biology 186 (2014) 2242333.3.
+Structural comparison of MO25-kinase complexes revealed a  conserved binding mode  Previously we reported the crystal structure of MO25a in complex with MST4 (Shi et al., 2013), which shows an overall conformation that resembles those of the MO25aSTRADa complex  and the MO25bMST3 complex that was determined independently by another group (Mehellou et al., 2013), suggesting that  MO25 binds to all the MO25-related kinases in a conserved  manner.
+To verify this hypothesis, we performed a structural comparison of all available MO25-kinase complexes including MO25a/  bMST3, MO25aMST4, MO25aSTK25 and MO25aSTRADa.
+  Since the structure of the MO25aMST3 complex determined in  this work is almost identical to the previously reported one, except  that the conformation of A-loop is active in our structure but inactive in the reported one (Mehellou et al., 2013).
+We therefore only  used the current structure of the MO25aMST3 complex for subsequent analysis.
+  Structural comparison reveals that indeed MO25 interacts with  all these MO25-binding kinases in a highly conserved mode with  four conserved sites (A, B, C and D) on their interfaces (Fig. 4A).
+  Two major regions of the MO25-binding kinases are responsible  for interaction with MO25.
+The first region refers to the N-lobe  and the aE helix of the kinase domain.
+In this region, sites A and  C act as two anchors via hydrogen bonding with MO25 to fix the  aC helix of the kinase to the concave surface of MO25.
+In addition,  the hydrophobic and hydrogen bonding interactions at site B cooperate to render the N-lobe of the kinase domain closer to the Clobe, facilitating the MO25-binding kinases to assume a closed  conformation with higher activity.
+The second region is identified  as site D, which is isolated from sites A to C. This site possesses a  conserved WxF motif that is located at the C-terminal to the kinase  domain.
+In this region, the aromatic rings of residues tryptophan  and phenylalanine insert into a hydrophobic pocket of the convex  surface in MO25.
+Taken together, these observations indicate a  conserved structural interface between MO25 and these MO25-  binding kinases, which is consistent with their conserved primary  sequences corresponding to the sites AD (Filippi et al., 2011;  Sugden et al., 2013).
+  Despite of the conserved binding mode, it appears that MO25-  binding kinases are differentially regulated by MO25, as reflected  by the fact that point mutations of similar set of interface residues  reduce their MO25-binding abilities to different extents.
+For example, deletion of the WxF motif (site D) in STRADa and OSR1 abolishes their association with MO25 (Boudeau et al., 2003; Filippi  et al., 2011), whereas the kinase domain alone of GCK-III family  members without the WxF motif is sufficient to associate with  MO25 (Shi et al., 2013).
+However, substitution of residues tryptophan and phenylalanine of the WxF motif with glutamic acids in  a context of full-length GCK-III kinases almost completely disrupted their interaction with MO25, suggesting that this WxF containing region plays a regulatory role for MO25-kinase complex  Fig.5.
+A schematic model for MO25-regulated GCK kinases activity.
+Regarding to inactive GCKs, MO25 rotates their aC helix to facilitate the lysineglutamate ion pair  formation, causing a closed conformation corresponding to a transition or intermediate state.
+As to active GCKs, MO25 stabilizes the aC helix orientation, the lysine  glutamate ion pair position and the A-loop conformation to endow the enzyme with full activity.
+  Q. Hao et al. / Journal of Structural Biology 186 (2014) 224233 231assembly.
+Interestingly, our unpublished data suggest that this  WxF linker region is highly auto-phosphorylated during the activation of GCK-III kinases.
+  3.4. Regulatory mechanisms for MO25-mediated kinase activation  Previously, we have proposed a schematic model concerning  MO25-mediated MST4 activation based on the structure of  MO25aMST4 complex (Shi et al., 2013).
+A hallmark of this model  is that binding of MO25 induces a key conformational change of  MST4 aC helix compared with that of apo MST4 (Fig. 4B).
+The aC  helix in the apo structure of MST4 kinase domain assumes an inactive conformation (PDB ID: 3GGF), in which the conserved glutamate residue (E70) of the aC helix is positioned away from the  lysine residue (K53) of the conserved VAIK motif.
+MO25 binding  allows the aC helix to rotate towards the catalytic core of MST4,  orienting residues K53 and E70 towards each other to form a  canonical salt bridge, and shortening the distance between residues K53 and E70 from 11.9  in the apo state to 4.1  in the complex (PDB ID: 4FZD).
+  Compared to the apo structure of MST3/STK25 (Ko et al., 2010),  which already assumes an active conformation, MO25 binding  does not further rotate the aC helix of MST3/STK25 towards catalytic site (Fig. 4C and D).
+Instead, the N-terminus of MST3/STK25  aC helix appears to bend away from the catalytic center.
+In fact,  a cluster of residues from the strands b4 and b5 of MST3/STK25  kinase N-lobe form contacts with MO25 concave surface, shifting  the N-lobe towards the aC helix and subsequently stabilizing the  conserved lysineglutamate salt bridge formed between residues  K53 and E70 in MST3 or K49 and E66 in STK25.
+Specifically, hydrogen bonding of residue E65 on the N-terminus of MST3 aC helix  with MO25 may account for the bend of the aC helix, posing the  side chain of E70 on the aC helix upwards to maintain a 2.9- distance of the K53-E70 ion pair.
+Similarly, hydrogen bonding  between Q64 of the STK25 aC helix and S182 of MO25 appears  to stabilize the K49-E66 ion pair.
+Besides, resembling STRAD, the  A-loop of MST3 is also extended to contact MO25, further stabilizing the active conformation of MST3.
+  Taken together, these observations suggest that MO25 mainly  stabilizes the aC helix of the MO25-binding kinases in a proper orientation to facilitate the conserved lysineglutamate ion pair interaction and therefore maintains an active conformation of the  kinase domain (Fig. 5).
+As such, the MO25-binding kinases are  either directly activated like GCK-III kinases or charged like  STRAD, which in turn activates LKB1.
+  4.
+Conclusion  MO25 binds to and stabilizes the active conformation of multiple kinases or pseudokinase including GCK-IIIs (MST3, MST4 and  STK25) and GCK-VIs (OSR1, SPAK and STRAD) through a conserved  structural mechanism.
+aC helix and A-loop are two major structural determinants that are contacted and regulated by MO25.
+  The structures of MO25a in complex with STK25 and MST3 determined in this work represent an intermediate/transition and a fully  activated state, respectively, during the process of MO25-mediated  kinase activation.
+In addition to this general activation machinery,  our results also indicate that the activation mechanisms of GCK-III  kinases are differential and more complicated than expected.
+The  linker region and the C-terminal domain of GCK-III, which are  diversified in their primary sequences, may play a regulatory role  during activation by MO25.
+  It appears that kinase activation has evolved differential regulatory mechanism to control biological functions of distinct kinases.
+  An interesting example is that MO25 can activate LKB1 through  activating the pseudokinase STRAD in the MO25STRADLKB1  ternary complex.
+Mammalian MO25 gene encodes two isoforms  termed MO25a and MO25b, sharing 79% sequence identity  (Boudeau et al., 2003), suggesting MO25 could differentially regulate the activation of distinct kinases.
+Moreover, the pseudokinase  STRAD also has different isoforms and distinct splicing variants,  further indicating a possibility of complicated regulatory mechanisms for kinases like LKB1.
+  Acknowledgments  We thank the staffs at beamline BL17U of Shanghai Synchrotron  Radiation Facility (SSRF) for help of data collection.
+This work was  supported by the 973 program of the Ministry of Science and Technology of China (2010CB529701, 2012CB910204), the National  Natural Science Foundation of China (31270808, 31300734), the  Natural Science Foundation of Shanghai (13ZR1446400) and the  Basic Research Project of Shanghai Science and Technology  Commission (11JC14140000).
+Dr. Z.Z. is a scholar of the Hundred  Talents Program of the Chinese Academy of Sciences.  References  Baas, A.F., Boudeau, J., Sapkota, G.P., Smit, L., Medema, R., Morrice, N.A., Alessi, D.R.,  Clevers, H.C., 2003.
+Activation of the tumour suppressor kinase LKB1 by the  STE20-like pseudokinase STRAD.
+EMBO J. 22, 30623072.  Boudeau, J., Baas, A.F., Deak, M., Morrice, N.A., Kieloch, A., Schutkowski, M., Prescott,  A.R., Clevers, H.C., Alessi, D.R., 2003.
+MO25alpha/beta interact with  STRADalpha/beta enhancing their ability to bind, activate and localize LKB1 in  the cytoplasm.
+EMBO J. 22, 51025114.  Boudeau, J., Scott, J.W., Resta, N., Deak, M., Kieloch, A., Komander, D., Hardie, D.G.,  Prescott, A.R., van Aalten, D.M., Alessi, D.R., 2004.
+Analysis of the LKB1STRAD  MO25 complex.
+J. Cell Sci. 117, 63656375.  Ceccarelli, D.F., Laister, R.C., Mulligan, V.K., Kean, M.J., Goudreault, M., Scott, I.C.,  Derry, W.B., Chakrabartty, A., Gingras, A.C., Sicheri, F., 2011.
+CCM3/PDCD10  heterodimerizes with germinal center kinase III (GCKIII) proteins using a  mechanism analogous to CCM3 homodimerization.
+J. Biol. Chem. 286, 25056  25064.
+  Conti, E., Kuriyan, J., 2000.
+Crystallographic analysis of the specific yet versatile  recognition of distinct nuclear localization signals by karyopherin alpha.
+  Structure 8, 329338.  Dan, I., Watanabe, N.M., Kusumi, A., 2001.
+The Ste20 group kinases as regulators of  MAP kinase cascades.
+Trends Cell Biol. 11, 220230.  Delpire, E., 2009.
+The mammalian family of sterile 20p-like protein kinases.
+Pflugers  Arch.
+458, 953967.  Filippi, B.M., de los Heros, P., Mehellou, Y., Navratilova, I., Gourlay, R., Deak, M.,  Plater, L., Toth, R., Zeqiraj, E., Alessi, D.R., 2011.
+MO25 is a master regulator of  SPAK/OSR1 and MST3/MST4/YSK1 protein kinases.
+EMBO J. 30, 17301741.  Fuller, S.J., McGuffin, L.J., Marshall, A.K., Giraldo, A., Pikkarainen, S., Clerk, A., Sugden,  P.H., 2012.
+A novel non-canonical mechanism of regulation of MST3  (mammalian Sterile20-related kinase 3).
+Biochem. J. 442, 595610.  Gordon, J., Hwang, J., Carrier, K.J., Jones, C.A., Kern, Q.L., Moreno, C.S., Karas, R.H.,  Pallas, D.C., 2011. Protein phosphatase 2a (PP2A) binds within the  oligomerization domain of striatin and regulates the phosphorylation and  activation of the mammalian Ste20-Like kinase Mst3.
+BMC Biochem.
+12, 54.  Goudreault, M., DAmbrosio, L.M., Kean, M.J., Mullin, M.J., Larsen, B.G., Sanchez, A.,  Chaudhry, S., Chen, G.I., Sicheri, F., Nesvizhskii, A.I., Aebersold, R., Raught, B.,  Gingras, A.C., 2009.
+A PP2A phosphatase high density interaction network  identifies a novel striatin-interacting phosphatase and kinase complex linked to  the cerebral cavernous malformation 3 (CCM3) protein.
+Mol. Cell. Proteomics 8,  157171.
+  Gouet, P., Courcelle, E., Stuart, D.I., Metoz, F., 1999.
+ESPript: analysis of multiple  sequence alignments in PostScript. Bioinformatics 15, 305308.  Goujon, M., McWilliam, H., Li, W., Valentin, F., Squizzato, S., Paern, J., Lopez, R., 2010.  A new bioinformatics analysis tools framework at EMBL-EBI.
+Nucleic Acids Res.  38, W695W699.  Graham, T.A., Weaver, C., Mao, F., Kimelman, D., Xu, W., 2000.
+Crystal structure of a  beta-catenin/Tcf complex.
+Cell 103, 885896.  Hastie, C.J., McLauchlan, H.J., Cohen, P., 2006.
+Assay of protein kinases using  radiolabeled ATP: a protocol.
+Nat. Protoc. 1, 968971.  Huang, C.Y., Wu, Y.M., Hsu, C.Y., Lee, W.S., Lai, M.D., Lu, T.J., Huang, C.L., Leu, T.H.,  Shih, H.M., Fang, H.I., Robinson, D.R., Kung, H.J., Yuan, C.J., 2002. Caspase  activation of mammalian sterile 20-like kinase 3 (Mst3).
+Nuclear translocation  and induction of apoptosis.
+J. Biol. Chem. 277, 3436734374.  Kean, M.J., Ceccarelli, D.F., Goudreault, M., Sanches, M., Tate, S., Larsen, B., Gibson,  L.C., Derry, W.B., Scott, I.C., Pelletier, L., Baillie, G.S., Sicheri, F., Gingras, A.C.,  2011.
+Structurefunction analysis of core STRIPAK proteins: a signaling  complex implicated in Golgi polarization.
+J. Biol. Chem. 286, 2506525075.  232 Q. Hao et al. / Journal of Structural Biology 186 (2014) 224233Ko, T.P., Jeng, W.Y., Liu, C.I., Lai, M.D., Wu, C.L., Chang, W.J., Shr, H.L., Lu, T.J., Wang,  A.H., 2010.
+Structures of human MST3 kinase in complex with adenine, ADP and  Mn2+. Acta Crystallogr.
+D Biol.
+Crystallogr. 66, 145154.  Larkin, M.A., Blackshields, G., Brown, N.P., Chenna, R., McGettigan, P.A., McWilliam,  H., Valentin, F., Wallace, I.M., Wilm, A., Lopez, R., Thompson, J.D., Gibson, T.J.,  Higgins, D.G., 2007. Clustal W and Clustal X version 2.0. Bioinformatics 23,  29472948.  Ling, P., Lu, T.J., Yuan, C.J., Lai, M.D., 2008. Biosignaling of mammalian Ste20-related  kinases.
+Cell. Signal. 20, 12371247.  Lizcano, J.M., Goransson, O., Toth, R., Deak, M., Morrice, N.A., Boudeau, J., Hawley,  S.A., Udd, L., Makela, T.P., Hardie, D.G., Alessi, D.R., 2004.
+LKB1 is a master kinase  that activates 13 kinases of the AMPK subfamily, including MARK/PAR-1.
+EMBO  J. 23, 833843.  Mehellou, Y., Alessi, D.R., Macartney, T.J., Szklarz, M., Knapp, S., Elkins, J.M., 2013.  Structural insights into the activation of MST3 by MO25.
+Biochem. Biophys. Res.  Commun. 431, 604609.  Milburn, C.C., Boudeau, J., Deak, M., Alessi, D.R., van Aalten, D.M., 2004. Crystal  structure of MO25 alpha in complex with the C terminus of the pseudo kinase  STE20-related adaptor.
+Nat. Struct.
+Mol. Biol. 11, 193200.  Osada, S., Izawa, M., Saito, R., Mizuno, K., Suzuki, A., Hirai, S., Ohno, S., 1997. YSK1, a  novel mammalian protein kinase structurally related to Ste20 and SPS1, but is  not involved in the known MAPK pathways.
+Oncogene 14, 20472057.  Otwinowski, Z., Minor, W., 1997.
+Processing of X-ray diffraction data collected in  oscillation mode.
+Methods Enzymol. 276, 307326.  Qian, Z., Lin, C., Espinosa, R., LeBeau, M., Rosner, M.R., 2001.
+Cloning and  characterization of MST4, a novel Ste20-like kinase.
+J. Biol. Chem. 276,  2243922445.
+  Record, C.J., Chaikuad, A., Rellos, P., Das, S., Pike, A.C., Fedorov, O., Marsden, B.D.,  Knapp, S., Lee, W.H., 2010.
+Structural comparison of human mammalian ste20-  like kinases.
+PLoS ONE 5, e11905.
+  Shi, Z., Jiao, S., Zhang, Z., Ma, M., Chen, C., Wang, K., Wang, H., Wang, W., Zhang, L.,  Zhao, Y., Zhou, Z., 2013.
+Structure of the MST4 in complex with MO25 provides  insights into its activation mechanism.
+Structure 21, 449461.  Sugden, P.H., McGuffin, L.J., Clerk, A., 2013. SOcK, MiSTs, MASK and STicKs: the  GCKIII (germinal centre kinase III) kinases and their heterologous protein  protein interactions.
+Biochem. J. 454, 1330.  ten Klooster, J.P., Jansen, M., Yuan, J., Oorschot, V., Begthel, H., Di Giacomo, V.,  Colland, F., de Koning, J., Maurice, M.M., Hornbeck, P., Clevers, H., 2009.
+Mst4  and Ezrin induce brush borders downstream of the Lkb1/Strad/Mo25  polarization complex.
+Dev.
+Cell 16, 551562.  Vitari, A.C., Deak, M., Morrice, N.A., Alessi, D.R., 2005.
+The WNK1 and WNK4 protein  kinases that are mutated in Gordons hypertension syndrome phosphorylate  and activate SPAK and OSR1 protein kinases.
+Biochem. J. 391, 1724.  Wang, X., Zamore, P.D., Hall, T.M., 2001.
+Crystal structure of a Pumilio homology  domain.
+Mol. Cell 7, 855865.  Yin, H., Shi, Z., Jiao, S., Chen, C., Wang, W., Greene, M.I., Zhou, Z., 2012.
+Germinal  center kinases in immune regulation.
+Cell. Mol. Immunol. 9, 439445.  Zeqiraj, E., Filippi, B.M., Goldie, S., Navratilova, I., Boudeau, J., Deak, M., Alessi, D.R.,  van Aalten, D.M., 2009. ATP and MO25alpha regulate the conformational state  of the STRADalpha pseudokinase and activation of the LKB1 tumour suppressor.
+  PLoS Biol.
+7, e1000126.
+  Zhang, M., Dong, L., Shi, Z., Jiao, S., Zhang, Z., Zhang, W., Liu, G., Chen, C., Feng, M., Hao,  Q., Wang, W., Yin, M., Zhao, Y., Zhang, L., Zhou, Z., 2013.
+Structural mechanism of  CCM3 heterodimerization with GCKIII kinases.
+Structure 21, 680688.  Q. Hao et al. / Journal of Structural Biology 186 (2014) 224233 233

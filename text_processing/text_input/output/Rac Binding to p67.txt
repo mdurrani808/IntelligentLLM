@@ -1,0 +1,763 @@
+Rac Binding to p67phox
+STRUCTURAL BASIS FOR INTERACTIONS OF THE Rac1 EFFECTOR REGION AND INSERT REGION WITH
+COMPONENTS OF THE RESPIRATORY BURST OXIDASE*
+(Received for publication, October 28, 1996, and in revised form, May 1, 1997)
+Yukio Nisimoto‡§, Jennifer L. R. Freeman§¶i, Shabnam Azar Motalebi, Miriam Hirshberg**,
+and J. David Lambeth¶‡‡
+From the ¶Department of Biochemistry, Emory University Medical School, Atlanta, Georgia 30322, the ‡Department
+of Biochemistry, Aichi Medical University, Nagakute Aichi 480-11, Japan, and the **National Institute for Medical
+Research, Mill Hill, London NW7 1AA, United Kingdom
+Activation of the respiratory burst oxidase involves
+the assembly of the membrane-associated flavocyto￾chrome b558 with the cytosolic components p47phox,
+p67phox, and the small GTPase Rac. Herein, the interac￾tion between Rac and p67phox is explored using func￾tional and physical methods. Mutually facilitated bind￾ing (EC50) of Rac1 and p67phox within the NADPH
+oxidase complex was demonstrated using steady state
+kinetic methods measuring NADPH-dependent superox￾ide generation. Direct binding of Rac1 and Rac2 to
+p67phox was shown using a fluorescent analog of GTP
+(methylanthraniloyl guanosine-5*-[b,g-imido]triphos￾phate) bound to Rac as a reporter group. An increase in
+the methylanthraniloyl fluorescence was seen with
+added p67phox but not p47phox, and the emission maxi￾mum shifted from 445 to 440 nm. Rac1 and Rac2 bound to
+p67phox with a 1:1 stoichiometry and with Kd values of
+120 and 60 nM, respectively. Mutational studies (Free￾man, J., Kreck, M., Uhlinger, D. J., and Lambeth, J. D.
+(1994) Biochemistry 33, 13431–13435; Freeman, J. L., Abo,
+A., and Lambeth, J. D. (1996) J. Biol. Chem. 271, 19794–
+19801) previously identified two regions in Rac1 that are
+important for activity: the “effector region” (residues
+26–45) and the “insert region” (residues 124–135). Pro￾teins mutated in the effector region (Rac1(N26H),
+Rac1(I33N), and Rac1(D38N)) showed a marked increase
+in both the Kd and the EC50, indicating that mutations in
+this region affect activity by inhibiting Rac binding to
+p67phox. Insert region mutations (Rac1(K132E) and
+L134R), while showing markedly elevated EC50 values,
+bound with normal affinity to p67phox. The structure of
+Rac1 determined by x-ray crystallography reveals that
+the effector region and the insert region are located in
+defined sectors on the surface of Rac1. A model is dis￾cussed in which the Rac1 effector region binds to
+p67phox, the C terminus binds to the membrane, and the
+insert region interacts with a different protein compo￾nent, possibly cytochrome b558.
+Neutrophils and macrophages reduce molecular oxygen with
+NADPH to produce superoxide (O2
+.
+) and secondarily derived
+reactive oxygen species (H2O2, HOCl, OHz), which function to
+kill phagocytosed microorganisms (1–4). Superoxide genera￾tion is catalyzed by an NADPH oxidase (also called the respi￾ratory burst oxidase), which is dormant in resting cells but
+becomes active upon exposure to bacteria or to a variety of
+soluble stimuli. The enzyme consists of both cytosolic and
+plasma membrane-associated protein factors. Flavocytochrome
+b558 is a membrane-associated heterodimer (5–7) that contains
+putative binding sites for NADPH, FAD, and heme (8–11) and
+therefore represents the enzymatic component of the NADPH
+oxidase. Three cytosolic components (p47phox, p67phox, and a
+small molecular weight GTP-binding protein, Rac), activate
+superoxide generation and can be considered to be regulatory
+subunits of the flavocytochrome. p47phox, while not essential for
+activity, functions as a regulated adaptor protein that in￾creases the binding of p67phox to the oxidase 100-fold (12).
+p47phox appears to act by coupling p67phox to the 22-kDa sub￾unit of the flavocytochrome b558 (13–15). p47phox and p67phox
+exist in the cytosol of resting cells as a complex along with a
+third component, p40phox (16, 17), which may function as an
+inhibitory protein. p47phox and p67phox translocate to the
+plasma membrane (18–21), and this correlates with cell acti￾vation. In a cell-free system, p47phox and p67phox form a 1:1:1
+complex with flavocytochrome b558 (22).
+The small molecular weight GTP-binding protein, Rac, oc￾curs as two isoforms (Rac1 and Rac2) that are 92% identical in
+amino acid sequence (23). The two isoforms differ primarily in
+their C termini; Rac1 but not Rac2 contains a polybasic C
+terminus. In resting cells, Rac is located in a cytosolic complex
+with an inhibitory protein, RhoGDI (24–27). Upon cell activa￾tion, Rac2, the more abundant isoform in neutrophils (28–30),
+becomes associated with the plasma membrane (28), and trans￾location correlates with NADPH oxidase activity (28, 30, 31).1
+Translocation of Rac requires neither p47phox nor p67phox and
+occurs with different kinetics than these other cytosolic com￾ponents (34–37), suggesting that the binding of Rac to the
+plasma membrane is regulated by mechanisms that are dis￾tinct from those that regulate p47phox/p67phox assembly. In
+their isoprenylated forms, both Rac1 and Rac2 can activate
+superoxide generation in a cell-free system (38–40). Kinetic
+characterization and binding studies are complicated by the
+presence of the isoprenyl group, which limits the solubility and
+requires the presence of a detergent. The proteins in their
+nonisoprenylated forms can be expressed in and purified from
+bacteria. However, in their nonisoprenylated forms, only Rac1
+activates efficiently. This is because membrane association is
+essential for optimal function of Rac, and nonisoprenylated
+* Supported by National Institutes of Health Grant AI22809. The
+costs of publication of this article were defrayed in part by the payment
+of page charges. This article must therefore be hereby marked “adver￾tisement” in accordance with 18 U.S.C. Section 1734 solely to indicate
+this fact.
+§ The first two authors contributed equally to this study.
+i Present address: Duke Medical Center, Box 3821, Durham, NC
+27710.
+‡‡ To whom correspondence should be addressed.
+1 However, two studies (32, 33) have concluded that activation fails to
+correlate with translocation.
+THE JOURNAL OF BIOLOGICAL CHEMISTRY Vol. 272, No. 30, Issue of July 25, pp. 18834–18841, 1997
+© 1997 by The American Society for Biochemistry and Molecular Biology, Inc. Printed in U.S.A.
+18834 This paper is available on line at http://www.jbc.org
+ at HERIOT-WATT UNIVERSITY on March 6, 2015 http://www.jbc.org/ Downloaded from Rac1 can interacts with the membrane via its polybasic C
+terminus (41). Bacterially expressed versions of Rac1 have
+therefore been used for most of the studies described herein.
+We have previously characterized two regions on Rac1 that
+are important for its ability to activate the NADPH oxidase.
+These are the effector region (within the range of residues
+26–45) and the insert region (residues 124–135). The effector
+region shows homology to a region on Ras that has been char￾acterized as mediating the GTP-dependent binding to the Ras
+effector Raf-1, a member of the MAP kinase cascade (42, 43).
+The effector region of Ras includes residues the conformation of
+which changes significantly depending on whether GTP or
+GDP is bound. The insert region on Rac has no counterpart in
+Ras. Mutation of residues in both the effector region and the
+insert region of Rac1 results in a marked decrease in the ability
+to support cell-free superoxide generation (44–46), and the
+primary effect was decreased affinity of Rac1, based upon an
+increase in the EC50 (44, 47).
+Rac1 has been shown to bind to immobilized p67phox (48, 49),
+and the interaction has been demonstrated using yeast two￾hybrid analysis, but it is not clear whether Rac also interacts
+with other targets. In addition, no quantitative information on
+Rac binding to p67phox is available (e.g. affinity, stoichiometry).
+Herein, steady state kinetic analysis was used to demonstrate
+the functional linkage between Rac and p67phox. In addition,
+Rac binding to p67phox was measured directly, making use of a
+fluorescent GTP analog that binds tightly to Rac as a reporter
+group. The Rac-associated analog undergoes an increase in
+fluorescence upon interaction of Rac with p67phox, and this
+fluorescence change was used to quantify the Rac binding to
+p67phox. This method, used in conjunction with mutational
+analysis, reveals that the effector region participates in binding
+to p67phox, while the insert region does not. Mapping of resi￾dues the mutation of which lowers activity onto the structure of
+Rac1 (recently determined by x-ray crystallography; Ref. 50)
+reveals that the effector region and the insert region are lo￾cated in distinct sectors of the protein, consistent with a model
+in which these two regions bind to distinct targets within the
+NADPH oxidase complex.
+EXPERIMENTAL PROCEDURES
+Materials—Cytochrome c (type VI), NADPH, n-octyl glucoside, diiso￾propyl fluorophosphate, phenylmethylsulfonyl fluoride, and N-a-tosyl￾L-lysine chloromethylketone were from Sigma. GTPgS was purchased
+from Boehringer Mannheim. HESPAN (6% hetastarch in 0.9% NaCl)
+was from American Hospital Supply Corp., and lymphocyte separation
+medium (6.2% Ficoll, 9.4% sodium diatrizoate) was obtained from Or￾ganon Tekniker. Superoxide dismutase and dithiothreitol were from
+Wako Pure Chemical Co. Heparin-Sepharose CL-6B, DEAE-Sepharose
+CL-6B, CM-Sepharose CL-6B, v-aminooctyl-agarose, and glutathione￾Sepharose were purchased from Pharmacia LKB. L-a-phosphatidylcho￾line (bovine brain), L-a-phosphatidylethanolamine (bovine brain), L-a￾phosphatidylinositol (bovine brain), and sphingomyelin (bovine
+erythrocyte) were from Sigma. All other reagents were of the highest
+grade available commercially. Methyl isotoic anhydride was purchased
+from Molecular Probes (Eugene, OR), and mant-GppNHp2 was synthe￾sized as described previously (51).
+Preparation of Recombinant Proteins—Recombinant p67phox was ex￾pressed and purified from baculovirus-infected Hi5 insect cells as de￾scribed (22, 31). Wild type and mutant Rac1 were expressed in Esche￾richia coli as the glutathione S-transferase fusion proteins, purified
+using glutathione-Sepharose beads, and cleaved from the glutathione
+S-transferase domain with thrombin (52). All recombinant proteins
+were purified to greater than 95% homogeneity.
+Isolation of Human Neutrophils and Plasma Membrane Prepara￾tion—Human neutrophils were obtained from peripheral blood of nor￾mal healthy donors after obtaining informed consent. Erythrocytes
+were sedimented with HESPAN, and the mononuclear cells were re￾moved from the resulting supernatant by centrifugation through lym￾phocyte separation medium (53). The resulting cells were greater than
+95% neutrophilic granulocytes. Neutrophils were resuspended in cavi￾tation buffer (25 mM HEPES, pH 7.4, containing 100 mM KCl, 3 mM
+NaCl, 5 mM MgCl2, 6 mM diisopropyl fluorophosphate, 0.5 mM phenyl￾methylsulfonyl fluoride, 2 mM each leupeptin, pepstatin, and aprotinin).
+Cells (6 3 109
+) in 20 ml of ice-cold buffer were disrupted by nitrogen
+cavitation after being pressurized at 500 p.s.i. for 20 min at 4 °C, and
+plasma membranes were prepared as described (54).
+Purification and Reconstitution of Flavin-depleted Cytochrome b558
+with FAD—Plasma membrane was solubilized in the presence of 40 mM
+octyl glucoside and 0.5% sodium cholate (11). Detergent-solubilized
+cytochrome b558 was purified as described previously (9) with some
+modifications (11). Purified FAD-depleted cytochrome b558 (15.6 nmol of
+heme/mg of protein) was incubated in 50 mM Tris acetate buffer, pH
+7.45, containing 5 mM KCl, 10% glycerol, 1 mM dithiothreitol, 1 mM
+EGTA, 1 mM phenylmethylsulfonyl fluoride, 2 mM each leupeptin, pep￾statin, and aprotinin (buffer B), and phospholipids (L-a-phosphatidyl￾choline/L-a-phosphatidylethanolamine/L-a-phosphatidylinositol/sphin￾gomyelin/cholesterol 5 4:2:1:3:3 (w/w/w/w/w); lipid/protein 5 100, w/w)
+were added along with a 10-fold excess of FAD over heme. After incu￾bating at 4 °C for 2 h, the mixture was dialyzed against two changes of
+buffer B to remove free FAD. The FAD-reconstituted material typically
+contained a FAD:heme ratio of 0.4–0.5 (11).
+Spectrophotometric Assay—The heme content of cytochrome b558 re￾constituted with FAD and phospholipids was determined by reduced
+minus oxidized difference spectroscopy at 424–440 nm using an extinc￾tion coefficient of 161 mM21
+zcm21 (55). The flavin content of FAD￾reconstituted cytochrome b558 was estimated by the fluorimetric
+method (11). Fluorescence spectra were recorded with a Hitachi model
+F-3000 spectrofluorimeter, and routine fluorescence measurements
+were made with a Perkin-Elmer LS-5B spectrofluorimeter. Samples
+(mant-GppNHp, Rac 1, cytochrome b558, and cytosolic factors) were
+incubated at 20 °C in 0.3 ml of 20 mM Tris acetate buffer, pH 7.45,
+containing 3 mM NaCl, 50 mM KCl, and 0.1 mM MgCl2. Preloading of
+Racs with mant-GppNHp was carried out for 15–20 min, at which point
+the fluorescence change due to the guanine nucleotide binding was
+stable. Low MgCl2 concentration was essential to facilitate complete
+guanine nucleotide exchange. Titrations were carried out by adding
+p67phox and recording fluorescence readings until three successive sta￾ble readings, at least 45 s apart, were obtained. Fluorescence changes
+induced by p67phox occurred rapidly (within 1–2 min) and did not
+change further with prolonged incubation. Spectral resolution was 5 nm
+for both the excitation and emission paths, respectively.
+Assay of Cell-free Superoxide Generation—Superoxide generation
+was measured by superoxide dismutase-inhibitable reduction of cyto￾chrome c as described previously (54) using a Thermomax kinetic mi￾croplate reader (Molecular Devices, Menlo Park, CA). Rac, preloaded
+with a 5-fold molar excess of GTPgS for 15 min at 25 °C in the absence
+of MgCl2 (52), was combined with p47phox, p67phox, 10 nM cytochrome
+b558, and 1 mM FAD followed by activation with 40 mM arachidonate in
+50 mM NaCl, 4 mM MgCl2, 1.25 mM EGTA, 20 mM Tris-HCl, pH 7.0, as
+described (56). The mixture was incubated at 25 °C for 5 min followed
+by the addition of 200 mM NADPH and 200 mM cytochrome c. An
+extinction coefficient at 550 nm of 21 mM21 cm21 was used to calculate
+the quantity of cytochrome c reduced (57).
+Data Fitting and Calculation of Kd Values—The theoretical lines
+through the data shown in Figs. 1 and 2 were calculated using a
+nonlinear least squares fit of the data using the Michaelis-Menten
+equation and were plotted using Sigma Plot. Kinetic constants are
+reported as Vmax and EC50 (effective concentration at 50% of Vmax).
+Fluorescence titrations were fit to a single site binding equation as
+described previously (58) as follows,
+DF 5 DFmax~~Kd 1 LT 1 RT! 2 ~~Kd 1 LT 1 RT!
+2 2 4 LTRT!
+1/2/2RT! (Eq. 1)
+where DF is the fluorescence change after each addition of p67phox,
+DFmax is the maximal fluorescence change at infinite (extrapolated)
+p67phox, Kd is the dissociation constant, LT is the concentration of
+p67phox, and RT is the total concentration of Rac(mant-GppNHp). Sigma
+plot was used to generate a nonlinear least squares fit of the data,
+solving for Kd and DFmax, constraining the fit to the actual concentra￾tion of Rac(mant-GppNHp) used in the experiment. For the Rac(D38N)
+mutation, it was necessary to assume the DFmax to be the same as that
+of the wild type, since binding was weak and it was not feasible to
+approach saturation.
+2 The abbreviations used are: mant-GppNHp, methylanthraniloyl
+guanosine-59-[b,g-imido] triphosphate; GTPgS, guanosine 59-3-O-(thio)
+triphosphate; mant, methylanthraniloyl.
+Rac-p67phox Complex 18835
+ at HERIOT-WATT UNIVERSITY on March 6, 2015 http://www.jbc.org/ Downloaded from RESULTS
+Mutually Facilitated Binding of Rac and p67phox in the
+NADPH Oxidase Complex, Demonstrated by Steady State Ki￾netics—We previously showed that a functional interaction
+between p67phox and p47phox, which are known to form a com￾plex, can be demonstrated using steady state kinetics assaying
+superoxide generation; in the presence of the other required
+components, the EC50 for each protein was found to vary in￾versely with the concentration of the partner protein (59). This
+result indicates a thermodynamic linkage between the binding
+of the two proteins within the NADPH oxidase complex and is
+consistent with a complex between the partner proteins. This
+approach was tried with p67phox and Rac1 under conventional
+assay conditions (in the presence of p47phox), but effects of
+varying the concentration of one protein on the EC50 of the
+other protein were not seen. We attribute this to the already
+high affinity of both components in the oxidase complex, which
+makes it difficult to observe further decreases in their EC50
+values, and to the presence of multiple binding interactions for
+each of the proteins, which may obscure observation of such
+interactions. However, the system can be simplified, since
+p47phox need not be present to observe high activity when high
+concentrations of p67phox and Rac1 are used (12). The omission
+of p47phox simplifies the kinetic analysis; the 50–100-fold
+weaker binding of Rac1 and p67phox makes any decreases in
+EC50 values easy to detect, and p47phox is ruled out as a medi￾ator of any observed kinetic linkage that must therefore be due
+to direct interactions among the remaining components (Rac1,
+p67phox, cytochrome b558). Under these conditions, the EC50 for
+Rac1 decreased at increasing concentrations of p67phox (Fig.
+1A). Likewise, at increasing concentrations of Rac1, the EC50
+for p67phox decreased (Fig. 1B). A 6-fold increase in the concen￾tration of p67phox resulted in a roughly 5-fold decrease in the
+EC50 for Rac, while a 10-fold increase in Rac concentration
+resulted in a .2-fold decrease in the EC50 for p67phox. These
+data imply a functional interaction between p67phox and Rac1,
+consistent with a complex between these two proteins.
+Characterization of the Binding of Mant-GppNHp, a Fluores￾cent Derivative of GTP, to Rac1—We previously showed that
+mant-GppNHp binding to Rac1 is accompanied by an increase
+in fluorescence at 445 nm, the emission peak of the mant
+moiety, and we have used this increased fluorescence to quan￾tify the binding of mant-GppNHp to Rac1 and point-mutated
+types of Rac1 (47). We used this fluorescence increase in the
+present studies to verify that Rac1, Rac2, Rac1(N26H),
+Rac1(I33N), Rac1(D38N), Rac1(M45T), Rac1(K132E), and
+Rac1(L134R) all bind mant-GppNHp tightly and achieve max￾imal binding within the same time period. Quantifying binding
+as described previously, all of these recombinant forms of Rac
+bound the guanine nucleotide with an approximate 1:1 stoichi￾ometry and with apparent Kd values in the 1–20 nM range. In
+addition, all had achieved maximal fluorescence change by
+about 5 min, well within the 15–20 min incubation period used
+for preloading of Rac1 with the nucleotide. Examination of the
+Rac1 structure (50) shows that the side chains of these mutants
+do not directly interact with the nucleotide, are relatively ex￾posed, and can accommodate the respective mutations without
+altering the overall fold of the protein. As a control, Rac(T17N),
+a mutation that in Ras renders this GTPase incapable of bind￾ing guanine nucleotide, did not produce any fluorescence
+change when added to mant-GppNHp. Thus, by preincubating
+mant-GppNHp in the presence of a slight excess of Rac or Rac
+mutants, a fully associated complex between the fluorescent
+nucleotide and Rac was formed. The ability of mant-GppNHp to
+produce an active conformation of representative versions of
+Rac1 was also investigated. Mant-GppNHp was compared with
+GTPgS (0.5 mM each) in their abilities to support NADPH-de￾pendent superoxide generation, using purified oxidase compo￾nents in the cell-free system. Using wild type Rac1 (Fig. 2), the
+mant-GppNHp supported superoxide generation to about 60%
+of the level seen with GTPgS. For representative point-mu￾tated forms (Rac1(N26H) and Rac1(D38N)) that have a reduced
+ability to stimulate superoxide generation (44), the mant￾GppNHp worked nearly as well as GTPgS.
+Effects of NADPH Oxidase Components on the Fluorescence
+of Mant-GppNHp—Fig. 3A (solid line) shows the emission spec￾trum for mant-GppNHp free in solution. Upon addition of Rac1,
+there was a small increase in fluorescence (about 5%), as was
+described previously (dotted line). When p67phox was added,
+there was a further increase in the mant fluorescence, and the
+emission maximum was blue-shifted about 5 nm (Fig. 3A,
+dashed line). This was not due to any direct effect of p67phox on
+the free mant-GppNHp, since p67phox had no effect on its flu￾FIG. 1. Mutually facilitated effects of Rac1 and p67phox on EC50
+values in the cell-free NADPH oxidase system. A, data are plotted
+in Lineweaver-Burk format. Each point represents the average of at
+least three determinations. The concentration of Rac was varied as
+indicated in the presence of 3 mM p67phox (triangles), 1.5 mM p67phox
+(filled circles), or 0.5 mM p67phox (open circles) and 10 nM cytochrome
+b558, which had been reconstituted with FAD and phospholipid. p47phox
+was not present in the incubation. Superoxide generation was quanti￾fied by cytochrome c reduction, as described under “Experimental Pro￾cedures.” B, the concentration of p67phox was varied as indicated in the
+presence of 2 mM Rac (triangles), 0.5 mM Rac (filled circles), or 0.2 mM Rac
+(open circles), and the assay for superoxide generation was carried out
+as in A.
+FIG. 2. Comparison of mant-GppNHp and GTPgS in the acti￾vation of superoxide generation by Rac1 and point-mutated
+Rac1. An aliquot of cytochrome b558 (10 nM final concentration) recon￾stituted with phospholipid and FAD was preincubated at 25 °C with
+0.25 mM arachidonate, recombinant p47phox (0.2 mM), p67phox (0.1 mM),
+and Rac or the indicated point-mutated Rac (0.5 mM), which had been
+“preloaded” with either GTPgS (solid bars) or mant-GppNHp (hatched
+bars). W.T., wild type Rac1; N26H, Rac1(N26H); D38N, Rac1(D38N).
+Superoxide generation was assayed as described under “Experimental
+Procedures.” The average and S.E. of a minimum of three determina￾tions are shown.
+Rac-p67phox 18836 Complex
+ at HERIOT-WATT UNIVERSITY on March 6, 2015 http://www.jbc.org/ Downloaded from orescence in the absence of Rac1 (Fig. 3C). In Fig. 3B, p47phox
+was added to the mant-GppNHpzRac complex. In contrast to
+p67phox, there was no increase in the fluorescence intensity
+upon the addition of p47phox (compare solid and superimposed
+dotted lines). When both p47phox and p67phox were added to the
+Rac(mant-GppNHp) complex (dashed line), the fluorescence
+increase was essentially the same as that produced by p67phox
+alone. Furthermore, the addition of 0.25 mM arachidonate
+caused no significant effect on the fluorescence enhancement
+due to the binding of p67phox to Rac(mant-GppNHp), indicating
+that the guanine nucleotide-dependent binding of Rac1 to
+p67phox occurs whether or not arachidonate is present.
+The increase in fluorescence of Rac(mant-GppNHp) was used
+to quantify the strength of binding of Rac to p67phox. Fig. 4
+shows the titration of Rac1(mant-GppNHp) with p67phox and
+p47phox. As above, p47phox had no effect on the fluorescence of
+Rac(mant-GppNHp), while p67phox produced a saturable in￾crease in the fluorescence. The increase in fluorescence fit a
+theoretical curve (Fig. 4, solid line) for single site binding of
+p67phox to Rac (i.e. no cooperativity was detected). In the ex￾periment shown, the apparent binding constant was 170 nM,
+somewhat weaker than published values for the EC50 (#50 nM)
+for Rac in cell-free superoxide generation assays (47). The
+average of 11 such titrations gave an value of 124 6 15 nM, as
+TABLE I
+Comparison of binding affinity of native and point-mutated forms of
+Rac(Mant-GppNHp) for p67phox with kinetically determined EC50
+values for Rac activation of superoxide generation
+Kd values were obtained as described under “Experimental Proce￾dures” using data from experiments such as those shown in Figs. 3, 4,
+and 5. EC50 values were obtained as described previously (44) in exper￾iments using recombinant p47phox, p67phox, and Rac (or Rac mutants)
+along with plasma membrane as a source of cytochrome b558, using
+Michaelis-Menten steady state kinetic analysis of superoxide genera￾tion, which was quantified using cytochrome c reduction as in Fig. 1.
+The tabulated values show the average 6 S.E. of the mean or range, and
+the number in parenthesis indicates the number of independent exper￾iments used to calculate the averages.
+Rac isoform or mutant Kd EC50
+nM
+Rac1 124 6 15 (10) ,50a
+Rac2 61 6 26 (2) 1,300b
+Rac1 (N26H) 800 6 230 (4) 2,700 6 1,000 (3)
+Rac1 (I33N) 3,900 6 700 (5) 2,400 6 1,600 (2)
+Rac1 (D38N) 5,100 6 920 (6) 4,600 6 400 (3)
+Rac1 (M45T) 230 6 20 (3) 2,500 6 1,400 (3)
+Rac1 (K132E) 90 6 20 (4) 1,500 6 500 (3)
+Rac1 (L134R) 100 6 10 (4) 1,350 6 850 (3)
+Rac/Rho chimera .20,000 No activity
+Rac1 1 p47 140 6 30 (2)
+a Reported by Freeman et al. (47) as an upper limit value. b Reported by Kreck et al. (41).
+FIG. 3. Effect of p67phox on the fluorescence of the mant￾GppNHpzRac complex. A, the solid line shows the fluorescence emis￾sion spectrum (excitation wavelength, 355 nm) of mant-GppNHp (0.12
+mM) in 20 mM Tris-HCl buffer, pH 7.45, containing 3 mM NaCl, 50 mM
+KCl, and 0.1 mM MgCl2 (solid line). After adding 0.25 mM Rac 1 and
+incubating for 20 min at 20 °C, the fluorescence spectrum was recorded
+(dotted line, middle spectrum). Fifteen minutes after the addition of
+0.30 mM p67phox the emission spectrum (broken line, upper spectrum)
+was recorded. B, after recording a spectrum of the Rac(mant-GppNHp)
+complex (solid line), 0.30 mM p47phox was incubated with the mixture for
+20 min, and then the spectrum (dotted line, no change from solid line)
+was recorded. p67phox (0.30 mM) was then added, and the emission
+spectrum (broken line) was recorded as above. C, the solid line shows
+the emission spectrum of mant-GppNHp (0.12 mM) in the absence of
+added Rac1. The superimposed dotted line shows the spectrum 20 min
+after the addition of p67phox (0.3 mM), again in the absence of Rac1.
+FIG. 4. Quantitation of p67phox binding to Rac1 using the in￾crease in fluorescence of mant-GppNHp bound to Rac1. Rac1 (1.2
+mM) was preincubated with 0.85 mM mant-GppNHp for 15–20 min as
+above to form the Raczmant-GppNHp complex. This was then titrated
+with either p67phox (filled circles) or p47phox (filled triangles), and the
+fluorescence was recorded after each addition (excitation and emission
+wavelengths were 355 and 440 nm, respectively) until a stable value
+was achieved (about 3 min). The increase in fluorescence intensity is
+shown as a function of the concentration of the added component. The
+observed fluorescence was corrected for volume changes. The line
+shown is a theoretical fit of the data, calculated as described under
+“Experimental Procedures.” The Kd value describing the theoretical line
+is 0.17 mM.
+Rac-p67phox Complex 18837
+ at HERIOT-WATT UNIVERSITY on March 6, 2015 http://www.jbc.org/ Downloaded from summarized in Table I. The binding experiment was also car￾ried out in the presence of p47phox (see Table I, titration not
+shown). p47phox did not affect the ability of Rac1 to bind to
+p67phox. In addition, the binding experiment was also carried
+out in the presence of arachidonate. Although this did not
+appear to affect binding in a significant way, increased light
+scattering prevented detailed quantitative analysis and did not
+permit us to carry out binding and activity experiments under
+identical conditions.
+Comparison of the Binding of Rac1, Rac2, and Mutants of
+Rac1 to p67phox—Titrations of mant-GppNHp complexes of
+Rac1 and Rac2 with p67phox are shown in Fig. 5. Binding of
+p67phox to Rac2(mant-GppNHp) gave a somewhat smaller max￾imal fluorescence yield, but the calculated Kd value was 2-fold
+lower than that using Rac1(mant-GppNHp), as summarized in
+Table I. This slightly higher affinity of Rac2 is consistent with
+studies using the yeast two-hybrid system to detect the inter￾action of Rac1 and Rac2 with p67phox (49). While quantitation
+is not possible using this method, the use of the Rac2 hybrid
+yielded a more intense blue color in the two-hybrid assay,
+suggesting enhanced binding. In contrast to the increased bind￾ing of Rac2 to p67phox, the EC50 for Rac2 was markedly elevated
+compared with Rac1 in the cell-free NADPH-superoxide gener￾ation assay (Table I).
+Point mutations of Rac1 were previously characterized (44)
+and shown to produce large changes in the EC50 for Rac1 in the
+cell-free NADPH-superoxide generation assay. Previous pub￾lished values as well as unpublished experiments were aver￾aged to obtain the EC50 values (Table I). The binding of these
+mutated Rac1 forms was quantified using mant fluorescence as
+above. Results are shown in Fig. 5, and averages of Kd values
+obtained in several independent experiments are summarized
+in Table I. Representative mutations in both the effector region
+and the insert region were investigated. While native Rac1
+bound tightly to p67phox, mutations in the effector region weak￾ened the binding. In particular, the mutations at the 33- and
+38-positions showed large effects on binding, while those at the
+more extreme ends of the effector region (positions 26 and 45)
+produced smaller but reproducible effects. Thus, decreased
+binding to p67phox accounts for the decreased ability of effector
+region mutants to support superoxide generation. In contrast,
+mutations in the insert region of Rac1 produced large effects on
+the EC50 for superoxide generation in the cell-free system but
+showed no effect on the Kd for Rac1 binding to p67phox. Thus,
+Rac1 does not appear to utilize its insert region to bind to
+p67phox.
+Finally, an additional region on Rac C-terminal to residue
+143 for interaction with p67phox has been postulated, based on
+the inability of a Rac143Rho chimera (N-terminal 143 residues
+from Rac1, with the rest from RhoA) to bind to p67phox using
+overlay blotting methods (60). Using this chimera, we con￾firmed that the chimera was inactive in supporting superoxide
+generation and that it failed to bind significantly to p67phox
+(Table I).
+DISCUSSION
+Binding of Rac1 to p67phox—Direct demonstration of a stoi￾chiometric complex between Rac1 and p67phox has proven to be
+difficult, presumably due to the kinetic and or thermodynamic
+lability of the complex. We previously attempted to demon￾strate interaction using gel filtration but were unable to detect
+a stable complex.3 Binding of Rac isoforms to p67phox has been
+demonstrated using p67phox (or a p67phox-GST fusion protein)
+immobilized on glutathione beads (46) or on a nitrocellulose
+filter (48, 60) and also by yeast two-hybrid analysis (49). How￾ever, a large excess of Rac was used in the first two cases, and
+the percentage of binding was low compared with that pre￾dicted for a 1:1 complex. Using both methods, effector region
+3 D. J. Uhlinger and J. D. Lambeth, unpublished data.
+FIG. 5. Comparison of binding of Rac1, Rac2, and Rac1 point mutants to p67phox. Titrations were carried out as in Fig. 4. The
+concentration of Rac or Rac mutants in various experiments shown ranged from 0.25 to 0.6 mM, and the corresponding concentration of
+mant-GppNHp was 70% of the Rac concentration. The Rac form used is indicated in each panel. The lines shown are derived from theoretical fits
+of the data, as described under “Experimental Procedures.” The arrowheads on the y axes indicate the maximal fluorescence change, which was
+obtained either by extrapolation according to Equation 1 (top panels and lower right panel) or in a parallel titration using Rac1 (remaining panels)
+in cases where an accurate DFmax could not be obtained by extrapolation. Kd values obtained in these and other titrations are shown in Table I.
+Rac-p67phox 18838 Complex
+ at HERIOT-WATT UNIVERSITY on March 6, 2015 http://www.jbc.org/ Downloaded from mutations disrupted the interactions, suggesting that the Rac￾p67phox binding is relevant to regulation of the NADPH oxi￾dase. While informative, neither of these methods is quantita￾tive, and neither can be used to obtain direct measures of
+binding affinity or stoichiometry. In the present studies, a
+fluorescent derivative of GTP has proven to be effective for this
+purpose. The mant is bound through the 39-hydroxyl group of
+the ribose ring. O39 is exposed to solvent, making only a weak
+hydrogen bond with E31 (50). The mant-GppNHp should bind
+to Rac1 without altering the basic interactions between the
+nucleotide and the protein, thus serving as a good reporter for
+binding. The quantum yields of mant guanine nucleotides
+shows high sensitivity to solvent polarity and to small changes
+in protein environment (51), and mant-modified nucleotides
+have been used to demonstrate both binding of nucleotides to
+their binding proteins (47, 63, 64) and the interaction of the
+guanine nucleotide-protein complex with a second protein (58).
+In the latter study, the complex between RhoGDI and Cdc42Hs
+has been demonstrated, based on quenching of the fluorescence
+of the Cdc42Hs(mant-GDP) complex upon interaction with
+RhoGDI.
+A requirement for the use of this method is that the fluores￾cent group must bind tightly to one of the interacting proteins
+and that it should induce an active conformation of the protein.
+The complex between mant-GppNHp and Rac1 was therefore
+initially characterized. As is shown in Fig. 3, complex forma￾tion was accompanied by a small increase in the fluorescence of
+the mant moiety. As was shown previously, this fluorescence
+change was used to quantify the binding of mant-GppNHp to
+Rac1 (47). In agreement with earlier studies, the complexes
+show high affinity, with apparent Kd values ranging from 1 to
+20 nM for native and point mutated forms of Rac. Mutant forms
+TABLE II
+Summary of effects of point mutations on binding of Rac to p67phox
+Since numbers reported for activities in various studies are not di￾rectly comparable and since overlay blots could not be quantified in
+published studies, relative ability to activate is indicated by 1, and
+binding to p67phox is indicated as either “normal” or “weak.” WT indi￾cates wild type. Mutant proteins based on Rac2 were expressed in insect
+cells and were presumably at least partially isoprenylated, whereas all
+other mutant proteins were expressed in E. coli.
+Rac Activity
+Binding
+to
+p67phox Reference
+Rac1 (WT) 1111 Normal 44
+Rac1 (N26H) 1 Weak 44 and present study
+Rac1 (A27K) 1 NDa 66
+Rac2 (F28L) 1 ND 45
+Rac1 (G30S) 1 ND 66
+Rac1 (I33N) 1 Weak 44 and present study
+Rac1 (I33V) 1111 ND 66
+Rac1 (T35A) 1 Weak 46
+Rac2 (T35A) 1 ND 49
+Rac2 (V36R) 111 ND 45
+Rac1 (D38N) 1 Weak 44 and present study
+Rac1 (D38A) 1 Weak 46
+Rac2 (D38A) 1 ND 45
+Rac1 (Y40K) 1 Weak 46
+Rac1 (M45T) 1 Weak 44 and present study
+Rac1 (Q61H)b 11 ND c
+Rac2 (A61L)b 1111 ND 45
+Rac1 (Y64F) 111 ND c
+Rac1 (D65N) 111 ND c
+Rac1 (V85E) 111 ND c
+Rac1 (R102E) 1111 ND d
+Rac1 (H104A) 1111 ND d
+Rac1 (H105A) 1111 ND d
+Rac1 (E127Q) 1 ND 47
+Rac1 (K130N) 1 ND 47
+Rac1 (K132E) 1 Normal 47 and present study
+Rac1 (L134R) 1 Normal 47 and present study
+Rac1 (T135N) 1 ND 47
+a ND, not determined.
+b Inhibits GTPase activity.
+c J. Freeman and J. Lambeth, unpublished results.
+d M. Kreck and J. Lambeth, unpublished results.
+FIG. 6. Structural considerations for effector and insert region
+mutations. A, ribbon diagram indication of mutations in Rac1 affect￾ing cell-free NADPH oxidase activity (taken from Table I). Residues the
+mutation of which affects activity are indicated, with effector region
+mutations in brown and insert region mutations in green. Representa￾tive mutations were tested for their ability to bind to p67phox. Mutations
+that weaken the binding of p67phox to Rac (present studies) are indi￾cated by a star, while mutations that failed to affect binding to p67phox
+are indicated by a filled circle. Residues that are not indicated by either
+symbol were not investigated in the present studies in the binding
+assay. B, the structure has been rotated approximately 90 degrees
+counterclockwise around a vertical axis compared with A. The CPK
+diagram shows effector loop residues in brown (residues 26–40) and
+insert region residues (124–135) in green. Residue 45 was omitted in
+this representation because of its relatively small effect on binding to
+p67phox. Residue 181 (the last C terminus residue that can be seen in the
+x-ray structure) is also indicated as C-Terminus. The GppNHp is shown
+in violet, with the phosphate-containing region shown in a lighter
+shade.
+Rac-p67phox Complex 18839
+ at HERIOT-WATT UNIVERSITY on March 6, 2015 http://www.jbc.org/ Downloaded from of Rac showing elevated Kd values for guanine nucleotide bind￾ing (including Rac1(A59T) and Rac1(T75K)) were eliminated
+from consideration in this study. The mant-GppNHp generates
+an active conformation of Rac1, albeit somewhat less active
+than that produced by GTPgS. We presume that the binding
+affinities generally reflect those that occur in the active com￾plex with nonfluorescent nucleotide, but it is possible that
+these are perturbed in subtle ways due to the presence of the
+fluorescent group.
+Using the fluorescence method we find that Rac(mant￾GppNHp) binds to p67phox with a Kd of 110 nM. While this is a
+moderately high affinity, it is considerably weaker than the
+binding of many signaling complexes, perhaps accounting for
+the instability of this complex to gel filtration chromatography
+and the low stoichiometry of binding found using other meth￾ods. The EC50 for Rac1 in activating superoxide generation is
+#60 nM (the actual EC50 is probably less, since this represents
+an upper limit value; see Ref. 47). The most likely explanation
+for the lower value for the EC50 is that other binding interac￾tions in addition to p67phox participate in Rac binding within
+the NADPH oxidase complex.
+Structural Considerations and Rationale for the Effects of
+Point Mutations on Binding and Activity—Table II lists most of
+the point mutations that have been characterized either in our
+own laboratory or in those of other labs and depicts effects on
+activity and on binding to p67phox. Because the methodologies
+used and the expression of data are not directly comparable,
+the relative activity is indicated by addition symbols (1), with
+1111 representing normal activity, and binding is summa￾rized as either “normal” or “weak.” Inspection of Table II re￾veals two regions, the effector region and the insert region, that
+have large effects on activity and reveals additional regions
+(e.g. residues in the range of residues 61–105) that have small
+or no effects. The effector region has been studied extensively
+by several groups, and a large number of mutations have been
+made. Except for conservative replacements (e.g. Rac1(I33V)),
+most changes in this region have large effects on the ability of
+Rac1 and Rac2 to activate cell-free superoxide generation. The
+structure of Rac1-GppNHp was recently determined by x-ray
+crystallography (50) and is shown in Fig. 6A, with the guanine
+nucleotide indicated in violet. The overall fold of the protein is
+very similar to that of Ras except for two regions. The insert
+region, which forms a well defined, exposed, helical domain,
+and residues 28–38, which are very flexible and are less de￾fined in the x-ray structure (see Ref. 50 for a discussion of these
+two regions). Effector region mutations summarized in Table II
+are indicated in maroon, and insert region mutations are in
+green. As shown in Fig. 6B, the effector region and the insert
+region represent distinct regions on Rac1. Each can be envi￾sioned as forming a surface for interaction of partner proteins
+within the NADPH oxidase complex. Except for position 45,
+which is slightly more distant, all of the effector region muta￾tions cluster closely to form a single surface. Other possible
+exceptions within the effector region may include threonine 35,
+which coordinates the magnesium, which is involved in gua￾nine nucleotide binding (50). Other residues within this region
+are exposed on the surface as part of the effector loop, and
+mutations of these residues are unlikely to produce a long
+range effect on the structure of Rac1. Representative mutations
+(indicated by stars in Fig. 6A) within this region were investi￾gated for their effects on binding to p67phox. These mutations
+resulted in effects, some quite large, on binding to p67phox. All
+effector region mutations also affected the EC50 for Rac1 in the
+cell-free assay. Quantitatively, the magnitude of the effects on
+binding paralleled the effects on the EC50 for mutations at
+residues 33 and 38, but the effects on binding were smaller
+than the effects on EC50 for mutations at positions 26 and 45.
+This may indicate that the presence of other protein component
+within the NADPH oxidase complex perturbs the binding of
+Rac1 to p67phox, particularly at the periphery of the effector
+region, or that the different assay conditions perturbed the
+binding energies. The fact that all of the mutations produced
+effects on both activity and binding argues strongly that the
+effector region is utilized within the NADPH oxidase complex
+for binding to p67phox.
+4
+In contrast to the effector region, representative activity￾affecting mutations in the insert region (K132E and L134R in
+Fig. 6A) had no effect on the binding to p67phox. These resi￾dues are largely exposed on the surface of the insert region,
+and mutations are unlikely to produce structural perturba￾tions outside of the effector region. In addition, the mutated
+residues do not directly contact the guanine nucleotide, con￾sistent with a lack of effect on guanine nucleotide binding or
+hydrolysis. Thus, the most likely explanation for the effects of
+insert region mutations on the EC50 for Rac1 is that these
+residues participate in binding to another component within
+the NADPH oxidase complex. We have previously shown that
+the association of the polybasic C terminus of (nonisopreny￾lated) Rac1 with the membrane is essential for optimal ac￾tivity and that this does not occur with nonisoprenylated
+Rac2 (41). The insert region lies at the opposite pole from the
+C terminus (Fig. 6B), making unlikely that both regions
+interact with the membrane. Thus, the data are most con￾sistent with the insert region interacting with a distinct
+protein component of the NADPH oxidase rather than with
+the membrane. Since insert region mutations reduce relative
+activity regardless of whether p47phox is present (data not
+shown), we speculate that the insert region binds directly to
+cytochrome b558. We propose a model in which a minimum of
+three interaction regions on Rac are important for reconsti￾tuting cell-free NADPH oxidase activity. The C terminus
+anchors the Rac to the membrane, while the effector region
+and the insert region bind, respectively, to p67phox and to
+another component of the oxidase, possibly cytochrome b558.
+Acknowledgments—We thank Alan Hall for providing the construct
+for the Rac143Rho chimera.
+REFERENCES
+1. Badwey, J. A., and Karnovsky, M. L. (1980) Annu. Rev. Biochem. 49, 695–726
+2. Chanock, S., El Benna, J., Smith, R., and Babior, B. (1994) J. Biol. Chem. 269,
+24519–24522
+3. Segal, A. W., and Abo, A. (1993) Trends Biochem. Sci. 18, 43–47
+4. Clark, R. A. (1990) J. Infect. Dis. 161, 1140–1147
+5. Segal, A. W. (1987) Nature 326, 88–91
+6. Nakamura, M., Sendo, S., van Zwieten, R., Koga, T., Roos, D., and Kanegasaki,
+S. (1988) Blood 72, 1550–1552
+7. Parkos, C. A., Dinauer, M. C., Walker, L. E., Rodger, A. A., Jesaitis, A. J., and
+Orkin, S. H. (1988) Proc. Natl. Acad. Sci. U. S. A. 85, 3319–3323
+8. Rotrosen, D., Yeung, C. L., Leto, T. L., Malech, H. L., and Kwong, C. H. (1992)
+Science 256, 1459–1462
+9. Segal, A. W., West, I., Wientjes, F., Nugent, J. H. A., Chavan, A. J., Haley, B.,
+Garcia, R. C., Rosen, H., and Scrace, G. (1992) Biochem. J. 284, 781–788
+10. Sumimoto, H., Sakamoto, N., Nozaki, M., Sakaki, Y., Takeshige, K., and
+Minakami, S. (1992) Biochem. Biophys. Res. Commun. 186, 1368–1375
+11. Nishimoto, Y., Otsuka-Murakami, H., and Lambeth, D. (1995) J. Biol. Chem.
+270, 16428–16434
+12. Freeman, J. L., and Lambeth, J. D. (1996) J. Biol. Chem. 271, 22578–22582
+4 It is not clear from the Rac structure whether the poor binding of
+p67phox by the Rac143Rho chimera reflects an additional binding surface
+for p67phox within the 143–175 range. A peptide within this range
+centered around 163–169 is inhibitory (65), but its mechanism of inhi￾bition has not been reported. In addition, this region contains relatively
+buried a-helix, and it is difficult to envision this helix acting as a
+binding surface. Much of the 143–175 range also is buried and provides
+a structural foundation for part of the effector loop. This region differs
+in 20 of 33 residues between Rac1 and RhoA, and it seems possible that
+such changes may perturb binding indirectly via effects on the Rac
+effector loop. Thus, while it is conceivable that this region contains an
+additional binding site, an indirect effect cannot be ruled out.
+Rac-p67phox 18840 Complex
+ at HERIOT-WATT UNIVERSITY on March 6, 2015 http://www.jbc.org/ Downloaded from 13. de Mendez, I., Garrett, M. C., Adams, A. G., and Leto, T. (1994) J. Biol. Chem.
+269, 16326–16332
+14. Sumimoto, H., Kage, Y., Nunoi, H., Sasaki, H., Nose, T., Fukumaki, Y., Ohno,
+M., Minakami, S., and Takeshige, K. (1994) Proc. Natl. Acad. Sci. U. S. A.
+91, 5345–5349
+15. De Leo, F., Ulman, K., Davis, A., Jutila, K., and Quinn, M. (1996) J. Biol.
+Chem. 271, 17013–17020
+16. Someya, A., Nagaoka, I., and Yamashita, T. (1993) FEBS Lett. 330, 215–218
+17. Wientjes, F. B., Hsuan, J. J., Totty, N. F., and Segal, A. W. (1993) Biochem. J.
+296, 557–561
+18. Heyworth, P. G., Curnutte, J. T., Nauseef, W. M., Volpp, B. D., Pearson, D. W.,
+Rosen, H., and Clark, R. A. (1991) J. Clin. Invest. 87, 352–356
+19. Lomax, K. J., Leto, T. L., Nunoi, H., Gallin, J. I., and Malech, H. L. (1989)
+Science 245, 409–412
+20. Leto, T. L., Lomax, K. J., Volpp, B. D., Nunoi, H., Sechler, J. M. G., Nauseef,
+W. M., Clark, R. A., Gallin, J. I., and Malech, H. L. (1990) Science 248,
+727–730
+21. Tyagi, S. R., Neckelmann, N., Uhlinger, D. J., Burnham, D. N., and Lambeth,
+J. D. (1992) Biochemistry 31, 2765–2774
+22. Uhlinger, D. J., Inge, K. L., Kreck, M. L., Tyagi, S. R., Neckelmann, N., and
+Lambeth, J. D. (1992) Biochem. Biophys. Res. Commun. 186, 509–516
+23. Didsbury, J., Weber, R. F., Bokoch, G. M., Evans, T., and Snyderman, R. (1989)
+J. Biol. Chem. 264, 16378–16382
+24. Hiraoka, K., Kaibuchi, K., Ando, S., Musha, T., Takaishi, K., Mizuno, T.,
+Asada, M., Menard, L., Tomhave, E., Didsbury, J., Snyderman, R., and
+Takai, Y. (1992) Biochem. Biophys. Res. Commun. 182, 921–930
+25. Abo, A., Pick, E., Hall, A., Totty, N., Teahan, C. G., and Segal, A. W. (1991)
+Nature 353, 668–670
+26. Kwong, C. H., Malech, H. L., Rotrosen, D., and Leto, T. L. (1993) Biochemistry
+32, 5711–5717
+27. Chuang, T., Bohl, B. P., and Bokoch, G. M. (1993) J. Biol. Chem. 268,
+26206–26211
+28. Quinn, M. T., Evans, T., Loetterle, L. R., Jesaitis, A. J., and Bokoch, G. M.
+(1993) J. Biol. Chem. 268, 20983–20987
+29. El Benna, J., Ruedi, J. M., and Babior, B. M. (1994) J. Biol. Chem. 269,
+6729–6734
+30. Abo, A., Webb, M. R., Grogan, A., and Segal, A. (1994) Biochem. J. 298,
+585–591
+31. Uhlinger, D. J., Tyagi, S. R., Inge, K. L., and Lambeth, J. D. (1993) J. Biol.
+Chem. 268, 8624–8631
+32. Le Cabec, V., Mohn, H., Gacon, G., and Maridonneau-Parini, I. (1994)
+Biochem. Biophys. Res. Commun. 198, 1216–1224
+33. Philips, M., Feoktistov, A., Pillinger, M., and Abramson, S. (1995) J. Biol.
+Chem. 270, 11514–11521
+34. Heyworth, P., Bohl, B., Bokoch, G., and Curnutte, J. (1994) J. Biol. Chem. 269,
+30749–30752
+35. Dorseuil, O., Quinn, M. T., and Bokoch, G. M. (1995) J. Leukocyte Biol. 58,
+108–113
+36. Kleinberg, M. E., Malech, H. L., Mital, D. A., and Leto, T. L. (1994)
+Biochemistry 33, 2490–2495
+37. Dusi, S., Donini, M., and Rossi, F. (1996) Biochem. J. 314, 409–412
+38. Heyworth, P. G., Knaus, U. G., Xu, X., Uhlinger, D. J., Conroy, L., Bokoch, G.
+M., and Curnutte, J. T. (1993) Mol. Biol. Cell 4, 261–269
+39. Escriou, V., LaPorte, F., Garin, J., Brandolin, G., and Vignais, P. (1994) J. Biol.
+Chem. 269, 14007–14014
+40. Ando, S., Kaibuchi, K., Sasaki, T., Hiraoka, K., Nishiyama, T., Mizuno, T.,
+Asada, M., Nunoi, H., Matsuda, I., Matsuura, Y., Polakis, P., McCormick,
+F., and Takai, Y. (1992) J. Biol. Chem. 267, 25709–25713
+41. Kreck, M. L., Freeman, J. L., Abo, A., and Lambeth, J. D. (1996) Biochemistry
+35, 15683–15692
+42. Marshall, M. S. (1993) Trends Biochem. Sci. 18, 250–254
+43. Warne, P. H., viciana, P. R., and Downward, J. (1993) Nature 364, 352–355
+44. Freeman, J. L. R., Kreck, M. L., Uhlinger, D. J., and Lambeth, J. D. (1994)
+Biochemistry 33, 13431–13435
+45. Xu, X., Barry, D., Settleman, J., Schwartz, M., and Bokoch, G. (1994) J. Biol.
+Chem. 269, 23569–23576
+46. Diekmann, D., Abo, A., Johnson, C., Segal, A., and Hall, A. (1994) Science 265,
+531–533
+47. Freeman, J. L., Abo, A., and Lambeth, J. D. (1996) J. Biol. Chem. 271,
+19794–19801
+48. Prigmore, E., Ahmed, S., Best, A., Kozma, R., Manser, E., Segal, A., and Lim,
+L. (1995) J. Biol. Chem. 270, 10717–10722
+49. Dorseuil, O., Reibel, L., Bokoch, G., Camonis, J., and Gacon, G. (1996) J. Biol.
+Chem. 271, 83–88
+50. Hirshberg, M., Stockley, R. W., Dodson, G., and Webb, M. R. (1997) Nat.
+Struct. Biol. 4, 147–152
+51. Hiratsuka, T. (1983) Biochim. Biophys. Acta 742, 496–508
+52. Kreck, M. L., Uhlinger, D. J., Tyagi, S. R., Inge, K. L., and Lambeth, J. D.
+(1994) J. Biol. Chem. 269, 4161–4168
+53. Pember, S. O., Barnes, K. C., Brandt, S. J., and Kinkade, J. M., Jr. (1983)
+Blood 61, 1105–1115
+54. Burnham, D. N., Uhlinger, D. J., and Lambeth, J. D. (1990) J. Biol. Chem. 265,
+17550–17559
+55. Lutter, R., van Schaik, M. L. J., van Zwieten, R., Wever, R., Roos, D., and
+Hamers, M. N. (1985) J. Biol. Chem. 260, 2237–2244
+56. Rotrosen, D., Yeung, C. L., and Katkin, J. P. (1993) J. Biol. Chem. 268,
+14256–14260
+57. Lambeth, J. D., Burnham, D. N., and Tyagi, S. R. (1988) J. Biol. Chem. 263,
+3818–3822
+58. Nomanbhoy, T. K., and Cerione, R. A. (1996) J. Biol. Chem. 271, 10003–10009
+59. Uhlinger, D., Taylor, K., and Lambeth, J. D. (1994) J. Biol. Chem. 269,
+22095–22098
+60. Diekmann, D., Nobes, C., Burbelo, P., Abo, A., and Hall, A. (1995) EMBO J. 14,
+5297–5305
+61. Deleted in proof
+62. Deleted in proof
+63. John, J., Sohment, R., Feurstein, J., Linke, R., Wittinghofer, A., and Goody, R.
+S. (1990) Biochemistry 29, 6058–6065
+64. Leonard, D. A., Evans, T., Hart, M., Cerione, R. A., and Manor, D. (1994)
+Biochemistry 33, 12323–12328
+65. Joseph, G., and Pick, E. (1995) J. Biol. Chem. 270, 29079–29082
+66. Kwong, C. H., Adams, A. G., and Leto, T. L. (1995) J. Biol. Chem. 270,
+19868–19872
+Rac-p67phox Complex 18841
+ at HERIOT-WATT UNIVERSITY on March 6, 2015 http://www.jbc.org/ Downloaded from and J. David Lambeth
+Shabnam Azar Motalebi, Miriam Hirshberg 
+Yukio Nisimoto, Jennifer L. R. Freeman,
+ 
+RESPIRATORY BURST OXIDASE
+REGION WITH COMPONENTS OF THE
+Rac1 EFFECTOR REGION AND INSERT
+BASIS FOR INTERACTIONS OF THE 
+Rac Binding to p67 phox : STRUCTURAL
+CELL BIOLOGY AND METABOLISM:
+doi: 10.1074/jbc.272.30.18834
+J. Biol. Chem. 1997, 272:18834-18841.
+ 
+Access the most updated version of this article at http://www.jbc.org/content/272/30/18834
+ 
+Find articles, minireviews, Reflections and Classics on similar topics on the JBC Affinity Sites.
+Alerts: 
+ 
+• When a correction for this article is posted
+• When this article is cited
+Click here to choose from all of JBC's e-mail alerts
+ 
+http://www.jbc.org/content/272/30/18834.full.html#ref-list-1
+This article cites 64 references, 37 of which can be accessed free at
+ at HERIOT-WATT UNIVERSITY on March 6, 2015 http://www.jbc.org/ Downloaded from 

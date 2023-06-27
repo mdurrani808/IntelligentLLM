@@ -1,0 +1,953 @@
+Biochemistry 1995, 34, 10383-10392 10383 
+Analysis of the Factor VIIa Binding Site on Human Tissue Factor: Effects of 
+Tissue Factor Mutations on the Kinetics and Thermodynamics of Binding 
+Robert F. Kelley,* Kimberly E. Costas, Mark P. O'Connell, and Robert A. Lazarus 
+Department of Protein Engineering, Genentech, Inc., 460 Point San Bruno Boulevard, South San Francisco, California 94080 
+Received March 8, 1995; Revised Manuscript Received May 17, 1995@ 
+ABSTRACT: Surface plasmon resonance (SPR) measurements on a BIAcore instrument have been used to 
+measure the effects of mutations in human tissue factor (TF), the initiator of blood coagulation, on the 
+kinetics and affinity of binding to human FVIIa. TF mutant proteins were produced in soluble form by 
+expression of the extracellular domain (sTF) in Escherichia coli followed by immunoaffinity purification. 
+Mutants were designed and analyzed on the basis of the structure of sTF recently determined by X-ray 
+crystallography [Muller et al. (1994) Biochemistry 33, 10864- 108701. Wild-type sTF binding to 
+immobilized FVIIa has k,, = 3.4 f 0.8 x lo5 M-' s-' a nd koff = 2.1 dz 0.1 x s-l with a calculated 
+KD of 6.3 f 1.2 nM and AG of - 1 1.2 f 0.1 kcal mol-'. Calorimetric measurements indicate that binding 
+occurs with a favorable AH of -32 kcal mol-', an unfavorable AS of -70 cal K-I mol-', and a ACp of 
+-730 cal K mol-'. The value of ACp is consistent with burial of a large nonpolar surface area upon 
+binding. Five residues on TF, Lys20, Trp45, Asp58, Tyr94, and Phel40, make a large contribution (AAG 
+= 1-2.5 kcal mol-') to FVIIa binding, a set of 17 mutations result in modest decreases in affinity (AAG 
+= 0.3-1 kcal mol-'), and 40 mutations have AAG smaller than the experimental uncertainty (f0.3 kcal 
+mol-'). Mutations at four sites result in small (0.3-0.5 kcal mol-') increases in affinity. Decreases in 
+affinity result primarily from increased rates of dissociation. These data define a putative FVIIa binding 
+site on one face of the TF structure with most of the contacts contributed by the N-terminal fibronectin 
+type I11 domain. The critical binding residues are found on @-strands. An additional set of residues 
+located on the surface of the C-terminal fibronectin type I11 domain opposite the FVIIa binding site have 
+a role in the procoagulant activity of sTF but are not involved in FVIIa binding. 
+Tissue factor has a principle role in vertebrate hemostasis 
+by serving as the initiator of the extrinsic pathway of blood 
+coagulation (Davie et al., 1991; Ruf & Edgington, 1994). 
+TF' is an integral membrane glycoprotein (263 residues) 
+normally expressed in the adventitial cell layer surrounding 
+blood vessels and on the surface of a variety of tissues (Drake 
+et al., 1989; Wilcox et al., 1989). TF consists of an 
+extracellular part (residues 1 -219), a single membrane￾spanning region (220-242) and a small cytoplasmic domain 
+(243-263) (Monissey et al., 1987; Scarpati et al., 1987; 
+Spicer et al., 1987). Vascular damage exposes blood to TF, 
+which forms a calcium-dependent, high-affinity complex with 
+plasma coagulation factor VI1 (FVII). TF binding stimulates 
+proteolytic activation of zymogen FVII to the serine protease 
+FVIIa (Nemerson & Repke, 1985). TF also dramatically 
+enhances the catalytic efficiency of FVIIa for both peptide 
+(Lawson et al., 1992) and protein substrates (Bom & Bertina, 
+1990). The TF-FVIIa complex proteolytically activates 
+factors IX and X, ultimately resulting in thrombin generation 
+* Corresponding author [telephone (415) 225-2321, Fax (415) 225- 
+@ Abstract published in Advance ACS Abstracts, July 15, 1995. 
+Abbreviations: sTF, soluble tissue factor composed of the extra￾cellular domain, residues 1-219; FVIIa, activated coagulation factor 
+VII; SPR, surface plasmon resonance; NHS, N-hydroxysuccinimide; 
+EDC, N-ethyl-N '-[3-(diethylamino)propyl]carbodiimide; BEGR-ck, bi￾otinylated glutamylglycinylarginyl chloromethyl ketone; BEGR-FVIIa, 
+FVIIa modified with BEGR-ck. Mutants are named using the single￾letter code for the amino acids with the wild-type residue first and 
+then the sequence position, followed by the residue in the mutant. 
+Colons separate multiple mutations. 
+3734, e-mail rk@gene.com]. 
+0006-2960/95/0434- 103 8 3$09.00/0 
+and the formation of a fibrin clot. Structure-function studies 
+on TF and FVIIa are required to understand the mechanism 
+of cofactor action. 
+Overexpression and/or aberrant utilization of TF have been 
+linked to the pathophysiology of both thrombosis and sepsis. 
+TF is expressed on cells found in atherosclerotic plaque 
+(Wilcox et al., 1989) and can be induced on endothelial cells 
+and monocytes by exposure to inflammatory cytokines or 
+bacterial lipopolysaccharide (Gregory et al., 1989). Neutral￾izing anti-TF antibodies prevent death in a primate model 
+of Escherichia coli-induced septic shock (Taylor et al., 1991), 
+attenuate endotoxin-induced DIC in rabbits (Warr et al., 
+1990), and inhibit thrombus formation in a rabbit model of 
+arterial thrombosis (Pawashe et al., 1994). Drugs that 
+modulate the cofactor function of TF could have important 
+therapeutic applications in the treatment of thrombosis and 
+sepsis. Given that binding to TF is essential for the activation 
+and catalytic function of FVIIa, one approach to develop 
+inhibitors of the extrinsic pathway would be to target the 
+interface between TF and FVIIa. Results of the structure￾function analysis of TF-FVIIa should aid in the design of 
+extrinsic pathway anticoagulants. 
+We describe here results of thermodynamic and kinetics 
+measurements on the interaction between human FVIIa and 
+the extracellular domain of human TF (sTF). Isothermal 
+titration calorimetry has been used to measure the thermo￾dynamics of binding, and surface plasmon resonance mea￾surements on a Pharmacia BIAcore instrument have been 
+used to determine the kinetics and affinity of binding to 
+0 1995 American Chemical Society 10384 Biochemistry, Vol. 34, No. 33, 1995 
+immobilized FVIIa for a panel of sTF mutants. Previous 
+work (Ruf et al., 1994; Schullek et al., 1994; Gibbs et al., 
+1994) has used the TF-stimulated enzymatic activity of FVIIa 
+to assay effects of TF mutations on the affinity for FVIIa. 
+These data were interpreted on the basis of the proposed 
+structural homology of TF to the cytokine receptor family 
+(Bazan, 1990) to elucidate a putative binding site for FVIIa. 
+Recently, the structure of the extracellular domain of TF has 
+been determined by X-ray crystallography (Harlos et al., 
+1994; Muller et al., 1994). The structure shows sTF to be 
+composed of two fibronectin type I11 domains2 as observed 
+for the human growth hormone receptor (DeVos et al., 1992). 
+This structure allows us to make a more detailed analysis of 
+the functional effects of TF mutations using the thermody￾namic and kinetic data presented here. 
+Kelley et al. 
+Circular Dichroic Spectroscopy. Far-UV CD spectra were 
+recorded on a Cary/AVIV 60 DS spectropolarimeter. Quartz, 
+cylindrical cuvettes having a path length of 0.1 cm were used, 
+and 10 spectra were collected and averaged. Spectra were 
+collected at 25 "C using 4 pM protein solutions containing 
+10 mM sodium phosphate, pH 7.0. 
+BlAcore Measurement of sTF Binding to Immobilized 
+FVZla. The effects of mutations in sTF upon FVIIa binding 
+were determined by surface plasmon resonance measure￾ments on a Pharmacia BIAcore instrument (Karlsson et al., 
+1991). FVIIa was immobilized by first reacting with a 
+biotinylated inhibitor (BEGR-ck) followed by capture of the 
+covalently modified protein (BEGR-FVIIa) on a sensor chip 
+surface derivatized with streptavidin. BEGR-FVIIa was 
+prepared by adding BEGR-ck (final concentration of 100 
+pM) to a solution containing 19 pM FVIIa, 300 pM sTF, 
+20 mM Tris-HC1, pH 7.5, 100 mM NaC1, and 5 mM CaC12. 
+After incubation at ambient temperature for 2 h, the solution 
+was desalted on a PD-10 column equilibrated with buffer 
+containing 50 mM EDTA. Streptavidin was immobilized 
+on the sensor chip surface by coupling through free amino 
+groups. The carboxylated dextran matrix was first activated 
+with a mixture of NHS and EDC using a protocol supplied 
+by the manufacturer. An aliquot of a 1 mg/mL solution of 
+streptavidin in 10 mM sodium acetate, pH 5, was injected 
+at a flow rate of 2 pL min-'. Injections were repeated until 
+the SPR signal was increased by 5000-10 000 resonance 
+units above the original baseline. Unreacted NHS was 
+blocked by injection of an aliquot of 1 M ethanolamine. An 
+aliquot of a solution of BEGR-FVIIa was then injected to 
+obtain an additional increase in SPR signal of 2000-3000 
+resonance units. Any residual sTF bound to BEGR-FVIIa 
+was eluted by injection of an aliquot of 50 mM EDTA. 
+The affinity of sTF variants for FVIIa was calculated from 
+the kinetics of binding to immobilized FVIIa. For a 1:l 
+binding interaction 
+EXPERIMENTAL PROCEDURES 
+Materials. Human FVIIa and BEGR-ck were purchased 
+from Haematologic Technologies, Inc. (Essex Junction, VT). 
+The human FVIIa used in the calorimetry experiments was 
+the kind gift of Dr. W. Kisiel (University of New Mexico). 
+Streptavidin was purchased from Molecular Probes (Eugene, 
+OR). 
+Oligonucleotide-Directed Mutagenesis. A phagemid vec￾tor designed for secretion of 1-219 human TF from E. coli 
+under control of the alkaline phosphatase promoter and stI1 
+bacterial signal sequence was used as the template for 
+oligonucleotide-directed mutagenesis. The procedure of 
+Kunkel et al. (1987) was used to increase the efficiency of 
+mutagenesis. Mutants selected by using this protocol were 
+confirmed by dideoxynucleotide sequencing of the single￾strand form of the phagemid. The DNA sequence was 
+determined at the site of the mutation and for 30-50 bp on 
+each side of this site. 
+Expression and PuriJication of sTF Mutants. E. coli strain 
+27C7 transformed with the expression plasmid was grown 
+overnight at 30 "C in 250 mL of low phosphate containing 
+media. Cells were harvested by centrifugation, frozen at -20 
+"C for 1 h, and then subjected to osmotic shock to release 
+periplasmic contents by resuspension in 20 mL of 10 mM 
+Tris-HC1, pH 7.5, 1 mM EDTA, 1 mM PMSF, and 1 mM 
+benzamidine. After incubation on ice for 1 h, the suspension 
+was centrifuged at 1OOOOg for 20 min, and then the sTF in 
+the supernate was purified by immunoaffinity chromatog￾raphy. Briefly, the osmotic shock supernate was loaded onto 
+a column (1 x 20 cm) having the D3 monoclonal antibody 
+(Paborsky et al., 1989) immobilized onto controlled pore 
+glass and previously equilibrated with 50 mM Tris-HC1, pH 
+8, and 0.5 M NaCl. Proteins bound nonspecifically were 
+removed by washing with 3 column volumes of 50 mM Tris￾HCl, pH 8, 1.0 M NaC1, and 0.5 M tetramethylammonium 
+chloride, and then the sTF was eluted with 0.1 M sodium 
+acetate, pH 3, and 0.2 M NaC1. Peak fractions were pooled 
+and neutralized. Concentrations of purified sTF were 
+determined by absorbance measurements using an 6280 of 29.4 
+mM-' cm-' calculated from quantitative amino acid analysis 
+data. An €280 of 24 mM-' cm-' was used for the Trp to 
+Phe mutants of sTF. 
+* The extracellular portion of TF consists of two domains, residues 
+1-103 and 104-219, with topology of a fibronectin type 111 unit. 
+,&Strands are labeled A, B, C, C', E, F, and G according to the 
+fibronectin type I11 nomenclature. 
+We determined k,, by analyzing the response curve observed 
+upon return to buffer flow after saturation with a high 
+concentration (usually 21 pM) of sTF. Association rate 
+constants (k,) were calculated by using a series of six sTF 
+concentrations ranging from 31.25 nM to 1 pM in 2-fold 
+increments, and k,, was determined from the concentration 
+dependence of k,. Kinetics measurements commonly em￾ployed a flow rate of 10 pL min-', and the sensor chip 
+surface was regenerated by elution of bound sTF with an 
+injection of 50 mM EDTA. Kinetic constants were deter￾mined by nonlinear regression analysis as described by 
+O'Shannessy et al. (1993) using software supplied by the 
+manufacturer. 
+Isothermal Titration Calorimetry. Measurements of the 
+enthalpy change (AH) for wild-type sTF binding to factor 
+VIIa were performed on a Microcal, Inc., OMEGA titration 
+calorimeter as previously described (Kelley & O'Connell, 
+1993). Protein solutions were prepared by exhaustive 
+dialysis versus a buffer solution of 20 mM Tris-HC1, pH 
+7.5, 100 mM NaC1, and 5 mM CaC12. FVIIa at a concentra￾tion of 5.8 pM was loaded into the 1.4 mL calorimeter cell Factor VIIa Binding Site on Tissue Factor 
+and titrated by injection of aliquots of a solution of 480 pM 
+sTF. Heats of binding were calculated by subtracting heats 
+of sTF dilution measured in separate experiments. These 
+data were analyzed by using software supplied by the 
+manufacturer. Enthalpy measurements were made at 25 and 
+37 "C to obtain an estimate of ACp from the relationship 
+Biochemistry, Vol. 34, No. 33, 1995 10385 
+Coagulation Measurements. The procoagulant function 
+of wild-type and mutant sTF was measured on an ACL300 
+coagulometer operated in the research mode. sTF was added 
+to pooled, platelet-depleted human plasma that had been 
+anticoagulated by addition of citrate. A sTF concentration 
+of 500 nM was used. Coagulation was initiated by mixing 
+equal volumes of this solution and a solution of 25 mM 
+calcium chloride, and the clotting time was measured. 
+RESULTS 
+SPR Measurements of sTF Binding to Immobilized FVIIa. 
+Initial experiments indicated that amine coupling of FVIIa 
+to the sensor chip yielded a surface with weakened and 
+poorly reproducible affinity for sTF (Kelley, 1994). Since 
+modification of the active site of FVIIa has been shown to 
+have little impact on binding to TF (Bach et al., 1986), we 
+chose to immobilize FVIIa through the protease active site. 
+FVIIa was modified with a biotinylated peptide chloromethyl 
+ketone (Williams et al., 1989) followed by capture of the 
+biotinylated FVIIa (BEGR-FVIIa) on a sensor chip having 
+amine-coupled streptavidin. The rate constant for dissocia￾tion of BEGR-FVIIa from streptavidin was less than 1 x 
+s-I (data not shown). As shown in Figure 1, sensor￾grams observed for injection of sTF onto this surface gave 
+a good signal to noise ratio with the rate and extent of binding 
+increasing with sTF concentration. No binding was detected 
+for a sensor chip derivatized with streptavidin alone (data 
+not shown). As expected since the TFFVIIa interaction is 
+calcium dependent, bound sTF could be eluted by injection 
+of an aliquot of 50 mM EDTA. The BEGR-FVIIa￾streptavidin surface showed good stability toward this 
+regeneration procedure and only slowly lost sTF binding 
+capacity after repeated experiments. 
+An apparent kon of 3.4 f 0.8 x lo5 M-' s-l w as calculated 
+from the concentration dependence of association shown in 
+Figure 1B. Analysis of the sensorgram observed upon return 
+to buffer flow after injection of 3 pM sTF (Figure IC) 
+yielded an apparent k,ff of 2.1 f 0.1 x s-l. The ratio 
+of the kinetic constants gives a KD of 6.3 f 1.2 nM and a 
+calculated AG of -11.2 f 0.1 kcal mol-'. These values 
+represent the mean of triplicate measurements made on the 
+same sensor chip over a period of a few days. A comparison 
+between sensor chips and preparations of BEGR-FVIIa gives 
+similar mean values but a 3-fold larger standard deviation. 
+The affinity determined by SPR measurements is within the 
+range of KD values (0.6-20 nM) reported for sTF binding 
+to FVIIa from a variety of experimental methods (Ruf et 
+al., 1991; Waxman et al., 1992; Neuenschwander & Mor￾rissey, 1994; Schullek et al., 1994). 
+Dissociation of bound sTF was more precisely described 
+by two exponentials rather than a single kinetic phase. This 
+result could be explained by heterogeneity in the FVIIa 
+-100 1 , I f I 0 100 200 300 400 500 600 700 
+Time (8) 
+0.2 , B 
+0.05 1 
+R 
+0 
+0 2 lo' 410' 6 lo" 810' 1 IO' 1.210d 
+Concentration (M) 
+350 
+300 
+250 
+200 
+150 
+100 
+50 
+0 
+0 200 400 600 800 1000 1200 1400 
+Time (5) 
+FIGURE 1:Kinetics of sTF binding to immobilized FVIIa measured 
+by surface plasmon resonance on a Pharmacia BIAcore instrument. 
+(A) Sensorgrams observed for injection of solutions of wild-type 
+sTF, at concentrations ranging from 62.5 nM to 1 pM (in 2-fold 
+increments), onto a BEGR-FVIIa-streptavidin surface at a flow 
+rate of 10 pL min-I. The solutions also contained 20 mM Tris￾HCl, pH 7.5, 100 mM NaCl, and 5 mM CaC12, and the temperature 
+was 25 "C. The sensor chip surface was regenerated by injection 
+of an aliquot of 50 mh4 EDTA (not shown). (B) Concentration 
+dependence of ks values determined by nonlinear regression analysis 
+of the association data of panel A (100-260 s) as described by 
+O'Shannessy et al. (1993). The solid line represents a linear least 
+squares analysis by using the equation k, = k,,C + koff, where C is 
+the concentration of free sTF. (C) Sensorgram (solid line) observed 
+for dissociation following injection of 3 pM sTF. The dashed line 
+represents the result of nonlinear regression analysis using a single￾exponential decay. 
+preparation, by significant rebinding during dissociation 
+(Karlsson et al., 1991), or by a more complicated binding 
+scheme than mechanism 1. No evidence for heterogeneity 
+is observed in the association kinetics, suggesting that the 
+FVIIa is homogeneous. Two alternative binding schemes 
+are 
+(4) 
+(5) 10386 Biochemistry, Vol. 34, No. 33, 1995 
+0.0 0.5 1.0 1.5 2.0 2.5 3.0 
+Molar Raclo 
+FIGURE 2: Heats of binding measured by isothermal calorimetry 
+for titration of 5.8 pM FVIIa by addition of 4 pL aliquots of a 
+solution of 480 pM wild-type sTF at 25.5 "C. The solid line is the 
+result of nonlinear regression analysis yielding an n of 0.9 and AH 
+of -32 kcal mol-'. 
+Mechanism 4 predicts a hyperbolic dependence of k, on free 
+ligand concentration which is inconsistent with the linear 
+dependence observed (Figure 1B). Mechanism 5 is also 
+inconsistent with the data because the slow isomerization of 
+A limits the rate of binding, and thus k, should be fairly 
+independent of free ligand concentration. The fit to a single 
+exponential was not significantly improved by changes in 
+flow rate in the range of 10-50 pL min-', by increasing 
+the sTF concentration to 300 pM, or by decreasing the 
+amount of immobilized BEGR-FVIIa. Although these results 
+suggest that the deviation from single-exponential behavior 
+does not originate from rebinding of sTF during the dis￾sociation experiment, the relatively large k,,, could make it 
+difficult to prevent rebinding. We conclude that mechanism 
+1 is most consistent with the data. This conclusion is 
+supported by the agreement in the KD value calculated from 
+the SPR data by using mechanism 1 with the results of other 
+measurements. 
+Calorimetric Measurement of sTF Binding to FVIIa. 
+Heats of sTF binding to FVIIa determined by using 
+isothermal titration calorimetry are shown in Figure 2. 
+Analysis of these data using a single class of binding sites 
+model yields an n of 0.90 f 0.01, consistent with the 1:l 
+stoichiometry observed by other methods (Waxman et al., 
+1992), and a AH of 32.0 f 0.5 kcal mol-'. The affinity of 
+the interaction is too high to determine the binding constant 
+by ~alorimetry.~ Since the binding constant determined by 
+SPR indicates a AG of -1 1.2 kcal mol-', the entropy change 
+upon binding is large and unfavorable (AS = -70 cal mol-' 
+K-'). Although the limited availability of purified FVIIa 
+precluded extensive calorimetric experiments, the AH was 
+also determined at 37 "C (AH = -40.8 kcal mol-') to give 
+an estimated ACp of -730 cal mol-' K-l. The sign and 
+magnitude of ACp are consistent with burial of a large 
+For accurate determination of the binding constant K, the c value 
+for the measurements (c = K[M], where [MI is the concentration of 
+the titrant) needs to be between 1 and 1000 (Wiseman et al., 1989). If 
+the KD for sTF*FVIIa is 5 nM, then the concentration required to give a c value of 1000 is 5 pM. At this concentration, however, the total 
+heat change would be small, resulting in an imprecise binding isotherm. 
+-10000 r;,,,,;, , , , , , , , , , , , , , , , . , , , , , , , , , ,I 
+-1 5000 
+190 200 210 220 230 240 250 
+Wavelength (nm) 
+FIGURE 3:Far-UV CD spectra recorded for wild type (solid line) 
+and the W45F (dashed line) mutant of sTF. 
+nonpolar surface upon binding (Livingstone et al., 1991; 
+Connelly & Thomson, 1992). 
+sTF Mutant Production. sTF residues were initially 
+selected for mutagenesis by choosing segments of the TF 
+extracellular domain proposed (Bazan, 1990) to be structur￾ally homologous to the loops of the growth hormone receptor 
+that are involved in hormone binding (Bass et al., 1991; 
+DeVos et al., 1992; Clackson & Wells, 1995). Double (e.g., 
+K65A:D66A) and triple (e.g., R136A:N137A:N138A) mu￾tants of clustered charged or polar residues were constructed 
+in order to speed identification of the binding site for FVIIa. 
+The four tryptophans of sTF were individually mutated to 
+phenylalanine since there is a change in Trp fluorescence 
+upon sTF binding to FVIIa (R. Kelley, unpublished results). 
+In addition, Ruf et al. (1994) had identified Lys20, Asp58, 
+and Phel40 as important residues for binding to FVIIa. Once 
+the crystal structure of the TF extracellular domain became 
+available (Harlos et al., 1994; Muller et al., 1994), the 
+mutagenesis strategy was altered to emphasize solvent￾accessible residues that are spatially close to these sites. For 
+example, an inspection of the structure for residues close to 
+Lys20 identifies Leu133. Similarly, Gln37 is observed to 
+pack against Trp45, and Lys48 is detected as a close neighbor 
+to Asp58. 
+As indicated by SDS-PAGE (not shown), sTF mutants 
+could be obtained in high purity by secretion from E. coli 
+and immunoaffinity purification. Most mutant proteins could 
+be obtained in 0.2-0.5 mg quantities from a 250 mL culture. 
+Electrospray-ionization mass spectroscopy (Bourell et al., 
+1994) confirmed the molecular weights expected for these 
+mutants. Wild-type sTF isolated in this fashion stimulated 
+the activity of FVIIa on peptide and macromolecular 
+substrates as previously described (Neuenschwander & 
+Morrissey, 1994). A few sTF mutants, Le., I152A, N199A: 
+R200A, failed to bind to the antibody column and were 
+purified by a combination of anion-exchange and hydropho￾bic interaction chromatography. Alanine substitutions of 
+residues Serl6, Phel9, Thr60, Arg74, Tyrl03, Ser142, 
+Phe147, and Asp178:Asp180 resulted in very poor expres￾sion, and the mutant proteins could not be purified. 
+The global conformation of a few of the mutant proteins 
+was compared to wild-type sTF by using CD spectroscopy. 
+sTF displays an unusual far-UV CD spectrum that is only 
+weakly dichroic as shown in Figure 3. A small and positive 
+peak of ellipticity at 230 nm, probably arising from the 
+aromatic chromophores, is detected. The broad peak of 
+negative ellipticity centered at 217 nm commonly observed Factor VIIa Binding Site on Tissue Factor 
+in /?-sheet proteins (Doi & Jirgensens, 1970) is absent in 
+sTF. The negative ellipticity below 200 nm is more typical 
+of random coil conformation than a folded protein. Since 
+sTF purified from E. coli was used to determine the X-ray 
+structure (Harlos et al., 1994; Muller et al., 1994), we must 
+conclude that sTF is properly folded but the information 
+content of the CD spectrum is low. The mutant sTF proteins, 
+as represented by the spectrum of W45F shown in Figure 3, 
+gave spectra similar to those of the wild-type protein, 
+suggesting that the mutations do not perturb the overall 
+conformation of the molecule. A more detailed analysis of 
+the conformation by using NMR is precluded because sTF 
+gives broad resonances (W. Fairbrother, unpublished results) 
+presumably due to oligomerization at high concentration (2 
+mM) . Effect of sTF Mutations on FVIIa Binding. KD values for 
+binding of sTF mutants to BEGR-FVIIa were determined 
+as described above for the wild-type protein. Wild-type and 
+mutant values were compared using data collected on the 
+same sensor chip because this gives less error than a 
+comparison of KD values measured on different sensor chips. 
+Given the errors in measuring the kinetic constants for the 
+wild-type protein, changes in kinetic constants with mutation 
+must be greater than 2-fold to be considered significant. 
+Affinities were compared relative to the wild-type protein 
+by calculating the effect of the mutation on the change in 
+free energy of binding 
+Biochemistry, Vol. 34, No. 33, 1995 10387 
+K20 1 A: D204A N199A:RZOOA T197AV198A 
+S195A S195AR196A Y185A El 83AN184A K181
+N173A:k1% T172A 
+K169A T7
+K165A:K166A G164R 
+S163A 
+K159A W158F
+Y156L 
+1152A K149A:DlWA D145A 
+R144A 
+F140A 
+T139A R136A:N137AN138A R135A 
+L133A E130A:R131F D129A 
+K122A El8A 
+Q114A:E117A 
+N107A:QllOA 
+L104A:ElOSA E99A 
+Y94A 
+K68A K68A:O69A 
+K65A:D86A 
+D61A:E62A 
+D58E 
+D58A D54A:E56A 
+T52A F0
+K48A 
+S47A 
+K46A K46A:KMA W45F 
+D44A S2
+K41A K41 A:D44A Q37A 
+K28A 
+EP6A 
+W25F 
+E24A 
+122A 
+T21A 
+K20R 
+K20A Nl8
+T17A 
+K15A 
+W14F 
+The estimated standard error in AAG values calculated from 
+data collected on one sensor chip is 0.3 kcal mol-'. As 
+shown in Figure 4, single-site substitutions of 14 residues 
+in the N-terminal domain-Trpl4, Lys20, Ile22, Glu24, 
+Trp25, Gln37, Lys 41, Asp44, Trp45, Lys48, Phe50, Thr52, 
+Asp58, and Tyr94-and two residues in the C-terminal 
+domain-Arg135 and Phel40-result in decreases in affinity 
+(positive AAG) that are greater than the experimental 
+uncertainty (0.3 kcal mol-'). Five of the single-site mutants, 
+K20A, W45F, D58A, Y94A, and F140A, gave AAG values 
+of > 1 kcal mol-'. Double mutants D54A:E56A and D61A: 
+E62A in the N-terminal domain and N107A:Q110A, S195A: 
+R196A, and N199A:R200A in the C-terminal domain also 
+gave small decreases in affinity. Except for the S195A: 
+R196A mutant, these effects have not been further defined 
+with single-site substitutions; the S 195A mutant has no effect 
+on binding. Mutants K15A, K65A:D66A, L104A:E105A, 
+and Y185A bind BEGR-FVIIa with an affinity 1.5-2-fold 
+higher than that of wild-type sTF. 
+Effect of Mutations on Kinetics of sTF.FVIIa Interaction. 
+Alanine substitution at only one solvent-accessible site, 
+K20A, resulted in a significant decrease (12.5-fold) in the 
+apparent association rate constant (ken) (Figure 5). Other 
+substitutions effecting decreased on-rates involved mutation 
+of buried residues (e.g., W14F, W25F). None of the mutants 
+studied here resulted in increased rates of association. The 
+association curves for K20A were only poorly described by 
+a single kinetic component, and a much better fit was 
+obtained by using two phases. Biphasic association kinetics 
+were not observed for any other sTF mutants. This result 
+implies that the K20A mutation changes the mechanism of 
+.1 -0.5 
+ft 
+5' I 
+0 0.5 1 1.5 2 2.5 3 
+AAG kcal mor' 
+FIGURE 4: Effects of sTF mutations on the affinity for FVIIa 
+binding reported as AAG values. Dissociation constants were 
+determined as described in the text and used to calculate AAG 
+values by using eq 6. Vertical lines at 0.3 and -0.3 kcal mol-' 
+denote the standard error in the measurements. 
+binding, with mechanism 5 a likely candidate. In contrast, 
+the association kinetics measured for the K20R mutant could 
+be adequately described by a single exponential with no 
+change in the on-rate compared with the wild-type protein. 
+These results suggest that a positively charged side chain at 
+residue 20 is important for orienting FVIIa as it approaches 
+the binding site or for maintenance of a binding competent 
+state of sTF. 
+Substitutions of solvent-accessible residues Lys20, Ile22, 
+Glu24, Gln37, Asp44, Trp45, Asp58, Tyr94, Asnl07:GlnllO, 
+and Phel40 resulted in significant increases in the off-rate 
+for dissociation of sTF from immobilized FVIIa (Figure 5). 
+Increases in off-rate tend to be larger than on-rate effects. 
+Indeed, since the accuracy of the off-rate determinations on 
+the BIAcore is reduced when koff > M-', and because 
+some of the mutants (e.g., K41A:D44A, W45F, D58A) have 
+koR > M-l, the relative effects (Figure 5) on the apparent 
+off-rate may only represent a lower limit on the increase in 
+dissociation rate. Thus, for mutants with k,dmut)/k,fr(wt) 
+=- 10, the AAG value may be underestimated. 
+The double mutant K46A:IC48A also had an increased off￾rate although no effect was observed for the single mutants 
+K46A or K48A. Similarly, the K41A mutant had no effect 
+by itself, but the double mutant K41A:D44A had a faster 
+off-rate than measured for the single substitution, D44A. For 
+this set of mutations, the AAG of the double mutant is greater 
+than the sum of the AAG values measured for the single 
+mutants. This result suggests that the residues cooperate in 10388 Biochemistry, Vol. 34, No. 33, 1995 Kelley et al. 
+0.1 
+l=-+-=- i 
+1 
+1 10 
+k(rnut)/k(wt) 
+FIGURE 5: Effects of sTF mutations on the kinetics of sTFWIIa 
+interaction reported relative to the value measured for the wild￾type protein. Filled bars represent k,, values, and koff effects are 
+shown as hatched bars. Vertical lines denote the standard enor. 
+binding ligand, or the double mutant has an altered confor￾mation (Wells, 1990). Two mutants, K65A:D66A and 
+W25F, had decreased off-rates. Lys65 and Asp66 are 
+solvent-accessible residues, and thus the effect of alanine 
+substitutions for these residues may indicate that the charged 
+side chains make unfavorable interactions with FVIIa. Trp25 
+is >90% buried, and the W25F mutation could perturb the 
+conformation of sTF, resulting in increased nonspecific 
+binding. 
+EfSect of sTF Mutations on Coagulation. The effect of 
+mutations on the procoagulant function of sTF was examined 
+by using a one-stage clotting assay. Wild-type sTF diluted 
+to 500 nM in plasma gave a clotting time of 112 f 11 s 
+upon mixing with an equal volume of 25 mM calcium 
+chloride. Addition of calcium alone gave a clotting time of 
+303 f 50 s. As reported by Neuenschwander and Momssey 
+(1992), sTF gives a longer clotting time than membrane￾bound TF, probably as a result of the slower autoactivation 
+of FVII in the presence of sTF. Increasing the concentration 
+of wild-type sTF above 500 nM did not result in a shorter 
+clotting time, suggesting that this concentration is sufficient 
+to rapidly saturate the FVII present in plasma. Since the 
+mutations that have an effect on FVIIa binding usually 
+increase the dissociation rate, the time to reach equilibrium 
+should be shorter with the mutants than for wild-type sTF. 
+For the weaker binding mutants, however, 500 nM sTF may 
+be insufficient to saturate the FVII present, and a prolonged 
+M!Am 
+R1361 
+0 0.5 1 1.5 2 2.5 3 3.5 
+Clotting time (mut)/Clottlng time (wt) 
+FIGURE 6: Relative effects of mutations on the procoagulant activity 
+of sTF measured with human plasma. Values shown with error bars 
+represent the mean of triplicate measurements. A clotting time 1.5- 
+fold that of wild type is considered to be a significant difference. 
+clotting time will result. Limited amounts of some of the 
+mutants prevented the use of higher sTF concentrations in 
+the coagulation assay. In addition, this assay displayed some 
+batch-to-batch variation and is presumably sensitive to 
+differences in the salt, pH, or contaminant level of the sTF 
+preparation. Therefore, only clotting times increased by at 
+least 1.5-fold from wild type are considered to be significant. 
+Given the clotting time measured for addition of calcium 
+alone (2.7-fold longer than wild-type sTF), the range of the 
+assay for measuring defects in cofactor function is quite 
+limited. 
+The clotting times measured for 500 nM sTF mutants in 
+plasma are shown relative to wild-type sTF in Figure 6. As 
+was expected, mutants having large reductions in affinity 
+for FVIIa-K20A, K20R, D44A, W45F, D58A, D58E, 
+Y94A-gave prolonged clotting times. An additional set of 
+mutations, E99A, L104A:E105A, W158F, K159A, S163A, 
+G164R, K165A:K166A, and Y185A, did not weaken FVIIa 
+binding but are observed to have prolonged clotting times. 
+Addition of 10 nM FVIIa to the citrated plasma reduced the 
+clotting times measured for this set of mutants and also for 
+wild-type sTF by about 3-fold (data not shown). Since these 
+mutants gave longer clotting times than wild-type sTF even 
+in the presence of activated enzyme, these mutants cannot 
+be solely defective in FVII autoactivation but must also be 
+impaired for FXa generation. A few sTF mutants appear to 
+have shorter clotting times than the wild-type protein, but it 
+is unclear whether this reflects improved cofactor function 
+or the purity level of the mutant. Factor VIIa Binding Site on Tissue Factor Biochemistry, Vol. 34, No. 33, 1995 10389 
+Trp 45 
+Lys 48 
+ASP 44 4 
+Arg 13: 
+1 
+L Glu 105 
+b 
+Phe 140- 
+FL Lys 165 
+e MG>1 kcaVmol 
+e MG 0.4-1 kcaVmol 
+e Noeffect 
+0 Improved binding 
+FIGURE 7 Space-filling representation of the structure of sTF (Muller et al., 1994) with residues colored according to the magnitude of the 
+AAG effect for FVIIa binding. Residues that have not been mutated are colored white with the exception of the cysteine residues of the two 
+disulfide bonds which are colored yellow. Two views related by a 90" rotation are shown. This figure was generated by using the MidasPlus 
+program (Femn et al., 1988). 
+DISCUSSION 
+We have described here a detailed study of the FVIIa 
+binding site on human sTF. A majority of the solvent￾accessible residues, and almost all of the residues neighbor￾ing sites with AAG > 1 kcal mol-I, have been mutated. Our 
+results using direct binding methods confirm those of others 
+(Ruf et al., 1994; Schullek et al., 1994; Gibbs et al., 1994) 
+showing that Lys20, Trp45, Asp58, and Phel40 make 
+important contributions to FVIIa binding. In addition, we 
+identify Tyr94 as an important residue for FVIIa binding. 
+In contrast to Gibbs et al. (1994), we find that the V207A 
+mutation has no effect on FVIIa binding or cofactor function. 
+These other studies measured changes in TF-FVIIa affinity 
+by assay of the TF stimulation of FVIIa enzymatic activity. 
+It is difficult to compare our results with those of Ruf et al. 
+(1994) because these authors produced TF mutants in full￾length form and assayed FVIIa affkty by measurements of 
+factor X activation using detergent-solubilized TF. The AAG 
+values we measure tend to be smaller than those calculated 
+from the data of Schullek et al. (1994) and Gibbs et al. (1994) 
+for sTF binding to FVIIa. This difference could reflect the 
+presence of substrate in the amidolytic assays. Indeed, the 
+data of Butenas et al. (1994) suggest that the KD determined 
+for TF-FVIIa in an amidolytic assay is somewhat dependent 
+on the substrate used. Our data obtained in the absence of 
+substrate suggest that Ile22 and Arg135 make less important 
+contributions to binding than described previously. 
+Structure of the FVIla Binding Site on sTF. As shown in 
+Figure 7, residues implicated in FWa binding form a convex 
+surface extending from Tyr94 of the N-terminal domain into 
+the domain-domain interface. The putative FVIIa binding 
+site is centered on the B (LyDO), C' (Asp58). and E (Trp45) 
+strands of the N-terminal domain, but FVIIa also contacts 
+residues from the C-terminal domain (AsnlO7 or GlnllO, 
+Arg135, Phel40) at the domain-domain interface. Both the 
+ACp value and mutagenesis results are consistent with a large 
+contact surface on sTF for binding FVIIa. Given that the 
+molecular weight of FVIIa is about twice that of sTF, an 
+extended binding site is not unreasonable. The total acces￾sible surface of TF residues with IAAGl > 0.3 kcal mol-l 
+is large (>2000 A*). Although it is unlikely that all of the 
+accessible surface of these residues will become buried upon 
+binding to FVIIa, other residues may become buried without 
+actively contributing to the AG of binding. For example, 
+Leu133 lies between Lys20 and Phel40 and is likely to 
+become buried on binding FVIIa, and yet the L133A mutant 
+has negligible AAG. Some residues that contact ligand may 
+make favorable contributions to AH but not to AG because 
+of a compensating unfavorable AS (Novotny et al., 1989; 
+Kelley & OConnell, 1993). 
+Solvent-accessibility calculations4 indicate that Trpl4, 
+Serl6, Phel9, Thr21, Trp25, Thr60, Glu62, Tyr103, Phe147, 
+Tyr185, and Arg196 are each '90% buried, and thus any 
+effects from mutation of these residues are likely to result 
+from changes in the protein conformation. Mutation of 
+Thr21 and Glu62 was tolerated with little impact on ligand 
+binding whereas the sTF mutants W14F, S16A, F19A, 
+W25F, T60A. Y103A. and F147A were expressed very 
+poorly in E. coli. Trp25 is conserved in all tibronectin type 
+Solvent accessibilities were calculated from the 1.1 8, structure of 
+sTF (Muller et al., unpublished results) by using the method of Lee 
+and Richards (1971) with a 1.4 8, radius probe. The fraction buried was calculated using a reference tripeptide and includes side-chain and 
+main-chain contributions. 10390 Biochemistry, Vol. 34, No. 33, 1995 Kelley et al. 
+FIGURE 8: Hydrogen bonding within a portion of the FVIIa binding 
+site on sTF. Backbone atoms of the A (13-17), B (19-26). C‘ 
+(45-48), and E (55-58) strands of the N-terminal domain and 
+selected side chains are shown. Potential hydrogen bonds are shown 
+as dotted lines. Side chains of Lys20, Trp45, and Asp58 are colored 
+red, and the Cys49-Cys57 disulfide bond is shown in yellow. This 
+figure was produced using the Midasplus program (Ferrin et al., 
+1988). 
+I11 domains (Bazan, 1990) and is presumed to play an 
+important structural role. Arg196 is buried in the interface 
+between the two domains and the side chain is hydrogen 
+bonded to backbone atoms of residues 103, 104, 106, and 
+199. The side chains of Phel9, Tyrl03, and Phe147 pack 
+together to form an aromatic cluster at the interface between 
+the two domains. Asnl8, Leul04, Glu105, Asnl07, and 
+Asn199, although less than 90% buried, contribute to the 
+accessible surface area buried in the interface between the 
+two domains. Effects on FVIIa binding or cofactor function 
+from mutations of these residues could reflect a change in 
+the relative orientation of the two domains. 
+Adding together all of the AAG values determined for 
+residues that are <90% buried yields slightly more free 
+energy (14.5 kcal mol-!) than determined for wild-type sTF 
+binding to FVIIa (AG = -11.3 kcal mol-’).5 Most of this 
+binding free energy is provided by contacts with residues 
+from the N-terminal domain. With the exception of Asp44, 
+all of the key residues for FVIIa binding reside on B-strands 
+(Muller et al., 1994; Figure 8). Lys20 and Asp58 are 
+contained on adjacent antiparallel @rands formed from 
+discontiguous polypeptide segments. The critical importance 
+of Lys20 and Asp58 for binding to FVIIa is supported by 
+the observation of decreased binding for the conservative 
+Arg and Glu replacements at these sites, respectively. Thr 
+60 appears to play an important role in maintenance of this 
+conformation. The Oy of TM0 makes hydrogen bonds to 
+the side chain of Asp58 and also to the backbone of the E 
+strand (Figure 8). Substitution with alanine would be 
+expected to disrupt the conformation of this region, consistent 
+with the failure of the T60A mutant to express in E. coli. 
+The summation ascumes the ,)le, &I indecpcndently. wh mutatrons 
+not afkctmng he confonnauon. md an) Lunmbution from the backbone 
+ur S carbon IS ignored 
+A comparison with members of the cytokine receptor 
+family suggests that Trp45 of sTF is not a contact residue 
+for FVIIa binding. Trp45 has a fraction buried of 0.71 and 
+the side chain packs against the side chains of Gln37 and 
+Arg74 and also against the backbone of the C and F strands. 
+A Trp is found at the same sequence position in the INF-a, 
+INl-y, and IL-2 receptors (Bazan, 1990) and at a structurally 
+equivalent position in the hGH receptor (DeVos et al., 1992). 
+Trp45 is probably important for maintaining the fibronectin 
+type III fold, and the W45F mutation could influence the 
+contribution to binding from nearby residues Gln37, Asp44, 
+Lys46, and Lys48. 
+Thennodynamics of the sTF-FVIIa Interaction. The large 
+and negative ACp value associated with binding suggests that 
+burial of nonpolar surface provides a large driving force for 
+the interaction; however, the unfavorable AS is inconsistent 
+with the hydrophobic effect (Kauzmanu, 1959; Tanford, 
+1980). As noted by Sturtevant (1977), this discrepancy could 
+be accounted for by a “stiffening” of vibrational modes upon 
+binding which will contribute negative values to AH, AS, 
+and ACp By using this model, the hydrophobic portion of 
+AC, is calculated to be -540 cal mol-l K-’, which suggests 
+that about 1600 A2 of nonpolar surface area becomes buried 
+upon binding (Livingstone et al., 1991). Fixing vibrational 
+modes would provide a favorable AH of -30 kcal mol-l 
+but a negative AS that opposes the positive AS from the 
+hydrophobic effect. Alternatively, the unfavorable AS could 
+be the result of conformational change concomitant with 
+binding as previously proposed on the basis of results of 
+hydrodynamic measurements (Waxman et al., 1993). 
+In contrast to the expectation based on the AC, value, 
+many of the mutations that have an impact on FVIIa binding 
+involve changes in charged or polar residues. For most of 
+the residues mutated, however, we do not know whether the 
+polar or nonpolar parts of the side chain are important for 
+binding. We conclude that the driving force for sTF-FVIIa 
+binding is burial of a large amount of nonpolar surface area. 
+Single-site alanine substitutions probably result in only small 
+changes in the amount of nonpolar surface available for 
+binding. Within this desolvated binding interface, charged 
+01 polar groups on sTF are necessary to complement residues 
+on FVIIa through hydrogen-bonding or ionic interactions. 
+A positively charged residue at position 20 seems to be 
+important in determining the on-rate for FVIIa binding. The 
+C‘ strand appears to supply a positive charge for binding, 
+either from Lys46 or Lys48, since the AAG effect of single 
+mutants K46A or K48A is small but the double mutant 
+K46AK48A has a AAG of 1.2 kcal mol-I. Mutations of 
+some charged residues, i.e., K15A, K65A:D66A, E105A, 
+may improve binding because the polar interactions at these 
+sites are not as well satisfied in the complex as in the 
+unbound state. Individually, polar interactions contribute 
+little to AG because the bonding can be satisfied by water 
+in the free components. Collectively, the polar interactions 
+may determine specificity by preventing binding to the 
+incorrect hydrophobic surface. 
+Comparison to Other Studies of Protein-Protein Interac￾tion. On the basis of a homology-modeled structure of sTF, 
+Gibbs et al. (1994) concluded that sTF conserved the mode 
+of ligand binding observed for the hGH receptor (DeVos et 
+al., 1992). The crystal structure of sTF, however, shows 
+that the FVIIa binding site is located on the opposite side of 
+the cytokine receptor fold relative to the hGH binding site Factor VIIa Binding Site on Tissue Factor 
+on the hGH receptor (Muller et al., 1994). Most of the 
+residues important for binding hGH in both the hGH receptor 
+(DeVos et al., 1992) and the prolactin receptor (Somers et 
+al., 1994) are provided by loop regions whereas P-strand 
+residues in sTF are used to bind FVIIa. Residues of the AB 
+loop in the N-terminal domain of both the hGH and prolactin 
+receptors are important for hormone binding; in sTF these 
+residues (17-19) are buried in the domain-domain interface. 
+As with similar studies of antibody-antigen (Jin et al., 
+1992; Kelley & O’Connell, 1993) and hormone-receptor 
+(Cunningham & Wells, 1993; Clackson & Wells, 1995) 
+interaction, a few residues make a dominant contribution to 
+the free energy of binding. Lys20, Trp45, Asp58, Tyr94, 
+and Phel40 together account for ’70% of the AG of binding. 
+Similarly, most of the changes in affinity result from 
+increases in the rate of dissociation. Protein-protein as￾sociation has been proposed to involve a diffusive-entrapment 
+mechanism (Northrup & Erickson, 1992), and single point 
+mutations may not have a large effect on the association step 
+of this mechanism. Stabilization of the protein-protein 
+complex requires precise docking of the two surfaces, and 
+thus defects in this process could be manifested as increased 
+dissociation rates. 
+The magnitude of the AAG values observed for the key 
+residues of the FVIIa binding site on sTF are smaller than 
+the changes measured for mutants of the growth hormone 
+receptor (Clackson & Wells, 1995) or the anti-~l85~~~~ 
+antibody (Kelley & O’Connell, 1993). In these systems key 
+residues for ligand binding are contributed by loop regions 
+of the protein. Substitutions in loop regions may result in 
+larger local conformational changes than replacements of 
+residues presented on a more rigid, hydrogen-bonded scaf￾fold. In addition, the FVIIa binding site on sTF is more 
+extended than the ligand binding sites in these other systems. 
+Within this extended binding site, the energetic importance 
+of individual contacts is smaller than in the more compact 
+binding sites. In both the hGH receptor and the anti-~l85~~~~ 
+antibody the largest AAG effects are for replacement of 
+hydrophobic residues. In contrast, mutation of two charged 
+residues in sTF, Lys20 and Asp58, have the greatest impact 
+on FVIIa binding. 
+Effects of Mutations on the Procoagulant Function of sTF. 
+A set of residues that are less than 90% buried, and do not 
+contribute to the interface between the two domains (Glu99, 
+Trp158, Lys159, Ser163, Gly164, Lys165, Lys166), have a 
+role in the coagulant function of sTF but are not involved in 
+FVIIa binding. These residues, excluding Glu99, are con￾tained in the C-terminal domain and are found on the 
+opposite surface of the molecule from the putative FVIIa 
+binding site. Residues from the 157-174 segment of TF 
+had previously been shown to be important for factor X 
+activation by the TF-FVIIa complex (Ruf et al., 1992b). 
+Lys165 and Lys166 have been implicated in macromolecular 
+substrate recognition (Roy et al., 1991) and have been 
+proposed to have a role in substrate (FX) binding (Ruf et 
+al., 1992a). Alanine substitution of Tyr185, a buried residue, 
+also results in a large decrease in the procoagulant function 
+of sTF. The side chain of Tyr185 contacts both Lys159 and 
+Lys166 and thus is probably important for supporting the 
+conformation of this region. Further work is required to 
+determine whether the C-terminal domain provides a second￾ary substrate binding site or functions indirectly to maintain 
+FVIIa in a catalytically active conformation. 
+Biochemistry, Vol. 34, NO. 33, 1995 10391 
+ACKNOWLEDGMENT 
+We thank Dr. W. Kisiel for the gift of human FVIIa. The 
+organic chemistry group at Genentech is thanked for oligo￾nucleotide synthesis. We gratefully acknowledge Jim Bourell 
+for mass spectroscopy of sTF mutants and Kerrie Andow 
+for preparation of the molecular graphics. We are grateful 
+to Drs. Bart DeVos and Yves Muller for useful discussions 
+and for performing the solvent accessibility calculations on 
+the structure of sTF recently refined at 1.7 8, resolution 
+(Muller et al., unpublished results). Dr. T. Gregory kindly 
+provided the D3 immunoaffinity column. 
+REFERENCES 
+Bach, R., Gentry, R., & Nemerson, Y. (1986) Biochemistry 25, 
+Bass, S. H., Mulkerrin, M. M., & Wells, J. A. (1991) Proc. Natl. 
+Bazan, J. F. (1990) Proc. Natl. Acad. Sci. U.S.A. 87, 6934. 
+Bom, V. J. J., & Bertina, R. M. (1990) Biochem. J. 265, 327. 
+Bourell, J. H., Clauser, K. P., Kelley, R. F., Carter, P., & Stults, J. 
+Butenas, S., Lawson, J. H., Kalafatis, M., & Mann, K. G. (1994) 
+Clackson, T., & Wells, J. A. (1995) Science 267, 383-386. 
+Connelly, P. R., & Thomson, J. A. (1992) Proc. Natl. Acad. Sci. 
+Davie, E. W., Fujikawa, K., & Kisiel, W. (1991) Biochemistry 30, 
+Davies, D. R., Padlan, E. A., & Sheriff, S. (1990) Annu. Rev. 
+De Vos, A. M., Ultsch, M., & Kossiakoff, A. A. (1992) Science 
+Doi, E., & Jirgensons, B. (1970) Biochemistry 9, 1066-1073. 
+Drake, T. A., Momssey, J. H., & Edgington, T. S. (1989) Am. J. 
+Ferrin, T. E., Huang, C. C., Jarvis, L. E., & Langridge, R. (1988) 
+Gibbs, C. S., McCurdy, S. N., Leung, L. L. K., & Paborsky, L. R. 
+4007-4020. 
+Acad. Sci. U.S.A. 88, 4498. 
+T. (1994) Anal. Chem. 66, 2088-2095. 
+Biochemistry 33, 3449-3456. 
+U.S.A. 89, 4781-4785. 
+10363. 
+Biochem. 59, 439. 
+255, 306. 
+Pathol. 134, 1087- 1097. 
+J. Mol. Graphics 6, 13-27. 
+(1994) Biochemistrv 33. 14003-14010. ,I 
+Gregory, S. A,, Momkey; J. H., & Edgington, T. S. (1989) Mol. 
+Cell. Biol. 9. 2752. 
+Harlos, K., Makin, D. M. A., O’Brien, D. P., Jones, E. Y., Stuart, 
+D. I., Polikarpov, I., Miller, A., Tuddenham, E. G. D., & Boys, 
+C. W. G. (1994) Nature 370, 662-666. 
+Jin, L., Fendly, B. M., & Wells, J. A. (1992) J. Mol. Biol. 226, 
+851-865. 
+Karlsson, R., Michaelsson, A., & Mattson, L. (1991) J. Immunol. 
+Methods 145, 229-240. 
+Kauzmann, W. (1959) Adv. Protein Chem. 14, 1-63. 
+Kazama, Y., Pastuszyn, A., Wildgoose, P., Hamamoto, T., & Kisiel, 
+W. (1993) J. Biol. Chem. 268, 16231. 
+Kelley, R. F. (1994) Methods: A Companion to Methods in 
+Enlymology Vol. 6, pp 11 1 - 120, Academic Press, San Diego, 
+CA. 
+Kelley, R. F., & O’Connell, M. P. (1993) Biochemistry 32, 6828. 
+Kunkel, T. A., Roberts, J. D., & Zakour, R. A. (1987) Methods 
+Enzvmol. 154. 367-382. 
+Lawson, J. H., Butenas, S., & Mann, K. G. (1992) J. Biol. Chem. 
+267. 4834. 
+Lee, B., & Richards, F. M. (1971) J. Mol. Biol. 55, 379-400. 
+Livingstone, J. R., Spolar, R. S., & Record, M. T. (1991) 
+Morrissey, J. H., Fakhrai, H., & Edgington, T. S. (1987) Cell 50, 
+Muller, Y. A., Ultsch, M. H., Kelley, R. F., & DeVos, A. M. (1994) 
+Nakagaki, T., Foster, D. C., Berkner, K. L., & Kisiel, W. (1991) 
+Nemerson, Y., & Repke, D. (1985) Thromb. Res. 40, 351. 
+Neuenschwander, P. F., & Morrissey, J. H. (1992) J. Biol. Chem. 
+Biochemistry 30, 4237-4244. 
+129. 
+Biochemistry 33, 10864- 10870. 
+Biochemistry 30, 10819. 
+267, 14477-14482. 10392 Biochemistry, Vol. 34, No. 33, 1995 
+Neuenschwander, P. F., & Morrissey, J. H. (1994) J. Biol. Chem. 
+269, 8007. 
+Neuenschwander, P. F., Fiore, M. M., & Morrissey, J. H. (1993) 
+J. Biol. Chem. 268, 21489. 
+Northrup, S. H., & Erickson, H. P. (1992) Proc. Natl. Acad. Sci. 
+U.S.A. 89, 3338-3342. 
+Novotny, J., Bruccoleri, R. E., & Saul, F. A. (1989) Biochemistry 
+28, 4735-4739. 
+O’Shannessy, D. J., Brigham-Burke, M., Soneson, K. K., Hensley, 
+P., & Brooks, I. (1993) Anal. Biochem. 212, 457-468. 
+Paborsky, L. R., Tate, K. M., Harris, R. J., Yansura, D. G., Band, 
+L., McCray, G., Gorman, C. M., O’Brien, D. P., Chang, J. Y., 
+Swartz, J. R., Fung, V. P., Thomas, J. N., & Vehar, G. A. (1989) 
+Biochemistry 28, 8072-8077. 
+Pawashe, A. B., Golino, P., Ambrosio, G., Migliaccio, F., Ragni, 
+M., Pascucci, I., Chiariello, M., Bach, R., Garen, A., Konigsberg, 
+W. K., & Ezekowitz, M. D. (1994) Circ. Res. 74, 56. 
+Roy, S., Hass, P. E., Bourell, J. H., Henzel, W. J., & Vehar, G. A. 
+(1991) J. Biol. Chem. 266, 22063. 
+Ruf, W., & Edgington, T. S. (1994) FASEB J. 8, 385. 
+Ruf, W., Rehemtulla, A., & Edgington, T. S. (1991) J. Biol. Chem. 
+Kelley et al. 
+Schullek, J. R., Ruf, W., & Edgington, T. S. (1994) J. Biol. Chem. 
+269, 19399-19403. 
+Spicer, E. K., Horton, R., Bloem, L., Bach, R., Williams, K. R., 
+Guha, A., Kraus, J., Lin, T. C., Nemerson, Y., & Konigsberg, 
+W. K. (1987) Proc. Natl. Acad. Sci. U.S.A. 84, 5148. 
+Sturtevant, J. M. (1977) Proc. Natl. Acad. Sci. U.S.A. 74, 2236- 
+2240. 
+Tanford, C. (1980) The Hydrophobic Effect, John Wiley & Sons, 
+New York. 
+Taylor, F. B., Jr., Chang, A., Ruf, W., Morrissey, J. H., Hinshaw, 
+L., Catlett, R., Blick, K., & Edgington, T. S. (1991) Circ. Shock 
+33, 127. 
+Toomey, J. R., Smith, K. J., & Stafford, D. W. (1991) J. Biol. Chem. 
+266, 19198. 
+Warr, T. A., Rao, L. V. M., & Rapaport, S. I. (1990) Blood 75, 
+1481. 
+Waxman, E., Ross, J. B. A., Laue, T. M., Guha, A., Thiruvikraman, 
+S. V., Lin, T. C., Konigsberg, W. K., & Nemerson, Y. (1992) 
+Biochemistry 31, 3998-4003. 
+Waxman, E., Laws, W. R., Laue, T. M., Nemerson, Y., & Ross, J. 
+B. A. (1993) Biochemistry 32, 3004-3012. 
+Wells, J. A. (1990) Biochemistry 29, 8509-8517. 
+Wells, J. A. (1991) Methods Enzymol. 153, 3. 
+Wilcox, J. N., Smith, K. M., Schwartz, S. M., & Gordon, D. (1989) 
+Proc. Natl. Acad. Sci. U.S.A. 86, 2839. 
+Williams, E. B., Krishnaswamy, S., & Mann, K. G. (1989) J. Biol. 
+Chem. 264, 7536-7545. 
+Wiseman, T., Williston, S., Brandts, J. F., & Lin, L. -N. (1989) 
+Anal. Biochem. 179, 131-137. 
+BI950530L 
+-- 266, 2158-2166. 
+J. Biol. Chem. 267. 6375. 
+Ruf, W., Miles, D. J., Rehemtulla, A., & Edgington, T. S. (1992a) 
+Ruf, W., Miles, D. J., Rehemtulla, A., & Edgington, T. S. (1992b) 
+J. Biol. Chem. 267, 22206-22210. 
+Ruf, W., Schullek, J. R., Stone, M. J., & Edgington, T. S. (1994) 
+Biochemistry 33, 1565. 
+Scarpati, E. M., Wen, D., Broze, G. J., Jr., Miletich, J. P., 
+Flandermeyer, R. R., Siegel, N. R., & Sadler, J. E. (1987) 
+Biochemistry 26, 5324. 

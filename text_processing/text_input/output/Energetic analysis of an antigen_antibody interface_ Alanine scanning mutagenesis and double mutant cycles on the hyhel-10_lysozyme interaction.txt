@@ -1,0 +1,910 @@
+Energetic analysis of an antigen0antibody interface:
+Alanine scanning mutagenesis and double mutant
+cycles on the HyHEL-100lysozyme interaction
+JAUME PONS, ARVIND RAJPAL,1 and JACK F. KIRSCH
+Departments of Chemistry and Molecular and Cell Biology, University of California, and Center for Advanced Materials,
+Lawrence Berkeley National Laboratory, Berkeley, California 94720
+~Received October 14, 1998; Accepted December 23, 1998!
+Abstract
+Alanine scanning mutagenesis of the HyHEL-10 paratope of the HyHEL-100HEWL complex demonstrates that
+the energetically important side chains ~hot spots! of both partners are in contact. A plot of DDGHyHEL-10_mutant vs.
+DDGHEWL_mutant for the five of six interacting side-chain hydrogen bonds is linear ~Slope 5 1!. Only 3 of the 13 residues
+in the HEWL epitope contribute .4 kcal0mol to the free energy of formation of the complex when replaced by alanine,
+but 6 of the 12 HyHEL-10 paratope amino acids do. Double mutant cycle analysis of the single crystallographically
+identified salt bridge, D32H0K97, shows that there is a significant energetic penalty when either partner is replaced with
+a neutral side-chain amino acid, but the D32HN0K97M complex is as stable as the WT. The role of the disproportion￾ately high number of Tyr residues in the CDR was evaluated by comparing the DDG values of the Tyr r Phe vs. the
+corresponding Tyr r Ala mutations. The nonpolar contacts in the light chain contribute only about one-half of the total
+DDG observed for the Tyr r Ala mutation, while they are significantly more important in the heavy chain. Replacement
+of the N31L0K96 hydrogen bond with a salt bridge, N31DL0K96, destabilizes the complex by 1.4 kcal0mol. The free
+energy of interaction, DDGint, obtained from double mutant cycle analysis showed that DDGint for any complex for which
+the HEWL residue probed is a major immunodeterminant is very close to the loss of free energy observed for the
+HyHEL-10 single mutant. Error propagation analysis of double mutant cycles shows that data of atypically high
+precision are required to use this method meaningfully, except where large DDG values are analyzed.
+Keywords: alanine scan mutagenesis; antibody; antigen; double mutant cycles; epitope mapping; hen egg-white
+lysozyme; monoclonal antibody HyHEL-10; protein–protein interaction
+Crystallographically defined two-protein complexes are especially
+useful as starting points to evaluate the quantitative details of
+protein–protein interaction. Several specific additional advantages
+are provided by antibody0protein antigen complexes because the
+vast antibody recognition repertoire is isolated to the small CDR
+region while the remainder of the antibody is largely invariant. The
+interfaces of antibody0protein antigen complexes are characterized
+by 650–1,000 Å2 of buried surface area, 12–20 contact residues
+from each partner, 8–13 hydrogen bonds, and an occasional salt
+bridge ~Janin & Chothia, 1990!. These complexes also show an
+intermediate degree of shape complementarity at the interface ~that
+is less than that of protease–protease inhibitor complexes, but greater
+than that of a T cell receptor with a major histocompatibility com￾plex complex ~Ysern et al., 1998!!. The complex formed from
+hen egg-white lysozyme ~HEWL! and the monoclonal antibody
+HyHEL-10 has been extensively studied in this ~Kam-Morgan
+et al., 1993; Rajpal et al., 1998; Taylor et al., 1998! and other
+laboratories ~i.e., Smith-Gill et al., 1984; Padlan et al., 1989; Xavier
+& Willson, 1998!.
+Fourteen hydrogen bonds, 111 van der Waals contacts, and one
+salt bridge have been crystallographically identified in the inter￾face of the complex Fab-100HEWL ~Padlan et al., 1989!. Kam￾Morgan et al. ~1993! showed that replacement of Arg21 with any
+of eight other amino acids destabilizes the complex by ;2.2 kcal0
+mol. The value of DDG effected by mutagenesis of Asp101 is
+Reprint requests to: Jack F. Kirsch, Department of Molecular and Cell
+Biology, 229 Stanley Hall, University of California, Berkeley, California
+94720; e-mail: jfkirsch@uclink4.berkeley.edu. 1Present address: Molecular Sciences Department, Pfizer Inc., Eastern
+Point Road, Groton, Connecticut 06340.
+Abbreviations: HEWL, hen ~chicken! egg-white lysozyme; HyHEL-10,
+monoclonal antibody raised against HEWL; CDR, complementary deter￾mining region; Fab-10, antigen binding fragment of HyHEL-10 antibody;
+scFv-10, single-chain variable fragment of HyHEL-10 antibody; subscripts
+L and H, antibody light and heavy chain, respectively; DDGD, change in
+free energy ~WT-mutant!; WT, wild-type; KD, dissociation constant for the
+scFv-100HEWL complex; kon and koff, association and dissociation rate
+constants for the scFv-100HEWL complex.
+Protein Science ~1999!, 8:958–968. Cambridge University Press. Printed in the USA.
+Copyright © 1999 The Protein Society
+958dependent, however, on the side-chain volume of the replacement
+amino acid. For example, the D101G and D101F complexes have
+DDG values of 0.2 and 2.2 kcal0mol, respectively compared to
+WT.
+Rajpal et al. ~1998! found that the major HEWL immunodeter￾minants as defined by alanine scanning mutagenesis are Tyr20,
+Lys96, and Lys97 with DDG values of 4.3, 6.5, and 5.6 kcal0mol,
+respectively. Combinations of alanine mutations in the HEWL epi￾tope showed that the minor immunodeterminants buttress the ma￾jor ones, thereby stabilizing the reactive conformation of the antigen
+~Rajpal & Kirsch, 1999!. The kinetics of interaction of HyHEL-10
+with WT and mutant HEWL proved important in developing an
+experimental strategy for delineating protein docking trajectories
+~Taylor et al., 1998!.
+Previous studies on the contribution of the HyHEL-10 paratope
+residues have focused on the mutational analysis of the single salt
+bridge ~Tsumoto et al., 1996! and the heavy chain Tyr residues
+~Tsumoto et al., 1995! ~see Results and discussion!. Xavier and
+Willson ~1998! recently compared the kinetics of HEWL associa￾tion with HyHEL-10 with those of the nonoverlapping monoclonal
+antibody HyHEL-5.
+Although the HEWL epitope has been extensively probed, the
+general energetic topology of the HyHEL-10 paratope needs fur￾ther analysis. The free energy changes in complex formation re￾sulting from paratope mutation that are complementary to those
+already available from the epitope would allow double mutant
+cycle analysis ~Schreiber & Fersht, 1995!.
+We report here the thermodynamic and kinetic results of alanine
+scanning mutagenesis of the HyHEL-10 paratope. Tyrosine resi￾dues were additionally replaced with Phe to dissect the effect of the
+hydroxyl group from that of the aromatic ring. Single and double
+mutant cycle analysis allows the evaluation of the energetic con￾tributions of all of the putative hydrogen bond and salt bridge
+interactions. A salt bridge was introduced to replace the N31L0K96
+hydrogen bond interaction to test a theoretical prediction that this
+combination would increase the stability of the complex by 5.6
+kcal0mol ~Pomès et al., 1995!.
+Results and discussion
+Mutant selection rationale
+The complete data set of all determined rate and equilibrium con￾stants, their associated standard errors, and calculated DDG values
+are provided in the Appendix.
+Eighteen of the CDR residues of HyHEL-10 interact with
+HEWL ~Table 1!. The complexes containing alanine mutants of
+those amino acids whose side chains interact with HEWL, indi￾cated by underscoring in Table 1, were investigated to explore
+individual contributions to overall stability. The tyrosines were
+also converted to phenylalanine to isolate the effects of the phe￾nolic hydroxyl groups from the ring interactions. Additionally, the
+mutations D32HN, N31L ~D,E!, and W95HF were introduced to
+evaluate the D32H0K97 salt bridge, the N31L0K96 hydrogen bond,
+and the effect of a more conservative substitution for tryptophan,
+respectively.
+The paratope residues G30L and N92L were not mutated because
+these amino acids make only main-chain contacts in the complex.
+A single framework residue, T30H, makes contact with HEWL.
+However, the T30HA mutation does not affect the stability of the
+complex ~data not shown!.
+Alanine mutants: Paratope topology
+The changes in DDG values for the stabilities of the HyHEL-100
+HEWL complexes effected by alanine and phenylalanine substitu￾tions in the paratope are shown in Figure 1 ~top right!, together
+with the corresponding effects for alanine replacements in the
+epitope ~Fig. 1, bottom right!. The color coding is defined in the
+legend.
+As a rule, the antibody hot, warm, and null spot residues interact
+with the correspondingly important HEWL amino acids. D32H and
+Y50H are, respectively, warm and hot spot exceptions that are
+discussed below. Previous investigations of protein–protein inter￾action report similar correspondence of the importance of com￾plementary residues ~Clackson & Wells, 1995; Goldman et al.,
+1997!. Such complementarity should be expected; i.e., if residue X
+makes a strong interaction only with Y as signaled by the large
+DDG associated with an X r Ala substitution, then that specific
+relationship would be sharply reduced or eliminated by alteration
+of either partner. The lack of such correspondence is in fact an
+indication of additional interaction affecting at least one of the
+partners ~see below!.
+It is notable that 6 of the 12 HyHEL-10 residues in the paratope
+qualify as hot spots as defined in Figure 1, but only 3 of the 13
+epitope residues fall into this category. The six HyHEL-10 hot spot
+side chains all contact the three dominant lysozyme hot spots. This
+difference in number of important affinity residues shows that
+stabilization of the complex is achieved by the accumulation of
+many productive cooperative interactions of the CDR residues
+with the fewer HEWL hot spots. Differences in the number of
+important residues between the two interfaces of a reacting pair of
+proteins have recently been reported for the interaction between
+human growth hormone and its receptor ~Clackson et al., 1998!.
+These authors suggest that quantitatively important side chains
+placed in loops will show more cooperativity than will those lo￾cated in rigid structures, such as a-helices. The HyHEL-100
+Table 1. Crystallographically identified contacts
+in the HyHEL-100Lysozyme (HEWL) interfacea
+HyHEL-10 HEWL HyHEL-10 HEWL
+VL VH
+G30 G16 T30c R73~h!
+N31 H15, G16, K96~h!b S31 R73~h!, L75
+N32 G16~h!, Y20 D32 K97~s!
+Y50 N93, K96 Y33 W63, K97~h!, I98,
+Q53 T89, N93~h! S100, D101
+S91 Y20 ~h! Y50 R21~h!, S100~h!
+N92 Y20, R21~h! S52 D101
+Y96 R21 ~h! Y53 W63, L75, D101~h!
+S54 D101
+S56 D101, G102
+Y58 R21, S100, G102~h!
+W95 R21, K97, S100
+aPadlan et al. ~1989!. The numbering is that of Kabat et al. ~1991!. bCodes: h, hydrogen bond ~see Table 2 for donor0acceptor identifica￾tion.!; s, salt bridge. The HEWL residues highlighted in bold have been
+identified as major contributors to the free energy of complex formation by
+alanine scanning mutagenesis ~Rajpal et al., 1998!. The contributions of the
+underlined HyHEL-10 side-chain residues were evaluated in this work. c
+Framework residue.
+Energetic analysis of HyHEL-100lysozyme interaction 959HEWL interaction can be described similarly as two of the three
+hot spots contributed by HEWL are in an a-helix ~Rajpal et al.,
+1998!, while those from the antibody are distributed in the CDR
+loops.
+The topology of the interaction shows that the hot spots are
+centrally located, but there is no clustering of hydrophobic hot
+spots in the core surrounded by hydrophilic residues in the periph￾ery. Two of the three hot spots in the epitope have charged side
+chains, and 3 of the 10 important residues in the paratope are
+hydrophilic, 1 is hydrophobic, and 6 are tyrosines. Goldman et al.
+~1997! have noted that there appear to be two topological classes
+of protein–protein interaction. The first consists of a hydrophobic
+core surrounded by hydrophilic amino acids, and is exemplified by
+protein hormone0receptor complexes ~Wells, 1996!. The second is
+found in reactions of antibodies with protein antigens where hy￾drophobic and hydrophilic residues are not clustered ~Dall’Acqua
+et al., 1996!. A recently defined additional grouping is seen in the
+interaction between a T cell receptor with a nonapeptide0MHC
+complex, where an estimated 37% of the free energy of association
+was attributed to interactions with the centroid peptide while the
+remainder results from peripheral interactions of MGC with the T
+cell receptor ~Manning et al., 1998!.
+Role of salt bridges
+The E-amino group of HEWL K97 forms a salt bridge with the
+side-chain carboxylate of D32H in the crystallographic structure of
+HEWL with Fab-10 ~Padlan et al., 1989!. These authors also noted
+a highly polar H-bond between the E-amino group of HEWL K96
+and Od1 of N31L. Computational studies by Pomès et al. ~1995!
+suggested that this H-bond might be converted to a salt bridge by
+Fig. 1. A: CPK representation of HyHEL-10 paratope residues in contact with HEWL ~top! and of the complementary HEWL epitope
+residues ~bottom!. Amino acids whose mutation to alanine gives a DDG . 4 kcal0mol ~hot spots! are shown in red, those yielding
+1 kcal0mol , DDG , 4 kcal0mol ~warm spots! are in yellow and those with ,1 kcal0mol are in blue ~null spots!. Correct apposition
+of the structures can be visualized by folding the page horizontally. To aid in the positioning, the three major immunodeterminants of
+HEWL ~Rajpal et al., 1998! are superimposed in black ball and stick models on the paratope structure ~top!. B: Histograms reporting
+the specific destabilization free energies for the mutations shown on the left: upper, paratope mutants. The total bar height reflects the
+Tyr r Ala mutations while the values in blue show the uniformly smaller effects of Tyr r Phe mutations in the paratope ~HyHEL-10!.
+Lower: destabilization of the HyHEL-100HEWL complex by alanine scanning mutagenesis of the epitope. The values obtained here
+with the scFv of HyHEL-100HEWL complexes are within 60.5 kcal0mol of those previously reported for the corresponding
+Fab-100HEWL complexes ~Rajpal et al., 1998!. Literature values for the Y53H ~A,F!, Y58H~A,F!, Y33HF, and Y50HF0HEWL ~WT!
+complexes ~*! are shown ~Tsumoto et al., 1995!.
+960 J. Pons et al.placing a negatively charged residue at position N31L, resulting in
+a calculated 5.6 kcal0mol increase in the stability of the complex.
+To study the contributions of the above-described interactions to
+the stability of this complex, the previously prepared HEWL mu￾tants K97A, K97M, and K96A ~Taylor et al., 1998! were employed
+together with the HyHEL-10 mutants D32HA, D32HN, N31LA,
+N31LD, and N31LE. A double mutant cycle approach was applied
+to each interaction.
+The double mutant cycle describing the effect of Ala replace￾ments of HEWL K97 and of HyHEL-10 D32H on the thermo￾dynamics of complex formation ~Scheme 1, bottom! shows that
+there is a 1.6 kcal0mol gain in the stability of the complex when
+the second mutation is added to the deleterious HyHEL-10~WT!0
+HEWL ~K97A! single mutant complex. Thus, these results indi￾cate that the role of the negative charge of the HyHEL-10 D32H is
+only to neutralize the uncompensated positive charge of HEWL
+K97. This conclusion is supported by the observation that the
+value for the D32HA0K97M complex is also 1.1 kcal0mol less
+stable than that of the WT ~Appendix!. Thus, burying the negative
+charge of D32H by neutralization of the Lys97 ~HEWL! is incon￾sequential. Further support for this hypothesis was obtained by
+constructing a pair of mutants designed to maintain approximately
+the same steric bulk of the original ion pair, but which contribute
+only van der Waals interactions. The stability of the D32HN0
+K97M complex is experimentally indistinguishable from that of
+the WT ~Scheme 1, top!. Thus, the salt bridge per se is thermo￾dynamically insignificant. This set of substitutions emphasizes the
+need to extend replacement sets beyond simple alanine substitu￾tions ~see Rajpal et al., 1998, for additional examples!, i.e., the
+results of the alanine scanning substitutions ~D32HA with or with￾out K97A! imply that the sale bridge contributes $1.9 kcal0mol
+while the mass conservative mutations D32HN0K97M yield a much
+smaller figure ~0.3 kcal0mol!.
+The effects of the D32HA, D32HN, and D32HE mutations on the
+free energy of the corresponding WT HEWL complexes were eval￾uated calorimetrically by Tsumoto et al. ~1996!. The values of the
+DDG of destabilization with respect to the WT complexes are close
+to those reported here. These mutations yield decreases in entropy
+of complex formation that are partially compensated by enthalpy
+decreases. The D32HN mutant showed the highest decrease in
+enthalpy, probably due to formation of a H-bond, but this mutation
+has a negligible effect on the stability of the complex. The de￾creased entropy of complex formation was interpreted in terms of
+an effect of a larger structural change when binding the mutant
+antibodies. Tsumoto et al., proposed that the salt bridge suppresses
+excess local conformational change upon association. The present
+work shows that the same result in terms of free energy is obtained
+by mutations that anchor the protein exclusively through inter￾actions of uncharged residues.
+The role of the HEWL K960HyHEL-10 N31L hydrogen bond
+was evaluated by the double mutant cycle of Scheme 2, bottom. In
+double mutant cycles, the changes in free energy in the double
+mutant complex for a pair of residues ~DDGABrA9B9! is subtracted
+from the sum of the two single mutations to calculate the coupling
+energy ~DDGint! between those amino acids ~Equation 1!:
+DDGint 5 DDGArA' 1 DDGBrB' 2 DDGABrA'
+B' . ~1!
+K96 and N31L interact only through this hydrogen bond; there￾fore evaluation of the DDGint in this case allows the calculation of
+the contribution of this hydrogen bond to the free energy of for￾mation of the complex as 4.7 kcal0mol ~Table 2!. This value is
+close to that obtained for the single N31LA mutation in HyHEL-10
+~5.2 kcal0mol!; therefore, the contribution of this H-bond is iso￾lated and it is worth ;5 kcal0mol.
+The proposal of Pomès et al. ~1995! that replacement of N31L
+with aspartic acid to create a salt bridge and thus stabilize the
+complex by a calculated 5.6 kcal0mol was tested here via the
+N31LD and N31LE constructs. The calculated result was not ver￾ified experimentally; rather these mutant complexes are 1.4 kcal0
+mol ~N31LD! and 5.7 kcal0mol ~N31LE! less stable than those
+formed with WT HyHEL-10 ~Scheme 2, top!.
+The two examples discussed above demonstrate that a charged
+residue in the epitope can be stabilized equally or better by a
+neutral H-bond donor0acceptor than by a counter ion. Hendsch and
+Tidor ~1994! have pointed out that, in the majority of cases, the
+expected stabilization of salt bridges is compromised by large
+unfavorable desolvation contributions, and Mian et al. ~1991! have
+argued that oriented dipoles are usually preferred over counter
+charges in stabilizing buried ionized groups. The burying of an
+uncompensated charge is highly unfavorable. This fact may be
+Scheme 1. Conservative ~upper! and alanine ~lower! replacement double
+mutant cycle analysis of the putative HyHEL-10 ~Asp32H!–HEWL ~Lys97!
+salt bridge. Left: replacements of HyHEL-10 ~Asp32H! to Asn ~upper! and
+Ala ~lower!; right: replacements of HEWL ~Lys97! by Met ~upper! and Ala
+~lower!. The numerical values are in kcal0mol and give the DDG with
+respect to the WT complex ~shown at the center of the figure! that are
+obtained for the indicated mutations. Local charges are shown as ~2!
+negative, ~1! positive, and ~C! neutral next to each complex.
+Energetic analysis of HyHEL-100lysozyme interaction 961generally useful in dictating the specificity of antigen0antibody
+interactions, because antibodies that fail to compensate for charged
+residues will not bind well to the antigenic protein even with
+otherwise excellent surface complementarity. A particularly poi￾gnant demonstration of the role of salt bridges in specificity is
+found in the interaction between human growth hormone and its
+receptor, where the removal of a salt bridge by mutation of the
+receptor Arg43 to Leu destabilizes the complex by only 0.5 kcal0
+mol ~Clackson et al., 1998!, but this mutant receptor cross-reacts
+with bovine growth hormone, whereas the WT receptor does not
+~Souza et al., 1995; Goodman et al., 1996!.
+Role of hydrogen bonds
+The energetic contributions to the free energy of formation of the
+complex of 13 of the 14 H-bonds proposed from the crystallo￾graphic structure are shown in Table 3. It is not possible to probe
+the main-chain0main-chain H-bond between N92L and HEWL R21
+by site-directed mutagenesis. The role of the important H-bond
+K960N31L was discussed above.
+The values of DDG obtained by amino acid replacements on
+HyHEL-10 correspond well with those obtained by mutation of the
+directly interacting residues on HEWL ~Fig. 2!. The strong corre￾lation between DDG occasioned by mutation of either partner ar￾gues that single mutations ~Y to F, and others to Ala! do not
+generally overestimate hydrogen bond contributions. Most of the
+significant H-bonds in the interface contribute between 1–2 kcal0
+mol to the free energy of stabilization, as expected ~Fersht et al.,
+1985; Alber et al., 1987; Serrano et al., 1992; Goldman et al.,
+1997!. The proposed HyHEL-10 S31H0HEWL R73, Y58H0G102,
+S910Y20, and T300R73 H-bonds do not contribute significantly.
+One neutral-neutral H-bond stands out for its high contribution
+to the stability of the complex: the HyHEL-10 N32L Nd2 with G16
+O ~5.1 kcal0mol, r 5 3.24 Å!. The Nd2 atom of N32L also appears
+to contact CE1 and Cd1 of Y20, and CE of K96, in the crystallo￾graphic structure. Tyr20 and K96 are HEWL hot spots, and the
+later contacts are thus eliminated in the mutant N32LA. This ob￾servation suggests that the value of 5.1 kcal0mol is an overesti￾mate of the contribution of this H-bond. We tried to determine the
+energetic value for the interaction between N32L and Y20 by dou￾ble mutant cycles, but no association with HEWL was observed in
+the double mutant, N32LA0Y20A at @scFv# 5 4 mM; therefore, the
+KD is .8 mM. This H-bond cannot be examined by double mutant
+cycles as the backbone oxygen of G16 cannot be eliminated by
+site-directed mutagenesis. A possible explanation for this result
+would be that the N32LA mutation elicits a conformational change
+in the antibody. This is, however, unlikely because the residue in
+position 32 is not a conformational determinant for the 2011A class
+of CDR-L1 ~Chothia et al., 1989; Martin & Thornton, 1996!, to
+which the corresponding CDR of HyHEL-10 belongs.
+Quantitative dissection of the free energy contribution
+of each of the paratope tyrosine residues
+Davies and Cohen ~1996! and Kabat et al. ~1977! have noted the
+disproportionate number of tyrosine residues in CDRs, and Mian
+et al. ~1991! have pointed out that there is a higher percentage in
+the heavy chain. It has been proposed that the explanation for the
+overabundance of tyrosine in CDRs is that the hydroxyphenyl side
+chain allows participation in both polar and apolar interactions.
+This is quantitatively significant for HyHEL-10, as 6 of the 10
+important paratope residues are tyrosines ~DDG Tyr r Ala . 2.7
+kcal0mol!. Factoring the van der Waals interactions from the
+H-bonding contributions was accomplished by comparing the DDG
+value of the Tyr r Phe vs. the corresponding Tyr r Ala mutation.
+The former isolates the H-bond value as nearly as can be done by
+site-directed mutagenesis, while the latter measures the sum of
+hydroxyl and ring contributions. The results given in Figure 1
+show that the DDG associated with each Tyr r Ala is invariably
+greater than that of the corresponding Tyr r Phe mutation. The
+relative contributions vary however. It is notable that the nonpolar
+contacts in the light chain contribute only about one-half of the
+total DDG observed for the Tyr r Ala mutation, while they are
+significantly more important in the heavy chain. This difference is
+highlighted by the plot of Figure 3, where separate linear correla￾tions are observed for plots of DDG~Tyr r Phe! vs. DDG~Tyr r
+Ala! for the light and heavy chains. Any conclusion drawn from
+the relation of Figure 3 must be tempered by the limitation that
+there are only two tyrosines in the light chain. Nonetheless, the
+difference for each of the two light chain tyrosines is clearly out￾side the range of the much better defined heavy chain correlation.
+The slope for the light chain tyrosine mutations is 0.5 while that
+for the heavy chain residues is 0.2, emphasizing the relative dom￾inance of nonpolar interactions in the heavy chain. Consistent with
+this set of observations is the fact that nonpolar residues dominate
+the important ~DDG~XrAla! . 1 kcal0mol! heavy chain contribu￾tions to the HyHEL-10 paratope ~Fig. 1; Tyr4, Trp1, and Asp1!
+Scheme 2. Dissection of the free energy contribution of the N31L-K96
+hydrogen bond to the stability of the HyHEL-100HEWL complex. Upper:
+Replacement of the neutral0positive hydrogen bond with a putative salt
+bridge by N31LD and N31LE mutations. Lower: Alanine replacement
+double mutant cycle. The numerical values are in kcal0mol and give the
+DDG with respect to the WT complex ~shown at the center of the figure!
+that are obtained for the indicated mutations. Local charges are shown as
+~2! negative, ~1! positive, and ~C! neutral next to each complex.
+962 J. Pons et al.while the converse obtains for the light chain ~Tyr2, Asn2!. Thus,
+at least for the HyHEL-100HEWL interaction, it can be concluded
+that the molecular “cement” is composed of rather clearly divided
+nonpolar heavy chain and polar light chain contributions.
+Interestingly the magnitudes of energetic contributions of the
+dominant tyrosines of the light chain ~Y50L! and heavy chain
+~Y50H! cannot be rationalized readily from the structure of the
+complex. The large effect of the Y50LF mutation ~2.4 kcal0mol!
+leads to the expectation of the most significant H-bond; however
+the closest atoms to this hydroxyl group are Cb and Cd of HEWL
+K96, at 3.57 and 3.72 Å, respectively, and the closest heteroatom,
+the main-chain O of HEWL N93, is too distant to make a H-bond
+~4.03 Å!. Thus, the explanation for the importance of this Tyr
+hydroxyl group is not apparent. Y50H shows the highest contribu￾tion for a paratope residue ~DDG Tyr r Ala 7.4 kcal0mol!, and it
+is the only antibody hot spot that is not in direct contact with an
+epitope hot spot. However, it does contact with the HEWL warm
+spot, R21. Y50H also makes multiple contacts with the important
+paratope side chains ~W95H, Y96L, Y58H!, suggesting that the
+large contribution identified by the Y50HA mutation is the result of
+a structural perturbation of the paratope binding site. Rajpal and
+Kirsch ~1999! noted that warm spot mutations affect the value of
+adjacent hot spots in the HEWL epitope, and suggested that the
+warm spot residues function as buttresses of the hot spot contrib￾utors. The preceding discussion excludes the possible role of in￾tervening water molecules in H-bond complexes, as their positions
+are not apparent ina3Å structure.
+The role of the heavy chain tyrosines was previously studied by
+Tsumoto et al. ~1995! who converted Y33H, Y50H, Y53H, and
+Y58H to Ala, Leu, and Trp. The enthalpic and entropic contribu￾tions for those mutants that could be obtained in sufficient quantity
+were evaluated calorimetrically. The Y33HA and Y50HA constructs
+could not be purified by HEWL affinity chromatography, and it
+was proposed that Y33H and Y50H are major contributors to the
+free energy of complex formation. This suggestion is supported by
+the present results.
+The Tyr r Phe and Tyr r Ala mutations taken singly and
+together define the quantitative importance of the CDR tyrosines
+of HyHEL-10 in the formation of the HyHEL-100HEWL complex.
+Padlan ~1990! discussed the advantages of aromatic over aliphatic
+side-chain amino acids in the CDRs. He pointed out that the fusion
+of many atoms in a ring system immobilizes that side chain in the
+free antibody, while aliphatic side chains generally have more
+conformational entropy in the free antibody, which would have to
+be frozen out in the complex.
+Double mutant cycles
+Carter et al. ~1984! introduced double mutant cycle analysis to
+study structural changes in the active site of a tyrosyl-tRNA syn￾thetase. Subsequent applications include those of Serrano et al.
+~1990, 1992! in barnase and Pons et al. ~1995! in a b-glucanase.
+These investigations are applications of double mutant cycles on
+two amino acids within the same molecule, but the technique has
+been recently extended to the investigation of protein–protein in￾teractions ~barnase0barstar, Schreiber & Fersht, 1995; Frisch et al.,
+1997; Schreiber et al., 1997; and D1.30E5.2, Goldman et al., 1997;
+and D1.30HEWL, Dall’Acqua et al., 1998!. As described above
+~see Role of salt bridges!, double mutant cycles allow the calcu￾lation of the free energy of interaction ~DDGint! between specific
+amino acids. A DDGint 5 0 is expected for completely independent
+mutations. The interpretation of DDGint Þ 0 is model dependent,
+i.e., this quantity may reflect a change in solvation resulting from
+the mutation of one partner in an ion pair ~Horovitz et al., 1990!
+and0or an associated conformational change ~Serrano et al., 1990!.
+Table 2. Double mutant cycle analysis of the coupling energies between the indicated
+mutant pairs in the HyHEL-100HEWL complex for adjacent partnersa
+HyHEL-10
+mutants
+DDGb
+~kcal0mol!
+HyHEL-10
+mutants
+HEWL
+mutants
+DDGb
+~kcal0mol!
+HEWL
+mutants
+Double
+mutant
+DDGb
+~kcal0mol!
+Lost
+interactiona
+DDGintc
+~kcal0mol!
+VL
+N31LA 5.2 6 0.1 K96A 7.0 6 0.3 7.5 6 0.3 H bond 4.7 6 0.4
+Y50LA 4.6 6 0.1 K96A 7.0 6 0.3 7.8 6 1.0 vdWd 3.8 6 1.1
+Y96LA 2.7 6 0.1 R21A 1.1 6 0.1 5.7 6 0.3 H bond 21.9 6 0.3
+VH
+D32HA 1.9 6 0.1 K97A 6.2 6 0.1 4.6 6 0.2 Salt bridge 3.5 6 0.2
+Y33HA 6.0 6 0.1 K97A 6.2 6 0.1 7.2 6 0.2 vdW 1 main-chain 5.0 6 0.2
+H bond
+Y50HA 7.4 6 0.4 R21A 1.1 6 0.1 8.0 6 0.7 H bond 0.5 6 0.8
+W95HA 5.5 6 0.2 K97A 6.2 6 0.1 NBe vdW NAf
+aStructural data from Padlan et al. ~1989!. bThe DDG values are defined as DDG 5 RT ln~Kmut_complex0KWT_complex!, where K is the dissociation
+constant. cCoupling energies are defined as DDGint 5 DDGA2A9 ~column 2! 1 DDGB2B9 ~column 4! 2 DDGAB2A9B9
+~column 5!; A and B refer to residues present in WT HyHEL-10 and HEWL, respectively, A9 and B9
+represent residues present in mutant HyHEL-10 and HEWL, respectively. dvdW 5 van der Waal. eNB, no binding at 20 mM HyHEL-10: KD .40 mM, DDG .8.5 kcal0mol. f
+Not available, see footnote e.
+Energetic analysis of HyHEL-100lysozyme interaction 963Double mutant cycles for 12 amino acid pairs in the HyHEL￾100HEWL interface were constructed to understand more fully the
+energetic contributions obtained for the single mutants. Seven of
+these 12 pairs have side chains that are appropriately positioned to
+form H-bonds, salt bridges, or significant van der Waals contacts
+while the other five are well separated. The results for contacting
+pairs are shown in Table 2. The DDGint for any complex for which
+the HEWL residue probed is a major immunodeterminant, i.e.,
+K96 or K97 ~Rajpal et al., 1998!, is very close to the loss of free
+energy observed for the HyHEL-10 single mutant, i.e., from Equa￾tion 1.
+DDGint 5 DDGArA'
+[ DDGBrB' 5 DDGABrA'
+B' ~2!
+where A and B refer to the antibody and HEWL, respectively. In
+other words the DDG associated with the double mutation is real￾ized entirely by mutation of the lysozyme hot spot.
+Although the DDGint values for remote pairs of amino acids are
+generally small ~Table 4!, there are two exceptions: the Y50LA0
+K97A and the W95HA0K96A pairs. One interpretation is that the
+Y50LA or W95HA mutations effect a conformational change that
+allows the recapture elsewhere in the complex of some of the free
+energy lost when the K97A or K96A mutation is introduced into
+the WT antibody complex, e.g., 7.3 , ~6.2 1 4.6! kcal0mol, for
+Y50LA0K97A, because less free energy of association is lost in the
+double mutant than in the sum of the two single mutants. This
+interpretation is supported by the observation that the correspond￾ingly more conservative Y50LF and W95HF mutants do not bind as
+well ~DDG .8.5 kcal0mol! to the K97A and K96A HEWL as do
+the Y50LA and W95HA antibodies, while the opposite situation is
+obtained for association with WT HEWL ~Table 4!. The values of
+DDGint are small for the double mutant cycles not involving K96 or
+K97 ~Table 4!.
+Mariuzza’s laboratory has recently published the results of dou￾ble mutant cycle analyses with the antibody D1.30HEWL com￾plexes ~Dall’Acqua et al., 1998! and the D1.30E5.2 ~Goldman
+et al., 1997! complexes, E5.2 is an anti-idiotypic antibody. The
+values of KD are both in the 10 nM range. These complexes are
+about 300-fold less stable than the HyHEL-100HEWL complex.
+Comparison of the results of single and double mutations between
+high affinity and weaker complexes is instructive. A clear differ￾ence is the observation that no single amino acid in HEWL makes
+a comparable contribution to the free energy of association with
+Table 3. Donor0acceptor double mutagenesis evaluations
+of the free energy contributions of the hydrogen bonds
+in the HyHEL-100HEWL complex
+HyHEL10 HEWL
+DDGa kcal0mol
+~scFv-10 mutation!
+DDGb kcal0mol
+~HEWL mutation!
+VL
+N31 Od1 K96 Nz 5.2 6 0.1
+~N31LA!
+6.8 6 0.1
+~K96M!
+N32 Nd2 G16 O 5.1 6 0.1
+~N32LA!
+Q53 OE1 N93 Nd2 1.0 6 0.2 0.6 6 0.1
+Q53 NE2 N93 Od1 ~Q53LA! ~N93A!
+S91 O Y20 OH 20.4 6 0.1
+~Y20F!
+Y96 OH R21 NH1 1.4 6 0.2
+~Y96LF!
+1.1 6 0.1
+~R21A!
+VH
+S31 Og R73 NH1 0.2 6 0.3
+~S31HA!
+20.3 6 0.1
+~R73A!
+T30 O R73 NH1 20.3 6 0.1
+~R73A!
+Y33 OH K97 O 1.1
+~Y33HF! c
+Y50 OH R21 NH1, S100 O 1.7
+~Y50HF! c
+1.1 6 0.1
+~R21A!
+Y53 O D101 Od1 1.5 6 0.1
+~D101A!
+Y58 OH G102 N 0.4
+~Y58HF! c
+aDDG 5 RT ln~Kd@mutant scFv-10 complex#0Kd@WT scFv-10 com￾plex#! with wt HEWL. bDDG 5 RT ln~Kd@mutant HEWL complex#0Kd@WT HEWL complex#!
+with wt scFV-10. cValues from Tsumoto et al. ~1995!.
+Fig. 2. Correspondence between DDG values obtained by mutation of either
+H-bonding partner in the HyHEL-100HEWL. The specific mutants are
+labeled. The slope of the line excluding the N31LA0K96M pair is 1.0.
+Fig. 3. Free energy changes in the HyHEL-100HEWL complex stability
+for Tyr r Phe mutation plotted against the corresponding Tyr r Ala free
+energy changes. The dotted line is for the residues of the light chain ~slope
+0.5!, and the solid line is for those of the heavy chain ~slope 0.2!.
+964 J. Pons et al.the D1.3 antibody as do the three previously identified dominant
+residues of HEWL in the HyHEL-10 complex. Alanine scanning
+has provided values of DDG 5 4.2, 7.0, and 6.1 for the Y20A,
+K96A, and K97A complexes, respectively ~Rajpal et al., 1998!;
+whereas the largest effect of an Ala replacement of HEWL in the
+D1.3 complex, Q121A, decreases the stability only by 2.0 kcal0
+mol. The same two complexes also show striking differences in
+alanine scanning mutagenesis of the paratope. Six of the 12 alanine
+substitutions in the HyHEL-10 paratope yield DDG values $4
+kcal0mol ~Fig. 1!, while only one of nine in the weaker D1.30
+HyHEL-10 complex is that large.
+Errors in double mutant cycle analysis
+The following considerations argue that the quantitative value of
+double mutant cycle results is limited to analysis of large values of
+DDGint unless data of more than typical precision are collected.
+The propagated error in DDGint ~Equation 1!, sDDGint is
+sDDGint 5 %sDDGArA'! 2 1 ~sDDGBrB'! 2 1 ~sDDGABrA'
+B'! 2
+. ~3!
+Typical reported errors in the determination of values of KD
+range from 12% ~Schreiber & Fersht, 1995; Frisch et al., 1997;
+Schreiber et al., 1997! to 30% ~Dall’Acqua et al., 1996, 1998;
+Goldman et al., 1997! or a spread between those values ~Acker￾mann et al., 1998!. Those reported here are 10–15%, except for
+very deleterious double mutants where they increase to 50% ~Ap￾pendix!. These values represent the reported precision not the ac￾curacy. Some subsequent determinations of the identical constructs
+from the same laboratory using the same or an alternative tech￾nique yield significantly more variation.
+Table 5 reports the calculated propagated errors in DDGint for
+a range of percent errors in the individual KD determinations.
+For example, a 30% error in KD values propagates to an error of
+1 kcal0mol in DDGint. Many workers consider a spread of 2s
+values ~90% confidence level! to be a satisfactory threshold level
+of quantitative significance ~Schreiber et al., 1997!. This means,
+for example, that errors in KD values must be #20% to draw
+meaningful conclusions for DDGint # 2 kcal0mol. This figure falls
+well within the range of H-bond interactions. The conclusion is
+that without highly precise data, double mutant cycle analysis can
+only be applied with confidence to the consideration of “hot spots.”
+Table 4. Double mutant cycle analysis of the coupling energies between the indicated
+mutant pairs in the HyHEL-10-HEWL complex for noncontacting residues a
+HyHEL-10
+mutants
+DDGb
+~kcal0mol!
+HyHEL-10
+mutants
+HEWL
+mutants
+DDGb
+~kcal0mol!
+HEWL
+mutants
+DDGb
+~kcal0mol!
+Double
+mutant
+Distance
+between
+residuesc
+~Å!
+DDGintd
+~kcal0mol!
+VL
+Y50LA 4.6 6 0.1 Y20A 4.9 6 0.1 NBe 5.6 NAf
+Y50LA 4.6 6 0.1 R21A 1.1 6 0.1 6.4 6 0.2 9.5 20.7 6 0.2
+Y50LA 4.6 6 0.1 K97A 6.2 6 0.1 7.3 6 0.6 5.8 3.5 6 0.6
+Y50LF 2.4 6 0.2 Y20A 4.9 6 0.1 6.3 6 0.1 5.6 1.0 6 0.2
+Y50LF 2.4 6 0.2 R21A 1.1 6 0.1 4.4 6 0.2 9.5 20.9 6 0.3
+Y50LF 2.4 6 0.2 K97A 6.2 6 0.1 NB 5.8 NA
+VH
+W95HA 5.5 6 0.2 Y20A 4.9 6 0.1 NB 4.5 NA
+W95HA 5.5 6 0.2 K96A 7.0 6 0.3 7.7 6 0.7 6.4 4.8 6 0.8
+W95HF 3.2 6 0.2 K96A 7.0 6 0.3 NB 6.4 NA
+aFrom Padlan et al. ~1989!. bThe DDG values are defined as DDG 5 RT ln~Kmut_complex0KWT_complex!, where K is the dissociation
+constant. cClosest distance between side chains for the WT residues in Å ~PDB file 3HFM!. dCoupling energies are defined in Table 2.
+eNB, no binding was detected at 20 mM HyHEL-10; therefore KD . 40 mM, DDG . 8.5 kcal0mol. f
+Not available, see footnote e.
+Table 5. Sensitivity of propagated error in free energy of
+interaction calculated from double mutant cycles to the
+error in the individual equilibrium constants (KD or KA)
+s~KD! or
+s~KA! a
+~%!
+s~DGA!b
+~kcal0mol!
+s~DDGArA9! c
+~kcal0mol!
+s~DDGint!d
+~kcal0mol!
+10 0.14 0.19 0.33
+20 0.27 0.38 0.67
+30 0.41 0.58 1.00
+50 0.68 0.96 1.67
+100 1.36 1.92 3.33
+aPercent errors in the individual determination of KD values. b 2.303RT~s~KD!0KD!. cPropagated error for DGA 2 DGA9: % s~DGA!2 1 s~GA9!2
+. dEquation 3.
+Energetic analysis of HyHEL-100lysozyme interaction 965Material and methods
+The materials and procedures not described here are to be found in
+Rajpal et al. ~1998!.
+HyHEL-10 expression and purification
+All determinations were carried out with the scFv gene for the mono￾clonal antibody HyHEL-10 ~scFv-10!, a gift of Professor Andreas
+Plückthun. The scFv-10 gene was cloned with XhoI0AvrII into the
+pPIC-9 secretion vector for Pichia pastoris ~Invitrogen, Carlsbad,
+California!. Five histidine residues were added to the C-terminus to
+allow Ni-column purification. The recombinant plasmid was lin￾earized by StuI restriction digest for genomic integration into P. pas￾toris GS115. Transformants were selected for their capacity to grow
+in histidine free media. One of 10 transformants showing the high￾est expression level was used to express the protein in BMMY me￾dia ~1% yeast extract, 2% peptone, 1.34% yeast nitrogen base, 0.5%
+methanol, 431025
+% biotin, 100 mM potassium phosphate, pH 6.0!.
+Expression cultures were incubated at 30 8C for 5 days inducing with
+0.5% methanol ~final concentration! every 12 h. The culture was cen￾trifuged ~11,000 g, 15 min!, the supernatant collected, the pH ad￾justed to 7.0 with KOH, and the suspension centrifuged ~11,000 g,
+30 min! to remove precipitated proteins. The supernatant was loaded
+onto Ni-NTA~nitrolotriacetic acid!superflow resin ~Qiagen, Hilden,
+Germany! equilibrated with 66 mM potassium phosphate buffer, pH
+7.0, 300 mM KCl. The column was washed with 5 volumes of
+66 mM potassium phosphate buffer, pH 7.0, 300 mM KCl, and the
+scFv-10 was eluted with a shallow linear gradient of imidazole ~0–
+0.3 M in the same buffer!. Fractions enriched ~analyzed by SDS￾PAGE! with scFv-10 were pooled and dialyzed against 66 mM
+potassium phosphate buffer, pH 7.0. The purity of the samples was
+verified by SDS-PAGE. Absence of glycosidation was confirmed by
+mass spectrometry and no dimers were detected by HPLC gel fil￾tration ~Bio-sil-sec 250 Column, Bio-Rad, Richmond, California!.
+The proteins were stored at low concentration to minimize dimer￾ization ~,0.5 mg0mL, Dougan et al., 1998!. Mutant proteins were
+concentrated by Centriprep-10 prior to use when required. The con￾centration of scFv-10 was determined with the molar extinction co￾efficient ~E280 5 53,200 M21 cm21, calculated from the amino acid
+sequence and verified for the WT protein by titration with HEWL!.
+Twenty to 50 mg of purified protein per liter of culture were typ￾ically obtained.
+Site-directed mutagenesis
+The HEWL mutant genes were available from previous investiga￾tions of this laboratory ~Rajpal et al., 1998; Taylor et al., 1998!.
+The HyHEL-10 mutants were produced by PCR with the mega￾primer method ~Landt et al., 1990; Pons et al., 1997!. All mutants
+were fully sequenced.
+Determination of kinetic parameters for complex
+formation and dissociation
+HyHEL-10 occludes the active site of HEWL. The complex has
+only 5% of the catalytic activity of free HEWL; therefore, the
+extent of HyHEL-10 association with HEWL can be determined in
+homogeneous solution by monitoring the rate of loss of activity of
+HEWL following addition of HyHEL-10 as described by Taylor
+et al. ~1998!. The values of kon were determined from nonlinear
+regression of the data from Equation 4.
+Absobs 5 Absinit 1 vbl•t 2 F
+kcat•@ET #•@S#
+kon•Km•@AbT #
+•S1 2 e
+kon•@AbT #•Km•t
+Km 1 @S#
+DG
+~4!
+where Absinit 5 initial absorbance at 450 nm, vbl 5 settling rate of
+the substrate cell wall particles in the absence of HEWL, @ET# 5
+total concentration of HEWL, @AbT# 5 total scFv-10 concentration,
+and @S# 5 initial substrate Micrococcus luteus cell wall concen￾tration. Only those fits to Equation 4 yielding a correlation coef￾ficient R of $0.995 were accepted.
+The dissociation rate constants koff were determined by moni￾toring the rate of recovery of active HEWL from a preformed
+HyHEL-100HEWL complex. The nascent free antibody was se￾questered with an excess of E35Q HEWL, an inactive mutant. The
+data were fitted to Equation 5 ~Rajpal et al., 1998!.
+vobs 5 kcat•@ET #•~1 2 e2koff•t
+! 1 vinit•~e2koff•t
+! 1 vbl ~5!
+where vinit 5 enzymatic activity due to the complex and trace
+amounts of HEWL before the addition of E35Q HEWL. The ki￾netic assays were performed at pH 7.0 instead of pH 6.2 to elim￾inate scFv-10 precipitation ~pI 5 6.0, calculated from the amino
+acid composition!. The kon and koff values for the formation and
+dissociation of the scFv-100HEWL~WT! complex at pH 7.0 were
+similar to those obtained at pH 6.2 ~data not shown!. All data were
+obtained on a Uvikon 860 ~Kontron Instruments, San Diego, Cal￾ifornia! spectrophotometer and fitted by nonlinear regression to
+their respective models utilizing the application Kaleidagraph ~Syn￾ergy Software, Reading, Pennsylvania!.
+When KD values are greater than 3 nM ~100 3 KD WT!, the
+kinetics are too fast to monitor by these methods; in these cases,
+only the values of KD determined by equilibrium methods ~Kam￾Morgan et al., 1993! are given. All scFv-10 concentrations were
+,20 mM.
+Appendix. Experimental data set
+Complex
+~scFV-HEL!
+kon
+~106 M21 s21!
+err kon
+~106 M21 s21!
+koff
+~1024 10s!
+err koff
+~1024 10s!
+KD
+~nM!
+err KD
+~nM!
+DDG
+~kcal0mol!
+err DDG
+~kcal0mol!
+wt-wt 1.88 0.08 0.54 0.002 0.03 0.001 — —
+Interaction HEL Y20
+wt-Y20A 113 8 4.9 0.11
+N32LA-wt 167 27 5.13 0.22
+N32LA-Y20A NO binding at 4 mM scFv
+~continued !
+966 J. Pons et al.Appendix. Continued
+Complex
+~scFV-HEL!
+kon
+~106 M21 s21!
+err kon
+~106 M21 s21!
+koff
+~1024 10s!
+err koff
+~1024 10s!
+KD
+~nM!
+err KD
+~nM!
+DDG
+~kcal0mol!
+err DDG
+~kcal0mol!
+Interaction HEL K96
+wt-K96A 4,000 800 7.00 0.27
+N31LA-wt 200 20 5.20 0.15
+N31LA-K96A 9,000 2,000 7.5 0.30
+N31LD-wt 1.26 0.07 3.68 0.7 0.29 0.06 1.4 0.28
+N31LE-wt 460 40 5.7 0.13
+Y50LA-wt 66 6 4.6 0.13
+Y50LL-wt 50 4 4.4 0.12
+Y50LF-wt 1.25 0.02 20.6 2.5 1.6 0.2 2.4 0.18
+Y50LA-R21A 1,400 200 6.4 0.19
+Y50LF-R21A 45 6 4.36 0.19
+Y50LF-Y20A 1,100 100 6.3 0.13
+Y50LA-K96A 14,000 11,000 7.8 1.06
+Y50LA-K97A 7,000 3,000 7.30 0.58
+Y50LF-K97A NO binding at 20 mM scFv
+Y50LF-K96A NO binding at 20 mM scFv
+Y50LA-Y20A NO binding at 8 mM scFv
+Interaction HEL K97
+wt-K97A 1,000 50 6.2 0.08
+Y33HA-wt 800 80 6.0 0.15
+Y33HA-K97A 6,000 1,000 7.2 0.23
+Y33HA-K96A NO binding at 10 mM scFv
+Y33HA-Y20A NO binding at 10 mM scFv a
+Y33HF-wt 1.1
+W95HF-K97A NO binding at 20 mM scFv
+W95HF-wt 7.2 0.8 3.27 0.16
+W95HF-Y20A 1,110 80 6.26 0.11
+W95HA-wt 330 40 5.5 0.17
+W95HA-K97A No binding at 10 mM scFv
+W95HA-K96A 14,000 7,000 7.7 0.68
+W95HF-K96A No binding at 10 mM scFv
+W95HA-Y20A LOW binding at 8 mM scFv
+D32HA-wt 1.6 0.1 11.90 0.1 0.74 0.03 1.93 0.07
+D32HA-K97A 70 10 4.62 0.19
+D32HN-K97A 116 7 4.92 0.09
+D32HN-wt 2.01 0.04 0.33 0.1 0.04 0.01 0.2 0.3
+D32HA-K97M 2.9 0.1 5.8 0.3 0.2 0.01 1.14 0.08
+D32HN-K97M 2.46 0.1 1.12 0.01 0.05 0.002 0.27 0.07
+wt-K97M 1.53 0.05 2.8 0.1 0.19 0.01 1.1 0.08
+Noninteracting with HEL hot spots
+wt-R21A 1.56 0.06 2.71 0.16 0.17 0.01 1.07 0.09
+S31HA-wt 1.24 0.06 0.48 0.08 0.04 0.01 0.18 0.34
+Y50HA-wt 7,000 2,000 7.4 0.39 a
+Y50HF-wt 1.7
+Y50HA-R21A 20,000 10,000 8.0 0.68
+Q53LA-wt 1.37 0.05 2.0 0.2 0.15 0.02 0.96 0.18
+Y96LA-wt 0.8 0.03 23.00 0.06 2.9 0.11 2.73 0.07
+Y96LA-R21A 500 100 5.7 0.27
+Y96LF-R21A 35 5 4.21 0.19
+Y96LF-wt 1.4 0.1 4.5 0.3 0.32 0.04 1.43 0.18 a
+Y53HA-wt 3.3 a
+Y53HF-wt 0.7 a
+Y58HA-wt 1.7 a
+Y58HF-wt 0.4
+aFrom Tsumoto et al. ~1995!.
+Energetic analysis of HyHEL-100lysozyme interaction 967Acknowledgments
+We wish to thank Professor Andreas Plückthun for the generous gift of the
+gene for the scFv form of HyHEL-10. We are additionally grateful to Ms.
+Tinh Luong for help with the analysis of the X-ray structure and Dr.
+Douglas Burdette for initial work on scFv expression in P. pastoris. This
+work was supported by the Director, Office of Energy Research, Office of
+Basic Energy Sciences, Divisions of Material Sciences and of Energy
+Biosciences of the U.S. Department of Energy under Contract No. DE￾AC03-76SF00098 to Lawrence Berkeley National Laboratory. Jaume Pons
+was supported by a postdoctoral fellowship from Ministerio de Educación
+y Cultura ~Spain!.
+References
+Ackermann EJ, Ang ET, Kanter JR, Tsigelny I, Taylor P. 1998. Identification of
+pairwise interactions in the alpha-neurotoxin-nicotinic acetylcholine recep￾tor complex through double mutant cycles. J Biol Chem 273:10958–10964.
+Alber T, Dao-Pin S, Nye JA, Muchmore DC, Matthews BW. 1987. Temperature￾sensitive mutations of bacteriophage T4 lysozyme occur at sites with low
+mobility and low solvent accessibility in the folded protein. Biochemistry
+26:3754–3758.
+Carter PJ, Winter G, Wilkinson AJ, Fersht AR. 1984. The use of double mutants
+to detect structural changes in the active site of the tyrosyl-tRNA synthetase
+~Bacillus stearothermophilus!. Cell 38:835–840.
+Chothia C, Lesk AM, Tramontano A, Levitt M, Smith-Gill SJ, Air G, Sheriff S,
+Padlan EA, Davies D, Tulip WR, Colman PM, Spinelli S, Alzari PM, Poljak
+RJ. 1989. Conformations of immunoglobulin hypervariable regions. Nature
+342:877–883.
+Clackson T, Ultsch MH, Wells JA, de Vos AM. 1998. Structural and functional
+analysis of the 1:1 growth hormone: Receptor complex reveals the molec￾ular basis for receptor affinity. J Mol Biol 277:1111–1128.
+Clackson T, Wells JA. 1995. A hot spot of binding energy in a hormone-receptor
+interface. Science 267:383–386.
+Dall’Acqua W, Goldman ER, Eisenstein E, Mariuzza RA. 1996. A mutational
+analysis of the binding of two different proteins to the same antibody.
+Biochemistry 35:9667–9676.
+Dall’Acqua W, Goldman ER, Wenhong L, Teng C, Tsuchiya D, Li H, Ysern X,
+Braden BC, Li Y, Smith-Gill SJ, Mariuzza RA. 1998. A mutational analysis
+of binding interactions in an antigen-antibody protein-protein complex. Bio￾chemistry 37:7981–7991.
+Davies DR, Cohen GH. 1996. Interactions of protein antigens with antibodies.
+Proc Natl Acad Sci USA 93:7–12.
+Dougan DA, Malby RL, Gruen LC, Kortt AA, Hudson PJ. 1998. Effects of
+substitutions in the binding surface of an antibody on antigen affinity. Pro￾tein Eng 11:65–74.
+Fersht AR, Shi J, Knill-Jones J, Lowe DM, Wilkinson AJ, Blow DM, Brick P,
+Carter P, Waye MM, Winter G. 1985. Hydrogen bonding and biological
+specificity analyzed by protein engineering. Nature 314:235–238.
+Frisch C, Schreiber G, Johnson CM, Fersht AR. 1997. Thermodynamics of the
+interaction of barnase and barstar: Changes in free energy versus changes in
+enthalpy on mutation. J Mol Biol 267:696–706.
+Goldman ER, Dall’Acqua W, Braden BC, Mariuzza RA. 1997. Analysis of
+binding interactions in an idiotope-antiidiotope protein-protein complex by
+double mutant cycles. Biochemistry 36:49–56.
+Goodman HM, Frick GP, Souza S. 1996. Species specificity of the primate
+growth hormone receptor. News Physiol Sci 11:157–161.
+Hendsch ZS, Tidor B. 1994. Do salt bridges stabilize proteins? A continuum
+electrostatic analysis. Protein Sci 3:221–226.
+Horovitz A, Serrano L, Avron B, Bycroft M, Fersht AR. 1990. Strength and
+cooperativity of contributions of surface salt bridges to protein stability. J
+Mol Biol 216:1031–1044.
+Janin J, Chothia C. 1990. The structure of protein-protein recognition sites. J
+Biol Chem 265:16027–16030.
+Kabat EA, Wu TT, Bilofsky H. 1977. Unusual distribution of amino acids in
+complementarity-determining ~hypervariable! segments of heavy and light
+chains of immunoglobulins and their possible roles in specificity of anti￾body combining sites. J Biol Chem 252:6609–6616.
+Kabat EA, Wu TT, Perry HM, Gottesman KS, Foeller C. 1991. Sequences of
+proteins of immunological interest. NIH Publication 91-3242. Bethesda,
+MD: National Institutes of Health.
+Kam-Morgan LNW, Smith-Gill SJ, Taylor MG, Zhang L, Wilson AC, Kirsch JF.
+1993. High-resolution mapping of the HyHEL-10 epitope of chicken lyso￾zyme by site-directed mutagenesis. Proc Natl Acad Sci USA 90:3958–3962.
+Landt O, Grunert HP, Hahn U. 1990. A general method for rapid site-directed
+mutagenesis using the polymerase chain reaction. Gene 96:125–128.
+Manning TC, Schlueter CJ, Brodnicki TC, Parke EA, Speir JA, Garcia C, Teyton
+L, Wilson IA, Kranz DM. 1998. Alanine scanning mutagenesis of an ab T
+crell receptor: Mapping the energy of antigen recognition. Immunity 8:413–
+425.
+Martin ACR, Thornton JM. 1996. Structural families in loops of homologous
+proteins: Automatic classification, modeling and application to antibodies. J
+Mol Biol 263:800–815.
+Mian S, Bradwell AR, Olson AJ. 1991. Structure, function and properties of
+antibody binding sites. J Mol Biol 217:133–151.
+Padlan EA. 1990. On the nature of antibody combining sites: Unusual structural
+features that may confer on these sites an enhanced capacity for binding
+ligands. Proteins Struct Funct Genet 7:112–124.
+Padlan EA, Silverton EW, Sheriff S, Cohen GH, Smith-Gill SJ, Davies DR.
+1989. Structure of an antibody-antigen complex: Crystal structure of the
+HyHEL-10 Fab-lysozyme complex. Proc Natl Acad Sci USA 86:5938–
+5942.
+Pomès R, Willson RC, McCammon JA. 1995. Free energy simulations of the
+HyHEL-100HEL antibody-antigen complex. Protein Eng 8:663–675.
+Pons J, Planas A, Juncosa M, Querol E. 1997. PCR site-directed mutagenesis
+using Pyrococcus sp GB-D polymerase coupled to a rapid screening pro￾cedure. In: White BA, ed. PCR cloning protocols, Vol. 67. New York:
+Humana Press. pp 209–218.
+Pons J, Planas A, Querol E. 1995. Contribution of a disulfide bridge to the
+stability of 1,3-1,4-b-d-glucan 4-glucanhydrolase from Bacillus lichenifor￾mis. Protein Eng 8:938–945.
+Rajpal A, Taylor MG, Kirsch JF. 1998. Quantitative evaluation of the chicken
+lysozyme epitope in the HyHEL-10 Fab complex: Free energies and kinet￾ics. Protein Sci 7:1868–1874.
+Schreiber G, Fersht AR. 1995. Energetics of protein-protein interactions: Analy￾sis of the barnase-barstar interface by single mutations and double mutant
+cycles. J Mol Biol 248:478–486.
+Schreiber G, Frisch C, Fersht AR. 1997. The role of Glu73 of barnase in
+catalysis and binding of barstar. J Mol Biol 270:111–122.
+Serrano L, Horovitz A, Avron B, Bycroft M, Fersht AR. 1990. Estimating the
+contribution of engineered surface electrostatic interactions to protein sta￾bility by using double-mutant cycles. Biochemistry 29:9343–9352.
+Serrano L, Kellis JTJ, Cann P, Matouschek A, Fersht AR. 1992. The folding of
+an enzyme—II. Substructure of barnase and the contribution of different
+interactions to protein stability. J Mol Biol 224:783–804.
+Smith-Gill SJ, Lavoie TB, Mainhart CR. 1984. Antigenic regions defined by
+monoclonal antibodies correspond to structural domains of avian lysozyme.
+J Immunol 133:384–392.
+Souza SC, Frick GP, Wang X, Kopchick JJ, Lobo RB, Goodman HM. 1995. A
+single arginine residue determines species specificity of the human growth
+hormone receptor. Proc Natl Acad Sci USA 92:959–963.
+Taylor MG, Rajpal A, Kirsch JF. 1998. Kinetic epitope mapping of the chicken
+lysozyme0HyHEL-10 Fab complex: Delineation of docking trajectories.
+Protein Sci 7:1857–1867
+Tsumoto K, Ogasahara K, Ueda Y, Watanabe K, Yutani K, Kumagai I. 1995.
+Role of Tyr residues in the contact region of anti-lysozyme monoclonal
+antibody HyHEL-10 for antigen binding. J Biol Chem 270:18551–18557.
+Tsumoto K, Ogasahara K, Ueda Y, Watanabe K, Yutani K, Kumagai I. 1996.
+Role of salt bridge formation in antigen-antibody interaction. J Mol Biol
+271:32612–32616.
+Wells JA. 1996. Binding in the growth hormone receptor complex. Proc Natl
+Acad Sci USA 93:1–6.
+Xavier KA, Willson RC. 1998. Association and dissociation kinetics of anti-hen
+egg lysozyme monoclonal antibodies HyHEL-5 and HyHEL-10. Biophys J
+74:2036–2045.
+Ysern X, Li H, Mariuzza RA. 1998. Imperfect interfaces @news#. Nature Struct
+Biol 5:412–414.
+968 J. Pons et al.

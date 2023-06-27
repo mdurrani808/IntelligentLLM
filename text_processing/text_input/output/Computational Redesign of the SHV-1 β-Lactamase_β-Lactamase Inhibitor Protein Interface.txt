@@ -1,0 +1,1018 @@
+Computational Redesign of the SHV-1 β-Lactamase/
+β-Lactamase Inhibitor Protein Interface
+Kimberly A. Reynolds1,2, Melinda S. Hanes1,2, Jodi M. Thomson3
+,
+Andrew J. Antczak4
+, James M. Berger4
+, Robert A. Bonomo3
+,
+Jack F. Kirsch4 and Tracy M. Handel2
+⁎
+1
+Biophysics Graduate Group,
+University of California,
+Berkeley, Berkeley, CA 94720,
+USA
+2
+Skaggs School of Pharmacy and
+Pharmaceutical Sciences,
+University of California, San
+Diego, La Jolla, CA 92093-0684,
+USA
+3
+Louis Stokes Cleveland
+Department of Veterans Affairs
+Medical Center and the
+Department of Pharmacology,
+Case Western Reserve
+University, School of Medicine,
+Cleveland, OH 44106, USA
+4
+Department of Molecular and
+Cell Biology and QB3 Institute,
+University of California,
+Berkeley, Berkeley, CA 94720,
+USA
+Received 6 February 2008;
+received in revised form
+20 April 2008;
+accepted 15 May 2008
+Available online
+29 May 2008
+β-lactamases are enzymes that catalyze the hydrolysis of β-lactam
+antibiotics. β-lactamase/β-lactamase inhibitor protein (BLIP) complexes
+are emerging as a well characterized experimental model system for
+studying protein–protein interactions. BLIP is a 165 amino acid protein that
+inhibits several class A β-lactamases with a wide range of affinities:
+picomolar affinity for K1; nanomolar affinity for TEM-1, SME-1, and BlaI; but
+only micromolar affinity for SHV-1 β-lactamase. The large differences in
+affinity coupled with the availability of extensive mutagenesis data and
+high-resolution crystal structures for the TEM-1/BLIP and SHV-1/BLIP
+complexes make them attractive systems for the further development of
+computational design methodology. We used EGAD, a physics-based
+computational design program, to redesign BLIP in an attempt to increase
+affinity for SHV-1. Characterization of several of designs and point mutants
+revealed that in all cases, the mutations stabilize the interface by 10- to 1000-
+fold relative to wild type BLIP. The calculated changes in binding affinity for
+the mutants were within a mean absolute error of 0.87 kcal/mol from the
+experimental values, and comparison of the calculated and experimental
+values for a set of 30 SHV-1/BLIP complexes yielded a correlation coefficient
+of 0.77. Structures of the two complexes with the highest affinity, SHV-1/
+BLIP (E73M) and SHV-1/BLIP (E73M, S130K, S146M), are presented at 1.7 Å
+resolution. While the predicted structures have much in common with the
+experimentally determined structures, they do not coincide perfectly; in
+particular a salt bridge between SHV-1 D104 and BLIP K74 is observed in the
+experimental structures, but not in the predicted design conformations. This
+discrepancy highlights the difficulty of modeling salt bridge interactions
+with a protein design algorithm that approximates side chains as discrete
+rotamers. Nevertheless, while local structural features of the interface were
+sometimes miscalculated, EGAD is globally successful in designing
+complexes with increased affinity.
+© 2008 Published by Elsevier Ltd.
+Edited by Dr B. Honig
+Keywords: SHV-1 β-lactamase; β-lactamase inhibitor protein (BLIP); com￾putational protein design; EGAD; protein–protein interactions
+Introduction
+SHV-type β-lactamases from Klebsiella pneumoniae
+hydrolyze penicillins and cephalosporins, and are
+largely responsible for bacterial resistance to these
+antibiotics. Thus, new SHV-1 inhibitors are despe￾rately needed to combat resistance to β-lactam anti￾biotics in these Gram negative bacteria.1 β-Lactamase
+inhibitor protein (BLIP) competitively inhibits sev￾eral class A β-lactamases, including SHV-1 and TEM￾1. SHV-1 shares 67% sequence identity with TEM-1,
+*Corresponding author. E-mail address:
+thandel@ucsd.edu.
+Present address: K. A. Reynolds, Department of
+Molecular Biology, The Scripps Research Institute, La Jolla,
+CA 92093, USA.
+Abbreviations used: BLIP, β-lactamase inhibitor
+protein; vdW, van der Waals; ncf, nitrocefin; DEE, dead￾end elimination.
+doi:10.1016/j.jmb.2008.05.051 J. Mol. Biol. (2008) 382, 1265–1275
+Available online at www.sciencedirect.com
+0022-2836/$ - see front matter © 2008 Published by Elsevier Ltd.and the crystal structures of the unbound β-lacta￾mases overlay with an α-carbon RMSD of 1.4 Å. Yet,
+the dissociation constant for the SHV-1/BLIP com￾plex is in the micromolar rather than the nanomolar
+range as for the TEM-1/BLIP complex.2 Gaining a
+quantitative understanding of the interactions under￾lying BLIP affinity and specificity for the β-lacta￾mases is an important step towards the development
+of new potent inhibitors. Here, we use computational
+protein design to study this interface, and to engineer
+BLIP variants with increased affinity for SHV-1. The
+TEM-1 β-lactamase/BLIP complex has been well
+studied both experimentally and computationally.
+These investigations include mutagenesis studies of
+protein interface modularity,3,4 rational design expe￾riments,5 a protein–protein docking benchmark,6
+electrostatics calculations to predict association rate
+constants,3,4,7 and investigations of protein associa￾tion in polymer solutions.8 Notably, several alanine￾scanning mutagenesis studies were undertaken to
+determine the specificity determinants for BLIP
+association with TEM-1, SHV-1, SME-1 and BlaI β￾lactamases. Experimental dissociation constants have
+been determined for more than 120 TEM-1/BLIP
+mutant complexes, and over 25 SHV-1/BLIP mutant
+complexes.2–5,9–14 High-resolution crystal structures
+of both the TEM-1/BLIP and SHV-1/BLIP complexes
+are available.12,15 This extensive collection of struc￾tural and experimental data is invaluable for inform￾ing the present computational design efforts.
+In previous work, we conducted mutagenesis and
+crystallographic studies of the SHV-1/BLIP complex
+to define the underlying basis for the 1000-fold
+difference in BLIP affinity for SHV-1 and TEM-1. β￾Lactamase residue 104 (Ambler residue numbering)
+is one of eight amino acid differences between SHV￾1 and TEM-1 at the β-lactamase/BLIP interface.16
+Mutating this residue from aspartate (the residue
+identity in SHV-1) to glutamate (the residue identity
+in TEM-1) results in a 1000-fold enhancement in the
+affinity of BLIP for SHV-1.12 It was hypothesized
+that the small increase in side chain volume from
+Asp to Glu allowed improved formation of van der
+Waals (vdW) contacts and salt bridge interactions
+across the interface with BLIP, as seen in the TEM-1/
+BLIP structure. In particular, a salt bridge between
+TEM-1 E104 and BLIP K74 is absent from the
+analogous SHV-1/BLIP structure (Fig. 1).
+Given that β-lactamase position 104 is now esta￾blished as a major specificity determinant for the
+free energy of association of BLIP with SHV-1 versus
+TEM-1, we investigate here whether the opposing
+side of the interface may be redesigned to compen￾sate for the reduced volume of D104 in SHV-1. Can
+computational methods be used to suggest BLIP
+mutations in the vicinity of D104 that increase
+affinity for SHV-1? And further, if BLIP is rede￾signed to bind with high affinity to SHV-1, what
+effect will this have on the affinity and specificity of
+BLIP for TEM-1? The designed BLIP mutants
+presented here bind SHV-1 with nanomolar affinity,
+while wild type BLIP exhibits micromolar affinity
+for SHV-1. Though the designed BLIP variant with
+the highest affinity for SHV-1 retains a low nano￾molar Kdiss for TEM-1, several of the other designs
+show a modest specificity reversal, in that they
+associate with SHV-1 approximately five times more
+tightly than they do with TEM-1.
+Structures of the SHV-1/BLIP (E73M) and SHV-1/
+BLIP (E73M, S130K, S146M) complexes at 1.7 Å
+resolution were solved in order to help evaluate the
+accuracy of the design predictions. Despite a good
+correlation between the calculated and experimentally
+determined effects of the design mutations, the crystal
+structures were not in perfect agreement with the
+Fig. 1. Comparison of β-lactamase residue 104 and
+BLIP Lys74 in TEM-1 and SHV-1. β-Lactamase is shown in
+a gray cartoon representation, and BLIP in blue. The
+global context of the salt bridge formed between these two
+residues is shown in (a). A close-up view of the interaction,
+as boxed in a, is provided in (b). In the wild type TEM-1/
+BLIP complex, E104 and K74 form a salt bridge (yellow
+sidechains) that is not observed between SHV-1 D104 and
+K74 (cyan sidechains).
+1266 Redesign of the SHV-1 BLIP Interfacecomputationally predicted conformations, highlight￾ing specific limitations in our design methodology.
+Results
+Computational interface redesign
+The SHV-1/BLIP interface was redesigned with the
+EGAD software library.17 This method requires a
+fixed protein backbone, and optimizes the sequence
+and rotamer conformation of the side chains accord￾ing to a physics-based energy function parameterized
+on a large set of protein interface binding affinity
+data.18,19 A two-state design process was implemen￾ted that compares the stabilities of the bound SHV-1/
+BLIP complex to that of the free species. In this
+algorithm, the bound and unbound states of the
+complex are conformationally optimized for each
+interface mutation, and the energy difference
+between the states is calculated. The value of this
+energy difference is maximized throughout the
+design process. This differs from a typical design
+run, which considers only the stability of the bound
+complex, and does not perform side chain conforma￾tional optimizations following each mutation (see
+Materials and Methods, and Fig. 2 for details). As the
+two-state method is computationally expensive, it
+was necessary to redesign smaller sections of the
+interface separately to reduce processor time and to
+improve convergence of the search algorithm. Reich￾mann et al. showed earlier that the TEM-1/BLIP
+interface is divisible into energetically independent
+modules or residue clusters.4 They demonstrated
+experimentally that the changes in binding affinity
+upon mutation (ΔΔGdiss, mut) are highly cooperative
+for combinations of mutants within a module, and
+are additive for combinations of mutations in
+separate modules. The decomposability of the inter￾face suggests that individual clusters can potentially
+be treated as separate design problems. Here, as a
+preliminary evaluation of our design software on the
+β-lactamase/BLIP interface, EGAD was used to
+redesign the five interface clusters (C1–C5) described
+by Reichmann et al.
+4 that are given in Table 1. A later
+publication from Reichmann et al. added a sixth
+interface cluster, but this publication was not available
+when the design work presented here was initiated.3
+For each cluster, the amino acid identities compos￾ing the BLIP side of the interface were varied, while
+the sequence of the β-lactamase remained fixed.
+Residues in both proteins underwent conformational
+optimization. Separate designs were conducted for
+BLIP association with TEM-1 and with SHV-1. The
+C1 cluster contains only a single BLIP residue, which
+participates in four hydrogen bonding interactions
+with SHV-1. This cluster was not redesigned, as this
+interaction is highly important for interface affi￾nity.10 BLIP position E73 was added to the C2 cluster
+as it is an important specificity determinant for SHV￾1 versus TEM-1 binding affinity, and is in the imme￾diate vicinity of β-lactamase position 104 (Fig. 1). An
+additional cluster referred to as C2_Plus was created
+by including BLIP residues S130 and S146 in the C2
+cluster. These residues were also selected because of
+proximity to position 104.
+Fig. 2. The two-state optimization procedure used to redesign the SHV-1/BLIP interface.
+Redesign of the SHV-1 BLIP Interface 1267Ten BLIP designs were generated for clusters C2–
+C5 and C2_Plus, where each cluster was optimized
+for association with either TEM-1 or SHV-1 (Table 2).
+In three cases the design recapitulated the wild type
+sequence. For the TEM-1/BLIP designs, the EGAD￾proposed BLIP mutations are conservative, and
+yield little change in the calculated free energy of
+association with TEM-1. As the wild type TEM-1/
+BLIP complex has a Kd = 1.3 nM, the interface
+residues may already be near optimal. Interestingly,
+redesign of BLIP for association with SHV-1 also
+yields conservative mutations, with the exception of
+the C2 cluster. Both the C2 and C2_Plus designs
+include several mutations predicted to increase affi￾nity for SHV-1 and decrease affinity for TEM-1.
+These computational results coincide with the expe￾rimental observation that the C2 cluster (and, in
+particular, β-lactamase residue 104) is a major
+specificity determinant. Thus, the C2 cluster designs
+were selected for experimental characterization.
+Experimental determination of dissociation
+constants
+The values of the C2 and C2_Plus BLIP /SHV-1
+dissociation constants are summarized in Table 3.
+The C2 design yields an approximately tenfold
+increase in affinity compared to wild type, while
+the C2_Plus design results in an ∼100-fold augmen￾tation. Several point mutants and combinations of
+design mutations were characterized in order to de￾fine the roles of the individual mutations. The
+F142W, Y143F, and S146M proteins expressed
+poorly, and therefore were not tested. The S130K
+mutation stabilizes the SHV-1/BLIP complex by –
+1.5 kcal/mol relative to wild type. Interestingly, the
+E73M point mutant increases complex stability more
+than either C2 design, resulting in a –3.5 kcal/mol
+improvement. This implies that one or more of the
+mutations included in the designs adversely affects
+complex stability. Given this result, we considered
+the effects of the other mutations in the E73M
+context. The E73M/S130K double mutant has a
+somewhat decreased affinity for SHV-1 compared to
+E73M alone. The E73M/S146M double mutant also
+results in little change in Kd from the E73M point
+mutant, and both the E73M/Y143F and E73M/
+F142W/Y143F variants have considerably higher Kd
+values relative to BLIP E73M. Thus, the E73M point
+mutation appears to drive the improved affinity of
+the designed BLIP variants to SHV-1.
+TEM-1/BLIP dissociation constants were deter￾mined for BLIP mutants that exhibit high SHV-1
+affinity. In contrast to the results obtained with SHV￾1, all of the characterized variants decreased the
+affinity of the TEM-1/BLIP complexes. The E73M
+point mutant destabilizes the TEM-1/BLIP complex
+the least (0.5 kcal/mol). This is consistent with the
+computational design of BLIP for TEM-1, which
+includes the E73L mutation, suggesting that a
+hydrophobic residue at this position is desirable.
+Although the remaining mutations provide little
+additional stability to the SHV-1/BLIP complex,
+they do contribute to complex specificity: the E73M/
+S130K, E73M/S130K/S146M, and the C2 plus
+designs associate with SHV-1 ∼5-fold more tightly
+than they do with TEM-1.
+Comparison of experimental and calculated
+changes in binding affinity upon mutation
+The results for the designs are shown together
+with literature data for a total of 36 observations
+(Fig. 3).2,12 A correlation coefficient of R= 0.77 and a
+Table 2. Calculated substitutions for the association of BLIP with TEM-1 and SHV-1
+Cluster Designed positions (BLIP only) Design result
+Calculated ΔΔGdiss, mut
+for TEM-1
+Calculated ΔΔGdiss, mut
+for SHV-1
+A. Interface design results for BLIP binding to TEM-1
+C2 A47/E73/K74/F142/Y143 E73L −0.53 −0.96
+C2_Plus A47/E73/K74/S130/F142/Y143/S146 No convergence. – –
+C3 W112/H148/W150/R160/W162 WT sequence 0 0
+C4 F36/H41/Y50/Y53 WT sequence 0 0
+C5 S71/S113 S113M −0.43 −0.59
+B. Interface design results for BLIP binding to SHV-1
+C2 A47/E73/K74/F142/Y143 E73M/F142W/Y143F 7.61 −1.90
+C2_Plus A47/E73/K74/S130/F142/Y143/S146 E73M/S130K/F142W/
+Y143F/S146M
+10.54 −2.71
+C3 W112/H148/W150/R160/W162 WT sequence. 0 0
+C4 F36/H41/Y50/Y53 Y53F 4.3 −0.17
+C5 S71/S113 S113N −0.14 −0.05
+The ΔΔGdiss, mut values shown were calculated using EGAD with the larger sidechain search space employed in the binding affinity
+change predictions, rather than the smaller search space used during the design runs (for details, see Materials and Methods).
+Table 1. Modular interface clusters for the TEM-1/BLIP
+complex from Ref. 4
+Cluster TEM-1 positions BLIP positions
+C1 S130/K234/S235/R243 D49
+C2 N170/E104/Y105/A237 A47/G48/K74/G141/
+F142/Y143
+C3 Q99/N100/L102/V103/
+P167/E168
+W112/H148/W150/
+R160/W162
+C4 P107/M129/V216 F36/H41/Y50/Y53
+C5 E110 S71/S113
+1268 Redesign of the SHV-1 BLIP Interfacemean absolute error of 1.2 kcal/mol were calculated
+when the six indicated outliers were excluded. The
+error is increased to 1.9 kcal/mol, and R= 0.52 when
+the outliers are included. The outlier points are
+identical with those identified in our previous
+work,12 and include the following mutant com￾plexes: SHV-1/BLIP (Y50A), SHV-1/BLIP (Y50A,
+Y143A), SHV-1/BLIP (E73A, Y50A), SHV-1/BLIP
+(W112A, Y143A), SHV (D104E)/BLIP, and SHV-1/
+BLIP (F142A). It was suggested that the destabiliza￾tion of these complexes is overestimated because
+many of these mutations involve large changes in
+side chain volume (Y50A, W112A, F142A) and thus
+may effect changes in backbone conformation. The
+EGAD algorithm assumes a fixed backbone: there￾fore, mutations affecting backbone conformation are
+not modeled accurately.
+None of the designed complexes is considered to
+be an outlier. The mean absolute error for the design
+mutations alone is 0.9 kcal/mol, which is lower than
+the error for the full data set. However, the stabilizing
+effects of the two highest-affinity BLIP variants were
+underestimated. The BLIP E73M mutation was
+shown experimentally to stabilize the SHV-1/BLIP
+complex by –3.5 kcal/mol relative to the wild type, in
+comparison to a calculated value of –1.4 kcal/mol.
+Similarly, the experimental and calculated values of
+ΔΔGdiss, mut for BLIP (E73M, S130K, S146M) are -3.5
+and -1.8 kcal/mol, respectively.
+Determination of crystallographic structures for
+mutant complexes
+Structures were determined for the two most
+stable SHV-1/BLIP complexes: E73M and E73M/
+S130K/S146M, to 1.75 Å and 1.70 Å resolution,
+respectively. The crystals used for the determination
+contained the same symmetry, P63, and possess
+nearly identical unit cell dimensions (see Table 4) as
+the previous wild type structure; though the crystals
+formed under slightly different conditions. There is
+little to no change in backbone structure, with an α￾carbon RMSD to the wild type of 0.2 Å for both the
+E73M complex and the triple mutant. The RMSD
+between the wild type and mutant interface side
+chains is 0.7 Å for both the E73M and E73M/S130K/
+S146M complexes. However, unlike the native
+structure, both mutant complexes include a salt
+bridge between SHV-1 D104 and BLIP K74, like that
+seen between TEM-1 E104 and BLIP K74 in the wild
+type TEM-1/BLIP complex (Fig. 4). The E73M muta￾tion appears to remove an electrostatic clash with
+D104, allowing the salt bridge to form. In the TEM-1/
+BLIP complex, the longer E104 side chain is able to
+avoid this clash, and form the E104/K74 salt bridge
+in the presence of E73. This observation is consistent
+with the proposal by Zhang and Palzkill, offered to
+Table 3. Experimentally determined dissociation constants for the BLIP C2 and C2_Plus design variants in complex with
+SHV-1 and TEM-1
+BLIP mutation Kdiss (nM) SHV-1
+ΔΔGbind SHV-1
+(kcal/mol)
+Kdiss (nM)
+TEM-1
+ΔΔGbind TEM-1
+(kcal/mol)
+WT 1720 ± 60 0 1.3 ± 0.1 0
+C2 (E73M/F142W/Y143F) 265 ± 14 −1.11 ± 0.04 n.d. n.d.
+C2_Plus (E73M/S130K/F142W/
+Y143F/S146M)
+12.2 ± 0.7 −2.93 ± 0.04 79 ± 2.3 2.43 ± 0.02
+C2_P1 (E73M/S130K/F142W/Y143F) 57.2 ± 1 −2.01 ± 0.02 n.d. n.d.
+C2_NoW (E73M/Y143F) 117 ± 4 −1.59 ± 0.03 n.d. n.d.
+E73M 4.4 ± 0.6 −3.53 ± 0.08 3.2 ± 0.1 0.53 ± 0.02
+S130K 144 ± 4.0 −1.47 ± 0.03 12.7 ± 1.6 1.35 ± 0.07
+E73M/S130K 15.0 ± 0.5 −2.81 ± 0.02 50 ± 3 2.2 ± 0.4
+E73M/S130K/S146M 4.6 ± 0.2 −3.51 ± 0.03 27 ± 2 1.8 ± 0.4
+Fig. 3. Correlation between experimental and calcu￾lated values of ΔΔGdiss, mut. Each point on the plot
+represents a mutant SHV/BLIP complex for which the
+change in binding affinity relative to wild type has been
+measured. Several of the complexes are point mutants
+arising from alanine-scanning mutagenesis studies, while
+others include up to five mutations. The designed
+complexes and point mutants were both computationally
+predicted and measured to increase the binding affinity of
+the SHV/BLIP complex, and fall in the lower left quadrant
+of the graph (red squares). For several complexes, the
+destabilizing effects of mutation were overestimated by
+our model; these are denoted as outliers and are shown as
+open black diamonds.
+Redesign of the SHV-1 BLIP Interface 1269explain the alanine-scanning mutagenesis results for
+E73.2 The E73A mutation results in very little change
+in Kd for the TEM-1/BLIP complex, while E73A
+causes a –1.97 kcal/mol stabilization in the SHV-1/
+BLIP complex. The E73M mutation is more stabiliz￾ing than E73A, perhaps because E73M is a more
+conservative substitution with respect to side chain
+volume. Additionally, a lower dielectric environ￾ment due to the methionine side chain may enhance
+the affinity of the salt bridge.
+Comparison of the predicted design conforma￾tions with the experimental structures provides an
+explanation for the underestimated stabilizing
+effects of E73M in the design calculations. The
+computationally predicted conformations fail to
+include the D104/K74 salt bridge, and thus neglect
+this energetic contribution to the interface. In the
+predicted structure of the triple mutant, D104 is seen
+to point toward S130K (Fig. 4b), while in the
+predicted structure of E73M, D104 retains the con￾formation seen in the wild type protein (Fig. 4a).
+Additionally, the conformation of Y143 is incorrectly
+placed in the triple mutant — the designed structure
+predicts that Y143 will be pushed out of the interface
+by the S146M mutation, while the experimental
+structure shows that it remains in the native con￾formation. The conformations of the remaining side
+chains are fairly well described by the calculated
+structures. Comparison of the predicted and experi￾Table 4. Crystallographic data collection, refinement and
+stereochemistry
+SHV-1:BLIP
+E73M
+SHV-1: BLIP E73M
+S130K S146M
+A. Data collection
+Resolution (Å) 1.75 – 48 1.70 – 48
+Wavelength (Å) 1.1159 1.1159
+Space group P63 P63
+Unit cell dimensions
+a (Å) 127.48 127.23
+b
+c (Å) 73.41 73.42
+Unit all angles
+α (°) 90.0 90.0
+β (°) 90.0 90.0
+γ (°) 120.0 120.0
+I/s (last shell) (%) 30.9 (3.1) 20.1 (2.7)
+Rsym (last shell) (%) 0.078 (0.626) 0.098 (0.442)
+Completeness
+(last shell) (%)
+100.0 (100.0) 98.0 (84.9)
+No. of reflections 1,530,836 1,152,849
+No. unique reflections 68,483 74,627
+B. Refinement
+Resolution (Å) 1.75 – 36 1.70 – 36
+No. of reflections
+Total 68,431 73,095
+Working 64,967 69,413
+Free (% total) 3464 (5.1) 3682 (5.0)
+Rwork (%) 18.7 (24.7) 17.1 (21.7)
+Rfree (%) 21.0 (28.7) 20.0 (23.0)
+C. Structure and stereochemistry
+No. of atoms
+Total 3757 3779
+Protein 3257 3263
+Water 490 506
+RMSD from ideal
+Bond lengths (Å) 0.005 0.004
+Bond angles (°) 0.963 0.981
+Values in parentheses are for the highest resolution shell.
+Rsym¼ R R
+j
+jIj  bINj
+RIj , where Ij is the intensity measurement for
+reflection j and bIN is the mean intensity for multiple recorded
+reflections. Rwork;free ¼ RjjFobsjjFcalcjj
+jFobsj , where the working and
+free R-factors are calculated using the working and free reflection
+sets, respectively. The free reflections were kept separate
+throughout the refinement.
+Fig. 4. Comparison of the computationally predicted
+and experimentally determined structures of the designed
+SHV-1/BLIP complexes. In each panel, the SHV backbone
+is shown in gray ribbons, and the BLIP backbone in blue
+ribbons. (a) The interface sidechain interactions for the
+predicted (cyan sticks) and experimental (yellow sticks)
+conformations of SHV-1/BLIP E73M. (b) The predicted
+(orange sticks) and experimental (green sticks) conforma￾tions of the E73M/S130K/S146M SHV/BLIP complex. In
+each case, the calculated structure fails to predict the
+D104/K74 salt bridge seen in both crystal structures. BLIP
+loop residues 44–51 and 138–144 are removed for clarity,
+with the exception of Y143, as it is observed in a different
+conformation between the predicted and experimental
+structures.
+1270 Redesign of the SHV-1 BLIP Interface  mental side chain conformations within a 6 Å radius
+of the D104/K74 salt bridge yields RMSDs of 0.7 Å
+and 1.2 Å for E73M and E73M/S130K/S146M,
+respectively.
+Discussion
+The computational design protocol resulted in two
+designs (C2 and C2_Plus) with increased SHV-1
+affinity. The calculated changes in free energy of
+association for the design mutations reproduce the
+experimental values within an average error
+b1 kcal/mol. The design algorithm was successful
+in terms of these global measures, but closer scrutiny
+by mutagenesis and structural characterization
+revealed a significant flaw in the predicted structures
+of the designs. A single mutation, E73M, is respon￾sible for most of the increase in stability. The crystal
+structures show that this mutation facilitates the
+formation of a salt bridge between D104 (SHV-1) and
+K74 (BLIP), a feature that escaped the calculation
+procedure. Why was this salt bridge overlooked?
+And how can the calculation be improved to capture
+this feature more accurately? The potential sources of
+error and strategies for increasing the accuracy of the
+design methodology are discussed below.
+It is important to mention that the predicted values
+of ΔΔGdiss, mut for the designs and design point
+mutants span a range of 1.3 kcal/mol, close to the
+observed error in our calculations. Thus, only an
+approximate rank ordering of designs and point
+mutations is expected. Several contributing factors
+including inaccuracies in the energy function, the
+fixed backbone assumption, the discrete rotamer
+representation of side chains, and a reduced search
+space that includes only a subset of the interface
+residues might be responsible. The striking factor,
+however, is the failure to identify the effect of the
+E73M mutation on the formation of the D104/K74
+salt bridge. Two reasons may contribute to the
+incorrectly predicted conformation of D104/K74:
+(1) inaccuracies in the energy function, causing the
+stabilizing effects of the salt bridge to be under￾estimated relative to other interactions; (2) lack of
+proper rotamer conformations to model salt bridge
+formation. Importantly, when the crystallographic
+side chain conformations of D104 and K74 are
+included as part of the rotamer library, and the
+SHV-1/BLIP E73M backbone is used as a template,
+the salt bridge is predicted correctly by EGAD
+rotamer optimization. Conversely, when the crystal￾lographic conformations are not included, or the
+backbone template is taken from the wild type SHV￾1/BLIP structure (rather than from the mutant
+complex) the salt bridge is not identified. The closest
+pair of side chains from the rotamer library exhibits a
+side chain RMSD of 0.5 Å to the experimental
+conformation. The relative frequency of these rota￾mers within the PDB was calculated using Coot; the
+K74 rotamer has a frequency of 3%, and the D104
+rotamer a frequency of 21%.20 Neither of these rota￾mers is considered rare. While the crystallographic
+side chain conformations are not conformationally
+distinct enough from the rotameric conformations to
+qualify as new rotamer entries within the library,
+building the D104/K74 rotamer pair onto the wild
+type SHV-1/BLIP complex backbone (used as the
+template for the designs) further increases the RMSD
+to 0.6 Å (Fig. 5a). This displacement increases the
+distance between the K74 amide nitrogen and D104
+oxygens, disfavoring the salt bridge. To further
+assess how slight differences in backbone conforma￾tion impact the outcome of the design predictions,
+the crystallographic rotamers from the E73M struc￾ture were built onto the wild type SHV-1/BLIP
+backbone. This yields an RMSD of 0.3 Å when
+compared with the crystallographic conformation of
+the salt bridge (Fig. 5b). A deviation of 0.2 Å in the
+backbone conformation between the wild type and
+E73M structures brings the amide nitrogen of K74
+and od2 oxygen of D104 closer together by 0.6 Å. As
+such, a van der Waals (vdW) clash is introduced, and
+the salt bridge is not identified correctly during
+rotamer optimization. In a separate test, the D104/
+K74 side chain pair on the wild type template was
+optimized to minimize the RMSD between the wild
+type conformation and the E73M crystal structure
+conformation (Fig. 5b). This minimization was
+conducted using the ICM software package, and
+allowed both the Cα
+–Cβ bond distance and planar
+C–Cα
+–Cβ bond angle to be varied, as well as the
+torsional χ angles.21 The variation in bond distance
+and planar bond angle was included to compensate
+for the slight differences in backbone conformation.
+This optimization resulted in a side chain pair on the
+wild type template with an RMSD of 0.1 Å to the
+E73M crystal structure. Rotamer optimization of the
+interface with this rotamer pair correctly identified
+the salt-bridging interaction.
+Neither the rotamer library conformations nor the
+protein backbone used in the original design
+predictions deviate by more than 0.6 Å from the
+experimentally determined conformation. However,
+these structural changes were sufficient to preclude
+discovery of the correct designed interface confor￾mation. The difficulties in calculating accurate vdW
+energies with a fixed backbone and rotamers are
+well documented; our findings suggest that these
+problems may become particularly acute for salt
+bridges or hydrogen bonds.22 In these situations, a
+delicate balance must be achieved—the residues
+must come close enough to form a stabilizing
+interaction, but not so close that they create a vdW
+clash. The EGAD forcefield parameters dictate that
+ideal hydrogen bonding distances are shorter than
+the sum of the atomic vdW radii. Indeed, in the
+E73M crystal structure, the amide nitrogen of K74
+and carboxyl oxygen of D104 are positioned at a
+distance of 2.8 Å, while the sum of their respective
+vdW radii is 3.3 Å. During design calculations, this
+side chain conformation generates a vdW clash that
+must be compensated for by an energy term favor￾ing electrostatic or hydrogen bonding interactions. If
+rotamers in the library do not capture the exact
+geometry necessary to favor electrostatic interaction
+Redesign of the SHV-1 BLIP Interface 1271without generating an overwhelmingly destabilizing
+vdW clash, the salt bridge will be eliminated as a false
+negative.
+Increased side chain flexibility would improve the
+prediction of salt bridge interactions by providing
+conformations consistent with salt bridge formation
+and reducing the number of salt bridges overlooked
+as “false negatives”. One possible means of achieving
+greater side chain flexibility is through the use of an
+expanded rotamer library. This method greatly
+increases computation time, and has been shown to
+provide little advantage over using a softened vdW
+potential.20 Another possibility is the use of contin￾uous optimization techniques, which allow for full
+side chain flexibility rather than discrete rotamers.
+These methods require an analytically differentiable
+energy function, which typically precludes the inclu￾sion of a solvation term. Unlike fully flexible side
+chains, discrete rotamers conveniently allow for the
+precalculation of pairwise energy tables, which can
+improve calculation speed. Further, some search
+algorithms require a pairwise-decomposable energy
+function, and thus also the use of discrete rotamers
+(for example DEE). For these reasons, several groups
+have suggested hybrid approaches that couple itera￾tions of continuous local minimization (allowing fully
+flexible side chains) with global optimization algo￾rithms (that use discrete rotamers). The local mini￾mization process allows incorporation of continuous
+side chain flexibility and “off-rotamer” side chain
+conformations, but is limited to exploring conforma￾tional space near the closest local minimum. Global
+optimization ensures that high-energy barriers separ￾ating low-energy conformations may be crossed, and
+allows inclusion of non-analytically differentiable
+energy terms. A two-tier Monte Carlo simulation
+was recently used to redesign a protein/peptide
+interface.23 This simulation introduced a random
+change in sequence identity or rotamer conformation.
+Next, local minimization considering continuous side
+chain conformations was performed. The energy
+obtained by local minimization was then used in the
+Monte Carlo simulation to accept or reject the move in
+sequence or conformation space. Similarly, the biased
+probability Monte Carlo (BPMC) algorithm devel￾oped in the Abagyan lab performs a round of local
+minimization for each Monte Carlo step.21 In this
+algorithm, a random change in sequence identity or
+rotamer conformation is introduced. Local minimiza￾tion is then performed using only the analytically
+differentiable terms of the energy function. The
+energy of the new conformation is then calculated
+using the full energy function, and used to accept or
+reject the Monte Carlo move. This was used success￾fully in the refinement of side chain conformations for
+protein–protein docking calculations. In this study,
+Monte Carlo optimization was used to select new
+interface sequences and DEE was used to optimize
+interface side chain conformation. Future design
+calculations may include a brief round of local
+minimization, such as conjugate-gradient, following
+DEE. This would allow evaluation of “off-rotamer”
+conformations, and possibly improve the EGAD
+design results.
+Materials and Methods
+Protein expression and purification
+SHV-1, TEM-1 and BLIP were expressed and purified as
+described.12,24
+Fig. 5. Comparison of crystallographic and rotamer
+library sidechain conformations. In both panels, the
+crystallographic sidechain conformations for the D104/
+K74 salt bridge in the E73M mutant structure are shown in
+magenta, and the interatomic distances are labeled in red.
+(a) The rotamer library pair with the lowest RMSD from
+the crystallographic conformation is shown built on the
+E73M backbone template (cyan), and on the wild type
+complex structure (green), which was used as the template
+for the designs. The interatomic distances for the wild type
+complex are labeled in blue. A combination of variations
+in sidechain and backbone conformation results in an
+increased distance between the salt bridge pair in the wild
+type structure. (b) The crystallographic sidechain con￾formation is shown built onto the wild type backbone
+(orange). For this sidechain pair, the interatomic distance
+between the amide lysine and one of the carboxyl oxygens
+is shortened (blue labels), introducing a vdW clash. The
+sidechain pair with Cα
+–Cβ bond distance, Cα
+–Cβ bond
+angle, and torsional χ angles optimized for RMSD from
+the crystallographic conformation is displayed in yellow.
+1272 Redesign of the SHV-1 BLIP InterfaceExperimental determination of Kd values
+β-Lactamases were assayed with the substrate nitroce￾fin (ncf, Becton Dickinson, Cockeysville, MD). BLIP and β￾lactamase were mixed in sodium phosphate-buffered
+saline (PBS) containing 100 μg/ml bovine serum albumin.
+Concentrations of β-lactamase were 3–10 nM, with the
+lower concentrations used for studies of the inhibitors
+with higher affinity. Reactions were initiated with ncf at
+the Km value for the enzyme (15 μM for SHV-1 and 350 μM
+for TEM-1). Final reaction volumes were 1 ml, and all
+measurements were performed in triplicate. In order to
+minimize variation between protein preparations, all
+measurements were performed with a single pooled
+sample of either SHV-1 or TEM-1. Hydrolysis rates were
+monitored at λ= 486 nm using the extinction coefficient
+ε= 20,500 M- 1 cm- 1 for the hydrolyzed form of ncf (ε taken
+from Calbiochem product literature).
+BLIP inhibition curves were plotted with Origin® 7.5 SR
+software and were fit to the quadratic equation:
+Efree¼½  E0
+½E0þ½I0þKd*
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+ð½E0þ½I0þKd*Þ
+2
+ð4½E0½I0Þ q
+2
+where Efree is the concentration of the remaining free
+enzyme calculated from the activity, [E0] is the initial
+concentration of enzyme, [I0] is the concentration of
+BLIP and Kd
+* is the apparent equilibrium constant.11 Kd
+*
+was corrected for the presence of substrate using the
+equation:
+Kd ¼ Kd*
+ð1 þ ½S=KmÞ
+Crystallography
+SHV-1 was mixed 1:1 with BLIP E73M, or BLIP (E73M,
+S130K, S146M) in 20 mM BisTris (pH 7.25), 50 mM NaCl
+and concentrated. The concentrated protein was dialyzed
+overnight against 20 mM BisTris (pH 7.25), 50 mM NaCl.
+The final concentration of protein used for setting trays
+was either 4.1 mg/ml SHV-1/BLIP E73M or 6.3 mg/ml
+SHV-1/BLIP (E73M, S130K, S146M). Crystals were grown
+at 19 °C in hanging drops by mixing 1 μl of protein with
+1 μl of well solution or 2 μl of protein with 2 μl of well
+solution over a 1 ml reservoir of well solution. Both the
+SHV-1/BLIP E73M and SHV-1/BLIP (E73M, S130K,
+S146M) complexes formed hexagonal crystals in well
+solutions of 37.5% or 42.5% ammonium sulfate, 100 mM
+Tris, pH 8.4. For reference, our previous crystals of the
+wild type complex were obtained in 60% ammonium
+sulfate, 50 mM cacodylate pH 6.5.12 For harvesting, a
+cryoprotectant solution containing well solution plus 30%
+xylitol was added directly to the drop, and the crystals
+were immediately looped and flash-frozen in liquid
+nitrogen.
+All datasets were collected at beamline 8.3.1 at the
+Advanced Light Source at Lawrence Berkeley National
+Laboratory.25 Data were indexed and scaled using
+HKL2000.26 Subsequently, molecular replacement was
+performed using PHASER with the wild type SHV-1/
+BLIP structure (PDB entry 2G2U) as search model.27
+Iterations of manual rebuilding in Coot, and refinement
+with PHENIX generated the final structural models.20,28
+Additional details of the data collection and refinement
+are given in Table 4. All molecular figures were created
+with PyMOL†.
+Computational interface design
+All design calculations were performed using the
+EGAD library for computational protein design.17 The
+protein backbone was held fixed to the crystallographic
+conformation of the SHV-1/BLIP complex (PDB ID 2G2U).
+Amino acid identity was sampled for sidechains compos￾ing a single interface cluster (further described in Results),
+and a second shell of residues within 4 Å of the designed
+positions was varied rotamerically. The Dunbrack back￾bone-independent rotamer library was used for all cal￾culations, with added 180° flips of χ2 for aspargine,
+glutamine, and histidine.29 For sidechains with fewer than
+three χ angles, χ1 was also spread by 1σ in each direction.
+All amino acid identities with the exception of G, P and C,
+were allowed at the designed positions. The energy
+function used is that described in Refs 18 and 19, and
+consists of a linearized vdW term, coulombic electro￾statics, and torsional potentials, all using atomic para￾meters from OPLS-AA.30,31 The Generalized Born model
+and a solvent-accessible surface area-dependent hydro￾phobic burial term were included to incorporate solvation
+effects.
+Previously, EGAD library free energy calculations were
+shown to reproduce experimental changes in free energy
+upon interface mutation within an error of 1.6–2.2 kcal/
+mol for the TEM-1/BLIP and SHV-1/BLIP interfaces.
+These calculations explicitly considered the energy of the
+bound complex relative to a reference state of unbound
+monomers. As this improved the agreement with experi￾mental values, the unbound state energy was incorpo￾rated as a reference state in the designs presented here.
+The design process minimized ΔGdiss, rather than the
+energy of the bound complex alone:
+DGdiss ¼ Gbound  Gfree
+The free monomers were modeled by separating the
+crystallographic structure of the complex by 50 Å. A two￾state minimization protocol was employed, consisting of
+an outer search algorithm that conducted optimization in
+sequence space, and an inner minimization loop that
+optimizes in structure space. The Monte Carlo method
+was used as the outer minimizer. Minimization was
+initiated by random selection of an amino acid position
+and introduction of a mutation. The inner minimization
+loop (here Dead End Elimination) then performed
+rotamer optimization of both the bound and unbound
+states of the new mutant complex. The difference in
+energy between the bound complex and unbound
+monomers was returned to the outer Monte Carlo loop.
+The Monte Carlo minimization subsequently accepted or
+rejected the mutational move in accordance with the
+Metropolis criterion, and randomly selected another
+position for mutation. As the Monte Carlo method is a
+heuristic search algorithm, ten independent minimization
+runs were performed, and all ten designs underwent a
+heuristic quench local minimization step. In this process,
+a single amino acid position was randomly selected and
+mutated to all possible residue identities to identify the
+lowest-energy residue. This was done in random order
+across the designed residues until all positions had been
+† http://pymol.sourceforge.net/
+Redesign of the SHV-1 BLIP Interface 1273            visited at least once with no change in residue identity.
+Following this minimization, it was found that the ten
+design runs converged on one to three individual
+solutions. The modular structure of the EGAD library
+greatly facilitated nesting and combination of the search
+algorithms in the two-state minimizer implementation,
+and will later allow for experimentation with other search
+algorithm combinations, such as a genetic algorithm with
+DEE.
+There are two ways to introduce mutations with overall
+stabilizing effects on the interface in two-state design
+procedures. (1) Introduce a mutation that stabilizes the
+bound state or (2) add one that destabilizes the unbound
+monomers. Although both approaches do result in a
+greater free energy difference between the bound and
+unbound states, the latter approach often generates design
+solutions that are calculated to improved binding affinity,
+but fail to do so. For example, large vdW clashes are easily
+introduced into the unbound state as a consequence of the
+fixed backbone approximation. While this gives rise to the
+desired effect on ΔGdiss, in reality these clashes would be
+relaxed, or cause unfolding of the unbound monomers. To
+mitigate this problem, the vdW term used to describe the
+unbound monomers is softened slightly relative to the
+term describing the bound complex. Specifically, the
+linearization point of the repulsive potential is shifted to
+a larger inter-atomic distance. The equation describing the
+softened vdW potential is:
+If rijVrijb:
+EvdW
+ij ¼ 4xij
+b6
+6
+rb 1  2
+b6
+ rij þ
+13
+b6  7
+ 
+If rijbbrijbrij :
+EvdW
+ij ¼ 4xij
+r6
+ij
+r6
+ij
+r6
+ij
+r6
+ij
+ 1
+ !
+If rijNrij :
+EvdW
+ij ¼ 4lxij
+r6
+ij
+r6
+ij
+r6
+ij
+r6
+ij
+ 1
+ !
+where:
+b ¼ 1  f 21=6  1
+ 
+For the bound state of the complex, ζ = 1.5, while for the
+free monomers ζ = 1.0. The value for the bound state was
+taken from Ref.18, while the value for the free monomers
+was selected by visually inspecting designed complexes at
+different ζ thresholds.
+Calculation of ΔΔGdiss, mut values
+The equation used for comparison with experimental
+values is:
+DDGdiss; mut¼gðDGdiss; mutDGdiss; WTÞ
+The scaling factor η is necessary because EGAD con￾sistently returns much larger values of ΔΔGdiss, mut than
+those observed experimentally. For all ΔΔGdiss, mut
+calculations, η= 0.20. This value was empirically deter￾mined by fitting to a large set of experimental interface
+mutation data.18 The change in affinity upon mutation
+was calculated with an energy function identical with that
+used for the present designs. The crystallographic com￾plexes of TEM-1/BLIP and SHV-1/BLIP (PDB ID 1JTG
+and 2G2U, respectively) were used as the starting
+structures for bound state energy calculation, and the
+unbound states were modeled by separating the complex
+structures by 50 Å. As in the design process, for each
+mutant complex a subset of amino acid sidechains was
+rotamer optimized for the bound and unbound states by
+DEE (thus guaranteeing a global minimum), and a free
+energy calculated for the minimum energy state. As the
+free energy of association calculations are less computa￾tionally demanding than a full design run, more side￾chains were included in the rotamer optimization. This set
+includes all cluster residues (instead of the sidechains for
+only a single cluster at a time), and all positions with one
+atom within 4 Å of any of the cluster residues. All amino
+acid positions with the identities G, P and C were held
+fixed in conformation. This change in search space yields
+some small differences between the energies for the
+designs calculated here and those calculated in the design
+runs. In all cases, however, the differences in calculated
+energy are well within the error we observe between the
+calculated and experimental values.
+Protein Data Bank accession codes
+The Protein Data Bank accession codes for the SHV-1/
+BLIP E73M complex and SHV-1/BLIP E73M/S130K/
+S146M complex are 3C4P and 3C40, respectively.
+Acknowledgements
+K.A.R. and M.S.H. thank Navin Pokala and Arnab
+Chowdry for very helpful discussions regarding the
+manuscript. Andrew Douglas is thanked for assis￾tance with crystallization techniques. K.A.R was
+supported by an NSF graduate research fellowship.
+T.M.H. gratefully acknowledges support from NSF
+grant 0344749. R.A.B. was supported, in part, by the
+Veterans Affairs Medical Center Merit Review Pro￾gram and National Institutes of Health (NIH) grant
+1R01 A1063517-01. J.M.B. acknowledges support
+from the NCI (CA077373) and NIGMS (GM071747).
+J.F.K was supported by NIGMS (GM3593).
+References
+1. Thomson, J. M. & Bonomo, R. A. (2005). The threat of
+antibiotic resistance in Gram-negative pathogenic
+bacteria: beta-lactams in peril! Curr. Opin. Microbiol.
+8, 518–524.
+2. Zhang, Z. & Palzkill, T. (2004). Dissecting the protein￾protein interface between beta-lactamase inhibitory
+protein and class A beta-lactamases. J. Biol. Chem. 279,
+42860–42866.
+1274 Redesign of the SHV-1 BLIP Interface         3. Reichmann, D., Cohen, M., Abramovich, R., Dym, O.,
+Lim, D., Strynadka, N. C. J. & Schreiber, G. (2007).
+Binding hot spots in the TEM1-BLIP interface in light
+of its modular architecture. J. Mol. Biol. 365, 663–679.
+4. Reichmann, D., Rahat, O., Albeck, S., Meged, R., Dym,
+O. & Schreiber, G. (2005). The modular architecture of
+protein-protein binding interfaces. Proc. Natl Acad. Sci.
+USA, 102, 57–62.
+5. Selzer, T., Albeck, S. & Schreiber, G. (2000). Rational
+design of faster associating and tighter binding
+protein complexes. Nature Struct. Biol. 7, 537–541.
+6. Strynadka, N. C. J., Eisenstein, M., Katchalski-Katzir,
+E., Schoichet, B. K., Kuntz, I. D., Abagyan, R. et al.
+(1996). Molecular docking programs successfully pre￾dict the binding of a beta-lactamase inhibitory protein
+to TEM-1 beta-lactamase. Nature Struct. Biol. 3, 233–239.
+7. Joughin, B. A., Green, D. F. & Tidor, B. (2005). Action￾at-a-distance interactions enhance protein binding
+affinity. Protein Sci. 14, 1363–1369.
+8. Kozer, N., Kuttner, Y. Y., Haran, G. & Schreiber, G.
+(2007). Protein-protein association in polymer solutions:
+from dilute to semidilute to concentrated. Biophys. J. 92,
+2139–2149.
+9. Albeck, S. & Schreiber, G. (1999). Biophysical character￾ization of the interaction of the beta-lactamase TEM-1
+with its protein inhibitor BLIP. Biochemistry, 38, 11–21.
+10. Albeck, S., Unger, R. & Schreiber, G. (2000). Evalua￾tion of direct and cooperative contributions towards
+the strength of buried hydrogen bonds and salt
+bridges. J. Mol. Biol. 298, 503–520.
+11. Petrosino, J., Rudgers, G., Gilbert, H. & Palzkill, T.
+(1999). Contributions of aspartate 49 and phenylala￾nine 142 residues of a tight binding inhibitory protein
+of beta -lactamases. J. Biol. Chem. 274, 2394–2400.
+12. Reynolds, K. A., Thomson, J. M., Corbett, K. D.,
+Bethel, C. R., Berger, J. M., Kirsch, J. F. et al. (2006).
+Structural and computational characterization of the
+SHV-1 beta-lactamase-beta-lactamase inhibitor pro￾tein interface. J. Biol. Chem. 281, 26745–26753.
+13. Rudgers, G. W. & Palzkill, T. (1999). Identification of
+residues in beta -lactamase critical for binding beta
+-lactamase inhibitory protein. J. Biol. Chem. 274,
+6963–6971.
+14. Zhang, Z. & Palzkill, T. (2003). Determinants of bin￾ding affinity and specificity for the interaction of TEM￾1 and SME-1 beta-lactamase with beta-lactamase
+inhibitory protein. J. Biol. Chem. 278, 45706–45712.
+15. Strynadka, N. C. J., Jensen, S. E., Alzari, P. M. &
+James, M. N. G. (1996). A potent new mode of beta￾lactamase inhibition revealed by the 1.7 Å X-ray
+crystallographic structure of the TEM-1-BLIP complex.
+Nature Struct. Biol. 3, 290–297.
+16. Ambler, R. P., Coulson, A. F., Frère, J.M., Ghuysen, J. M.,
+Joris, B., Forshman, M.et al. (1991). A standard number￾ing scheme for the class A beta-lactamases. Biochem. J.
+276, 269–270.
+17. Chowdry, A. B., Reynolds, K. A., Hanes, M. S.,
+Voorhies, M., Pokala, N. & Handel, T. M. (2007). An
+object-oriented library for computational protein
+design. J. Comput. Chem. 28, 2378–2388.
+18. Pokala, N. & Handel, T. (2005). Energy functions for
+protein design: adjustment with protein-protein com￾plex affinities, models for the unfolded state, and
+negative design on solubility and specificity. J. Mol.
+Biol. 347, 203–227.
+19. Pokala, N. & Handel, T. M. (2004). Energy functions
+for protein design I: efficient and accurate continuum
+electrostatics and solvation. Protein Sci. 13, 925–936.
+20. Emsley, P. & Cowtan, K. (2004). Coot: model-building
+tools for molecular graphics. Acta Crystallogr. D, 60,
+2126–2132.
+21. Abagyan, R. & Totrov, M. (1994). Biased probability
+Monte Carlo conformational searches and electrostatic
+calculations for peptides and proteins. J. Mol. Biol. 235,
+983–1002.
+22. Grigoryan, G., Ochoa, A. & Keating, A. E. (2007).
+Computing van der Waals energies in the context of
+the rotamer approximation. Proteins: Struct. Funct.
+Bioinform. 68, 863–878.
+23. Fu, X., Apgar, J. R. & Keating, A. E. (2007). Modeling
+backbone flexibility to achieve sequence diversity:
+the design of novel alpha-helical ligands for Bcl-xL. J.
+Mol. Biol. 371, 1099–1117.
+24. Hujer, A. M., Hujer, K. M. & Bonomo, R. A. (2001).
+Mutagenesis of amino acid residues in the SHV-1 beta￾lactamase: the premier role of Gly238Ser in penicillin
+and cephalosporin resistance. Biochim. Biophys. Acta,
+1547, 37–50.
+25. MacDowell, A. A., Celestre, R. S., Howells, M.,
+McKinney, W., Krupnick, J., Cambie, D. et al. (2004).
+Suite of three protein crystallography beamlines
+with single superconducting bend magnet as the
+source. J. Synchrotron Radiat. 11, 447–455.
+26. Otwinowksi, Z. & Minor, W. (1997). Processing of
+X-ray diffraction data collected in oscillation mode.
+Methods Enzymol. 276, 472–494.
+27. Storoni, L. C., McCoy, A. J. & Read, R. J. (2004).
+Likelihood-enhanced fast rotation functions. Acta
+Crystallogr., D Biol. Crystallogr. 60, 432–438.
+28. Adams, P. D., Grosse-Kunstleve, R. W., Hung, L.-W.,
+Ioerger, T. R., McCoy, A. J., Moriarty, N. W. et al.
+(2002). PHENIX: building new software for auto￾mated crystallographic structure determination. Acta
+Crystallogr. D, 58, 1948–1954.
+29. Dunbrack, R. L. & Cohen, F. E. (1997). Bayesian
+statistical analysis of protein sidechain rotamer pre￾ferences. Protein Sci. 6, 1661–1681.
+30. Jorgensen, W. L., Maxwell, D. S. & Tirado-Rives, J.
+(1996). Development and testing of the OPLS all￾atom force field on conformational energetics and
+properties of organic liquids. J. Am. Chem. Soc. 118,
+11225–11236.
+31. Jorgensen, W. L. & Tirado-Rives, J. (1988). The OPLS
+potential functions for proteins. energy minimizations
+for crystals of cyclic peptides and crambin. J. Am.
+Chem. Soc. 110, 1657–1666.
+Redesign of the SHV-1 BLIP Interface 1275

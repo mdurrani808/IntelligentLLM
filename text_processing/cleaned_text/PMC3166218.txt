@@ -1,0 +1,290 @@
+Structural linkage between ligand discrimination and receptor activation by type I interferons Summary Type I Interferons (IFNs) are important cytokines for innate immunity against viruses and cancer.
+Sixteen human IFN variants signal through the same cell surface receptors, IFNAR1 and IFNAR2, yet they can evoke markedly different physiological effects.
+The crystal structures of two human type I IFN ternary signaling complexes containing IFN2 and IFN reveal recognition modes and heterotrimeric architectures that are unique amongst the cytokine receptor superfamily, but conserved between different type I IFNs.
+Receptor-ligand cross-reactivity is enabled by conserved receptor-ligand "anchor-points" interspersed amongst ligand-specific interactions that tune the relative IFN binding affinities, in an apparent extracellular ligand proofreading mechanism that modulates biological activity.
+Functional differences between IFNs are linked to their respective receptor recognition chemistries, in concert with a ligand-induced conformational change in IFNAR1, that collectively control signal initiation and complex stability, ultimately regulating differential STAT phosphorylation profiles, receptor internalization rates, and downstream gene expression patterns.
+ Introduction IFNs were the first cytokines discovered more than half a century ago as agents that interfered with viral infection.
+IFNs have been established as pleiotropic, multifunctional proteins in the early immune response, exhibiting antiproliferative effects on cells, in addition to their strong immunomodulatory and antiviral activities.
+Due to their potency and diverse biological activities, IFNs are used for the treatment of several human diseases, including hepatitis C, multiple sclerosis and certain types of cancer.
+Based on the receptor system that mediates their effects, IFNs are grouped into type I, type II and type III IFNs.
+The type I IFNs act on, and are produced by almost every nucleated cell, and comprise 16 members with approximately 2060% sequence identity: IFN, IFN, IFN, IFN and 12 subtypes of IFN.
+IFN, IFN and IFN are produced by cells exposed to viruses or double-stranded RNA and have been shown to possess antitumor activity as well as protect cells against parasites and bacterial pathogens.
+Although similar in their spectrum of activities, IFN, IFN and IFN subtypes can vary significantly in their potency against different viruses, their antiproliferative activity and their ability to activate cells of the immune system.
+The mechanism mediating this differential activity and signaling through a common receptor remains controversial.
+ Despite their differential activities and broad range of potencies, all 16 human type I IFNs initiate signaling by binding to the same receptor composed of two subunits called IFNAR1 and IFNAR2.
+Together with the IL-10 family receptors, the IL-20 receptor, IL-22R, IL-22BP, IFNLR1, tissue factor and IFNGR, IFNAR1 and IFNAR2 form the class II helical cytokine receptor family (; Zdanov).
+In common with other class II helical cytokine receptors, the extracellular domain (ECD) of IFNAR2, whose NMR structure has been characterized, consists of two fibronectin III (FNIII)-like domains (D1 and D2).
+The ECD of IFNAR1, however, is unique, comprising a tandem array of four FNIII subdomains, designated SD1 to SD4, which arose from gene duplication of the typical two-domain structure.
+ The intracellular domains (ICDs) of IFNAR1 and IFNAR2 are associated with the Janus kinases (Jaks) Tyk2 and Jak1, respectively.
+Upon ligand binding by the IFNAR chains and formation of the extracellular signaling complex, these tyrosine kinases initiate a phosphorylation cascade principally mediated by STAT (signal transducer and activator of transcription) activation.
+Other important signaling pathways activated by type I IFNs include the phosphatidylinositol 3-kinase pathway and the MAP kinase pathway.
+Studies of the overlapping, yet differential cellular responses elicited by different members of the type I IFNs have suggested that the dynamics of ligand interaction with the receptor subunits plays a key role for regulating cellular response patterns.
+ There are currently no crystal structures of type I IFN receptor complexes, nor any complete receptor signaling complex in the class II helical cytokine family where structures of binary complexes of ligands (IFN-, IL-10, IL-22, IFN-) with their high-affinity receptor subunits are known.
+Here we present structural and functional data that sheds light on how type I IFNs engage their receptor chains, how the receptor system is able to recognize the large number of different ligands, and how the different chemistries of ligand interaction ultimately dictate the stabilities of the receptor complexes, and therefore exert primary control on differential signaling.
+ Results Type I IFNs exhibit distinct signaling and functional activities We studied IFNs that differed significantly in their biological activities: IFN, IFN2, and a mutant of IFN2, IFN2(YNS), that was engineered to have higher affinity for IFNAR1 in order to improve its anti-tumor efficacy.
+We tested their relative antiviral and antiproliferative potencies, as well as another type I IFN, IFN7 (Figures 1A, 1B, and S5).
+The EC50 values in a hepatitis C replication assay showed a 2- to 6-fold differences between the IFNs (IFN7: 36 fM, IFN: 37 fM, IFN2(YNS): 20 fM, IFN2(wt): 116 fM) (Figure 1A), while the antiproliferative activities on WISH cells differed by more than 1000-fold (EC50 values: IFN7: 1700 pM, IFN: 490 pM, IFN2(YNS): 1.5 pM, IFN2(wt): 890 pM) (Figure 1B).
+ We also compared the intracellular signaling activities of these IFNs by measuring phosphorylation of STATs in primary cells in whole blood from human donors using Phospho-Flow cytometry coupled with fluorescent cell barcoding.
+This approach enabled us to measure IFN responses on endogenous IFN receptors of multiple cell subsets (B cells, monocytes, CD8 and CD4 T cells) simultaneously without cell separation (Figures 1CF, S1, and S7).
+Although the potency of the different IFNs in inducing phosphorylation of STAT1 and STAT5 in monocytes is similar (Figures 1C, 1D), IFN2(YNS) has a lower EC50 for pSTAT1 induction versus pSTAT3 and pSTAT5 (Figure 1E).
+Comparing the ratios of EC50(pSTAT1) versus EC50(pSTAT5), reveals that the different IFNs exhibit significant variability in different cell subsets (Figure 1F), with IFN2(YNS) displaying the highest ratio of pSTAT1:pSTAT5 EC50 values in B cells, CD4 T cells and monocytes, whereas IFN produced the lowest ratio in all three cell subsets.
+Collectively, the cellular and signaling results highlight the puzzling properties of differential signaling through the common IFNAR1/IFNAR2 heterodimeric receptor.
+ The architecture of the IFN ternary signaling complex We determined crystal structures of a range of individual IFN receptor components, a sub-complex and ternary complexes at various resolutions (Figure 2 and Table S1): 1- the structure of unliganded IFNAR1 comprising SD1 through SD3 (IFNAR1SD4) at 1.9 (Figure 2A); 2- the IFNAR2-D2 domain at 2.6 (Figure 2B); 3- the binary complex between IFNAR2 and IFN2(HEQ) at 2.0 (Figure 2C) (HEQ contains three engineered mutations to Ala in its IFNAR1 binding site, but only wild-type IFN2 residues are in the IFNAR2 binding site); 4- the ternary ligand-receptor complex of IFN2(YNS) (hereafter also referred to as IFN2) at 4.0 (Figure 2D); 5- the ternary ligand-receptor complex of wild-type IFN at 3.5 (Figure 2E).
+High-resolution structures of sub-components determined here, and previously (IFN2, and IFNAR2-D1 domain), were used to solve the ternary complexes.
+Despite their lower resolution, the electron density maps of the ternary complexes (Figure S2) allowed refinement of almost all amino acids, and clear visualization of conformational changes between the free and bound states (details in Supplemental Information).
+The SD4 of IFNAR1 has been shown to be unnecessary for IFN binding and, consistent with electron-microscopic studies, it was not visible in the electron density maps.
+All structures can be viewed interactively at (http://proteopedia.org/w/Journal:Cell:1).
+ IFNAR1 and IFNAR2 bind on opposing sides of the IFN ligands in a nearly orthogonal architecture that has not been seen previously in crystal structures of cytokine-receptor complexes (Figures 2D, 2E).
+Both the IFN2 and IFN complexes exhibit almost identical overall receptor-ligand docking modes when the two ternary complexes are superimposed (RMSD of C = 0.9 ) (Figure 3A).
+The IFNAR1-IFN docking mode seen here is unusual and so far without precedent among cytokine-receptor interactions.
+The IFNAR1-IFN interface is formed by residues of the SD1, SD2 and SD3 sub-domains of IFNAR1 and by helices B, C and D of the IFN molecule (Figures 2D, 2E), burying a total surface area of 2197 2 (IFN ternary complex).
+The IFN ligand primarily binds to IFNAR1 at the level of the hinge between the SD2 and SD3 domains, with the SD1 domain capping the top of the IFN molecule.
+In prior cytokine receptor complexes of both the Type I (e.g. human Growth Hormone, Interleukin-2, Erythropoietin, etc.) and Type II (e.g. IFN, IL-10, etc.) systems, the principal interaction mode is between the cytokine and the loops projecting from the elbow formed between two bent Fibronectin-III (FNIII) domains (Figure 3B).
+In the case of IFNAR1, the SD2SD3 tandem FNIII domains appear to be oriented in the opposite direction, such that the loops at the extreme top and bottom ends of the FNIII domains form the major contacts with the IFN ligands in a manner reminiscent of pinchers, while the elbow loops that normally bind to cytokines face outward into solvent.
+The SD1SD2 tandem FNIII module engages the ligands in a manner that is more representative of a canonical cytokine-binding mode where the elbow contacts the ligand.
+As the SD1SD2 and SD3SD4 modules of IFNAR1 most likely arose by gene duplication, the relative orientation of the domains within the modules is thought to be similar, allowing us to model a position for SD4 (Figure S3A).
+However, its flexibility implies there is inter-domain variability in its position on a cell surface.
+ On the opposing side of the ligand, both IFNAR2-IFN interfaces are formed between parts of helices A and E and the AB loop of the ligand and the IFNAR2-D1 domain and the loop between strands 13 and 14 in the D2 domain, burying ~1841 2 (IFN2 binary complex) of surface area (Figures 2D, 2E, and 4).
+On IFNAR2, the IFN ligand does not bind at the apex of the elbow region between the D1 and D2 domains of IFNAR2 as seen in most type I and II cytokine-receptor complexes (Figure 3B), but rather almost all of the contact is with the receptor D1 domain.
+In the ternary complexes, the long axis of the IFN helical bundle is oriented perpendicularly to IFNAR1, but almost parallel to the beta sheets of the IFNAR2 D1 domain.
+The overall docking position of the ligands bound to IFNAR2 has global similarities to the manner in which the IFN dimer engages IFNGR1, and also to the IFN-IFNLR1 complex (Figure 3B).
+However there are large differences in the relative receptor-IFN binding orientations between them that clearly distinguish their recognition modes (Figure S3B).
+The rigid body ligand-binding topology to IFNAR2 is approximately similar to a docking model derived using constraints from NMR and mutagenesis.
+ Mechanism of IFN cross-reactivity versus discrimination by IFNAR2 We compared the ligand-IFNAR2 interfaces from the binary IFN2-IFNAR2 complex (2.0  resolution) (Figures 4AD and S2), and the IFN ternary complex (3.5  resolution) (Figures 4E and S2).
+We elucidated interactions that are conserved across type I IFNs (i.e. anchor points), versus those that would be ligand-specific (Figures 4 and 6).
+We also assembled previous alanine scanning data, together with new site-directed mutations prompted by the structures, in order to reconcile the structures with comprehensive energetic maps of the interfaces (Table S2).
+Overall, most of the residues involved in the IFN2-IFNAR2 interaction are also found in the IFN-IFNAR2 interface of the IFN ternary complex (Figures 4D, 4E), highlighting that the basis of IFN cross-reactivity is through conservation of interactions rather than through highly divergent binding solutions.
+For clarity, in the two-dimensional contact maps of Figures 4 and 5, ligand-specific receptor contacts are circled in red, while those with divergent mutational consequences are circled in orange (Table S2).
+(NOTE: due to non-identical sequence lengths (Figure 6G), the numbering of analogous IFN2 and IFN residues will often differ by one to three residues throughout the paper).
+For example, Arg332 (i.e. Arg35 in IFN), which is conserved in IFN, IFN, IFN and IFN (asparagine in IFN), appears to be the single most important residue for the interaction of both IFN ligands with IFNAR2 (Table S2, Figures 4B and 4D).
+It forms an extensive hydrogen-bonding network with the main chain carbonyl oxygen atoms of Ile45R2 and Glu50R2 and the side chain of Thr44R2.
+Replacing Arg332 in IFN2 by alanine destabilizes binding more than any other mutation in IFN2 (Table S2).
+Two hydrophobic interaction clusters are present in the IFN-IFNAR2 interface: the first one is formed between Leu152 and Met162 of the IFN molecule and Trp100R2 and Ile103R2 of IFNAR2; the second one comprises Leu262, Phe272, Leu302 and Val1422 of the ligand and Met46R2, Leu52R2, Val80R2 and Thr44R2 of the receptor.
+Of these, Trp100R2, Ile103R2, Met46R2, Val80R2, Thr44R2 and the ligand residues corresponding to Met1482, Phe272, Leu302 and Val1422 are also involved in the IFN-IFNAR2 interface.
+Substituting Met1482 in IFN2, or Ile103R2 of IFNAR2 results in 1030-fold decreases in binding to the receptor and both IFN ligands, respectively.
+As another example, Leu302 is conserved in all human IFNs, and equates to Leu32.
+Both are involved in similar hydrophobic clusters in IFNAR2 interactions that are also energetically similar (Table S2).
+Thus, these are energetically critical, shared anchor points mediating IFN cross-reactivity.
+ In contrast, the mechanism of ligand discrimination appears to derive in large part from differential energetics of shared contact positions among the different IFNs.
+A major ligand-specific difference between the IFN and IFN interface is related to Arg1492 in IFN2, and the analogous Lys152IFN in IFN, and their respective interaction chemistries with Glu77R2.
+In the IFN2/IFNAR2 interface these two residues (R149A2 and Glu77R2) stabilize the interaction by forming a salt bridge (Figures 4C, 4D) that is worth about 1.9 kcal/mol in free energy (Figure S4).
+Substituting Arg1492 by alanine reduces the affinity between IFN2 and IFNAR2 by two orders of magnitude (Table S2).
+Arginine at position 149 is the consensus in all type I IFNs except IFN, where it is replaced by Lys152, that forms an intra-molecular salt bridge with Glu149, and is within close proximity, but is not directly contacting Glu77R2 of the receptor.
+The differential contribution of Glu77R2 to the two interfaces is reflected in the observation that its mutation to alanine differentially affects IFN and IFN binding: The IFNAR2(E77A) mutant binds IFN2 with 60-fold lower affinity, while the affinity toward IFN is reduced only 10-fold (Table S2, highlighted in orange).
+To mimic the connectivity of the IFN2 binding interface, we made the Lys152Arg swapping mutation (in addition to K152A), which increases omega binding by 5-fold (Table S2).
+To establish the connectivity of Arg at position 152 in IFN with Glu77R2, we performed double mutant cycle analyses between E77R2 and K152A and K152R (Figure S4).
+Lysine152 binds Glu77R2 with a Gint of 1.3 kcal/mol, while Arg in position 152 binds with a Gint of 2.2 kcal/mol, clearly establishing that, indeed, the consensus arginine at this position is able to form a significantly stronger interaction, supporting the respective structural organization observed for the two different complexes.
+That the K152R substitution increases binding in IFN indicates that this position is a critical modular hotspot for ligand discrimination and signaling (discussed below).
+ There are additional examples of IFN sequence differences, observed as receptor contacts in the structures, playing a role in ligand subtype discrimination.
+Leu262 in IFN2 equates to Pro28 in IFN (Figures 4D, 4E).
+The IFN mutation P28A had no effect on receptor binding, while swapping Pro28 with Leu262 (i.e. P28L) reduced binding 6-fold in IFN.
+Thus, these residues have evolved distinct energetic values by substituting side chains.
+Another notable IFNAR2 contacting residue that differs between alpha and omega (Table S2), is Ala1452 that is Met148 in IFN.
+In alpha IFNs, alanine is the consensus residue in position 145 (148 in ).
+Yet, M148A reduces binding by ~2.5-fold.
+The complementary mutation of Ala145 to Met in IFN2 reduces binding by ~6-fold.
+This shows a distinct IFN-specific residue preference, and that this position is not simply degenerate for apolar side chains.
+The subtle apolar volume differences are keenly sensed in ligand discrimination.
+On the receptor side, Val80R2 differentially affects IFN versus IFN2 binding (Figures 4B, 4D and 4E, and Table S2, highlighted in orange).
+Two other residues in IFNAR2, His76R2 and Met46R2, also contribute to ligand discrimination (Table S2, highlighted in orange).
+ IFNAR1 forms a diffuse and broad interface with the IFN ligand The IFN and IFN2(YNS) complexes are essentially identical in their binding footprints to IFNAR1 (Figures 3A, and 5).
+We focus on the higher resolution IFN ternary complex for a detailed description of the IFN-IFNAR1 interfaces (Figure S2).
+When the unliganded IFNAR1SD4 structure and IFNAR1 of the ternary complexes are superimposed, it is apparent that the N-terminal SD1 domain and the SD2SD3 portion of IFNAR1 move relative to each other upon IFN binding (Figures 5A, and S3CD), allowing all three subdomains of IFNAR1 to contact the ligand.
+With the SD2SD3 domains overlaid and fixed, the conformational change upon complex formation is a quasi-rigid body movement of the SD1 domain by about 10  down toward the ligand, bringing Asn68R1, Tyr70R1 and Phe96R1 in contact with helix D of the IFN ligand (Figures 5A and 5C).
+The aromatic rings of Tyr70R1 and Phe96R1, together with the side chain of Leu131R1 in a loop of the SD2 domain, form a hydrophobic patch that packs against the ligand (Figures 5C, 5F).
+Arg123 on helix D of IFN forms a critical lynchpin for the SD1SD2 interaction: it hydrogen bonds to Ser182R1 in the SD2 domain, contacts Thr181R1 and Phe96R1, and is engaged in a salt bridge with Asp132R1 (Figures 5C, 5F).
+Arg123 is intramolecularly stabilized by Glu61 that also forms a hydrogen bond with Thr181R1.
+In addition, the IFN-IFNAR1 interface is characterized by van-der-Waals and hydrophobic interactions between Leu134R1 (SD2), Phe238R1 (SD3) and Phe67 in helix B (Figures 5D, 5F).
+The interactions between Leu134R1, Phe238R1 and the phenylalanine in the ligand (Phe642 in IFN) are conserved in the IFN-IFNAR1 interface (Figure 4E).
+Moreover, the contact between His236R1 and an aspartate in the ligand is common to the interfaces of both IFNs (Figures 5D, 5E).
+ It has been demonstrated that the three N-terminal FNIII domains of IFNAR1 (SD1SD3) are necessary and sufficient for ligand binding.
+In particular, the SD1 segment spanning residues 6270 is crucial for ligand binding and biological activity, with Val69R1 and Tyr70R1 as key residues.
+Their role is revealed by our ternary complex structures: Tyr70R1 directly contacts the ligand (Figures 5C, 5F), whereas the preceding Val69R1 stabilizes the S3S4 loop.
+Tyr70R1 and F238R1 are the only hotspot residues in the ligand-binding site of IFNAR1 (Table S2), highlighting its comparatively energetically flat binding surface compared to IFNAR2.
+Substituting these residues by alanine reduces the affinity to all tested IFN ligands by more than 10-fold (Table S2).
+ Most interactions of the IFN-IFNAR1 interface are conserved in the IFN2-IFNAR1 interface (Figures 5D, 5E, and 6C, 6G).
+Differences include an aromatic interaction between Tyr157R1 of the receptor and Tyr892 of IFN2.
+In IFN, Tyr157R1 hydrogen bonds to Gln96 (Figures 5D, 5E).
+Furthermore, Tyr852 and Tyr892 participate in the hydrophobic interaction with Leu134R1 and Phe238R1 of IFNAR1 and Phe642 of the ligand (Figure 5E); His71, which is contacting Asn242R1 in the IFN complex, is replaced with a serine in IFN2.
+The different chemical environments of Asn242R1 in the two complexes might contribute to ligand specificity (Table S2, highlighted in orange).
+ IFNs are discriminated through ligand-specific substitutions In order to analyze the cross-reactivity of the type I IFN receptor, we mapped the interface contact residues and the residues conserved between IFN2, IFN, IFN, IFN and IFN onto the surface of the IFN molecules in the ternary complexes (Figure 6).
+A comparison of the maps of contact residues with the degree of sequence conservation reveals that IFNAR1 and IFNAR2 cross-react with different IFNs by using a few conserved residues on their ligands as "anchor points" against a background of less- or non-conserved amino acids (Figures 6C, 6F, and 6G).
+As our mutational analysis has shown, ligand discrimination occurs primarily through distinct energetics of common contacts, but also through small numbers of IFN subtype- or sequence-specific, contacts.
+The invariant and conserved ligand residues comprise Leu32, Arg35, Val145, Arg147, Glu149, Lys152, Leu156 in the IFNAR2 interface and His60, Glu61, Gln64, Gln65, Phe67, Gln93, Gln96, Leu102, Leu120 and Arg123 in the IFNAR1 interface (residues and numbering referring to IFN).
+Of the invariant and conserved IFN residues that form direct contacts with the receptor chains, Leu32, Arg35, Leu156, His60, Glu61, Gln64, Phe67 and Arg123 influence the energetics of the ligand-receptor interaction, indicated by mutational studies of the corresponding residues in IFN2 (Leu302, Arg332, Leu1532, His572, Glu582, Gln612, Phe642 and Arg1202, see Table S2).
+ Probing differential IFN signaling with structure-based mutational analysis We analyzed two types of IFN mutations for their effects on signaling and function.
+We chose residues that differ in identity between IFN2 and IFN and either directly make energetically important receptor contacts in the structures, or are in close proximity to residues that do. The first group includes Ala mutations of these residues (L26A2/P28A, L30A2/L32A, A145G2/M148A, R149A2/K152A), as well as swaps of energetically important sister residues that are in corresponding positions (P28L, K152R).
+A second group of mutations was designed to change the binding affinity to both receptors simultaneously.
+These were based on the IFN2(YNS) variant (increases binding to IFNAR1 by ~60-fold), and include YNS/M148A and YNS/L153A, which reduce binding to IFNAR2 by 30- and 10-fold, respectively (Table S2).
+Proteins harboring both mutations will have an altered balance between their affinity to IFNAR1 (higher affinity) and IFNAR2 (lower affinity).
+The mutant binding affinities are shown in Table S2.
+This extended set of mutations was then used to assess a range of functional consequences of IFN binding to the IFNAR1/IFNAR2 receptors: 1- antiviral (AV) and antiproliferative (AP) activity (Figures 7 and S5), 2- pSTAT activation with respect to EC50s and their relative ratios in different cell types from whole blood (Figures 8A, 8B, and S7), 3- gene expression (PKR, CXCL11, and TRAIL) in WISH cells (Figures 8A and S6), and 4- receptor internalization (Figure 8C).
+ Antiviral and antiproliferative activity Structure-based mutations that result in loss of binding affinity also lead to a decrease in potency for both AV and AP activities, and consequently reduce the functional distinction between IFNs (Figures 7 and S5).
+These data are in general accord with the stability model - antiviral activity is less affected by a loss in binding affinity than antiproliferative activity.
+Strikingly, mutations increasing binding affinity, as the ones observed for the mutants IFN2(YNS) and IFN(K152R), result in a significant increase of the AP activity, but not AV activity (Figure 7B).
+Indeed, the IFN(K152R) gain-of-function mutant shows that a single substitution of the corresponding 2 residue results in IFN behaving more like IFN2(YNS).
+This supports the model that IFN-specific polymorphisms engaged in receptor contacts that energetically mediate complex stability play a major role in modulating IFN-specific functional activities (Figure 7B).
+These results also imply that intermediate affinities are sufficient to induce a maximal AV response, while much higher affinities are required to reach the maximal AP potency  in this respect the AP response is more tunable. p-STAT activation Phosphorylation levels of STAT1, 3, 4 and 5 were measured in whole blood samples from two human donors using Phospho-Flow cytometry and fluorescent cell barcoding (Figures 8A, 8B, and S7).
+Similar to the AV activity, the EC50 values obtained for p-STAT activation proportionally increased for weaker binding mutants, while for the high-affinity mutants (IFN2(YNS) and IFN(K152R)) the same trend was not observed.
+Indeed, although IFN2(YNS) induced slightly stronger STAT activation than IFN2(wt), these differences were very small relative to their very substantial differences in affinity.
+Similarly, with the IFN(K152R) mutant, despite its higher binding affinity, this mutant is somewhat less potent in pSTAT activation than IFN(wt).
+These results are in accord with the current model that AV activity is well correlated with early p-STAT activation, and AV activity is nearly maximal even for weak binders.
+In contrast, the extent of STAT activation is not sufficient to explain the potency of the AP response.
+ p-STAT ratios Variable ratios of STAT activation in cell subsets is a striking example of differential signaling through a common receptor by different IFN sub-types (Figure 1F).
+We analyzed the p-STAT activation ratios induced by the high affinity IFN2(YNS) and IFN(K152R) mutants, as well as the wildtype IFNs, IFN2 and IFN, in a mixed population of immune cells, i.e. whole blood samples from humans (Figures 8B and S7).
+Both mutants followed the same trend in deviations of p-STAT ratios relative to the wildtype IFNs, supporting the idea that by substituting a critical contact residue from one IFN into another, we have narrowed their functional distinction.
+Since the principal effects of these substitutions are on affinity, this further suggests that the stability of the complex is the key determinant for functional distinction of IFNs, and also highlights the utility of this metric as a readout of differential signaling activities by IFNs.
+ Receptor internalization We hypothesized that rapid receptor downregulation could be responsible for the non-proportional p-STAT activation observed for IFN mutants with increased binding affinity.
+Increased IFNAR2 downregulation by an IFN2 mutant with increased binding affinity towards IFNAR1 has been observed.
+Here we show that mutants exhibiting higher binding affinity for IFNAR2 than wt induced a stronger IFNAR2 downregulation (Figure 8C), and faster decrease in p-STAT activation (Figure 8D).
+The IFN2(YNS) reduced IFNAR2 by 60%, while the K152R mutant almost completely eliminated surface IFNAR2, as opposed to wildtype IFN2 or IFN that only reduced the surface IFNAR2 by ~50% (Figure 8C).
+Thus, increased binding affinities increase the propensity for receptor endocytosis, which leads to faster termination of signaling.
+The substantially stronger IFNAR2 downregulation exhibited by K152R may explain the surprising increase in EC50 of p-STATs seen for this mutant (Figure 8A) due to more rapid (Figure 8C) receptor inactivation in the endosome.
+ Gene expression We asked how receptor-binding affinity regulates the IFN-induced gene expression program.
+By rtPCR, we measured the levels of PKR, CXCL11 and TRAIL induction following 8 h of treatment with the different IFN mutants (Figures 8A and S6  note P28A and M148A were not included in the gene expression analysis).
+We found a uniform correlation between receptor binding affinity and gene expression levels.
+That is, mutants with reduced affinity induced lower levels of PKR, CXCL11 and TRAIL, while mutants with higher affinity induced higher levels of these genes.
+These data also indicate that the extent of STAT activation as measured by tyrosine phosphorylation does not fully explain the level of gene expression and AP response induced by the different IFN mutants, as in the case of the YNS and K152R mutants.
+While YNS is only marginally more potent activating STATs than IFN2(wt), it is significantly more potent in inducing TRAIL, PKR and CXCL11 than IFN2(wt).
+Interestingly, while the EC50 for PKR gene expression activation is ~50-fold lower for most IFNs than the one measured for TRAIL or CXCL11, these ratios are significantly smaller (~15-fold) for the three YNS2 variants and for the K152R mutant (Figure S6), suggesting that tighter binding IFNs lose some of this differential gene activation, perhaps by sacrificing tunability for affinity.
+ Discussion Type I interferons were discovered over 50 years ago as antiviral agents.
+Subsequent research has shown that the many IFN sub-types show differential activities through common receptor chains.
+Our studies show that the overall architectures of receptor binding to both IFN2 and IFN are nearly identical (Figure 3A), and that the answer to how different IFNs are capable of inducing differential functional effects appears to result from ligand discrimination through distinct receptor binding chemistries, which dictate the respective stabilities of the receptor-ligand interactions.
+The distinct binding chemistries are achieved primarily by differential energetics of shared anchor points, and to a lesser extent by key amino acid substitutions between IFNs.
+These ligand-specific differences in the extracellular complex stabilities manifest as perturbations in downstream signaling cascades, in both linear and non-linear fashions.
+Mechanistically, different complex stability kinetics could control the relative Jak/Tyk activity towards intracellular substrates of greater or lesser accessibility, which would, in turn lead to distinct downstream effector activation profiles and ultimately impact induction of IFN-responsive genes.
+In this respect, recognition-mediated tuning of differential signaling by the Type I IFN receptor system is quite unique for a transmembrane receptor, but has parallels to the antigen proofreading ability of the T cell receptor to differentially respond to self and foreign peptide-MHC molecules presenting subtly different peptide recognition chemistries.
+ In the context of prior cytokine receptor structures, IFNAR1 is particularly striking, with participation of three subdomains and a conformational change upon IFN binding (Figures 5A and S3).
+That this is a bona-fide ligand-induced conformational change is corroborated by the importance of the SD1 domain for ligand binding, and by FRET measurements suggesting conformational changes in the ectodomain of IFNAR1 upon IFN binding.
+The conformational change in IFNAR1 is required to form the full spectrum of interactions with the ligand and to allow the formation of a ternary complex that is stable enough to facilitate trans-phosphorylation between Jak1 and Tyk2.
+Thus, ligand binding to IFNAR1 will be accompanied by an energetic cost associated with the structural rearrangements required to bring a key hotspot residue into contact, and could play a role in tuning responsiveness to different IFN ligands.
+We suggest that the required conformational change contributes to the reduced binding affinity of IFNAR1 and may result in tighter control of IFN signaling.
+ In addition to the conformational change, the role of IFNAR1 in ligand responsiveness is also unique compared to IFNAR2.
+IFNAR1 is not optimized for high binding affinity, but rather for functional plasticity.
+That is, in contrast to the interaction with IFNAR2, binding energy is distributed over a large number of amino acid contacts with relatively low individual contributions and with much lower cooperativity, altogether resulting in lower affinity.
+For early STAT activation, which is required for the antiviral cellular response, transient ligand interaction with IFNAR1 appears to be advantageous.
+High stability of the ternary complex seems to be more important for a subset of IFN activities requiring prolonged activation of IFN signaling pathways.
+The relatively large binding interface of IFNAR1 for IFN involving 3 FNIII-like domains provides a versatile means for fine-tuning the binding affinity towards different IFNs and tailoring differential response patterns.
+ The molecular basis of IFNAR cross-reactivity is unique compared with other shared receptor systems, such as gp130 and common gamma chain (c), and this likely reflects the fact that the IFN interaction chemistry controls signal initiation.
+Gp130 engages different cytokines through entirely distinct binding surfaces that do not appear to share anchor points, whereas c engages in degenerate binding largely through shape complementarity.
+What sets the IFNAR system apart is that the IFNAR1/2 heterodimer recognizes and transduces the signal for all 16 IFN sub-types, whereas in the other shared cytokine receptors, signal specificity is determined by different ligand-specific co-receptors hetero-dimerizing with the shared receptor.
+In this way, the recognition chemistry of gp130 and c are not important arbiters of signaling specificity.
+ With regards to function, our mutational and substitution experiments suggest a model whereby ablating or swapping key IFN-specific residues that engage in receptor interactions narrows the functional distinction between IFNs.
+Importantly, however, the mutational analysis also shows that the local environment of these contacts plays an important role in determining their energetic values in the respective IFN complexes.
+Mutation of individual positions has complicated energetic consequence.
+Therefore ligand-specific residues are not plug-and-play in a manner that easily allows one to recapitulate IFN sub-type behavior by point mutagenesis.
+This is to be expected given that the functional distinction of IFN ligands arose, in part, through co-evolution of broad receptor-ligand interaction surfaces over hundreds of millions of years.
+A surprising exception to this was the K152R gain of function mutation in IFN, which, clearly, is a highly modular contact point.
+ Ligand-specific differences in the stabilities of the complexes are also reflected in variances in the kinetics of receptor downregulation, which terminates signaling.
+Our studies revealed that increased binding affinities towards IFNAR1 (IFN2(YNS) mutant) or IFNAR2 (IFN(K152R) mutant) strongly enhance receptor downregulation, which very likely explains a much more rapid decline in p-STAT activation compared to IFN2(wt) and IFN(wt).
+Increased IFNAR2 downregulation by the higher affinity IFN, compared to IFN2, has been previously suggested to be responsible for differential cellular responses.
+Here, we have designed an IFN mutant with increased binding affinity towards IFNAR2, which surprisingly induces even stronger downregulation of IFNAR2.
+Increased IFNAR2 downregulation could explain why the substantially increased binding affinity of these IFN mutants is not accompanied by a significant increase in their AV potency, because it is very likely responsible for a rapid decrease in p-STAT levels, as seen after stimulation with IFN2(YNS) and IFN(K152R).
+ In contrast to AV activity, which requires only very low doses of IFN to reach saturation, AP activity benefits from an increased binding affinity.
+Cells need to sense very low levels of IFN and act very fast in order to clear viral infections in their initial stages.
+On the other hand, antiproliferative activity, which is often linked with apoptosis and tissue damage, needs to be under tighter control to prevent unnecessary damage.
+These activities will therefore be more tunable over a broad range to changes in the kinetics and strength of the downstream signaling.
+IFNs, by forming a gradient of complex stabilities will induce specific profiles of signal activation that will lead to diverse antiproliferative potencies.
+Taken together, differential IFN signaling activities are mediated by both non-linear signaling and non-linear receptor desensitization mechanisms.
+This type of ligand proofreading provides a mechanistic model, now together with a structural framework, for how a common receptor can respond in a graded fashion to different ligands.
+ Experimental procedures Transient Hepatitis C virus (HCV) replication assay The transient HCV replication assay was performed using Huh7.5 cells and a Luciferase reporter system as previously described.
+Additional details for this and subsequent experimental procedures can be found in Supplementary Information.
+ Antiproliferative activity assay Antiproliferative assays were performed using WISH cells as described in.
+ Protein expression, purification and complex formation The following proteins used in this study were expressed as C-terminally His-tagged constructs from baculovirus using the pAcGp67A vector: Human IFN (including all IFN mutants), IFN7, IFN2(HEQ), IFNAR1SD4 (amino acids 3305), full-length IFNAR1 ectodomain, IFNAR2 (amino acids 10205), IFNAR2-D2 (amino acids 104205).
+IFNAR2 used in the binary complex was secreted by Hi-5 cells in the presence of Tunicamycin at a concentration of 0.5 mg/L. IFNAR2 (amino acids 7205) used for IFN(N80Q) ternary complex formation was expressed using the BacMam expression vector pVL-AD6-L from suspended HEK293 GnTI cells grown in Pro293 medium, and was deglycosylated with endoglycosidase Hf.
+Human IFN2 and all IFN2 mutants, except HEQ, were expressed in E.coli according to published methods.
+Prior to crystallization, all proteins were treated with 3C protease/TEV protease and/or carboxypeptidase A and B to remove C-terminal His-tags.
+Selenomethionine(SeMet)-labeled proteins from baculovirus were prepared according to a protocol published earlier.
+ The IFN(N80Q) ternary complex was formed by mixing IFNAR1 and IFN(N80Q) from insect cells with IFNAR2 expressed in HEK293 cells.
+The IFN2(YNS) ternary complex was formed by mixing IFNAR1 and IFNAR2 from insect cells, and IFN2(YNS) expressed in E.coli.
+The complexes were formed by mixing individually purified components in approximately stoichiometric ratios; the complexes were purified by gel filtration.
+ Crystallization and X-ray data collection All crystallization experiments were carried out using hanging-drop vapor diffusion at 20C.
+Individual crystallization conditions can be found in Supplementary Information.
+ Data sets on frozen crystals were collected at beamlines 9.1 (SeMet-IFNAR1SD4), 9.2 (osmium-derivatized IFNAR1SD4; SeMet-IFNAR2-D2) and 11.1 (native data set of IFNAR1SD4) of the Stanford Synchrotron Radiation Lightsource (SSRL), and at beamlines 8.2.1 (IFN2(YNS) ternary complex) and 8.2.2 (IFN2(HEQ)-IFNAR2 binary complex; IFN(N80Q) ternary complex) of the Advanced Light Source (ALS), Berkeley.
+All data were indexed, integrated and scaled with the XDS package.
+ Structure determination and refinement Phases for IFNAR1SD4 were obtained by single isomorphous replacement with anomalous scattering (SIRAS) in the program autoSHARP using the osmium derivative and the native data set.
+ The structure of SeMet-labeled IFNAR2-D2 domain was determined by single-wavelength anomalous diffraction (SAD) using autoSHARP.
+ The IFN2(HEQ)-IFNAR2 binary complex, IFN2(YNS) ternary complex and IFN(N80Q) ternary complex were all solved by molecular replacement using the program Phaser.
+All X-ray structures described were refined with Phenix.
+Molecular graphics images were prepared using PyMOL (Schrdinger).
+ Affinity measurements All binding data of IFNs and the ECD of IFNAR2 were determined by surface plasmon resonance on a ProteOn XPR36 machine (BIO-RAD) using purified proteins.
+Binding of IFN2(YNS) and IFN to immobilized IFNAR1 was probed by simultaneous total internal reflection fluorescence spectroscopy (TIRFS) and reflectance interference (RIF) detection.
+ Phospho-Flow analysis of intracellular signaling Analysis of intracellular signaling in whole blood was performed as previously described.
+Briefly, whole blood samples from two donors were warmed to 37C and stimulated with increasing concentrations of the appropriate cytokine for 30 min.
+After samples were fixed and lysed, samples were fluorescently barcoded with DyLight 800 and Pacific Orange dyes as previously described.
+After barcoding and combining, samples were stained for one hour with CD3 PE, CD4 Pacific Blue, CD20 PerCP-Cy5.5, CD33 PE-Cy7 and a combination of p-STAT1 Ax647 and p-STAT3 Ax488, or p-STAT5 Ax647 and p-STAT4 Ax488.
+Analysis was performed on a Becton Dickinson LSRII equipped with 405, 488, and 633 nm lasers.
+Data analysis was performed in Cytobank software.
+Log median fluorescence intensity values were plotted against cytokine concentration to yield dose-response curves.
+ Analysis of IFNAR2 downregulation Downregulation experiments were performed using Ramos cells stimulated with IFN proteins for 5 minutes, followed by anti-IFNAR2 mAb staining as described in.
+ Analysis of STAT phosphorylation kinetics Ramos cells were stimulated with 10 nM of IFN mutants for the indicated times according to the protocol in.
+Samples were analyzed by Phospho-Flow cytometry.
+ Quantitative PCR Selected human IFN-stimulated gene expression levels were measured with the ABI Prism 7300 Real-Time PCR System using previously described methods.
+ Supplementary Material This is a PDF file of an unedited manuscript that has been accepted for publication.
+As a service to our customers we are providing this early version of the manuscript.
+The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final citable form.
+Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.            Accession numbers          Coordinates and structure factors have been deposited within the Research Collaboratory for Structural Bioinformatics (RCSB) Protein Data Bank (PDB) under accession codes 3S98 (IFNAR1SD4), 3S8W (IFNAR2-D2), 3S9D (binary IFN-IFNAR2 complex), 3SE4 (ternary IFN complex) and 3SE3 (ternary IFN complex).
+            Supplemental Information          Supplemental Information includes Extended Experimental Procedures, seven figures, and two tables. References PHENIX: a comprehensive Python-based system for macromolecular structure solution Crystal structure of the IL-22/IL-22R1 complex and its implications for the IL-22 signaling mechanism The function of type I interferons in antimicrobial immunity Interferons at age 50: past, current and future impact on biomedicine Identification of residues of the IFNAR1 chain of the type I human interferon receptor critical for ligand binding and biological activity The human type I interferon receptor: NMR structure reveals the molecular basis of ligand binding Identification of a class of HCV inhibitors directed against the nonstructural protein NS4B Interferon-alpha and -beta differentially regulate osteoclastogenesis: role of differential induction of chemokine CXCL11 expression Insights into MHC class I peptide loading from the structure of the tapasin-ERp57 thiol oxidoreductase heterodimer BacMam system for high-level expression of recombinant soluble and membrane glycoproteins for structural studies Hydrophobic cluster analysis reveals duplication in the external structure of human alpha-interferon receptor and homology with gamma-interferon receptor external domain Type 1 interferons and the virus-host relationship: a lesson in detente Antitumor effects of interferon-omega: in vivo therapy of human tumor xenografts in nude mice Virus interference.
+I. The interferon Inquiring into the differential action of interferons (IFNs): an IFN-alpha2 mutant with enhanced affinity to IFNAR1 is functionally similar to IFN-beta Differential receptor subunit affinities of type I interferons govern differential signal activation Structure of IL-22 bound to its high-affinity IL-22R1 chain Crystal structure of the IL-10/IL-10R1 complex reveals a shared receptor binding site Automatic processing of rotation diffraction data from crystals of initially unknown symmetry and cell constants An interferon alpha2 mutant optimized by phage display for IFNAR1 binding confers specifically enhanced antitumor activities The stability of the ternary interferon-receptor complex rather than the affinity to the individual subunits dictates differential biological activities Fluorescent cell barcoding in flow cytometry allows high-throughput drug screening and signaling profiling Functional cartography of the ectodomain of the type I interferon receptor subunit ifnar1 Stochastic receptor expression determines cell fate upon interferon treatment The EM structure of a type I interferon-receptor complex reveals a novel mechanism for cytokine signaling Comparable potency of IFNalpha2 and IFNbeta on immediate JAK/STAT activation but differential down-regulation of IFNAR2 Phaser crystallographic software Crystal Structure of Human Interferon-lambda1 in Complex with Its High-Affinity Receptor Interferon-lambdaR1 Receptor density is key to the alpha2/beta interferon differential activities Intermolecular interactions in a 44 kDa interferon-receptor complex detected by asymmetric reverse-protonation and two-dimensional NOESY Interferons, interferon-like cytokines, and their receptors New structural and functional aspects of the type I interferon-receptor interaction revealed by comprehensive mutational analysis of the binding interface Determination of the human type I interferon receptor binding site on human interferon-alpha2 by cross saturation and an NMR-based model of the complex Zinc mediated dimer of human interferon-alpha 2b revealed by X-ray crystallography Mutational analysis of the IFNAR1 binding site on IFNalpha2 reveals the architecture of a weak ligand-receptor binding-site Structure of the interferon-receptor complex determined by distance constraints from double-mutant cycles and flexible docking Interferons pen the JAK-STAT pathway Ligand binding induces a conformational change in ifnar1 that is propagated to its membrane-proximal domain The receptor of the type I interferon family Complex modulation of cell type-specific signaling in response to type I interferons Automated structure solution with autoSHARP Structural analysis of IL-10 and Type I interferon family members and their complexes with receptor Crystal structure of a complex between interferon-gamma and its soluble high-affinity receptor Structural biology of shared cytokine receptors Structural analysis of cytokines comprising the IL-10 family Differential activities and potencies of type I IFNs (A) Antiviral dose-response curves of human hepatoma (Huh7.5) cells transfected with genomic hepatitis C virus (HCV) RNA and treated with IFN2(wt), IFN2(YNS), IFN or IFN7.
+(B) Antiproliferative dose-response curves of human amniotic epithelial (WISH) cells treated with IFN2(wt), IFN2(YNS), IFN or IFN7.
+(C) Dose-response curves for STAT1 phosphorylation in monocytes from human whole blood, as determined by Phospho-Flow analysis.
+(D) Dose-response curves for STAT5 phosphorylation in monocytes from human whole blood, as determined by Phospho-Flow cytometry analysis.
+(E) IFN2(YNS) more potently induces pSTAT1 than pSTAT3 or pSTAT5 in human primary monocytes.
+(F) Differential signaling properties of IFN2(wt), IFN2(YNS), IFN and IFN7 as evidenced by different ratios of pSTAT1 to pSTAT5 EC50 values in different cell types from human whole blood.
+See also Figure S1.
+ Crystal structures of type I IFN receptor components and ligand-receptor complexes Ribbon representations and designated resolutions of (A) IFNAR1SD4.
+(B) IFNAR2-D2.
+(C) The IFN2(HEQ)-IFNAR2 binary complex (IFN2(HEQ) brown, IFNAR2 green).
+(D) Ternary complex of IFNAR1 (blue), IFNAR2 (green) and IFN2(YNS).
+(E) Ternary complex of IFNAR1 (blue), IFNAR2 (green) and IFN.
+The membrane-proximal SD4 domain of IFNAR1 is depicted as an oval.
+See also Table S1 and Figure S2.
+ Similar architectures of type I IFN complexes are distinct from type II and type III IFN receptor complexes (A) The IFN molecules of the IFN and IFN2(YNS) ternary complexes were superimposed and are shown in side view and top view.
+The RMSD for the overall superposition of both structures is 0.9 . (B) The IFN ternary complex is shown side-by-side with the IFN-(IFNGR1)2 complex (PDB accession code: 1FG9), and the IFN-IFNLR1 complex (PDB accession code: 3OG6).
+(N, C: amino- and carboxy-termini.
+SD1SD4: subdomains of IFNAR1; D1, D2: N- and C-terminal domain of IFNAR2.
+See also Figure S3B.
+ Specificity and cross-reactivity determinants between IFN-IFNAR2 (A) Two different views of the IFN2-IFNAR2 binary complex.
+Helices of IFN2 are labeled AE. (B) Hotspot residues Leu302 and Arg332 of IFN2 and their environment in the interface with IFNAR2.
+Hydrogen bonds are shown as dashed lines.
+(C) Close-up view of Arg149IFN, Glu77R2 and His76R2 and their environment.
+Hydrogen bonds and salt bridges are depicted as dashed lines.
+(D) 2D interaction map of the IFN2-IFNAR2 interface.
+Amino acids are depicted as nodes in the interaction maps (rectangles: IFNAR2; ellipses: IFN).
+Interactions between side chains are represented by lines, interactions between side chains and backbone are depicted as arrows pointing toward the backbone.
+Van-der-Waals interactions and hydrophobic contacts are shown as solid lines, H-bonds or electrostatic interactions as dashed lines and aromatic interactions as dotted lines.
+Residues shown in panels B and C are bordered with a black line.
+Structural differences between the IFN-IFNAR2 and the IFN-IFNAR2 interfaces are highlighted in red.
+IFNAR2 residues that, when mutated, differentially affect IFN and IFN binding, are encircled in orange.
+(E) 2D interaction map of the IFN-IFNAR2 interface.
+See also Figure S2 and Table S2.
+ Ligand-induced domain movement in IFNAR1 and the IFN-IFNAR1 interfaces (A) Domain movement in IFNAR1 upon IFN binding.
+Unliganded IFNAR1SD4 (magenta) was superimposed onto subdomains 2 (SD2) and 3 (SD3) of IFNAR1 (blue) in the IFN ternary complex.
+The difference in the position of the SD1 domain is depicted as an arrow.
+The ligand, IFN, is shown with its molecular surface.
+See also Figure S3, and http://proteopedia.org/w/Journal:Cell:1.
+(B) Two different views of the IFN ternary complex.
+SD1SD3: subdomains of IFNAR1; D1 and D2: subdomains of IFNAR2.
+(C) Environment of the hotspot residues Tyr70R1 and Arg123 in the IFNAR1-IFN interface.
+Dashed lines symbolize hydrogen bonds and salt bridges.
+(D) Hydrophobic and aromatic interactions between Leu134R1 and the hotspot residue Phe238R1 in IFNAR1 and Phe67 in IFN. (E) The same region as in (D) in the IFN2-IFNAR1 interface. Hydrogen bonds in the close-up views are depicted as dashed lines.
+(F) Interaction map of the IFN-IFNAR1 interface in the IFN ternary complex.
+Amino acids are depicted as nodes in the interaction map (rectangles: IFNAR1; ellipses: IFN) as used in Figure 3.
+Residues shown in panels C, D and E are bordered with a black line.
+IFNAR1 residues that, when mutated, differentially affect IFN and IFN binding, are encircled in orange.
+ Conservation of residues in the ligand-receptor interfaces (AF) Residues on the surface of IFN and IFN involved in the interaction with IFNAR1 (panel A: IFN ternary complex, panel B: IFN ternary complex) and IFNAR2 (panel D: IFN binary complex, panel E: IFN ternary complex) are colored lightblue and green, respectively.
+Surface residues on IFN conserved between IFNs are shown in panels C and F. Physico-chemically conserved amino acids are colored yellow, residues that are invariant in at least four of five IFNs (IFN2, IFN, IFN, IFN and IFN) are shown in red.
+(G) Sequence alignment of human IFNs.
+Conserved and invariant residues are colored as in panels C and F. Interacting residues are denoted by rectangles below the alignment, colored according to panels A, B, D and E. Rectangles outlined in black mark interacting residues in the IFN2 binary complex.
+The secondary structural elements of IFN are depicted on top of the alignment.
+ Correlation between complex stability and functional activity (A) Antiviral and antiproliferative activity of IFN2 and IFN mutants relative to IFN2(wt) and IFN(wt), respectively.
+As a measure of complex stability, the product of the affinities toward IFNAR1 and IFNAR2 was calculated and divided by the value of the respective wildtype protein.
+(B) Direct comparison of the antiviral and antiproliferative activity (EC50 values) of the high-affinity mutants IFN2(YNS) and IFN(K152R) and the corresponding wildtype proteins.
+See also Figure S5.
+ Relationship between STAT phosphorylation, gene expression, and receptor downregulation to IFN mutant binding affinities (A) Complex stabilities and induction of STAT phosphorylation in CD4 T cells and gene expression [Protein kinase R (PKR), Tumor necrosis factor-related apoptosis-inducing ligand (TRAIL), chemokine CXCL11] by IFN2 and IFN mutants relative to wildtype IFN2 and IFN, respectively.
+(B) Different EC50(p-STAT) ratios for IFN2(YNS), IFN(K152R), IFN2(wt) and IFN(wt) in different cell subsets of whole blood from human donors.
+IFN2(YNS) and IFN(K152R) show the same trend of ratio deviations from the wildtype proteins.
+(C) Expression levels of IFNAR2 on the surface of B cell lymphoma (Ramos) cells 5 min after stimulation with IFN2 and IFN proteins.
+(D) Time course of decrease of p-STAT3 activation induced by different IFN and IFN proteins.
+See also Figures S6 and S7.
+ 

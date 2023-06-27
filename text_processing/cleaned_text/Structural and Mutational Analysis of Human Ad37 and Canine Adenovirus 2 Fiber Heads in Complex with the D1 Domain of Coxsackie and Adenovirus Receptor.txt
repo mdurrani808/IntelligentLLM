@@ -1,0 +1,473 @@
+Structural and Mutational Analysis of Human Ad37 and  Canine Adenovirus 2 Fiber Heads in Complex with the D1  Domain of Coxsackie and Adenovirus Receptor*  Received for publication, June 2, 2006, and in revised form, August 21, 2006 Published, JBC Papers in Press, August 21, 2006, DOI 10.1074/jbc.
+M605316200  Elena Seiradake1, Hugues Lortat-Jacob  , Olivier Billet  **2  , Eric J. Kremer  **3  , and Stephen Cusack4  From the   Grenoble Outstation, European Molecular Biology Laboratory, Grenoble, France,   Institut de Biologie Structurale,  Unit Mixte de Recherche (UMR) 5075 Commissariat a` lEnergie Atomique-CNRS-Universit Joseph Fourier, Grenoble, France,    Institut de Genetique Moleculaire de Montpellier,   CNRS UMR 5535, and **Institut Fdratif de Recherche 122,  34293 Montpellier, France  Adenovirus fibers from most serotypes bind the D1 domain of  coxsackie and adenovirus receptor (CAR), although the binding  residues are not strictly conserved.
+To understand this further,  we determined the crystal structures of canine adenovirus serotype 2 (CAV-2) and the human adenovirus serotype 37 (HAd37)  in complex with human CAR D1 at 2.3 and 1.5 A resolution,  respectively.
+Structure comparison with the HAd12 fiber headCAR D1 complex showed that the overall topology of the interaction is conserved but that the interfaces differ in number and  identity of interacting residues, shape complementarity, and  degree of conformational adaptation.
+Using surface plasmon  resonance, we characterized the binding affinity to CAR D1 of  wild type and mutant CAV-2 and HAd37 fiber heads.
+We found  that CAV-2 has the highest affinity but fewest direct interactions, with the reverse being true for HAd37.
+Moreover, we  found that conserved interactions can have a minor contribution, whereas serotype-specific interactions can be essential.
+  These results are discussed in the light of virus evolution and  design of adenovirus vectors for gene transfer.
+  Adenoviruses (Ads)5 are nonenveloped icosahedral particles  (7090 nm in diameter) containing double-stranded DNA  genomes of 28 42 kbp.
+They have been isolated from a wide  variety of vertebrates, including mammals, birds, reptiles,  amphibians, and fish (1).
+The 50 human Ad serotypes (HAd)  (divided into species AF) lead to serotype-specific respiratory,  ocular, and enteric infections that are usually self-limiting diseases in immunocompetent individuals.
+However, Ad infections are a significant cause of morbidity and mortality in newborns and immunosuppressed individuals (2).
+Notably, bone  marrow and solid organ transplant patients who have severe  lymphocytopenia are at the highest risk for Ad-induced disease  (3).
+In addition, there are no drugs currently available that efficiently prevent or treat infections from all HAd serotypes.
+  The major adenovirus capsid protein is the trimeric hexon,  240 of which form the 20 facets of the icosahedron.
+The 12  vertices are composed of the penton complex, which comprises  the pentameric penton base and the externally projecting trimeric fiber.
+The fiber has a shaft of variable length with a terminal globular knob or head domain.
+In most cell typesin vitro,  the fiber head and penton base mediate attachment and entry,  respectively.
+Crystal structures are available of the HAd2 and  HAd5 hexons (4, 5); the HAd2 penton base (6); the fiber head  domains of HAd2, HAd3, HAd5, HAd12, HAd37, HAd41  (short); and a construct of HAd2 fiber head plus part of its shaft  (713) (reviewed in Ref. 14).
+In addition, there are recent high  resolution cryoelectron microscopy reconstructions of the  entire virus (15, 16).
+Based on similarities in overall capsid  architecture and capsid protein structure, Adenoviridae probably share an ancient common ancestor with bacteriophages of  the Tectiviridae family (1719).
+  The initial stages of adenoviral infection, cellular attachment, and internalization have been described as a two-step  mechanism.
+In the best characterized pathway, based on studies using HAd species C serotypes 2 and 5 (HAd2/5), the fiber  head first binds to a primary receptor.
+In the second step, a  conserved Arg-Gly-Asp (RGD) motif in the penton base binds  to integrins, triggering endocytosis (20).
+Enteric HAds belonging to subgroup F and also canine adenovirus type 2 (CAV-2) do  not possess an RGD motif in the penton base and may use  alternative mechanisms to trigger cell entry (2123).
+The first  primary Ad receptor identified was the immunoglobulin-like  coxsackie and adenovirus receptor (CAR) (24, 25), which is a  cell adhesion molecule found in tight junctions (26).
+A variety  of representative viruses from human Ad species A and CF  and nonhuman Ads (e.g. CAV-2) have been shown to use CAR  as a primary receptor (22, 27).
+In lung epithelial cells, CAR is  * Part of this work was funded by the Association Francaise contre les Myopathies (AFM) and the Vaincre les Maladies Lysosomales.
+The costs of publication of this article were defrayed in part by the payment of page  charges.
+This article must therefore be hereby marked advertisement in  accordance with 18 U.S.C. Section 1734 solely to indicate this fact.
+  The atomic coordinates and structure factors (code 2J12, 2j2j, 2j1k) have been  deposited in the Protein Data Bank, Research Collaboratory for Structural  Bioinformatics, Rutgers University, New Brunswick, NJ (http://www.rcsb.org/).
+1 Supported by an EU FP6 Marie Curie Early Stage Research Training Fellowship under Contract MEST-CT-2004-504640 (E-STAR).
+2 An AFM postdoctoral fellow.
+  3 An INSERM Director of Research.
+To whom correspondence may be  addressed: IGMM, CNRS UMR 5535, 1919 Route de Mende, 34293 Montpellier, France. Tel.: 33467613672; E-mail: eric.kremer@igmm.cnrs.fr. 4 To whom correspondence may be addressed: Grenoble Outstation, European Molecular Biology Laboratory, 6 rue Jules Horowitz, BP181, 38042  Grenoble Cedex 9, France. Fax: 33476207199; Tel.: 33476207238; E-mail:  cusack@embl-grenoble.fr.
+5 The abbreviations used are: Ad, adenovirus; HAd, human adenovirus serotype; CAR, coxsackie and adenovirus receptor; SPR, surface plasmon resonance; TEV, tobacco etch virus; Bicine, N,N-bis(2-hydroxyethyl)glycine;  r.m.s., root mean square.
+  THE JOURNAL OF BIOLOGICAL CHEMISTRY VOL.
+281, NO.
+44, pp. 33704 33716, November 3, 2006   2006 by The American Society for Biochemistry and Molecular Biology, Inc. Printed in the U.S.A.  33704 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 281NUMBER 44NOVEMBER 3, 2006   at Univ of St Andrews on May 25, 2015 http://www.jbc.org/ Downloaded from located predominantly on the basolateral side of the cells,  where it plays a role in cell-cell adhesion, probably via dimerization of the D1 domain (CAR D1) (26, 28, 29).
+The crystal  structure of the HAd12 fiber head in complex with human CAR  D1 revealed the binding site at the interface of HAd12 fiber  head monomers and highlighted the AB loop as a critical region  involved in CAR binding (13).
+The HAd12 fiber head-CAR D1  binding site overlaps with the CAR D1 dimerization site (30).
+  The fact that the HAd2 fiber head-CAR D1 affinity is 1000-fold  higher than the affinity between CAR D1 monomers supports  the finding that excess fiber produced during replication disrupts tight junctions by binding to CAR D1, thus promoting the  spread of progeny virus (31).
+  Most species B (e.g. HAd3) and some species D viruses (e.g.  HAd37) do not use CAR as a primary receptorin vivo but attach  to CD46 (or MCP (membrane cofactor protein), a regulator of  complement activation), sialic acids, and/or other primary  receptors (12, 3236).
+The short fibers of human enteric viruses  HAd40 and HAd41 do not bind CAR either.
+Crystal structures  of HAd3 (11) and HAd41 short fiber (10) show that the reason  for the inability to bind CAR is different in each case.
+For HAd3,  there are incompatible charged residues in the AB loop,  although the main-chain conformation of the loop is otherwise  suitable, whereas for HAd41 short fiber, the AB loop has an  altered conformation inconsistent with CAR binding (10).
+Surprisingly, HAd37 virions and recombinant fiber heads bind to  CAR in an overlay blot assay, although the virus does not use  CAR as a receptor (37).
+This may be because the HAd37 fiber  shaft is too short and rigid to allow efficient binding to cellular  CAR when the fiber is attached to the virus (38).
+Other studies  also confirm that the length and flexibility of the fiber shaft is  critical in infectivity (39).
+  In addition to their importance as human pathogens, Ads are  promising tools for the development of gene transfer vectors.
+  Because Ad-induced morbidity is relatively species-specific, we  and others hypothesized that vectors derived from nonhuman  Adenoviridae would be more clinically useful than those  derived from human serotypes, based, in part, on the potential  lack of ubiquitous memory immunity (cellular and humoral)  found in humans (40, 41).
+We therefore began developing vectors derived from CAV-2 (42 46), one of the 50 nonhuman  Adenoviridae currently identified.
+We showed that in the central nervous system of several species (including ex vivo human  tissue), CAV-2 vectors preferentially transduce neurons and  lead to an efficient level of axoplasmic transport (45).
+Helperdependent CAV-2 vectors (i.e. constructs that contain the Ad  inverted terminal repeats, packaging domain, and an exogenous expression cassette but are otherwise devoid of all other  viral coding sequences (reviewed in Ref.
+47)) lead to long term  transgene expression in the central nervous system (46) and  respiratory tract (48) of immunocompetent rodents without  immunosuppression.
+These data and those from studies using  helper-dependent HAd vectors (47) suggest that helperdependent CAV-2 vectors could be used for the long term  treatment of some global neurodegenerative disorders (49, 50).
+  To gain further insight into the plasticity of the CAR-fiber  head interaction and more generally to improve understanding  of adenovirus tropism and vector design, we determined two  new crystal structures, those of CAV-2 and HAd37 fiber head in  complex with human CAR D1.
+The structures were solved to  2.3 and 1.5  resolution, respectively, significantly better than  previous fiber head CAR complex structures.
+We also determined the structure of the CAV-2 fiber head alone at 1.5   resolution, which, together with the known structure of unliganded HAd37 fiber head (12), allows assessment of eventual  conformational changes upon complex formation.
+Based on the  structures, we analyzed the CAR-binding properties of wild  type and mutant HAd37 and CAV-2 fiber heads using surface  plasmon resonance (SPR).
+Together with existing structural  information on the HAd12 fiber head in complex with human  CAR D1, we present a more complete understanding of the Ad  fiber head interaction with CAR D1.
+  EXPERIMENTAL PROCEDURES  Plasmids and CloningTwo vectors derived from pAB3  were kindly provided by Mark van Raaij (Universidad de Santiago), both containing the gene coding for residues 15140  of human CAR D1, one without any tag (pAB3.CAR15140)  and the other with a noncleavable C-terminal His tag  (pAB3.CAR15140H) (30, 51).
+Delphine Guilligay (EMBL  Grenoble Outstation) generously provided a vector derived  from pPROEX HTb (Invitrogen) containing a construct of the  HAd37 fiber head (residues 177365), an N-terminal His6 tag,  and a tobacco etch virus (TEV) protease cleavage site (12).
+A  fragment coding for CAV-2 fiber head residues 358542 was  generated by PCR using CAV-2 genomic DNA as template and  cloned into a pQE vector (Qiagen) containing a noncleavable  N-terminal His6 tag.
+The same fragment was cloned into  pPROEX HTb, a vector containing an N-terminal His6 tag and  a TEV protease cleavage site.
+For crystallization, only the  CAV-2 fiber head containing the noncleavable His tag was  used.
+All binding assays using SPR were performed exclusively  with the second CAV-2 construct (wild type and mutants), after  removal of the tag.
+To simplify the description of the methods,  both constructs will be referred to as CAV-2 fiber head. For  CAR D1, only the untagged construct was used for crystallization, and only the His-tagged construct was used for SPR assays.
+  The point mutants for SPR assays were created using the  QuikChange site-directed mutagenesis kit as suggested by the  manufacturer (Stratagene).
+  Expression and Purification of ProteinsFiber head constructs in pPROEX HTb were expressed in Escherichia coli  strain BL21 Star (DE3) (Invitrogen).
+The CAV-2 fiber head in  pQE was expressed in E. coli strain M15 (Qiagen).
+All proteins  were expressed at 37 C and in the soluble fraction.
+Cells were  resuspended in lysis buffer (20 mM Tris-HCl, pH 7.5, 300 mM  NaCl, 20 mM imidazole, Boehringer Complete EDTA-free protease inhibitor mixture) and lysed by sonication.
+The cell lysate  was centrifuged for 30 min at 25,000  g, and the supernatant  was loaded on an Ni2-nitrilotriacetic acid column (Qiagen).
+  Protein bound to the resin was washed with wash buffer (20 mM  Tris-HCl, pH 7.5, 300 mM NaCl, 50 mM imidazole) and eluted  with elution buffer (20 mM Tris-HCl, pH 7.5, 150 mM NaCl, 500  mM imidazole).
+To separate the His tag from constructs containing a TEV protease cleavage site, proteins were incubated  overnight with 1:100 His-tagged TEV protease at 10 C.
+ImidAd37 and CAV-2 Fiber Heads in Complex with CAR D1  NOVEMBER 3, 2006VOLUME 281NUMBER 44 JOURNAL OF BIOLOGICAL CHEMISTRY 33705   at Univ of St Andrews on May 25, 2015 http://www.jbc.org/ Downloaded from azole was removed by dialysis against lysis buffer.
+Uncleaved  protein and TEV protease were removed by binding to a Ni2-  nitrilotriacetic acid resin.
+Fiber head protein was concentrated  to about 5 mg/ml and either used for complex formation with  CAR D1 or loaded onto a Superdex200 column (Amersham  Biosciences) for further purification and changing of the buffer  to 150 mM NaCl, 10 mM HEPES (pH 7.4).
+  The preparation of periplasmic extract containing Histagged or untagged CAR D1 was performed as described (30).
+  Briefly, CAR D1 with or without His tag was expressed in E. coli  strain XL1 blue (Stratagene) at 25 C.
+The cell pellet was washed  with phosphate-buffered saline (8 g/liter NaCl, 0.2 g/liter KCl,  1.44 g/liter Na2HPO4, 0.24 g/liter KH2PO4 (pH 7.4)) and then  with (200 mM Tris, pH 8.0, 0.5 mM EDTA, 0.5 M sucrose) and  finally incubated for 20 min in 150 ml of distilled water to  release the periplasmic fraction.
+Boehringer Complete EDTAfree protease inhibitor mixture was added.
+For the purification  of untagged CAR D1, NaH2PO4, Na2HPO4, and NH4SO4 were  added up to the final concentrations of 25 mM, 25 mM, and 1.5  M, respectively.
+After centrifugation, the supernatant was  loaded onto a 75-ml phenyl-Sepharose FF high sub (Amersham  Biosciences) and eluted with a linear gradient of 1.5 0.0 M  NH4SO4 in PE buffer (25 mM NaH2PO4, 25 mM Na2HPO4,1mM  EDTA).
+Fractions containing CAR D1 were dialyzed against  crystallization buffer (see below) and concentrated to 10  mg/ml.
+For the purification of His-tagged CAR D1, NaCl, Tris,  pH 7.5, and imidazole were added to the periplasmic extract to  final concentrations of 150, 20, and 20 mM, respectively, and the  solution was loaded on a Ni2-nitrilotriacetic acid column.
+  Protein bound to the resin was washed with wash buffer (20 mM  Tris-HCl, pH 7.5, 300 mM NaCl, 50 mM imidazole) and eluted  with elution buffer (20 mM Tris-HCl, pH 7.5, 150 mM NaCl, 500  mM imidazole).
+Eluted CAR D1 was concentrated and loaded  on a Superdex200 column (Amersham Biosciences).
+During  this step, the buffer was changed to 150 mM NaCl, 10 mM Hepes,  pH 7.4.
+  To form complexes, fiber head and CAR D1 proteins were  mixed in an approximate ratio of 1:1 (w/w), incubated for 10  min at 4 C, and loaded on a Superdex200 column (Amersham  Biosciences). During this step, the buffer was changed to crystallization buffer (150 mM NaCl, 20 mM Tris, pH 7.5).
+The peak  fractions containing the complex of CAR D1 and fiber head  were pooled and concentrated to 8.5 mg/ml (HAd37 fiber head  and CAR D1) or 9 mg/ml (CAV-2 fiber head and CAR D1).
+  Crystallization, Data Collection, and Processing of HAd37  Fiber Head in Complex with CAR D1Crystals were obtained  at 20 C in hanging drops containing 1 l of protein solution  and 1 l of crystallization solution (17% polyethylene glycol  6000, 0.5 M LiCl, 0.1 M Tris, pH 8) and were flash-frozen in the  same solution containing 20% glycerol.
+Diffraction data were  collected to 1.5  at the European Synchrotron Radiation Facility (ESRF) on beamline ID14-EH1 using an ADSC Q4R detector.
+Data were integrated and scaled with XDS (52) (space  group I23).
+Data statistics are summarized in Table 1.
+The  asymmetric unit contained one fiber head chain (194 residues,  21.7 kDa) and one chain of CAR D1 (138 residues, 15.3 kDa).
+  Molecular replacement was performed with PHASER (53)  using chain A of HAd37 fiber head (Protein Data Bank entry  1UXA) (12) and CAR D1 as found in complex with HAd12 fiber  head (13) as models.
+  Crystallization, Data Collection, and Processing of CAV-2  Fiber HeadCAV-2 fiber head was concentrated to 9.5 mg/ml  and crystallized at 20 C in hanging drops containing 2 l of  protein solution and 4 l of crystallization solution (0.15 M KBr,  30% polyethylene glycol monomethyl-ether 2000).
+Data were  collected on ESRF beamline ID14-EH1 using an ADSC Q4R  detector and integrated with MOSFLM (54) (Table 1).
+Crystals  diffracted to 1.5  and contained two fiber head trimers (591  residues, 65 kDa each) in the asymmetric unit (space group  P21).
+Using an HAd2 fiber head model (Protein Data Bank entry  1QHV) (8), a convincing molecular replacement solution was  found by PHASER (53).
+However, the model could not be used  directly in refinement or automated model building; therefore,  RESOLVE was used in prime-and-switch mode with 6-fold  noncrystallographic symmetry (55).
+The six noncrystallographic symmetry matrices and subunit centers of mass were  derived from the molecular replacement model using SUPERPOSE (56).
+Initial phases from the model (829 residues) were  calculated with SFALL and SIGMAA from the CCP4 suite (57),  and these were used for automated model building using ARP/  wARP (58), which automatically built 1027 of the final 1086  residues modeled in the asymmetric unit.
+  Crystallization, Data Collection, and Processing of CAV-2  Fiber Head in Complex with CAR D1Crystals were obtained  at 20 C in hanging drops containing 1 l of protein solution  and 1 l of crystallization condition 1 (20% polyethylene glycol  monomethyl-ether 550, 0.1 M Bicine, pH 9, 0.1 M NaCl) or condition 2 (0.1 M Hepes, pH 7.5, 30% polyethylene glycol 400, 0.2 M  MgCl2).
+Crystals were flash-frozen without adding additional  cryoprotectant.
+Data were collected on ESRF beamline ID14-  EH2 using an ADSC Q4R detector (Table 1).
+Crystals from condition 1 were of space group I422 (a  b  219.9 , c  387.5 ),  diffracted to 2.3 , and contained four trimeric complexes (i.e.  12  12 chains of fiber head  CAR D1) in the asymmetric unit  (total 4020 residues, 443.6 kDa).
+Crystals from condition 2 were  of space group I4 (a  b  158.8 , c  183.2 ), also diffracted  to 2.3 , and contained two trimeric complexes (i.e. 6  6  chains of fiber head  CAR D1) in the asymmetric unit.
+Data  were integrated and scaled with XDS (52).
+Molecular replacement was performed with PHASER (53), initially using the data  scaled to space group I4.
+A model of trimeric CAV-2 fiber head  (see above) and CAR D1 as found in complex with HAd12 fiber  head (chain B in Protein Data Bank entry 1KAC) (13) were used  as models.
+The resulting coordinate file was used for molecular  replacement to solve the structure in space group I422.
+The  I422 electron density map was of better quality than that  obtained in I4 and yielded the final model described here.
+  All models passed through several rounds of refinement using  REFMAC (59).
+COOT (60) was used for the visualization of models and electron densitymaps and for the superposition of different  models.
+PROCHECK (61) was used to check the geometry of the  model.
+Noncrystallographic symmetry restraints and TLS refinement were used as appropriate, particularly for the CAV-2 fiber  headCAR D1 complex structure.
+Crystallographic refinement statistics are summarized in Table 1.
+  Ad37 and CAV-2 Fiber Heads in Complex with CAR D1  33706 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 281NUMBER 44NOVEMBER 3, 2006   at Univ of St Andrews on May 25, 2015 http://www.jbc.org/ Downloaded from Buried surface areas were calculated with AREAIMOL  (CCP4 suite).
+Intermolecular contacts at protein-protein interfaces were analyzed with CONTACT (CCP4 suite) and DIMPLOT (62).
+  SPR Binding AssaysSurface activation, protein immobilization, and binding assays were carried out using a Biacore 3000  SPR (Biacore, St. Quentin en Yveline, France), essentially as  described (51).
+Briefly, flow cells of a Biacore CM4 sensor chip  were activated during 10 min with a cross-linking mixture consisting of 0.2 M 1-ethyl-3-(3-dimethyl-aminopropyl)-carbodiimidehydrochloride and 0.05 M N-hydroxysuccinimide, after  which CAR D1 (25 g/ml in 10 mM sodium acetate, pH 5.0) was  injected.
+Different amounts of immobilized protein were  obtained by varying the injected volume.
+Remaining activated  groups were blocked with a 10-min pulse of 1 M ethanolamine,  pH 8.5.
+A second flow cell was activated with the cross-linking  mixture and immediately blocked with ethanolamine to serve  as a negative control.
+No significant binding of fiber head to the  negative control flow cell was observed (not shown).
+All binding  assays were carried out at 25 C, and HBS-EP buffer (10 mM  HEPES, 150 mM NaCl, 3 mM EDTA, 0.005% P20 detergent, pH  7.4) was used as running buffer.
+Only nontagged fiber head  constructs were used in the experiments.
+Fiber head proteins  were diluted in running buffer, and different concentrations  were injected during 10 min over the CAR D1-coated surface,  using a flow rate of 25 l/min.
+This was followed by a wash with  running buffer.
+The surface was regenerated with two 1-min  pulses of 10 mM HCl.
+Primary data were fitted (with the Biaeval  3.1 software) to a trivalent binding model, since one trimeric  fiber head can bind up to three monomeric CAR D1 molecules.
+  This returns association rate constants in M1 s  1 for the first  binding reaction and in RU1 s  1 for the second and third ones,  and it is thus not possible to calculate an overall equilibrium  dissociation constant (Kd) from this analysis.
+Therefore, equilibrium data were extracted from the sensorgrams at the end of  each injection and used to calculate the Kd independently of the  kinetic analysis.
+In the case of HAd37 fiber head constructs,  whose binding to immobilized CAR is characterized by smaller  constants than for CAV-2, we allowed the experiments to proceed for 15 min to obtain equilibrium data.
+  RESULTS  The Structure of HAd37 Fiber Head Bound to Human CAR  D1 at 1.5  ResolutionThe space group I23 crystals contain  one fiber head monomer and one CAR D1 domain per asymmetric unit.
+The structure was solved by molecular replacement using HAd37 fiber head and CAR D1 as search models  and refined to an R-factor of 14.7% (R-free  16.8%).
+Application of crystal symmetry operations to the content of the asymmetric unit results in a triskelion structure reminiscent of that  described for the HAd12 fiber head in complex with CAR D1  (13) (Fig. 2).
+CAR D1 forms 15 direct hydrogen bonds with  HAd37 fiber head residues in the AB loop (Asp191, Ser193,  Gln200, and Lys202), -strand B (Lys205), CD loop (His231), DE  loop (Tyr266), FG loop (Ser277 and Ser299), and IJ loop (Glu351)  (Figs. 1A and 3).
+Most interacting residues are contributed by  one fiber head monomer (major binding site), except those  within the FG loop, which come from the adjacent monomer  (minor binding site).
+A number of hydrophobic contacts contribute to the binding and interrupt the extensive network of  bridging water molecules that fill channels and cavities between  the two protein surfaces in the major site.
+The biggest cluster of  hydrophobic residues comprises Ile224, Val226, Ala227, Pro194  (HAd37 fiber head) and Leu58, Leu73, Val70, and Val67 (CAR  D1).
+  The total surface area buried upon the binding of one CAR  D1 molecule by HAd37 fiber head is 2494 2  , comprising 1820  2 for the major binding site and 674 2 for the minor site (i.e.  involving the FG loop from the adjacent fiber monomer).
+The  corresponding values calculated for the HAd12-CAR D1 interface are a total of 1763 2  , comprising 1491 2 for the major  binding site and 272 2 for the minor site (13).
+The HAd12-  CAR D1 crystal structure revealed a poor shape complementarity of the protein-protein interface, which left cavities filled by  bridging water molecules.
+We therefore analyzed the shape  correlation statistic (Sc), a parameter that describes the shape  complementarity of two protein surfaces (excluding water),  which can be calculated with the program SC (63).
+An Sc of 1.0  represents a perfect match between the surfaces, and a value of  0.0 represents two unrelated surfaces.
+Typical Sc values are  0.70 0.76 for protease-inhibitor complexes and 0.64 0.68 for  antibody-antigen complexes.
+The Sc between the surfaces of  HAd37 fiber head and CAR D1 was calculated as 0.72, whereas  that for HAd12-CAR D1 was 0.66.
+Corresponding values for the  CAV-2-CAR complex are indicated below.
+  Superposition of the Structures of Free and CAR-bound  HAd37 Fiber HeadsComparison of HAd37 fiber head structures with and without CAR D1 (12) reveals rearrangements in  the fiber head structure (root mean square (r.m.s.) deviation  (C)  0.6 ), especially in the AB loop.
+When in complex with  CAR D1, the AB loop main chain changes to adopt the M-shape  typical of CAR-binding AB loops (Fig. 4B, compare also Fig. 4 in  Ref.
+10).
+AB loop residue Asp191 is flipped, and the main chain  around Thr192 is moved by 3.3  toward the fiber head axis (Fig.  4B).
+This conformational change enables binding of viral  Asp191 to Lys121 (CAR D1) via the side chain and to Lys123 (CAR  D1) via the backbone oxygen (Fig. 3).
+It also creates space for the  side chain of HAd37 Lys205 that now points toward the binding  interface to form a hydrogen bond with Glu56 (CAR D1) (Fig.  4B).
+Further notable differences between CAR D1-bound and  nonbound HAd37 fiber head can be found in the FG loop.
+FG  loop residue Lys300 is rotated away from CAR D1, and the entire  loop is shifted to avoid a steric clash between the side chain of  Lys300 and the main chain of CAR D1 (Fig. 4E).
+The need for a  conformational change in the FG loop to avoid a clash with  CAR was previously pointed out from modeling studies (64).
+  Compared with the monomeric structure of CAR D1 in solution (65), the CAR D1 C-C loop is shifted toward the interface  between two adjacent fiber head monomers.
+This shift enables  interactions with the FG and IJ loops of HAd37 fiber head.
+  The Structure of CAV-2 Fiber Head at 1.5  ResolutionThe  CAV-2 fiber head crystallized in space group P21, with two  trimers per asymmetric unit.
+Initial phases were calculated by  molecular replacement using HAd2 fiber head as a model (8)  and improved by imposing the 6-fold symmetry found in the  asymmetric unit.
+The final model has an R-factor of 16.5%  Ad37 and CAV-2 Fiber Heads in Complex with CAR D1  NOVEMBER 3, 2006VOLUME 281NUMBER 44 JOURNAL OF BIOLOGICAL CHEMISTRY 33707   at Univ of St Andrews on May 25, 2015 http://www.jbc.org/ Downloaded from FIGURE 1.
+A, sequence alignment of adenovirus fiber heads whose CAR binding kinetics have been measured in SPR experiments (51, 67).
+Residues that contact  CAR in crystal structures are highlighted in different colors to represent different types of interaction.
+Orange-red, side chain atoms of the residue are involved  in contact.
+Blue, backbone atoms of the residue are involved in contact.
+Half orange-red and half blue, both backbone and side chain atoms are involved in  contact.
+Yellow, residue is involved in a hydrophobic contact.
+Black box, the residue contributing to the interaction is located on the neighboring fiber head  monomer.
+Residues that are conserved in all fiber head sequences aligned are shown in boldface type.
+B, ribbon diagram of CAV-2 fiber head trimer looking  along the 3-fold axis toward the virus.
+The three monomers are colored red, blue, and yellow.
+Loops and visible -strands are labeled according to the  nomenclature introduced by Xia et al. (7).
+C, ribbon diagram of CAV-2 fiber head monomer, colored according to the rainbow from blue (N terminus) to red (C  terminus).
+The loops and -strands are labeled as in B. D, schematic diagram schematizing how an adenovirus might interact with CAR at tight junctions  between host epithelial cells based on Refs. 31 and 38.
+The three major capsid proteins are indicated (hexon, penton base, and fiber).
+The CAR ectodomains D1  and D2 are schematized as green ovals.
+Note that CAR homodimers must dissociate for fiber binding and that the fibers of adenoviruses using CAR as a receptor  contain flexible regions to permit the interaction (38).
+E, hypothetical model of HAd2 fiber (head and first part of shaft (9)) bound to CAR extracellular domains  D1 and D2.
+The model is derived from the HAd12-CAR D1 complex (13) and the structure of the D1  D2 domains of JAM1, the reovirus receptor, which is  structurally very similar to CAR (73).
+  Ad37 and CAV-2 Fiber Heads in Complex with CAR D1  33708 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 281NUMBER 44NOVEMBER 3, 2006   at Univ of St Andrews on May 25, 2015 http://www.jbc.org/ Downloaded from (R-free  20.6%) (Table 1).
+The CAV-2 fiber head is the first  nonhuman fiber head structure presented so far (Fig. 1, B and  C).
+The overall fold is close to that of known HAd fiber heads,  the structurally most similar being HAd12 (r.m.s.
+deviation   1.75  for 163 C positions aligned) and HAd2 (r.m.s.
+deviation  1.84  for 160 residues aligned).
+A notable difference  between CAV-2 fiber head and all HAd head structures determined is a short FG loop and an unusually long GH loop (12  residues compared with 7 residues in HAd12 and HAd37 fiber  heads) (Fig. 1A).
+The GH loop forms a short -helix at the top of  the fiber molecule and is involved in intermonomer interactions (Fig. 1B).
+  The Structure of CAV-2 Fiber Head Bound to Human CAR D1  at 2.3  ResolutionThe space group I422 crystals contain four  CAV-2 fiber head trimers, each bound to three CAR D1 molecules in the asymmetric unit.
+The structure was solved by  molecular replacement using the CAV-2 fiber head and CAR  D1 as search models and refined to an R-factor of 17.2% (R-free  22.0%).
+After refinement, B-values remained high for regions in  CAR D1 molecules that are remote from the interface with the  fiber head and that are not constrained by crystallographic contacts with neighboring molecules.
+For this reason, certain loop  areas in these CAR D1 chains were not included in the model.
+  The overall topology of CAV-2 fiber head bound to three CAR  D1 domains is similar to that of HAd12 (13) or HAd37 fiber  head in complex with CAR D1 (Fig. 2).
+However, each CAR D1  molecule is bound to only one CAV-2 fiber head monomer, not  two as in the case of HAd12 and HAd37 (i.e. there is no minor  binding site).
+As a result, CAR D1 is not packed against the cleft  between two adjacent fiber head monomers (fiber head cleft)  but is found in a comparably open conformation at the  periphery of the fiber head trimer (Fig. 2).
+This single point of  contact results in variability in the orientation of CAR D1 relative to the fiber head among the many examples in the asymmetric unit, with a maximum rotation of 5.9.
+Residues forming  direct hydrogen bonds with CAR D1 are located in the AB loop  (Gly370, Ser372, and Pro381), -strand B (Arg384), and the DE  loop (Thr441) (Figs. 2 and 3).
+Fixed water molecules were found  within the interface between CAV-2 fiber head and CAR D1,  suggesting that a water network bridging between the two protein surfaces plays an important role.
+Single water molecule  bridges connect Gly406 (CAV-2) to Gln69 (CAR D1) and connect Glu405 (CAV-2) to both Val70 and Asp68 (CAR D1).
+Thus,  fiber head regions that are not directly involved in CAR binding, such as the CD loop, contribute to CAR binding via watermediated bonds.
+Residues Ile373 and Pro381 (CAV-2) and residues Leu73 and Val70 (CAR D1) form a hydrophobic patch  within the interface.
+The FG loop does not contribute to CAR  binding in a direct or water-mediated way (Fig. 4F).
+  The total surface buried upon binding of one CAR D1 to the  CAV-2 fiber is 1531 2  , corresponding to just the major site.
+  Remarkably few differences can be observed when comparing  the structures of CAV-2 fiber head bound to CAR D1 and  ligand-free (r.m.s. deviation (C)  0.4 ) apart from a slight  movement of the AB loop about 1  closer to the fiber head axis  (Fig. 4C).
+The calculated Sc for the interface between CAV-2  fiber head and CAR D1 is 0.55, the lowest of the three interfaces.
+  We note that the human and canine CAR D1 primary  sequences are 94% identical (98/106 amino acids).
+The eight  nonidentical residues are located outside the fiber-binding site,  suggesting that the CAV-2 fiber head would bind the canine  and human CAR D1 in an identical way.
+  Comparison of HAd37, HAd12, and CAV-2 Fiber Heads in  Complex with Human CAR D1Here we describe the similarities and differences between the three adenovirus fiber head  CAR D1 interfaces.
+  TABLE 1  Summary of crystallographic data and refinement statistics  CAV-2 fiber head  HAd37 fiber head in complex with  CAR D1  CAV-2 fiber head in complex  with CAR D1  ESRF beamline ID14-EH1 ID14-EH1 ID14-EH2  Detector ADSC Q4R ADSC Q4R ADSC Q4R  Wavelength () 0.934 0.934 0.933  Space group P21 I23 I422  Cell dimensions a  56.1 , b  88.6 ,  c  107.2 ,     90,    96.5  a  b  c  131.8 ,        90  a  b  219.9 , c  387.5 ,        90  Resolution range (last shell) () 28.4-1.5 (1.54-1.5) 29.5-1.5 (1.55-1.5) 47.7-2.3 (2.38-2.3)  Completeness (last shell) 0.95 (0.89) 0.99 (0.90) 0.96 (0.93)  Rmeas (last shell) 0.097 (0.15) 0.06 (0.53) 0.09 (0.51)  I/I (last shell) 15.3 (7.8) 25.5 (4.2) 13.4 (3.1)  R-factor (last shell) 0.165 (0.145) 0.147 (0.161) 0.172 (0.214)  R-free (last shell) 0.206 (0.207) 0.168 (0.211) 0.220 (0.295)  No. of reflections used in refinement 153,376 57,075 188,596  Fraction of reflections used for R-free  calculation  0.02 0.05 0.01  No. of atoms (nonhydrogen) 10,007 2758 29,895  Solvent content (%) 44 53 56  Mean B-value 6.0 15.2 27.2  Ramachandran plot of nonglycine and nonproline residues  Most favorable regions 806 (88%) 229 (86.1%) 2624 (85.4%)  Additional allowed regions 106 (12%) 36 (13.5%) 438 (14.3%)  Generously allowed None None 10 (0.3%)  Disallowed regions None 1 (0.4%) None  R.m.s.
+deviations from ideal values  Bond distances () 0.012 0.011 0.01  Angles 1.42 1.31 1.25  Ad37 and CAV-2 Fiber Heads in Complex with CAR D1  NOVEMBER 3, 2006VOLUME 281NUMBER 44 JOURNAL OF BIOLOGICAL CHEMISTRY 33709   at Univ of St Andrews on May 25, 2015 http://www.jbc.org/ Downloaded from FIGURE 2.
+Cartoon representations of adenovirus fiber heads in complex with CAR D1.
+HAd12, HAd37, and CAV-2 fiber heads are colored blue, pink, and  yellow, respectively.
+CAR D1 is in green.
+A, top view of the structure of HAd12 fiber head in complex with CAR D1 (13).
+B, as A, but HAd37 fiber head.
+C, as A and  B, but CAV-2 fiber head.
+D, part of the binding interface between HAd12 fiber head and CAR D1 showing some key interacting residues.
+E, equivalent region of  interface between HAd37 fiber head and CAR D1 showing conservation of the interactions and additional unique interactions provided by HAd37 Glu351 from  the IJ loop.
+F, same region of the CAV-2 fiber head and CAR D1 interface showing equivalent interactions made by sometimes different fiber residues.
+Hydrogen  bonds are shown in dotted lines.
+Residues marked with an asterisk are not fully represented for clarity.
+  Ad37 and CAV-2 Fiber Heads in Complex with CAR D1  33710 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 281NUMBER 44NOVEMBER 3, 2006   at Univ of St Andrews on May 25, 2015 http://www.jbc.org/ Downloaded from The Length of the FG Loop Determines the Relative Orientation of  CAR D1 Relative to the Fiber Head Superposition of the three  known structures of fiber head in complex with CAR D1 shows  that the orientation of CAR D1 can vary slightly.
+In complex  with HAd12 and HAd37 fiber heads, CAR D1 is bound to two  fiber head monomers simultaneously, making most contacts  with one fiber head monomer (major site) and additional contacts with the FG loop of the adjacent fiber head monomer  (minor site) (Fig. 4, D and E).
+In HAd37 fiber head, the FG loop  is longer than in HAd12, and the length of the FG loop is  reflected in the position of CAR D1; in complex with the HAd37  fiber head, CAR D1 is further away from the adjacent fiber head  monomer than when in complex with HAd12 fiber head (Fig.  2).
+Interestingly, the CAR D1 C-C  loop that binds HAd12 and HAd37  FG loops also forms hydrogen  bonds with residues in the HAd37  CD and IJ loops (His231 and Glu351).
+  When in complex with the HAd37  fiber head, the CAR D1 C-C loop is  shifted toward the fiber head cleft,  facilitating and held in place by  these additional interactions.
+The  FG loop in CAV-2 fiber head is  shortest of the three fiber heads  compared and is not involved in  direct contacts with CAR D1 (Fig.  4F).
+Since it is not tethered to the  CAV-2 FG loop, CAR D1 is not  close to the adjacent fiber head  monomer (Fig. 2), and this is probably responsible for the slight flexibility in orientation observed in the  crystal structure.
+  The AB Loop and -Strand B  Contribute to Conserved Interactions with CAR D1It has been suggested that the most conserved fiber  head region important for CAR D1  binding is the AB loop (13), and in  fiber heads that do not bind CAR,  this region is modified to be incompatible with CAR binding (10).
+The  primary sequence of CAR-binding  fiber heads is loosely conserved, and  we find that AB loop residues from  different fiber heads form equivalent contacts with the same residues  in CAR D1 (HAd37 Ser193 and  CAV-2 Ser372 both bind CAR D1  Asp54; HAd37 Asp191 and HAd12  Asp415 both bind CAR D1 Lys121)  (Fig. 2, DF).
+The strict conservation of the AB loop conformation  when in complex with CAR D1  allows conserved backbone interactions with CAR D1 Lys123 and CAR  D1 Tyr83.
+These interactions do not  depend directly on the primary AB loop sequence and are found  in the three fiber head CAR D1 complexes compared (Fig. 3).
+A  well conserved Lys (HAd12 Lys429, HAd37 Lys205) at the N terminus of strand B binds to the side chain of CAR D1 Glu56.
+This  Lys can be aligned to Arg384 in the CAV-2 fiber head, which both  make a salt bridge to Glu56 in CAR D1 (Figs. 1Aand 3).
+Hydrophobic interactions are also not strictly sequence-conserved.
+The  hydrophobic ring ofCAR D1Tyr80 interacts with the side chains of  AB loop residues HAd12 Leu426, HAd37 Lys202, and the ring of  CAV-2 Pro381.
+Also,CAR D1 Leu73 andVal70 contribute to hydrophobic centers that include the same AB loop region in all three  complexes (CAV-2 Ile373, HAd12 Pro418, and HAd37 Pro194)  (Figs. 2 and 3).
+  FIGURE 3.Representation of all likely hydrogen bonds between HAd12 (13), HAd37, or CAV-2 fiber heads  and CAR D1.
+Carbon, oxygen, and nitrogen atoms are black, red, and blue, respectively.
+Residues involved in  structurally conserved interactions are highlighted with a colored oval (CAR D1) or colored box (fiber head).
+  Residues that contribute to the same conserved interaction in different fiber head CAR D1 complexes share the  same color of box or oval.
+Residues belonging to the adjacent fiber head monomer are marked with an asterisk.
+  Hydrogen bonds are represented as dotted lines with the crystallographically determined distance between  the heavy atoms marked.
+The figure is derived from DIMPLOT output (62).
+  Ad37 and CAV-2 Fiber Heads in Complex with CAR D1  NOVEMBER 3, 2006VOLUME 281NUMBER 44 JOURNAL OF BIOLOGICAL CHEMISTRY 33711   at Univ of St Andrews on May 25, 2015 http://www.jbc.org/ Downloaded from InteractionsMediated by theDE LoopAreNotConserved, although  Certain Interactions Are Comparable The primary sequence and  three-dimensional structure of the DE loop is not well conserved  among the three fiber heads.
+Although the DE loop is involved in  binding CAR D1 in all structures examined, the interactions are all  different.
+Nevertheless, it is possible to find one similarity involving HAd37 Tyr266 and CAV-2 Thr441; these residues structurally  align, and both bind to residues close to the N-terminal part of  CAR D1 strand C (Pro52 and Asp54, respectively) (Figs. 1A and 3).
+  Interactions Mediated by the CD Loop Are Not Conserved  The fiber head CD loop contacts CAR D1 differently in each of  the three complexes.
+The HAd12 CD loop residue Lys451 forms  a hydrogen bond with Asp81 in the C-D loop of CAR D1.
+However, no equivalent interaction is formed by HAd37 or CAV-2  fiber heads, which contain Ala and Gly at that position (Fig. 1A).
+  The HAd37 CD loop makes direct contact to the C-C loop of  CAR D1 via a hydrogen bond between His231 (HAd37) and  Gln69 (CAR D1).
+As mentioned previously, Gln69 (CAR D1)  also binds to the HAd37 IJ loop (Glu351), a region that is not  involved in binding CAR D1 in the other two structures (Fig.  1A).
+The CAV-2 CD loop contacts CAR D1 only via watermediated bridges (see above).
+  Conserved Positions for Water Molecules Bridging between  Fiber Head and CAR D1As noted in the original study of the  HAd12-CAR D1 structure, water-filled cavities help glue the  interface.
+Indeed, four of the water molecules involved in bridging between the fiber head of HAd12 and CAR D1 were found at  equivalent positions in the structure of the HAd37 fiber headCAR D1 complex (Fig. 5).
+Three of these connect residues in the  AB loop with CAR D1 residues Lys121, Lys123, and Glu56.
+A  fourth water molecule forms a bridge between a conserved Ser  in HAd37 or HAd12 strand F and the backbone oxygen of  Gly127 (CAR D1) (Fig. 5).
+More generally, we find 11 direct  bridging water molecules (i.e. simultaneously making a hydrogen bond to a fiber head and a CARD D1 residue) in the HAd37-  CAR D1 complex major binding site but only three in the  HAd12-CAR D1 complex (although it is likely that the lower  resolution of this latter structure means that fewer water molecules are visible).
+Similarly, in the CAV-2-CAR D1 complex,  there are 11 direct bridging water molecules.
+However, in all  cases, many other ordered water molecules contribute to the  networks filling the cavities.
+  Surface Plasmon Resonance Studies of Fiber Head CAR D1  BindingThe fiber head-CAR D1 complex structures revealed  a number of interacting residues.
+To further investigate the  importance of these interactions, we generated point mutations  in HAd37 and CAV-2 fiber heads and analyzed the resulting  FIGURE 4.
+Superposition of adenovirus fiber head AB and FG loops as  found in complex with CAR D1 (green) or without CAR D1 (blue).
+CAR D1 is  shown in gray.
+Hydrogen bonds are shown in dotted lines.
+Differences  between the CAR D1-bound and unbound forms of HAd37 fiber head loops  are indicated with red arrows.
+Residues marked with an asterisk are not fully  represented for clarity.
+A, HA12 fiber head AB loop (13); B, HAd37 fiber head  AB loop; C, CAV-2 fiber head AB loop; D, HAd12 fiber head FG loop (13);  E, HAd37 fiber head FG loop.
+Please note that the clash does not occur in  reality, since the loop has a different conformation when bound to CAR D1  (shown in green).
+F, CAV-2 fiber head FG loop.
+There are no interactions  between the CAV-2 fiber head FG loop and CAR D1.
+  FIGURE 5.
+Conserved water molecules bridging between CAR D1 (gray as  found in complex with HAd12 fiber head (13), and green as found in  complex with HAd37 fiber head) and the AB loops of HAd12 fiber head  (blue) and HAd37 fiber head (pink).
+Water molecules are represented as  spheresthat are colored pink in the complex with HAd37 fiber head and blue in  the complex with HAd12 fiber head.
+Hydrogen bonds are represented as  dashed lines.
+  Ad37 and CAV-2 Fiber Heads in Complex with CAR D1  33712 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 281NUMBER 44NOVEMBER 3, 2006   at Univ of St Andrews on May 25, 2015 http://www.jbc.org/ Downloaded from proteins for their CAR D1 binding ability using SPR.
+We  adopted a strategy in which CAR D1 was immobilized onto the  flexible dextran layer of a sensor chip, and wild type or mutant  fiber heads were injected into the fluid phase over the surface.
+  Steady-state values were extracted from the sensorgrams to calculate the equilibrium affinity (Kd) (Fig. 6).
+  HAd37 Fiber Head and MutantsThe HAd37 fiber head  bound to CAR D1 with a Kd of 20 nM, an affinity that is 16-fold  lower than that previously reported for the HAd2 fiber headCAR D1 (51).
+Changing Ser299 (which interacts by one hydrogen bond to CAR Asp68 in the minor binding site) (Fig. 3) to  alanine reduced the affinity to CAR D1 by 5-fold, whereas the  HAd37 fiber head harboring the E351A mutation in the IJ loop  lost CAR D1 binding entirely, highlighting the importance of the  two strong hydrogen bonds mediated by this residue (Fig. 3).
+  CAV-2 Fiber Head and MutantsThe CAV-2 fiber head  bound CAR DI with an affinity of about 1 nM, which together  with the value for HAd2, is the highest among those measured  by SPR (Fig. 6).
+However, using a fluorescence anisotropy binding assay in solution (66), we found that the CAV-2 fiber knob  bound CAR D1 with an affinity that was 2.5-fold higher than  HAd2 (data not shown).
+In the case of the CAV-2 mutants, an  R384A mutation, which would eliminate the prominent salt  bridge with Glu56 (Fig. 3), only  reduced the affinity 4-fold, whereas  the charge reversal mutation R384E  abolished measurable CAR D1  binding.
+A large negative effect on  binding was found with the mutation T441A (at the beginning of  strand E; see Fig. 1A), probably due  to the weakening or disruption of  the three hydrogen bonds involving  CAR D1 Asp54 (Fig. 3).
+In the AB  loop, we replaced Gly370 by an Asp  that occurs in many other fiber  heads at this position (Fig. 1A).
+We  expected that this might enhance  the binding due to extra hydrogen  bonding opportunities.
+However,  we found that there was no notable  affect on the affinity to CAR D1.
+As  a control, we also made a change  distant from the CAR binding site,  R515A, which displayed similar  binding kinetics to the wild type.
+  These results highlight the fact  that it is difficult to predict from  structural data the contribution(s)  that interface interactions make to  the affinity.
+In addition, they show  that idiosyncratic (i.e. serotype-specific) interactions (e.g. that of Glu351  of HAd37 or Thr441 of CAV-2) can  have a greater significance than, for  instance, the conserved salt bridge  with CAR D1 Glu56.
+  DISCUSSION  We have presented the crystal structure of CAV-2 fiber head  at 1.5  resolution and found, as expected, that it is very similar  to that of HAd fiber heads.
+We also solved the crystal structures  of CAV-2 and HAd37 fiber heads in complex with their receptor CAR D1 at 2.3 and 1.5  resolution, respectively (Fig. 2).
+We  compared these two new complex structures with that at 2.6   resolution HAd12 fiber head in complex with CAR D1 (13).
+We  then introduced point mutations to CAV-2 and HAd37 fiber  heads to study by surface plasmon resonance binding assays the  contribution of selected residues to CAR binding (Fig. 6).
+  Current structure-based understanding of the fiber-CAR  interaction is mainly based on the only existing complex structure, that of HAd12 and CAR D1 (13).
+This pioneering study  highlighted the importance of the AB loop in the direct interactions between CAR and fiber head but also noted that the  interface showed unexpectedly poor shape complementarity,  despite the complex being of high affinity.
+The authors  explained this contradiction by the fact that ordered water molecules trapped in the cavities between the two surfaces could  act as a molecular glue, cross-linking the proteins by hydrogen  bonding.
+Furthermore, they proposed that such a partially  water-mediated interaction would permit greater freedom to  FIGURE 6.
+SPR sensorgrams of wild type and mutant adenovirus fiber heads binding to immobilized CAR  D1.
+A, wild type HAd37 fiber head; B, HAd37 fiber head mutant S299A; C, HAd37 fiber head mutant E351A;  D, wild type CAV-2 fiber head; E, CAV-2 fiber head mutant T441A; F, CAV-2 fiber head mutant R384E; G, CAV-2  fiber head mutant R515A; H, CAV-2 fiber head mutant G370D; I, CAV-2 fiber head mutant R384A. , results  calculated from the sensorgrams.
+The S.E. did not exceed 15% of the Kd. , Lortat-Jacob et al. (51) using the  same experimental set-up and CAR construct as in this work.
+, Kirby et al. (67) using a longer CAR construct.
+  Ad37 and CAV-2 Fiber Heads in Complex with CAR D1  NOVEMBER 3, 2006VOLUME 281NUMBER 44 JOURNAL OF BIOLOGICAL CHEMISTRY 33713   at Univ of St Andrews on May 25, 2015 http://www.jbc.org/ Downloaded from the virus to maintain receptor binding specificity while altering  its sequence in response to immune pressure.
+In a subsequent  study, mutations were made in the HAd12 fiber head to make it  more like that of HAd2, which was determined by a fluorescence binding assay to have an 8-fold higher affinity for CAR D1  than HAd12 (66).
+Structures were determined at 3.3 and 2.9   resolution of the P417S and S489Y mutants, respectively, of  HAd12 fiber head in complex with CAR D1.
+These supported  the idea that the increased affinity of HAd2 to CAR was probably due to additional hydrogen bonds across the interface,  although the relatively low resolution did not allow a detailed  analysis of the effect on the water structure.
+Mutational studies  of the fiber-CAR interaction have also been made on other  serotypes (reviewed in Ref. 64), the general conclusion being  that whereas some interactions seem to be conserved, there is  considerable variability in which residues are involved.
+This  modulates the affinity by about 10-fold, with the exception of  HAd9 fiber head that has an exceptionally low affinity to CAR  (67).
+  Our analysis of the now available fiber head CAR D1 complex  structures reveals that three elements are common to the CARbinding sites examined as follows.
+1) The overall triskelion  topology of the three Ad fiber head CAR D1 complexes is similar (Fig. 2).
+2) The M-shaped main-chain conformation of the  AB loop is conserved and critically allows the formation of  hydrophobic interactions with CAR D1 and two conserved  hydrogen bonds between backbone carbonyl oxygen atoms and  CAR D1 residues Tyr83 and Lys123 (Figs. 2 and 3).
+3) Aconserved  interaction is formed between a positively charged residue in  strand B (Lys or Arg) with CAR D1 residue Glu56.
+However, this  interaction is not essential in the case of CAV-2 fiber head, since  the R384A mutation reduces the affinity for CAR D1 only 4-fold  (Fig. 6).
+  On the other hand, five notable differences were found  between the three complexes.
+1) CAR D1 contacts two neighboring fiber head monomers in the complexes with the human  Ad fiber heads but only one in the CAV-2 complex, due to the  shortness of the FG loop (Fig. 2).
+2) The number of residues  involved in binding CAR D1, the amount of surface buried, and  the surface complementarity at the binding interface differ significantly between the three fiber heads.
+Comparative total buried surface area, number of direct hydrogen bonds between  residues, and shape complementarity are 2494 2 (1675 major,  674 minor), 15 hydrogen bonds, and Sc  0.72 for HAd37; 1763  2 (1491 major, 272 minor), 8 hydrogen bonds, and Sc  0.66  for HAd12; and 1531 2 (all major, no minor), 7 hydrogen  bonds, and Sc  0.55 for CAV-2.
+Surprisingly, the interface with  the most shape complementarity and largest number of interactions, that between HAd37 fiber head and CAR D1 (Fig. 3),  has the lowest affinity (see below) and vice versa for CAV-2.
+3)  The IJ loop of the fiber head is essential for CAR D1 complex  formation with HAd37 fiber head (since the E351A mutation  abolishes binding) but is not involved in HAd12 and CAV-2  CAR-binding (Fig. 6).
+4) HAd37 fiber head undergoes significant conformational changes to bind CAR D1, but HAd12 and  CAV-2 fiber heads do not (Fig. 4).
+5) The Kd of purified fiber  head to immobilized human CAR D1 varies between about 1  and 20 nM among most serotypes tested with SPR, the highest  and lowest affinities being for CAV-2 and HAd37 fiber heads,  respectively (summarized in Fig. 6).
+HAd9 has an exceptionally  high Kd of 6.4 m (67).
+  These results confirm and extend the previous observations  discussed above concerning the unusual nature of the adenovirus fiber-CAR interaction, compared with other virus-receptor  interactions.
+The fiber head-CAR D1 interface is of relatively  poor shape complementarity, allowing it to tolerate significant  variation in the identity of residues involved in direct contact  while preserving high affinity.
+This is in contrast to the canyon  hypothesis, proposed on the basis of studies of rhinovirus and  its receptor (ICAM1) (68), which postulated that key receptor  binding residues would be within narrow surface depressions  and hence inaccessible to antibodies, thus allowing them to be  highly conserved.
+  This and previous studies, show that the structural basis for  the unique adenovirus fiber-CAR interaction is a conserved  core interaction between CAR and the AB loop region of the  fiber head combined with variable additional interactions.
+This  interaction depends critically on the M-shaped main-chain  conformation of the AB loop, which should carry in its N-terminal part (following the TLWT motif) only small, polar or  nonpolar, (Gly, Ala, Pro, Ser, Thr, and Asp).
+Interestingly, the  non-CAR binding HAd3 and HAd41 short fiber heads violate  these two conditions (10).
+The CAR compatible AB loop allows  the formation of hydrophobic side-chain interactions with  CAR D1, two hydrogen bonds between fiber head backbone  carbonyl oxygen atoms and CAR D1 residues Tyr83 and Lys123  (and sometimes Lys121 as well), and a salt bridge with Glu56 of  CAR D1 (Fig. 2).
+A network of ordered water molecules that  make further bridging interactions reinforces this core interaction (Fig. 5).
+Other interactions, particularly with various loops  of the fiber head, are serotype-specific but can nevertheless  make a significant contribution to the binding affinity.
+  The tolerance to mutation of the fiber head-CAR D1 interaction is clearly of selective value to the virus in escaping host  immune response surveillance.
+Two mechanisms seem to play  a role in the conservation of the CAR binding specificity of the  fiber head, despite random mutations.
+First, the AB loop region  is tolerant to restricted mutations that preserve the core hydrophobic and polar interactions, and second, novel interactions  can be introduced involving other loops while losing unrelated  contact points.
+In this way, the strength of the interaction with  CAR can be maintained, although it may modulate in response  to other factors related to the particular tropism of different  serotypes.
+It is important to note that the degree of conservation does not necessarily correlate with the importance of an  interaction.
+Thus, the nonconserved bond between the HAd37  IJ loop and CAR D1 is essential for CAR-binding, whereas the  functionally conserved bond between CAV-2 Arg384 and CAR  D1 is not (Fig. 6).
+  Although HAd37 fiber head makes numerous contacts with  CAR D1, the overall affinity is lower than that found for CAV-2  (Fig. 6).
+As mentioned above, this highlights the fact that it is  extremely difficult to predict from structural data the contribution(s) that interface interactions make to the affinity.
+A possible explanation in this case is the fact that only HAd37 fiber  head needs to undergo conformational changes to bind CAR  Ad37 and CAV-2 Fiber Heads in Complex with CAR D1  33714 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 281NUMBER 44NOVEMBER 3, 2006   at Univ of St Andrews on May 25, 2015 http://www.jbc.org/ Downloaded from D1, notably in the AB and FG loop regions (Fig. 4).
+These  changes probably have a free energy cost that is only partially  offset by the binding energy, thus resulting in a relatively low  affinity.
+The reduced affinity between HAd37 fiber head and  CAR D1 may also reflect that this interaction is not required for  initial binding to the cell yet has been preserved for another  biological function, possibly to aid virus escape.
+  All three fiber heads compared here bind CAR D1; however,  only HAd12 and CAV-2 use CAR as a receptor.
+It has been  proposed that geometrical aspects of the relative orientation of  fiber and CAR and the length of the fiber shaft play a role in vivo.
+  First, CAR is located on the basolateral side of epithelial cells  and not easily accessible (26).
+Second, it has been argued that  the need for the virus to be able to bind CAR and cellular integrins simultaneously necessitates a long and flexible fiber shaft  as found in HAd12 but not in HAd37 (38).
+CAV-2 has a relatively long fiber shaft (about 35 nm) consisting of at least 18  repeats, and it contains a flexible region allowing the fiber to  bend close to the middle of the fiber shaft.6We also suggest that  the low number of direct contact points and absence of binding  to the adjacent monomer results in a more flexible CAV-2-CAR  D1 complex, adding to the effect of the flexible shaft.
+In fact, the  relative orientation of CAV-2 fiber head and CAR D1 molecules  toward each differs by up to 5.9 in our crystal structure, supporting this hypothesis.
+In contrast, HAd37 fiber head provides  a larger binding interface and over 20 contact points with CAR  D1, giving a relatively rigid complex that in fact is unable to  form in the context of the virion at the cell surface.
+  Both CAV-2 virions (46) and chimeric HAd5 viruses with  subgroup D fibers (e.g. from HAd37 (69)) or CAV-2 fiber heads  (70) are being developed as gene transfer vectors.
+The design of  such vectors is greatly aided by structural understanding of the  fiber and interactions with cellular ligands.
+In particular, more  specific vector targeting may be achieved by modification of  these interactions.
+One way to do this rationally is by designing  point mutants that disrupt undesired binding to certain receptors and promote the binding to others.
+To this end, elimination of CAR binding by HAd5 fiber has already been achieved  (71, 72).
+In this work, we identify point mutants of CAV-2 and  HAd37 fiber heads with greatly reduced ability to bind immobilized CAR D1.
+Notably, CAV-2 fiber head mutant R384E does  not bind CAR D1 at all, and mutations T441A and R384A have  reduced affinity.
+Similarly, we constructed a HAd37 fiber head  mutant, E351A, which does not bind CAR D1, and another,  S299A, that binds CAR with a 5-fold lower affinity (Fig. 6).
+  Our crystallographic and biochemical results have provided  detailed insight into adenovirus interaction with CAR and how  it is conserved despite sequence variation and led to the design  of mutations that eliminate CAR binding.
+These findings will  contribute to the development of Ad gene transfer vectors.
+  AcknowledgmentsWe are grateful to European Synchrotron Radiation Facility and EMBL staff for help on the synchrotron beamlines  and to Chloe Zubieta for data collection on the CAV-2 fiber head  crystals.
+  REFERENCES  1.
+Benko, M., and Harrach, B. (2003) Curr.
+Top.
+Microbiol. Immunol. 272,  335  2.
+Kojaoghlanian, T., Flomenberg, P., and Horwitz, M. S. (2003) Rev. Med.  Virol.
+13, 155171  3.
+Chakrabarti, S., Mautner, V., Osman, H., Collingham, K. E., Fegan, C. D.,  Klapper, P. E., Moss, P. A., and Milligan, D. W. (2002) Blood 100,  16191627  4.
+Rux, J. J., and Burnett, R. M. (2000) Mol. Ther.
+1, 1830  5.
+Rux, J. J., Kuser, P. R., and Burnett, R. M. (2003) J. Virol. 77, 95539566  6.
+Zubieta, C., Schoehn, G., Chroboczek, J., and Cusack, S. (2005) Mol.
+Cell  17, 121135  7.
+Xia, D., Henry, L. J., Gerard, R. D., and Deisenhofer, J. (1994) Structure 2,  12591270  8. van Raaij, M. J., Louis, N., Chroboczek, J., and Cusack, S. (1999) Virology  262, 333343  9. van Raaij, M. J., Mitraki, A., Lavigne, G., and Cusack, S. (1999) Nature 401,  935938  10.
+Seiradake, E., and Cusack, S. (2005) J. Virol. 79, 1408814094  11.
+Durmort, C., Stehlin, C., Schoehn, G., Mitraki, A., Drouet, E., Cusack, S.,  and Burmeister, W. P. (2001) Virology 285, 302312  12.
+Burmeister, W. P., Guilligay, D., Cusack, S., Wadell, G., and Arnberg, N.  (2004) J. Virol. 78, 77277736  13. Bewley, M. C., Springer, K., Zhang, Y. B., Freimuth, P., and Flanagan, J. M.  (1999) Science 286, 15791583  14.
+Cusack, S. (2005) Curr.
+Opin. Struct.
+Biol. 15, 237243  15.
+Fabry, C. M., Rosa-Calatrava, M., Conway, J. F., Zubieta, C., Cusack, S.,  Ruigrok, R. W., and Schoehn, G. (2005) EMBO J. 24, 16451654  16. Saban, S. D., Nepomuceno, R. R., Gritton, L. D., Nemerow, G. R., and  Stewart, P. L. (2005) J. Mol.
+Biol. 349, 526537  17.
+Abrescia, N. G., Cockburn, J. J., Grimes, J. M., Sutton, G. C., Diprose, J. M.,  Butcher, S. J., Fuller, S. D., San Martin, C., Burnett, R. M., Stuart, D. I.,  Bamford, D. H., and Bamford, J. K. (2004) Nature 432, 6874  18.
+Benson, S. D., Bamford, J. K., Bamford, D. H., and Burnett, R. M. (1999)  Cell 98, 825833  19.
+Benson, S. D., Bamford, J. K., Bamford, D. H., and Burnett, R. M. (2004)  Mol.
+Cell 16, 673685  20. Wickham, T. J., Mathias, P., Cheresh, D. A., and Nemerow, G. R. (1993)  Cell 73, 309319  21.
+Albinsson, B., and Kidd, A. H. (1999) Virus Res. 64, 125136  22.
+Soudais, C., Boutin, S., Hong, S. S., Chillon, M., Danos, O., Bergelson, J. M.,  Boulanger, P., and Kremer, E. J. (2000) J. Virol. 74, 1063910649  23.
+Chillon, M., and Kremer, E. J. (2001) Hum.
+Gene Ther.
+12, 18151823  24.
+Bergelson, J. M., Cunningham, J. A., Droguett, G., Kurt-Jones, E. A., Krithivas, A., Hong, J. S., Horwitz, M. S., Crowell, R. L., and Finberg, R.W. (1997)  Science 275, 13201323  25.
+Tomko, R. P., Xu, R., and Philipson, L. (1997) Proc.
+Natl. Acad. Sci. U. S. A.  94, 33523356  26.
+Cohen, C. J., Shieh, J. T., Pickles, R. J., Okegawa, T., Hsieh, J. T., and  Bergelson, J. M. (2001) Proc.
+Natl. Acad. Sci. U. S. A. 98, 1519115196  27. Roelvink, P. W., Lizonova, A., Lee, J. G., Li, Y., Bergelson, J. M., Finberg,  R. W., Brough, D. E., Kovesdi, I., and Wickham, T. J. (1998) J. Virol. 72,  79097915  28. Honda, T., Saitoh, H., Masuko, M., Katagiri-Abe, T., Tominaga, K.,  Kozakai, I., Kobayashi, K., Kumanishi, T., Watanabe, Y. G., Odani, S., and  Kuwano, R. (2000) Brain Res. Mol.
+Brain Res. 77, 1928  29.
+Raschperger, E., Thyberg, J., Pettersson, S., Philipson, L., Fuxe, J., and  Pettersson, R. F. (2006) Exp.
+Cell Res.
+312, 15661580  30. van Raaij, M. J., Chouin, E., van der Zandt, H., Bergelson, J. M., and Cusack,  S. (2000) Struct.
+Fold Des. 8, 11471155  31.
+Walters, R. W., Freimuth, P., Moninger, T. O., Ganske, I., Zabner, J., and  Welsh, M. J. (2002) Cell 110, 789799  32.
+Arnberg, N., Edlund, K., Kidd, A. H., and Wadell, G. (2000) J. Virol. 74,  4248  33. Gaggar, A., Shayakhmetov, D. M., and Lieber, A. (2003) Nat. Med. 9,  14081412  6 G. Schoehn, E. Seiradake, H. Lortat-Jacob, O. Billet, E. J. Kremer, and S. Cusack,  unpublished observations.
+  Ad37 and CAV-2 Fiber Heads in Complex with CAR D1  NOVEMBER 3, 2006VOLUME 281NUMBER 44 JOURNAL OF BIOLOGICAL CHEMISTRY 33715   at Univ of St Andrews on May 25, 2015 http://www.jbc.org/ Downloaded from 34.
+Segerman, A., Arnberg, N., Erikson, A., Lindman, K., and Wadell, G.  (2003) J. Virol.
+77, 11571162  35.
+Sirena, D., Lilienfeld, B., Eisenhut, M., Kalin, S., Boucke, K., Beerli, R. R.,  Vogt, L., Ruedl, C., Bachmann, M. F., Greber, U. F., and Hemmi, S. (2004)  J. Virol. 78, 44544462  36.
+Wu, E., Trauger, S. A., Pache, L., Mullen, T. M., von Seggern, D. J., Siuzdak,  G., and Nemerow, G. R. (2004) J. Virol. 78, 38973905  37.
+Wu, E., Fernandez, J., Fleck, S. K., Von Seggern, D. J., Huang, S., and  Nemerow, G. R. (2001) Virology 279, 7889  38.
+Wu, E., Pache, L., Von Seggern, D. J., Mullen, T. M., Mikyas, Y., Stewart,  P. L., and Nemerow, G. R. (2003) J. Virol. 77, 72257235  39.
+Shayakhmetov, D. M., and Lieber, A. (2000) J. Virol. 74, 1027410286  40.
+Both, G.W. (2002) inAdenoviral Vectors for Gene Therapy (Curiel, D., and  Douglas, J., eds) pp. 447479, Academic Press, Inc., San Diego  41.
+Paillard, F. (1997) Hum.
+Gene Ther. 8, 20072009  42.
+Klonjkowski, B., Gilardi-Hebenstreit, P., Hadchouel, J., Randrianarison,  V., Boutin, S., Yeh, P., Perricaudet, M., and Kremer, E. J. (1997) Hum.
+Gene  Ther.
+8, 21032115  43. Kremer, E. J. (2004) J. Gene Med. 6, Suppl. 1, 139151  44.
+Kremer, E. J., Boutin, S., Chillon, M., and Danos, O. (2000) J. Virol. 74,  505512  45.
+Soudais, C., Laplace-Builhe, C., Kissa, K., and Kremer, E. J. (2001) FASEB J.  15, 22832285  46.
+Soudais, C., Skander, N., and Kremer, E. J. (2004) FASEB J. 18, 391393  47.
+Amalfitano, A., and Parks, R. J. (2002) Curr.
+Gene Ther. 2, 111133  48.
+Keriel, A., Rene, C., Galer, C., Zabner, J., and Kremer, E. J. (2005) J. Virol.
+  80, 14871496  49.
+Kremer, E. J. (2005) Curr. Genomics 6, 1339  50.
+Neufeld, E. F. (1991) Annu. Rev. Biochem. 60, 257280  51.
+Lortat-Jacob, H., Chouin, E., Cusack, S., and van Raaij, M. J. (2001) J. Biol.  Chem.
+276, 90099015  52. Kabsch, W. (1988) J. Appl. Crystallogr. 21, 916924  53.
+McCoy, A. J., Grosse-Kunstleve, R.W., Storoni, L. C., and Read, R. J. (2005)  Acta Crystallogr.
+Sect.
+D Biol.
+Crystallogr. 61, 458464  54.
+Leslie, A. G. (1999) Acta Crystallogr.
+Sect.
+D Biol.
+Crystallogr. 55,  16961702  55.
+Terwilliger, T. C. (2003) Acta Crystallogr.
+Sect.
+D Biol. Crystallogr.
+59,  3844  56. Iwase, K., and Hirono, S. (1999) J. Comput. Aided Mol. Des. 13, 499512  57.
+Collaborative Computational Project 4 (1994) Acta Crystallogr.
+D Biol.
+  Crystallogr. 50, 760763  58. Perrakis, A., Morris, R., and Lamzin, V. S. (1999) Nat. Struct.
+Biol. 6,  458463  59. Murshudov, G. N., Vagin, A. A., Lebedev, A., Wilson, K. S., and Dodson,  E. J. (1999) Acta. Crystallogr.
+Sect.
+D Biol.
+Crystallogr. 55, 247255  60.
+Emsley, P., and Cowtan, K. (2004) Acta Crystallogr.
+Sect.
+D Biol.
+Crystallogr.
+60, 21262132  61.
+Laskowski, R. A., MacArthur, M. W., Moss, D. S., and Thornton, J. M.  (1993) J. Appl. Crystallogr. 26, 283291  62. Wallace, A. C., Laskowski, R. A., and Thornton, J. M. (1995) Protein Eng. 8,  127134  63.
+Lawrence, M. C., and Colman, P. M. (1993) J. Mol. Biol. 234, 946950  64.
+Law, L. K., and Davidson, B. L. (2005) Mol.
+Ther. 12, 599609  65. Jiang, S., Jacobs, A., Laue, T. M., and Caffrey, M. (2004) Biochemistry 43,  18471853  66.
+Howitt, J., Bewley, M. C., Graziano, V., Flanagan, J. M., and Freimuth, P.  (2003) J. Biol. Chem. 278, 2620826215  67.
+Kirby, I., Lord, R., Davison, E., Wickham, T. J., Roelvink, P. W., Kovesdi, I.,  Sutton, B. J., and Santis, G. (2001) J. Virol. 75, 72107214  68.
+Rossmann, M. G. (1989) J. Biol.
+Chem. 264, 1458714590  69.
+Denby, L., Work, L. M., Graham, D., Hsu, C., von Seggern, D. J., Nicklin,  S. A., and Baker, A. H. (2004) Hum.
+Gene Ther.
+15, 10541064  70.
+Glasgow, J. N., Kremer, E. J., Hemminki, A., Siegal, G. P., Douglas, J. T., and  Curiel, D. T. (2004) Virology 324, 103116  71.
+Roelvink, P. W., Mi Lee, G., Einfeld, D. A., Kovesdi, I., and Wickham, T. J.  (1999) Science 286, 15681571  72.
+Leissner, P., Legrand, V., Schlesinger, Y., Hadji, D. A., van Raaij, M.,  Cusack, S., Pavirani, A., and Mehtali, M. (2001) Gene Ther.
+8, 4957  73.
+Prota, A. E., Campbell, J. A., Schelling, P., Forrest, J. C., Watson, M. J.,  Peters, T. R., Aurrand-Lions, M., Imhof, B. A., Dermody, T. S., and Stehle,  T. (2003) Proc. Natl. Acad. Sci. U. S. A. 100, 53665371  Ad37 and CAV-2 Fiber Heads in Complex with CAR D1  33716 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 281NUMBER 44NOVEMBER 3, 2006   at Univ of St Andrews on May 25, 2015 http://www.jbc.org/ Downloaded from Billet, Eric J. Kremer and Stephen Cusack  Elena Seiradake, Hugues Lortat-Jacob, Olivier     Receptor  Domain of Coxsackie and Adenovirus   Fiber Heads in Complex with the D1  Human Ad37 and Canine Adenovirus 2   Structural and Mutational Analysis of  Protein Structure and Folding:  doi: 10.1074/jbc.M605316200 originally published online August 21, 2006  J. Biol. Chem. 2006, 281:33704-33716.
+     Access the most updated version of this article at doi: 10.1074/jbc.
+M605316200     Find articles, minireviews, Reflections and Classics on similar topics on the JBC Affinity Sites.
+  Alerts:       When a correction for this article is posted   When this article is cited  Click here to choose from all of JBC's e-mail alerts     http://www.jbc.org/content/281/44/33704.full.html#ref-list-1  This article cites 72 references, 25 of which can be accessed free at   at Univ of St Andrews on May 25, 2015 http://www.jbc.org/ Downloaded from

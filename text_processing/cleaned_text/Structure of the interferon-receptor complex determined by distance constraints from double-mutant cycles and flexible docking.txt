@@ -1,0 +1,266 @@
+Structure of the interferon-receptor complex  determined by distance constraints from  double-mutant cycles and flexible docking  Laila C. Roisman*, Jacob Piehler*, Jean-Yves Trosset, Harold A. Scheraga, and Gideon Schreiber*  *Department of Biological Chemistry, Weizmann Institute of Science, Rehovot, 76100 Israel; Baker Laboratory of Chemistry and Chemical Biology, Cornell  University, Ithaca, NY 14853-1301; and Pharmacia and Upjohn S.p.
+A., Viale Pasteur, 10, 20014 Nerviano, (MI) Italy  Edited by Alan Fersht, University of Cambridge, Cambridge, United Kingdom, and approved August 31, 2001 (received for review June 10, 2001)  The pleiotropic activity of type I interferons has been attributed to  the specific interaction of IFN with the cell-surface receptor components ifnar1 and ifnar2.
+To date, the structure of IFN has been  solved, but not that of the receptor or the complex.
+In this study,  the structure of the IFN-2ifnar2 complex was generated with a  docking procedure, using nuclear Overhauser effect-like distance  constraints obtained from double-mutant cycle experiments.
+The  interaction free energy between 13 residues of the ligand and 11  of the receptor was measured by double-mutant cycles.
+Of the 100  pairwise interactions probed, five pairs of residues were found to  interact.
+These five interactions were incorporated as distance  constraints into the flexible docking program PRODOCK by using  fixed and movable energy-gradient grids attached to the receptor  and ligand, respectively.
+Multistart minimization and Monte Carlo  minimization docking of IFN-2 onto ifnar2 converged to a welldefined average structure, with the five distance constraints being  satisfied.
+Furthermore, no structural artifacts or intraloop energy  strain were observed.
+The mutual binding sites on IFN-2 and  ifnar2 predicted from the model showed an almost complete  superposition with the ones determined from mutagenesis studies.
+  Based on this structure, differences in IFN-2 versus IFN- binding  are discussed.
+  proteinprotein interaction  PRODOCK  Monte Carlo minimization  grids  Type I interferons (IFNs) are a family of homologous cytokines that potently elicit an antiviral and antiproliferative  state in cells.
+All human type I IFNs (IFN-, -, and -) bind to  a cell surface receptor consisting of two transmembrane proteins, type I IFN receptor (ifnar) 1 (1) and ifnar2 (2), which  associate upon binding.
+IFN binds with high affinity to ifnar2,  probably recruiting ifnar1 subsequently.
+Type I IFNs belong to  the class of helical cytokines and are built of five helices.
+The  structures of human IFN-2 (3) and IFN- have been resolved  (4).
+The receptor structures are unknown, but can be modeled  by homology to human cytokine receptors with known structures  such as tissue factor (5) and IFN- receptor (6).
+Mutational  studies have revealed the mutual binding sites on IFN-2 and  ifnar2.
+On IFN-2, ifnar2 binds to the A helix (residues 1215),  the AB loop (residues 2635), and the E helix (residues 144153)  (7), whereas on ifnar2, IFN-2 binds to three loops of the  N-terminal domain of the receptor (residues 4552, 7582, and  102106) with no significant binding detected toward the Cterminal domain (810).
+Determination of the receptor-ligand  structure will significantly promote our understanding of IFN  signaling at the molecular level.
+  Docking of protein complexes, and calculating the conformational changes that occur at the binding interface, is a computational challenge.
+Rigid protein docking software algorithms  are fast and can be used to dock two proteins for which the NMR  or x-ray structures have been solved independently (11, 12).
+  However, successful docking relies on the similarity between the  unbound and complex protein structures, because accurate  prediction of global and local conformational changes is currently difficult (13).
+Without it, additional information from  mutagenesis studies, genetic studies, or bioinformatics is necessary to locate the interacting surfaces.
+Most of these methods do  not provide the relative orientation of the two proteins, but only  the location of the binding sites.
+This problem can be solved by  using a more advanced procedure for mutagenesis, in which pairs  of residues (X and Y located on proteins E1 and E2, respectively)  are mutated both singly and doubly, allowing the construction of  a double-mutant cycle (DMC) (14, 15).
+Assuming that only  neighboring residues interact, this method can be used to identify  distance constraints between the two proteins.
+To verify that  significant interaction free energies (Gint) are found mainly  between neighboring residues, the relation between the distance  and interaction free energy was evaluated for 71 pairwise  inter-residue interactions for which both values of Gint and  the structure at atomic resolution are known (data are from refs.
+  1620).
+In most cases (39 of 42), values of Gint  2.5 kJmol  were determined between neighboring pairs of residues (d  5  ).
+Yet, a favorable interaction free energy was not found  between all neighboring residues; in nine of 38 cases in which the  interaction free energy was less than 2.5 kJmol, the interresidue distance was less than 5 . Therefore, it is correct to  assume that favorable interaction energies, determined from  DMCs, pertain mostly to neighboring residues.
+However, the  absence of a significant interaction free energy does not indicate  that these two residues are remote.
+This distancefree energy  relation is the basis for the development of the distance constraint docking method, applied here to dock the IFN-2-  receptor complex.
+  DMC data have previously been used for rough docking of a  peptide inhibitor to a K channel pore, a peptide to an antibody,  and a ligand to a receptor (2123).
+The innovation in the present  work is to adapt the mutagenesis information into NMR-style  inter-residue distance constraints and use these constraints to  drive the docking computationally.
+DMC data are used for  precise docking of a proteinprotein complex.
+The docking  simulation is based on multistart minimization or Monte Carlo  minimization (MCM), with various steps to balance the optimization of the experimental constraints and the ECEPP3 energy  at the flexible interface.
+Docking of IFN-2 onto ifnar2 by using  both methods converged to a well-defined average structure,  with the five determined distance constraints being satisfied.
+  This paper was submitted directly (Track II) to the PNAS office.
+  Abbreviations: DMC, double-mutant cycle; ifnar, type I IFN receptor; EC, extracellular  domain; MCM, Monte Carlo minimization; rmsd, rms deviation.
+  Present address: Philipps-University Marburg, Institute of Physiological Chemistry, Karlvon-Frisch-Strae 1, 35033 Marburg, Germany.  To whom reprint requests should be addressed.
+E-mail: bcges@weizmann.ac.il.
+  The publication costs of this article were defrayed in part by page charge payment.
+This  article must therefore be hereby marked advertisement in accordance with 18 U.S.C.  1734 solely to indicate this fact.
+  www.pnas.orgcgidoi10.1073pnas.221290398 PNAS  November 6, 2001  vol. 98  no. 23  1323113236  IMMUNOLOGYMethods  Protein Expression and Purification. IFN-2 and ifnar2-extracellular domain (EC) were expressed in Escherichia coli and purified,  and their concentrations were determined as described (7, 24).
+  Site-Directed Mutagenesis.
+Site-directed mutagenesis was carried  out by PCR amplification of the complete plasmids for expression with 1821 nucleotide primers containing the mutated  codon by using high-fidelity polymerases pwo (Roche Diagnostics) and pfu (Stratagene) as described (10).
+  Binding Measurements.
+Ifnar2-ECIFN-2 interactions were  monitored by a label-free optical probe (reflectometric interference spectroscopy) that detects bimolecular interaction at  interfaces in real time under flow-through conditions (25).
+The  experimental set-up has been described (25).
+All measurements  were carried out by using 20 mM Hepes (pH 7.5), 150 mM NaCl,  and 0.01% Triton X-100 as a running buffer.
+Ifnar2-EC was  immobilized to the surface by using the non-neutralizing antiifnar2-EC mAb 46.10 followed by cross-linking with a second  mAb (117.7) (gift from Daniela Novick, Weizmann Institute) (7,  25).
+The binding curves were evaluated with BIAEVALUATION  software (Biacore, Uppsala) by using a simple one-to-one kinetic  model.
+For the determination of (equilibrium) dissociation  constants KD, the equilibrium response was plotted against the  concentration and fitted by the law of mass action.
+  DMCs.
+The free energy of interaction between two amino acid  residues Gint was determined from the change in interaction  free energy upon mutation G according to Eq. 1:  Gint  G00  G0j   Gi0 [1]  with i and j representing the wild-type residues and 0 being the  respective Ala mutant (15).
+Values of G were determined  from the dissociation rate constants (kd) for mutants for which  kd  0.3 s1.
+In this case, Gkd is calculated from (12, 18):  Gkd  RT ln  kd  mut  kd  wt . [2]  For faster dissociating mutant ligand-receptor pairs, the dissociation kinetics could not be resolved by reflectometric interference spectroscopy.
+For these cases, the (equilibrium) dissociation constant KD was used instead of kd to calculate G  (GKD).
+The values for G (and therefore of Gint) determined by using either kd or KD were consistent (25), indicating  that potential systematic errors cancel out when relative values  (of G) are calculated (16, 25).
+The SEM for G is estimated  Fig. 1.
+DMC analysis of the IFN-2ifnar2 complex.
+Values of Gint determined from changes in kd or KD are presented as round and square bars, respectively.
+  Data are from Table 1. (A) The calculated Gint values for residues where an interprotein interaction was identified (Gint  2.5 kJmol).
+(B) The calculated  Gint values for residues where no interprotein interaction was identified.
+  Table 1.
+Interaction free energies determined from DMCs by using the respective mutations  Ifnar2IFN2 Y45A* T46A I47A M48V K50A* K55A* H78A* E79A W102A* I105A* D106A*  R12A 0.1 0.9 1.1* 0.6* 0.8* 1.5*  L15A 1.6 0.5 1.9 1.7 0.7*2.1 1.3 1.1*1.8 0.3  L26A 0.3 0.4 0.5 0.4 0.3 1.1*1.4 1.1* 0.8*0.6 2.1*0.7  F27A 2.7 0.2 1.0 0.8* 0.6* 0.1*  L30A 0.4 0.1 1.3 1.0 0.5 0.4  D35A 0.7 3.4 1.6 0.5* 1.3*  K133A 0.6 0.3 1.3* 1.2*  R144A 1.3 0.6 0.7 5.7 0.2 1.5 1.5*0.6  A145G 0.7 1.6 0.9 1.0 1.8 0.9*  M148A 0.2 0.4 0.6 0.6 0.4 0.3 0.7  R149A 0.3 0.4 0.2 8.1 0.1 0.4  S152A 0.8 0.3 0.2 0.1 0.1 2.9*4.8 0.0 0.5*0.3 1.8 0.5*0.3  L153A 1.4 0.1 0.2 0.4 0.5*0.3 1.3 1.0 0.0 0.6*1.0  *Gint in kJmol, determined from changes in the dissociation rate constant (see Eqs. 1 and 2).
+Gint in kJmol, determined from changes in KD as guided by the law of mass action.
+Boldface indicates values of Gint  2.5 kJ.  13232  www.pnas.orgcgidoi10.1073pnas.221290398 Roisman et al.to be 0.75 kJmol (each mutant was measured at least three  times).
+Accordingly, a standard error of 1.0 kJmol is estimated  for Gint.
+A threshold of 2.5 kJmol was used to decide  whether the interaction between a pair of residues is significant.
+  Molecular Docking.
+The docking procedure based on DMCderived distance constraints will be reported in a forthcoming  paper (J.-Y.T. and H.A.S., unpublished work) and thus are  outlined here only briefly.
+  Reference Structures.
+The NMR structure of IFN-2 [Protein  Data Bank code 1ITF (3)] and a model of ifnar2-EC based on  its homology with IFN- receptor and tissue factor (10) were  used for this study.
+Before docking, the structural elements kept  flexible during docking [IFN-2 (D2-E42, E141-E146, M148-  S160) and ifnar2-EC (L44-V57, W74-V82, C97-M107, V127-  Q138, K155-N167, E188-Q193)] were regularized to standard  geometry and energy-minimized independently by using the  ECEPP3 force field (26) to avoid high loop energy at the  beginning of the docking.
+  Molecular System.
+Each molecule was split into a flexible and a  fixed portion.
+The flexible part included all residues that are  in the binding interface [60 for IFN-2 and 65 for ifnar2-EC  (see above)].
+The total energy of the protein complex was  expressed as:  E  interEinter  intraEintra  distEdist  x-rayEx-ray  loopEloop.
+  [3]  Einter represents the ECEPP3 interactions between the rigid or  flexible residue segments, Eintra is the intramolecular energy of  the flexible segments, Edist represents the interresidue distance  constraint energy, Ex-ray are the x-ray constraints of the heavy  atoms of the flexible structural elements in the energyminimized IFN-2 and ifnar2 starting structure (to prevent them  from unfolding during docking), and Eloop is the loop closure  constraint (27).
+The weights () were used to balance the driving  force, expressed here by the distance constraints and the other  terms, especially the ECEPP3 intramolecular and interatomic  energy.
+Some were fixed during the docking procedure: (inter   1, intra  1, dist  30, loop  1,000) and some were varied  during the simulation: x-ray  100, 10, 0 for the three successive  energy-minimization refinements in a given docking run.
+The  values of these weight factors were estimated a priori by assuring  that none of the external constraints (in particular Edist), exceeds  the ECEPP3 energy terms by more than 23 orders of  magnitude.
+  Distance Constraints.
+The distance constraint energy term is  similar to the one used for nuclear Overhauser effect distance  constraint optimization (28).
+A harmonic force was imposed  when the distance violation was more than the user-defined  minimal distance, i.e., 5  for the first minimization steps and 3   for the following two minimization steps.
+If the violation was  more than 2  from the minimal distance, the harmonic distance  was replaced by a quasi-linear branch (29).
+  Energy and Gradient Grids.
+The ECEPP3 van der Waals and  electrostatic contributions of the frozen parts of both the  receptor and ligand proteins were stored in three-dimensional  grids.
+The receptor grid was fixed (i.e., no translation or rotation  was allowed), and the ligand grid was allowed to move together  with the ligand as a rigid body.
+A B-spline extrapolation scheme  was used to ensure continuity within the grid and facilitated  gradient-based minimization (3032).
+These two grids speed up  the docking simulations by about two orders of magnitude  depending on the size of the system.
+  MCM.
+The perturbations of the dihedral angles, and the rotation  and translation of the ligand, were made along the normal modes  of the system (32).
+The amplitude of the perturbation (step size)  was such that 10% of the side-chain dihedral angles and 1% of  the backbone dihedral angles could move significantly (by about  30-60), between 0.2 and 2  for the translation and between 10  and 30 for the rotation angle.
+A temperature of 1,000 K was  chosen for MCM.
+The number of iterations for each minimization was 300 for the first 500 MCM steps and 600 for the last 100  Fig. 2.
+Structure of the IFN-2ifnar2 complex.
+The structure was calculated by using either multistart minimization or multistart MCM, keeping some of the  backbone and side chainsflexible (seeMethods).
+(A) Ribbon structure of the complex of 10 independent docking experiments (minimization, black and red; MCM,  brown and green), and using only the first domain of ifnar2 (blue).
+(B) Ribbon structure of the complex; shown are the 10 residues that contribute to the five  distance constraints. (C) Back view of the complex, with the letters marking the helices and AB loop of IFN.
+  Roisman et al. PNAS  November 6, 2001  vol.
+98  no. 23  13233  IMMUNOLOGYMCM steps.
+After the MCM runs, full minimization (6,000  iterations steps) was carried out with x-ray  0.1, with all of the  other weight factors as before.
+  Before being implemented for docking of IFN-2 to ifnar2,  the algorithm was tested on the interaction between barnase and  barstar, for which DMC data and the relevant structures are  available (20, 33).
+The influence of several parameters on the  quality of the results was evaluated, in particular, the number of  distance constraints used, the effect of using wrong distance  constraints, the weights of the distance penalty term, and the  position of the starting conformations.
+The results show that the  simulations are relatively stable using 49 distance constraints,  even if an erroneous constraint was deliberately introduced.
+The  rms deviation (rmsd) value of the docked structure was 2   relative to the crystallographically determined structure (J.-Y.T.  and H.A.S., unpublished work).
+The rmsd values throughout this  work are mean rmsds of all backbone atoms.
+In the case of the  IFN-2 receptor complex, all ifnar2 structures were overlaid,  and the mean rmsd of all backbone atoms of IFN-2 was  computed.
+  Results  DMC Analysis of the IFN-2ifnar2 Interface.
+The respective binding  sites of IFN-2 and ifnar2 were previously mapped by means of  site-directed mutagenesis (7, 10).
+Here, we extended these  studies by carrying out a systematic DMC analysis of the  interface.
+Because the structure of the complex is unknown, the  potential interactions between 13 residues of IFN-2 and 11  residues of ifnar2, which are located within the mutual binding  epitopes, were systematically probed by using DMCs (Table 1  and Fig. 1; Tables 2 and 3, which are published as supporting  information on the PNAS web site, www.pnas.org).
+Binding  assays were carried out by heterogeneous phase detection with  reflectometric interference spectroscopy, with ifnar2-EC being  immobilized to the surface (25).
+Interaction free energies were  calculated by using consistently either kd or KD for any one DMC  (see Methods).
+  Values of Gint determined from changes in kd or KD are  presented in Fig. 1 as round and square bars, respectively.
+In case  of doubt, both values were calculated (see Tables 13), giving  similar results.
+Fig. 1A shows those residues for which at least  one interprotein interaction was identified (Gint  2.5  kJmol).
+Fig. 1B shows the calculated Gint values for residues  for which no obvious interacting partner was identified.
+From the  90 DMC values presented in Fig. 1, only five are above 2.5  kJmol, which is defined here as being significant.
+On IFN-2,  three of the interacting residues are located on the E helix (R144,  R149, and S152), and two are located on the AB loop (F27 and  D35).
+Despite a major effort, no pairwise interactions were  found to involve L30 or R33 (data are not shown for R33A  because the very low affinity of this mutant makes the error of  these measurements much larger), or R12 and L15, which are  located on the A helix of IFN-2 and were identified to bind  ifnar2 (7).
+On ifnar2, three of the residues interacting with  IFN-2 are located on the 4552 loop (Y45, M48, and K50) and  two are on the 7679 loop (H78 and E79).
+No pairwise interactions were found involving residues W102, I105, or D106,  which are located on the loop connecting the first and second  IgG-like domain on ifnar2.
+The largest interaction free energy  (Gint 8 kJmol) was determined between R149 (IFN-2)  and E79 (ifnar2).
+These two residues are located at the center of  their respective binding surfaces, and both were defined previously as hot spots for binding.
+A second interaction connecting  the E helix of IFN-2 with ifnar2 is between R144 (IFN-2) and  M48 (ifnar2).
+A third interaction (S152-H78) connects the E  helix (IFN-2) with the 7679 loop of ifnar2, making a potential  hydrogen bond.
+On the AB loop (IFN-2), F27 probably forms  Fig. 3.
+Comparison of the mutual binding sites of IFN-2 and ifnar2, as  determined from mutagenesis, with the interface of the structure of the  complex.
+The structure of the complex was opened up, by rotating IFN-2 by  180.
+Threshold for interface residues is 5 . Active residues are defined as  those for which a mutation to Ala causes a decrease of at least 2-fold in binding  affinity.
+Binding site residues were divided into those that interact with the  C-terminal domain of ifnar2-EC (orange and blue) and the N-terminal domain  of ifnar2-EC (all other colors).
+Red, active residues located within the binding  site.
+Yellow, nonactive residues located in the binding site.
+Magenta, residues  located in the binding site for which the activity was not determined. Brown,  active residues located outside the binding site.
+Blue, residues located within  the binding site of the second domain of ifnar2, but with no binding active.
+  Orange, residues located within the binding site and the second domain of  ifnar2, but with the activity not measured.
+  Fig. 4.
+Close-up view of the IFN-2ifnar2 binding site.
+The surface of IFN-2  is colored according to the distance from ifnar2 (magenta  3 , white  4 ).
+  The penetration of the 4552 loop of ifnar2 into a groove on the surface of  IFN-2 should be noted.
+  13234  www.pnas.orgcgidoi10.1073pnas.221290398 Roisman et al.an aromatic interaction with Y45 (ifnar2), and D35 (IFN-2)  forms a potential salt bridge with K50 (ifnar2).
+Although the last  three pairs of residues are not hot-spot residues, their interaction  free energies are still 2.5 kJmol and significantly larger than  the measured background (of other pairwise interactions involving these residues).
+  Determining the Structure of the IFN-2ifnar2 Complex.
+The docking of IFN-2 (NMR structure 1ITF) to the model of ifnar2 was  carried out by using two methods: a multistart four-step minimization (10 independent runs) and a multistart MCM simulation (five independent runs).
+The starting points were random  positions and orientations of the ligand at about 15  above the  binding region on the receptor.
+In the first approach, three  minimization steps were used to balance the distance constraint  driving force and the ECEPP3 energy as the ligand approaches  the receptor.
+The fourth step was carried out without distance  and x-ray constraints.
+The 10 minimizations converged with a  mean rmsd of 1.6  between them (Fig. 2A).
+Each of the five  distance constraints were satisfied within less than 0.5- violation in all 10 complex structures (Fig. 2B).
+  A potential problem with the minimization procedure is that  it may not allow large structural rearrangements to occur.
+To test  this, five independent multistart MCM simulations were carried  out, starting from the same random structures.
+All of these  MCM runs converged, albeit with larger fluctuations between  the individual structures (mean rmsd of 2.8 ).
+The structures  obtained from the MCM simulations are very close to the ones  obtained by the four-stage minimization procedure (Fig. 2A).
+  Discussion  DMCs measure the binding free energy between two amino  acids.
+The method was developed to deconvolute the thermodynamics of a system and to relate these to available structural  information (15, 28).
+However, it has been recognized that DMC  data also can serve to indicate structural proximity (22, 23).
+  Here, we used DMC data to provide distance constraints that are  incorporated into a molecular docking program designed to  model proteinprotein interactions in the absence of sufficiently  good structural data.
+  The five identified interprotein interactions were used to dock  IFN-2 on ifnar2 by using two methods of calculations.
+The  computational faster method uses distance constraint energy minimization, relaxing the x-ray and distance constraints during the  progression of the simulation.
+The structures obtained from 10  individual simulations converged, suggesting that the docked complex does not depend on the starting position of the ligand.
+  Moreover, relaxing all distance constraints at the end of the  simulation did not cause a large decrease in ECEPP3 energy or  movement of the structure.
+Therefore, the distance constraints did  not bias the structure toward unrealistic binding modes.
+A drawback of the minimization technique is that it may optimize the  distance constraints quickly, without exploring the conformational  space of the flexible domains properly.
+To overcome this problem,  five MCM simulations were carried out as well.
+At the end of the  MCM runs, the five structures converged to a similar unique  average structure as obtained previously with the four-stage minimization procedure, however, with a larger rmsd between them.  It is in fact likely that the convergence of the structures  correlates directly with the quality of the selections of the  residues involved in the distance constraints, and that the  structures represent the best estimate of the IFN-2ifnar2  complex.
+Independent of these docking experiments, the interaction sites on IFN-2 and ifnar2 were probed by single mutagenesis (912).
+The good agreement between the active sites  as determined from single mutagenesis and the binding interface  provides an experimental measure of the quality of the model  (Fig. 3).
+Most of the residues affecting binding upon mutation  are located within the suggested interface, including all of the  hot spots. The exceptions are T46 and D106 on ifnar2.
+In the  model of ifnar2, both of these residues are buried beneath  residues involved directly in binding, suggesting an indirect  contribution of these residues to binding.
+A number of residues  located at the edge of the suggested binding interface do not  contribute significantly toward binding affinity.
+These include  M16, R22, and I24 on IFN-2 and E52 and N100 on ifnar2.
+  However, it is well established that residues located at the  periphery of the binding site are often inert (34).
+Moreover,  mutations of any one of these residues cause a small, but  significant, change in kd of the complex (7, 10) (but less than  2-fold, which is the threshold used in Fig. 3).
+Analyzing the  degree of conservation of interface residues between different  IFN- subtypes reveals that the functional hot-spot residues  (numbers 30, 33, 144, 145, 148, and 149) are fully conserved.
+  Other interface residues are only partially conserved.
+For ifnar2,  the sequence homology with other human cytokine receptors is  low, thus no conservation was either expected or found.
+  The structure of the IFN-2ifnar2 complex suggests that  IFN-2 interacts with both domains of ifnar2 (Figs. 2 and 3).
+This  mode of binding is in agreement with that found for other human  cytokine receptors, such as IL4-R, human growth hormone receptor, and IFN- receptor (6, 35), but is not supported by mutagenesis  studies of the IFN-2ifnar2 complex (Fig. 3) (810).
+None of the  16 single mutations introduced in the second domain of ifnar2  caused a reduction in affinity of more than 2-fold (810).
+Moreover,  a truncated ifnar2, lacking the second domain, binds IFN-2 with  reasonable affinity (unpublished data).
+The angle between the two  domains of ifnar2 was modeled by using IFN- receptor as a  template. But because of the large variation in this angle between  different human cytokine receptors (35) one cannot be sure that the  model of ifnar2 is correct in this respect.
+A different relative  orientation between the two domains of ifnar2 would shift the  second domain away from the IFN binding site.
+To determine  Fig. 5.
+Comparison of the IFN-2 and potential IFN- binding sites for ifnar2.
+  IFN- (space-filled atoms) was overlaid onto IFN-2 (shown as solvent accessible surface).
+The binding site of the N-terminal domain of ifnar2 on IFN-2  is colored green.
+Locations at which IFN-2 or IFN- protrude are represented  as surface or space-filled atoms, respectively.
+  Roisman et al. PNAS  November 6, 2001  vol.
+98  no. 23  13235  IMMUNOLOGYwhether the calculated structure of the IFN-2ifnar2 interface  would be different in the absence of the second domain, the docking  simulation was repeated by using only the first domain of ifnar2  (blue line in Fig. 2A).
+The structure of this complex is similar to that  using the whole ifnar2 protein.
+The buried surface area between  IFN-2 and ifnar2 in the proposed model is 2,450 2 for interactions of both domains of ifnar2 with IFN-2 and 1,600 2 for  interactions between only the first domain of ifnar2 with IFN-2.
+  Both values are within the range expected for proteinprotein  interactions (36).
+Thus, the mode of interaction of the second  domain of ifnar2 with IFN-2 remains uncertain.
+  The most outstanding structural feature in the IFN-2ifnar2  interface is the deep insertion of the 4552 loop of ifnar2 into the  groove formed around Ala-145 on IFN-2 (Fig. 4).
+Three  distance constraints connect this loop to IFN-2 (Figs. 2B and  4).
+Single-mutation studies have implied that this groove is at the  center of the binding epitope, with four hot-spot residues of  IFN-2 being located at its rim (7).
+Thus, it is not surprising to  find hot-spot residues (T46, I47, and M48) along the ifnar2 loop  that penetrates into IFN-2.
+A closer look at the interactions  made by this loop reveals that the backbone oxygens of S49 and  K50 (ifnar2) make two potential hydrogen bonds with the side  chain of R33.
+This finding may explain that no interacting  residues were identified for R33 despite its strong contribution  to binding.
+A second important binding determinant is between  the central part of the E helix of IFN-2 (R149 and S152) and  the 7682 loop of ifnar2 (including E79 and H78 that bind R149  and S152).
+Although this ifnar2 loop binds a flat part of the  IFN-2 surface, it is of major importance for binding, as  demonstrated by the large binding free energy between R149  and E79.
+No experimental pairwise interactions were identified  on either the A helix of IFN-2 or the 102106 loop of ifnar2.
+  Interestingly, these two secondary structure domains are in close  proximity in the model, which could explain their contribution  to binding affinity as determined by mutagenesis.
+  IFN- interacts with ifnar2 with a similar set of residues as  IFN-2, but with very different G values upon mutation (9,  10).
+It is tempting to try to explain this difference by using the  model generated here, assuming that IFN- binds to the same  epitope of ifnar2 as IFN-2.
+In Fig. 5, IFN- was superimposed  onto IFN-2 in complex with ifnar2.
+Analysis of the differences  between the two interacting epitopes shows that W22 (IFN-),  which replaces A19 (IFN-2), potentially binds W102 of ifnar2  tightly.
+This could explain why W102 is a hot spot for binding  IFN- but not IFN-2. It would be interesting to test this  hypothesis experimentally.
+A second site in which a large  deviation between IFN- and IFN-2 was observed is for the  R35A mutation in IFN-, which causes a reduction in binding of  only 10-fold, whereas the homologous mutation in IFN-2  (R33A) causes a 10,000-fold reduction in binding (7).
+This  phenomenon can now be explained by the difference in the  angular orientation between these two residues.
+Although R33  (IFN-2) makes two main-chain hydrogen bonds with the 4552  loop of ifnar2, R35 (IFN-) points away from ifnar2.
+Another  interesting difference shown in Fig. 5 relates to the depth of the  groove around A145, which is a valine in IFN-.
+This may explain  the lesser importance of M48 (ifnar2) in binding IFN- (12).
+  The proposed structure of IFN-2ifnar2 is a model generated  in an NMR-like fashion using experimentally determined distance  constraints.
+For this reason, its reliability is substantially higher than  that of a theoretical docking.
+The convergence of the docked  structures shows that the determined complex is unique, i.e., the  number of distance constraints was sufficient to lead to a converged  average structure.
+However, because of the small number of  constraints, its quality is not that of a structure determined by x-ray  or NMR.
+Therefore, one should not expect atomic resolution; yet,  it provides insight into the interface structure and the interprotein  contacts formed.
+In addition to structural data, this method provides ambient useful thermodynamic data.
+The method presented  here offers an alternative for structure determination of protein  protein interactions when structural characterization of such complexes cannot be carried out.
+  This work was supported by Grant No. 96-004391 from the U.S.Israel  Binational Science Foundation and National Institutes of Health Grant  GM-14312.
+Support also was received from the National Foundation for  Cancer Research. G.S. is the incumbent of the Dewey David Stone and  Harry Levine career development chair.
+J.P. was an European Molecular  Biology Organization postdoctoral fellow in 1998 and 1999.
+  1. Uze`, G., Lutfalla, G. & Gresser, I. (1990) Cell 60, 225234.  2. Novick, D., Cohen, B. & Rubinstein, M. (1994) Cell 77, 391400.  3.
+Klaus, W., Gsell, B., Labhardt, A. M., Wipf, B. & Senn, H. (1997) J. Mol. Biol.  274, 661675.  4.
+Karpusas, M., Nolte, M., Benton, C. B., Meier, W., Lipscomb, W. N. & Goelz,  S. (1997) Proc.
+Natl. Acad. Sci. USA 94, 1181311818.  5. Harlos, K., Martin, D. M., OBrien, D. P., Jones, E. Y., Stuart, D. I., Polikarpov,  I., Miller, A., Tuddenham, E. G. D. & Boys, C. W. G. (1994) Nature (London)  370, 662666.  6.
+Walter, M. R., Windsor, W. T., Nagabhushan, T. L., Lundell, D. J., Lunn, C. A.,  Zauodny, P. J. & Narula, S. K. (1995) Nature (London) 376, 230235.  7.
+Piehler, J., Roisman, L. C. & Schreiber, G. (2000) J. Biol.
+Chem. 51, 4042540433.  8.
+Chuntharapai, A., Gibbs, V., Lu, J., Ow, A., Marsters, S., Ashkenazi, A., de Vos,  A. M. & Jin, K. K. (1999) J. Immunol. 163, 766773.
+  9. Lewerenz, M., Mogensen, K. E. & Uze`, G. (1998) J. Mol. Biol. 282, 585599.  10.
+Piehler, J. & Schreiber, G. (1999) J. Mol. Biol. 294, 223237.  11. Mandell, J. G., Roberts, V. A., Pique, M. E., Kotlovyi, V., Mitchell, J. C.,  Nelson, E., Tsigelny, I. & Ten Eyck, L. F. (2001) Protein Eng. 14, 105113.  12.
+Sternberg, M. J., Gabb, H. A. & Jackson, R. M. (1998) Curr.
+Opin. Struct. Biol.  8, 250256.  13. Norel, R., Petrey, D., Wolfson, H. J. & Nussinov, R. (1999) Proteins 36, 307317.  14. Carter, P. J., Winter, G., Wilkinson, A. J. & Fersht, A. R. (1984) Cell 38,  835840.  15.
+Horovitz, A. & Fersht, A. R. (1990) J. Mol. Biol. 214, 613617.
+  16. Albeck, S., Unger, R. & Schreiber, G. (2000) J. Mol. Biol. 298, 503520.
+  17. DallAcqua, W., Goldman, E. R., Lin, W., Teng, C., Tsuchiya, D., Li, H., Ysern,  X., Braden, B. C., Li, Y., Smith-Gill, S. J. & Mariuzza, R. A. (1998) Biochemistry  37, 79817991.  18.
+Goldman, E. R., DallAcqua, W., Braden, B. C. & Mariuzza, R. A. (1997)  Biochemistry 36, 4956.  19.
+Marqusee, S. & Sauer, R. T. (1994) Protein Sci. 3, 22172225.
+  20. Schreiber, G. & Fersht, A. R. (1995) J. Mol. Biol. 248, 478486.
+  21. Ackermann, E. J., Ang, E. T., Kanter, J. R., Tsigelny, I. & Taylor, P. (1998)  J. Biol.
+Chem. 273, 1095810964.  22. Hidalgo, P. & MacKinnon, R. (1995) Science 268, 307310.  23.
+Zvi, A., Tugarinov, V., Faiman, G. A., Horovitz, A. & Anglister, J. (2000) Eur.  J. Biochem.
+267, 767779.
+  24. Piehler, J. & Schreiber, G. (1999) J. Mol. Biol. 289, 5767.  25.
+Piehler, J. & Schreiber, G. (2001) Anal. Biochem. 289, 173186.  26.
+Nemethy, G., Gibson, K. D., Palmer, K. A., Yoon, C. N., Paterlini, G., Zagari,  A., Rumsey, S. & Scheraga, H. A. (1992) J. Phys.
+Chem. 96, 64726484.  27.
+Trosset, J. Y. & Scheraga, H. A. (1999) J. Comput.
+Chem. 20, 244252.  28.
+Horovitz, A., Serrano, L. & Fersht, A. R. (1991) J. Mol. Biol. 219, 59.  29.
+Maurer, M. C., Trosset, J. Y., Lester, C. C., DiBella, E. E. & Scheraga, H. A.  (1999) Proteins 34, 2948.
+  30.
+Oberlin, D., Jr. & Scheraga, H. A. (1998) J. Comput. Chem. 19, 7185.  31.
+Trosset, J. Y. & Scheraga, H. A. (1998) Proc.
+Natl. Acad. Sci. USA 95,  80118015.
+  32.
+Trosset, J. Y. & Scheraga, H. A. (1999) J. Comput.
+Chem. 20, 412427.  33. Buckle, A. M., Schreiber, G. & Fersht, A. R. (1994) Biochemistry 33, 8878  8889.  34. Pearce, K. H., Jr., Ultsch, M. H., Kelley, R. F., de Vos, A. M. & Wells, J. A.  (1996) Biochemistry 35, 1030010307.  35.
+Hage, T., Sebald, W. & Reinemer, P. (1999) Cell 97, 271281.  36.
+Conte, L. L., Chothia, C. & Janin, J. (1999) J. Mol. Biol. 285, 21772198.  13236  www.pnas.orgcgidoi10.1073pnas.221290398 Roisman et al.

@@ -1,0 +1,386 @@
+Crystal structure of the C3botRalA complex  reveals a novel type of action of a bacterial  exoenzyme  Alexander Pautsch1,4, Martin  Vogelsgesang2,4, Jens Trankle3  ,  Christian Herrmann3 and Klaus Aktories2,*  1  Structural Research, Department of Integrated Lead Discovery,  Boehringer Ingelheim Pharma GmbH & Co. KG, Biberach an der Riss,  Germany, 2  Institut fur Experimentelle und Klinische Pharmakologie und  Toxikologie der Universitat Freiburg, Otto-Krayer-Haus, Freiburg,  Germany and 3  Physikalische Chemie I, Ruhr-Universitat Bochum,  Bochum, Germany  C3 exoenzymes from bacterial pathogens ADP-ribosylate  and inactivate low-molecular-mass GTPases of the Rho  subfamily.
+Ral, a Ras subfamily GTPase, binds the C3  exoenzymes from Clostridium botulinum and C. limosum  with high affinity without being a substrate for ADP  ribosylation.
+In the complex, the ADP-ribosyltransferase  activity of C3 is blocked, while binding of NAD and NADglycohydrolase activity remain.
+Here we report the crystal  structure of C3 from C. botulinum in a complex with GDPbound RalA at 1.8 A resolution.
+C3 binds RalA with a  helixloophelix motif that is adjacent to the active site.
+  A quaternary complex with NAD suggests a mode for ADPribosyltransferase inhibition.
+Interaction of C3 with RalA  occurs at a unique interface formed by the switch-II  region, helix a3 and the P loop of the GTPase.
+C3-binding  stabilizes the GDP-bound conformation of RalA and blocks  nucleotide release.
+Our data indicate that C. botulinum  exoenzyme C3 is a single-domain toxin with bifunctional  properties targeting Rho GTPases by ADP ribosylation and  Ral by a guanine nucleotide dissociation inhibitor-like  effect, which blocks nucleotide exchange.
+  The EMBO Journal (2005) 24, 36703680.
+doi:10.1038/  sj.emboj.7600813; Published online 22 September 2005  Subject Categories: structural biology; microbiology  & pathogens  Keywords: bacterial ADP-ribosyltransferase; exoenzyme C3;  GDP-binding; Ral; Rho  Introduction  Clostridium botulinum C3 exoenzyme (C3bot) is the prototype of a family of ADP-ribosyltransferases, which modify  eukaryotic low-molecular-mass GTPases of the Rho family  (Aktories et al, 1987, 1989; Rubin et al, 1988; Chardin et al,  1989).
+Other members of this family of bacterial exoenzymes  are C3lim from Clostridium limosum, C3cer from Bacillus  cereus and three isoforms of C3stau (also called EDIN) from  Staphylococcus aureus, which exhibit about 3570%  sequence identity between each other (Aktories et al,  2004).
+C3 transferases are B25 kDa proteins, which harbor  the enzyme activity, but apparently miss any specific cell  binding and transportation unit.
+Therefore, these exoenzymes differ from typical AB toxins, which contain in  addition to the enzyme domain a unit for cell binding  and transportation (Aktories et al, 2004).
+  Crystal structures have shown that C3bot (Han et al, 2001)  and C3stau2 (Evans et al, 2003) share the canonical mixed  a/b-fold of ADP-ribosylating enzymes.
+An extended central  cleft functions as the binding site for the cosubstrate NAD  (Menetrey et al, 2002; Evans et al, 2003).
+A structural motif,  termed ADP-ribosylatingtoxinturnturn-motif (ARTT  motif) was first identified in C3bot (Han et al, 2001).
+The  ARTT motif consists of two short amino-acid stretches  (C3bot207C3bot210 and C3bot211C3bot214), which are suggested to be responsible for substrate recognition and important for catalytic activity.
+Amino-acid exchanges in this  region caused major reduction in ADP ribosylation of Rho  GTPases and decreased interaction of C3 with Rho GTPases  in precipitation assays (Wilde et al, 2002b).
+So far, no direct  structural analysis of the interaction of C3 (or other toxins)  with its protein substrates is available, but a recent report  (Sun et al, 2004) has delineated regions that are necessary  and sufficient for substrate binding of the C3-related ADPribosyltransferases ExoS and ExoT from Pseudomonas  aeruginosa.
+These transferases recognize their respective  substrates via three regions: ARTT loop, phosphatenicotinamide (PN) loop and region B.
+Whereas the PN  loop links strands b3b4 (C3bot177C3bot187), region B corresponds to an a2loopa3 motif in C3-like toxins (C3bot79  C3bot88).
+  All C3-like ADP-ribosyltransferases modify RhoA, B and C  at asparagine-41 (Sekine et al, 1989).
+C3stau additionally  modifies RhoE (Wilde et al, 2001).
+Other Rho GTPases are  poor (Rac) or not at all substrates for ADP ribosylation by  C3-like exoenzymes (Just et al, 1992).
+ADP ribosylation of  Rho GTPases inhibits their cellular functions most likely by  inhibition of activation by guanine nucleotide exchange  factors (GEFs) (Sehr et al, 1998) and/or by stabilizing a  tight complex of ADP-ribosylated Rho with the Rho regulatory guanine nucleotide dissociation inhibitor (GDI) (Genth  et al, 2003).
+  Ral is a member of the Ras subfamily of small GTPases  and exists in two isoforms, RalA and B, which share 82%  amino-acid identity between each other and B35% to RhoA  (Chardin and Tavitian, 1986; Feig, 2003).
+Ral GTPases have  been implicated in several cellular processes, including  transcriptional activation (Hernandez-Munoz et al, 2000),  Received: 17 March 2005; accepted: 22 August 2005; published  online: 22 September 2005  *Corresponding author.
+Institut fur Experimentelle und Klinische  Pharmakologie und Toxikologie der Universitat Freiburg,  Otto-Krayer-Haus, Albertstrasse 25, 79104 Freiburg, Germany.  Tel.:  49 761 203 5301; Fax:  49 761 203 5311;  E-mail: Klaus.Aktories@pharmakol.uni-freiburg.de  4  These authors contributed equally to this work  The EMBO Journal (2005) 24, 36703680 | & 2005 European Molecular Biology Organization | All Rights Reserved 0261-4189/05  www.embojournal.org  The EMBO Journal VOL 24 | NO 20 | 2005 &2005 European Molecular Biology Organization     EMBO   THE  EMBO  JOURNAL  THE  EMBO  JOURNAL  3670Ras-mediated cell transformation (Feig et al, 1996; Urano  et al, 1996) and cytoskeleton rearrangement (Jullien-Flores  et al, 1995; Park and Weinberg, 1995; Ohta et al, 1999).
+Ral  activates phospholipase D1 (PLD1) (Jiang et al, 1995; Luo  et al, 1998) and both RalA and PLD1 modulate receptor  endocytosis (Jullien-Flores et al, 2000) and vesicle transport  (Shen et al, 2001).
+RalA is involved in regulation of the  mammalian exocyst complex (Moskalenko et al, 2002).
+In  mammals, this complex is involved in transport of Golgiderived vesicles to basolateral membranes.
+Activated Ral  interacts directly with Sec5 (Moskalenko et al, 2002), an  interaction which is responsible for secretory and cytoskeletal  effects (Sugihara et al, 2002).
+The structural basis for Raldependent effector activation was delineated by a complex  between the Ral-binding domain of Sec5 and RalA (Fukai  et al, 2003).
+  Surprisingly, C3 exoenzymes from C. botulinum and  C. limosum bind with high affinity to RalA (Wilde et al,  2002a) without modifying the GTPase by ADP ribosylation.
+  Binding of RalA to C3bot blocks the ADP ribosylation of  RhoA by the exoenzyme.
+Moreover, activation of the Raleffector PLD1 was inhibited for the RalAC3bot complex  (Wilde et al, 2002a).
+During submission of our work,  Holbourn et al (2005) presented the crystal structure analysis  of a RalAGDPC3bot complex, where an astonishingly small  interface involves helix a4 and strand b6 of RalA and the  ARTT loop of C3bot (for simplicity, this model will be referred  to as a4ARTT model, hereafter).
+  Here, we solved the crystal structure of the RalAGDP  C3bot complex and demonstrate that the biological unit is  fundamentally different from that proposed in the a4ARTT  model.
+Structural and biochemical data show that C3bot is a  single-domain toxin with bifunctional properties targeting  Rho GTPases by ADP ribosylation and Ral by a GDI-like  effect, which blocks nucleotide exchange and effector  interaction.
+  Results and discussion  Ral and C3bot form a tight complex  Recently, we reported that RalA inhibits the C3-catalysed  ADP ribosylation of RhoA by formation of a tight RalAC3  complex (Wilde et al, 2002a).
+A similar inhibition of ADP  ribosylation of RhoA by C3bot was observed in the presence  of RalB, but not with H-Ras (Figure 1A).
+Precipitation experiments with GSTRalA beads suggested that interaction of the  GTPase with C3bot was slightly more stable than with C3lim.
+  Similar data were obtained with GSTRalB (data not shown).
+  By contrast, no stable complexes were precipitated with  C3cer and C3stau2 (Figure 1B).
+  The affinity of the RalAC3bot interaction was quantified  by two independent methods.
+First we used protein fluorescence titration with a tryptophan-deficient C3bot mutant  (see Materials and methods) and measured a KD value of  35715 nM (Supplementary Figure 1).
+The affinity of the  interaction was confirmed by isothermal titration calorimetry  (ITC).
+A similar KD value of 60720 nM was observed for the  RalAGDPC3bot complex (Figure 1C and Table I).
+In contrast, binding of C3bot to the active RalAGppNHp (a nonhydrolysable GTP analogue) could not be detected (Table I).
+  In an earlier publication, Wilde et al (2002a) reported no  significant difference between RalAGDP and RalAGTPgS in  C3bot  GSTRalA  C3lim  C3cer  C3stau  Precipitated C3  [  32P]ADP-ribosylated RhoA  RalA RalB H-Ras    +  +  Total RhoA  +  0 50 100 150  Time (min)  0.0  0.1  0.2  0.3  0.4  0.0 0.5 1.0 1.5 2.0 2.5  0  4  8  12  16  20  cal/s kcal/mol of injectant  Molar ratio (RalA-GDP / C3bot)  A  C  B  Figure 1 C3bot and Ral form a stable complex.
+(A) Influence of  RalA, RalB and H-Ras on the ADP ribosylation of RhoA. Rat brain  lysate was incubated with C3bot and [32P]NAD in the presence or  absence of the indicated GTPases.
+Samples were subjected to SDS  PAGE followed by autoradiography.
+For detection of the RhoA level  after the ADP ribosylation, a second aliquot of each sample was  applied to Western blot analysis.
+(B) Precipitation of C3 exo  enzymes by GSTRalA. GSTRalA immobilized to glutathioneSepharose beads was incubated with the indicated C3 proteins.
+  Thereafter, beads were washed three times and subjected to SDS  PAGE.
+Coomassie Blue-stained gel is shown.
+(C) Calorimetric titration of C3bot with RalAGDP.
+The upper panel shows the heating  power with peakwise changes after each 5 ml injection of RalAGDP.
+  These data are integrated and plotted versus the concentration ratio  in the lower panel.
+The evaluation according to a single-site binding  model results in a KD value of 60720 nM.  Table I Calorimetric data for the RalAC3bot interaction  Varianta DH1 (kcal/mol) KA (106 M1  ) KD (mM)  RalAGDP/C3bot 2072 1675 0.0670.02  RalAGppNHp/C3bot  o0.1 410  RalAGDP/C3botG99D 2575 0.3370.15 371  RalAGDP/C3botE109A  o0.1 410  a  The measurements were performed at 371C in 20 mM TrisHCl, pH  7.5, 50 mM NaCl, 2 mM MgCl2 and 2 mM DTE.
+Data were fit with a  single-site binding model as described in Materials and methods,  yielding the stoichiometric ratio of the complex N, the association  enthalpy DH1 and the affinity constant KA.
+From the experiments  with RalAGppNHp and with the C3botE109A mutant, only estimates  for the affinities could be obtained as indicated.
+The number of  binding sites N was 1.470.2 for RalAGDPC3bot and 0.870.2 for  RalAGDPC3botG99D.
+  RalAC3 complex  A Pautsch et al  &2005 European Molecular Biology Organization The EMBO Journal VOL 24 | NO 20 | 2005 3671complex formation.
+These data are presumably an artefact  due to incomplete GTPgS loading of RalA.  Due to its stability, we decided to study the interaction  of C3bot and RalA in more detail by X-ray crystallography.
+  The complex between C3bot and GDP-bound RalA could be  purified using size-exclusion chromatography as the final  purification step, and was stable for at least 1 week at 41C  against precipitation or dissociation.
+The apparent molecular  mass of the eluted protein corresponded to a quantitative 1:1  complex (not shown).
+  Structure determination  The N- and C-termini of RalAwere found disordered in crystal  structures of RalAGDP (Dr A Wittinghofer, personal communication) as well as in RalAGppNHp complexed to Sec5  (Fukai et al, 2003).
+To improve the crystallization probability,  we truncated the N-terminal 8 and C-terminal 23 amino acids  of the 206-residue protein.
+This truncation did not affect  C3bot binding and inhibition (data not shown).
+For clarity,  the RalA(9183) fragment will be referred to as RalA.  Crystals grew under several nonredundant conditions (not  shown) with the best crystals obtained in space group P21  with one complex in the asymmetric unit.
+Models for the  GppNHp-bound form of RalA and the free form of C3bot were  used to identify a molecular replacement solution for the  RalAGDPC3bot complex.
+Electron density maps, calculated  using phases from the molecular replacement solution,  showed strong electron density for the two RalA switch  regions, which were not included in the search model.
+The  model of the RalAGDPC3bot complex was refined to a  resolution of 1.8 A with an Rfree value of 0.217, and consists  of residues Ral13Ral182 of RalA and C345C3251 of C3bot  (Table II).
+A representative portion of the final electron  density is shown in Supplementary Figure 2.
+  Structure of the RalAC3bot interface  The RalAGDPC3bot complex has roughly a bilobal shape  (Figure 2).
+An extensive interface forms a constriction between the two lobes.
+It is composed of a combination of polar  and nonpolar interactions (Figure 3) and buries 1764 A 2 of  accessible surface area.
+Besides direct proteinprotein interactions, additional hydrogen-bonding contacts are mediated  by water molecules (Supplementary Table I).
+Overall, the  structures of C3bot and GDP-Mg2  bound RalA are remarkably similar to those of their isolated homologues.
+C3bot  docks rigidly on RalA without major structural rearrangements.
+It can be superimposed onto the structure of free  C3bot (PDB code 1G24) with a Ca atom root-mean-square  deviation (r.m.s.d.) of 0.58 A. The catalytic ARTT loop  (C3bot207C3bot214) is not involved in Ral interaction.
+  C3bot docks to RalA with a side, which is distal to the  NAD-binding cleft (using the ARTT loop as a reference  point) (Figures 2 and 5).
+Residues suggested to be involved  in the catalytic activity of C3, such as the catalytic glutamine  (C3botQ214) or phenylalanine (C3botF209), are B25 A apart  from the Ral-binding site.
+The most prominent binding contribution is made from a stretch of 23 residues (C3bot89  C3bot112), which build the tip of a well-ordered helixloop  helix motif.
+The loop between helices a3 and a4 (C3bot93  C3bot101) inserts into a groove of the RalA interface  (Figure 3A).
+Additional contributions from C3bot are made  by a turn connecting b sheets b6 and b7 (C3bot219C3bot220)  and by three C-terminal residues (C3bot247C3bot249).
+  RalA contributes to the interface with its switch-II region  (Ral70Ral78), two adjoining residues from helix a2 (Ral83  Ral84) and residues from one face of helix a3.
+Additional  contributions are made by RalT46 from switch I and by three  residues (Ral21Ral23) of the canonical P loop, which connect  b-strand b1 and helix a1.
+The most remarkable feature of the  RalA interface is a deep groove (Figure 3A) that is flanked by  switch II and helix a3 and harbors the a3a4 loop of C3bot.
+  Upon binding, the overall conformation of the G-domain is  maintained and RalA of the RalAC3bot complex can be  superimposed onto the GDP-bound RalA (PDB code 1U8Z;  Nicely et al, 2004) with a Ca atom r.m.s.d.
+of 0.48 A for all  atoms.
+Conformational changes upon complex formation are  restricted to the switch-I (Ral40Ral48) and switch-II regions  (Ral70Ral78), respectively, and are discussed below.
+  An alternative dimer interface?  Holbourn and co-workers have recently reported the structure of an RalAGDPC3bot complex in an orthorhombic  crystal form (Supplementary Results and Supplementary  Table II) and suggested the a4ARTT model for the dimer.
+  This model places the main contact between C3bot and RalA  on helices a1 and a2 and the ARTT loop of C3bot and helix a4  Table II Data collection and refinement  Data seta RalAGDPC3bot RalAGDPC3bot  NAD  Space group P21 P21  Cell dimensions  a, b, c (A) 34.9, 112.8, 56.4 35.3, 113.9, 56.3  b (deg) 105.1 106.4  Data collection  Resolution (A) 201.80 (1.911.80) 201.73 (1.831.73)  Observed reflections 82091 114088  Unique reflections 35816 40078  Completeness (%) 91.8 (62.9) 90.2 (62.6)  Rsymb (%) 5.9 (34.5) 4.9 (23.9)  /I/s(I)S 11.8 (2.3) 13.2 (3.6)  Refinement  Resolution (A) 201.81 (1.851.81) 201.73 (1.781.73)  Rworkc  /Rfreec (%) 18.0/0.21.7  (31.3/43.5)  18.6/22.5  (29.7/33.8)  No. of non-H atoms  Protein 2995 2995  Solvent 330 210  Mg2+-GDP 29 29  NAD  44  Average B-factor (A 2  ) 17.4 21.0  R.m.s.d.
+  Bond length (A) 0.007 0.008  Bond angles (A) 1.05 1.10  Coordinate error  indexd (A)  0.134 0.119  a  Values in parantheses are for the highest resolution shells.
+  b  Rsym PhklPi|Ii/IS|  PhklPiIi c  Rwork Phkl||Fobs|k|Fcalc||/Phkl|Fobs|, Rfree was calculated using  5% of data excluded from refinement.
+  d  Data precision indicator (DPI) as caclulated by REFMAC  (Murshudov et al., 1997).
+  RalAC3 complex  A Pautsch et al  3672 The EMBO Journal VOL 24 | NO 20 | 2005 &2005 European Molecular Biology Organizationand strand b6 of the RalA molecule.
+Major interface residues  are Asp204, Pro205 and Ser207 located in the ARTT loop, and  residues Lys73 and Lys81 in helix a2 of C3bot and Glu140 and  Lys143 of RalA. Thus, the a4ARTT model is fundamentally  different from the RalAC3bot complex presented in our  analysis.
+  Although crystal packing is different, the RalAC3bot  interface presented in our analysis is conserved in both  crystal forms, whereas the RalAC3bot interface deduced  from the a4ARTT model is restricted to the crystal form  analysed by Holbourn et al (2005) (Supplementary Tables III  and IV).
+Moreover, the RalAC3bot interface presented in our  analysis is significantly larger (1764 A 2 of buried surface  area) than any other crystal contact, including the a4ARTT  interface, which only buries 642.3 A 2 of accessible surface  area.
+Based on crystallographic inference, we suggest that the  a4ARTT interface represents a nonfunctional association  induced by crystallization.
+  Mutational analysis of the dimer interface  To corroborate our model of the C3botRalA complex, an  extensive mutational analysis was performed.
+Exchange of  glycine-99 to aspartate of C3bot, which is located in the a3  a4 loop (Figure 3B and C), significantly reduced precipitation  by GSTRalA beads (Figure 4A).
+Accordingly, a drop in the  affinity was also observed by ITC (KD 3 mM71) (Table I).
+  These findings corroborated our structural data: the acidic  side chain of C3botG99D presumably results in electrostatic  repulsion and steric clashes with RalAD106 and RalAF107,  respectively.
+In line with the precipitation experiment, ADP  ribosylation of RhoA by C3botG99D was no longer inhibited by  addition of RalA (Figure 4B), indicating that the interaction of  C3bot and RalA was altered by the amino-acid exchange.
+  Also, the glucosylation of RalA by C. sordellii lethal toxin,  which is blocked in the RalAC3bot complex (Wilde et al,  2002a), was observed in the presence of C3botG99D  (Supplementary Figure 3A).
+Glucosylation of RalA by the  clostridial toxin occurs at Thr46, which is located in the  switch-I region of RalA and part of the C3botRalA interface  in our model, but opposite to the contact site in the a4ARTT  model of the Acharya group.
+Therefore, recovery of RalA  glucosylation is also a strong argument for our model.
+  Exchange of glutamate-109 to alanine, located at helix a4 in  C3bot, completely abolished the interaction with GSTRalA  (Table I and Figure 4A).
+C3botE109 contributes to binding by  packing against the phenol group of RalAY75 and additionally  interacts with the helix dipole of RalA a2.
+In contrast,  exchange of C3botE214 to alanine did not affect the interaction  with RalA (Figure 4A).
+C3botE214 is crucial for ADP-ribosyltransferase activity in C3 exoenzymes, but is located in  the ARTT loop, which is not part of the interface of our  model.
+  Next we changed RalAA103, which interacts with C3bot, to  aspartate (Ras contains aspartate at the equivalent position)  (Figure 3D).
+RalAA103 belongs to the 14 tree-determinant  residues, which are specific for the Ral subtype group (Bauer  et al, 1999).
+This exchange diminished complex formation of  RalA with C3bot, because first the precipitation of RalAA103D  by GSTC3bot (Supplementary Figure 4B) was significantly  reduced and second the ADP ribosylation of RhoA by  C3bot was not affected in the presence of this mutant  (Supplementary Figure 5B).
+Finally, glucosylation of this  mutation (RalAA103D) was not affected by C3bot, indicating  that the mutation blocked the interaction of RalA with C3bot  (Figure 4C), presumably due to steric clashes with C3botN93.
+  We changed alanine-102 of RalA to glutamate (Ras contains  glutamate at the equivalent position).
+RalAA102 is involved in  van-der-Waals interactions with C3botQ92; however, its side  chain is directed away from the protein interface and exchange of alanine to glutamate has probably no consequence  for the interaction of the proteins.
+Accordingly, RalAA102E was  not glucosylated in the presence of C3bot, indicating complex  formation (Figure 4C).
+Taken together, the mutations studied  support the model of the RalAC3bot interface deduced from  the crystal structure.
+  Next we changed residues, which are crucial in the interface of the a4ARTT model proposed by Holbourn and  co-workers.
+Exchange of two critical lysines (C3botK73L and  C3botK81E) of C3bot did not affect precipitation by GSTRalA  (Supplementary Figure 4A) and inhibition of C3-induced ADP  ribosylation of RhoA (Supplementary Figure 5A).
+The same  was true for the exchange of Pro205, which is located in the  ARTT loop of C3bot to alanine (Supplementary Figure 4A and  5A).
+Finally, glucosylation of RalA was not affected by all  Figure 2 Structure of the RalAGDPC3bot complex.
+Ribbon diagram of RalA (grey) and C3bot (cyan) as a stereo view.
+The RalA switch-I and  -II regions are coloured blue and red, respectively.
+The P loop is shown in green.
+The bound GDP molecule is shown as a stick model coloured  by atom type (C, yellow; O, red; N, blue; P, magenta) and the Mg2  ion as a black sphere.
+Helices a2 and a3 of RalA are labelled as a2 and a3,  respectively.
+The catalytic ARTT loop of C3bot is shown in yellow.
+The secondary structure elements a3, a4, b6 and b7 of C3bot are labelled a0  3,  a0  4, b0  6 and b0  7, respectively.
+  RalAC3 complex  A Pautsch et al  &2005 European Molecular Biology Organization The EMBO Journal VOL 24 | NO 20 | 2005 3673three C3bot mutants, indicating complex formation with RalA  (Supplementary Figure 3A).
+Similarly, exchange of two  main interface residues of RalA (RalAE140A and RalAK143E)  did not affect precipitation by GSTC3bot (Supplementary  Figure 4B), inhibition of ADP ribosylation of RhoA  (Supplementary Figure 5B) and inhibition of glucosylation  of RalA by the lethal toxin (Supplementary Figure 3B).
+Taken  together, all mutations designed to disrupt the interface of the  a4ARTT model had no effect on the dimer in solution.
+  Specificity  It was shown that RalA inhibits the RhoA ADP-ribosylating  activity of the toxins C3lim and C3cer to a weaker extent  (63% for C3lim, 24% for C3cer), whereas a forth toxin,  RalAC3 complex  A Pautsch et al  3674 The EMBO Journal VOL 24 | NO 20 | 2005 &2005 European Molecular Biology OrganizationC3stau2, could not be inhibited at all (Wilde et al, 2002a).
+  The C3-docking region is not fully conserved in the three  toxins (Figure 3C): seven (out of 17) interface residues are  conserved in C3lim, five in C3cer and four in C3stau2,  respectively.
+Differences in amino-acid composition of the  interface could explain why the other toxins bind weaker or  not at all to Ral.
+Exchange of C3botG99 to a larger residue, for  example aspartate, is not tolerated (Table I and Figure 4A  and B).
+Accordingly, the equivalent residues C3cerS67 and  C3stauK56 could lead to collision with RalA. In contrast, the  conservation of the critical C3botG99 in C3lim could be one  determinant for its retained binding to RalA. A superposition  of the C3bot interface residues with the equivalent region  in C3stau2 (C3stau45C3stau66 and C3stau185C3stau186; PDB  code 1OJQ) indeed reveals several steric clashes.
+  Unfavourable interactions are, for example, observed  between C3stauD53 and RalG71, C3stauK56 and RalF107 and  C3stauQ62 and RalR79.
+  The conservation of interfacial residues is in good agreement with the available binding data of other GTPases  (Figure 3D).
+Interacting residues are invariant in RalB  (Figure 3D), which is in line with the interaction of RalB  with C3bot (Figure 1A).
+On the other hand, Ras, which does  not bind C3bot (Figure 1A), has several amino-acid exchanges in helix a3, which sterically interfere with the  observed interface, as for example RasD92 (equivalent to  RalA103, Figure 4C).
+RhoA also lacks significant sequence  conservation in the corresponding region and, therefore,  it is unlikely that Rho proteins are recognized by C3 in a  Ral-like manner.
+  NAD binding and implications for the ADP-ribosylating  activity of C3bot  In a previous study, we had shown that the RalAC3bot  complex is still capable of NAD hydrolysis (Wilde et al,  2002a).
+Using a GST-pulldown assay, we found that addition  of NAD does not compete with RalA binding (not shown),  which prompted us to prepare a quaternary RalAGDP  C3botNAD complex.
+In this complex, the NAD molecule is  well ordered (Supplementary Figure 6) and we did not find  any signs of NAD hydrolysis as previously reported for two of  four molecules in the asymmetric unit of the binary C3bot  NAD complex (Menetrey et al, 2002).
+Upon NAD binding,  only localized conformational changes in the catalytic ARTT  and PN loops are observed (not shown).
+Moreover, no  significant structural changes are observed with respect to  the binary C3botNAD complex (PDB code 1GZF, molecule  A).
+The r.m.s.d.
+over all Ca atoms of C3bot is 0.55 A and the  NAD positions are identical.
+Taken together, there is no clear  evidence that RalA binding renders the structural properties  of C3bot to block its RhoADP-ribosylating activity.
+  To answer if RalA could compete with Rho for a common  binding epitope, we mapped the areas that are involved in  substrate binding (ARTT loop, PN loop and region B) of the  C3-related ADP-ribosyltransferases ExoS and ExoT onto the  Figure 3 The RalAC3bot interface.
+(A) Interaction of C3bot with RalAGDP as a stereo view.
+The interface region of C3bot is displayed as a  cyan worm and interacting residues are shown in stick representation.
+For residues C3bot92C3bot100, all backbone atoms are shown and the  worm is omitted for clarity.
+RalGDP is shown as a surface representation with C3bot-interacting regions colour coded: switch I in blue, switch  II in red, P loop in green and helix a3 in yellow.
+The Mg2  ion is presented as a yellow sphere, GDP is shown in white.
+Atoms other than carbon  are coloured as in Figure 2.
+Hydrogen bonds are shown as dotted blue lines.
+(B) Schematic representation of polar (left) and hydrophobic  (right) interactions between RalA and C3bot at the proteinprotein interface.
+Hydrogen bonds are shown as dotted blue lines between the  interacting atoms.
+Most weak hydrogen bonds are omitted for clarity.
+Residues that are not part of the interface but couple C3bot binding to  GDP binding are shown in green.
+The Mg2  ion and coordinating water molecules are shown as magenta and blue balls, respectively.
+Other  water molecules are omitted for clarity.
+Hydrophobic interactions (cutoff level 4.0 A) are shown as yellow dashed lines.
+The pcation  interaction of Arg91 (green) to NAD-adenine is shown as a green dashed line.
+Residues that can be mutated to eliminate or reduce binding are  coloured magenta or orange, respectively. (C) Sequence alignment of the RalA-interacting regions of C3.
+The secondary structure is shown at  the top.
+The numbering corresponds to C3bot.
+Invariant residues are highlighted in red, conserved residues are boxed and in red.
+The aminoacid sequences of C3bot, C3lim, C3cer and C3stau2 are shown.
+Residues contributing to the complex interface are marked with black dots.
+Note  that the C3bot C-terminal region is not present in the other C3 exoenzymes and is therefore not shown.
+(D) Sequence alignment of the C3bot  interacting regions of RalA. The numbering corresponds to RalA. Invariant and conserved residues are marked as in (C), residues in the  interface and secondary structure are shown correspondingly.
+The amino-acid sequences of RalA, RalB, Ras- and RhoA are shown.
+  G99D  E109A  Precipitated C3  WT  E214A  GSTRalA beads  C3bot  RalA  WT G99D  [  32P]ADP-ribosylated RhoA  C3bot   + ++  [  14C]glucosylated RalA  C3bot  WT A102E A103D  RalA   +  +  A  B  C  Figure 4 Mutational analysis of the interface.
+(A) Precipitation of  mutant C3bot proteins by GSTRalA. GSTRalA immobilized to  glutathioneSepharose beads was incubated with equimolar concentrations of the indicated C3bot proteins.
+Beads were washed  three times and subjected to SDSPAGE.
+The Coomassie Bluestained gel is shown.
+(B) ADP ribosylation of RhoA by C3botG99D.
+  Rat brain lysate was incubated with C3bot or C3botG99D in the  absence or presence of RalA. Thereafter, samples were analysed by  SDSPAGE.
+The autoradiography is shown.
+(C) Glucosylation of  mutant RalA proteins.
+RalA proteins were incubated with C. sordellii lethal toxin and UDP-[14C]glucose in the absence or presence  of C3bot.
+Samples were subjected to SDSPAGE followed by  autoradiography.
+  RalAC3 complex  A Pautsch et al  &2005 European Molecular Biology Organization The EMBO Journal VOL 24 | NO 20 | 2005 3675C3bot context (Figure 5).
+Although RalA does not directly  overlap with any of the three regions, it is directly neighbouring region B (C3bot79C3bot88).
+The Ca atoms of C3botG88  and RalE99, for example, are only 10 A apart and the adjacent  C3botK89 forms a salt bridge to RalD106.
+The full Rho-binding  site might extend further into the distal region of the active  site cleft, such that RalA would sterically interfere with Rho  binding, but more experiments will be needed to confirm this  hypothesis.
+  Consequences for nucleotide binding  In the following section, we will discuss the structural  implications of C3bot binding to RalA for guanine nucleotide  binding.
+A superposition of the RalAC3bot complex onto the  GDP-bound RalA is shown in Figure 6A.
+In the structures of  RalAGDP as well as RalAGppNHp (PDB code 1U8Y), the  solvent-exposed switch II is either disordered (RalA72  RalA74) or has high-temperature factors (Figure 6B), indicating a flexible backbone.
+In contrast, the switch-II region  becomes well ordered in the complex due to numerous  polar and hydrophobic interactions with C3bot (Figures 3B  and 6).
+In the complex, C3bot neither contacts the nucleotide  nor does it directly interact with residues that are involved in  nucleotide binding (Figure 3B).
+However, C3bot binds to and  stabilizes the P loop and switch-II region.
+These residues in  turn can then stabilize adjacent residues, which contact the  GDP b-phosphate (RalAG24, RalAK27) or form hydrogen bonds  (RalAT69, RalAA70) to water molecules, coordinating the  Mg2  ion, which is involved in high-affinity binding of the  b-phosphate of the guanine nucleotide (Figure 6C).
+It is  suggested that this indirect interaction of C3bot with the P  loop and switch II of RalA stabilizes the nucleotide binding.
+  Since the P loop is also found well ordered in the structure of  free RalAGDP (Figure 6B), we assume that the stabilization  of switch II makes the more important contribution.
+  Interestingly, a similar mode of nucleotide stabilization has  been observed previously for two GDIs of Rab family proteins  (Rak et al, 2003, 2004), suggesting that C3bot could also act  as a GDI on Ral (see the biochemical analysis below).
+  To understand how C3bot binding discriminates between  different nucleotide-binding states of RalA (Table I), we  compared the structure of RalAGppNHp in complex with  Sec5 (Fukai et al, 2003) with the RalAGDPC3bot complex  (Figure 6D).
+The observed conformational changes in the  switch-I and -II regions of RalA are a typical response of Ras  family proteins to changes in the nucleotide-binding status  (Cherfils et al, 1997).
+C3bot and Sec5 bind to opposite sides  of the RalAeffector recognition region without steric overlap.
+Sec5 recognition of RalA occurs mostly through an  intermolecular b-sheet, which involves RalA48RalA52, but  binding would be sterically precluded by the GDP-bound  conformation of switch I (Fukai et al, 2003).
+On the other  hand, the GppNHp-bound RalA conformation would not be  compatible with the observed RalAGDPC3bot complex due  to severe steric clashes of switch-II residues with C3bot  (Figure 6D), for example between RalAQ72 and C3botV96,  RalAE73 and C3botI97.
+Complex formation of GTP-bound  RalA with C3bot would additionally require structural rearrangements in switch I to bring RalAT46 into a position  for coordinating Mg2  , as observed in all structures of  G-domains in the trisphosphate conformation.
+A direct  consequence would be that C3bot binding to the RalAGTP  state is impaired or at least largely reduced.
+In conclusion,  C3bot competes indirectly with endogenous RalA effectors  (e.g., Sec5) by stabilizing the GDP-bound off-state of RalA.  Biochemical studies on nucleotide binding  Biochemical studies corroborated that nucleotide binding of  RalA is altered in the RalAC3bot complex.
+We studied the  nucleotide exchange by using fluorescently labelled mantnucleotides.
+In line with the high KD of the RalAGppNHp  C3bot complex (Table I), the release of mant-GppNHp from  RalA was not significantly affected by the presence of a  12-fold molar excess of C3bot (data not shown).
+The release  of mant-GDP from RalA was studied at increasing concentrations of C3bot in the presence of an excess of GDP (Figure 7).
+  Addition of C3bot resulted in inhibition of mant-GDP release  in a concentration-dependent manner.
+Accordingly, C3bot,  but not C3stau, inhibited the binding of mant-GDP to RalA  (data not shown).
+This inhibition of GDP exchange is reminiscent to the interaction of Ras with the Ras-binding domain  of Ras effectors (Herrmann et al, 1995).
+As it is also found  with RhoGDI and Rho GTPases, the term GDI effect was  introduced for the trapping of GDP in such a complex  (Herrmann et al, 1995).
+Notably, the GDI effect of C3bot  could not easily be rationalized with the a4ARTT model,  Figure 5 The binding site of RalA and the putative Rho-binding site of C3 proteins.
+C3bot is shown as a grey surface representation with three  regions, which are important for substrate recognition in the related transferases ExoS and ExoT (see text) shown in cyan.
+RalA is shown as  a ribbon representation in magenta.
+GDP and NAD are shown as stick models coloured by atom type as in Figure 2.
+The boxed region is shown  as a close-up with RalA as a space-filling model.
+Labelled residues of C3bot are marked by a dash.
+  RalAC3 complex  A Pautsch et
+al  3676 The EMBO Journal VOL 24 | NO 20 | 2005 &2005 European Molecular Biology Organizationwhere the Ral interface lies on a surface that is opposite to the  Ral effector-binding region.
+  Conclusions  Here we solved the structure of RalA in a complex with  the RhoADP-ribosylating C3 exoenzyme from C. botulinum.
+  During submission of the manuscript, a similar crystal  structure was reported, which differed fundamentally in the  interface of the protein complex (Holbourn et al, 2005).
+  Crystallographic and biochemical arguments strongly disfavoured the a4ARTT model proposed by Holbourn and  co-workers.
+Moreover, site-directed mutational analysis of  residues proposed to be involved in the one or the other  interfaces of both complexes confirms our model of C3botRalA  interaction.
+This study shows a GTPaseprotein complex in  which the GDP- and not the GTP-bound form of a small  GTPase (RalA) is the species, which selectively interacts with  Figure 6 Switch regions and structural basis of the GDI effect.
+(A) Superposition of GDP-bound RalA with the RalAGDPC3bot complex.
+  GDP-bound RalA is shown in yellow, except for the switch-I (magenta) and switch-II (orange) regions.
+RalA in complex with C3bot is shown in  grey, except for the switch-I (blue) and switch-II (red) regions.
+Residues 89112 of the C3bot-interface region are displayed as a cyan worm.
+  GDP and Mg2  are shown in white (RalAGDPC3bot) and yellow (RalAGDP), with atoms other than carbon and Mg2  coloured as in  Figure 2.
+Labelled residues of C3bot are marked by a dash, throughout the figure.
+(B) Comparison of the temperature factors (B-factors) for  GDP-bound RalA (orange line) and RalAGDPC3bot (black line).
+The switch-I and -II regions are highlighted in grey.
+(C) Indirect stabilization  of GDP by C3bot binding.
+C3bot is displayed as a cyan worm.
+RalA is shown in grey, except for the switch-I (blue) and switch-II (red) regions.
+  Interacting residues of RalAGDP and C3bot are shown in stick representation with atoms other than carbon coloured as in Figure 2.
+Water  molecules are shown as red spheres.
+The Mg2  ion is presented as a black sphere, hydrogen bonds are shown as yellow dotted lines.
+  (D) Superposition of the Sec5 bound RalAGppNHp with the RalAGDPC3bot complex.
+RalAGppNHp is shown as a grey worm except  for the switch-I (magenta) and switch-II (orange) regions.
+RalA-C3bot is shown colour coded as in (A).
+Mg2  -GDP is shown in white and  Mg2  -GppNHp is shown in orange.
+Sec5 is shown as a brown worm.
+The Sec5-binding region is marked by a brown circle.
+Prominent  residues of RalA and C3bot that would be involved in steric clashes are marked by a sphere at their Ca position.
+  0.70  0.75  0.80  0.85  0.90  0.95  1.00  0 200 400 600 800 1000 1200 1400 1600 1800  Relative fluorescence  Time (s)  Control  + C3 (100 nM)  + C3 (500 nM)  + C3 (1 M)  Figure 7 Influence of C3bot on the nucleotide exchange of RalA.  RalA was preloaded with mant-GDP.
+The release of mant-GDP from  RalA (100 nM) was determined in the presence of the indicated  C3bot concentrations by monitoring the decrease in fluorescence.
+  RalAC3 complex  A Pautsch et al  &2005 European Molecular Biology Organization The EMBO Journal VOL 24 | NO 20 | 2005 3677a partner.
+This mode of interaction is usually observed with  GDIs.
+Interestingly, there is no GDI known for Ral proteins.
+  The interaction of RalA with C3bot occurs mainly in a pocket  between the switch-II region and helix a3 of the GTPase.
+  Interestingly, this region was recently predicted to be involved in RalA effector binding on the basis of the crystal  structures of GDP- and GppNHp-loaded RalA (Nicely et al,  2004).
+By contrast, the RalA effectors Sec5 and C3bot bind on  different sides of the GTPase effector recognition region.
+  Notably, the affinity of Sec5 for RalA KDB118 nM is lower  than the affinity of C3bot for RalA (KD 35715 nM (fluorescence titration) and 60720 nM (ITC)).
+The high-affinity  interaction of C3bot with RalA has major consequences for  the guanine nucleotide binding of RalA: the RalAC3bot  complex causes trapping of GDP (GDI effect).
+It has to be  studied which functional consequence this GDI-like effect has  for Ral signalling.
+The interaction site of C3bot with RalA is  surprising, because no specific function could be ascribed to  this region of the transferase up to now.
+Although distal from  the catalytic centre, the a3loopa4 region appears to be  involved in the regulation of the transferase activity via RalA  binding.
+The observed complex offers an explanation how  Ral is able to block the ADP ribosylation of RhoA by C3bot  without serving as a substrate for the enzyme.
+Studies from  recent years have shown that many bacterial protein toxins  and effectors act in a multifunctional manner.
+For example,  P. aeruginosa exoenzyme S possesses an ADP-ribosyltransferase activity and a GTPase-activating protein (GAP) function for Rho-GTPases (Barbieri and Frank, 2002).
+However,  these different functions of the bacterial effectors depend on  their bimodular structure.
+Our findings suggest that C3bot,  which consists of one domain only, accomplishes different  functions (e.g., ADP-ribosyltransferase activity and inhibition  of RalA) by interacting with different targets (e.g., Rho and  Ral).
+With respect to the high affinity of the RalAC3bot  complex and the functional consequences of the RalAC3bot  interaction, it is highly likely that C3bot affects target cells  not only by ADP ribosylation of Rho but also by interfering  with Ral signalling (e.g., via PLD regulation) (Wilde  et al, 2002a).
+  Materials and methods  Cloning, expression and purification  The RalA gene was cut from pTacRalA kindly provided by P Chardin  (Valbonne, France) (Frech et al, 1990) and cloned into the pGEX-2T  vector.
+For crystallization, a truncated version RalA(9183) was  amplified by PCR and cloned into pGEX-2T with a glycine linker  using BamH1 and EcoR1 restriction sites.
+The RalB expression  plasmid was kindly provided by Dr A Wittinghofer (MPI,  Dortmund).
+The recombinant GTPases RalA, RalB, Ras and  recombinant exoenzymes C3bot, C3lim, C3cer and C3stau were  expressed as GST-fusion proteins and purified as described (Selzer  et al, 1996).
+  C. sordellii lethal toxin was prepared as reported (Just et al,  1997).
+RalA(9183) and recombinant C3bot were expressed at 371C  for 1015 h in Escherichia coli (BL21, Stratagene, La Jolla, CA) as  GST-fusion proteins.
+The purified GST-fusion proteins were cleaved  with thrombin and subsequently purified by using a Superdex 75  size exclusion column.
+To form the RalA(9183)C3bot complex,  equimolar amounts of the purified proteins were incubated  at 41C overnight in a buffer, containing 20 mM TrisHCl, 50 mM  NaCl, 2 mM MgCl2 and 5 mM b-mercaptoethanol.
+The RalA(9183)  C3bot complex was isolated by size-exclusion chromatography  (Superdex 75).
+  Site-directed mutagenesis  Mutant proteins of RalA or C3bot were constructed using the QuickChange kit, according to the manufacturers instructions (Stratagene).
+Correct nucleotide sequences were confirmed by sequencing.
+  Mant-nucleotide exchange  For analysis of the release of mant-GDP, RalA was loaded with  mant-nucleotides as described (Ahmadian et al, 2002).
+C3bot was  added at the indicated concentrations to RalA(mant-GDP) (100 nM)  in a buffer, containing 10 mM TrisHCl (pH 7.5), 150 mM NaCl and  2.5 mM MgCl2.
+The nucleotide exchange was started by addition of  GDP (200 mM).
+A time-dependent decrease in fluorescence was  determined, using excitation and emission wavelengths of 357 and  444 nm, respectively, with a Perkin-Elmer LSB 50 fluorimeter.
+  ITC and fluorescence titration  The affinity of the binding of RalA to C3 from C. botulinum was  measured by ITC and by fluorescence titration according to  Herrmann et al (1995), using the tryptophan fluorescence of RalA  excited at 290 nm and monitored at 348 nm.
+The tryptophandeficient mutant C3botW18L was used to minimize the background  fluorescence (Wilde et al, 2002a).
+To account for the small  background which increases with the titration, we performed a  control titration experiment with C3botW18L alone.
+This linear  increase in fluorescence was subtracted from the original data.
+A  quadratic binding curve (equation (1)) was fit to the corrected data.
+  F Fmax  Fmin  Fmax    A 0  B 0  KD   ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi  A 0  B   2  0  KD  4A 0B   q  0  2A 0  1  where F is the relative fluorescence; Fmax and Fmin maximal and  minimal fluorescence, respectively; [A]0, total concentration of  RalAGDP; [B]0, total concentration of titrant C3botW18L; KD,  dissociation equilibrium constant.
+  ITC experiments were performed using a VP-ITC calorimeter  (Microcal, LCC, Northampton, MA) thermostatted to 371C.
+In brief,  1.4 ml of a solution containing 4 mM of C3bot (or the mutants  C3botG99D and C3botE109A, respectively) was loaded into the sample  cell and titrated with 73 mM of RalAGDP or RalAGppNHp by  stepwise injections from the syringe.
+The sample was stirred at 420  r.p.m.
+An interval of 4 min between each injection was used to  allow baseline recording after each peak.
+The changes in the  heating power were integrated to yield the enthalpy change upon  complex formation.
+After subtraction of the background value,  these data were evaluated with a single-site binding model using the  Origin software, provided by Microcal, LCC.
+All titration measurements were carried out in a buffer containing 20 mM TrisHCl,  pH 7.5, 50 mM NaCl, 2 mM MgCl2 and 2 mM DTE.
+The nucleotide  loading of RalAGDP and RalAGppNHp was confirmed by HPLC  analysis.
+  Enzyme assays  For ADP ribosylation of Rho protein in rat brain lysate, 60 mg of total  protein was incubated with wild-type or mutant C3bot proteins  (50 nM) in a solution containing 0.3 mM [adenylate-32P]NAD, 2 mM  MgCl2 and 50 mM HEPES (pH 7.5) for 30 min at 371C.
+Indicated  recombinant GTPases were added in a final concentration of 2 mM  (Wilde et al, 2002a).
+Proteins were subjected to SDSPAGE and  further analysed by phosphorimaging.
+  For glucosylation of RalA by C. sordellii lethal toxin, wild-type or  mutant RalA proteins (2 mM) were incubated with lethal toxin  (100 ng) in 25 ml of a solution containing 10 mM UDP-[14C]glucose,  100 mM KCl, 200 mM MnCl2, 0.1 mg/ml BSA and 10 mM HEPES (pH  7.4) in the presence or absence of equal concentrations of C3bot  for 20 min at 371C (Just et al, 1997).
+Phosphorimager data of the  SDSPAGE are shown.
+  Western blot analysis  For Western blotting, samples were subjected to SDSPAGE and  transferred onto polyvinyl difluoride membrane.
+RhoA was detected  with a polyclonal antibody (anti-RhoA, Santa Cruz Biotechnologie,  Santa Cruz, CA).
+Binding of the second horseradish peroxidasecoupled antibody was detected with enhanced chemiluminescent  detection reagent (100 mM TrisHCl, pH 8.0, 1 mM luminal, 0.2 mM  p-coumaric acid and 3 mM H2O2).
+  RalAC3 complex  A Pautsch et al  3678 The EMBO Journal VOL 24 | NO 20 | 2005 &2005 European Molecular Biology OrganizationPrecipitation assays  GSTRalA or GSTC3bot immobilized to Sepharose beads (1 mM)  were incubated with the indicated proteins (1 mM) in a buffer  containing 2 mM MgCl2, 50 mM HEPES (pH 7.5), 1 mM dithiothreitol, 1 mM EDTA, 1 mM PMSF and 0.5% NP40 (total volume 300 ml)  for 45 min at 4o  C. Subsequently, beads were washed three times  with the same buffer and subjected to SDSPAGE.
+  Crystallization, data collection and processing  Initially, 480 conditions were screened in 96-well crystallization  plates, using low-volume drops dispensed by a Cartesian robot  (Genomics Solutions, UK).
+Small crystals could be obtained from  many conditions.
+Optimal crystals were obtained at 201C in 1 1 ml  sitting drops from a complex concentrated up to 10 mg/ml over a  reservoir of 0.2 M ammonium sulfate, 0.1 M bistris, pH 5.5 and  25% w/v polyethylene glycol 3350.
+Crystals were flash frozen in a  100 K nitrogen stream, after briefly soaking in reservoir solution  supplemented with 20% glycerol.
+The NAD complex was obtained  through a soaking experiment to limit hydrolysis during crystal  growth.
+We used a crystal grown as described above, but from a  reservoir solution consisting of 0.2 M tri-ammonium citrate, pH 7.0,  and 25% w/v polyethylene glycol 3350.
+A 1 ml aliquot of mother  liquor supplemented with 5 mM NAD was added to the drop.
+The  crystal was soaked for 3 h and then briefly transferred to  cryoprotectant (reservoir solution supplemented with 20% glycerol) before freezing in a 100 K nitrogen stream.
+Data sets were  collected at 100 K on a Rigaku RU-300 generator equipped with a  MAR345dtb image plate.
+The diffraction data were processed with  XDS (Kabsch, 1993).
+Statistics of the data processing are shown in  Table II.
+  Structure determination and refinement  The structure of RalAGDPC3bot was solved with the molecular  replacement method.
+As search models we used the coordinates of  unliganded C3bot and GppNHp-bound RalA with the switch-I and  -II regions omitted from the calculation (PDB accession codes  1G24 and 1UAD, respectively).
+Calculations were performed with  program Molrep from the CCP4 suite (Collaborative Computational  Project N.4, 1994) and resulted in unambiguous signals for both  proteins.
+The model was improved by iterative rounds of manual  rebuilding and refinement using the programs O (Jones et al, 1991)  and Refmac (Murshudov et al, 1997).
+Water molecules were added  using arp-warp (Perrakis et al, 1999) at the last stages of refinement.
+  The final model has been completed to residues 13182 of RalA,  residues 45251 of C3bot, 1 Mg2  ion and 330 water molecules.
+As  defined by PROCHECK, there are 91.8% of residues in the most  favoured regions of the Ramachandran plot and 8.2% in additionally allowed regions.
+The structure of the isomorphous NAD  complex was obtained by difference Fourier methods and refined  as outlined above.
+The final statistics for the models are listed  in Table II.
+Buried surface areas were calculated by program  AREAINMOL from the CCP4 suite.
+Figures were prepared using  MOLSCRIPT (Kraulis, 1991) InsightII (accelerys INC) and  PyMOL (DeLano Scientific LLC).
+  Coordinates  The coordinates and structure factors have been deposited in the  Protein Data Bank (PDB accession codes 2A78 (RalAGDPC3bot)  and 2A9K (RalAGDPC3botNAD)).
+  Supplementary data  Supplementary data are available at The EMBO Journal Online.
+  Acknowledgements  The study was financially supported by the Deutsche  Forschungsgemeinschaft and the Fonds of the Chemical Industry.
+  We thank Dr Alfred Wittinghofer (Max-Planck-Institut fur  Molekulare Physiologie, Dortmund, Germany) for providing the  unpublished coordinates of the GDP-bound RalA and Dr Manuel  Dietz (Institut fur physikalische Chemie, Universitat Freiburg,  Germany) for supporting the collection and refinement of fluorescence data.
+  References  Ahmadian MR, Wittinghofer A, Herrmann C (2002) Fluorescence  methods in the study of small GTP-binding proteins.
+Methods Mol  Biol 189: 4563  Aktories K, Braun U, Rosener S, Just I, Hall A (1989) The rho gene  product expressed in E. coli is a substrate of botulinum ADPribosyltransferase C3.
+Biochem Biophys Res Commun 158:  209213  Aktories K, Weller U, Chhatwal GS (1987) Clostridium botulinum  type C produces a novel ADP-ribosyltransferase distinct from  botulinum C2 toxin.
+FEBS Lett 212: 109113  Aktories K, Wilde C, Vogelsgesang M (2004) Rho-modifying C3-like  ADP-ribosyltransferases.
+Rev Physiol Biochem Pharmacol 152:  122  Barbieri JT, Frank DW (2002) Pseudomonas aeruginosa exoenzyme  S, a bifunctional cytotoxin secreted by a type-III pathway.
+In  Bacterial Protein Toxins, Aktories K, Just I (eds), pp 235251.  Berlin: Springer  Bauer B, Mirey G, Vetter IR, Garcia-Ranea JA, Valencia A,  Wittinghofer A, Camonis JH, Cool RH (1999) Effector recognition  by the small GTP-binding proteins Ras and Ral.
+J Biol Chem 274:  1776317770  Chardin P, Boquet P, Madaule P, Popoff MR, Rubin EJ, Gill DM  (1989) The mammalian G protein rho C is ADP-ribosylated by  Clostridium botulinum exoenzyme C3 and affects actin microfilament in Vero cells.
+EMBO J 8: 10871092  Chardin P, Tavitian A (1986) The ral gene: a new ras related  gene isolated by the use of a synthetic probe.
+EMBO J 5:  22032208  Cherfils J, Menetrey J, Le Bras G, Janoueix-Lerosey I, De Gunzburg  J, Garel J-R, Auzat I (1997) Crystal structures of the small G  protein Rap2A in complex with its substrate GTP, with GDP and  with GTPgammaS. EMBO J 16: 55825591  Collaborative Computational Project N.4 (1994) The CCP4 suite:  programs for protein crystallography.
+Acta Crystallogr D 50:  760763  Evans HR, Sutton JM, Holloway DE, Ayriss J, Shone CC, Acharya KR  (2003) The crystal structure of C3stau2 from Staphylococcus  aureus and its complex with NAD.
+J Biol Chem 278: 4592445930  Feig LA (2003) Ral-GTPases: approaching their 15 minutes of fame.
+  Trends Cell Biol 13: 419425  Feig LA, Urano T, Cantor S (1996) Evidence for a Ras/Ral signaling  cascade.
+Trends Biochem Sci 21: 438441  Frech M, Schlichting I, Wittinghofer A, Chardin P (1990) Guanine  nucleotide binding properties of the mammalian RalA protein  produced in Escherichia coli.
+J Biol Chem 265: 63536359  Fukai S, Matern HT, Jagath JR, Scheller RH, Brunger AT (2003)  Structural basis of the interaction between RalA and Sec5, a  subunit of the sec6/8 complex.
+EMBO J 22: 32673278  Genth H, Gerhard R, Maeda A, Amano M, Kaibuchi K, Aktories K,  Just I (2003) Entrapment of Rho ADP-ribosylated by Clostridium  botulinum C3 exoenzyme in the Rho-guanine nucleotide dissociation inhibitor-1 complex.
+J Biol Chem 278: 2852328527  Han S, Arvai AS, Clancy SB, Tainer JA (2001) Crystal structure and  novel recognition motif of Rho ADP-ribosylating C3 exoenzyme  from Clostridium botulinum: structural insights for recognition  specificity and catalysis.
+J Mol Biol 305: 95107  Hernandez-Munoz I, Malumbres M, Leonardi P, Pellicer A (2000)  The Rgr oncogene (homologous to RalGDS) induces transformation and gene expression by activating Ras, Ral and Rho mediated  pathways.
+Oncogene 19: 27452757  Herrmann C, Martin GA, Wittinghofer A (1995) Quantitative analysis of the complex between p21ras and the Ras-binding domain  of the human Raf-1 protein kinase.
+J Biol Chem 270: 29012905  Holbourn KP, Sutton JM, Evans HR, Shone CC, Acharya KR (2005)  Molecular recognition of an ADP-ribosylating Clostridium botulinum C3 exoenzyme by RalA GTPase.
+Proc Natl Acad Sci USA 102:  53575362  Jiang H, Luo J-Q, Urano T, Frankel P, Lu Z, Foster DA, Feig LA  (1995) Involvement of Ral GTPase in v-Src-induced phospholipase D activation.
+Nature 378: 409412  RalAC3 complex  A Pautsch et al  &2005 European Molecular Biology Organization The EMBO Journal VOL 24 | NO 20 | 2005 3679Jones TA, Zou JY, Cowan SW, Kjeldgaard M (1991) Improved  methods for building protein models in electron density maps  and the location of errors in these models.
+Acta Crystallogr A 47:  110119  Jullien-Flores V, Dorseuil O, Romero F, Letourneur F, Saragosti S,  Berger R, Tavitian A, Gacon G, Camonis JH (1995) Bridging  Ral GTPase to Rho pathwaysRLIP76, a Ral effector with  CDC42/Rac GTPase-activating protein activity.
+J Biol Chem 270:  2247322477  Jullien-Flores V, Mahe Y, Mirey G, Leprince C, Meunier-Bisceuil B,  Sorkin A, Camonis JH (2000) RLIP76, an effector of the GTPase  Ral, interacts with the AP2 complex: involvement of the Ral  pathway in receptor endocytosis.
+J Cell Sci 113: 28372844  Just I, Mohr C, Schallehn G, Menard L, Didsbury JR,  Vandekerckhove J, van Damme J, Aktories K (1992)  Purification and characterization of an ADP-ribosyltransferase  produced by Clostridium limosum.
+J Biol Chem 267: 1027410280  Just I, Selzer J, Hofmann F, Aktories K (1997) Clostridium difficile  toxin B as a probe for Rho GTPases.
+In Bacterial ToxinsTools  in Cell Biology and Pharmacology, Aktories K (ed), pp 159168.
+  Weinheim: Chapman & Hall  Kabsch W (1993) Automatic processing of rotation diffraction data  from crystals of initially unknown symmetry and cell contents.
+  J Appl Crystallogr 26: 795800  Kraulis PJ (1991) Molscripta program to produce both detailed  and schematic plots of protein structures.
+J Appl Crystallogr 24:  946950  Luo JQ, Liu X, Frankel P, Rotunda T, Ramos M, Flom J, Jiang H, Feig  LA, Morris AJ, Kahn RA, Foster DA (1998) Functional association  between Arf and RalA in active phospholipase D complex.
+Proc  Natl Acad Sci USA 95: 36323637  Menetrey J, Flatau G, Stura EA, Charbonnier J-B, Gas F, Teulon J-M,  Le Du M-H, Boquet P, Menez A (2002) NAD binding induces  conformational changes in Rho ADP-ribosylating Clostridium  botulinum C3 exoenzyme.
+J Biol Chem 277: 3095030957  Moskalenko S, Henry DO, Rosse C, Mirey G, Camonis JH, White  MA (2002) The exocyst is a Ral effector complex.
+Nat Cell Biol 4:  6672  Murshudov GN, Vagin AA, Dodson EJ (1997) Refinement of macromolecular structures by the maximum-likelihood method.
+Acta  Crystallogr D 53: 240255  Nicely NI, Kosak J, de SV, Mattos C (2004) Crystal structures of  Ral-GppNHp and Ral-GDP reveal two binding sites that are also  present in Ras and Rap.
+Structure (Cambridge) 12: 20252036  Ohta Y, Suzuki N, Nakamura S, Hartwig JH, Stossel TP (1999) The  small RalA targets filamin to induce filopodia.
+Proc Natl Acad Sci  USA 96: 21222128  Park SH, Weinberg RA (1995) A putative effector of Ral has  homology to Rho/Rac GTPase activating proteins.
+Oncogene 11:  23492355  Perrakis A, Morris R, Lamzin VS (1999) Automated protein model  building combined with iterative structure refinement.
+Nat Struct  Biol 6: 458463  Rak A, Pylypenko O, Durek T, Watzke A, Kushnir S, Brunsveld L,  Waldmann H, Goody RS, Alexandrov K (2003) Structure of Rab  GDP-dissociation inhibitor in complex with prenylated YPT1  GTPase.
+Science 302: 646650  Rak A, Pylypenko O, Niculae A, Pyatkov K, Goody RS, Alexandrov  K (2004) Structure of the Rab7:REP-1 complex: insights into the  mechanism of Rab prenylation and choroideremia disease.
+Cell  117: 749760  Rubin EJ, Gill DM, Boquet P, Popoff MR (1988) Functional modification of a 21-Kilodalton G protein when ADP-ribosylated by  exoenzyme C3 of Clostridium botulinum.
+Mol Cell Biol 8: 418426  Sehr P, Joseph G, Genth H, Just I, Pick E, Aktories K (1998)  Glucosylation and ADP-ribosylation of Rho proteinseffects on  nucleotide binding, GTPase activity, and effector-coupling.
+  Biochemistry 37: 52965304  Sekine A, Fujiwara M, Narumiya S (1989) Asparagine residue in the  rho gene product is the modification site for botulinum ADPribosyltransferase.
+J Biol Chem 264: 86028605  Selzer J, Hofmann F, Rex G, Wilm M, Mann M, Just I, Aktories K  (1996) Clostridium novyi a-toxin-catalyzed incorporation of  GlcNAc into Rho subfamily proteins.
+J Biol Chem 271: 2517325177  Shen Y, Xu L, Foster DA (2001) Role for phospholipase D in receptormediated endocytosis.
+Mol Cell Biol 21: 595602  Sugihara K, Asano S, Tanaka K, Iwamatsu A, Okawa K, Ohta Y  (2002) The exocyst complex binds the small GTPase RalA to  mediate filopodia formation.
+Nat Cell Biol 4: 7378  Sun J, Maresso AW, Kim JJ, Barbieri JT (2004) How bacterial ADPribosylating toxins recognize substrates.
+Nat Struct Mol Biol 11:  868876  Urano T, Emkey R, Feig LA (1996) Ral-GTPases mediate a distinct  downstream signaling pathway from Ras that facilitates cellular  transformation.
+EMBO J 15: 810816  Wilde C, Barth H, Sehr P, Han L, Schmidt M, Just I, Aktories K  (2002a) Interaction of the Rho-ADP-ribosylating C3 exoenzyme  with RalA. J Biol Chem 277: 1477114776  Wilde C, Chhatwal GS, Schmalzing G, Aktories K, Just I (2001) A  novel C3-like ADP-ribosyltransferase from Staphylococcus aureus  modifying RhoE and Rnd3.
+J Biol Chem 276: 95379542  Wilde C, Just I, Aktories K (2002b) Structurefunction analysis  of the Rho-ADP-ribosylating exoenzyme C3stau2 from  Staphylococcus aureus.
+Biochemistry 41: 15391544  RalAC3 complex  A Pautsch et al  3680 The EMBO Journal VOL 24 | NO 20 | 2005 &2005 European Molecular Biology Organization

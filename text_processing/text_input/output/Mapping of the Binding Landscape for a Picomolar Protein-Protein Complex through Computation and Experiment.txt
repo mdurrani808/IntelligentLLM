@@ -1,0 +1,863 @@
+Structure
+Resource
+Mapping of the Binding Landscape
+for a Picomolar Protein-Protein Complex
+through Computation and Experiment
+Yonatan Aizner,1,2 Oz Sharabi,1,2 Jason Shirian,1 George R. Dakwar,1 Marina Risman,1 Orly Avraham,1
+and Julia Shifman1,
+* 1Department of Biological Chemistry, The Alexander Silberman Institute of Life Sciences, The Hebrew University of Jerusalem,
+Jerusalem 91904, Israel
+2These authors contributed equally to this work
+*Correspondence: jshifman@cc.huji.ac.il
+http://dx.doi.org/10.1016/j.str.2014.01.012
+SUMMARY
+Our understanding of protein evolution would greatly
+benefit from mapping of binding landscapes, i.e.,
+changes in protein-protein binding affinity due to all
+single mutations. However, experimental generation
+of such landscapes is a tedious task due to a large
+number of possible mutations. Here, we use a simple
+computational protocol to map the binding land￾scape for two homologous high-affinity complexes,
+involving a snake toxin fasciculin and acetylcholines￾terase from two different species. To verify our
+computational predictions, we experimentally mea￾sure binding between 25 Fas mutants and the 2
+enzymes. Both computational and experimental re￾sults demonstrate that the Fas sequence is close to
+the optimum when interacting with its targets, yet a
+few mutations could further improve Kd, kon, and
+koff. Our computational predictions agree well with
+experimental results and generate distributions
+similar to those observed in other high-affinity PPIs,
+demonstrating the potential of simple computational
+protocols in capturing realistic binding landscapes.
+INTRODUCTION
+Protein-protein interactions (PPIs) are crucial for all cellular
+pathways, including signal transduction, DNA replication, tran￾scription/translation, and multicomponent protein assemblies.
+Hence, understanding and manipulating PPIs is of high interest
+for both basic biology and applied research, such as synthetic
+biology and drug design. In the past decade, large effort has
+been dedicated to characterizing PPIs at different levels. High￾throughput studies mapped all PPIs in several organisms,
+accumulating extensive information on the architecture of PPI
+networks and identifying new pairs of interacting proteins (Ito
+et al., 2001; Uetz et al., 2000; Gavin et al., 2002; Giot et al.,
+2003; Ho et al., 2002; Stelzl et al., 2005; Rual et al., 2005).
+Constantly appearing high-resolution structures of protein-pro￾tein complexes facilitated atomic-level analysis of various bind￾ing interfaces (Kastritis et al., 2011). Advances in molecular
+biology allowed determination of single residue contribution to
+the binding energetics (Pal et al., 2006). In spite of all this prog￾ress, our comprehension of the precise molecular forces that
+govern binding affinity and binding specificity in PPIs remains
+incomplete, impeding rational design of novel PPIs (Fleishman
+et al., 2011a, 2011b).
+A considerable number of experimental studies report
+changes in free energy of binding (DDGbind) due to mutations.
+However, the majority of such data involves substitutions to
+Ala that destroy existing interactions, leading in most cases to
+a decrease in PPI affinity (Cunningham and Wells, 1989, 1993;
+Delano, 2002; Pal et al., 2005; Skelton et al., 2003; Yang et al.,
+2003; Zhang and Palzkill, 2003) and providing no insight on
+how to enhance binding affinity. In addition, mutations to Ala
+rarely occur in nature and hence present marginal interest
+when studying protein evolution. To obtain a more comprehen￾sive picture of binding interface evolution and architecture, one
+should analyze changes in binding affinity due to all possible sin￾gle mutations, thereby generating a PPI binding landscape. Such
+landscapes can be used to estimate the degree of binding inter￾face sequence optimality and to identify affinity-enhancing
+mutations that are important for various biotechnological appli￾cations (Pal et al., 2006). However, experimental generation of
+binding landscapes is a tedious task due to the large number
+of mutants that need to be constructed and assessed for binding
+affinity. Hence, generation of binding landscapes through com￾putational means presents an attractive alternative to lengthy
+experiments. Recent successes in predicting affinity-enhancing
+mutations in various PPIs through structure-based computa￾tional methods (Selzer et al., 2000; Sammond et al., 2007; Haidar
+et al., 2009; Reynolds et al., 2008; Hao et al., 2008; Lippow et al.,
+2007) indicate that computational binding landscapes might pro￾vide a good approximation to reality.
+In this study, our goal was to generate a binding landscape for
+a representative high-affinity PPI. Among various PPIs, high￾affinity PPIs are of particular interest because they are commonly
+responsible for life and death decisions in the cell (such as, for
+example, in immunity proteins-collicin interactions; Papadakos
+et al., 2012). On the other hand, high-affinity PPIs are attractive
+systems for computational biologists because they could be
+used to learn about the nature of nearly optimal intermolecular in￾teractions such as packing, electrostatics, and hydrogen bond
+Structure 22, 1–10, April 8, 2014 ª2014 Elsevier Ltd All rights reserved 1
+Please cite this article in press as: Aizner et al., Mapping of the Binding Landscape for a Picomolar Protein-Protein Complex through Computation and
+Experiment, Structure (2014), http://dx.doi.org/10.1016/j.str.2014.01.012patterns. We expect that binding interface sequences of high￾affinity PPIs have evolved to perfection; hence, the majority of
+mutations would lead to a decrease in binding affinity, whereas
+beneficial mutations in the direct binding interface are rare,
+making our task of finding such mutations a challenge.
+As our model system, we picked a complex between an
+essential synaptic enzyme acetylcholinesterase (AChE) and a
+polypeptide toxin present in the venom of the green mamba
+snake, fasciculin-2 (Fas). AChE terminates impulse transmission
+at cholinergic synapses by rapid hydrolysis of a neurotrans￾mitter, acetylcholine (Zimmerman and Soreq, 2006). Fas is a
+very powerful inhibitor of AChE, whose application leads to
+muscle fasciculation and paralysis (Karlsson et al., 1985). High
+affinity of the Fas-AChE complex (Kd of 10121010 M; Weiner
+et al., 2009; Radic et al., 1994; Eastman et al., 1995) is essential
+for the snake’s ability to kill its prey.
+Fas belongs to a three-finger toxin family that shares a com￾mon b sheet fold with three protruding loops or ‘‘fingers.’’ Four
+disulfide bonds supply proteins in this family with very high sta￾bility (Kini, 2002). The high-resolution structures of Fas are avail￾able in complex with three different species of AChE: Mouse
+(mAChE), Torpedo californica (tAChE), and Human (hAChE)
+(Bourne et al., 1995; Harel et al., 1995; Kryger et al., 2000). All
+three structures show a very similar binding mode where Fas
+binds at the surface of the enzyme, sealing the access to the
+AChE active site, which is buried in the middle of the enzyme
+(Figure 1A). The tight binding between the two proteins has
+been attributed to several factors, including high surface
+complementarity, large hydrophobic surface burial, intermolec￾ular hydrogen bonds, and extremely optimized electrostatic
+interactions between cationic residues on Fas and anionic resi￾dues on AChE (Harel et al., 1995; Radic et al., 1997).
+In a previous study, we designed a quintuple Fas mutant with
+the intention of improving its affinity to tAChE. Unfortunately, this
+Fas mutant showed reduced affinity to the enzyme when
+measured experimentally (Sharabi et al., 2009). Nevertheless,
+we demonstrated that the decrease in affinity was mostly due
+to one unsuccessfully predicted mutation, removal of which re￾sulted in slightly improved binding to the enzyme. To eliminate
+the effect of error accumulation when dealing with multiple
+Figure 1. Structural Analysis of the Fas￾AChE Interface
+(A) Structure of the Fas-hAChE complex (PDB ID
+1B41). hAChE is shown in red, Fas is shown in
+green. Binding interface residues are shown as
+sticks (cyan on Fas and red on AChE).
+(B) Results of the computational mutagenesis
+experiments for Fas binding to tAChE (top) and
+hAChE (bottom). Fas binding interface positions
+with their WT identity are displayed on the left, the
+mutated amino acid identity is on the top. Calcu￾lated DDGbind value for each mutation is color
+coded from stabilizing (blue) to destabilizing (red).
+Mutations selected for experimental analysis are
+circled.
+mutations, here we test our ability to pre￾dict the effect of single mutations at the
+Fas binding interface. We first generate
+a computational binding landscape for Fas interacting with
+AChE from two species, tAChE and hAChE. We then construct
+a considerable number of Fas mutants experimentally and mea￾sure their binding affinities to both enzymes. We show that our
+predictions are in good agreement with the experimental results
+and demonstrate that whereas most mutations on the Fas bind￾ing interface lead to substantial reduction in affinity, a few muta￾tions result in significant affinity improvement.
+RESULTS
+Computational Saturated Mutagenesis of the Fas
+Binding Interface
+To determine how various mutations on Fas affect its binding
+affinity to tAChE and hAChE, we performed computational satu￾rated mutagenesis (Sharabi et al., 2013) of the Fas binding inter￾face using the framework of the ORBIT protein design software
+(Dahiyat and Mayo, 1997). Starting from the crystal structures
+of Fas bound to tAChE and to hAChE, we considered 17 natural
+amino acids at each of the Fas binding interface positions. We
+did not consider mutations to Pro, Gly, and Cys because intro￾duction of Pro and Gly is likely to change Fas backbone confor￾mation, while Cys would interfere with the correct disulphide
+bond formation of the protein. After each mutation was intro￾duced into Fas, we calculated the intermolecular energy DEinter
+by subtracting the energies of the unbound chains from that of
+the Fas-AChE complex. DDGbind was calculated as the differ￾ence between DEinter of the mutant and that of the wild-type
+(WT) complex. In our calculations, we did not model backbone
+flexibility, assuming that single mutations in Fas do not change
+its fold significantly. Side chain flexibility was modeled by re￾packing side chains in the immediate vicinity of the mutation
+site for the complex structure only. For the unbound chains,
+side chain conformations were ‘‘frozen’’ in the conformation
+determined for the complex structure (see Experimental Proce￾dures for more details).
+The results of the computational saturated mutagenesis are
+summarized in Figure 1B. Our results show that relatively few
+mutations are predicted to improve Fas affinity to tAChE and
+even fewer mutations to hAChE. This is consistent with our
+Structure
+Binding Landscapes of High-Affinity PPIs
+2 Structure 22, 1–10, April 8, 2014 ª2014 Elsevier Ltd All rights reserved
+Please cite this article in press as: Aizner et al., Mapping of the Binding Landscape for a Picomolar Protein-Protein Complex through Computation and
+Experiment, Structure (2014), http://dx.doi.org/10.1016/j.str.2014.01.012expectations that the two interactions are already evolutionary
+optimized. For some of the mutations, improvement in intermo￾lecular energy was coupled to significant destabilization of Fas
+in the unbound form (Table S1 available online). We thought
+that such Fas mutants are unlikely to show improved binding
+in reality, but chose three of these mutants for experimental
+validation.
+Overall, we selected 23 Fas single mutants (Figure 1B) and two
+double mutants incorporating mutations at positions 8 and 9 for
+testing. Among the 25 mutants, six were predicted to signifi￾cantly improve Fas affinity for tAChE and/or hAChE, and five
+were predicted to significantly decrease affinity to both en￾zymes. Eleven of the selected mutants were predicted to
+improve binding specificity toward one of the enzymes. The
+number of Fas mutants being tested was limited by a relatively
+tedious procedure for expression of this protein. Fas is a difficult
+protein to express due to its small size and the presence of four
+disulfide bonds. Indeed, when expressed in Escherichia coli and
+in yeast (Pichia pastoris) using various protocols, no active pro￾tein was obtained. In our previous work however, we reported
+an efficient protocol for Fas refolding after its expression in
+E. coli (Sharabi et al., 2009). We used the same protocol for
+expression and refolding of all the Fas mutants considered in
+this work. The majority of the Fas mutants were refolded
+correctly using a protocol designed for WT Fas. However, three
+Fas mutants (M33W, V34N, and L35R) remained unfolded and
+were hence excluded from further experiments (Figure S1).
+To measure binding between the Fas mutants and tAChE/
+hAChE, we used an enzyme activity assay that is based on color￾imetric detection of the AChE catalysis product. Very tight affin￾ities of Fas mutants to the enzyme could be measured using this
+method due to high sensitivity of the assay. Moreover, the
+enzyme-activity-based method allowed us to determine not
+only the equilibrium binding affinities (Kd), but also the kinetic
+rates, kon and koff (Figure S2).
+Figure 2. Changes in Binding Free Energy,
+Kinetic Rates, and Binding Specificity due
+to Mutations on Fas
+Parameters for interactions between Fas mutants
+and tAChE are shown as gray bars and between
+Fas mutants and hAChE are shown as black bars.
+(A) Changes in DDGbind relative to WT Fas. Hori￾zontal lines at ± 0.4 kcal/mol distinguish mutations
+with significant changes in DDGbind from those
+with small changes in DDGbind.
+(B) Enhancement in kon relative to WT Fas.
+(C) Enhancement in koff relative to WT Fas. It was
+not possible to obtain kinetic data for interactions
+between tAChE and several mutants (T9N, R27M,
+R27F, and R27Y) due to very fast association and
+dissociation phases.
+(D) Binding specificity of a particular Fas mutant to
+tAChE (gray bars) and to hAChE (black bars).
+Binding specificity is calculated as a ratio of Kd for
+one enzyme species versus another.
+Using the above assay, we explored
+the binding landscape of the Fas-AChE
+interaction at physiological ionic strength
+(I = 0.15 M). Fas WT binds to tAChE and
+hAChE with 370 pM and 90 pM affinities, preferring the Human
+enzyme by about a factor of four. Figure 2A summarizes our
+binding experiments where affinities between Fas mutants and
+both tAChE and hAChE were measured. We assigned our exper￾imental DDGbind data to three different groups: mutations that
+exhibit significant enhancement in affinity to one or both en￾zymes (DDGbind < 0.4 kcal/mol), mutations that nearly do not
+change affinity (0.4 < DDGbind < 0.4 kcal/mol), and mutations
+that significantly destabilize the complex between the Fas
+mutant and either enzyme (DDGbind > 0.4 kcal/mol). We identified
+five data points with significant enhancement in DDGbind. These
+points belong to two Fas mutants H29R and H29K that show
+improvement in affinity to both tAChE and hAChE and N47R
+that shows improvement in affinity to only tAChE (Figure 2A
+and Table 1). Our best affinity-improving mutation H29R, shows
+12-fold affinity enhancement to 30 pM for tAChE while the sec￾ond best mutation, H29K, shows 4.5-fold affinity improvement
+to 21 pM for hAChE. Ten data points fell in the neutral zone,
+showing slight changes in binding affinity to one or both
+enzymes, corresponding to mutants T8V/T9I, T8V/T9N, T9I,
+K32R, N47W, N47F, and N47R. The remaining 29 data points
+correspond to Fas mutations that significantly destabilize its
+binding to one or both species of AChE.
+We next examined how each of the tested Fas mutations
+affects kinetic rates of binding. Interestingly, Fas binds to tAChE
+and hAChE with different kinetics. The association rate of
+WT Fas to tAChE is faster than its association to hAChE (6.8 3
+107 M1 s1 and 5.1 3 106 M1 s1
+, respectively). However,
+the dissociation rate of WT Fas is also faster for tAChE compared
+to hAChE (2.5 3102 s1 and 4.8 3 104 s1
+, respectively), thus
+resulting in a 4-fold tighter Kd of WT Fas to hAChE. Analysis of kon
+data shows that it is significantly improved for two Fas mutants
+(H29K and H29R) when binding to tAChE and for only one muta￾tion H29K when binding to hAChE (Figure 2B). Unchanged kon is
+exhibited by a large number of mutants when binding to both
+Structure
+Binding Landscapes of High-Affinity PPIs
+Structure 22, 1–10, April 8, 2014 ª2014 Elsevier Ltd All rights reserved 3
+Please cite this article in press as: Aizner et al., Mapping of the Binding Landscape for a Picomolar Protein-Protein Complex through Computation and
+Experiment, Structure (2014), http://dx.doi.org/10.1016/j.str.2014.01.012Table 1. Binding Parameters for Interactions between Fas Mutants and t/hAChE at Physiological Ionic Strength
+Fas-taChE
+Fas Mutant Kd (nM)a kon, 3 107 (M1
+s1
+) koff 3 102 (s1
+)
+Experimental
+DDGbind (kcal/mol)
+Calculated
+DDGbind (kcal/mol)
+WT 0.37 ± 0.07 6.80 ± 1.5 2.52 ± 0.90 0 0
+8V 0.69 ± 0.12 5.17 ± 1.08 3.57 ± 1.01 0.37 ± 0.17 0.44
+9I 0.25 ± 0.04 3.18 ± 0.82 0.796 ± 0.153 0.23 ± 0.17 0.043
+9N 2.8 ± 0.2 NDb ND 1.19 ± 0.14 1.14
+8V9I 0.780 ± 0.097 8.60 ± 0.47 0.671 ± 0.345 0.44 ± 0.15 0.76
+8V9N 0.60 ± 0.05 8.50 ± 0.70 5.10 ± 0.05 0.28 ± 0.14 0.55
+11K 0.63 ± 0.05 4.70 ± 0.40 2.96 ± 0.04 0.31 ± 0.14 0.25
+12S 0.64 ± 0.05 7.50 ± 0.92 4.80 ± 0.458 0.32 ± 0.14 0.17
+27F 22.6 ± 4.65 ND ND 2.43 ± 0.18 0.77
+27M 33.2 ± 7.07 ND ND 2.65 ± 0.18 0.58
+27Y 31.3 ± 9.05 ND ND 2.62 ± 0.21 0.94
+29K 0.13 ± 0.03 19.6 ± 5.7 2.55 ± 0.824 0.62 ± 0.19 1.36
+29R 0.03 ± 0.02 39.0 ± 3.5 1.17 ± 0.90 1.48 ± 0.41 1.48
+32R 2.3 ± 0.2 3.50 8.05 1.08 ± 0.14 0.46
+33F 1.8 ± 0.1 6.18 ± 2.19 11.1 ± 4.5 0.93 ± 0.14 1.98
+33L 1.88 ± 0.02 0.197 ± 0.021 0.37 ± 0.14 0.96 ± 0.13 1.19
+33Q 5.26 ± 0.49 0.309 ± 0.047 1.62 ± 0.21 1.57 ± 0.14 1.77
+33Y 3.9 ± 1.3 4.63 ± 1.92 18.1 ± 8.0 1.39 ± 0.24 2.12
+33W Unfc Unf Unf Unf 3.3
+34N Unf Unf Unf Unf 0.71
+34T 5.38 ± 1.16 3.33 ± 2.08 17.9 ± 7.8 1.58 ± 0.18 0.36
+35R Unf Unf Unf Unf 0.13
+35W 4.29 ± 0.05 1.92 ± 0.84 8.24 ± 1.19 1.44 ± 0.13 0.57
+47F 0.85 ± 0.05 1.55 ± 0.01 1.34 ± 0.60 0.49 ± 0.14 1.24
+47W 0.45 ± 0.03 1.19 ± 0.01 5.70 ± 0.30 0.11 ± 0.14 1.83
+47R 0.150 ± 0.028 6.75 ± 0.85 1.03 ± 0.14 0.54 ± 0.09 2.55
+Fas-hAChE Interactions
+Fas Mutant Kd (nM)a kon, 3 107 (M1
+s1
+) koff 3 102 (s1
+)
+Experimental
+DDGbind (kcal/mol)
+Calculated
+DDGbind (kcal/mol)
+WT 0.094 ± 0.007 0.505 ± 0.022 0.0475 ± 0.0252 0 0
+8V 0.64 ± 0.12 0.22 ± 0.11 0.143 ± 0.662 1.13 ± 0.12 0.86
+9I 0.098 ± 0.013 0.426 ± 0.085 0.0417 ± 0.0116 0.024 ± 0.089 0.02
+9N 41.7 ± 25.2 0.398 ± 0.19 16.6 ± 2.0 3.60 ± 0.36 2.31
+8V9I 0.183 ± 0.031 0.200 ± 0.034 0.0366 ± 0.121 0.39 ± 0.11 0.68
+8V9N 5.66 ± 0.35 0.583 ± 0.021 3.30 ± 1.18 2.42 ± 0.056 2.69
+11K 0.27 ± 0.11 0.217 ± 0.106 0.0586 ± 0.012 0.62 ± 0.24 0.38
+12S 0.31 ± 0.01 0.71 ± 0.17 0.220 ± 0.052 0.70 ± 0.046 0.10
+27F 3.3 ± 1.3 0.49 ± 0.19 4.71 ± 0.29 2.49 ± 0.16 0.86
+27M 1.15 ± 0.05 0.302 ± 0.059 0.347 ± 0.070 1.47 ± 0.05 1.02
+27Y 5.37 ± 0.12 0.334 ± 0.108 1.79 ± 0.57 2.38 ± 0.04 1.04
+29K 0.0210 ± 0.0014 0.892 ± 0.295 0.0187 ± 0.0075 0.88 ± 0.06 0.92
+29R 0.0471 ± 0.0075 0.550 ± 0.160 0.0259 ± 0.0060 0.41 ± 0.10 0.27
+32R 0.182 ± 0.038 0.442 ± 0.178 0.0796 ± 0.023 0.38 ± 0.13 0.30
+33F 0.350 ± 0.036 0.245 ± 0.089 0.0858 ± 0.021 0.77 ± 0.07 0.20
+33L 1.97 ± 0.14 0.344 ± 0.188 0.678 ± 0.341 1.79 ± 0.06 0.96
+33Q 1.39 ± 0.33 0.0660 ± 0.0123 0.0917 ± 0.037 1.57 ± 0.15 1.90
+33Y 0.31 ± 0.07 0.375 ± 0.0733 0.113 ± 0.013 0.68 ± 0.14 0.001
+(Continued on next page)
+Structure
+Binding Landscapes of High-Affinity PPIs
+4 Structure 22, 1–10, April 8, 2014 ª2014 Elsevier Ltd All rights reserved
+Please cite this article in press as: Aizner et al., Mapping of the Binding Landscape for a Picomolar Protein-Protein Complex through Computation and
+Experiment, Structure (2014), http://dx.doi.org/10.1016/j.str.2014.01.012enzymes. Analysis of the koff data showed larger changes in
+this parameter compared to changes in kon. Eight mutations
+were found to enhance koff for tAChE (T8V/T9I, T9I, H29R,
+M33L, M33Q, N47F, N47W, and N47R) and two mutations for
+hAChE (H29K and H29R; Figure 2C). On the other hand, for
+several mutants, koff for hAChE was more than 50-fold faster
+(worse) compared to WT Fas (T8V/T9N, T9N, R27F, R27Y, and
+M33L).
+We also examined whether some of the selected Fas mutants
+display high specificity for one species of AChE over the other
+species (e.g., at least 10-fold difference in binding affinity to
+tAChE versus hAChE). As we mentioned before, WT Fas prefers
+hAChE to tAChE by approximately a factor of four. Figure 2D
+shows that two Fas mutants (T9N and T8V/T9N) exhibit reverse
+binding specificity, binding to tAChE with 15- and 10-fold higher
+affinity compared to hAChE. However, for both mutants the
+specificity enhancement is achieved at the expense of reduced
+binding affinity to both enzymes. In addition, we found four Fas
+mutants (R27M, M33Y, K32R, and N47F) that show considerable
+(>10-fold) preference for hAChE over tAChE. These results
+demonstrate that in spite of very similar binding epitopes of
+tAChE and hAChE, it is possible to find single and double Fas
+mutants that show considerable preference toward one species
+of the enzyme.
+We next decided to investigate whether the Fas-AChE binding
+landscape changes at low ionic strength where electrostatic in￾teractions are enhanced. At low ionic strength of I = 0.057 M,
+binding affinity of WT Fas for both enzymes is reduced to
+94 pM and 35 pM for tAChE and hAChE, respectively, in agree￾ment with previous experiments (Radic et al., 1997). Similarly,
+affinities of all the tested Fas mutants are enhanced at low ionic
+strength in comparison to physiological ionic strength (Table S2).
+The increase in binding affinity at lower ionic strength comes
+solely from an increase in kon, while koff remains virtually un￾changed in agreement with previous results on the Fas-mAChE
+complex (Radic et al., 1997). The same data points, correspond￾ing to mutations H29R and H29K, exhibit significant enhance￾ment in binding affinity to both enzymes in comparison to WT
+Fas. On average, we observed that DDGbind values at low ionic
+strength were similar to those at physiological ionic strength,
+thus indicating that the binding landscapes do not change
+substantially.
+Finally, to examine the accuracy of our computational protocol
+for DDGbind predictions, we plotted all the experimentally
+measured values of DDGbind versus computationally predicted
+values and calculated the correlation between the two. For
+measurements performed at physiological ionic strength, we
+observed a correlation coefficient R = 0.70 between our predic￾tions and experimental results, attesting to the good accuracy of
+our computational protocol that models only minimum flexibility
+(Figure 3). A slightly worse correlation (R = 0.66) was observed
+when comparing our predictions to experimental values ob￾tained at low ionic strength (Figure S3A). Interestingly, our pre￾dictions of DDGbind correlate much better with kon compared
+to koff (R values of 0.61 and 0.15, respectively), indicating that
+the success of DDGbind prediction comes mostly from the suc￾cess in predicting kon. We further compared our computational
+results to those obtained by a more sophisticated method for
+DDGbind prediction, CC/PBSA, that models backbone flexibility
+by constructing a large ensemble of PPI structures and aver￾aging the DDGbind over the ensemble (Benedix et al., 2009).
+The CC/PBSA calculations resulted in a considerably worse cor￾relation with our experimental results (R = 0.45) while requiring
+significantly longer time for completion (Figure S3B). In addition,
+the CC/PBSA method did not predict enhancement in binding
+affinity for any of the Fas mutants that showed significant affinity
+enhancement experimentally.
+DISCUSSION
+Optimality of the Fas Binding Interface and Interfaces of
+Other High-Affinity PPIs
+We expected that the Fas-AChE interface is already evolutionary
+optimized, with its WT amino acid sequence lying near the opti￾mum of the fitness landscape. Thus, the majority of mutations in
+this interface should lead to large destabilization of the complex,
+while neutral and beneficial mutations in the direct binding
+interface should be rare, making our task of finding such
+mutations a challenge. Previous mutational studies on Fas in
+complex with murine AChE (mAChE) demonstrated that very
+Table 1. Continued
+Fas-hAChE Interactions
+Fas Mutant Kd (nM)a kon, 3 107 (M1
+s1
+) koff 3 102 (s1
+)
+Experimental
+DDGbind (kcal/mol)
+Calculated
+DDGbind (kcal/mol)
+33W Unf Unf Unf Unf 0.65
+34N Unf Unf Unf Unf 1.32
+34T 0.73 ± 0.13 0.146 ± 0.054 0.106 ± 0.040 1.20 ± 0.11 0.67
+35R Unf Unf Unf Unf 0.13
+35W 0.85 ± 0.30 0.810 ± 0.357 0.689 ± 0.47 1.29 ± 0.21 1.30
+47F 0.074 ± 0.002 0.460 ± 0.130 0.0345 ± 0.0004 0.14 ± 0.05 0.14
+47W 0.10 ± 0.01 0.330 ± 0.030 0.0355 ± 0.0095 0.04 ± 0.05 0.48
+47R 0.0893 ± 0.0042 0.427 ± 0.023 0.0380 ± 0.0003 0.01 ± 0.04 0.25
+ND, not determined; Unf, unfolded.
+a
+All parameters were calculated from experiments shown in Figure S2. The experiments were repeated three times and SD was calculated. b
+The protein was not correctly folded after the refolding procedure as shown in Figure S1. c
+The value could not be determined due to very fast dissociation phase.
+Structure
+Binding Landscapes of High-Affinity PPIs
+Structure 22, 1–10, April 8, 2014 ª2014 Elsevier Ltd All rights reserved 5
+Please cite this article in press as: Aizner et al., Mapping of the Binding Landscape for a Picomolar Protein-Protein Complex through Computation and
+Experiment, Structure (2014), http://dx.doi.org/10.1016/j.str.2014.01.012large destabilization of the complex could be achieved by
+mutating only one or a few key residues on the AChE side
+(DDGbind of 3–5 kcal/mol for single mutants and 11 kcal/mol for
+a triple mutant; Radic et al., 1994). Our experimental results
+also show destabilization of more than 2 kcal/mol for 7 data
+points and more than 1 kcal/mol for 21 of 44 measured data
+points, revealing the steepness of the fitness landscape in the
+vicinity of the WT Fas sequence.
+To make a more general comparison of the Fas-AChE binding
+landscape with binding landscapes of other high-affinity PPIs,
+we turned to the SKEMPI database that contains more than
+3,000 binding affinity measurements for various PPI mutants
+(Moal and Fernandez-Recio, 2012). Using this database, we
+constructed a histogram for experimentally measured DDGbind
+values for single mutants in high-affinity PPIs (Kd < 1 nM; 1,205
+data points), thus exploring various single moves in the se￾quence space starting from the WT binding interface sequence
+of high-affinity complexes (Figure 4). We generated a similar his￾togram using our computational predictions of DDGbind values in
+the Fas-t/hAChE complexes and another histogram for experi￾mentally measured DDGbind values at the physiological ionic
+strength reported in this work (Figure 4). Figure 4 shows that
+the distribution of DDGbind values for various high-affinity PPIs
+is not symmetrical, revealing a much higher probability of finding
+a deleterious mutation at the binding interface compared to
+a beneficial mutation. This distribution exhibits a mean of
+1.45 kcal/mol, an SD of 1.97 kcal/mol, and a long righthand
+side tail corresponding to mutations that substantially decrease
+affinity. Yet, affinity-enhancing mutations are not extremely rare
+for high-affinity PPIs with 20% of all mutations exhibiting
+DDGbind < 0 kcal/mol and 9% of mutations exhibiting DDGbind <
+0.5 kcal/mol. A histogram resulting from our predictions of
+DDGbind values in the Fas-t/hAChE interactions is very similar
+to that observed for various high-affinity PPIs with a mean of
+1.58 kcal/mol and an SD of 2.25 kcal/mol. Among Fas mutations,
+17% are predicted to result in DDGbind < 0 kcal/mol and 7% of
+mutations to result in DDGbind < 0.5 kcal/mol. The histogram
+of experimentally measured DDGbind values for the Fas-t/hAChE
+interactions includes only a subset of all possible mutations, yet
+covers almost the full range of computationally predicted values
+with 16% of mutations resulting in DDGbind < 0 kcal/mol and 8%
+of mutations resulting in DDGbind < 0.5 kcal/mol. In summary,
+the above results show that the Fas binding landscape is similar
+to binding landscapes of other high-affinity PPIs where the
+majority of point mutations in the binding interface lead to
+moderate destabilization of the complex, a considerable amount
+of mutations lead to high destabilization of the complex, and
+the minority of mutations lead to moderate stabilization of the
+complex.
+Computational binding landscapes are not only helpful for
+understanding evolution of the whole binding interface, but
+also reveal a degree of optimality at different binding interface
+positions. Our analysis shows that many of the Fas positions
+are already occupied by the best amino acid choice. This is
+especially true for hAChE, which exhibits higher affinity to Fas
+compared to tAChE. For example, no better amino acid
+(compared to WT) could be found at 7 of 13 positions when inter￾acting with hAChE (Figure 1B). Nevertheless, our computational
+scan also revealed that a few positions at the Fas binding
+interface are less optimized than others, such as positions 29
+and 47 (Figure 1B), where further improvement is possible
+through a number of mutations. Indeed, at these positions,
+affinity-enhancing mutations were found experimentally. This
+finding suggests that more permissive positions in any PPI are
+Figure 3. Correlation between the Experimental and the Calculated
+DDGbind for Fas Mutant-t/hAChE Interactions
+Experimental measurements were performed at ionic strength of 0.15 M. The
+calculated values of DDGbind were obtained using a computational saturated
+mutagenesis protocol that models only side chain flexibility as described in the
+Experimental Procedures. The data are fitted to a linear equation Y = 0.29 +
+0.72 X, with an R value of 0.70.
+Figure 4. Histogram Showing the Distribution of Mutations accord￾ing to Their Effect on PPI Binding Energetics
+Light gray histogram corresponds to experimental measurements in various
+high-affinity PPIs (Kd < 1 nM) compiled from the SKEMPI database (Moal
+and Fernandez-Recio, 2012). Dark gray histogram corresponds to com￾putational predictions of mutational effects in the Fas-t/hAChE complexes
+reported in this work. Black histogram corresponds to experimental mea￾surements of mutational effects in the Fas-t/hAChE interactions presented in
+this work.
+Structure
+Binding Landscapes of High-Affinity PPIs
+6 Structure 22, 1–10, April 8, 2014 ª2014 Elsevier Ltd All rights reserved
+Please cite this article in press as: Aizner et al., Mapping of the Binding Landscape for a Picomolar Protein-Protein Complex through Computation and
+Experiment, Structure (2014), http://dx.doi.org/10.1016/j.str.2014.01.012good targets for engineering affinity-enhancing mutations either
+through computational or combinatorial means.
+Among a large but not exhaustive number of experimentally
+tested mutations we found three, H29R, H29K, and N47R, that
+significantly improve binding affinity to either both or one enzyme
+and three mutations that slightly improve affinity to one enzyme
+(T9I, N47W, and N47F). The three mutations with significantly
+improved affinity are polar and positively charged. This is in
+contrast to most of the previous design studies that focused
+on finding hydrophobic affinity-enhancing mutations (Sammond
+et al., 2007; Haidar et al., 2009). The improvement in affinity for
+H29R and H29K is due to improvement in both kon and koff.
+Structural analysis showed that the WT His at position 29 does
+not participate in any intermolecular interactions with tAChE/
+hAChE. Mutation of His to either R or K improves electrostatic
+interaction with the enzyme (resulting in kon enhancement) and
+creates direct hydrogen bonds with the enzyme. Interestingly,
+the two very similar mutations prefer different enzyme species.
+Whereas K at this position is more optimal for interaction with
+hAChE, R at the same position makes better contacts with
+tAChE (Figures 5A and 5B). The third affinity-improving mutation,
+N47R, also occurs at a position where WT Asn is too far to partic￾ipate in any intermolecular interactions. Mutating it to Arg intro￾duces a new salt bridge to Glu 247 on tAChE (Figure 5C).
+The magnitude of the affinity enhancement reported here for
+single mutations is larger than that obtained in a similar study
+for a picomolar antibody-antigen complex (Lippow et al.,
+2007). The small number of identified affinity-enhancing muta￾tions for the Fas-AChE PPI is not surprising because the Fas
+interface is very small, consisting of only 13 positions. Large in￾terfaces, such as those of antibody-antigen complexes, have a
+potential for greater number of affinity-enhancing mutations,
+combination of which could lead to several orders of magnitude
+enhancement in affinity.
+Figure 5. Structural Analysis of the Affinity￾Enhancing Mutations
+(A and B) Fas is shown in cyan and t/hAChE in
+green. H29R and H29K and their interactions with
+tAChE (A) and with hAChE (B) according to our
+modeling. Whereas WT His at position 29 does not
+make any contacts with either tAChE or hAChE
+(left panels), Arg at this position forms two
+hydrogen bonds with either Asp 285 on tAChE or
+Glu 292 on hAChE (middle panels). The hydrogen
+bonds are predicted to be more energetically
+favorable for tAChE compared to hAChE. Lys29
+forms a hydrogen bond with the backbone of
+tAChE and forms two hydrogen bonds with side
+chains of Glu 292 and Gln 291 on hAChE (right
+panels).
+(C) N47R and its interactions with tAChE. Whereas
+WT Asn at position 47 is too far to form any inter￾molecular interactions (left panel), upon mutation
+to Arg, a new salt bridge with Glu 247 on tAChE is
+created (middle panel).
+Three of the tested Fas mutants failed
+to refold using the standard refolding
+protocol (M33W, V34N, and L35R). For
+all three mutants, the predicted negative
+DDGbind was coupled to high destabilization of the Fas chain
+in the unbound form (Table S1). These results demonstrate
+that a certain percentage of single mutations are not compatible
+with folded proteins and hence cannot be used for generation of
+binding landscapes. Indeed, some experimental binding affinity
+measurements with high positive DDGbind values might corre￾spond to instances where the protein mutant is mostly unfolded.
+Hence, the criteria for designing affinity-enhancing mutations
+should be based not only on negative DDGbind, but also on
+neutral or stabilizing effect of the mutation on the unbound
+chain.
+Kinetics of Binding and Its Evolutionary Consequences
+Our measurements revealed substantial differences in associa￾tion and dissociation rates between Fas and the two enzyme
+species, demonstrating that high affinity could be achieved
+through different kinetics. While both association and dissocia￾tion is fast for tAChE, both processes are slower for hAChE.
+These differences in kinetics might be due to slight variation
+in the enzyme interface composition. hAChE contains more
+hydrophobic and aromatic residues compared to that of
+tAChE (with eight hydrophobic and seven aromatic residues
+on hAChE versus six hydrophobic and five aromatic residues
+on tAChE). On the contrary, the tAChE binding interface is
+more charged relative to that of hAChE (five negatively charged
+and one positively charged residue for tAChE versus three
+negatively charged residues and two positively charged for
+hAChE). The more polar and charged nature of the tAChE
+interface could explain faster association driven by long-range
+electrostatics and faster dissociation due to fewer hydrophobic
+contacts. Interestingly, the hAChE binding interface is very
+similar to that of mAChE (90% sequence identity), which is
+Fas target in nature (because Green Mamba snakes prey on
+rodents). The kinetic rates of the Fas-mAChE interactions at
+Structure
+Binding Landscapes of High-Affinity PPIs
+Structure 22, 1–10, April 8, 2014 ª2014 Elsevier Ltd All rights reserved 7
+Please cite this article in press as: Aizner et al., Mapping of the Binding Landscape for a Picomolar Protein-Protein Complex through Computation and
+Experiment, Structure (2014), http://dx.doi.org/10.1016/j.str.2014.01.012the same conditions were estimated to be 8 3 106 M1 s1
+and 1 3 104 s1 (Radic et al., 1997), respectively, similar
+to those of the Fas-hAChE interactions. Slower association
+and dissociation rates of Fas to mAChE and hAChE result
+in longer inhibition of the enzyme and greater physiological
+consequences.
+Compared to other high-affinity PPIs, Fas-AChE interactions
+are characterized by optimal kon but mediocre koff. Indeed,
+kon of the Fas-tAChE interactions is higher than that of most
+other high-affinity PPIs (Table 2), whereas kon of the Fas
+H29R mutant toward tAChE is the same as that of one of
+the fastest PPIs in nature, the barnace/barstar complex. On
+the other hand, koff of Fas interactions with hAChE and partic￾ularly with tAChE is much worse than those of other high￾affinity complexes and can be compared only to that of the
+interleukin 4/interleukin 4 receptor complex. Interestingly, koff
+of the trypsin/BPTI complex, which is also a complex between
+an enzyme and a small disulfide-bonded inhibitor, is several
+orders of magnitude slower than that of the Fas-AChE
+interactions.
+Despite these results, we found that both kon and koff of Fas￾AChE interactions could be further enhanced through mutations
+with equal probability. However, sometimes enhancement in one
+parameter leads to a compromise in the other, resulting in no
+improvement in Kd. Mutations that were identified here to
+improve kon were all polar in nature and improve long-range elec￾trostatics as in some previous design studies (Selzer et al., 2000).
+Both polar and hydrophobic mutations were identified to
+improve koff, resulting in larger burial of the hydrophobic surface
+area and creation of new hydrogen bonds.
+In conclusion, we explored binding landscapes of two homol￾ogous high-affinity complexes using both computational and
+experimental means and demonstrated that the two landscapes
+are typical for high-affinity PPIs. We showed that the sequence
+of one binding partner (Fas) is close to optimum when interact￾ing with its targets (tAChE and especially hAChE). However,
+mutations at positions that presently are not involved in
+intermolecular interactions resulted in further improvement of
+fitness. We showed that kinetics of binding could be quite
+different for two homologous PPIs, and both association and
+dissociation rates could be further enhanced through mutations.
+Last of all, we demonstrated that binding landscapes in PPIs
+could be well approximated by computational landscapes pro￾duced by a simple protocol for the DDGbind prediction presented
+in this work.
+EXPERIMENTAL PROCEDURES
+In Silico Saturated Mutagenesis of the Fas-AChE Interface
+The residues on Fas that are within 4 A˚ of tAChE/hAChE in the Fas-tAChE/Fas￾hAChE complex structures (Kryger et al., 2000; Harel et al., 1995) were defined
+as Fas binding interface (positions 6, 8, 9, 11, 12, 27, 29, 32, 33, 34, 35, 47, and
+61). For each of the binding interface position, we define a set of shell positions
+including the residues on tAChE/hAChE that are within 4 A˚ from the considered
+Fas position and the residues on Fas that are within 3 A˚ from the considered
+position. For each binding interface position, we then perform 18 calculations,
+when the considered position on Fas is either kept WT or is replaced with
+another amino acid, all except for Pro, Cys, and Gly. During the calculation,
+the shell and the interface residues are repacked, and the energy of the Fas￾AChE complex is calculated for the WT and for the mutated complex. We
+then separate the two chains and calculate the energy of each unbound chain
+separately either without further repacking of the side chains or with repacking
+(as stated in the text). The intermolecular energy was calculated by subtracting
+the energies of the single chains (Fas and AChE) from the total energy of the
+complex. DDGbind is calculated as the intermolecular energy of the mutant
+subtracted by the intermolecular energy of the WT complex. Finally, the ob￾tained DDGbind was normalized according to a linear equation obtained in
+our previous work where the correlation between various experimental and
+computed DDGbind values were tested (see Figure 3F in Sharabi et al.,
+2011). Rotamer libraries used for design were based on the backbone-depen￾dent library of Dunbrack and Karplus (Dunbrack and Karplus, 1993) with
+additional rotamers expanded by 1 SD around their mean c1 and c2 values.
+For the calculations, we used ORBIT software with the energy function
+optimized by our group for design of protein-protein interactions (Sharabi
+et al., 2011). The lowest-energy rotameric conformation of each mutant was
+found using the Dead-End Elimination theorem (Desmet et al., 1992; Gordon
+et al., 2003). All optimizations were performed using a cluster of Xeon
+computers.
+Fas Mutant Construction
+Gene constructs for Fas mutants were constructed from the WT Fas gene
+using either the standard site-directed mutagenesis procedure or the
+Transfer-PCR (TPCR) procedure (Erijman et al., 2011). WT Fas and mutants
+were expressed in E. coli BL21 cells and refolded from inclusion bodies using
+a protocol reported in our previous work (Sharabi et al., 2009). The success of
+refolding was verified by checking the concentration of free thiols, by gel filtra￾tion chromatography, and for some mutants by performing Circular Dichroism
+measurements (see Figure S1 for details).
+Enzyme Preparations
+Both enzymes tAChE and hAChE were gifts form Prof. Israel Silman. Whereas
+tAChE was purified from the electric organ tissue of T. californica (Sussman
+et al., 1988), hAChE was expressed recombinantly.
+Measurement of the Kinetic and Thermodynamic Parameters for
+Fas-AChE Interactions
+The equilibrium binding affinity and kinetic rates between Fas mutants and
+t/hAChE were measured by performing the enzyme activity assay using the
+colorimetric detection of AChE product in the presence and the absence of
+Fas inhibitor at conditions where binding between the two proteins ap￾proaches equilibrium (Sharabi et al., 2009). For this purpose, mixtures of
+AChE at 0.02 nM and of a Fas variant in at least 10-fold excess over the
+AChE concentration were pre-incubated with 0.6 mM of 5,50
+-dithiobis-(2-nitro￾benzoic acid) (DTNB) for a variable period of time in a 50 mM phosphate
+buffer containing 0.1 mg/ml BSA and 0.025% NaN3 at pH 8.0 (ionic strength
+of 0.15 M) and for low ionic strength experiments in the 20 mM phos￾phate buffer containing 0.1 mg/ml BSA and 0.025% NaN3 at pH 8.0 (ionic
+strength of 0.057 M). AChE enzymatic reaction was initiated by the addition
+of the AChE substrate acetylthiocholine iodide (ATC) at 1 mM. When ATC is
+cleaved by AChE, it reacts with DTNB, producing absorbance at 412 nm.
+Hence, AChE activity was measured by monitoring the absorbance increase
+at 412 nm over 1 min. The percent of AChE activity for the sample pre-incu￾bated with Fas for a certain time was calculated by dividing the measured
+AChE activity of the sample by that of the sample containing AChE in the
+Table 2. Kinetic Parameters for Exemplary High-Affinity PPIs
+PPI kon (M1 s1
+) koff (s1
+)
+Fas/tAChE 6.8 3107a 2.5 3102a
+Fas/hAChE 5.1 3106a 4.8 3104a
+Fas H29R/tAChE 3.9 3108a 1.2 3102a
+Barstar/Barnase 3.7 3108b 3.7 3106b
+Interleukin 4/interleukin 4 receptor 1.3 3107b 2.1 3103b
+Colicin E9/colicin E9 DNase 6.5 3107b 3.5 3105b
+Trypsin/BPTI 9.9 3105b 5.0 3108b
+a
+The values were measured in this work.
+b
+Taken from the SKEMPI database.
+Structure
+Binding Landscapes of High-Affinity PPIs
+8 Structure 22, 1–10, April 8, 2014 ª2014 Elsevier Ltd All rights reserved
+Please cite this article in press as: Aizner et al., Mapping of the Binding Landscape for a Picomolar Protein-Protein Complex through Computation and
+Experiment, Structure (2014), http://dx.doi.org/10.1016/j.str.2014.01.012absence of Fas. The data were fit to the following equation to determine kon,
+koff, and Kd:
+%activity = 100 Kd
+½Fas +Kd
+
++
+ ½Fas
+½Fas +Kd
+expð  tkonð½Fas +KdÞÞ;
+(Equation 1)
+where [Fas] is Fas concentration and t is the pre-incubation time (Figure S2).
+For derivation of this equation, see Laidler, 1987. Each experiment was per￾formed at least three times and an average and SD were calculated.
+Analysis of Mutational Effects on Binding in Various High-Affinity
+PPIs
+Mutational data for high-affinity complexes were downloaded from the
+SKEMPI database. The data set incorporated single mutations in the following
+Protein Data Bank (PDB) numbers: 1CSE, 1ACB, 1TM1, 1SIC, 1IAR, 1EMV,
+1BRS, 1JTG, 2O3B, 2J0T, 1MAH, 1EAW, 3BN9, 3NPS, 2FTL, 1Z7X, 1A4Y,
+1DAN, 3HFM, 1CHO, 1PPF, 1R0R, and 3SGB. The data contained 1,205
+mutations, 17% (205) of which were mutations to Ala. DDGbind values were
+calculated from the Kds of the mutant and WT proteins and a histogram of
+these values was plotted on Figure 4. Due to uncertainties in measuring and
+predicting very large destabilizing DDGbind values, we introduced a cutoff of
+6 kcal/mol for both experimental and computational data.
+SUPPLEMENTAL INFORMATION
+Supplemental Information includes three figures and two tables and can be
+found with this article online at http://dx.doi.org/10.1016/j.str.2014.01.012.
+ACKNOWLEDGMENTS
+We thank Prof. Israel Silman and Dr. Yaakov Ashani for providing us with sam￾ples of hAChE and tAChE. We also thank Prof. Joel Sussman and Prof. Israel
+Silman for scientific discussions. We thank Dr. Yoav Peleg for his constant help
+with molecular biology and Royee Navon for help with some activity assays.
+This work was supported by the Deutsche Forschungsgemeinschaft grant EI
+423/2-1, the Abisch Frenkel foundation, and ISF grant 1372/10.
+Received: August 6, 2013
+Revised: January 17, 2014
+Accepted: January 21, 2014
+Published: March 6, 2014
+REFERENCES
+Benedix, A., Becker, C.M., De Groot, B.L., Caflisch, A., and Bockmann, R.A.
+(2009). Predicting free energy changes using structural ensembles. Nat.
+Methods 6, 3–4.
+Bourne, Y., Taylor, P., and Marchot, P. (1995). Acetylcholinesterase inhibition
+by fasciculin: crystal structure of the complex. Cell 83, 503–512.
+Cunningham, B.C., and Wells, J.A. (1989). High-resolution epitope mapping of
+hGH-receptor interactions by alanine-scanning mutagenesis. Science 244,
+1081–1085.
+Cunningham, B.C., and Wells, J.A. (1993). Comparison of a structural and a
+functional epitope. J. Mol. Biol. 234, 554–563.
+Dahiyat, B.I., and Mayo, S.L. (1997). De novo protein design: fully automated
+sequence selection. Science 278, 82–87.
+Delano, W.L. (2002). Unraveling hot spots in binding interfaces: progress and
+challenges. Curr. Opin. Struct. Biol. 12, 14–20.
+Desmet, J., Demaeyer, M., Hazes, B., and Lasters, I. (1992). The dead-end
+elimination theorem and its use in protein side-chain positioning. Nature
+356, 539–542.
+Dunbrack, R.L., and Karplus, M. (1993). Backbone-dependent rotamer library
+for proteins. Applications to side-chain predictions. J. Mol. Biol. 230, 543–574.
+Eastman, J., Wilson, E.J., Cervenansky, C., and Rosenberry, T.L. (1995).
+Fasciculin 2 binds to the peripheral site on acetylcholinesterase and inhibits
+substrate hydrolysis by slowing a step involving proton transfer during enzyme
+acylation. J. Biol. Chem. 270, 19694–19701.
+Erijman, A., Dantes, A., Bernheim, R., Shifman, J.M., and Peleg, Y. (2011).
+Transfer-PCR (TPCR): a highway for DNA cloning and protein engineering.
+J. Struct. Biol. 175, 171–177.
+Fleishman, S.J., Whitehead, T.A., Ekiert, D.C., Dreyfus, C., Corn, J.E., Strauch,
+E.M., Wilson, I.A., and Baker, D. (2011a). Computational design of proteins tar￾geting the conserved stem region of influenza hemagglutinin. Science 332,
+816–821.
+Fleishman, S.J., Whitehead, T.A., Strauch, E.M., Corn, J.E., Qin, S., Zhou,
+H.X., Mitchell, J.C., Demerdash, O.N., Takeda-Shitaka, M., Terashi, G., et al.
+(2011b). Community-wide assessment of protein-interface modeling suggests
+improvements to design methodology. J. Mol. Biol. 414, 289–302.
+Gavin, A.C., Bosche, M., Krause, R., Grandi, P., Marzioch, M., Bauer, A.,
+Schultz, J., Rick, J.M., Michon, A.M., Cruciat, C.M., et al. (2002). Functional or￾ganization of the yeast proteome by systematic analysis of protein complexes.
+Nature 415, 141–147.
+Giot, L., Bader, J.S., Brouwer, C., Chaudhuri, A., Kuang, B., Li, Y., Hao, Y.L.,
+Ooi, C.E., Godwin, B., Vitols, E., et al. (2003). A protein interaction map of
+Drosophila melanogaster. Science 302, 1727–1736.
+Gordon, D.B., Hom, G.K., Mayo, S.L., and Pierce, N.A. (2003). Exact rotamer
+optimization for protein design. J. Comput. Chem. 24, 232–243.
+Haidar, J.N., Pierce, B., Yu, Y., Tong, W., Li, M., and Weng, Z. (2009).
+Structure-based design of a T-cell receptor leads to nearly 100-fold improve￾ment in binding affinity for pepMHC. Proteins. Structure, Function, and
+Bioinformatics 74, 948–960.
+Hao, J., Serohijos, A.W., Newton, G., Tassone, G., Wang, Z., Sgroi, D.C.,
+Dokholyan, N.V., and Basilion, J.P. (2008). Identification and rational redesign
+of peptide ligands to CRIP1, a novel biomarker for cancers. PLoS Comput.
+Biol. 4, e1000138.
+Harel, M., Kleywegt, G.J., Ravelli, R.B., Silman, I., and Sussman, J.L. (1995).
+Crystal structure of an acetylcholinesterase-fasciculin complex: interaction
+of a three-fingered toxin from snake venom with its target. Structure 3,
+1355–1366.
+Ho, Y., Gruhler, A., Heilbut, A., Bader, G.D., Moore, L., Adams, S.L., Millar, A.,
+Taylor, P., Bennett, K., Boutilier, K., et al. (2002). Systematic identification of
+protein complexes in Saccharomyces cerevisiae by mass spectrometry.
+Nature 415, 180–183.
+Ito, T., Chiba, T., Ozawa, R., Yoshida, M., Hattori, M., and Sakaki, Y. (2001). A
+comprehensive two-hybrid analysis to explore the yeast protein interactome.
+Proc. Natl. Acad. Sci. USA 98, 4569–4574.
+Karlsson, E., Mbugua, P.M., and Rodriguezithurralde, D. (1985).
+Anticholinesterase toxins. Pharmacol. Ther. 30, 259–276.
+Kastritis, P.L., Moal, I.H., Hwang, H., Weng, Z., Bates, P.A., Bonvin, A.M., and
+Janin, J. (2011). A structure-based benchmark for protein-protein binding af￾finity. Protein Sci. 20, 482–491.
+Kini, R.M. (2002). Molecular moulds with multiple missions: functional sites in
+three-finger toxins. Clin. Exp. Pharmacol. Physiol. 29, 815–822.
+Kryger, G., Harel, M., Giles, K., Toker, L., Velan, B., Lazar, A., Kronman, C.,
+Barak, D., Ariel, N., Shafferman, A., et al. (2000). Structures of recombinant
+native and E202Q mutant human acetylcholinesterase complexed with the
+snake-venom toxin fasciculin-II. Acta Crystallogr. D Biol. Crystallogr. 56,
+1385–1394.
+Laidler, K.J. (1987). Analysis of kinetic results. In Chemical KineticsChemical
+Kinetics (New York: McGraw-Hill, Inc.).
+Lippow, S.M., Wittrup, K.D., and Tidor, B. (2007). Computational design of
+antibody-affinity improvement beyond in vivo maturation. Nat. Biotechnol.
+25, 1171–1176.
+Moal, I.H., and Fernandez-Recio, J. (2012). SKEMPI: a structural kinetic and
+energetic database of mutant protein interactions and its use in empirical
+models. Bioinformatics 28, 2600–2607.
+Structure
+Binding Landscapes of High-Affinity PPIs
+Structure 22, 1–10, April 8, 2014 ª2014 Elsevier Ltd All rights reserved 9
+Please cite this article in press as: Aizner et al., Mapping of the Binding Landscape for a Picomolar Protein-Protein Complex through Computation and
+Experiment, Structure (2014), http://dx.doi.org/10.1016/j.str.2014.01.012      Pal, G., Ultsch, M.H., Clark, K.P., Currell, B., Kossiakoff, A.A., and Sidhu, S.S.
+(2005). Intramolecular cooperativity in a protein binding site assessed by
+combinatorial shotgun scanning mutagenesis. J. Mol. Biol. 347, 489–494.
+Pal, G., Kouadio, J.L., Artis, D.R., Kossiakoff, A.A., and Sidhu, S.S. (2006).
+Comprehensive and quantitative mapping of energy landscapes for protein￾protein interactions by rapid combinatorial scanning. J. Biol. Chem. 281,
+22378–22385.
+Papadakos, G., Wojdyla, J.A., and Kleanthous, C. (2012). Nuclease colicins
+and their immunity proteins. Q. Rev. Biophys. 45, 57–103.
+Radic, Z., Duran, R., Vellom, D.C., Li, Y., Cervenansky, C., and Taylor, P.
+(1994). Site of fasciculin interaction with acetylcholinesterase. J. Biol. Chem.
+269, 11233–11239.
+Radic, Z., Kirchhoff, P.D., Quinn, D.M., Mccammon, J.A., and Taylor, P. (1997).
+Electrostatic influence on the kinetics of ligand binding to acetylcholines￾terase. Distinctions between active center ligands and fasciculin. J. Biol.
+Chem. 272, 23265–23277.
+Reynolds, K.A., Hanes, M.S., Thomson, J.M., Antczak, A.J., Berger, J.M.,
+Bonomo, R.A., Kirsch, J.F., and Handel, T.M. (2008). Computational redesign
+of the SHV-1 beta-lactamase/beta-lactamase inhibitor protein interface.
+J. Mol. Biol. 382, 1265–1275.
+Rual, J.F., Venkatesan, K., Hao, T., Hirozane-Kishikawa, T., Dricot, A., Li, N.,
+Berriz, G.F., Gibbons, F.D., Dreze, M., Ayivi-Guedehoussou, N., et al. (2005).
+Towards a proteome-scale map of the human protein-protein interaction
+network. Nature 437, 1173–1178.
+Sammond, D.W., Eletr, Z.M., Purbeck, C., Kimple, R.J., Siderovski, D.P., and
+Kuhlman, B. (2007). Structure-based protocol for identifying mutations that
+enhance protein-protein binding affinities. J. Mol. Biol. 371, 1392–1404.
+Selzer, T., Albeck, S., and Schreiber, G. (2000). Rational design of faster asso￾ciating and tighter binding protein complexes. Nat. Struct. Biol. 7, 537–541.
+Sharabi, O., Peleg, Y., Mashiach, E., Vardy, E., Ashani, Y., Silman, I., Sussman,
+J.L., and Shifman, J.M. (2009). Design, expression, and characterization of
+mutants of fasciculin optimized for interaction with its target, acetylcholines￾terase. Protein Eng. Des. Sel. 22, 641–648.
+Sharabi, O., Dekel, A., and Shifman, J.M. (2011). Triathlon for energy functions:
+who is the winner for design of protein-protein interactions? Proteins 79, 1487–
+1498.
+Sharabi, O., Erijman, A., and Shifman, J.M. (2013). Computational methods for
+controling binding specificity. In Methods in Enzymology, A.E. Keating, ed.
+(Amsterdam: Elsevier).
+Skelton, N.J., Koehler, M.F., Zobel, K., Wong, W.L., Yeh, S., Pisabarro, M.T.,
+Yin, J.P., Lasky, L.A., and Sidhu, S.S. (2003). Origins of PDZ domain ligand
+specificity. Structure determination and mutagenesis of the Erbin PDZ domain.
+J. Biol. Chem. 278, 7645–7654.
+Stelzl, U., Worm, U., Lalowski, M., Haenig, C., Brembeck, F.H., Goehler, H.,
+Stroedicke, M., Zenkner, M., Schoenherr, A., Koeppen, S., et al. (2005). A
+human protein-protein interaction network: a resource for annotating the
+proteome. Cell 122, 957–968.
+Sussman, J.L., Harel, M., Frolow, F., Varon, L., Toker, L., Futerman, A.H., and
+Silman, I. (1988). Purification and crystallization of a dimeric form of acetylcho￾linesterase from Torpedo californica subsequent to solubilization with phos￾phatidylinositol-specific phospholipase C. J. Mol. Biol. 203, 821–823.
+Uetz, P., Giot, L., Cagney, G., Mansfield, T.A., Judson, R.S., Knight, J.R.,
+Lockshon, D., Narayan, V., Srinivasan, M., Pochart, P., et al. (2000). A compre￾hensive analysis of protein-protein interactions in Saccharomyces cerevisiae.
+Nature 403, 623–627.
+Weiner, L., Shnyrov, V.L., Konstantinovskii, L., Roth, E., Ashani, Y., and Silman,
+I. (2009). Stabilization of Torpedo californica acetylcholinesterase by reversible
+inhibitors. Biochemistry 48, 563–574.
+Yang, J., Swaminathan, C.P., Huang, Y., Guan, R., Cho, S., Kieke, M.C., Kranz,
+D.M., Mariuzza, R.A., and Sundberg, E.J. (2003). Dissecting cooperative and
+additive binding energetics in the affinity maturation pathway of a protein￾protein interface. J. Biol. Chem. 278, 50412–50421.
+Zhang, Z., and Palzkill, T. (2003). Determinants of binding affinity and speci￾ficity for the interaction of TEM-1 and SME-1 beta-lactamase with beta-lacta￾mase inhibitory protein. J. Biol. Chem. 278, 45706–45712.
+Zimmerman, G., and Soreq, H. (2006). Termination and beyond: acetylcholin￾esterase as a modulator of synaptic transmission. Cell Tissue Res. 326,
+655–669.
+Structure
+Binding Landscapes of High-Affinity PPIs
+10 Structure 22, 1–10, April 8, 2014 ª2014 Elsevier Ltd All rights reserved
+Please cite this article in press as: Aizner et al., Mapping of the Binding Landscape for a Picomolar Protein-Protein Complex through Computation and
+Experiment, Structure (2014), http://dx.doi.org/10.1016/j.str.2014.01.012

@@ -1,0 +1,292 @@
+Structural evaluation of EGFR inhibition mechanisms for nanobodies/VHH domains SUMMARY The epidermal growth factor receptor (EGFR) is implicated in human cancers and is the target of several classes of therapeutic agents, including antibody-based drugs.
+Here, we describe X-ray crystal structures of the extracellular region of EGFR in complex with three inhibitory VHH domains or nanobodies.
+VHH domains, the smallest natural antigen-binding modules, are readily engineered for diagnostic and therapeutic applications.
+All three VHH domains prevent ligand-induced EGFR activation, but use two distinct mechanisms.
+7D12 sterically blocks ligand binding to EGFR in a manner similar to cetuximab.
+EgA1 and 9G8 bind an epitope near the EGFR domain II/III junction preventing receptor conformational changes required for high-affinity ligand binding and dimerization.
+This epitope is accessible to the convex VHH paratope, but inaccessible to the flatter paratope of monoclonal antibodies.
+Appreciating the modes of binding and inhibition of these VHH domains will aid in their development for tumor imaging and/or cancer therapy.
+ INTRODUCTION Aberrant activation of the epidermal growth factor receptor (EGFR) is implicated in a number of human cancers, including colorectal, lung, brain, and head and neck tumors.
+It is well established that antibody binding to the extracellular region of EGFR can inhibit ligand-induced receptor activation and tumor growth.
+Several antibodies with these properties, including cetuximab/Erbitux, are in current use or development in the clinic.
+ Whereas antibodies that bind EGFR and other targets have shown promise in the clinic, there are impediments to their effective application and future development.
+The large size of monoclonal antibodies (mAbs) limits tumor penetration, restricting their effectiveness, and generation of new or modified mAbs is costly and laborious.
+Both problems can be mitigated by exploiting heavy chain only antibodies (HCAbs) from camelids.
+Whereas the antigen recognition region in conventional antibodies comprises the variable regions of both the heavy and the light chains (VH and VL respectively), the antigen recognition region of HCAbs comprises a single variable domain, referred to as a VHH domain or nanobody.
+This single Ig domain is stable and can be generated rapidly and cheaply with simple expression systems.
+Single VHH domains can be powerful diagnostic imaging tools, and are being developed for a range of research applications.
+For therapeutic use, VHH domains (monomeric or multivalent) can be modified to extend serum half-life and/or functionality.
+ The clinical success of EGFR-targeted mAbs has prompted significant interest in developing VHH domains that bind to and inhibit this receptor.
+Several EGFR-specific VHH domains have been reported that have the potential to reproduce the clinical efficacy of mAbs such as cetuximab in an agent that is more stable and far less costly to produce.
+Moreover, potent multivalent VHH molecules can be generated that bind a number of targets, offering the potential to engineer multivalent agents that combine cetuximab-like EGFR inhibition with other modes of binding to EGFR or to other cancer targets.
+Fusing the targeted VHH domain (or domains) to one that recognizes serum albumin, can also dramatically increase serum half-life.
+ We previously described the structural basis of EGFR inhibition by Fab fragments from three different mAbs: cetuximab, necitumumab and matuzumab.
+Each sterically blocks a large conformational transition from an unactivated or tethered extracellular EGFR configuration to one that is dimerization-competent.
+In the tethered configuration, two of the four domains in the EGFR extracellular region (domains II and IV) make intramolecular autoinhibitory contacts, occluding the dimerization interface and separating the two halves of the EGF binding site (in domains I and III).
+Ligand binding stabilizes a conformation in which domains I and III are brought close together and domain II/IV intramolecular interactions are broken.
+All three EGFR-targeted mAbs bind to domain III.
+The epitopes of cetuximab and necitumumab overlap with the domain III ligand binding region, whereas the matuzumab epitope does not. Cetuximab and necitumumab inhibit EGFR by directly interfering with ligand binding and blocking the activating conformational transition.
+Matuzumab inhibits EGFR exclusively by preventing the activating conformational transition.
+ In this report, we describe the structural basis for EGFR inhibition by three VHH domains.
+In multivalent formats, each of these VHH domains block ligand induced EGFR activation and cellular proliferation.
+Our structural analysis reveals modes of conformational constraint of EGFR by these VHH domains that have not been seen with inhibitory mAbs.
+The three VHH domains were isolated from an immune phage library generated from lymphocytes of Llama glama that had been immunized with A431 epidermoid carcinoma cells and A431 membrane preparations.
+One, VHH domain (7D12), was selected for its ability to compete with cetuximab for EGFR binding.
+We show how the much smaller VHH domain can block both cetuximab and ligand binding.
+The other two VHH domains (EgA1 and 9G8) arose from a screen for molecules that inhibit ligand binding to EGFR  the same strategy used to select the originator of cetuximab from a panel of mouse monoclonal antibodies.
+Interestingly, EgA1 and 9G8 do not compete with cetuximab for binding to EGFR.
+Instead, these VHH domains bind to an epitope that is inaccessible to cetuximab and that undergoes large conformational changes during EGFR activation  sterically inhibiting the receptor.
+ RESULTS VHH domain binding to the EGFR extracellular region We first determined the affinity constants for interaction of each VHH domain with the EGFR extracellular region using surface plasmon resonance (SPR).
+Soluble EGFR extracellular region (sEGFR; amino acids 1-618 of the mature protein) was passed over sensor chips to which VHH domains 7D12, EgA1, or 9G8 had been immobilized by amine-coupling.
+The equilibrium SPR response was measured over a range of sEGFR concentrations, and the resulting data were fit to a single site Langmuir binding equation.
+To evaluate possible bias due to covalent immobilization of VHH domains on the sensor surface, we also conducted binding assays in which biotinylated VHH domains were bound to streptavidin-coated sensor chips.
+Similar binding constants were determined by both methods (Table 1).
+ The dissociation constants (KD) values for binding of sEGFR to immobilized VHH domains were between 166 and 276nM (Table 1).
+These affinities are 50  100 fold weaker than those for sEGFR binding to the structurally characterized Fab fragments of cetuximab (2.30.5nM) and of necitumumab (3.30.5nM), but are similar to those reported for the matuzumab Fab fragment (11325nM).
+The apparent KD value for the binding of 7D12 to cell surface EGFR has been reported in the low nanomolar range, suggesting that additional factors that are only manifest at the cell surface may contribute to binding of this VHH to EGFR.
+Similar observations were made for matuzumab.
+ As an initial approach for assigning epitopes to domains in sEGFR, we measured VHH domain binding to sEGFR truncation variants.
+Deleting most of domain IV (with sEGFR501) has little effect on binding (< 2-fold) for all three VHH domains (Table 1).
+Studies with isolated domain III (sEGFRd3: amino acids 311-514) revealed a complete loss of EgA1 and 9G8 binding, whereas 7D12 binding was retained  and increased by approximately 4 fold (suggesting that its epitope lies entirely on domain III).
+Interestingly, all three VHH domains bound to the truncated extracellular region of the oncogenic EGFR variant III (sEGFRvIII), which lacks domain I and much of domain II, but retains residues 273-311 of domain II.
+The fact that EgA1 and 9G8 bind sEGFRvIII but not sEGFRd3 suggests that a significant part of their epitopes may lie in the C-terminal part of domain II.
+ Antibody cross-competition To compare the location of the epitopes for the three VHH domains with those of cetuximab and mAb425 (the murine version of matuzumab) and the EGF binding site, we used SPR-based competition assays.
+Fab fragments from cetuximab (Fab225) and mAb425 (Fab425), and EGF were amine coupled to CM5 sensor chips.
+The equilibrium SPR responses obtained for injections of 100 nM sEGFR with and without 5 M of each VHH were measured (Figure 1A).
+All three VHH domains dramatically reduced EGF binding by sEGFR, which could arise through direct competition for the ligand binding site, and/or indirect conformational effects.
+VHH 7D12 reduces the SPR response to a level similar to that observed for competition with cetuximab, as expected, whereas EgA1 and 9G8 compete more effectively than mAb 425 for sEGFR binding to EGF.
+Only 7D12 reduces sEGFR binding to FabC225, suggesting that its binding site on domain III may overlap with the cetuximab epitope.
+VHH domains 9G8 and EgA1 both abolished sEGFR binding to immobilized Fab425.
+Addition of 9G8 and EgA1 to sEGFR enhanced the SPR response for immobilized FabC225, suggesting that these VHH:sEGFR complexes can bind to FabC225.
+These data confirm and extend our previous results using phage-displayed versions of these VHH domains to compete with mAbs for binding to an immobilized Fc fusion of sEGFR.
+ To further investigate the simultaneous binding of EgA1 and FabC225 to sEGFR we used sedimentation velocity analytical ultracentrifugation (SV-AUC).
+Whereas sEGFR alone (at 5 M) sediments 4.8S, adding 5 M EgA1 or 5 M FabC225 yields species that sediment at 5.4S (EgA1:sEGFR) or 6.2S (FabC225:sEGFR) respectively (Figure 1B)  consistent with the formation of 1:1 complexes.
+When both EgA1 and FabC225 are added, a larger species (6.6S) consistent with a trimolecular complex is seen.
+By contrast, binding of FabC225 and 7D12 are mutually exclusive (not shown).
+Similar experiments reveal that 7D12 and EgA1 can both bind to the same sEGFR molecule to form a ternary EgA1:7D12:sEGFR complex of 5.9S (Figure 1C).
+When EgA1 and 7D12 are linked with a 10 amino acid glycine/serine linker (7D12-EgA1) formation of a 1:2 7D12-EgA1:sEGFR complex of 8.3S is favored (Figure S1).
+This suggests that the increased potency of a 7D12-EgA1-like biparatopic inhibitor CONAN-1 is not due to the simultaneous binding of both VHH modules of the biparatopic inhibitor to a single EGFR molecule.
+ The VHH 7D12 epitope on domain III To visualize the molecular details of 7D12 binding to EGFR, we determined the crystal structure of 7D12 bound to sEGFRd3.
+The 7D12:sEGFRd3 complex crystallized in two distinct conditions: crystals grown at pH 6.0 diffracted to 2.9 resolution, and those grown at pH 3.5 diffracted to 2.7 resolution (Table 2).
+Both structures were solved using molecular replacement (MR) in PHASER, using sEGFRd3 (PDB ID 3B2U) and the framework region of VHH EgA1 (see below) as search models.
+Models were rebuilt in Coot, and refined using REFMAC, CNS and PHENIX h. The structures from the two crystal forms superimpose with RMSD < 1.0, and the contacts stabilizing the interaction are identical in both structures.
+ The framework region of 7D12 has a typical VH Ig fold, aligning to the framework region of VHH cAb-Lys3 with an RMSD of 0.52.
+The sEGFRd3 aligns with previously reported crystal structures of this domain with RMSD < 1.0.
+7D12 binds to a flat surface on domain III (Figure 2) that corresponds to the location of the epitope for cetuximab and of the domain III ligand binding site (Figure 3).
+As shown in Figure 2C, VHH CDR1 and CDR3 contact the first two turns of the domain III -helix (amino acids 310375); CDR2 makes no contacts with sEGFR.
+The complex buries about 7002 on each protein, 48% of which is hydrophobic in nature.
+The interface has a shape complementarity parameter of 0.68, which is typical for antibody/antigen interfaces (Table S1).
+ A cluster of polar and electrostatic interactions occurs in the center of the 7D12 epitope (Figure 2C).
+An arginine on CDR1 (R30) makes a salt bridge to EGFR D355 (a critical side-chain in EGF binding), while two acidic side chains (D101 and E100f) plus main chain carbonyls from CDR3 engage the side chains of R353 and Q384 on EGFR.
+These central polar interactions are flanked by apolar contacts.
+On one side the aliphatic portion of 7D12 R30 packs against EGFR F357, while on the other side Y100e from CDR3 packs against an N-acetylglucosamine (GlcNac) linked to EGFR N420 that is rotated 90 with respect to its typical position in EGFR domain III to contribute to this interaction.
+ In line with the observed importance of electrostatic interactions in the interaction of 7D12 with sEGFR, substitution of 7D12 R30 with alanine abolishes the interaction with sEGFR, and replacing D101 with alanine weakens binding to the receptor three-fold (Table 3).
+ Comparison of EGF, cetuximab, and 7D12 binding The epitope for 7D12 partially overlaps both the ligand binding site and the cetuximab epitope on domain III (Figure 3).
+As previously described, EGF interactions with domain III fall in two groups (ringed in Figure 3B: sites 2 and 3 of Ogiso et al.).
+Interactions of 7D12 with domain III are primarily centered on Site 2, mimicking (with R30 in CDR1) the salt bridge with EGFR D355 (and van der Waals contact with F357) made by R41 in EGF.
+7D12 binding does not utilize the hydrophobic pocket on the domain III surface that lies at the center of Site 3 (Figure 3B) into which L47 of EGF projects.
+By contrast with the Site 2 focus of 7D12, C225 binding is largely centered on Site 3 (Figure 3C)  and C225 does not engage Site 2 on domain III.
+The different foci of the interactions of 7D12, EGF, and C225 are most apparent when comparing the projection of the binding footprint of EGF with the 7D12 and cetuximab epitopes on domain III (Figure 3).
+The EGF-binding site encompasses Sites 2 and 3, whereas 7D12 engages Site 2, and cetuximab only Site 3.
+Consistent with the structural observations, substitution of F357 and D355 in EGFR (D355T/F357A) reduces 7D12 binding (Table 3) but not cetuximab binding.
+ EgA1 and 9G8 bind to an epitope on domain III adjacent to domain II We next sought to understand the structural basis of EGFR binding and inhibition by EgA1 and 9G8.
+Although EgA1 and sEGFR stably associate in solution (Figure 1B), we were unable to crystallize an EgA1:sEGFR complex.
+We were able to obtain crystals of the EgA1:FabC225:sEGFR ternary complex observed in our SV-AUC experiments in Figure 1B, which diffracted to 3.05 resolution (Table 2)  using the Fab fragment to aid crystallization in common with many other studies.
+We exploited the same strategy to crystallize a 9G8:FabC225:sEGFR ternary complex.
+These crystals were of the same space group and diffracted to 2.8 resolution.
+Both structures were solved by MR methods using the FabC225:sEGFR and free EgA1 structures as search models.
+The two VHH:FabC225:sEGFR structures align with an overall backbone RMSD of 0.54  revealing that EgA1 and 9G8 bind to the same region on sEGFR.
+ EgA1 and 9G8 (hereafter EgA1/9G8) bind to sEGFR in its tethered conformation, and the bound FabC225 makes identical contacts with EGFR domain III as seen in the previously reported FabC225:sEGFR complex structure (RMSD  0.5 ).
+Crystal packing is mediated predominantly by contacts between the Fab and domain III of sEGFR from symmetry related molecules, suggesting a mechanism by which FabC225 promotes crystallization.
+FabC225 and sEGFR domain III are well ordered, as are portions of domains II, domain IV, and the VHH paratope region (Figure S3).
+However, EGFR domain I, the N-terminal portion of domain II, and the distal portion of the VHH are poorly resolved.
+Parts of these regions are absent or present as backbone atoms only in the refined model, and dihedral angles in domain I were restrained to those from PDB ID 1YY9.
+ EgA1/9G8 bind sEGFR in the cleft formed between domains II and III (Figure 4), consistent with their ability to bind sEGFRvIII but not sEGFRd3 in the binding studies described above.
+Interaction with sEGFR buries an average surface area on each partner of 7012 for EgA1 and 6362 for 9G8 (Table S1).
+In both cases approximately 1002 of surface area on the VHH is occluded from solvent by domain II  and the rest by domain III.
+As with 7D12, CDRs 1 and 3 of EgA1/9G8 contribute the key interactions, which are all made with domain III.
+CDR2 does not participate in the interaction.
+The CDR1 sequence is identical in EgA1 and 9G8 (Figure S2) and in each case R27 and Y32 participate in a cluster of interactions involving E431 and backbone moieties in EGFR.
+CDR3 of EgA1 and 9G8 share key sequence features, including Y96 (at the beginning), D101, and Y102 (at the end), which make similar interactions with EGFR domain III in each complex (Figure 4B, C).
+Y102 in each VHH domain engages E431 from EGFR  also engaged by CDR1.
+D101 and Y96 contribute to a second cluster of polar and electrostatic interactions with two arginines of EGFR (R403 and 405) and E400.
+The remainder of CDR3 is quite different for each VHH (Figure S2).
+In each case, a side chain from the VHH (D100 in EgA1 and E100i in 9G8) augments a network of salt bridges formed by charged side chains in EGFR  R403 to E376 to R310.
+This network is observed in all crystal structures of tethered sEGFR, but is disrupted in ligand bound structures due to reorientation of the domain II/III linker region that leads to displacement of the R310 side chain by over 7.
+The importance of R310 in sEGFR binding to EgA1/9G8 explains, in part, the lack of binding of these VHH domains to sEGFRd3.
+In this truncation variant the first 4 amino acids of mature sEGFR (LEEK) are fused to amino acid 311 of domain III.
+Not only does sEGFRd3 lack the R310 of domain III, but the two N-terminal glutamic acids that replace it may also disrupt the largely electrostatic interaction.
+In support of the importance of electrostatic contacts in the interaction of these VHH domains with sEGFR, we find that substitution with alanine of R27 or D101 in EgA1 or of E100i in 9G8 reduces binding by more than 20-fold (Table 3).
+ No well-ordered interactions between the VHH and sEGFR domain II proper are observed in either crystal structure.
+However, in each case the central region of CDR3 (near Y100d in EgA1 and N100b in 9G8) is close enough that direct or water mediated hydrogen bonds and van der Waals contacts may occur.
+Water mediated contacts are common in antibody:antigen interactions but not well resolved at the resolution of the VHH:FabC225:sEGFR structures.
+ The conformations of free and bound EgA1 We also determined the X-ray crystal structure of EgA1 in the absence of EGFR to a resolution of 1.55.
+The framework region of EgA1 is essentially identical in the bound and free structures, which superimpose with a backbone RMSD < 1.0 . However, differences are apparent in the paratope (Figure 5).
+In free EgA1, the N-terminal region projects between CDRs 1 and 3, such that the side chain of V2 lies in a hydrophobic crevice also occupied by Y32 (Figure 5B).
+In the bound structure, the N-terminal region is instead oriented away from the Ig core and makes polar contacts with domain III (Figure 4B).
+The side chain of Y32 also reorients in the bound structure to participate in interactions with sEGFR.
+The N-terminal part of CDR1, which does not participate in direct interactions with sEGFR, adopts a slightly different conformation in the bound structure (backbone RMSD with free VHH 1.98), and the orientation of the T28 and F29 side-chains switch direction such that in the bound structure F29 is flipped in towards the core of the protein, compensating in part for the reorientation of V2 and Y32 (Figure 5B).
+Less extensive rearrangements occur in CDRs 2 and 3.
+Of note however is a shift in the positions of two tyrosine side chains (Y100d and Y56; Figure 5C), which in the bound VHH structure adopt orientations that place them closer to domain II than they would be in their unbound orientations.
+ The conformation of sEGFR in the EgA1 and 9G8 complex EGFR domains I and III in the EgA1/9G8 complex adopt identical conformations to those seen in all other crystal structures of sEGFR.
+The orientation and conformation of the first 4 disulfide-bonded modules of domain II of sEGFR in the VHH:FabC225:sEGFR ternary complex is also similar to that observed for all unliganded ErbB receptors (Figure S4A).
+The same is true for the last disulfide-bonded module (m8) of domain II and the domain II/III linker region (Figure S4B).
+The intervening three disulfide bonded modules of domain II (m5-m7) are substantially altered in position, as a result of changes in the orientation of one module with respect to its neighboring module in the m5/m6, m6/m7 and m7/m8 connections.
+As shown in Figure S4C, this results in a bend in domain II that reorients domain I in the ternary VHH:FabC225:sEGFR with respect to domain III.
+This difference could be the result of steric effects of bound VHH, or may simply reflect inherent flexibility in sEGFR.
+ Although it is clear that domain II and IV are in close proximity in the EgA1 complex, the structure is too poorly ordered to determine whether specific domain II/IV contacts are maintained.
+The crystallographic data for the 9G8 complex yield interpretable electron density in the region of the EGFR domain II/IV tether interaction, and suggest that at least two of the four hydrogen bonds between domains II and IV are maintained in this complex (backbone carbonyl of Y251 to side chain of H566 sidechain, and between the side chains of Y246 and D563).
+Together, these observations argue that the binding of EgA1 and 9G8 does not substantially perturb the conformation of tethered sEGFR.
+ Comparison of EgA1, 9G8, and matuzumab binding to EGFR The EgA1 (Figure 6A) and 9G8 (Figure 6B) epitopes are essentially identical.
+These VHH epitopes partly overlap that of the inhibitory antibody matuzumab (Figure 6C) and, like matuzumab, do not overlap with the EGF binding region of domain III (Figure 6D).
+Matuzumab binding is stabilized by extensive contacts to the domain III -helix coil 449-463.
+This is on the periphery of the EgA1/9G8 epitope, with several main-chain hydrogen bonds predicted between the VHH N-terminal region and R27 (upper left hand corner of Figure 4B/C).
+Simultaneous binding of EgA1/9G8 and matuzumab would result in steric clash of the VHH and Fab domains, consistent with binding and competition experiments indicating that EgA1 and 9G8 compete with matuzumab for receptor binding (Figure 1 and).
+Aside from this small region of overlap, the matuzumab and EgA1/9G8 epitopes are quite distinct and share no specificity determining interactions.
+The VHH epitopes are located further towards the N-terminal end of domain III, and are further from the domain III ligand-binding site (Figure 6).
+ DISCUSSION Modes of inhibition of EGFR activation by VHH inhibitors The VHH domains used in this study fall into two categories of inhibitory antibodies, one typified by cetuximab, the other by matuzumab.
+Like cetuximab, 7D12 is a ligand-competitive inhibitor.
+The 7D12 epitope overlaps the ligand-binding site on domain III of EGFR.
+In addition, as argued for cetuximab, bound 7D12 would sterically prevent EGFR from adopting the extended conformation required for dimerization.
+By contrast, EgA1/9G8 do not directly occlude the ligand binding site on EGFR.
+Rather, as argued for matuzumab, inhibition is achieved by preventing the EGFR extracellular region from adopting the extended conformation that can dimerize.
+Like matuzumab, EgA1/9G8 impose a steric block on this conformational rearrangement (Figure S5).
+In addition, EgA1/9G8 appear to stabilize the tethered conformation of the receptor by binding at the junction between domains II and III, and interacting with key side chains in this region.
+The domain II/III junction acts as a hinge in the large scale domain rearrangement required to take the receptor from the tethered to the extended (dimerization competent) conformation, and is the site of the most dramatic local differences in backbone conformation between the unliganded and ligand bound structures of sEGFR.
+In tethered sEGFR, the side chain of R310, at the C-terminal end of domain II, projects towards domain III and makes an electrostatic interaction with the side chain of E376.
+This interaction is broken in ligand-bound structures.
+The altered main chain trajectory in the domain II/III interface region results in the R310 side chain projecting away from domain III.
+As shown in Figure 4, EgA1 and 9G8 interact with R310 and E376, effectively locking this region of EGFR into the conformation seen in tethered, inactive structures.
+This mode of inhibition may confer a therapeutic advantage to molecules such as EgA1/9G8 since binding, and hence inhibition, should not be impacted by the presence of excess ligand.
+ Comparison of VHH and Fab binding to EGFR Single-domain antibody fragments have certain unique features that offer modes of interaction with antigens that are under exploited with conventional monoclonal antibodies.
+Several such VHH specific binding features are observed in the interactions of EgA1/9G8 with sEGFR, and distinguish the modes of antigen binding by these VHH domains from those utilized by Fab fragments from cetuximab and matuzumab.
+ The single VHH domain of a heavy chain only camelid antibody functionally replaces the entire Fab fragment of a conventional antibody.
+To retain binding diversity, VHH domains exhibit greater variability in length and accessible conformations of their 3 CDRs compared to the 6 CDRs in an Fab fragment.
+Crystal structures of VHH domains in complex with more than a dozen different protein antigens show a range of binding modes that utilize unique features of VHH domains, and explain how these smaller antigen recognition modules can maintain diverse specificity and high affinity.
+EgA1/9G8 use a binding mode  with a convex paratope  that has also been observed for several lysozyme specific VHH domains.
+Like EgA1/9G8 these lysozyme specific VHH domains have particularly long CDR3s that extend out from the VHH framework to recognize a concave epitope at the enzyme active site.
+The VHH antigen recognition domain is uniquely suited to presentation of highly convex paratopes and this shape increases the surface available for interaction with antigen.
+The long CDR3 loops of EgA1 and 9G8 contribute to convex paratopes on these VHH domains that are ideally suited to bind at the EgA1/9G8 epitope, concave because it lies within a cleft at the domain II/III junction.
+The larger antigen-binding surface of an Fab is less able to access this epitope due in part to steric clash of the VL domain.
+The matuzumab epitope does partly overlap with that of EgA1/9G8, as expected since the mouse antecedent of matuzumab (mAb425) competes with EgA1/9G8 for binding to EGFR.
+However, the matuzumab epitope is displaced to the domain III side of the domain II/III junction.
+Bound matuzumab sterically prevents EGFR from adopting the extended conformation observed in the ligand bound structures, but likely permits EGFR to access a much greater range of conformations than are accessible to the EgA1/9G8:EGFR complex.
+EgA1/9G8 lock EGFR in the tethered, inactive conformation by binding at a key pivot point. It is also interesting to note that the interaction of matuzumab with EGFR utilizes a binding mode only accessible to a Fab/antigen interaction.
+A loop from domain III of sEGFR binds between the VH and VL domains of the Fab  a convex epitope interacting with a concave paratope.
+Other than a substantial difference in planarity of the interface for the VHH versus the Fab fragments, the general characteristics of the interfaces formed by the two classes of antibody are very similar (Table S1), as was reported in a study of VHH and Fab fragments binding to lysozyme.
+ By contrast to EgA1/9G8, 7D12 interacts with a relatively flat epitope using only CDR1 and CDR3 in a manner reminiscent of the binding of several VHH domains to ribonuclease A. CDR3 folds back against the framework of the VHH domain and is stabilized by van der Waals contacts and hydrogen bonds (although not by a disulfide bond, as often occurs in camel HCAbs).
+This creates a stable flat paratope that interacts with a region close to, although not entirely overlapping, the cetuximab epitope.
+ Implications for VHH domains as diagnostic and therapeutic agents The structures presented here illustrate two important features of VHH domains that make them valuable additions to the drug discovery toolkit.
+For EgA1/9G8 the unique structure of the VHH domain allows recognition of an epitope that is inaccessible to a conventional mAb  generating an inhibitor with a new mode of EGFR inhibition.
+The structure of 7D12 bound to domain III of EGFR reveals how this smaller and readily engineered binding unit can mimic inhibitory features of the intact monoclonal antibody drug cetuximab.
+Multimerization of 7D12 with other VHH domains generates a potent EGFR inhibitor.
+7D12 is thus a cassette that can be used to combine cetuximab-like inhibition with modules of synergistic and/or complementary inhibitory properties.
+Availability of a repertoire of similarly well-characterized inhibitory VHH domains could facilitate the generation of multivalent/multispecific drugs that can ultimately be personalized for optimal effect against a patients tumor.
+ EXPERIMENTAL PROCEDURES Protein production sEGFR (amino acids [aa] 1-618 of mature EGFR), sEGFR501 (aa 1-501) and sEGFRd3 (aa 1-4 followed by 311-514) were produced and purified as described.
+To generate sEGFRvIII codons 6273 of wild-type sEGFR were replaced with a single glycine codon using standard molecular biology methods, sEGFRvIII expressed and purified as for sEGFR.
+DNA coding VHH fragments 7D12, EgA1, and 9G8 were cloned into pET-22b (EMD).
+For crystallization proteins included a C-terminal hexa-histidine (H6) tag (VHH-H6), whereas for binding experiments a C-terminal E. coli BirA biotinylation sequence (GLNDIFEAQKIEWH) followed by a H6 tag (VHH-AVI) was included.
+An upstream pelB leader sequence directed periplasmic expression.
+VHHs were overexpressed in LB media by lactose auto-induction.
+VHHs were extracted by freeze/thaw in PBS (25mM Na2HPO4/NaH2PO4, 150mM NaCl, 10% glycerol, pH 8.0).
+Lysates were applied to Ni-NTA resin (Qiagen) and eluted with an imidazole gradient.
+Fractions containing VHHs were concentrated and further purified by size exclusion chromatography (Superose 12, GE Healthcare) using a buffer of 25 mM HEPES, 150 mM NaCl, pH 8.0.
+sEGFR and VHH variants incorporating site directed alterations were generated by standard PCR methods.
+VHH:sEGFR complexes for crystallization were purified by size exclusion chromatography.
+mAb 425 was a generous gift from Prof. Ulrich Rodeck (Jefferson University).
+The Fab fragments were prepared by papain cleavage and protein A purification using the Pierce Fab Preparation Kit (Thermo Scientific) and used without further purification.
+EGF was purchased from Chemicon, Inc. Crystallization and Data Collection Crystals were grown using the hanging drop vapor diffusion method at 20C.
+In each case protein was mixed with crystallization buffer and equilibrated against a reservoir of this same buffer.
+The following conditions were used: (i) EgA1 alone, 0.5l of 18mg/ml EgA1 plus 1.0l of 30% PEG3350, 0.2M (NH4)2SO4, 0.1M MES, pH 6.0; (ii) 7D12:sEGFRd3 at pH 6, 0.5l 10mg/ml complex plus 0.5l 22.5% PEG3350, 50mM KI, 0.1M MES, pH 6.0; (iii) 7D12:sEGFRd3 at pH 3, 1.0l 10mg/ml complex plus 1.5l 22.5% PEG3350, 0.1M sodium citrate, pH 3.5; (iv) EgA1:FabC225:sEGFR, 0.5l of 11mg/ml complex plus 0.5l 17.5% PEG3350, 1.5M NaCl, 5% glycerol, 0.1M MES, pH 6.5; (v) 9G8:FabC225:sEGFR, 0.5l of 7mg/ml protein and 2.5l 10% PEG3350, 0.1M HEPES, pH 7.0).
+All crystals were flash frozen in liquid nitrogen from cryostabilizers.
+EgA1 were flash frozen directly from the crystallization drop.
+Other crystals were transfer to crystallization buffer supplemented with (ii) 12.5% glycerol, (iii) 5% ethylene glycol (iv) 2.5% PEG3350 and 7.5% glycerol, (v) 5% PEG3350 and 15% ethylene glycol.
+X-ray diffraction data were collected at GM/CA @ APS beamline ID 23-B (EgA1, 7D12:sEGFRd3, and 9G8:FabC225:sEGFR) and at CHESS beamline F1 (EgA1:FabC225:sEGFR).
+ Structure determination and refinement Data were processed with HKL-2000.
+All structures were solved by molecular replacement (MR) in the program PHASER.
+The framework region of a hapten binding VHH (PDB ID 1I3V) was used as the search model for the structure of EgA1 alone.
+EGFR domain III from PDB ID 3B2U (chain A) and the framework region of EgA1 were used as independent search models to solve 7D12:sEGFRd3 at pH 6.0; the resulting complex served as the search model to identify the six copies of 7D12:sEGFRd3 in the pH 3.5 data.
+For the EgA1:FabC225:sEGFR complex, EgA1, the C225 Fv region, the C225 CH2/CL region, EGFR domains I-II, and EGFR domains III-IV (PDB ID 1YY9) were used as independent search models.
+The EgA1:FabC225:sEGFR structure was used as the search model to solve the 9G8:FabC225:sEGFR complex.
+Protein models were built in COOT, and refined using REFMAC, CNS and PHENIX.
+The presence of an iodide ion in the pH 6.0 7D12:sEGFRd3 model was confirmed by inspection of an anomalous difference map.
+In the EgA1/9G8 complexes, FabC225 and EGFR amino acids 208-605 are well ordered, as is most of the VHH.
+EGFR domain I, the N-terminal portion of domain II, and the distal portion of the VHH are poorly ordered.
+The dihedral angles in domain I were restrained to those in PDB ID 1YY9.
+Data collection and refinement statistics are summarized in Table 2.
+ Structure analysis Shape complementarity values were determined by the sc module in CCP4, excluding solvent molecules.
+Interactions between chains were identified by NCONT in CCP4, using a distance cutoff of 3.5  for hydrogen bonds and van der Waals contacts, and 4.5  for electrostatic interactions.
+Average excluded surface areas were calculated by CONTACT in CCP4.
+The fraction of buried hydrophobic surface area was determined by dividing the surface area of buried carbon atoms by the total buried surface area.
+Structural alignments and RMSD values were generated within the programs PYMOL or COOT, and reflect main chain atoms only.
+ Analytical ultracentrifugation Sedimentation velocity analytical ultracentrifugation (SV AUC) experiments were conducted in a Beckman Optima XL-A instrument in an An-Ti 60 rotor at 20C, at 35,000-50,000 rpm in 10mM HEPES, 150mM NaCl, pH 8.0.
+Sample absorbance was monitored at 280nm.
+Buffer density, buffer viscosity, and protein partial specific volume were estimated in the program SEDNTERP.
+Size distribution c(S) analysis was performed with the program SEDFIT.
+Only c(S) fits producing low residuals with no systematic error are reported.
+ Surface plasmon resonance studies SPR binding experiments were performed with a Biacore 3000 instrument at 25C.
+Immobilized species were diluted to 50g/ml (Fabs), 100g/ml (VHHs), or 200g/ml (EGF) in acidic buffer (10mM sodium acetate at pH 4.0 for Fab425 and EGF; pH 5.0 for VHHs; pH 5.5 for FabC225) and were amine coupled to activated CM5 sensor chips at 5 l/min for 510 minutes.
+Binding of sEGFR to these surfaces was determined as described.
+VHH-AVI constructs were exogenously biotinylated by BirA as described and immobilized to streptavidin coated SA sensor chips.
+Surfaces were regenerated between data points with 5 l of 1M NaCl at low pH (2.55.5) to remove residual sEGFR.
+Multiple cycles of regeneration did not impair sEGFR binding.
+Data were analyzed using Prism 4 (GraphPad Software, Inc.).
+ Supplementary Material            ACCESSION NUMBERS          The coordinates and structure factors have been deposited in the Protein Data Bank with accession number as follows: (i) EgA1  4KRN, (ii) 7D12:sEGFRd3 at pH 6  4KRL, (iii) 7D12:sEGFRd3 at pH 3  4KRM, (iv) EgA1:FabC225:sEGFR  4KRO, (v) 9G8:FabC225:sEGFR  4KRP.
+ This is a PDF file of an unedited manuscript that has been accepted for publication.
+As a service to our customers we are providing this early version of the manuscript.
+The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final citable form.
+Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.
+ Cooperative binding of the Escherichia coli repressor of biotin biosynthesis to the biotin operator sequence PHENIX: a comprehensive Python-based system for macromolecular structure solution ErbB2 resembles an autoinhibited invertebrate epidermal growth factor receptor Critical update and emerging trends in epidermal growth factor receptor targeting in cancer Strategies and challenges for the next generation of therapeutic antibodies A minimal peptide substrate in biotin holoenzyme synthetase-catalyzed biotinylation The extracellular region of ErbB4 adopts a tethered conformation in the absence of ligand Crystallography & NMR system: A new software suite for macromolecular structure determination An open-and-shut case?
+Recent insights into the activation of EGF/ErbB receptors The CCP4 Suite: Programs for Protein Crystallography Interactions of Protein Antigens with Antibodies Molecular basis for the preferential cleft recognition by dromedary heavy-chain antibodies Crystal structure of a camel single-domain VH antibody fragment in complex with lysozyme Enhancement of Polymeric Immunoglobulin Receptor Transcytosis by Biparatopic VHH Coot: model-building tools for molecular graphics EGF activates its receptor by removing interactions that autoinhibit ectodomain dimerization Extracellular domains drive homo- but not hetero-dimerization of erbB receptors Comparison of the biodistribution and tumor targeting of two 99mTc-labeled anti-EGFR nanobodies in mice, using pinhole SPECT/micro-CT Crystal structure of a truncated epidermal growth factor receptor extracellular domain bound to transforming growth factor alpha Monoclonal anti-epidermal growth factor receptor antibodies which are inhibitors of epidermal growth factor binding and antagonists of epidermal growth factor binding and antagonists of epidermal growth factor-stimulated tyrosine protein kinase activity Prevalence of aberrant expression of the epidermal growth factor receptor in human cancers Naturally occurring antibodies devoid of light chains Properties, production, and applications of camelid single-domain antibody fragments EGF induces coalescence of different lipid rafts Oncogenic EGFR signaling networks in glioma CXCR4 nanobodies (VHH-based single variable domains) potently inhibit chemotaxis and HIV-1 replication and mobilize stem cells Exploring the capacity of minimalist protein interfaces: interface energetics and affinity maturation to picomolar KD of a single-domain antibody with a flat paratope Engineering of recombinant crystallization chaperones Shape complementarity at protein-/protein interfaces Structural basis for EGF receptor inhibition by the therapeutic antibody IMC-11F8 Structural basis for inhibition of the epidermal growth factor receptor by cetuximab The ErbB4 extracellular region retains a tethered-like conformation in the absence of the tether Phaser crystallographic software Sequence and structure of VH domain from naturally occurring camel heavy chain immunoglobulins lacking light chains Recognition of antigens by single-domain antibody fragments: the superfluous luxury of paired domains Functional heavy-chain antibodies in Camelidae Crystal structure of the complex of human epidermal growth factor and receptor extracellular domains Rapid visualization of human tumor xenografts through optical imaging with a near-infrared fluorescent anti-epidermal growth factor receptor nanobody Processing of X-ray Diffraction Data Collected in Oscillation Mode Dimerization of the extracellular domain of the erythropoietin (EPO) receptor by EPO: one high-affinity and one low-affinity interaction Efficient inhibition of EGFR signaling and of tumour growth by antagonistic anti-EFGR Nanobodies A biparatopic anti-EGFR nanobody efficiently inhibits solid tumour growth Single-domain antibodies as building blocks for novel therapeutics Biological effects in vitro of monoclonal antibodies to human epidermal growth factor receptors Matuzumab binding to EGFR prevents the conformational rearrangement required for dimerization Interaction of antibodies with ErbB receptor extracellular regions Size-distribution analysis of macromolecules by sedimentation velocity ultracentrifugation and lamm equation modeling Nanobody stabilization of G protein-coupled receptor conformational states Protein production by auto-induction in high density shaking cultures Identical splicing of aberrant epidermal growth factor receptor transcripts from amplified rearranged genes in human glioblastomas Improved tumor targeting of anti-epidermal growth factor receptor Nanobodies through albumin binding: taking advantage of modular Nanobody technology Immuno-imaging using nanobodies Structural alterations of the epidermal growth factor receptor gene in human gliomas Anti-EGFR Monoclonal Antibodies for Treatment of Colorectal Cancers: Development of Cetuximab and Panitumumab ErbB receptors: from oncogenes to targeted cancer therapies Cross competition of VHH, Fab and EGF binding to sEGFR A. BIAcore analysis of the effect of added competitor upon binding of sEGFR to immobilized EGF or Fab.
+For CM5 sensor chips to which EGF, FabC225 or Fab425 had been amine coupled, the SPR responses for 100 nM sEGFR plus 5 M VHH (7D12, EgA1 or 9G8) or 10 M mAb (cetuximab or mAb 425) are shown, normalized to the SPR response for 100 nM sEGFR alone.
+Error bars indicate the standard deviation on at least three independent measurements.
+B. Sample of 5 M sEGFR alone and mixtures of 5 M sEGFR with (i) 5 M EgA1, (ii) 5 M FabC225, or (iii) 5 M EgA1 plus 5 M FabC225 were subject to velocity ultracentrifugation.
+Sedimentation velocity c(S) species analysis shows that sEGFR forms 1:1 complexes with EgA1 (5.4 S) and FabC225 (6.2S), and a ternary EgA1:FabC225:sEGFR (6.6S) when VHH and Fab are added.
+C. Similar velocity centrifugation shows a ternary 2xVHH:sEGFR complex (5.9S) for mixtures of sEGFR with EgA1 and 7D12, whereas only 1:1 VHH:sEGFR complex (5.4S) is seen for samples containing sEGFR, EgA1 and 9G8.
+See also Figure S1.
+ The 7D12 binding site on domain III of sEGFR A. Cartoon is shown with 7D12 colored green and sEGFRd3 colored gray.
+CDRs are highlighted in light green and labeled.
+B. In this view the structure has been rotated approximately 180 about a vertical axis relative to A. The expected locations of domains I, II and IV of sEGFR are in light blue, based on the structure of tethered sEGFR in PDB ID 1NQL.
+C. View of the interface region between 7D12 and sEGFRd3 in a similar orientation to A. Side chains that participate in key interactions are shown as sticks, as is the sugar group on sEGFRd3.
+Predicted salt bridge ( 4.5 ) or hydrogen bond ( 3.5 ) interactions are indicated with dashed lines.
+Kabat numbering is used.
+See also Figure S2.
+ Comparison of the interactions of EGF, FabC225 and 7D12 with EGFR A. Cartoon of the 7D12:sEGFRd3 complex.
+Orientation is similar to Figure 2B.
+On the right hand panel the footprint (green) of 7D12 on the surface of domain III of EGFR highlights all atoms within 4 of the bound 7D12.
+This view has been rotated by 90 about a horizontal axis so as to look down on to the flat domain III binding surface.
+B. The interaction of EGF with domain III.
+Domain III from PDB ID 1IVO was overlaid with domain III in the 7D12 complex.
+Orientations are as in A. The two groups of interactions between EGF and domain III (sites 2 and 3) as defined by Ogiso et al. are ringed.
+The footprint for EGF is in grey.
+C. The interaction of FabC225 with domain III.
+Domain III from PDB ID 1YY9 was overlaid with domain III in the 7D12 complex.
+The footprint for FabC225 is in red.
+See also Table S1.
+ EgA1 and 9G8 have highly divergent CDR3s but bind to almost identical epitopes on sEGFR A. Overview of the EgA1:FabC225:sEGFR complex showing a cartoon plus transparent molecular surface.
+The sEGFR is in grey, FabC225 is colored orange (heavy chain) and yellow (light chain) and EgA1 is in blue.
+The right hand panel shows a close up view rotated approximately 90 about a vertical axis in which the location of EgA1 in a cleft between domains II and III can be appreciated.
+In this panel a solid surface has been rendered on sEGFR and domains I and II are colored light blue for contrast.
+B. Close up view of the interface between EgA1 and sEGFR in approximately the same orientation as in the right hand panel of part A. Only CDR1 (dark blue) and CDR3 (light blue) participate in the interaction.
+Key side chains are shown as sticks and predicted salt bridge ( 4.5 ) or hydrogen bond ( 3.5 ) interactions are indicated with dashed lines.
+C. The same view of the 9G8 complex is shown.
+CDR1 is identical and colored as in B. CDR3 is different (Figure S2) and colored light purple.
+See also Figure S3.
+ Conformational changes in EgA1 upon binding to sEGFR A. Superposition of free EgA1 (dark grey) and EgA1 bound to sEGFR (white), with CDRs in dark and light blue respectively.
+The N-terminus of free EgA1 packs against CDR1 and the hydrophobic core of the Ig fold, whereas in the bound structure this segment is oriented away from the VHH and makes (presumed) polar contacts with domain III.
+Detailed views of the differences in side chain orientations near the N-terminus (B) and in CDR2 and CDR3 (C).
+See also Figure S4 Comparison of the interactions of EgA1, 9G8, matuzumab and EGF with sEGFR For each case the right hand panel shows a cartoon of just domain III of sEGFR (grey) with bound VHH, Fab or ligand.
+The left hand panel shows a surface representation of domain III in the same orientation with the footprint of VHH, Fab or ligand highlighted.
+A. EgA1 (blue); B. 9G8 (violet); C. matuzumab Fab (teal, PDB ID 3C09); D. EGF (dark red, PDB ID 1IVO).
+See also Figure S5.
+ Equilibrium binding constants of sEGFR binding to inhibitory VHH domains Immobilized VHH KD value (nM) for binding of indicated analyte   SEGFR1 sEGFR501 sEGFRd3 SEGFRvIII   7D12 219  20 (279  19) 143  18 47  3.6 263  33   EgA1 276  7.0 (238  42) 356  19 > 2,500 822  57   9G8 166  1.2 (263  76) 317  14 > 5,000 525  51    Numbers in brackets are for binding to exogenously biotinylated VHH immobilized to streptavidin coated SA sensor chips.
+All other KD values were determined for binding to VHH-AVIs that were amine-coupled to CM5 sensor chips. Crystallographic Statistics Data Collection Statisticsa EgA1 7D12:sEGFRd3 (pH 6.0) 7D12:sEGFRd3 (pH 3.5) EgA1:FabC225:sEGFR 9G8:FabC225:sEGFR      Space group P43 P6122 P212121 P21 P21      Cell dimensions a, b = 52.7 , c = 62.5  a, b = 148.0 , c = 82.5  a = 78.7 , b = 147.2 , c = 254.8  a = 66.2 , b = 96.3 , c = 128.1 ,  = 100.7 a = 66.4 , b = 95.8 , c =129.5 ,  = 99.9      X-ray source APS 23-ID-B APS 23-ID-B APS 23-ID-B CHESS F1 APS 23-ID-B      Wavelength () 0.980 1.033 0.980 0.918 0.980      Resolution limit () 1.55 2.85 2.65 3.05 2.80      Measured / Unique 107,430 / 24,694 136,787 / 22,976 568,198 / 83,116 69,621 / 29,807 138,909 / 37,840      Fold Redundancy 4.4 6.0 6.8 2.3 1.9      Completeness (%) 99.2 (94.5) 97.0 (73.4) 96.6 (75.4) 98.8 (99.6) 99.0 (92.4)      Rsymb 0.037 (0.283) 0.117 (0.574) 0.108 (0.614) 0.099 (0.463) 0.096 (0.413)      <I/> 47.5 (4.4) 21.9 (2.0) 20.7 (2.0) 10.7 (2.2) 14.8 (2.3)      Refinement Statistics           Resolution limits () 27  1.55 41.8  2.85 49.52  2.66 38.2-3.05 47.92  2.82      # reflections / # test set 23,399/1,252 12,061/617 78,792/4,233 28,283/1,507 35,947/1,889      R factor (Rfree)c 0.19 (0.21) 0.22 (0.27) 0.21 (0.24) 0.22 (0.28) 0.22 (0.26)      Model VHH 1-73,77-129 1-122 6  1-124d 1-7, 20-127 2-11, 20-124   sEGFR or sEGFRd3 - 307-511 6  307-503d 4-100, 108-183, 208-604 4-132, 208-612   FabC225 heavy chain - - - 1-135, 141-218 1-136, 141-218   light chain - -  1-211 1-211   Ions 1 sulfate ion 2 MES ions; 1 iodide ion, - - -   Water molecules 84 36 170 12 3      Total number of atoms 1,074 2,527 14,923 7,952 7,866      Ramachandran: Favored 96.9 96.3 96.4 91.4 92.1      Outliers (%) 0 0.3 0.2 0.2 0.1      RMSD bond lengths () 0.007 0.005 0.005 0.006 0.006      RMSD bond angles () 1.111 0.876 0.858 0.902 0.948    Numbers in parenthesis refer to last resolution shell.
+ Rsym = |Ih-<Ih>|/Ih, where <Ih> = average intensity over symmetry equivalent measurements.
+ R factor = |Fo-Fc|/Fo, where summation is over data used in the refinement; Rfree includes only 5% of the data excluded from the refinement.
+ Number of missing amino acids varies by chain.
+ Effects of epitope and paratope alterations on the equilibrium binding of sEGFR to immobilized VHHs. Immobilized VHH1 KD value (nM)   sEGFR sEGFR (D355T/F357A)   7D12 219  20 > 5000   7D12 (R30A) > 4,000 ND   7D12 (D101A) 656  22 ND   EgA1 276  7.0 342  6.5   EgA1 (R27A) > 4,000 ND   EgA1 (D101A) > 3,500 ND   9G8 166  1.2 303.5  12   9G8 (E100iA) > 2,500 ND    Kabat numbering is used for VHH residues.
+ Highlights Structures of three nanobodies/VHH domains bound to EGFR extracellular region.
+ Two distinct modes of VHH binding indicate two different mechanism of inhibition.
+ One mimics Erbitux/cetuximab mechanism with this smaller antigen-binding module.
+ Second exploits the convex VHH paratope to reach a key conformational epitope.
+ 

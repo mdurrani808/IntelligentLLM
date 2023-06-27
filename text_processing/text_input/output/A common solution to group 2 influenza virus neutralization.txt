@@ -1,0 +1,501 @@
+A common solution to group 2 influenza
+virus neutralization
+Robert H. E. Friesena,1, Peter S. Leeb,c,1, Esther J. M. Stoopa
+, Ryan M. B. Hoffmanb
+, Damian C. Ekiertb,2, Gira Bhabhab,3,
+Wenli Yub
+, Jarek Juraszeka
+, Wouter Koudstaala
+, Mandy Jongeneelena
+, Hans J. W. M. Korsea
+, Carla Ophorsta
+,
+Els C. M. Brinkman-van der Lindena
+, Mark Throsbya,4, Mark J. Kwakkenbosd
+, Arjen Q. Bakkerd
+, Tim Beaumontd
+,
+Hergen Spitsd
+, Ted Kwaksa
+, Ronald Vogelsa
+, Andrew B. Wardb
+, Jaap Goudsmita,5, and Ian A. Wilsonb,c,5
+a
+Crucell Vaccine Institute, Janssen Center of Excellence for Immunoprophylaxis, 2333 CN, Leiden, The Netherlands; b
+Department of Integrative Structural
+and Computational Biology and c
+The Skaggs Institute for Chemical Biology, The Scripps Research Institute, La Jolla, CA 92037; and d
+AIMM Therapeutics,
+1105 BA, Amsterdam, The Netherlands
+Edited by Peter Palese, Icahn School of Medicine at Mount Sinai, New York, NY, and approved November 13, 2013 (received for review October 8, 2013)
+The discovery and characterization of broadly neutralizing anti￾bodies (bnAbs) against influenza viruses have raised hopes for the
+development of monoclonal antibody (mAb)-based immuno￾therapy and the design of universal influenza vaccines. Only
+one human bnAb (CR8020) specifically recognizing group 2 in￾fluenza A viruses has been previously characterized that binds to
+a highly conserved epitope at the base of the hemagglutinin (HA)
+stem and has neutralizing activity against H3, H7, and H10
+viruses. Here, we report a second group 2 bnAb, CR8043, which
+was derived from a different germ-line gene encoding a highly
+divergent amino acid sequence. CR8043 has in vitro neutralizing
+activity against H3 and H10 viruses and protects mice against
+challenge with a lethal dose of H3N2 and H7N7 viruses. The crystal
+structure and EM reconstructions of the CR8043-H3 HA complex
+revealed that CR8043 binds to a site similar to the CR8020 epitope
+but uses an alternative angle of approach and a distinct set of
+interactions. The identification of another antibody against the
+group 2 stem epitope suggests that this conserved site of vulner￾ability has great potential for design of therapeutics and vaccines.
+antibody recognition | X-ray crystallography | electron microscopy
+I
+nfluenza viruses are a significant and persistent threat to hu￾man health worldwide. Annual epidemics cause 3–5 million
+cases of severe illness and up to 0.5 million deaths (1), and pe￾riodic influenza pandemics have the potential to kill millions (2).
+Inhibitors against the viral surface glycoprotein neuraminidase
+are widely used for the treatment of influenza infections, but
+their efficacy is being compromised by the emergence of drug￾resistant viral strains (3). Vaccination remains the most effective
+strategy to prevent influenza virus infection. However, protective
+efficacy is suboptimal in the highest risk groups: infants, the el￾derly, and the immunocompromised (1). Furthermore, because
+immunity after vaccination is typically strain-specific and influenza
+viruses evolve rapidly, vaccines must be updated almost annually.
+The antigenic composition of the vaccine is based on a prediction of
+strains likely to circulate in the coming year, therefore, mismatches
+between vaccine strains and circulating strains occur that can ren￾der the vaccine less effective (4). Consequently, there is an urgent
+need for new prophylactic and therapeutic interventions that pro￾vide broad protection against influenza.
+Immunity against influenza viruses is largely mediated by
+neutralizing antibodies that target the major surface glycoprotein
+hemagglutinin (HA) (5, 6). Identification of antigenic sites on
+HA indicates that influenza antibodies are primarily directed
+against the immunodominant HA head region (7), which medi￾ates endosomal uptake of the virus into host cells by binding to
+sialic acid receptors (8). Because of high mutation rates in the
+HA head region and its tolerance for antigenic changes, anti￾bodies that target the HA head are typically only effective
+against strains closely related to the strain(s) by which they were
+elicited, although several receptor binding site-targeting anti￾bodies with greater breadth have been structurally characterized
+(9–15). In contrast, antibodies that bind to the membrane-proximal
+HA stem region tend to exhibit much broader neutralizing ac￾tivity and can target strains within entire subtypes and groups
+(16–25) as well as across influenza types (24). These stem-directed
+antibodies inhibit major structural rearrangements in HA that are
+required for the fusion of viral and host endosomal membranes
+and thus, prevent the release of viral contents into the cell (8). The
+stem region is less permissive for mutations than the head and
+relatively well-conserved across divergent influenza subtypes.
+Anti-stem antibodies are elicited in some, but not all, indi￾viduals during influenza infection or vaccination (20, 26) and
+Significance
+The HA surface glycoprotein on influenza A viruses mediates
+viral entry into host cells. HA is highly variable and classified
+into 18 divergent subtypes, which cluster into two major
+phylogenetic groups. Antibody CR8043 has heterosubtypic
+neutralizing activity against group 2 viruses, including H3
+viruses that currently circulate in humans. X-ray and EM
+structures of CR8043 Fab in complex with H3 HAs reveal that
+the antibody targets a conserved epitope on the HA stem.
+Compared with CR8020, the only other structurally charac￾terized group 2 neutralizing antibody, CR8043 binds to HA
+with a different approach angle using different contact resi￾dues. The epitopes of both antibodies are very similar, which
+suggests that this conserved stem epitope has great poten￾tial for design of therapeutics and vaccines.
+Author contributions: R.H.E.F., P.S.L., D.C.E., G.B., W.K., M.J., E.C.M.B.-v.d.L., M.T., M.J.K.,
+A.Q.B., T.B., H.S., T.K., R.V., A.B.W., J.G., and I.A.W. designed research; P.S.L., R.M.B.H.,
+D.C.E., G.B., W.Y., M.J., H.J.W.M.K., C.O., M.J.K., and A.Q.B. performed research; R.H.E.F.,
+P.S.L., E.J.M.S., R.M.B.H., D.C.E., G.B., J.J., W.K., M.T., M.J.K., A.Q.B., T.K., R.V., A.B.W., J.G.,
+and I.A.W. analyzed data; and R.H.E.F., P.S.L., E.J.M.S., J.J., W.K., A.B.W., J.G., and I.A.W.
+wrote the paper.
+Conflict of interest statement: R.H.E.F., E.J.M.S., J.J., W.K., M.J., H.J.W.M.K., C.O., E.C.M.B.-v.d.L.,
+T.K., R.V., and J.G. are employees of Crucell Holland B.V.. M.J.K., A.Q.B., T.B., and H.S. are
+employees of AIMM Therapeutics.
+This article is a PNAS Direct Submission.
+Freely available online through the PNAS open access option.
+Data deposition: The atomic coordinates and structures have been deposited in the Pro￾tein Data Bank, www.pdb.org (PDB ID codes 4NM4 and 4NM8). The reconstruction data
+reported have been deposited in the Electron Microscopy Data Bank, www.emdatabank.
+org (codes 5793 and 5794).
+1
+R.H.E.F. and P.S.L. contributed equally to this work.
+2
+Present address: Department of Microbiology and Immunology, University of California,
+San Francisco, CA 94143.
+3
+Present address: Department of Molecular Pharmacology, University of California, San
+Francisco, CA 94143.
+4
+Present address: Merus B.V., 3584 CH, Utrecht, The Netherlands.
+5
+To whom correspondence may be addressed. E-mail: J.Goudsmit@crucell.com or Wilson@
+scripps.edu.
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1319058110/-/DCSupplemental.
+www.pnas.org/cgi/doi/10.1073/pnas.1319058110 PNAS | January 7, 2014 | vol. 111 | no. 1 | 445–450
+MICROBIOLOGYthus, hold great promise as potential broad spectrum prophylactic
+or therapeutic agents and for the development of a universal in￾fluenza vaccine (27–29). The majority of the known heterosubtypic
+stem binding antibodies neutralize influenza A virus subtypes
+belonging to group 1 (17–20, 23, 25). Furthermore, two antibodies
+that target a similar epitope in the HA stem, like most hetero￾subtypic group 1 antibodies, are able to more broadly recognize
+both group 1 and 2 influenza A viruses (22) or influenza A and B
+viruses (24). Strikingly, group 2-specific broadly neutralizing Abs
+(bnAbs) seem to be rare, because only one has been reported to
+date (21). CR8020 uniquely targets a distinct epitope in the stem
+in close proximity to the viral membrane at the HA base and binds
+lower down the stem than any other influenza HA antibody (21).
+In the discovery process that led to the isolation of bnAb
+CR8020, we recovered additional group 2-specific bnAbs. Here,
+we describe one such bnAb, CR8043, which recognizes a similar
+but nonidentical footprint on the HA as CR8020 and approaches
+the HA from a different angle. Furthermore, these two bnAbs
+are derived from different germ-line genes and, consequently,
+use distinct sets of interactions for HA recognition. Thus, the
+human immune system is able to recognize this highly conserved
+epitope in different ways using different germ-line genes. Hence,
+this valuable information can be used for the design of thera￾peutics and vaccines targeting this site of vulnerability in group 2
+influenza A viruses that include the pandemic H3N2 subtype.
+Results
+Identification of bnAbs Against Group 2 Influenza A Viruses. Memory
+B cells from donors vaccinated with seasonal influenza vaccine
+were immortalized to generate stable B-cell receptor-positive,
+antibody-producing memory B cells (30). We enriched for B cells
+that bound to recombinant H3 HA and then screened culture
+supernatants of reactive clones for binding to recombinant H3
+HA by ELISA, which yielded 31 clones that secreted H3 HA￾reactive antibodies. Among these H3-positive clones, 11 unique
+clones produced antibodies that neutralized A/Wisconsin/67/2005
+(H3N2) in an in vitro virus neutralization assay (VNA), and for
+all but one, their activity was recapitulated when reformatted to
+recombinant IgG1 (SI Appendix, Table S1). Sequence analysis of
+the H3N2 neutralizing mAbs revealed that two pairs of anti￾bodies use identical germ-line genes (CR8020 and CR8041;
+CR8021 and CR8038), whereas the others (including CR8043)
+use unique VH and VL genes (SI Appendix, Table S1). Three clones
+possessed heterosubtypic neutralizing activity in an in vitro VNA
+against H7 and/or H10 subtypes within the group 2 influenza A
+viruses. These antibodies include CR8020 (21) and its somatic
+variant CR8041 as well as CR8043. Interestingly, these three
+bnAbs were isolated from the same donor (SI Appendix, Table S1).
+Because CR8020 and CR8041 are somatic variants (SI Appendix,
+Fig. S1), we confined additional investigation to CR8043.
+In Vitro and in Vivo Activity of CR8043 Against Group 2 Influenza
+Viruses. To investigate the breadth of CR8043, we tested its
+binding to a panel of group 2 HAs. CR8043 Fab binds with high
+affinity to H3 and H10 HA subtypes (mean Kd ∼ 7 nM) and
+accommodates ∼50 y of antigenic drift from avian (1963) to
+human (1968–2011) H3N2 viruses, whereas its affinity for other
+group 2 subtypes (H4, H7, H14, and H15) is considerably lower
+(Fig. 1A and Fig. 2). Accordingly, CR8043 IgG potently neu￾tralizes H3 and H10 viruses in vitro, whereas it has no in vitro
+neutralizing activity against H7 viruses or group 1 H1 viruses that
+were included as a control (Fig. 1B).
+Next, we assessed the prophylactic efficacy of CR8043 against
+H3N2 and H7N7 viruses using mouse challenge models. Groups
+of mice were challenged with a lethal dose of mouse-adapted
+virus 1 d after administration of varying doses of CR8043 IgG.
+Administration of ≥3 mg/kg CR8043 fully protected mice from
+death after H3N2 challenge with increased body weight at the
+end of the study (Fig. 1C). Despite the lack of in vitro neutral￾izing activity against H7 viruses, a dose of 30 mg/kg CR8043
+protected all mice against lethal H7N7 challenge, and a dose
+of 10 mg/kg was partially protective (Fig. 1D). CR8043 did not
+Fig. 1. In vitro and in vivo binding and neutrali￾zation activity of CR8043. (A) Affinity measurements
+(Kd) for binding of CR8043 Fab to various H3 HAs and
+representative members of most of the other group
+2 HA subtypes. (B) In vitro neutralization (IC50) of
+CR8043 IgG against a panel of influenza A viruses as
+determined by VNA. Prophylactic efficacy of CR8043
+IgG against lethal challenge with (C) mouse-adapted
+H3N2 or (D) A/chicken/Netherlands/621557/2003
+(H7N7) viruses. (C and D) Shown are (Left) survival
+curves and (Right) body weight curves of mice trea￾ted with 30, 10, 3, or 1 mg/kg CR8043 or 30 mg/kg
+unrelated control mAb CR3014 1 d before lethal
+challenge (at day 0). Body weight curves represent
+mean ± 95% confidence interval of the mean.
+446 | www.pnas.org/cgi/doi/10.1073/pnas.1319058110 Friesen et al.prevent morbidity caused by H7N7, but reversal of weight loss
+was observed at the end of the study when the antibody was
+administered at 30 mg/kg (Fig. 1D).
+CR8043 Binds a Conserved Epitope in the HA Stem. To investigate the
+structural basis of antibody recognition, the crystal structure of
+CR8043 Fab in complex with the H3N2 A/Hong Kong/1/1968
+(HK68/H3) HA was determined at 4 Å resolution (SI Appendix,
+Table S2). Initial phases were obtained from the high-resolution
+starting models of HK68/H3 HA at 1.90 Å resolution (10) and
+CR8043 Fab, which was determined at 2.65 Å resolution (SI
+Appendix, Table S2). The asymmetric unit consists of an HA
+trimer liganded by three Fabs, which bind near the bottom of the
+HA stem (Fig. 3A). Furthermore, negative stain EM recon￾structions of the Fab in complex with HK68/H3 HA at ∼21 Å
+(Fig. 3B) as well as A/Bangkok/1/1979 (H3N2) HA at ∼23 Å (SI
+Appendix, Fig. S2) also showed that CR8043 binds at the base of
+the HA stem. These findings are consistent with the observation
+that CR8043 does not inhibit agglutination of red blood cells by
+the viruses that it neutralizes (SI Appendix, Table S3), and that
+CR8043 competes with CR8020 for binding to H3 HA but not
+with the anti-head mAb CR8057 (SI Appendix, Fig. S3). CR8043
+targets a highly conserved epitope in the HA stem that consists
+of the fusion peptide and the β-sheet of HA2 preceding the A
+helix (Fig. 3 C and D and SI Appendix, Table S4). On average,
+a total of 1,056 Å2 is buried at the interface (506 Å2 on HA and 550
+Å2 on the Fab), where the heavy and light chains contribute to
+74% and 26% of the Fab buried surface area, respectively. De￾spite the moderate resolution, the main chains for each compo￾nent were clearly observed and could be traced in the electron
+density (SI Appendix, Fig. S4).
+CR8043 Binding Specificities and Structural Comparison with CR8020.
+Mutants that escaped from neutralization by CR8043 harbored
+mutations at the base of the HA stem (Arg25Met and Gln34Arg
+on HA2) near the central region of the epitope (SI Appendix,
+Table S5). These mutations, along with the natural variant
+Gln34Thr, severely weaken the interaction (Fig. 2), and hence,
+the specific residue at position 34 in HA2 seems to clearly sep￾arate binders (Gln34) from nonbinders (Thr34). Accordingly,
+Thr34 is conserved in >98% of strains from the H4, H7, H14,
+and H15 subtypes and thus, likely accounts for the reduced ef￾ficacy of CR8043 against these subtypes. In addition, although
+the Thr32Arg mutation found in recent H3N2 strains slightly
+decreases binding (∼10-fold) by CR8043 Fab (Fig. 2), these
+viruses are still potently neutralized by CR8043 (Fig. 1B).
+Although the binding sites of CR8043 and CR8020 overlap
+considerably (Fig. 4A), their sensitivities to epitope mutations
+are distinct, supporting the notion that the bnAbs have unique
+modes of binding. For instance, the Arg25Met mutation that
+escapes CR8043 has no effect on the in vitro neutralizing activity
+of CR8020, whereas the Gln34Arg mutation allows viruses to
+escape from both bnAbs (SI Appendix, Table S5). In addition,
+viruses containing the mutations Asp19Asn or Gly33Glu are not
+neutralized by CR8020 but are still neutralized by CR8043, albeit
+somewhat less potently (SI Appendix, Table S5).
+The differing sensitivity of CR8043 and CR8020 to epitope
+mutations can be explained, in part, by a 33° rotation in the
+antibody approach angles to the HA surface (Fig. 4B) and may
+also be a consequence of a six-residue insertion in light chain
+complementarity-determining region 1 (LCDR1) in CR8043,
+which is derived from the VK4–01 germ-line gene (vs. VK3–20 for
+CR8020). Furthermore, CR8043 and CR8020 are derived from
+Fig. 2. Affinity of CR8043 to a panel of HAs of natural group 2 influenza viruses or engineered mutants. The HA residues included compose the CR8043
+epitope. Kd values <10 nM, <100 nM or >100 nM are colored in red, yellow or blue boxes, respectively. Residues that differ from the consensus sequence are
+in gray boxes.
+Friesen et al. PNAS | January 7, 2014 | vol. 111 | no. 1 | 447
+MICROBIOLOGYthe VH1–3 and VH1–18 germ lines, respectively, and subsequently,
+they have distinct paratopes (Fig. 4 C and D). However, some
+structural similarities can be observed between CR8043 and
+CR8020, such as close overlap and identity of the contact resi￾dues of their heavy chain complementarity determining region
+1 (HCDR1) loops (SI Appendix, Fig. S5A), as well as overlap of
+HCDR3 residues TrpH98 of CR8043 with the hydrophobic
+ProH97 and LeuH98 of CR8020 (SI Appendix, Fig. S5B). In ad￾dition, LCDR1 TyrL32 of CR8043 has a similar aromatic inter￾action with the HA as LCDR2 TyrL49 of CR8020 (SI Appendix,
+Fig. S5C).
+CR8043 Prevents HA Conformational Changes and HA Maturation.
+Because CR8043 and CR8020 target a similar epitope, we hy￾pothesized that CR8043 has a similar mechanism of action as
+CR8020 and stabilizes the pre-fusion HA conformation. We
+analyzed binding of CR8043 to different HA forms and assessed
+if CR8043 could prevent the major conformational rearrange￾ments of the fusion machinery that are triggered at low pH.
+CR8043 bound to both the uncleaved precursor (HA0) and
+mature (HA) forms of the surface-expressed H3 HAs of A/Hong
+Kong/1/1968, A/Hong Kong/24/1985, and A/Wisconsin/67/2005
+(Fig. 5A). However, the antibody did not bind to the low pH,
+post-fusion conformation (Fig. 5A), indicating that CR8043
+recognizes a native pre-fusion epitope and not the rearranged
+conformation that arises during the fusion process. In contrast,
+binding of CR8057 to the HA head of the 2005 H3 strain was
+only lost after DTT-mediated dissociation of HA1 from HA2
+(Fig. 5A). When CR8043 was bound to mature HA before low
+pH treatment, the antibody remained bound after exposure to low
+pH (Fig. 5B), indicating that CR8043 inhibits the pH-dependent
+HA rearrangements that trigger fusion. In addition, pre-binding of
+CR8043 prevents reduction of the HA and the subsequent dis￾sociation of HA1 from HA2, because CR8057 binding was pre￾served after DTT treatment (Fig. 5B).
+In addition to inhibiting conformational changes in HA that
+are required for membrane fusion, some influenza antibodies can
+neutralize infection by preventing cleavage of immature HA0 into
+HA1 and HA2 (21, 22) Indeed, CR8043, but not CR8057, pre￾vented proteolytic activation of HA0 (Fig. 5C), thereby blocking
+the progression of influenza infection.
+Discussion
+The discovery of human bnAbs that recognize nearly invariant
+epitopes of influenza A viruses has provided new tools and op￾portunities for the development of therapies or vaccines. Although
+several heterosubtypic group 1 influenza A anti-stem antibodies
+have been characterized (16–20, 23, 25) as well as antibodies that
+cross the groups 1 and 2 barrier (22, 24), heterosubtypic group 2
+antibodies have been less common, and only bnAb CR8020 has
+been structurally characterized to date (21). In this study, we have
+Fig. 3. CR8043 binds an epitope in the HA stem close to the virus membrane.
+(A) Crystal structure of CR8043 Fab in complex with HK68/H3 HA. One Fab-HA
+protomer of the trimeric complex is colored with HA1 in green, HA2 in blue,
+the Fab heavy chain in red, and the Fab light chain in pink. Glycans are shown
+as spheres (carbon in orange, oxygen in red, and nitrogen in blue). (B, Left)
+Side and (B, Right) top views of negative stain EM reconstructions (gray mesh)
+of CR8043 Fab in complex with HK68/H3 HA with the crystal structure of the
+complex docked into the EM density. (C) Zoomed-in view of the interaction
+between CR8043 and HK68/H3 HA. The coloring is similar to A but with the
+fusion peptide in blue and the three segments of the β-sheet colored purple,
+orange, and pink (they derive from the C terminus of HA2, the N terminus of
+HA1, and the N terminus of HA2, respectively). (D) Sequence conservation of
+the CR8043 epitope across all group 2 HAs. Epitope residues are shown as sticks
+[carbon in green (HA1) or blue (HA2), oxygen in red, and nitrogen in dark
+blue], and the weighted percent identity of each residue with the group 2
+consensus sequence is indicated, which is not always identical to the residue at
+that position for HK68/H3.
+Fig. 4. Comparison of CR8043 and CR8020 contacts on HA. (A) CR8043 (red
+and yellow) and CR8020 (blue and yellow) footprints mapped onto the HA
+surface, with HA1 colored in light green and HA2 colored in light blue. The
+yellow areas indicate the overlap in the epitopes. (B) Top view overlay of the
+crystal structures of the CR8043 (red) and CR8020 (blue; Protein Data Bank ID
+code 3SDY) Fabs in complex with HK68/H3 showing the different angle of
+approach to the HA. The interactions of (C) CR8043 or (D) CR8020 CDRs with
+HA. The antibody footprints are illustrated in dark green (HA1) and dark
+blue (HA2), and the contacting CDRs are shown as sticks.
+448 | www.pnas.org/cgi/doi/10.1073/pnas.1319058110 Friesen et al.identified another bnAb, CR8043, which was isolated from the
+same donor as CR8020 and also has broadly neutralizing activity
+against group 2 virus subtypes. Surprisingly, the antibodies are
+derived from different germ lines [CR8043 and CR8020 derive
+from VH1–3 and VH1–18 germ-line genes, respectively, which are
+each estimated to be present in 6% of the human antibody rep￾ertoire (31)]. However, these antibodies contact similar epitopes
+at the base of the HA stem. Moreover, they both interfere with
+virus infectivity by inhibiting HA0 maturation as well as the pH￾triggered conformational rearrangements in HA that are required
+for membrane fusion.
+CR8043 protects mice against lethal challenge with H3 and
+H7 viruses but does not neutralize H7 viruses in vitro. This
+paradoxical effect has also been observed with bnAb CR9114,
+which protects mice against lethal challenge with influenza B
+viruses, despite a lack of in vitro neutralizing activity against this
+genus (24). Presumably, in both cases, antibody effector functions
+mediated by the antibody Fc domain, such as antibody-dependent
+cellular cytotoxicity for bnAb FI6 (22) or complement-dependent
+cytotoxicity, contribute to protection (32).
+The results presented here show that CR8043 uses a unique
+paratope and angle of approach to target a highly conserved
+epitope on the stem of group 2 influenza HAs that is overlapping
+but not identical to the CR8020 epitope. A similar trend in HA
+recognition by heterosubtypic group 1 bnAbs, which bind to
+a highly conserved epitope higher up on the HA stem (18, 19), is
+also developing. Although several of these group 1 bnAbs ini￾tially came from the VH1–69 family, human and mouse antibodies
+from other germ-line families also target a similar but not identical
+stem epitope (22, 25). Comparisons of their crystal structures have
+identified some similarities in their binding interactions, such as
+conservation in aromatic interactions, despite using different CDR
+loops and completely different angles of approach (25). In addi￾tion, access to a conserved epitope using different modes of
+binding and varied angles of approach is an emerging theme for
+glycan-dependent antibody recognition of HIV-1 Env (33) and has
+defined a supersite of vulnerability on HIV-1. This concept is
+Fig. 5. CR8043 inhibits the fusogenic conformational changes in HA and blocks proteolytic activation of HA0. (A) FACS binding of CR8043 (open bars) and the head
+binding control mAb CR8057 (solid bars) to various conformations of surface-expressed H3 HAs of A/Hong Kong/1/1968, A/Hong Kong/24/1985, or A/Wisconsin/67/
+2005. The various conformations are indicated above the corresponding graphs and were as follows: uncleaved precursor (HA0); neutral pH, cleaved (HA); fusion pH,
+cleaved (pH 4.9); and trimeric HA2 (tHA2). Binding is expressed as the percentage of binding to untreated HA (HA0). Data represent mean + SD of three independent
+experiments. Ribbon diagrams are modified from ref. 38. (B) FACS binding of CR8043 (open bars) and CR8057 (solid bars) to surface-expressed H3 HAs as above, except
+that mAb CR8043 was added before exposure of the cleaved HAs to pH 4.9. (C) Immunoblot of trypsin digestion over time of uncleaved (HA0), soluble H3 HA, which
+was pretreated without mAb, with CR8043, or with CR8057 and detected using a polyclonal serum against H3 HA.
+Friesen et al. PNAS | January 7, 2014 | vol. 111 | no. 1 | 449
+MICROBIOLOGYemulated here for influenza virus, where stem antibodies approach
+the epitope in different ways and use distinct interactions but have
+functionally similar modes of neutralization, as also observed for
+bnAbs to the HA receptor binding site (9–11, 13–15).
+Group 2-specific bnAbs may be therefore more robustly eli￾cited than previously assumed (34), and it remains to be seen if
+additional group 2 bnAbs target the same epitope (35). As such,
+these findings stress the importance of the CR8043/CR8020
+epitope for neutralization of group 2 influenza A viruses and as
+an emerging target to guide the development of broader spec￾trum influenza therapies and vaccines. Although the epitopes of
+both antibodies are largely overlapping, from the vaccine design
+perspective, the CR8043 epitope may be more attractive than the
+CR8020 epitope, because it is mostly contained within a linear
+stretch of HA2 amino acids 15–38. It may be possible to mimic
+the optimal conformation for presentation by a protein scaffold,
+such as with the recent, successful grafting of the CD4 binding site
+from gp120 onto an unrelated protein scaffold (36, 37). Thus,
+CR8043 sheds light on the potential rational design of broader
+spectrum influenza vaccines.
+Materials and Methods
+Influenza A group 2 neutralizing antibodies were isolated from healthy
+donors 7 d after vaccination with a seasonal influenza vaccine. B-cell receptor￾positive memory B cells were immortalized and selected for binding to
+recombinant Allophycocyanin-labeled H3 HA. B-cell supernatants were then
+tested for HA binding by ELISA and in vitro neutralizing activity against
+H3N2 by VNA. H3N2-neutralizing antibodies were subsequently reformatted
+into human IgG1 and evaluated for binding against H1, H3, and H7 HA by
+ELISA and FACS as well as in vitro neutralizing activity against several in￾fluenza A viruses by VNA. Prophylactic efficacy studies of CR8043 in female SPF
+129 X1/SvJ or BALB/c mice were performed by i.v. injecting varying concen￾trations of CR8043 1 d before intranasal lethal challenge with H3N2 or H7N7
+viruses, respectively. Animals were monitored for survival and weighed
+daily. Recombinant CR8043 Fab and HA were generated in baculovirus for
+binding studies and X-ray and EM structural studies. Kd values were de￾termined by biolayer interferometry using an Octet RED instrument (For￾teBio) by immobilizing biotinylated HA on streptavidin biosensors and then
+dipping into varying concentrations of CR8043 Fab. CR8043 Fab was added
+to HK68/H3 in a 3.2:1 molar excess to achieve three Fabs per trimer, and the
+complex was purified from unbound Fab by gel filtration. Crystals were
+grown by sitting drop vapor diffusion, and crystals were cryoprotected and
+flash cooled in liquid nitrogen. Diffraction data were collected at the Stan￾ford Synchrotron Radiation Lightsource (SSRL), and the structures were de￾termined by molecular replacement. Reconstructions of CR8043-HA complexes
+were determined by negative stain EM. Additional detailed information is
+described in SI Appendix, SI Materials and Methods.
+ACKNOWLEDGMENTS. We thank Ozcan Sahin, Freek Cox, and the Protein
+Sciences Team of the Crucell Vaccine Institute for excellent assistance; Lisette
+Cornelissen for assistance with the animal experiments; Leo Poon and Malik
+Peiris for the generation of escape mutants; Miriam Bujny, David Zuijdgeest,
+Gerrit Jan Weverling, Robyn Stanfield, Jean-Philippe Julien, and Leopold
+Kong for fruitful discussions; and Henry Tien of the Robotics Core at the
+Joint Center for Structural Genomics for automated crystal screening. We
+also thank the staff at beamlines 11-1 and 12-2 at SSRL for beamline support.
+SSRL is a Directorate of Stanford Linear Accelerator Center National Accel￾erator Laboratory and an Office of Science User Facility operated for the US
+Department of Energy Office of Science by Stanford University. The SSRL
+Structural Molecular Biology Program is supported by the Department of
+Energy Office of Biological and Environmental Research; National Institutes
+of Health, National Center for Research Resources, Biomedical Technology
+Program Grant P41RR001209; and the National Institute of General Medical
+Sciences. This work has been funded in part by Crucell Holland B.V.; National
+Institute of Allergy and Infectious Diseases, National Institutes of Health,
+Department of Health and Human Services Contract HHSN272200900060C;
+National Institutes of Health Molecular Evolution Training Program Grant
+GM080209 (to P.S.L.); and National Institutes of Health Grant R56 AI099275
+(to I.A.W.). The EM data were collected at the National Resource for Auto￾mated Molecular Microscopy at The Scripps Research Institute, which is sup￾ported by the National Institutes of Health through P41 Program Grant
+RR017573 at the National Center for Research Resources. This work is The
+Scripps Research Institute manuscript number 24039.
+1. World Health Organization (WHO) (2009) Fact Sheet 211: Influenza (World Health
+Organization, Geneva).
+2. Potter CW (2001) A history of influenza. J Appl Microbiol 91(4):572–579.
+3. Stephenson I, et al. (2009) Neuraminidase inhibitor resistance after oseltamivir
+treatment of acute influenza A and B in children. Clin Infect Dis 48(4):389–396.
+4. Carrat F, Flahault A (2007) Influenza vaccine: The challenge of antigenic drift. Vaccine
+25(39–40):6852–6862.
+5. Palladino G, Mozdzanowska K, Washko G, Gerhard W (1995) Virus-neutralizing an￾tibodies of immunoglobulin G (IgG) but not of IgM or IgA isotypes can cure influenza
+virus pneumonia in SCID mice. J Virol 69(4):2075–2081.
+6. Gerhard W, Mozdzanowska K, Furchner M, Washko G, Maiese K (1997) Role of the
+B-cell response in recovery of mice from primary influenza virus infection. Immunol
+Rev 159:95–103.
+7. Wiley DC, Wilson IA, Skehel JJ (1981) Structural identification of the antibody-binding
+sites of Hong Kong influenza haemagglutinin and their involvement in antigenic
+variation. Nature 289(5796):373–378.
+8. Skehel JJ, Wiley DC (2000) Receptor binding and membrane fusion in virus entry: The
+influenza hemagglutinin. Annu Rev Biochem 69:531–569.
+9. Whittle JR, et al. (2011) Broadly neutralizing human antibody that recognizes the
+receptor-binding pocket of influenza virus hemagglutinin. Proc Natl Acad Sci USA
+108(34):14216–14221.
+10. Ekiert DC, et al. (2012) Cross-neutralization of influenza A viruses mediated by a sin￾gle antibody loop. Nature 489(7417):526–532.
+11. Lee PS, et al. (2012) Heterosubtypic antibody recognition of the influenza virus hemagglu￾tinin receptor binding site enhanced by avidity. Proc Natl Acad Sci USA 109(42):17040–17045.
+12. Tsibane T, et al. (2012) Influenza human monoclonal antibody 1F1 interacts with
+three major antigenic sites and residues mediating human receptor specificity in
+H1N1 viruses. PLoS Pathog 8(12):e1003067.
+13. Xu R, et al. (2013) A recurring motif for antibody recognition of the receptor-binding
+site of influenza hemagglutinin. Nat Struct Mol Biol 20(3):363–370.
+14. Schmidt AG, et al. (2013) Preconfiguration of the antigen-binding site during affinity
+maturation of a broadly neutralizing influenza virus antibody. Proc Natl Acad Sci USA
+110(1):264–269.
+15. Hong M, et al. (2013) Antibody recognition of the pandemic H1N1 influenza virus
+hemagglutinin receptor binding site. J Virol 87(22):12471–12480.
+16. Kashyap AK, et al. (2008) Combinatorial antibody libraries from survivors of the
+Turkish H5N1 avian influenza outbreak reveal virus neutralization strategies. Proc
+Natl Acad Sci USA 105(16):5986–5991.
+17. Throsby M, et al. (2008) Heterosubtypic neutralizing monoclonal antibodies cross-protective
+against H5N1 and H1N1 recovered from human IgM+ memory B cells. PLoS One 3(12):e3942.
+18. Sui J, et al. (2009) Structural and functional bases for broad-spectrum neutralization
+of avian and human influenza A viruses. Nat Struct Mol Biol 16(3):265–273.
+19. Ekiert DC, et al. (2009) Antibody recognition of a highly conserved influenza virus
+epitope. Science 324(5924):246–251.
+20. Corti D, et al. (2010) Heterosubtypic neutralizing antibodies are produced by individuals
+immunized with a seasonal influenza vaccine. J Clin Invest 120(5):1663–1673.
+21. Ekiert DC, et al. (2011) A highly conserved neutralizing epitope on group 2 influenza
+A viruses. Science 333(6044):843–850.
+22. Corti D, et al. (2011) A neutralizing antibody selected from plasma cells that binds to
+group 1 and group 2 influenza A hemagglutinins. Science 333(6044):850–856.
+23. De Marco D, et al. (2012) A non-VH1-69 heterosubtypic neutralizing human mono￾clonal antibody protects mice against H1N1 and H5N1 viruses. PLoS One 7(4):e34415.
+24. Dreyfus C, et al. (2012) Highly conserved protective epitopes on influenza B viruses.
+Science 337(6100):1343–1348.
+25. Dreyfus C, Ekiert DC, Wilson IA (2013) Structure of a classical broadly neutralizing
+stem antibody in complex with a pandemic H2 influenza virus hemagglutinin. J Virol
+87(12):7149–7154.
+26. Wrammert J, et al. (2011) Broadly cross-reactive antibodies dominate the human B cell
+response against 2009 pandemic H1N1 influenza virus infection. J Exp Med 208(1):181–193.
+27. Ekiert DC, Wilson IA (2012) Broadly neutralizing antibodies against influenza virus
+and prospects for universal therapies. Curr Opin Virol 2(2):134–141.
+28. Burton DR, Poignard P, Stanfield RL, Wilson IA (2012) Broadly neutralizing antibodies
+present new prospects to counter highly antigenically diverse viruses. Science
+337(6091):183–186.
+29. Julien JP, Lee PS, Wilson IA (2012) Structural insights into key sites of vulnerability on
+HIV-1 Env and influenza HA. Immunol Rev 250(1):180–198.
+30. Kwakkenbos MJ, et al. (2010) Generation of stable monoclonal antibody-producing B cell
+receptor-positive human memory B cells by genetic programming. Nat Med 16(1):123–128.
+31. Arnaout R, et al. (2011) High-resolution description of antibody heavy-chain reper￾toires in humans. PLoS One 6(8):e22365.
+32. Burton DR (2002) Antibodies, viruses and vaccines. Nat Rev Immunol 2(9):706–713.
+33. Kong L, et al. (2013) Supersite of immune vulnerability on the glycosylated face of
+HIV-1 envelope glycoprotein gp120. Nat Struct Mol Biol 20(7):796–803.
+34. Margine I, et al. (2013) H3N2 influenza virus infection induces broadly reactive
+hemagglutinin stalk antibodies in humans and mice. J Virol 87(8):4728–4737.
+35. Wang TT, et al. (2010) Broadly protective monoclonal antibodies against H3 influenza viruses
+following sequential immunization with different hemagglutinins. PLoS Pathog 6(2):
+e1000796.
+36. Azoitei ML, et al. (2011) Computation-guided backbone grafting of a discontinuous
+motif onto a protein scaffold. Science 334(6054):373–376.
+37. Azoitei ML, et al. (2012) Computational design of high-affinity epitope scaffolds by
+backbone grafting of a linear epitope. J Mol Biol 415(1):175–192.
+38. Skehel JJ, Wiley DC (2002) Influenza haemagglutinin. Vaccine 20(Suppl 2):S51–S54.
+450 | www.pnas.org/cgi/doi/10.1073/pnas.1319058110 Friesen et al.

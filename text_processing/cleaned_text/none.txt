@@ -1,0 +1,205 @@
+letters  Rational design of faster  associating and tighter  binding protein complexes  Tzvia Selzer, Shira Albeck and Gideon Schreiber  Weizmann Institute of Science, Department of Biological Chemistry,   Rehovot, 76100 Israel.  A protein design strategy was developed to specifically  enhance the rate of association (kon) between a pair of proteins without affecting the rate of dissociation (koff).
+The  method is based on increasing the electrostatic attraction  between the proteins by incorporating charged residues in  the vicinity of the binding interface.
+The contribution of  mutations towards the rate of association was calculated  using a newly developed computer algorithm, which predicted accurately the rate of association of mutant protein complexes relative to the wild type.
+Using this design strategy, the  rate of association and the affinity between TEM1 -lactamase and its protein inhibitor BLIP was enhanced 250-fold,  while the dissociation rate constant was unchanged.
+The  results emphasize that long range electrostatic forces specifically alter kon, but do not effect koff.
+The design strategy presented here is applicable for increasing rates of association  and affinities of protein complexes in general.
+  The affinity (KD) of a protein complex is a function of the rates  of association (kon) and dissociation (koff), with the simple relation KD=koff/kon holding for many diffusion limited reactions.
+A  clear distinction between the forces contributing to kon and koff  has been observed.
+Dissociation is a first order reaction whose  rate is dictated by the strength of short range interactions  between the proteins (van der Waals interactions, hydrogen  bonds, hydrophobic interactions and salt bridges).
+Conversely,  the rate of association is dictated by diffusion and can be  increased by favorable Coulombic electrostatic forces13.
+With  this in mind, it is clear that different strategies have to be applied  nature structural biology  volume 7 number 7  july 2000 537  to optimize rates of association and dissociation.
+In order to  design protein complexes with slower koff values, a physical  understanding of the short range interactions within the binding  site, and a method to precisely predict the structural consequences of introducing mutations is required. This is currently a  difficult task4.
+Alternatively, affinities can be enhanced by  increasing the rate of association, which can be achieved by optimizing the electrostatic attraction between the proteins.
+This  phenomenon has been exploited by nature for interactions in  which speed counts.
+Examples are the very fast interactions  between barnase and its intracellular inhibitor barstar5, between  RNase and its inhibitor RI6, or between acetylcholinesterase and  fasciculin7,8.
+Despite the strong electrostatic attraction between  these pairs of proteins, specificity of binding is maintained at  physiological salt concentrations3.
+The role of electrostatic  attraction in the process of association of protein complexes was  studied using Brownian dynamic simulations913.
+Alternatively,  the electrostatic rate enhancement was related to the average  interaction potential between the active sites of two proteins14,15.
+  Finally, a good quantitative relationship between the rate  enhancement of protein complex formation and the electrostatic  energy of interaction (U) of a pair of proteins was demonstrated16.
+Increasing U by 1 kcal mol-1 of Coulombic interaction  energy was shown to increase the rate of association by 2.8-fold  (at I = 0, where I is the ionic strength)16.
+This simple relationship  is independent of the protein complex, or mutant, analyzed.
+  Fig. 1 Validating PARE for different proteins.
+Calculations of kon (at I =  0.022 M) were performed using the program PARE (see Methods).
+  Experimental values of kon (at I = 0.022 M) are from refs 3,8,24.
+The proteins studied were barnase with barstar (crosses), hirudin with thrombin  (filled circles), and AChE with fasciculin (open squares).
+The data points  are for wild type and 32 mutant complexes (for details see ref. 16).
+  a b  c d  Fig. 2 Surface representations of TEM1 and BLIP.
+a, Showing the residues  on BLIP probed for faster association.
+Residues are color coded according  to the calculated rate increase (see Table 1).
+bd, The electrostatic potentials on the binding surfaces of BLIP, TEM1 and the fastest BLIP mutant  (+6) were calculated by GRASP25.
+The calculations were performed using  formal charges at 0.1 M salt, with the contours drawn at 0.7 kT / e (blue  for positive and red for negative charge).
+The structures of TEM1 and  BLIP are from the crystal structure of the complex17.
+The green patch  denotes the binding interface.
+The figure was created using GRASP25.
+   2000 Nature America Inc.  http://structbio.nature.com   2000 Nature America Inc.  http://structbio.nature.comletters  Optimizing the algorithm to calculate kon  We have shown that kon is linearly related to the Coulombic  interaction energy (U; ref.
+16).
+However, absolute values were  difficult to calculate and the contribution to kon of charged  residues located far from the binding site was overestimated16.
+  To tackle these problems we developed a computer program  Protein Association Rate Enhancement (PARE) that calculates  the kon of mutant complexes from the Debye Hckel energy of  interaction between proteins and an experimentally measured  value of kon (see Methods).
+The ability of PARE to predict values of kon was evaluated for the interactions between barnase  and barstar, hirudin and thrombin, and acetylcholinesterase  (AChE) and fasciculin.
+An excellent linear relationship is seen  between the calculated and experimentally measured values of  kon for all three systems (Fig. 1; correlation coefficient of 0.98  for the 32 mutations analyzed).
+The mutations analyzed are  distributed on the surface of the proteins, with many of them  located within the binding sites (for details on the location of  the mutations see ref.
+16).
+  Design strategy  In this study, the ability to design protein complexes with  enhanced rates of association using the program PARE is experimentally tested.
+The design strategy is based on the assumption  that the effect of increasing favorable charge interactions in the  vicinity of the binding site will enhance kon without affecting  koff.
+Thus, as a first step, surface exposed residues located in the  vicinity of the binding interface, but not participating in inter538 nature structural biology  volume 7 number 7  july 2000  protein short range interactions, were identified.
+These residues  were mutated to increase the charge complementarity between  the two interacting proteins.
+The expected enhancement of kon  was calculated using PARE.
+Mutations that contributed most to  the association rate were combined in a single protein and rates  were recalculated.
+Gly and Pro residues were not mutated to  avoid alteration of the backbone conformation upon mutation.
+  The last step in the design protocol was to evaluate the rate  enhancement experimentally, and compare the experimentally  measured and theoretically calculated values.
+The interaction  between TEM1 -lactamase and its protein inhibitor BLIP is an  appropriate model to test this design strategy.
+High resolution  crystal structures of the complex and of the individual proteins  are available17,18.
+The two proteins are readily expressed in E. coli  and can be easily manipulated19.
+The rate of association of this  complex is 105 M-1 s-1, and electrostatic forces make no major  contribution to this rate19.
+Mutations were introduced only on  BLIP in order to design a superactive inhibitor, leaving the  enzyme (TEMI) in the native state (Fig. 2a).
+  Identifying target residues for mutagenesis  While the TEM1 binding surface of BLIP is predominantly neutral, charged patches are found on the BLIP binding surface of  TEM1.
+The TEM1 active site is located in a positively charged  cleft, while adjacent to it are a perturbing loop and helix that are  predominantly negatively charged (residues 99110 and  166171; Fig. 2c)17.
+All mutations introduced in BLIP were  intended to increase the positive potential of its TEM1 binding  surface.
+By far, the largest effect on kon was calculated for the  charge reversed mutant D163K (BLIP), which, at an ionic  strength of 22 mM, was predicted to increase the rate of association by 20-fold (Table 1).
+Rates of association for other single  mutations were predicted to increase kon by less than three-fold.
+  A rational explanation for the large effect of mutating Asp 163  (BLIP) is the unfavorable location of the negative charge of the  carboxyl group of Asp 163 in close proximity to three Glu  residues on TEM1 (104, 168 and 171)17.
+The largest effects on the  rate of association were predicted for mutations of residues  located at the bottom of BLIP in Fig. 2a, while mutations introduced at the top part of BLIP in Fig. 2a seem to affect association  to a lesser degree.
+This suggests that increasing the electrostatic  complementarity between specific surface patches on the binding proteins is more important than increasing the total charge  in the vicinity of the binding site.
+Individual mutations that were  predicted to cause the largest increase in kon (Fig. 2a) were combined and their added contribution re-calculated.
+Fig. 2b shows  the electrostatic surface potential of wild type BLIP compared to  its (+6) mutant (V165K, D163K, D135K, V89K) (Fig. 2d),  which, according to the calculation by PARE causes an increase  in kon of over 200-fold.
+  Mutations have a small effect on protein stability  Based on the above calculations, a number of residues on BLIP  were chosen for site-directed mutagenesis (Fig. 2a and Table 1).
+  The introduction of multiple same-charge mutations within a  small patch on a protein surface may lead to destabilization of  Fig. 3 Rates of association of TEM1 with BLIP.
+a, Calculated versus experimental values (at I = 0.022 M).
+b, Salt dependence of kon for wild type  and mutant BLIP with wild type TEM1.
+The curves fit a linear regression16,  with the slope being equal to -Usalt / RT and the intercept (1 / (1 + a) = 0)  being the basal rate of association in the absence of electrostatic forces  (equation 1 and refs 3,16).
+  a  b   2000 Nature America Inc.  http://structbio.nature.com   2000 Nature America Inc.  http://structbio.nature.comletters  the protein structure, or to large changes in the pKa of the  charged groups.
+Structural stability of some of the mutated proteins were probed by standard urea denaturation curves, from  which values of [urea]1/2 were determined.
+Variations in [urea]1/2  between mutant and wild type BLIP proteins were 0.5 M, with  the size of the urea driven transition state remaining unchanged  (data not shown).
+This demonstrates that the penalty on structural stability of incorporating a charge patch on the surface is  small (Table 1).
+Variations in the pKa of mutated charged amino  acids were determined using DelPhi20 for the (+6) mutant.
+  Introducing the mutations N89K, D135K and V165K simultaneously caused a lowering of the pKa of the D163K mutant by only  0.65 pH units.
+As the pKa of Lys is 10.8 we do not expect this  small change in pKa to affect the net charge at pH 7.2 (which was  used for all experiments).
+  Experimental measurements validate prediction  As predicted from the calculations, the two single BLIP mutants  D163A and D163K had the largest effect on the rate of association, causing increases of 8-fold and 23-fold, respectively  (Table 1).
+Other single mutations caused an increase in kon of up  to three-fold.
+Combining several BLIP mutations further  increased kon, with the measured rate of association of the (+6)  mutant (Fig 2d) being 240-fold higher than the wild type (Table  1).
+The relationships between the calculated and experimentally  determined rates of association for 11 different mutant proteins  are shown in Fig. 3a.
+An excellent correlation between the two is  observed, with the slope of the fit being 1 and a correlation  coefficient of 0.95.
+  A hallmark of the contribution of electrostatic forces towards  the rate of association is the effect of monovalent salts on kon.
+  Plotting the rates of association of TEM1 and BLIP (wild type  and mutants) at a range of salt concentrations (Fig 3b) results in  a good linear correlation between lnkon and 1 / (1 + a), where   is the Debye screening parameter and a is set to 6  (ref. 16).
+  Although the rate increase resulting from electrostatic forces  declined with increased ionic strength, at physiological ionic  strength, the (+6) BLIP mutant still bound TEM1 30-fold faster  than wild type.
+At very high concentrations of salt, the electrostatic attraction between the mutated proteins was masked.
+This  gave a rate of association in the absence of electrostatic forces  (basal rate), on the order of 104 M-1 s-1.
+  The introduction of multiple-charge mutations had only a  small effect on the rate of dissociation for all of the mutants analyzed (Table 1 and Fig. 4a).
+Assuming that the simple relation KD  = koff/kon holds (as has been shown for the wild type TEM1BLIP  complex19), the affinity of BLIP (+6) for TEM1 is 290-fold higher than that of wild type.
+This is equivalent to an increase of 3.3  kcal mol-1 in binding energy.
+To verify whether the binding  affinities of the mutants increase as predicted by calculation,  affinities were determined by equilibrium titration using an  enzyme inhibition assay.
+The inhibition of TEM1 by BLIP was  monitored by the rate of hydrolysis of PADAC (a colored  cephalosporin that undergoes a blue shift upon hydrolysis21) at  nature structural biology  volume 7 number 7  july 2000 539  different BLIP concentrations19.
+As expected, the affinities of  BLIP mutants towards TEM1 increased substantially (data not  shown), although absolute values of KD were difficult to determine due to the very high affinities (in the pM range).
+  koff is independent of long range electrostatic forces   The observation that increasing the electrostatic energy of interaction between TEM1 and BLIP did not alter koff significantly  (Fig. 4a) is somewhat surprising, as one might expect koff to slow  down with increasing electrostatic interactions.
+To determine  whether koff is indeed independent of long range electrostatic  forces, or whether this is just the net result of multiple processes,  the dependence of the rate of dissociation on the concentration  of salt was investigated (Fig. 4b).
+Values of koff (for complexes of  TEM1 with wild type BLIP and BLIP mutants) were found to be  independent of the concentration of salt, which clearly shows  that long range electrostatic interactions play no significant role  in the process of complex dissociation.
+This observation suggests  Fig. 4 koff, affinity and activity of BLIP mutants.
+Values in a, are relative  to wild type, and taken from Table 1.
+KD was calculated from KD = koff /  kon.
+b, Dependence of koff on the ionic strength measured on a BIAcore.
+  c, Inhibition of enzymatic activity of TEM1 by BLIP and its mutants monitored by stopped-flow fluorescence.
+The activity of TEM1 was monitored  by the degradation of PADAC21.
+At time zero a mixture of 0.1 M of BLIP  and 10 M PADAC was mixed with 0.025 M of TEM1 and the change in  absorbance at 570 nm was monitored.
+  a  b  c   2000 Nature America Inc.  http://structbio.nature.com   2000 Nature America Inc.  http://structbio.nature.comletters  that breaking the specific short range interactions between the  two proteins is the rate limiting step for dissociation, while the  rate at which the two proteins diffuse away from each other  (which will decrease with increased long range electrostatic  interactions) does not seem to affect koff.
+  Increasing kon improves inhibition by BLIP  By monitoring the kinetics of inhibition of PADAC hydrolysis  upon the addition of BLIP, one can compare the dynamic potency of the various BLIP mutants.
+Mixtures of BLIP and PADAC  were added to wild type TEM1 and the change in absorbance,  which is indicative of the degradation of PADAC by TEM1, was  monitored.
+Within the initial 50 s of the reaction, the inhibition  of TEM1 activity by wild type BLIP was marginal (Fig. 4c).
+The  rate of inhibition increased dramatically as faster associating  BLIP mutants were used.
+For the (+4) and (+6) mutants, full  inhibition of TEM1 was observed almost instantaneously.
+These  results demonstrate the potential value of specifically increasing  the rate of association when designing more potent protein  inhibitors.
+  The results presented in this work show that the rate of association can be increased above a certain basal rate by improving  the Coulombic complementarity between patches of charged  residues on the protein surfaces (Fig. 2).
+The rate of association  is not directly related to the overall charge in the vicinity of the  binding site, but rather to the specific distribution of charges.
+  For example, the reverse charge mutant D163K has a much larger effect on kon than the double mutant T140K,Q157K even  though both increase the overall charge by +2.
+The computer  algorithm (PARE) introduced here accurately predicted the  observed rates of association for the different mutations.
+  Conversely, values of koff for the different mutant complexes were  not affected by the increased electrostatic complementarity  between the two proteins, suggesting that the rate limiting steps  for association and dissociation are different.
+The design strategy  presented here should be generally applicable as it does not rely  on specific features of any one system.
+Moreover, it is sufficient  to optimize the distribution of charged residues on one of the  540 nature structural biology  volume 7 number 7  july 2000  proteins to achieve faster association.
+This makes the method  applicable for designing more active inhibitors or activators,  with many potential uses.
+  Methods  Calculating the rate of association.
+The rate of association kon is  a function of an electrostatic independent basal rate lnkon0 that is  fixed for a given complex, and an electrostatic dependent component that is a function of the Coulombic energy of interaction -U /  RT (U is the electrostatic energy of interaction.
+R is the gas constant and T is the temperature16).
+Combining these two gives:  (1)  where a is set to 6  (ref.
+16) and  is the Debye-Hckel screening  parameter that relates to the ionic strength of the solution15,16.
+U is  calculated using a newly written computer program that calculates  the Debye-Hckel energy of a protein using:  (2)  where i and j are the charged atoms in the proteins,  is the dielectric constant (set to 80) and a  value of 0.488 (at I = 0.022 M, where  I is the ionic strength) was used for all calculations.
+This value of   proved to give the best fit with the experimentally determined data  (Fig. 1).
+The electrostatic energy of interaction between two proteins is calculated from:  (3)  where Ucomplex and Uprotein are calculated from equation 2.
+The relation between kon and U at I = 0.022 M is given by equation 4:  (4)  where lnkon(wt) has to be determined experimentally at I = 0.022 M.  Calculating kon at any other salt concentration can be done by multiplying lnkon(mut) (I = 0.022) (from equation 4) by 1.3 / (1 + a) (1.3 is used  because lnkon first has to be extrapolated to I = 0; see equation 1;  ref.
+16).
+Here  depends on the chosen ionic strength.
+Thus, the rate  of association of a mutant complex at any salt concentration is calculated from:  1nk = (U  U ) / 0.9 + 1nk on (I = 0.022) (mut) wt mut on (wt)  U = U  U  U complex protein1 protein2  U = 1  2   i, j   q qi j   4 r 0 ij  e k(r  a) ij   1 + a  1nk = 1nk  ( ) on RT  U on  0 1  1 + a  Table 1 Experimental and calculated binding data of TEM1 wild type and BLIP mutants  BLIP mutations Mutant Urea1/2 Calculated Experimental Rate increase koff (10-4) KD  name (M1) kon (105) kon (105) (fold) (s-1) 4 (nM) 5  (M-1 s-1) 2 (M-1 s-1) 3  Wild type Wild type 3.4 2.2 2.2 2.8 1.25  T32K T32K 2.5 3.4 1.6 6 1.75  V93K V93K 3.2 5.4 2.5 3 0.56  T140K T140K 5.0 5.4 2.5 6.6 1.22  N89K N89K 3.2 6.2 2.8 3.6 0.58  D163A D163A 10 18 8.2 2.4 0.13  D163K D163K 3.0 43 50 23 2.2 0.044  T140K,Q157K T140K,Q157K 7.0 10.5 4.8 6.7 0.64  V165K,D163K,N89K (+4) 3.0 130 123 56 2.7 0.022  D163K,D135K,V134K (+5) 2.9 200 331 150 2.4 0.0072  V165K,D163K,D135K,N89K (+6) 470 530 240 2.3 0.0043  1Values of Urea1/2 were determined from urea denaturation curves between 0 and 8 M. 2kon was calculated for an ionic strength of I = 0.022 M (see Methods).
+3Values of kon were measured in a stopped-flow fluorimeter with 25 mM Tris-HCl pH 7.2 at 25 C.
+Proteins were mixed either in second order conditions with the concentrations of TEM1 and BLIP equal3, or using pseudo-first order conditions with TEM1 in at least five-fold excess over BLIP19; both  conditions gave the same rate constants.
+The standard deviation () for kon is  10%.
+Values are averaged from at least three measurements.
+4Values of koff were obtained using SPR detection on a BIAcore as described19 with TEM1 immobilized to the sensor chip while monitoring the binding of BLIP and its mutants (HBS, 25 C).
+The standard deviation for koff is  8%. 5KD was calculated from KD = kd / ka.
+The standard deviation for KD is  13%.
+   2000 Nature America Inc.  http://structbio.nature.com   2000 Nature America Inc.  http://structbio.nature.comletters  (5)  Coordinates for calculations of the rate of association of the  TEM1BLIP complex were taken from its X-ray crystal structure17.
+  Coordinates for the individual proteins were taken from the structure of the complex.
+Missing residues as well as mutations were  modeled using the Swiss PDBViewer22.
+  Mutagenesis and protein production.
+Site directed mutagenesis  and the expression and purification of BLIP, TEM1 and their mutants  were as described19.
+Mutant plasmids were identified by direct  sequencing.
+  Determination of [urea]1/2 of denaturation.
+Equilibrium denaturation of BLIP in urea was performed in 25 mM Tris-HCl, from 08.0  M urea, and monitored by the change in fluorescence intensity at  351 nm.
+Data were fit to a two-state unfolding transition curve23  from which values of [urea]1/2 were determined.
+  Binding measurements.
+Experimental values of kon were measured using stopped-flow fluorescence in either second order conditions with the concentrations of TEM1 and BLIP equal3, or using  pseudo-first order conditions with TEM1 in at least a five-fold excess  over BLIP19.
+Both conditions produced the same rate constants.
+koff  values were obtained using surface plasmon resonance (SPR) detection on a BIAcore as described19 with TEM1 immobilized to the sensor chip while monitoring the binding of BLIP and its mutants (HBS,  -10 mM Hepes, 3.4 mM EDTA, 150 mM NaCl 0.05% p20 pH 7.4 at  25 C).
+KD was calculated from KD = kd / ka.
+The average standard  deviations () are:  10% for kon measured on the stopped flow;   8% for koff measured on the BIAcore;  13% for KD.
+  The enzymatic activity of TEM1 was monitored by the rate of  degradation of PADAC (Calbiochem), a colored cephalosporin that  undergoes a blue shift upon hydrolysis by the enzyme20.
+  1nk = 1nk  on (mut) on (I = 0.022) (mut)  1.3  1 + a  nature structural biology  volume 7 number 7  july 2000 541  Acknowledgments  G.S. holds the Dewey David Stone and Harry Levine career development chair.
+  This research was supported by a research grant from the Crown endowment  fund for immunological research.
+We thank J. Sussman and A. Horovitz for their  critical reading of the manuscript.
+  Correspondence should be addressed to G.S. email: bcges@weizmann.ac.il  Received 18 February, 2000; accepted 30 May, 2000.
+  1. Shoup, D. & Szabo, A. Biophys.
+J. 40, 3339 (1982).
+  2.
+Berg, O.G. & von Hippel, P.H. Annu.
+Rev. Biophys. Biophys.
+Chem. 14, 131160  (1985).
+  3. Schreiber, G. & Fersht, A.R. Nature Struct.
+Biol. 3, 427431 (1996).
+  4. Shi, Y.Y. et al. Protein Eng.
+6, 289295 (1993).
+  5. Schreiber, G., Buckle, A.M. & Fersht, A.R. Structure. 2, 945951 (1994).
+  6. Lee, F.S., Auld, D.S. & Vallee, B.L. Biochemistry. 28, 219224 (1989).
+  7.
+Harel, M., Kleywegt, G.J., Ravelli, R.B., Silman, I. & Sussman, J.L. Structure. 3,  13551366 (1995).
+  8.
+Radic, Z., Kirchhoff, P.D., Quinn, D.M., McCammon, A. & Taylor, P. J. Biol. Chem.  37, 2326523277 (1997).
+  9.
+Getzoff, E.D. et al. Nature 358, 347351 (1992).
+  10. Davis, M.E., Madura, J.D., Luty, B.A. & McCammon, A.J. Comput.
+Phys. Commun.  62, 187197 (1991).
+  11. Kozack, U.E., dMello, M.J. & Subramanian, S. Biophys. J. 68, 807814 (1995).
+  12.
+Madura, J.D. et al. Comput. Phys.
+Commun. 91, 5795 (1995).
+  13.
+Gabdoulline, R.R. & Wade, R.C. Biophys. J. 72, 19171929 (1997).
+  14. Zhou, H.X., Wong, K.Y. & Vijayakumar, M. Proc.
+Natl. Acad. Sci. USA 94,  1237212377 (1997).
+  15. Vijayakumar, M., et al. J. Mol.
+Biol. 278, 10151024 (1998).
+  16. Selzer, T. & Schreiber, G. J. Mol.
+Biol. 287, 409419 (1999).
+  17. Strynadka, N.C.J., Jensen, S.E., Alzari, P.M. & James, M.N. Nature Struct.
+Biol. 3,  290297 (1996).
+  18.
+Strynadka, N.C.J. et al. Nature. 368, 657660 (1994).
+  19. Albeck, S. & Schreiber, G. Biochemistry.
+38, 1121 (1999).
+  20. Gilson, M.K. & Honig, B.A. Nature 330, 184186 (1987).
+  21. Schindler, P. & Huber G. In Enzyme inhibitors.
+(ed. Brodbeck, U.) 169176 (Verlag  Chemie, Weinheim; 1980).
+  22. Guex, N. & Peitsch, M.C. Electrophoresis 18, 27142723 (1997).
+  23. Schreiber, G. & Fersht, A.R. Biochemistry 32, 1119511203 (1993b).
+  24.
+Stone, R.S., Dennis, S. & Hofsteenge, J. Biochemistry 28, 68576863 (1989).
+  25.
+Nicholls, A. GRASP: graphical representation and analysis of surface properties  (Columbia University, New York; 1992).
+   2000 Nature America Inc.  http://structbio.nature.com   2000 Nature America Inc.  http://structbio.nature.com

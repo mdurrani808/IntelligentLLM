@@ -1,0 +1,469 @@
+Selection and Analysis of an Optimized Anti-VEGF  Antibody: Crystal Structure of an Affinity-matured Fab  in Complex with Antigen  Yvonne Chen1  , Christian Wiesmann1  , Germaine Fuh1  , Bing Li1  ,  Hans W. Christinger1  , Patrick McKay2  , Abraham M. de Vos1  and Henry B. Lowman1  *  1  Department of Protein  Engineering, Genentech, Inc.  1 DNA Way, South San  Francisco, CA 94080, USA  2  Department of Process  Sciences, Genentech, Inc.  1 DNA Way, South San  Francisco, CA 94080, USA  The Fab portion of a humanized antibody (Fab-12; IgG form known as  rhuMAb VEGF) to vascular endothelial growth factor (VEGF) has been  afnity-matured through complementarity-determining region (CDR)  mutation, followed by afnity selection using monovalent phage display.
+  After stringent binding selections at 37 C, with dissociation (off-rate)  selection periods of several days, high afnity variants were isolated  from CDR-H1, H2, and H3 libraries.
+Mutations were combined to obtain  cumulatively tighter-binding variants.
+The nal variant identied here,  Y0317, contained six mutations from the parental antibody.
+In vitro cellbased assays show that four mutations yielded an improvement of about  100-fold in potency for inhibition of VEGF-dependent cell proliferation  by this variant, consistent with the equilibrium binding constant determined from kinetics experiments at 37 C. Using X-ray crystallography,  we determined a high-resolution structure of the complex between VEGF  and the afnity-matured Fab fragment.
+The overall features of the binding interface seen previously with wild-type are preserved, and many  contact residues are maintained in precise alignment in the superimposed  structures.
+However, locally, we see evidence for improved contacts  between antibody and antigen, and two mutations result in increased  van der Waals contact and improved hydrogen bonding.
+Site-directed  mutants conrm that the most favorable improvements as judged by  examination of the complex structure, in fact, have the greatest impact on  free energy of binding.
+In general, the nal antibody has improved af-  nity for several VEGF variants as compared with the parental antibody;  however, some contact residues on VEGF differ in their contribution to  the energetics of Fab binding.
+The results show that small changes even  in a large protein-protein binding interface can have signicant effects on  the energetics of interaction.
+  # 1999 Academic Press  Keywords: angiogenesis; humanized antibody-antigen complex; afnity  *Corresponding author maturation; phage display; X-ray crystallography  Introduction  Angiogenic factors (Folkman & Klagsbrun,  1987), which stimulate endothelial cells leading to  new vascularization, have roles in such disease  states as cancer, rheumatoid arthritis, and macular  degeneration (reviewed by Ferrara, 1995; Folkman,  1995; Iruela-Arispe & Dvorak, 1997).
+Vascular  endothelial growth factor (VEGF), a heparin-binding protein initially identied from pituitary cells  (Ferrara & Henzel, 1989), is clearly a key angioE-mail address of the corresponding author:  hbl@gene.com  Abbreviations used: CDR, complementaritydetermining region; FR, framework region; HuVEC,  human umbilical vein endothelial cell; Kd  25  , equilibrium  dissociation constant determined at 25 C; mAb, IgG  form of monoclonal antibody; PBS, phosphate-buffered  saline; SPR, surface plasmon resonance; VEGF, vascular  endothelial growth factor; VEGF(109), receptor-binding  fragment of VEGF with residues 8-109; VEGF(165),  VEGF form with residues 1-165.  Article No. jmbi.1999.3192 available online at http://www.idealibrary.com on J. Mol.
+Biol. (1999) 293, 865881  0022-2836/99/44086517 $30.00/0 # 1999 Academic Pressgenic factor in development as well as in certain  disease states, including the growth of solid tumors  (reviewed by Ferrara, 1999).
+A murine monoclonal  antibody, A.4.6.1, was found to block VEGFdependent cell proliferation in vitro and to  antagonize tumor growth in vivo (Kim et al., 1993).
+  The murine mAb was previously humanized in  Fab form to yield a variant known as Fab-12  (Presta et al., 1997).
+Both chimeric and humanized  antibodies retained high afnity binding to VEGF,  with an apparent equilibrium dissociation constant,  Kd  25   , of 0.9 to 3 nM (Presta et al., 1997; Baca et al.,  1997; Muller et al., 1998a).
+The corresponding fulllength IgG form of this antibody, rhumAb VEGF,  is being developed as a possible therapeutic agent  for the treatment of human solid tumors (Mordenti  et al., 1999).
+  We became interested in obtaining higher af-  nity variants of Fab-12 in order to test whether af-  nity improvements of this antibody might improve  its potency and efcacy.
+Phage display of randomized libraries of antibodies and other proteins has  been extensively used to engineer proteins with  improved afnity and specicity (Lowman et al.,  1991; reviewed by Kay & Hoess, 1996; Rader &  Barbas, 1997; Grifths & Duncan, 1998).
+In particular, a phage-based in vitro afnity maturation process has been successful in improving the binding  afnity of antibodies previously identied from  traditional monoclonal or naive-library sources  (e.g. Hawkins et al., 1992;
+Marks et al., 1992; Barbas  et al., 1994; Yang et al., 1995; Schier et al., 1996;  Thompson et al., 1996).
+  In previous work, the humanized anti-VEGF  antibody Fab-12 was adapted for improved monovalent phage display through selection of a CDRL1 variant, designated Y0192 (Muller et al., 1998a).
+  To select target residues for randomization and  afnity optimization, we also previously screened  all CDR residues, as dened by a combination of  the hypervariable (Kabat et al., 1987) and structurally dened (Chothia & Lesk, 1987) CDR residues.
+  Fab variants of Y0192 generated by alanine scanning were analyzed for side-chain contributions to  antigen binding (Muller et al., 1998a).
+In addition, a  crystal structure of Fab-12 in complex with the  receptor-binding domain of VEGF, VEGF(109), was  determined (Muller et al., 1998a).
+The results of  these studies showed that the antigen binding site  is almost entirely composed of residues from the  heavy chain CDRs, CDR-H1, H2, and H3.
+Therefore, these CDRs appeared most likely to provide  the opportunity for improved binding interactions  with antigen.
+  Here, we describe the selection of an afnityimproved anti-VEGF antibody by phage display  and off-rate selection.
+We show that the afnitymatured antibody binds VEGF with at least 20-fold  improved afnity and inhibits VEGF-induced cell  proliferation with enhanced potency in a cell-based  assay.
+We also report the crystal structure of an  afnity-optimized antibody in complex with  VEGF, to our knowledge, representing the rst  reported structure of an in vitro afnity-matured  antibody:antigen complex.
+The structure, together  with mutational analysis, shows that subtle  changes in the antibody-antigen interface account  for improved afnity.
+  Results  Library design  We used the results of an alanine-scanning analysis, combined with a crystal structure of the wildtype Fab fragment in complex with VEGF (Muller  et al., 1998a), to design targeted libraries within the  antibody CDRs for random mutagenesis and af-  nity selection.
+This strategy enabled us to construct  theoretically complete libraries with a small number of residues randomized in each CDR.
+Although  sites remote from the antigen-combining region or  buried within the protein could modulate antigen  binding afnity indirectly and have in fact been  exploited for afnity improvement (Hawkins et al.,  1993), clearly residues shown to be important by  alanine scanning are useful starting points for  binding-afnity optimization (Lowman et al., 1991;  Lowman & Wells, 1993).
+Furthermore, we  reasoned that by making mutations at residues of  the antibody CDRs which were known to affect  antigen binding and were located at or near points  of contact in the bound complex, we could minimize the possibility of other indirect effects which  might alter stability, immunogenicity, or other  properties of the antibody.
+  Both Ala-scanning and crystallography (Muller  et al., 1998a) identied CDR-H3 as the predominant contact segment for VEGF, consistent with the  general observation that CDR-H3 is often key to  antigen binding (Chothia & Lesk, 1987).
+Within  CDR-H3, residues Y95, P96, H97, Y98, Y99, S100b,  H100c, W100d, Y100e, and F100f (numbering is as  described by Kabat et al. (1987)), all showed effects  on binding over a range of twofold to >150-fold  when mutated to Ala, and Ala substitution at  S100a caused a slight improvement in binding.
+  However, H100c, Y100e, and F100f were found to  have little or no direct contact with VEGF and presumed to have indirect effects on binding.
+On the  other hand, Y95 and W100d have signicant contacts with VEGF, and Ala substitutions resulted in  no detectable binding to VEGF.
+Therefore, these  residues were excluded from optimization.
+Inspection of the complex structure suggested that substitutions at P96 and Y98 could be disruptive to the  antibody structure, while G100, where Ala  mutation had little effect, might tolerate further  substitutions.
+We therefore constructed a library  (YC81) which fully randomized positions H97,  Y99, G100, S100a, and S100b, within CDR-H3.
+  Signicant effects of Ala substitution were also  found in CDR-H2.
+Here, W50, I51, N52, T52a, Y53,  T54, T58 alanine mutants all showed >twofold loss  in binding afnity, with the greatest residue surface area buried at positions W50, I51, Y53, and  866 Structure-function of an Optimized VEGF AntibodyT58 (Muller et al., 1998a).
+Indeed, W50 along with  other aromatic side-chains was observed to form a  deep pocket into which a loop of VEGF inserts in  the complex, and was excluded from further  optimization.
+Residue I51, on the other hand,  showed no direct contact with VEGF and was also  excluded.
+Residue T58 had multiple interactions  within the interface, including contacts with VEGF  and with the critical W50 of the CDR pocket.
+  Although E56 showed no contact with VEGF and  little effect (<twofold) upon alanine substitution,  its side-chain lies at the periphery of the interface,  near several hydrophobic residues of VEGF.
+We  reasoned that these might be exploited for  additional binding interactions.
+Two CDR-H2  libraries were constructed: YC266, randomizing  positions T52a, Y53, T54, and E56; and YC103, randomizing positions N52, T52a, Y53, and T54.
+  In CDR-H1 G26, Y27, F29, N31, Y32, G33, M34,  and N35 were implicated by alanine mutagenesis  as important for binding VEGF; however, only  N31, Y32, and G33 had signicant direct contacts  with VEGF.
+Since Ala substitution of G33 showed  reduced binding, larger side-chains seemed less  desirable; for this reason, this position was not randomized.
+Residues 27 (buried in the antibody  structure) and T28 and T30 (which are mutually  contacting) were included at the end of the H1  loop as possible indirect determinants of binding.
+  Residues 27, 28, and 30-32 were randomized in a  library designated YC265.
+  Framework residues, especially heavy chain residues 71 and 93, normally outside the region of contact with antigen, have also been found to affect  antibody binding afnity (Tramontano et al., 1990;  Foote & Winter, 1992; Hawkins et al., 1993; Xiang  et al., 1995), and sometimes participate in antigen  contacts (reviewed by Nezlin, 1998).
+Therefore, an  additional region of the anti-VEGF Fab, within FRH3 and including position 71, was also targeted for  randomization.
+Since the residue 71-76 region has  contacts with CDR-H1 (at F29) and CDR-H2 (at I51  and T52a), these represented potential sites for af-  nity improvement through secondary effects on the  interface residues.
+Residues L71, T73, and S76 were  randomized in this FR-H3 library.
+  Phage selections  Fab libraries were constructed using a fusion to  the g3p minor coat protein in a monovalent phage  display (phagemid) vector (Bass et al., 1990;  Lowman et al., 1991).
+For each library, stop codons  were introduced by mutagenesis into the Y0192  phage template (Muller et al., 1998a) at each residue position to be randomized.
+Each stop-codon  construct was then used for construction of a fully  randomized (using NNS codons) library as  described in Materials and Methods.
+Phage were  precipitated from overnight Escherichia coli shake-  ask cultures and applied to VEGF-coated immunosorbant plates for binding selections.
+Cycles of  selection followed by amplication were carried  out essentially as described (Lowman, 1998).
+  We used an off-rate selection process (see  Materials and Methods) similar to previously  described procedures (Hawkins et al., 1992; Yang  et al., 1995), modied by gradually increasing the  selective pressure for binding to antigen during  successive cycles of enrichment.
+The enrichment  factor (ratio of displaying phage to non-displaying  phage eluted versus applied) was used to monitor  the stringency of selection at each step (Table 1).
+  As a control, and to obtain a relative measure of  afnity improvement, Y0192-phage were subjected  to the same procedure at each cycle.
+  Fab-phage clones were sequenced from several  phage-binding selection rounds that showed  enrichment for Fab-phage over non-displaying  phage.
+From round 6 of the CDR-H1 library selections, a dominant clone, Y0243-1 was found, having wild-type residues at Y27, T30, and Y32, and  substitutions T28D and N31H (Table 2).
+Additional  clones had related sequences, with N31H found in  all selectants; Asp or Glu substituting for T28; and  Thr, Ser, Gln, or Gly found at position T30.
+  Table 1.
+Enrichment factors from phage-displayed Fab libraries  Round  Wash time  (hours)  CDR-H1  YC265  CDR-H2  YC266  CDR-H2  YC103  CDR-H3  YC81  FR-H3  YC101  Control  Y0192  1 0 8.2 1.7 1.3 3.3 4 1.5  2 1 1.6 25 0.7 10 110 90  3 2 340 880 100 570 2300 22000  4 18 6800 880 5200 3700 600 2700  5 37a 210 900 920 1300 480 32  6 47a 130 80 100 3500 30 20  7 63a 1 1 >3 >25 1 >8  Libraries are designated by CDR region and oligonucleotide label (see the text for details).
+Library Fab-phage (ampicillin-resistant)  were mixed with non-displaying control phage (chloramphenicol-resistant) in each starting pool, and subjected to VEGF binding  selection, washing, and elution as described in the text.
+  The enrichment factor for each library is reported here as the ratio of Amp/Cam colony-forming units in the eluted pool, divided  by the ratio of Amp/Cam colony-forming units in the starting pool.
+Starting phage concentrations were about 1012/ml, except  1013/ml in round 1.
+The wild-type Fab-phage, Y0192 was included at each round for comparison of enrichment under the particular  conditions used.
+a In some cases, the wash-step included incubation at 37 C.  Structure-function of an Optimized VEGF Antibody 867Clones from two independently constructed  CDR-H2 libraries were remarkable in that all  sequenced library clones conserved wild-type residues at virtually all positions mutated, except at  position Y53, where all clones contained a Trp substitution (Table 3).
+  Because of the strong enrichment observed from  the CDR-H3 library, a number of clones were  sequenced from rounds 5 and 7 (Table 4).
+Of 39  sequenced clones, 37 retained the wild-type residue  S100b, and all contained the mutation H97Y.
+The  remaining positions showed greater diversity, even  after seven cycles of selection.
+The dominant clone  at round 7, Y0238-3, contained the mutation  S100aT (in addition to H97Y), with wild-type residues Y99 and G100.
+Other substitutions observed  included Lys or Arg for Y99 (in 18 of 39 clones),  G100N (11 of 39 clones), and a variety of substitutions including Arg, Glu, Gln, and Asn at S100a.
+  In this library, the consensus sequence is represented by the dominant clone, Y0238-1 (Table 4).
+  Clones from round 6 of the FR-H3 library  (Table 5) showed conservation of wild-type residue  S76, with wild-type residues or various substitutions at the remaining positions: Val or Ile substituting for L71, and Val or Lys substitutions at T73.
+  Binding affinity of selected variants  For measurements of binding afnity, we made  use of an amber stop codon placed between the  genes for the Fab heavy chain and the g3p C-terminal domain, and expressed soluble Fab variants  from E. coli shake-ask or fermentation cultures.
+  Fab variants puried from protein-G afnity chromatography were characterized for binding afnity  using an SPR-based assay on a BIAcoreTM-2000  instrument.
+The binding-kinetics assay has been  described (Muller et al., 1998a).
+  Association kinetics (kon) for the wild-type antibody binding to immobilized VEGF are slow  (Presta et al., 1997; Baca et al., 1997; Muller et al.,  1998a), and none of the variants tested had signi-  cantly improved on-rates.
+On the other hand, dissociation kinetics varied over a range of 104 s1  to 44  106 s1 at 25 C (Table 6).
+Based on  measurements of instrumental drift, we could not  accurately measure koff (and consequently Kd)  Table 2.
+Anti-VEGF Fab variants selected from a CDR-H1 library (HL-265)  Variant n Y 27 T 28 T 30 N 31 Y 32 I 34a  Kd(Y0192)/  Kd(variant)  Round 6 (HCl)  Y0243-1 5 Y D T H Y M 3.1  Y0243-2 1 Y E Q H Y M  Y0243-3 1 Y E T H Y M  Y0243-4 1 Y D G H Y M  Y0243-5 1 Y D S H Y M  Y0243-6 1 Y E S H Y M  Consensus: Y D T H Y M 3.1  All variants are in the background of Y0192 (Muller et al., 1998a).
+n indicates the number of clones found with identical DNA  sequence.
+The wild-type (Y0192) residue is shown at the top of each column, and the sequence position number is indicated according to Kabat et al. (1987).
+a Position 34 was not randomized, but was changed to Met (as in Fab-12) in this library.
+The consensus reported here, equivalent  to clone Y0243-1, represents the most abundant amino acid residue at each position (including clones with multiple representation  (n > 1)).
+Kd(Y0192)/Kd (variant) indicates the fold increase in binding afnity versus the wild-type humanized antibody Y0192 (see  Table 6).
+  Table 3.
+Anti-VEGF Fab variants selected from CDR-H2 libraries (HL-266, YC103)  Variant n N 52a T 52a Y 53 T 54 G 55a,b E 56a  Kd(Y0192)/  Kd(variant)  Round 6 (HCl)  HL266-Ab 6 N T W T G E 1.3  HL266-E 1 N T W T G T  HL266-I 1 N T W T G Q  YC103-Ab 7 N T W T G E 1.3  YC103-C 1 N T W D G E  Consensus N T W T G E 1.3  All variants are in the background of Y0192 (Muller et al., 1998a).
+n indicates the number of clones found with identical DNA  sequence.
+The wild-type (Y0192) residue is shown at the top of each column, and the sequence position number is indicated according to Kabat et al. (1987).
+The consensus reported here, equivalent to clones HL266A and YC103A, represents the most abundant  amino acid at each position (including clones with multiple representation; i.e. n > 1).
+Kd(Y0192)/Kd(variant) indicates the fold  increase in binding afnity versus the wild-type humanized antibody Y0192 (see Table 6).
+a Constant positions were position 52 in the HL-266 library and position 56 in the YC103 library.
+  b Equivalent clones are assumed to have equal afnity.
+  868 Structure-function of an Optimized VEGF Antibodyunder these conditions, but instead used the kinetics data to place an upper limit on Kd.
+  The phage-derived Fab variants tested showed a  range of small (within experimental error of about  twofold) to signicant (>vefold) improvements in  binding afnity over the wild-type (parental  phage) antibody Y0192 (Table 6).
+From the CDRH1 library, the dominant clone (Y0243-1) showed  threefold improved afnity.
+Variant Y0242-1, the  dominant clone in each of three CDR-H2 libraries,  showed an afnity equivalent to wild-type within  experimental error, and two clones derived from  the FR-H3 library (Y0244-1 and Y0244-4) were  equivalent or slightly weaker in afnity.
+Small  Table 4.
+Anti-VEGF Fab variants selected from a CDR-H3 library (YC81)  Variant n H 97 Y 99 G 100 S 100a S 100b  Kd(Y0192)/  Kd(variant)  Round 5 (VEGF)  Y0228-21 1 Y R N A S  Y0228-22 1 Y T T R S  Y0228-23 1 Y E G S S  Y0228-24 1 Y R Q R G  Y0228-26 1 Y T G R S  Y0228-27 1 Y T N T S  Y0228-28 1 Y R K G S  Y0228-29 1 Y T G S S  Y0228-30 1 Y R S G S  Round 5 (HCl)  Y0229-20 1 Y T N R S  Y0229-21 1 Y R N S S  Y0229-22 1 Y K E S S  Y0229-23 1 Y R D A S  Y0229-24 1 Y R Q K G  Y0229-25 1 Y K G G S  Y0229-26 1 Y Y G A S  Y0229-27 1 Y R G E S  Y0229-28 1 Y R S T S  Y0238-10a 1 Y R N T S 3.8  Round 7 (HCl)  Y0238-3 6 Y Y G T S 59.4  Y0238-1 2 Y R G T S 7.3  Y0238-2 2 Y I N K S  Y0238-10a 2 Y R N T S 3.8  Y0238-4 1 Y Y N Q S  Y0238-5 1 Y I A K S 2.1  Y0238-6 1 Y R D N S 55.4  Y0238-7 1 Y W G T S  Y0238-8 1 Y R Q N S  Y0238-9 1 Y R Q S S  Y0238-11 1 Y K N T S  Y0238-12 1 Y I E R S  Consensus Y R G T S 7.3  All variants are in the background of Y0192 (Muller et al., 1998a).
+The clones are grouped according to the round of selection (5 or  7) and the type of elution (VEGF competition or HCl elution) used for recovery of bound phage.
+n, indicates the number of clones  found with identical DNA sequence within each group.
+The wild-type (Fab-12, or Y0192) residue is shown at the top of each column, and the sequence position number is indicated according to Kabat et al. (1987).
+The consensus reported here, equivalent to  clone Y0238-1, represents the most abundant amino acid at each position (including clones with multiple representation (n > 1)).
+  Kd(Y0192)/Kd(variant) indicates the fold increase in binding afnity versus the wild-type humanized antibody Y0192 (see Table 6).
+a One clone was identied at both rounds 5 and 7.
+Equivalent clones are assumed to have equal afnity.
+  Table 5.
+Anti-VEGF Fab variants selected from a FR-H3 library  Variant n L 71 T 73 S 76 Kd(Y0192)/Kd(variant)  Round 6 (HCl)  Y0244-1 1 V V S 0.3  Y0244-2 1 L K S  Y0244-3a 1 L V S  Y0244-4 1 I K S 0.9  All variants are in the background of Y0192 (Muller et al., 1998a).
+n, indicates the number of clones found with identical DNA  sequence.
+The wild-type (Fab-12, or Y0192) residue is shown at the top of each column, and the sequence position number is indicated according to Kabat et al. (1987).
+Kd(Y0192)/Kd(variant) indicates the fold increase in binding afnity versus the wild-type  humanized antibody Y0192 (see Table 6).
+a One variant contained a spontaneous mutations, S74W.
+  Structure-function of an Optimized VEGF Antibody 869improvements were seen in CDR-H3 variants  Y0238-5 and Y0238-10.
+However, larger improvements (exceeding the limits of measurement (>vefold to >ninefold)) were observed for the CDR-H3  variants Y0238-1, Y0238-3, and Y0238-7.
+  All tested variants (in fact all sequenced clones)  from the CDR-H3 library contained the mutation  H97Y.
+In the higher afnity group, Gly was conserved at position 100, while the lower afnity variant contained Ala (known to cause 1.8-fold  reduction in Y0192 binding; Muller et al., 1998a) or  Asn (Table 4).
+The S100a position, while quite varied among sequenced clones, was changed to Thr  in the higher afnity CDR-H3 variants, and Thr or  Lys in the lower afnity ones.
+Substitutions at Y99,  though mostly conned to basic or aromatic residues, apparently had little effect since Y0238-1  (representing the consensus CDR-H3 sequence  with Y99R) was not signicantly different in af-  nity from Y0238-3, which retained Y99.
+  Affinity improvements from combinations of  CDR mutations  To improve afnity further, several combinations  of the phage-selected CDR-H1, H2, and H3  mutations were made by site-directed mutagenesis  (Table 7).
+Among these, the highest afnity was  obtained with pY0313-1 (i.e. pY0192 with  mutations CDR-H1 (T28D/N31H/I34M) and CDRH3 (H97Y/S100aT); note I34M is a reversion to  Fab-12 wild-type).
+From BIAcoreTM kinetics  measurements carried out at 25 C, this Fab variant  had 520-fold higher afnity than Y0192 (Table 6).
+  Addition of the Y53W mutation, which alone  produced little or no improvement over Y0192, to  Y0313-1 (producing variant Y0268-1) actually  reduced binding afnity by >twofold (Table 6).
+  The nal Fab version was constructed by removing the phage-expression enhancing mutations in  CDR-L1 from pY0313-1 by site-directed mutagenTable 6.
+Binding kinetics of anti-VEGF Fab variants at 25 C  Variant kon/104 (M1 s1  ) koff/104 (s1  ) Kd (nM) Kd(Y0192)/Kd(variant)  Y0192a 4.1 1.2 2.9 1  A. Library-derived  Y0238-1 2.6 0.09 0.4 7.3  Y0238-3 1.3 40.04b 40.3b 59.4b  Y0238-5 0.57 0.08 1.4 2.1  Y0238-7 1.1 40.06b 40.5b 55.4b  Y0238-10 1.2 0.09 0.8 3.8  Y0242-1 3.8 0.86 2.3 1.3  Y0243-1 4.8 0.45 0.9 3.1  Y0244-1 3.0 2.7 9.0 0.3  Y0244-4 5.2 1.7 3.3 0.9  B. Engineered  Y0268-1 4.0 0.15 0.38 7.6  Y0313-1 3.5 40.05b 40.15b 520b  Y0192(T28D) 6.8 1.4 2.0 1.4  Y0192(N31H) 4.8 0.37 0.8 3.6  Y0192(H97Y) 2.5 0.045 0.2 14  Y0192(S100aT) 6.8 1.0 1.5 1.9  Y0317 3.6 40.05b 40.14b 520b  Kinetic constants were determined from measurements using a BIAcoreTM-2000 instrument with a biosensor chip containing  immobilized VEGF(109).
+Measurements were performed at 25 C. Fab concentrations were calculated from quantitative amino acid  analysis.
+The equilibrium dissociation constant, Kd, is calculated form the ratio of the rate constants, koff/kon.
+The relative afnity,  reported as Kd(Y0192)/Kd(variant) indicates the fold increase in binding afnity versus the wild-type humanized antibody Y0192.
+  Errors in Kd were approximately 25 %.
+Variant Y0242-1 corresponds to the point mutations Y53W in CDR-H2 of Fab Y0192; for  descriptions of the other variants, see Tables 2, 3, 4, 5, and 8. a Data for Y0192 is from Muller et al. (1998a,).
+b In some cases, the dissociation rate constant observed was at or near the limit of detection; therefore, the reported koff and Kd  are upper limits, and the relative afnities are an upper limit.
+  Table 7.
+Anti-VEGF CDR combination variants  CDR-L1 CDR-H1 CDR-H2 CDR-H3  Y0192:  Variant R 24 N 26 E 27 Q 28 L 29 T 28 N 31 I 34 Y 53 H 97 S 100a  Y0313-1 - - - - - DHM - Y T  Y0268-1 - - - - - D HMWY T  Y0317 S S Q D I D H M - Y T  Fab-12 S S Q D I ------  Substitutions are shown relative to Y0192.
+Fab-12 also contains T221 in the heavy chain.
+Dashes (-) indicate no substitution.
+Numbering is according to Kabat et al. (1987) for both the light chain (CDR-L1) and heavy chain (CDR-H1, H2, H3).
+  870 Structure-function of an Optimized VEGF Antibodyesis.
+The M4L substitution was identied during  phage-humanization experiments (Baca et al.,  1997), and the Leu residue was retained so as to  preclude possible oxidation of the Met side-chain.
+  The rst libraries were constructed from a Fab-12  phagemid derivative, pY0101, which contained a  buried framework mutation, VL(M4L), as well as a  mutation (T221L) at the junction to g3p.
+Thus the  nal version, Y0317 (Table 7 and Figure 1) differs  from Fab-12 by the following six mutations:  VL(M4L), VH(T28D/N31H/H97Y/S100aT/T221L).
+  Each of the CDR mutations in H1 and H3 was  tested for its effect on VEGF binding afnity by  introducing the corresponding point mutation into  the parental Y0192 Fab and measuring binding kinetics.
+The results (Table 6) show a 14-fold and 3.6-  fold improvement with substitution of H97Y or  N31H, respectively, into the parental Fab.
+However, T28D or S100aT had identical afnity to  Y0192, within experimental error.
+  We compared Fab-12 and Y0317 Fab afnities in  a solution binding assay, using VEGF competition  with [125I]VEGF for binding to Fab.
+The results  showed Fab-12 having Kd  25    433 pM and Y0317  Fab having Kd  25    20 pM, a 22-fold improvement  in binding afnity (Figure 2).
+  Because dissociation kinetics in surface plasmon  resonance (SPR) experiments exceeded instrumental capabilities at 25 C, and in order to assess binding afnity under more physiological conditions,  we compared binding afnities of the original  humanized antibody Fab-12 with the nal variant  Y0317 in kinetics experiments at 37 C. kon and koff  were faster for both antibodies than at 25 C, and  koff was clearly measurable above background.
+  Using either immobilized VEGF(109) or immobilized VEGF(165), Y0317 was 120-fold to 140-fold  improved in afnity over Fab-12, with a Kd  37   of 80-  190 pM (Table 8).
+  VEGF Ala-scan of the Y0317 binding epitope  In order to understand how mutations in the  Fab affected binding afnity to VEGF, we also  tested VEGF variants for binding to the afnityimproved antibody.
+For these experiments, we  made use of the full-length IgG forms of Fab-12  (known as rhuMab VEGF) and Y0317 (termed  Y0317-IgG) produced in CHO cells (V. Chisholm,  unpublished results).
+These VEGF variants were
+  previously used for mapping the parental antibody's binding site on VEGF (Muller et al., 1998a).
+  In this assay, carried out at 37 C, VEGF competed with biotin-VEGF with an IC50 of 9 nM in  binding rhuMab VEGF, compared with an IC50 of  1 nM for Y0317-IgG (Table 9).
+SPR measurements  have shown similar afnity improvement of  Y0317-IgG over rhuMAb VEGF (H. Lowman,  unpublished results).
+  Alanine mutations of VEGF that affected rhuMab VEGF binding also affected Y0317-IgG. For  example, M81A, G88A, and G92A all caused large  (100 to >500-fold) losses in binding afnity. And  smaller reductions (3 to 30-fold) in binding afnity  for both antibodies were seen for I80A, K84A,  I91A, E93A, and M94A.
+  However, signicant differences in the magnitude of the effect were observed at certain sites,  including Y45A, fourfold reduced in afnity for  rhuMAb VEGF versus 26-fold for Y0317-IgG;  Q89A, 19-fold versus sixfold; and M94A, 11-fold  versus 25-fold.
+Most surprisingly, two mutations  that led to loss of detectable binding afnity for  rhumAb VEGF (>500-fold) had only modest effects  (four- to ninefold) on binding to Y0317-IgG. These  differences might suggest a shift in the binding epitope of the antibody, and this possibility was  addressed with receptor-inhibition assays and  structural analysis, both described below.
+  Inhibition of VEGF activity  Cell-proliferation assays have been described  (Fairbrother et al., 1998) for the measurement of  VEGF mitogenic activity on human umbilical vein  endothelial cells.
+Here, we compared the potency  of Fab-12 and the afnity-improved variants  
+Y0238-3 and Y0313-1.
+  The results (Figure 3) show both variants Y0238-  3 and Y0313-1 inhibit VEGF activity more potently  than Y0192 Fab.
+Comparing the Fab forms, variant  Y0313-1 appeared at least 30-fold to 100-fold more  potent than the wild-type Fab.
+In additional experiments, Y0317 activity was similar to that of Y0313-  1 (data not shown).
+It should be noted that the  amount of VEGF (0.2 nM) used in this assay is  potentially limiting for determination of an accurate IC50 for the mutant.
+For example, if the bindTable 8.
+Binding kinetics of anti-VEGF Fab variants at 37 C  Variant Immobilized kon/104 (M1 s1  ) koff/104 (s1  ) Kd (nM)  Kd(Fab-12)/  Kd(variant)  Fab-12 VEGF(109) 5.1 6.6 13  2.2 1  Y0317 VEGF(109) 5.4 0.059 0.11  0.02 120  Fab-12 VEGF(165) 5.5 11 20  3.8 1  Y0317 VEGF(165) 5.3 0.074 0.14  0.05 140  Kinetic constants were determined by injecting Fab solutions onto a BIAcoreTM-2000 instrument with a biosensor chip containing  approximately 190 RU of immobilized VEGF(109) or VEGF(165), as indicated.
+The equilibrium dissociation constant, Kd, is calculated  from the ratio of the rate constants, koff/kon.
+The relative afnity, reported as Kd(Fab-12)/Kd(variant) indicates the fold increase in  binding afnity versus the original humanized antibody (Fab-12; Presta et al., 1997) under the specied conditions.
+  Structure-function of an Optimized VEGF Antibody 871ing afnity (Kd) of the mutant is in fact <0.2 nM,  then the IC50 in this experiment will appear higher  than under conditions of lower VEGF concentration.
+The result therefore supports the conclusion that the afnity-improved variant is at least  30-fold improved in afnity for VEGF, and that it  effectively blocks VEGF activity in vitro.
+  Structure of the complex  In order to compare the structure and binding  site of the afnity-improved antibody with that of  the parental antibody, we determined the complex  structure by X-ray crystallography.
+Crystals of the  complex between the receptor binding domain of  VEGF (residues 8 to 109) and the afnity-matured  Fab Y0317 were grown as described (see Materials  and Methods) and diffracted to a maximum resolution of 2.4 A .
+The structure was rened starting  from the coordinates of the complex between  VEGF and the parent of Fab Y0317, Fab-12 (Muller  et al., 1998a), and rened to an R-value of 19.9 %  (Rfree  27.4 %) for the reections between 20 A  and 2.4 A resolution.
+  Figure 1 (legend shown opposite)  872 Structure-function of an Optimized VEGF AntibodyThe nal model consists of two Fab fragments  bound to the symmetrical poles of the VEGF  dimer.
+Only residues 14-107 of each VEGF monomer are well dened in the electron density, and  therefore the six N-terminal and the two C-terminal residues of each monomer were omitted from  the model.
+Each Fab light chain comprises residues  1 to 213, with the C-terminal residue disordered,  whereas for each heavy chain residues 138 to 143  as well as the six C-terminal residues are absent  from the model.
+As in the parental Fab complex,  two out of 1050 residues, namely T51 in the VL  chain of each Fab fragment, are located in the ``disallowed regions'' (Laskowski et al., 1993) of the  Ramachandran plot; 85 % of all residues have their  main-chain torsion angles in the ``most favored''  Figure 1.
+Sequence alignment of the original humanized antibody (Fab-12; Presta et al., 1997), the phage-displayed  antibody (Y0192; Muller et al., 1998a) and the afnity-improved antibody (Y0317).
+Sequential numbering of each  chain is shown above the sequences; numbering according to Kabat et al. (1987) is shown below.
+CDR regions are  underlined.
+Positions at which Y0317 differs from Fab-12 are indicated with double underlining.
+  Structure-function of an Optimized VEGF Antibody 873regions.
+The average B-factor of the model is  51.8 A 2 and the mobility of the individual domains  follows the pattern that was previously observed  in the crystal structure of VEGF in complex with  the Fab-12, with the constant domain dimer  (CL:CH1) of one of the Fabs poorly ordered (Muller  et al., 1998a).
+  Comparison of the nal model with that of the  parental Fab-VEGF complex (Muller et al., 1998a)  shows that the bound structures are very similar  overall (Figure 4(a)) with Y0317 binding to the  same site on VEGF as Fab-12 (Figure 4(b)).
+Sidechains show excellent overlap, and the main-chain  structures show very little difference.
+The most  prominent difference in contact residues is at H97Y  (Figure 4(c); discussed below), where the tyrosine  side-chain packs more favorably with VEGF and a  buried water molecule from the parental FabVEGF complex is absent in the Y0317-Fab-VEGF  complex.
+  Discussion  Antibody binding selections and  affinity improvement  Here we made use of results from alanine-scanning and the previous structure of a humanized  antibody-antigen complex to design Fab-phage  libraries that randomized the three heavy-chain  CDRs as well as one framework region (FR-H3) for  improving the binding afnity of an anti-VEGF  antibody.
+Afnity-improved Fab variants were  obtained, with the largest effects seen in variants  from the CDR-H3 library, although signicant  improvement was also obtained from mutation of  CDR-H1.
+We therefore combined two mutations  from H1 with two from H3, generating a further  improved variant, Y0317.
+By making point  mutations, we showed that the 20-fold (Figure 2)  Figure 2.
+Radiolabeled VEGF binding assay.
+[125I]VEGF was equilibrated (23 C) with serial dilutions of unlabeled  VEGF and (a) Fab-12 or (c) Y0317.
+Fabs were captured with an anti-Fab antibody-coated immunosorbant plate.
+  Scatchard analysis (Munson & Rodbard, 1980) with a 1:1 binding model was used to calculate Kd of (b) 433 (116)  pM for Fab-12 and (d) 19.8(4.3) pM for Y0317.
+  Figure 3.
+Human umbilical vein endothelial cell  (HuVEC) assay of VEGF inhibition.
+Cells were cultured  in the presence of 0.2 nM VEGF and serial dilutions  of Fab Y0192 (triangles), Y0238-3 (squares), or Y0313-1  (circles).
+Cell proliferation was measured by incorporation of [3  H]thymidine.
+Curves show four-parameter ts  to the data.
+Each point represents the mean of three  treated wells.
+  874 Structure-function of an Optimized VEGF Antibodyto >100-fold (Table 8) afnity improvement in  Y0317 can be attributed to two CDR mutations:  H97Y and N31H.
+In fact, H97Y alone improves  binding afnty 14-fold.
+  Despite the relatively slow kon and slow koff of  the parental antibody, binding selections described  here yielded slower dissociation rates and  improved equilibrium dissociation constants.
+  Results of SPR measurements demonstrated that  afnity is enhanced mainly through a slower dissociation rate (as opposed to faster association).
+  These results are consistent with the idea of offrate selection (Hawkins et al., 1992) and with the  progressively increased stringency in washing procedures used here (see Materials and Methods and  Table 1).
+Previous binding-optimization efforts  have also often yielded larger improvements in koff  than in kon (see Lowman & Wells, 1993; Yang et al.,  1995; Schier et al., 1996).
+This may suggest fundamental limitations to the improvements in kon for a  given binding site.
+Even if no conformational  changes need occur between free and bound states,  the on-rate is limited by the size of the binding  interface and the translational and rotational diffusion rates of the binding components (reviewed by  Delisi, 1983).
+  The association rate constants (kon) for both the  wild-type Y0192 and the nal Y0317 antibodies are  relatively slow (about 4  104 M1 s1 for both)  compared to other antibodies of equal or weaker  antigen binding afnity.
+In fact, the fastest kon  identied for any mutant was 6.8  104 M1 s1  (Table 6).
+Typically, kon for antibodies binding to  protein antigens, including afnity-matured antibodies, has fallen in the range of 3  104 to 1  106  M1 s1 (Karlsson et al., 1991; Malmborg et al.,  1992; Barbas et al., 1994; Yang et al., 1995; Schier  et al., 1996; Wu et al., 1998).
+In this particular protein-protein interaction, a likely explanation for the  slow kon is the high degree of exibility associated  with the binding site both on the Fab and on  VEGF.
+In fact, crystallographic evidence suggests  that the ``80's loop'' region is quite mobile (Muller  et al., 1997; Muller et al., 1998b).
+We are pursuing  other strategies to assess whether improvements to  kon can be obtained.
+  Table 9.
+Alanine scan of VEGF by ELISA at 37 C  IC50 (variant)/IC50 (VEGF)  VEGF(109) variant Fab12-IgG Y0317-IgG  VEGF(109) 1 1  F17A 1 1  Y21A 1 1  Y45A 4 26  K48A 2 1  Q79A 1 3  I80A 4 5  M81A >500 930  R82A >500 4  I83A >500 9  K84A 3 10  H86A 1 1  Q87A 1 1  G88A 105 87  Q89A 19 6  H90A 1 1  I91A 2 6  G92A >500 >900  E93A 4 7  M94A 11 25  ELISA assays were carried out using the full-length IgG form  of Fab-12 or the IgG form of Y0317 and VEGF(109).
+Incubation  of antibody with VEGF was at 37 C for ve hours.
+The IC50  for inhibition by each Ala mutant was evaluated using a fourparameter equation, and the relative afnities calculated as  IC50(mutant VEGF)/IC50(wild-type VEGF).
+Under these conditions, Fab12-IgG and Y0317-IgG showed IC50 values of 9 nM  and 1 nM, respectively.
+  Figure 4.
+Structure of the afnity-improved Y0317 Fab  in complex with VEGF.
+A superposition of the structure  (Muller et al., 1998a) of wild-type humanized antibody  Fab-12 (gray) in complex with VEGF (gray) is shown  with that of Fab Y0317 (green) in complex with VEGF  (yellow).
+(a) Overall view of the complex, including one  Fab molecule bound to one dimer of VEGF (a second  Fab molecule is bound at left in the crystal) shows that  the binding site for both antibody variants centers on  the ``80's loop'' of VEGF.
+(b) A view of the four CDR  changes between Fab-12 and Y0317 Fab shows that the  new D28 and T100a side-chains do not directly contact  antigen.
+However, H31 and Y97 form new contacts.
+  (c) Interactions of H97 and an associated, buried water  molecule in the Fab-12 complex, compared with those of  Y97 in the Y0317 complex.
+  Structure-function of an Optimized VEGF Antibody 875The contributions of point mutations in proteins  to the free energy of binding or activation are often  additive (Wells, 1990).
+This principle has been used  to produce a variety of afnity-improved protein  variants based on point or grouped mutations  identied by phage display (Lowman & Wells,  1993; Yang et al., 1995) or point-mutant screening  (Wu et al., 1998).
+Considering the initial library  selectants Y0238-3 (>ninefold improved in afnity)  and Y0243-1 (3.1-fold improved), we would have  predicted an improvement of >27-fold for Y0313-1  or Y0317 (Table 7).
+In fact, a 22-fold improvement  is observed (Figure 2) at 25 C. Addition of the  CDR-H1 mutation would be predicted to improve  afnity slightly (1.3-fold), but in fact this mutation  reduced afnity >twofold (Y0268-1 versus Y0313-1;  Table 6).
+Certainly additivity does not always  apply, particularly if interacting residues are  involved (Wells, 1990).
+In this case, non-additivity  probably results from steric interference between  the new Trp in CDR-H2 and the new Tyr in CDRH3.
+  To test the energetics of binding by the nal  Y0317 antibody to VEGF, we made use of a panel  of alanine mutants that had been previously constructed for mapping the binding site of the original antibody (Muller et al., 1998a).
+For these  experiments, we made use of the full-length IgG  forms of both antibodies.
+In view of the slow dissociation kinetics for both antibodies, ELISA assays  were carried out at 37 C with incubation for at  least ve hours to insure that equilibrium was  reached.
+Under these conditions two dramatic  differences appear in the Ala-scan of VEGF with  respect to Y0317 versus Fab-12: both R82A and  I83A have small effects on binding in Y0317, but  result in large decreases in binding for Fab-12.
+The  reasons for these differences are not clear, but R82  and I83 do have signicant surface area (55 A 2 and  32 A 2  , respectively) buried on binding to VEGF,  and make contacts that include residues S100a of  CDR-H3 and N52 of CDR-H2 in the wild-type  antibody (Muller et al., 1998a).
+  Structural analysis of the affinity-matured Fab  The structures of a number of antibodies derived  from in vivo immunization and hybridoma techniques have been determined, in complex with  their antigens (reviewed by Nezlin, 1998), and  recently, crystallization and preliminary X-ray studies of a chain-shufed anti-lysozyme scFv antibody in complex with antigen were reported  (Kuttner et al., 1998).
+However, to our knowledge,  the Y0317 Fab:VEGF structure is the rst report of  an in vitro afnity-matured Fab in complex with  antigen.
+The structural basis of binding afnity  improvement is therefore of interest  The Fab fragment of the afnity-matured antiVEGF antibody Y0317 preserves the structure of  the original humanized antibody, Fab-12.
+Superposition with Fab-12 results in an rmsd of only  0.38 A for a total of 431 Ca  -positions, demonstrating the absence of major structural changes  between the two molecules.
+With a total of 1800 A 2  of solvent-accessible surface buried in each VEGFFab interface, the contact area is about 50 A 2 larger  than in the Fab-12 complex.
+This small increase in  buried surface area is mostly due to the exchange  of H97 to a tyrosine residue.
+In the VEGF:Fab-12  complex, H97 buries a solvent-accessible area of  56 A 2  , while the larger tyrosine side-chain of the  matured antibody accounts for 86 A 2 of buried surface.
+The tyrosine side-chain also affects the hydrogen-bonding pattern and the number of ordered  water molecules in the vicinity.
+In the parental  antibody complex, a water molecule near H97  forms two hydrogen bonds to the side-chains of  Q79 and E93 of VEGF (Figure 4(c)).
+In the complex  with the afnity-matured Fab, this water molecule  is replaced by the hydroxyl group of the newly  introduced tyrosine side-chain at position 97.
+The  H97Y mutation therefore not only increases the  amount of buried surface area, but also introduces  two additional hydrogen bonds between the ligand  and Fab-0317 (Figure 4(c)).
+This is in good agreement with the observation that this single substitution improves VEGF binding afnity by 14-fold  (Table 6).
+We therefore conclude that this single  substiution is responsible for the majority of the  improvement in binding afnity of Y0317 compared to the parent antibody.
+  In contrast, despite the availability of the crystal  structures of both complexes, it remains uncertain  what the structural basis is of the 3.6-fold  enhanced binding caused by the N31H mutation.
+  The side-chains of the asparagine and the histidine  residues in this position adopt identical conformations in both crystal structures, and the amount  of buried surface is not signicantly increased in  the VEGF:Fab-Y0317 complex.
+The only difference  we can detect is a slight possible improvement in  the hydrophobic interactions between the histidine  side-chain and the phenyl group of VEGF residue  F17, which has rotated slightly compared to the  parent complex.
+It is unclear whether this could  contribute to the increased afnity.
+  Neither of the remaining differences between  Fab-12 and Fab-Y0317 has a signicant effect on  the binding afnity towards VEGF, and the structures show that these residues contribute only marginally to the interface.
+Some interactions are  present between VEGF and the main-chain atoms  of the serine and threonine residues in position  100a of the two Fabs, but the side-chains of these  residues are not in contact with VEGF.
+Finally, no  contact exist between VEGF and T28 (or D28) of  the Fab fragments (the closest point on VEGF to  this residue is more than 6 A distant).
+  In summary, the analysis and comparison of the  two crystal structures are in very good agreement  with the results of the binding assays on the various single mutants of the Fab fragments.
+Although  it is not possible to quantify the effects introduced  by the amino acid exchanges solely based on the  crystal structures, the detailed crystallographic  876 Structure-function of an Optimized VEGF Antibodyanalysis supports and enables us to interpret the  binding data.
+  Biological implications for antibody inhibition  of VEGF  An inhibitory antibody of improved afnity may  have improved potency or efcacy in treating diseases associated with VEGF expression.
+Preceding  versions of the anti-VEGF antibody described here,  including the murine A4.6.1 (Kim et al., 1993), the  humanized version Fab-12 (Presta et al., 1997), as  well as Y0192 (Muller et al., 1998a), clearly demonstrated sufcient afnity to effect inhibition of  VEGF activity.
+Here, we show that an afnityimproved variant, Fab Y0317, can inhibit endothelial cell proliferation in vitro with least 30-fold  greater potency than the parental humanized Fab  (Figure 3).
+  We have limited our optimization strategy to a  subset of heavy-chain CDR residues implicated by  alanine-scanning and crystallography (Muller et al.,  1998a).
+Furthermore, not all combinations of  phage-derived mutations have been tested.
+One  may therefore reasonably ask whether Y0317, with  Kd  25    20 pM and Kd  37    130 pM, is the globally  optimum variant for binding to this particular epitope (or others) on VEGF.
+Other afnity optimization efforts have resulted in protein-protein  binding afnities in the low picomolar range, from  Kd 6 pM to 15 pM (see, e.g. Lowman & Wells,  1993; Schier et al., 1996; Yang et al., 1995).
+Indeed,  we cannot exclude the possibility that higher af-  nity variants of the A4.6.1 antibody could be produced.
+However, it seems unlikely that further  afnity improvement would greatly enhance biological potency or efcacy because for effective  inhibition, the antibody must certainly occupy a  signicant fraction (perhaps >99 %) of the available  (VEGF) binding sites.
+Serum VEGF concentrations  of about 20 pM in normals, and of >300 pM in  patients with metastatic carcinoma, have been  observed (Kraft et al., 1999).
+Local or effective concentrations are likely higher. If we conservatively  assume the effective concentration of VEGF in vivo  to be about 400 pM, then 400 pM of even an in-  nite-afnity Fab would be required to block all  sites.
+  Other factors may limit the improvement in  potency of a full-length IgG resulting from an  improvement in intrinsic binding afnity of the  Fab for antigen.
+The full-length IgG form of the  antibody may benet from an avidity effect in vivo,  especially since VEGF is known to associate with  proteoglycans on the cell surface (Gitay-Goren et al.,  1992).
+Even in cell-based assays, the IgG form of  Fab-12 is a more effective inhibitor than the Fab  form (data not shown).
+Finally, the half-life for dissociation of the afnity-improved antibody is  already signicant, even on the time-scale of the  half-life of clearance for IgG's (days to weeks).
+The  effect of an improved association rate constant for  antibody in this system is unknown.
+  The fact that point (Ala) mutations in the antibody binding site on VEGF sometimes have lesser  effects on the binding of Y0317 than on the binding  of Fab-12 may suggest that the optimized binding  site is more tolerant than the parental one of variations in the antigen.
+Indeed, Y0317 showed  greatly enhanced afnity for murine VEGF over  that of Fab-12 (data not shown), though still >100-  fold weaker than its afnity for human VEGF.
+This  could provide an advantage against naturally arising VEGF variants.
+  Materials and Methods  Construction of phage libraries and mutagenesis  A variant of the Fab-12 antibody (a humanized form  of murine antibody A4.6.1) was previously identied  from phage-displayed Fab libraries for improved  expression on phage particles (Muller et al., 1998a).
+We  made use of the plasmid pY0192, a phagemid construct  with ampicillin (or carbenicillin) resistance, as the parental (``wild-type'') construct for libraries described here.
+  To prevent contamination by wild-type sequence  (Lowman et al., 1991; Lowman, 1998), templates with the  TAA stop codon at each residue targeted for randomization were prepared from CJ236 E. coli cells (Kunkel  et al., 1991).
+Libraries are designated according to the  mutagenic oligonucleotides used for their construction:  YC265, TCC TGT GCA GCT TCT GGC NNS NNS TTC  NNS NNS NNS GGT ATG AAC TGG GTC CG, randomizing residues 27-28, 30-32 in CDR-H1; YC266, GAA  TGG GTT GGA TGG ATT AAC NNS NNS NNS GGT  NNS CCG ACC TAT GCT GCG G, randomizing residues 52a-54, 56 in CDR-H2; YC103, GAA TGG GTT  GGA TGG ATT NNS NNS NNS NNS GGT GAA CCG  ACC TAT G, randomizing residues 52-54 in CDR-H2;  YC81, C TGT GCA AAG TAC CCG NNS TAT NNS  NNS NNS NNS CAC TGG TAT TTC GAC, randomizing  residues 97, 99-100b in CDR-H3; and YC101, CGT TTC  ACT TTT TCT NNS GAC NNS TCC AAA NNS ACA  GCA TAC CTG CAG , randomizing residues 71, 73, and  76 in the ``FR-H3`` region.
+An additional library in CDRH2 was designed to insert three new residues: YC90, GA  TGG ATT AAC ACC TAT NNS NNS NNS ACC GGT  GAA CCG ACC.
+  The products of random mutagenesis reactions were  electroporated into XL1-Blue E. coli cells (Stratagene) and  amplied by growing 15-16 hours with M13KO7 helper  phage.
+The complexity of each library, ranging from  2  107 to 1.5  108 , was estimated based on plating  of the initial transformation onto LB plates containing  carbenicillin.
+  Site-directed mutagenesis for point mutations was carried out as above, using appropriate codons to produce  the respective mutations, and sequences were conrmed  by single-strand DNA sequencing using SequenaseTM  (USB).
+  Phage binding selections  For each round of selection, approximately 109  -1010  phage were screened for binding to plates (Nunc Maxisorp 96-well) coated with 2 mg/ml VEGF(109) in 50 mM  carbonate buffer (pH 9.6) and blocked with 5 % (w/v)  instant milk in 50 mM carbonate buffer, (pH 9.6).
+Also  included were phage prepared from a non-displaying  Structure-function of an Optimized VEGF Antibody 877control phagemid (pCAT), which confers chloramphenicol resistance, as a means of measuring background and  enrichment (Lowman & Wells, 1993).
+Bound phage were  eluted with 0.1 M HCl and immediately neutralized  with one-third volume of 1 M Tris (pH 8.0).
+The eluted  phage were propagated by infecting XL1 cells for the  next selection cycle as described (Lowman, 1998).
+  In the rst cycle, the VEGF plate was incubated with  Fab-phage, then was briey washed to remove bound  phage.
+In the second cycle, binding and washing were  followed by a one hour dissociative incubation at room  temperature with binding buffer, after which the plate  was again washed prior to acid elution.
+This process was  repeated in rounds 3, 4 and 5, except that 1 mM VEGF  was included in the dissociative incubation, and the  incubation time was increased to 2, 18, and 37 hours,  respectively. During these selections, Y0192 phage  showed enrichments ranging from 1.5-fold (at the lowest  stringency) to 22,000-fold (using a two hour dissociation  incubation).
+However, further increases in stringency  (rounds 4-5) resulted in decreasing enrichments for the  control phage, with higher enrichments observed for certain libraries, especially the two CDR-H2 libraries and  the CDR-H3 library (Table 1).
+  In cycle 6, a 17 hour dissociative incubation at room  temperature was followed by an additional 30 hour incubation at 37 C (also including VEGF in the buffer).
+  Under these conditions, Y0192-phage showed only slight  binding enrichment (20-fold), whereas the CDR-H3  library phage were enriched by 3500-fold.
+Cycle 7 was  carried out with a 63 hour dissociative incubation, after  which only small enrichment factors were observed.
+  However, some libraries were continued through eight  cycles (with 120 hours of dissociative incubation in the  presence of VEGF), after which Fab-phage were still  recoverable by acid elution (data not shown).
+  Purification of Fab  For small-scale preparations, Y0317 Fab and mutants  were prepared from E. coli shake-asks as described  (Muller et al., 1998a).
+  For large-scale preparation, whole cell broth was  obtained from a ten liter E. coli fermentation.
+The cells  were lysed with a Manton-Gaulin homogenizer (two  passes at 6000 psi; lysate temperature maintained at 15-  25 C with a heat exchanger).
+A 5 % (v/v) solution of  polyethylene imine (PEI), pH 6.0, was added to the  lysate to give a nal concentration of 0.25 % (v/v).
+The  lysate was mixed for 30 minutes at room temperature.
+  The suspension was centrifuged, and the supernatant  (containing the Fab) was processed further.
+The pH of  the supernatant was adjusted to 6.0 with 6 M HCl, followed by dilution to a conductivity of 5 mS/cm with  puried water.
+The conditioned supernatant was loaded  onto a BakerBond ABx ion-exchange column.
+Following  a wash with the column equilibration buffer, the Fab  was eluted with an increasing sodium chloride gradient  in the equilibration buffer.
+Fractions containing the Fab  were identied by SDS-PAGE.
+The BakerBond ABx column fractions were pooled, pH adjusted to 5.5 with 1 M  Mes and diluted to a conductivity of 5 mS/cm with puri-  ed water.
+The conditioned BakerBond ABx pool was  loaded onto a SP Sepharose HP cation exchange column  (Pharmacia).
+Once again, the Fab was eluted with a  sodium chloride-containing gradient.
+Fractions containing the Fab were identied by SDS-PAGE.
+The level of  purity of Fab (as determined by SDS-PAGE) after this  two column purication was >95 %.
+  BIAcoreTM binding analysis  The VEGF-binding afnities of Fab fragments were  calculated from association and dissociation rate constants measured using a BIAcoreTM -2000 surface plasmon resonance system (BIAcore, Inc., Piscataway, NJ).
+A  biosensor chip was activated for covalent coupling of  VEGF using N-ethyl-N0  -(3-dimethylaminopropyl)-carbodiimide hydrochloride (EDC) and N-hydroxysuccinimide  (NHS) according to the supplier's (BIAcore, Inc., Piscataway, NJ) instructions.
+VEGF(109) or VEGF(165) was  buffer-exchanged into 20 mM sodium acetate, pH 4.8  and diluted to approximately 50 mg/ml.
+Aliquots of  VEGF were injected at a ow rate of 2 ml/minute to  achieve approximately 700-1400 response units (RU) of  coupled protein.
+A solution of 1 M ethanolamine was  injected as a blocking agent.
+  For kinetics measurements, twofold serial dilutions of  Fab were injected in PBS/Tween buffer (0.05 % Tween20 in phosphate-buffered saline) at 25 C or 37 C at a  ow rate of 10 ml/minute.
+Equilibrium dissociation constants, Kd values from SPR measurements were calculated as koff  /kon (Tables 6 and 8).
+  Radiolabeled VEGF binding assay  Solution binding afnity of Fabs for VEGF was  measured by equilibrating Fab with a minimal concentration of (125I)-labeled VEGF(109) in the presence of a  titration series of unlabeled VEGF, then capturing bound  VEGF with an anti-Fab antibody-coated plate.
+  To establish conditions for the assay, microtiter plates  (Dynex) were coated overnight with 5 mg/ml of a  capturing anti-Fab antibody (Cappel Labs) in 50 mM  sodium carbonate (pH 9.6), and subsequently blocked  with 2 % (w/v) bovine serum albumin in PBS for two to  ve hours at room temperature (approximately 23 C).
+In  a non-adsorbant plate (Nunc #269620), 100 pM or 26 pM  [  125I]VEGF(109) was mixed with serial dilutions of Fab12 or Fab Y0317, respectively.
+Fab-12 was incubated  overnight; however, the Fab Y0317 incubation was continued for 65 hours to insure that equilibrium was  reached.
+Thereafter, the mixtures were transferred to the  capture plate for incubation at room temperature for one  hour.
+The solution was then removed and the plate  washed eight times with 0.1 % Tween-20 in PBS.
+When  the plates had dried, 150 ml/well of scintillant (MicroScint-20; Packard) was added, and the plates were  counted on a Topcount gamma counter (Packard) for ten  minutes.
+Concentrations of each Fab were chosen to give  420 % of maximal binding.
+  For competitive binding assays, Dynex plates were  coated and blocked as above, and serial threefold  dilutions of unlabeled VEGF(109) were made in PBS/  Tween buffer in a Nunc plate.
+[125I]VEGF(109) was  added, followed by addition of a xed concentration of  Fab-12 or Fab Y0317.
+The nal concentrations of Fab-12,  and Fab Y0317 were 100 pM and 10 pM, respectively.
+  After incubation (as above), bound VEGF was captured  and quantied as described above.
+The binding data was  analyzed using a computer program to perform Scatchard analysis (Munson & Rodbard, 1980) for determination of the dissociation binding constants, Kd, for Fab12 and Fab Y0317.
+  878 Structure-function of an Optimized VEGF AntibodyELISA assay of VEGF Ala mutants  The binding afnities of VEGF Ala mutants for fulllength Fab-12-IgG (known as rhuMAb VEGF) and  Y0317-IgG, a full-length IgG form of the improved antibody expressed in CHO cells (V. Chisholm, unpublished  results) were measured as previously described (Muller  et al., 1997; Muller et al., 1998a) for the murine antibody  A4.6.1, except that the temperature was increased to  37 C, and the incubation time increased to ve hours,  to insure that equilibrium was reached with the highafnity antibody.
+  Cell-based assay of VEGF inhibition  Several versions of the anti-VEGF antibody were  tested for their ability to antagonize VEGF(165) induction of the growth of HuVECs (human umbilical vein  endothelial cells).
+The 96-well plates were seeded with  1000 HuVECs per well and fasted in assay medium  (F12:DMEM 50:50 supplemented with 1.5 % (v/v) dia-  ltered fetal bovine serum) for 24 hours.
+  The concentration of VEGF used for inducing the cells  was determined by rst titrating to identify the amount  of VEGF that can stimulate 80 % of maximal DNA synthesis.
+Fresh assay medium containing xed amounts of  VEGF (0.2 nM nal concentration), and increasing concentrations of anti-VEGF Fab or mab were then added.
+  After 40 hours of incubation, DNA synthesis was  measured by incorporation of tritiated thymidine.
+Cells  were pulsed with 0.5 mCi per well of [3  H]thymidine for  24 hours and harvested for counting, using a TopCount  gamma counter.
+  Crystallization and refinement  The complex between the Fab fragment of afnitymatured, humanized antibody Y0317 Fab and the receptor binding fragment of VEGF (VEGF(109)) was puried  and crystallized as described for the analogous complex  with the parental humanized Fab-12 fragment (Muller  et al., 1998a).
+The resulting crystals had symmetry consistent with space group P21 with cell parameters  a  89.1 A , b  66.4 A , c  138.7 A , and b  94.7 , and  were isomorphous with the crystals obtained with the  parent complex.
+A data set was collected from a single  frozen crystal at beam line 5.0.2 at the Advanced Light  Source, Berkeley, and processed using programs  MOSFLM and SCALA (CCP4, 1994).
+The nal data set  (Rmerge 7.3 %) is described in Table 10.
+Starting with the  model of Brookhaven Protein Data Bank entry 1bj1  (Muller et al., 1998a), the structure was rened using the  programs X-PLOR (Bru nger et al., 1987) and REFMAC  (CCP4, 1994).
+The free R-value was monitored using the  identical set of reections sequestered before renement  of parent complex.
+The differences in the primary structure between Fab-12 and Fab-Y0317 were modeled using  the program O (Jones et al., 1991).
+After correction for  anisotropy and application of a bulk solvent correction,  the R-value reached its nal value of 19.9 % for all reections greater than 0.2s (see Table 10; Rfree  27.4 %).
+  Protein Data Bank accession number  The coordinates for the VEGF:Y0317 Fab complex  have been deposited in the Protein Data Bank, accession  number 1cz8.
+  Acknowledgments  We thank Lyn Deguzman and Tom Zioncheck for providing 125[I]VEGF; Alan Padua and Bill Henzel for quantitative amino acid analysis; James Bourell for mass  spectrometry; Vanessa Chisholm and Lynne Krummen  for construction of cell lines; and Manuel Baca, Napoleone Ferrara, Yves Muller, Leonard Presta, and James  Wells for many helpful discussions.
+  References  Baca, M., Presta, L. G., O'Connor, S. J. & Wells, J. A.  (1997).
+Antibody humanization using monovalent  phage display. J. Biol.
+Chem. 272, 10678-10684.  Barbas, C. F., III, Hu, D., Dunlop, N., Sawyer, L.,  Cababa, D., Hendry, R. M., Nara, P. L. & Burton,  D. R. (1994).
+In vitro evolution of a neutralizing  human antibody to human immunodeciency virus  type 1 to enhance afnity and broaden strain crossreactivity.
+Proc. Natl Acad. Sci. USA, 91, 3809-3813.  Bass, S., Greene, R. & Wells, J. A. (1990).
+Hormone  phage: an enrichment method for variant proteins  with altered binding properties.
+Proteins: Struct.  Funct. Genet.
+8, 309-314.
+  Bru nger, A. T., Kuriyan, J. & Karplus, M. (1987).
+Crystallographic R factor renement by molecular  dynamics.
+Science, 235, 458-460.  CCP4 (1994).
+Programs for protein crystallography.
+Acta  Crystallog.
+sect.
+D, 50, 760-763.  Chothia, C. & Lesk, A. M. (1987).
+Canonical structures  for the hypervariable reigions of immunoglobulins.
+  J. Mol. Biol. 196, 901-917.  Delisi, C. (1983).
+Role of diffusion regulation in receptorligand interactions.
+Methods Enzymol. 93, 95-109.  Fairbrother, W. J., Christinger, H. W., Cochran, A. G.,  Fuh, G., Keenan, C. J., Quan, C., Shriver, S. K.,  Tom, J. Y., Wells, J. A. & Cunningham, B. C. (1998).
+  Novel peptides selected to bind vascular endothelial  growth factor target the receptor-binding site.
+Biochemistry, 37, 17754-17764.
+  Table 10.
+Crystallographic data and renement statistics  A. Data collection Overall Last shell  Resolution range (A ) 30-2.4 2.53-2.40  No. of observations 208,257 22,278  Unique reflections 61,742 8900  Completeness (%) 97.4 96.7  Mean I/s(I) 13.6 2.7  Rsym 0.073 0.38  B. Refinement  Resolution range (A ) 20-2.4  No. of reflections 61,689  No. of atoms 8577  rmsd bond lengths (A ) 0.013  rmsd angles (deg.) 1.9  rmsd improper angles (deg.) 0.92  rmsd B-factors for all bonded atoms, A 2 3.5  Number of main-chain torsion angles in  disallowed regions of Ramachandran  plot  a 2  a See Laskowski et al. (1993).
+  Structure-function of an Optimized VEGF Antibody 879Ferrara, N. (1995).
+The role of vascular endothelial  growth factor in pathological angiogenesis.
+Breast  Cancer Res.
+Treat. 36, 127-137.  Ferrara, N. (1999).
+Vascular endothelial growth factor:  molecular and biological aspects.
+Curr.
+Top.
+Microbiol.
+Immunol. 237, 1-30.  Ferrara, N. & Henzel, W. J. (1989).
+Pituitary follicular  cells secrete a novel heparin-binding growth factor  specic for vascular endothelial cells.
+Biochem. Biophys.
+Res. Commun. 161, 851-858.  Folkman, J. (1995).
+Angiogenesis in cancer, vascular,  rheumatoid and other disease.
+Nature Med. 1, 27-31.  Folkman, J. & Klagsbrun, M. (1987).
+Angiogenic factors.
+  Science, 235, 442-443.  Foote, J. & Winter, G. (1992).
+Antibody framework residues affecting the conformation of the hypervariable loops. J. Mol. Biol. 224, 487-499.  Gitay-Goren, H., Soker, S., Vlodavsky, I. & Neufeld, G.  (1992).
+The binding of vascular endothelial growth  factor to its receptors is dependent on cell-surfaceassociated heparin-like molecules.
+J. Biol. Chem. 267,  6093-6098.  Grifths, A. D. & Duncan, A. R. (1998).
+Strategies for  selection of antibodies by phage display.
+Curr.  Opin. Biotechnol. 9, 102-108.  Hawkins, R. E., Russell, S. J. & Winter, G. (1992).
+Selection of phage antibodies by binding afnity  mimicking afnity maturation.
+J. Mol. Biol. 226, 889-  896.  Hawkins, R. E., Russell, S. J., Baier, M. & Winter, G.  (1993).
+The contribution of contact and non-contact  residues of antibody in the afnity of binding to  antigen.
+J. Mol. Biol. 234, 958-964.  Iruela-Arispe, M. L. & Dvorak, H. F. (1997).
+Angiogenesis: a dynamic balance of stimulators and inhibitors. Thromb. Haem. 78, 672-677.  Jones, T. A., Zhou, J.-Y., Cowan, S. W. & Kjelgaard, M.  (1991). Improved methods for building protein  models in electron density maps and the location of  errors in these models.
+Acta Crystallog. sect.
+A, 47,  110-119.  Kabat, E. A., Wu, T. T., Redi-Miller, M., Perry, H. M. &  Gottesman, K. S. (1987).
+Sequences of Proteins of  Immunological Interest, 4th edit., National Institutes  of Health, Bethesda, MD.  Karlsson, R., Michaelsson, A. & Mattsson, L. (1991).
+Kinetic analysis of monoclonal antibody-antigen interactions with a new biosensor based analytical  system.
+J. Immunol. Methods, 145, 229-240.  Kay, B. K. & Hoess, R. H. (1996).
+Principles and applications of phage display.
+In Phage Display of Peptides  and Proteins (Kay, B. K., Winter, J. & McCafferty, J.,  eds), pp. 21-34, Academic Press, San Diego.  Kim, K. J., Li, B., Winer, J., Armanini, M., Gillett, N.,  Phillips, H. S. & Ferrara, N. (1993).
+Inhibition of  vascular endothelial growth factor-induced angiogenesis suppresses tumour growth in vivo.
+Nature,  362, 841-844.  Kraft, A., Weindel, K., Ochs, A., Marth, C., Zmija, J.,  Schumacher, P., Unger, C., Marme, D. & Gastl, G.  (1999).
+Vascular endothelial growth factor in the  sera and effusions of patients with malignant and  nonmalignant disease.
+Cancer, 85, 178-187.  Kunkel, T. A., Bebenek, K. & McClary, J. (1991).
+Efcient  site-directed mutagenesis using uracil-containing  DNA.
+Methods Enzymol. 204, 125-139.  Kuttner, G., Keitel, T., Giemann, E., Wessner, H.,  Scholz, C. & Hohne, W. (1998).
+A phage libraryderived single-chain Fv fragment in complex with  turkey egg-white lysozyme: characterization, crystallization and preliminary X-ray analysis.
+Mol.  Immunol.
+35, 189-194.  Laskowski, R. A., MacArthur, M. W., Moss, D. S. &  Thornton, J. M. (1993).
+Procheck: a program to  check the stereochemical quality of protein structures.
+J. Appl.
+Crystallog. 26, 283-291.  Lowman, H. B. (1998).
+Phage display of peptide libraries  on protein scaffolds.
+In Methods in Molecular Biology,  Combinatorial Peptide Library Protocols (Cabilly, S.,  ed.), vol. 87, pp. 249-264, Humana Press, Totowa,  NJ.  Lowman, H. B. & Wells, J. A. (1993).
+Afnity maturation  of human growth hormone by monovalent phage  display. J. Mol.
+Biol. 234, 564-578.  Lowman, H. B., Bass, S. H., Simpson, N. & Wells, J. A.  (1991).
+Selecting high-afnity binding proteins by  monovalent phage display.
+Biochemistry, 30, 10832-  10838.  Malmborg, A.-C., Michaelsson, A., Ohlin, M., Jansson, B.  & Borrebaeck, C. A. K. (1992).
+Real time analysis of  antibody-antigen reaction kinetics.
+Scan. J. Immunol.  35, 643-650.  Marks, J. D., Grifths, A. D., Malmqvist, M., Clackson,  T. P., Bye, J. M. & Winter, G. (1992).
+By-passing  immunization: building high afnity human antibodies by chain shufing.
+Biotechnology, 10, 779-783.  Mordenti, J., Thomsen, K., Licko, V., Chen, H., Meng,  Y. G. & Ferrara, N. (1999).
+Efcacy and concentration-response of murine anti-VEGF monoclonal  antibody in tumor-bearing mice and extrapolation  to humans.
+Toxicol. Pathol.
+27, 14-21.  Muller, Y. A., Li, B., Christinger, H. W., Wells, J. A.,  Cunningham, B. C. & de Vos, A. M. (1997).
+Vascular endothelial growth factor: crystal structure and  functional mapping of the kinase domain receptor  binding site.
+Proc. Natl Acad. Sci. USA, 94, 7192-  7197.
+  Muller, Y. A., Chen, Y., Christinger, H. W., Li, B.,  Cunningham, B. C., Lowman, H. B. & de Vos, A. M.  (1998a).
+VEGF and the Fab fragment of a humanized neutralizing antibody: crystal structure of the  complex at 2.4 A resolution and mutational analysis  of the interface.
+Structure, 6, 1153-1167.  Muller, Y. A., Christinger, H. W., Keyt, B. A. & de Vos,  A. M. (1998b).
+The crystal structure of vascular  endothelial growth factor (VEGF) rened to 1.93 A  resolution: multiple copy exibility and receptor  binding.
+Structure, 5, 1325-1338.  Munson, P. & Rodbard, D. (1980).
+Ligand: a versatile  computerized approach for characterization of  ligand-binding systems.
+Anal. Biochem. 107, 220-239.  Nezlin, R. (1998).
+The Immunoglobulins: Structure and  Function, pp. 151-204, Academic Press, San Diego.  Presta, L. G., Chen, H., O'Connor, S. J., Chisholm, V.,  Meng, Y. G., Krummen, L., Winkler, M. & Ferrara,  N. (1997).
+Humanization of a vascular endothelial  growth factor monoclonal antibody for the therapy  of solid tumors and other disorders.
+Cancer Res. 47,  4593-4599.  Rader, C. & Barbas, C. F., III (1997).
+Phage display of  combinatorial antibody libraries.
+Curr. Opin. Biotechnol.
+8, 503-508.  Schier, R., McCall, A., Adams, G. P., Marshall, K. W.,  Merritt, H., Yim, M., Crawford, R. S., Weiner, L. M.,  Marks, C. & Marks, J. D. (1996).
+Isolation of picomolar afnity anti-c-erbB-2 single-chain Fv  by molecular evolution of the complementarity  880 Structure-function of an Optimized VEGF Antibodydetermining regions in the center of the antibody  binding site.
+J. Mol. Biol. 263, 551-567.  Thompson, J., Pope, T., Tung, J.-S., Chan, C., Hollis, G.,  Mark, G. & Johnson, K. S. (1996).
+Afnity maturation of a high-afnity human monoclonal antibody against the third hypervariable loop of human  immunodeciency virus: use of phage display to  improve afnity and broaden strain reactivity.
+  J. Mol. Biol.
+16, 77-88.  Tramontano, A., Chothia, C. & Lesk, A. M. (1990).
+  Framework residue 71 is a major determinant of the  position and conformation of the second hypervariable region in the VH domains of immunoglobulins.
+J. Mol. Biol. 215, 175-182.  Wells, J. A. (1990).
+Additivity of mutational effects in  proteins.
+Biochemistry, 29, 8509-8517.  Wu, H., Beuerlein, G., Nie, Y., Smith, H., Lee, B. A.,  Hensler, M., Huse, W. D. & Watkins, J. D. (1998).
+  Stepwise in vitro afnity maturation of vitaxin, an  aVb3-specic humanized mAb.
+Proc. Natl Acad. Sci.  USA, 95, 6037-6042.  Xiang, J., Sha, Y., Jia, Z., Prasad, L. & Delbaere, L. T.  (1995).
+Framework residues 71 and 93 of the chimeric B72.3 antibody are major determinants of the  conformation of heavy-chain hypervariable loops.
+  J. Mol. Biol. 253, 385-390.  Yang, W.-P., Green, K., Pinz-Sweeney, S., Briones, A. T.,  Burton, D. R. & Barbas, C. F., III (1995).
+CDR walking mutagenesis for the afnity maturation of a  potent human anti-HIV-1 antibody into the picomolar range.
+J. Mol. Biol. 254, 392-403.  Edited by I. A. Wilson  (Received 19 July 1999; received in revised form 7 September 1999; accepted 13 September 1999)  Structure-function of an Optimized VEGF Antibody 881

@@ -1,0 +1,796 @@
+Identification of the -Lactamase Inhibitor Protein-II (BLIP-II)
+Interface Residues Essential for Binding Affinity and
+Specificity for Class A -Lactamases*
+Received for publication, February 21, 2013, and in revised form, April 9, 2013 Published, JBC Papers in Press, April 27, 2013, DOI 10.1074/jbc.M113.463521
+Nicholas G. Brown‡§, Dar-Chone Chow‡
+, Kevin E. Ruprecht§
+, and Timothy Palzkill‡§¶1
+From the Departments of ‡
+Biochemistry and Molecular Biology, §
+Pharmacology, and ¶
+Molecular Virology and Microbiology,
+Baylor College of Medicine, Houston, Texas 77030
+Background: BLIP-II is a potent inhibitor of class A -lactamases.
+Results: BLIP-II residues contributing to binding are near the center of interface and influence off rates for inhibition.
+Conclusion: BLIP-II uses common core residues to bind to several class A -lactamases.
+Significance: BLIP-II -lactamase interaction domains could lead to -lactamase inhibitors.
+The interactions between -lactamase inhibitory proteins
+(BLIPs) and -lactamases have been used as model systems to
+understand the principles of affinity and specificity in protein￾protein interactions. The most extensively studied tight binding
+inhibitor, BLIP, has been characterized with respect to amino
+acid determinants of affinity and specificity for binding -lacta￾mases. BLIP-II, however, shares no sequence or structural
+homology to BLIP and is a femtomolar to picomolar potency
+inhibitor, and the amino acid determinants of binding affinity
+and specificity are unknown. In this study, alanine scanning
+mutagenesis was used in combination with determinations of on
+and off rates for each mutant to define the contribution of resi￾dues on the BLIP-II binding surface to both affinity and speci￾ficity toward four -lactamases of diverse sequence. The resi￾dues making the largest contribution to binding energy are
+heavily biased toward aromatic amino acids near the center of
+the binding surface. In addition, substitutions that reduce bind￾ing energy do so by increasing off rates without impacting on
+rates. Also, residues with large contributions to binding energy
+generally exhibit low temperature factors in the structures of
+complexes. Finally, with the exception of D206A, BLIP-II ala￾nine substitutions exhibit a similar trend of effect for all -lac￾tamases, i.e., a substitution that reduces affinity for one -lacta￾mase usually reduces affinity for all -lactamases tested.
+Cellular processes function through specific pathways that
+are mediated by protein-protein interactions. Therefore,
+understanding of the principles of binding specificity and affin￾ity are essential to manipulate these interfaces to create diag￾nostics and disease treatments (1–3). Alanine scanning
+mutagenesis is a common approach to uncover the “hot spots”
+and specificity determinants of binding interfaces (4– 6). Hot
+spots are interface residues that, when substituted with alanine,
+result in at least a 2.0 kcal/mol loss in binding energy as deter￾mined from the equilibrium dissociation constant (Kd) (4, 7, 8).
+In addition, contact residues have also been identified as spec￾ificity determinants if the substitution of the residue changes
+the binding affinity for one binding partner relative to another
+(8, 9). The relationship between specificity and affinity is an
+active area of research and requires model systems, such as the
+human growth hormone-receptor, barnase-barstar, and BLIP-
+-lactamase, to provide insights (4, 5, 10, 11).
+-Lactamases are bacterial enzymes that provide resistance
+to -lactam antibiotics, i.e., penicillins and cephalosporins, and
+constitute a major clinical threat (12). There are four classes of
+-lactamases (classes A–D) with class A -lactamases being the
+most prevalent among clinically relevant bacteria (12). The rep￾resentative class A -lactamases used in this study include the
+TEM-1, Bla1, KPC-2, and CTX-M-14 enzymes (13, 14). These
+enzymes share the same overall structure but have limited
+amino acid sequence identity (30–50%) and exhibit signifi￾cantly different -lactam substrate hydrolysis profiles (Fig. 1A).
+-Lactamase inhibitory proteins (BLIPs),2 including BLIP
+and BLIP-II, are inhibitors of class A -lactamases and are pro￾duced from the soil bacterium Streptomyces (15–18). BLIP
+inhibits class A -lactamases with a wide range of affinities
+(subnanomolar to micromolar) and has been the focus of many
+structural, thermodynamic, and kinetic investigations (8, 11,
+19–23). However, the interactions between BLIP-II and class A
+enzymes are relatively poorly understood. BLIP-II exhibits no
+sequence or structural homology to BLIP but rather has a sev￾en-bladed -propeller fold, which is a common domain that
+typically functions as a scaffold or protein-protein interaction
+adaptor (Fig. 1B) (24–26). Despite the lack of sequence and
+structure homology, both BLIP-II and BLIP bind to a loop-helix
+region common to all class A -lactamases (Fig. 1B) (20, 27).
+BLIP-II utilizes the numerous -turns of the seven-bladed
+-propeller structure to bind the loop-helix region and to steri￾cally block the -lactamase active site (27, 28).
+BLIP-II is a more potent tightly binding inhibitor of -lacta￾mases than BLIP, withKi values in the femtomolar to picomolar
+* This work was supported, in whole or in part, by National Institutes of Health
+Grant AI32956 (to T. P.) and a training fellowship from the Biomedical Dis￾covery Training Program of the Gulf Coast Consortia supported by
+National Institutes of Health Grant 1 T90 DA022885-04. 1 To whom correspondence should be addressed: One Baylor Plaza, Houston,
+TX 77030. Tel.: 713-798-5609; Fax: 713-798-7375; E-mail: timothyp@
+bcm.tmc.edu. 2 The abbreviation used is: BLIP, -lactamase inhibitory protein.
+THE JOURNAL OF BIOLOGICAL CHEMISTRY VOL. 288, NO. 24, pp. 17156 –17166, June 14, 2013
+© 2013 by The American Society for Biochemistry and Molecular Biology, Inc. Published in the U.S.A.
+17156 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 288•NUMBER 24•JUNE 14, 2013
+ at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from range despite utilizing a smaller interface. In addition, BLIP-II
+exhibits a much narrower range of binding affinity for -lacta￾mases (range of 2 orders of magnitude) when compared with
+BLIP (range of 6 orders of magnitude) (8, 27, 29). Pre-steady
+state kinetic experiments demonstrated that association rate
+constants for BLIP-II and BLIP binding to TEM-1 -lactamase
+are similar to each other and to most protein-protein interac￾tions, but it is the exceptionally slow dissociation rate constants
+of BLIP-II that make it one of the tightest protein-protein inter￾actions known (27). This slow dissociation rate is not associated
+with significant changes to the structure of BLIP-II as shown by
+crystal structures of BLIP-II monomer and in complex with
+-lactamase (27). However, the binding contributions of the
+individual BLIP-II contact residues to affinity and specificity of
+binding to class A -lactamases remain largely unknown (8, 11,
+22, 30, 33).
+In this study, alanine scanning mutagenesis was used to
+examine the functional contribution of the individual BLIP-II
+residues at the binding interface with class A -lactamases.
+Because of the tightly binding inhibition of the BLIP-II--lac￾tamase interactions, kinetic analysis was used to measure the
+association and dissociation rate constants for wild-type and
+each alanine mutant to calculate the Kd. This approach allowed
+for a detailed examination of the contributions to binding
+kinetics of each residue to a collection of four diverse
+-lactamases.
+EXPERIMENTAL PROCEDURES
+Construction of Alanine Mutants—The BLIP-II residues cho￾sen for alanine substitutions were based on the previously per￾formed cluster analysis of the BLIP-II-TEM-1 and BLIP-II-Bla1
+interfaces (27). The BLIP-II interface residues were mutated to
+alanine by site-directed mutagenesis using the QuikChange
+method (Stratagene). The Pfu turbo polymerase (Stratagene)
+was used to replicate the pET-BLIP-II plasmid to introduce the
+desired point mutations. The DpnI restriction enzyme was then
+added to the solution to remove the parental strands. The prod￾uct of the QuikChange reaction was introduced into XL-1 Blue
+Escherichia coli cells (Stratagene) by electroporation. DNA
+sequencing was used to confirm the presence of the designed
+mutations and to ensure that no extraneous mutations were
+present in the BLIP-II gene (Lonestar Labs).
+Protein Purification—The BLIP-II wild-type and alanine￾substituted proteins were purified as previously described (27,
+29). In short, the BLIP-II variants were purified using Talon
+metal affinity resin (Clontech) using a C-terminal His6 tag. The
+class A -lactamases used in the study were purified as previ￾ously described (14, 27, 29, 35). The protein concentration of
+-lactamases and BLIP-II were determined by a Bradford assay,
+the results of which were compared with a -lactamase stand￾ard curve calibrated by quantitative amino acid analysis. In
+addition, the concentrations of BLIP-II variant proteins were
+also determined using 280-nm UV absorbance using an extinc￾tion coefficient of 66,920 M1 cm1 for the wild-type, N50A,
+D52A, T57A, F74A, L91A, N112A, D131A, D167A, S169A,
+D170A, D206A, F209A, I229A, F230A, E268A, R286A, and
+N304A variant proteins; an extinction coefficient of 61,420 M1
+cm1 for the W53A, W152A, and W269A variant proteins; and
+an extinction coefficient of 65,430 M1 cm1 for the Y73A,
+Y113A, Y191A, Y208A, and Y248A variant proteins. Both
+methods (Bradford and UV absorbance) gave highly similar
+results (within 5%).
+Enzymatic Determination of the Association Rate Constants—
+The association rate constants (kon) were determined using an
+enzymatic activity assay that has been described previously
+FIGURE 1. Alignment of the four class A -lactamases used in this study and cartoon representation of BLIP-II--lactamase complexes. A, a sequence
+alignment of the loop-helix region (residues 99 –114 based on the -lactamase ambler numbering scheme) is shown (13). The sequence alignment was
+performed, and the identities were determined using ClustalW (34). The amino acid identity was determined when compared with TEM-1. However, all of the
+-lactamases used in this study are not more than 52% identical to one another. B, the BLIP-II-TEM-1 (red; Protein Data Bank code 1JTD) and BLIP-II-Bla1 (cyan; Protein
+Data Bank code 3QHY) structures are shown with the catalytic serine depicted as a yellow sphere (27, 28). The loop-helix domain of -lactamase is shown in blue.
+Kinetic Analysis of BLIP-II--Lactamase Alanine Scan Mutants
+JUNE 14, 2013•VOLUME 288•NUMBER 24 JOURNAL OF BIOLOGICAL CHEMISTRY 17157
+ at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from       (27). All experiments were performed in 50 mM sodium phos￾phate, pH 7.0. The buffer was supplemented with 1 mg/ml BSA
+for all experiments except the KPC-2-BLIP-II association
+experiment, where it was added at a concentration of 0.03
+mg/ml to reduce background. Aliquots (0.3 ml) were taken
+along the time course to measure the initial velocities of nitro￾cefin hydrolysis observed at optical density 482 nm. The initial
+velocities were used as readouts of free enzyme with the time 0
+point being the maximum initial rate without BLIP-II addition.
+Nitrocefin was added at a concentration that yielded the max￾imum initial velocity of each enzyme. The nitrocefin concen￾trations in these experiments were 400, 200, 200, and 200 M
+for TEM-1, Bla1, KPC-2, and CTX-M-14, respectively. The Km
+values of TEM-1, Bla1, KPC-2, and CTX-M-14 are 84, 19, 52,
+and 25 M, respectively (14, 36–38). The -lactamase concen￾trations were 0.5, 5, 1, and 1 nM for TEM-1, Bla1, KPC-2, and
+CTX-M-14, respectively. The BLIP-II concentration used was
+3-fold higher than the -lactamase concentration, allowing for
+the association rate constants to be determined by second order
+kinetics. We previously demonstrated that the association rate
+constants can be determined with different BLIP-II--lacta￾mase ratios and different curve fittings to either pseudo-first
+versussecond order kinetics with minimal differences (27). The
+difference between processing the data by pseudo-first or sec￾ond order kinetics was small, but the errors for curve fitting
+were slightly better when the association rate constants were
+determined by second order kinetics. Therefore, the inhibition
+of -lactamase activity over a time course was fitted to the fol￾lowing second order kinetic equation,
+[E]t
+[E]t  [B]0  [E]0
+ Ce([B]0  [E]0)kon  t (Eq. 1)
+where [E]t is the amount of free -lactamase estimated by the
+enzymatic activity at time (t), [E]0 is the amount of free -lac￾tamase before the addition of BLIP-II, [B]0 is the initial BLIP-II
+concentration in the reaction, C is a fitting constant represent￾ing the background rate of nitrocefin hydrolysis, t is the time
+after mixing, and kon is the association rate constant of the
+interaction that is extrapolated from the data fitting. The back￾ground rate of nitrocefin hydrolysis was 10% of the total
+-lactamase activity measured for each BLIP-II--lactamase
+pair.
+For a few BLIP-II--lactamase variant combinations, com￾plete inhibition was not observed because the BLIP-II substitu￾tion weakened the affinity to -lactamase to the point that the
+equilibrium between the various components, BLIP-II--lacta￾mase complex, free -lactamase, and free BLIP-II, was reached.
+In these situations, the rate constants were determined by fit￾ting the inhibition of -lactamase activity over a time course
+to the following bimolecular binding differential equation
+accounting for a second order association and first order
+dissociation,
+[E]t
+dt  kon[E]t[B]t  koff[E/B]t (Eq. 2)
+where kon and koff are association and dissociation rate con￾stants, [E]t
+, [B]t
+, and [E/B]t are the concentrations of free
+unbound -lactamase protein, of free unbound BLIP-II protein,
+and of bound BLIP-II/-lactamase complex at time (t), respec￾tively. [E]t was experimentally determined as described above.
+[B]t and [E/B]t were then calculated based on known total con￾centrations of BLIP-II and -lactamase proteins. The analytical
+solution (Equation 3) was derived using Maple 12 software
+(Maplesoft, Waterloo, Canada). Numerical fitting of the solu￾tion to the differential equation (Equation 3) yielded the kon and
+koff values.
+[E]t 
+kon  D  koff 
+etxP1
+xP2  P2  etxP1  1xP1
+etxP1
+xP2  P2  etxP1  1
+2xkon
+(Eq. 3)
+where D, P1, and P2 are intermediate variables defined as
+following:
+D  B0  E0 (Eq. 4)
+P1  4  kon  koff  [E]0  kon
+2  D2  2  kon  D  koff  koff
+2
+(Eq. 5)
+P2  2[E]0kon  konD  koff
+P1 (Eq. 6)
+where [B]0 and [E]0 are total concentrations of BLIP-II and
+-lactamase proteins in the experiments. kon, koff, and [E]0 are
+the association rate constant, dissociation rate constant, and
+initial concentration of active -lactamase, respectively, which
+are determined by fitting Equation 3 to the data. The data pro￾cessing was carried out using an Excel spreadsheet and the fit￾ting of Equation 3 to the data utilizing the solver add-in of the
+Excel program. The experiments to determine the association
+rate constant were repeated in at least triplicate. The replicate
+experiments, however, did not utilize the exact same time
+points, and therefore all of the data sets were used to obtain
+the rate constant with an associated standard error, which was
+always less than 20%, through nonlinear regression.
+Enzymatic Determination of the Dissociation Rate Constants—
+The dissociation rate constants were determined as previously
+described (27). The very slow dissociation rate constants (koff)
+were determined by measuring the recovery of the wild-type
+-lactamase activity in the presence of an excess of an inac￾tive TEM-1 variant (E166A) (27). This mutation prevents the
+deacylation step of the catalytic mechanism rendering the
+enzyme essentially inactive after one round of acylation. This
+allows for the mutant enzyme to remain in large excess and
+available to bind BLIP-II upon its dissociation from the wild￾type -lactamase being tested and also allows the amount of
+free, wild-type -lactamase generated upon dissociation from
+BLIP-II to be measured by monitoring nitrocefin hydrolysis.
+We have shown previously that the TEM-1 Glu-166 residue is
+not at the binding interface with BLIP-II and that the E166A
+substitution does not affect binding affinity for BLIP-II as indi￾cated by stopped flow tryptophan fluorescent spectrometric
+measurements (27). Therefore, the TEM-1 E166A enzyme
+binds tightly and sequesters BLIP-II to prevent the rebinding of
+Kinetic Analysis of BLIP-II--Lactamase Alanine Scan Mutants
+17158 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 288•NUMBER 24•JUNE 14, 2013
+ at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from                       BLIP-II to the wild-type -lactamase. The experiment was ini￾tiated by incubating BLIP-II in 2-fold excess with the -lacta￾mase of interest for 1 h. The BLIP-II--lactamase complexes
+were then diluted into the 200 molar excess of TEM-1 E166A
+solution. The dissociation reaction was monitored by mea￾suring initial velocities of nitrocefin hydrolysis at various time
+points to determine the amount of free wild-type enzyme. The
+concentrations of nitrocefin used were the same as those for the
+association rate experiments. The final enzyme concentrations
+were 50, 2.5, 50, and 10 nM for KPC-2, TEM-1, Bla1, and CTX￾M-14, respectively. The buffer used in these experiments was
+50 mM sodium phosphate, pH 7.0, supplemented with 1 mg/ml
+BSA.
+The amount of active -lactamase over the time course was
+fitted with first order kinetics to determine the kinetic
+parameters,
+[E]t  [E]1e  kofft
+  C (Eq. 7)
+where [E]∞ is the amount of free -lactamase when the disso￾ciation had reached completion estimated by the enzyme activ￾ity when not inhibited by BLIP-II, [E]t is the amount of free
+-lactamase estimated by enzyme activity at time (t), t is
+the time after mixing the BLIP-II--lactamase complex with
+the inactive TEM-1 E166A enzyme, C is the constant for curve
+fitting representing the background rate of nitrocefin hydroly￾sis (including the activity of the TEM-1 E166A enzyme), and koff
+is the dissociation rate constant obtained from fitting the data.
+Because of the long duration of the experiment, positive and
+negative controls of the -lactamase being tested and the inac￾tive TEM-1 E166A alone, respectively, were used to assess the
+stability of the -lactamases during the assay. The background
+rate of nitrocefin hydrolysis, including the TEM-1 E166A back￾ground hydrolysis, was less than 10% of the total -lactamase
+activity measured for each BLIP-II--lactamase pair. The
+experiments to determine the dissociation rate constant were
+repeated in at least triplicate. The replicate experiments, how￾ever, did not have the exact same time points, and therefore all
+of the data sets were combined into a single data set to obtain
+the rate constant with an associated standard error, which was
+always less than 20%, through nonlinear regression.
+RESULTS
+Association Rate Constants—To examine the contributions
+of BLIP-II interface residues for binding to -lactamase, wild￾type BLIP-II and 25 BLIP-II mutants were expressed and puri￾fied from E. coli. To date, crystal structures of BLIP-II bound to
+TEM-1 and to Bla1 -lactamases have been determined (BLIP￾II-TEM-1 and BLIP-II-Bla1) (Fig. 1) (27, 28). Previously, we
+used cluster analysis to computationally compare these inter￾faces (27, 40). The cluster analysis allowed for the identification
+of BLIP-II residues that formed H-bonds, electrostatic interac￾tions, van der Waals contacts, and/or noncanonical interac￾tions (such as cation-) with -lactamase. Altogether, 26
+BLIP-II residues were identified to contact either TEM-1
+and/or Bla1. However, the analysis of only 25 BLIP-II mutants is
+shown because the N51A BLIP-II mutant was unstable, and the
+binding data obtained was not reproducible.
+Because of the tightly binding nature of BLIP-II and -lacta￾mase, traditional equilibrium-based determination of the dis￾sociation constant (Kd) is not possible (27). Therefore, kinetic
+experiments were used to determine the association rate (kon)
+and dissociation rate (koff) constants to define the Kd of each
+BLIP-II variant and thereby assess the effect of each alanine
+substitution on binding toward each of the TEM-1, Bla1,
+KPC-2, and CTX-M-14 -lactamases tested.
+Association rate constants were determined for wild-type
+BLIP-II and 25 BLIP-II alanine mutants toward all four -lac￾tamases. This experiment was performed by following -lacta￾mase hydrolytic activity toward a chromogenic -lactam sub￾strate (nitrocefin) over a time course after the addition of 3-fold
+excess BLIP-II. These reactions were treated as irreversible
+under these conditions, and the data were fitted to the second
+order rate equation allowing for the determination of the asso￾ciation rate constant for wild-type BLIP-II and each of the
+BLIP-II variants toward these -lactamases (Fig. 2). Overall, the
+BLIP-II alanine substitutions had a marginal effect on the asso￾ciation rate constants for binding to these -lactamases. All of
+the alanine-substituted BLIP-II variants exhibited association
+rates that were within 10-fold of wild-type BLIP-II and each
+other for each -lactamase. The association rates of the BLIP-II
+variants toward each -lactamase ranged from 2.1 to 13.7  106
+M1 s
+1 for TEM-1, from 0.8 to 2.4  106 M1 s
+1 for Bla1, from
+2.5 to 21.2  106 M1 s
+1 for KPC-2, and from 1.7 to 6.7 
+106 M1 s
+1 for CTX-M-14 (Table 1).
+Although the BLIP-II alanine substitutions do not greatly
+affect the association rate constants, these experiments did pro￾vide an early indication as to which variants greatly reduced the
+overall binding affinity. Some of the BLIP-II variants never
+achieved complete, 100% inhibition of the -lactamase activity
+including W53A, F74A, W152A, and W269A toward CTX￾M-14 and W269A toward TEM-1 and KPC-2. This indicates
+that the alanine substitution raised the overall Kd of the inter￾action near the protein concentrations at which the assay was
+performed. In these cases, as noted in Table 1, the association
+rate constant was determined using the bimolecular binding
+differential equation where the binding reaction is treated as
+reversible and reaches the steady state.
+Impact of Alanine Substitutions on BLIP-II Dissociation Rate
+Constants and Kd—To examine the effects of the alanine sub￾stitutions on the dissociation rate constants and to determine
+the overall Kd of these BLIP-II variant interactions, an enzy￾matic recovery assay was used to measure BLIP-II--lactamase
+complex dissociation (27). The method involved first forming a
+BLIP-II--lactamase complex and then diluting the complex in
+a large excess of a deacylation deficient variant of TEM-1
+(E166A) -lactamase (27). This TEM variant exhibits very low
+levels of -lactam hydrolysis but still binds to BLIP-II with sim￾ilar affinity as wild-type TEM-1. These characteristics allow the
+dissociation reaction to be followed by determining the activity
+of the wild-type -lactamase because as BLIP-II dissociates
+from the active -lactamase, it binds to the large excess of inac￾tive TEM -lactamase and therefore does not rebind to the
+active enzyme. The data obtained were fit to the first order rate
+equation to determine the dissociation rate constant (Fig. 3).
+Kinetic Analysis of BLIP-II--Lactamase Alanine Scan Mutants
+JUNE 14, 2013•VOLUME 288•NUMBER 24 JOURNAL OF BIOLOGICAL CHEMISTRY 17159
+ at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from            Unlike the modest effects observed for the BLIP-II alanine
+substitutions on the association rate constants toward the four
+class A -lactamases, the variants exhibited dramatically
+altered dissociation rate constants.Wild-type BLIP-II exhibited
+similar (within a 10-fold range) dissociation rate constants for
+the four -lactamases tested with values ranging from 0.6 
+106 to 3.7  106 s
+1
+. However, when the alanine substitu￾tions were examined, the off rates changed by orders of magni￾tude depending on the residue position substituted (Table 1).
+Therefore, it is the dissociation rate constants that were more
+drastically affected by the alanine substitutions than the asso￾ciation rate constants. These dissociation rate constants (koff),
+together with the association rate constants (kon), were used to
+calculate the equilibrium dissociation constant (Kd) for each
+BLIP-II alanine mutant and -lactamase combination. Taken
+together, these values allowed for the determination of the
+functional epitopes of BLIP-II binding to class A -lactamases.
+A residue is considered a part of the functional epitope of
+BLIP-II binding to -lactamase when the alanine substitution
+results in a 	100-fold decrease in binding affinity as defined by
+the calculated Kd values. By this definition, the functional
+epitope for BLIP-II binding to TEM-1 consists of seven resi￾dues: Tyr-73, Trp-152, Tyr-191, Ile-229, Phe-230, Trp-269, and
+Asn-304 (Fig. 4). Seven additional residues result in a 10–100-
+fold decrease in binding affinity upon mutation (Table 2).
+Eleven residues make up the functional epitope for BLIP-II
+binding to Bla1 by resulting in a 	100-fold decrease in binding
+affinity upon mutation. These residues include Trp-53, Tyr-73,
+FIGURE 2. Representative time course of enzymatic activity measurements to determine the association rate constants. The plots of the Mobs (defined
+as [E]t
+/([E]t 
+ [B]0  [E]0)) of the experimentally measured instantaneous enzymatic activity [E]t versustime (t) after mixing the TEM-1 (0.5 nM, top left), Bla1 (5 nM,
+top right), KPC-2 (1 nM, bottom left), and CTXM-14 (1 nM, bottom right) with 3-fold higher concentrations of BLIP-II (wild type or the indicated mutant) as
+described under “Experimental Procedures.” The solid circles are the Mobs of the wild-type BLIP-II, and the solid triangles are the Mobs of the indicated mutant,
+whereas the solid curves are the fitting curves of the second order association kinetics according to Equation 1 (see “Experimental Procedures”) to determine
+the appropriate kon values (tabulated in Table 1). The experiments to determine the association rate constants were performed in at least triplicate, and all of
+the data sets were combined to obtain the rate constant with an associated standard error through nonlinear regression.
+TABLE 1
+Dissociation rate constants (106 s1
+)/association-rate constants (106
+M1
+s1
+) for BLIP-II alanine scanning mutants
+koff/kon
+BLIP-II variantc TEM-1 Bla1 KPC-2 CTX-M-14
+WT 3.7/7.7 0.6/1.9 0.8/10.1b 1.7/3.2
+N50A 19/4.4 19.6/1.4 1.1/9.3 9.9/1.9
+D52A 23.6/3.9 14.2/1.1 9.5/10.1 126.2/2.4
+W53A 15.6/3.1 47.2/1.3 696.3/8.6 3961/4.1a
+T57A 6/7.7 0.7/2.2 1.2/15 5.3/4.2
+Y73A 564.6/5.8 65.7/1.6 223.5/21.2 501.9/3.1
+F74A 184.3/5.2 425.9/1.7 514.3/11.2 2649/3.3a
+L91A 8.4/5.7 1.9/1.6 6/11.1 62/3.4
+N112A 20.1/5.4 5.6/1.3 5.8/12.3 31.5/2.2
+Y113A 9.5/8.8 2.7/2.3 2.2/20.3 8.6/4
+D131A 79.2/5.7 15.2/2.1 2.3/12.7 75.3/3.8
+W152A 404.4/3.5 151/0.8 61.2/9.1 720.8/2.6a
+D167A 19.2/7.9 1.4/2.4 2/16.6 7.3/4.7
+S169A 3.4/5.5 0.5/2 0.8/13.7 1.9/2.8
+D170A 1.5/8 2.4/1.6 2.1/3.4 2.3/6.7
+Y191A 533.8/4.3 162.2/1.7 48.2/11.3b 160.3/1.7
+D206A 1.1/13.7 215.3/1.9 0.5/5 1/5.3
+Y208A 105.9/7.2 7.5/1.3 3.1/12 12.6/3
+F209A 91/4.6 14/1.4 1.7/9.7 6.4/3.1
+I229A 341.2/5.4 96.7/1.8 32.9/11.9 165.8/3.1
+F230A 818/2.1 86.8/1.6 6/7.6 22.2/1.8
+Y248A 17.9/9.2 1/2.3 9.9/14.8 7.8/4.7
+E268A 103.9/9.5 105.3/2.2 51.3/11.2 108.9/5.2
+W269A 38180/4.4a 3168/1.1 3223/2.5a 360.1/1.7a
+R286A 20/9.3 1.2/1.6 0.4/16.7 2.2/3.7
+N304A 239.1/5.5 41.5/1.5 12.7/11 205/2.7
+a Indicates that the association rate constant was determined using the bimolecu￾lar binding differential equation. The remaining constants were determined by
+the second order association rate equation. b The data for BLIP-II wild-type and BLIP-II Y191A interactions with KPC-2 from
+Ref. 39. c All of the determined association and dissociation rate constants have an associ￾ated standard error that is 20%.
+Kinetic Analysis of BLIP-II--Lactamase Alanine Scan Mutants
+17160 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 288•NUMBER 24•JUNE 14, 2013
+ at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from         Phe-74, Trp-152, Tyr-191, Asp-206, Ile-229, Phe-230, Glu-268,
+Trp-269, and Asn-304 (Fig. 4). Six additional residues result in a
+10–100-fold decrease in binding affinity for Bla1 upon muta￾tion (Table 2). The functional epitope for BLIP-II binding to
+CTX-M-14 consists of nine residues: Asp-52, Trp-53, Tyr-73,
+Phe-74, Trp-152, Tyr-191, Ile-229, Trp-269, and Asn-304 (Fig.
+4). Five additional residues result in a 10–100-fold decrease in
+binding affinity for CTX-M-14 upon substitution (Table 2). In
+contrast to the other -lactamases, the functional epitope for
+BLIP-II binding to KPC-2 consists of only four residues: Trp￾53, Tyr-73, Phe-74, and Trp-269 (Fig. 4). Six additional residues
+result in a 10–100-fold decrease in binding affinity for KPC-2
+upon substitution (Table 2).
+The results of the binding experiments identified several res￾idues that decrease the BLIP-II--lactamase affinity by 	100-
+fold depending on which -lactamase was tested. The Y73A-,
+F74A-, and W269A-substituted inhibitors, however, exhibited
+a 	100-fold decrease in affinity for all four -lactamases tested,
+and the W53A inhibitor displayed 	100-fold decreased affinity
+for three of the four -lactamases tested. These BLIP-II resi￾dues are located near the center of the BLIP-II binding surface,
+suggesting that this region provides the largest contribution to
+binding energy (Fig. 4). This observation becomes more strik￾ing when the impact of the alanine substitutions on binding
+energy is mapped onto the BLIP-II surface (Fig. 4).
+Amino Acid Residue Determinants of Binding Specificity—A
+specificity determinant is defined here as a residue that exhibits
+significantly different effects on binding affinity for different
+-lactamases upon mutation to alanine. A striking feature of
+the comparison of binding affinities of BLIP-II alanine mutants
+is the relative lack of large effects on binding specificity. Most
+BLIP-II alanine substitutions exhibit a similar trend of effect for
+all -lactamases, i.e., a substitution that reduces affinity for one
+-lactamase usually reduces affinity for all -lactamases tested
+(Fig. 5A). However, there are differences in the extent of reduc￾tions in affinity. For example, BLIP-II W53A exhibits a much
+larger reduction in binding affinity relative to wild type for
+binding to Bla1, KPC-2, and CTX-M-14 -lactamases than it
+does for TEM-1 -lactamase (Fig. 5A). Similarly, the BLIP-II
+N50A and D131A substitutions result in significant losses in
+binding affinity for the TEM-1, Bla1, and CTX-M-14 enzymes
+but have only a minimal effect on affinity for KPC-2 -lacta￾mase (Fig. 5A).
+Two BLIP-II residue positions where alanine substitutions
+did result in a switch in direction of affinity (i.e., the substitution
+increased affinity for one enzyme while decreasing affinity for
+another) are Asp-170 and Asp-206. The BLIP-II D206A substi￾tution had the most dramatic effect because it increased bind￾ing affinity for TEM-1 by 6-fold, had no significant effect on
+binding affinity toward KPC-2 or CTX-M-14, but resulted in a
+FIGURE 3. Enzymatic activity-based measurements of dissociation. Plots of the dissociation reactions between BLIP-II (wild type or alanine variants) and
+-lactamase are shown. The fractional recovered enzymatic activities of TEM-1(2.5 nM complex, top left), Bla1 (50 nM complex, top right), KPC-2 (50 nM complex,
+bottom left), and CTX-M-14 (10 nM complex, bottom right) are plotted versustime,t, after mixing of the corresponding BLIP-II--lactamase complexes with 200
+molar excess of inactive, deacylation deficient TEM-1 variant, E166A, competitor to absorb free BLIP-II. The solid circles are the normalized recovered activities
+from the corresponding wild-type complexes, and the solid triangles are from the labeled mutant complexes, whereas the solid curves are the fitting curves of
+the first order kinetics according Equation 7 (see “Experimental Procedures”) to determine the appropriate koff values (tabulated in Table 1). The experiments
+to determine the dissociation rate constants were performed in triplicate, and all of the data sets were combined and used to obtain the rate constant with an
+associated standard error through nonlinear regression.
+Kinetic Analysis of BLIP-II--Lactamase Alanine Scan Mutants
+JUNE 14, 2013•VOLUME 288•NUMBER 24 JOURNAL OF BIOLOGICAL CHEMISTRY 17161
+ at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from 370-fold decrease in binding affinity for Bla1 (Table 2 and Fig.
+5A). The BLIP-II D170A substitution exhibited more modest
+effects on specificity than Asp-206 with essentially unchanged
+affinity for TEM-1 and CTX-M-14 but reduced affinity for the
+Bla1 and KPC-2 -lactamases.
+DISCUSSION
+Although protein-protein interactions govern the majority
+of the processes of the cell, the ability to manipulate these large
+surfaces for disease treatment remains elusive (1, 41, 42). How￾ever, the concept that hot spots provide the majority of the
+driving force for an interaction presents a more tractable prob￾lem (4, 7, 43). The alanine scanning approach taken here iden￾tified the hot spot residues for the interaction of BLIP-II with
+four diverse class A -lactamases where the association rate
+constants (kon) were only modestly affected in comparison with
+the dissociation rate constants (koff).
+The protein-protein association rate consists of a diffusion
+step for the partners to form a transient complex followed by
+rearrangement of the complex to the final state (44, 45). Protein
+association reactions that occur extremely rapidly (108
+–109
+M1 s
+1
+), such as barnase-barstar, utilize long range comple￾mentary electrostatic interactions to orient the protein surfaces
+relative to one another to speed up formation of the transient
+complex (46). Most protein interactions have been estimated
+FIGURE 4. Functional epitopes and specificity determinants of BLIP-II for binding class A-lactamase. Representations of BLIP-II are shown (gray; Protein
+Data Bank code 3QI0). Residues that were mutated in this study are shown as spheres and are colored as a gradient: red (	1000- to 100-fold increase in Kd),
+orange (100- to 10-fold increase in Kd), yellow (10- to 5-fold increase in Kd), or green (5-fold increase to a decrease in Kd).
+TABLE 2
+Dissociation constants (pM) for BLIP-II alanine scanning mutants
+Kd
+BLIP-II variant TEM-1 Bla1 KPC-2 CTX-M-14
+WT 0.48 0.30 0.08a 0.54
+N50A 4.32 13.53 0.12 5.20
+D52A 6.12 13.52 0.95 53.70
+W53A 5.04 37.73 80.59 972.92
+T57A 0.79 0.33 0.08 1.26
+Y73A 98.11 40.33 10.54 161.20
+F74A 35.63 249.94 46.08 810.87
+L91A 1.48 1.19 0.53 18.01
+N112A 3.70 4.51 0.47 14.61
+Y113A 1.08 1.16 0.11 2.15
+D131A 13.79 7.28 0.18 19.57
+W152A 116.84 179.98 6.75 278.19
+D167A 2.43 0.57 0.12 1.57
+S169A 0.62 0.26 0.06 0.68
+D170A 0.19 1.52 0.62 0.35
+Y191A 125.54 97.01 4.26a 94.43
+D206A 0.08 110.47 0.10 0.19
+Y208A 14.71 5.69 0.26 4.22
+F209A 19.71 9.75 0.17 2.05
+I229A 63.08 53.18 2.76 53.15
+F230A 384.94 53.85 0.79 12.61
+Y248A 1.93 0.45 0.67 1.67
+E268A 10.88 48.53 4.58 21.10
+W269A 8738.51 2877.38 1296.95 218.25
+R286A 2.15 0.74 0.03 0.61
+N304A 43.54 28.37 1.15 76.49
+a Data for BLIP-II interaction with KPC-2 from Ref. 39.
+Kinetic Analysis of BLIP-II--Lactamase Alanine Scan Mutants
+17162 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 288•NUMBER 24•JUNE 14, 2013
+ at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from   from theoretical studies to have a “basal” or diffusion-con￾trolled association rate of 105
+–106 M1 s
+1 (47, 48). The asso￾ciation rate constants for the BLIP-II--lactamase interactions
+described in Table 1 are at the upper end of this range with
+values ranging from 1.9 to 10.1  106 M1 s
+1
+. The observation
+that alanine substitutions of BLIP-II residues do not greatly
+alter the association rate is consistent with the idea that the
+BLIP-II--lactamase interactions reflect basal or diffusion limit
+range of association and do not make extensive use of long
+range electrostatic steering interactions to orient the encounter
+complex. This suggests that residue substitutions utilizing long
+range electrostatic attraction could further improve the BLIP-II
+affinity for -lactamases and overcome the diffusion-limited
+process.
+Hot spot residues are commonly defined by a 	2.0 kcal/mol
+loss in binding energy caused by the alanine substitution (7, 49).
+The composition of hot spots is biased toward aromatic resi￾dues and, in particular, tryptophan and tyrosine residues (7). In
+addition, hot spot residues are most often located at the center
+of the protein-protein interaction interface, and the residues
+surrounding them have been proposed to form an “O-ring” (4,
+7). The O-ring hypothesis is based on observations from alanine
+mutagenesis that hot spots are often surrounded by hydrophilic
+residues that do not significantly impact binding when mutated
+and are suggested to enhance the strength of interactions by
+excluding bulk water from the interface (4, 7).
+The structure of the seven-bladed -propeller fold of BLIP-II
+consists of concentric rings of amino acid residues consistent
+with the O-ring model of a binding surface (Fig. 4). In addition,
+the BLIP-II residues that constitute the hot spots share several
+features with previously characterized hot spots. First, the
+BLIP-II residues that comprise the hot spots are biased toward
+aromatic residues, in particular, tryptophan and tyrosine, with
+Trp-53, Tyr-73, Phe-74, Trp-152, Tyr-191, and Tyr-191 mak￾ing large contributions to binding affinity for all of the -lacta￾mases tested (Table 2). Upon examination of the BLIP-II--
+lactamase structures, it is apparent that BLIP-II hot spot
+residues Tyr-73 and Phe-74 could contribute significantly to
+the stability of the complex because they bind with numerous
+residues on the -lactamase (Fig. 6A). The BLIP-II W269A sub￾stitution resulted in dramatic reductions in binding affinity for
+all of the -lactamases tested. This interaction is at the center of
+the interface, and the alanine substitution would result in an
+unfavorable cavity in the interface (Fig. 6B). Trp-53 is located
+on a BLIP-II loop that sterically blocks the -lactamase active
+site with the help of BLIP-II residues Asn-50 and Asp-52. Trp￾53, however, makes only limited side chain contacts with one or
+two residues of -lactamase, and yet the BLIP-II D53A substi￾tution exhibits greatly decreased binding affinity for -lactama￾ses (Fig. 6C). Second, as seen in Fig. 4, the BLIP-II residues
+making the largest contributions to binding energy for all four
+-lactamases are largely clustered near the center of the bind￾ing interface with less important residues found in the outer
+ring of the BLIP-II binding surface, which is consistent with the
+O-ring hypothesis for organization of the interface (7). In fact,
+the seven-bladed -propeller fold, which consists of an inner
+FIGURE 5. Change in the energetic contributions of the BLIP-II interface residues upon alanine substitution. A, comparison of the G values of the
+BLIP-II alanine variants for binding -lactamases: TEM-1 (black), Bla1 (green), KPC-2 (red), and CTX-M-14 (purple). Relative binding free energy is defined as the
+difference in binding energy between wild-type BLIP-II and the alanine mutant (G  RT ln(Kd,wt/Kd,mut)). The upper significance control line is set at 2.7
+kcal/mol, which indicates a 100-fold increase in Kd. The lower significance control line is set at 1.35 kcal/mol, which indicates a 10-fold decrease in Kd. B, plot of
+the temperature factor of BLIP-II interface residues versus the change in binding energy (G (kcal/mol)) for the alanine substitution of the positions. The
+temperature factor for each residue was calculating by averaging the temperature factors for all of the atoms that make up the residue. The G values are
+calculated from the Kd values in Table 2. B, the x axis indicates the temperature factor based on the BLIP-II-TEM-1 -lactamase x-ray structure (Protein Data Bank
+1JTD), and the y axis indicates the change in energy for binding for each mutant to TEM-1 -lactamase. C, the x axis indicates the temperature factor based on
+the BLIP-II-Bla1 -lactamase x-ray structure (Protein Data Bank 3QHY), and the y axis indicates the change in energy for binding for each mutant to Bla1
+-lactamase (27).
+Kinetic Analysis of BLIP-II--Lactamase Alanine Scan Mutants
+JUNE 14, 2013•VOLUME 288•NUMBER 24 JOURNAL OF BIOLOGICAL CHEMISTRY 17163
+ at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from      ring and an outer ring, provides an ideal structure for the O-ring
+model in that the outer rim is indeed an O-shaped ring of
+largely hydrophilic residues. Thus, the structure of BLIP-II and
+related proteins seems an ideal scaffold for mediating protein￾protein interactions. This organization of the BLIP-II scaffold
+may explain why BLIP-II binds class A -lactamases 100–1000-
+fold tighter than BLIP, despite the fact that BLIP-II has a smaller
+interface size (2187 Å2 for TEM-1) than BLIP (2636 Å2 for
+TEM-1).
+The results of this study also indicated that residues near the
+center of the interface that contribute strongly to binding gen￾erally possess lower temperature factors in the BLIP-II-TEM-1
+and BLIP-II-Bla1 -lactamase x-ray structures than residues at
+the periphery of the binding interface (Fig. 5, B and C). The
+relative lack of motion of residues at the center of interface may
+be indicative of a favorable entropic contribution of these resi￾dues to binding, which could also partially explain why these
+positions form the hot spot. A plot of the temperature factors
+for the alanine-substituted residues versus the change in bind￾ing energy for the mutants reveals a correlation (Fig. 5, B andC).
+The correlation is weakened, however, by a few outlier points.
+For example, the W269A substitution is well off of the linear
+regression fit line for both BLIP-TEM-1 and BLIP-II-Bla1
+because of the very large drop in binding energy for the W269A
+mutant. In addition, the D206A substitution falls well below the
+regression line for BLIP-II-TEM-1 but well above the line for
+BLIP-II Bla1 (Fig. 5, B and C). This is interesting in that the
+D206A substitution exhibits the largest change in -lactamase
+binding specificity among all of the mutants studied. It is pos￾sible that differences in binding specificity for BLIP-II D206A
+could be due to differences in entropic contributions to binding
+TEM-1 versus Bla1 -lactamases.
+As described above, the BLIP-II hot spot residues for binding
+-lactamases are dominated by aromatic amino acids. In con￾trast, the residues that alter binding specificity, Asp-170 and
+Asp-206, are charged. This finding is similar to observations
+made with other protein-protein interactions (23, 31, 50, 51). In
+the BLIP--lactamase system, the BLIP Glu-73–Lys-74 motif
+has been shown to be a specificity determinant for interactions
+with several different -lactamases (8, 32, 35). Another example
+is the cross-reactivity between bovine and human growth hor￾mone and the human growth hormone receptor that occurs
+when the human growth hormone Arg-43 and receptor Asp￾171 salt bridge is eliminated (50). These examples support the
+notion of aromatic and charged residues in providing overall
+binding energy and specificity to protein-protein interactions,
+respectively.
+Because alanine scanning mutagenesis has now been per￾formed on both tightly binding inhibitors, BLIP and BLIP-II, it
+is of interest to compare their interactions with -lactamase.
+BLIP-II is a femtomolar to picomolar affinity binder to all class
+A -lactamases tested. The broad specificity of BLIP-II is also
+reflected in the finding that alanine substitutions, with the
+exception of BLIP-II D206A, do not greatly alter binding spec￾ificity. In contrast, BLIP contains three specificity-determining
+regions (8). The fact that BLIP displays a wide range of binding
+affinities for class A -lactamases and that its specificity can be
+altered readily suggests the BLIP scaffold is highly malleable for
+altering binding specificity for class A -lactamases, whereas
+the BLIP-II scaffold is well suited for binding the entire class A
+-lactamase family.
+Detection and inhibition of -lactamases are of great clin￾ical interest. It seems unlikely BLIP-II could be used as a
+therapeutic agent because it would likely elicit an immune
+response. A BLIP-II-based peptide is possible, but it would
+be significantly less potent than wild-type BLIP-II. Never￾theless, such a peptide could serve as a starting point for
+further development. BLIP and BLIP-II, however, could be
+used as diagnostic reagents to detect -lactamases in bacte￾rial strains. For example, the tightly binding characteristics
+of BLIP-II could be used to determine whether a class A
+-lactamase is present, and engineered versions of BLIP with
+narrow binding specificity could be used to distinguish
+among class A enzymes. BLIP and BLIP-II are potent binders
+of -lactamases and could detect the low concentrations of
+these enzymes in clinical samples.
+REFERENCES
+1. Jubb, H., Higueruelo, A. P., Winter, A., and Blundell, T. L. (2012) Struc￾tural biology and drug discovery for protein-protein interactions. Trends
+Pharm. Sci. 33, 241–248
+2. Kuzu, G., Keskin, O., Gursoy, A., and Nussinov, R. (2012) Constructing
+structural networks of signaling pathways on the proteome scale. Curr.
+Opin. Struct. Biol. 22, 367–377
+3. Schreiber, G., and Keating, A. E. (2011) Protein binding specificity versus
+promiscuity. Curr. Opin. Struct. Biol. 21, 50–61
+4. Clackson, T., and Wells, J. A. (1995) A hot spot of binding energy in a
+hormone-receptor interface. Science 267, 383–386
+5. Cunningham, B. C., and Wells, J. A. (1989) High-resolution epitope map￾ping of hGH-receptor interactions by alanine-scanning mutagenesis. Sci￾ence 244, 1081–1085
+6. DeLano, W. L. (2002) Unraveling hot spots in binding interfaces. Progress
+and challenges. Curr. Opin. Struct. Biol. 12, 14–20
+7. Bogan, A. A., and Thorn, K. S. (1998) Anatomy of hot spots in protein
+interfaces. J. Mol. Biol. 280, 1–9
+FIGURE 6. Structural representations of BLIP-II-TEM-1 (red; Protein Data
+Bank 1JTD) and BLIP-II-Bla1 (cyan; Protein Data Bank 3QHY) interactions
+(27, 28). The selected interactions of the BLIP-II hot spots and specificity
+determinants with TEM-1 and Bla1 -lactamase are shown including Phe-73
+and Tyr-74 (A), Trp-269 (B), Trp-53 (C), and Asp-206 (D).
+Kinetic Analysis of BLIP-II--Lactamase Alanine Scan Mutants
+17164 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 288•NUMBER 24•JUNE 14, 2013
+ at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from 8. Zhang, Z., and Palzkill, T. (2004) Dissecting the protein-protein interface
+between -lactamase inhibitory protein and class A -lactamases. J. Biol.
+Chem. 279, 42860–42866
+9. Dutta, S., Gulla´, S., Chen, T. S., Fire, E., Grant, R. A., and Keating, A. E.
+(2010) Determinants of BH3 binding specificity for Mcl-1 versus Bcl-xL. J.
+Mol. Biol. 398, 747–762
+10. Petrosino, J., Rudgers, G., Gilbert, H., and Palzkill, T. (1999) Contributions
+of aspartate 49 and phenylalanine 142 residues of a tight binding inhibitory
+protein of -lactamases. J. Biol. Chem. 274, 2394–2400
+11. Reichmann, D., Cohen, M., Abramovich, R., Dym, O., Lim, D., Strynadka,
+N. C., and Schreiber, G. (2007) Binding hot spots in the TEM1-BLIP in￾terface in light of its modular architecture. J. Mol. Biol. 365, 663–679
+12. Fisher, J. F., Meroueh, S. O., and Mobashery, S. (2005) Bacterial resistance
+to -lactam antibiotics. Compelling opportunism, compelling opportu￾nity. Chem. Rev. 105, 395–424
+13. Ambler, R. P., Coulson, A. F., Fre`re, J.-M., Ghuysen, J.-M., Joris, B.,
+Forsman, M., Levesque, R. C., Tiraby, G., and Waley, S. G. (1991) A
+standard numbering scheme for the class A -lactamases. Biochem. J.
+276, 269–270
+14. Ishii, Y., Galleni, M., Ma, L., Fre`re, J.-M., and Yamaguchi, K. (2007) Bio￾chemical characterisation of the CTX-M-14 -lactamase. Int. J. Antimi￾crob. Agents 29, 159–164
+15. Doran, J. L., Leskiw, B. K., Aippersbach, S., and Jensen, S. E. (1990) Isola￾tion and characterization of a -lactamase-inhibitory protein from Strep￾tomyces clavuligerus and cloning and analysis of the corresponding gene. J.
+Bacteriol. 172, 4909–4918
+16. Gretes, M., Lim, D. C., de Castro, L., Jensen, S. E., Kang, S. G., Lee, K. J., and
+Strynadka, N. C. (2009) Insights into positive and negative requirements
+for protein-protein interactions by crystallographic analysis of the -lac￾tamase inhibitory proteins BLIP, BLIP-I, and BLP. J. Mol. Biol. 389,
+289–305
+17. Kang, S. G., Park, H. U., Lee, H. S., Kim, H. T., and Lee, K. J. (2000) New
+-lactamase inhibitory protein (BLIP-I) from Streptomyces exfoliatus
+SMF19 and its roles on the morphological differentiation. J. Biol. Chem.
+275, 16851–16856
+18. Park, H. U., and Lee, K. J. (1998) Cloning and heterologous expression of
+the gene for BLIP-II, a -lactamase-inhibitory protein from Streptomyces
+exfoliatus SMF19. Microbiology 144, 2161–2167
+19. Reichmann, D., Rahat, O., Albeck, S., Meged, R., Dym, O., and Schreiber,
+G. (2005) The modular architecture of protein-protein binding interfaces.
+Proc. Natl. Acad. Sci. U.S.A. 102, 57–62
+20. Strynadka, N. C., Jensen, S. E., Alzari, P. M., and James, M. N. (1996) A
+potent new mode of -lactamase inhibition revealed by the 1.7Å X-ray
+crystallographic structure of the TEM-1-BLIP complex. Nat. Struct. Biol.
+3, 290–297
+21. Strynadka, N. C., Jensen, S. E., Johns, K., Blanchard, H., Page, M., Matagne,
+A., Fre`re, J.-M., and James, M. N. (1994) Structural and kinetic character￾ization of a -lactamase-inhibitor protein. Nature 368, 657–660
+22. Wang, J., Zhang, Z., Palzkill, T., and Chow, D.-C. (2007) Thermody￾namic investigation of the role of contact residues of -lactamase￾inhibitory protein for binding to TEM-1 -lactamase. J. Biol. Chem.
+282, 17676–17684
+23. Yuan, J., Huang, W., Chow, D. C., and Palzkill, T. (2009) Fine mapping of
+the sequence requirements for binding of -lactamase inhibitory protein
+(BLIP) to TEM-1 -lactamase using a genetic screen for BLIP function. J.
+Mol. Biol. 389, 401–412
+24. Fu¨lo¨p, V., and Jones, D. T. (1999)  propellers. Structural rigidity and
+functional diversity. Curr. Opin. Struct. Biol. 9, 715–721
+25. Guruprasad, K., and Dhamayanthi, P. (2004) Structural plasticity associ￾ated with the -propeller architecture. Int. J. Biol. Macromol. 34, 55–61
+26. Hadjebi, O., Casas-Terradellas, E., Garcia-Gonzalo, F. R., and Rosa, J. L.
+(2008) The RCC1 superfamily. From genes, to function, to disease.
+Biochim. Biophys. Acta 1783, 1467–1479
+27. Brown, N. G., Chow, D.-C., Sankaran, B., Zwart, P., Prasad, B. V., and
+Palzkill, T. (2011) Analysis of the binding forces driving the tight binding
+between -lactamase inhibitory protein II (BLIP-II) and class A -lacta￾mases. J. Biol. Chem. 286, 32723–32735
+28. Lim, D., Park, H. U., De Castro, L., Kang, S. G., Lee, H. S., Jensen, S., Lee,
+K. J., and Strynadka, N. C. (2001) Crystal structure and kinetic analysis of
+-lactamase inhibitor protein-II in complex with TEM-1 -lactamase.
+Nat. Struct. Biol. 8, 848–852
+29. Brown, N. G., and Palzkill, T. (2010) Identification and characterization of
+-lactamase inhibitor protein-II (BLIP-II) interactions with -lactamases
+using phage display. Protein Eng. Des. Sel. 23, 469–478
+30. Hanes, M. S., Reynolds, K. A., McNamara, C., Ghosh, P., Bonomo, R. A.,
+Kirsch, J. F., and Handel, T. M. (2011) Specificity and cooperativity at
+-lactamase position 104 in TEM-1/BLIP and SHV-1/BLIP interactions.
+Proteins 79, 1267–1276
+31. Ku¨hlmann, U. C., Pommer, A. J., Moore, G. R., James, R., and Kleanthous,
+C. (2000) Specificity in protein-protein interactions. The structural basis
+for dual recognition in endonuclease colicin-immunity protein com￾plexes. J. Mol. Biol. 301, 1163–1178
+32. Yuan, J., Chow, D. C., Huang, W., and Palzkill, T. (2011) Identification of a
+-lactamase inhibitory protein variant that is a potent inhibitor of staph￾ylococcus PC1 -lactamase. J. Mol. Biol. 406, 730–744
+33. Zhang, Z., and Palzkill, T. (2003) Determinants of binding affinity and
+specificity for the interaction of TEM-1 and SME-1 -lactamase with
+-lactamase inhibitory protein. J. Biol. Chem. 278, 45706–45712
+34. Thompson, J. D., Gibson, T. J., and Higgins, D. G. (2002) Multiple se￾quence alignment using ClustalW and ClustalX, in Current Protocols in
+Bioinformatics
+35. Hanes, M. S., Jude, K. M., Berger, J. M., Bonomo, R. A., and Handel, T. M.
+(2009) Structural and biochemical characterization of the interaction be￾tween KPC-2 -lactamase and -lactamase inhibitor protein. Biochemis￾try 48, 9185–9193
+36. Brown, N. G., Pennington, J. M., Huang, W., Ayvaz, T., and Palzkill, T.
+(2010) Multiple global suppressors of protein stability defects facilitate the
+evolution of extended-spectrum TEM -lactamases. J. Mol. Biol. 404,
+832–846
+37. Materon, I. C., Queenan, A. M., Koehler, T. M., Bush, K., and Palzkill, T.
+(2003) Biochemical characterization of -lactamases Bla1 and Bla2 from
+Bacillus anthracis. Antimicrob. Agents Chemother. 47, 2040–2042
+38. Stachyra, T., Levasseur, P., Pe´chereau, M. C., Girard, A. M., Claudon,
+M., Miossec, C., and Black, M. T. (2009) In vitro activity of the -lac￾tamase inhibitor NXL104 against KPC-2 carbapenemase and Entero￾bacteriaceae expressing KPC carbapenemases. J. Antimicrob. Che￾mother. 64, 326–329
+39. Brown, N. G., Chow, D.-C., and Palzkill, T. (2013) BLIP-II is a highly
+potent inhibitor of the Klebsiella pneumoniae carbapenemase (KPC-2).
+Antimicrob. Agents Chemother., in press
+40. Potapov, V., Reichmann, D., Abramovich, R., Filchtinski, D., Zohar, N.,
+Ben Halevy, D., Edelman, M., Sobolev, V., and Schreiber, G. (2008) Com￾putational redesign of a protein-protein interface for high affinity and
+binding sepcificity using modular architecture and naturally occurring
+template fragments. J. Mol. Biol. 384, 109–119
+41. Thiel, P., Kaiser, M., and Ottmann, C. (2012) Small-molecule stabilization
+of protein-protein interactions. An underestimated concept in drug dis￾covery? Angew. Chem. Int. Ed. Engl. 51, 2012–2018
+42. Surade, S., and Blundell, T. L. (2012) Structural biology and drug discovery
+of difficult targets. The limits of ligandability. Chem. Biol. 19, 42–50
+43. Scott, D. E., Ehebauer, M. T., Pukala, T., Marsh, M., Blundell, T. L., Ven￾kitaraman, A. R., Abell, C., and Hyvo¨nen, M. (2013) Using a fragment￾based approach to target protein-protein interactions. Chembiochem. 14,
+332–342
+44. Schreiber, G., Haran, G., and Zhou, H. X. (2009) Fundamental aspects of
+protein-protein association kinetics. Chem. Rev. 109, 839–860
+45. Alsallaq, R., and Zhou, H.-X. (2008) Electrostatic rate enhancement and
+transient complex of protein-protein association. Proteins 71, 320–335
+46. Janin, J. (1997) The kinetics of protein-protein recognition. Proteins 28,
+153–161
+47. Schlosshauer, M., and Baker, D. (2004) Realistic protein-protein associa￾tion rates from a simple diffusional model neglecting long-range interac￾tions, free energy barriers, and landscape ruggedness. Protein Sci. 13,
+1660–1669
+48. Zhou, H.-X. (1997) Enhancement of protein-protein association rate by
+Kinetic Analysis of BLIP-II--Lactamase Alanine Scan Mutants
+JUNE 14, 2013•VOLUME 288•NUMBER 24 JOURNAL OF BIOLOGICAL CHEMISTRY 17165
+ at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from interaction potential. Accuracy of prediction based on local Boltzmann
+factor. Biophys. J. 73, 2441–2445
+49. Moreira, I. S., Fernandes, P. A., and Ramos, M. J. (2007) Hot spots-A
+review of the protein-protein interface determinant amino acid residues.
+Proteins 68, 803–812
+50. Clackson, T., Ultsch, M. H., Wells, J. A., and de Vos, A. M. (1998) Struc￾tural and functional analysis of the 1:1 growth hormone:receptor complex
+reveals the molecular basis for receptor affinity. J. Mol. Biol. 277,
+1111–1128
+51. Curtis, M. D., and James, R. (1991) Investigation of the specificity of the
+interaction between colicin E9 and its immunity protein by site-directed
+mutagenesis. Mol. Microbiol. 5, 2727–2733
+Kinetic Analysis of BLIP-II--Lactamase Alanine Scan Mutants
+17166 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 288•NUMBER 24•JUNE 14, 2013
+ at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from E. Ruprecht and Timothy Palzkill
+Nicholas G. Brown, Dar-Chone Chow, Kevin
+ 
+Specificity for Class A β-Lactamases
+Essential for Binding Affinity and
+Protein-II (BLIP-II) Interface Residues 
+Identification of the β-Lactamase Inhibitor
+Protein Structure and Folding:
+doi: 10.1074/jbc.M113.463521 originally published online April 27, 2013
+J. Biol. Chem. 2013, 288:17156-17166.
+ 
+Access the most updated version of this article at doi: 10.1074/jbc.M113.463521
+ 
+Find articles, minireviews, Reflections and Classics on similar topics on the JBC Affinity Sites.
+Alerts: 
+ 
+• When a correction for this article is posted
+• When this article is cited
+Click here to choose from all of JBC's e-mail alerts
+ 
+http://www.jbc.org/content/288/24/17156.full.html#ref-list-1
+This article cites 49 references, 14 of which can be accessed free at
+ at York University - OCUL on March 4, 2015 http://www.jbc.org/ Downloaded from 

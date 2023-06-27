@@ -1,0 +1,1098 @@
+Mutational and Structural Analysis of the Binding
+Interface between Type I Interferons and their
+Receptor Ifnar2
+Jacob Piehler and Gideon Schreiber*
+Department of Biological
+Chemistry, Weizmann Institute
+of Science, 76100, Rehovot
+Israel
+Type I interferons (IFN) exert pleiotropic activities through binding to
+two cell surface receptors, ifnar1 and ifnar2. We are investigating the bio￾physical basis of IFN signaling by characterizing the complex of the
+extra-cellular domain of ifnar2 (ifnar2-EC) with IFNs on the level of puri-
+®ed recombinant proteins in vitro. Here, we present a detailed mutational
+study on the functional epitopes on both IFN and ifnar2. Kinetic and
+thermodynamic parameters were determined by label-free heterogeneous
+phase detection. On IFNa2, a relatively small functional epitope compris￾ing ten amino acid residues was localized, which is nearly entirely
+formed by residues on the AB loop. Two hot-spot residues, L30 and R33,
+account for two-thirds of the total interaction energy. Comparing the
+anti-viral potency of the various mutants to the binding af®nity towards
+ifnar2 revealed a proportional correlation between the two, suggesting a
+rate-limiting role of ifnar2 binding in IFN signaling. On ifnar2, residues
+T46, I47 and M48 were identi®ed as hot-spots in the interaction with
+IFNa2. For another ten residues on ifnar2, signi®cant contribution of
+interaction energy was determined. Based on these data, the functional
+epitope on ifnar2 was de®ned according to a homology model based on
+other members of the class II hCR family in good agreement with the
+complementary functional epitope on IFNa2. Although IFNa2 and IFNb
+bind competitively to the same functional epitope, mutational analysis
+revealed distinct centers of binding for these IFNs on ifnar2. This small
+shift of the binding site may result in different angular orientation, which
+can be critically coupled to cytoplasmic signaling.
+# 1999 Academic Press
+Keywords: type I interferon receptor; protein-protein interaction; kinetics;
+*Corresponding author structure-function; mutational analysis
+Introduction
+Type I interferons (IFN) are a family of homol￾ogues cytokines which very potently elicit an anti￾viral and anti-proliferative state in cells. These
+pleiotropic properties of type I IFNs have found
+considerable attention since their discovery more
+than 40 years ago (Isaacs & Lindenmann, 1957).
+During the last decade, some basic principles of
+interferon signaling pathway have been unveiled.
+All human type I IFNs (IFNa, b, o and t) bind to a
+cell surface receptor consisting of two trans-mem￾brane proteins, ifnar1 (Uze et al., 1990) and ifnar2
+(Novick et al., 1994). These receptor components
+associate upon binding to IFN (Cohen et al., 1995),
+leading to phosphorylation by kinases associated
+to the cytoplasmic domains of ifnar1 (Tyk2) and
+ifnar2 (JAK1) (Uze et al., 1995; Velasquez et al.,
+1995). While ifnar2 binds IFNs with moderate af®-
+nity (KD  2-10 nM for IFNa2), the intrinsic af®nity
+of human ifnar1 to IFNs is low (KD > 100 nM), sta￾bilizing the ternary complex by approximately 10
+to 20-fold (Cohen et al., 1995). Although signaling
+to all type I IFNs is mediated through this cell
+surface receptor, considerable differences in the
+response to different interferons have been
+observed (e.g. Rani et al., 1996). Particularly IFNb
+exerts speci®c functions which might be caused by
+E-mail address of the corresponding author:
+bcges@wiccmail.weizmann.ac.il
+Abbreviations used: EC, extra-cellular; IFN, interferon;
+ifnar, type I IFN receptor; R, receptor; hC, helical
+cytokine; GH, growth hormone; TF, tissue factor; RIfS,
+re¯ectometric interference spectroscopy; VSV, vesicular
+stomatitis virus.
+Article No. jmbi.1999.3230 available online at http://www.idealibrary.com on J. Mol. Biol. (1999) 294, 223±237
+0022-2836/99/460223±15 $30.00/0 # 1999 Academic Pressdifferences in signal transduction at the receptor
+level (Abramowich et al., 1994; Velasquez et. al.,
+1995; Domanski et al., 1998; Lewerenz et al., 1998;
+Lu et al., 1998). Several models for the unique inter￾action of IFNb with the receptor have been pro￾posed (Lewerenz et al., 1998; Russell-Harde et al.,
+1999).
+Type I interferons belong to the class of helical
+cytokines (Sprang & Bazan, 1993) and are built by
+®ve helices. The structures of several type I IFNs
+have been solved, such as murine IFNb (Senda
+et al., 1992), human IFNa2 (Radhakrishnan et al.,
+1996; Klaus et al., 1997), human IFMb (Karpusas
+et al., 1997) and ovine IFNt (Radhakrishnan et al.,
+1998). Numerous mutational studies have revealed
+functional important residues on IFNs (Mitsui et al.,
+1993; Runkel et al., 1998), which can be ascribed to
+distinct functional epitopes for the interaction with
+ifnar1 and ifnar2 (Bandu et al., 1994; Seto et al.,
+1995; Uze et al., 1995). Much less structural and
+functional data is available for the receptor pro￾teins, which belong to the class II helical cytokine
+receptor (hCR) family (Bazan et al., 1990; Uze et al.,
+1995). Their homology to hCRs with known struc￾ture, e.g. TFR (Harlos et al., 1994; Muller et al.,
+1996), IFNgR (Walter et al., 1995) and GHR (de Vos
+et al., 1992), allows for modeling of the 3D struc￾ture with reasonable reliability. For GHR and
+IFNgR, the crystal structure of the complex of the
+receptor in its ligand is also available (de Vos et al.,
+1992; Walter et al., 1995). Based on these structures,
+models for the receptor and the complex with IFNs
+have been proposed (Seto et al., 1995; Uze et al.,
+1995) and several residues contributing to binding
+were identi®ed (Lewerenz et al., 1998).
+Understanding the mechanisms of how distinct
+activity pro®les are exerted by different type I IFN
+subtypes through the same cell surface receptor
+proteins ifnar1 and ifnar2 is a prerequisite for
+designing IFN-like drugs with speci®c activities.
+We believe that this requires detailed biophysical
+characterization of the formation of the complex of
+IFN with its receptor, which initiates the signaling
+cascade. We are investigating the interactions of
+IFNs with its receptors on the level of puri®ed
+recombinant proteins to elucidate structure,
+thermodynamics and kinetics of the complex
+formation. Recently we have succeeded in refold￾ing active extra-cellular part of ifnar2 (ifnar2-EC)
+expressed in Escherichia coli and we have puri®ed it
+to homogeneity with yields of a few milligrams
+per liter of cell culture (Piehler & Schreiber, 1999).
+Moreover, we have established methods for study￾ing thermodynamics and kinetic of the interaction
+of ifnar2-EC with IFNs. Here, we present a sys￾tematic mutational analysis of the binding interface
+between ifnar2 and IFNa2 to de®ne the functional
+epitope on both proteins in quantitative terms.
+Protein-protein interactions were investigated by
+heterogeneous phase detection monitoring the
+binding kinetics in real time. By determining the
+contributions of a number of residues on both
+ifnar2-EC and IFNa2, we de®ned the binding inter￾face of the ifnar2-IFNa2 complex on both proteins
+and we quantitatively mapped differences in bind￾ing of IFNa2 and IFNb to ifnar2.
+Results
+Theoretical considerations
+We have shown before, that the simple relation:
+KD  kd
+ka
+1
+between rate constants of association ka and dis￾sociation kd, and the equilibrium dissociation con￾stant KD is valid for the formation of the ifnar2-EC￾IFNa2 complex (Piehler & Schreiber, 1999). The
+interaction between two proteins A and B is typi￾cally described by a three-state energy pro®le
+including an encounter complex A:B, and a tran￾sition state with increased free energy compared to
+the free and complexed proteins (Figure 1). These
+early states of interaction A:B and AB{ are stabil￾ized by long-range electrostatic forces (Schreiber &
+Fersht, 1996; Selzer & Schreiber, 1999), while the
+®nal complex AB is stabilized mainly by short￾range interactions. The dissociation constant KD
+describes the interaction energy of the complex as
+a difference of the free energy of the free proteins
+and the free energy of the ®nal complex AB
+according to:
+G0
+KD  RT lnKD 2
+Thus, changes in G0
+KD upon mutation:
+Figure 1. Free energy pro®les for protein A and B
+forming a complex AB via an encounter complex A:B
+and a transition state AB{
+. The pro®les for two different
+types of mutations of the original proteins (black) are
+schematically depicted: mutation I (blue) exclusively
+removes long-range electrostatic forces, while mutation
+II (red) exclusively removes short-range forces. While
+these two mutated complexes have the same G0
+KD , the
+difference in Gz
+kd is considerable.
+224 Type I IFN Receptor Binding InterfaceG0
+KD  RT lnKmut
+D
+Kwt
+D
+3
+identi®es changes in both the long-range and
+short-range interactions. However, precisely de®n￾ing residues in the binding interface requires dis￾crimination of long and short-range interactions.
+According to transition-state theory, the kinetic
+rate constants describe the formation of the tran￾sition state. The rate of association has been shown
+to be affected mainly by the magnitude of long￾range electrostatic forces between the proteins,
+which can be altered by mutations outside the
+binding site (Schreiber & Fersht, 1996; Selzer &
+Schreiber, 1999). Dissociation rates re¯ect the free
+energy Gz
+kd required for breaking the short-range
+interactions in the binding site of the complex:
+Gz
+kd  ÿRT ln hkd
+kT 4
+where kd represents the dissociation rate constant.
+The change in Gz
+kd upon mutation:
+Gz
+kd  RT ln kmut
+d
+kwt
+d
+5
+is a much better measure for determining residues
+making short-range interactions than G0
+KD , as it
+directly maps changes in the stability of the com￾plex (cf. Figure 1). Measuring association and dis￾sociation rate constants therefore allows for
+discriminating long and short-range forces contri￾buting to af®nity. Changes in the dissociation rate
+constant can also be determined with higher pre￾cision than changes in af®nity because they are
+independent of the active protein concentration.
+Rate constants of association and dissociation
+can be measured conveniently by label-free solid
+phase detection. Even though absolute values
+obtained by this method are often doubtful, rela￾tive parameters, such as G values, have been
+determined to be very reliable (Cunningham &
+Wells, 1993; Albeck & Schreiber, 1999).
+The ifnar2 binding site on IFNa2
+The AB-loop and the D-helix have been ident￾i®ed before as being important for IFN activity
+(Mitsui et al., 1993) and are assumed to interact
+with ifnar2 (Seto et al. 1995; Uze et al., 1995). We
+mutated in IFNa2 most of the exposed residues
+from S25 to D35 on the AB-loop and from K121 to
+K134 on the D-helix to alanine, and determined the
+effect of mutation on the kinetics and thermodyn￾amics of the interaction with ifnar2. All investi￾gations were carried out with wild-type ifnar2-EC
+immobilized to the sensor surface, since rate con￾stants and af®nity determined by this con®gur￾ation are self-consistent (Piehler & Schreiber, 1999).
+Typical binding curves for the interaction of wild￾type IFNa2 and the mutant L26A are shown in
+Figure 2(a). Dissociation rate constants were deter￾mined at high protein concentrations to obtain a
+maximum amplitude. The dissociation curves for
+all IFNa2 mutants were ®tted by a single exponen￾tial decay without systematic deviations. The dis￾sociation rate constants were measured at least ®ve
+times for each mutant, with typical standard devi￾ations of less than 10 %. Association rate constants
+were determined under pseudo-®rst-order con￾ditions at concentrations of 50 nM. Within the ®rst
+30 seconds, the association phase of the binding
+curve followed a single exponential function and
+was determined by direct ®tting of a simple 1:1
+kinetic model. Owing to the fast interaction kin￾etics and the additional parameters (concentration
+and the dissociation rate constant) the typical stan￾dard deviation of the association rate constants
+was 20 %.
+All kinetic and thermodynamic constants for
+the IFNa2 mutants binding to immobilized wild￾type ifnar2-EC are summarized in Table 1. The
+association and the dissociation rate constants of
+the IFNa2 mutants in comparison to wild-type
+IFNa2 are shown in Figure 3. The precision of
+measurement allowed for the detection of down
+to 20 % change in the dissociation rate constant
+(2s criterion, a  0.95). A signi®cant increase of
+the dissociation rate constant was found for the
+mutants L26A, F27A, L30A, K31A, D32A, R33A,
+H34A, D35A, R125A and K133A (Figure 3(b)).
+For the two mutants, R33A and L30A, the kin￾etics were too fast to be resolved by this method
+(>0.5 sÿ1
+). A dissociation constant KD of approxi￾mately 5 mM was found for the mutant L30A by
+titration on the surface (Figure 2(b) and (c)).
+Af®nities determined by this method were
+shown to be consistent with the rate constants
+(Piehler & Schreiber, 1999). For the mutant
+R33A, no signi®cant interaction with immobi￾lized ifnar2-EC was detectable by this method
+up to concentrations of 50 mM of this mutant.
+Signi®cant contributions of the association rate
+constant were observed for the three positively
+charged residues K31, K131 and K133 with the
+strongest contribution by K133. Since kinetic
+measurement allows for discrimination of long
+and short-range forces, the energetic contri￾butions of the mutated residues to the stability
+of the complex were determined both from
+the dissociation rate constants (Gz
+kd
+) and
+from the af®nity constant (G0
+KD ) (Table 1).
+The residues L30 and R33 are hot-spots on
+IFNa2, contributing approximately 15 kJ/mol
+and >15 kJ/mol, respectively. Except for residue
+L26, for which the energetic contribution is
+approximately 4 kJ/mol, all other residues inves￾tigated contribute less than 2 kJ/mol.
+Anti-viral activity versus affinity of
+IFNa2 mutants
+Binding of IFN to ifnar2 is the very ®rst step
+initiating a complex signal transduction cascade
+which activates the anti-viral state in cells. Thus,
+Type I IFN Receptor Binding Interface 225correlation between kinetics and thermodynamics
+of binding of different IFN mutants to ifnar2-EC
+and the relative potency of their antiviral response
+could de®ne limiting steps in formation of the tern￾ary complex required for signaling. The anti-viral
+activity of the IFNa2 mutants relative to wild-type
+IFNa2 were determined from the concentrations
+required to protect 50 % of human WISH cells chal￾lenged with vesicular stomatitis virus (VSV). We
+found that the relative activity of the mutants
+decreased proportional to the relative decrease in
+af®nity determined by heterogeneous phase detec￾tion (Figure 4). Assuming that this correlation is
+also valid at lower activities, the af®nity of the
+mutant R33A can be estimated from its relative
+anti-viral activity (of 6  105 units/mg) to be
+approximately 30 mM.
+The binding site for IFNa2 on ifnar2
+Three crystal structures of receptors from the
+hCR super-family with a similar topology as
+ifnar2-EC have been solved: TFR, IFNgR and GHR.
+While TFR has 21 % identity and 33 % similarity
+with ifnar2-EC, and IFNgR has 17 % identity and
+33 % similarity, the homology of GHR to inar2-EC
+is signi®cantly lower. Therefore, we used only the
+structures of TFR and IFNgR for homology model￾ing. The ®nal alignment chosen for modeling is
+shown in Figure 5. Because of the rather low hom￾ology, the sequence alignment is ambiguous and
+different models are possible. The positioning of
+the gaps within the sequence of ifnar2 compared to
+the TFR sequence proved to be particularly critical.
+The sequence alignment of ifnar2 to IFNgR
+appeared more reliable: in the N-terminal domain
+where the binding site was mapped, only a single
+gap of two residues occurs, which location is
+de®ned by structural conserved regions. We there￾fore took the model based on IFNgR for all further
+structural considerations. A model of ifnar2-EC
+based on TFR as template with the alignment
+shown in Figure 5, however, gave a RMS deviation
+of all backbone atoms of 1.35 AÊ compared to the
+IFNgR based structure.
+The region presumably involved in the inter￾action with IFN can be identi®ed by comparison
+with the homologous systems GH/GHR and
+IFNg/IFNgR, for which the structures of the com￾plex have been solved (Seto et al., 1995; Lewerenz
+et al., 1998). Functional contributions of some resi￾dues in this region have already been con®rmed
+by a mutational study on ifnar2 (Lewerenz et al.,
+1998). To con®ne this binding site on ifnar2, we
+Figure 2. Measurement of kinetics and thermodynamics of the IFNa2 binding to immobilized wild-type ifnar2-EC
+by heterogeneous phase detection. (a) Association and dissociation of wild-type IFNa2 (500 nM, continuous line) and
+the mutant L26A (1.4 mM, broken line). (b) Binding curves for IFNa2 L30A at various concentrations. (c) Determi￾nation of KD from a plot of the equilibrium response determined from B versus the concentration of L30A (two
+measurements for each concentration) according to Piehler & Schreiber (1999).
+226 Type I IFN Receptor Binding Interface Table 1. Thermodynamic and kinetic constants for the interactions of wild-type IFNa2 and several mutants with
+wild-type ifnar2-EC
+IFNa2 mutant
+ka
+a
+(106 Mÿ1
+sÿ1
+)
+kd
+a
+(sÿ1
+)
+KD b
+(nM)
+Gz
+kd
+d
+(kJ/mol)
+G0
+KD
+e
+(kJ/mol)
+Activityf
+(108 units/mg)
+wt 2.1 0.020 10 - - 4.0
+S25A 2.1 0.015 7 ÿ0.8 (0.2) ÿ0.8 (0.4) n.d.
+L26A 2.1 0.114 55 4.2 (0.2) 4.1 (0.4) 0.9
+F27A 1.9 0.046 24 1.9 (0.1) 2.1 (0.3) 2.4
+S28A 2.3 0.022 10 0.2 (0.2) ÿ0.0 (0.4) n.d.
+L30A - - 5000c - 15 0.04
+K31A 1.3 0.030 23 1.0 (0.2) 2.0 (0.3) 2.8
+D32A 2.1 0.041 19 1.7 (0.2) 1.6 (0.4) 2.6
+R33A - - >5000c - >15 0.006
+H34A 1.8 0.037 20 1.4 (0.2) 1.7 (0.4) 2.8
+D35A 2.1 0.031 15 1.0 (0.1) 0.9 (0.4) 3.0
+E41A 2.1 0.021 10 0.1 (0.1) 0.0 (0.5) 4.4
+K121A 1.9 0.024 12 0.4 (0.2) 0.0 (0.4) 4.0
+R125A 1.9 0.034 18 1.2 (0.2) 1.4 (0.4) 3.4
+L128A 2.1 0.021 9 0.1 (0.3) ÿ0.2 (0.4) 5.1
+K131A 1.4 0.023 16 0.3 (0.1) 1.2 (0.3) 3.0
+E132A 2.4 0.019 8 ÿ0.2 (0.1) ÿ0.5 (0.4) 3.8
+K133A 0.9 0.033 37 1.1 (0.1) 3.2 (0.4) 1.3
+K134A 1.8 0.021 11 0.1 (0.3) 0.3 (0.5) n.d
+a All rate constants were measured by heterogeneous phase detection with immobilized wild-type ifnar2-EC. The standard devia￾tions from at least ®ve independent measurements were s < 10 % for all kd and s < 20 % for all ka. b Determined from the rate constants KD  kd/ka if not noted otherwise; s < 20 %. c Determined from equilibrium binding at the surface as shown in Figure 2(b) and (c); the standard error is 25 %. d Determined from kd according to equation (3) (25 C); s is in parentheses. e Determined from KD according to equation (5) (25 C); s < 20 %. f Anti-viral activity on human WISH cells with VSV as challenging virus relative to NIH IFNb standard. The standard error from
+a ®t of 16 data points was 10 %.
+Figure 3. Comparison between
+the kinetic rate constants deter￾mined for the interaction of wild￾type and mutant IFNa2 with
+immobilized wild-type ifnar2-EC
+(data from Table 1). Rates of L30A
+and R33A were too fast to be deter￾mined. Error bars indicate the stan￾dard deviations from at least ®ve
+independent measurements.
+Type I IFN Receptor Binding Interface 227probed long-range electrostatic interactions by a
+set of single charge reverse mutants: D8R, E30R,
+E52R, D72R, E86R, E134R, D140R and D191R. The
+effects on the dissociation kinetics was investigated
+by heterogeneous phase detection with IFNa2
+wild-type being immobilized (Table 2). Based on
+these data, a number of residues in the binding site
+were individually mutated into alanine: T46, I47,
+M48, S49, K50, E52, D53, W74, S76, T77, H78, E79,
+N100, W102, I105, H189, D191 and E192. The dis￾sociation kinetics of these mutants was compared
+to wild-type ifnar2-EC with immobilized IFNa2
+(Figure 6(a)). In order to characterize the energetic
+contribution of residues towards binding more pre￾cisely, changes in kinetics and thermodynamics of
+the interaction with IFNa2 were investigated with
+the ifnar2-EC mutants being immobilized. Immo￾bilization of ifnar2-EC mutants gave active surfaces
+for most mutants with typical Rmax values between
+100 and 300 pm (60-200 pg/mm2
+) and a similar
+stability as the wild-type. For some mutants, how￾ever, no stable and active surfaces were obtained:
+the mutants E134R and W74A quickly lost their
+activity when immobilized on a surface, whereas
+W74F remained stable on the surface. For immobi￾lized E79A, no binding activity could be measured
+for the immobilized protein indicating complete
+denaturation of this mutant by the immobilization
+procedure. The af®nity of this mutant was
+estimated by a binding inhibition assay in solution.
+All the thermodynamic and kinetic data measured
+for the interaction of these mutants with wild￾type IFNa2 are given in Table 2. Though the absol￾ute dissociation rate constants are different for
+the ifnar2-EC mutants with either IFNa2 or
+ifnar2-EC immobilized, the relative change in
+the dissociation rate constant, and thus the Gz
+kd
+,
+determined are in good agreement (Figure
+6(b)). This result proves that these relative par￾ameters are widely independent from experimental
+artifacts. A total of 14 out of the 24 mutated resi￾dues investigated signi®cantly affected the inter￾action with IFNa2. The residue M48 was identi®ed
+as a hot-spot for the binding of IFNa2, contributing
+more than 15 kJ/mol of binding energy. Mutations
+of T46 and I47 to Ala decrease binding by more
+than tenfold. E79 to Ala (but not to Gln) as well as
+I105 to Ala decreased the af®nity to IFNa2 by four￾to ®vefold. The very low stability of the mutant
+E79A suggests that the residue E79 stabilizes not
+only the integrity of the binding site, but also
+seems to be important for the stability of the pro￾tein. A more precise characterization of the contri￾bution of this residue towards binding of IFNa2
+might be achieved by a more stable homologue
+mutant or by a different immobilization procedure.
+The mutations S49A, K50A, W74F, H78A and
+Figure 4. Correlation between the relative antiviral
+activity of different IFNa2 mutants with the relative af®-
+nity of the mutants determined by heterogeneous phase
+detection (data from Table 1).
+Figure 5. Sequence alignment of ifnar2-EC to IFNgR and TFR used for homology modeling. Note that alignment of
+ifnar2 to IFNgR along the ®rst ®bronectin like domain (residues 1-105) is almost perfect, with only one short (two
+residue) gap.
+228 Type I IFN Receptor Binding InterfaceW102A each increased the dissociation rate con￾stant between two- and threefold compared to
+wild-type ifnar2. The mutants E52A, K55A and
+S76A increased the dissociation rate constant by
+less than twofold, suggesting that these residues
+are positioned in the periphery of the binding site.
+For all other alanine mutants, dissociation rate con￾stants similar to wild-type ifnar2-EC were
+observed. Signi®cant changes in the association
+rate constant were observed for the charge reverse
+mutants E52R and D191R (decreased ka), as well as
+for K50A (increased ka), indicating that a negative
+®eld on ifnar2 is required for electrostatic steering.
+Comparison of IFNa2 and IFNb binding
+to ifnar2-EC
+Accurate measurement of the interaction kinetics
+of single alanine mutations in the binding site of
+ifnar2 allowed mapping of differences in binding
+of IFNa2 and IFNb. Strong non-speci®c binding
+interfered with studying the interaction of immobi￾lized ifnar2-EC with IFNb under physiological
+ionic strength. Increasing the salt concentration up
+to 500 mM eliminated the non-speci®c binding to
+the transducer surface. Therefore, all investigations
+involving IFNb were carried out under these con￾ditions. The dissociation rate constant of IFNa2
+decreased by 10 % at this salt concentration com￾pared to 150 mM, but still single-phase kinetics
+were observed. The maximum response by IFNb
+was approximately 10-20 % higher than that of
+IFNa2, in agreement with the higher molecular
+mass of the glycosylated, CHO-produced IFNb.
+The ®rst 70 % of the dissociation amplitude were
+®tted by a single exponential decay, with a rate
+constant of 0.017 sÿ1 for immobilized wild-type
+ifnar2-EC. Binding curves for IFNa2 and IFNb are
+shown in Figure 7 in comparison for two different
+ifnar2-EC mutants. The association kinetics of
+IFNb signi®cantly deviated from a simple single
+exponential model and was not further evaluated.
+The changes in interaction energy of mutants
+of ifnar2-EC (Gz
+kd if available, otherwise
+Gz
+KD , cf. Table 2) for wild-type IFNa2 and
+IFNb are compared in Figure 8. Most residues of
+Table 2. Thermodynamic and kinetic constants for the interaction of wild-type IFNa2 with wild-type and mutant
+ifnar2-EC
+IFNa2 IFNb
+ifnar2-EC
+mutant
+ka
+a
+(106 Mÿ1
+sÿ1
+)
+kd
+a
+(sÿ1
+)
+kd
+b
+(sÿ1
+)
+KD c
+(nM)
+Gz
+kd
+f
+(kJ/mol)
+Gz
+kd
+g
+(kJ/mol)
+G0
+KD
+h
+(kJ/mol)
+kd
+(sÿ1
+)
+KD
+(nM)
+Gz
+kd
+f
+(kJ/mol)
+G0
+KD
+h
+(kJ/mol)
+wt 2.1 0.020 0.038 10 - - - 0.017 5e -
+D8R - - 0.034 - - ÿ0.2 (0.2) - - - - -
+E30R - - 0.036 - - ÿ0.1 (0.2) - - - - -
+T46A - 0.189 - 130d 5.5 (0.3) - 6.5 (0.5) 0.081 - 3.8 (0.4) -
+I47A - 0.289 - - 6.5 (0.3) - 0.289 - 7.0 (0.3) -
+M48A - > 0.4 - 5000d - - 15.4 (0.6) 0.148 - 5.3 (0.3) -
+S49A 2.1 0.047 0.086 22 2.1 (0.2) 2.0 (0.2) 2.1 (0.4) 0.071 - 3.5 (0.3) -
+K50A 2.6 0.053 0.125 17 2.3 (0.2) 3.0 (0.3) 1.9 (0.5) 0.019 - 0.3 (0.3) -
+E52R 1.3 0.040 0.053 30 1.6 (0.2) 0.9 (0.2) 2.8 (0.5) 0.026 - 1.0 (0.3) -
+E52A 2.2 0.032 0.046 14 1.1 (0.3) 0.5 (0.2) 1.0 (0.5) - - -
+D53A - - 0.033 - - ÿ0.3 (0.3) - - - -
+K55A 1.8 0.034 0.098 19 1.3 (0.2) 2.2 (0.4) 1.7 (0.4) 0.025 - 0.9 (0.2) -
+D72R - - 0.035 - - ÿ0.2 (0.3) - - - -
+W74A - - 0.116 - - 2.8 (0.3) - - - -
+W74F 1.6 0.055 0.113 34 2.5 (0.2) 2.7 (0.4) 3.2 (0.6) 0.022 - 0.7 (0.5) -
+S76A 2.0 0.033 0.081 17 1.2 (0.2) 1.9 (0.2) 1.4 (0.3) 0.017 - ÿ0.1 (0.6) -
+T77A - 0.021 0.035 - 0.1 (0.1) ÿ0.2 (0.3) 0.021 - 0.5 (0.3) -
+H78A 1.9 0.055 0.120 29 2.5 (0.1) 2.9 (0.2) 2.7 (0.4) - ÿ1.9 (0.6) -
+E79A - - - 50e - - 4 - 10e 1.7
+E86R - - 0.042 - - 0.3 (0.2) - - - - -
+N100A 2.2 0.016 0.033 7 ÿ0.6 (0.2) ÿ0.3 (0.2) ÿ0.7 (0.4) 0.005 - ÿ3.1 (0.5) -
+W102A 1.8 0.063 0.111 35 2.7 (0.1) 2.7 (0.3) 2.9 (0.5) - 500d - 11.0
+I105A - 0.107 - - 4.1 (0.3) - - 0.093 - 4.2 (0.3) -
+E134R - - 0.033 - 0.0 (0.1) ÿ0.3 (0.3) - - - - -
+D140R 1.8 0.017 0.026 9 ÿ0.5 (0.1) ÿ0.9 (0.3) 0.1 (0.4) 0.020 - 0.5 (0.2) -
+H189A - 0.024 0.054 - 0.4 (0.2) 0.9 (0.3) - - - - -
+D191R 1.5 0.034 0.061 23 1.3 (0.2) 1.2 (0.2) 2.1 (0.5) - - - -
+D191A 2.2 0.017 0.040 8 ÿ0.4 (0.3) 0.2 (0.2) ÿ0.4 (0.4) 0.022 - 0.7 (0.4) -
+E192A 2.1 0.030 0.051 13 0.7 (0.2) 0.8 (0.2) 0.7 (0.3) 0.014 - ÿ0.5 (0.5) -
+a Measured by heterogeneous phase detection with wild-type and mutant ifnar2-EC being immobilized. The standard deviations
+(s) from at least ®ve independent measurements were <10 % for all kd with IFNa2, <25 % for all kd with IFNb and <20 % for all ka. b Measured by heterogeneous phase detection with wild-type IFNa2 immobilized, s < 10 %. c Determined from the rate constants KD  kd/ka, s < 20 %. d Determined from equilibrium binding at the surface, s  20 %. e Estimated from binding inhibition assay in solution as described before (Piehler & Schreiber, 1999), s 25 %. f Gz
+kd determined from kd (ifnar2-EC immobilized) according to equation (5) (25 C), with s in parentheses. g Gz
+kd determined from kd (IFNa2 immobilized) according to equation (5) (25 C), with s in parentheses. h GKD determined from KD according to equation (3)(25 C), with s in parentheses.
+Type I IFN Receptor Binding Interface 229ifnar2-EC that are destabilizing the complex with
+IFNa2, also affect the binding of IFNb. However,
+the relative energetic contributions to binding of
+IFNa2 and IFNb are very different for most resi￾dues. The mutation W102A results in a tenfold
+stronger decrease in af®nity to IFNb compared to
+IFNa2. The mutation M48A, which destabilizes the
+complex with IFNa2 by about 500-fold, decreased
+the af®nity towards IFNb only eightfold. Further￾more, the mutant H78A stabilizes the complex
+with IFNb nearly twofold, while destabilizing the
+complex with IFNa2 more than twofold. The
+mutation N100A hardly affects the rates for bind￾ing IFNa2, whereas its decreasing the dissociation
+rate constant for IFNb by almost fourfold (cf. the
+binding curves in Figure 7). For the residues K50,
+E52 and W74F, no signi®cant changes in af®nity to
+IFNb were found upon mutation, while they
+signi®cantly contributed to binding of IFNa2 with
+ifnar2-EC.
+Discussion
+Understanding the activity pro®les exerted by
+different type I IFNs requires a thermodynamic,
+kinetic and structural understanding of the recog￾nition by the cell surface receptor. As a ®rst step
+towards this goal, we have carried out a rigorous
+mutational analysis of the binding interface of the
+complex formed between ifnar2 and type I IFNs.
+The energetic contributions of amino acid residues
+were mapped in a quantitative manner using puri-
+®ed proteins for measuring af®nity and kinetics of
+the complex formation. Heterogeneous phase
+detection was used for precise comparison of the
+rate constants and the af®nity of different IFNs
+and its mutants. A principal problem of mutational
+Figure 6. Characterization of
+ifnar2-EC mutants. (a) Dissociation
+rate constants measured with wild￾type IFNa2 immobilized to the
+surface. (b) Comparison of Gz
+kd
+obtained from measurements with
+immobilized IFNa2 and ifnar2-EC,
+respectively. Data are from Table 2.
+230 Type I IFN Receptor Binding Interfaceanalysis of a binding site is to discriminate
+between mutations which affect its structural integ￾rity, from mutations which speci®cally remove
+interactions in the interface. In case of IFNa2, the
+importance of residues for the structural integrity
+of the binding site can be estimated from the struc￾ture, and only exposed residues in the vicinity of
+the hot-spot of binding were analyzed. The case is
+more dif®cult for ifnar2, because small shifts in
+sequence alignment can exchange exposed and
+buried residues. Some mutations on ifnar2-EC
+affected the stability of the protein (e.g. Y81A,
+W74A), indicating an effect on the structure of
+ifnar2. According to our model structure, these
+two residues are buried within the core of ifnar2.
+Thus, the stability of the ifnar2 mutants gave at
+least an estimate of whether residues are exposed
+or buried. All charge-reverse mutations which are
+located outside the binding site (D8R, E30R, D72R,
+E86R, E134R and D140R) did not signi®cantly
+affect the interaction, suggesting that in general
+mutations on the surface of ifnar2 affect binding
+only when they are located at the vicinity of the
+binding site. This is true even for the extreme case
+of charge-reverse mutants. Furthermore, very
+different effects upon mutation on the interaction
+with IFNa2 and IFNb were observed. This was
+most pronounced for the mutants M48A and
+W102A which are hot-spots of binding for IFNa2
+and IFNb, respectively. These mutants apparently
+affect the binding very locally, excluding consider￾able effects on the structural integrity of the entire
+binding site.
+Until now, all mutational studies of the binding
+site on IFNa2 have been based on the assessment
+of pleiotropic activities of chimaric or point￾mutated IFNs (reviewed by Mitsui et al., 1993). We
+found a good correlation of the anti-viral activity
+of IFNa2 mutants with their af®nity toward ifnar2-
+EC, which con®rms the principal validity of con￾clusion drawn from activity assays. The residues
+on IFNa2 which contribute to the interaction with
+ifnar2 are in good agreement with residues ident￾i®ed previously by measuring changes in antiviral
+activity (Camble et al., 1986; Tymms et al., 1989;
+Waine et al., 1992; Wang et al., 1994). Assessment
+of the kinetics and thermodynamics of IFN binding
+to ifnar2 enables us to characterize its role in IFN
+signaling. The correlation between af®nity and
+activity of IFN is striking. This correlation holds
+true not only for the IFNa2 mutants we investi￾gated here. Our thermodynamic and kinetic data
+for ifnar2-EC mutants also correlate with anti-viral
+activities of IFNs measured on cells with mutated
+ifnar2 (Lewerenz et al., 1998). In particular, differ￾ences in anti-viral activity of IFNa2 and IFNb
+observed with cells with the ifnar2 mutants M48A
+and W102A correlate with the differences we
+found in the af®nity. The apparently linear down￾stream propagation (tyrosine phosphorylation and
+formation of the transcription factor ISGF3) of
+these effects shown in the same study corroborates
+the central role of the af®nity of IFNs to ifnar2 for
+function. Such correlation is not trivial, since the
+formation of a ternary complex by at least two con￾secutive binding events is required for signal trans￾duction. In the case of the structural homologous
+and functionally similar GH-GHR system, the af®-
+nity of GH to its receptor surpasses the require￾ments for activity by about 30-fold, and any
+further increase in af®nity by decreasing kd did not
+decrease the EC50 dose (Pearce et al., 1999). The
+limiting step in formation of the ternary GH com￾plex is probably the association of GH to the ®rst
+receptor (binding to site 1), while the long half-life
+Figure 7. Comparison of the binding curves for wild￾type IFNa2 (Ð ) and IFNb () with immobilized (a)
+wild-type ifnar2-EC and (b) the mutant N100A.
+Figure 8. Comparison of the energetic contributions of
+residues in the binding site of ifnar2 to binding of
+IFNa2 and IFNb (data from Table 2).
+Type I IFN Receptor Binding Interface 231of this complex (one hour) is longer than is
+required to ensure the formation of a ternary com￾plex within a single binding event. For GH
+mutants with dissociation rate constants higher
+than 0.016 sÿ1
+, a linear correlation between af®-
+nity and activity has been observed (Pearce et al.,
+1999). The half-life of the binary complex of <one
+minute is probably too short to guarantee the for￾mation of a productive ternary complex within a
+single binding event. In this case, equilibrium occu￾pancy of the receptor (ka versus kd) determines the
+probability of the formation of the ternary com￾plex. This situation corresponds to the IFNa2-
+receptor system with a kd of 0.02 sÿ1
+, which is
+strikingly close to the critical kd in the GH system.
+Though the critical kd, below which no further
+increase in activity can be achieved, has yet to be
+veri®ed for the binding of IFNs, increasing the
+activity of IFNs should be possible by increasing
+ka.
+The total free energy of the IFNa2-ifnar2-EC
+complex G0 is approximately 54 kJ/mol at room
+temperature assuming the unitary standard state
+of 55 M given by the concentration of water mol￾ecules. Interaction energies G0
+KD determined
+from single point mutations are not strictly addi￾tive, because cooperative effects are not taken into
+account. Furthermore, interactions with the back￾bone and Cb atoms are not mapped by alanine
+scanning analysis. However, the sum of G0
+KD for
+individual mutations gives an estimation as to
+what extent the binding site is mapped by the resi￾dues investigated (Cunningham & Wells, 1993).
+For IFNa2, the sum of the interaction energies
+GKD of all residues investigated is approxi￾mately 53 kJ/mol, which is close to the free energy
+of the complex formation. This agreement suggests
+that the functional epitope is essentially built from
+the residues we have identi®ed. Further contri￾butions to the total complex free energy have to be
+ascribed to long-range electrostatic interactions,
+which considerably increase the basal association
+rate constant (5 kJ/mol at physiological ionic
+strength; Piehler & Schreiber, 1999). The two resi￾dues L30 and R33 on IFNa2 account for nearly
+two-thirds of G0
+, together with L26 and F27 for
+more than 75 % of G0
+. The functional epitope on
+IFNa2 for binding to ifnar2 according to these con￾siderations is depicted by the solution structure of
+IFNa2 (Klaus et al., 1997) shown in Figure 9. The
+key residues L30 and R33 (colored in red in
+Figure 9) are close to each other and form together
+with L26 and F27 a hydrophobic patch on IFNa2
+(and probably other IFNa, which have a highly
+conserved sequence in this region). This region
+contributes the dominant part of the interaction
+energy and can be assumed as the very center of
+the binding site. Six residues adjacent to this patch
+also show signi®cant interaction with ifnar2; how￾ever, none of them decreases the complex stability
+(as measured by the change in kd) by more than
+twofold (orange colored residues in Figure 9).
+These six residues are all charged, suggesting that
+they predominantly interact by electrostatic forces.
+Except for R125 and K133, which are both in the
+periphery of the binding site, all residues contribut￾ing to binding of ifnar2 are localized on the AB￾loop (Figure 9(b)). Thus, peptides analogous to the
+AB-loop might mimic the binding site of IFNa2,
+providing a potential lead structure for designing
+low molecular mass antagonists.
+A quantitative determination of the rate constant
+of the complex formation allows for discriminating
+of long and short-range forces contributed by
+speci®c residues. We have shown before that long￾range electrostatic forces considerably enhance the
+Figure 9. The functional epitope for binding ifnar2 on IFNa2 (solution structure of IFNa2 according to Klaus et al.
+(1997)). (a) Space-®lling representation; (b) ribbon model including the side-chains of the mutated residues. The hot￾spot residues R33 and L30 are colored red, L26 is colored orange and the other residues with signi®cant effect on
+complex stability (F27, K31, D32, H34, D35, R125, K133) are colored yellow. Indifferent residues (S25, S28, K121,
+L128, E132 and K134) and residue K131, which contributes exclusively by long-range forces, are depicted in blue.
+This picture was composed with the Swiss-PDB Viewer (Guex & Peitsch, 1997).
+232 Type I IFN Receptor Binding Interfaceassociation of the IFNa2-ifnar2-EC complex
+(Piehler & Schreiber, 1999). In agreement with the
+theory of electrostatic rate enhancement, only
+mutations of charged residues (K31, K131 and
+K133) on IFNa2 affected the association rate con￾stant. Mutation of these positive residues into neu￾tral residues decreased ka, indicating that the
+positive electric ®eld in the periphery of the func￾tional epitope is important for steering the associ￾ation with ifnar2. This observation supports our
+notion that a binding site is preferably mapped
+using Gz
+kd as a criterion for allocating a residue
+in the binding site.
+In comparison to the functional epitope of GH
+for the interaction with GHR (de Vos et al., 1992;
+Cunningham & Wells, 1993), the number of contact
+residues on IFNa2 is much smaller, suggesting a
+signi®cant smaller buried surface of the complex
+with ifnar2. This observation matches the differ￾ences observed in binding kinetics of the two
+complexes. Both association and dissociation
+rate constants of binding of GH to its receptor
+(3  105 Mÿ1 sÿ1 and 2.7  10ÿ4 sÿ1
+, respectively,
+for binding of GH site 1; Cunningham & Wells,
+1993) are much smaller than for IFNa2-ifnar2. The
+lower association rate constants indicates less long￾range electrostatic forces involved in the GH-GHR
+interaction, while the lower dissociation rate con￾stant indicates more stabilizing contacts in the
+interface.
+We have characterized the functional epitope on
+ifnar2 for the binding of IFNa2 and IFNb. A num￾ber of residues on ifnar2 were identi®ed which
+contributed to binding both IFNa2 and IFNb. The
+binding sites resulting for IFNa2 and IFNb from
+these investigations are depicted on our homology
+model of ifnar2-EC (Figure 10). The key residue on
+ifnar2 for binding of IFNa2 is M48. Mutating this
+residue to Ala reduces binding by 500-fold (15 kJ/
+mol). Two additional residues located nearby (T46
+and I47) reduce binding by over tenfold (5.5 and
+6.5 kJ/mol, respectively). These three relative
+hydrophobic hot-spot residues are surounded by
+six, mostly polar residues (S49, K50, H78 E79,
+W102 and I105) which contribute between 2 and
+4 kJ/mol binding energy. Residue W74 in our
+model is buried beneath this binding site. This is
+in agreement with the low stability of ifnar2-EC
+observed for the alanine mutant of W74 (which
+was not observed for the phenylalanine mutant)
+and the considerable decrease of complex stability
+upon mutation. In agreement with previous inves￾tigations (Lewerenz et al., 1998), our results indi￾cate hardly any contact of IFNa2/IFNb with the C￾terminal domain of ifnar2, which is considerably
+involved in the homologous complex of GH and
+IFNg with their receptors (de Vos et al., 1992;
+Figure 10. Comparison of the functional epitope of ifnar2 for IFNa2 and IFNb (homology model of ifnar2-EC with
+IFNgR as template). The residues are color-coded according to their contribution to binding IFNa2 or IFNb as indi￾cated in the Figure. This picture was composed with the Swiss-PDB Viewer (Guex & Peitsch, 1997).
+Type I IFN Receptor Binding Interface 233  Clackson et al., 1998; Walter et al., 1995). Some con￾tribution of residue E192 was found and none for
+the residues E134, D140, H189 and D191. However,
+this perfectly agrees with the small functional epi￾tope identi®ed on IFNa2 and the binding site on
+ifnar2 ®ts very well to its binding site on IFNa2.
+The key residues M48 and I47 form a hydrophobic
+patch which could interact with the hydrophobic
+patch on IFNa2 (F27 and L30). For ifnar2-EC,
+patches of negatively charged residues at the per￾iphery of the binding site (E52/D53, E134-E137
+and D191/E192) contribute to steering of associ￾ation through long-range attraction of the positive
+residues in the periphery of the functional epitope
+of IFNa2, driving the fast rate of association of this
+complex. It is interesting to note that all the resi￾dues on ifnar2 identi®ed by us to be important in
+binding are located on loops and not beta-sheets.
+A similar distribution of binding residues has been
+observed for the interaction of GH with GH-R, and
+on antibodies. The sum of the interaction energies
+for all residues involved in binding IFNa2 ident￾i®ed so far accounts for 52 kJ/mol, which is close
+to the total interaction energy of the complex.
+Dissecting the binding epitope of IFNb on ifnar2
+shows a similar location of the binding site, but
+with a very different distribution of binding ener￾gies of speci®c residues. The most important resi￾dues on ifnar2 binding IFNb are W102 (11 kJ/mol)
+and I47 (7 kJ/mol). Other residues important for
+binding include T46, M48, S49 and I105 (3-5 kJ/
+mol). Two mutations on ifnar2 (H78 and N100)
+result in an decreased rate of dissociation (and
+thus a higher af®nity) for IFNb but not for IFNa2.
+It would be interesting to explore the phenotype of
+a H78, N100 double mutation in ifnar2, which
+should have about 20-fold tighter binding for IFNb
+compared to IFNa2. Overall, much lower effect of
+the mutations investigated on the binding of IFNb
+was observed. The sum of the interaction energies
+is 39 kJ/mol for IFNb, which is approximately
+two-thirds of the total interaction energy (57 kJ/
+mol). Further residues of the functional epitope on
+ifnar2 interacting with IFNb have yet to be
+identi®ed.
+Structural differences have been proposed to be
+responsible for different activity pro®les of differ￾ent IFNs, especially IFNa2 and IFNb (Domanski
+et al., 1998; Lewerenz et al., 1998; Russell-Harde
+et al., 1999). Comparing the contributions of differ￾ent residues located on ifnar2 to the binding of
+IFNa2 and IFNb, allows mapping such differences
+in a quantitative manner. Our results suggest that
+IFNa2 and IFNb essentially bind to the same bind￾ing site on ifnar2 with very similar kinetic and
+thermodynamic parameters. Albeit the contri￾butions of speci®c residues to binding are signi®-
+cantly different. Comparing the functional epitope
+of IFNa2 and IFNb on ifnar2 (Figure 10) suggests
+that despite the overlapping binding site, the angu￾lar orientation of both ligands binding ifnar2 may
+differ. This could lead to a different orientation of
+the intra-cellular domains of ifnar2 and ifnar1 in
+the ternary complex, which could be critical in the
+pattern of activation of the cellular response to
+IFNa2 versus IFNb. This fact is in good agreement
+with mutational studies of the binding site on
+IFNb (Runkel et al., 1998). Mutation of the residue
+R35 of IFNb resulted in a much less dramatic loss
+in activity than the homologous mutation of R33
+on IFNa2. Despite the considerable sequence hom￾ology between IFNa2 and IFNb in the AB-loop, the
+spatial arrangement of the residues most important
+for binding is quite different (Figure 11). The over￾all structural deviation in the homologue sequence
+C29-R33 (C31-R35 on IFNb) is 1.75 AÊ , while for the
+residues L26 and F27, which play a considerable
+role in forming the functional epitope on IFNa2,
+no homology on IFNb is observed. The fact that a
+loop structured so differently binds to essentially
+the same epitope on ifnar2 might indicate structur￾al changes upon binding.
+With the quantitative, high-resolution descrip￾tion of the functional epitopes on IFNa2 and
+ifnar2, and the correlation of thermodynamics with
+activity, we have made an important step towards
+an understanding of IFN recognition by its recep￾tor on a molecular level. We were able to prove the
+importance of the af®nity of IFNa2 toward ifnar2
+for their activity, which may account for the vary￾ing potency of different IFNs. Although IFNa2 and
+IFNb bind competitive to the same functional epi￾tope, mutational analysis revealed distinct centers
+of binding for these IFNs on ifnar2. In the ternary
+complex IFN-ifnar1-ifnar2, small shifts of the bind￾ing site may result in different angular orientation,
+which can be critically coupled to cytoplasmic sig￾naling as been shown for another hCR (Livnah
+et al., 1998).
+Figure 11. The backbone of the AB-loop from L26 to
+D35 for IFNa2 (orange) and L28 to D37 for IFNb
+(green), with the most important residues on IFNa2,
+L26, L30 and R33 in red and the corresponding residues
+on IFNb (L28, L32 and R35) in blue. This picture was
+composed with the Swiss-PDB Viewer (Guex & Peitsch,
+1997).
+234 Type I IFN Receptor Binding InterfaceMaterials and Methods
+Protein expression and purification
+IFNa2 and ifnar2-EC were expressed in E. coli and
+were puri®ed by ion-exchange and size-exclusion chro￾matography as described (Piehler & Schreiber, 1999). The
+levels of expression of IFNa2 and ifnar2-EC mutants
+were as high as the wild-type. The fraction of success￾fully refolded IFNa2 mutants varied, with typical yields
+between 10 and 50 mg protein per liter of cell culture,
+puri®ed to over 95 % homogeneity. The IFNa2 mutants
+Y129A and R120A gave very low yields of active protein
+(<1 mg/l cell culture). These mutants were not further
+investigated. Signi®cantly lower yields of properly
+refolded ifnar2-EC (approximately 20 % compared to the
+wild-type) were obtained for the mutants W74A, E79A
+and E134R. However, the mutant W74F again gave
+yields similar to the wild-type. Y81A did not give active
+protein. Wild-type, glycosylated IFNb produced in
+CHO cells was a gift from Professor M. Rubinstein. Pro￾tein concentrations were determined from the absor￾bance at 280 nm (Piehler & Schreiber, 1999) with
+e280  18,070 Mÿ1 for IFNa2, e280  30,050 Mÿ1 for IFNb
+and e280  26,500 Mÿ1 for ifnar2-EC (corrected to
+e280  21,100 Mÿ1 for the tryptophan mutants of ifnar2-
+EC W102A and W74F). Protein purity was analyzed by
+SDS-PAGE under non-reducing conditions and concen￾trations were veri®ed by quantitative evaluation of the
+protein bands compared to wild-type standard. Concen￾trations of active IFNa2 protein were determined by ana￾lytical gel ®ltration with ifnar2-EC as described (Piehler
+& Schreiber, 1999).
+Site-directed mutagenesis
+Site-directed mutagenesis was carried out by PCR of
+the plasmids for expression (pT72Ca2 and pT72CR2)
+with 18-21 nucleotide primers containing the mutated
+codon using high ®delity polymerases pwo (Boehringer
+Mannheim) and Pfu (Stratagene) as described in detail
+(Albeck & Schreiber, 1999). After phosphorylation and
+ligation, the mutated plasmids were transformed into
+TG1 cells. The sequence of the whole expressed gene
+containing the mutation was veri®ed by DNA sequen￾cing.
+Thermodynamic and kinetic analysis
+All thermodynamic and kinetic data were obtained
+from label-free heterogeneous phase detection. The inter￾action between IFNa2 and ifnar2-EC was monitored by
+re¯ectometric interference spectroscopy (RIfS) under
+¯ow-through conditions as described (Piehler &
+Schreiber, 1999). Either ifnar2-EC (wild-type or mutant)
+or wild-type IFNa2 was immobilized by standard amide
+coupling chemistry. All measurements with IFNa2 and
+ifnar2-EC were carried out in 50 mM Hepes with
+150 mM NaCl and 0.01 % Triton X100 at pH 7.4. The
+interaction with IFNb was measured at 500 mM NaCl in
+order to eliminate non-speci®c interactions with the sur￾face, which was observed at 150 mM NaCl.
+Association and dissociation kinetics were measured
+by standard injection protocols and corrected by blank
+runs. Dissociation rate constants were measured at pro￾tein concentration of 0.5-2 mM in order to saturate the
+surface. The total range of dissociation was used for
+®tting a 1:1 kinetic model. Association rate constants
+were determined by incubating IFNa2 (wild-type and
+mutants) at a concentration c of 50 nM under pseudo-
+®rst-order conditions. Consistency of the observed rate
+constants at different concentrations with a single associ￾ation rate constant under these conditions has been
+shown before (Piehler & Schreiber, 1999). The ®rst
+30 seconds of the binding curve R(t) was ®tted by a 1:1
+kinetic model:
+Rt  Req1 ÿ eÿkackdt
+ 6
+(Req, equilibrium response) using the mean dissociation
+rate constant determined in previous experiments. All
+rate constants were determined as mean values from at
+least ®ve independent measurements and the errors are
+given by their standard deviations s. Differences
+between two mean values of more than 2s were con￾sidered signi®cant (a  0.95). For fast dissociating
+mutants, dissociation constants KD were determined
+from the equilibrium binding on the surface at different
+concentrations as described before (Piehler & Schreiber,
+1999). For signal correction, the immobilized ifnar2-EC
+was denatured and the background response was
+measured at the same concentrations. Equilibrium dis￾sociation constants in solution were determined by a
+binding inhibition assay with immobilized ifnar2-EC as
+described (Piehler & Schreiber, 1999).
+Anti-viral protection activity assay
+Anti-viral activity of wild-type and mutant IFNa2 was
+assayed as the inhibition of the cytopathic effect of VSV
+on human WISH cells (Rubinstein et al., 1981). The
+activity of wild-type and mutant IFNa2 was determined
+from the relative concentration needed for 50 % protec￾tion of the cells compared to NIH IFNb standard. The
+dissociation constant KD of IFNb binding to wild-type
+ifnar2-EC was determined by a binding inhibition assay
+as described (Piehler & Schreiber, 1999).
+Homology modeling of ifnar2-EC
+A structural model of the extracellular part of the
+ifnar2 (212 amino acid residues) from SYDSP (N-ter) to
+ESEFS (C-ter) (Novick et al., 1994) was built using hom￾ology modeling. Sequence alignment was carried out
+using 	-BLAST and clustalX (with ten different homolo￾gous protein sequences), taking into account the second￾ary structure motifs in TFR and IFNgR. The alignment
+was corrected manually by moving gaps from b-sheets
+into loops. Homology modeling was done using Swiss￾PDBViewer 3.0 and the automated comparative protein
+modeling server SWISS-MODEL in optimized mode
+(Guex & Peitsch, 1997). As primary template for model￾ing we used the structure of IFNgR.
+Acknowledgments
+We thank M. Rubinstein and D. Novick for supplying
+IFNb and for many helpful discussions, S. Barak for per￾forming numerous IFN cytopathic activity assays, and S.
+Albeck for the critical reading of the manuscript. This
+work was supported by grant no. 96-00439/1 from the
+US-Israel Binational Science Foundation (BSF). J.P. is an
+EMBO postdoctoral fellow, 1998-1999.
+Type I IFN Receptor Binding Interface 235References
+Abramovich, C., Shulman, L. M., Ratovistski, E.,
+Harroch, S., Tovey, M. G., Eid, P. & Revel, M.
+(1994). Differential tyrosine phosphorilation of the
+IFNAR chain of the type I interferon receptor and
+an associated surface protein in response to IFNa
+and IFNb. EMBO J. 13, 5871-5877.
+Albeck, S. & Schreiber, G. (1999). Biophysical character￾ization of the interaction of the b-lactamase TEM-1
+with its protein inhibitor BLIP. Biochemistry, 38,
+11-21.
+Bandu, M.-T., Horisberger, M. A., Dorques, A., Lutfalla,
+G. & Mogensen, K. E. (1994). Domains of inter￾action between alpha interferon and its receptor
+components. J. Mol. Biol. 243, 245-257.
+Bazan, J. F. (1990). Structural design and molecular
+evolution of a cytokine receptor superfamily. Proc.
+Natl Acad. Sci. USA, 87, 6934-6938.
+Camble, R., Petter, N. N., Trueman, P., Newton, C. R.,
+Carr, F. J., Hockney, R. C., Moore, V. E., Greene,
+A. R., Holland, D. & Edge, M. D. (1986). Function￾ally important conserved amino-acids in interferon￾alpha 2 identi®ed with analogues produced from
+synthetic genes. Biochem. Biophys. Res. Commun. 134,
+1404-1411.
+Clackson, T., Ultsch, M. H., Wells, J. A. & deVos, A. M.
+(1998). Structural and functional analysis of the 1:1
+growth hormone:receptor complex reveals the mol￾ecular basis for receptor af®nity. J. Mol. Biol. 277,
+1111-1128.
+Cohen, B., Novick, D., Barak, S. & Rubinstein, M. (1995).
+Ligand-induced association of the type I interferon
+receptor components. Mol. Cell. Biol. 15, 4208-4214.
+Cunningham, B. C. & Wells, J. A. (1993). Comparison of
+a structural and a functional epitope. J. Mol. Biol.
+234, 554-563.
+de Vos, A. M., Ultsch, M. & Kossiakoff, A. A. (1992).
+Human growth hormone and extracellular domain
+of its receptor: crystal structure of the complex.
+Science, 255, 306-312.
+Domanski, P., Nadeau, O. W., Platanias, L. C., Fish, E.,
+Kellum, M., Pitha, P. & Colamonici, O. R. (1998).
+Differential use of the betaL subunit of the type I
+interferon receptor determines signaling speci®city
+for IFN a2 and IFN b. J. Biol. Chem. 273, 3144-3147.
+Guex, N. & Peitsch, M. C. (1997). SWISS-MODEL and
+the Swiss-PdbViewer: an environment for compara￾tive protein modeling. Electrophoresis, 18, 2714-2723.
+Harlos, K., Martin, D. M. A., O'Brien, D. P., Jones, E. Y.,
+Stuart, D. I., Polikarpov, I., Miller, A., Tuddenham,
+E. G. D. & Boys, C. W. G. (1994). Crystal structure
+of the extracellular region of human tissue factor.
+Nature, 370, 662-666.
+Isaacs, A. & Lindenmann, J. (1957). Virus interference I:
+the interferon. Proc. Roy. Soc. London ser. B, 147,
+258-267.
+Karpusas, M., Nolte, M., Benton, C. B., Meier, W.,
+Lipscomb, W. N. & Goelz, S. (1997). The crystal
+structure of human inteferon b at 2.2 AÊ resolution.
+Proc. Natl Acad. Sci. USA, 94, 11813-11818.
+Klaus, W., Gsell, B., Labhardt, A. M., Wipf, B. & Senn,
+H. (1997). The three-dimensional high resolution
+structure of human interferon alpha-2a determined
+by heteronuclear NMR spectroscopy in solution.
+J. Mol. Biol. 274, 661-675.
+Lewerenz, M., Mogensen, K. E. & Uze, G. (1998). Shared
+receptor components but distinct complexes for
+alpha and beta interferons. J. Mol. Biol. 282, 585-599.
+Livnah, O., Johnson, D. L., Stura, E. A., Farrell, F. X.,
+Barbone, F. P., You, Y., Liu, K. D., Goldsmith, M. A.,
+He, W., Krause, C. D., Pestka, S., Jolliffe, L. K. &
+Wilson, I. A. (1998). An antagonist peptide EPO
+receptor complex suggests that receptor dimeriza￾tion is not suf®cient for activation. Nature Struct.
+Biol. 5, 993-1004.
+Lu, J., Chuntharapai, A., Beck, J., Bass, S., Ow, A., De
+Vos, A. M., Gibbs, V. & Kim, K. J. (1998). Structure￾function study of the extracellular domain of the
+human IFN-a receptor (hIFNAR1) using blocking
+monoclonal antibodies: the role of domains 1 and 2.
+J. Immunol. 160, 1782-1788.
+Mitsui, Y., Senda, T., Shimazu, T., Matsuda, S. &
+Utsumi, J. (1993). Structural, functional and evol￾utionary implications of the three-dimensional crys￾tal structure of murine interferon beta. Pharmac.
+Ther. 58, 93-132.
+Muller, Y. A., Ultsch, M. H. & de Vos, A. M. (1996). The
+crystal structure of the extracellular domain of
+human tissue factor re®ned to 1.7 A resolution.
+J. Mol. Biol. 256, 144-159.
+Novick, D., Cohen, B. & Rubinstein, M. (1994). The
+human interferon alpha/beta receptor: characteriz￾ation and molecular cloning. Cell, 77, 391-400.
+Pearce, K. H., Jr, Cunningham, B. C., Fuh, G., Teeri, T.
+& Wells, J. A. (1999). Growth hormone binding af®-
+nity for its receptor surpasses the requirements for
+cellular activity. Biochemistry, 38, 81-89.
+Piehler, J. & Schreiber, G. (1999). Biophysical analysis of
+the interaction of human ifnar2 expressed in E. coli
+with IFNa2. J. Mol. Biol. 289, 57-67.
+Radhakrishnan, R., Walter, L. J., Hruza, A., Reichert, P.,
+Trotta, P. P., Nagabhushan, T. L. & Walter, M. R.
+(1996). Zinc mediated dimer of human interferon￾alpha 2b revealed by X-ray crystallography. Struc￾ture, 4, 1453-1463.
+Radhakrishnan, R., Walter, L. J., Subramaniam, P. S.,
+Johnson, H. M. & Walter, M. R. (1998). Crystal
+structure of ovine interferon-t at 2.1 AÊ resolution.
+J. Mol. Biol. 286, 151-162.
+Rani, S. M. R., Foster, G. R., Leung, S., Leaman, D.,
+Stark, G. R. & Ransohoff, R. M. (1996). Characteriz￾ation of beta-R1, a gene that is selectively induced
+by interferon-beta (IFN-beta) compared with IFN￾alpha. J. Biol. Chem. 271, 22878-22884.
+Rubinstein, S., Familletti, P. C. & Pestka, S. (1981). Con￾venient assay for interferons. J. Virol. 37, 755-758.
+Runkel, L., Pfeffer, L., Lewerenz, M., Monneron, D.,
+Yang, C. H., Murti, A., Pellegrini, S., Goelz, S., Uze,
+G. & Mogensen, K. (1998). Differences in activity
+between alpha and beta type I interferons explored
+by mutational analysis. J. Biol. Chem. 273, 8003-8008.
+Russell-Harde, D., Wagner, T. C., Perez, H. D. & Croze,
+E. (1999). Formation of a uniquely stable type I
+interferon receptor complex by interferon b depen￾dent upon particular interactions between IFNb and
+its receptor and independent of tyrosine phophory￾lation. Biochem. Biophys Res. Commun. 255, 539-544.
+Schreiber, G. & Fersht, A. R. (1996). Rapid, electrostatic
+assisted, association of proteins. Nature Struct. Biol.
+3, 427-431.
+Selzer, Z. & Schreiber, G. (1999). Predicting the rate
+enhancement of protein complex formation from
+the electrostatic energy of interaction. J. Mol. Biol.
+287, 409-419.
+Senda, T., Shimazu, T., Matsuda, S., Kawano, G.,
+Shimizu, H., Nakamura, K. T. & Mitsui, Y. (1992).
+236 Type I IFN Receptor Binding InterfaceThree-dimensional crystal structure of recombinant
+murine interferon-beta. EMBO J. 11, 3193-3201.
+Seto, M. H., Harkins, R. N., Adler, M., Whitlow, M.,
+Church, W. B. & Croze, E. (1995). Homology model
+of human interferon-alpha8 and its receptor com￾plex. Protein Sci. 4, 655-670.
+Sprang, S. R. & Bazan, J. F. (1993). Cytokine structural
+taxonomy and mechanisms of receptor engagement.
+Curr. Opin. Struct. Biol. 3, 815-827.
+Tymms, M. J., McInnes, B., Waine, G. J., Cheetham, B. F.
+& Linnane, A. W. (1989). Functional signi®cance of
+amino acid residues within conserved hydrophilic
+regions in human interferons-alpha. Antiviral Res.
+12, 37-47.
+Uze, G., Lutfalla, G. & Gresser, I. (1990). Genetic transfer
+of a functional human interferon a receptor into
+mouse cells: Cloning and expression of its cDNA.
+Cell, 60, 225-234.
+Uze, G., Lutfalla, G. & Mogensen, K. E. (1995). a and b
+interferons and their receptor and their friends and
+relations. J. Interferon Res. 15, 3-26.
+Velazquez, L., Mogensen, K. E., Barbieri, G., Fellous, M.,
+Uze?, G. & Pellegrini, S. (1995). Distinct domains of
+the tyrosine kinase Tyk2 required for high af®nity
+binding of alpha/beta IFNs and for signal transduc￾tion. J. Biol. Chem. 270, 3327-3334.
+Waine, G. J., Tymms, M. J., Brandt, E. R., Cheetham, F.
+& Linnane, A. W. (1992). Structure-function study
+of the region encompassing residues 26-40 of
+human interferon a4: Identi®cation of residues for
+antiviral and anti-proliferative activities. J. Interferon
+Cytokine Res. 12, 43-48.
+Walter, M. R., Windsor, W. T., Nagabhushan, T. L.,
+Lundell, D. J., Lunn, C. A., Zauodny, P. J. Z. &
+Narula, S. K. (1995). Crystal structure of a complex
+between interferon-gamma and its soluble high￾af®nity receptor. Nature, 376, 230-235.
+Wang, L., Hertzog, P. J., Galanis, M., Overall, M. L.,
+Waine, G. J. & Linnane, A. W. (1994). Structure￾function analysis of human IFN-alpha. Mapping of
+a conformational epitope by homologue scanning.
+J. Immunol. 152, 705-715.
+Edited by J. A. Wells
+(Received 9 July 1999; received in revised form 28 September 1999; accepted 28 September 1999)
+Type I IFN Receptor Binding Interface 237

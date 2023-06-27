@@ -1,0 +1,409 @@
+Electrostatic contributions drive the interaction between  Staphylococcus aureus protein Efb-C and its  complement target C3d  NURIT HASPEL,1,4 DANIEL RICKLIN,2,4 BRIAN V. GEISBRECHT,3,5 LYDIA E. KAVRAKI,1,5  AND JOHN D. LAMBRIS2,5  1  Department of Computer Science, Rice University, Houston, Texas 77005, USA  2  Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, Pennsylvania 19104,  USA  3  Division of Cell Biology and Biophysics, School of Biological Sciences, University of Missouri at Kansas City,  Kansas City, Missouri 64110, USA  (RECEIVED May 29, 2008; FINAL REVISION May 29, 2008; ACCEPTED July 28, 2008)  Abstract  The C3inhibitory domain of Staphylococcus aureus extracellular fibrinogen-binding protein (Efb-C)  defines a novel three-helix bundle motif that regulates complement activation.
+Previous crystallographic  studies of Efb-C bound to its cognate subdomain of human C3 (C3d) identified Arg-131 and Asn-138 of  Efb-C as key residues for its activity.
+In order to characterize more completely the physical and  chemical driving forces behind this important interaction, we employed in this study a combination of  structural, biophysical, and computational methods to analyze the interaction of C3d with Efb-C and the  single-point mutants R131A and N138A.
+Our results show that while these mutations do not drastically  affect the structure of the Efb-C/C3d recognition complex, they have significant adverse effects on both  the thermodynamic and kinetic profiles of the resulting complexes.
+We also characterized other key  interactions along the Efb-C/C3d binding interface and found an intricate network of salt bridges and  hydrogen bonds that anchor Efb-C to C3d, resulting in its potent complement inhibitory properties.
+  Keywords: proteins of the immune system; structure; computational analysis of protein structure;  molecular mechanics/dynamics; thermodynamics; hydrodynamics; complement; Efb-C; electrostatics  Supplemental material: see www.proteinscience.org  The remarkable ability of the human body to defend itself  against microbial intruders is predicated upon a myriad of  complex interactions between components of both the  innate and adaptive branches of the immune system.
+In  this respect, the complement system constitutes a vital  first-response mechanism that both quickly recognizes  and eliminates foreign cells while also stimulating the  downstream inflammatory and adaptive immune  responses that are essential to combating such infections.
+  The third complement component (C3)
+has long been  recognized as the central element in this cascade, since it  serves as a hub, where all three activation pathways  converge (classical, lectin, and alternative pathway), and  through which all downstream effector activities are  initiated (Sahu and Lambris 2001).
+In this process, native  C3 (184 kDa) is cleaved into its two active fragments,  C3a (9 kDa) and C3b (175 kDa), by multiprotein enzyme  complexes (C3 convertases).
+While the anaphylatoxin  C3a induces pro-inflammatory responses and may also  disrupt bacterial membranes (Nordahl et al. 2004), C3b is  covalently attached to hydroxyl- and amine-rich surfaces  ps036624 Haspel et al. ARTICLE RA  4  These authors contributed equally to this work.
+  5  These authors shared the supervision of this study.
+  Reprint requests to: John D. Lambris, University of Pennsylvania,  40 Stellar Chance, Philadelphia, Pennsylvania 19104, USA; e-mail:  Lambris@upenn.edu; fax: 215-573-8738.  Article and publication are at http://www.proteinscience.org/cgi/  doi/10.1110/ps.036624.108.
+  1894 Protein Science (2008), 17:18941906.
+Published by Cold Spring Harbor Laboratory Press.
+Copyright  2008 The Protein Society  JOBNAME: PROSCI 17#11 2008 PAGE: 1 OUTPUT: Saturday October 4 18:35:58 2008  csh/PROSCI/170215/ps036624in close proximity of sites of activation.
+This reactivity is  maintained by exposition and activation of a previously  buried thioester bond during the cleavage of C3 (Sahu and  Lambris 2001; Janssen et al. 2006).
+Opsonization by C3b  amplifies complement activation and leads to a number of  antimicrobial activities such as phagocytosis and formation of the pore-like membrane attack complex (MAC).
+In  order to control complement activation and prevent  opsonization of host cells, a set of regulators interfere  with the formation of convertase and MAC and degrade  C3b in a two-step process to C3c (135 kDa) and C3d (40  kDa).
+While the inactive C3c fragment is released from  the surface, the thioester-containing C3d remains firmly  attached and acts as a bridge to the adaptive response via  stimulation of B cells (Carroll 2000).
+  Throughout the millennia of co-evolution between  microorganisms and their human hosts, many pathogens  from diverse kingdoms of life have acquired an impressive and elaborate arsenal of immunomodulatory proteins.
+In this respect, the bacterium Staphylococcus  aureus expresses a particularly large cohort of evasion  proteins that inhibit several key aspects of the immune  response including complement (Foster 2005;
+Chavakis  et al. 2007; Lambris et al. 2008).
+The extracellularfibrinogen binding protein (Efb) is one of several complement inhibitors expressed by S. aureus.
+Aside from its  eponymous interaction with fibrinogen, the proteaseresistant, carboxy-terminal domain (Efb-C) of this 16-  kDa protein inhibits complement activation by interacting  with C3 and its thioester-containing fragments (C3b,  iC3b, C3d) (Lee et al. 2004a, b; Hammel et al. 2007b).
+  We recently reported the crystal structures of Efb-C  both free and bound to its cognate subdomain from C3  (i.e., C3d) (Fig. 1A; Hammel et al. 2007b).
+Subsequent  structure/function analysis demonstrated that binding of  Efb-C to either native C3 or C3b induced conformational  changes (Hammel et al. 2007b) that rendered these  proteins incapable of participating in downstream activities associated with the C3b-containing convertases of the  alternative pathway (Hammel et al. 2007b; Jongerius et al.  2007).
+Although the precise nature of these Efb-C-induced  conformational changes is not currently understood, their  importance was underscored by the identification of a  distinct S. aureus protein, Ehp, which appears to induce  similar changes that likewise, culminate in potent inhibition of alternative pathway associated convertases (Hammel et al. 2007a; Jongerius et al. 2007).
+Thus, it appears that  this alternative pathway-specific inhibitory mechanism,  defined originally by Efb-C, makes an important overall  contribution to evasion of complement by S. aureus.
+  Given the involvement of complement in many autoimmune, inflammatory, or ischemic diseases, inhibition  of the cascade at the level of C3 has long been considered  a promising therapeutic approach (Ricklin and Lambris  2007a).
+Owing to its high inhibitory potency, Efb-C  represents an attractive platform for the development of  complement-specific therapeutics.
+To approach this elusive goal, a comprehensive understanding of the Efb-C/  C3d interface in terms of both its structure and the precise  contributions of individual residues is of central importance.
+Previous structural analyses of the binding site  using both crystallographic and solution mass spectrometry methods have identified a surprisingly small number  of residues in Efb-C that form the cornerstone of this  kinetically and energetically stable complex (Hammel  et al. 2007b; Chen et al. 2008).
+Specifically, Arg-131 and  Asn-138 (highlighted in Fig. 1A) were found to form a  large number of discrete contacts with C3d, and simultaneous mutation of both residues to either alanine (RA/  NA) or glutamic acid (RE/NE) resulted in a complete loss  of both C3d binding and complement inhibition (Hammel  et al. 2007b).
+In addition, the atypically large overall  positive charge of Efb-C (pI  10) and the location of its  binding site at the periphery of an evolutionarily conserved and predominantly acidic pocket on C3d (Nagar  et al. 1998) suggested that there may be a substantial  electrostatic contribution to either forming and/or maintaining this inhibitory complex.
+Although such electrostatic interactions are not uncommon in proteinprotein  interactions, they are paramount in a number of key  Figure 1.
+Impact of alanine mutations at Efb-C residues Arg-131 and  Asn-138 on the crystal structure of the Efb-C/C3d complex.
+(A) Cartoon  representation of the cocrystal (PDB accession code 2GOX) between  human C3d (pale blue) and wild-type Efb-C (spectrum).
+The three helices  of Efb-C (a1, a2, a3) and the sites of mutation (R131 and N138; stick  representation) are highlighted in the structure.
+(B) Aligned backbone  traces of the crystallized C3d complexes with Efb-C wild type (blue) as  well as mutants R131A (green) and N138A (red).
+No significant changes  in the overall structure could be detected between the three complexes,  suggesting that the mutations do not induce any significant conformational  changes at the Efb-C/C3d interface.
+Snapshots of the Efb-C conformations  in the equilibrated state (blue) and after 20 nsec of the simulation (red): (C)  wild type, (D) R131A, and (E) N138A. Although the entire complex was  simulated, only Efb-C is shown here for clarity, as C3d exhibited relatively  little change during the simulation.
+  Electrostatics drive C3d/Efb-C interaction  www.proteinscience.org 1895  JOBNAME: PROSCI 17#11 2008 PAGE: 2 OUTPUT: Saturday October 4 18:35:59 2008  csh/PROSCI/170215/ps036624  Fig. 1 live 4/Cinteractions involving C3 and other proteins of the  complement system (Morikis and Lambris 2004; Sfyroera  et al. 2005).
+Finally, mutation of the two key residues also  could have altered the local structure of the Efb-C protein,  and their simultaneous replacement might have led to  synergistic or deleterious effects.
+  To further define the driving forces behind this important proteinprotein interaction, we employed a multidisciplinary combination of structural, biophysical, and  computational methods to analyze the energetics and  kinetics of the C3d interaction with wild-type Efb-C  and its single mutants R131A and N138A.
+While the  conformational arrangement of individual complexes was  assessed by X-ray crystallography, we used isothermal  titration calorimetry (ITC) and surface plasmon resonance (SPR) to study the influence of individual mutations on the thermodynamic interaction profile and the  complex formation/stability, respectively.
+Furthermore,  an ensemble of computational approaches allowed us to  characterize the short-range time-related behavior of the  Efb-C/C3d complexes, estimate their free energy of  binding, and identify additional pairwise interactions in  the binding interface.
+Our results not only confirm the  importance of each of the individual key residues but also  demonstrate that electrostatic contributions are highly  important for the interaction of the bacterial inhibitor  with its target in the complement system.
+In this respect,  our study represents a valuable contribution to both the  characterization of molecular complement evasion mechanisms and the development of Efb-based therapeutics.
+  Results  Loss of the Efb-C side chains at positions Arg-131  and Asn-138 does not significantly influence the structure  of their complexes with C3d  To address the molecular basis of the Efb-C/C3d interaction more thoroughly, we expressed and purified the  Efb-C single mutants R131A and N138A. Although prior  studies revealed that loss of both residues simultaneously  resulted in a nonfunctional Efb-C protein (Hammel et al.  2007b), both of these mutants form stable 1:1 complexes  with C3d that could be efficiently reconstituted and  isolated by gel-filtration chromatography (data not  shown).
+Further, each of these complexes produce crystals in the space group P41 that diffracted to 2.3 A  (R131A) and 2.1 A (N138A) limiting resolution, both  of which are comparable to those produced by wild-type  Efb-C (Table 1; Fig. 1A).
+The resulting structures were  solved by molecular replacement and the refined models  were superimposed upon the wild-type Efb-C complex  (Table 1; Fig. 1B; Hammel et al. 2007b).
+Analysis of  structural deviations by inspection revealed that neither  the Efb-C nor C3d polypeptides in either complex showed  any significant change in their overall structures.
+Consequently, the calculated root mean square deviation  (RMSD) values for the Ca positions between the mutant  and wild-type complexes were very low (0.12 A and 0.24  A for R131A and N138A, respectively).
+Together, these  findings demonstrate that loss of the side chain alone at  either of these C3d contact sites is insufficient to perturb  the overall structure of the resulting complexes.
+  Although crystallographic analysis is an invaluable tool  in understanding macromolecular interactions, important  but subtle changes in protein conformation and dynamics  may be undetectable in many cases due to the static  nature of the technique.
+Thus, to approach these issues  from an independent perspective, we used a 20-nsec  molecular dynamics (MD) simulation to analyze changes  in the structures of the mutant Efb-C complexes.
+Figure  1CE shows the Efb-C wild type and two mutants in the  equilibrated state and at the end of the simulation.
+Notice  that while the entire Efb-C/C3d complex was simulated,  C3d is omitted from the figure for clarity.
+Both the wild  type and the mutants became structurally rearranged to an  extent.
+In all three cases, the N-terminal loop and the a2  a3 loop, which is close to the binding site and connects  helices a2 and a3, represented the most flexible areas.
+  Table 1.
+Data collection statistics, structure determination,  and refinement  R131A/C3d N138A/C3d  Data collection  Space group P41 P41  Unit cell dimensions (A ) a  b  90.89,  c  122.83  a  b  91.01,  c  120.52  Complete complexes/ASU 2 2  Resolution limits (A ) 502.3 502.1  Completeness (%) 99.7 (98.9) 99.6 (96.8)  Unique reflections 45,612 56,794  Redundancy 3.8 3.6  Rmerge (%)a 10.0 (41.3) 10.3 (41.5)  I/sI 12.2 (3.0) 10.4 (2.5)  Refinement statistics  Rcryst/Rfree (%)b 20.4/21.8 21.8/24.1  RMSD from ideality  Bond length (A ) 0.007 0.006  Bond angle () 1.304 1.174  Ramachandran core  (disallowed) (%) 92.2 (0) 92.8 (0)  Average B factor, all atoms (A 2  ) 42.4 41.1  Average B factor, solvent (A 2  ) 37.3 38.4  Protein atoms modeled 5712 5718  Ordered solvent molecules 140 150  a  Rmerge  ShSi|Ii(h)  I(h)|/ShSiIi(h), where Ii(h) is the ith measurement  of reflection h and I(h) is a weighted mean of all measurements of h. b  R  Sh|Fobs(h)  Fcalc(h)|/Sh|Fobs|.
+Rcryst and Rfree were calculated from the  working and test reflection sets, respectively.
+The test set constituted 5%  of the total reflections not used in refinement.
+  Haspel et al.  1896 Protein Science, vol. 17  JOBNAME: PROSCI 17#11 2008 PAGE: 3 OUTPUT: Saturday October 4 18:36:15 2008  csh/PROSCI/170215/ps036624Nevertheless, simulation trajectories revealed that both  the wild-type Efb-C and the mutants in question could  form structurally stable complexes, which is consistent  with the experimental data presented above.
+As might be  expected from loss of these contributing side chains, the  potential energy estimate for the native complex is  significantly lower than that of N138A/C3d, which in  turn is lower than R131A/C3d (Fig. 2A).
+Investigation of  the RMSD evolution during the MD simulation time  course can also be an informative approach for comparison of the wild-type and mutant Efb-C/C3d complexes.
+  In the case of the C3d component, the protein maintained  essentially the same structure throughout the simulation  as judged by an RMSD of ;23.5 A in all three  complexes (Fig. 2B).
+The Efb-C proteins were also rather  stable structurally and remained mostly within 1.52 A  throughout the course of the simulation (Fig. 2C).
+  The R131A and N138A mutations affect both  the thermodynamic and kinetic profiles of Efb-C  interaction with C3d  Though the final differences in the a2a3 loop conformation observed in the Efb-C mutants appeared minor,  they nevertheless suggested that the loss of these side  chains might affect additional biochemical properties that  govern either the association or dissociation of the  complex.
+As a result, we examined the impact of both  the R131A and N138A mutations on the thermodynamic  and kinetic profiles of the Efb-C/C3d interaction through  ITC and SPR, respectively.
+Both mutants show significant  calorimetric binding that could be fit to a single set of  sites with 1:1 stoichiometry, though each is significantly  weaker than that reported for wild-type Efb-C, but not as  diminished as the previously studied R131A/N138A  double mutant (Fig. 3A; Hammel et al. 2007b).
+This loss  in affinity is slightly larger for R131A (13-fold) than for  N138A (10-fold), with the enthalpy following the same  trend (2.2- and 1.5-fold, respectively).
+Extraction of the  relevant thermodynamic constants (DG, TDS; Table 2) for  each titration revealed that both enthalpic and entropic  terms are responsible for the observed affinity differences.
+The clear effect on the enthalpy values is consistent  with a reduction in the number or quality of individual  contacts at the binding site, whereas the increase in binding  entropy, on the other hand, may be due to entropy/enthalpy  compensations in the weakened complex.
+  We further estimated the average free energy of binding for the three complexes obtained by the MD simulations using the mm-pbsa/gbsa approach implemented in  the AMBER package (Kollman et al. 2000).
+Table 3  shows the computational estimate of free energy for all  the simulated complexes and the decomposition of the  free energy according to individual components.
+While  all three complexes show favorable binding, the free  energy estimate for the native complex is significantly  lower than the N138A mutant, which in turn is lower than  the R131A mutant.
+Even though the absolute values for  DH deviate significantly from the ITC-derived constants,  the relative differences closely reflect the trend observed  in the biophysical analysis (Tables 2 and 3).
+The discrepancy in the absolute numbers for DH and DG can largely  be attributed to the approximations used in the simulation, such as implicit solvent and interaction distance  cutoff (see Materials and Methods).
+It should be noted  that the General Born (GB) approximation is known to  underestimate the free energy due to inaccuracies in  estimating the first solvation shell effects (Bonnet and  Bryce 2005).
+GB deviates from the slower but more  accurate Poisson-Bolzmann approach, especially when  calculating the free energies of species with net charge  (Edinger et al. 1997), such as these complexes.
+The  differences between the experimental observations and  the calculations could be decreased by changing the igb  parameter of the mm-pbsa/gbsa program to 5 (Onufriev  et al. 2004).
+However, we found that in that case the error  was in the order of magnitude of the calculated energy.
+  Entropy calculations are not included in this section:  They are extremely demanding computationally, especially for a system this size, and the protocol we used  provides only a very rough approximation (see Materials  Figure 2.
+Evolution of the RMSD and potential energy of the different  components of the wild type and the two mutant complexes during the  simulation.
+(A) Potential energy plot of the three complexes during the  simulation.
+The RMSD of C3d (B) and Efb-C (C) were measured with  respect to the minimized C3d and Efb-C of each one of the complexes,  respectively.
+Hydrogen atoms were not included in the measurement.
+  There is a difference in scale on the y-axis between A, B, and C.  Electrostatics drive C3d/Efb-C interaction  www.proteinscience.org 1897  JOBNAME: PROSCI 17#11 2008 PAGE: 4 OUTPUT: Saturday October 4 18:36:16 2008  csh/PROSCI/170215/ps036624and Methods).
+Decomposition of the free energy into  individual components allowed further conclusions about  the nature of the Efb-C/C3d interaction.
+In agreement  with our previous observations (Hammel et al. 2007b) and  the resulting binding hypothesis, the electrostatic component (Eelec) dominates the binding in all cases (Table 2).
+  While van der Waals contributions (EVdW) still play a  significant role, their absolute values are significantly  lower.
+As expected, the electrostatic energy is more  affected by the R131A than by the N138A mutation  (34% and 15% decrease, respectively).
+  The loss of the Arg-131 and Asn-138 side chains results in  pronounced effects on the thermodynamic stability of the  Efb-C/C3d complex.
+In principle, these effects may be due  to disruption of either association or dissociation of the  complex; therefore it seemed reasonable that they may also  be manifested as changes in the kinetic rate constants  associated with this interaction.
+To test this hypothesis, we  compared the kinetic profiles of the mutant and wild-type  complexes by SPR.
+Analysis of the C3d interaction with  immobilized Efb-C proteins reveals the same affinity ranking as ITC (Table 2).
+Furthermore, the calculated Kd values  correspond closely between the two methods (which served  as an internal validation of the results).
+All three interaction  sets were clearly concentration dependent and show a close  fit to a Langmuir 1:1 kinetic model (Fig. 3BD).
+A direct  comparison of the kinetic rate constants (Table 2) reveals  that the dissociation rate constants (koff), which are closely  linked to the stability of the established complex, are  affected to a far greater extent by the binding-site mutations  than are the association rate constants (kon).
+Similarly to the  other thermodynamic parameters, the effects on the kinetic  rate constants follow a common trend, but are more  pronounced for the R131A when compared to the N138A  mutant.
+In sum, these kinetic data strongly suggest that  complex destabilization by a reduced contact network is the  driving force behind the loss in affinity, as opposed to a  disruption in complex formation.
+  Binding properties of Efb-C are influenced  by electrostatic changes  Based on the energy calculations in this study and on  previous reports (Hammel et al. 2007b; Chen et al. 2008),  we hypothesized that the binding of Efb-C to C3d is  predominantly electrostatic in nature.
+As shown by the  electrostatic potential surfaces of C3d, Efb-C and its  N138A and R131A mutants at the equilibrated state (Fig.  4AC), Efb-C and the two mutants are characterized by a  large cloud of positive charge around most of a1 and a2  helices and the a2a3 loop in the direction of the binding  region with C3d.
+A smaller cloud of negative charge  encompasses helix a3.
+C3d is an overall neutral molecule,  but the charge is well separated so that the area around its  binding site is negative (as seen in Fig. 4D).
+This creates  strong electrostatic attraction that enables initial binding.
+  In order to further test the influence of electrostatic  contributions to the formation and stability of the Efb-C/  C3d complex, we repeated the kinetic experiments in  running buffers of increasing NaCl concentration (10 mM  sodium phosphate, 75600 mM sodium chloride).
+As  shown in Figure 5, each doubling of the salt concentration  had a direct effect on the signal intensity and binding  Figure 3.
+Characterization of the binding properties between C3d and  three Efb-C proteins (wild type, R131A, and N138A) by ITC (A) and SPR  (BD).
+(A) Calorimetric determination of the binding enthalpy and affinity  by injecting Efb-C proteins (150 mM) into C3d (12 mM).
+(BD) Kinetic  profiling of Efb-C wild type (B), R131A (C), and N138A (D) by injecting a  twofold C3d dilution series (0.2722 nM) over immobilized Efb-C  proteins (215240 RU).
+Black lines represent processed SPR binding  signals that have been fitted to Langmuir 1:1 kinetic models (red lines).
+  Binding constants from both the ITC and SPR experiments are summarized in Table 2.
+  Haspel et al.  1898 Protein Science, vol. 17  JOBNAME: PROSCI 17#11 2008 PAGE: 5 OUTPUT: Saturday October 4 18:36:28 2008  csh/PROSCI/170215/ps036624  Fig. 3 live 4/Ckinetics (a more detailed analysis of the kinetic changes is  available in Supplemental Figures 1 and 2).
+In case of the  wild type, the increase in ionicity mostly affected the  association phases, with the highest complex formation at  lowest NaCl concentration.
+The dissociation phase, on the  other hand, was generally less influenced in the wild type,  and a salt increase from 75 to 300 mM even seemed to  slightly enhance complex stability.
+Interestingly, both  mutants showed a different sensitivity toward ionic  strength than the wild-type Efb-C. Here, increasing salt  concentration seemed to weaken the complex (manifesting in a faster dissociation rate) while the effects on the  complex association are less clear.
+However, the lower  binding intensities and the resulting unfavorable signalto-noise ratio make an accurate assessment of these trends  more difficult than for the wild type.
+  When considering the large effects on the association  rates, electrostatic complementarity and attraction seem  to be of high importance for the initial complex formation  in the wild type.
+While Arg-131 (and Asn-138) may  contribute to this effect to some extent, they do not seem  to be essential in these assembly steps.
+This suggests that  the overall electrostatic potential, which is still highly  positive in both mutants, rather than individual ion pairs  at the binding interface, is important in this context.
+Arg131 and Asn-138 are not essential to the initial binding,  but once the complex is formed, both residues are crucial  for maintaining its stability.
+This observation is in good  agreement with the theory of electrostatic steering, in  which long-range electrostatic effects are mainly responsible for enhancing complex formation based on electrostatic complementarity of the binding partners, while  short-range electrostatics formed by individual ion pairs  and H-bonds mainly influence the stability of the complex (Sinha and Smith-Gill 2002).
+  A network of interactions along the binding interface  contributes to the strong complex binding  The observation that Arg-131 and Asn-138 serve to  stabilize Efb-C/C3d from dissociation, but are not sufficient to the formation of this interaction suggested that  additional residues donated by Efb-C may serve important, yet unappreciated roles in maintenance of this  complex.
+To further describe the binding interface and  to identify additional key residues, we estimated the  contributions of individual amino acids and pairwise  interactions to the free energy of binding using MD and  the mm-pbsa/gbsa approach described above (Kollman  et al. 2000).
+These methods enabled the decomposition of  the overall binding free energy into individual contributions per residue or interaction pair, which in turn  permitted the estimation of the associated free energy.
+  This estimate can help prioritize which residues and  interactions contribute most to the binding of Efb-C to  C3d and can be used as a basis to identify molecular  motifs that capture the essential components necessary  for recapitulating Efb-C/C3d binding.
+Figure 6 shows the  individual contributions to the complex binding for each  residue of C3d (Fig. 6A) as well as for wild-type Efb-C  (Fig. 6B) and the two mutants (Fig. 6C,D).
+Detailed  energy values of all the residues in Efb-C and on the  binding loops of C3d are provided in Supplemental  Tables 1 and 2.
+Notice that these calculations focused  on individual contributions and are distinct from the total  free energy calculations done previously in this section.
+  Table 2.
+Binding constants of C3d interactions with Efb-C and its R131A and N138A mutants by isothermal titration calorimetry (ITC)  and surface plasmon resonance (SPR)  Efb-C species Kd ITC (nM) DH (kcal/mol) TDSa (kcal/mol) DGa (kcal/mol) kon (105 M1  sec1  ) koff (104 sec1  ) Kd SPR (nM)  Wild type 2 6 1 8.5 3.4 11.9 4.04 6 0.96 5.63 6 0.94 1.4 6 0.1  R131A 26 6 6 3.9 6.4 10.3 13.3 6 8.5 687 6 188 62.1 6 32.4  N138A 19 6 4 5.5 5.0 10.5 12.0 6 6.6 214 6 45 19.8 6 6.0  a  Calculated from the equation DG  DH  TDS  RT ln Kd with T  298.15 K (25C).
+  Table 3.
+Free energy of binding for the three complexes by analyzing the molecular dynamics trajectory using the mm-pbsa/gbsa  approach  Efb-C species Evdw Eelec EMM,totala Gsolv DHb  Wild type 130.87 6 8.92 1019.34 6 56.50 1150.21 6 56.92 1039.15 6 49.36 111.06 6 15.58  R131A 119.66 6 9.04 755.77 6 55.79 875.43 6 57.40 781.18 6 52.25 94.25 6 14.96  N138A 126.73 6 9.20 885.18 6 60.45 1011.91 6 63.38 905.85 6 60.03 106.06 6 13.11  All measurements are in kcal/mol.
+  a  Calculated from the equation EMM,total  EVDW + Eelec.
+b  Calculated from the equation DH  EMM,total + Gsolv.
+  Electrostatics drive C3d/Efb-C interaction  www.proteinscience.org 1899  JOBNAME: PROSCI 17#11 2008 PAGE: 6 OUTPUT: Saturday October 4 18:36:56 2008  csh/PROSCI/170215/ps036624In order to limit the computational effort, no entropy  calculations were included in this approach.
+Notable  contributing residues are labeled in Figure 6.
+As  expected, the most contributing residues on C3d are  located on the three binding loops, approximately encompassing residues 10291050, 10891098, and 11571166,  respectively.
+On Efb-C, the majority of the contributing  amino acids are located on helix a2, which has the largest  interface with C3d.
+Other significantly contributing residues are Lys-106, Lys-110, and Arg-165, all of which  participate in multiple salt bridges with negative residues  on the C3d molecule.
+A number of hydrophobic residues  (e.g., Val-127 in Efb-C or Ile-1095 in C3d) also contribute significantly to the binding energy, which can be due  to either hydrophobic interactions or to H-bonds involving their backbone.
+With the exception of the mutated  residues themselves, the individual contributing residues  in the N138A and R131A mutants show a pattern very  similar to wild-type Efb-C. In agreement with the experimental data, the contribution of Arg-131 to the overall  binding was found to be exceptionally strong.
+As seen in  Figure 6B,C, disruption of this amino acid impairs  complex stability, as demonstrated in the less favorable  binding energy of the R131A complex.
+Apparently, Asn138 contributes less to the binding than Arg-131.
+  Significant pairwise contributions to the interaction  free energy and a full map of all the interactions involving  the three binding loops of C3d are represented in Table 4  and Figure 7, respectively.
+Each dot in the figure  represents a notable interaction, where only interactions  with calculated energies lower than 1.5 kcal/mol are  shown.
+The colors of the dots represent the strength of the  interaction and lie on the redblue range, where shades of  red indicate a weaker interaction and shades of blue  indicate a stronger interaction.
+Here, as with the individual contributions, entropy was not calculated.
+Notably,  previously identified contact residues on Efb-C (Lys-106,  Lys-110, Arg-131, Lys-135, Asn-138, Lys-148) (Hammel  et al. 2007b) were also found to provide notable contributions in the in silico study, further validating our  results.
+In addition to these known interactions we found  other significant interactions, mainly salt bridges and Hbonds, the most important of which are summarized in  Table 4.
+Notice that many of the interactions are bifurcated, i.e., with two or more adjacent amino acids  involved.
+In this case the energy shown in the table is  the sum of the two or more interactions.
+For example,  the last entry in the table is the sum of two interactions:  Figure 4.
+Electrostatic potential surfaces of wild type Efb-C (A), N138A  mutant (B), R131A mutant (C), and C3d (D).
+Iso-surfaces are shown at  61 kT/e.
+Red indicates negative charge and blue indicates positive charge.
+  The molecules are drawn as ribbons.
+  Figure 5.
+Electrostatic titration experiment using SPR.
+C3d (22 nM) was  injected over immobilized Efb-C proteins (wild type, R131A, and N138A)  in 10 mM phosphate buffer (pH 7.4) of increasing sodium chloride  concentration (75, 150, 300, 600 mM NaCl).
+The influence of buffer  ionicity is clearly visible in the absolute signal intensity of the SPR  response at constant C3d concentration (left panels).
+In order to better  visualize the differential effect on association and dissociation phase, the  signals have been normalized at injection end (300 sec) by adjusting  the maximum intensity to 100 RU (right panels).
+In the case of R131A, the  curve at highest salt concentration has not been normalized due to the lack  of detectable binding.
+  Haspel et al.  1900 Protein Science, vol. 17  JOBNAME: PROSCI 17#11 2008 PAGE: 7 OUTPUT: Saturday October 4 18:36:57 2008  csh/PROSCI/170215/ps036624  Figs. 4,5 live 4/CArg-165/Glu-1032 and Arg-165/Glu-1035, both present  at the same time.
+  The visible pattern emerging from the interaction  analysis suggests that nearly every residue on Efb-C that  faces the binding site is charged or capable of H-bonding,  and involved in some significant interaction.
+Since Efb-C  is a helical protein, nearly one in every three or four  residues faces the binding site.
+It is interesting to note that  the interactions with the largest energetic contribution  (Lys-106,110/Glu-1159,1160, Arg-131/Asp-1029,Glu-1030,  Lys-148/Asp-1096, and Arg-165/Glu-1032,1035; highlighted  in boldface in Table 4) are building four networks of salt  bridges.
+These are located on helix a1, helix a2, the a2a3  loop, and the C terminus, respectively (see also Fig. 1 for  the definition of the helices).
+The corresponding residues in  C3d are located on the three binding loops.
+Therefore, these  networks of salt bridges anchor the Efb-C to the three  binding site loops of C3d very strongly (Fig. 7D).
+The  identification of several pairs with similar or even lower  binding energies (Table 4) suggests that disruption of these  other interactions may have similar effects.
+  Discussion  Previous work on the Efb-C/C3d co-crystal structure  identified Arg-131 and Asn-138 as two residues within  Efb-C that are crucial for the affinity and activity of this  bacterial inhibitor (Hammel et al. 2007b).
+Furthermore,  the Efb-C binding site was localized to an area on the C3d  surface within close proximity to a highly conserved,  acidic pocket (Nagar et al. 1998).
+The strong positive  overall charge of Efb-C led to the hypothesis that this  interaction is largely driven by electrostatic contributions.
+  In this study we characterized the contribution of various  structural, thermodynamic, and kinetic aspects to the  interaction and how they are influenced by mutation of  the key residues.
+Both the computational and biophysical  analysis of the individual complexes showed that neither  of the mutations studied here significantly affected the  overall structure of either Efb-C or its complex with C3d.
+  However, both Efb-C mutants (R131A, N138A) displayed a  reduced affinity for their C3d target.
+This effect is clearly  derived from a reduction of individual contacts (e.g., Hbonds and salt bridges), which is manifested on a macromolecular level by a loss of complex stability, as judged by  an increase in observed dissociation rates following mutation.
+Furthermore, in agreement with our considerations of  the electrostatic complementarity between the largely  cationic Efb-C and the negatively charged acidic pocket  Figure 6.
+Energetic contribution of individual residues to the binding  energy of the C3d/Efb-C complex: (A) C3d, (B) wild-type Efb-C, (C) EfbC N138A, (D) Efb-C R131A.
+Notice the difference in scale in the y-axis.
+  Notable contributions are indicated in the figures.
+Only the C3d molecule  of the wild-type Efb-C/C3d complex is shown in panel A. The C3d  molecules of the N138A and R131A mutants were omitted, as they show a  very similar pattern.
+Table 4.
+Contribution to free energy of binding by the most  contributing specific pairwise interactions  Interaction pair residues Free energy of binding (kcal/mol)  Efb-C C3d Wild type N138A R131A  R131 D1029,E1030 19.53 17.67 N/A  R131 N1091 3.41 4.49 N/A  N138 I1093,A1094,I1095 5.37 N/A 6.81  K135 D1156 5.80 4.58 6.51  K145 D1156 7.33 4.02 2.97  K148 I1095,D1096,S1097 10.08 13.17 13.07  D156 K1050 6.30 2.48 4.67  K106 E1159,E1160 11.51 9.46 8.03  K110 E1159,E1160 9.86 8.34 7.41  R165 E1032,E1035 21.52 20.36 12.26  T126,V127 D1029-E1032 18.87 8.12 1.77  In each interaction, the first set of amino acids belongs to Efb-C and  the second to C3d.
+Where the interaction is bifurcated, the sum of the  individual interactions is shown.
+Only interactions that appear in all the  three complexes (not including mutated residues) or interactions whose  energy is lower than 4 kcal/mol are displayed in the table.
+Particularly  strong interactions (approximately 10 kcal/mol or less) are shown in  bold.
+The complete set of pairwise interactions with binding energies  below 1.5 kcal/mol is shown in Figure 7.
+  Electrostatics drive C3d/Efb-C interaction  www.proteinscience.org 1901  JOBNAME: PROSCI 17#11 2008 PAGE: 8 OUTPUT: Saturday October 4 18:37:31 2008  csh/PROSCI/170215/ps036624within C3d, the long-range electrostatic contributions were  found to play a major role in the initial encounter of the  complex.
+Mutation of Arg-131 and Asn-138 affected the  overall electropositive potential of Efb-C only slightly, and  the observed effects on complex formation were similarly  minor, as judged by the comparable kinetic on-rates for all  Efb-C proteins investigated here.
+Supporting these results, a  dominant contribution of electrostatic components to the  binding energy and a pronounced effect of the N138A, and  especially R131A mutation on the electrostatic energy,  were also revealed through MD simulations.
+  Similar ionicity-dependent effects on binding kinetics  have been shown for other interactions in the complement  system, such as the binding of components C2 and C4b  (Laich and Sim 2001) or the recognition of C3d by  complement receptor 2 (CR2) (Sarrias et al. 2001).
+In  the latter case, mutation studies (Clemenza and Isenman  2000; Hannan et al. 2005), as well as computational  (Morikis and Lambris 2004) and structural analyses  (Nagar et al. 1998; Szakonyi et al. 2001; Gilbert et al.  2005), all confirmed the large involvement of electrostatic  contributions, although with some discrepancies on the  exact localization of the interaction site.
+Another impressive example of electrostatic interactions between microbial evasion proteins and their target in the complement  systems has been reported for the viral inhibitors VCP  (vaccinia virus complement control protein) and SPICE  (smallpox inhibitor of complement enzymes), where differences in the electrostatic potential between these highly  similar proteins seem to be responsible for a 1000-fold  difference in their inhibitory functions (Sfyroera et al.  2005).
+These examples further undermine the importance  of electrostatic attraction and ion pair networks for the  function and attenuation of the complement system.
+  Detailed computational analysis of pairwise interactions not only reiterated the importance of Arg-131 and  Asn-138, but also allowed us to identify potential contributions of other residues for the interaction between  Efb-C and C3d.
+The majority of these residues were  found to form H-bonds and salt bridges, which presumably contribute to the stability of the complex.
+However,  some of the identified interaction pairs are predominantly  hydrophobic or involve the backbones of hydrophobic  residues.
+In many cases, these interactions involve residues that at first glance did not appear to be essential  for either formation or maintenance of the Efb-C/C3d  Figure 7.
+Contribution of pairwise interactions to the binding energy of the native C3d/Efb-C. Each panel depicts the interactions  involving one of the three binding loops of C3d, i.e., residues 10291050 (A), 10891098 (B), and 11571166 (C).
+Favorable  interactions are displayed in different shades on the redblue scale with blue shades indicating lowest energy (see color bar).
+While  interactions with energies higher than 1.5 kcal/mol are not shown, some very low energy values were truncated at 8 kcal/mol up to  allow clearer display.
+(D) Some of the favorable interactions between C3d (pink) and wild-type Efb-C (green).
+These interactions are  marked in boldface in Table 4.
+  Haspel et al.  1902 Protein Science, vol. 17  JOBNAME: PROSCI 17#11 2008 PAGE: 9 OUTPUT: Saturday October 4 18:37:46 2008  csh/PROSCI/170215/ps036624  Fig. 7 live 4/Ccomplex.
+Thus, in conjunction with our previous mass  spectrometry-based experiments that identified binding  areas outside the visible range of the cocrystal structure  (Chen et al. 2008), the approaches and results presented  here constitute a valuable extension in our understanding  of the Efb-C/C3d interface.
+In addition to facilitating a  systematic mutagenesis of these residues, this work also  highlights the highly cooperative framework that drives  specific proteinprotein interactions.
+  The multifaceted and highly efficient actions of  the human complement system are maintained by a  host of carefully timed and regulated enzymatic cleavages  and proteinprotein interactions (Ricklin and Lambris  2007b).
+But despite large efforts by academic and pharmaceutical groups, targeted inhibition of these proteases has  not led to successful clinical therapeutics.
+As a consequence, recent progress in the field has focused mainly on  the disruption of proteinprotein interactions, with the  successful marketing of a complement-specific antibody in  2007 (Ricklin and Lambris 2007a).
+Though biopharmaceuticals (e.g., monoclonal antibodies and soluble proteins) will continue to provide a majority of protein  protein interaction inhibitors, recent reports have also  suggested that peptides and small molecules may well be  capable of modulating large interaction interfaces when  binding to so-called hot spots (Wells and McClendon  2007).
+To design smaller and less immunogenic peptides  that mimic the function of naturally occurring inhibitory  proteins such as Efb-C, a detailed knowledge of the  residues found at such hot spots in terms of their physicalchemical contributions to these interactions is essential.
+Though the work presented here will certainly guide  optimization of Efb-C-based complement inhibitors, it also  demonstrates more generally that employment of a multidisciplinary approach in interface analysis and inhibitor  design can provide valuable information complementary  to more traditional structural and combinatory-based  efforts.
+  Materials and Methods  Preparation of recombinant proteins  A recombinant form of human complement fragment C3d was  expressed and purified according to a previously described  adaptation of the original procedure of Nagar et al. (Nagar  et al. 1998; Hammel et al. 2007b).
+Plasmids encoding sitedirected alanine mutations of Efb-C residues Arg-131 (R131A)  or Asn-138 (N138A) were prepared using a two-step megaprimer method as previously described (Hammel et al. 2007b).
+  All forms of Efb-C used during these studies were expressed and  purified in a manner identical to that used in preparation of  wild-type Efb-C (Hammel et al. 2007b).
+Prior to further  analysis, the structural integrity of all mutant proteins was  assessed by circular dichroism spectropolarimetry.
+  Crystallization, X-ray diffraction analysis, structure  solution, and refinement  Crystallization of C3d-bound complexes for both the R131A  and N138A mutants of Efb-C was performed identically to that  for wild-type Efb-C (Hammel et al. 2007b).
+Briefly, protein  complexes were reconstituted by incubating 1:2 molar ratios of  purified C3d with the respective Efb-C mutant for 10 min at  room temperature.
+Following removal of residual Efb-C by gel  filtration chromatography, the isolated complexes were dialyzed  against double-deionized water and concentrated to 3.8 mg/mL  and 5.1 mg/mL total protein for the R131A and N138A  complexes, respectively.
+Cube-shaped crystals were obtained  within 35 d at room temperature by vapor diffusion of hanging  drops that consisted of 1 mL protein solution and 1 mL 60%  tacsimate, pH 7.0, and that were equilibrated over a well  solution of 60% tacsimate, pH 7.0.
+  Following harvest, crystals were soaked briefly in a solution of  100% tacsimate, pH 7.0, and flash frozen in liquid nitrogen.
+All Xray diffraction analyses of frozen crystal samples were performed at  SER-CAT beamline 22-ID at the Advanced Photon Source of  Argonne National Laboratory.
+Cell content analyses in the tetragonal  space group P41 were consistent with two unique complexes in the  asymmetric unit of each cocrystal.
+As a result, both structures were  solved by molecular replacement (MOLREP) using a search model  comprised of both complete Efb-C/C3d complexes present in the  refined asymmetric unit of the wild-type structure (PDB accession  code 2GOX) (Collaborative Computational Project Number 4 1994).
+  Refinement was conducted in a stepwise fashion using the rigid-body,  conjugate gradient minimization and individual B-factor protocols of  CNS, followed by a final round of solvent addition using the same  software suite (Brunger et al. 1998).
+Complete details regarding areas  of weak/missing density and corresponding residues that could not be  modeled can be found in the respective PDB (Bernstein et al. 1977)  files.
+The refined coordinates and structure factors for each complex  have been deposited in the PDB under accession codes 3D5R  (N138A/C3d) and 3D5S (R131A/C3d).
+  Coordinate superpositions of the refined wild-type and mutant  Efb-C/C3d complexes were prepared using the Local/Global  Alignment method and default parameters (http://as2ts.llnl.gov/)  (Zemla 2003).
+Following this, figures of superimposed complexes were generated in PyMOL (DeLano Scientific).
+  Isothermal titration calorimetry experiments  Thermodynamic characterization of the interaction between C3d  and the various Efb-C proteins was performed at 25C in 20 mM  Tris pH 8.0), 200 mM NaCl using a VP-ITC calorimeter  (MicroCal LLC).
+Multiple injections of 5 mL Efb-C samples  (150 mM) were performed into C3d in the sample cell (12 mM)  at 240-sec intervals.
+Buffer titration baseline values were  subtracted from the resulting thermogram and binding enthalpy  (DH), and affinity (Kd) values were extracted by fitting the data  to a single set of sites in Origin (OriginLab).
+Entropy (TDS)  and Gibbs free energy (DG) values were calculated using the  following set of relationships:  DG  DH  TDS  RTlnKD:  Surface plasmon resonance experiments  All SPR experiments were performed on a Biacore 2000 instrument (Biacore Inc.) at 25C using research-grade carboxymethyl  Electrostatics drive C3d/Efb-C interaction  www.proteinscience.org 1903  JOBNAME: PROSCI 17#11 2008 PAGE: 10 OUTPUT: Saturday October 4 18:38:32 2008  csh/PROSCI/170215/ps036624dextran sensor chips (CM5).
+Wild-type and mutant Efb-C  proteins were immobilized at equal surface density (215240  RU) on separate flow cells of the sensor chip by standard amine  coupling using activation and deactivation contact times of 5  min each.
+An activated and deactivated flow cell has been used  as a reference surface for subtracting bulk solvent signals.
+C3d  (220.27 nM) was twofold serially diluted in running buffer  (10 mM sodium phosphate, 150 mM sodium chloride, 0.005%  Tween-20, pH 7.4) and samples were injected for 5 min at a flow  rate of 20 mL/min.
+Analyte dissociation was observed for 5 min  before the surface was regenerated with two consecutive  injections of 0.1% SDS and reconstituted for 10 min in running  buffer before the next injection.
+Data processing was performed  using Scrubber (BioLogic Software Pty Ltd.).
+Baselines and  injection start points were adjusted, and the signals were double  referenced by subtracting an ensemble of buffer blank injections.
+Kinetic rate constants (kon, koff) were determined by  globally fitting the binding curves to a Langmuir 1:1 binding  model and used for the calculation of the dissociation constant  (Kd  koff/kon).
+The values in Table 2 represent the average of  three independent data sets.
+  For electrostatic titration experiments, the C3d injection  series described above were repeated in running buffers of  increasing sodium chloride concentration (10 mM sodium  phosphate pH 7.4 with 75, 150, 300, and 600 mM NaCl,  respectively).
+The pH of all running buffers was carefully  adjusted after addition of NaCl.
+Semiquantitative analysis of  the association and dissociation phases was performed by  overlaying the processed binding signals at 22 nM C3d for all  ionic strengths.
+  Molecular dynamics setup  The wild-type structure was taken from the PDB (accession code  2GOX).
+The N138A and R131A mutant complexes were taken  from the crystallographic data (see above).
+Missing side chains  from the PDB files, as well as hydrogen atoms, have been added  using AMBER 9 leap utility (Pearlman et al. 1995; Case et al.  2006).
+The simulations were conducted using the AMBER ff03  force field (Duan et al. 2003).
+The molecules were represented  at the fully atomic level.
+Implicit solvent was used via the  General Born solvation method, as implemented by Hawkins  et al. (1995, 1996) and Tsui and Case (2000).
+Minimization was  done for 5000 steps, the first 2500 steps using the steepest  descent method (Arfken 1985) and the last 2500 using conjugate  gradients (Hestenes and Stiefel 1952; Fletcher and Reeves  1964).
+Minimization was followed by 20 psec of gradual heating  to 300 K and equilibration.
+The MD simulations were performed  for 20 nsec at a constant temperature of 300 K. The SHAKE  algorithm, as implemented by Miyamoto and Kollman (1992)  was used to restrain the length of bonds involving hydrogen.
+  This allowed an integration time step of 2 fsec.
+  The trajectory analysis was performed by the ptraj tool, which  is a part of the AMBER package.
+The plots were generated using  MatLab and the figures were generated using VMD (Humphrey  et al. 1996).
+The sequence alignment was done by the Clustalx  package (Thompson et al. 1997).
+  Free energy of binding  The free energy of the complex was estimated using the mmpbsa/gbsa approach (Kollman et al. 2000) implemented as a part  of the AMBER package.
+  The average complex binding energy is obtained by the  following formula:  DGbinding  Gtotal;complex  Gtotal;C3D  Gtotal;Efb-C  where  Gtotal  DEMM;gas  DDGsolv  TDS  where DEMM,gas is the gas phase molecular mechanics energy,  DDGsolv is the change in the free energy upon solvation, and  TDS is the contribution of the entropic effect to the free energy.
+  In this study, the entropy was not calculated due to exceedingly  high computational demands.
+  The solvation free energy (DGsolv) is the sum of two terms,  the electrostatic contribution and the nonpolar contribution:  DGsolv  DGel  DGnp:  The electrostatic contribution to the solvation energy was  estimated using the General Born method (Still et al. 1990;  Srinivasan et al. 1999).
+The nonpolar solvation term (DGnp) was  calculated from the solvent-accessible surface area (SASA),  which is estimated using the LPCO method (Weiser et al. 1999).
+  g was set to 0.0072 kcal/(mol*A 2  ) and b  0 kcal/mol in the  following equation:  DGnp  g  SASA  b  In the mm-pbsa/gbsa approach, the average free energy is  calculated on an ensemble of uncorrelated snapshots extracted  from the equilibrated simulation.
+In this study, a snapshot was  taken every 10 psec for the molecular mechanics and solvation  components.
+The first 2 nsec of simulation were not considered  for free energy calculation, to make sure the system had  equilibrated.
+This resulted in 1800 samples.
+  Binding free energy calculations were done using the single  protein-ligand trajectory approximation.
+This means that the  C3d and Efb-C molecules were not simulated separately, but  rather the snapshot structures for the energy calculations of the  C3d-Efb-C complex and separated C3d and Efb-C were taken  from the MD trajectory of the Efb-C/C3d complex.
+This  protocol has been used extensively to estimate the binding of  proteinprotein, as well as proteinDNA or proteinRNA complexes, as demonstrated, for example, by Laitinen et al. (2004),  Onufriev et al. (2004), and Trieb et al. (2004).
+We used the  default dielectric constants of e  1 for the solute and e  80 for  the solvent in the electrostatic solvation free energy (DGGB)  calculations.
+A probe radius of 1.4 A was used to determine the  molecular surface area.
+  Electrostatic potential surface  The electrostatic potential surface was evaluated using the  adaptive Poisson-Boltzmann solver (APBS) software (Holst and  Saied 1993, 1995; Baker et al. 2001).
+This software calculates the  potential surface by providing a numerical solution to the PoissonBoltzmann equation using a grid-based approach.
+  Haspel et al.  1904 Protein Science, vol. 17  JOBNAME: PROSCI 17#11 2008 PAGE: 11 OUTPUT: Saturday October 4 18:38:32 2008  csh/PROSCI/170215/ps036624Acknowledgments  We thank Zhongmin Jin for expert technical assistance during  diffraction data collection.
+Use of the Advanced Photon Source  was supported by the U.S. Department of Energy, Office of  Science, Office of Basic Energy Sciences, under Contract No.  W-31-109-Eng-38.
+Data were collected at Southeast Regional  Collaborative Access Team (SER-CAT) 22-ID beamline at the  Advanced Photon Source, Argonne National Laboratory.
+A list  of supporting member institutions may be found at www.sercat.org/members.html.
+  This work has been supported by the National Institutes of  Health (Grant No. GM078988, AI071028, and P01AI68730), the  National Science Foundation (Grant No. 0523908), and the  Sloan Foundation.
+Computational experiments were conducted  on the Rice Computational Research Cluster funded by the  National Science Foundation under Grant No. CNS-0421109  and Grant No. CNS-0454333, and a partnership between Rice  University, AMD, and Cray.
+  References  Arfken, G. 1985.
+The method of steepest descents.
+In Mathematical methods  for physicists, 3rd ed., pp. 428436. Academic Press, Orlando, FL.  Baker, N.A., Sept, D., Joseph, S., Holst, M.J., and McCammon, J.A. 2001.  Electrostatics of nanosystems: Application to microtubules and the ribosome. Proc. Natl. Acad. Sci. 98: 1003710041.  Bernstein, F.C., Koetzle, T.F., Williams, G.J., Meyer Jr., E.F., Brice, M.D.,  Rodgers, J.R., Kennard, O., Shimanouchi, T., and Tasumi, M. 1977.
+The  Protein Data Bank: A computer-based archival file for macromolecular  structures. J. Mol.
+Biol. 112: 535542.  Bonnet, P. and Bryce, R.A. 2005.
+Scoring binding affinity of multiple ligands  using implicit solvent and a single molecular dynamics trajectory: Application to influenza neuraminidase.
+J. Mol. Graph. Model.
+24: 147156.  Brunger, A.T., Adams, P.D., Clore, G.M., DeLano, W.L., Gros, P., GrosseKunstleve, R.W., Jiang, J.S., Kuszewski, J., Nilges, M., Pannu, N.S., et al.  1998.
+Crystallography & NMR system: A new software suite for macromolecular structure determination.
+Acta Crystallogr.
+D Biol. Crystallogr.  54: 905921.  Carroll, M.C. 2000.
+The role of complement in B cell activation and tolerance.
+  Adv.
+Immunol. 74: 6188.
+  Case, D.A., Darden, T.A., Cheathem III, T.E., Simmerling, C.L., Wang, J.,  Duke, R.E., Luo, R., Merz, K.M., Pearlman, D.A., and Crowley, M., et al.  2006. AMBER 9. University of California, San Francisco.  Chavakis, T., Preissner, K.T., and Herrmann, M. 2007.
+The anti-inflammatory  activities of Staphylococcus aureus.
+Trends Immunol. 28: 408418.  Chen, H., Schuster, M.C., Sfyroera, G., Geisbrecht, B.V., and Lambris, J.D.  2008.
+Solution insights into the structure of the Efb/C3 complement  inhibitory complex as revealed by lysine acetylation and mass spectrometry.
+J. Am. Soc.
+Mass Spectrom. 19: 5565.  Clemenza, L. and Isenman, D.E. 2000.
+Structure-guided identification of C3d  residues essential for its binding to complement receptor 2 (CD21).
+  J. Immunol.
+165: 38393848.  Collaborative Computational Project Number 4. 1994.
+The CCP4 suite:  Programs for protetin crystallography.
+Acta Crystallogr.
+D Biol.
+Crystallogr.
+50: 760763.  Duan, Y., Wu, C., Chowdhury, S., Lee, M.C., Xiong, G., Zhang, W., Yang, R.,  Cieplak, P., Luo, R., Lee, T., et al. 2003.
+A point-charge force field for  molecular mechanics simulations of proteins based on condensed-phase  quantum mechanical calculations.
+J. Comput. Chem. 24: 19992012.
+  Edinger, S.R., Cortis, C., Shenkin, P.S., and Friesner, R.A. 1997.
+Solvation free  energies of peptides: Comparison of approximate continuum solvation  models with accurate solution of the Poisson-Boltzmann equation.
+J. Phys.  Chem. B 101: 11901197.  Fletcher, R. and Reeves, C.M. 1964.
+Function minimization by conjugate  gradients.
+Comput. J. 7: 149. doi: 10.1093/comjnl/7.2.149.
+  Foster, T.J. 2005.
+Immune evasion by staphylococci.
+Nat. Rev. Microbiol.
+3: 948958.  Gilbert, H.E., Eaton, J.T., Hannan, J.P., Holers, V.M., and Perkins, S.J. 2005.
+  Solution structure of the complex between CR2 SCR 1-2 and C3d of human  complement: An X-ray scattering and sedimentation modelling study.
+  J. Mol. Biol. 346: 859873.  Hammel, M., Sfyroera, G., Pyrpassopoulos, S., Ricklin, D., Ramyar, K.X.,  Pop, M., Jin, Z., Lambris, J.D., and Geisbrecht, B.V. 2007a. Characterization of Ehp, a secreted complement inhibitory protein from Staphylococcus aureus.
+J. Biol. Chem. 282: 3005130061.  Hammel, M., Sfyroera, G., Ricklin, D., Magotti, P., Lambris, J.D., and  Geisbrecht, B.V. 2007b.
+A structural basis for complement inhibition by  Staphylococcus aureus.
+Nat. Immunol. 8: 430437.  Hannan, J.P., Young, K.A., Guthridge, J.M., Asokan, R., Szakonyi, G.,  Chen, X.S., and Holers, V.M. 2005.
+Mutational analysis of the complement  receptor type 2 (CR2/CD21)-C3d interaction reveals a putative charged  SCR1 binding site for C3d.
+J. Mol. Biol. 346: 845858.  Hawkins, G.D., Cramer, C.J., and Truhlar, D.G. 1995.
+Pairwise solute  descreening of solute charges from a dielectric medium.
+Chem. Phys. Lett.  246: 122129.  Hawkins, G.D., Cramer, C.J., and Truhlar, D.G. 1996. Parametrized models of  aqueous free energies of solvation based on pairwise descreening of solute  atomic charges from a dielectric medium. J. Phys.
+Chem. 100: 1982419839.  Hestenes, M.R. and Stiefel, E. 1952.
+Methods of conjugate gradients for solving  linear systems.
+J. Res. Natl.
+Bur.
+Stand. 49: 409436.  Holst, M. and Saied, F. 1993.
+Multigrid solution of the Poisson-Boltzmann  equation. J. Comput. Chem. 14: 105113.  Holst, M.J. and Saied, F. 1995.
+Numerical-solution of the nonlinear PoissonBoltzmann equationdeveloping more robust and efficient methods.
+  J. Comput. Chem. 16: 337364.  Humphrey, W., Dalke, A., and Schulten, K. 1996.
+VMD: Visual molecular  dynamics.
+J. Mol. Graph. 14: 33.  Janssen, B.J., Christodoulidou, A., McCarthy, A., Lambris, J.D., and Gros, P.  2006.
+Structure of C3b reveals conformational changes that underlie  complement activity.
+Nature 444: 213216.  Jongerius, I., Kohl, J., Pandey, M.K., Ruyken, M., van Kessel, K.P., van  Strijp, J.A., and Rooijakkers, S.H. 2007.
+Staphylococcal complement  evasion by various convertase-blocking molecules.
+J. Exp.
+Med. 204:  24612471.  Kollman, P.A., Massova, I., Reyes, C., Kuhn, B., Huo, S., Chong, L., Lee, M.,  Lee, T., Duan, Y., Wang, W., et al. 2000.
+Calculating structures and free  energies of complex molecules: Combining molecular mechanics and  continuum models.
+Acc. Chem. Res. 33: 889897.  Laich, A. and Sim, R.B. 2001.
+Complement C4bC2 complex formation: An  investigation by surface plasmon resonance.
+Biochim. Biophys. Acta 1544:  96112.  Laitinen, T., Kankare, J.A., and Perakyla, M. 2004.
+Free energy simulations and  MM-PBSA analyses on the affinity and specificity of steroid binding to  antiestradiol antibody.
+Proteins 55: 3443.  Lambris, J.D., Ricklin, D., and Geisbrecht, B.V. 2008.
+Complement evasion by  human pathogens.
+Nat. Rev. Microbiol. 6: 132142.  Lee, L.Y., Hook, M., Haviland, D., Wetsel, R.A., Yonter, E.O., Syribeys, P.,  Vernachio, J., and Brown, E.L. 2004a.
+Inhibition of complement activation by a secreted Staphylococcus aureus protein.
+J. Infect. Dis. 190:  571579.  Lee, L.Y., Liang, X., Hook, M., and Brown, E.L. 2004b.
+Identification and  characterization of the C3 binding domain of the Staphylococcus aureus  extracellular fibrinogen-binding protein (Efb).
+J. Biol. Chem. 279: 50710  50716.
+  Miyamoto, S. and Kollman, P.A. 1992.
+Settle: An analytical version of the  SHAKE and RATTLE algorithm for rigid water models.
+J. Comput. Chem.  13: 952962.  Morikis, D. and Lambris, J.D. 2004.
+The electrostatic nature of C3d-complement  receptor 2 association.
+J. Immunol. 172: 75377547.  Nagar, B., Jones, R.G., Diefenbach, R.J., Isenman, D.E., and Rini, J.M. 1998.
+  X-ray crystal structure of C3d: A C3 fragment and ligand for complement  receptor 2. Science 280: 12771281.  Nordahl, E.A., Rydengard, V., Nyberg, P., Nitsche, D.P., Morgelin, M.,  Malmsten, M., Bjorck, L., and Schmidtchen, A. 2004.
+Activation of the  complement system generates antibacterial peptides.
+Proc. Natl. Acad. Sci.  101: 1687916884.  Onufriev, A., Bashford, D., and Case, D.A. 2004.
+Exploring protein native  states and large-scale conformational changes with a modified generalized  born model.
+Proteins 55: 383394.  Pearlman, D.A., Case, D.A., Caldwell, J.W., Ross, W.S., Cheatham, T.E.,  Debolt, S., Ferguson, D., Seibel, G., and Kollman, P. 1995. AMBER, a  package of computer-programs for applying molecular mechanics, normalmode analysis, molecular-dynamics and free-energy calculations to simulate the structural and energetic properties of molecules.
+Comput. Phys.  Commun.
+91: 141.
+  Ricklin, D. and Lambris, J.D. 2007a.
+Complement-targeted therapeutics.
+Nat.  Biotechnol. 25: 12651275.  Electrostatics drive C3d/Efb-C interaction  www.proteinscience.org 1905  JOBNAME: PROSCI 17#11 2008 PAGE: 12 OUTPUT: Saturday October 4 18:38:34 2008  csh/PROSCI/170215/ps036624Ricklin, D. and Lambris, J.D. 2007b.
+Exploring the complement interaction  network using surface plasmon resonance.
+Adv. Exp.
+Med. Biol. 598: 260278.  Sahu, A. and Lambris, J.D. 2001.
+Structure and biology of complement protein  C3, a connecting link between innate and acquired immunity.
+Immunol.  Rev. 180: 3548.  Sarrias, M.R., Franchini, S., Canziani, G., Argyropoulos, E., Moore, W.T.,  Sahu, A., and Lambris, J.D. 2001.
+Kinetic analysis of the interactions of  complement receptor 2 (CR2, CD21) with its ligands C3d, iC3b, and the  EBV glycoprotein gp350/220.
+J. Immunol.
+167: 14901499.  Sfyroera, G., Katragadda, M., Morikis, D., Isaacs, S.N., and Lambris, J.D.  2005.
+Electrostatic modeling predicts the activities of orthopoxvirus  complement control proteins.
+J. Immunol.
+174: 21432151.
+  Sinha, N. and Smith-Gill, S.J. 2002.
+Electrostatics in protein binding and  function.
+Curr. Protein Pept. Sci. 3: 601614.  Srinivasan, J., Trevathan, M.W., Beroza, P., and Case, D.A. 1999.
+Application  of a pairwise Generalized Born model to proteins and nucleic acids:  Inclusion of salt effects.
+Theor. Chem. Accts.
+101: 426434.  Still, W.C., Tempczyk, A., Hawley, R.C., and Hendrickson, T. 1990.
+Semianalytical treatment of solvation for molecular mechanics and dynamics.
+  J. Am. Chem. Soc. 112: 61276129.  Szakonyi, G., Guthridge, J.M., Li, D., Young, K., Holers, V.M., and Chen, X.S.  2001.
+Structure of complement receptor 2 in complex with its C3d ligand.
+  Science 292: 17251728.
+  Thompson, J.D., Gibson, T.J., Plewniak, F., Jeanmougin, F., and Higgins, D.G.  1997.
+The CLUSTAL_X windows interface: Flexible strategies for multiple  sequence alignment aided by quality analysis tools.
+Nucleic Acids Res. 25:  48764882.  Trieb, M., Rauch, C., Wibowo, F.R., Wellenzohn, B., and Liedl, K.R. 2004.  Cooperative effects on the formation of intercalation sites.
+Nucleic Acids  Res.
+32: 46964703.  Tsui, V. and Case, D.A. 2000.
+Theory and applications of the Generalized  Born solvation model in macromolecular simulations.
+Biopolymers 56:  275291.  Weiser, J., Shenkin, P.S., and Still, W.C. 1999.
+Approximate atomic surfaces  from linear combinations of pairwise overlaps (LCPO). J. Comput. Chem.  20: 217230.  Wells, J.A. and McClendon, C.L. 2007.
+Reaching for high-hanging fruit in drug  discovery at proteinprotein interfaces.
+Nature 450: 10011009.  Zemla, A. 2003.
+LGA: A method for finding 3D similarities in protein  structures.
+Nucleic Acids Res. 31: 33703374.
+  Haspel et al.  1906 Protein Science, vol. 17  JOBNAME: PROSCI 17#11 2008 PAGE: 13 OUTPUT: Saturday October 4 18:38:34 2008  csh/PROSCI/170215/ps036624

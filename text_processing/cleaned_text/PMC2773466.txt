@@ -1,0 +1,252 @@
+Engineering the Binding Properties of the T Cell Receptor:Peptide:MHC Ternary Complex that Governs T Cell Activity The potency of a T cell is determined in large part by two interactions, binding of a cognate peptide to the MHC, and binding of the T cell receptor (TCR) to this pepMHC.
+Various studies have attempted to assess the relative importance of these interactions, and to correlate the corresponding binding parameters with the level of T cell activity mediated by the peptide.
+To further examine the properties that govern optimal T cell activity, here we engineered both the peptide:MHC interaction and the TCR:pepMHC interaction to generate improved T cell activity.
+Using a system involving the 2C TCR and its allogeneic pepMHC ligand, QL9-Ld, we show that a peptide substitution of QL9 (F5R), increased the affinity and stability of the pep-Ld complex (e.g. cell surface t values of 13 minutes for QL9-Ld versus 87 minutes for F5R-Ld).
+However, activity of peptide F5R for 2C T cells was not enhanced because the 2C TCR bound with very low affinity to F5R-Ld compared to QL9-Ld (KD = 300 M and KD = 1.6 M, respectively).
+To improve the affinity, yeast display of the 2C TCR was used to engineer two mutant TCRs that exhibited higher affinity for F5R-Ld (KD = 1.2 and 6.3 M).
+T cells that expressed these higher affinity TCRs were stimulated by F5R-Ld in the absence of CD8, and the highest affinity TCR exhibited enhanced activity for F5R compared to QL9.
+The results provide a guide to designing the explicit binding parameters that govern optimal T cell activities.
+ 1.
+Introduction The T cell receptor (TCR)2 controls both the specificity and the potency of a T cell through its binding to a complex composed of a peptide and a product of the MHC.
+Notwithstanding the key role of the TCR, it has been known for many years that the immunogenicity of a peptide is also related to its ability to bind and form a stable complex with the MHC product.
+Various studies using single amino acid peptide variants have demonstrated that there is a direct correlation between T cell activity and the affinity of the peptide for the MHC product (e.g.).
+In many of these studies, some peptide residues are involved exclusively in the interaction with the MHC product and do not influence TCR binding, while other peptide residues can be exclusively involved in binding of the TCR.
+ In the case of peptide variants that influence only the binding of the TCR, and not the MHC product, the effect on T cell activity can span the range from null activity to antagonist activity to agonist activity.
+In contrast, changes that increase a peptides ability to interact with an MHC product can not only improve the T cell activity of the peptide, but could potentially provide a peptide variant that acts as an improved vaccine.
+With this in mind, initial studies have attempted to examine peptide variants that would enhance MHC binding without significantly reducing the interaction of the pepMHC complex with T cells.
+For example, Pardoll and colleagues used the CT26 colorectal tumor system to identify an improved variant of the gp70 peptide AH1.
+The variant peptide AH1-A5 (a substitution of valine with alanine at position five of the peptide) yielded enhanced binding to Ld, but also retained binding to a TCR from a cognate CTL clone, resulting in enhanced stimulatory activity and responses against the wild type peptide AH1 and the CT26 tumor line.
+ In another example, the A6 TCR, which has specificity for a Tax/HLA-A2 complex, a single Tax peptide change (P6A) converted the peptide from agonist to an antagonist, but various chemical substitutions at position 6 could both revert the peptide back to agonist and increase its affinity for A6 TCR.
+A peptide variant with one of these substitutions (called P6EtG, for N-ethyl glycine) was about 10-times more active than the wt Tax peptide, despite the observation that it bound to the A6 TCR with slightly lower affinity (KD ~ 4 M for P6EtG/A2 compared to ~1 M for Tax/A2).
+However, these differences in T cell activity could also have been due to the dual effects of the peptide substitution on binding to not only the TCR but to the HLA-A2 molecule.
+ In regard to the latter possibility, there are clear cases where changes to a peptide residue influenced binding to both the MHC product and the TCR.
+These effects can be observed if the side chain is at the interface of the MHC helices and the TCR, or if its interaction with a pocket of the MHC alters the entire backbone conformation of the peptide.
+Accordingly, these changes may improve binding to the MHC while also reducing the binding of the TCR.
+It is important to understand the details of these effects, as the design of improved peptide vaccines through the use of peptide variants depends on the potency of the T cells that are elicited, and their ability to recognize the native antigenic peptides.
+If TCRs that bound a peptide variant were not able to bind to the wild type peptide, the value of the variant in a vaccine setting would be compromised.
+Likewise, natural variants of antigenic peptides, such as those derived from variation of virus epitopes, must be considered from the same perspective.
+ To examine the magnitude of changes that can occur in the case of a single residue that influences binding to both MHC and TCR, here we examined a peptide variant from the 2C T cell system.
+Early studies in this system identified a position in the allogeneic peptide QL9 (QLSPFPFDL) at residue 5 (Phe) that influenced binding to both Ld and the 2C TCR, when changed to other amino acids.
+The recent crystal structure of the 2C TCR/QL9-Ld complex shows that Phe5 is located at the interface of the TCR and the MHC, thus providing a structural explanation for the dual effects.
+An arginine substitution of this residue was of particular interest as the F5R variant exhibited improved binding to Ld.
+However, 2C CTLs showed only modest improvement in activity with F5R compared to QL9 and 2C TCR transduced T cell hybridomas showed reduced activity with F5R.
+Unlike QL9, activity mediated by F5R was completely dependent on the presence of CD8, suggesting that the affinity of the 2C TCR for the F5R-Ld complex was lower than the affinity for QL9-Ld.
+ In the present work we extended these findings by using a soluble high affinity TCR as a probe for the cell surface pep-Ld complexes, revealing that the F5R-Ld complex has a cell surface lifetime (t) that is 7 times longer than QL9-Ld, further supporting the observations that F5R has enhanced affinity for Ld.
+Furthermore, we show that the affinity of the 2C TCR for F5R-Ld is 200-fold lower than the affinity for QL9-Ld.
+Even with this low affinity, CD8 enables the 2C TCR to recognize the modified peptide as a strong agonist (SD50 ~ 109 M).
+ In addition to exploring the effects of the Arg5 substitution on Ld stability and the binding affinity of the 2C TCR, we also examined the activity mediated by two TCRs that were engineered by yeast display to bind to the F5R-Ld complex with higher affinity.
+Using surface plasmon resonance, the soluble forms of these TCRs were shown to bind to F5R-Ld with over 100-fold higher affinity than the 2C TCR.
+T cell hybridoma cell lines transduced with the high-affinity TCRs were stimulated very efficiently by the F5R peptide even in the absence of CD8 (like 2C T cells stimulated by wild type peptide QL9-Ld).
+The robust activity of F5R (SD50 ~ 1012 M) could be attributed to both the higher TCR affinity and the improved stability of the F5R-Ld complex.
+Furthermore, the engineered T cells still reacted with high affinity and potency for the native peptide (QL9), showing that it is possible to generate TCRs against the stabilized pepMHC that retain reactivity against the wild type peptide.
+ The results suggest that it is possible to use peptides with enhanced MHC binding properties to elicit T cells with improved activity, even if the altered peptide residue also influences TCR binding.
+Each T cell clone will likely exhibit its own fine specificity in this regard.
+Thus, to induce T cell immunity it will be useful to either: 1) identify peptide variants that can retain binding to a significant fraction of TCRs in the T cell repertoire, or 2) to use engineered TCRs in ex vivo gene therapy, and an adoptive T cell setting, that exhibit peptide cross-reactivity and also overcome tolerance to such epitopes.
+ 2. Materials and Methods 2.1.
+Peptides Peptides QL9 (QLSPFPFDL), F5R (QLSPRPFDL), and MCMV (YPHFMPTNL) were synthesized by Penn State Macromolecular Core Facility (Hershey, PA) using F-moc chemistry.
+Peptides were purified using C18 reverse phase-column chromatography with a linear elution gradient of 060% acetonitrile containing 0.1% trifluoroacetic acid.
+Peptide mass was verified by ESI mass spectrometry (University of Illinois, Urbana-Champaign) and concentrations were determined by quantitative amino acid analysis (UC Davis).
+ 2.2. Yeast display libraries A site-directed CDR3 library was constructed in a yeast display vector using the 2C-T7 TCR as a template, as described previously.
+The library was screened by fluorescence-activated cell sorting using the F5R-Ld-IgG dimer, as described.
+After four sorts, yeast cells were plated and colonies were further analyzed for binding to F5R-Ld-IgG dimer and QL9-Ld-IgG dimer by flow cytometry.
+Plasmids from positive colonies were rescued and sequenced as described.
+ 2.3. Expression and refolding of soluble single chain Ld-m31 The single chain 1/2 construct Ld-m31 containing a C terminal biotin tag was expressed in BL21-CodonPlus (DE3)-RIPL competent cells (Stratagene) as described previously.
+Briefly, cells containing 100 g/mL kanamycin were cultured to an OD600 = 1.0, expression was induced with 0.7 mM isopropyl 1-thio--D-galactopyranoside and the biotin tag of Ld was enzymatically biotinylated by endogenous E. coli BirA ligase.
+Cells were suspended in lysis buffer (50 mM Tris-HCl, 1% Triton-x-100, 100 mM NaCl, pH 8.0), subjected to microfluidization, and the inclusion body pellets were washed three times with osmotic shock buffer (20 mM Tris-HCl, 2.5 mM ethylenediaminetetraacetic acid (EDTA), 0.5% Triton-X-100, pH 8.0), three times without Triton-X-100, and solubilized in Urea buffer (8 M Urea, 25 mM MES, 10 mM EDTA, pH 6.0).
+Solubilized inclusion bodies (~10 mg) were added to 460 mL of folding buffer ((100 mM Tris-HCl, 400 mM L-arginine, 2 mM ethylenediaminetetraacetic acid, 0.5 mM phenylmethylsulfonyl fluoride, 0.5 mM oxidized/5 mM reduced glutathione, pH 8.0) containing 14 mg of peptides QL9, QL9-F5R, or MCMV.
+Two additional aliquots of solubilized inclusion bodies (~10 mg) were added over the next 24 hrs.
+The solution was concentrated, and dialyzed against 10 mM HEPES, 150 mM NaCl, pH 7.4.
+Proteins were further purified by Superdex-200 size-exclusion (GE Healthcare).
+ 2.4. Cloning, expression and refolding of soluble single chain TCRs Three different single-chain (V-linker-V) TCRs were cloned and expressed in E. coli.
+The 2C TCR variant m3 was generated by site-directed mutagenesis (Quickchange kit, Stratagene) of the m6 TCR in pET-28a to introduce the three residues of the m3 CDR3 that differed from m6 (m6, SHQGRYL; m3, SQRGQYL).
+Proteins were expressed in the BL21-CodonPlus (DE3)-RIPL competent cells (Stratagene) as described above.
+Inclusion bodies (600 to 700 mg) were solubilized in 6M guanidine hydrochloride and then added dropwise to 400 mL of refold buffer (3M Urea, 50 mM Tris, 2 mM reduced glutathione, 0.2 mM oxidized glutathione, pH 8.0).
+Dilution buffer containing 200 mM NaCl and 50 mM Tris, pH 8.0 was added dropwise to the sample over 24 hrs until the volume reached 2.4 L. After incubation for another 24 hrs at 4C, Ni-NTA beads (Qiagen) were added, and the solution was incubated for 24 hrs.
+Ni beads were collected and the his-tagged proteins were eluted with 500 mM imidazole.
+Soluble scTCR preparations were concentrated and purified by Superdex-200 size exclusion (GE Healthcare).
+ 2.5.
+Expression of TCRs in T cell hybridoma 58/ Three different TCRs (2C, m3, and m6) were expressed in the -negative T cell hybridoma line 58/. The lines that express the wild type 2C and high-affinity 2C TCR m6 were described previously.
+The high-affinity TCR m3 was cloned by site directed mutagenesis using PCR overlap extension into the full-length 2C TCR genes in an MSCV retroviral plasmid.
+The virus was assembled after transfection of the packaging cell line Eco-Pak 2293 (Clontech) with 4 g of MSCV plasmid.
+T cell hybridoma 58/ was transduced and cells were sorted for positive staining with 1 ug/mL of phycoerythrin-labeled anti-TCR C antibody (H57597) (BD Pharmingen) using a Cytomation MoFlo sorter.
+Surface levels of TCR were compared for the wild type and high-affinity 2C TCRs using the anti-TCR C antibody, and levels of TCR cell surface expression were similar among all three T cell lines.
+ 2.6. MHC stabilization assay Detection of up-regulated MHC-Ld on the cell surface by peptides QL9 (QLSPFPFDL) or F5R (QLSPRPFDL) was measured as described.
+Briefly, 3  105 T2-Ld were incubated with various concentrations of peptides QL9 or F5R for 3 hours at 37C.
+Cells were stained with 50 L of 3057 (1:50 dilution of ascites fluid), a mAb specific for the 1 and 2 domains of MHC-Ld for 40 minutes at 4C.
+Cells were washed two times with PBS-0.5% BSA and then stained with secondary reagent (10 g/mL) alexa 488 labeled goat anti-mouse IgG (Invitrogen).
+After one wash with PBS-0.5% BSA, cells were analyzed with a Coulter Epics XL Flow Cytometer (Beckman Coulter).
+Curves were generated by plotting mean fluorescent units against peptide concentration, and BD50 values were determined by non-linear regression (sigmoidal fitting, GraphPad Prism).
+BD50 values represent the concentration of peptide required for half-maximal up-regulation of MHC on the cell surface.
+ 2.7. QL9-Ld and F5R-Ld cell surface lifetimes Levels of QL9/Ld or F5R/Ld complexes remaining on the cell surface of T2-Ld cells were monitored over time as described previously.
+Briefly, 105 T2-Ld were incubated with saturating levels (10 M) of peptides QL9 or F5R for 2 hrs at 37C.
+Cells were washed two times with PBS-0.5% BSA and suspended with 1 M null peptide MCMV (YPHFMPTNL) at 4C.
+Cells were placed at 37C (time 0) and at various times later cells were removed, washed, and stored at 4C until staining with specific soluble TCR m3.
+Cells were stained with 2 M soluble TCR m3 for 45 min at 4C.
+Soluble single-chain TCR m3 was prepared with additional chemical biotinylation of this TCRs free amines (EZ-Link NHS-PEO4-Biotinylation Kit (Pierce)).
+Cells were washed two times with PBS-0.5% BSA, and then stained with secondary reagent (2 g/mL) streptavidin-phycoerythrin (BD pharmingen).
+Cells were washed with PBS-0.5% BSA and analyzed with a Coulter Epics XL Flow Cytometer (Beckman Coulter).
+Cell surface lifetime curves were generated by plotting mean fluorescent values (MFU) against time (seconds) in GraphPad Prism.
+Linear regression of the lifetime curves (one phase exponential decay, GraphPad Prism) was used to determine the cell surface half-life (t = ln2/koff).
+As a control, signal obtained from the null peptide MCMV was used to subtract background from both QL9 and F5R measurements, signal obtained from no peptide was similar to MCMV.
+ 2.8.
+F5R-Ld binding and specificity of high-affinity 2C TCRs Flow cytometry was used to compare apparent binding avidities of F5R-Ld for two different high-affinity 2C scTCRs, m1 and m3.
+Yeast cells (3  105) expressing either scTCRs m1 or m3 were incubated with various concentrations of F5R-Ld/Ig dimer for 1 hr at 4C.
+Cells were washed with PBS-1% BSA and then stained with phycoerythrin labeled goat anti-mouse IgG (BD Pharmingen).
+Fluorescently labeled cells were detected with a Coulter Epics XL Flow Cytometer (Beckman Coulter).
+ In order to compare peptide-Ld specificity of the high-affinity 2C TCRs, yeast cells displaying TCRs m3 and m6 were incubated with various peptide QL9 variants in the form of soluble MHC-Ld-IgG dimers at a concentration of 0.4 M. Expression, purification, and peptide loading of the Ld-IgG dimers was described previously.
+As a secondary reagent, phycoerythrin labeled Goat anti-mouse IgG was used.
+Fluorescently labeled cells were analyzed with a Coulter Epics XL Flow Cyotmeter (Beckman Coulter), and single point measurements, in the form of mean fluorescent units (MFU) were determined.
+ 2.9.
+Surface plasmon resonance Analysis of wild type and high-affinity TCRs m3 and m6 binding to QL9-Ld, F5R-Ld, and MCMV-Ld was performed using surface plasmon resonance on a Biacore 3000.
+An activated carboxymethylated dextran sensor chip (Biacore) was coupled to Neutra-avidin (Pierce), and biotinylated peptide-Ld-m31 (QL9-Ld-m31, F5R-Ld-m31, or MCMV-Ld-m31) were immobilized to a level of 500600 response units.
+For the data in Fig. 4B, 4100 response units of the 2C TCR were coupled directly to the activated surface via amine coupling.
+Various concentrations of the high-affinity 2C TCRs m3 and m6 or soluble F5R-Ld-m31 (Fig. 4B) were injected over the sensor chip at a rate of 530 L/min at 25C.
+All measurements are baseline corrected by subtracting signal obtained from TCR injected over a control sensor chip with no immobilized pepMHC.
+Dilutions of TCR or pMHC were prepared in Biacore buffer, 10 mM HEPES, 150 mM NaCl, 3 mM ethylenediaminetetraacetic acid, 0.005% Tween 20, pH 7.4.
+Due to the short lifetime of QL9-Ld-m31, excess peptide QL9 (1 M) was added to the TCR dilutions.
+Maximal response units for each TCR or pMHC dilution at equilibrium were plotted against TCR or pMHC concentration, and equilibrium affinity constants (KDeq) were determined from the binding curves using non-linear regression (sigmoidal fits in either GraphPad Prism or Origin 7.5).
+Surface plasmon resonance traces were adjusted for bulk shift, or bulk refractive index (BIAevalution 3.0, Biacore).
+ 2.10.
+T cell activation assays Wild type and high-affinity 2C T cell transfectants m3 and m6 were incubated with Ld positive cells (T2-Ld) and various concentrations of peptides QL9 or F5R.
+T cell activation was measured by assaying for levels of IL-2 release, as described.
+Briefly, T cell transfectants (7.5  104) were incubated with T2-Ld (7.5  104) along with various concentrations of peptide for 2024 hrs at 37C and 5% CO2.
+Supernatant was harvested and levels of IL-2 were measured in an ELISA type format.
+Results were plotted as percent maximal IL-2 release = [(Abs450 sample - Abs450 no peptide) / (Max Abs450 sample - Abs450 no peptide)]  100, signal obtained from no peptide was similar to that obtained for the null peptide MCMV.
+Binding curves were generated in GraphPad prism by plotting the % maximal IL-2 release against peptide concentration.
+SD50 values were calculated using non-linear regression (sigmoidal fitting, GraphPad Prism) of the activation curves.
+ 3.
+Results 3.1.
+Structural analysis of the interactions among the 2C TCR, QL9, and Ld The 2C T cell clone was originally elicited by the allogeneic ligand Ld.
+Subsequent studies showed that 2C recognizes Ld in complex with an octamer peptide called p2Ca (LSPFPFDL) and its nonomer extension called QL9 (QLSPFPFDL) derived from -ketoglutarate dehydrogenase.
+A previous study showed that substitutions of position 5 (Phe) of QL9 influenced both Ld binding and 2C TCR binding.
+The recent crystal structure of the 2C TCR/QL9-Ld complex provides insight into the structural basis of this dual effect.
+Phe5 is one of four residues (Pro4, Phe7 and Asp8 are the others) whose side chains are located at the interface of the Ld helices and the TCR (Fig. 1A).
+Their location appears to be a property of their interaction with Ld, as they are in the same positions in the QL9/Ld structure, without the bound 2C TCR.
+ Phe 5 forms 14 bonds with Ld and 17 bonds with the CDR3 of the 2C TCR.
+Substitution of an arginine at position 5 resulted in a modest improvement in stabilization of Ld.
+Modeling an arginine at position 5 in the structure suggested that this enhanced Ld binding could be due to an electrostatic effect, as the side chain of Arg5 points toward the side chain of Asp8 of QL9 in the model (Fig. 1B).
+Furthermore, this potentially altered network of interactions reside very near the CDR3 and CDR3 loops of 2C TCR, thereby providing a possible explanation for the reduced binding affinity for the F5R/Ld complex.
+To examine the impact of the Arg5 substitution more quantitatively, we performed additional binding and functional studies.
+ 3.2.
+Quantitative impact of the F5R substitution on Ld complex stability To confirm our previous studies, we performed a stabilization assay with QL9 and the F5R variant, using T2-Ld cells and flow cytometry.
+As described previously, the F5R substitution showed a modest increase in the stabilization of Ld (Fig. 2A). Because we have soluble high-affinity TCRs that bind to these complexes, it is possible to measure a more precise, and perhaps more relevant, value for the stability of the pep-Ld complexes by determining cell surface lifetimes of the complex.
+In this kinetic assay, T2-Ld cells are loaded with an excess of the peptide, washed, and cells are incubated at 37C.
+The levels of specific complexes remaining after various times were determined using soluble high-affinity TCR as a specific probe (see below).
+Using this approach, the QL9/Ld complexes exhibited a cell surface half-life of 13 min and the F5R/Ld complexes exhibited a half-life of 87 minutes (Fig. 2B).
+Thus, there is a significant improvement in the half-life of the F5R variant complexes compared to the wild type QL9 complexes, in the time frame that is likely to influence productive interactions with T cells.
+ 3.3. Engineering high-affinity TCRs that bind to the F5R/Ld complex Although the F5R peptide variant shows significant enhancement in stability as an Ld complex, the activity of the 2C T cell clone was similar to wt QL9, and unlike the QL9 peptide, this activity is completely dependent on the co-receptor CD8.
+This result is consistent with a lower affinity of the 2C TCR for F5R/Ld compared to QL9/Ld.
+We reasoned that if the affinity of the 2C TCR for F5R/Ld could be improved, perhaps T cells expressing the engineered TCR would exhibit further enhanced activity for the stable F5R/Ld ligand.
+ Given the close proximity of the CDR3 loop to position 5 of the peptide (Fig. 1A), we screened a yeast display library of 2C CDR3 mutants for improved binding to the F5R/Ld using an F5R/Ld-Ig fusion as the ligand in fluorescence activated cell sorting.
+After four rounds of sorting, we identified two 2C TCR mutants, called m1 and m3, that bound with similar efficiency to the bivalent F5R/Ld-Ig fusion (Fig. 3A).
+The sequences of the CDR3 regions in m1 and m3 were YYGVY and QRGQY.
+The central glycine at position 101 has been shown previously to be a conserved residue among a panel of high-affinity 2C TCR against QL9/Ld including the mutant called m6 which contains the sequence HQGRY and which has been crystallized in complex with QL9/Ld.
+ We also compared the peptide fine specificity of TCR mutant m3 with TCR mutant m6 in order to examine the degree to which selection on the F5R ligand may have influenced the reactivity with other substitutions at this position of the peptide.
+As we have observed previously, the wt 2C scTCR does not stain with the QL9/Ld-Ig dimer (data not shown) because the affinity of the interaction is below the threshold required for detection.
+However, mutant m3 bound to QL9/Ld and exhibited a hierarchy of high-affinity binding to the panel of position 5 variants of QL9 that was similar to the m6 mutant (Fig. 3B).
+The most notable difference was the improved binding of m3 to the F5R variant, consistent with its use as the selecting ligand.
+ 3.4.
+Binding measurements of soluble TCRs to QL9/Ld and F5R/Ld complexes In order to determine the binding affinities of the relevant interactions, and to compare these to T cell activity mediated by the different TCRs (see below), TCRs 2C, m3, and m6 were expressed in single-chain form in E. coli, and refolded to produce soluble protein.
+We examined SPR binding to the immobilized ligands QL9/Ld, F5R/Ld, and MCMV/Ld (as a control null ligand).
+Consistent with previous measurements, 2C and m6 had affinities (KD) for QL9/Ld of 3.2 M and 27 nM, respectively.
+Mutant m3 also showed high-affinity (KD = 27 nM) for the wt QL9/Ld ligand, even though it was selected on F5R/Ld (Fig. 4A).
+ In contrast to the affinity of these TCRs for QL9/Ld, the affinities of each respective TCR for F5R/Ld were considerably lower.
+Specific binding of the 2C TCR for F5R/Ld was unable to be detected using immobilized F5R/Ld protein, followed by soluble 2C scTCR (data not shown).
+However, in the reverse orientation, with immobilized TCR, we were able to detect specific binding and a KD value of 300 M (Fig. 4B).
+The affinities of m3 and m6 TCRs for F5R/Ld were 1.2 and 6.3 M respectively (Fig. 4C, D).
+Thus, the affinity of m3 and m6 for F5R/Ld were increased by over 250 and 50-fold, respectively, compared to the binding of F5R/Ld by wt 2C TCR.
+In addition, each of the TCRs maintained similar relative binding for QL9 versus F5R (i.e. binding of TCRs 2C, m3, and m6 to QL9/Ld compared to F5R/Ld was 190-fold, 44-fold, and 175-fold better, respectively).
+ 3.5. T cell activity mediated by the mutant TCRs in response to QL9 and F5R Given that we were able to identify TCRs and a peptide with improved binding parameters for the 2C-pep-Ld ternary complex, we sought to examine the impact of each parameter on T cell activity.
+The T cell hybridoma 58/, which lacks its own  and  chains, was transduced with the genes that encode the wt 2C TCR, m3, or m6 (, and data not shown).
+T cell lines that co-expressed CD8 were also generated, and IL-2 release was measured after stimulation with various concentrations of peptides in the presence of the Ld-positive cell line T2-Ld.
+ Cell lines of all three TCRs showed potent agonist activity with QL9 peptide, even without the co-receptor CD8 (Fig. 5A); the SD50 values of m3 and m6 were slightly improved (i.e. lower) as compared to 2C (Fig. 5B).
+This finding is in accord with the known ability of 2C and the higher affinity mutants to respond to QL9 in a CD8-independent manner.
+In contrast, 2C T cells in the absence of CD8 were completely unresponsive to the F5R variant, even at micromolar concentrations (Fig. 5C).
+In cells that co-expressed CD8, activity to QL9 and F5R peptides were approximately equal (data not shown and, further demonstrating that CD8 can overcome even a very low affinity interaction between a TCR and the pepMHC (i.e. 2C TCR:F5R/Ld, KD = 300 M).
+T cells that expressed the two higher affinity TCRs m3 and m6, with KD values of 1.2 and 6.3 M for F5R/Ld, both showed CD8-independent activity with the F5R peptide (Fig. 5C).
+However, the m3 TCR mediated activity (SD50) was 200-fold improved compared to the m6 TCR (Fig. 5D and Table 1).
+Furthermore, the F5R activity mediated by the m3 T cell hybridoma was now improved 5 to 10-fold, compared to QL9, with an SD50 value for IL-2 release of approximately 1012 M (Table 1).
+ 4.
+Discussion Various studies have explored the ability of peptide variants to induce enhanced T cell activity.
+To fully understand the mechanisms that underlie the activity of such variants, it is useful to explore the structural, biochemical, and functional consequences of the TCR:peptide:MHC interactions.
+Here, we describe three salient findings using a model system involving the mouse CTL clone 2C and its cognate antigen QL9/Ld.
+First, a single peptide residue of QL9 impacted, in a substantial and quantitative way, binding to both MHC and TCR.
+Second, the peptide:Ld interaction and the TCR:pepLd interaction could be engineered to yield quite significant improvements in T cell activity.
+Third, the binding parameters associated with each interaction (peptide:Ld and TCR:pepLd) could be further defined to provide a guide toward the design of improved T cell responses.
+As discussed below, the molecular aspects of each of the binding interactions could also be interpreted in light of recently solved structures.
+ The premise of using specific peptides from tumor antigens as immunogens has been explored in many studies.
+T cell tolerance against self-peptides led to the notion that the activity of these immunogens might be enhanced by altering the peptide in such a way as to yield improved binding to the MHC product.
+In this scenario it is critical that such alterations retain the ability of the pepMHC complex to be recognized by the repertoire of T cells, and that these T cells recognize the original wild type self peptide expressed by the cancer cell.
+As recently discussed, it is thus important to consider the impact of peptide changes on both MHC binding and TCR binding.
+ A previous study by Pardoll and colleagues also examined the impact of a single amino acid peptide substitution in a system involving Ld.
+Like our study, they identified a variant at position 5 (Val5Ala) of the peptide AH1 from gp70 that yielded improved binding to Ld.
+However, the binding of their cognate TCR appeared to be slightly improved (from 5.7 M to 1.9 M) whereas the binding of the 2C TCR to the F5R/Ld complex is clearly reduced by 100-fold.
+Obviously, each peptide and each TCR may differ in the impact of a single substitution such that one must assess both parameters.
+Nevertheless, it is clear that central peptide residues that are not considered anchor residues can act to enhance both MHC binding and they can influence the interaction with TCR.
+ Using soluble high affinity TCRs, we were in a position to determine the quantitative impact of the arginine substitution at position 5 on stabilization with Ld as a cell surface complex.
+While the variant yielded modest improvements in an up-regulation assay involving Ld on T2-Ld cells, the cell surface lifetime of the complex was improved from 13 to 87 minutes.
+This increase in cell surface lifetime may be especially important, as these are the time frames (minutes) that are known to be required for complete assembly of the synapse, and full effector function.
+ The full impact of the enhanced Ld binding could only be realized when TCR binding was optimized.
+This is because the binding of the 2C TCR to the F5R/Ld complex is such a low affinity (KD = 300 M) that it functions only in the presence of CD8 and it exhibits sub-optimal SD50 values (109 M).
+However, CD8 is capable of overcoming this extremely low affinity to yield moderate activity.
+In fact, early studies in the 2C system also suggested that such low affinities were capable of yielding agonist activity.
+Here, we also asked if it was possible to engineer the TCR affinity for F5R/Ld such that it would allow us to evaluate the maximal possible activity (SD50 values) with the peptide.
+Two different engineered TCRs, m6 which was selected on QL9/Ld and m3 which was selected on F5R/Ld (this study), both exhibited higher affinity for F5R/Ld, compared to 2C TCR.
+In fact, comparison of the binding affinities of m3 and m6 for F5R/Ld suggested that it is desirable to improve TCR binding affinities by even modest amounts (5-fold, to a KD value of about 1 M for m3) in order to generate very strong agonist activity (SD50 = 1012 M).
+We suggest that the affinity of the m3 TCR may be considered optimal for mediating CD8-independent activity, and thus represents the maximal activity that might be achieved with the F5R variant.
+ It is of some interest to consider why each TCR (2C, m3, and m6) has 40 to 200-fold higher binding affinity for QL9/Ld compared to F5R/Ld (despite the fact that m3 was even selected for improved binding to F5R/Ld from a CDR3 library).
+One possibility is that the chemistry of the CDR3 regions restrains the possible interactions that can be achieved with an arginine at this position, rather than the wild type phenylalanine.
+The large number of bonds between both 2C CDR3 and m6 CDR3 with Phe5 (Fig. 6A) is consistent with this possibility.
+Another possibility, which is not mutually exclusive, is that other CDRs interact directly or indirectly with position 5 (Fig. 6B) and thus these contribute to binding energy mediated by a phenylalanine at this position.
+In this case, since the yeast display library does not contain mutations in CDRs other than CDR3, one would not have a TCR binding site that is optimized for the arginine at position 5.
+Construction of libraries in these other CDRs would allow this idea to be tested by exploring whether yet higher affinity TCRs against F5R/Ld could be evolved. Finally, it is important to emphasize that tolerance results in a T cell repertoire with TCR affinities that are on the very low affinity end (at best) for self-peptides.
+Thus, even if one were able to generate peptide variants with improved MHC binding capacity, a minor impact on TCR binding is likely to drive the TCR into an affinity range that is minimally active.
+This may be one reason why the clinical efficacy of peptide-based therapies has been limited.
+Accordingly, it may be preferable to take an approach that is technically more challenging but could have the potential to develop an adequate anti-tumor immune response: to engineer a single TCR that can restore binding affinity for both altered peptide ligands and the original peptide.
+In this scenario, adoptive T cells, transduced with the engineered TCR, would be used clinically (perhaps in an adjunct setting with the altered peptide variant to sustain long term T cell activity and persistence).
+Such TCRs could also be engineered against peptide variants that arise naturally in an infectious agent, and which under normal circumstances might allow antigen escape variants not recognized but the endogenous T cell repertoire.
+ This is a PDF file of an unedited manuscript that has been accepted for publication.
+As a service to our customers we are providing this early version of the manuscript.
+The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final citable form.
+Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain. Abbreviations used in this paper: QL9, peptide QLSPFPFDL F5R, peptide QLSPRPFDL MCMV, peptide YPHFMPTNL pepMHC, peptide-major histocompatibility complex SD50, sensitization dose of peptide at 50% maximum activity SPR, surface plasmon resonance scTCR, single-chain T cell receptor TCR, T cell receptor References Conversion of a T cell antagonist into an agonist by repairing a defect in the TCR/peptide/MHC interface: implications for TCR signaling Increased immunogenicity of an anchor-modified tumor-associated antigen is due to the enhanced stability of the peptide/MHC complex: implications for vaccine design Cellular uptake followed by class I MHC presentation of some exogenous peptides contributes to T cell stimulatory capacity Structural and kinetic basis for heightened immunogenicity of T cell vaccines Engineering higher affinity T cell receptors using a T cell display system High-affinity, peptide-specific T cell receptors can be generated by mutations in CDR1, CDR2 or CDR3 Differences in antigen recognition and cytolytic activity of CD8(+) and CD8() T cells that express the same antigen-specific receptor How a single T cell receptor recognizes both self and foreign MHC T-cell antigen receptor genes and T-cell recognition The cellular context of T cell signaling Specificity and degeneracy in antigen recognition: yin and yang in the immune system Alloreactive T cells respond specifically to multiple distinct peptide-MHC complexes Conformation of MHC class III-A(g7) is sensitive to the P9 anchor amino acid in bound peptide In vitro evolution of a T cell receptor with high affinity for peptide/MHC Quantitative analysis of the contribution of TCR/pepMHC affinity and CD8 to T cell activation CD8() T cell transfectants that express a high affinity T cell receptor exhibit enhanced peptide-dependent activation VMD: visual molecular dynamics Modified peptides in anti-cancer vaccines: are we eventually improving anti-tumour immunity? T cell receptor antagonists and partial agonists Engineering and characterization of a stabilized alpha1/alpha2 module of the class I major histocompatibility complex product Ld Different thermodynamic binding mechanisms and peptide fine specificities associated with a panel of structurally similar high-affinity T cell receptors Potent cytolytic response by a CD8+ CTL clone to multiple peptides from the same protein in association with an allogeneic class I MHC molecule Variations in the number of peptide-MHC class I complexes required to activate cytotoxic T cell responses Immunoprecipitation of cell surface structures of cloned cytotoxic T lymphocytes by clone-specific antisera Derivation of a T cell hybridoma variant deprived of functional T cell receptor alpha and beta chain transcripts reveals a nonfunctional alpha-mRNA of BW5147 origin Peptide ligand-induced conformation and surface expression of the Ld class I MHC molecule Cancer regression in patients after transfer of genetically engineered lymphocytes Variation in cytotoxic T-lymphocyte responses to peptides derived from tyrosinase-related protein-2 Improved induction of melanoma-reactive CTL with peptides from the melanoma antigen gp100 modified at HLA-A*0201-binding residues More than one reason to rethink the use of peptides in vaccine design Influence of dominant HIV-1 epitopes on HLA-A3/peptide complex formation Peptide-induced conformational changes in class I molecules.
+Direct detection by flow cytometry A residue in the center of peptide QL9 affects binding to both Ld and the T cell receptor Enhanced antigen-specific antitumor immunity with altered peptide ligands that stabilize the MHC-peptide-TCR complex Kinetics and affinity of reactions between an antigen-specific T cell receptor and peptide-MHC complexes A naturally occurring peptide recognized by alloreactive CD8+ cytotoxic T lymphocytes in association with a class I MHC protein Enhanced generation of specific tumor-reactive CTL in vitro by selected Melan-A/MART-1 immunodominant peptide analogues Figures and Table Structural features of the 2C:QL9-Ld complex, focusing on QL9 peptide residue Phe 5.
+(A) End view of the 2C/QL9-Ld complex (PDBID:2oi9) from the peptide N-terminus.
+Peptide QL9 (QLSPFPFDL, green) residues P4, F5, F7, and D8 are located at the interface of the Ld helices and the 2C TCR.
+Side chains residues Pro 4, Phe 5, Phe 7, and Asp 8 are in contact with both Ld (cyan) and the 2C TCR (CDR3 pink, CDR2 orange, CDR1 purple, CDR3 grey, CDR2 blue, CDR1 red).
+QL9 residue Phe 5 is positioned closest to the 2C TCR's CDR3 loop (pink).
+(B) Molecular model of the QL9-F5R-Ld complex.
+Structure of QL9-Ld was modeled with an arginine at QL9 position 5, using Visual Molecular Dynamics software.
+MHC Ld is represented in grey and peptide QL9 side chains Arg 5 and Asp 8 are represented in cyan.
+ Analysis of QL9 and QL9 variant F5R binding to MHC-Ld. (A) Detection of MHC-Ld up-regulation on the surface of T2-Ld with addition of peptides QL9 and F5R.
+Levels of MHC-Ld were detected with anti-Ld antibody 30.5.7 and flow cytometry.
+Mean fluorescent units (MFU) above the no-peptide background were plotted versus peptide concentration.
+Stabilization curves were subjected to non-linear regression to obtain BD50 values, or concentration of peptide required to up-regulate half-maximal Ld.
+(B) Cell surface lifetimes of QL9/Ld and F5R/Ld complexes at 37C.
+Levels of specific peptide/Ld remaining on T2-Ld cells were monitored over time.
+Data is plotted as % Maximal-peptide Ld, which represents the percentage of peptide/Ld remaining on the cell surface at a specific time.
+% Maximal-peptide Ld = [(MFUsample  MFUnull MCMV) / (MFUmax sample  MFUnull MCMV)]  100. Standard deviations were averaged from five independent experiments for QL9/Ld and two independent experiments for F5R/Ld.
+ Yeast display and engineering of higher affinity 2C TCR mutants for F5R/Ld.
+(A) Curves correspond to binding of soluble F5R-Ld-IgG dimer to higher affinity 2C TCR mutants called m1 and m3.
+Yeast cells displaying m1 and m3 were stained with various concentrations of the dimer followed by detection with PE labeled goat-anti-mouse-IgG and flow cytometry.
+(B) Specificity of the high-affinity 2C TCR mutant m3 (see panel A) and TCR mutant m6 for various peptide QL9 position 5 variants, in the form of soluble pMHC dimers.
+Peptide-Ld-IgG dimers at 0.4 M were incubated with TCR m3 or m6 displayed on the surface of yeast, and detected with PE labeled goat-anti-mouse-IgG followed by flow cytometry.
+The inset shows the CDR3 amino acid sequences for the wild type 2C and the two higher affinity TCRs m3 and m6.
+ Surface plasmon resonance of scTCRs and pMHC complexes QL9-Ld or F5R-Ld. (A) Surface plasmon resonance (SPR) traces for biotinylated QL9-Ld immobilized to a CM5 Biacore 3000 sensor chip, detected with various concentrations of soluble scTCR m3.
+Concentrations of TCR m3 were: 1000, 500, 250, 125, 62.5, 31.25, 15.6, 7.8, 3.9, and 0 nM. (B) SPR traces for soluble 2C TCR immobilized to a CM5 Biacore 3000 sensor chip, detected with soluble F5R-Ld-m31.
+Concentrations of soluble F5R-Ld-m31 were: 100, 74, 61, 50, 39, 10, and 0 uM. (CD) SPR traces for biotinylated F5R-Ld immobilized to a CM5 Biacore 3000 sensor chip, detected with higher affinity scTCRs m3 and m6.
+(C) Concentrations of scTCR m3 were: 50, 25, 12.5, 3.12, 1.56, 0.78, 0.39, 0.19, and 0 M. (D) Concentrations of TCR m6 were: 20, 10, 5, 2.5, 1.25, 0.625, 0.312, 0.156, 0.078, and 0 M. Activation of T cells transfected with wild type TCR 2C and higher affinity TCRs m6 and m3 by QL9-Ld and F5R-Ld. (A) 2C, m3 and m6 T cell transfectants (CD8-negative effector cells) were stimulated in the presence of T2-Ld (targets) and various concentrations of peptide QL9 (QLSPFPFDL).
+Activation was measured by assaying for levels of IL-2 release in an ELISA.
+(B) Sensitization doses, SD50, determined from non-linear regression of the activation curves in (A).
+SD50 values represent the concentration of peptide yielding 50% maximal IL-2 release.
+Error bars represent standard deviations averaged from three independent experiments.
+(C) Same as (A) except cells were pulsed with various concentrations of peptide F5R (QLSPRPFDL).
+(D) Sensitization doses, SD50, determined from non-linear regression of the activation curves in (C).
+Error bars represent standard deviations averaged from three independent experiments.
+ Atomic interactions between peptide QL9 Phe 5 and TCRs 2C, m6, and MHC-Ld. (A) Overlay of structures 2C/QL9-Ld and m6/QL9-Ld (PDBID:2oi9 and 2e7l) showing contacts between QL9-Phe5 with the TCRs 2C, m6, and MHC Ld.
+Van der Waals contacts between peptide QL9-Phe5 (yellow) and the CDR3 loop of 2C (green), or the CDR3 loop of m6 (pink), along with MHC-Ld (cyan) are represented as broken lines.
+(B) Contact map for peptide QL9 Phe 5 (middle line) with the 2C TCR CDR loops (top line) and m6 TCR CDR loops (bottom line).
+Dotted lines represent potential Van der Waals contacts, containing a cutoff distance of  4.5A, as determined by MacPyMOL software (DeLano Scientific LLC).
+Interactions between peptide QL9-Phe5 (yellow) and residues of TCRs 2C or m6 are represented in green and pink respectively.
+The total number of contacts for each pair-wise interaction are listed above or below the highlighted TCR residue.
+ Binding and biological properties of 2C T cell receptors  TCR affinity KD (M) T cell activity SD50      TCR QL9/Ld QL9-F5R/Ld QL9 QL9-F5R   2C 1.6a 300  60 2  1011 >105   m6 0.036a 6.3  1.7 6  1012 2  1010   m3 0.027  0.0088 1.2  0.04 5  1012 1  1012    Values from (.
+ 

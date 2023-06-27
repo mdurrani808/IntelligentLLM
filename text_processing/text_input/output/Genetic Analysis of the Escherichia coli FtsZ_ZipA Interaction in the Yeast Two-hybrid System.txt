@@ -1,0 +1,740 @@
+Genetic Analysis of the Escherichia coli FtsZzZipA Interaction
+in the Yeast Two-hybrid System
+CHARACTERIZATION OF FtsZ RESIDUES ESSENTIAL FOR THE INTERACTIONS WITH ZipA
+AND WITH FtsA*□S
+Received for publication, October 26, 2000, and in revised form, December 27, 2000
+Published, JBC Papers in Press, January 16, 2001, DOI 10.1074/jbc.M009810200
+Steven A. Haney‡§, Elizabeth Glasfeld‡, Cynthia Hale¶, David Keeney‡, Zhizhen He‡,
+and Piet de Boer¶
+From the ‡Department of Infectious Disease, Wyeth-Ayerst Research, Pearl River, New York 10965 and the ¶Department
+of Molecular Biology and Microbiology, Case Western Reserve University Medical School, Cleveland, Ohio 44106-4960
+The recruitment of ZipA to the septum by FtsZ is an
+early, essential step in cell division in Escherichia coli.
+We have used polymerase chain reaction-mediated ran￾dom mutagenesis in the yeast two-hybrid system to an￾alyze this interaction and have identified residues
+within a highly conserved sequence at the C terminus of
+FtsZ as the ZipA binding site. A search for suppressors of
+a mutation that causes a loss of interaction (ftsZD373G)
+identified eight different changes at two residues within
+this sequence. In vitro, wild type FtsZ interacted with
+ZipA with a high affinity in an enzyme-linked immu￾nosorbent assay, whereas FtsZD373G failed to interact.
+Two mutant proteins examined restored this interaction
+significantly. In vivo, the alleles tested are significantly
+more toxic than the wild type ftsZ and cannot comple￾ment a deletion. We have shown that a fusion, which
+encodes the last 70 residues of FtsZ in the two-hybrid
+system, is sufficient for the interaction with FtsA and
+ZipA. However, when the wild type sequence is com￾pared with one that encodes FtsZD373G, no interaction
+was seen with either protein. Mutations surrounding
+Asp-373 differentially affected the interactions of FtsZ
+with ZipA and FtsA, indicating that these proteins bind
+the C terminus of FtsZ differently.
+In bacteria, the study of cell division has defined many genes
+active in the formation and cleavage of a septum (1–3). Cur￾rently, the earliest known step in the development of the sep￾tum is the formation of the Z-ring, a circular polymeric struc￾ture formed by the tubulin-like protein FtsZ (4). The cell
+division machinery assembles on the Z-ring in a sequential
+manner. Two proteins that act early in cell division, and di￾rectly on the Z-ring, are FtsA and ZipA (5–10). The structure of
+FtsA has been solved recently (11), and it supports previous
+indications that it is similar to actin (12, 13). FtsA may function
+by linking septum formation to peptidoglycan synthesis (8, 14).
+ZipA is an integral membrane protein that causes FtsZ fibers to
+bundle in vitro (15, 16). ZipA is thought to stabilize the FtsZ
+rings, in part because moderate overexpression of zipA can
+suppress the ftsZ84 allele, which confers a defect in Z-ring
+formation (16). The structure of the highly conserved C-termi￾nal fragment of ZipA has been solved by x-ray crystallography
+and NMR, and it shows conservation to several RNA-binding
+proteins (17, 18).
+Genetic analyses of cell division have identified many genes
+as conditional alleles, but detailed genetic analysis describing
+an individual proteinzprotein interaction is difficult, because
+many interacting proteins are involved, often simultaneously
+(19–21). Because of this, it is advantageous to develop a sur￾rogate system that allows the study of a proteinzprotein inter￾action through genetic analysis (i.e. the study of a
+proteinzprotein interaction through the identification and char￾acterization of mutations). The two-hybrid system of yeast
+(Y2H)1 is one such system, because of the wide range of genetic
+techniques that exist for yeast (22, 23) and because the two￾hybrid system itself is a robust system for characterizing
+proteinzprotein interactions in vivo (24). Thus, it is a relatively
+simple extension of yeast genetic analysis to examine a two￾hybrid interaction genetically. Previous work has indicated
+that the C terminus of FtsZ is important for the interaction
+with both ZipA and FtsA (9, 10, 15, 21, 25). To better define the
+interaction between FtsZ and ZipA, we have analyzed this
+interaction in yeast genetically. Using a mutation in ftsZ that
+reduces the interaction with zipA in the Y2H system, we have
+searched for intragenic suppressors (additional mutations
+within ftsZ that reverse the phenotype of the initial loss-of￾function mutation). This search has identified mutations
+within a small segment of ftsZ that encodes a conserved se￾quence at the C terminus. We have characterized the effect of
+these mutations on the interactions with ZipA and FtsA and
+determined the effect of the mutations on cell division.
+EXPERIMENTAL PROCEDURES
+Strains, Plasmids, and Oligonucleotides—All strains and plasmids
+used in this study are listed in Table 1s. Oligonucleotides are listed in
+Table 2s. Both tables are published as supplemental material in the
+online version of this paper.
+Media and Reagents—Yeast and bacterial media were prepared by
+standard methods using materials readily available (22, 23). SC, YPD
+and other general yeast media are described in these references. YNB,
+BactoAgar, BactoTryptone, BactoPeptone, and yeast extract were pur￾chased from Difco. Amino acid mixtures (CSM-LUTH, CSM-AHT), raf￾finose, glucose, and galactose were purchased from Bio101. Amino
+* Part of this work was supported by NIH grant GM-57059 (to P. de
+B.). The costs of publication of this article were defrayed in part by the
+payment of page charges. This article must therefore be hereby marked
+“advertisement” in accordance with 18 U.S.C. Section 1734 solely to
+indicate this fact.
+□S The on-line version of this article (available at http://www.jbc.org)
+contains Tables 1s and 2s.
+¶ To whom correspondence should be addressed: Dept. of Infectious
+Disease, 205/277, 401 N. Middletown Rd., Pearl River, NY 10965. Tel.:
+845–732-3683; Fax: 845–732-2480; E-mail: haneysa@war.wyeth.com.
+1 The abbreviations used are: Y2H, yeast two-hybrid system; FOA,
+59-fluoroorotic acid; YPD, yeast-peptone media with glucose; SC, syn￾thetic complete media, YNB, yeast nitrogen base; AT, 3-amino triazole;
+bp, base pair(s); ELISA, enzyme-linked immunosorbent assay; IPTG,
+isopropyl-b-D-thiogalactopyranoside.
+THE JOURNAL OF BIOLOGICAL CHEMISTRY Vol. 276, No. 15, Issue of April 13, pp. 11980–11987, 2001
+© 2001 by The American Society for Biochemistry and Molecular Biology, Inc. Printed in U.S.A.
+11980 This paper is available on line at http://www.jbc.org
+ at Georgian Court College on March 11, 2015 http://www.jbc.org/ Downloaded from acids, 59-fluoroorotic acid (FOA), 4-methylumbelliferyl b-D-galactoside,
+and aminotriazole were purchased from Sigma Chemical Co. Zymolyase
+was purchased from ICN Biologicals.
+Construction of Plasmids—All oligonucleotides used in this study are
+listed in Table 2s. FtsZ and ZipA were cloned by PCR amplification of
+genomic DNA from Escherichia coli strain MG1655. Wild type ftsZ
+cloned into pGAD424 was done by PCR amplification of the ftsZ gene
+from pDR3 using the oligos FtsZ-59 and FtsZ-39. The amplified PCR
+product was digested with MfeI and SalI and cloned into pGAD424 that
+was digested with EcoRI and BamHI. zipA was amplified by PCR using
+oligos ZipA-59 and ZipA-39. The ZipA-59 oligo results in a PCR product
+that deletes the membrane-spanning portion of the ZipA gene product.
+The resulting fragment was digested with EcoRI and SalI and ligated
+into pLexA, to generate plasmid pSH47. This fragment was subse￾quently excised and cloned into pGAD424, which was digested identi￾cally to generate plasmid pSH230. The plasmid pSH228 was con￾structed by PCR amplification of plasmid pSH256 with oligos FtsZ￾59(311) and FtsZ-39. The resulting fragment was digested with EcoRI
+and SalI and cloned into pAS2-1. pSH229 was constructed in an iden￾tical manner, except that pSH41 was used as the template for the PCR
+reaction. pSH100 was constructed by PCR amplification of pAS1-ftsA,
+which was generously provided by Sandy Silverman, with oligos
+FtsA-59 and ADHt. The resulting fragment was digested with EcoRI
+and SalI and ligated into pAS2-1. Plasmid pSH232 was constructed by
+subcloning the ftsA gene into pGAD424, which had been digested with
+EcoRI and SalI as well.
+Construction of Yeast Strains—Strain SHy9 was generated by grow￾ing strain CG 1945 serially for two 10-ml overnight cultures, with about
+a 105 cell inoculum each, and plating on SC plates supplemented with
+0.1% FOA, and colonies were allowed to grow for 5 days. Several
+colonies that grew were rechecked for all phenotypes, including loss of
+GAL1p-lacZ reporter activity. Strains SHy22 and SHy23 were gener￾ated by introducing pHO (kindly provided by Kim Arndt) into strain
+SHy9 and growing a transformant in 10 ml of SC-URA overnight. Cells
+were streaked onto a YPD plate and allowed to grow for 3 days. This
+plate was then replica printed onto an SC plate supplemented with
+0.1% FOA. Colonies from this plate were patched onto a new YPD plate,
+grown overnight, and replica-printed onto an SPO plate. This plate was
+incubated at room temperature for 24 h and then at 30 °C for 5 days.
+Patches producing asci were then incubated with Zymolyase, and
+spores were separated by the random spores technique and plated on
+YPD (29). SHy22 and SHy23 are strains from spores of the same patch
+and differ only by mating type.
+PCR-mediated Mutagenesis and Selection of Mutations—Mutations
+in FtsZ were generated by PCR amplification of pSH27 (pGAD424-
+ftsZD45N,D373G) using Taq DNA polymerase and reaction conditions that
+favored the incorporation of mutations. Oligonucleotides used as prim￾ers for amplification were GAL4ad and ADHt. These primers annealed
+to the GAL4 activation domain and the ADH terminator regions, re￾spectively, and produced a PCR product that included about 300 bp of
+sequence on either side of the ftsZ gene. These regions of homology
+allowed for homologous recombination of the PCR fragment when co￾transformed, with pGADGH vector DNA that had been linearized by
+digestion with EcoRI and BamHI, into SHy63 (30). Recombinants were
+selected by leucine prototrophy. In this work, cotransformation with
+100 ng of plasmid DNA and PCR fragment (each) resulted in about 1000
+colonies, whereas transformation by either the vector or the PCR frag￾ment alone resulted in zero to four colonies when plated onto LT plates.
+The interactions between the mutagenized ftsZ gene and zipA were
+tested by replica printing the transformants onto LHT plates supple￾mented with 0.5 mM AT. Colonies that grew after 3 days when incu￾bated at 37 °C were scored as hits. Each colony was grown as a 5-ml
+culture and prepared using the Qiagen Qiaprep Turbo 8 miniprep kit as
+described by the manufacturer, except that 0.5 mg of Zymolyase was
+added per ml of buffer P1, and samples were incubated for 30 min at
+30 °C in this solution. These preparations were used to transform E. coli
+strain KC8 by electroporation, and colonies were selected by growth on
+M9 plates that were supplemented with 50 mg/liter ampicillin, but
+lacked leucine, as described by Golemis et al. (31). Two to four colonies
+from each transformation plate were grown and prepared with the
+Qiagen miniprep kit again, this time without modification to the man￾ufacturer’s instructions. DNA from these preparations were analyzed
+by restriction analysis, and reconfirmation of the phenotypes was
+achieved by transforming into SHy23 again and rescoring the AT
+resistance.
+Site-directed Mutagenesis of Plasmids for Expression in Yeast and
+Bacteria—Mutations identified in the previous section were further
+characterized by introducing the identified mutation into a pGAD424-
+ftsZ construct. This was accomplished by site-directed mutagenesis
+using the QuikChange site-directed mutagenesis kit by Stratagene.
+Mutagenesis was performed as described by the manufacturer. Oligo￾nucleotides used in this work were: D373G/T, D373G/B; D373S/T,
+D373S/B; D373G, P375L/T, D373G, P375L/B, as listed in Table 2s. For
+the alanine-scanning mutations, site-directed changes were introduced
+into pGAD-ftsZD373G (pSH-201). The mutation that results in a change
+from D to G at position 373 also results in a loss of the EcoRV restriction
+site. Each of the oligo pairs encode a change that restores this restric￾tion site, in addition to the change at the codon to be changed to alanine.
+The oligos used were: D370A/T, D370A/B; Y371A/T, Y371A/B; L372A/T,
+L372A/B; F377A/T, F377A/B; L378A/, L378A/B; R379A/T, R379A/B;
+K380A/T, K380A/B; Q381A/T, Q381A/B. Candidate clones were
+screened for the reacquisition of the EcoRV site.
+Purification of FtsZ and ZipA and Assay of the FtsZzZipA Interaction
+in Vitro—The wild type and mutant FtsZs were expressed with the
+N-terminal biotin tag MAGGLNDIFEAQKIEWH (32) to enable detec￾tion in an ELISA. The lysine in this sequence is biotinylated in vivo by
+the E. coli enzyme BirA. Plasmids were constructed by inserting the
+coding sequence for the biotin tag between the NcoI and NdeI sites of
+pET28 (Novagen) using the oligos BIOTAG/T and BIOTAG/B. In addi￾tion, birA was amplified from the plasmid pBIOTRX-BirA (26) by PCR
+using the oligos BirA 59 and BirA 39, digested with HinD III and XhoI
+and ligated into the HindIII and XhoI sites of the same vector as the
+biotin tag to give the vector pETbio-birA. The genes ftsZ, ftsZD373G,
+ftsZD373S, and ftsZD373G,P375L were subcloned from the vectors pDB312,
+pEG028, pSH187, or pSH189, respectively, into the NdeI and HindIII
+sites of pETbio-birA to give plasmids pEG045, pEG051, pEG052, and
+pEG053.
+Biotin-FtsZ and its mutants were expressed in the E. coli strain
+BL21(DE3)pLysS. Expression was induced with 1 mM isopropyl-b-D￾thiogalactopyranoside (IPTG) once the A600 of the culture was between
+0.5 and 1.0. At the same time, D-biotin was added to a final concentra￾tion of 0.1 mM. Cells were incubated at 37 °C for another 2–3 h, centri￾fuged, and resuspended in buffer A (50 mM Tris, pH 7.9, 50 mM KCl, 1
+mM EDTA, and 10% glycerol) and stored at 270 °C. The proteins were
+then purified according to a previous report (33).
+Protein concentrations of biotin-FtsZ and its mutants were deter￾mined by the Bradford method. The extent of incorporation of biotin
+was determined by measuring the displacement of 2-(49-hydroxyazo￾benzene)benzoic acid from avidin. In short, 40 ml of protein sample or
+buffer was mixed with 360 ml of 0.5 mg/ml avidin and 0.3 mM 2-(49-
+hydroxyazobenzene)benzoic acid in 100 mM sodium phosphate, 150 mM
+NaCl, pH 7.2. The decrease in absorbance at 500 nM was measured, and
+the concentration of biotin was determined using De500 3 1023 5 34.
+The biotin-tagged FtsZs were between 50% and 75% biotinylated.
+ZipA-(23–328) was overexpressed from the plasmid pDB348 in
+BL21(DE3)plysS. Expression was induced as for biotin-FtsZ, above, and
+the cells were centrifuged, resuspended, and stored similarly. At the
+time of purification, the cells were thawed, phenylmethylsulfonyl fluo￾ride was added to 1 mM, and the cells were lysed by passage through a
+French press. The cell extract was clarified by centrifugation at
+100,000 3 g for 1 h, and ZipA-(23–328) was precipitated by adding
+ammonium sulfate to 35% saturation. The ammonium sulfate pellet
+was dissolved in buffer A and dialyzed against buffer A overnight.
+ZipA-(23–328) was purified to homogeneity by passage over a Mono-Q
+column (Amersham Pharmacia Biotech) and elution with a 50–230 mM
+gradient of KCl in buffer A. The protein concentration of ZipA-(23–328)
+was determined as described according to Gill and von Hippel (34).
+The interaction between ZipA-(23–328) and biotin-FtsZ and its mu￾tants was assayed in an ELISA format. ZipA-(23–328) was immobilized
+in the wells of an Immulon 4HBX 96-well plate in 50 mM Tris, pH 8.5,
+100 mM NaCl at 1 mg/ml overnight at 4 °C. Unbound ZipA-(23–328) was
+removed, and the wells were blocked with blocking buffer (0.2% bovine
+serum albumin in PBS-T (10 mM Na2HPO4, 1.8 mM KH2PO4, pH 7.5,
+140 mM NaCl, 2.7 mM KCl, 0.05% Tween 20)). After two washes with
+PBS-T, biotin-FtsZ and its mutants were added at various concentra￾tions in blocking buffer for 1 h at room temperature. Unbound FtsZ was
+removed, and the wells were washed three times with PBS-T. Next, 0.1
+mg/ml streptavidin-horseradish peroxidase conjugate in blocking buffer
+was added and incubated at room temperature for 1 h. The wells were
+washed four times after the removal of the conjugate. The horseradish
+peroxidase substrate o-phenylenediamine was then added in sodium
+phosphate-citric acid buffer, color development was stopped after a few
+minutes with 1.3 N H2SO4, and the absorbance at 490 nm was
+measured.
+Cell Biology Methods—E. coli morphology was determined by phase
+contrast microscopy of E. coli cells as described previously (5). Experi￾ZipA Binding Site of FtsZ Identified by Intragenic Suppressors 11981
+ at Georgian Court College on March 11, 2015 http://www.jbc.org/ Downloaded from mental conditions are described in the legends for Tables I and II.
+b-Galactosidase Assay—Cultures to be tested were grown for 36 h in
+5 ml of SC-Leu-Trp media. New cultures were inoculated with 100 ml of
+the overnight cultures, and the new cultures were grown for 16 h. Cells
+densities were between 0.8 and 1.0 A600 for these strains. Samples of
+these cultures were assayed for LacZ activity in quadruplicate, in a
+96-well microtiter plate (100 ml per well). Samples were mixed with 100
+ml of lysis buffer and substrate (40 ml of Promega cell lysis buffer, 40 ml
+of 0.125 mg/ml 4-methylumbelliferyl b-D-galactoside (Sigma), and 20 ml
+of 103 b-galactosidase assay salts). Samples were incubated at 30 °C
+for 4–8 h with shaking and read on a Victor II fluorescence plate reader
+from Wallac. Fluorescence intensity increased with time, and after 8 h,
+negative control wells showed about 400 units, whereas positive control
+wells for the ZipAzFtsZ interaction showed about 50,000 units and for
+the FtsAzFtsZ interaction showed about 10,000 units.
+RESULTS
+A Two-hybrid System That Allows for the Selection of Muta￾tions in ftsZ, which Affect the FtsZzZipA Interaction—Our in￾terest in developing a genetic system to characterize the
+FtsZzZipA interaction was piqued by the observation that a
+mutation in ftsZ resulted in a reduced interaction with zipA,
+when studied in the yeast two-hybrid system. This observation
+was made when one of several clones derived by PCR amplifi￾cation of E. coli genomic DNA was subcloned into the two
+standard two-hybrid systems. When ftsZN45D,D373G was ex￾pressed as a fusion to the B42 activation domain, an interaction
+was seen with zipA expressed as a fusion to the LexA DNA
+binding domain. This interaction could clearly be scored in
+standard analyses, such as on indicator plates containing
+5-bromo-4-chloro-3-indolyl b-D-galactopyranoside (X-gal), and
+by leucine prototrophy, but was significantly less robust than a
+fusion to wild type ftsZ (Fig. 1). No interaction was seen when
+the mutated ftsZ allele was examined in the galactose system
+(Fig. 2B, and results not shown). An examination of the muta￾tions introduced during cloning suggested that one of the mu￾tations could be important for the FtsZzZipA interaction. The
+first change was N45D, which has been characterized by Wang
+et al. (35) as one that affects the GTPase activity of FtsZ. This
+change was discounted as the cause of the altered interaction
+with ZipA by several experiments (Ref. 15, and results not
+shown). This evidence includes the observation that ZipA bind￾ing to FtsZ is not affected by guanine nucleotides and that
+deletion analysis of FtsZ had already shown that the GTPase
+domain of FtsZ was not involved in binding to ZipA. The other
+mutation, D373G, resulted in a change in a highly conserved
+region of the C terminus of FtsZ (discussed below). At the time
+this project began, the role of this region in cell division had not
+been characterized. This mutation provided us with an oppor￾tunity to study how a mutation with diminished function could
+be used to characterize this interaction.
+The lack of growth in the galactose system provided a clear
+strategy for determining which residues in FtsZ facilitate bind￾ing to ZipA, through the selection of intragenic suppressors.
+Selection of suppressors that restored the FtsZzZipA interac￾tion was achieved by PCR mutagenesis of the whole ftsZ gene
+as cloned into pGAD424, using primers that annealed to the
+GAL4 activation domain fragment and the ADH terminator.
+The primers allowed ;300-bp extensions to both ends of the
+ftsZ gene. These extensions provided regions of homology that
+allowed the PCR products to be cloned by recombination (Fig.
+2A) (30). The PCR products were transformed directly into
+strain SHy63 (a derivative of the Gal-Y2H strain CG1945 that
+had been previously transformed with pAS2-1-zipA), with the
+pGADGH vector that had been linearized, and is therefore not
+stable in yeast unless it has been repaired. Repair could be
+achieved by homologous recombination with the ends of the
+PCR products containing portions of the GAL4 activation do￾main gene, and the ADHt terminator. Transformation into
+strain SHy63 allowed the selection of recombinant plasmids
+expressing ftsZ alleles. Alleles interacting with the Gal4bd-zipA
+fusion were identified through the activation of the GAL1p￾HIS3 reporter. 73 colonies grew on plates that lacked histidine
+and were supplemented with 1 mM aminotriazole, two of which
+are shown in Fig. 2B. Plasmids were recovered and retested in
+yeast, and 12 plasmids were purified that could be recovered,
+hadnormalrestrictionanalysispatterns,andconferredplasmid￾dependent phenotypes (histidine prototrophy only when intro￾duced into a strain that carried pAS2-1-zipA). The ftsZ genes in
+these 12 plasmids were sequenced to identify any mutations.
+Eight of the 12 plasmids contain mutations in the conserved C
+terminus region. The remaining four plasmids do not contain
+mutations that result in amino acid changes in FtsZ are pre￾sumed to contain mutations that affect the copy number of the
+plasmid or the expression of the Gal4zFtsZ hybrid protein and
+have not been characterized further. The eight mutations iden￾tify five different residue changes from the original plasmid.
+Two mutations are reversions to the wild type aspartate resi￾due at position 373, two mutations change the Asp-373 residue
+to serine, and one changes this glycine to cysteine. The remain￾ing suppressors change the highly conserved proline residue at
+position 375 to leucine (twice) and to serine. These mutations
+are indicated in Fig. 3. The residues that comprise the C ter￾minus of the E. coli FtsZ are shown. Residues in capital letters
+show conservation among FtsZ proteins from prokaryotes and
+plants. The mutations identified in yeast that are critical for
+the interaction of FtsZ with ZipA map within this sequence,
+and no mutations from other regions of ftsZ were identified,
+indicating that these residues may comprise the principal re￾gion of interaction with ZipA.
+The suggestion that these mutations have significant effects
+on the interaction of FtsZ with ZipA was confirmed by intro￾ducing some of them into an unmutagenized pGAD424-ftsZ
+plasmid, and rechecking the phenotypes. Wild type ftsZ was
+compared with ftsZD373G, ftsZD373S, and ftsZD373G, P375L. We
+checked the interaction with zipA and ftsA in the galactose
+Y2H system (Fig. 4). The latter interaction was examined,
+because other work has suggested that FtsA also interacts with
+FtsZ at its C terminus, and we were therefore interested in
+characterizing this interaction (10, 21, 35). As can be seen in
+Fig. 4, the FtsZzFtsA interaction is also highly sensitive to
+mutations in the C terminus of FtsZ. All strains tested show
+good growth on plates supplemented with histidine (Fig. 4A).
+The interaction of ZipA with FtsZ is best scored on plates
+TABLE I
+Complementation of a ftsZ deletion by alleles of ftsZ expressed from a
+regulated promoter
+Plasmids were transformed to strain PB143/pCX41 [dadR2 trpE2
+trpA2 tna2 recA<Tn10 ftsZo
+/repAts ftsZl
+], and transformants were
+grown overnight at 30 °C in LB 1 Ap (50 mg/ml) 1 Cam (50 mg/ml) 1
+glucose (0.1%). Cultures were diluted in LB to A600 5 1 3 1027
+, and
+0.1-ml aliquots were spread on four plates. One plate containing LB 1
+Ap (50 mg/ml) 1 glucose (0.2%) was incubated at 30 °C. The other plates
+were incubated at 42 °C. These plates contained LB 1 Ap (50 mg/ml)
+supplemented with no. 5, or 10 mM IPTG. For each plate, the number of
+colony forming units was determined. Plasmids used in this experiment
+were: vector, pMLB1113; wild type ftsZ, pDR3; ftsZD373G, pSH179;
+ftsZD373S, pSH181; ftsZD373G,P375L, pSH183.
+Plasmid
+Colony forming units, temperature/IPTG
+30/0 42/0 42/5 42/10
+°C/mM
+Vector 787 0 0 0
+Wild type ftsZ 729 8 554 516
+ftsZD373G 642 0 0 0
+ftsZD373S 605 0 0 0
+ftsZD373G,P375L 550 0 0 0
+11982 ZipA Binding Site of FtsZ Identified by Intragenic Suppressors
+ at Georgian Court College on March 11, 2015 http://www.jbc.org/ Downloaded from containing 0.5 mM AT (Fig. 4B), where robust growth is seen for
+the wild type FtsZ, and for the two suppressors identified in
+Fig. 2. Expression of the GAL4-zipA fusion confers a higher
+background than either the vector control or the GAL4-ftsA
+fusion, giving growth on plates without AT, regardless of which
+GAL4AD construct is expressed. In the case of ftsA, the inter￾action is more sensitive, and its interactions with ftsZ can be
+scored on plates lacking histidine and AT (Fig. 4B). In this case,
+ftsA interacts well with wild type ftsZ, and with the ftsZD373S
+allele. It does not interact with either allele that changes the
+Asp-373 residue to glycine.
+Further characterization of the interaction between ZipA
+and FtsZ was performed in vitro with purified proteins. ZipA-
+(23–328), the soluble form of the protein, which lacks the N￾terminal membrane-spanning domain, and FtsZ proteins, ex￾pressed from the alleles examined in Fig. 3, were purified from
+E. coli to homogeneity. The interactions were tested in an
+ELISA, as shown in Fig. 5. Wild type FtsZ shows a high affinity
+for ZipA, having an apparent dissociation constant of 0.19
+(60.009) mM. The affinity of the FtsZD373G mutant for ZipA was
+too low to be quantified in this assay, despite the protein being
+otherwise well behaved, indicating that the mutation has a
+significant impact on the interaction of these two proteins. Two
+suppressors were analyzed as well, FtsZD373S and FtsZD373G,
+P375L, and were shown to have dissociation constants of 6.2 (6
+0.9) mM and 1.3 (6 0.2) mM, respectively. Both proteins show
+greatly improved interactions with ZipA, although neither pro￾tein interacts with ZipA as well as wild type FtsZ.
+FtsA Also Binds to the Conserved Carboxyl Terminus of FtsZ,
+but in a Manner Different from ZipA—The results in Fig. 4, as
+well as work by others (9, 10, 15, 21, 35), strongly implicate the
+C terminus of FtsZ as playing a critical role in the interaction
+of FtsA, in addition to ZipA. We were interested in examining
+the role of additional residues in the conserved C terminus of
+FtsZ in binding to FtsA as well as ZipA. In Fig. 6, we examined
+the role of the C terminus in binding to ZipA and FtsA in the
+Y2H system. In this experiment, we expressed a segment of the
+TABLE II
+Dominant effects of ftsZ mutations expressed in E. coli
+Plasmids were transformed to strain CH3 [dadR2 trpE2 trpA2 tna2 recA<Tn10], and transformants were grown overnight at 37 °C in LB 1 Ap
+(50 mg/ml) 1 glucose (0.1%). Cultures were diluted 200-fold in LB 1 Ap (50 mg/ml) supplemented with the indicated concentration of IPTG, and
+growth was continued at 37 °C for 4–5 h until A600 5 0.8–1.0. Division phenotypes were determined phase microscopy. Plasmids used in this
+experiment are described in Table I.
+Plasmid
+Cell division phenotype, [IPTG]
+0 25 50 100 250
+mM
+Vector WTa WT WT WT WT
+Wild type ftsZ WT/Min2 WT/Min2 WT/Min2 Min2/Sep2 Sep2
+ftsZD373G WT/Min2 Min2/Sep2 Sep2 Sep2 Sep2
+ftsZD373S WT/Min2 WT/Min2 WT/Min2 Sep2 Sep2
+ftsZD373G,P375L WT/Min2 Sep2 Sep2 Sep2 Sep2
+a WT, wild type; WT/Min2, mixture of short rods and minicells, typical ftsZ-overexpression phenotype; Min2/Sep2, mixture of minicells, normal
+rods, and filaments; Sep2, long filaments, very few division septa present.
+FIG. 1. The interaction of ftsZ with zipA in the yeast two￾hybrid system is specific and sensitive to mutations in ftsZ.
+Diploid strains were constructed by mating EGY48 containing either
+pLexA or pSH47 (pLexA-zipA) with YM4271 containing pB42, pSH256
+(pB42-ftsZ, wild type), or pSH48 (pB42-ftsZ D39N,D373G). Overnight cul￾tures were spotted into a microtiter plate containing 100 ml of media per
+well, and 5-ml spots were applied onto plates using a pin arrayer, as
+indicated in the figure. Plates were incubated at 30 °C for 4 days.
+FIG. 2. Isolation of intragenic suppressors of the ftsZD373G mu￾tation. A, mutations in ftsZ were generated by mutagenic PCR ampli￾fication of the ftsZD373G allele as a construct in pGAD424. Primers for
+the amplification were to sequences about 300 bp away from the mul￾tiple cloning site of the vector, allowing for cloning by in vivo recombi￾nation and expression of clones carrying mutations that restored the
+interaction of ftsZ with zipA. B, growth phenotypes of pGADGH-ftsZ
+plasmids recovered from the screen. Plasmids were transformed into
+yeast strain CG1945, along with either plasmid pAS2-1 or plasmid
+pSH227 (pAS2-1-zipA), as indicated, grown overnight, and spotted onto
+the indicated plates.
+ZipA Binding Site of FtsZ Identified by Intragenic Suppressors 11983
+ at Georgian Court College on March 11, 2015 http://www.jbc.org/ Downloaded from ftsZ gene, which encodes the last 70 residues of FtsZ as a fusion
+to the GAL4bd, rather than to the GAL4ad, as has been done in
+previous experiments. The ftsZD373G mutation, expressed in a
+similar construct, clearly indicates that this residue plays a key
+role in the interaction of both fusions assayed.
+Next, we sought to determine whether ZipA and FtsA inter￾act with identical residues in the FtsZ C terminus. Eight ad￾ditional residues within this conserved sequence were mutated
+individually to alanine. Strains expressing derivatives of
+pGAD424-ftsZ that have specific residues changed to alanine
+are indicated in Fig. 7. The strains were characterized for
+histidine prototrophy and for b-galactosidase activity, as
+shown in the figure. In this experiment, strain CG1945 was
+used for the bait plasmids. In these diploids, background
+growth of the strains containing pAS2-1-zipA were more com￾parable to that of the strains containing pAS2-1-ftsA, so only
+the SC-LHT plate is shown. Robust growth on plates contain￾ing 0.5 mM AT was only seen with the zipAzftsZ interactions
+(data not shown).
+Phenotypic Consequences of Mutations That Change Resi￾dues in the FtsZ C Terminus—The mutations described above
+were assayed in E. coli to determine whether there were any
+biological consequences associated with them. The mutations
+were introduced into pDR3, a plasmid that expresses ftsZ un￾der the control of the lac promoter, and can complement a ftsZ
+deletion when induced by IPTG. Two assays were performed.
+In the first, ftsZ alleles expressed under a regulated promoter
+were characterized for their ability to complement an ftsZ
+deletion. The results are presented in Table I. pDR3 efficiently
+complements in the presence of IPTG, whereas none of the
+mutants can. Additional effects can be seen in Table II, where
+the expression of ftsZ from the same plasmids as those in Table
+I are examined for dominant effects. Expression of extrachro￾mosomal ftsZ is toxic at high levels, as can be seen when a
+strain carrying pDR3 is exposed to high concentrations of
+IPTG, which expresses the plasmid copy of the FtsZ gene to
+high levels.
+Dominant effects can be seen for all of the mutated alleles,
+with strong effects seen with the ftsZD373G allele and the
+ftsZD373G,P375L allele. In these cases, an Sep2 phenotype is seen
+at substantially lower concentrations of IPTG. The same is true
+for the ftsZD373S allele, which has a more modest phenotype
+relative to the other mutations in this assay as well, but is still
+substantially more toxic than the wild type gene expressed on
+a plasmid. Thus, a comparison of the ftsZ alleles with the wild
+type ftsZ indicates that all of the mutations examined in Tables
+I and II show profound cell division defects.
+DISCUSSION
+Recently, the bacterial cell division proteins FtsZ, ZipA, and
+FtsA have been structurally characterized, as well as the
+ZipAzFtsZ interaction (11, 17, 18, 36). In addition to these
+structural characterizations, functional and biological studies,
+such as those described in this report, will allow us to under￾FIG. 3. Summary of mutations isolated by PCR mutagenesis in
+the two-hybrid system. The FtsZ C terminus is shown as both the
+wild type sequence (top line), and with the D to G mutation that was
+encoded by the template DNA for this work (second line). Suppressors
+isolated from this DNA are indicated in the third line. Residues Asp-373
+to Pro-375 that comprise the signature DIP sequence are underlined.
+FtsZ residues are numbered. Conserved residues are capitalized.
+FIG. 4. Interaction of intragenic suppressors of the ftsZD373G
+mutation with zipA and ftsA in the two-hybrid system. Yeast
+diploid strains resulting from crosses of yeast strain SHy22 containing
+pAS2-1, pSH227 (pAS2-1-zipA), or pSH 100 (pAS2-1-ftsA) with yeast
+strain SHy23 strains containing pGAD424-ftsZ-based plasmids as in￾dicated in the figure. Diploid strains for testing are grown overnight
+and spotted, as described in Fig. 1, onto the plates indicated in the
+figure.
+FIG. 5. Determination of the dissociation constants for the
+binding of FtsZ and FtsZ mutants by ZipA. The interaction was
+assayed as described under “Experimental Procedures,” and the data
+(●, biotin-FtsZ; M, biotin-FtsZD373G, P375L; l, biotin-FtsZD373S; and ‚,
+biotin-FtsZD373G) were fit by linear regression with a steady-state af￾finity model. Each data point is an average of three repeats.
+FIG. 6. zipA and ftsA interact with the C terminus of ftsZ in the
+yeast two-hybrid system. Strains were constructed as described in
+Fig. 4 using strain CG1945 instead of strain SHy22 for the bait plas￾mids (pAS2-1, pSH228 (pAS2-1-ftsZ-(311–383)), and pSH229 (pAS2-1-
+ftsZD373G-(311–383)). Prey plasmids (pGAD424, pSH230 (pGAD424-
+zipA), and pSH232 (pGAD424-ftsA)) were transformed into strain
+SHy23 to obtain strains for mating. Controls were performed as de￾scribed in Fig. 4, but are omitted from the figure for clarity. Duplicate
+spots represent overnight cultures of two independent transformants.
+11984 ZipA Binding Site of FtsZ Identified by Intragenic Suppressors
+ at Georgian Court College on March 11, 2015 http://www.jbc.org/ Downloaded from stand how biologically important residues function in these
+interactions. Results presented here show that several residues
+within the conserved C terminus of FtsZ play essential roles in
+cell division, and minor changes within this sequence can have
+lethal consequences.
+The results presented in this study that characterize the role
+of individual residues in the biological context of the Y2H
+system are in general agreement with the in vitro character￾ization of Mosyak et al. (17). One area where differences were
+seen is the first group of conserved residues: Asp-370, Tyr-371,
+and Leu-372. All three residues were shown to contribute im￾portant binding energy in the BIAcore system, but only the
+Y371A change was shown to be important in the Y2H system.
+The L372A change functioned well in the Y2H system, despite
+being the most important of the three in vitro. It is possible that
+the FtsZ binding pocket of ZipA can accommodate the D370A
+and L372A changes in the Y2H system more effectively than it
+can in vitro or that it can accommodate the Y371A change in
+the in vitro system better than in the Y2H system. Two muta￾tions, L372A and R379A, affected the interaction with ftsA to a
+greater extent than the interaction with zipA. The severe effect
+of the R379A change is especially interesting, because struc￾tural data show that the arginine residue is solvent-exposed
+when bound by ZipA, which is consistent with the modest effect
+with zipA in yeast. These results clearly indicate that, although
+both proteins bind the same C terminus core of FtsZ, they bind
+to different residues within this core. Residues that were iden￾tified as playing a major role in the interaction in vitro showed
+similarly significant roles in the experiments presented here.
+This work was initiated through an exhaustive search for
+suppressors of the loss-of-function allele, ftsZD373G. We identi￾fied only residues in the conserved C terminus, despite the fact
+that the entire ftsZ gene was subjected to mutagenic PCR. As
+these results were first obtained, it was surprising that second￾site intragenic suppressors were obtained at only one residue,
+Pro-375. If this conserved segment was the site of the interac￾tion with ZipA, then one might expect that mutations that
+increase the affinity of ZipA for the D373G mutant of FtsZ
+would be restricted to this region, but the presence of suppres￾sors at a single residue was not anticipated. Structural studies
+have shed some light on our results (17, 18). Although the
+Asp-373 residue plays a critical role in the interaction between
+FtsZ and ZipA, it is not directly involved in the interaction with
+ZipA per se. Rather, it plays a critical role in defining the
+structure of the residues that contact ZipA significantly. This is
+illustrated in Fig. 8. This figure shows the FtsZ peptide bound
+by the C-terminal domain of ZipA, as determined by x-ray
+crystallography, and is depicted using the program RIBBONS
+(37). The Asp-373 side chain contributes a hydrogen bond to the
+a-carbon backbone, which helps define the transition from
+b-sheet structure to a-helix. The change to glycine introduces a
+significant structural change, including the removal of this
+critical hydrogen bond. The Pro-375 residue also plays a struc￾tural role in defining the ZipA binding site. The residues that
+directly interact with ZipA are interspersed through the se￾quence that includes the Asp-373 and Pro-375 residues, in
+particular, residues Ile-374, Phe-377, and Leu-378 (17). There￾fore, the structure of the FtsZ C terminus is critical because of
+the number of interactions that occur along the a-carbon chain
+of FtsZ (17, 18). The best explanation that can be offered from
+the structural data is that the D373G change perturbs the
+orientation of the interacting residues, and this perturbation is
+alleviated by the P375L mutation. In the inset of Fig. 8, the
+D373G and P375L mutations are modeled into the structure.
+The inset shows where the hydrogen bond is lost, and where the
+leucine side chain would interact with ZipA. Further structural
+studies will be required to determine whether the P375L mu￾tation provides an additional hydrophobic interaction with
+ZipA or whether it allows hydrophobic capping of the FtsZ
+peptide to restore the conformation of the interacting residues.
+Finally, although the number of mutations that can negatively
+affect an interaction is fairly large, the number of possible
+changes that can increase the strength of the interaction seems
+to be small.
+FIG. 8. Structure of the FtsZzZipA complex. The interacting resi￾dues of FtsZ are indicated in blue, with the Asp-373 and Pro-375 side
+chains shown. The ZipA structure is shown in green. Numbers indicate
+residues of the FtsZ peptide. The hydrogen bond between Asp-373 and the
+main chain of FtsZ is indicated by the white dashed line. In the inset, the
+D373G and P375L changes are modeled into the ZipAzFtsZ structure.
+Representations were done using the program RIBBONS (37).
+FIG. 7. Comparison of the interac￾tion of ftsA and zipA with alanine￾scanning mutations in other con￾served residues of the ftsZ C
+terminus. Strains were constructed as
+described in Fig. 6.
+ZipA Binding Site of FtsZ Identified by Intragenic Suppressors 11985
+ at Georgian Court College on March 11, 2015 http://www.jbc.org/ Downloaded from Although none of the recent studies can conclude that the
+conserved C terminus residues of FtsZ comprise the complete
+target sequence for ZipA, it is certainly true that the region
+plays a critical role in the interaction with ZipA. The interac￾tion of the FtsZ C terminus with ZipA has been characterized
+extensively (5, 9, 17, 18, 21). Additionally, the results of Fig. 6
+indicate the C-terminal tail of FtsZ is sufficient for the inter￾action of FtsZ with both ZipA and FtsA. The portion of FtsZ
+encoded by the Y2H fusion plasmid in this figure consists of the
+last 72 residues of FtsZ. The interaction of ZipA with a
+MBPzFtsZ-(311–383) fusion protein, with the wild type protein,
+and the 17-residue peptide are all similar, as measured in a
+BIAcore biosensor assay.2 Therefore, it is possible to conclude
+that the mutations recovered in this study were limited to the
+conserved residues of the FtsZ C terminus, because this region
+defines the principal ZipA interaction site. Thus, we have met
+a goal of this study, which was to use a random genetic ap￾proach to help define a proteinzprotein interaction.
+The suppressors identified in this study provide information
+about the sensitivity of the cell division machinery to changes
+in the interactions of its components. The FtsZD373G allele has
+profound effects on cell division and viability, as well as con￾ferring on the mutant protein a greatly reduced affinity for
+ZipA and for FtsA. For these proteins, these results are con￾sistent with the importance of their proper interaction with
+FtsZ. The suppressors show that these interactions are ex￾tremely sensitive. Neither of the alleles characterized in detail
+in this study (FtsZD373G, P375L or FtsZD373S) complement a
+deletion. In the case of the double mutation, this is less inform￾ative about the relation between affinity for ZipA and function,
+because it shows a dramatically reduced affinity for FtsA,
+which complicates our determination of why this mutation fails
+to complement. The other allele, ftsZD373S causes more modest
+changes on the interaction with ftsA. No difference from wild
+type could be seen between ftsA and ftsZD373S by Y2H assay,
+indicating that any change is relatively minor. The data, in￾cluding Y2H and the in vitro analysis in Fig. 5, suggests that it
+is more likely that this allele fails to complement because of
+altered interactions with zipA. Although it is possible that
+another protein also interacts with FtsZ at this site, the sim￾plest conclusion to draw at this time is that these proteins
+cannot tolerate even moderate changes in their interactions.
+If the interaction characterized in this study represents an
+important antibacterial target, it is necessary to show that the
+interaction between ZipA and FtsZ is not just essential but is
+very sensitive to interference. Although it is true that many
+proteinzprotein interactions are essential, their identification
+as promising antibacterial targets depends on the interaction
+being sensitive to interference. In some cases, inhibition of
+expression or activity by 50% can be lethal. For many essential
+genes, reducing expression by 95% or more can result in no
+observable defect. Several genes have been characterized that
+are functional when they have activity at 1%, or less, of their
+wild type levels. Classic examples include nonsense mutations,
+when their phenotypes can be alleviated by suppressor tRNAs
+(38, 39). The strength of a proteinzprotein interaction, or an
+activity, as a pharmaceutical target can be evaluated by such
+data. Specifically, if reducing a proteinzprotein interaction mod￾erately (50–80%) has phenotypic consequences, then it could
+be regarded as a strong pharmaceutical target. If reducing the
+interaction by 100-fold or greater is required to inhibit growth,
+it may be problematic to find a drug that can achieve this level
+of inhibition through its specific activity and pharmacokinetics,
+in a true in vivo situation. One of the reasons that cell division
+is considered an important area of antibacterial research is
+that many of its steps are very tightly controlled, and are very
+sensitive to changes in expression levels. Cell division is sen￾sitive to changes of 2- to 4-fold in the expression of ftsZ, zipA,
+and other genes (3, 6, 40). If the FtsZzZipA interaction itself is
+as sensitive, then this interaction has potential as a target. The
+results presented here argue that this is the case.
+It is clear that the yeast two-hybrid system is a powerful
+system for the study of proteinzprotein interactions (24, 41–45).
+In this report, we have taken advantage of commonly used
+techniques for classical genetic analysis in yeast (i.e. the char￾acterization of gene function through the identification of mu￾tations) and applied them to a proteinzprotein interaction of E.
+coli. The need for such methods rests on the observation that
+most important cellular processes (both eukaryotic and pro￾karyotic) are as dependent on proteinzprotein interactions as
+they are on enzymological functions. Although inhibition of
+enzyme function is well understood as a means of developing
+therapeutics, developing compounds that function through the
+inhibition of proteinzprotein interactions is much less well un￾derstood (46). Two clear examples of drugs that inhibit a
+proteinzprotein interaction are that of FK506, which inhibits
+the interaction of type I transforming growth factor-b receptors
+with FKBP12 (47), and the peptidomimetic compound BILD
+1263, which inhibits the interaction of the herpes simplex virus
+ribonucleotide reductase subunits (48). The polymerization of
+tubulin by taxol is another interaction affected by a chemother￾apeutic, but in this case taxol functions by stabilizing the
+tubulin dimer associations (49, 50). Proteinzprotein interac￾tions may comprise large surface areas, and those that do
+would be much less favorable as drug targets. Applying the
+yeast two-hybrid system as a vehicle for yeast genetic analysis
+provides a fairly rapid and general method for determining the
+nature of a proteinzprotein interaction.
+Acknowledgments—We thank Eric Beer, Jie Wu, and David Fruhling
+for excellent DNA sequencing and analysis; Lidia Mosyak and Will
+Somers for helpful discussions; and Steve Projan and David Shlaes for
+continuous support. We thank L. Mosyak for providing Fig. 8.
+REFERENCES
+1. Margolin, W. (1999) ASM News 65, 137–143
+2. Lutkenhaus, J., and Addinall, S. (1997) Annu. Rev. Biochem. 66, 93–116
+3. Rothfield, L., Justice, S., and Garcia-Lara, L. (1999) Ann. Rev. Genet. 33,
+423–448
+4. Wang, X., and Lutkenhaus, J. (1996) Mol. Microbiol. 21, 313–319
+5. Hale, C., and De Boer, P. (1999) J. Bacteriol. 181, 167–176
+6. Hale, C., and De Boer, P. (1997) Cell 88, 176–185
+7. Ma, X., Sun, Q., Wang, R., Singh, G., Jonietz, E. L., and Margolin, W. (1997) J.
+Bacteriol. 179, 6788–6797
+8. Ma, X., Ehrhardt, D. W., and Margolin, W. (1997) Proc. Natl. Acad. Sci.
+U. S. A. 93, 12998–13003
+9. Liu, Z., Mukherjee, A., and Lutkenhaus, J. (1999) Mol. Microbiol. 31,
+1853–1861
+10. Din, N., Quardokus, E. M., Sackett, M. J., and Brun, Y. V. (1998) Mol.
+Microbiol. 27, 1051–1063
+11. van den Ent, F., and Lowe, J. (2000) EMBO J. 19, 5300–5307
+12. Bork, P., Sander, C., and Valencia, A. (1992) Proc. Natl. Acad. Sci. U. S. A. 89,
+7290–7294
+13. Sanchez, M., Valencia, A., Ferrandiz, M. J., Sander, C., and Vicente, M. (1994)
+EMBO J. 13, 4919–4925
+14. Weiss, D. S., Chen, J. C., Ghigo, J. M., Boyd, D., and Beckwith, J. (1999) J.
+Bacteriol. 181, 508–520
+15. Hale, C. A., Rhee, A. C., and de Boer, P. J. A. (2000) J. Bacteriol. 182,
+5153–5166
+16. RayChaudhuri, D. (1999) EMBO J. 18, 2372–2383
+17. Mosyak, L., Zhang, Y., Glasfeld, E., Haney, S., Stahl, M., Seehra, J., and
+Somers, W. S. (2000) EMBO J. 19, 3179–3191
+18. Moy, F., Glasfeld, E., Mosyak, L., and Powers, R. (2000) Biochemistry 39,
+9146–9156
+19. Dai, K., Mukherjee, A., Xu, Y., and Lutkenhaus, J. (1994) J. Bacteriol. 175,
+130–136
+20. Huang, J., Cao, C., and Lutkenhaus, J. (1996) J. Bacteriol. 178, 5080–5885
+21. Ma, X., and Margolin, W. (1999) J. Bacteriol. 181, 7531–7544
+22. Adams, A., Gottschling, D. E., Kaiser, C. A., and Stearns, T. (1997) Methods in
+Yeast Genetics, Cold Spring Harbor Press, Cold Spring Harbor, NY
+23. Gutherie, C., and Fink, G. R. (1991) Methods Enzymol. 194
+24. Fields, S., and Song, O. (1989) Nature 340, 245–246
+25. Yan, K., Pearce, K. H., and Payne, D. J. (2000) Biochem. Biophys. Res. Com- 2 E. Glasfeld, unpublished observation.
+11986 ZipA Binding Site of FtsZ Identified by Intragenic Suppressors
+ at Georgian Court College on March 11, 2015 http://www.jbc.org/ Downloaded from mun. 270, 387–392
+26. Smith, P. A., Tripp, B. C., DiBlasio-Smith, E. A., Lu, Z., LaVallie, E. R., and
+McCoy, J. M. (1998) Nucleic Acids Res. 26, 1414–1420
+27. de Boer, P. A., Crossley, R. E., and Rothfield, L. I. (1989) Cell 56, 641–649
+28. Raskin, D. M., and de Boer, P. A. J. (1997) Cell 91, 685–694
+29. Rockmill, B., Lambie, E. J., and Roeder, G. S. (1991) Methods Enzymol. 194,
+146–149
+30. Muhlrad, D., Hunter, R., and Parker, R. (1992) Yeast 8, 79–82
+31. Golemis, E. A., and Brent, R. (1997) in The Yeast Two-Hybrid System (Bartel,
+P. A., and Fields, S., eds) pp. 43–72, Oxford University Press, Oxford, UK
+32. Schatz, P. J. (1993) Bio/Technology 11, 1138–1143
+33. Mukherjee, A., and Lutkenhaus, J. (1998) EMBO J. 17, 462–469
+34. Gill, S. C., and von Hippel, P. H. (1989) Analyt. Biochem. 182, 319–326
+35. Wang, X., Huang, J., Mukherjee, A., Cao, C., and Lutkenhaus, J. (1997) J.
+Bacteriol. 179, 5551–5559
+36. Lowe, J., and Amos, L. A. (1998) Nature 391, 203–206
+37. Carson, M. (1991) Acta Crystallogr. Sect. D Biol. Crystallogr. 42, 43–48
+38. Sherman, F. (1982) in The Molecular Biology of the Yeast Saccharomyces.
+Metabolism and Gene Expression (Strathern, J. N., Jones, E. W., and
+Broach, J. R., eds) pp. 463–486, Cold Spring Harbor Press, Cold Spring
+Harbor, NY
+39. Michaels, M. L., Kim, D. A., Matthews, D. A., and Miller, J. H. (1990) Proc.
+Natl. Acad. Sci. U. S. A. 87, 3957–3961
+40. Ward, J. E., and Lutkenhaus, J. (1985) Cell 42, 941–949
+41. Brent, R., and Finley, R. L. (1997) Annu. Rev. Genet. 31, 663–704
+42. Walhout, A. J. M., and Vidal, M. (1999) Genome Res. 9, 1128–1134
+43. Inouye, C., Dhillon, N., Durfee, T., Zambryski, P. C., and Thorner, J. (1997)
+Genetics 147, 479–492
+44. Serebriiskii, I., Khazak, V., and Golemis, E. A. (1999) J. Biol. Chem. 274,
+17080–17087
+45. Grossel, M. J., Wang, H., Gadea, B., Yeung, W., and Hinds, P. W. (1999) Nature
+Biotechnol. 17, 1232–1233
+46. Cochran, A. G. (2000) Chem. Biol. 7, R85–R94
+47. Huse, M., Chen, Y.-G., Massague, J., and Kuriyan, J. (1999) Cell 96, 425–436
+48. Liuzzi, M., Deziel, R., Moss, N., Beaulieu, P., Bonneau, A.-M., Bousquet, C.,
+Chafouleas, J. G., Garneau, M., Jaramillo, J., Krogsrud, R. L., Lagace, L.,
+McCollum, R. S., Nawoot, S., and Guindon, Y. (1994) Nature 372, 695–698
+49. Schiff, P. B., Fant, J., and Horwitz, S. B. (1979) Nature 277, 665–667
+50. Nogales, E., Wolf, S. G., and Downing, K. H. (1998) Nature 391, 199–203
+ZipA Binding Site of FtsZ Identified by Intragenic Suppressors 11987
+ at Georgian Court College on March 11, 2015 http://www.jbc.org/ Downloaded from Boer
+Hale, David Keeney, Zhizhen He and Piet de 
+Steven A. Haney, Elizabeth Glasfeld, Cynthia
+ 
+WITH FtsA , 
+INTERACTIONS WITH ZipA AND 
+RESIDUES ESSENTIAL FOR THE
+CHARACTERIZATION OF FtsZ 
+Two-hybrid System:
+FtsZ·ZipA Interaction in the Yeast 
+Genetic Analysis of the Escherichia coli
+PROTEIN STRUCTURE AND FOLDING:
+doi: 10.1074/jbc.M009810200 originally published online January 16, 2001
+J. Biol. Chem. 2001, 276:11980-11987.
+ 
+Access the most updated version of this article at doi: 10.1074/jbc.M009810200
+ 
+Find articles, minireviews, Reflections and Classics on similar topics on the JBC Affinity Sites.
+Alerts: 
+ 
+• When a correction for this article is posted
+• When this article is cited
+Click here to choose from all of JBC's e-mail alerts
+Supplemental material:
+ 
+http://www.jbc.org/content/suppl/2001/04/10/276.15.11980.DC1.html
+ 
+http://www.jbc.org/content/276/15/11980.full.html#ref-list-1
+This article cites 46 references, 15 of which can be accessed free at
+ at Georgian Court College on March 11, 2015 http://www.jbc.org/ Downloaded from 

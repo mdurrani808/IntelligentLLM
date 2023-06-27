@@ -1,0 +1,1201 @@
+What Makes Ras an Efficient Molecular Switch:
+A Computational, Biophysical, and Structural Study
+of Ras-GDP Interactions with Mutants of Raf
+Daniel Filchtinski1
+, Oz Sharabi2
+, Alma Rüppel3
+, Ingrid R. Vetter3
+,
+Christian Herrmann1
+⁎ and Julia M. Shifman2
+⁎
+1
+Physikalische Chemie I,
+Fakultät für Chemie und
+Biochemie, Ruhr-Universität￾Bochum, Universitätstr. 150,
+44780 Bochum, Germany
+2
+Department of the Biological
+Chemistry, The Alexander
+Silberman Institute of Life
+Sciences, Hebrew University,
+Jerusalem 91904, Israel
+3
+Abteilung Strukturelle
+Biologie, Max-Planck-Institut
+für Molekulare Physiologie,
+Otto-Hahn-Str. 11,
+44227 Dortmund, Germany
+Received 29 November 2009;
+received in revised form
+19 March 2010;
+accepted 23 March 2010
+Available online
+31 March 2010
+Ras is a small GTP-binding protein that is an essential molecular switch
+for a wide variety of signaling pathways including the control of cell
+proliferation, cell cycle progression and apoptosis. In the GTP-bound
+state, Ras can interact with its effectors, triggering various signaling
+cascades in the cell. In the GDP-bound state, Ras looses its ability to bind
+to known effectors. The interaction of the GTP-bound Ras (RasGTP) with
+its effectors has been studied intensively. However, very little is known
+about the much weaker interaction between the GDP-bound Ras (RasGDP)
+and Ras effectors. We investigated the factors underlying the nucleotide￾dependent differences in Ras interactions with one of its effectors, Raf
+kinase. Using computational protein design, we generated mutants of the
+Ras-binding domain of Raf kinase (Raf) that stabilize the complex with
+RasGDP. Most of our designed mutations narrow the gap between the
+affinity of Raf for RasGTP and RasGDP, producing the desired shift in
+binding specificity towards RasGDP. A combination of our best designed
+mutation, N71R, with another mutation, A85K, yielded a Raf mutant with
+a 100-fold improvement in affinity towards RasGDP. The Raf A85K and
+Raf N71R/A85K mutants were used to obtain the first high-resolution
+structures of RasGDP bound to its effector. Surprisingly, these structures
+reveal that the loop on Ras previously termed the switch I region in the
+RasGDP·Raf mutant complex is found in a conformation similar to that of
+RasGTP and not RasGDP. Moreover, the structures indicate an increased
+mobility of the switch I region. This greater flexibility compared to the
+same loop in RasGTP is likely to explain the natural low affinity of Raf
+and other Ras effectors to RasGDP. Our findings demonstrate that an
+accurate balance between a rigid, high-affinity conformation and
+conformational flexibility is required to create an efficient and stringent
+molecular switch.
+© 2010 Elsevier Ltd. All rights reserved.
+Edited by I. Wilson
+Keywords: Ras signaling; protein-protein interactions; binding specificity;
+Ras-effector complex structure; protein design
+Introduction
+Within the superfamily of small GTP-binding
+proteins, Ras appears to be the “master regulator”
+of such central processes as cell cycle progression,
+cell division, and apoptosis.1,2 Ras cycles between
+an active, GTP-bound state (RasGTP) and an inactive,
+GDP-bound state (RasGDP). The inactive, GDP￾bound Ras is activated by the GDP/GTP nucleotide
+exchange that is catalyzed by the guanine nucleotide
+exchange factors. The conversion to the inactive Ras
+*Corresponding authors. E-mail addresses:
+chr.herrmann@rub.de; jshifman@cc.huji.ac.il.
+Present address: A. Rüppel, Structural and Medicinal
+Biochemistry, Universität Duisburg-Essen,
+Universitätsstraße, 45117 Essen, Germany.
+Abbreviations used: RBD, Ras-binding domain; WT,
+wild type; GDI, guanine nucleotide dissociation inhibitor.
+doi:10.1016/j.jmb.2010.03.046 J. Mol. Biol. (2010) 399, 422–435
+Available online at www.sciencedirect.com
+0022-2836/$ - see front matter © 2010 Elsevier Ltd. All rights reserved.state occurs by GTP hydrolysis and is accelerated by
+GTPase-activating proteins.3,4 The GTP-bound Ras
+triggers a variety of signaling cascades through
+interactions with its multiple effectors, including Raf
+protein kinase,5,6 RalGDS,7 PI3K8–10 and Nore.11,12
+All known Ras effectors share a common domain,
+the Ras-binding domain (RBD), which interacts with
+Ras in a nucleotide-dependent manner. In the GTP￾bound state, Ras can bind to various RBDs13,14 with
+dissociation constants (Kd) in the range 0.1–3 μM. In
+the GDP-bound state, the affinity of Ras to RBDs is
+~1000-fold reduced with the Kd values in the upper
+micromolar range.15
+Several structures of various RBDs in complex
+with Ras and its homologues in the GTP-bound
+state have been solved, providing a detailed view of
+the RasGTP–effector interaction. Despite the very
+low level of sequence identity, all RBDs share a
+common ubiquitin fold16 and bind to the same
+epitope on Ras. Moreover, all Ras–RBD complexes
+are formed through an intermolecular antiparallel
+β-sheet between β1 and β2 of the RBD and β2 and
+β3 of Ras (Fig. 1a and b).14,17–19 All structurally
+characterized RBDs exhibit high charge comple￾mentarity to Ras, suggesting that electrostatic
+interactions are very important for binding.16,20
+While the Ras binding interface is mainly negatively
+charged, the binding interface of the RBDs is
+positively charged with charge-complementary
+residues positioned in the β1, β2 and α1 secondary
+structure elements.14,16–19,21,22
+Comparison of high-resolution structures of RasGTP
+(alone and in complex with effectors) and RasGDP
+reveals a high level of structural similarity
+between the two nucleotide-dependent states of
+Ras.14,17–19,21–24 The relatively small differences
+between RasGTP and RasGDP are confined to two
+regions of about 10 amino acids each: a loop that
+contacts the effector proteins directly (switch I) and
+a loop and a helix that are close to the effector
+binding site (switch II).23,24 Both of these regions
+show indications of increased mobility in the X-ray
+and NMR structures of the unbound RasGDP
+compared to that of RasGTP.
+23,25–27 The more rigid
+Fig. 1. Ras–Raf interactions. (a) Complex between RapsGTP′ (yellow) and Raf (pink) from the crystal structure (PDB
+1gua) with the switch I and switch II regions of RapsGTP′ shown in red. (b) RapsGTP′ (yellow) and Raf (pink) proteins
+rotated by 90° out of the complex to show the binding interfaces on both proteins (shown in cyan). The secondary
+structure elements contributing to the Raps–Raf interactions are highlighted. (c and d) Zoom into the design region.
+(c) The binding interface of the complex between RapsGTP′
+(yellow) and Raf WT (pink) with the binding interface residues
+on both proteins shown as sticks and residues belonging to Raf labeled. (d) The binding interface of the complex between
+RasGDP (yellow) and Raf 6x (pink) with the binding interface residues on both proteins shown as sticks. The redesigned
+residues on Raf are labeled.
+What Makes Ras an Efficient Molecular Switch? 423conformation of switch I and switch II in the GTP￾bound state could be explained by the “loaded spring
+mechanism”.
+26 According to this mechanism, the γ￾phosphate oxygens of GTP form two hydrogen
+bonds to the main chain NH groups of the invariant
+Thr35 and Gly60 on Ras. Upon release of the
+phosphate these hydrogen bonds are broken and
+the two switch regions relax into the GDP-specific
+conformation. Although the loaded spring mecha￾nism was proposed some time ago, it is largely
+unclear how the observed small conformational
+changes in Ras are translated into very significant
+changes in protein binding affinity to Ras effectors
+upon GTP hydrolysis. To address this question, we
+chose to study the interaction between Ras and the
+RBD of its effector Raf kinase (Raf) that in nature
+regulates the Ras/MEK/ERK signaling pathway. In
+this work, we attempted to diminish the naturally
+manifold preference of Ras effectors for RasGTP by
+designing Raf mutants with improved binding
+affinity to RasGDP and a shift of specificity in favor
+of this Ras state.
+Raf mutants were generated using computational
+protein design, a technique that has been repeatedly
+applied to design of protein–protein interactions in
+recent years. In such an approach, the amino acid
+sequence of one or both interacting proteins is
+redesigned to stabilize the protein–protein complex.28
+Typically, the backbone conformation of the protein–
+protein complex is kept fixed, while the amino acid
+side chains in one or both proteins are repacked using
+an atomic-level energy function.29 Using the compu￾tational design approach it has been possible to
+substantially modify protein binding specificity,30-36
+to convert a homodimer into a heterodimer37 and to
+construct chimeric proteins with novel DNA-binding
+properties.38 More importantly for this study, it has
+been demonstrated that ligand binding affinity can be
+increased by computationally stabilizing the interact￾ing protein in the ligand-bound conformation.39,40 In
+this work, we computationally redesigned the bind￾ing interface on Raf to optimize its interactions with
+the inactive Ras state, RasGDP.
+Results
+Computational design of the Raf RBD with
+increased affinity to RasGDP
+To design a Ras effector with increased affinity
+and, as an ultimate goal, specificity for RasGDP, a
+starting structure of the RasGDP·effector complex is
+required. However, no high-resolution structure of
+RasGDP or any homologue bound to an effector
+protein was available when we initiated this study.
+Hence, we generated a model for such a structure
+using the available structures of RasGDP alone,23 and
+of the complex between the effector Raf and the Ras
+homologue Rap1A bound to GppNHp, termed here
+the RapsGTP·Raf complex.19 The composition of this
+complex needs some explanation: Rap1A is a close
+relative of Ras (57% sequence identity) and harbors
+almost the same effector binding interface as Ras.
+The two residues in Rap1A that are different were
+mutated to the corresponding Ras residues, i.e.
+E30D/K31E, and therefore this Rap double mutant
+is termed Raps. It is indistinguishable from Ras in
+the binding interface region and has been demon￾strated to exhibit very similar binding affinities to
+several Ras effectors.19 Further, the complex con￾tains the non-hydrolyzable GTP analogue GppNHp,
+which we refer to as GTP’ here for the sake of
+convenience. Finally, Raf in this complex is not the
+full-length protein but rather the Ras binding
+domain (RBD), which comprises 81 amino acids
+and has been used frequently in biochemical and
+structural studies of the Ras–Raf interaction.
+Starting from the RapsGTP’
+·Raf complex, we
+replaced RapsGTP’ with the structure of RasGDP
+using the structural superposition capabilities of the
+Chimera program.41 The structure of the RasGDP·Raf
+complex was subsequently minimized to remove
+steric clashes resulting from the simple structural
+superposition. This model was used as an input for
+our design calculations in attempt to generate a Raf
+mutant with increased affinity for RasGDP. In these
+calculations, the binding interface residues on Raf
+were optimized using all amino acids except Pro,
+Cys and Gly as possible candidates. At the same
+time, the binding interface residues on RasGDP were
+allowed to change their side chain conformation in
+order to accommodate the introduced mutations.
+The resulting Raf mutant optimized for binding to
+RasGDP contained six mutations in the Raf binding
+interface: F61W, R67L, V69E, N71R, K84R and V88I
+(Fig. 1c and d). Among these mutations, four single
+mutations were predicted to improve the intermo￾lecular interactions between Raf and RasGDP: R67L,
+N71R, K84R and V88I, with the N71R mutation
+resulting in the largest improvement (Table 1). The
+Table 1. Calculated energetic contribution of each of the
+designed Raf mutations towards improvement in the
+inter-molecular energy ΔΔEinter and the intra-molecular
+energy ΔΔEintra of the RasGDP·Raf and the RapsGTP’
+·Raf
+complexes
+RasGDP RapsGTP’
+Raf mutation ΔΔEinter ΔΔEintraa ΔΔEinter ΔΔEintraa
+F61Wb 0.01 –1.83 0.24 –0.65
+V88Ib –2.98 0.51 –1.88 0.94
+N71Rb –9.77 –0.32 –9.0 1.18
+R67Lb –4.13 2.79 –0.25 0.7
+V69E 4.73 –2.92 3.22 –4.3
+K84Rb –2.57 –0.46 6.0 –0.41
+The energies are reported relative to corresponding values
+calculated for WT Raf. a ΔΔEintra is the sum of differences in intramolecular energy
+within the Raf and the Ras(Raps) molecules due to a mutation in
+Raf. These values are different for the GDP and the GTP’ form of
+Ras due to differences in side chain conformations predicted for
+each nucleotide-dependent state. b These mutations were predicted to shift specificity towards
+the RapsGTP' state according to improvement in ΔΔEinter for
+RasGDP relative to RapsGTP'.
+424 What Makes Ras an Efficient Molecular Switch?Fig. 2. Experimental evaluation of the designed Raf mutants. GDI assays measured for (a) RasGTP′ and (b) RasGDP
+interacting with Raf mutants Raf N71R (black), Raf F61W/ R67L/ N71R/ V88I (red), Raf F61W/ V69E/ N71R/ V88I
+(green) and Raf 6x (blue). (c) Changes in stability, ΔΔG, for complexes between RasGTP′
+(white bars) or RasGDP (gray bars)
+and the designed Raf mutants. ΔΔG values (in kJ/mol) were calculated from the curves shown in a and b, and are shown
+relative to that of the WT Raf-Ras complex. (d) Specificity shift of Raf mutants to RasGDP calculated according to Eq. (2).
+The red line corresponds to no shift in specificity.
+What Makes Ras an Efficient Molecular Switch? 425other two mutations, F61W and V69E, were
+predicted to stabilize Raf-RBD on its own. In our
+computational procedure we did not directly con￾sider Raf interactions with RasGTP’
+. However, from
+our previous studies, we expected that Raf opti￾mized for binding to RasGDP would exhibit de￾creased affinity to RasGTP’ because these two
+nucleotide-dependent Ras states are structurally
+distinguishable.34–36 Indeed, all the designed muta￾tions, except V69E, were predicted to shift the
+binding specificity in favor of RasGDP (Table 1).
+Measurement of binding between designed Raf
+mutants and RasGDP and RasGTP’
+We experimentally constructed the designed
+mutant Raf F61W/R67L/V69E/N71R/K84R/V88I
+containing all six mutations (termed Raf 6x) as well
+as several mutants with a subset of the designed
+mutations. We used the guanine nucleotide dissoci￾ation inhibitor (GDI) assay to determine dissociation
+constants (Kd values) of these mutants for RasGDP
+and RasGTP’
+.
+15 This assay takes advantage of the fact
+that effector binding inhibits the intrinsic nucleotide
+dissociation from Ras in a concentration-dependent
+manner,15,42 and allows us to measure conveniently
+Kd values that in the present study span almost four
+orders of magnitude. The time course of the
+dissociation of the fluorescent analogues of non￾hydrolyzable GTP’ and GDP (mantGppNHp and
+mantGDP) from Ras was monitored in the presence
+of various concentrations of Raf. The observed rate
+constants were used to obtain the Kd values of Raf
+interactions with RasGTP’ and RasGDP as described
+(Fig. 2a and b).42,43 The effect of the designed
+mutations on Raf binding to RasGTP’ and RasGDP
+was analyzed by computing the difference between
+the free energy of binding for the particular Raf
+variant to either RasGTP’ or RasGDP (ΔΔGGTP’ and
+ΔΔGGDP, respectively). Among the single mutants
+of Raf tested, F61W and V88I exhibited decreased
+affinities to both RasGTP’
+and RasGDP corresponding
+to + 0.9 and + 3.5 kJ/mol increase in ΔΔGGDP and
++ 2.6 and + 2.4 kJ/mol increase in ΔΔGGTP’
+, respec￾tively (Fig. 2c; Table 2). The third single mutant
+tested, N71R, exhibited a substantial increase in
+affinity to RasGDP (ΔΔGGDP=–5.2 kJ/mol) and a
+smaller increase in affinity to RasGTP’ (ΔΔGGTP’
+=
+–2.8 kJ/mol). Not surprisingly, the combination of
+these mutations led to smaller changes relative to
+N71R: The behavior of the double mutant Raf N71R/
+F61W was similar to that of N71R, exhibiting
+enhanced binding to both RasGDP and RasGTP’
+(ΔΔGGDP=–3.2 kJ/mol; ΔΔGGTP’
+=–1.4 kJ/mol).
+The triple and quadruple mutants F61W/N71R/
+V88I and F61W/R67L/N71R/V88I demonstrated a
+virtually unchanged affinity to RasGDP and reduced
+affinity to RasGTP’ (ΔΔGGTP’=+ 1.6 and + 2.6 kJ/mol,
+respectively). Another quadruple mutant, F61W/
+V69E/N71R/V88I, exhibited a considerable weak￾ening in binding to both RasGTP’ and RasGDP
+(ΔΔGGDP=+ 8.8 kJ/mol; ΔΔGGTP’
+=+ 7.9 kJ/mol).
+The designed Raf mutant with all six predicted
+mutations (Raf 6x) exhibited substantial destabiliza￾tion for both RasGTP’ and RasGDP complexes with a
+more pronounced destabilizing effect for the RasGTP’
+complex (ΔΔGGDP= + 9.8 kJ/mol; ΔΔGGTP’
+= + 15.7
+kJ/mol). While the affinity of several of the designed
+Raf mutants towards Ras was decreased, this effect
+was less pronounced for RasGDP in six out of eight
+mutants tested, meaning binding specificity was
+shifted in favor of RasGDP (Fig. 2d). The largest
+change of specificity (10-fold) was observed for Raf
+6x. However, this came at the cost of a loss in binding
+affinity to both of the Ras states. The single Raf
+mutant N71R demonstrated the best (seven-fold)
+improvement in binding affinity to RasGDP with a
+modest (~2.5-fold) change in binding specificity.
+Construction of the RasGDP superbinder
+To obtain a Raf mutant with higher than natural
+affinity to RasGDP and with a substantial shift of
+binding specificity towards this Ras state, we
+combined our best designed mutation, N71R, with
+mutation A85K, which was first shown by Fridman
+and colleagues to increase Raf affinity to RasGTP’
+.
+44,45
+More recently, Raf A85K was demonstrated to
+enhance Raf affinity to RasGDP to an even larger extent
+(ΔΔGGDP=–8.5 kJ/mol; ΔΔGGTP’
+=–4.8 kJ/mol)
+Table 2. Binding parameters of the designed Raf mutants and RasGTP/RasGDP measured using the GDI assay
+Raf Kd
+GTP (μM) Kd
+GDP (μM) ΔΔGGTP (kJ/mol) ΔΔGGDP (kJ/mol) Absolute specificitya Specificity shiftb
+WT 0.13c 46 — — 354 —
+F61W 0.36 66 2.63 0.9 184 1.92
+V88I 0.33 179 2.40 3.5 542 0.65
+N71R 0.04 6.2 –2.79 –5.2 141 2.51
+F61W/ N71R 0.08 13 –1.42 –3.2 175 2.03
+F61W/ N71R/ V88I 0.24 46 1.58 –0.01 191 1.85
+F61W/ R67L/ N71R/ V88I 0.36 47 2.64 0.07 131 2.71
+F61W/ V69E/ N71R/ V88I 2.8 1371 7.93 8.8 488 0.73
+6 x 57 2063 15.70 9.8 36 9.83
+A85K 0.02 1.7 –4.8 –8.50 85 4.2
+N71R/ A85K 0.015 0.442 –5.6 –11.98 29 12.0
+a Calculated using Eq. (1). b Calculated using Eq. (2). c Data taken from Block et al.13
+426 What Makes Ras an Efficient Molecular Switch?(Fig. 2 c; Table 2).46 Hence, if the two selected
+mutations act in an additive manner, they should
+markedly increase Raf binding affinity for RasGDP.
+Indeed, simultaneous introduction of the N71R and
+the A85K mutations into Raf (Raf N71R/A85K)
+resulted in a strongly enhanced binding free energy
+for RasGDP (ΔΔGGDP=–12 kJ/mol) corresponding to
+a Kd value of 0.4 μM (Table 2). This value is almost as
+low as that for the interaction between wild type
+(WT) Raf and RasGTP’
+.
+13 At the same time, Raf N71R/
+A85K stabilized the RasGTP’
+·Raf complex by –5.6 kJ/
+mol with a Kd value of 0.015 μM (Fig. 2c; Table 2).
+Thus, we obtained a double mutant of Raf with a
+~100-fold increased affinity for the natively inactive
+Ras state, RasGDP, and a ~12-fold shift of binding
+specificity towards this state compared to the native
+Ras–Raf interaction (Fig. 2d).
+Structural characterization of the Raf–RasGDP
+interactions
+To better understand the improved interaction
+and the changes in relative affinities (RasGDP versus
+RasGTP’
+) of Raf mutants at the molecular level, we
+solved the structures of Raf A85K bound to RasGDP
+and of Raf N71R/A85K bound to RapsGDP at 2.2 Å
+and 1.9 Å resolution, respectively (Table 3). Both
+structures were solved using the molecular replace￾ment procedure with the structure of the RapsGTP’
+·Raf
+complex (PDB 1gua) as a starting point. The RasGDP·Raf
+A85K and the RapsGDP·Raf N71R/A85K complexes
+exhibit the same overall structure observed for
+RapsGTP·Raf with an overall Cα rmsd of 0.93 Å for
+the RapsGDP·Raf N71R/A85K complex and 1.02 Å
+for the RasGDP·Raf A85K complex, respectively
+(Fig. 3a and b). The individual domains display even
+lower rmsd values with respect to the RapsGTP’
+·Raf
+complex corresponding to 0.84 Å (167 Cα atoms
+of Raps) and 0.44 Å (78 Cα atoms of Raf) for the
+RapsGDP·Raf N71R/A85K complex and 0.82 Å (165
+Cα atoms of Ras) and 0.44 Å (78 Cα atoms of Raf)
+for the RasGDP·Raf A85K complex, respectively. A
+slight shift in the relative orientation of the Raf binding
+domain relative to the Raps domain is observed
+for the complexes reported here compared to the
+RapsGTP’
+·Raf complex (Fig. 3a).
+Surprisingly, the switch I region of Raps/RasGDP in
+complex with the two Raf mutants exhibit conforma￾tions very similar to that of the RapsGTP’
+·Raf
+complex rather than to that observed for the
+unbound RasGDP 23 (Fig. 3c). As expected, the switch
+II region of Ras/Raps, which is not involved in Raf
+binding, differs the most among the three structures.
+Previous NMR and X-ray investigations revealed
+considerable flexibility of switch I and switch II
+regions of Ras in the GDP-bound state.25,26 Hence,
+we investigated the flexibility of the switch I region
+by comparing the B-factors exhibited by the back￾bone atoms in the switch I region of Ras (residues
+24–46) in the X-ray structures of three complexes:
+RapsGTP’
+·Raf, RapsGDP·Raf N71R/A85K, and
+RasGDP·Raf A85K (Fig. 3d–f). The absolute values
+for the B-factors increase in the order: GTP-structure,
+double mutant complex, single mutant complex,
+corresponding to the decreasing overall packing
+order of the crystals. This results in the decreasing
+Table 3. Crystallographic statistics for RasGDP·Raf A85K
+and RapsGDP·Raf N71R/A85K complexes
+RasGDP·RafRBD
+A85K
+RapsGDP·RafRBD
+N71R A85K
+Space group H32 (155) P212121 (19)
+Cell dimensions
+a (Å) 92.00 43.14
+b (Å) 92.00 68.61
+c (Å) 278.26 101.65
+Resolution (Å) 20–2.15
+(2.21–2.15)
+36–1.92
+(1.97–1.92)
+Unique reflections 24,583 (1791) 23,722 (1746)
+Redundancy 4.2 (2.2) 7.8 (8.0)
+I/σ 13.8 (1.8) 17.1 (7.2)
+Rsym 5.4 (43.0) 7.5 (40.1)
+Completeness (%) 99.6 (99.9) 99.7 (99.7)
+Refinement
+Resolution (Å) 20–2.15 20.0–1.92
+Rwork (%) 23.7 17.8
+Rfree (%) 26.4 21.7
+Reflections work/test 23,353/1230 22,528/1186
+Non-H protein atoms: 1937 1988
+Ligand atoms: 1 GDP, 1 Mg 1 GDP, 1 Ca, 1 Mg
+Water molecules rmsd
+from ideal
+39 181
+Bond lengths (Å) 0.028 0.026
+Bond angles (°) 2.6 2.1
+Average B
+All atoms (Å2
+) 39.3 26.3
+(GDP 23.8, (28 atoms) 19.7 (28 atoms)
+Mg 39.7 19.6
+Ca – 16.4
+Non-water 39.3
+(1966 atoms)
+25.6
+(2018 non-water atoms)
+Ramachandran plot
+Most favorable (%) 88.2 97.1
+Allowed (%) 8.9 2.9
+Outlier (%) 3.0 0.0
+Values in parentheses are for the highest resolution shell.
+Fig. 3. Structural characterization of the RasGDP· Raf A85K and the RapsGDP· Raf N71R/A85K complexes. (a) Overlay
+of the complex structures: RapsGTP′
+·Raf wild type (PDB 1gua) in green, RasGDP·Raf A85K in pink and RapsGDP·Raf N71R/
+A85K in violet. (b) Fit of the GDP molecule into an omit map of the RapsGDP·Raf N71R/A85K complex. (c) Overlay of the
+switch I regions of Ras or Raps in the four structures RapsGTP′
+·Raf wild type (green), RasGDP·Raf A85K (pink), RapsGDP·Raf
+N71R/A85K (violet) and RasGDP (cyan). The side chain of Tyr32 is shown in sticks. (d – g) Absolute B-factor distribution
+of the Cα atoms with the color coding reflecting the magnitude of the absolute B-factor from blue (low) to red (high).
+(d) RapsGTP′
+·Raf wild type (PDB 1gua); (e) RapsGDP·Raf N71R/A85K; (f) RasGDP·Raf A85K; and (g) RasGDP. The spheres
+with the radius proportional to the absolute B-factor are plotted for the region 24–46 of Ras/Raps to indicate the relative
+distribution of the B-factors for each structure. (h) Distribution of the relative B-factors for the Switch I regions (residues
+30–40) of RasGTP′
+(red bars), RapsGDP from the RapsGDP-Raf N71R/A85K complex (green), RasGDP from RasGDP-Raf A85K
+complex (blue) and RasGDP in the absence of Raf (cyan).
+What Makes Ras an Efficient Molecular Switch? 427Fig. 3 (legend on previous page)
+428 What Makes Ras an Efficient Molecular Switch?quality of the diffraction data and indicates a higher
+mobility of the two domains relative to each other in
+the GDP forms. An analysis of the relative B-factors
+of the switch I region relative to the remainder of
+the Raps/Ras domain shows the same trend: In
+RapsGTP’
+·Raf, residues 30–40 have even lower
+temperature factors than the other residues, consis￾tent with the hypothesis that a fixation of the effector
+loop leads to a high affinity to Raf that is bound via
+this loop (Fig. 3d and h). In contrast, the switch I
+region of the double mutant complex shows slightly
+higher B-factors than the remainder of the Raps
+domain (Fig. 3e and h), and in the RasGDP·Raf A85K
+complex, this effect is even more pronounced, similar
+to unbound RasGDP (Fig. 3f and h). Correspondingly,
+the RasGDP·Raf A85K complex has the lowest affinity
+among the three complexes.
+The main difference in intermolecular interactions
+between complexes of RapsGTP’
+·Raf and RasGDP·Raf
+A85K is the formation of two additional ionic
+contacts between Lys85 on Raf and Asp38 and
+Asp33 on RasGDP in the latter complex (Fig. 4a). The
+distances between Lys85 and Asp38 and Asp33 are
+3.61 Å and 4.20 Å, respectively, somewhat larger
+than those expected for H-bond interactions or salt
+bridges. However, the charge–charge interaction is
+most likely to contribute to the increased affinity of
+Raf to RasGDP. In the RapsGDP·Raf N71R/A85K
+mutant, Arg71 forms an additional intermolecular
+salt bridge with Asp33 with a distance of 2.24 Å
+(Fig. 4b). In addition, the side chain of Arg 71
+increases the buried surface area by about 10%,
+which might also contribute to the increased affinity
+compared to the single mutant Raf A85K. A second
+contribution might be the optimized position of
+Lys85 due to a slight movement of the Raf domain
+relative to the Ras domain: the distances from this
+residue to Asp38 and Asp33 on Raps are now
+reduced to 2.93 Å and 3.49 Å, respectively. In
+summary, the increased number of interactions
+between the Raf N71R/A85K and Raps appear to
+stabilize the switch I region even more than in the
+single mutant.
+Binding specificity of the Raf mutants to Ras
+mutants
+To investigate further whether the flexibility of the
+switch I region is responsible for the low affinity of
+Raf to Ras,GDP we utilized two previously studied
+Ras mutants: Ras T35A and Ras Y32C/C118S (1-166).
+The T35A mutant has been demonstrated to induce
+the highly flexible conformation of the Ras switch I
+region even in the GTP’-bound state.47 Ras Y32C/
+C118S (1-166)16 was chosen because Tyr32 under￾goes a substantial conformational change upon GTP
+hydrolysis, assuming a conformation that might
+prevent effector binding to RasGDP (Fig. 3c). Hence,
+its mutation to the smaller Cys could further improve
+binding between the Raf mutants and RasGDP. These
+two Ras mutants were investigated for their ability to
+bind to Raf WT, Raf N71R, Raf A85K, and the double
+mutant Raf N71R/A85K.
+We first compared the Raf binding specificity
+towards RasGDP (relative to RasGTP’
+) by computing
+the ratio between the dissociation constants of a Raf
+mutant for RasGDP and for RasGTP’
+(Fig. 5a; Table 4).
+This specificity is about 350 for the native Raf–Ras
+interaction. This value is decreased to 26 for the
+interaction of Ras T35A with Raf WT, meaning that
+the binding affinity gap for the two Ras nucleotide￾dependent states is now considerably reduced. The
+specificity is further decreased to a value of ~5 for
+Ras T35A interactions with the mutants Raf N71R,
+Raf A85K and Raf N71R/A85K. The binding
+specificity of Raf WT for Ras Y32C/C118S (1-166)
+is 500, slightly higher than that measured for the
+native Ras–Raf interactions, indicating that intro￾duction of Y32C mutations into Ras increases the
+gap in the effector preference for the GTP’-bound
+form of Ras, in contrast to our expectation. The
+binding specificity of the Raf N71R, Raf A85K and
+Fig. 4. The newly introduced intermolecular contacts in the complexes of Raf mutants with RasGDP/RapsGDP.
+(a) Contacts between Lys85 on Raf A85K (pink) and residues on RasGDP(green). (b) Contacts between Lys85 and Arg71 on
+Raf N71R/A85K (violet) and residues on RapsGDP (green).
+What Makes Ras an Efficient Molecular Switch? 429Raf N71R/A85K towards Ras Y32C/C118S (1-166)
+was changed to values varying from 200 to 400,
+similar to those of the native Ras–Raf interaction. In
+contrast to our previous results, where introduction
+of each single mutation into Raf brought a progres￾sive change in binding specificity to RasGDP, no such
+additive effects were seen here for Raf N71R/A85K
+(Fig. 5b; Table 4).
+Discussion
+Binding affinity and specificity of the
+computationally designed Raf mutants
+Accurate prediction of single affinity-enhancing
+mutations remains a demanding task for protein
+design and the prediction of multiple mutations at
+the binding interface presents an even harder
+challenge.48,49 The difficulty in our case is augment￾ed by the absence of the X-ray structure for the
+RasGDP·Raf WT complex; our model for such a
+structure is bound to introduce additional uncer￾tainties into the design procedure. We expected that
+some of our designed mutations would result in
+reduced binding of Raf to RasGDP in contrary to our
+predictions. However, thorough comparison of our
+predictions and experimental changes in binding
+free energies revealed that while we made some
+mistakes in particular cases, we captured the
+general trend of changes in free energy of binding
+(compare ΔΔEinter for RasGDP/GTP’ in Table 1 and
+ΔΔGGDP/GTP’ in Table 2). The single mutant Raf
+N71R that is predicted by us to improve intermo￾lecular energy to the highest extent indeed exhibits
+the largest enhancement in binding affinity to
+RasGDP. The mutation V69E that is predicted by us
+to exhibit large unfavorable intermolecular energy
+results in a considerable decrease in affinity to
+RasGDP (compare ΔΔEinter for RasGDP in Table 1 and
+the difference in ΔΔGGDP for Raf F61W/V69E/
+N71R/V88I and Raf F61W/N71R/V88I in Table 2).
+In fact, while we tend to over-predict stabilizing
+effects, correlation between experimental free
+energies of binding and the predicted changes
+in the intermolecular energy is very high (Sup￾plementary Data Fig. S1). In addition, we
+correctly predict the change in binding specificity
+for five out of six designed mutations (Tables 1
+and 2).
+Interestingly, the binding specificity shift for most
+of the designed Raf mutants comes mostly through
+destabilization of the unwanted complex with
+RasGTP’
+, rather than stabilization of the desired
+complex with RasGDP. Our present results show a
+similar trend to that observed in our earlier work for
+other systems in which calmodulin–effector interac￾tions were redesigned.34–36 The highest shift in
+binding specificity among the designed Raf mutants
+in the present work is demonstrated by Raf 6x, the
+mutant with the largest number of mutations,
+consistent with an incremental change of specificity
+with each mutation. The specificity shift for Raf 6x is
+much smaller compared to that observed in our
+earlier work for other systems.35,36 The relatively
+Table 4. Binding parameters for Raf variants interacting
+with Ras mutants: Ras T35A and Ras Y32C/ C118S (1-166)
+H-Ras variant Raf
+Kd
+GTP
+(μM)
+Kd
+GDP
+(μM)
+Absolute
+specificitya
+Specificity
+shiftb
+T35A WT 11 288 26.18 —
+N71R 4.5 22 4.89 5.36
+A85K 10.1 49 4.85 5.40
+N71R/
+A85K
+3.6 21 5.83 4.49
+Y32C/ C118S
+(1-166)
+WT 0.45 226 502 —
+N71R 0.07 28 400 1.26
+A85K 0.044 7.9 180 2.80
+N71R/
+A85K
+0.007 1.6 229 2.20
+The Kd values were determined from the GDI assay similar to
+those shown in Fig. 2a. a Calculated using Eq. (1). b Calculated using Eq. (2).
+Fig. 5. (a) Ratio of Kd values for binding of the Raf mutants to RasGTP′ or RasGDP wild type (white bars) and mutants
+Ras Y32C/C118S (gray bars) and Ras T35A (dark gray bars). (b) Specificity shift towards the RasGDP state for the selected
+Raf mutants interacting with Ras wild type (white bars) and Ras mutants: Ras Y32C /C118S (gray bars), Ras T35A (dark
+gray bars). The red line corresponds to no specificity shift.
+430 What Makes Ras an Efficient Molecular Switch?modest change in binding specificity observed here
+could be explained by very similar structures of
+RasGTP’
+and RasGDP that convey analogous intermo￾lecular interactions to Raf. The similarity is even
+larger than we expected when constructing our
+model for the RasGDP·Raf complex, considering
+that the conformation of the switch I region in
+RapsGDP·Raf N71R/A85K is identical with that of
+RasGTP’
+in the structure of the RapsGTP’
+·Raf complex.
+Thus, it is difficult to obtain Raf mutants with
+increased affinity to only one nucleotide-dependent
+Ras state because the intermolecular interactions of
+the desired state (RasGDP·Raf) and the undesired
+states (RasGTP’
+·Raf) are quite similar. Nevertheless,
+future designs of Raf mutants with enhanced
+specificity towards RasGDP would be greatly facili￾tated by using the newly solved structure of the
+RasGDP·Raf N71R/A85K complex as a starting point.
+The consequences of high affinity binding of Raf
+to RasGDP
+The computational design approach helped us to
+identify a single Raf mutant (Raf N71R) with
+substantially increased binding affinity to RasGDP.
+Another mutant, Raf A85K, with similar properties
+was identified earlier. Introduction of the single
+mutation A85K and two mutations N71R/A85K
+into Raf increased its affinity to RasGDP from 46 μM
+to 1.7 μM and 0.44 μM, respectively. The Kd of the
+Raf N71R/A85K is now similar to that observed for
+the native interaction between Raf and RasGTP’
+. The
+preference of this mutant for the RasGTP’ over the
+RasGDP state is now only 29, and not 350 as for the
+native Ras–Raf interactions.
+The substantial increase in affinity for this protein–
+protein complex enabled us to initiate structural
+studies of the RasGDP–Raf interactions and to
+obtain the first structure of RasGDP interacting with
+its effector. Such studies were not possible for the
+RasGDP·Raf WT complex. Interestingly, the two
+reported crystal structures of RaspsGDP/RasGDP·Raf
+mutant complexes suggest that Raf (and possibly
+other Ras effectors) could bind to the natively inactive
+Ras state, RasGDP, only if Ras assumes a conformation
+similar to that of RasGTP. These findings are in line
+with previous observations where the 31P-NMR
+titration experiments suggested stabilization of the
+GTP-like conformation upon binding of Raf A85K to
+RasGDP.
+46 The present finding also helps to explain our
+earlier results that show activation of the Ras/MEK/
+ERK signaling cascade in vivo through the RasGDP·Raf
+A85K interaction.46 This observation shows that
+activation of the Ras/MEK/ERK signaling cascade is
+defined by the affinity between Ras and Raf and not by
+the type of nucleotide bound. Interestingly, the two
+mutations identified by us to increase Raf binding to
+RasGDP substitute neutral residues by positively
+charged residues, optimizing the electrostatic interac￾tions between the two proteins. Nature seems to
+disregard such positively charged residues from these
+positions on Raf as seen by the evolutionary profile of
+Raf (Supplementary Data Fig. S2).50,51 Avoidance of
+such residues in Raf is needed to ensure the proper
+molecular switching of the Ras/MEK/ERK signaling
+cascade. The shift of Raf specificity in favor of RasGDP
+would destroy the natural switch function of Ras in
+this signaling pathway.
+Flexibility of the switch I in RasGDP is responsible
+for decreased affinity to effectors
+Discovery of Raf mutants with high affinity to
+RasGDP allowed us to investigate coupling between
+subtle conformational changes in Ras upon GTP
+hydrolysis and changes in Ras binding affinities to
+its effectors. Careful analysis of the structures of
+RasGDP·Raf A85K and RapsGDP·Raf N71R/A85K
+complexes revealed that the flexibility of the switch I
+region of Raps/Ras is significantly increased in the
+GDP-bound state compared to GTP’-bound state.
+This was more pronounced in the complex of RasGDP
+and Raf A85K, for which the measured binding
+affinity was relatively weak. Thus, the results suggest
+that the mutation A85K in the RafRBD can surmount
+the mobility of the switch I region in the GDP-bound
+form to allow formation of a complex stable enough
+for crystallization, but with a less rigidly attached Raf
+domain. The double mutation N71R/A85K stabilizes
+the interaction further, so that the inherent flexibility
+of the effector loop is reduced considerably in the Raf
+N71R/A85K complex in comparison to the RasGDP–
+Raf A85K complex. Those results strongly support
+the notion that the flexibility of the switch I region in
+the GDP-bound form of the Ras domain causes the
+weakening of binding to Raf. This finding is further
+supported by our biochemical analysis of the Ras
+T35A mutant, which exhibits a highly dynamic
+switch I region even in the GTP’-bound state. This
+highly dynamic nature of the switch I region is
+responsible for the fact that the affinity of Raf to Ras
+T35A in the two nucleotide-dependent states were
+very similar: preference of Raf WT for RasGTP’
+T35A
+over RasGDP T35A is already strongly reduced and
+even more for the Raf mutants that further increase
+the flexibility of the switch I region on Ras (Raf A85K
+and Raf N71R/A85K).
+In conclusion, flexibility of the switch I region is
+the crucial factor for determining the Raf specificity
+for RasGTP’
+/RasGDP. In fact, it appears to be crucial
+for the proper functioning of Ras considering the
+number of effectors and regulating proteins such as
+guanine nucleotide exchange factors and GTPase
+activating proteins binding to the same epitope on
+the switch I region. In particular, the interaction of
+Ras with its guanine nucleotide exchange factor,
+Sos, induces a large movement of the switch I
+region away from the nucleotide-binding pocket.52
+Thus, the ability of Ras to function as an efficient
+molecular switch requires it to mediate the high￾affinity, nucleotide-dependent interaction with its
+effectors on one hand, and interaction with
+regulatory proteins through conformational
+changes in the switch I region, on the other hand.
+These binding requirements could be accomplished
+by Ras only if its switch I region is highly flexible,
+What Makes Ras an Efficient Molecular Switch? 431moving from the conformation of the GDP-bound
+state where it cannot interact tightly with Ras
+effector to a GTP-bound conformation favorable for
+effector interactions.
+Materials and Methods
+Site-directed mutagenesis
+The introduction of single mutations into the Raf gene
+was performed using Quick Change™ site-directed
+mutagenesis (Stratagene) with the pGEX-2T vector har￾boring the insert coding for Raf (51-131) as the template. To
+produce vectors for multiple Raf mutants, we introduced
+each single mutation one after another. Introduction of all
+mutations was verified by sequencing the genes.
+Protein expression and purification
+Ras, Raps, and Raf RBD variants were synthesized in
+Escherichia coli and purified as described.18,19,53 The
+nucleotide exchange with mantGppNHp (Jena Biosci￾ence), a non-hydrolyzable fluorescent analogue of GTP,
+was done as described.42 The loading of Ras with the
+fluorescent GDP analogue mantGDP (Jena Bioscicence)
+was done using a fivefold molar excess of the nucleotide in
+the presence of 10 mM EDTA. Both reactions were
+performed at 4 °C overnight. After the reaction, the
+nucleotide excess was removed using Zeba Spin Desalting
+Columns™ (Pierce) equilibrated with buffer A containing
+50 mM Tris, pH 7.4, 100 mM NaCl, 5 mM MgCl2, 2 mM
+DTT. The nucleotide exchange was analyzed using
+reverse-phase (RP) HPLC using a Merck Chromolith
+C-18ec 4.6 mm × 10 cm column (Merck, Darmstadt) and
+a mobile phase containing 10 mM tetrabutylammonium
+bromide, 100 mM K2HPO4/KH2PO4, pH 6.5, 1.25 % (v/v)
+acetonitrile. The protein concentration was determined by
+the Bradford method.54
+Interaction measurements of Raf and RasGTP’
+and RasGDP
+Interaction measurements between RasGDP or RasGTP’
+and Raf were performed with Ras proteins bound to
+fluorescent nucleotide analogues of GDP and GTP’
+(mantGDP and mantGppNHp) using the GDI assay in
+buffer A as described.15,42,43,55 Briefly, 0.05 μM Ras loaded
+with either mantGDP or mantGppNHp in the presence of
+different concentrations of WT Raf and mutants was used,
+respectively. The intrinsic nucleotide dissociation was
+initiated by the addition of a 1000-fold molar excess of
+GDP. The time-dependent fluorescence decrease, due to
+mant–nucleotide dissociation was fit using a single
+exponential decay and the observed rate constants were
+plotted against the corresponding concentration of Raf.
+Dissociation constants for the Raf interaction with RasGTP’
+and RasGDP were extracted by fitting the curve to a
+quadratic equation as described.42
+Specificity analysis
+The absolute specificity of Raf variants towards the two
+nucleotide-dependent Ras states was calculated as the
+ratio between the Raf dissociation constant for RasGDP
+(Kd
+Ras-GDP) and the Raf dissociation constant for RasGTP’
+(Kd
+Ras-GTP’
+):
+specificity = KRas − GDP
+d
+KRas − GTP0
+d
+ð1Þ
+Calculation of the specificity shift in favor of RasGDP
+was similar to our earlier definition for calmodulin–target
+interactions.34 Here, it is defined as a ratio of absolute
+specificity for WT Raf and a particular Raf mutant:
+specificity shift = specificityWT
+specificityMutant ð2Þ
+Crystallization and structure determination of Ras and
+Rap1A-GDP with Raf
+For preparation of the RasGDP·RafRBD A85K complex,
+40 mg of Ras (1-166)GDP was incubated with 20 mg of
+RafRBD A85K for 30 min on ice to allow complex
+formation. The complex was purified on a Sephadex 75
+column in 50 mM Tris, pH 7.6, 5 mM MgCl2, and 2 mM
+dithioerythritol and concentrated to 35 mg/ml. Crystals
+were grown against a reservoir containing 1.3 M sodium
+malonate pH 6.0, 0.1 M Mes pH 6.1, 4% (v/v) Betaine, 2%
+(v/v) Sarcosine and 2% (w/v) N,N-dimethlyglycine.
+Crystals were cryoprotected in 2.4 M sodium malonate
+pH 6.9. Data were collected at beamline ID29 of ESRF at a
+wavelength of 0.97935 Å and processed with XDS.56 The
+spacegroup was H32 with one molecule in the asymmetric
+unit (for details see Table 3) and the structure was solved to
+2.15 Å resolution by molecular replacement using
+PHASER57 with the Raps·RafRBD complex (PDB 1gua)
+as search model. Refinement with REFMAC converged to
+a final Rwork of 22.6% and an Rfree of 26.9% with good
+geometries.57 The Ramachandran plot shows 88.2% of the
+residues in the most favorable regions, 8.9% in the allowed
+regions, and 3.0% in outlier regions. TLS refinement helped
+to improve the electron density, but several regions are still
+not well defined, especially the complete RafRBD domain
+shows elevated B-factors and thus quite bad electron
+density.
+Preparation of the RapsGDP·RafRBD N71R/A85K complex
+Before the complexation reaction of 20 mg of Rap1A
+(1-167) E30D, K31E (Raps) GDP with 10 mg Raf N71R/
+A85K, the Raps protein was incubated for 1 h at room
+temperature with a 100-fold molar excess of GDP in the
+presence of 10 mM EDTA to ensure that Raps was bound
+to GDP. Raf N71R/A85K was added and the complex was
+further purified by size-exclusion chromatography
+(Superdex S75 26/60 column GE Healthcare). The
+concentration of the complex was determined by the
+Bradford method. A 1 μL portion of protein solution at a
+concentration of 17 g/L was mixed with 1 μL of reservoir
+solution containing 20% or 25% PEG 8000, Tris pH 7.2–7.6
+or Hepes pH 7.5, with 10, 100 or 200 mM calcium acetate
+and/or 100 mM ammonium sulfate. Crystals were
+cryoprotected by adding PEG 400 to the mother liquor
+to a final concentration of 20% (v/v) before flash-freezing
+in liquid nitrogen.
+Data were collected at beamline PX-II of the Swiss Light
+Source (Paul Scherrer Institut, Villigen Switzerland) at a
+wavelength of 1.00472 Å and processed with XDS.56 The
+spacegroup was determined as P212121 with one molecule
+in the asymmetric unit (for details, see Table 3). The
+432 What Makes Ras an Efficient Molecular Switch?structure was solved to 1.92 Å resolution by molecular
+replacement using MOLREP57 with the Raps·RafRBD
+complex (PDB 1gua) as search model. TLS refinement with
+REFMAC57 converged to a final Rwork of 17.8% and an
+Rfree of 21.7% with excellent geometries. The Ramachan￾dran plot showed 97.1% of the residues in most-favorable
+regions, 2.9% in allowed regions, and none in outlier
+regions.
+Computational design
+Starting from the structure of the RapsGTP’
+·Raf complex
+(PDB 1gua) we replaced RapsGTP’ with RasGDP from the
+crystal structure (PDB 4q21) while Raf remained fixed. For
+the superposition we used the Matchmaker model of the
+Chimera program.41 The structure of RasGDP·Raf was then
+subjected to minimization using the conjugate gradient
+descent. The binding interface between RasGDP and Raf
+was defined by selecting all the residues on both proteins
+that are within 4 Å of the other binding partner. In
+addition, the shell residues were defined as those within
+4 Å of the interface residues. The binding interface on Raf
+(positions 61, 67, 68, 69, 70, 71, 84 and 88) was redesigned
+using all amino acids except Pro, Cys and Gly as possible
+candidates. During the design calculations, the binding
+interface positions on RasGDP and all shell residues were
+allowed to change their conformations. Optimization of
+the RasGDP·Raf complex and the design of the Raf mutants
+were performed using the ORBIT software.58 The rotamer
+library used for design was based on the backbone￾dependent library of Dunbrack and Karplus.59 A potential
+energy function included terms for van der Waals,
+electrostatic, hydrogen bonding interactions, and surface
+area-based salvation was used to calculate side chain/side
+chain and side chain/main chain pairwise interactions as
+described.34–36 Calculated energies served as input for a
+side chain selection procedure that used the Dead-End
+Elimination theorem.60,61
+We calculated the changes in energies due to each of the
+designed mutation for the RapsGTP’ and RapsGDP interac￾tions using the PDB file 1GUA and our model of the
+RapsGDP·Raf complex created as described above. The
+reported intermolecular and intramolecular energies for
+each of the mutation were calculated using the EANAL
+module of ORBIT and are reported relative to the same
+values for the WT Raf–Ras complex.
+Protein Data Bank accession codes
+Coordinates have been deposited in the Protein Data
+Bank with accession codes 3KUD and 3KUC.
+Acknowledgements
+This work was supported, in part, by the Israeli
+Ministry of Health (to J. M. S.), Deutsche For￾schungsgemeinschaft (SFB 642) and by a grant from
+Gerhard C. Starck Stiftung to D. F. We thank the
+beamline staff of X10SA at the Swiss Light Source
+Paul Scherrer Institute, Villigen, CH, and of ID29 at
+ESRF, Grenoble, FR, for support, and our colleagues
+of Uni Bochum and MPI Dortmund (Eckhard
+Hofmann, Zhong Guo and Christian Grütter) for
+help with the data collection. We thank Fred
+Wittinghofer for continuous support.
+Supplementary Data
+Supplementary data associated with this article
+can be found, in the online version, at doi:10.1016/
+j.jmb.2010.03.046
+References
+1. Cox, A. D. & Der, C. J. (2003). The dark side of Ras:
+regulation of apoptosis. Oncogene, 22, 8999–9006.
+2. Shields, J. M., Pruitt, K., McFall, A., Shaub, A. & Der,
+C. J. (2000). Understanding Ras: 'it ain't over 'til it's
+over'. Trends Cell Biol. 10, 147–154.
+3. Bourne, H. R., Sanders, D. A. & McCormick, F. (1990).
+The GTPase superfamily: a conserved switch for
+diverse cell functions. Nature, 348, 125–132.
+4. Bourne, H. R., Sanders, D. A. & McCormick, F. (1991).
+The GTPase superfamily: conserved structure and
+molecular mechanism. Nature, 349, 117–127.
+5. Morrison, D. K., Kaplan, D. R., Rapp, U. & Roberts,
+T. M. (1988). Signal transduction from membrane to
+cytoplasm: growth factors and membrane-bound
+oncogene products increase Raf-1 phosphorylation
+and associated protein kinase activity. Proc. Natl
+Acad. Sci. USA, 85, 8855–8859.
+6. Rapp, U. R., Goldsborough, M. D., Mark, G. E.,
+Bonner, T. I., Groffen, J., Reynolds, F. H., Jr &
+Stephenson, J. R. (1983). Structure and biological
+activity of v-raf, a unique oncogene transduced by a
+retrovirus. Proc. Natl Acad. Sci. USA, 80, 4218–4222.
+7. Spaargaren, M. & Bischoff, J. R. (1994). Identification
+of the guanine nucleotide dissociation stimulator for
+Ral as a putative effector molecule of R-ras, H-ras,
+K-ras, and Rap. Proc. Natl Acad. Sci. USA, 91,
+12609–12613.
+8. Rodriguez-Viciana, P., Warne, P. H., Dhand, R.,
+Vanhaesebroeck, B., Gout, I., Fry, M. J., Waterfield,
+M. D. & Downward, J. (1994). Phosphatidylinositol-3-
+OH kinase as a direct target of Ras. Nature, 370,
+527–532.
+9. Kodaki, T., Woscholski, R., Hallberg, B., Rodriguez￾Viciana, P., Downward, J. & Parker, P. J. (1994). The
+activation of phosphatidylinositol 3-kinase by Ras.
+Curr. Biol. 4, 798–806.
+10. Stephens, L. R., Jackson, T. R. & Hawkins, P. T. (1993).
+Agonist-stimulated synthesis of phosphatidylinositol
+(3,4,5)-trisphosphate: a new intracellular signalling
+system? Biochim. Biophys. Acta, 1179, 27–75.
+11. Khokhlatchev, A., Rabizadeh, S., Xavier, R., Nedwidek,
+M., Chen, T., Zhang, X. F.et al. (2002). Identification of a
+novel Ras-regulated proapoptotic pathway. Curr. Biol.
+12, 253–265.
+12. Vavvas, D., Li, X., Avruch, J. & Zhang, X. F. (1998).
+Identification of Nore1 as a potential Ras effector.
+J. Biol. Chem, 273, 5439–5442.
+13. Block, C., Janknecht, R., Herrmann, C., Nassar, N. &
+Wittinghofer, A. (1996). Quantitative structure-activity
+analysis correlating Ras/Raf interaction in vitro to Raf
+activation in vivo. Nat. Struct. Biol. 3, 244–251.
+14. Vetter, I.R., Linnemann, T.,Wohlgemuth, S., Geyer,M.,
+Kalbitzer, H. R., Herrmann, C. & Wittinghofer, A.
+(1999). Structural and biochemical analysis of Ras￾effector signaling via RalGDS. FEBS Lett. 451, 175–180.
+What Makes Ras an Efficient Molecular Switch? 43315. Herrmann, C., Martin, G. A. & Wittinghofer, A.
+(1995). Quantitative analysis of the complex between
+p21ras and the Ras-binding domain of the human Raf￾1 protein kinase. J. Biol. Chem. 270, 2901–2905.
+16. Wohlgemuth, S., Kiel, C., Kramer, A., Serrano, L.,
+Wittinghofer, F. & Herrmann, C. (2005). Recognizing
+and defining true Ras binding domains I: biochemical
+analysis. J. Mol. Biol. 348, 741–758.
+17. Huang, L., Hofer, F., Martin, G. S. & Kim, S. H. (1998).
+Structural basis for the interaction of Ras with
+RalGDS. Nat. Struct. Biol. 5, 422–426.
+18. Nassar, N., Horn, G., Herrmann, C., Scherer, A.,
+McCormick, F. & Wittinghofer, A. (1995). The 2.2 Å
+crystal structure of the Ras-binding domain of the
+serine/threonine kinase c-Raf1 in complex with
+Rap1A and a GTP analogue. Nature, 375, 554–560.
+19. Nassar, N., Horn, G., Herrmann, C., Block, C.,
+Janknecht, R. & Wittinghofer, A. (1996). Ras/Rap
+effector specificity determined by charge reversal.
+Nat. Struct. Biol. 3, 723–729.
+20. Kiel, C., Selzer, T., Shaul, Y., Schreiber, G. &
+Herrmann, C. (2004). Electrostatically optimized
+Ras-binding Ral guanine dissociation stimulator
+mutants increase the rate of association by stabilizing
+the encounter complex. Proc. Natl Acad. Sci. USA, 101,
+9223–9228.
+21. Pacold, M. E., Suire, S., Perisic, O., Lara-Gonzalez, S.,
+Davis, C. T., Walker, E. H. et al. (2000). Crystal
+structure and functional analysis of Ras binding to its
+effector phosphoinositide 3-kinase gamma. Cell, 103,
+931–943.
+22. Scheffzek, K., Grunewald, P., Wohlgemuth, S.,
+Kabsch, W., Tu, H., Wigler, M. et al. (2001). The Ras￾Byr2RBD complex: structural basis for Ras effector
+recognition in yeast. Structure, 9, 1043–1050.
+23. Milburn, M. V., Tong, L., deVos, A. M., Brunger, A.,
+Yamaizumi, Z., Nishimura, S. & Kim, S. H. (1990).
+Molecular switch for signal transduction: structural
+differences between active and inactive forms of
+protooncogenic ras proteins. Science, 247, 939–945.
+24. Pai, E. F., Krengel, U., Petsko, G. A., Goody, R. S.,
+Kabsch, W. & Wittinghofer, A. (1990). Refined crystal
+structure of the triphosphate conformation of H-ras
+p21 at 1.35 Å resolution: implications for the mecha￾nism of GTP hydrolysis. EMBO J. 9, 2351–2359.
+25. Kraulis, P. J., Domaille, P. J., Campbell-Burk, S. L.,
+Van, A. T. & Laue, E. D. (1994). Solution structure and
+dynamics of ras p21.GDP determined by hetero￾nuclear three- and four-dimensional NMR spectros￾copy. Biochemistry, 33, 3515–3531.
+26. Vetter, I. R. & Wittinghofer, A. (2001). The guanine
+nucleotide-binding switch in three dimensions.
+Science, 294, 1299–1304.
+27. Spoerner, M., Nuehs, A., Ganser, P., Herrmann, C.,
+Wittinghofer, A. & Kalbitzer, H. R. (2005). Conforma￾tional states of Ras complexed with the GTP analogue
+GppNHp or GppCH2p: implications for the interac￾tion with effector proteins. Biochemistry, 44, 2225–2236.
+28. Karanicolas, J. & Kuhlman, B. (2009). Computational
+design of affinity and specificity at protein-protein
+interfaces. Curr. Opin. Struct. Biol. 19, 458–463.
+29. Gordon, D. B., Marshall, S. A. & Mayo, S. L. (1999).
+Energy functions for protein design. Curr. Opin.
+Struct. Biol. 9, 509–513.
+30. Grigoryan, G., Reinke, A. W. & Keating, A. E. (2009).
+Design of protein-interaction specificity gives selec￾tive bZIP-binding peptides. Nature, 458, 859–864.
+31. Joachimiak, L. A., Kortemme, T., Stoddard, B. L. &
+Baker, D. (2006). Computational design of a new
+hydrogen bond network and at least a 300-fold
+specificity switch at a protein-protein interface.
+J. Mol. Biol. 361, 195–208.
+32. Kortemme, T., Joachimiak, L. A., Bullock, A. N.,
+Schuler, A. D., Stoddard, B. L. & Baker, D. (2004).
+Computational redesign of protein-protein interaction
+specificity. Nat. Struct. Mol. Biol. 11, 371–379.
+33. Reina, J., Lacroix, E., Hobson, S. D., Fernandez￾Ballester, G., Rybin, V., Schwab, M. S. et al. (2002).
+Computer-aided design of a PDZ domain to recognize
+new target sequences. Nat. Struct. Biol. 9, 621–627.
+34. Shifman, J. M. & Mayo, S. L. (2002). Modulating
+calmodulin binding specificity through computation￾al protein design. J. Mol. Biol. 323, 417–423.
+35. Shifman, J. M. & Mayo, S. L. (2003). Exploring the
+origins of binding specificity through the computa￾tional redesign of calmodulin. Proc. Natl Acad. Sci.
+USA, 100, 13274–13279.
+36. Yosef, E., Politi, R., Choi, M. H. & Shifman, J. M.
+(2009). Computational design of calmodulin mutants
+with up to 900-fold increase in binding specificity.
+J. Mol. Biol. 385, 1470–1480.
+37. Bolon, D. N., Grant, R. A., Baker, T. A. & Sauer, R. T.
+(2005). Specificity versus stability in computational
+protein design. Proc. Natl Acad. Sci. USA, 102,
+12724–12729.
+38. Chevalier, B. S., Kortemme, T., Chadsey, M. S., Baker,
+D., Monnat, R. J. & Stoddard, B. L. (2002). Design,
+activity, and structure of a highly specific artificial
+endonuclease. Mol. Cell, 10, 895–905.
+39. Marvin, J. S. & Hellinga, H. W. (2001). Manipulation
+of ligand binding affinity by exploitation of confor￾mational coupling. Nat. Struct. Biol. 8, 795–798.
+40. Shimaoka, M., Shifman, J. M., Jing, H., Takagi, J.,
+Mayo, S. L. & Springer, T. A. (2000). Computational
+design of an integrin I domain stabilized in the
+open high affinity conformation. Nat. Struct. Biol. 7,
+674–678.
+41. Pettersen, E. F., Goddard, T. D., Huang, C. C., Couch,
+G. S., Greenblatt, D. M., Meng, E. C. & Ferrin, T. E.
+(2004). UCSF Chimera– a visualization system for
+exploratory research and analysis. J. Comput. Chem. 25,
+1605–1612.
+42. Herrmann, C., Horn, G., Spaargaren, M. & Wittin￾ghofer, A. (1996). Differential interaction of the ras
+family GTP-binding proteins H-Ras, Rap1A, and
+R-Ras with the putative effector molecules Raf kinase
+and Ral-guanine nucleotide exchange factor. J. Biol.
+Chem. 271, 6794–6800.
+43. Linnemann, T., Geyer, M., Jaitner, B. K., Block, C.,
+Kalbitzer, H. R., Wittinghofer, A. & Herrmann, C.
+(1999). Thermodynamic and kinetic characterization
+of the interaction between the Ras binding domain of
+AF6 and members of the Ras subfamily. J. Biol. Chem.
+274, 13556–13562.
+44. Fridman, M., Walker, F., Catimel, B., Domagala, T.,
+Nice, E. & Burgess, A. (2000). c-Raf-1 RBD associates
+with a subset of active v-H-Ras. Biochemistry, 39,
+15603–15611.
+45. Fridman, M., Maruta, H., Gonez, J., Walker, F.,
+Treutlein, H., Zeng, J. & Burgess, A. (2000). Point
+mutants of c-raf-1 RBD with elevated binding to v-Ha￾Ras. J. Biol. Chem. 275, 30363–30371.
+46. Kiel, C., Filchtinski, D., Spoerner, M., Schreiber, G.,
+Kalbitzer, H. R. & Herrmann, C. (2009). Improved
+binding of raf to Ras.GDP is correlated with biological
+activity. J. Biol. Chem. 284, 31893–31902.
+47. Spoerner, M., Herrmann, C., Vetter, I. R., Kalbitzer,
+H. R. & Wittinghofer, A. (2001). Dynamic properties
+434 What Makes Ras an Efficient Molecular Switch?of the Ras switch I region and its importance for
+binding to effectors. Proc. Natl Acad. Sci. USA, 98,
+4944–4949.
+48. Sammond, D. W., Eletr, Z. M., Purbeck, C., Kimple,
+R. J., Siderovski, D. P. & Kuhlman, B. (2007).
+Structure-based protocol for identifying mutations
+that enhance protein-protein binding affinities. J. Mol.
+Biol. 371, 1392–1404.
+49. Sharabi, O., Peleg, Y., Mashiach, E., Vardy, E., Ashani,
+Y., Silman, I. et al. (2009). Design, expression and
+characterization of mutants of fasciculin optimized for
+interaction with its target, acetylcholinesterase. Protein
+Eng. Des. Sel. 22, 641–648.
+50. Dodge, C., Schneider, R. & Sander, C. (1998). The
+HSSP database of protein structure-sequence align￾ments and family profiles. Nucleic Acids Res. 26,
+313–315.
+51. Crooks, G. E., Hon, G., Chandonia, J. M. & Brenner,
+S. E. (2004). WebLogo: a sequence logo generator.
+Genome Res. 14, 1188–1190.
+52. Boriack-Sjodin, P. A., Margarit, S. M., Bar-Sagi, D. &
+Kuriyan, J. (1998). The structural basis of the
+activation of Ras by Sos. Nature, 394, 337–343.
+53. Tucker, J., Sczakiel, G., Feuerstein, J., John, J., Goody,
+R. S. & Wittinghofer, A. (1986). Expression of p21
+proteins in Escherichia coli and stereochemistry of the
+nucleotide-binding site. EMBO J. 5, 1351–1358.
+54. Bradford, M. M. (1976). A rapid and sensitive method
+for the quantitation of microgram quantities of protein
+utilizing the principle of protein-dye binding. Anal.
+Biochem. 72, 248–254.
+55. Rudolph, M. G., Linnemann, T., Grunewald, P.,
+Wittinghofer, A., Vetter, I. R. & Herrmann, C. (2001).
+Thermodynamics of Ras/effector and Cdc42/effector
+interactions probed by isothermal titration calorime￾try. J. Biol. Chem. 276, 23914–23921.
+56. Kabsch, W. (1993). Automatic processing of rotation
+diffraction data from crystals of initially unknown
+symmetry and cell constants. J. Appl. Crystallogr. 26,
+795–800.
+57. Collaborative Computational Project, N. 4. (1994). The
+CCP4 suite: programs for protein crystallography.
+Acta Crystallogr. D, 50, 760–763.
+58. Dahiyat, B. I. & Mayo, S. L. (1997). De novo protein
+design: fully automated sequence selection. Science,
+278, 82–87.
+59. Dunbrack, R. L., Jr & Karplus, M. (1993). Backbone￾dependent rotamer library for proteins. Application to
+side-chain prediction. J. Mol. Biol. 230, 543–574.
+60. Desmet, J., De Maeyer, M., Hazes, B. & Lasters, I.
+(1992). The dead-end elimination theorem and its
+use in protein side-chain positioning. Nature, 356,
+539–542.
+61. Gordon, D. B., Hom, G. K., Mayo, S. L. & Pierce, N. A.
+(2003). Exact rotamer optimization for protein design.
+J. Comput. Chem. 24, 232–243.
+What Makes Ras an Efficient Molecular Switch? 435

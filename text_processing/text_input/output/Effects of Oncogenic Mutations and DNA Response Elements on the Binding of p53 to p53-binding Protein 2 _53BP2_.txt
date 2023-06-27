@@ -1,0 +1,502 @@
+Effects of Oncogenic Mutations and DNA Response Elements
+on the Binding of p53 to p53-binding Protein 2 (53BP2)*
+Received for publication, May 17, 2006, and in revised form, August 2, 2006 Published, JBC Papers in Press, August 2, 2006, DOI 10.1074/jbc.M604725200
+Henning Tidow1
+, Dmitry B. Veprintsev, Stefan M. V. Freund, and Alan R. Fersht2
+From the Centre for Protein Engineering, Medical Research Council, Hills Road, Cambridge CB2 2QH, United Kingdom
+The tumor suppressor p53 is frequently mutated in human
+cancers. Upon activation it can induce cell cycle arrest or apo￾ptosis. ASPP2 can specifically stimulate the apoptotic function
+of p53 but not cell cycle arrest, but the mechanism of enhancing
+the activation of pro-apoptotic genes over cell cycle arrest genes
+remains unknown. In this study, we analyzed the binding of
+53BP2 (p53-binding protein 2, the C-terminal domain of
+ASPP2) to p53 core domain and various mutants using biophys￾ical techniques. We found that several p53 core domain muta￾tions (R181E, G245S, R249S, R273H) have different effects on
+the binding of DNA response elements and 53BP2. Further, we
+investigated the existence of a ternary complex consisting of
+53BP2, p53, and DNA response elements to gain insight into the
+specific pro-apoptotic activation of p53. We found that binding
+of 53BP2 and DNA to p53 is mutually exclusive in the case of
+GADD45, p21, Bax, and PIG3. Both pro-apoptotic and non-apo￾ptotic response elements were competed off p53 by 53BP2 with
+no indication of a ternary complex.
+The tumor suppressor p53 is a tetrameric multidomain tran￾scription factor that functions to maintain the genomic integ￾rity of the cell (1). In response to cellular stresses like DNA
+damage, aberrant growth signals, UV irradiation, and hypoxia,
+p53-mediated transcriptional activation leads to DNA repair,
+cell cycle arrest, or apoptosis (2– 4).
+In about 50% of all human cancers, p53 is inactivated directly
+as a result of mutations in the p53 gene (5). On the basis of the
+crystal structure of human p53 core domain bound to consen￾sus DNA (6), common cancer mutations can be classified as
+“structural” mutations that cause structural perturbations
+within the core domain or a loss of stability and “contact” muta￾tions directly affecting DNA binding by the loss of a contacting
+residue (7). A third class of p53 mutations is proposed for those
+mutants that retain the capacity to bind DNA but are no longer
+able to interact with important cofactors (8).
+It is still poorly understood why some cells undergo apopto￾sis upon p53 activation, whereas others respond with cell cycle
+arrest. Important factors seem to be the degree of DNA dam￾age, cell type, and the presence of survival factors, but the exact
+mechanism remains unknown (9, 10). Recently, a family of pro￾teins termed ASPP was identified that specifically stimulates
+the apoptotic function of p53 but not cell cycle arrest (11, 12).
+Full-length ASPP2 interacts with p53 and increases its ability to
+induce apoptosis when it is artificially expressed in cells (11).
+Further, the apoptotic function of p53 in response to chemo￾therapeutic drugs like cisplatin is inhibited when the expression
+of intrinsic ASPP23 is prevented. However, the mechanism of
+enhancing the activation of pro-apoptotic genes over cell cycle
+arrest genes is still unknown.
+53BP2 (p53-binding protein 2) is the C-terminal domain of
+ASPP2. Shortly after 53BP2 was initially discovered in a yeast
+two-hybrid screen (13), the crystal structure of a complex of
+53BP2 and p53 core domain has been solved (14). Unlike most
+other p53-interacting proteins that bind the N or C terminus of
+p53, 53BP2 interacts with the core domain of p53 (15, 16).
+53BP2 contains four ankyrin repeats and an SH3 domain. The
+C-terminal ankyrin repeat and the SH3 domain bind to an evo￾lutionarily conserved region within the p53 core domain that is
+frequently mutated in human cancers and overlaps with its
+DNA-binding region (14).
+In this study, we used biophysical techniques to characterize
+the interaction between 53BP2 and p53 core domain to deter￾mine the effects of common cancer mutations in p53 on bind￾ing to cofactors that further determine the fate of cells after p53
+activation. These results are discussed in comparison with
+mutational effects on DNA binding. We found mutants of p53
+that do not bind 53BP2 even though they bind DNA. This might
+explain their effects in causing cancer by disrupting an impor￾tant pro-apoptotic pathway.
+Further, the existence of a ternary complex consisting of
+53BP2, p53, and different response elements was investigated
+to gain insight into the specific pro-apoptotic activation of p53.
+We found that binding of 53BP2 and DNA to p53 is mutually
+exclusive for pro-apoptotic and non-apoptotic response ele￾ments, i.e. they compete with each other. The magnitude of
+competition is modulated by differences in the binding affinity
+of p53 to these response elements with no indication of a ter￾nary complex.
+EXPERIMENTAL PROCEDURES
+Molecular Cloning—The gene encoding for amino acids
+891–1128 of human 53BP2 was extracted from a pGEX-GST-
+* The costs of publication of this article were defrayed in part by the payment
+of page charges. This article must therefore be hereby marked “advertise￾ment” in accordance with 18 U.S.C. Section 1734 solely to indicate this fact. 1 Supported by a fellowship from the Boehringer Ingelheim Fonds.
+2 To whom correspondence should be addressed. Tel.: 44-1223-402136; Fax:
+44-1223-402140; E-mail: arf25@cam.ac.uk.
+3 The abbreviations used are: ASPP, ankyrin-repeats-, SH3-domain-, and pro￾line-rich-region-containing protein; 53BP2, p53-binding protein 2; p53C,
+p53 core domain (residues 94 –312); T-p53C, thermostable variant of p53
+core domain (residues 94 –312) containing the four point mutations
+M133L, V203A, N239Y, and N268D; T-p53, thermostable variant of p53 full￾length protein; SH, Src homology; AUC, analytical ultracentrifugation; ITC,
+isothermal titration calorimetry; HSQC, heteronuclear single quantum cor￾relation; DTT, dithiothreitol; TEV, tobacco etch virus.
+THE JOURNAL OF BIOLOGICAL CHEMISTRY VOL. 281, NO. 43, pp. 32526 –32533, October 27, 2006
+© 2006 by The American Society for Biochemistry and Molecular Biology, Inc. Printed in the U.S.A.
+32526 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 281•NUMBER 43•OCTOBER 27, 2006
+ at NORTH DAKOTA STATE UNIV on May 26, 2015 http://www.jbc.org/ Downloaded from 53BP2-(682–1128) plasmid (courtesy of Dr. Xin Lu, LICR￾UCL, London) and subcloned into a pRSET-derived plasmid
+containing an N-terminal fusion of His6, lipoamyl domain, and
+TEV protease cleavage site (courtesy of M. D. Allen, CPE, Cam￾bridge). The construction of the plasmids pRSET-p53C and
+pET24a-HLTV-flp53 has been described previously (17, 18).
+For full-length p53 and unstable “hot-spot” mutants of p53C,
+respectively, we used plasmids expressing the superstable
+mutant of p53 containing the following mutations in the core
+domain: M133L/V203A/N239Y/N268D (19, 20).
+Protein Expression and Purification—53BP2 was expressed
+in Escherichia coli BL21 at 20 °C for 12 h and purified using
+standard His tag purification protocols followed by TEV prote￾ase digestion, a second nickel affinity chromatography step to
+separate the HislipoamylTEV tag, and a final gel filtration step.
+10% glycerol (v/v) was used throughout the purification to
+reduce aggregation. The protein was kept in storage buffer (25
+mM sodium phosphate, pH 7.2, 150 mM NaCl, 5 mM DTT) and
+flash-frozen in liquid nitrogen. Wild-type p53C, T-p53C
+mutants, and full-length T-p53 were expressed and purified as
+described previously (17–19). Isotopically, 15N-labeled p53C
+was expressed in M9 minimal medium supplemented with vita￾min mix and 1 g/liter 15NH4Cl as sole nitrogen source.
+Analytical Ultracentrifugation (AUC)—Equilibrium sedi￾mentation experiments were performed with a Beckman XL-I
+Ultracentrifuge equipped with a Ti-60 rotor and 6-sector cells
+at 11,000, 15,000, 20,000, and 24,000 rpm at 10 °C. Data were
+collected at 280 nm for unlabeled protein and at 494 nm for
+fluorescein-labeled DNA or protein. To assess the oligomeric
+state of 53BP2, we used a 12 M sample. When testing the
+interaction between 53BP2 and p53C, the concentrations were
+8 M each. For binding of 53BP2 and/or p53C to various fluo￾rescein-labeled DNA response elements (21) (sequences and
+annealing procedure are described below), the protein concen￾trations were 50 M (p53C) and 100 M (53BP2), respectively;
+the concentration of fluorescein-labeled DNA was 5 M. Buffer
+conditions were 25 mM sodium phosphate (pH 7.2), 150 mM
+NaCl, and 1 mM DTT. Sample volume was 110l. Samples were
+considered to be at equilibrium as judged by a comparison of
+the several scans of each speed. Data were processed and ana￾lyzed using UltraSpin software and KaleidaGraph (Abelbeck
+Software, Reading, PA) for graph plotting.
+NMR—All NMR spectra were acquired on a Bruker DRX￾600 spectrometer equipped with CryoProbeTM and single-axis
+gradients. For binding studies, HSQC spectra were acquired in
+a 25 mM sodium phosphate buffer (pH 7.2), 150 mM NaCl, 5 mM
+DTT at 298 K using standard Bruker pulse sequences (22) with
+concentrations of 53BP2 and uniformly labeled, perdeuterated
+15N,2
+D-p53C of 180 and 100 M, respectively. The data were
+processed in Feliz98 (MSI Biosystems), and figures were gener￾ated using NMR View (23). Effects of binding were analyzed
+using the assignment of p53C (17, 24) and mapped onto the
+structure using PyMOL (25).
+Isothermal Titration Calorimetry (ITC)—The thermody￾namic parameters were determined using an isothermal titra￾tion calorimeter (VP-ITC, MicroCal, Inc.) as described previ￾ously (26, 27) at 20 °C in a 25 mM sodium phosphate buffer (pH
+7.2), 150 mM NaCl, and 1 mM DTT. For binding of 53BP2 to
+wild-type p53C and various p53C mutants, 200 M p53C was
+titrated into the sample cell containing 10 M 53BP2. Injection
+steps were 10 l (first injection, 3 l) with 250-s spacing. Base￾line corrections were performed by titrating protein into sam￾ple buffer. Further data evaluation was done using the MicroCal
+OriginTM program.
+Fluorescence Anisotropy Titration—Measurements were per￾formed on a PerkinElmer LS55 luminescence spectrometer
+equipped with a Hamilton Microlab titrator controlled by lab￾oratory software. Fluorescence anisotropy was measured with
+excitation at 480 nm and emission at 530 nm and slit width of 14
+and 18 nm, respectively. Reactions were carried out at 16 and
+37 °C in 25 mM sodium phosphate buffer (pH 7.2), 150 mM
+NaCl, and 5 mM DTT. Titrations were performed as described
+previously (28, 29). In the binding experiments, 200 M p53C
+was titrated into 10 nM fluorescein-labeled DNA constructs.
+Dissociation constants were obtained by fitting anisotropy data
+to equations corresponding to a one-site binding model with
+Kd  (K1K2K3K4)
+0.25. In the competition binding assay, a
+stock solution of 150–300 M 53BP2 was titrated into 1 ml of
+preincubated mixture of 5–10 M p53C or 200 nM full-length
+FIGURE 1. Binding of 53BP2 to p53C analyzed by NMR spectroscopy. A, 15N,1
+H-HSQC spectrum of p53C alone (black) and with 15N,1
+H-HSQC spec￾trum of p53C/53BP2 complex superimposed (red). The complex consists of 15N-labeled, perdeuterated p53C, and unlabeled 53BP2. B, location of disap￾pearing peaks or changes in chemical shifts in the known structure of the
+p53C53BP2 complex (14). Residues in p53C having significant changes are
+shown in red. Unassigned residues are in gray.
+Binding of p53 to 53BP2
+OCTOBER 27, 2006•VOLUME 281•NUMBER 43 JOURNAL OF BIOLOGICAL CHEMISTRY 32527
+ at NORTH DAKOTA STATE UNIV on May 26, 2015 http://www.jbc.org/ Downloaded from     T-p53 and 10 nM of fluorescein-labeled DNA. Oligonucleotides
+used for fluorescence anisotropy were labeled only on the
+5-end of the forward strand with fluorescein (represented by Fl
+in the sequences) to avoid energy transfer between fluoro￾phores. The following sequences were used for the different
+response elements (30) (only forward strand shown, reverse strand
+accordingly): GADD45 response element: 5-Fl-GTACAGAAC￾ATGTCTAAGCATGCTGGGGAC-3/p21 response element:
+5-Fl-ATCAGGAACATGTCCCAACATGTTGAGCTC-3/Bax
+response element: 5-Fl-TCACAAGTTAGAGACAAGCCTGG￾GCGTGGG-3/PIG3 response element: 5-Fl-GCACCCAGCT￾TGCCCACCCATGCTCAAGAT-3. The oligonucleotides were
+annealed by heating to 95 °C for 10 min followed by gradually
+cooling to 4 °C over 4 h.
+RESULTS AND DISCUSSION
+Characterization of Binding of 53BP2 to p53 Core Domain—
+We characterized the binding of 53BP2 to p53C in solution
+using different biophysical tech￾niques. Analytical ultracentrifuga￾tion is a suitable technique to deter￾mine the mass of a protein or a
+complex under native conditions.
+53BP2 is monomeric in solution.
+The complex p53C53BP2 had an
+Mr of 52,000  1100 corresponding
+to a 1:1 stoichiometry in solution
+(data not shown).
+NMR spectroscopy is able to pro￾vide information about the binding
+surface as well as conformational
+changes at a residue-specific level.
+The HSQC spectrum of p53C
+revealed that several peaks disap￾peared because of intermediate
+exchange upon binding to 53BP2
+(Fig. 1A). Most of the affected resi￾dues are localized in the binding
+surface that is present in the crystal
+structure (14). In addition, residues
+within loop 1, which shows confor￾mational flexibility in the solution
+structure (24), and the C-terminal
+helix of p53C were also affected
+(Fig. 1B).
+We further analyzed the magni￾tude of binding by ITC. 53BP2
+binds to p53C in a 1:1 ratio with a
+Kd of 2.2 M (Fig. 2A). This value is
+in the range of other proteins
+binding to p53 core domain, like
+53BP1-BRCT (31), Rad51 (32), or
+HIF-1 (33, 34).
+Investigating the Binding of p53
+Hot-spot Mutations to 53BP2—
+Most mutations that are observed
+in human cancers map to the
+DNA-binding core domain (5).
+The binding of several of these
+point mutants including the most
+frequently occurring hot-spot
+mutants to 53BP2 was investigated
+using ITC (Fig. 2). For some
+mutants, a superstable quadruple
+mutant (T-p53C  M133L/V203-
+A/N239Y/N268D) with almost
+identical structure and DNA bind￾FIGURE 2. Typical ITC measurements showing the raw data (upper panels) and the fit after integration
+(lower panels). Wild-type p53C (A), T-p53C-G245S (B), T-p53C-R249S (C), and T-p53C-R249S-H168R (D) were
+titrated into the cell containing 10 M 53BP2 at 20 °C in a 25 mM sodium phosphate buffer (pH 7.2), 150 mM
+NaCl, 1 mM DTT. The heat of dilution used for base-line correction is shown in A (upper trace).
+Binding of p53 to 53BP2
+32528 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 281•NUMBER 43•OCTOBER 27, 2006
+ at NORTH DAKOTA STATE UNIV on May 26, 2015 http://www.jbc.org/ Downloaded from   ing activity was used as a framework to increase stability (7,
+19). T-p53C-V143A, T-p53C-F270L, p53C-R273H, and
+T-p53C-R282W bind 53BP2 with an affinity similar to wild￾type p53C or T-p53C, respectively (Table 1). T-p53C-V143A
+and T-p53C-F270L are structural mutants that simply create
+a cavity within the hydrophobic core.4 Although the
+presence of these mutations decreases the thermodynamic
+stability, it has no major influence on either binding to DNA
+or 53BP2.
+The crystal structure of T-p53C-R282W revealed that loop
+L1 is disordered in this mutant.4 The retention of binding of
+T-p53C-R282W to 53BP2 suggests that loop L1, which has an
+important yet modular role in apoptotic signaling (35), is not
+crucial for binding to 53BP2.
+53BP2 bound tightly to p53C-R273H, although it is a con￾tact mutant with substantially reduced DNA binding (20). 4 A. Joerger and A. R. Fersht, unpublished results.
+FIGURE 3. Binding of p53C to various DNA sequences examined by fluorescence anisotropy. Binding of p53C to GADD45 (A), p21 (B), PIG3 (C), and Bax (D)
+was measured at 16 °C in 25 mM sodium phosphate buffer (pH 7.2), 150 mM NaCl, 5 mM DTT. The continuous line in each plot corresponds to a single-site binding
+model fit.
+TABLE 1
+Binding of 53BP2 to p53C variants as measured by ITC and comparison with DNA binding
+p53C variant binding to 53BP2 Kd
+a Mutation region DNA bindingb Ref.
+M
+Wild-type p53C 2.2  0.2  6
+p53C-R181E No binding Zinc region  43
+p53C-G245S No binding DNA-binding region  47
+p53C-R273H 1.8  0.6 DNA-binding region / 47, 48
+T-p53Cc 1.7  0.4  19
+T-p53C-V143A 2.8  1.0 -Sandwich  48
+T-p53C-R175H No binding Zinc region  48
+T-p53C-G245S No binding DNA-binding region  48
+T-p53C-R249S No binding DNA-binding region  20
+T-p53C-R249S/H168R 5.2  1.2 DNA-binding region  20
+T-p53C-F270L 1.6  0.2 -Sandwich NDd A. Joerger and A. R. Fersht e
+T-p53C-R282W 2.4  1.0 DNA-binding region  Ref. 47; A. Joerger and A. R. Fersht e
+a Measurements were performed in a 25 mM sodium phosphate buffer (pH 7.2), 150 mM NaCl, 1 mM DTT at 20 °C. The detection limit for the Kd was estimated to be around
+40 M. b Binding of p53C mutants to GADD45 or consensus DNA at 20 °C compared with wild-type binding (47). c T-p53C  superstable quadruple mutant (M133L/V203A/N239Y/N268D) with almost identical structure and DNA-binding activity (7, 19). d Not determined.
+e Unpublished.
+Binding of p53 to 53BP2
+OCTOBER 27, 2006•VOLUME 281•NUMBER 43 JOURNAL OF BIOLOGICAL CHEMISTRY 32529
+ at NORTH DAKOTA STATE UNIV on May 26, 2015 http://www.jbc.org/ Downloaded from    Presumably, although Arg273 makes a crucial DNA contact
+(6), it is located at the edge of the 53BP2-binding interface
+(14) and makes only minor electrostatic contributions to the
+binding.
+Arg249 is located in the centers of both the DNA- and 53BP2-
+binding interfaces. The structural mutation R249S disrupts a
+network of interactions that stabilize the L3 loop in a confor￾mation enabling Arg248 to make DNA contacts (20). As Arg249
+also directly interacted with the SH3 domain of 53BP2, it was
+not surprising that the structural mutant p53C-R249S did not
+detectably bind to 53BP2 (Fig. 2C and Table 1).
+Interestingly, the double mutant T-p53C-R249S/H168R
+does bind to 53BP2 with Kd  5.2 M (3-fold weaker than
+T-p53C), and thus this double mutation, which is identified as a
+“second-site suppressor”in vivo (36, 37) reverts not only defects
+in DNA binding but also in binding to 53BP2 (Fig. 2D and Table
+1). The recently solved crystal structure of T-p53C-R249S/
+H168R revealed that the structural changes caused by the can￾cer mutations H168R and R249S are reverted if both mutations
+are present in the same molecule (20). In this case, the guani￾dinium group of Arg168 superimposes very well with its corre￾sponding position in Arg249 in wild-type p53. The fact that
+binding of the second-site suppressor mutant T-p53C-R249S/
+H168R to 53BP2 is 3-fold weaker than T-p53C, despite full res￾toration of DNA binding, highlights the importance of Arg249
+in binding to 53BP2.
+We also found two mutants that did not detectably bind to
+53BP2 even though they retained a weak DNA-binding affinity.
+p53C-G245S as well as the stabilized variant T-p53C-G245S
+did not bind to 53BP2 (Fig. 2B and Table 1). Because Gly245 does
+not directly interact with 53BP2, this finding is somehow sur￾prising and might be explained by an unfavorable destabiliza￾tion of loop L3 that disrupts the p53C-53BP2 interaction. In
+FIGURE 4. Binding competition assays between 53BP2 and various fluo￾rescein-labeled DNA sequences for p53C as examined by fluorescence
+anisotropy. The experiments were performed at 16 °C for p53C and at 37 °C
+forfull-length T-p53 in 25 mM sodium phosphate buffer (pH 7.2), 150 mM NaCl,
+5 mM DTT. A, 53BP2 was titrated into a solution containing a preformed com￾plex of p53C bound to GADD45. Consecutive additions of 53BP2 resulted in
+displacement of fluorescein-labeled GADD45 and formation of a new com￾plex between p53C and 53BP2. B, summary of competition assays between
+53BP2 and GADD45 (black circles), p21 (blue squares), Bax (green triangles), and
+PIG3 (red diamonds) for binding to p53C. The data were referenced to the
+starting point without added 53BP2. C, summary of competition assays
+between 53BP2 and GADD45 (black circles), Bax (green triangles), and PIG3 (red
+diamonds) for binding to full-length p53. Titration of buffer to the preformed
+complex is shown as control (crosses). The data were referenced to the start￾ing point without added 53BP2.
+FIGURE 5. AUC with Bax and 53BP2. The AUC equilibrium sedimentation
+profile of fluorescein-labeled Bax with 53BP2 fits to a single exponential
+model with Mr  18,800  200, indicating no binding between 53BP2 and
+Bax. The measurement was performed at 10 °C and 20,000 rpm. Upper panel
+shows concentration distribution plot with corresponding fit as continuous
+line. Lower panel shows residual deviation.
+Binding of p53 to 53BP2
+32530 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 281•NUMBER 43•OCTOBER 27, 2006
+ at NORTH DAKOTA STATE UNIV on May 26, 2015 http://www.jbc.org/ Downloaded from   fact, the crystal structure of T-p53C-G245S revealed small but
+distinct changes within the L3 loop.4
+The short H1 helix of p53C forms the main interface with
+53BP2. By mutating Arg181 3 Glu within this helix, binding of
+p53C to 53BP2 is disrupted (Table 1). There are several p53
+mutants with mutations at residue Arg181. They lack apoptosis￾inducing activity, although they retain DNA binding activity in
+vivo (11, 38– 40). Although the H1 helix is not directly involved
+in DNA binding, it provides an additional core domain-core
+domain dimerization interface (41– 44), and mutations in this
+region reveal weaker DNA binding than wild-type p53 (18).5
+The fact that these mutants did not bind to 53BP2 despite
+retaining DNA-binding capacity could relate them to a third
+class of p53 mutations (8) alongside contact and structural
+mutations. Their effect in promoting cancer might be caused by
+disrupting the binding to ASPP2 as a cofactor within an impor￾tant pro-apoptotic pathway.
+53BP2 Competes off p53 from Both Pro-apoptotic and Non￾apoptotic DNA Response Elements—To investigate the selec￾tive up-regulation of pro-apoptotic response elements, we
+used fluorescence anisotropy to analyze the competition
+between 53BP2 and different response elements for binding
+to p53C and full-length p53. GADD45 and p21 were used as
+examples of non-apoptotic genes, whereas Bax and PIG3
+were used as pro-apoptotic response elements. First, we
+measured the binding of p53C to these fluorescently labeled
+response elements. The binding of p53C to GADD45 (Kd 
+7.5 M) and p21 (Kd  7.1 M) is significantly tighter than its
+binding to the pro-apoptotic response elements PIG3 (Kd 
+15 M) and Bax (Kd  48 M) (Fig. 3). AUC equilibrium
+sedimentation revealed that p53C bound to the response
+elements in a 4:1 complex. As 53BP2 binds to p53C with
+Kd  2.2 M, and the binding surface on p53C shows signif￾icant overlap with the one in the p53CDNA complex (14),
+we tested whether competition occurs between 53BP2 and
+DNA response elements bound to p53 (Fig. 4).
+We found that binding of 53BP2 to p53C competes off both
+pro-apoptotic and non-apoptotic response elements. For the
+non-apoptotic response elements GADD45 and p21, this effect
+is most obviously detectable by fluorescence anisotropy. On
+adding 53BP2 to p53C, preincubated with the appropriate
+response element, the anisotropy decreased to the value of the
+free DNA (Fig. 4A), consistent with their overlapping binding
+sites on p53C.
+As the binding of p53C to the pro-apoptotic response ele￾ments Bax and PIG3 is much weaker compared with GADD45
+and p21, competition experiments with these response ele￾ments by fluorescence anisotropy showed a decrease in anisot￾ropy followed by a linear increase (Fig. 4B). The smaller
+decrease in anisotropy is because of the fact that at the starting
+point only a small fraction of p53C is bound to DNA. The linear
+increase at high titrant concentration results from an increase
+in viscosity and could not be explained by binding of 53BP2 to
+the response element as tested in a control experiment (Fig. 5). 5 S. Rutledge and A. R. Fersht, unpublished results.
+FIGURE 6. Binding competition assay between 53BP2 and fluorescein-labeled Bax for p53C as examined by analytical ultracentrifugation. A, AUC
+equilibrium sedimentation profiles of fluorescein-labeled Bax with p53C (black curve) fits to a double exponential model with Mr  11,8200  2400, indicating
+a 4:1 binding of p53C to Bax. The profile of Bax  p53C  53BP2 (gray curve) reveals an Mr  17,200  1900, indicating displacement of free DNA. B, AUC
+equilibrium sedimentation profiles of fluorescein-labeled Bax alone (black curve) and Bax  p53C  53BP2 (gray curve). Both profiles fit to a single exponential
+model with Mr  18,600  600, corresponding to the molecular weight of free Bax. The measurements were performed at 10 °C and 20,000 rpm. Upper panels
+show concentration distribution plots with corresponding fits as continuous lines. Lower panels show residual deviations.
+Binding of p53 to 53BP2
+OCTOBER 27, 2006•VOLUME 281•NUMBER 43 JOURNAL OF BIOLOGICAL CHEMISTRY 32531
+ at NORTH DAKOTA STATE UNIV on May 26, 2015 http://www.jbc.org/ Downloaded from         We confirmed the competition between 53BP2 and pro￾apoptotic response elements for binding to p53C by analyt￾ical ultracentrifugation. The equilibrium sedimentation pro￾file of fluorescein-labeled Bax with p53C fitted to a double
+exponential (2 component) model with Mr  118,200 
+2400 for the predominant species, indicating a 4:1 stoichi￾ometry in binding of p53C to Bax (Fig. 6A). On adding 53BP2
+to p53C bound to Bax, the sedimentation of the labeled com￾ponent revealed a single component of Mr  17,200  1900,
+corresponding to the molecular weight of the unbound
+response element. A comparison of the sedimentation pro￾files of Bax alone and Bax  p53C  53BP2 showed virtually
+no difference in curvature. Both profiles fitted to a single￾exponential (single component) function with Mr 
+18,600  600 (Fig. 6B). This indicates that 53BP2 is able to
+compete off pro-apoptotic response elements from p53C
+and excludes the existence of a ternary complex.
+Further, we confirmed the competition between 53BP2 and
+both pro-apoptotic and non-apoptotic response elements with
+full-length p53 at physiological temperature (Fig. 4C). All tested
+response elements bound tightly to full-length p53 and were
+displaced upon addition of 53BP2 as indicated by the decrease
+in fluorescence anisotropy. In summary, these results indicate
+that p53 can either bind DNA response elements or 53BP2, but
+not both simultaneously, as DNA is displaced from p53 when
+53BP2 is present.
+Several models exist to explain how cells choose between
+apoptosis and cell cycle arrest (45, 46). Supporting a variant of
+the promoter-specificity model, it was postulated that ASPP2
+might act as a cofactor by subtly altering the ability of p53 to
+bind low-affinity pro-apoptotic response elements and thus
+forming a ternary complex, ASPP2p53DNA (12, 16). Our
+results, however, showed that binding of 53BP2 and various
+DNA response elements to p53 is mutually exclusive with no
+indication for a ternary complex. Analysis of both DNA and
+53BP2 binding surfaces on p53C (6, 14) revealed a significant
+overlap emphasizing the structural hindrance of a postulated
+ternary complex. As both 53BP2 and ASPP2 exhibit the ankyrin
+repeat and SH3 domain that constitute the binding motif to
+p53C, it is unlikely that they interact differently with p53. Thus,
+it seems more likely that ASPP proteins stimulate the apoptotic
+function of p53 either through transcription-independent
+pathways or by recruiting other transcription or chromatin
+remodeling factors (16).
+Acknowledgments—We thank Drs. M. Fernandez-Fernandez and
+A. Joerger for helpful discussions; Drs. H. C. Ang, A. Joerger, S.
+Mayer, and S. Rutledge for plasmids and proteins; C. Blair for TEV
+protease; and Dr. C. Johnson for advice and help on the experimen￾tal setup.
+REFERENCES
+1. Vogelstein, B., Lane, D., and Levine, A. J. (2000) Nature 408, 307–310
+2. Levine, A. J. (1997) Cell 88, 323–331
+3. Ryan, K. M., Phillips, A. C., and Vousden, K. H. (2001) Curr. Opin. Cell
+Biol. 13, 332–337
+4. Vousden, K. H., and Lu, X. (2002) Nat. Rev. Cancer 2, 594–604
+5. Hainaut, P., and Hollstein, M. (2000) Adv. Cancer Res. 77, 81–137
+6. Cho, Y., Gorina, S., Jeffrey, P. D., and Pavletich, N. P. (1994) Science 265,
+346–355
+7. Joerger, A. C., Allen, M. D., and Fersht, A. R. (2004) J. Biol. Chem. 279,
+1291–1296
+8. Slee, E. A., and Lu, X. (2003) Toxicol. Lett. (Shannon) 139, 81–87
+9. Bates, S., and Vousden, K. H. (1999) Cell. Mol. Life Sci. 55, 28–37
+10. Vousden, K. H. (2000) Cell 103, 691–694
+11. Samuels-Lev, Y., O’Connor, D. J., Bergamaschi, D., Trigiante, G., Hsieh,
+J. K., Zhong, S., Campargue, I., Naumovski, L., Crook, T., and Lu, X. (2001)
+Mol. Cell 8, 781–794
+12. Lane, D. (2001) Nature 414, 25-27
+13. Iwabuchi, K., Bartel, P. L., Li, B., Marraccino, R., and Fields, S. (1994) Proc.
+Natl. Acad. Sci. U. S. A. 91, 6098–6102
+14. Gorina, S., and Pavletich, N. P. (1996) Science 274, 1001–1005
+15. Lu, X. (2005) Curr. Opin. Genet. Dev. 15, 27–33
+16. Trigiante, G., and Lu, X. (2006) Nat. Rev. Cancer 6, 217–226
+17. Wong, K. B., DeDecker, B. S., Freund, S. M., Proctor, M. R., Bycroft, M.,
+and Fersht, A. R. (1999) Proc. Natl. Acad. Sci. U. S. A. 96, 8438–8442
+18. Veprintsev, D. B., Freund, S. M., Andreeva, A., Rutledge, S. E., Tidow, H.,
+Canadillas, J. M., Blair, C. M., and Fersht, A. R. (2006) Proc. Natl. Acad. Sci.
+U. S. A. 103, 2115–2119
+19. Nikolova, P. V., Henckel, J., Lane, D. P., and Fersht, A. R. (1998) Proc. Natl.
+Acad. Sci. U. S. A. 95, 14675–14680
+20. Joerger, A. C., Ang, H. C., Veprintsev, D. B., Blair, C. M., and Fersht, A. R.
+(2005) J. Biol. Chem. 280, 16030–16037
+21. Friedler, A., Veprintsev, D. B., Freund, S. M., von Glos, K. I., and Fersht,
+A. R. (2005) Structure (Camb.) 13, 629–636
+22. Mori, S., Abeygunawardana, C., Johnson, M. O., and van Zijl, P. C. (1995)
+J. Magn. Reson. 108, 94–98
+23. Johnson, B. A., and Blevins, R. A. (1994) J. Biomol. NMR 4, 603–614
+24. Canadillas, J. M., Tidow, H., Freund, S. M., Rutherford, T. J., Ang, H. C.,
+and Fersht, A. R. (2006) Proc. Natl. Acad. Sci. U. S. A. 103, 2109–2114
+25. DeLano, W. L. (2002) The PyMOL Molecular Graphics System, DeLano
+Scientific, San Carlos, CA
+26. Wiseman, T., Williston, S., Brandts, J. F., and Lin, L. N. (1989) Anal. Bio￾chem. 179, 131–137
+27. Ladbury, J. E., and Chowdhry, B. Z. (1996) Chem. Biol. 3, 791–801
+28. Weinberg, R. L., Veprintsev, D. B., and Fersht, A. R. (2004) J. Mol. Biol.
+341, 1145–1159
+29. Fernandez-Fernandez, M. R., Veprintsev, D. B., and Fersht, A. R. (2005)
+Proc. Natl. Acad. Sci. U. S. A. 102, 4735–4740
+30. Qian, H., Wang, T., Naumovski, L., Lopez, C. D., and Brachmann, R. K.
+(2002) Oncogene 21, 7901–7911
+31. Ekblad, C. M., Friedler, A., Veprintsev, D., Weinberg, R. L., and Itzhaki,
+L. S. (2004) Protein Sci. 13, 617–625
+32. Friedler, A., Veprintsev, D. B., Rutherford, T., von Glos, K. I., and Fersht,
+A. R. (2005) J. Biol. Chem. 280, 8051–8059
+33. Hansson, L. O., Friedler, A., Freund, S., Rudiger, S., and Fersht, A. R. (2002)
+Proc. Natl. Acad. Sci. U. S. A. 99, 10305–10309
+34. Sanchez-Puig, N., Veprintsev, D. B., and Fersht, A. R. (2005) Mol. Cell 17,
+11–21
+35. Zupnick, A., and Prives, C. (2006) J. Biol. Chem. 281, 20464–20473
+36. Brachmann, R. K., Yu, K., Eby, Y., Pavletich, N. P., and Boeke, J. D. (1998)
+EMBO J. 17, 1847–1859
+37. Baroni, T. E., Wang, T., Qian, H., Dearth, L. R., Truong, L. N., Zeng, J.,
+Denes, A. E., Chen, S. W., and Brachmann, R. K. (2004) Proc. Natl. Acad.
+Sci. U. S. A. 101, 4930–4935
+38. Crook, T., Marston, N. J., Sara, E. A., and Vousden, K. H. (1994) Cell 79,
+817–827
+39. Friedlander, P., Haupt, Y., Prives, C., and Oren, M. (1996) Mol. Cell. Biol.
+16, 4961–4971
+40. Smith, P. D., Crossland, S., Parker, G., Osin, P., Brooks, L., Waller, J., Philp,
+E., Crompton, M. R., Gusterson, B. A., Allday, M. J., and Crook, T. (1999)
+Oncogene 18, 2451–2459
+41. Klein, C., Planker, E., Diercks, T., Kessler, H., Kunkele, K. P., Lang, K.,
+Hansen, S., and Schwaiger, M. (2001) J. Biol. Chem. 276, 49020–49027
+42. Rippin, T. M., Freund, S. M., Veprintsev, D. B., and Fersht, A. R. (2002) J.
+Mol. Biol. 319, 351–358
+Binding of p53 to 53BP2
+32532 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 281•NUMBER 43•OCTOBER 27, 2006
+ at NORTH DAKOTA STATE UNIV on May 26, 2015 http://www.jbc.org/ Downloaded from     43. Dehner, A., Klein, C., Hansen, S., Muller, L., Buchner, J., Schwaiger, M.,
+and Kessler, H. (2005) Angew. Chem. Int. Ed. Engl. 44, 5247–5251
+44. Kitayner, M., Rozenberg, H., Kessler, N., Rabinovich, D., Shaulov, L.,
+Haran, T. E., and Shakked, Z. (2006) Mol. Cell 22, 741–753
+45. Saller, E., Tom, E., Brunori, M., Otter, M., Estreicher, A., Mack, D. H., and
+Iggo, R. (1999) EMBO J. 18, 4424–4437
+46. Ludwig, R. L., Bates, S., and Vousden, K. H. (1996) Mol. Cell. Biol. 16,
+4952–4960
+47. Bullock, A. N., Henckel, J., and Fersht, A. R. (2000) Oncogene 19,
+1245–1256
+48. Ang, H. C., Joerger, A. C., Mayer, S., and Fersht, A. R. (2006) J. Biol. Chem.
+281, 21934–21941
+Binding of p53 to 53BP2
+OCTOBER 27, 2006•VOLUME 281•NUMBER 43 JOURNAL OF BIOLOGICAL CHEMISTRY 32533
+ at NORTH DAKOTA STATE UNIV on May 26, 2015 http://www.jbc.org/ Downloaded from M. V. Freund and Alan R. Fersht
+Henning Tidow, Dmitry B. Veprintsev, Stefan
+ 
+p53-binding Protein 2 (53BP2)
+Response Elements on the Binding of p53 to
+Effects of Oncogenic Mutations and DNA
+Developmental Biology:
+Molecular Basis of Cell and
+doi: 10.1074/jbc.M604725200 originally published online August 2, 2006
+J. Biol. Chem. 2006, 281:32526-32533.
+ 
+Access the most updated version of this article at doi: 10.1074/jbc.M604725200
+ 
+Find articles, minireviews, Reflections and Classics on similar topics on the JBC Affinity Sites.
+Alerts: 
+ 
+• When a correction for this article is posted
+• When this article is cited
+Click here to choose from all of JBC's e-mail alerts
+ 
+http://www.jbc.org/content/281/43/32526.full.html#ref-list-1
+This article cites 47 references, 20 of which can be accessed free at
+ at NORTH DAKOTA STATE UNIV on May 26, 2015 http://www.jbc.org/ Downloaded from 

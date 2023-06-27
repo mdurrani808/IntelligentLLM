@@ -1,0 +1,785 @@
+JOURNAL OF MOLECULAR RECOGNITION, VOL. 8,270-278 (1995) 
+Kinetic Analysis of the Interaction Between 
+Protein A Domain Variants and Human Fc Using 
+Plasmon Resonance Detection 
+Lena Jendeberg,t$ Bjorn Persson,Q Roland Andersson,?? Robert Karlsson,O Mathias Uhlen and 
+Bjorn Nilsson$* 
+t Department of Biochemistry and Biotechnology, Royal Institute of Technology, S-100 44 Stockholm, Sweden 
+$ Department of Structural Biochemistry, Biopharmaceuticals, Pharmacia AB, S-I12 87 Stockholm, Sweden 
+5 Pharmacia Biosensor AB, S-751 82 Uppsala, Sweden 
+tt Department of Immunology, Karolinska Institute, S-104 01 Stockholm, Sweden 
+A real-time biospecific interaction analysis (BIA) was performed to study the specific interaction between the Fc 
+portion of human immunoglobulin GI (Fc,) and a one domain analogue (designated Z) of staphylococcal protein 
+A, in monovalent (Z) and divalent (ZZ) forms, and five different single amino acid substituted Z variants (L17D, 
+N28A, F30A, I31A, K35A). Experimental BIA data were used to calculate association rate constants (/con), 
+dissociation rate constants (korr) and affinity constants (Kd. The divalent form (ZZ) showed a higher affinity for 
+Fc, mainly because of a slower off rate. Out of the five mutant Z proteins, four (L17D, N28A, I31A, K35A) 
+showed a decreased affinity to Fc, compared to the parent Z molecule. Surprisingly, two (L17D, I31A) of these 
+four had the major effect of a decreased binding energy as a lowered k,,, while the other two (N28A, K35A) 
+mutant proteins showed an increased &,,as the major kinetic difference from Z in their binding to Fc,. For five of 
+the six different 2 variants, as well as for the ZZ molecule, calculated K,, and calculated differences in binding 
+free energies relative to the parent Z molecule (AAG), are in good agreement with the corresponding values 
+obtained in a competitive displacement assay using radioactivelly labeled Z as a tracer (Cedergren et al., (1993) 
+Prot. Eng. 6, 441-448). However, the I31A variant, with a measured k,. that was more than three orders of 
+magnitude lower than that of Z in the BIA assay, showed a significantly weaker affinity to Fcl when calculated 
+from the BIA data compared to the competitive displacement assay. The discrepancy between these two methods 
+for Z(I3IA) is discussed as well as possible explanations for the unexpected large effect of lowered k,,, for two of 
+the mutant Z proteins. 
+Keywords: association rate affinity; biospecific interaction analysis; dissociation rate; kinetics; protein engineer￾ing; staphylococcal protein A. 
+Introduction 
+Staphylococcal Protein A (SpA) is a cell wall associated 
+pathogenicity factor displayed on the surface of the 
+bacterium Staphylococcus aureus. SPA acts by binding 
+the constant region of class G immunoglobulins (IgG) 
+from many mammals, including man (for a review see 
+Langone, 1982). The extracellular part of SpA contains 
+five highly homologous (about 80% at the amino acid 
+level) IgG-binding domains (E, D, A, B and C) of 
+Author to whom correspondence should be addressed. 
+Abbreviations used: BIA, biospecific interaction analysis; CD, circu￾lar dichroism; Fc,, Fc fragment of immunoglobulin G subclass I; Fc,, 
+Fc fragment of immunoglobulin G subclass 3; Gdn-HCI, guanidine 
+hydrochloride; hGH, human growth hormone; IgG,, immunoglobu￾lin G subclass 1; Kart, affinity constant; k,,,f, dissociation rate constant; 
+k,,, association rate constant; SpA, staphylococcal Protein A. 
+In this paper, amino acid residues are numbered according to their 
+position in the corresponding protein from its N-terminus. The 
+numbering of Z is as described in Cedergren ef 01. (1993) and the 
+numbering of Fc, is according to Deisenhofer (1981). Amino acid 
+substituted positions in mutant proteins are given by the amino acid 
+residue type in the wild type protein, amino acid number followed by 
+the amino acid residue substitution, e.g., K3SA for lysine 35 substi￾tuted with an alanine residue. 
+approximately 58 amino acid residues (Uhlkn et al., 
+1984). These domains are individually capable of bind￾ing to Fc (Moks et al., 1986). SPA also possesses a weak 
+Fab-binding activity (Langone, 1982; Ljungberg et al., 
+1993). The crystal structure of domain B from SpA in 
+complex with human polyclonal Fc fragment of IgG 
+subclass 1 (Fc,) has bep solved by x-ray diffraction to a 
+resolution of 2.8 A (Deisenhofer et al., 1978; 
+Deisenhofer, 1981). The structure suggests that 9 
+amino acid residues on Fc, and 11 residues on domain 
+B constitute the intermolecular binding surface. Two 
+anti-parallel a-helices were found in the SpA domain in 
+the crystal structure. However, recent structural studies 
+of domain B by 2-D NMR spectroscopy suggest that the 
+B domain in solution in fact has a three helix bundle 
+motif (Torigoe et al., 1990b; Gouda et al., 1992) (Fig. 1) 
+and it has also been suggested that there might be a 
+structural change in domain B upon binding to Fc 
+resulting in the disruption of helix 3 in the complex 
+(Torigoe et al., 1990a, b). Further, by increasing the 
+valency of a analogue of SPA, going from one to two 
+domains, the affinity for Fc, increases by almost two 
+orders of magnitudes (Eliasson, 1990), but no further 
+Received 12 January 1995 
+Accepted (reoised) 9 March 1995 ccc 0952-3499/95/040270-09 
+0 1995 by John Wiley & Sons. Ltd. KINETICS OF PROTEIN A/FC INTERACTION 27 1 
+Figure 1. A MOLSCRIPT (Kraulis, 1991) ribbon representation of 
+the model of the structure of domain B from amino acids 5-58. 
+In this region, the only difference between domain B of SPA and 
+domain Z used in this study is amino acid residue 29, which is a 
+glycine in domain B and an alanine residue in domain Z. The 
+displayed structure of helix 1 and 2 (in the front) are from the co￾crystal structure between domain B of SPA and Fc (co-ordinates 
+lfc2 in the Brookhaven structural data base) (Deisenhofer, 
+1981). The third helix (in the back) was built based on the 
+secondary structure assignments derived from the 3-D structure 
+in solution obtained by NMR spectroscopy (Torigoe et a/., 
+1990a; Gouda eta/., 1992; Lyons eta/., 1993). The positioning of 
+the third helix has not been optimized or minimized. Here, the 
+purpose is only to display its approximate location. All dis￾played side chains, except F30, have been suggested to be 
+involved in the Fc interaction (Deisenhofer, 1981). 
+Non-hydrogen atoms of side chains of residues that were 
+mutated in this study (L17, N28, F30, 131, K35) are displayed in 
+grey and those of residues that were not mutated (F5, 09, 010, 
+N11, F13, 114, 032) are shown in black. 
+significant increase in affinity was detected going to five 
+domains. 
+We are employing a protein engineering strategy to 
+dissect the importance of domain valency and indivi￾dual amino acid residues in SPA on its binding to Fc,. 
+Recently a one domain analogue based on SPA, desig￾nated Z, and five mutant forms thereof, were analyzed 
+in their binding thermodynamics to human IgG, and a 
+fusion protein consisting of CD4 and human Fc, using a 
+competitive displacement assay (Cedergren et af., 
+1993). Four of the mutations in Z were in amino acid 
+residues which were suggested from the co-crystal 
+structure to be involved in binding to IgG (Deisen￾hofer, 1981). These mutant proteins were designated 
+Z(L17D), Z(N28A), Z(I31A) and Z(K35A), respect￾ively (Figs 1 and 2) and all four Z mutant proteins 
+showed, as predicted, decreased affinities to human 
+IgG, and CD4-Fc1 (Cedergren et al., 1993). One of the 
+Z mutant proteins, Z(F30A) (Figs 1 and 2), had an 
+amino acid substitution in a phenylalanine residue 
+situated in the hydrophobic core of the Z domain 
+(Gouda et al., 1992) (Fig. 1). This mutant protein 
+showed an unaffected affinity to IgG or Fc,, but the 
+mutation caused a conformational destabilization of 3.5 
+kcal/mol (Cedergren et al., 1993). In order to study 
+kinetic binding properties of the set of Z mutant pro￾teins, BIA was performed. 
+Here, we describe the kinetics of binding of a one 
+domain analogue of SPA, designated Z (Nilsson et af., 
+1987) in mono- (Z) and divalent (ZZ) forms, and five 
+single amino acid substituted Z variants. The kinetic 
+analysis was performed utilizing an automated real￾time biospecific interaction analysis (BIA) technique 
+which combines surface plasmon resonance detection 
+(Kretschmann and Raether, 1968) with micro fluid 
+techniques (for reviews see Karlsson et af., 1991 and 
+Malmquist, 1994). Conceptionally, the method 
+provides for a general real-time kinetic analysis with no 
+labels and need for only limited amounts of materials. 
+BIA has been utilized to map relative binding sites of 
+proteins and to study the kinetics of intermolecular 
+interactions, such as antibody-antigen interactions 
+(Karlsson et af., 1991; Malmquist, 1994), small peptides 
+binding to a protein (Altschuh et af., 1992), protein￾DNA interactions (Bondeson et af., 1993) and the 
+assembly of a multi-protein complex (Schuster et af., 
+1993). The method has also been used to compare a set 
+of single amino acid substituted mutants of human 
+growth hormone (hGH) in their binding to the hGH 
+binding protein (Cunningham and Wells, 1993). Here, 
+we have used BIA to monitor the interaction between 
+seven different variants based on the one domain ana￾logue (Z) of SPA and the Fc portion of human IgG,. 
+The obtained data were used to calculate association 
+and dissociation rate constants. Most surprisingly, two 
+of the mutant Z proteins showed dramatic lowered on￾rates of binding, providing the basis to propose a 
+structural change in the SPA domain upon binding. 
+Further, the kinetic rate constants were utilized to 
+calculate affinity constants which were compared to 
+previously determined affinity constants for this set of 
+Z variants (Eliasson, 1990; Cedergren et af., 1993). 
+Experimental 
+Materials 
+The BIAcorem, Sensor Chip CM5, Surfactant P20 and 
+Amine coupling kit containing N-ethyl-N’-(di￾methylaminopropy1)-carbodiimide (EDC), N-hydroxy￾succinimide (NHS) and ethanolamine hydrochloride 
+were obtained from Pharmacia Biosensor (Sweden). 
+Gelatin IGSS (product number RPN416) was provided 272 L. JENDEBERG ETAL. 
+MK A I FV L N AQHDE Am 
+#D; L 
+V' 
+Z( F30A) 4 
+Figure2. Amino acid sequences of the produced Z proteins, starting from a 
+N-terminal methionine residue. The three helices are shown in grey boxes and 
+labelled. Helix 1 and 2 are defined according to the x-ray structure (Deisenhofer, 
+1981) and helix 3 is according to the NMR structure (Torigoe eta/., 1990a; Gouda et 
+a/., 1992). Residues suggested to be involved in the Fc interaction are shown as 
+black spheres. Mutated residues, amino acid substitutions and designations of 
+mutant proteins are shown. Amino acids in the 14 amino acid residues long leader 
+peptide are.shown as grey spheres. The 2 domain is numbered starting from a 
+valine residue marked as + 1. 
+by Amersham (UK). Other buffer chemicals were 
+obtained from Sigma (USA), Fluka (Germany) or 
+Merck (USA). Z, Z(L17D), Z(N28A), Z(F30A), 
+Z(I31A) and Z(K35A) were produced intracellularly in 
+Escherichia coli and purified as described (Cedergren ef 
+al., 1993). ZZ was produced in E. coli by secretion to 
+the periplasm directed by the SPA signal peptide (Nils￾son et al., 1987; Nilsson and AbrahmSen, 1990). The 
+produced ZZ protein has a C-terminal extension of 17 
+amino acids (VDANSRGSVDLQPSLSK) . This short 
+peptide sequence has no detectable effect on the circu￾lar dichroism spectrum or Fc affinity (L. Jendeberg and 
+B. Nilsson, unpublished data). In this paper, amino 
+acid residues are numbered according to their position 
+in the corresponding protein from its N- terminus and 
+the numbering of Z is as defined by Cedergren et al. 
+(1993) and the numbering of Fcl is according to 
+Deisenhofer (1981). Protein concentrations were deter￾mined by quantitative amino acid composition analysis 
+by hydrolyzing each Z protein in 6 M HCl at 155°C for 
+45 mins. The samples were subsequently analyzed on 
+an ion-exchange column and the amino acids were 
+detected with ninhydrin. The composition analysis was 
+performed on a Beckman 6300 amino acid analyzer, 
+equipped with a System Gold data handling system 
+(Beckman, USA). Fusion proteins, composed of the 
+two N-terminal Greek-key domains from T-cell surface 
+antigen CD4 fused to the Fc portion of human mono￾clonal IgG, or IgG3 (Traunecker et al., 1989), desig￾nated CD4-Fc1 and CD4-Fc3, respectively, were 
+provided by Dr K. Karjalainen. It has earlier been 
+shown that CD4 does not bind to SpA (Eliasson, 1990), 
+and the result of the competitive displacement assay of 
+these mutant proteins showed indistinguishable affini￾ties of the Z variants to either CD4-Fc1 or IgG,, 
+respectively (Cedergren et al., 1993). We selected 
+CD4-Fc,, instead of a full-length IgG molecule, as a 
+target molecule for the BIA since SPA is known to 
+possess a weak interaction with Fab (Langone, 1982), 
+even though this interaction was recently shown to be 
+particularly weak for domain Z (Ljungberg et al., 
+1993). 
+Driving buffer, lxDB (137m~ NaC1, 2.7m~ KCl, 
+1.5 mM KH2P04, 8.1 mM Na2HP0,, 0.05% Surfactant 
+P20, pH 7.3), was used in the buffer flow of the 
+BIAcore. To overcome problems of losing materials in 
+the pipetting and/or injection of the most diluted sam￾ples, the lxDB buffer was supplemented with 1% 
+Gelatine IGSS to dilute the samples that were subse￾quently used in the association experiments. All solu￾tions were prepared from Milli Q (MiHipore, USA) 
+water which was filtered through 0.22 pm filters (Milli￾pore, USA). 
+Preparation of sensor surfaces 
+Immobilization of CD4-Fcl was performed via primary 
+amine groups as previously described (LofAs and 
+Johnsson, 1990) utilizing carbodiimide coupling. 
+CD4-Fc1 was injected into the BIAcore system at a 
+concentration of 20 p,g/mL and a constant flow of 5 p,L/ 
+min. After immobilization, unreacted diimide groups 
+were blocked by the injection of excess of ethanol 
+amine. After conditioning with 15 pL of 5 mM HCl, the 
+surface was ready for binding studies. Immobilizations 
+were performed to approximately 5000 RU. KINETICS OF PROTEIN A/FC INTERACTION 273 
+Kinetic measurements and data analysis 
+A resonance signal is determined relative to the base￾line. The relative resonance signal (RU) is approxima￾tely proportional to the immobilized protein mass 
+(Karlsson et al., 1991). In the binding experiments, the 
+RU signal vs time is monitored. 
+Each of the seven Z samples were passed by the 
+CD4-Fc, surface at the following different concentra￾tions; Z, ZZ, Z(N28A), Z(F30A) at 488, 244, 122, 61 
+and 30n~; Z(L17D) at 2000, 1000, 500 and 2.5011~; 
+Z(I31A) at 150,75 and 38 PM and Z(K35A) at 488,244, 
+122 and 61 nM. Association and dissociation were moni￾tored at a flow rate of 5 yllmin. 
+The evaluations of BIAcore data to calculate kinetic 
+binding parameters have previously been described in 
+detail (Karlsson et af., 1991). Errors were estimated 
+from the combined errors expected in the quantitative 
+amino acid analysis, pipetting and in the calculations. 
+The association rate constant (kcj,) was calculated 
+using the equation: 
+dRldt = constant - {[(ken x C) + kCjff] x R} (1) 
+The dRldt is the relative change in resonance signal per 
+time unit, C is the concentration of ligand in the flow, 
+kc,ff is the dissociation rate constant, R is the relative 
+response in the resonance signal and the constant is 
+k,, x CX R,,, as previously has been elucidated in 
+detail in Karlsson et al. (1991). 
+An approximate koff could be obtained in the analysis 
+of the association phase [see Eqn (1) above]. However, 
+this value can be more accurately determined by ana￾lyzing ligand dissociation in a buffer flow. From such 
+data, kOf, can be calculated using the equation: 
+In(R,JR,) = koff x (tn - 4,) (2) 
+The parameter Ro is the relative response at time to and 
+R, is the relative response at time t,,. 
+The affinity constant, Kaff, was calculated from the 
+kinetic constants using the equation: 
+Kaff = kon/koff (3) 
+Differences in binding free energy (AAG) between 
+each Z variant, respectively, and Z were calculated 
+using the equation: 
+AAG= -RTIn[Kaff(Zvariant)lKaff(Z)] (4) 
+The temperature in the binding experiments was 298 K. 
+Results 
+Here, the kinetics of binding were determined for a set 
+of six Z variants, and the divalent ZZ, using a biosensor 
+system (BIA) with plasmon resonance detection. The 
+objective of the analysis of the different Z domains was 
+to determine kinetics in the interactions of the different 
+Z analogues and Fc,. In addition, the affinity constants 
+calculated from the kinetic BIA were compared with 
+affinity constants which previously had been deter￾mined in the competitive displacement assay (Eliasson, 
+1990; Cedergren et af., 1993). 
+17007 
+15500 I I I 1 I 
+0 110 220 330 440 550 
+Time (s) 
+Figure 3. Superposition of BIA sensorgrams illustrating 2 bind￾ing to Fc, at five different concentrations (30-488 nM), respect￾ively, and dissociation phase in a buffer flow from a Fc, surface 
+where Z was bound at the highest concentration (488 nM). The 
+arrow labelled 1 shows the time point of Z injection (start of 
+association phase) and the arrow labelled 2 shows the time 
+point of buffer flow injection (start of dissociation phase). 
+BIA of the seven Z variants 
+Recombinant CD4-Fc, protein was immobilized into 
+the dextran layer on the sensor chip using carbodiimide 
+coupling. BIA were performed for the seven different 
+proteins at various concentrations. As an example of 
+generated primary data, sensorgrams for Z at different 
+concentrations are shown in Fig. 3. The association 
+phases were used to calculate k,, (Table 1) as shown for 
+Z in Fig. 4. The dissociation of ligand in buffer flow was 
+used to determine koff (Table 1) for the different Z 
+variants as shown in Fig. 5. 
+Similar association and dissociation curves were 
+obtained for four of the six other Z variants; ZZ, 
+Z(N28A), Z(F30A) and Z(K35A), using protein con￾centration ranging from 50 to 400 nM. For two of the Z 
+mutants, Z(L17D) and Z(I31A), the slower association 
+rates had to be analyzed at higher ligand concentra￾tions. For Z(L17D), the concentrations in the analysis 
+were 0.25 to 2 PM. However, for Z(I31A). the rate of 
+association was too slow and the ligand concentrations 
+needed for determining k,, ranged from 38 to 150 PM. 
+Calculation of rate constants of binding 
+The obtained binding BIA data were used to calculate 
+k,, and koff of the different Z variants (Table 1). Out of 
+the total association phases of 240 s, the initial 5-10 s 
+Table 1. 
+Protein 
+z 
+Z(L17D) 
+Z(N28A) 
+Z(F30A) 
+Z(131A) 
+Z(K35A) 
+zz 
+~~ ~~~ 
+Kinetic parameters of binding to CD4-Fc, of seven Z 
+variants calculated from BIAcore data 
+k,, (U/SXlo5) k," (M/SX 1031 
+1.9 f 0.6 3.2+ 1 
+0.19f0.06 3.6 f 1 
+1.8 f 0.6 8.4 f 3 
+2.3 f 0.8 4.3 f 2 
+0.0005k 0.0002 6.2 f 2 
+1.4 5 0.5 315 8 
+3.5 f 1 .o 0.51 f 0.2 274 L. JENDEBERG ET AL. 
+lo 
+i 
+\\ 
+1 
+300 400 500 600 700 800 
+Relative response (RU) 
+0,08 
+0,06 
+in- 
+\ 
+c 
+Y - 
+Q, 0,04 a 
+0 
+0.02 
+z 
+0,ooI. , 5 , . 1 . I . 1 
+0 100 200 300 400 500 
+Concentration (nM) 
+Figure 4. Plots showing the calculation of the association rate 
+constant (ken) for Z from the experimental data obtained in the 
+experiment shown in Fig. 3. (a) Plot of binding rate (dRldt) vs 
+relative response for the association phases of the different Z 
+concentrations. (b) Plot of the slope values in (a) vs protein 
+concentration. The slope of this plot represents k,, (see 
+Experimental for details of equations). Symbols: (0) 30 nM; 
+(A) 61 nM; (m) 122 nM; (0) 244 nM; (A) 488 nM. 
+'>Ol / Z(K35A)/ Z(N28A) 
+J Z(F30A) 
+0,2- 
+0,o￾0 50 100 150 200 250 
+Time (s) 
+Figure 5. Plot showing the calculation of the dissociation rate 
+constant (kJ derived from the experimental values obtained for 
+the highest concentration used of the different proteins 2, 
+Z(L17D). Z(N28A), Z(F30A). Z(131A), Z(K35A) and 22. 2, refers to 
+were discarded. Contact times between 10s and 50s 
+were used in the calculations for the highest concentra￾tions and values between 10 s and 230 s for the lowest 
+concentrations. For all concentrations of Z(L17D) and 
+Z(I31A), which both possess slow on-rates of binding, 
+contact times between 10 s and 230 s were utilized in 
+calculating kc,". The data of the dissociation phases are 
+shown in Fig. 5. All except the Z(I31A) show a simple 
+Langmuir interaction. The Z(I31A) dissociation phase 
+(Fig. 5) cannot be interpreted in a simple model and 
+therefore the intitial dissociation rate was used. 
+Specific binding of Z(I31A) to Fc, 
+A control experiment was performed to address poss￾ible non-specific interactions, or possible interactions 
+with CD4, of Z(I31A) at the rather high concentration 
+(up to 150 VM) that was needed in the analysis. In this 
+control experiment, BIA was performed of Z(I31A) to 
+a surface coupled with CD4-Fc3. It is well established 
+that SPA does not bind to human Fc, (Langone, 1982; 
+Eliasson, 1990), and this inability has been suggested to 
+be caused by a single amino acid residue difference 
+between Fc, and Fc, (histidine 435 in Fc, is replaced by 
+an arginine residue in Fc,) located in the binding 
+surface to SPA (Deisenhofer, 1981). In our BIA of 
+Z(I31A) to a surface with immobilized CD4-Fc3, it was 
+demonstrated that Z(I31A) does not bind to Fc, in the 
+50-350 p~ concentration range (data not shown). 
+Thus, we conclude that the calculated binding rate 
+constants for Z(I31A) to Fc, are determined for a 
+specific Fc interaction. 
+Reproducibility of the analysis 
+In a set of experiments, the reproducibility in the BIA 
+was studied. Eight complete sets of association curves 
+of domain Z at five different concentrations were 
+collected on the same surface of immobilized Fc, (data 
+not shown). Each set of data was used to calculate k,,, 
+and k,,rt. All calculated rate constants were within 1%, 
+showing that the experimental reproducibility is high. 
+Calculation of affinity constants 
+The kinetic parameters for the seven Z variants were 
+used to calculate their respective affinity constants 
+(Table 2). These values were compared to affinity 
+constants obtained in a competitive binding assay using 
+radioactively labelled Z as a tracer (Table 2). Also, 
+changes in binding free energies (AAG) between the 
+mutant proteins and the parent Z molecule were deter￾mined for each method, respectively (Table 2). 
+DISCUSSION 
+the dissociation of Z analyzed on the same surface as that of all rn this paper, we have studied the kinetics of binding 
+using BIAcore of an analogue based on staphylococcal the mutant monovalent Z variants while Z, refers to the disso￾ciation of Z on the same surface as that was used for the 
+dissociation of ZZ. Values of In(R,IR,) vs time are shown and protein A, designated z (Nilsson et a[. , 1987; 
+the slope will constitute kofi (see Experimental for equations). Cedergren et al., 1993), as a monomer (Z) and a dimer KINETICS OF PROTEIN A/FC INTERACTION 275 
+(ZZ), and five single amino acid substituted Z variants, 
+respectively, to recombinant human CD4-Fc,. Two of 
+the mutant Z proteins are exclusively effected in their 
+k,,lf [Z(N28A) and Z(K35A)l and two are effected 
+mainly in their k,,, [Z(L17D) and Z(I31A)I. These 
+results are interesting in light of a recent study of the 
+kinetics of binding of hGH and several mutants of hGH 
+to binding site 1 of the hGH receptor using BIA. All 
+determined k,,,, values for the set of molecules were 
+within a factor of 3 identical, and the major effects on 
+lowered affinities for all mutant hGH molecules were 
+observed as increased k,ff (Cunningham and Wells, 
+1993). Thus, these hGH results are in contrast to the 
+much larger effects in k,, determined for the L17A and 
+I31A mutants of Z (Table 1). 
+The increased k,,ff resulting from the N28A and 
+K35A mutations can be explained in a straightforward 
+way since both residues are suggested to participate 
+directly in binding (Deisenhofer, 1981). The aliphatic 
+side chain of K35 may participate in hydrophobic inter￾actions with H310 and I253 of Fc. Also, in the co￾crystal structure, the charged side chain of K35 inter￾acts with a possible sulfate group bridging over to K288 
+on Fc. In the present BIA study, and in the competitive 
+binding study (Cedergren et af., 1993), no sulfate was 
+added to the buffer. Therefore, it is less likely that a 
+bridged sulfate group participated in the binding of Z to 
+Fc, in the performed analysis. However, binding 
+energy calculations using the GRID method (Good￾ford, 1985) suggest that the sulfate group may very well 
+be replaced by a phosphate ion at this binding site (data 
+not shown), and phosphate is abundant in all utilized 
+buffers for the binding assays. By mutating K35 to an 
+alanine, all mentioned possible interactions will be 
+removed and, according to the binding experiments, 
+also a rather large penalty in binding free energy will be 
+paid (Table 2). In the kinetic analysis, this effect is 
+found as an increased k,,tr in the Z(K35A) mutant 
+protein (Table 1). Similarly, N28 makes a possible 
+hydrogen bond to the side chain amide group of Q311 
+on Fc. According to our analysis, this hydrogen bond is 
+rather weak, and the lowered affinity in the Z(N28A) 
+protein (Table 2) is found in a faster off-rate compared 
+to what was found for the parent Z molecule (Table 1). 
+Table 2. Kan and AAG of the interaction between Z and Fc, 
+Protein 
+Z 
+Z(L17D) 
+Z(N28A) 
+Z(F30A) 
+Z(131A) 
+Z(K35A) 
+zz 
+BIAa 
+K." (/M x 10 'I AAG (kcal/mol) 
+5.9 (0) 
+0.54 1.4 
+2.1 0.6 
+5.2 0.07 
+0.0008 5.3 
+0.46 1.5 
+68 -1.4 
+Competitiona 
+K,n (/MX 10'1 AAG (kcal/moll 
+1.4 (0) 
+0.3 0.9 
+0.6 0.5 
+1.6 -0.08 
+0.02 2.5 
+0.2 1.2 
+100 -2.5 
+a Affinity constants by the BIA method were obtained by divid￾ing k,,, and koff from Table 1. A higher AAG value represents a 
+weaker binding compared to the parent Z. By definition, AAG is 
+0 for Z and this value is displayed in parentheses. Affinity 
+constants from the competition experiments were for mono￾valent Z variants from (Cedergren eta/., 1993) and for ZZ from 
+Eliasson ( 1990). 
+An explanation for the slower association rates found 
+for Z(L17D) and Z(I31A) compared to Z is that a 
+structural change, large or small, is needed for their 
+binding to Fc, respectively. This becomes even more 
+interesting in light of the fact that these residues are 
+part of the helix 1-helix 2 packing surface of the 
+complexed protein A domain (Fig. 6). L17 participates 
+in the helix 1-helix 2 packing in the bound state of the 
+Z domain by making an intramolecular hydrophobic 
+contact with I31 of helix 2. L17, which is situated in 
+helix 1 (Figs 1, 2 and 6) of the SpA domain, is possibly 
+also involved directly in Fc interaction by making 
+hydrophobic contacts with main chain (Ccl and C,) of 
+Q311 (Deisenhofer, 1981). By the L17D mutation, 
+both the possible interaction with Q311 will be dis￾rupted and the contact with the C6 methyl group of I31 
+will be removed (Fig. 6). An alternative explanation for 
+the lowered k,, observed in the Z(L17D) mutant could 
+be the result of a charge repulsion between the intro￾duced acidic side chain (aspartic acid) and the nega￾tively charged dextran layer in the BIAcore. However, 
+this is less likely at the rather high salt concentration 
+used in the experiment and since the parent Z is 
+negatively charged at the experimental pH by itself [the 
+PI of Z has been determined to 4.5 (data not shown)]. 
+Further, charge repulsion effects from individual acidic 
+side-chains in BIA measurements have previously been 
+shown to be much smaller (within a factor of three) as 
+was found in the hGH/hGH receptor system (Cunn￾ingham and Wells, 1993). Also, the calculated Kaff is in 
+good agreement with the Kaff determined by a competi￾tive binding assay performed in polystyrene plates 
+Figure 6. Computer graphics display of the involvement of 116, 
+L17 and 131 in the packing between helix 1 and 2 of one domain 
+SPA. For the analysis, the coordinates from the co-crystal 
+structure between domain B and Fc were used (Deisenhofer, 
+1981). The graph was generated using lnsi ht II (Biosym, USA). 
+Dashed atomic distances are displayed in 8. 276 L. JENDEBERG ETAL. 
+(Table 2), where a charge repulsion is not expected 
+with the hydrophobic surface. Similarly, I31 is situated 
+in helix 2 (Figs 1 and 2) and is also possibly interacting 
+with Fc on the aliphatic portion of Q311 (C, and C,,), 
+but none of the distances between hydrogen atoms on 
+these carbon atoms and the closest hydrogen atoms on 
+I31 (C, and C,) are within 2.5 A [as previously ana￾lyzed in (Cedergren et al., 1993)l. In fact, a detailed 
+analysis of the crystal structure reveals that the side 
+chain of I31 is involved in intramolecular hydrophobic 
+contacts with residues I16 (CYJ and L17 (C, and C,) on 
+helix 1 of Z (Fig. 6). Thus, the two mutations (L17D 
+and I31A) that specifically are effecting k,,, are also 
+situated in the helix 1-helix 2 interface of the bound 
+SpA domain (Deisenhofer, 1981; Cedergren et al., 
+1993). 
+Since the k,, determined for Z (Table 1) to Fc is at 
+least two orders of magnitude slower than expected for 
+a simple diffusion limited interaction of Z with immobi￾lized Fc, (von Hippel and Berg, 1989), the rate-limiting 
+step for association of Z to Fc may involve a large or a 
+small structural change in the SPA domain. 
+Speculatively, amino acid residues L17 and I31 are 
+important to stabilize the bound state of Z and by 
+mutating either of these residues, the association rate 
+will decrease. In fact, a structural change involved in 
+the binding of SpA to Fc has previously been discussed 
+by others (Deisenhofer, 1981; Torigoe et al., 1990a, b; 
+Gouda et al., 1992). Each IgG- binding domain of SPA 
+contains three a-helices packed into a three helix bun￾dle motif in an anti-parallel fashion (Torigoe el al., 
+1990a; Gouda et al., 1992) (Fig. 1). Since only two 
+helices were found in the SpA domain in the co-crystal 
+structure, it has been proposed that the third helix is 
+disrupted in the complex (Torigoe et al., 1990a, b; 
+Gouda et al., 1992). However, Z(F30A) shows no 
+significant difference in either k,,, koff or K,,, compared 
+to the parent Z molecule (Tables 1 and 2) by any of the 
+methods used to study its Fc interaction. This is particu￾larly interesting since F30 is involved in the hydropho￾bic packing between helix 2 and helix 3 (Gouda et al., 
+1992) and, indeed, it has been shown that the F30A 
+lowers the conformational stability of Z by 3.5 kcal/mol 
+(Cedergren et al., 1993). Therefore, we conclude that 
+the packing between the second helix and the third 
+helix is not directly involved in the rate limiting step of 
+binding to Fc. Instead, our results suggest that a struc￾tural change in the helix 1-helix 2 interface is rate 
+limiting in the binding of Z to Fc, but this model does 
+not exclude a disruption of the third helix as part of the 
+binding mechanism. In fact, it is possible that a third 
+helix unwinding is a subsequent event to binding. 
+However, more experiments will be needed to further 
+elucidate the details of the binding mechanism between 
+SPA and Fc. 
+The ZZ molecule has previously been found to bind 
+tighter than Z to Fc, in a displacement assay (Eliasson, 
+1990). We have noted by modeling (data not shown), 
+that the proposed binding mechanism involving 
+unwinding of the third helix (Torigoe et af., 1990b) 
+would allow neighboring domains of the five domain 
+SpA to bind on both sides of Fc simultaneously. There 
+are two symmetric binding sites on the homodimeric Fc 
+molecule for the SPA domains and a partially unwound 
+third helix of the ZZ molecule could conceivably span 
+these two sites. This hypothesis could explain the fact 
+that a molecule composed of two fused domains of Z, 
+designated ZZ, binds almost two orders of magnitudes 
+tighter than Z to Fc, although the affinity constant does 
+not increase significantly more up to five domains of Z 
+(Eliasson, 1990). In order to analyze the kinetic compo￾nent responsible for the tighter binding of ZZ to Fcl 
+compared to Z, BIA was performed. This analysis 
+(Table 1) demonstrates that the higher affinity is mainly 
+due to a slower off-rate. Thus, the koff of ZZ is about six 
+times lower than the knff of Z. Even though this result 
+corroborates binding on both sides of Fc, an alternative 
+explanation is that the uncomplexed Z domain of the 
+ZZ molecule may either interact weakly with the bound 
+Z domain or with Fc, itself at a second binding site. 
+Either of these possibilities could provide increased 
+binding free energy and could result in a lowered k,,,. 
+However, more experiments will be necessary to com￾pletely characterize this co-operative binding effect of 
+going from one to two SPA domains. 
+It is tempting to speculate that the Z domain itself is 
+a poorly packed protein molecule with flexible helices. 
+However, we believe that this is not the case. 
+Equilibrium unfolding experiments using guanidine 
+hydrochloride (Gdn-HCI) show a normal two-state 
+transition with a mid-point of 3.9 M Gdn-HC1 and a 
+calculated AGn of -7 kcal/mol (Cedergren et af., 
+1993). The temperature stability is very high (the mid￾point of thermal unfolding exceeds 90°C at neutral pH), 
+which is consistent with what is expected for a well 
+folded small domain protein (Alexander et af., 1992). 
+In addition, Z is extremely soluble in aqueous buffer 
+systems (Samuelsson et al., 1994). Further, the NMR 
+spectrum of Z indicates that the molecule is well folded 
+(Lyons et al., 1993). Thus we conclude that Z itself has 
+a well folded structure. In addition, this conclusion 
+could expand to all Z variants discussed in this paper 
+since their circular dichroism spectra are essentially 
+indistinguishable (Cedergren et al., 1993). 
+The kinetic binding parameters were used to calcu￾late equilibrium binding constants, and these were 
+compared with affinity constants determined previously 
+(Cedergren er al., 1993) using a competitive displace￾ments assay (Table 2). A comparison of the determined 
+K,,, for the set of Z molecules reveals that the deter￾mined affinity constants by the two methods are similar 
+within a factor of 4 for six out of the seven variants 
+analyzed. From this comparative analysis we conclude 
+that the results obtained by the two rather different 
+methods are surprisingly similar. This is consistent with 
+a similar comparison made for hGH mutant proteins 
+(Cunningham and Wells, 1993). In addition, the affin￾ity constant between a Z-fusion and human polyclonal 
+IgG has been determined to 0.7 x ~O’/M by titration 
+calorimetry (It0 and Kurosawa, 1993) and to 2.5 x 
+~O’/M between domain B and human IgG in a compe￾tition radioimmunoassay (Huston er al., 1992). Both 
+these values are similar to the one determined by 
+BIAcore for the binding of Z to CD4-Fc, (Table 2). KINETICS OF PROTEIN 
+However, in this BIAcore study, for one mutant Z 
+protein, Z(I31A), the relative affinity constant calcu￾lated from the kinetic methods is a factor of 25 lower 
+than the affinity constant determined by the equilib￾rium displacement assay (Table 2). This discrepancy is 
+by far outside any estimated experimental errors (Table 
+1). An explanation is probably found in experimental 
+differences between the two methods; in surfaces, 
+methods of immobilization and in differences in protein 
+concentrations used in the analysis. It is noteworthy 
+that a concentration of up to 150 ~LM of Z(I31A) had to 
+be used to determine its k,, in the BIAcore experiment. 
+Although there were no observations of precipitates, it 
+is possible that the concentration of ‘active’ Z(I31A) is 
+significantly lower due to the formation of soluble 
+aggregates. Presumably, these aggregates would be in 
+equilibrium with the ‘active’ monomers and this equi￾librium would be continuously shifted by binding of the 
+monomers to immobilized Fc,. Thus, the actual k,,of 
+Z(I31A) would be higher. In contrast, in the displace￾ment plate assay, the concentration of Z(I31A) that 
+was used to compete with labeled Z tracer did not 
+exceed 4 p~ (Cedergren et al., 1993). However, kOff 
+could be determined for Z(I31A), and was found to be 
+within a factor of 2 similar to the parent Z molecule. 
+Assuming that the determined K,, from the displace￾ment assay and k,,fr from BIA are accurate, k,, can be 
+calculated from these two values to 1.2~ 10’(MIS), 
+which is still more than two orders of magnitude slower 
+than the parent Z molecule. Thus, we conclude that the 
+Z(I31A) mutant protein shows the weakest binding to 
+Fc out of all seven analyzed Z variants and by both 
+applied methods. Further, the observed decreased 
+affinity is mainly found in a lowered k,,,. However, the 
+determined k,,,, with BIA may be less accurate because 
+of the high concentrations used. We also conclude that 
+A/FC INTERACTION 277 
+the comparison between the two methods for the 
+Z(I31A) protein demonstrates the importance of eval￾uating the BIAcore data with alternative methods if the 
+binding experiment had to be performed using extreme 
+protein concentrations. 
+In conclusion, we have demonstrated the added 
+value of determining kinetic binding constants for the 
+interaction of Z mutant proteins to Fc and that the 
+results enhance our understanding of the SPA-Fc inter￾action. Even though the different possible detailed 
+mechanisms of binding must be determined by more 
+experiments, we conclude that the presented results 
+have opened a new and interesting field of research in 
+this area. At present, we are utilizing circular dichroism 
+spectroscopy to study possible changes in the a-helical 
+content of Z upon its binding to Fc, and more muta￾tions are being introduced into the Z domain to further 
+test the hypothesis of a structural change upon binding 
+to Fc. In addition, we are utilizing 13C, ’’N enriched Z 
+to collect NMR data to generate a large number of 
+structural constraints (Lyons et al., 1993) to be used to 
+calculate a high resolution structure of Z in solution. 
+This structure may be used to compare the positioning 
+of helix 1 and 2 with the x-ray structure of the B:Fc, 
+complex. 
+Acknowledgements 
+We are grateful to Drs Stephen Anderson, Gaetano Montelione and 
+Barbara Lyons for valuable discussions. Dr Klaus Karjalainen is 
+acknowledged for the kind gift of purified CD4-Fc, and CD4-Fc3. Dr 
+Per Kraulis has kindly provided us with the software MOLSCRIPT. 
+Dr Martin Norin is acknowledged for performing the GRID calcula￾tion. This project has been financially supported by the Swedish 
+Board for Technical Development (NUTEK) and Pharmacia 
+Biopharmaceuticals. 
+References 
+Alexander, P., Fahnestock, S., Lee, T., Orban, J. and Bryan, P. 
+(1992). Thermodynamic analysis of the folding of the strep￾tococcal protein G IgG-binding domains B1 and 82: why 
+small proteins tend to have high denaturation temperatures. 
+Biochemistry 31, 3597-3603. 
+Altschuh, D., Dubs, M.-C., Weiss, E., Zeder-Lutz, G. and Van 
+Regenmortel, M. H. V. (1992). Determination of kinetic 
+constants for the interaction between a monoclonal anti￾body and peptides using surface plasmon resonance. 
+Biochemistry 31, 6298-6304. 
+Bondeson, K., Frostell-Karlsson, A., Fagerstam, L. and 
+Magnusson, G. (1993). Lactose repressor-operator DNA 
+interactions: kinetic analysis by surface plasmon resonance 
+biosensor. Anal. Biochem. 214, 245-251, 
+Cedergren, L., Anderson, R., Jansson, 6.. Uhlen, M. and 
+Nilsson, 6. (1993). Mutational analysis of the interaction 
+between staphylococcal protein A and human IgG1. Prot. 
+Eng. 6, 44-448. 
+Cunningham, B. C. and Wells, J. A. (1993). Comparison of a 
+structural and functional epitope. J. Mol. Biol. 234, 554-563. 
+Deisenhofer, J. (1981 1. Crystallographic refinement and atomic 
+models of a human Fc fragment and its complex with 
+fragment B of protein A from Staphylococcus aureus at 2.9 
+and 2.8 A resolution. Biochemistry 20, 2361-2370. 
+Deisenhofer, J., Jones, T. A., Huber, R., Sjodahl, J. and Sjoquist, 
+J. (1978). Crystallization, crystal structure analysis and 
+atomic model of the complex formed by a human Fc 
+fragment and fragment B of Protein A from Staphylococcus 
+aureus. Hoppe-Seyler’s Z. Ph ysiol. Chem. 359, 975-985. 
+Eliasson, M. (1990). Streptococcal protein G-Structure and 
+function. PhD Thesis. Royal Institute of Technology, 
+Stockholm. 
+Goodford, P. J. (1985). A computational procedure for determin￾ing energetically favorable binding sites on biologically 
+important macromolecules. J. Med. Chem. 28, 849-857. 
+Gouda, H., Torigoe, H., Saito, A., Sato, M., Arata, Y. and 
+Shimada, I. (1992). Three-dimensional solution structure of 
+the B domain of staphylococcal protein A: comparisons of 
+the solution and crystal structures. Biochemistry 31, 9665- 
+9672. 
+Huston, J. S., Cohen, C., Maratea, D., Fields, F., Tai, M.-S., 
+Cabral-Denison, N., Juffras, R., Rueger, D. C., Ridge, R. J., 
+Oppermann, H., Keck, P. and Baird, L. G. (1992). Multiple 
+association by recombinant proteins can enhance binding 
+selectivity. Bioph ys. J. 62, 87-91. 
+Ito, W. and Kurosawa, Y. (1993). Development of an artificial 
+antibody system with multiple valency using a Fv fragment 
+fused to a fragment of Protein A. J. Biol. Chem. 268,20668- 
+20675. 
+Karlsson, R., Michaelsson, A. and Mattsson, L. (1991). Kinetic 
+analysis of monoclonal antibody-antigen interactions with 
+a new biosensor based analytical system. J. lmmun. Meth. 
+145, 229-240. 
+Kraulis, P. (1991). MOLSCRIPT: a program to produce both 278 L. JENDEBERG ETAL. 
+detailed and schematic plots of protein structures. J. Appl. 
+Kretschmann, E. and Raether, H. (1968). Radioative decay of non 
+radiative surface plasmons excited by light. Z. Naturforsch. 
+Langone, J. J. (1982). Protein A of Staphylococcus aureus and 
+related immunoglobulin receptors produced by Steptococci 
+and Pneumonococci. Adv. Immunol. 32, 157-252. 
+Ljungberg, U. K., Jansson, B., Niss, U., Nilsson, R. and Nilsson, 
+6. (1993). The molecular interaction between different do￾mains of staphylococcal protein A and human polyclonal 
+IgG, IgA, IgM and F(ab’),. Mol. lmmunol. 30, 1279-1285. 
+Lyons, B. A., Tashiro, M., Cedergren, L., Nilsson, 6. and 
+Montelione, G. T. (1993). An improved strategy for deter￾mining resonance assignments for isotopically enriched 
+proteins and its application to an engineered domain of 
+staphylococcal protein A. Biochemistry. 32, 7839-7845. 
+LofAs, S. and Johnsson, 6. (1990). A novel hydrogel matrix on 
+gold surfaces in surface plasmon resonance sensors for fast 
+and efficient covalent immobilisation of ligands. J. Chem. 
+SOC. Chem. Commun. 21, 1526-1528. 
+Malmquist, M. (1994). Kinetic analysis of engineered antibody￾antigen interactions. J. Mol. Rec. 7, 1-7. 
+Moks, T., Abrahmsen, L., Nilsson, B., Hellman, U., Sjoquist, J. 
+and Uhlen, M. (1986). Staphylococcal protein A consists of 
+five IgG-binding domains. Eur. J. Biochem. 14, 7487-7500. 
+Nilsson, 6. and Abrahmsen, L. (1990). Fusions to staphylococcal 
+Protein A. Methods Enzymol. 185, 144-161. 
+Nilsson, 6.. Moks, T., Jansson, B., Abrahmsen, L., Elmblad, A,, 
+Holmgren, E., Henrichson, C., Jones, T. A. and Uhlen, M. 
+Cryst. 24, 946-950. 
+A23, 21 35-21 36. 
+(1987). A synthetic IgG binding domain based on staphylo￾coccal protein A. Prot. Eng. 1, 107-113. 
+Samuelsson, E., Moks, T., Nilsson, 6. and Uhlen, M. (1994). 
+Enhanced in vitro refolding of insulin-like growth factor I 
+using a solubilizing fusion partner. Biochemistry. 33, 4207- 
+4211. 
+Schuster, S. C., Swanson, R. V., Alex, L. A., Bourret, R. B. and 
+Simon, M. I. (1993). Assembly and function of a quaternary 
+signal transduction complex monitored by surface plasmon 
+resonance. Nature. 365,343-347. 
+Torigoe, H., Shimada, I., Saito, A., Sato, M. and Arata, Y. (1990a). 
+Sequential ‘H NMR assignments and secondary structure of 
+the B domain of staphylococcal protein A: structural 
+changes between the free B domain in solution and the 
+Fc-bound B domain in crystal. Biochemistry. 29,8787-8793. 
+Torigoe, H., Shimada, I., Waelchli, M., Saito, A,, Sato, M. and 
+Arata, Y. (1990b). 15N nuclear magnetic resonance studies of 
+the B domain of staphylococcal protein A: sequence specific 
+assignments of the hide 15N resonance of the proline 
+residues and the interaction with human immunoglobin G. 
+FEBS Lett 269, 174-176. 
+Traunecker, A., Schneider, J., Kiefer, H. and Karjalainen, K. 
+(1989). Highly efficient neutralization of HIV with recombi￾nant CD4-immunoglobulin molecules. Nature. 339, 68-70. 
+Uhlen, M., Guss, B., Nilsson, B., Gatenbeck, S., Philipson, L. and 
+Lindberg, M. (1984). Complete sequence of the staphylococ￾cal gene encoding protein A. J. Biol. Chem. 259, 1695-1702. 
+von Hippel, P. H. and Berg, 0. G. (1989). Facilitated target 
+location in biological systems. J. Biol. Chem. 264, 675-678. 

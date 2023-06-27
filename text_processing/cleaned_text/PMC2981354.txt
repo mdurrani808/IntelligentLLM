@@ -1,0 +1,208 @@
+Structural Basis for Broad and Potent Neutralization of HIV-1 by Antibody VRC01 During natural infection by HIV-1, antibodies are generated against the region of the viral gp120 envelope glycoprotein that binds CD4, the primary receptor for HIV-1.
+Among these antibodies, VRC01 achieves extensive neutralization of diverse viral strains.
+To understand the structural basis for its neutralization breadth and potency, we determined the crystal structure of VRC01 in complex with an HIV-1 gp120 core.
+The heavy chain of VRC01 interacts with gp120 in a manner similar to CD4.
+A 43 rotation coupled with a 6- shift from the CD4-defined orientation focuses VRC01 onto the conformationally invariant site of initial CD4 attachment, allowing it to overcome the masking that diminishes the neutralization potency of most CD4-binding-site antibodies.
+To achieve this mode of recognition, VRC01 contacts gp120 mainly through V-gene-derived regions substantially altered from their genomic precursors.
+Partial receptor mimicry and extensive affinity maturation thus facilitate effective neutralization of HIV-1 by natural human antibodies.
+ Successful vaccine development often utilizes clues from humoral responses elicited by natural infection.
+For HIV-1, neutralizing antibody responses elicited within the first year or two of infection are generally strain-specific, and emulation of these responses in uninfected individuals is unlikely to prevent infection by diverse viral strains [reviewed in ]. Because a select few monoclonal antibodies from HIV-1 infected individuals can effectively neutralize many HIV-1 strains, an effort has been made to facilitate vaccine design by defining the structures of broadly neutralizing antibodies.
+Atomic-level characterization of their recognized epitopes enables the creation of immunogens that resemble highly conserved viral structures and that elicit immune responses similar to the original antibody.
+ The well-studied broadly neutralizing anti-HIV-1 antibodies, 2G12, 2F5, 4E10, and b12, contain unusual characteristics that have posed barriers to eliciting similar antibodies in humans.
+Thus, in addition to having broad capacity for neutralization, an appropriate antibody should be present in high titers in humans as this provides evidence that such antibodies can be elicited in useful concentrations.
+To identify such antibodies, we and others have screened cohorts of sera from infected individuals not only to find broadly neutralizing responses but also to characterize those detectable in a substantial percentage of subjects.
+One antibody response that satisfies these criteria is directed towards the site of CD4 attachment on the HIV-1 gp120 envelope (Env) glycoprotein.
+ While potentially accessible, the CD4-binding site is protected from humoral recognition by glycan and conformational masking.
+To identify monoclonal antibodies against this site, in a companion manuscript, we created resurfaced, conformationally stabilized probes, with antigenic specificity for the initial site of CD4 attachment on gp120, and we used these probes to identify antibodies that neutralize most viruses.
+Here, we analyze the crystal structure for one of these antibodies, VRC01, in complex with an HIV-1 gp120 core from a clade A/E recombinant strain.
+We decipher the basis of VRC01 neutralization, identify mechanisms of natural resistance, show how VRC01 minimizes such resistance, and define the role of affinity maturation in gp120 recognition.
+These molecular details should facilitate efforts to guide the maturation of VRC01-like antibodies from genomic rearrangement through affinity maturation to effective neutralization of HIV-1.
+ Similarities of Env recognition by CD4 and VRC01 antibody To gain a structural understanding of VRC01 neutralization, we crystallized the antigen-binding fragment (Fab) of VRC01 in complex with an HIV-1 gp120 from the clade A/E recombinant 93TH057.
+The crystallized gp120 consisted of its inner domain-outer domain core, with truncations in the variable loops V1/V2 and V3 as well as the N- and C-termini, regions which we had previously found to extend away from the main body of the gp120 envelope glycoprotein.
+Diffraction to 2.9  resolution was obtained from orthorhombic crystals, which contained four copies of the VRC01-gp120 complex per asymmetric unit, and the structure was solved by molecular replacement and refined to an R-value of 24.4% (Rfree of 25.9%) (Fig. 1 and Table S1).
+ The interactive surface between VRC01 and gp120 encompasses almost 2500 2, 1244 2 contributed by VRC01 and 1249 2 by gp120.
+On VRC01, both heavy chain (894 2) and light chain (351 2) contribute to the contact surface (Table S2), with the central focus of binding on the heavy chain second complementarity-determining region (CDR H2).
+Over half of the interactive surface of VRC01 (644 2) involves CDR H2, a mode of binding reminiscent of the interaction between gp120 and the CD4 receptor; CD4 is a member of the V-domain class of the immunoglobulin superfamily, and the CDR2-like region of CD4 is a central focus of gp120 binding (Figs. 2A and Table S3).
+For CD4, the CDR2-like region forms antiparallel, intermolecular hydrogen-bonds with residues 365-368gp120 of the CD4-binding loop of gp120 (Fig. 2B); with VRC01, one hydrogen-bond is observed between the carbonyl of Gly54VRC01 and the backbone nitrogen of Asp368gp120.
+This hydrogen-bond occurs at the loop tip, an extra residue relative to CD4 is inserted in the strand, and the rest of the potential hydrogen bonds are of poor geometry or distance (Fig. 2C and Table S4).
+Other similarities and differences with CD4 are found: of the two dominant CD4 residues (Phe43CD4 and Arg59CD4) involved in interaction with gp120, VRC01 mimics the arginine interaction, but not the phenylalanine one (Fig. 2B, C).
+Finally, significant correlation is observed between gp120 residues involved in binding VRC01 and CD4 (Fig. S1).
+ Superposition of the gp120 core in its VRC01-bound form with gp120s in other crystalline lattices and bound by other ligands indicates a CD4-bound structure (PDB ID 3JWD) to be most closely related in structure, with a C-root-mean-square deviation of 1.03  (Table S5).
+Such superposition of gp120s from CD4-bound and VRC01-bound conformations brings the N-terminal domain of CD4 and the heavy chain variable domain of VRC01 into close alignment (Fig. 2), with 73% of the CD4 N-terminal domain volume overlapping with VRC01.
+This domain overlap is much higher than observed with the heavy chains of other CD4-binding site antibodies, such as b12, b13 or F105 (Table S6).
+However, when the VRC01 heavy chain is superimposed - based on conserved framework and cysteine residues - on CD4 in the CD4-gp120 complex, clashes are found between gp120 and the entire top third of the VRC01 variable light chain (Fig. 2D).
+In its complex with gp120, VRC01 rotates 43 relative to the CD4-defined orientation, and translates 6- away from the bridging sheet, to a clash-free orientation that mimics many of the interactions of CD4 with gp120, though with considerable variation.
+Analysis of electrostatics shows that the interactive surfaces of VRC01 and CD4 are both quite basic, though the residues types of contacting amino acids are distinct (Fig. S2).
+Thus, while VRC01 mimics CD4 binding to some extent, considerable differences are observed.
+ Structural basis of VRC01 breadth and potency When CD4 is placed into an immunoglobulin context by fusing its two N-terminal domains to the dimeric immunoglobulin constant region, it achieves reasonable neutralization.
+VRC01, however, neutralizes better (Fig. 3A).
+To understand the structural basis for the exceptional breadth and potency of VRC01, we analyzed its interactive surface with gp120.
+VRC01 focuses its binding onto the conformationally invariant outer domain, which accounts for 87% of the contact-surface area of VRC01 (Fig. 3B, Table S7).
+The 13% of the contacts made with flexible inner domain and bridging sheet are non-contiguous and are not critical for binding.
+In contrast, CD4 makes 33% of its contacts with the bridging sheet, and many of these interactions are essential.
+The reduction in inner domain and bridging sheet interactions by VRC01 is accomplished primarily by a 6- translation relative to CD4 away from these regions; critical contacts such as made by Phe43CD4 to the nexus of the bridging sheet-outer domain are not found in VRC01, while those to the outer domain (e.g. Arg59CD4) are mimicked by VRC01.
+ To determine the affinity of VRC01 for gp120 in CD4-bound and non-CD4-bound conformations, we used surface-plasmon resonance spectroscopy to measure the affinity of VRC01 and other gp120-reactive antibodies and ligands to two gp120s: a 4-deletion developed by Harrison and colleagues that is restrained from assuming the CD4-bound conformation or a disulfide-stabilized gp120 core, largely fixed in the CD4-bound conformation in the absence of CD4 itself (Fig. 3D) (Fig. S3).
+VRC01 showed high affinity to both CD4-bound and non-CD4-bound conformations, a property shared by the broadly neutralizing b12 antibody.
+By contrast, antibodies F105 and 17b as well as soluble CD4 showed strong preference for only one, but not both, of the conformations.
+Thus, VRC01 interacts with the conformationally invariant outer domain in a manner that enables recognition of both CD4-bound and non-CD4-bound conformations of gp120.
+ To assess the binding of VRC01 in the context of the functional viral spike, we examined its ability to neutralize variants of HIV-1 with gp120 changes that affect the CD4-bound state.
+Two of these mutations, His66Ala gp120 and Trp69Leugp120, reduce the ability of virus to sample the CD4-bound state and are less sensitive to neutralization by CD4.
+One of the mutations, Ser375Trp gp120, increases formation of the CD4-bound state and is more sensitive to neutralization by CD4.
+VRC01 neutralized all three of these variant HIV-1 viruses with similar potency (Fig. 3C), suggesting that VRC01 recognizes both CD4-bound and non-CD4-bound conformations of the viral spike.
+This recognition diversity allows VRC01 to avoid the conformational masking that hinders most CD4-binding-site ligands and to neutralize HIV-1 potently.
+ Precise targeting by VRC01 Prior analysis of effective and ineffective CD4-binding-site antibodies suggested that precise targeting to the initial site of CD4 attachment is required to block viral entry.
+The initial site of CD4 attachment is a subset of the CD4-binding site that involves the conformationally invariant outer domain.
+Analysis of the VRC01 interaction with gp120 shows that it covers 98% of the target site (Figs. 4A and S4), comprising 1089 2 on the gp120 outer domain, about 50% larger than the 730 2 surface utilized by CD4.
+The VRC01 contact surface outside the target site is largely limited to the conformationally invariant outer domain and avoids regions of conformational flexibility.
+This concordance of binding is much greater than for ineffective CD4-binding-site antibodies, as well as for those that are partially effective, such as antibody b12 (Fig. S4).
+ Contacts by the VRC01 light chain (Tyr28VRC01 and Ser30VRC01) are made with the protein-proximal N-acetyl-glucosamine from the N-linked glycan at residue 276gp120.
+Thus, instead of being occluded by glycan shielding, VRC01 makes use of a glycan for binding.
+Other potential glycan interactions may occur with different strains of HIV-1 gp120, as the VRC01 recognition surface on the gp120-outer domain extends further than that of the functionally constrained CD4-interactive surface, especially into the loop D and the often-glycosylated V5 region (Fig 4D).
+ Natural resistance to antibody VRC01 In addition to conformational masking and glycan shielding, HIV-1 resists neutralization by antigenic variation.
+In a companion manuscript, we show that of the 190 circulating HIV-1 isolates tested for sensitivity to VRC01, 173 were neutralized and 17 were resistant.
+To understand the basis of this natural resistance to VRC01, we analyzed all 17 resistant isolates by threading their sequences onto the gp120 structure (Fig. 4C).
+Variation was observed in the V5 region in resistant isolates, and this variation  along with alterations in gp120 loop D - appeared to be the source of most natural resistance to VRC01 (Figs. 4D, 4E, S5).
+ Because substantial variation exists in V5, structural differences in this region might be expected to result in greater than 10% resistance.
+The lower observed frequency of resistance suggests that VRC01 employs a recognition mechanism that allows for binding despite V5 variation.
+Examination of VRC01 interaction with V5 shows that VRC01 recognition of V5 is considerably different from that of CD4 (Fig. S6), with Arg61VRC01 in the CDR H2 penetrating into the cavity formed by the V5 and 24-strands of gp120 (Fig. S7).
+Most importantly, the V5 loop fits into the gap between heavy and light chains; thus by contacting only the more conserved residues at the loop base, VRC01 can tolerate variation in the tip of the V5 loop (Fig. 4F).
+ Unusual VRC01 features and contribution to recognition We examined the structure of VRC01 for special features that might be required for its efficacy.
+A number of unusual features were apparent, including a high degree of affinity maturation, an extra disulfide bond, a site for N-linked glycosylation, a 2-amino acid deletion in the light chain, and a significantly matured binding interface between VRC01 and gp120 (Fig. 5).
+We assessed the frequency with which these features were found in HIV-1 Env-reactive antibodies (SOM Appendix) or in human antibody-antigen complexes (Fig. S9), and measured the effect of genomic reversion on affinity for gp120 (Fig. 5B-E).
+ Higher levels of affinity maturation have been reported for HIV-1 reactive antibodies in general, and markedly higher levels for broadly neutralizing ones.
+But these levels could be the result of the persistent nature of HIV-1 infection, and not an intrinsic limitation on the elicitation.
+Each of the other special features was observed in less than 5% of HIV-1 Env-reactive antibodies or was more than 4-standard deviations away from average (Fig. S9 and Tables S10, S11).
+Removal of the N-linked glycosylation or the extra disulfide bond, which connects CDR H1 and H3 regions of the heavy chain, had little effect on binding (Figs. 5B, 5C and Table S12).
+Insertion of 2-amino acids to revert the light chain deletion had a moderate effect, which was larger for an Ala-Ala insertion (50-fold decrease in KD) versus a Ser-Tyr insertion (5-fold decrease in KD), which mimics the genomic sequence (Fig. 5D).
+Finally reversion of the interface was examined with either single-, 4-, 7- or 12-mutant reversions.
+For the single-mutant reversions of the interface, all 12 mutations had minor effects (most with less than 2-fold effect on KD, with the largest effect for a Gly54Ser change with a KD of 20.2 nM) (Table S12).
+Larger effects were observed with multiple (4, 7 or 12) changes, and these reduced the measured KD by 5-30-fold and EC50s by 10-100-fold, depending on the amino-acid changes and the gp120 to which binding was tested (Fig. 5E and Table S12).
+Thus, while VRC01 had a number of unusual features, no single alteration to genomic sequence reduced affinity by more than 10-fold.
+The largest effect involved a light chain deletion.
+This same deletion is seen in antibody VRC03, a variant of VRC01, which we isolated from the same patient and has the same heavy chain, but different light chain, a product of receptor editing.
+The presence of this deletion in the light chains of both VRC01 and VRC03 illustrates its importance to the VRC01-mode of HIV-1 recognition, and also demonstrates that acquiring this feature is not unique to VRC01.
+ Elicitation of VRC01-like antibodies The probability of elicitation for a particular antibody is a function of each of the three major steps in B cell maturation: 1.
+Recombination to produce nascent antibody heavy and light chains from genomic VH-D-J and V/-J precursors; 2.
+Deletion of auto-reactive antibodies; and 3.
+Maturation through hypermutation of the variable domains to enhance antigen affinity.
+In terms of the first step, recombination, it is possible to infer from the VRC01-gp120 structure what portions of the antibody precursor genes are critical for Env recognition and what recombination events are essential, thereby providing insight into the frequency of genomic rearrangements appropriate for generating VRC01-like antibodies.
+In the VRC01-gp120 structure, a lack of substantial CDR L3 and H3 contribution indicates that specific V/ -J or VH(D)J- recombination is not required.
+The majority of recognition occurs with elements encoded in single genomic elements or cassettes, suggesting that specific joints between defined cassettes are not required.
+Within the VH cassette, a number of residues associated with the IGHV1-02*02 precursor of VRC01 interact with gp120; many of these are conserved in related genomic VHs, some of which are of similar genetic distance from VRC01 (Fig. S8).
+Together, these results suggest only modest constraints on recombination to produce VRC01-like antibodies, and that appropriate genomic precursors are likely to occur at reasonable frequency in the human antibody repertoire.
+ Recombination produces nascent B cell-presented antibodies that have reactivities against both self and nonself antigens.
+Those with auto-reactivity are removed through clonal deletion.
+With many of the broadly neutralizing anti-HIV-1 antibodies, such as 2G12 (glycan reactive), 2F5 and 4E10 (membrane reactive), this appears to be a major barrier to elicitation. While this remains to be characterized for genomic revertants and intermediates, no auto-reactivity has so far been observed with VRC01, suggesting that this step does not provide a limitation on elicitation of VRC01-like antibodies.
+ Affinity maturation and VRC01-like antibodies The third step influencing the elicitation of VRC01-like antibodies is affinity maturation, the process by which hypermutation of variable domains combined with affinity-based selection occurs during B cell maturation in germinal centers.
+This process allows for the rapid evolution of antibodies from low (uM) to moderate affinity for antigen in the initial rearrangement to tight (nM) affinity for a fully matured antibody.
+Some variable domain alterations are difficult to detect, as recombination produces unpredictable amino acids at the junctions between V, D and J segments.
+Changes from the precursor within the V- and J-genes, however, can be known with greater certainty.
+In the case of VRC01, 41 residue alterations were observed from the genomic VH-gene and 25 alterations from the V-gene (including a deletion of two residues) (Fig. 5A).
+As noted previously, these levels of affinity maturation changes are unusual, even for HIV-1 Env-reactive antibodies.
+ To investigate the effect of affinity maturation on HIV-1 gp120 recognition, we reverted the VH- and V-regions of VRC01, either individually or together, to the sequences of their genomic precursors and tested the affinity of the reverted antibodies for gp120.
+With 93TH057 gp120, reversion to germline-VH reduced the EC50 ~1000-fold, and no binding was observed with V revertants.
+With the HXBc2 core gp120 disulfide-stabilized in the CD4-bound state, less dramatic reductions in binding were observed, with V reversion reducing binding 10-fold, VH reversion reducing binding 100-fold, and VH-, V-simultaneous reversions eliminating detectable binding (Fig. 6A).
+ In addition to the whole-scale heavy and light chain revertants, a number of other revertants were produced while analyzing unusual VRC01 characteristics (Table S12).
+These revertants provide a basis for an analysis of the overall effect of affinity maturation.
+We correlated the measured EC50s with the number of affinity-matured residues in VH and V regions (Fig. 6B).
+Binding affinities of revertants for both crystallized gp120 and to an HXBc2 gp120 core stabilized in the CD4-bound conformation showed significant correlations with the number of affinity-matured residues (p<0.0001).
+Changes were roughly 4-fold greater with the crystallized gp120 than with the stabilized gp120.
+In both cases, extrapolation of the correlation to the putative genomic V-gene sequences reduced binding to 0.6-4.9 10-6 M KD (Figs. 6B and S12), which is beyond the range of detection of the ELISA, a result confirmed experimentally (Fig. 6A).
+ Similar significant reductions in affinity have been observed with reversion of other broadly neutralizing, anti-HIV-1 antibodies to presumed genomic sequences; these observations have led to the suggestion that the dramatically reduced germline affinity for gp120 might hinder the initiation of affinity maturation of these antibodies.
+That is, if the affinity for gp120 of the genomic precursor of a broadly neutralizing antibody were below the threshold required for the nascent B cell to mature, then maturation would either not occur or would need to occur in response to a different immunogen.
+This lack of guided initiation of the maturation process may provide an explanation for the absence of such broadly neutralizing antibodies in the first few years of infection.
+Conversely, the introduction of modified gp120s with affinity to genomic precursors and affinity maturation intermediates could provide a mechanism by which to elicit antibodies like VRC01.
+ Notably, no single affinity maturation alteration appeared to affect affinity by more than 10-fold, suggesting that affinity maturation occurs in multiple small steps, which collectively enable tight binding to HIV-1 gp120.
+When the effects on viral neutralization of VRC01 affinity maturation reversions are mapped to the structure of the VRC01-gp120 complex (Fig. 6C), these effects are broadly distributed throughout the VRC01 variable domains, not focused on the VRC01-gp120 interface; non-contact residues apparently influence the interface with gp120 through indirect protein-folding effects (Fig. 6C).
+Thus, for VRC01, the process of affinity maturation entails incremental changes of the nascent genomic precursors to obtain high affinity interaction with HIV-1 Env surface.
+ Receptor mimicry and affinity maturation The possibility of antibodies using conserved sites of receptor recognition to neutralize viruses effectively has been pursued for several decades.
+The recessed canyon on rhinovirus that recognizes the unpaired terminal immunoglobulin domains of ICAM-1 highlights the steric role that a narrow canyon entrance may play in occluding bivalent antibody-combining regions, although framework recognition can in some instances permit entry.
+Antigenic variation may still allow for viral escape even with less recessed binding sites, such as observed with the sialic acid-receptor binding site on the hemagglutinin of influenza virus, and with HIV-1, glycan and conformational masking play dominant roles.
+Partial solutions such as those presented by antibody b12 (neutralization of 40% of circulating isolates) or by antibody HJ16 (neutralization of 30% of circulating isolates), a recently identified CD4-binding-site antibody, may allow recognition of some HIV-1 isolates.
+ With VRC01, the breadth and potency of neutralization (over 90%) suggests a more general solution.
+Here we see that this solution involves two features: partial receptor mimicry and extensive affinity maturation.
+It remains to be seen how difficult it will be to guide the elicitation of VRC01-like antibodies from genomic rearrangement, through affinity maturation, to broad and potent neutralization of HIV-1.
+Accumulating evidence suggests that the VRC01-defined mode of recognition is used by other antibodies, from the same individual (VRC02 and VRC03) as well as from other individuals (Wu and Mascola, personal communication).
+These findings suggest that VRC01 is not an isolated example, and likely provides a template for a general mode of recognition.
+The structure-function insights of VRC01 described here thus provide a foundation for rational vaccine design based not only on the particular mode of antibody-antigen interaction, but also on defined relationships between genomic antibody precursors, somatic hypermutation, and required interface elements.
+ Supplementary Material References and Notes                                                     Structure of antibody VRC01 in complex with HIV-1 gp120 Atomic-level details for effective recognition of HIV-1 by a natural human antibody are depicted with polypeptide chains in ribbon representations.
+The gp120 inner domain is shown in gray, the bridging sheet in blue, and the outer domain in red, except for the CD4-binding loop (purple), the D loop (brown), and the V5 loop (orange).
+The light chain of the antigen-binding fragment (Fab) of VRC01 is shown in light blue with complementarity-determining regions (CDRs) highlighted in dark blue (CDR L1) and marine blue (CDR L3).
+The heavy chain of Fab VRC01 is shown in light green with CDRs highlighted in cyan (CDR H1), green (CDR H2), and pale yellow (CDR H3).
+Both light and heavy chains of VRC01 interact with gp120: the primary interactive surface is provided by the CDR H2, with the CDR L1 and L3 and the CDR H1 and H3 providing additional contacts.
+ Structural mimicry of CD4 interaction by antibody VRC01 VRC01 shows how a double-headed antibody can mimic the interactions with HIV-1 gp120 of a single-headed member of the immunoglobulin superfamily such as CD4.
+(A) Comparison of HIV-1 gp120 binding to CD4 (N-terminal domain) and VRC01 (heavy chain-variable domain).
+Polypeptide chains are depicted in ribbon representation for the VRC01 complex (right) and the CD4 complex with the lowest gp120 RMSD (left) (Table S3).
+The CD4 complex (3JWD) is colored yellow for CD4 and red for gp120, except for the CDR-binding loop (purple).
+The VRC01 complex is colored as in Fig. 1.
+Immunoglobulin domains are composed of two -sheets, and the top sheet of both ligands is labeled with the standard immunoglobulin-strand topology (strands G, F, C, C, C).
+(B,C) Interface details for CD4 (B) and VRC01 (C).
+Close-ups are shown of critical interactions between the CD4-binding loop (purple) and the C strand as well as between Asp368gp120 and either Arg59CD4 or Arg71VRC01.
+Hydrogen bonds with good geometry are depicted by blue dotted lines, and those with poor geometry in gray.
+Atoms from which hydrogen bonds extend are depicted in stick representation and colored blue for nitrogen and red for oxygen.
+In the left panel of C, the 15-strand of gp120 is depicted to aid comparison with B, though because of the poor hydrogen-bond geometry, it is only a loop.
+(D) Comparison of VRC01- and CD4-binding orientations.
+Polypeptides are shown in ribbon representation, with gp120 colored the same as in (A) and VRC01 depicted with heavy chain in dark yellow and light chain in dark gray.
+When the heavy chain of VRC01 is superimposed onto CD4 in the CD4-gp120 complex, the position assumed by the light chain evinces numerous clashes with gp120 (left).
+The VRC01-binding orientation (right) avoids clashes by adopting an orientation rotated by 43 and translated by 6-. Structural basis of antibody VRC01 neutralization breadth and potency VRC01 displays remarkable neutralization breadth and potency, a consequence in part of its ability to bind well to different conformations of HIV-1 gp120.
+(A) Neutralization dendrograms.
+The genetic diversity of current circulating HIV-1 strains is displayed as a dendrogram, with locations of prominent clades (e.g. A, B and C) and recombinants (e.g. CDR02_AG) labeled.
+The strains are colored by their neutralization sensitivity to VRC01 (left) or CD4 (right).
+VRC01 neutralizes 72% of the tested HIV-1 isolates with an IC80 of less than 1 ug/ml; by contrast, CD4 neutralizes 30% of the tested HIV-1 isolates with an IC80 of less than 1 ug/ml (Table S13).
+(B) Molecular footprints of VRC01 and CD4 on gp120.
+The molecular surface of HIV-1 gp120 has been colored according to its underlying domain substructure: red for the conformationally invariant outer domain, grey for the inner domain and blue for the highly mobile bridging sheet.
+Regions of the gp120 surface that interact with VRC01 or CD4 have been colored in green and yellow respectively. (C) Neutralization of viruses with altered sampling of the CD4-bound state.
+Mutant S375Wgp120 favors the CD4-bound state, whereas mutants H66Agp120 and W69Lgp120 disfavor this state.
+Neutralization by VRC01 (left) is similar for wild-type (WT) and all three mutant viruses, whereas neutralization by CD4 (right) correlates with the degree to which gp120 in the mutant viruses favors the CD4-bound state.
+(D) Comparison of binding affinities.
+Binding affinities (KDs) for VRC01 and various other gp120-reactive ligands as determined by surface-plasmon resonance are shown on a bar graph.
+White bars represent affinities for gp120 restrained from assuming the CD4-bound state and black bars represent affinities for gp120 fixed in the CD4-bound state.
+Binding too weak to be measured accurately is shown as with an asterisk and bar at 10-5 M KD.
+ Natural resistance to antibody VRC01 VRC01 precisely targets the CD4-defined site of vulnerability on HIV-1 gp120.
+Its binding surface, however, extends outside of the target site, and this allows for natural resistance to VRC01 neutralization.
+(A) VRC01 recognition and target site of vulnerability.
+The CD4-define site of vulnerability is the initial contact surface of the outer domain of gp120 for CD4 and comprises only 2/3 of the contact surface of gp120 for CD4.
+The molecular surface of gp120 in the VRC01 bound conformation is colored according to its domain substructure as in Fig. 3B, with the interactive footprint of VRC01 shown in green and the CD4-defined site of vulnerability outlined in yellow.
+(B) Antigenic variation.
+The polypeptide backbone of gp120 is colored according to sequence conservation, blue if conservation is high and red if conservation is low.
+(C) VRC01-resistant HIV-1 isolates.
+The 17 isolates of HIV-1 that resist VRC01 neutralization are displayed in ribbon and stick representation after threading onto the structure of gp120 in the VRC01-bound conformation.
+Side chains that clashed with VRC01 are highlighted in red.
+(D) Sequence in V5 region for 17 HIV-1 isolates that resist neutralization by VRC01.
+(E) HIV-1 clashes with VRC01.
+A close-up of threaded, resistant isolates is shown along with the molecular surface of VRC01, colored light blue for the light chain and green for the heavy chain.
+Clashes predicted to interfere with VRC01-gp120 interactions are highlighted in red.
+(F) Molecular surface of VRC01 and select interactive loops of gp120.
+Variation at the tip of the V5 loop is accommodated by a gap between heavy and light chains of VRC01.
+ Unusual VRC01 features The structure of VRC01 displays a number of unusual features, which if essential for recognition and difficult to elicit, might inhibit the elicitation of VRC01-like antibodies.
+(A) VRC01 sequence and extent of affinity maturation.
+The sequence of VRC01 is shown along with nearest VH- and V/-genomic precursors for heavy and light chain, respectively.
+Affinity maturation changes are indicated in green, with residues involved in interaction with HIV-1 gp120 highlighted by , if involved in both main- and side-chain interactions, by  if main chain-only, and by  if side chain-only.
+ marks a site of N-linked glycosylation,  for cysteine residues involved in a non-canonical disulfide, and  if the residue has been deleted during affinity maturation.
+In B-E, unusual features of VRC01 are shown structurally (far left panel), in terms of frequency as a histogram with other antibodies (second panel from left), and in the context of affinity meaurements after mutational alteration (right two panels).
+Affinity measurements were made by ELISA to the gp120 construct used in crystallization (93TH057) and to a disulfide stabilized HXBc2 core.
+(B) N-linked glycosylation.
+The conserved tri-mannose core is shown with observed electron density, along with frequency and effect of removal on affinity.
+(C) Extra disulfide.
+Variable heavy domains naturally have two Cys, linked by a disulfide; VRC01 has an extra disulfide linking CDR H1 and H3 regions.
+This occurs rarely in antibodies, but its removal by mutation to Ser/Ala has little effect on affinity.
+(D) CDR L1 deletion.
+A two amino acid deletion in the CDR L1, prevents potential clashes with loop D of gp120.
+Such deletions are rarely observed; reversion to the longer loop may have a 10-100-fold effect on gp120 affinity.
+(E) Somatically altered contact surface.
+The far left panel shows the VRC01 light chain in violet and heavy chain in green.
+Residues altered by affinity maturation are depicted with balls and contacts with HIV-1 gp120 are colored red.
+About half the contacts are altered during the maturation process.
+Analysis of human antibody-protein complexes in the protein-data bank shows this degree of contact surface alteration is rare; reversion of each of the contact site to genome has little effect (Table S12), though in aggregate the effect on affinity is larger.
+ Somatic maturation and VRC01 affinity Hypermutation of the variable domain during B cell maturation allows for the evolution of high affinity antibodies.
+Interestingly, this enhancement to affinity occurs principally through the alteration of non-contact residues, which appear to reform the genomic contact surface from affinity too low to measure to a tight (nM) interaction.
+(A) Effect of genomic reversions.
+The VH- and V-derived regions of VRC01 were reverted to the sequences of their closest genomic precursors, expressed as immunoglobulins and tested for binding as VH- and V-revertants (gHgL), as a VH-only revertant (gH), or as a V-only revertant (gL) to either the gp120 construct used in crystallization (93TH057) or to a stabilized HXBc2 core.
+(B) Maturation of VRC01 and correlation with binding.
+Affinity measurements for the 19 VRC01 mutants created during the structure-function analysis of VRC were analyzed in the context of their degree of affinity maturation.
+Significant correlations were observed, with extrapolation to VH- and V-revertants suggesting greatly reduced affinity for gp120.
+(C) Maturation of VRC01 and effect on HIV-1 gp120 affinity.
+Cryo-electron microscopy density (pink) corresponding to the unliganded state of the trimeric HIV-1 viral spike is shown in complex with the antigen-binding fragment of VRC01.
+The C-backbone ribbon is displayed for gp120s (red) and VRC01 grey.
+With VRC01, the molecular surface is shown for residues altered from the closest VH- and V-genomic precursor sequences and colored gray to green depending on the effect of the reversion on gp120 affinity, with gray indicating small effects and green larger ones.
+ 

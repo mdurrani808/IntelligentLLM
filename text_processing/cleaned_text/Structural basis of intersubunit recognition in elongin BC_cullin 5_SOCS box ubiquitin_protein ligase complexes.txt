@@ -1,0 +1,279 @@
+research papers  Acta Cryst. (2013).
+D69, 15871597 doi:10.1107/S0907444913011220 1587  Acta Crystallographica Section D  Biological  Crystallography  ISSN 0907-4449  Structural basis of intersubunit recognition in  elongin BCcullin 5SOCS box ubiquitinprotein  ligase complexes  Young Kwan Kim,a Mi-Jeong  Kwak,a Bonsu Ku,b Hye-Young  Suh,a   Keehyoung Joo,c  Jooyoung Lee,c Jae U. Jungd and  Byung-Ha Oha  *  a  Department of Biological Sciences, KAIST  Institute for the Biocentury, Korea Advanced  Institute of Science and Technology,  Daejeon 305-701, Republic of Korea, b  Medical  Proteomics Research Center, Korea Research  Institute of Bioscience and Biotechnology,  Daejeon 305-806, Republic of Korea, c  School of  Computational Sciences and Center for In Silico  Protein Science, Korea Institute for Advanced  Study, Seoul 130-722, Republic of Korea, and  d  Department of Molecular Microbiology and  Immunology, Keck School of Medicine,  University of Southern California, Los Angeles,  CA 90089, USA   Current address: Samsung Advanced Institute  of Technology, Yongin, Gyeonggi 446-712,  Republic of Korea.  Correspondence e-mail: bhoh@kaist.ac.kr  # 2013 International Union of Crystallography  Printed in Singapore  all rights reserved  The cullinRING ubiquitin ligases are multisubunit complexes  that ubiquitinate various proteins. Six different cullins  encoded by the human genome selectively pair with different  adaptors and substrate receptors.
+It is presently poorly  understood how cullin-2 (Cul2) and cullin-5 (Cul5) associate  specifically with their adaptor elongin BC and a SOCS-boxcontaining substrate receptor.
+Here, crystallographic and  mutational analyses of a quaternary complex between the  N-terminal half of Cul5, elongin BC and SOCS2 are reported.
+  Cul5 interacts extensively with elongin BC via residues that  are highly conserved in Cul2 but not in other cullins.
+Cul5 also  interacts with SOCS2, but via only two residues, Pro184 and  Arg186, which are located in the C-terminal part of the SOCS  box called the Cul5 box.
+Pro184 makes a ring-to-ring  interaction with Trp53 of Cul5, which is substituted by alanine  in Cul2.
+This interaction is shown to contribute significantly to  the overall binding affinity between Cul5 and SOCS2elongin  BC.
+This study provides structural bases underlying the  specificity of Cul5 and Cul2 for elongin BC and their  preferential association with Cul5 or Cul2 box-containing  substrate receptors.
+  Received 12 March 2013  Accepted 24 April 2013  PDB Reference: SOCS2  elongin BCCul5N(RD), 4jgh  1.
+Introduction  A wide variety of eukaryotic proteins are post-translationally  modified by conjugation of a single or multiple molecule(s) of  ubiquitin, a small protein composed of about 76 amino acids.
+  The consequences of ubiquitination vary widely and include  degradation, change in activity and change in cellular location  of the modified proteins (Hershko & Ciechanover, 1992).
+The  three enzymes E1, E2 and E3 catalyze cascade-like transfers  of ubiquitin to a substrate protein.
+E3 is the ubiquitin ligase,  which catalyzes the formation of an isopeptide bond between  the C-terminal carboxylate of ubiquitin and a lysine residue of  a protein (Pickart, 2001).
+The cullinRING ubiquitin ligases  comprise a superfamily of multi-subunit RING-class E3  enzymes that commonly contain an elongated arch-shaped  cullin scaffold and a RING-domain subunit, Rbx1 or Rbx2  (Kamura et al., 1999; Ohta et al., 1999; Tan et al., 1999).
+Six  different human cullins have been identified: cullin-1 (Cul1),  Cul2, Cul3, Cul4A, Cul4B and Cul5 (Bosu & Kipreos, 2008;  Villeneuve et al., 2010).
+In addition, an atypical cullin protein  Cul7 has been identified which binds to the F-box-containing  protein Fbxw8 (Dias et al., 2002; Ponyeam & Hagen, 2012).
+  They are sequentially folded to form an elongated scaffold  with two ends that are separated from each other by about  100 A .
+The C-terminal end of the scaffold is the site forbinding Rbx1 or Rbx2, which interacts with the E2 enzyme  (Zheng et al., 2002).
+The other end of the scaffold consists of  the N-terminal residues and is the site for binding the adaptor  subunit.
+The adaptor interacts with the substrate receptor that  recognizes and binds to a substrate protein.
+Through these  interactions, a substrate protein is brought to a cullin scaffold,  on which the transfer of ubiquitin from E2 to the substrate is  catalyzed.
+Cul3 is exceptional in that it binds to the substrate  receptor directly (Zimmerman et al., 2010).
+Recently, using  molecular-dynamics simulations, it has been suggested that the  cullin scaffolds are flexible and that this flexibility is likely to  provide an allosteric regulatory mechanism to facilitate the  polyubiquitination of substrates (Liu & Nussinov, 2011).
+  Elongin B and elongin C form a tightly associated complex  and this heterodimer, referred to as elongin BC, serves as the  common adaptor subunit for both Cul2 and Cul5 (Duan et al.,  1995).
+Elongin C shares sequence and structural similarity  with S-phase kinase-associated protein 1 (Skp1), which is the  adaptor protein interacting with Cul1 (Bai et al., 1996).
+The  interaction between Skp1 and Cul1 has been structurally  characterized (Zheng et al., 2002).
+Whereas structural information on how elongin BC binds to Cul2 or Cul5 is unavailable, the elongin C subunit has been presumed to bind Cul2  and Cul5 similarly to the binding of Skp1 by Cul1 (Zheng et al.,  2002).
+Elongin BC recognizes cognate substrate receptors that  are characterized by having a conserved C-terminal sequence  known as the SOCS box (suppressor of cytokine signalling;  Kamura et al., 1998).
+The SOCS box is composed of about 40  amino acids and is responsible for intermolecular recognition  by forming three -helices that form the binding interface for  elongin BC (Stebbins et al., 1999; Bullock et al., 2007).
+The  N-terminal portion of the SOCS box, which forms the first  -helix, was designated the BC box because it was shown to  be critical for interaction with elongin BC (Aso et al., 1996;  Kamura et al., 1998).
+While elongin BC is the common adaptor  for Cul2 and Cul5, it has been suggested that whether elongin  BC binds to Cul2 or Cul5 is determined by the substrate  receptors (Kamura et al., 2004).
+For example, elongin BC in  complex with von HippelLindau tumour suppressor protein  (VHL) interacts with Cul2 but not with Cul5, whereas elongin  BC in complex with another SOCS-box protein, SOCS2,  showed the opposite binding specificity (Kile et al., 2002;  Kamura et al., 2004).
+Consistently, VHL-mediated degradation of HIF-2 could be inhibited by RNAi-mediated  knockdown of the Cul2Rbx1 complex but not by knockdown  of the Cul5Rbx2 complex (Kamura et al., 2004).
+Based on an  experiment in which a peptide segment was swapped between  VHL and SOCS2, an 16-amino-acid segment C-terminal to  the common BC box was defined as the determinant of the  recognition specificity and this segment was consequently  named the Cul2 or Cul5 box.
+The Cul5 box has the consensus  sequence xxLPPxxxx(Y/F)(L/I) (where  is a hydrophobic  residue and x is any residue; Hilton et al., 1998; Kamura et al.,  2004), in which the conserved LPP motif was proposed to  be the major determinant of specificity (Kamura et al., 2004).
+  Recently, an extensive cell-based protein-binding study  identified 17 Cul2-interacting and 19 Cul5-interacting human  substrate receptors, allowing comparison of a large collection  of these proteins (Mahrour et al., 2008).
+According to this  study, a unique sequence motif distinguishing the two cullin  boxes is not present, suggesting that all of the cullin box  residues collectively contribute to the selective or preferential  recognition of Cul2 or Cul5.
+  Whereas the ECS complexes composed of elongin BC,  Cul2/Cul5 and a SOCS-box protein constitute a representative  subfamily of cullin-dependent ubiquitin ligases (Kamura et al.,  2004), structural information of the intersubunit interaction is  limited to elongin BC and a substrate receptor.
+In particular, it  is unknown how a substrate receptor bound to elongin BC  may direct this ternary complex to selectively or preferentially  recognize Cul2 or Cul5.
+Here, we provide an atomic view of  the intersubunit interactions between elongin BC, SOCS2 and  an N-terminal fragment of Cul5.
+The structure readily explains  why the elongin BC adaptor selectively pairs with Cul2 and  Cul5 but not with other cullins.
+We have identified a ring-toring interaction which is important for tight interaction  between Cul5 and the Cul5 box.
+  2.
+Experimental procedures  2.1.
+Cloning and protein purification  The DNA fragments encoding mouse elongin B and elongin  C (residues 17112) were ligated into the pRSFDuet plasmid  (Novagen).
+The DNA fragment encoding human SOCS2  (residues 32198) was ligated into the pProEx HTa plasmid  (Invitrogen) and that encoding human Cul5 (residues 1386)  was ligated into a pET22b-CPD 10H plasmid which was  designed to express a protein fused to a His10-tagged CPD  (cysteine protease domain) at the C-terminus.
+In this work,  elongin C (residues 17112), SOCS2 (residues 32198) and  Cul5 (residues 1386) are referred to as elongin C, SOCS2  and Cul5N, respectively.
+A variant of Cul5N, referred to as  Cul5N(RD), which contains the substitutions V341R and  L345D, was generated by the overlapping PCR method.
+  SOCS2, elongin B and elongin C were coexpressed together  in Escherichia coli strain BL21 (DE3) (Stratagene) and  Cul5N(RD) was expressed alone in E. coli strain BL21 (DE3)  RIPL (Stratagene).
+Expression of the proteins was induced by  0.5 mM isopropyl -d-1-thiogalactopyranoside at 291 K. Cell  lysates were prepared by sonication in buffer A composed of  20 mM TrisHCl pH 7.5, 100 mM NaCl.
+The SOCS2elongin  BC complex was purified using HisPur Cobalt Resin (Thermo  Scientific) and a HiTrap Q anion-exchange column (GE  Healthcare) operated with a linear NaCl gradient (0.01.0 M)  in buffer A. Cul5N(RD) was first purified using HisPur Cobalt  Resin, on which the CPD-His10 tag was cleaved by adding  100 mM phytate.
+Subsequently, the protein was bound to a  HiTrap Q column and eluted with a linear gradient of NaCl  (0.01.0 M) in buffer A. Purified SOCS2elongin BC and  Cul5N(RD) were mixed together in a 1:1 molar ratio and the  resulting quaternary complex was further purified in buffer A  using a HiLoad Superdex 200 gel-filtration column (GE  Healthcare).
+The final sample was concentrated to 40 mg ml1  research papers  1588 Kim et al.  SOCS2elongin BCCul5 complexes Acta Cryst. (2013).
+D69, 15871597in a buffer solution consisting of 25 mM TrisHCl pH 7.5,  100 mM NaCl, 5 mM dithiothreitol.
+  A variant of Cul5N(RD) containing a W53A mutation,  Cul5N(RD;W53A), was generated by the overlapping PCR  method and the mutation was confirmed by DNA sequencing.
+  The variant was purified according to the same procedures as  used to purify Cul5N(RD).
+A DNA fragment encoding human  VHL (residues 54213; referred to as VHL) was amplified by  PCR and cloned into the pProEx HTa vector.
+VHL, elongin B  and elongin C were coexpressed together in E. coli strain  BL21 (DE3) at 310 K and the purification steps for VHL  elongin BC were identical to those for SOCS2elongin BC.
+  2.2.
+Crystallization and structure determination of SOCS2  elongin BCCul5N(RD)  Crystals of the quaternary complex were obtained by the  hanging-drop vapour-diffusion method at 295 K by mixing  and equilibrating 1.5 ml protein sample and 1.5 ml precipitant  solution consisting of 0.25 M sodium citrate, 18%(w/v) PEG  3350.
+For cryoprotection, the crystals were soaked in the  precipitant solution containing an additional 10% ethylene  glycol.
+An X-ray diffraction data set was collected on beamline 17A at the Photon Factory in Japan.
+The asymmetric unit  of the crystal contained one quaternary complex.
+The structure of the complex was determined by molecular replacement  using the structures of SOCS2elongin BC (PDB entry 2c9w;  Bullock et al., 2006) and Cul5N(RD) (PDB entry 2wzk; J. R. C.  Muniz, V. Ayinampudi, Y. Zhang, J. J. Babon, A. Chaikuad,  T. Krojer, A. C. W. Pike, M. Vollmar, F. Von Delft, C. H.  Arrowsmith, A. M. Edwards, J. C. Weigelt, C. Bountra &  A. Bullock, unpublished work) as the search models using  MOLREP in the CCP4 suite (Vagin & Teplyakov, 2010; Winn  et al., 2011).
+Structure refinement was carried out using the  CNS software package (Brunger et al., 1998).
+The final refined  model does not include residues 105118 of elongin B, residues 19 and 119128 of Cul5N(RD) and residues 136145  of SOCS2, for which electron density was missing.
+Crystallographic data statistics are summarized in Table 1.
+  2.3.
+Isothermal titration calorimetry  All measurements were carried out at 298 K on an iTC200  microcalorimetry system (GE Healthcare).
+Protein samples  were dialyzed against a solution consisting of 20 mM TrisHCl  pH 7.5, 10 mM NaCl and were centrifuged to remove any  insoluble material prior to the measurements.
+The experiments were carried out by titrating 1 mM Cul5N(RD) or  Cul5N(RD;W53A) into 0.1 mM SOCS2elongin BC or VHL  elongin BC.
+Dilution enthalpies were determined in separate  experiments (titrant into buffer) and were subtracted from the  enthalpies of binding between the proteins.
+The data were  analyzed using the Origin software (OriginLab).
+  2.4.
+Simulation of the interaction between VHL, elongin BC  and Cul2  Three-dimensional structural models of the complex  between VHLelongin BC and the N-terminal part of Cul2,  referred to as Cul2N, were generated based on a high-accuracy  template-based modelling method (Joo et al., 2007).
+The  template structures used for modelling VHL, elongin BC and  Cul2N were VHLelongin BC (PDB entry 1vcb; Stebbins et  al., 1999), SOCS2elongin BCCul5N(RD) and Cul5N(RD)  (PDB entry 2wzk).
+The method is based on global optimization of various scoring functions (Lee et al., 2003) coupled with  successive screening of models by quality assessment.
+It  carries out multiple stages of optimization, including multiple  sequence alignment, three-dimensional chain building of  proteins and side-chain refinement.
+The final three-dimensional model of each target sequence was selected by applying  a quality-assessment procedure which is based on a machinelearning algorithm using scoring functions and structural  features such as the secondary structure and solvent accessibility of protein structures.
+The VHLelongin BC and Cul2N  models were initially oriented according to the structure of  SOCS2elongin BCCul5N(RD).
+The intersubunit interactions were optimized using the TINKER package (Ponder &  Richards, 1987), which carries out molecular modelling based  on potential energy functions using the CHARMM force field  (MacKerell et al., 1998) and the GBSA solvation model (Qiu  et al., 1997).
+  3.
+Results and discussion  3.1.
+Overall structure of the quaternary SOCS2elongin BC  Cul5N(RD) complex  To obtain structural information on the intersubunit interactions between a SOCS-box protein, elongin BC and Cul5,  various protein constructs were prepared and the resulting  complexes were subjected to crystallization.
+Finally, we  obtained crystals of the quaternary complex between elongin  BC, SOCS2 and Cul5N(RD).
+We employed an N-terminal  386-amino-acid fragment of Cul5 (Fig. 1a) because the  research papers  Acta Cryst. (2013).
+D69, 15871597 Kim et al.  SOCS2elongin BCCul5 complexes 1589  Table 1  Data-collection and structure-refinement statistics.
+  Values in parentheses are for the highest resolution shell.
+  Data collection  Space group C2221  Unit-cell parameters (A , ) a = 138.85, b = 141.46, c = 182.00,   =  =  = 90  Wavelength (A ) 1.0000  Resolution (A ) 50.03.0  Rmerge (%) 7.6 (35.7)  hI/(I)i 23.0 (3.4)  Completeness (%) 97.3 (93.7)  Multiplicity 9.0 (4.6)  Refinement  Resolution (A ) 50.03.0  No. of reflections 35501  Rwork/Rfree (%) 22.5/24.8  R.m.s.
+deviations  Bond lengths (A ) 0.0006  Bond angles () 1.3  Average B value (A 2  ) 73.7  Ramachandran plot, residues in (%)  Favoured regions 88.0  Additionally allowed regions 11.7  Generously allowed regions 0.3N-terminal part of cullins is the region that interacts with the  adaptor subunit, as demonstrated by various related structures  (Zimmerman et al., 2010).
+The two mutations in Cul5N(RD)  are located on the otherwise completely hydrophobic surface,  which is solvent-exposed owing to the truncation of the  C-terminal half of Cul5.
+These mutations, which were introduced based on the available structure of this protein (PDB  entry 2wzk), improved the solution behaviour of the protein.
+  The four proteins were found to form a tight complex and the  crystal structure of this quaternary complex was determined  to 3.0 A resolution (Table 1).
+The Cul5N(RD) structure is  composed exclusively of -helices and looks like a curved rod.
+  The adaptor subunit elongin BC sits at the N-terminal tip of  Cul5N(RD) and the substrate receptor subunit SOCS2 binds  to one side of elongin C (Fig. 1b).
+Elongin B, which forms a  complex with elongin C, does not interact with Cul5N(RD)  at all, whereas it interacts with SOCS2 only slightly via two  residues (Val102 and Met103; not shown).
+We note that  human elongin BC should interact with  human SOCS2 and Cul5 in an identical  manner to mouse elongin BC because  both elongin B and elongin C share  extremely high sequence homology  (>97% identity) between the two  species and the residues at the binding  interfaces are invariant.
+  3.2. Interface between elongin BC and  Cul5  The binding of elongin BC to Cul5  takes place exclusively through elongin  C. While 4 and 5 of Cul5 make minor  contacts with elongin C via Ile106 and  Lys109 on 4 and Gln113 on 5, 2 of  Cul5 is the primary binding motif; it  interacts with a shallow groove of  elongin C formed by 2, loop 23 and  4 (Fig. 2a).
+This intersubunit interaction is predominantly hydrophobic,  but involves several hydrophilic interactions mediated by Ser47, Asn61 and  Arg63 of elongin C, and Lys109, Gln38,  Asp42 and Asp46 of Cul5.
+The mode  of interaction between elongin BC and  Cul5 is similar to that between Skp1  and Cul1 in the structure of the SCF  complex composed of Skp1, Cul1Rbx1  and the F-box protein Skp2 (PDB entry  1ldk; Zheng et al., 2002).
+In this structure, Skp1 forms a binding interface  using 2, the following 20-residue  segment and 5, which interacts with 2  of Cul1 (Fig. 2b).
+However, the detailed  intermolecular interactions in the two  complexes are quite different, which can  be ascribed to the amino-acid differences at the binding interfaces.
+A total  of 12 residues of elongin C interact  directly with 2 of Cul5 and ten residues  of Skp1 interact directly with 2 of  Cul1.
+Among the 12 residues of elongin  C, only Met45 and Asn108 are identically conserved in Skp1 (Fig. 2c).
+Likewise, among the 11 residues of Cul5  which interact with elongin C, Lys37  research papers  1590 Kim et al.  SOCS2elongin BCCul5 complexes Acta Cryst. (2013).
+D69, 15871597  Figure 1  Overall structure of SOCS2elongin BCCul5N(RD). (a) The primary-sequence diagrams indicate  the constructs of the four proteins used for structure determination.
+The two hydrophilic  substitutions in Cul5 are indicated.
+(b) The structure of the quaternary complex is shown in two  orientations.
+The BC box and the Cul5 box in SOCS2 are indicated by pink and red colours,  respectively.
+The positions of the hydrophilic substitutions are indicated by asterisks and the  disordered regions are indicated by dotted lines.is the sole residue that is identically conserved in the 12  residues of Cul1 (Fig. 2d).
+Owing to these differences, the two  binding interfaces are quite different from each other electrostatically and geometrically.
+While the binding interface of  Skp1 is almost flat, that of elongin C has two protrusions that  are formed by Arg63 and by the Gly48-Pro49-Gly50 segment  (Fig. 2a).
+The guanidine group of Arg63 is involved in ionic  interactions with Asp42 and Asp46 of Cul5, while Pro49 of  elongin C is involved in hydrophobic interactions with Trp40  of Cul5 (Fig. 2a).
+Both Arg63 and Pro49 are not conserved in  Skp1 and corresponding hydrophilic or hydrophobic interactions do not exist at the interface between Skp1 and Cul1.
+  These geometric and electrostatic differences explain the  selective binding of the two adaptors to Cul1 or Cul5.
+  research papers  Acta Cryst. (2013).
+D69, 15871597 Kim et al.  SOCS2elongin BCCul5 complexes 1591  Figure 2  The binding interface between elongin C and Cul5.
+(a) The interface is shown in two orientations.
+The red arrows highlight that Arg63 and Pro49 of  elongin C interact with 2 of Cul5 as if they grasp the helix.
+The stick presentation in the right panel indicates the residues involved in the intersubunit  interaction (interatomic distance  4.0 A ).
+(b) For comparison, the interface between Skp1 and Cul1 (PDB entry 1ldk) is shown in two orientations.
+(c)  The residues at the interface are not conserved.
+The sequences of elongin C and Skp1 are aligned and the two regions involved in the interaction with  Cul5 or Cul1 are shown.
+The red letters indicate the Cul5N(RD)-contacting residues of elongin C and the Cul1-interacting residues of Skp1.
+Of these,  only two residues, marked by dotted boxes, are conserved in the two proteins.
+(d) Sequence alignment of six different human cullins.
+The regions  corresponding to 2 of Cul5 are shown.
+The asterisks indicate the Cul5 residues that interact directly with elongin C. These interacting residues are  significantly more conserved in Cul2 (seven out of 11) than in any other cullins.
+Identically conserved residues in Cul5 and Cul2 are indicated by filled  arrowheads and similarly conserved residues are represented by empty arrowheads.Elongin BC serves as the adaptor for both Cul2 and Cul5  (Kamura et al., 2004).
+The basis of this dual specificity can  be explained by sequence comparison of the cullin-family  proteins, which shows that the residues on the 2 helix of Cul5  which interact with elongin C are highly conserved in Cul2 but  not in the other cullins.
+Among the 11 elongin C-interacting  residues of Cul5, five residues (Trp40, Asp42, Phe44, Ser45  and Asp46) are identical in Cul2 and two further residues  (Lys37 and Leu52) are similar (Fig. 2d).
+In contrast, only one  residue (Lys37 or Leu52) is identical in Cul1, Cul3 and Cul4B  research papers  1592 Kim et al.  SOCS2elongin BCCul5 complexes Acta Cryst. (2013).
+D69, 15871597  Figure 3  The binding interface between SOCS2 and Cul5.
+(a) The SOCS2Cul5 interface is a part of a three-way interface between elongin C, SOCS2 and Cul5,  which is indicated by the dotted circle.
+Each of the three residues in orange interacts with the other two residues simultaneously.
+The ring-to-ring  interaction between Pro184 of SOCS2 and Trp53 of Cul5 is shown together with the final 2Fo  Fc electron-density map at the 1 level.
+(b) For  comparison, the overall interactions between the F box of Skp2, Skp1 and Cul1 (PDB entry 1ldk) are shown.
+The spatial position of the Skp2Cul1  interface (circled) is similar to that of the SOCS2Cul5 interface. (c) ITC analysis.
+Cul5N(RD) or Cul5N(RD;W53A) was titrated into the indicated  protein complexes.
+The Kd values were deduced from curve fittings of the integrated heat per mole of added protein (insets).(Fig. 2d).
+We also note that the sequence conservation in the  2 helices of Cul2 and Cul5 (41% identity and 65% similarity)  is considerably higher than the overall sequence conservation  between the two proteins (26% identity and 47% similarity).
+  Therefore, local sequence conservation at the binding interface appears to be the key basis underlying the dual specificity  of the elongin BC adaptor for Cul2 and Cul5.
+  Elongin C is structurally similar to the Cul3-interacting  BTB (bric-a`-brac, tramtrack, broad-complex) domain  (Petroski & Deshaies, 2005).
+Recently, it was shown that the  N-terminal tip of Cul3 interacts with the BTB domain of  SPOP (speckle-type POZ protein) and that helix 2 of Cul3  is the major interface for this intermolecular interaction  (Errington et al., 2012).
+The sequence alignment shown in  Fig. 2(d) explains the recognition specificity between the  structurally similar adaptor proteins and the cullin scaffolds.
+  3.3. Interface between SOCS2 and Cul5  The presented structure reveals that SOCS2 interacts with  Cul5 through only two residues, Pro184 and Arg186, which  belong to the Cul5 box (residues 178192).
+Pro184 is in  hydrophobic contact with Trp53 and Leu52, whereas Arg186  of SOCS2 is hydrogen-bonded to Gln113 of Cul5 (Fig. 3a).
+  Arg186 is a variable residue in the Cul5 boxes and therefore  the observed hydrogen bond does not represent a conserved  interaction.
+In contrast, Pro184 is invariable and is the fourth  residue in the LPP sequence motif of the Cul5 box, which has  been shown by mutational analyses to be the major determinant specifying the assembly of the SOCS box-containing  proteins into Cul5 (Kamura et al., 2004).
+The fourth proline  residue in this motif appears to be particularly important  as a determinant of specificity.
+Whereas wild-type SOCS1  containing the sequence IPLN in the cullin box failed to  interact with Cul5Rbx2, a mutant SOCS1 with an IPLP  sequence interacted with Cul5Rbx2 (Kamura et al., 2004).
+In  the structure of the quaternary complex, Pro184 of SOCS2  is involved in a ring-to-ring stacking interaction with Trp53 of  Cul5 (Fig. 3a).
+Notably, both apolar residues interact with  Met105 of elongin C and thus the three residues together form  a three-way interaction point (Fig. 3a).
+At this position, the  ring-to-ring stacking interactions appear to augment the  hydrophobic interactions between elongin C and Cul5 as they  are part of the large hydrophobic core involving Pro182,  Leu183 and Leu187 of SOCS2, Leu101, Leu104 and Met105 of  elongin C and Leu52 of Cul5 (Fig. 3a).
+The observed interaction between the Cul5 box of SOCS2 and Cul5 is similar to  that between the F-box of Skp2 and Cul1 in the structure of  the Skp1Cul1Skp2 F-box complex (PDB entry 1ldk; Zheng  et al., 2002).
+The F-box also interacts with Cul1, but only  slightly: three residues of Skp2 (Pro113, Glu115, Glu146) are  in contact with Thr54, Tyr139, His143 and Arg147 of Cul1  (Fig. 3b).
+Furthermore, the binding interface is spatially  similar to that between SOCS2 and Cul5 (Figs. 3a and 3b).
+  Thus, the ECS and SCF ubiquitin ligases share a common  mode of interaction between their substrate receptor and the  cullin scaffold.
+  3.4. Contribution of the cullin box to the assembly of ECS  complexes  Pro184 in the Cul5 box of SOCS2 is substituted by a valine  in the Cul2 box of VHL, which also binds to elongin BC but is  known to interact with Cul2 instead of Cul5 (Kamura et al.,  1999, 2004).
+On the other hand, Trp53 of Cul5 is substituted by  an alanine in Cul2.
+These observations indicated that the ringto-ring interaction between Pro184 and Trp53 is important, if  not critical, for the recognition of Cul5 by Cul5 box-containing  proteins.
+To evaluate the importance of this interaction, we  generated a Cul5N(RD) variant containing a W53A mutation,  designated Cul5N(RD;W53A).
+Using isothermal titration  calorimetry (ITC), we then quantified the interactions of  SOCS2elongin BC with Cul5N(RD) or Cul5N(RD;W53A).
+  SOCS2elongin BC interacted potently with Cul5N(RD), with  an apparent dissociation constant (Kd) of 28 nM (Fig. 3c).
+  In comparison, SOCS2elongin BC interacted with the  Cul5N(RD;W53A) variant with a Kd of 893 nM (Fig. 3c).
+  Therefore, the ring-to-ring interaction significantly enhances  the binding affinity between SOCS2elongin BC and Cul5.
+  3.5.
+Contribution of elongin BC to the assembly of ECS  complexes  Since elongin C interacts with Cul5N(RD) much more  extensively than does SOCS2 (Fig. 3a), elongin BC is likely  to bind Cul5 with high affinity and to contribute majorly to  the binding affinity between SOCS2elongin BC and Cul5.
+  However, free elongin BC did not seem to interact tightly with  Cul5N(RD) on a native gel-based protein-binding assay (not  shown).
+Consistently, an ITC analysis confirmed that they  interact with each other with a Kd of 1.3 mM (not shown), as  similarly estimated by others (Babon et al., 2009; Wolfe et al.,  2010).
+On the other hand, it was shown that while SOCS3  bound to elongin BC interacts with Cul5N tightly (Kd of  90 nM), the interaction between isolated SOCS3 and Cul5N  was undetectably weak (>10 mM; Babon et al., 2008, 2009).
+  This observation is consistent with the minor interaction  between Cul5 and the Cul5 box found in the presented  structure and indicates that this intersubunit interaction by  itself is negligible in the formation of an ECS complex.
+  Therefore, elongin BC and the Cul5 box contribute to the  formation of an ECS complex synergistically rather than  additively.
+A structural comparison of Cul5N(RD) in the  complex with free Cul5N(RD) showed that the protein  undergoes a negligible conformational change: the r.m.s.d. of  the C atoms between the two states is only 0.64 A .
+We also  note that the binding of SOCS2elongin BC to Cul5N(RD) is  accompanied by almost no conformational change in elongin  C; only minor changes in the side-chain conformations of  three residues (Leu101, Met105 and Asn108) are observed in a  structural comparison between SOCS2elongin BC  Cul5N(RD) and SOCS2elongin BC (Fig. 4).
+While the  structure of free elongin BC is unavailable, we presume that  elongin C is conformationally flexible in free elongin BC.
+In  this scenario, free elongin BC has to lose conformational  freedom to bind Cul5 and the accompanying entropic loss  research papers  Acta Cryst. (2013).
+D69, 15871597 Kim et al.  SOCS2elongin BCCul5 complexes 1593adversely affects the otherwise tight interaction between  elongin BC and Cul5N(RD).
+In contrast, when elongin BC in  complex with SOCS2 binds to Cul5, the loss of conformational  freedom of elongin C is negligible.
+As a result, elongin BC in  complex with a substrate receptor, but not free elongin BC, is  able to bind Cul5 tightly, making a greater contribution to the  overall binding affinity than the Cul5 box.
+If this proposition is  correct then VHLelongin BC,  which contains a Cul2 box  instead of a Cul5 box, would  bind not only Cul2 but also  Cul5 with substantial binding  affinity.
+Indeed, interaction  between VHLelongin BC and  Cul5N(RD) was clearly observed,  although it was less tight than  the interaction between SOCS2  elongin BC and Cul5N(RD) on a  native gel (Fig. 5a, lanes 4 and 5)  and from the Kd value (327 versus  28 nM; Fig. 5b).
+  3.6.
+Simulation of the interaction  between the Cul2 box of VHL,  elongin C and Cul2  According to the published  data, VHLelongin BC would be  presumed to bind Cul2 more  tightly than it binds Cul5.
+Interestingly, a multiple sequence  alignment shows that the BC box  sequences in the SOCS boxes are  quite different from those in the VHL boxes, apart from the  conservation of a leucine residue which corresponds to  Leu163 in SOCS2 (Fig. 6a).
+We considered whether this  sequence difference might cause a conformational difference  in elongin C depending on its binding to VHL or to SOCS2.
+A  structural comparison between VHLelongin BC and SOCS2  elongin BC exhibited no noticeable conformational difference  research papers  1594 Kim et al.  SOCS2elongin BCCul5 complexes Acta Cryst. (2013).
+D69, 15871597  Figure 4  Negligible conformational change of elongin BC upon binding to Cul5N(RD).
+The elongin C molecules in the quaternary complex (left) and the triple  complex (right; PDB entry 2c9w) are superposable with an r.m.s.d.
+of 0.88 A (for all atoms).
+At the binding interfaces, conformational change of elongin  C is restricted to the three side chains of Leu101, Met105 and Asn108.
+Dotted lines indicate hydrogen bonds.
+  Figure 5  Interactions between VHLelongin BC and Cul5.
+(a) PAGE.
+SOCS2elongin BC or VHLelongin BC,  both at 6.7 mM, were incubated with 6.7 mM Cul5N(RD) at room temperature.
+The mixtures were loaded  onto a native gel and visualized by Coomassie staining.
+Note the presence of a residual VHLelongin BC  band in lane 5 in comparison with the lack of a residual SOCS2elongin BC band in lane 4.
+(b) ITC.
+VHL  elongin BC was titrated into Cul5N(RD) and the Kd value was deduced.in elongin C (r.m.s.d. of 0.29 on C atoms), indicating that the  sequence difference in the BC box does not play a role in the  preferential binding of VHLelongin BC to Cul2.
+The residues  that are conserved in the Cul2 box also do not appear to be a  determinant, as they are also conserved in the Cul5 box (Fig.  6a).
+To understand the basis of this preferential binding, we  attempted to crystallize a complex between VHLelongin BC  and an N-terminal fragment of Cul2.
+However, a number of  the N-terminal fragments of Cul2 that we designed were only  produced in insoluble forms.
+We instead sought to obtain a  structural model of the VHLelongin BCCul2N complex by a  high-accuracy template-based modelling method (Joo et al.,  2007) mainly based on the structure presented here.
+  Compared with the structure of VHLelongin BC (Stebbins et  al., 1999), the simulated quaternary structure shows that the  loop containing the Leu178-Asp179-Ile180-Val181 sequence  of the Cul2 box, which corresponds to the LPP motif in the  Cul5 box, undergoes a conformational shift towards Cul2 (Fig.  6b; left).
+As a result, Val181 and Ser183 of VHL interact with  Ala48 and Val47 of Cul2, respectively.
+Owing to this moveresearch papers  Acta Cryst. (2013).
+D69, 15871597 Kim et al.  SOCS2elongin BCCul5 complexes 1595  Figure 6  Simulated interaction between VHLelongin BC and Cul2.
+(a) Sequence alignment of 30 of a total of 37 SOCS boxes and 20 VHL boxes that have  recently been identified (Mahrour et al., 2008; Okumura et al., 2012). It is noted that the Cul2-box-containing SOCS-box proteins are called VHL-box  proteins (Kamura et al., 2004; Hilton et al., 1998). (b) Left: the loop segment of VHL becomes closer to 2 of Cul2 and forms a buried hydrogen bond.
+  VHL in the structure of VHLelongin BC (PDB entry 1vcb) is superposed on the simulated structures.
+Right: superposition of the 2 helix of  Cul5N(RD) on the simulated structures.
+The circle highlights that Trp53 of Cul5 clashes sterically with Val181 of VHL, with a closest distance of 0.5 A .ment, the hydrophobic residues around Val181 of VHL  become more closely packed against each other.
+In addition, a  strong hydrogen bond appears to be formed between the  hydroxyl group of Ser183 and the carbonyl O atom of Val47,  which are completely buried in the hydrophobic milieu.
+These  interactions between the Cul2 box of VHL and Cul2 should  augment the interaction between elongin BC and Cul2.
+On  the other hand, the Cul2 box would interact with Cul5 less  preferably owing to the amino-acid dissimilarity between Cul2  and Cul5 near the three-way interface.
+In particular, Leu52  and Trp53 in Cul5, which are bulkier than the corresponding  Val47 and Ala48 in Cul2, appear to prevent the conformational shift of the Cul2 box and thus the formation of the  favourable Cul2Cul2 box interactions observed in the simulated structure (Fig. 6b; right).
+  The simulated interactions between VHL and Cul2 do  not provide a general explanation as to why the Cul2 box  preferentially interacts with Cul2 rather than Cul5.
+This is  because Val181 of VHL is mostly substituted by proline in  other VHL-box proteins and Ser183 is not a conserved residue  in other Cul2 boxes (Fig. 6a).
+Notably, the Cul2 box is far more  diverse in primary sequence than the Cul5 box (Fig. 6a).
+It  is possible that owing to the smaller residues in 2 of Cul2  (Val47 and Ala48 instead of leucine and tryptophan), this helix  is able to make favourable interactions with the loop segment  of different Cul2 boxes in different ways, such that unconserved interactions between each Cul2 box and Cul2 are  responsible for the preferential binding to Cul2 over Cul5.
+  4.
+Summary and concluding remarks  The structure presented in this study provides the first atomic  views of how elongin BC and a cullin box of a substrate  receptor interact with a cullin.
+The elongin BC adaptor  interacts selectively with Cul2 and Cul5 because the residues  at the binding interface are conserved in these two cullins but  not in other cullins.
+Elongin BC, which interacts with Cul5  much more extensively than the Cul5 box, is the major  contributor to the overall binding affinity for the interaction  between SOCS2elongin BC and Cul5.
+The ring-to-ring  interaction between Cul5 and the Cul5 box appears to be  minor but contributes significantly to the overall binding  affinity.
+Such a single critical interaction does not appear to  exist in the interaction between Cul2 and the VHL-box  proteins.
+Finally, our analyses indicate that a complex between  substrate receptor and elongin BC is formed first and this  complex then interacts with the Cul2Rbx1 or Cul5Rbx2  scaffold to assemble an ECS E3 ligase complex.
+  The authors declare no conflicts of interest.
+This work was  supported by the GRL Program (K20815000001) from the  National Research Foundation of Korea and made use of  beamline 5C at the Pohang Accelerator Laboratory in Korea  and beamline 17A at the Photon Factory in Japan.
+KJ and JL  were supported by a National Research Foundation grant  funded by the Korean government (No. 20120001222).
+We  thank the KIAS Center for Advanced Computation for  providing computing resources.
+  References  Aso, T., Haque, D., Barstead, R. J., Conaway, R. C. & Conaway, J. W.  (1996).
+EMBO J. 15, 55575566.
+  Babon, J. J., Sabo, J. K., Soetopo, A., Yao, S., Bailey, M. F., Zhang,  J.-G., Nicola, N. A. & Norton, R. S. (2008).
+J. Mol. Biol. 381,  928940.  Babon, J. J., Sabo, J. K., Zhang, J.-G., Nicola, N. A. & Norton, R. S.  (2009).
+J. Mol. Biol. 387, 162174.  Bai, C., Sen, P., Hofmann, K., Ma, L., Goebl, M., Harper, J. W. &  Elledge, S. J. (1996).
+Cell, 86, 263274.  Bosu, D. R. & Kipreos, E. T. (2008).
+Cell Div. 3, 7.  Brunger, A. T., Adams, P. D., Clore, G. M., DeLano, W. L., Gros, P.,  Grosse-Kunstleve, R. W., Jiang, J.-S., Kuszewski, J., Nilges, M.,  Pannu, N. S., Read, R. J., Rice, L. M., Simonson, T. & Warren, G. L.  (1998). Acta Cryst. D54, 905921.  Bullock, A. N., Debreczeni, J. E ., Edwards, A. M., Sundstrom, M. &  Knapp, S. (2006).
+Proc. Natl Acad. Sci. USA, 103, 76377642.  Bullock, A. N., Rodriguez, M. C., Debreczeni, J. E ., Songyang, Z. &  Knapp, S. (2007).
+Structure, 15, 14931504.  Dias, D. C., Dolios, G., Wang, R. & Pan, Z.-Q. (2002).
+Proc. Natl  Acad. Sci. USA, 99, 1660116606.  Duan, D. R., Pause, A., Burgess, W. H., Aso, T., Chen, D. Y., Garrett,  K. P., Conaway, R. C., Conaway, J. W., Linehan, W. M. & Klausner,  R. D. (1995).
+Science, 269, 14021406.
+  Errington, W. J., Khan, M. Q., Bueler, S. A., Rubinstein, J. L.,  Chakrabartty, A. & Prive, G. G. (2012).
+Structure, 20, 11411153.  Hershko, A. & Ciechanover, A. (1992).
+Annu.
+Rev. Biochem. 61,  761807.  Hilton, D. J., Richardson, R. T., Alexander, W. S., Viney, E. M.,  Willson, T. A., Sprigg, N. S., Starr, R., Nicholson, S. E., Metcalf, D.  & Nicola, N. A. (1998).
+Proc. Natl Acad. Sci. USA, 95, 114119.  Joo, K., Lee, J., Lee, S., Seo, J.-H. & Lee, S. J. (2007).
+Proteins, 69,  Suppl. 8, 8389.  Kamura, T., Koepp, D. M., Conrad, M. N., Skowyra, D., Moreland,  R. J., Iliopoulos, O., Lane, W. S., Kaelin, W. G., Elledge, S. J.,  Conaway, R. C., Harper, J. W. & Conaway, J. W. (1999).
+Science,  284, 657661.  Kamura, T., Maenaka, K., Kotoshiba, S., Matsumoto, M., Kohda, D.,  Conaway, R. C., Conaway, J. W. & Nakayama, K. I. (2004).
+Genes  Dev. 18, 30553065.  Kamura, T., Sato, S., Haque, D., Liu, L., Kaelin, W. G., Conaway, R. C.  & Conaway, J. W. (1998).
+Genes Dev.
+12, 38723881.  Kile, B. T., Schulman, B. A., Alexander, W. S., Nicola, N. A., Martin,  H. M. & Hilton, D. J. (2002).
+Trends Biochem. Sci. 27, 235241.  Lee, J., Lee, I.-H. & Lee, J. (2003).
+Phys.
+Rev. Lett.
+91, 080201.  Liu, J. & Nussinov, R. (2011).
+J. Biol. Chem. 286, 4093440942.  MacKerell, A. D. et al. (1998). J. Phys.
+Chem. B, 102, 35863616.  Mahrour, N., Redwine, W. B., Florens, L., Swanson, S. K., MartinBrown, S., Bradford, W. D., Staehling-Hampton, K., Washburn,  M. P., Conaway, R. C. & Conaway, J. W. (2008).
+J. Biol. Chem. 283,  80058013.  Ohta, T., Michel, J. J., Schottelius, A. J. & Xiong, Y. (1999).
+Mol. Cell,  3, 535541.  Okumura, F., Matsuzaki, M., Nakatsukasa, K. & Kamura, T. (2012).
+  Front. Oncol. 2, 10.  Petroski, M. D. & Deshaies, R. J. (2005).
+Nature Rev. Mol.
+Cell Biol. 6,  920.
+  Pickart, C. M. (2001).
+Annu.
+Rev. Biochem. 70, 503533.  Ponder, J. W. & Richards, F. M. (1987).
+J. Comput. Chem. 8, 1016  1024.  Ponyeam, W. & Hagen, T. (2012).
+Cell. Signal. 24, 290295.  Qiu, D., Shenkin, P. S., Hollinger, F. P. & Still, W. C. (1997).
+J. Phys.  Chem. A, 101, 30053014.  research papers  1596 Kim et al.  SOCS2elongin BCCul5 complexes Acta Cryst. (2013).
+D69, 15871597Stebbins, C. E., Kaelin, W. G. & Pavletich, N. P. (1999).
+Science, 284,  455461.  Tan, P., Fuchs, S. Y., Chen, A., Wu, K., Gomez, C., Ronai, Z. & Pan,  Z.-Q. (1999).
+Mol. Cell, 3, 527533.  Vagin, A. & Teplyakov, A. (2010).
+Acta Cryst. D66, 2225.  Villeneuve, N. F., Lau, A. & Zhang, D. D. (2010).
+Antioxid. Redox  Signal. 13, 16991712.  Winn, M. D. et al. (2011). Acta Cryst. D67, 235242.  Wolfe, L. S., Stanley, B. J., Liu, C., Eliason, W. K. & Xiong, Y. (2010).
+  J. Virol. 84, 71357139.  Zheng, N., Schulman, B. A., Song, L., Miller, J. J., Jeffrey, P. D., Wang,  P., Chu, C., Koepp, D. M., Elledge, S. J., Pagano, M., Conaway, R. C.,  Conaway, J. W., Harper, J. W. & Pavletich, N. P. (2002).
+Nature  (London), 416, 703709.  Zimmerman, E. S., Schulman, B. A. & Zheng, N. (2010).
+Curr. Opin.  Struct.
+Biol. 20, 714721.  research papers  Acta Cryst. (2013).
+D69, 15871597 Kim et al.  SOCS2elongin BCCul5 complexes 1597

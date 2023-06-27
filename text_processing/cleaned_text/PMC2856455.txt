@@ -1,0 +1,258 @@
+Systematic Mutational Analysis of Peptide Inhibition of the p53-MDM2/MDMX Interactions Inhibition of the interaction between the tumor suppressor protein p53 and its negative regulators MDM2 and MDMX is of great interest in cancer biology and drug design.
+We previously reported a potent duodecimal peptide inhibitor, termed PMI (TSFAEYWNLLSP), of the p53-MDM2 and -MDMX interactions.
+PMI competes with p53 for MDM2 and MDMX binding at an affinity roughly two orders of magnitude higher than that of 1728p53 (ETFSDLWKLLPE) of the same length; both peptides adopt nearly identical -helical conformations in the complexes, where the three highlighted hydrophobic residues Phe, Trp and Leu dominate PMI or 1728p53 binding to MDM2 and MDMX.
+To elucidate the molecular determinants for PMI activity and specificity, we performed a systematic Ala scanning mutational analysis of PMI and 1728p53.
+The binding affinities for MDM2 and MDMX of a total of 35 peptides including 10 truncation analogs were quantified, affording a complete dissection of energetic contributions of individual residues of PMI and 1728p53 to MDM2 and MDMX association.
+Importantly, the N8A mutation turned PMI into the most potent dual specific antagonist of MDM2 and MDMX reported to date, registering respective Kd values of 490 pM and 2.4 nM. The co-crystal structure of N8A-PMI-25109MDM2 was determined at 1.95 , affirming that high-affinity peptide binding to MDM2/MDMX necessitates, in addition to optimized inter-molecular interactions, enhanced helix stability or propensity contributed by non-contact residues.
+The powerful empirical binding data and crystal structures present a unique opportunity for computational studies of peptide inhibition of the p53-MDM2/MDMX interactions.
+ The tumor suppressor protein p53 is a transcription factor that trans-activates, in response to cellular stresses such as DNA damage, oncogene activation and hypoxia, the expression of various target genes that mediate cell-cycle arrest, senescence or apoptosis.
+Dubbed the guardian of the genome, p53 is critical for maintaining genetic stability and preventing tumor development.
+p53 inactivation, resulting from either point mutations in the TP53 gene or functional inhibition by negative regulators, is a hallmark of human cancers.
+Recent studies have shown that restoring endogenous p53 activity can halt the growth of cancerous tumors in animals.
+Chemical compounds capable of activating the p53 signaling pathway thus hold great promise as a novel class of anticancer drugs for therapy.
+ The most extensively studied p53 activators are targeted against MDM2  an E3 ubiquitin ligase that negatively regulates the activity and stability of p53.
+MDM2 inactivates p53 primarily by two different mechanisms: (1) physically sequestering the N-terminal trans-activation domain of p53 to suppress the expression of p53-regulated responsive genes; (2) channeling the tumor suppressor protein into the ubiquitin-proteasome pathway for degradation.
+MDMX  a homolog of MDM2 that lacks E3 ubiquitin ligase activity, non-redundantly impedes p53-induced growth inhibitory and apoptotic responses by acting as an effective transcriptional antagonist of p53.
+In addition, MDMX interacts with MDM2 to promote MDM2-mediated proteasomal turnover of p53 and self-destruction.
+Over-expressed in a significant fraction of cancers without concomitant TP53 mutation, MDM2 and MDMX cooperatively decimate the p53 signaling pathway.
+ The structural basis for the interaction of p53 with the N-terminal domains of MDM2 and MDMX is well understood.
+The N-terminal transactivation domain of p53 is disordered in solution, and becomes partially structured upon MDM2 or MDMX binding.
+The minimally required MDM2/MDMX-binding sequence of p53 or p53 (F19S20D21L22W23K24L25L26), forms an amphiphilic -helix in the complex, docking the side chains of Phe19, Trp23 and Leu26 inside a hydrophobic cavity of MDM2 or MDMX.
+The hydrophobic triad, F19/W23/L26, also important for the trans-activation activity of p53, energetically dominates p53 recognition of MDM2/MDMX.
+Rationally designed low molecular weight compounds that emulate the structure and activity of the p53 peptide, such as a cis-imidazoline analog termed nutlin-3 and a spiro-oxindole-derived compound termed MI-219, have been shown to antagonize MDM2 and kill tumor cells in vitro and in vivo in a p53-dependent manner.
+The interplay between MDM2 and MDMX in robust p53 inactivation necessitates the use of dual specific inhibitors targeting both for optimal therapeutic efficacy.
+Small molecule inhibitors with dual specificity as well as MDMX-specific antagonists are highly desirable.
+ We and others have recently identified several dual specific peptide activators of p53 from phage-displayed peptide libraries.
+One of the most potent peptides termed PMI (TSFAEYWNLLSP) binds MDM2 and MDMX at low nanomolar affinities - approximately two orders of magnitude stronger than 1728p53 (ETFSDLWKLLPE) of the same length.
+Although PMI retains the critical hydrophobic triad F3/W7/L10, it shares only 33% sequence identity to 1728p53.
+To elucidate the molecular determinants for potent and specific peptide inhibition of the p53-MDM2/MDMX interactions, we performed a systematic mutational analysis of both PMI and 1728p53 with respect to MDM2 and MDMX binding.
+Our findings, supported by structural studies, provide new insights into designing more effective p53 activators with desired potency and specificity for potential therapeutic applications.
+ Results Ala-scan mutational analysis of PMI All eleven Ala-substituted analogs were chemically synthesized and purified by RP-HPLC to homogeneity.
+Synthetic 25109MDM2 and 24108MDMX were freshly folded as described.
+The binding affinities of PMI and its Ala-scan analogs for MDM2 and MDMX were measured using the published surface plasmon resonance (SPR)-based competition binding assay.
+At least three independent measurements were performed for each peptide, and the data are presented in Figure S1 and Table 1.
+Based on the mutational effects on MDM2/MDMX binding, residues of PMI are classified into five different categories: (1) the most critical; (2) significant; (3) moderately important; (4) neutral; and (5) deleterious.
+ 1.
+The most critical residues  Phe3 and Trp7 Shown in Figure 1A are the aromatic side chains of Phe3 and Trp7 of PMI buried in the hydrophobic cavity of MDM2.
+These two residues collectively account for 45% of the total BSA of PMI in the complex.
+Mutation of either residue to Ala weakened the binding of PMI to MDM2 or MDMX by at least five orders of magnitude, qualifying Phe3 and Trp7 as the most critical residues in PMI recognition of MDM2/MDMX.
+Trp7 was more important than Phe3, particularly in the case of MDM2, as the former contributed 0.85 kcal/mol more in binding free energy than the latter to MDM2 binding.
+For MDMX binding, Trp7 was favored over Phe3 by 0.37 kcal/mol.
+ 2. Significant residues  Tyr6 and Leu10 Tyr6 and Leu10 of PMI are classified as significant residues, contributing 2.3 to 3.3 kcal/mol in free energy to MDM2/MDMX binding, in favor of MDM2 over MDMX.
+The Y6A mutation reduced the binding affinity of PMI by 191-fold for MDM2 and 79-fold for MDMX.
+Similarly, the L10A mutation weakened PMI binding to MDM2 and MDMX by 277- and 50-fold, respectively.
+The fact that Tyr6 and Leu10 were equally important for MDM2/MDMX binding perhaps validates the grouping of Phe3, Tyr6, Trp7 and Leu10 as a hydrophobic tetrad critical for PMI activity.
+In the crystal structures of PMI-MDM2 and PMI-MDMX, Tyr6 of PMI makes van der Waals contacts with His73 and Val93 of MDM2 or His72 and Val92 of MDMX, forms cation- interactions with Lys94 of MDM2 or possibly Lys93 of MDMX, and participates in an elaborate, water-mediated H-bonding network comprising the side chain(s) of Gln72 and Lys94 of MDM2 or Gln71 of MDMX.
+Similar interactions have also been noted in MDM2/MDMX complexed with pDI (LTFEHYWAQLTS)  a phage-optimized dual specific peptide inhibitor of the p53-MDM2/MDMX interactions.
+Favorable hydrophobic, -cation, and electrostatic interactions between the tyrosyl group and MDM2/MDMX (Figure 1B) likely contributed to the strong selection of Tyr at this position over a Leu residue (in p53) as reported in several phage display studies.
+ 3. Moderately important residues  Ser2 and Glu5 The side chains of Ser2 and Glu5 make no direct contact with MDM2/MDMX.
+However, they participate in an elaborate N-terminal H-bonding network that stabilizes the -helical conformation of PMI in bound state.
+As shown in Figure 1C, in addition to a side chain-side chain H-bond between Ser2 O and Glu5 O1, Ser2 and Glu5 also form two reciprocal side chain-main chain H-bonds with Glu5 N and Ser2 N. Not surprisingly, mutation of either residue in PMI to Ala resulted in a loss of 0.9 to 1.2 kcal/mol in binding free energy.
+The half-log to one-log reduction in binding affinity, as a result of the S2A or E5A mutation, earned Ser2 and Glu5 moderately important residues in PMI interactions with MDM2/MDMX.
+ 4. Neutral residues  Thr1, Leu9, Ser11 and Pro12 Any residue whose Ala substitution yields a Kd value within a factor of two of the Kd value of PMI is generally considered neutral. The four residues Thr1, Leu9, Ser11 and Pro12 fall into this category.
+While Leu9 and Ser11 are justifiably true neutral residues, Thr1 and Pro12 slightly deviate from the neutrality. The T1A mutation caused a loss of ~0.4 kcal/mol in binding free energy to PMI for both MDM2 and MDMX.
+Since small polar amino acid residues such as Thr are known to have greater N-cap propensities than Ala in an -helical peptide, the T1A mutation likely destabilized the helical conformation of PMI in bound state, resulting in a somewhat reduced binding affinity.
+The P12A mutation, while inconsequential for MDM2 binding, selectively weakened PMI binding to MDMX by ~ 0.3 kcal/mol.
+Consistent with this finding, structural studies of PMI in complex with MDM2 and MDMX predicted a favorable interaction between Pro12 and a ligand-induced shallow hydrophobic cleft on MDMX, which was absent in the PMI-MDM2 complex (Figure 1D).
+However, the energetic contribution of Pro12 to PMI binding to MDMX is smaller than previously thought.
+ 5. Deleterious residue(s)  Asn8 One of the most interesting findings entails the identification of Asn8 as a deleterious residue selected by phage display.
+Asn8 is a non-contact residue of PMI whose side chain is not involved in any interactions with MDM2 or MDMX in the complex.
+However, the N8A mutation enhanced the binding of PMI to MDM2 by 6.5-fold and to MDMX by 3.5-fold.
+These enhancements in binding affinity effectively turned N8A-PMI into the most potent dual specific peptide antagonist of MDM2 and MDMX ever reported, with respective Kd values of 0.49 and 2.4 nM. Asn is one of the least frequently occurred amino acids in -helices in globular proteins.
+Based on numerous experimental studies of the stability of peptides and proteins, Pace and Scholtz compiled a helix propensity scale for solvent-exposed amino acid residues at the middle positions (noncapping) of an -helix.
+Not surprisingly, Asn was one of the amino acids with the lowest helix propensity.
+We suspected that Asn8 was destabilizing to PMI helical conformation, attributing to the improved binding affinity of N8A-PMI for MDM2/MDMX.
+ Crystal structure of N8A-PMI complexed with MDM2 We determined the co-crystal structure of N8A-PMI-25109MDM2 at 1.95  resolution.
+Data collection and refinement statistics are tabulated in Table 2.
+Eight copies of the peptide-protein complex reside in one asymmetric unit.
+Pairwise comparisons of all eight copies of MDM2 from the asymmetric unit (a total of 28 pairs) showed that the RMSD values ranged from 0.18 to 0.66 , averaging at 0.45 . Position-dependent average RMSD values are presented in Figure S2.
+The 2 helix of MDM2, which is in direct contact with peptide ligand, is the least variable region in the protein, as evidenced by the lowest average RMSD values.
+By contrast, the C-terminal 2 helix of MDM2, which is involved in crystal packing, varies to a much greater degree.
+Superposition of the eight highly similar MDM2 molecules reveals that the backbone and side chain conformation of bound N8A-PMI varies very little in the region of residues 19 (RMSD ranging from 0.06 to 0.19  between equivalent C atoms of residues 19), but becomes disordered at the C-terminus and, in particular, at Ser11 and Pro12 (Figure 2).
+In fact, the C-terminal Pro residue of N8A-PMI was missing from the electron density map of 6 out of 8 complexes present in the asymmetric unit.
+We were able to build Pro12 of N8A-PMI into the model for the remaining two complexes, due to additional stabilizing interactions of Pro12 with symmetry related neighboring MDM2 molecules.
+ As expected, N8A-PMI and PMI bind nearly identically to the p53-binding domain of MDM2 (Figures 3A and 3B).
+The N8A-PMI/PMI-MDM2 recognition, dominated by hydrophobic interactions involving Phe3, Trp7 and Leu10, is further augmented by Tyr6-mediated hydrophobic and -cation interactions.
+Three intermolecular H-bonds formed between Phe3 N, Trp7 N1, and Leu10 O of PMI and Gln72 O1, Leu54 O, and Tyr100 O of MDM2, respectively, as well as the majority of water mediated H- bonds are also preserved in both complexes.
+One minor difference is that a water mediated H-bond between Tyr6 O of PMI and Lys94 N of MDM2 is absent in the N8A-PMI-MDM2 complex.
+Overall, the N8A-PMI-25109MDM2 crystal structure confirms that the N8A substitution did not introduce any energetically significant inter-molecular interactions that could explain the enhanced binding affinity of N8A-PMI for MDM2.
+ However, subtle but important differences in intra-molecular H-bonding exist between PMI and N8A-PMI (Figure 3C).
+In MDM2-bound N8A-PMI, two new backbone-backbone H-bonds form between the acceptor Glu5 O and the donors Trp7 N (i, i+3) and Ala8 N (i, i+4), which are both absent in PMI.
+In addition, the H-bonding pattern involving Ser2 and Glu5 of N8A-PMI slightly differs from that of PMI.
+Water-bridged H-bonding (2.6 and 2.8 ) between the side-chains of Ser2 and Glu5 in N8A-PMI displaces a long (3.3 ) and awkwardly angled H-bond between Ser2 O and Glu5 O1 in PMI.
+It is conceivable that the changes in intra-molecular H-bonding enhanced conformational stability of N8A-PMI in its bound state, thereby contributing to its improved binding affinity for MDM2.
+ The two rare full-length N8A-PMI molecules built into the model deserve some comments as the C-terminal residues Ser11 and Pro12 signify two distinct modes of binding of PMI to MDM2 and MDMX.
+Superposition of the co-crystal structures of N8A-PMI-MDM2 and PMI-MDMX immediately unveils a significant swing of Pro12 from a distal position, where it appears to clash with a protruding Tyr100 of MDM2, to a contact position, where it makes favorable hydrophobic interactions with a recessed Tyr99 of MDMX (Figure 3D).
+It is well established that the conformation of Tyr100 of MDM2 and Tyr99 of MDMX shapes the binding cavity, or lack thereof, of the C-terminal residues of a peptide ligand.
+ Truncation of PMI To determine the length of PMI minimally required for effective MDM2/MDMX binding, we characterized five truncation analogs of PMI, and the results are shown in Figure S1 and Table 1.
+Truncation of PMI at both termini by a total of four residues (Thr1Ser2 and Ser11Pro12) increased the Kd by 2780-fold for MDM2 and 5180-fold for MMDX, accounting for a loss of almost 5 kcal/mol in binding free energy.
+At low micromolar affinities (Kd = 8.9 and 44 M), the octapeptide FAEYWNLL appears minimally required for effective MDM2/MDMX binding, as further truncation at either end would render the resultant peptide inactive due to disintegration of the hydrophobic tetrad of PMI.
+ Notably, the truncation effects on PMI binding to MDM2/MDMX were significantly more pronounced than the side-chain deletion effects.
+For instance, while the T1A mutation increased the Kd of PMI for MDM2/MDMX by a factor of 2, truncation of Thr1 weakened the binding of 110PMI by roughly 20 fold.
+Further truncation of Ser2 from 210PMI caused an additional 60-fold increase in Kd, whereas the S2A mutation weakened PMI binding to MDM2/MDMX by less than 10-fold.
+Similarly, a combined mutational effect of four Ala substitutions at positions 1, 2, 11, and 12 of PMI is ~ 1.6 kcal/mol for MDM2/MDMX, much smaller than the ~ 5 kcal/mol loss in binding free energy upon truncation of Thr1, Ser2, Ser11 and Pro12.
+Obviously, greater binding free energy is lost as the peptide is shortened.
+Our findings suggest that the four terminal residues, and Thr1 and Ser2 in particular, contributed to PMI binding to MDM2/MDMX primarily by stabilizing the -helical conformation of the bound peptide.
+ Ala-scan mutational analysis of 1728p53 A total of 12 Ala-substituted analogs of 1728p53 were prepared for functional studies, and their binding data for MDM2 and MDMX are presented in Figure S3 and Table 3.
+ 1.
+The most critical residues  Phe19 and Trp23 The functional importance of Phe19 and Trp23 in p53-MDM2/MDMX interactions is well recognized both experimentally and computationally.
+Unfortunately, the binding of F19A-1728p53 and W23A-1728p53 to MDM2/MDMX was too weak to accurately quantify by the SPR-based competition assay.
+At 375 M, neither peptide analog showed any detectable MDM2/MDMX binding (data not shown).
+Higher peptide concentrations of up to 3 mM were used.
+However, due to erratic background binding to the reference flow cell of a CM5 sensor chip, no reliable isotherms were obtained for quantification.
+By our estimation, either mutation (F19A or W23A) would weaken 1728p53 binding to MDM2/MDMX by at least three orders of magnitude.
+Our inability to quantify the extremely weak binding of F19A-1728p53 and W23A-1728p53 to MDM2/MDMX, nevertheless, confirms Phe19 and Trp23 as the two most critical residues of p53, consistent with the findings on PMI.
+ 2. Significant residue  Leu26 Like Leu10 of PMI, Leu26 of p53 is a significant residue, contributing 2.4 and 2.7 kcal/mol in binding free energy to MDM2 and MDMX, respectively.
+Interestingly, however, unlike Leu10 of PMI, which is ~ 6-fold (in Kd) more specific toward MDM2 than MDMX, the Leu26 residue preferred MDMX to MDM2 by roughly a factor of 2.
+Thus, the Leu binding pocket on MDM2 and MDMX confers specificity of recognition.
+Notably, various inconsistent results have been reported on amino acid substitutions at Leu26 of p53.
+Based on a phage selected duodecimal peptide inhibitor of MDM2 and ELISA binding assays, Bottger et al. found that Leu26 could only be replaced by Ile, Met, and Val with reduced inhibitory activity.
+However, using an isothermal titration calorimetric assay, Schon et al. showed that Phe was well tolerated at position 26 of p53.
+Zondlo et al., on the other hand, reported that the L26I mutation in p53 had no effect on MDM2 binding as measured by fluorescence polarization.
+ 3. Moderately and marginally important residues  Leu22, Thr18, Asp21 Leu22 of p53 is substantially less important than the Leu26 residue and topologically equivalent Tyr6 of PMI.
+The L22A substitution reduced p53 binding to MDM2/MDMX by roughly one order of magnitude  one par with the mutational effect of S2A or E5A of PMI, thus qualifying as a moderately important residue.
+ The classification of Thr18 and Asp21 in this category is short of being clear-cut.
+Like Ser2 and Glu5 of PMI, Thr18 and Asp21 of p53 form a side chain-side chain H-bond to stabilize the helical peptide.
+The two strong reciprocal side chain-main chain H-bonds between Ser2 and Glu5 in PMI (Figure 1C), however, are significantly lengthened in p53 (>3.5 ), thus energetically ineffective.
+Not surprisingly, the contribution of the Thr18-Asp21 pair of p53 to MDM2/MDMX binding was substantially less than that of its Ser2-Asp5 counterpart of PMI. While the T18A mutation reduced the binding affinity of p53 for MDM2/MDMX by roughly a factor of 3, the D21A mutation weakened it by only a factor of 2.
+Therefore, it may be more appropriate to classify Thr18 and Asp21 as marginally important residues of p53.
+It should also be mentioned that while the Thr18-Asp21 interaction is generally thought to contribute to MDM2 binding by stabilizing p53 conformation, contrasting results were reported.
+Further, phosphorylation of Thr18 in p53 has been shown to weaken MDM2 binding by approximately one order of magnitude, while a T18S mutation in p53 was largely neutral functionally.
+However, whether the deleterious effect of Thr18 phosphorylation was caused by the loss of H-bonding or the introduction of destabilizing electrostatic repulsion remains controversial.
+ 4.
+Neutral residues  Glu17, Ser20, Lys24, Leu25, Glu28 Glu17 appears to be a true neutral residue, while Ser20 and Glu28 are clearly borderline neutral. In fact, replacement of either Ser20 or Glu28 by Ala enhanced p53 binding to MDM2/MDMX by a factor of 2. Lys24 and Leu25 of p53 were also neutral to MDMX binding. But, for MDM2 binding, Ala was favored over Lys24 and disfavored at the Leu25 position.
+Understanding the subtle differences in binding free energy contributed by these non-contact residues is clearly complicated by the interplay of opposing forces such as helix propensity, terminal capping effects, charge-helix dipole interactions, and side chain desolvation penalty.
+ 5. Deleterious residue  Pro27 Recent biochemical and molecular dynamic simulation studies show that replacement of the highly conserved Pro27 in p53 increases its binding affinity for MDM2 as a result of an increased -helicity of the peptide in the complex.
+We found that the P27A mutation enhanced 1728p53 binding affinity by nearly 10-fold for MDM2 and 3-fold for MDMX.
+Since Pro27 is preceded immediately by the helical turn of p53, which ends at Leu26, the known helix breaker could conceivably debilitate 1728p53 to adopt a more extended or stable helical conformation favorable for MDM2/MDMX binding.
+It is worth noting that Ser11 was selected at the equivalent position of PMI, which resulted in enhanced -helicity and tightened intramolecular H-bonding as compared with p53 upon MDM2 binding.
+Ser11Pro12 of PMI nevertheless made no direct contact with MDM2, suggesting that the effect of P27A on 1728p53 binding was likely indirect and conformational.
+However, the 10-fold mutational effect we observed for MDM2 is substantially smaller than the reported 50-fold increase in binding affinity caused by the P27S mutation in p53.
+ Truncation of 1728p53 Five truncation analogs of 1728p53, designed identically to those of PMI, were functionally characterized, and the binding data for MDM2 and MDMX are shown in Figure S3 and Table 3.
+Overall, the findings on the truncation analogs of 1728p53 were consistent with the results of truncated PMI peptides.
+The octapeptide FSDLWKLL was minimally required for binding, with Kd values of 35 and 130 M for MDM2 and MDMX, respectively, representing a 3-fold reduction in binding affinity compared with the octapeptide of PMI ( FAEYWNLL).
+This 3-fold difference in binding affinity between the two core sequences of p53 and PMI appears entirely attributed to the favorable Leu22-to-Tyr6 mutation counteracted by the unfavorable Lys24-to-Asn8 change.
+ Notably, the effect of truncation of the four flanking residues (Glu17, Thr18, Pro27 and Glu28) of 1728p53 was substantially less pronounced energetically than that of PMI.
+The difference between 1728p53 and PMI in binding free energy, contributed by their four terminal residues, i.e., 2.55 vs 4.62 kcal/mol for MDM2 and 3.07 vs 4.98 kcal/mol for MDMX, confirms that the residues peripheral to the minimally required sequence are critical for much enhanced PMI binding to MDM2 and MDMX.
+The extra residues at both termini of PMI and p53 can in principle stabilize the helical conformation and provide additional favorable sub-site interactions.
+However, C-terminally shortening p53 does not always lead to a weakened binding to MDM2/MDMX, and the net outcome is clearly context-dependent.
+In fact, truncation of Pro27Glu28 from 1728p53 enhanced peptide binding to MDM2 by 6-fold, and slightly improved MDMX binding.
+Similarly, truncation of Pro27 from 1927p53 or of Pro27Glu28 from 1928p53 improved MDM2 binding by 4-fold with little impact on peptide binding to MDMX.
+These results are entirely consistent with the deleterious role of Pro27 in the p53-MDM2 interaction.
+ Our results on the N-terminal truncation analogs of p53 are in contrast with the previously reported findings.
+We found that truncation of Glu17Thr18 to 1926p53 reduced MDM2 binding by 466-fold and MDMX binding by 333-fold.
+While Schon et al. reported that the same truncation reduced p53 binding to MDM2 by at least 2 orders of magnitude, only a modest 16-fold decrease in binding affinity was reported by Lai et al. Interestingly, deletion of Glu17 alone from 1726p53 was reported to have little impact on p53 binding to MDM2, whereas a 13- and 6-fold decrease in binding affinity for MDM2 and MDMX, respectively, was noted in our work.
+We made similar findings on PMI, where deletion of Thr1 from 110PMI caused roughly a 20-fold reduction in binding affinity for MDM2/MDMX, despite the fact that both Thr1 of PMI and Glu17 of p53 were defined as neutral residues in Ala scanning mutational analysis.
+While the reasons for the observed discrepancy between our results and the published findings remain unknown, we wish to point out that unlike the peptides used by Lai et al. (the capping status of the peptides used by Schon et al. cannot be inferred from their publication), all our peptides were neither N-acetylated nor C-amidated.
+We found that terminal capping of PMI, 110PMI and 1529p53 uniformly weakened peptide binding to MDM2/MDMX by a factor of 2 (data not shown).
+Obviously, the effects of terminal capping or lack thereof on the activity of truncated PMI and p53 peptides warrant further investigation.
+ Correlations of PMI to p53 and MDM2 to MDMX Despite the fact that PMI and 1728p53 share only 33% sequence identity conferred primarily by the Phe-Trp-Leu triad, both peptides bind MDM2 or MDMX in a nearly identical fashion.
+Assuming that mutations caused little change to the backbone structure of the peptides and largely preserved the same binding mode for PMI and 1728p53 to MDM2 or MDMX, the mutational effects on MDM2 or MDMX binding would be similar for PMI and 1728p53  a reminiscence of inter-frame additivity.
+The binding free energy changes (G) of Ala-scan and truncation analogs of p53 relative to wile type 1728p53 were plotted versus the G values of corresponding analogs of PMI.
+As shown in Figure 4A and 4B, a strong correlation (correlation coefficient r = 0.92) between PMI and 1728p53 was indeed found with respect to MDM2 or MDMX binding.
+An even more remarkable correlation was found between MDM2 and MDMX when we plotted the relative free energy changes of PMI or p53 analogs for MDM2 binding versus their G values for MDMX binding (Figure 4C and 4D), yielding a correlation coefficient of 0.99 for PMI and 0.98 for 1728p53.
+In fact, the linear regression lines are extremely close to the unit slope, suggesting a high degree of functional similarity between MDM2 and MDMX with respect to peptide inhibition.
+ Discussion Elucidating the molecular basis for peptide inhibition of p53 interactions with MDM2 and MDMX is important for the design of p53 activators for therapeutic applications.
+Much of the prior studies have focused on the p53-MDM2 interacting system, and significant progress has been made in the discovery of MDM2-targeted candidate drug molecules.
+How to design MDMX-specific and, in particular, dual specific antagonists, however, still remains a challenge.
+By performing a systematic and comparative mutational analysis of PMI and 1728p53, we have gained valuable insights into the molecular determinants of affinity and specificity for peptide inhibition of the p53-MDM2 and MDMX interactions.
+ The phage-selected dual specific peptide inhibitor PMI is approximately 2 orders of magnitude stronger than 1728p53 for MDM2/MDMX binding.
+The enhanced binding affinity of PMI stems primarily from: (1) improved helix stability (or propensity) due to strengthened H-bonding (Ser2-Glu5 in place of Thr18-Asp21), better N-capping (Thr1 in place of Glu17), and re-positioning of Pro27 of p53; (2) the mutation of Leu22 of p53 to Tyr6 of PMI and other optimized sub-site interactions peripheral to the minimally required binding sequence.
+It is worth noting that phage selection does not always lead to the optimal binding solution because of biased selections resulting from differences in codon representation, library size and expression efficiency.
+Such bias, inherent of the phage display technique, can be best illustrated by the selection of the functionally deleterious Asn8 residue in PMI.
+Consistent with our findings, Chen and colleagues recently reported that simultaneous replacement of 4 amino acid residues in pDI  a phage-selected duodecimal peptide with lower binding affinities for MDM2/MDMX than PMI  further improved the binding affinity of the resultant peptide (termed pDIQ) by 5-fold.
+ Despite a strong correlation in binding free energies between PMI and 1728p53, the p53 peptide is overall less sensitive to amino acid substitutions than PMI, as evidenced by a less than unit slope of the linear regression line.
+This difference in sensitivity to mutations indicates that PMI is an inherently better template molecule than 1728p53 for the design of the most potent peptide antagonists of MDM2/MDMX.
+The single mutation of Asn8 to Ala turned N8A-PMI into the strongest dual specific peptide inhibitor reported to date - 898- and 267-fold more potent than 1728p53 for MDM2 and MDMX binding, respectively.
+It is conceivable that a high-resolution comprehensive sequence-to-activity relationship study of N8A-PMI, where each amino acid position is individually substituted by any of the other 19 natural amino acids, should maximize its inhibitory activity against both MDM2 and MDMX.
+ Is it possible to design MDMX-specific peptide inhibitors? To answer this question, we examined functional correlations between MDM2 and MDMX.
+The nearly perfect correlation between MDM2 and MDMX with respect to PMI or 1728p53 inhibition, while conferring powerfully predictive matrices for mutational analysis, underscores the difficulty with which peptide ligands specific for either protein can be designed.
+Almost all PMI and p53 analogs exhibited higher binding affinity for MDM2 than for MDMX.
+The overwhelming preference of PMI- and p53-derived peptides for MDM2 to MDMX strongly suggests that it is extremely challenging, if not impossible, to achieve high binding specificity for MDMX in ligand design.
+Promising exceptions, however, do exist.
+ Two data points of PMI that noticeably deviated from the unit slope are L10A and Pro12 (Figure 4).
+The L10A mutation is significantly more deleterious to MDM2 than to MDMX, differing by 1.0 kcal/mol in relative binding free energy.
+In fact, L10A-PMI is the only peptide analog in the panel that had a higher binding affinity for MDMX than for MDM2.
+Structurally, Leu10 of PMI is well shielded from the bulk solvent by His96 and Tyr100 of MDM2 in the complex, whereas it is less buried in the PMI-MDMX complex, due to a conformational change caused by the His96 (MDM2) to Pro95 (MDMX) mutation.
+Thus, the Leu10-binding pockets of MDM2 and MDMX confer a certain degree of steric selectivity that can be exploited to fine-tune the specificity of peptide inhibition.
+The caveat, however, is that at position 10 of PMI, improved specificity may come at the expense of potency.
+ Modulation of the C-terminus of PMI may offer a better alternative for specificity fine-tuning as suggested by structural and computational analysis.
+The structural studies showed that while Pro12 of PMI was disordered in the PMI-MDM2 complex, it made favorable interactions with a hydrophobic cleft on MDMX lined by Val49, Met53, Tyr99, and Leu102.
+The Pro12-binding pocket on MDMX, albeit shallow, formed as the result of a (recessed) conformational change of Tyr99 induced by the His96 (MDM2) to Pro95 (MDMX) mutation in the 2-helix.
+We have recently shown that MDMX-specific miniature protein ligands can be designed through C-terminal modulation of length and composition.
+Thus, elongating and/or optimizing the C-terminus of PMI may provide sufficient specificity determinants for MDMX without compromising binding affinity.
+ The p53-MDM2 interaction has been a subject of intensive experimental investigation for over a decade.
+Exemplary early studies include an exhaustive mutational analysis by Bottger et al. of phage-optimized peptide ligands of MMD2, and a comprehensive examination by Schon et al. of the effects of peptide length, non-coded amino acid substitutions and phosphorylation of Ser/Thr residues on p53 binding to MDM2.
+As a result of these pioneering studies, valuable insights have been gained into the molecular determinants of peptide inhibition of the p53-MDM2 interaction.
+However, systematic Ala scanning mutagenesis in conjugation with accurate biophysical quantification has been notably missing in the literature.
+A wide range of inconsistent experimental results have been reported, which was likely compounded by the variation in length of peptide and protein constructs, the lack of systematicness in experimental design, and the use of different and, often, less quantitative tools for quantification.
+ The p53-MDM2 interacting system has also been a favorable subject of computational mutational studies.
+Massova & Kollman described the first theoretical computational approach to Ala scanning mutagenesis, where all 11 residues of p53 were computationally mutated to Ala, and the mutational effects on the binding free energy for p53-MDM2 were calculated using explicit molecular mechanical energies combined with continuum solvation models.
+Kortemme and Baker developed a simple physical model for computational Ala scanning mutagenesis, which was based on an all-atom rotamer description of the side chains together with an energy function dominated by Lennard Jones interactions, solvation interactions, and hydrogen bonding.
+The binding free energies of all 10 computationally mutated Ala scanning peptides of p53 were calculated for MDM2.
+We plotted the two sets of G values calculated by Massova & Kollman and by Kortemme and Baker, excluding those for Phe19, Trp23 and Leu26, versus our experimentally determined values for six 1728p53 analogs, and a strong correlation was found (r = 0.946 and 0.904, respectively) (Figure 5A).
+Importantly, when the four identical mutations in PMI and 1728p53 were compared (F19A, W23A, L25A and L26A in p53; F3A, W7A, L9A and L10A in PMI), a nearly perfect correlation (r = 0.996) emerged between our experimental values and the G values calculated by the Kortemme-Baker model (Figure 5B).
+The high-resolution crystal structures of PMI in complex with MDM2 and MDMX and N8A-PMI in complex with MDM2 coupled with the powerful empirical binding data for PMI should provide a unique opportunity for computational studies of peptide inhibition of the p53-MDM2/MDMX interactions.
+ Experimental Procedures Peptide and protein syntheses PMI and 1728p53 and their Ala-substituted and truncation analogs were chemically synthesized on appropriate PAM resins using the HBTU activation/DIEA in situ neutralization protocol optimized for Boc chemistry solid phase peptide synthesis.
+Synthesis and folding of synthetic 25109MDM2 and 24108MDMX were carried out as described.
+All peptides and proteins were purified to homogeneity by reversed-phase HPLC, and their molecular masses ascertained by electrospray ionization mass spectrometry.
+Peptide and protein concentrations were quantified spectroscopically by using UV absorbance measurements at 280 nm and molar extinction coefficients calculated according to the published algorithm.
+ SPR-based Kd measurements Quantification of the binding affinity of PMI and p53 peptides for MDM2 and MDMX was performed at room temperature using the previously published SPR-based competition binding method, which was validated by a comparative isothermal titration calorimetric assay.
+50 nM MDM2 or 100 nM MDMX was incubated in 10 mM HEPES buffer containing 150 mM NaCl, 0.005% surfactant P20, pH 7.4, with varying concentrations of peptide inhibitor before SPR analysis on a p53 immobilized sensor chip.
+Non-linear regression analysis was performed using GraphPad Prism 4 to give rise to Kd values using the equation Kd = [peptide][MDM2/MDMX]/[complex].
+ Crystallization and data collection Crystallization screening of the N8A-PMI-25109MDM2 complex was conducted at room temperature using the hanging-drop, vapor diffusion method and commercial crystallization matrices (Hampton).
+Crystals were grown upon mixing 1 l of N8A-PMI-25109MDM2 at ~10 mg/ml in 10 mM HEPES buffer, 0.1 mM TCEP, pH 7.5, with 1 l of a reservoir solution containing 0.2 M magnesium acetate tetrahydrate sulfate, 0.1 M sodium cacodylate trihydrate, pH 6.5, 20% w/v PEG 8,000.
+The best crystals were soaked briefly in the reservoir solution plus 15% (v/v) glycerol as a cryoprotectant and subsequently flash-frozen in liquid nitrogen.
+X-ray diffraction data were collected with a Raxis-4++ image plate detector mounted on a Rigaku-MSC Micromax 7 generator (at the X-ray Crystallography Core Facility, University of Maryland, Baltimore).
+ Structure determination and refinement Data processing was carried out with the HKL2000 program suite.
+The structure was solved by molecular replacement using Phaser from the CCP4 suite and a search model based on the previously determined structure of 25109MDM2 in complex with PMI (3EQS).
+The model was further refined with the program Refmac, and rebuilt using the program COOT.
+Data collection and refinement statistics are summarized in Table 2.
+Molecular graphics were generated using Pymol (http://pymol.org).
+ Supplementary Material Figures and Tables Close-up view of the binding interfaces of PMI-25109MDM2 (PDB code: 3EQS) and PMI-24108MDMX (PDB code: 3EQY).
+(A) PMI in the p53-binding cavity of MDM2.
+The side chains of the four most critical residues, Phe3, Tyr6, Trp7, and Leu10, are shown in sticks.
+(B) Tyr6 of PMI (green) in complex with synthetic 25109MDM2 (cyan) versus Leu22 of p53 (yellow) in complex with recombinant 17109MDM2 (magenta) (PDB code: 1YCR).
+Tyr6 makes van der Waals contacts and -cation interactions with His73, Val93 and Lys94 of MDM2.
+(C) The N-terminal H-bonding network involving Ser2 and Glu5 of MDM2-bound PMI.
+The following four H-bonds are depicted: Ser2 O  Glu5 O1 (3.3 , side chain-side chain), Ser2 O  Glu5 N (3.1 , side chain-main chain), Ser2 N  Glu5 O1 (2.8 , main chain-side chain), and Ser2 O  Glu5 N (3.0 , main chain-main chain).
+(D) PMI in the p53-binding cavity of MDMX.
+Val49, Met53, Tyr99 and Leu102 of MDMX line a shallow hydrophobic depression that accommodates Pro12 of PMI. Superposition of eight N8A-PMI-25109MDM2 complexes present in the asymmetric unit of crystal where MDM2 molecules are aligned.
+C traces of MDM2 are shown as ribbons, whereas N8A-PMI molecules are shown as ball-and-sticks.
+ Crystal structure of 25109MDM2 in complex with N8A-PMI.
+(AB) Close-up view of the binding interface of one representative N8A-PMI-MDM2 complex from the asymmetric unit, alone (A), and, superimposed with PMI-MDM2 (B).
+Residues contributing to the binding through hydrophobic and H-bonding interactions are shown as ball-sticks.
+Water molecules are shown as spheres, and colored orange and red for N8A-PMI-MDM2 and PMI-MDM2 complexes, respectively.
+Hydrogen bonds are shown as black dashes.
+The length of each H-bond in N8A-PMI-MDM2 is averaged from eight independent copies present in the asymmetric unit of crystal.
+All water mediated H-bonds shown in panel A are conserved among eight complexes, except for the one between Tyr6 O of N8A-PMI and Gln72 N of MDM2, which is present in four complexes.
+In panel B only water mediated H-bonds seen exclusively in the PMI-MDM2 complex are shown.
+(C) Superposition of N8A-PMI and PMI peptides bound to MDM2.
+H-bonds (shown as dashes) and their distances in N8A-PMI-MDM2 and PMI-MDM2 complexes are colored black and blue, respectively.
+Two exclusive backbone H-bonds (Glu5 O  Ala8 N and Glu5 O  Leu9 N) in the helix of N8A-PMI are also shown as black dashes.
+The water molecule mediating the interaction between the side chains of Ser2 and Glu5 is shown as an orange sphere.
+(D) Superposition of N8A-PMI-MDM2 (yellow/gray) and PMI-MDMX (orange/blue) binding interfaces.
+Only C-terminal regions of the peptide ligands are shown together with the residues of MDM2 and MDMX that interact with Pro12.
+ Correlations of relative binding free energies (G, kcal/mol) between (A) 1728p53 and PMI for MDM2 binding, (B) 1728p53 and PMI for MDMX binding, (C) MDMX and MDM2 for PMI inhibition, and (D) MDMX and MDM2 for 1728p53 inhibition.
+The unit slope is depicted by dash lines, and the linear regression lines are denoted as solid lines.
+ Correlations of relative binding free energies (G, kcal/mol) between theoretical values calculated by the Massova & Kollman (blue) and Kortemme & Baker (red) models and experimentally determined values.
+Plotted in the left panel are the G values for E17A, T18A, S20A, D21A, L22A, K24A, L25A and L26A of p53 for MDM2 binding.
+Shown in the right panel are the calculated values for F19A, W23A, L25A and L26A of p53 for MDM2 binding versus the experimental values for F3A, W7A, L9A and L10A of PMI.
+The unit slope is depicted by dash lines, and the linear regression lines are denoted as solid lines.
+ Dissociation equilibrium constants (Kd  SD, M) of PMI and 16 analogs for MDM2 and MDMX.
+Kd ratios and calculated binding free energies (kcal/mol) relative to PMI are also listed.
+Refer to Figure S1 for dose-dependent competition binding.
+ Peptide Sequence PMI-MDM2 PMI-MDMX      Kd (M) Kd ratio G(kcal/mol) Kd (M) Kd ratio (kcal/mol) G   T S F A E Y W N L L S P 3.21.1E-09 1.0 0.00 8.51.7E-09 1.0 0.00   A S F A E Y W N L L S P 6.20.1E-09 1.9 0.39 1.60.3E-08 1.8 0.35   T A F A E Y W N L L S P 2.70.4E-08 8.4 1.24 3.70.4E-08 4.3 0.85   T S A A E Y W N L L S P 3.80.2E-05 11750 5.46 1.20.1E-04 14120 5.57   T S F A E Y W N L L S P 3.21.1E-09 1.0 0.00 8.51.7E-09 1.0 0.00   T S F A A Y W N L L S P 2.10.1E-08 6.7 1.10 6.70.9E-08 7.8 1.20   T S F A E A W N L L S P 6.10.7E-07 191 3.06 6.70.8E-07 79 2.55   T S F A E Y A N L L S P 1.60.3E-04 50720 6.31 2.30.1E-04 26590 5.94   T S F A E Y W A L L S P 4.92.1E-10 0.2 1.10 2.40.6E-09 0.3 0.74   T S F A E Y W N A L S P 2.40.5E-09 0.8 0.17 9.02.1E-09 1.1 0.03   T S F A E Y W N L A S P 8.90.1E-07 277 3.28 4.30.4E-07 50 2.28   T S F A E Y W N L L A P 3.90.3E-09 1.2 0.12 1.10.2E-08 1.3 0.17   T S F A E Y W N L L S A 2.10.5E-09 0.7 0.25 1.40.3E-08 1.7 0.31      T S F A E Y W N L L   8.60.6E-09 2.7 0.58 2.90.5E-08 3.4 0.71    S F A E Y W N L L   1.70.1E-07 53 2.31 6.70.6E-07 79 2.55     F A E Y W N L L   8.90.7E-06 2780 4.62 4.40.5E-05 5180 4.98     F A E Y W N L L S  1.40.2E-05 4375 4.88 3.70.1E-05 4350 4.88     F A E Y W N L L S P 6.51.1E-06 2030 4.44 8.81.0E-06 1035 4.04    Data collection and refinement statistics Data Collection   Space group P3212   Cell parameters,  a=90.54, b=90.54, c=196.85   Complex/a.u.
+ 8   Resolution a,  501.95 (1.981.95)   Number of reflections   Total 488,617   Unique 67,781   Rmergeb, 0.11 (0.58)   Completeness, % 100 (100)   Redundancy 8.2 (8.1)   I/ (I) 23.1 (4.0)      Refinement Statistics   Resolution,  201.95   Number of reflections 64,239   Rcrystc, % 22.0 (22.9)   Number of reflections used for Rfreed 3,425   Rfree, % 26.5 (31.4)   No. of protein atoms 6,277   No. of water molecules 675   No. of chlorine atoms 8   Average B-factor, 2   Protein 28.6   peptide ligand 33.3   Water 33.8   Root mean square deviation   Bond lengths,  0.02   Bond angles,  1.81   Ramachandran plot   Most favored region, % 99.3   Additional allowed region, % 0.7   Generously allowed region, % 0.0   Disallowed region, % 0.0    All data (outer shell).
+ Rmerge = |I  <I>|/I, where I is the observed intensity and <I> is the average intensity obtained from multiple observations of symmetry-related reflections after rejections R = ||Fo||Fc||/|Fo|, where Fo and Fc are the observed and calculated structure factors, respectively Rfree = defined by Brnger  Dissociation equilibrium constants (Kd  SD, M) of 1728 p53 and 15 analogs for MDM2 and MDMX.
+Kd ratios and calculated binding free energies (kcal/mol) relative to 1728 p53 are also included.
+ Peptide Sequence P53-MDM2 P53-MDMX      Kd (M) Kd ratio G (kcal/mol) Kd (M) Kd ratio G (kcal/mol)   E T F S D L W K L L P E 4.40.4E-07 1.0 0.00 6.40.5E-07 1.0 0.00   A T F S D L W K L L P E 5.60.2E-07 1.3 0.14 6.80.1E-07 1.1 0.03   E A F S D L W K L L P E 1.20.1E-06 2.7 0.58 2.30.1E-06 3.6 0.75   E T A S D L W K L L P E n.d.a   n.d.a     E T F A D L W K L L P E 2.10.1E-07 0.5 0.43 3.10.1E-07 0.5 0.43   E T F S A L W K L L P E 8.30.2E-07 1.9 0.37 1.10.1E-06 1.7 0.32   E T F S D A W K L L P E 5.00.4E-06 11 1.41 9.00.8E-06 14 1.54   E T F S D L A K L L P E n.d.a   n.d.a     E T F S D L W A L L P E 2.30.2E-07 0.5 0.39 4.90.4E-07 0.8 0.15   E T F S D L W K A L P E 7.30.1E-07 1.7 0.30 6.90.6E-07 1.1 0.04   E T F S D L W K L A P E 2.70.1E-05 61 2.39 6.60.1E-05 102 2.70   E T F S D L W K L L A E 5.10.3E-08 0.1 1.26 2.40.2E-07 0.4 0.58   E T F S D L W K L L P A 2.40.2E-07 0.5 0.36 3.30.1E-07 0.5 0.39      E T F S D L W K L L   7.50.2E-08 0.2 1.03 3.90.2E-07 0.6 0.29    T F S D L W K L L   1.00.1E-06 2.3 0.47 2.40.1E-06 3.8 0.77     F S D L W K L L   3.50.4E-05 79 2.55 1.30.2E-04 195 3.07     F S D L W K L L P  1.40.3E-04 319 3.36 1.60.1E-04 244 3.20     F S D L W K L L P E 1.20.2E-04 269 3.26 1.90.4E-04 291 3.30    The binding affinity of F19A- and W23A-1728 p53 for MDM2 and MDMX was too weak to reliably measure, thus listed as not determined. Refer to Figure S3 for dose-dependent competition binding.
+ Surfing the p53 network Cancer.
+p53, guardian of the genome p53 in health and disease Modeling the therapeutic efficacy of p53 restoration in tumors Restoration of p53 function leads to tumour regression in vivo Senescence and tumour clearance is triggered by p53 restoration in murine liver carcinomas Awakening guardian angels: drugging the p53 pathway Mdm2 promotes the rapid degradation of p53 Oncoprotein MDM2 is a ubiquitin ligase E3 for tumor suppressor p53 Regulation of p53 stability by Mdm2 The mdm-2 oncogene product forms a complex with the p53 protein and inhibits p53-mediated transactivation MDMX: from bench to bedside Regulating the p53 pathway: in vitro hypotheses, in vivo veritas Hdmx protein stability is regulated by the ubiquitin ligase activity of Mdm2 HdmX stimulates Hdm2-mediated ubiquitination and degradation of p53 MDM2 promotes ubiquitination and degradation of MDMX Structure of the MDM2 oncoprotein bound to the p53 tumor suppressor transactivation domain Structure of the human Mdmx protein bound to the p53 tumor suppressor transactivation domain Molecular Basis for the Inhibition of p53 by Mdmx Structural biology of the tumor suppressor p53 Structure of tumor suppressor p53 and its intrinsically disordered N-terminal transactivation domain p53 contains large unstructured regions in its native state Molecular mechanism of the interaction between MDM2 and p53 Molecular characterization of the hdm2-p53 interaction Several hydrophobic amino acids in the p53 amino-terminal domain are required for transcriptional activation, binding to mdm-2 and the adenovirus 5 E1B 55-kD protein Computational alanine scanning to probe protein-protein interactions: a novel approach to evaluate binding free energies A simple physical model for binding energy hot spots in protein-protein complexes Temporal activation of p53 by a specific MDM2 inhibitor is selectively toxic to tumors and leads to complete tumor growth inhibition In vivo activation of the p53 pathway by small-molecule antagonists of MDM2 Crystal Structures of Human MdmX (HdmX) in Complex with p53 Peptide Analogues Reveal Surprising Conformational Changes Identification and characterization of the first small-molecule inhibitor of MDMX Efficient p53 activation and apoptosis by simultaneous disruption of binding to MDM2 and MDMX Structural basis for high-affinity peptide inhibition of p53 interactions with MDM2 and MDMX Turning a scorpion toxin into an antitumor miniprotein Apamin as a template for structure-based rational design of potent peptide activators of p53 High affinity interaction of the p53 peptide-analogue with human Mdm2 and Mdmx Structure-based design of high-affinity peptides inhibiting the interaction of p53 with MDM2 and MDMX Identification of novel mdm2 binding peptides by phage display Helix capping propensities in peptides parallel those in proteins A helix propensity scale based on experimental studies of peptides and proteins Determinants of specificity of MDM2 for the activation domains of p53 and p65: proline27 disrupts the MDM2-binding motif of p53 Study of MDM2 binding to p53-analogues: affinity, helicity, and applicability to drug design Thermodynamics of p53 binding to hdm2(1126): effects of phosphorylation and p53 peptide length Modulation of the p53-MDM2 interaction by phosphorylation of Thr18: a computational study Multiple peptide conformations give rise to similar binding affinities: molecular simulations of p53-MDM2 Additivity-based prediction of equilibrium constants for some protein-protein associations Interscaffolding additivity.
+Association of P1 variants of eglin c and of turkey ovomucoid third domain with serine proteinases Comparative study of the p53-mdm2 and p53-MDMX interfaces Reexamination of the recognition preference of the specificity pocket of the Abl SH3 domain Crystal structures of bovine chymotrypsin and trypsin complexed to the inhibitor domain of Alzheimers amyloid beta-protein precursor (APPI) and basic pancreatic trypsin inhibitor (BPTI): engineering of inhibitors with altered specificities Computational studies and peptidomimetic design for the human p53-MDM2 complex In situ neutralization in Boc-chemistry solid phase peptide synthesis.
+Rapid, high yield assembly of difficult sequences How to measure and predict the molar absorption coefficient of a protein  Likelihood-enhanced fast rotation functions Refinement of macromolecular structures by the maximum-likelihood method Coot: model-building tools for molecular graphics Free R value: a novel statistical quantity for assessing the accuracy of crystal structures ACCESSION NUMBERS: Coordinates and structure factors have been deposited in the Protein Data Bank with accession number 3LNZ.
+ This is a PDF file of an unedited manuscript that has been accepted for publication.
+As a service to our customers we are providing this early version of the manuscript.
+The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final citable form.
+Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.
+ 

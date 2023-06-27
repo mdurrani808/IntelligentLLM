@@ -1,0 +1,340 @@
+This article was downloaded by: [University of Alaska Fairbanks]  On: 06 January 2015, At: 05:45  Publisher: Taylor & Francis  Informa Ltd Registered in England and Wales Registered Number: 1072954 Registered office: Mortimer House,  37-41 Mortimer Street, London W1T 3JH, UK  Click for updates  mAbs  Publication details, including instructions for authors and subscription information:  http://www.tandfonline.com/loi/kmab20  Structural basis for the neutralization and specificity  of Staphylococcal enterotoxin B against its MHC Class II  binding site  Tian Xiaab  , Shuaiyi Liangc  , Huajing Wangad  , Shi Huad  , Yuna Sune  , Xiaojie Yuad  , Jun Hanb  , Jun  Lib  , Shangjing Guob  , Jianxin Daiadb  , Zhiyong Louc   & Yajun Guoadb  a   International Joint Cancer Institute; Second Military Medical University; Shanghai, P.R.  China  b   College of Pharmacy; Liaocheng University; Liaocheng, P.R. China  c   Laboratory of Structural Biology and MOE Laboratory of Protein Science; School of Medicine  and Life Science; Tsinghua University; Beijing, P.R. China  d   State Key Laboratory of Antibody Medicine and Targeting Therapy and Shanghai Key  Laboratory of Cell Engineering and Antibody; Shanghai, P.R. China  e   National Laboratory of Macromolecules; Institute of Biophysics; Chinese Academy of  Science; Beijing, P.R. China  Published online: 07 Nov 2013.
+  To cite this article: Tian Xia, Shuaiyi Liang, Huajing Wang, Shi Hu, Yuna Sun, Xiaojie Yu, Jun Han, Jun Li, Shangjing Guo,  Jianxin Dai, Zhiyong Lou & Yajun Guo (2014) Structural basis for the neutralization and specificity of Staphylococcal  enterotoxin B against its MHC Class II binding site, mAbs, 6:1, 119-129, DOI: 10.4161/mabs.27106  To link to this article: http://dx.doi.org/10.4161/mabs.27106  PLEASE SCROLL DOWN FOR ARTICLE  Taylor & Francis makes every effort to ensure the accuracy of all the information (the Content) contained  in the publications on our platform.
+However, Taylor & Francis, our agents, and our licensors make no  representations or warranties whatsoever as to the accuracy, completeness, or suitability for any purpose of the  Content.
+Any opinions and views expressed in this publication are the opinions and views of the authors, and  are not the views of or endorsed by Taylor & Francis.
+The accuracy of the Content should not be relied upon and  should be independently verified with primary sources of information.
+Taylor and Francis shall not be liable for  any losses, actions, claims, proceedings, demands, costs, expenses, damages, and other liabilities whatsoever  or howsoever caused arising directly or indirectly in connection with, in relation to or arising out of the use of  the Content.
+  This article may be used for research, teaching, and private study purposes.
+Any substantial or systematic  reproduction, redistribution, reselling, loan, sub-licensing, systematic supply, or distribution in any  form to anyone is expressly forbidden.
+Terms & Conditions of access and use can be found at http://  www.tandfonline.com/page/terms-and-conditions2014 Landes Bioscience. Do not distribute.
+   report  www.landesbioscience.com mAbs 119  mAbs 6:1, 119129; January/February 2014;  2014 Landes Bioscience  report  Introduction  Staphylococcal enterotoxin B (SEB) is one of the most potent   superantigens (SAgs) secreted by Staphylococcus aureus.
+  1,2 It   belongs to a family of toxins that also includes Staphylococcal   enterotoxin A (SEA), Staphylococcal enterotoxin C1-C3 (SEC1  SEC3), Staphylococcal enterotoxin D (SED), Staphylococcal   enterotoxin E (SEE), and toxic shock syndrome toxin-1 (TSST1).3   SAgs act by binding to the V regions of T cell receptors   (TCRs) and to major histocompatibility complex (MHC) class   II molecules to activate T cells and initiate a systemic release   of inflammatory cytokines.4   These toxins are responsible for a   number of severe human illnesses, including food poisoning,   scarlet fever, and TSS.
+Due to their high pathogenicity and   toxicity, SAgs are considered potential agents for biological   weapons.5  In the past decade, structural studies of the free forms of   SEA,6   SEB,7   SEC2,8   and TSST-1,9,10 as well as the SEB-MHC   class II complex,11 have revealed the details of the binding of   SAgs with target receptors and the working mechanism of SEBinduced toxicity.
+Specifically, SEB bypasses internalization   and processing by antigen-presenting cells (APCs) and triggers   T cell proliferation and cytokine production by cross-linking   TCRs on T cells and the MHC class II molecules on APCs.7,12-15  Exposure to SEB can lead to TSS, which can rapidly progress   to severe and intractable hypotension, multisystem failure, and   death.
+Although therapies for enterotoxin-induced TSS are not   available, a number of attempts have been made to investigate   the inhibition of SEB function.
+Bunonpane et al. reported that   a soluble form of a single immunoglobulin (Ig)-like domain   of TCRs (V) could neutralize the lethal activity of SEB with   picomolar binding affinity.4   The generation of V proteins with   picomolar affinities to several toxins that are potential biological   weapons has also been reported.5   Moreover, mimetic peptides   have been shown to diminish the toxicity of SAgs in some animal   models.16,17  Passive immunization with toxin-neutralizing antibodies   is widely regarded as an efficient post-exposure therapy option   *Correspondence to: Yajun Guo; Email: yjguo@smmu.edu.cn; Zhiyong Lou; Email: louzy@xtal.tsinghua.edu.cn; Jianxin Dai; Email: jxdai@smmu.edu.cn  Submitted: 08/08/2013; Revised: 11/06/2013; Accepted: 11/06/2013  http://dx.doi.org/10.4161/mabs.27106  Structural basis for the neutralization   and specificity of Staphylococcal enterotoxin B   against its MHC Class II binding site  Tian Xia1,2,, Shuaiyi Liang3,, Huajing Wang1,4,, Shi Hu1,4, Yuna Sun5  , Xiaojie Yu1,4, Jun Han2  , Jun Li2  , Shangjing Guo2  ,   Jianxin Dai1,2,4,*, Zhiyong Lou3,*, and Yajun Guo1,2,4,*  1  International Joint Cancer Institute; Second Military Medical University; Shanghai, P.R. China; 2 College of Pharmacy; Liaocheng University; Liaocheng, P.R. China;   3  Laboratory of Structural Biology and MOE Laboratory of Protein Science; School of Medicine and Life Science; Tsinghua University; Beijing, P.R. China;   4  State Key Laboratory of Antibody Medicine and Targeting Therapy and Shanghai Key Laboratory of Cell Engineering and Antibody; Shanghai, P.R. China;   5  National Laboratory of Macromolecules; Institute of Biophysics; Chinese Academy of Science; Beijing, P.R. China    These authors contributed equally to this work.
+  Keywords: Staphylococcus aureus; enterotoxin B; neutralizing antibody; crystal structure; mechanism  Staphylococcal enterotoxin (SE) B is among the potent toxins produced by Staphylococcus aureus that cause toxic shock   syndrome (TSS), which can result in multi-organ failure and death.
+Currently, neutralizing antibodies have been shown   to be effective immunotherapeutic agents against this toxin, but the structural basis of the neutralizing mechanism is   still unknown.
+In this study, we generated a neutralizing monoclonal antibody, 3E2, against SEB, and analyzed the crystal   structure of the SEB-3E2 Fab complex.
+Crystallographic analysis suggested that the neutralizing epitope overlapped with   the MHC II molecule binding site on SEB, and thus 3E2 could inhibit SEB function by preventing interaction with the MHC   II molecule.
+Mutagenesis studies were done on SEB, as well as the related Staphylococcus aureus toxins SEA and SEC.
+  These studies revealed that tyrosine (Y)46 and lysine (K)71 residues of SEB are essential to specific antibodyantigen   recognition and neutralization.
+Substitution of Y at SEA glutamine (Q)49, which corresponds to SEB Y46, increased both   3E2s binding to SEA in vitro and the neutralization of SEA in vivo.
+These results suggested that SEB Y46 is responsible   for distinguishing SEB from SEA.
+These findings may be helpful for the development of antibody-based therapy for SEBinduced TSS.
+  Downloaded by [University of Alaska Fairbanks] at 05:45 06 January 2015 2014 Landes Bioscience. Do not distribute.
+  120 mAbs Volume 6 Issue 1  for the prevention of host cell intoxication.
+Human intravenous   immunoglobulin (Ig) is sometimes effective in the treatment   of SAg-related inflammatory diseases.18 Moreover, specific   antibodies given passively to naive mice or non-human primates   concomitant to or hours after toxin exposure have been shown   to protect against toxic shock.19,20 SEB-neutralizing monoclonal   antibodies (mAbs) typically act by sterically blocking protein  protein interactions and therefore require a high affinity to   compete with the TCR and MHC class II affinity reactions   of host cell activation.
+Several well-characterized neutralizing   antibodies, such as 20B10, 82M.1.2, and MAb5,21-23 act by   binding to epitopes that are identical or overlap with the surfaces   that recognize the cellular receptor.
+Their exact neutralizing   mechanisms, however, remain unknown.
+Understanding the   mechanisms by which antibodies specifically neutralize SEB   requires detailed knowledge not only of the SEB structure, but   also of the SEBantibody interactions at the amino acid level.
+  To gain a better understanding of these mechanisms, we   performed in vitro and in vivo studies of 3E2, a neutralizing mAb   that recognizes SEB with high specificity and sub-nanomolar   affinity.
+We found that 3E2 strongly inhibits SEB-induced   T cell proliferation and activation.
+We subsequently determined   the crystal structure of the 3E2 Fab in complex with SEB, and   obtained detailed molecular insights into the inhibition and   specific recognition mechanisms.
+The structural information   provided in this study may help in the development of antibodybased therapies for SEB-induced TSS.
+  Results  Identification of 3E2 as a neutralizing antibody against SEB  Recombinant SEB proteins were expressed in soluble form   in prokaryotic cells and purified for preparation with a toxoid   immunogen to generate mAbs capable of neutralizing SEB.
+Ten   hybridomas were obtained and screened for the production of   anti-SEB mAbs using enzyme-linked immunosorbent assay   (ELISA) with purified SEB (Fig. 1A).
+In addition, serial dilutions   of mAbs were assessed for their ability to inhibit SEB-induced   T cell mitogenesis in human peripheral blood mononuclear   cells (PBMCs) (Fig. 1B).
+Six mAbs, 3C1, 1D1, 2H4, 3E2,   4A3, and 1A5, were initially found to inhibit SEB-induced   mitogenesis in a dose-dependent manner.
+3E2 showed the   greatest inhibitory effect among these mAbs.
+Primary human   Figure1. Characteristics and functions of anti-SEB mAbs.
+(A) Binding activities of mAbs was determined by ELISA.
+(B) mAb-induced inhibition of PBMC   proliferation in cultures with SEB (1 ng/ml).
+Results are expressed as the mean  SE of duplicate measurements in four donors.
+The asterisk represents   mAbs that significantly inhibited SEB-induced mitogenesis vs. stimulated donor cells in the presence of control antibody (P < 0.01; one-way ANOVA).
+(C)   Effects of mAbs on SEB-induced INF- and TNF secretion from PBMCs.
+Results are expressed as the mean  SE of duplicate measurements in four donors.
+  The asterisk represents mAbs that significantly inhibited SEB-induced cytokines release vs. stimulated donor cells in the presence of control antibody (P  < 0.01; one-way ANOVA).
+(D) Surface plasmon resonance analysis of the binding affinity between SEB and 3E2.
+Successive dilutions of SEB were analyzed   for binding to immobilized 3E2.
+The dilutions from top to bottom represent 20, 10, 5, 2.5 and 1.25 nM, respectively.
+  Downloaded by [University of Alaska Fairbanks] at 05:45 06 January 2015 2014 Landes Bioscience. Do not distribute.
+  www.landesbioscience.com mAbs 121  T cells stimulated with SEB in vitro upregulated the secretion   of cytokines, including interferon (IFN)- and tumor necrosis   factor (TNF).
+Seven mAbs, 3C1, 1D1, 2G5, 2H4, 3E2, 4A3,   and 1A5, showed significant inhibitory effect on SEB-induced   cytokine production (P < 0.01), whereas an irrelevant mouse   IgG1 control demonstrated no inhibitory activity (Fig. 1C).
+  3E2 could also block SEB-induced activation of human T cells   with the highest potency.
+Furthermore, we analyzed the affinity   of mAb 3E2 when binding to SEB on the surface plasmon   resonance (SPR)-chip (Fig. 1D).
+3E2 was found to bind SEB   with very high affinity (Kd   = 5.787  10-10).
+  Overall structure of the SEB-3E2 Fab complex  SEB achieves its toxicity by interacting with TCRs and MHC   class II molecules.1   To elucidate the mechanism of SEB inhibition   through the neutralizing antibody 3E2, we determined the crystal   structure of the SEB3E2 Fab complex using the molecular   replacement method and refined it to 3.1  resolution with a   final Rwork value of 19.6% (Rfree = 26.1%) (Table S1) (PDB code:   3W2D).
+In the asymmetric unit, one SEB molecule bound with   one 3E2 Fab (Fig. 2), which is consistent with the gel filtration   results (Fig. S1).
+  The superimposition of SEB molecules in free form and 3E2   Fab in bound form yielded a root-mean-square deviation of 0.73    for the C atoms of 236 residues, particularly for the residues   on the interface (Fig. S2).
+There was no distinct overall structural   difference between the free and Fab bound forms of the SEB   molecule exists.
+Notably, residues SEBD101-SEBK109 and SEBD55-  SEBK57, which are not in antibody binding interface, are removed   from the final model due to their lack of interpretable electron   density.
+We hypothesized that this is the result of a lack of flexibility   and loss of antibody binding.
+Similar to the apo form, the overall   fold of the SEB molecule consists of two domains connected by   a six-residue extended loop: domain I (SEBD30SEBE120) and   domain II (SEBD127SEBK238), which adopt an oligosaccharideoligonucleotide fold (OB fold)24 and a microbial SAg-specific   fold,25 respectively.
+MHC class II molecules are located in domain   II, whereas TCR binding sites are located in the connecting region   between domain I and domain II (Fig. S3A).
+In the SEB molecule,   the 3E2 Fab interaction surface overlaps with the MHC binding   site but does not interact with the TCR binding site (Fig. S3).
+  The 3E2 Fab molecule presents a canonical Ig fold consisting   of four -barrel domains (Fig. 1).
+The light chain is composed of   residues M1 to C237, which fold into the VL   and CL   domains; by   contrast, the heavy chain is composed of residues M1 to C241,   which fold into the VH and CH domains.
+L  T74, which is located   in the classical -turn in the Ig family, displays a disallowed   stereochemical geometry similar to its counterparts in other   reported Fab structures.26 Intramolecular disulfide bonds are found   in the expected positions for typical Ig Fab molecules: two between   L  C45-L  C111 and L  C157-L  C217 and two others between HC40-HC114   and HC166-HC221.
+The elbow angle of 3E2Fab, which is defined as   the angle subtended by the two pseudo 2-fold axes relating VH to VL  and CH to CL, is ~170 in the SEB-3E2 Fab complex.
+  Interface between SEB and 3E2 Fab  3E2 Fab binds to SEB using a large and highly complementary   interface (Fig. 3), which is consistent with the picomolar   binding affinity between 3E2 and SEB (Fig. 1D).
+The total   buried surface area between 3E2 Fab and SEB is 1620 2  [calculated by PISA27], of which the light and heavy chains of   3E2 Fab contribute 40% and 60%, respectively.
+The interaction   is demonstrated by a high shape complementarity value28 of   0.72 (compared with the average shape complementarity value   of 0.640.68 for antibody-antigen complexes).
+Comparison   between the interfaces of SEB3E2 Fab and TCR and the   MHC binding sites on SEB suggested that the 3E2 binding site   partially occupies the MHC class II molecule binding site, thus   allowing 3E2 to inhibit SEB function effectively (Fig. S3).
+  According to the interaction between the heavy and light   chains of 3E2, the 3E2 epitope on SEB could be divided into   three regions: region A is formed by the residues in the 34   linking region of SEB domain I and the residues of the heavy   chain in 3E2 Fab; region B conducts the interaction between the   loop region connecting 12 of SEB and residues in the light   chain of 3E2 Fab; and region C, containing SEBQ43, SEBY46,   SEBF47, SEBK71, SEBK78, and SEBK98, bonds with both heavy   chains and light chains (Fig. 2; Fig. S4).
+The SEB3E2 Fab   complex is stabilized by 10 hydrogen bonds, two salt bridges,   and a number of van der Waals bonds (Table S2).
+The side   chains of SEBY46, SEBF47, SEBK71, and SEBD72, which are located   in region C, insert into the deep groove formed by the heavy   and light chains of the 3E2 Fab.
+Particularly, the side chain of   SEBY46 has the deepest insertion into the binding hole.
+This   observation is consistent with the specificity of 3E2 to SEB and   denotes SEBY46 and SEBK71 might play an important role in the   interaction between 3E2 and SEB.
+  Mutagenesis studies on the neutralizing sites  Figure 2.
+Overall structure of SEB3E2 Fab showing the neutralizing epitope.
+Ribbon diagram (A) and surface representation (B) of the   SEB3E2 Fab complex structure.
+The SEB, heavy chain, and light chain   of 3E2 Fab are shown in green, salmon, and yellow, respectively.
+The   constant and variable regions of 3E2 Fab are labeled accordingly.
+The   residues included in the antigenantibody interface are shown in red,   blue, and green as they are located in the SEB, heavy chain, and light   chain, respectively.
+  Downloaded by [University of Alaska Fairbanks] at 05:45 06 January 2015 2014 Landes Bioscience. Do not distribute.
+  122 mAbs Volume 6 Issue 1  In the SEB3E2 Fab complex structure, a subset of SEB   amino acids located on the interface were identified to bind   to 3E2 Fab, including SEBQ43, SEBF47, SEBF68, SEBK69, SEBK71,   SEBD72, SEBD75, SEBK76, SEBK78, SEBK80, SEBK98, and SEBN218.
+  To determine the key amino acids that could be involved in   the epitope structure, we generated a series of substitutions of SEB   by replacing the interacting residues with glycine (Table 1) based   on structural information.
+The binding of 3E2 to the mutated   proteins and to wild-type (WT) SEB were compared by western   blot analysis and ELISA (Fig. 4).
+Substituting either the SEBY46 or   SEBK71 residue with glycine residues dramatically reduced SEBs   capacity to bind with 3E2.
+Moreover, residue SEBD75 was shown   to play a role in the binding of 3E2, based on a reduction in its   binding ability.
+Furthermore, the combinations of SEB43G47 and   SEB71G76 were also found to have defective binding capabilities   with 3E2.
+Incubation with PBS control resulted in no detectable   response.
+These results suggest that residues SEBY46 and SEBK71   play pivotal roles in the interaction with 3E2, which is consistent   with the structural information (Fig. 5A).
+  To further investigate the effect of amino acids side chains on   binding affinity between SEB and 3E2, we constructed several   point mutations on SEBY46 and SEBK71.
+These point mutants were   evaluated by ELISA (Fig. 5B) and SPR assay (Fig. 5CF) for their   binding affinities to 3E2.
+The kinetic binding constants were   summarized in Table 2.
+Substitution of leucine or phenylalanine   at SEBY46 (Y46L or Y46F) resulted in an affinity for 3E2 that was   4- to 60-fold lower.
+The mutant SEBY46E resulted in complete   loss of binding ability.
+These results suggested that both the   hydrophobic side chain and the hydroxyl group are essential for   the function of SEBY46 in the interaction between 3E2 and SEB.
+  The same phenomenon was observed in the mutation SEBK71.
+The   mutant SEBK71N resulted in a 2800-fold reduction in affinity,   and the SEBK71Q mutant could not bind 3E2 to the same extent   as the WT.
+In contrast, the mutant SEBK71R had no effect on 3E2   Figure3.
+Structural details of the SEB3E2 interface.
+The color scheme is the same as that used in Figure2.
+The bound solvent molecules and sulfate   mediating antigenantibody interaction are shown as red spheres and colored sticks, respectively.
+(A) The epitope of 3E2 on SEB is colored as follows:   region A, red; region B, yellow; region C, green.
+The detailed interactions involved in SEB-3E2 interface are shown in ball-and-stick mode in panels (B),   (C), and (D).
+The dashed lines represent hydrogen bonds.
+  Downloaded by [University of Alaska Fairbanks] at 05:45 06 January 2015 2014 Landes Bioscience. Do not distribute.
+  www.landesbioscience.com mAbs 123  binding, indicating that the positively charged characteristics of   the SEBK71 side chain play a critical role in 3E2 binding.
+  To further investigate the role of these two residues in SEBinduced T cell activation, we measured the proliferative responses   of PBMCs to each mutant and WT SEB by analyzing [3  H]  thymidine uptake (Fig. S5).
+The WT SEB molecules induced   a proliferative response of PBMCs in a concentration-dependent   manner.
+The proliferative responses of PBMCs treated with   SEBY46G, SEB43G47, SEBK71G, and SEB71G76 mutants were found   to be significantly lower than those of PBMCs treated with WT   SEB.
+The PBMC proliferation induced by mutant SEBD75G was   only ~50% of that induced by WT SEB (Fig. S5A).
+Furthermore,   we used a cytokine secretion assay to investigate the ability of   WT SEB and mutants to induce cytokine secretion from PBMCs   directly.
+The stimulatory activity of the cytokine secretion of   SEB was not completely reduced by the SEBD75G modification   alone; however, SEBY46G, SEBK71G, and the combination of   SEB43G47 or SEB71G76 modifications drastically reduced the   secretion of inflammatory cytokines, such as TNF and IFN-  (Fig. S5B).
+These results suggest that SEBY46 and SEBK71 play   crucial roles in the biological function of SEB, but that SEBD75   is involved in SEB-induced T cell activation.
+The mechanism of   3E2s neutralizing function is to block the interaction between   SEB and MHC class II molecules through binding with the key   residues in SEB function domain.
+  Type diversity between SAgs on the 3E2 binding site  SEA, SEB, and SEC are the most important SAgs secreted   by S. aureus and have high sequence and structural homologies1  (Fig. 6).
+3E2 shows high binding affinity and neutralizing activity   to SEB; however, it does not bind to SEA and SEC (Fig. 4A).
+To   further understand the specificity of the mAb 3E2 toward SAgs   (i.e., SEA, SEB, and SEC), we analyzed the key positions and   residues, e.g., glutamine (Q), tyrosine (Y), lysine (K) glutamic   acid (E), that affect the molecular interaction.
+  In the 3E2 epitope, SEBY46 plays an essential role for the   interaction, but the same position in SEA is a glutamine residue   (Fig. 6).
+By contrast, the lysine residue at the SEBK71 position   is found in both SEA and SEB.
+Mutagenesis analysis revealed   that the SEBY46E mutation completely eliminates binding with   3E2.
+These findings suggest that SEBY46 accounts for the specific   recognition of SEB, but not SEA, by 3E2.
+Moreover, neither   SEBY46 nor SEBK71 are conserved in SEC2 (Fig. 6).
+In SEC2,   an alanine residue and a glutamic acid residue substitute the   Y46 and K71 residues in SEB, respectively.
+The SEBY46A and   SEBK71E mutants both show defective binding affinities to 3E2,   suggesting that both sites play a role in 3E2 interaction.
+These   observations led us to hypothesize that the residues in the amino   acids SEBY46 and SEBK71 are essential to differentiating between   the three types of SAgs secreted by S. aureus.
+  To validate this hypothesis, we generated four constructs by   swapping amino acids SEBY46 and SEBK71 on SEA and SEC2 (i.e.,   SEAQ49Y, SEC2A46Y, SEC2E71K, and SEC2A46Y+E71K).
+Western   blot analysis revealed that the mutant SEAQ49Y dramatically   increased its binding activity to 3E2, whereas other substitutions   on SEC2 did not show detectable binding with 3E2 (Fig. 7A).
+  Proliferation of PBMCs induced by WT SEB, SEA, SEC2, and   their mutants showed that swapping mutation did not affect the   toxicities of SEA and SEC2.
+However, 3E2 could only inhibit WT   SEB and SEA Q49Y induced mitogenesis significantly (Fig. 7B).
+  We also tested serum IFN- and TNF levels induced by   SEB, SEA and their mutants, with or without treatment with   3E2, in the TSS mouse model.
+The results (Fig. 7C) showed that   cytokines induced by SEBY46G were much less than those induced   by SEB WT and SEA WT; however, the serum cytokines levels   following SEA Q49Y treatment were almost the same as those   induced by SEA WT.
+These results suggest that the swapped   mutant of SEA retains its T cell stimulating activity in vivo.
+  3E2 could efficiently inhibit the release of cytokines induced by   SEB WT and SEAQ49Y, but had no inhibitory effects on SEBY46G   and SEA WT in vivo.
+SEA Q49 was also the critical residue for   3E2 to distinguish SEA from SEB.
+To determine if co-treatment   with 3E2 results in a significantly enhanced survival of mice   pre-treated with SEB WT or SEA Q73Y, survival was monitored   every 6h after treatment for 72h.
+Mice treated with SEAQ49Y died   of TSS during the 3-d period, suggesting that this mutant does   not affect the toxicity of SEA.
+By contrast, mice co-treated with   SEAQ49Y and 3E2 survived (Fig. 7D).
+Taken together, these facts   suggest that SEBY46 plays a crucial role in SEB activity and 3E2s   specific recognition of it.
+  Discussion  SEB is a SAg secreted by S. aureus that is known to cause   food poisoning and other fatal diseases by inducing high levels   of pro-inflammatory cytokines.
+These cytokines are released   from CD4+   T cells and MHC class II APCs, which are activated   through binding of SEB to both MHC class II molecules and   Figure4.
+Binding of SEB and its mutants to mAb 3E2.
+The binding activities of WT SEB (SEB) and its different mutants with mAb 3E2 were determined by western blot analysis (A) and ELISA (B).
+The mAb 3C1, which   recognizes a non-overlapping epitope on SEB, was used as control, as   were WT SEA (SEA) and SEC (SEC).
+  Downloaded by [University of Alaska Fairbanks] at 05:45 06 January 2015 2014 Landes Bioscience. Do not distribute.
+  124 mAbs Volume 6 Issue 1  specific TCR V chains.1,2 To establish the potential for treating   SEB-induced diseases and further understand its inhibitory   mechanism, we identified a neutralizing mAb with subnanomolar binding affinity and determined its crystal structure   in complex with SEB.
+  The complex structure of SEB3E2 Fab revealed a neutralizing   conformational epitope on SEB that partially occupied the MHC   class II molecule binding site (Fig. S3), suggesting that 3E2   functions to block the interaction between SEB and MHC class   II molecules.
+Although the TCR and MHC class II binding sites   are adjacent on the surface of SEB and both are crucial for the   toxicity of SEB,11 the key residues (SEBY46 and SEBK71) for 3E2   binding are located in the region of the MHC class II molecule   binding site, distal to the TCR binding cleft.
+This suggests that   binding of SEB to MHC class II molecules, but not to TCRs,   would be affected by the relevant mutations.
+  In addition, 3E2 specifically recognizes the MHC class II   molecule binding site of SEB.
+Mutational analysis demonstrated   that SEBY46 and SEBK71 are key residues for 3E2 recognition and   neutralization.
+Notably, the antibody 3E2 specifically neutralizes   SEB, but not SEA and SEC.
+To understand how 3E2 discriminates   between different SAgs, we compared the sequences of the 3E2   Table1.
+Arrangements of mutants on SEB, SEA and SEC2  Mutant Position Target Residue Primer Sequence  SEB Q43G Gln43 Gly  sense:5-atcgacGGAttcctgtacttc-3  antisense:5-GAAGTACAGGAATCCGTCGAT-3  SEB F44G Phe44 Gly  sense:5- atcgaccagggtctgtacttc -3  antisene:5- GAAGTACAGACCCTGGTCGAT-3  SEB L45G Leu45 Gly  sense:5- gaccagttcggatacttcgac-3  antisense:5-GTCGAAGTATCCGAACTGGTC-3  SEB Y46G Tyr46 Gly  sense:5- cagttcctgggtttcgacctg-3  antisense:5-CAGGTCGAAACCCAGGAACTG-3  SEB F47G Phe47 Gly  sense:5-cagttcctgtacggagacctgatc-3  antisense:5-GATCAGGTCTCCGTACAGGAACTG -3  SEB 43G47 43QFLYF47 43GGGGG47  sense:5-aaatccatcgacggaggtggaggtggagacctgatctac-3  Antisense:5-GTAGATCAGGTCTCCACCTCCACCTCCGTCGATGGATTT-3  SEB K71G Lys71 Gly  Sense: 5-atttaaaaacGGagatctggct-3  Antisense:5-AGCCAGATCTCCGTTTTTAAAT-3  SEB D72G Asp72 Gly  Sense:5-tttaaaaacAAagGtctggctgac-3  Antisense:5-GTCAGCCAGACCTTTGTTTTTAAA-3  SEB L73G Leu73 Gly  Sense:5-aaaaacaaagatGGTgctgacaaa-3  Antisense:5-TTTGTCAGCACCATCTTTGTTTTT-3  SEB A74G Ala74 Gly  Sense:5-aacaaagatctggGtgacaaatac-3  Antisense:5-GTATTTGTCACCCAGATCTTTGTT-3  SEB D75G Asp75 Gly  Sense:5aaagatctggctgGTaaatacaaa-3  Antisense:5-TTTGTATTTACCAGCCAGATCTTT-3  SEB K76G Lys76 Gly  Sense: 5-ctggctgacGGatacaaagacaaa-3  Antisense:5-TTTGTCTTTGTATCCGTCAGCCAG-3  SEB 71G76
+71KDLADK76 71GGGGGG76  Sense: 5-gaatttaaaaacGGagGtGGTgGtgGTGGatacaaagacaaa-3  Antisense:5-TTTGTCTTTGTATCCACCACCACCACCTCCGTTTTTAAATTC-3  SEA Q49Y Gln49 Tyr  Sense: 5-agttcctgTACcacaccatcct-3  Antisense: 5- AGGATGGTGTGGTACAGGAACT-3  SEC2 A46Y Ala46 Tyr  Sense: 5-aattcctgTACcacgacctgatct-3  Antisense: 5- AGATCAGGTCGTGGTACAGGAATT-3  SEC2 E71K Glu71 Lys  Sense: 5-actgctgaacAAAgacctggct-3  Antisense: 5- AGCCAGGTCTTTGTTCAGCAGT-3  SEC2 A46Y E71K Ala46 &Glu71 Tyr&Lys SEC2 A46Y & SEC2 E71K1 primer  Downloaded by [University of Alaska Fairbanks] at 05:45 06 January 2015 2014 Landes Bioscience. Do not distribute.
+  www.landesbioscience.com mAbs 125  binding sites on SEA, SEB, and SEC and swapped the distinct   residues to examine the binding ability of 3E2.
+We found that   SEBY46 is essential for 3E2 to distinguish SBE from SEA.
+The   results presented here may assist the design and development of   specific novel inhibitors for SEB.
+  Materials and Methods  Ethics statements  Mice were purchased from the Animal Center of Chinese   Academy of Sciences and maintained under pathogen-free   conditions.
+All animal experimental procedures were performed   in strict accordance with the guidelines of the Animal Experiment   Committee of the International Joint Cancer Institute, and   were approved by the Animal Experiment Committee of the   International Joint Cancer Institute.  Blood was collected from healthy human volunteers   (anonymous) at the International Joint Cancer Institute for the   preparation of PBMCs, following written consent in accordance   with the Institutional Review Board (IRB) guidelines.
+The   International Joint Cancer Institute IRB approved protocol   Hu20110217 for the purpose of the studies described here.  Construction, expression, and purification of recombinant   SEB, SEA, SEC2 and their mutants  The gene encoding SEB (S407030), SEA (ATCC 29293)   and SEC2 (FRI 1230) was chemically synthesized by Sangon   and then subcloned into expression vector pGEX-4T-2.
+SEB,   SEA and SEC2 mutants were constructed using QuikChang   II Site-Directed Mutagenesis Kit (Stratagene) according to the   instructions of the manufacturer.
+The PCR primer sequences for   each mutant are listed in Table 1.
+The recombinant SAgs were   expressed in Escherichia coli BL21 (DE3) under the induction   of isopropyl--d-thiogalactopyranoside.
+The expressed product   was purified using a B-PER GST Fusion Protein Purification   Kit (Pierce).
+The GST fusion sequence was cleaved from the   enterokinase recognition sequence DDDDK by enterokinase   (Sino Biological Inc.).
+Digested proteins were dialyzed against   10 mM TrisHCl (pH 7.5) before being applied to a Superdex-75   column and eluted in 10 mM phosphate-buffered saline   (pH 7.6) containing 150 mM NaCl.
+Fractions containing SEB   were collected and dialyzed against 10 mM TRIS-HCl (pH 7.5).
+  Immunization and generation of anti-SEB mAbs  BALB/c mice were primed by intraperitoneal injection of   10 g of SEB emulsified in complete Freunds adjuvant and   boosted once or twice after a 21-d interval by intraperitoneal   Figure5.
+Pivotal role of residues SEB  Y46 and SEB  K71 in the interaction with 3E2.
+(A) Structural details of how the residues of SEB close to SEB  Y46 and SEB  K71   interact with 3E2.
+The interacting residues of SEB are presented as colored sticks, whereas the 3E2 molecule is covered with the potential surface.
+(B)   Binding abilities of WT SEB and its mutants with mAb 3E2 were first measured by ELISA.
+(CF) The mutants that could interact with 3E2 were further   evaluated for their binding affinity constant by surface plasmon resonance.
+  Downloaded by [University of Alaska Fairbanks] at 05:45 06 January 2015 2014 Landes Bioscience. Do not distribute.
+  126 mAbs Volume 6 Issue 1  injection of 20 g of native SEB in 0.5 ml of phosphate-buffered   saline.
+Immunized mice were killed 3 d after secondary or tertiary   immunization, and hybridomas were derived and processed as   previously described.29  Anti-SEB-secreting hybridoma cells were identified by ELISA   and cloned twice at limiting dilution to ensure monoclonality.
+The   mAbs were purified from ascitic fluid using a HiTrap protein A   affinity chromatography system (GE Healthcare).
+The Ig isotype   of each mAb was determined by Ouchterlony immunodiffusion   using goat antibodies specific for mouse Ig subclasses (Sigma).
+  Surface plasmon resonance assay  The kinetic parameters of anti-SEB antibodies for SEB were   determined using Biacore T100 (Biacore AB).
+Protein A was   immobilized on a CM5 sensor chip using an amine coupling   kit according to the manufacturer (Biacore AB).
+Purified antiSEB antibody was diluted with running buffer (BIA-certified   HBS buffer: 10 mM HEPES, pH 7.4,
+150 mM NaCl, 3.4   mM EDTA, 0.005% Surfactant p20) to a final concentration   of 20 g/ml and applied onto the CM5 chip at a flow rate of   30 l/min.
+The CM5 sensor chip was washed with running   buffer and recombinant SEB (or SEB mutants) was applied at   a flow rate of 30 l/min.
+As control, each sample was passed   over a reference flow cell containing no ligand (protein A).
+All   binding experiments were performed at 25 C.
+The sensor chip   could be regenerated with three washes of 3 l of 20 mM glycine   (pH 2.0).
+The kinetic rates of IgG-SEB binding were derived   by globally fitting the Langmuir (1:1) model to the family of   association and dissociation curves collected at different ligand   concentrations, using BIAevaluation 2.01 software provided by   the manufacturer.
+  Cell proliferation assays  Human PBMC suspensions (5  106   cells/ml) were distributed   in 100 l aliquots to the wells of 96-well flat-bottom plates   (5  105   cells/well) containing 50 l of various concentrations   of SEB and 50 l of the indicated concentration of anti-SEB   antibody.
+Each condition was tested in triplicate.
+The cells were   incubated at 37 C in 7.5% CO2   for 48 h and then pulsed with   1 Ci of [3  H]thymidine (Amersham-GE Healthcare) per well,   incubated for 18 h more, and then harvested onto glass fiber filter   strips with a PhD cell harvester (Brandel).
+The incorporated   radioactivity was measured by liquid scintillation counting.
+  Cytokine detection  Human PBMCs were adjusted to 1  106   per ml.
+One   hundred microliters of the cell suspension was seeded in a   96-well microplate and then incubated in DMEM at 37 C in   10% CO2   with the indicated concentrations of SEB or SEB and   antibody.
+After 24 h of incubation, supernatants were collected   and IFN- and TNF were measured by ELISA using a sandwich   assay involving capture and detection anti-IFN- or anti-TNF   antibodies (BD PharMingen).
+  Protein production  For the preparation of Fab fragments, 3E2 IgG was proteolysed   for 4 h at 37 C with immobilized papain (Roche) in buffer   A (0.05 M BisTris, pH 6.3).
+After being stopped with E-64,   the proteolysed 3E2 was dialyzed overnight at 4 C in buffer B   (0.025 M sodium acetate, pH 5.0); Fab fragments were separated   from Fc fragments by protein A affinity chromatography.
+  Further purification was achieved through cationic exchange   chromatography and gel filtration on a Superdex-200 column   (GE Healthcare).
+  SEB and 3E2 Fab protein were mixed at a 1:1 molar ratio   and incubated for 10 h at 4 C to allow the complex to form   before crystallization.
+The mixed protein was further purified   using Superdex-200 gel filtration columns (GE Healthcare)   following the manufacturers instructions.
+Fractions were analyzed   by SDS-PAGE, and their purity was determined to be greater than   95%.
+The purified proteins were then concentrated to 30 mg/ml   in 20 mM TrisHCl (pH 7.4) and 150 mM NaCl for   crystallization.
+  Crystallization  Crystallization was performed at 18 C using the hangingdrop vapor-diffusion technique as previously described.30  Crystals were obtained by mixing 1 l of the protein solution   with an equal volume of a reservoir solution and equilibrating   the mixture drop against 500 l of the reservoir solution.
+The   Table2.
+Binding affinity of SEB and relevant mutants with 3E2  Kd (M) Kon (M-1s-1) Koff (s-1)  WT 5.787  10-10 1.068  104 6.183  10-6  Y46F 2.553  10-9 2.691  104 6.871  10-5  Y46L 3.144  10-8 6.656  103 2.092  10-4  Y46E N/A N/A N/A  K71R 2.810  10-10 4.381  104 1.231  10-5  K71N 1.419  10-6 2.014  102 2.857  10-4  K71Q N/A N/A N/A   N/A indicates that the binding affinity was not measured.
+  Figure6.
+Comparison of the key residues in the SEB 3E2 binding site with   homologous regions in other SAgs.
+(A) Primary sequence alignment of   SEA, SEB, and SEC2 on the key residues of the 3E2 binding site.
+The residue numbers are indicated, and the key positions for 3E2 interaction are   highlighted.
+(B) Structural comparison of SEA, SEB, and SEC.
+The overall   structure alignment is shown in the left panel, and an enlarged image   thereof is presented in the right panel.
+  Downloaded by [University of Alaska Fairbanks] at 05:45 06 January 2015 2014 Landes Bioscience. Do not distribute.
+  127 mAbs Volume 6 Issue 1  crystals were obtained with a reservoir solution containing   150 mM ammonium iodide, 15% PEG 3350, 250 mM   ammonium sulfate, and 25 mM Bis-Tris (pH 5.5), and their final   dimensions were 30  30  90 m3   within 2 mo.
+The crystals   were cryo-protected by soaking in a cryo-protectant consisting   of the reservoir solution with additional 10% (v/v) glycol.
+The   cryo-protected crystals were subsequently flash-cooled in liquid   nitrogen and then transferred into a dry nitrogen stream at   100 K for X-ray data collection.
+  X-ray data collection, processing, and structure determination  Diffraction data for SEB3E2 Fab complex crystals were   collected at best to 3.1  at 100 K using an ADSC Q315 CCD   detector on beamline BL5A at Photon Factory.
+The data sets for   complex crystals were indexed, integrated, and scaled using the   HKL2000 package.31 The crystals belong to space group P2 with   cell parameters a = 40.6 , b = 109.3 , c = 86.23 , and d = 96.1.
+  The molecular replacement method was used to calculate the   phases using the PHASER program.32 Manual model building   and refinement were performed with COOT33 and PHENIX.34  Solvent molecules were located from stereochemically reasonable   peaks in the A-weighted 2FFc   difference Fourier electron   density map (1.2 ).
+The model geometry was verified using   PROCHECK.35 Structural figures were drawn with PyMOL   (www.pymol.org).
+  Neutralizing effects of 3E2 against SEB, SEA, SEC2, and   their mutants in vitro  PBMCs (5  105   cells per well) were plated in triplicate with WT   SEB, WT SEA, WT SEC2, or their mutants (0.1 g/ml), with or   without various concentrations of 3E2, for 24 h at 37 C in 96-well   microtiter plates.
+Cells were pulsed with 1 mCi of [3  H]thymidine   (Amersham-GE Healthcare) per well, incubated for 12 h more,   and then harvested onto glass fiber filters.
+The incorporated [3  H]  thymidine was measured by liquid scintillation.
+  Neutralizing effects of 3E2 against SEB, SEA, and SEA   Q49Y in vivo  The neutralizing effects of 3E2 against SEB, SEA, and   SEA Q49Y in vivo were tested in a lipopolysaccharidepotentiated mouse lethality model for SEB-induced shock with   Figure7.
+Role of residues in the Y46 and K71 positions of SEB in type-specific neutralization.
+(A) WT SEB, WT SEA, WT SEC2, and their mutants were   subjected to western blot analysis probed with 3E2.
+(B) Proliferation of PBMCs induced by WT SEB, WT SEA, WT SEC2, and their mutants with or without   anti-SEB mAb 3E2 (1ug/ml).
+3E2 was pre-incubated with WT SEB, WT SEA, WT SEC2, and their mutants (0.1 g/ml) and then added to PBMC cultures (105  per well).
+Cultures were incubated for 24 h and pulse-labeled with [3  H]thymidine for 12 h. Data are expressed as the mean  SE for triplicate wells.
+The   asterisk represents 3E2 that significantly inhibited WT SEB and SEA Q73Y induced mitogenesis vs. stimulated donor cells in the presence of WT SAE,   WT SEC2 and their mutants (P < 0.01; one-way ANOVA).
+(C) INF- and TNF production in sera from mice stimulated with wild type SEB WT, SEA WT and   their mutants SEB Y46G,SEA Q49Y alone or in the presence of 3E2.
+Mice were injected with D-GalN (20 mg/mouse), lipopolysaccharides (1 ng/mouse),   as well as SEB, SEA, and SEA Q49Y (20 g/mouse; 10 LD50).
+After 4 h, 3E2 (600 g/mouse) was injected in the indicated groups.
+Mice sera were collected   and cytokines were detected by ELISA.
+Results are mean  SE for triplicate measurements in 6 different donors.
+(*P < 0.01; one-way ANOVA)(D)Animal   survival was monitored every 6 h for 72 h.. Statistical significance was calculated by the log-rank test (*P < 0.01) (n = 10).
+  Downloaded by [University of Alaska Fairbanks] at 05:45 06 January 2015 2014 Landes Bioscience. Do not distribute.
+  128 mAbs Volume 6 Issue 1  d-galactosamine.36,37 BALB/c mice (68 weeks old; 10 mice per   group) were first injected intraperitoneally with a mixture of   D-GalN (Sigma) (20 mg per mouse), lipopolysaccharide from   E. coli O55:B5 (Sigma) (1 ng per mouse), and SEB, SEA, or   SEA Q49Y (20 g per mouse; 10 LD50).
+Four hours later, 3E2   (600 g per mouse) was injected into the mice of indicated   groups.
+For the detection of cytokine production in vivo,   blood was collected at 9 h after SAgs administration.
+Blood   was allowed to clot and then centrifuged in microtiter serum   separator tubes (Becton Dickinson).
+Serum levels of cytokines   TNF and IFN- were determined by ELISA according to the   manufacturers specifications (R&D Systems).
+Survival rate   was recorded every 6 h for 72 h.  Statistics analysis  Scientific differences were determined by using a Students   t test and multiple treatment groups were compared within   individual experiments by ANOVA or Kruskal-Wallis t test.
+  Mouse survival was analyzed for significance using the twotailed log-rank test.
+Data are presented as means  SEM   and P values of less than 0.05 were considered statistically   significant.
+  Disclosure of Potential Conflicts of Interest  No potential conflicts of interest were disclosed.
+  Supplemental Materials  Supplemental materials may be found here:   www.landesbioscience.com/journals/mabs/article/27106  Acknowledgments  This work was supported by the Ministry of Science and   Technology 973 (Grant Nos. 2010CB833605, 2013CB911103,   and 2010CB735605), National Natural Science Foundation of   China (Grant Nos. 31170678 and 31000332), Key Projects in   the Tianjin Science and Technology Pillar Program (Grant No.   10ZCKFSY08800), and 2011 Science and Technology Innovation   Fund (Grant No. 11C26211203971).
+We thank the staff of Photon   Factory for their generous help with diffraction data collection.
+  References  1.
+Li H, Llera A, Tsuchiya D, Leder L, Ysern X,   Schlievert PM, Karjalainen K, Mariuzza RA.
+Threedimensional structure of the complex between a   T cell receptor beta chain and the superantigen   staphylococcal enterotoxin B. Immunity 1998; 9:807-  16; PMID:9881971; http://dx.doi.org/10.1016/  S1074-7613(00)80646-9  2.
+Li H, Llera A, Malchiodi EL, Mariuzza RA.
+  The structural basis of T cell activation by   superantigens.
+Annu Rev Immunol 1999; 17:435-  66; PMID:10358765; http://dx.doi.org/10.1146/  annurev.immunol.17.1.435  3.
+Bohach GA, Fast DJ, Nelson RD, Schlievert PM.   Staphylococcal and streptococcal pyrogenic toxins   involved in toxic shock syndrome and related illnesses.
+  Crit Rev Microbiol 1990; 17:251-72; PMID:2206394;   http://dx.doi.org/10.3109/10408419009105728  4.
+Buonpane RA, Churchill HR, Moza B, Sundberg  EJ, Peterson ML, Schlievert PM, Kranz DM.
+  Neutralization of staphylococcal enterotoxin B by   soluble, high-affinity receptor antagonists.
+Nat Med  2007; 13:725-9; PMID:17515896; http://dx.doi.
+  org/10.1038/nm1584  5.
+Burnett JC, Henchal EA, Schmaljohn AL, Bavari  S. The evolving field of biodefence: therapeutic   developments and diagnostics.
+Nat Rev Drug Discov  2005; 4:281-97; PMID:15803193; http://dx.doi.
+  org/10.1038/nrd1694  6. Earhart CA, Vath GM, Roggiani M, Schlievert PM,   Ohlendorf DH.
+Structure of streptococcal pyrogenic   exotoxin A reveals a novel metal cluster.
+Protein Sci  2000; 9:1847-51; PMID:11045630; http://dx.doi.  org/10.1110/ps.9.9.1847  7.
+Swaminathan S, Furey W, Pletcher J, Sax  M. Crystal structure of staphylococcal   enterotoxin B, a superantigen.
+Nature 1992;   359:801-6; PMID:1436058; http://dx.doi.
+  org/10.1038/359801a0  8.
+Papageorgiou AC, Acharya KR, Shapiro R,   Passalacqua EF, Brehm RD, Tranter HS.
+Crystal   structure of the superantigen enterotoxin C2 from   Staphylococcus aureus reveals a zinc-binding site.
+  Structure 1995; 3:769-79; PMID:7582894; http://  dx.doi.org/10.1016/S0969-2126(01)00212-X  9. Acharya KR, Passalacqua EF, Jones EY, Harlos  K, Stuart DI, Brehm RD, Tranter HS.
+Structural   basis of superantigen action inferred from crystal   structure of toxic-shock syndrome toxin-1.
+Nature  1994; 367:94-7; PMID:8107781; http://dx.doi.
+  org/10.1038/367094a0  10. Prasad GS, Earhart CA, Murray DL, Novick  RP, Schlievert PM, Ohlendorf DH.
+Structure   of toxic shock syndrome toxin 1.
+Biochemistry  1993; 32:13761-6; PMID:8268150; http://dx.doi.
+  org/10.1021/bi00213a001  11. Jardetzky TS, Brown JH, Gorga JC, Stern LJ,   Urban RG, Chi YI, Stauffacher C, Strominger  JL, Wiley DC.
+Three-dimensional structure of   a human class II histocompatibility molecule   complexed with superantigen.
+Nature 1994;   368:711-8; PMID:8152483; http://dx.doi.
+  org/10.1038/368711a0  12. Kappler JW, Herman A, Clements J, Marrack  P. Mutations defining functional regions of the   superantigen staphylococcal enterotoxin B. J Exp   Med 1992; 175:387-96; PMID:1370682; http://  dx.doi.org/10.1084/jem.175.2.387  13.
+Faulkner L, Cooper A, Fantino C, Altmann DM,   Sriskandan S. The mechanism of superantigenmediated toxic shock: not a simple Th1 cytokine storm.
+  J Immunol 2005; 175:6870-7; PMID:16272345  14.
+Miethke T, Wahl C, Heeg K, Echtenacher B,   Krammer PH, Wagner H. T cell-mediated lethal shock   triggered in mice by the superantigen staphylococcal   enterotoxin B: critical role of tumor necrosis factor.
+  J Exp Med 1992; 175:91-8; PMID:1730929; http://  dx.doi.org/10.1084/jem.175.1.91  15.
+Gordon GM, Du W. Conserved RB functions in   development and tumor suppression.
+Protein Cell  2011; 2:864-78; PMID:22180086; http://dx.doi.
+  org/10.1007/s13238-011-1117-z  16. Kaempfer R. Peptide antagonists of   superantigen toxins.
+Mol Divers 2004;   8:113-20; PMID:15209162; http://dx.doi.  org/10.1023/B:MODI.0000025654.04427.44  17.
+Rajagopalan G, Sen MM, David CS.
+In vitro and   in vivo evaluation of staphylococcal superantigen   peptide antagonists.
+Infect Immun 2004; 72:6733-  7; PMID:15501813; http://dx.doi.org/10.1128/  IAI.72.11.6733-6737.2004  18.
+Darenberg J, Sderquist B, Normark BH, NorrbyTeglund A. Differences in potency of intravenous   polyspecific immunoglobulin G against streptococcal   and staphylococcal superantigens: implications for   therapy of toxic shock syndrome.
+Clin Infect Dis  2004; 38:836-42; PMID:14999628; http://dx.doi.
+  org/10.1086/381979  19. Bavari S, Ulrich RG, LeClaire RD.
+Cross-reactive   antibodies prevent the lethal effects of Staphylococcus   aureus superantigens.
+J Infect Dis 1999; 180:1365-9;  PMID:10479174; http://dx.doi.org/10.1086/314977  20.
+Hamad AR, Herman A, Marrack P, Kappler JW.
+  Monoclonal antibodies defining functional sites on   the toxin superantigen staphylococcal enterotoxin   B. J Exp Med 1994; 180:615-21; PMID:7519243;   http://dx.doi.org/10.1084/jem.180.2.615  21.
+Varshney AK, Wang X, Cook E, Dutta K,   Scharff MD, Goger MJ, Fries BC.
+Generation,   characterization, and epitope mapping of neutralizing   and protective monoclonal antibodies against   staphylococcal enterotoxin B-induced lethal shock.
+  J Biol Chem 2011; 286:9737-47; PMID:21233204;   http://dx.doi.org/10.1074/jbc.
+M110.212407  22.
+Tilahun ME, Rajagopalan G, Shah-Mahoney  N, Lawlor RG, Tilahun AY, Xie C, Natarajan K,   Margulies DH, Ratner DI, Osborne BA, et al.  Potent neutralization of staphylococcal enterotoxin   B by synergistic action of chimeric antibodies.
+Infect   Immun 2010; 78:2801-11; PMID:20308304; http://  dx.doi.org/10.1128/IAI.01121-09  23. Pang LT, Kum WW, Chow AW.
+Inhibition of   staphylococcal enterotoxin B-induced lymphocyte   proliferation and tumor necrosis factor alpha secretion   by MAb5, an anti-toxic shock syndrome toxin 1   monoclonal antibody.
+Infect Immun 2000; 68:3261-  8; PMID:10816471; http://dx.doi.org/10.1128/  IAI.68.6.3261-3268.2000  24. Murzin AG.
+OB(oligonucleotide/oligosaccharide   binding)-fold: common structural and functional   solution for non-homologous sequences.
+EMBO J  1993; 12:861-7; PMID:8458342  25.
+Papageorgiou AC, Tranter HS, Acharya KR.
+Crystal   structure of microbial superantigen staphylococcal   enterotoxin B at 1.5 A resolution: implications for   superantigen recognition by MHC class II molecules   and T-cell receptors.
+J Mol Biol 1998; 277:61-  79; PMID:9514739; http://dx.doi.org/10.1006/  jmbi.1997.1577  Downloaded by [University of Alaska Fairbanks] at 05:45 06 January 2015 2014 Landes Bioscience. Do not distribute.
+  www.landesbioscience.com mAbs 129  26.
+Al-Lazikani B, Lesk AM, Chothia C. Standard   conformations for the canonical structures of   immunoglobulins.
+J Mol Biol 1997; 273:927-  48; PMID:9367782; http://dx.doi.org/10.1006/  jmbi.1997.1354  27.
+Krissinel E. Crystal contacts as natures docking   solutions.
+J Comput Chem 2010; 31:133-43;  PMID:19421996; http://dx.doi.org/10.1002/  jcc.21303  28.
+Lawrence MC, Colman PM.
+Shape complementarity   at protein/protein interfaces.
+J Mol Biol 1993;   234:946-50; PMID:8263940; http://dx.doi.
+  org/10.1006/jmbi.1993.1648  29.
+Goldsby RA.
+in Nucleic acid and monoclonal   antibody probes, eds. Swaminathan, B. & Prakash,   G. (Marcel-Dekker, New York, NY),1989; pp. 367.
+  30. Chen Q, Wang Q, Xiong L, Lou Z. A structural view   of the conserved domain of rice stress-responsive   NAC1.
+Protein Cell 2011; 2:55-63; PMID:21337010;   http://dx.doi.org/10.1007/s13238-011-1010-9  31.
+Otwinowski Z, Minor W. in Macromolecular   Crystallography, part A, eds. Carter Jr., C. W. &   Sweet, R. M. (Academic Press, New York), 1997; Vol.   276, pp. 307-326.  32. McCoy AJ, Grosse-Kunstleve RW, Adams PD, Winn  MD, Storoni LC, Read RJ.
+Phaser crystallographic   software.
+J Appl Crystallogr 2007; 40:658-74;  PMID:19461840; http://dx.doi.org/10.1107/  S0021889807021206  33.
+Emsley P, Cowtan K. Coot: model-building tools   for molecular graphics. Acta Crystallogr D Biol   Crystallogr 2004; 60:2126-32; PMID:15572765;   http://dx.doi.org/10.1107/S0907444904019158  34. Adams PD, Grosse-Kunstleve RW, Hung LW, Ioerger  TR, McCoy AJ, Moriarty NW, Read RJ, Sacchettini  JC, Sauter NK, Terwilliger TC.
+PHENIX: building   new software for automated crystallographic structure   determination.
+Acta Crystallogr D Biol Crystallogr  2002; 58:1948-54; PMID:12393927; http://dx.doi.
+  org/10.1107/S0907444902016657  35. Laskowski R, MacArthur M, Moss D, Thornton  J. PROCHECK: a program to check the   stereochemical quality of protein structures.
+J Appl   Cryst 1993; 26:283-91; http://dx.doi.org/10.1107/  S0021889892009944  36.
+Blank C, Luz A, Bendigs S, Erdmann A, Wagner  H, Heeg K. Superantigen and endotoxin synergize   in the induction of lethal shock.
+Eur J Immunol  1997; 27:825-33; PMID:9130631; http://dx.doi.
+  org/10.1002/eji.1830270405  37.
+Xuan C, Shi Y, Qi J, Zhang W, Xiao H, Gao GF.
+  Structural vaccinology: structure-based design of   influenza A virus hemagglutinin subtype-specific   subunit vaccines.
+Protein Cell 2011; 2:997-1005;  PMID:22231357; http://dx.doi.org/10.1007/  s13238-011-1134-y  Downloaded by [University of Alaska Fairbanks] at 05:45 06 January 2015

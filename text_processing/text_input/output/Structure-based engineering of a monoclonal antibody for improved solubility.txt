@@ -1,0 +1,761 @@
+Structure-based engineering of a monoclonal antibody
+for improved solubility
+Sheng-Jiun Wu1,3, Jinquan Luo1, Karyn T.O’Neil 1,
+James Kang2, Eilyn R.Lacy1, Gabriela Canziani 1,
+Audrey Baker 1, Maggie Huang1, Qing Mike Tang1,
+T.Shantha Raju1, Steven A.Jacobs 1, Alexey Teplyakov1,
+Gary L.Gilliland1 and Yiqing Feng1,3
+1
+Biologics Research, Centocor R&D, 145 King of Prussia Radnor,
+PA 19087-4557, USA and 2
+Present address: Regeneron Pharmaceuticals,
+Inc., 777 Old Saw Mill River Rd, Tarrytown, NY 10591, USA
+3
+To whom correspondence should be addressed.
+E-mail: swu4@its.jnj.com (S.-J.W.) or yfeng8@its.jnj.com (Y.F.)
+Received March 3, 2010; revised April 29, 2010;
+accepted May 19, 2010
+Edited by Dario Neri
+Protein aggregation is of great concern to pharmaceutical
+formulations and has been implicated in several diseases.
+We engineered an anti-IL-13 monoclonal antibody
+CNTO607 for improved solubility. Three structure-based
+engineering approaches were employed in this study:
+(i) modifying the isoelectric point (pI), (ii) decreasing the
+overall surface hydrophobicity and (iii) re-introducing an
+N-linked carbohydrate moiety within a complementarity￾determining region (CDR) sequence. A mutant was ident￾ified with a modified pI that had a 2-fold improvement in
+solubility while retaining the binding affinity to IL-13.
+Several mutants with decreased overall surface hydropho￾bicity also showed moderately improved solubility while
+maintaining a similar antigen affinity. Structural studies
+combined with mutagenesis data identified an aggregation
+‘hot spot’ in heavy-chain CDR3 (H-CDR3) that contains
+three residues (99FHW100a). The same residues, however,
+were found to be essential for high affinity binding to
+IL-13. On the basis of the spatial proximity and germline
+sequence, we reintroduced the consensus N-glycosylation
+site in H-CDR2 which was found in the original antibody,
+anticipating that the carbohydrate moiety would shield
+the aggregation ‘hot spot’ in H-CDR3 while not interfer￾ing with antigen binding. Peptide mapping and mass
+spectrometric analysis revealed that the N-glycosylation
+site was generally occupied. This variant showed greatly
+improved solubility and bound to IL-13 with affinity
+similar to CNTO607 without the N-linked carbohydrate.
+All three engineering approaches led to improved solubi￾lity and adding an N-linked carbohydrate to the CDR
+was the most effective route for enhancing the solubility
+of CNTO607.
+Keywords: antibody/N-glycosylation/protein engineering/
+solubility/structure-based design
+Introduction
+Successful development and launch of a new protein thera￾peutic is dependent on the selection of a protein candidate
+with good activity and biophysical properties. The biophysi￾cal properties of candidate molecules have implications for
+development of therapeutics relating to purification, formu￾lation, pharmacokinetics, immunogenicity and dosing regi￾mens. For biopharmaceuticals, low solubility of therapeutic
+proteins renders formulation development more difficult and
+may lead to poor bio-distribution, undesirable pharmacoki￾netics behavior and immunogenicity in vivo (Kerns and Di,
+2003). Indeed, several recent reports on computational and
+traditional biophysical methods have described new strategies
+to characterize and improve the biophysical properties of
+therapeutic candidates (Jespers et al., 2004; Famm and
+Winter, 2006; Lienqueo et al., 2006; Demeule et al., 2007;
+Jacobs et al., 2009).
+The intrinsic properties of proteins such as size, hydropho￾bicity, electrostatics and charge distribution play important
+roles in protein solubility (Bagby et al., 2001; Mosavi and
+Peng, 2003; Andrews et al., 2005; Strickler et al., 2006;
+Trevino et al., 2007). Aggregation or precipitation is driven
+by protein self-association, which is often the result of weak
+molecular interactions. Such interactions are a function of
+the solution environment and include factors such as pH,
+ionic strength, temperature and co-solutes. Recognizing the
+importance of solubility, a variety of strategies have been
+employed to improve protein solubility including site-specific
+mutagenesis (Fowler et al., 2005; Pawar et al., 2005;
+Swencki-Underwood et al., 2008) and stabilizing peptide
+fusions (Lee et al., 2005). Covalent modification and conju￾gation of proteins by pegylation or hyperglycosylation fre￾quently used to enhance pharmacokinetics and in vivo
+half-life also often result in higher solubility (Wiecek et al.,
+2007; Veronese and Mero, 2008).
+CNTO607 is a potent neutralizing anti-IL-13 monoclonal
+antibody selected using Morphosys HuCAL phage display
+technology (Rothe et al., 2008). An examination of the orig￾inal complementarity-determining region (CDR) sequences
+from phage display selection indicated the presence of a con￾sensus N-linked glycosylation site (53NSS55) in heavy-chain
+CDR2 (H-CDR2). Expression of the mAb in mammalian cell
+cultures may thus lead to glycosylation at this site. This
+could potentially lead to additional heterogeneity of the final
+therapeutic mAb. To improve homogeneity, the potential
+glycosylation site was removed by replacing N53 with an
+aspartic acid, a residue commonly encoded at this position in
+the corresponding germline genes (Vh3). The resulting anti￾body retained high affinity for IL-13, although the antibody
+exhibited low solubility and aggregation near neutral pH.
+In an effort to improve the biophysical properties of the
+antibody, we employed three protein-engineering strategies:
+(i) altering the isoelectric point ( pI); (ii) decreasing overall
+surface hydrophobicity and (iii) introducing an N-linked
+carbohydrate within H-CDR2 to disrupt a suspected mechan￾ism of aggregation based on structural studies. We demon￾strate that shielding an aggregation-promoting hydrophobic
+patch on the surface of the antibody with a carbohydrate
+# The Author 2010. Published by Oxford University Press. All rights reserved.
+For Permissions, please e-mail: journals.permissions@oxfordjournals.org
+643
+Protein Engineering, Design & Selection vol. 23 no. 8 pp. 643– 651, 2010
+Published online June 11, 2010 doi:10.1093/protein/gzq037
+ at Monash University on December 7, 2014 http://peds.oxfordjournals.org/ Downloaded from moiety provided dramatic improvement in solubility while
+the other strategies yielded only incremental improvements.
+Materials and methods
+Reagents
+Human recombinant IL-13 was purchased from R&D System
+(Minneapolis, MN, USA). Sialidase A was obtained from
+SelectinBio (Pleasanton, CA, USA). Trifluoroacetic acid
+(TFA), EDTA disodium salt and 8 M guanidine hydrochlo￾ride stock solution were purchased from Thermo Scientific
+Inc. (Rockford, IL, USA). Acetonitrile was purchased from
+Honeywell International Inc. Burdick & Jackson (Muskegon,
+MI, USA). Dithiothreitol (DTT) was purchased from
+Bio-Rad (Hercules, CA, USA). Iodoacetamide was purchased
+from Sigma-Aldrich Inc. (St Louis, MO, USA). Ultrapure
+1 M Tris-hydrochloride stock solution was purchased from
+Invitrogen (Carlsbad, CA, USA). Lysyl endoproteinase C
+mass spectrometry grade was purchased from Wako
+Chemicals USA, Inc. (Richmond, VA, USA).
+Engineered antibodies with germline mutations
+The sequence of the light chain (LC) of CNTO607 was com￾pared with germline sequences in the IMGT database
+(Lefranc et al., 2009) using BLAST (Rangwala and Karypis,
+2007). The closest matching germline gene for LC vb_3h
+(Vl3) was chosen based on the overall sequence identity.
+Residues in the framework region were then mutated to their
+counterparts in the chosen germline gene.
+Construction of expression plasmids
+Gene-specific primers were designed and synthesized based
+on the heavy-chain (HC) V-region of CNTO607. The
+primers contained flanking HindIII and EcoR1 restriction
+enzyme sites for cloning into the Lonza pEE GS (glutamine
+synthetase) vector that contains human IgG1 constant
+regions. CNTO607 HC expression plasmid was designated as
+p3401. The LC V-region of CNTO607 was cloned into the
+pEE GS vector that contains human lambda constant regions.
+CNTO607 LC expression plasmid was designated as p3408.
+The plasmids, p3401 and p3408, were used as templates to
+generate different variants either on CNTO607 HC or on
+CNTO607 LC. Various mutations, as listed in Table I, were
+introduced using a QuickChange site-directed mutagenesis
+kit (Stratagene, Cat# 200522).
+Expression and purification
+CNTO607 used in these studies is a fully human IgG1l
+monoclonal antibody against human IL-13 (Centocor R&D)
+produced from an SP2/0 stable cell line. The mutant anti￾bodies were transiently co-expressed by HC and LC plasmids
+in either HEK293E or CHO cells. Antibody variants were
+expressed transiently in 1 l volume HEK293E or CHO trans￾fections. We did not observe cell-line specific, HEK293E or
+CHO, differences in antibody solubility among the
+CNTO607 variants. For each transfection, in separate tubes,
+150 mg each of LC and HC DNA and Lipofectamine 2000
+(Invitrogen Cat# 11668027) were diluted in 20 ml OptiMem
+media. The mixtures were incubated at room temperature for
+5 min before combining the contents of both tubes and incu￾bating for additional 20 min at room temperature. The DNA/
+Lipofectamine/OptiMem complex was added to the cells
+drop-wise directly into media and cells were placed in the
+incubator for 24 h. The transfection media was replaced with
+293SFMII production media (Invitrogen Cat# 11686029)
+24 h later. The conditioned media were harvested for purifi￾cation 6 days later, after the transfections were set up.
+Antibodies were purified from the harvested media using
+MabSelect SuRe resin (GE Healthcare, Cat# 17-5438-03).
+The purity of the antibodies was analyzed by SDS – 10%
+polyacrylamide gel electrophoresis (PAGE) according to
+Laemmli (1970).
+Isoelectric-focusing gel analysis
+To determine the pI values of antibodies, isoelectric-focusing
+(IEF) gel electrophoresis was performed. Protein samples
+were analyzed with Novexw Pre-Cast Vertical pH 3-10 IEF
+Gels (Invitrogen). Samples comprised of 2 – 5 mg of proteins
+were loaded on the gel. The detailed procedures were con￾ducted according to the manufacturer’s protocol.
+Solubility measurements
+To determine the solubilities of antibodies, experiments were
+carried out using the ultrafiltration method (Haire and Blow,
+2001; van Reis and Zydney, 2001; Moore and Kery, 2009).
+Antibodies in PBS buffer were added to Vivaspin ultrafiltra￾tion spin columns with 30 000 MWCO (Vivascience Ltd.) at
+Table I. Sequence summary for anti-IL-13 monoclonal antibody variants
+a
+Residue numbered annotations were identified according to Chothia structure-based numbering scheme
+(Chothia et al., 1998; Teplyakov et al., 2009).
+S.-J.Wu et al.
+644
+ at Monash University on December 7, 2014 http://peds.oxfordjournals.org/ Downloaded from room temperature. The 15-ml spin columns were inserted to
+the swing bucket rotor in Eppendorf Centrifuge 5804R and
+centrifuged at speed 3000g. Once the volume was reduced
+to 2 ml, supernatant was transferred to a 2-ml spin column
+and centrifuges at speed 4000g for 20 min. When the
+volume was reduced to 500 ml, the sample was transferred to
+a Vivaspin 500 spin column and centrifuged at 15 000g
+until precipitation was observed using an Eppendorf 5415R
+centrifuge. After spinning down the precipitation, the super￾natant was equilibrated at room temperature overnight. After
+another centrifugation step to remove the precipitation, the
+supernatant was collected and the antibody concentration in
+solution was determined after appropriate dilution by
+measuring absorbance at 280 nm using a Nanodrop (Thermo
+Scientific Inc., Rockford, IL, USA). If the concentrations
+reach more than 100 mg/ml without visible precipitation,
+further concentration was stopped and the protein concen￾tration was determined as described.
+Binding affinity determination by Biacore analysis
+Surface plasmon resonance experiments were performed
+using a Biacore 3000 optical biosensor (Biacore AB,
+Uppsala, Sweden; currently part of GE Healthcare). The
+experiments were performed at 258C in D-PBS buffer con￾taining 3 mM EDTA and 0.005% surfactant P20. To analyze
+the interaction of the antibodies with IL-13 (R&D systems,
+Inc.), a capture surface was generated by covalent coupling
+of goat antihuman IgG Fcg fragment (Jackson
+ImmunoResearch Laboratories, Inc.) to a CM-5 sensor chip.
+The antihuman Fcg fragment-specific antibody was diluted
+into 10 mM sodium acetate buffer pH 4.5 (Biacore AB) and
+coupled to the carboxymethylated dextran surface of the
+CM-5 chip [3000 response units (RU)] using the manufac￾turer’s instructions for amine-coupling chemistry. The
+remaining reactive groups on the surface were deactivated
+using ethanolamine –HCl. To perform kinetics experiments,
+100 RU of anti-IL-13 antibodies were captured on this
+surface followed by injection of IL-13 at various concen￾trations (typically 0.10 – 5 nM) for an 8-min period at 30 ml/
+min. This was followed by buffer flow for 10 min to 1 h to
+monitor binding dissociation. The capture surface was regen￾erated using 100 mM phosphoric acid, followed by injection
+of running buffer.
+Double reference subtraction of the data was performed to
+correct for buffer contribution to the signal and instrument
+noise using the Scrubber software (Myszka, 1999) version
+1.1 g (BioLogic Software) for referencing. After this initial
+data processing, kinetic analysis of the data was performed
+using the BIAevaluation software, version 4.0.1 (Biacore
+AB) assuming a simple 1:1 binding model.
+Hydrophobic interaction chromatography
+The procedure used to measure the antibody retention time
+in hydrophobic interaction chromatography (HIC) is similar
+to one described previously (Lienqueo et al., 2006; To and
+Lenhoff, 2007a) with some modifications. The experiments
+were performed on a Beckman-Coulter HPLC system
+equipped with a System Goldw 126 Solvent Module gradient
+pump, a System Goldw 508 Autosampler with a 200-ml
+injection loop and System Goldw UV detector of eluted
+protein. A TSK-GELw Ether-5PW column (7.5  0.75 cm)
+made of stainless steel and 10 mm diameter particles (P/N
+08641, Tosoh Bioscience, LLC, Montgomeryville, PA, USA)
+was equilibrated at room temperature with 80% 2 M
+ammonium sulfate in PBS using a flow rate of 0.5 ml/min.
+Samples were diluted to 100 mg/ml and 100 ml was
+injected. The gradient used for each isocratic elution was
+80% 2 M ammonium sulfate/20% PBS in 35 min.
+After each isocratic run, the column was washed with
+5 –10 column volumes of PBS and then re-equilibrated with
+five column volumes of buffer containing the appropriate
+ammonium sulfate concentration prior to the next sample
+injection.
+Characterization of N-glycosylation
+Antibody samples (1 mg/ml) were brought into 20 mM
+Tris –HCl buffer, pH 7.5, and digested with sialidase A (at
+1:100 enzyme to substrate ratio) at 378C for 24 h (Raju and
+Scallon, 2007). The desialylated antibody samples were
+purified using a protein A affinity column and subjected to
+IEF gel analysis. pIs were determined by applying the
+antibodies to Novexw IEF Gels (Invitrogen, CA, USA)
+contain 5% polyacrylamide and following the manufacturer’s
+instructions.
+The glycosylation in Mab VII was verified using
+HPLC-Qq/TOF mass spectrometry (Agilent 1100 coupled
+with a Waters Q-TOF MS). Peptide mapping of Mab VII
+was performed as described previously (Dorai et al., 2009)
+with some modifications. Briefly, 200 mg of the mAb was
+desalted, dried and reconstituted with 150 ml of 6 M guani￾dine hydrochloride, 50 mM Tris –HCl, 5 mM EDTA, pH 8.0.
+The sample was reduced with 1.5 ml of 1.0 M DTT at 378C
+for 1 h and alkylated with 3.0 ml of 1 M sodium iodoaceta￾mide at room temperature in the dark for 1 h. The reaction
+was quenched by the addition of 1 ml of 1.0 M DTT. The
+reduced and alkylated sample was then diluted with 750 ml
+of 50 mM Tris –HCl, pH 8.0, and digested with Lys-C
+(enzyme/protein ¼ 1:25) (w/w) for 4 h at 378C. The reaction
+was quenched by the addition of 5 ml of TFA, and the resul￾tant peptides were resolved by reverse-phase HPLC using a
+narrow bore C18 column (Vydac, 218TP5215, 2.1 mm 
+150 mm) and a gradient of acetonitrile in 0.1% TFA. The
+chromatography was performed on an Agilent HPLC (model
+1100) with a capillary pump and a diode array detector.
+Absorbance was monitored and collected at 214 and 280 nm.
+An online LTQ-Orbitrap mass spectrometer (Thermo
+Electron) with an electrospray source was used in-line after
+the UV detector to collect mass spectra of the intact peptide
+as well as to fragment the peptides for sequencing (MS/MS
+analysis).
+Thermal stability analysis
+Thermal stability experiments were carried out in PBS.
+Antibodies were introduced into the sample chamber of a
+Nano DSC calorimeter (Calorimetry Sciences/TA
+Instruments) at concentrations of 0.5– 1.0 mg/ml. The corre￾sponding PBS dialysate used in the sample preparation was
+introduced into the reference chamber. Each mAb-buffer pair
+was heated linearly from 208C to 1008C at a fixed pressure
+of 3 atm, while differential power was monitored. In
+addition, PBS was added to both sample and reference
+chambers and scans were collected for baseline subtraction
+using the same procedure as for the protein samples.
+Engineering of an antibody for improved solubility
+645
+ at Monash University on December 7, 2014 http://peds.oxfordjournals.org/ Downloaded from           Results
+The solubility of a protein depends strongly on the pH of the
+solution. We use the term solubility here to define the
+maximum protein concentration that can be achieved before
+precipitation is observed. The highest concentration of
+CNTO607 in PBS buffer at pH 7.2 is 13 mg/ml. To
+evaluate the antibody in a biologically relevant pH environ￾ment, we focused on improving CNTO607 solubility in this
+buffer.
+The effect of pI
+The range for pI of CNTO607 was determined by IEF gel
+analysis to be 7.4– 7.5 (Fig. 1). The multiple bands observed
+in the gel are typical of antibodies due to charge heterogen￾eity introduced by the variability of the N-linked glycosyla￾tion at N297 in the Fc region (Nimmerjahn and Ravetch,
+2008; Raju, 2008). Owing to the close proximity of the pI to
+the pH of PBS buffer, CNTO607 is likely to have a low net
+charge in solution. Since the solubility of a protein in a
+buffer is often lowest near its pI, it was hypothesized that
+changing the pI of CNTO607 would yield a more soluble
+antibody. To shift the pI of CNTO607 while introducing
+minimal risk of immunogenicity, the Fv sequence was
+altered to match that of the closest germline gene achieving
+a net gain in positive charge, as described in the methods.
+The sequence differences between the LC of CNTO607 and
+germline vb_3h (Vl3) are E3 ! V and 77GTQAE81 !
+77RVEAG81 in framework regions 1 and 3, respectively.
+Thus, a CNTO607 variant with such changes would have a
+net charge increase of 2. On the basis of the crystal structures
+of the Fab fragment of CNTO607 and its complex with
+IL-13 (Teplyakov et al., 2009), it was considered unlikely
+that these residue changes would impact antigen binding.
+Therefore, a variant, Mab II, with mutations of E3 ! V and
+77GTQAE81 ! 77RVEAG81 in the LC was constructed
+(Table I). With a net gain of þ2.0 per Fab in charge, Mab
+II was predicted to have a pI of 7.9. The IEF gel analysis
+of Mab II indicated that it had an average pI of 7.8
+(Fig. 1), in agreement with the prediction. Biacore analysis
+confirmed that Mab II bound to IL-13 with an affinity
+similar to that of CNTO607 (Table II). Upon concentrating,
+the solubility of Mab II was determined to be 29 mg/ml,
+more than double that of CNTO607 (Table II). This result
+is consistent with our hypothesis that a change in pI should
+improve the solubility of the molecule in PBS buffer.
+However, Mab II is still considerably less soluble than
+many other antibodies, suggesting that the limited change
+in charge was insufficient to overcome the other factors
+that limit its solubility. Further change in pI was hampered
+by the restraint to maintain a sequence compatible with
+those of the human germline. These beneficial mutations in
+the LC nevertheless were incorporated in some of the sub￾sequent variants to assess if other improvements in solubi￾lity would be additive.
+The effect of hydrophobicity
+Hydrophobic interactions have long been recognized as
+major contributors to high affinity interactions between
+macromolecules. Given the high affinity of CNTO607 to
+IL-13 (18 pM), it is not surprising that the CDR loops in
+CNTO607 contain a number of hydrophobic residues that
+form a prominent hydrophobic ridge (Fig. 2A). Both the LC
+and the HC contribute to this structural feature. Clusters of
+such hydrophobic residues on the surface of proteins tend to
+favor non-specific interactions that lead to aggregation
+(Nasreen et al., 2006). On the basis of the crystal structure of
+the Fab fragment of CNTO607 bound to IL-13, most of these
+hydrophobic residues are involved directly in IL-13 binding
+(Teplyakov et al., 2009). Nevertheless, we attempted to
+reduce the surface hydrophobicity of the CDR loops in
+CNTO607 by site-directed mutagenesis.
+A number of diverse light-chain CDR3 (L-CDR3)
+sequences were discovered during the phage display affinity
+maturation process, indicating tolerance in the L-CDR3
+region. On the basis of the crystal structure of the complex
+between CNTO607 Fab and IL-13, the principal antibody
+residues that contact IL-13 are located in H-CDR3, L-CDR1
+and L-CDR2, whereas H-CDR1 and L-CDR3 make very few
+Fig. 1. IEF gel analysis of CNTO607 and Mab II. Ten microliters of pH
+3-10 markers (Serva) was loaded on the gel. Positions of pI markers are
+indicated at left. Each lane contained 4 –10 mg of protein.
+Table II. Biophysical characterization and binding affinities of anti-IL-13
+monoclonal antibody variants
+MAb ID KD (pM) Solubility (mg/ml) DTr (min) Tm (8C)
+CNTO607 18.4+1.9 13.3 0.0 63.7
+Mab II 23.3+5.6 29.1 20.3 ND
+Mab III 70.8+0.9 25.4 21.5 ND
+Mab IV 29.1+0.8 12.4 21.6 ND
+Mab V 7.6+0.5 29.2 22.8 69.4
+Mab VI .45 000 .164 26.5 64.9
+Mab VII 22.2+6.6 .110 ND 61.9
+The equilibrium dissociation constant KD is calculated from the ratio of
+koff/kon using a Biacore analysis. Data were obtained from a series of protein
+concentrations. The retention time, Tr, of antibodies was obtained in HIC.
+DTr ¼ Tr (variant) 2 Tr (Mab I). ND, not determined. Tm was determined by
+DSC on Fv transition.
+S.-J.Wu et al.
+646
+ at Monash University on December 7, 2014 http://peds.oxfordjournals.org/ Downloaded from    contacts with IL-13 (Teplyakov et al., 2009). Hence, we
+replaced the L-CDR3 with more hydrophilic sequences,
+resulting in Mab III, IV and V (Table I). Biacore data
+showed that these CNTO607 variants bind to IL-13 with affi￾nities similar to that of CNTO607. The structural and
+binding results suggested that these antibody variants would
+likely recognize a very same epitope. The hydrophobicity of
+these antibodies was evaluated by HIC. The retention time of
+a protein by HIC is determined by protein surface hydropho￾bicity as well as protein size (Lienqueo et al., 2006; To and
+Lenhoff, 2007a). When two proteins have virtually the same
+size and similar structures, the less hydrophobic protein will
+elute earlier on an HIC column. Although Mab III, IV and V
+eluted earlier on an HIC column, suggesting reduced
+surface hydrophobicity (Table II), the solubilities of Mab
+III (25 mg/ml), Mab IV (12 mg/ml) and Mab V
+(29 mg/ml) were not improved dramatically. Thus, the HIC
+retention time does not correlate linearly with solubility.
+These data also indicated that the L-CDR3 hydrophobicity
+was not critical for CNTO607 aggregation.
+Identification of the aggregation ‘hot spot’
+In the analysis of the crystal structure of the Fab fragment of
+CNTO607, it was observed that a nearly symmetrical tetra￾mer was formed as a result of crystal-packing contacts
+(Fig. 3A; Teplyakov et al., 2009). In this tetramer, an aro￾matic amino acid residue triad 99FHW100a in H-CDR3 of a
+Fab molecule was nestled against the elbow region of a
+symmetry-related Fab molecule (Fig. 3B). These three resi￾dues located near the center of the hydrophobic ridge occupy
+the center of the antigen-recognition site found in the three￾dimensional structure of the Fab:IL-13 complex (Fig. 2B;
+Teplyakov et al., 2009). The potential contribution of these
+residues to CNTO607 aggregation was explored by mutating
+them all to alanine residues, resulting in Mab VI (99FHW100a
+! 99AAA100a). This triple alanine mutant was found to be
+Fig. 2. Antigen-recognition surface of CNTO607 and its interaction with IL-13. (A). The hydrophobic ridge in the CNTO607 antigen-binding site. VL and
+VH are colored cyan and magenta. The hydrophobic ridge is colored green. N, S and O atoms in the ridge are colored blue, yellow and red. (B) Illustration of
+a carbohydrate moiety, shown in sticks, attached to N53 of Mab VII. The LC and HC and IL-13 are shown in cyan, magenta and green, respectively. The FHW
+triad in H-CDR3 and N53 are shown in stick models. This model of Mab VII was built on the crystal structure of CNTO607 (Teplyakov et al., 2009). Residue
+number annotations were determined according to Chothia’s structure-based numbering scheme (Chothia et al., 1998).
+Fig. 3. Crystal packing of Fab fragments of CNTO607. (A) In the crystal, the Fab fragments of CNTO607 form a nearly symmetrical tetramer (Teplyakov
+et al., 2009). (B) Illustration of interface between elbow region and H-CDR3 surface. Several hydrophobic amino acids and aromatic rings are displayed. The
+orientation of Fig. 3 is 180 degrees from that of Fig. 2 along the vertical axis.
+Engineering of an antibody for improved solubility
+647
+ at Monash University on December 7, 2014 http://peds.oxfordjournals.org/ Downloaded from     highly soluble in PBS buffer (.160 mg/ml) and significantly
+less hydrophobic as indicated by a 6.5 min reduction in the
+HIC elution time (Table II). However, not surprisingly, Mab
+VI no longer binds to IL-13 with high affinity (Table II).
+This result pinpointed the aromatic triad in the H-CDR3
+sequence as a ‘hot spot’ for both aggregation and interaction
+with IL-13.
+A variable region N-glycan to prevent aggregation
+The crystal packing of the Fab (Fig. 3A and B) suggested a
+potential mechanism of aggregation. If this tetrameric
+packing exists in solution, albeit at low affinity, it would
+likely lead to large clusters of mAbs at high protein concen￾tration due to the bivalency of the mAb. Thus, we sought to
+disrupt this potential specific mAb –mAb polymerization
+while keeping the hydrophobic ‘hot spot’ in the H-CDR3
+sequence intact for antigen binding. By careful examination
+of the structures of Fab607 and Fab607/IL-13 complex, we
+concluded that D53 of CNTO607 H-CDR2 was adjacent to
+the aromatic triad and exposed to the solvent, but not directly
+involved in antigen binding so that placement of an N-linked
+carbohydrate moiety at D53 might block the mAb –mAb
+interaction (Fig. 2B). Therefore, D53 of CNTO607 H-CDR2
+was mutated to N in combination with the pI mutations in
+the LC (Table I). The resulting molecule, Mab VII, was gen￾erated and characterized for solubility and ligand binding.
+Upon concentration, Mab VII was found to be soluble to
+.110 mg/ml in PBS buffer (Table II). Although the upper
+limit of the solubility could not be determined because of the
+quantity limitation, it was obvious that Mab VII exhibited far
+superior solubility when compared with Mab II. Biacore
+analysis indicated that Mab VII bound to IL-13 with affinity
+comparable to CNTO607 and Mab II (Table II). Mab VII
+was analyzed further to determine whether the
+N-glycosylation site was occupied using analytical methods
+including SDS –PAGE, IEF gel analysis combined with siali￾dase A treatment and peptide mapping using mass spec￾trometry. The HC of Mab VII showed distinctively higher
+molecular weight than that of CNTO607 in SDS –PAGE gel
+under reducing condition (Fig. 4A), consistent with an
+additional N-linked carbohydrate moiety. The relatively
+narrow band on the gel also suggested that the
+N-glycosylation site was almost fully occupied. Although the
+IEF gel of CNTO607 showed multiple bands due to charge
+heterogeneity in the N-linked glycosylation in the Fc region,
+there were many more bands for Mab VII consistent with
+additional heterogeneity due to the new glycosylation in the
+Fv region. Upon treatment with sialidase A, which specifi￾cally removes the sialic acids on glycans, Mab VII showed a
+significant increase in pI (Fig. 4B) whereas CNTO607 shows
+little difference (data not shown). The insensitivity of
+CNTO607 to sialidase A treatment is consistent with pre￾vious reports that the N-linked glycosylation in the Fc region
+is minimally sialylated (Scallon et al., 2007). The large
+change observed for Mab VII suggested that the N-linked
+glycosylation in the Fv of Mab VII was significantly sialy￾lated, analogous to the variable region N-linked carbohydrate
+in Erbitux (Qian et al., 2007). The peptide mapping study
+led to the conclusion that residue N53 was indeed glycosy￾lated and that the carbohydrate primarily consisted of a core￾fucosylated, tri-antennary structure with fucose (1), galactose
+(2– 3), and N-acetylneuraminic acid (0 – 3) heterogeneity
+(Fig. 5, top panel). On the basis of peak areas from the
+HPLC chromatogram, it was estimated that 96% of the
+antibody population had carbohydrate attached to N53
+(Fig. 5, bottom panel).
+Taken together, the analytical results demonstrated that
+an N-linked carbohydrate existed in the H-CDR2 loop of
+Mab VII. This carbohydrate moiety prevented aggregation of
+the antibody while allowing it to interact with the antigen
+with high affinity.
+The effect of thermal stability
+Poor thermal stability can affect the solubility of proteins
+and lead to aggregation (Ewert et al., 2003; Jespers et al.,
+2004; Riechmann and Winter, 2006; Christ et al., 2007;
+Famm et al., 2008; Hmila et al., 2008). We sought to deter￾mine whether low thermal stability contributed to the low
+solubility of some of the variants by measuring the melting
+temperature. A typical differential scanning calorimetry
+(DSC) profile for an antibody contains multiple transitions,
+corresponding to the unfolding processes of CH2 domain,
+the Fab fragment and CH3 domain, respectively (Garber and
+Demarest, 2007). Sometimes not all the transitions are
+resolved. The Fab fragment transition signal is typically the
+highest of the transition signals (Garber and Demarest,
+2007). The sequences of the constant domains are invariable
+and isotype-dependent. Their unfolding transition tempera￾tures are therefore less variable for antibodies of the same
+isotype. In contrast, the variable domain sequences can be
+very diverse, leading to a wide range of Fab unfolding tran￾sition temperatures from one antibody to another.
+The thermal stability of CNTO607 and a number of the
+variants was evaluated by DSC (Table II). Figure 6A
+shows the DSC profiles of CNTO607, the Fab fragment of
+CNTO607 and IgG1-Fc. With the IgG1-Fc sample, we
+observed two transitions at 708C and 828C, which corre￾spond to the CH2 and CH3 domains, respectively (Garber
+and Demarest, 2007). Fab607 (described in Teplyakov
+et al., 2009) yielded two transitions at 658C and 778C, cor￾responding to the Fv and CH1 domains, respectively.
+CNTO607 yielded 4 transitions that generally aligned
+with the Fab and IgG1-Fc transitions. Therefore, we
+assigned the transitions near 638C, 708C, 768C and 838C to
+the Fv, CH2, CH1 and CH3 domains, respectively.
+Figure 6B shows the DSC profiles of CNTO607, Mab V,
+Mab VI and Mab VII. All of the antibodies in this study
+possessed the human IgG1 isotype and therefore had identi￾cal constant domains. The Fab fragment melting tempera￾tures ranged from 61.98C to 69.48C. No correlation was
+observed between the melting temperatures and the solubi￾lity, albeit they are within a relatively small range. Both
+Mab V and Mab VII are highly soluble antibodies yet their
+melting temperatures were at the high and low end of the
+Tm range, respectively.
+Discussion
+In the work presented here, we successfully engineered a low
+solubility monoclonal antibody into more soluble antibodies
+while maintaining high affinity to the antigen. Three strat￾egies were devised to improve the solubility: (i) modifying
+the pI, (ii) decreasing the overall surface hydrophobicity and
+(iii) re-introducing an N-linked carbohydrate moiety in the
+S.-J.Wu et al.
+648
+ at Monash University on December 7, 2014 http://peds.oxfordjournals.org/ Downloaded from   H-CDR2 sequence. All three strategies had various degrees
+of success in improving solubility. Two of the variants, Mab
+VI and Mab VII, were highly soluble. However, Mab VI,
+with greatly reduced hydrophobicity, lost binding affinity to
+IL-13. Mab VII, on the other hand, is a highly soluble and
+potent antibody with elevated pI and the additional N-linked
+glycosylation in H-CDR2.
+Changing the pI is known as a valid approach for increas￾ing protein solubility (Tan et al., 1998). At a pH near the pI
+of a protein, the net charge on the protein is close to zero
+and the attractive electrostatic forces due to the dipole
+moment of the protein dominate protein – protein interactions.
+This often leads to non-specific aggregation of the molecules
+and results in low solubility. Away from the pI, the mol￾ecules are positively or negatively charged and the resulting
+repulsive forces promote higher solubility. Engineering the
+pI to improve protein solubility has been successfully carried
+out for an scFv, in which the pI was lowered from 7.5 to a
+predicted 6.1 by an addition of five glutamate residues at the
+C-terminus (Tan et al., 1998). This resulted in a 150-fold
+Fig. 4. Characterization of CNTO607 and Mab VII using gel electrophoresis. (A) SDS–PAGE analysis of CNTO607 and Mab VII under reducing condition;
+positions of HC and LC are indicated at right; pmolecular weight markers are indicated at left. (B) IEF gel analysis of CNTO607 and Mab VII with and
+without sialidase A treatment; 10 ml of pH 3 –10 markers (Serva) was loaded on the gel; pI markers are indicated at right. Each lane contained 4 –10 mg of
+protein.
+Fig. 5. Lys-C peptide map of Mab VII. The bottom panel is the HPLC chromatogram of peptide digest from 83 to 96 min at 214 nm. The peaks in retention
+time 84.5– 90.0 min region are peptides corresponded to N-glycosylation at HC N53. The top panel is mass spectra profile of N-glycosylated peptide with
+charge (þ3).
+Engineering of an antibody for improved solubility
+649
+ at Monash University on December 7, 2014 http://peds.oxfordjournals.org/ Downloaded from increase in the solubility of the scFv. The pI change we were
+able to achieve in Mab II was small (0.4 pH units) in com￾parison, hampered by the desire to maintain human germline
+sequences to avoid immunogenicity. One can expect that
+additional changes in pI without sequence constraints may
+result in more significant improvement in solubility.
+Hydrophobicity is well known to be involved in protein
+aggregation. Unfolded or partially unfolded proteins tend to
+form aggregates due to exposure of the hydrophobic interiors
+to the aqueous solvent (Patra and Udgaonkar, 2007;
+Ashbaugh and Hatch, 2008). Protein surface hydrophobic
+patches are a source of aggregation at high protein concen￾trations (Mosavi and Peng, 2003). Reducing surface hydro￾phobicity by substitution with hydrophilic residues proved to
+be an effective strategy for improving solubility in several
+cases (Dale et al., 2003; Mosavi and Peng, 2003; Derewenda,
+2004). For example, replacement of surface-exposed hydro￾phobic residues with arginine in ankyrin repeat proteins and
+in the subtilisin family of proteases significantly improved
+their solubility at physiological pH (Shirai et al., 1997;
+Mosavi and Peng, 2003).
+The hydrophobicity of a protein can be measured in differ￾ent ways. HIC is a technique used to purify and characterize
+proteins (To and Lenhoff, 2007a, b). Compared with reverse￾phase chromatography, which uses highly hydrophobic sur￾faces and harsh eluents, HIC employs less hydrophobic
+surfaces and milder protein –matrix interactions. Thus, pro￾teins purified by HIC are more likely to retain their native
+conformations and biological activities (Lienqueo et al.,
+2006; To and Lenhoff, 2007a). In this work, we used HIC
+retention time to provide a relative ranking of the overall
+surface hydrophobicity. We found that a reduction in overall
+hydrophobicity, measured by the HIC retention time,
+sometimes yielded more soluble molecules but was not a
+reliable predictor for solubility.
+We succeeded in engineering a highly soluble and potent
+antibody by adding a consensus N-glycosylation site into the
+H-CDR2 loop, paving the way toward high-concentration
+formulations. Hyperglycosylation (Sinclair and Elliott, 2005),
+similar to pegylation (Veronese and Mero, 2008), has been
+shown to improve properties such as molecular stability,
+solubility, increased in vivo biological activity and reduced
+immunogenicity for therapeutic proteins. Antibodies are
+natural glycoproteins with N-linked carbohydrates attached
+to N297 in the Fc region. Many antibodies also have variable
+region-associated oligosaccharides. In Kabat’s database,
+18% of the variable region sequences contain a potential
+N-linked glycosylation site in HCs. Approximately 15– 25%
+of the Fab fragments and 15% of the LCs isolated from
+human myeloma proteins were found to contain N-linked
+oligosaccharides (Spiegelberg et al., 1970). Erbitux, a
+human/mouse chimeric therapeutic antibody derived using
+hybridoma technology, has an occupied N-linked glycosyla￾tion site within framework 3 of the HC variable region (Qian
+et al., 2007). Variable region glycosylation is known to play
+an important role in affinity, specificity, half-life, and immu￾nogenicity of several antibodies (Wright et al., 1991; Coloma
+et al., 1999; Rudd et al., 1999). In many cases, carbohydrates
+in the variable regions are found to modulate affinity
+(Wallick et al., 1988; Wright et al., 1991; Co et al., 1993;
+Khurana et al., 1997; Leibiger et al., 1999). In a previous
+report, the presence of an N-linked carbohydrate placed in
+the same position as in Mab VII increased the affinity for
+dextran by 10– 50-fold (Wright et al., 1991). CNTO607 was
+derived from the HuCAL Gold Fab phage display library, in
+which the consensus N-glycosylation sites were present in
+the V-regions (Rothe et al., 2008). In the latest HuCAL
+Platinum library, these N-glycosylation motifs have been
+largely eliminated (http://www.morphosys.com) to avoid
+potential negative glycosylation effect on affinity and hetero￾geneity when antibodies are produced in mammalian cell
+cultures. Glyco-engineering in antibody CDR sequences
+remains an uncommon practice due to the high risk of
+impeding antigen binding. To our knowledge, this is the first
+report that intentionally adding an N-linked carbohydrate in a
+CDR resulted in a highly soluble antibody without any sig￾nificant effect on affinity.
+In our case, the introduction of the single carbohydrate
+moiety in the H-CDR2 loop served to inhibit self￾interactions. On the basis of the crystal structure, a bulky
+carbohydrate moiety attached to this site was predicted to
+protrude outward with minimal perturbation to the structure.
+Owing to the single-point attachment, the carbohydrate
+moiety apparently has sufficient flexibility not to interfere
+with the interaction with the antigen. Our work demonstrated
+that variable region hyperglycosylation can be a viable
+approach to improve antibody solubility. Although this
+approach has received little attention in the past, we believe
+that it may have wider applicability in antibody engineering
+than previously thought, especially when antigen interaction
+and aggregation ‘hot spot’ overlap. In a typical antibody –
+antigen binding system, it was shown that less than half of
+the potentially antigen contacting CDR residues are used
+in the binding interactions (MacCallum et al., 1996). Some
+of the remaining CDR residues are, in principle, available for
+Fig. 6. DSC thermogram represented as a plot of Cp (heat capacity at
+constant pressure) versus temperature. (A) CNTO607, the Fab fragment of
+CNTO607 and IgG1-Fc. (B) CNTO607, Mab V, Mab VI and Mab VII.
+S.-J.Wu et al.
+650
+ at Monash University on December 7, 2014 http://peds.oxfordjournals.org/ Downloaded from  attaching carbohydrates that do not interfere with antigen
+binding. It is conceivable that this may be more feasible with
+small antigens. With detailed structural knowledge for the
+antibody–antigen complex, attachment sites can be rationally
+selected. In the absence of such structural information, a
+number of sites could be tested according to modeled struc￾tures of the antibody. The additional heterogeneity intro￾duced by the variable region glycosylation may be limited
+by utilizing glycol-engineered cell lines (Li et al., 2006).
+Although protein aggregation is usually considered to
+involve non-specific interactions, the interaction for
+CNTO607 involves a specific aromatic triad in H-CDR3. Our
+limited success in increasing solubility with the pI and LC
+hydrophobic mutants is likely due to the retention of the
+hydrophobic ‘hot spot’ in these molecules. The aggregation
+mechanism may be rationalized in light of the crystal
+packing of the Fab fragment in the absence of IL-13
+(Teplyakov et al., 2009). In the crystal structure, the Fab of
+CNTO607 forms a nearly symmetrical tetramer (Teplyakov
+et al., 2009), protecting the aromatic triad from surface
+exposure and non-specific aggregation. Such interactions in a
+full length antibody could extend to neighboring antibodies
+due to the bivalency and lead to precipitation at high concen￾trations. Further studies are on-going to test the hypothesis.
+Acknowledgements
+We thank Ken R. Dixon, Steve Pick, Bei Chen, Mike Lewis, Judy Connor,
+Matt Husovsky, Eric Beil, Jennifer Nemeth-Seay, Mark Cunningham,
+Ray Sweet, Rob Hayes and Michael Brigham-Burke for their support and
+assistance with this work, and Bob Jordan for a critical reading of the
+manuscript.
+Funding
+This work was supported by Centocor R&D.
+References
+Andrews,B.A., Schmidt,A.S. and Asenjo,J.A. (2005) Biotechnol. Bioeng.,
+90, 380–390.
+Ashbaugh,H.S. and Hatch,H.W. (2008) J. Am. Chem. Soc., 130, 9536–9542.
+Bagby,S., Tong,K.I. and Ikura,M. (2001) Methods Enzymol., 339, 20–41.
+Chothia,C., Gelfand,I. and Kister,A. (1998) J. Mol. Biol., 278, 457 –479.
+Christ,D., Famm,K. and Winter,G. (2007) Protein Eng. Des. Sel., 20,
+413–416.
+Co,M.S., Scheinberg,D.A., Avdalovic,N.M., McGraw,K., Vasquez,M.,
+Caron,P.C. and Queen,C. (1993) Mol. Immunol., 30, 1361– 1367.
+Coloma,M.J., Trinh,R.K., Martinez,A.R. and Morrison,S.L. (1999)
+J. Immunol., 162, 2162– 2170.
+Dale,G.E., Oefner,C. and D’Arcy,A. (2003) J. Struct. Biol., 142, 88–97.
+Demeule,B., Lawrence,M.J., Drake,A.F., Gurny,R. and Arvinte,T. (2007)
+Biochim. Biophys. Acta, 1774, 146–153.
+Derewenda,Z.S. (2004) Methods, 34, 354 –363.
+Dorai,H., et al. (2009) Biotechnol. Bioeng., 103, 162– 176.
+Ewert,S., Huber,T., Honegger,A. and Pluckthun,A. (2003) J. Mol. Biol., 325,
+531–553.
+Famm,K. and Winter,G. (2006) Protein Eng. Des. Sel., 19, 479–481.
+Famm,K., Hansen,L., Christ,D. and Winter,G. (2008) J. Mol. Biol., 376,
+926–931.
+Fowler,S.B., Poon,S., Muff,R., Chiti,F., Dobson,C.M. and Zurdo,J. (2005)
+Proc. Natl Acad. Sci. USA, 102, 10105– 10110.
+Garber,E. and Demarest,S.J. (2007) Biochem. Biophys. Res. Commun., 355,
+751–757.
+Haire,l.F. and Blow,D.B. (2001) J. Cryst. Growth, 232, 17– 20.
+Hmila,I., Abdallah,R.B., Saerens,D., Benlasfar,Z., Conrath,K., Ayeb,M.E.,
+Muyldermans,S. and Bouhaouala-Zahar,B. (2008) Mol. Immunol., 45,
+3847– 3856.
+Jacobs,S.A., Wu,S.J., Feng,Y., Bethea,D. and O’Neil,K.T. (2010) Pharm.
+Res., 27, 65– 71.
+Jespers,L., Schon,O., Famm,K. and Winter,G. (2004) Nat. Biotechnol., 22,
+1161– 1165.
+Kerns,E.H. and Di,L. (2003) Drug Discov. Today, 8, 316– 323.
+Khurana,S., Raghunathan,V. and Salunke,D.M. (1997) Biochem. Biophys.
+Res. Commun., 234, 465– 469.
+Laemmli,U.K. (1970) Nature, 227, 680–685.
+Lee,E.N., Kim,Y.M., Lee,H.J., Park,S.W., Jung,H.Y., Lee,J.M., Ahn,Y.H.
+and Kim,J. (2005) Pharm. Res., 22, 1735–1746.
+Lefranc,M.P., et al. (2009) Nucleic Acids Res., 37, D1006–D1012.
+Leibiger,H., Wustner,D., Stigler,R.D. and Marx,U. (1999) Biochem. J., 338,
+529–538.
+Li,H., et al. (2006) Nat. Biotechnol., 24, 210–215.
+Lienqueo,M.E., Mahn,A., Navarro,G., Salgado,J.C., Perez-Acle,T.,
+Rapaport,I. and Asenjo,J.A. (2006) J. Mol. Recognit., 19, 260– 269.
+MacCallum,R.M., Martin,A.C. and Thornton,J.M. (1996) J. Mol. Biol., 262,
+732–745.
+Moore,P.A. and Kery,V. (2009) Methods Mol. Biol., 498, 309– 314.
+Mosavi,L.K. and Peng,Z.Y. (2003) Protein Eng., 16, 739–745.
+Myszka,D.G. (1999) J. Mol. Recognit., 12, 279– 284.
+Nasreen,A., Vogt,M., Kim,H.J., Eichinger,A. and Skerra,A. (2006) Protein
+Sci., 15, 190 –199.
+Nimmerjahn,F. and Ravetch,J.V. (2008) Annu. Rev. Immunol., 26, 513– 533.
+Patra,A.K. and Udgaonkar,J.B. (2007) Biochemistry, 46, 11727–11743.
+Pawar,A.P., Dubay,K.F., Zurdo,J., Chiti,F., Vendruscolo,M. and
+Dobson,C.M. (2005) J. Mol. Biol., 350, 379– 392.
+Qian,J., Liu,T., Yang,L., Daus,A., Crowley,R. and Zhou,Q. (2007) Anal.
+Biochem., 364, 8– 18.
+Raju,T.S. (2008) Curr. Opin. Immunol., 20, 471–478.
+Raju,T.S. and Scallon,B. (2007) Biotechnol. Prog., 23, 964 –971.
+Rangwala,H. and Karypis,G. (2007) Bioinformatics, 23, e17–e23.
+Riechmann,L. and Winter,G. (2006) J. Mol. Biol., 363, 460– 468.
+Rothe,C., et al. (2008) J. Mol. Biol., 376, 1182–1200.
+Rudd,P.M., Wormald,M.R., Harvey,D.J., Devasahayam,M., McAlister,M.S.,
+Brown,M.H., Davis,S.J., Barclay,A.N. and Dwek,R.A. (1999)
+Glycobiology, 9, 443–458.
+Scallon,B.J., Tam,S.H., McCarthy,S.G., Cai,A.N. and Raju,T.S. (2007) Mol.
+Immunol., 44, 1524–1534.
+Shirai,T., Suzuki,A., Yamane,T., Ashida,T., Kobayashi,T., Hitomi,J. and
+Ito,S. (1997) Protein Eng., 10, 627– 634.
+Sinclair,A.M. and Elliott,S. (2005) J. Pharm. Sci., 94, 1626–1635.
+Spiegelberg,H.L., Abel,C.A., Fishkin,B.G. and Grey,H.M. (1970)
+Biochemistry, 9, 4217–4223.
+Strickler,S.S., Gribenko,A.V., Gribenko,A.V., Keiffer,T.R., Tomlinson,J.,
+Reihle,T., Loladze,V.V. and Makhatadze,G.I. (2006) Biochemistry, 45,
+2761– 2766.
+Swencki-Underwood,B., Mills,J.K., Vennarini,J., Boakye,K., Luo,J.,
+Pomerantz,S., Cunningham,M.R., Farrell,F.X., Naso,M.F. and
+Amegadzie,B. (2008) Protein Expr. Purif., 57, 312– 319.
+Tan,P.H., Chu,V., Stray,J.E., Hamlin,D.K., Pettit,D., Wilbur,D.S.,
+Vessella,R.L. and Stayton,P.S. (1998) Immunotechnology, 4, 107– 114.
+Teplyakov,A., Obmolova,G., Wu,S.J., Luo,J., Kang,J., O’Neil,K. and
+Gilliland,G.L. (2009) J. Mol. Biol., 389, 115– 123.
+To,B.C. and Lenhoff,A.M. (2007a) J. Chromatogr. A, 1141, 191 –205.
+To,B.C. and Lenhoff,A.M. (2007b) J. Chromatogr. A, 1141, 235–243.
+Trevino,S.R., Scholtz,J.M. and Pace,C.N. (2007) J. Mol. Biol., 366,
+449–460.
+van Reis,R. and Zydney,A. (2001) Curr. Opin. Biotechnol., 12, 208– 211.
+Veronese,F.M. and Mero,A. (2008) BioDrugs, 22, 315–329.
+Wallick,S.C., Kabat,E.A. and Morrison,S.L. (1988) J. Exp. Med., 168,
+1099– 1109.
+Wiecek,A., Nieszporek,T. and Chudek,J. (2007) Prilozi., 28, 225–237.
+Wright,A., Tao,M.H., Kabat,E.A. and Morrison,S.L. (1991) EMBO J., 10,
+2717– 2723.
+Engineering of an antibody for improved solubility
+651
+ at Monash University on December 7, 2014 http://peds.oxfordjournals.org/ Downloaded from 

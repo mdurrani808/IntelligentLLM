@@ -1,0 +1,788 @@
+Neuron
+Article
+Structures of Neuroligin-1 and the
+Neuroligin-1/Neurexin-1b Complex Reveal Specific
+Protein-Protein and Protein-Ca2+ Interactions
+Demet Arac¸ ,1,2,3 Antony A. Boucard,1,5 Engin O¨ zkan,2 Pavel Strop,1,2,3 Evan Newell,4 Thomas C. Su¨ dhof,1,5
+and Axel T. Brunger1,2,3,
+* 1Howard Hughes Medical Institute
+2Department of Molecular and Cellular Physiology, and Department of Structural Biology
+3Department of Neurology and Neurological Sciences, and Department of Photon Science
+4Department of Microbiology and Immunology
+Stanford University, Stanford, CA 94305, USA
+5Department of Neuroscience and Department of Molecular Genetics, The University of Texas Southwestern Medical Center,
+6000 Harry Hines Boulevard, Dallas, TX 75390, USA
+*Correspondence: brunger@stanford.edu
+DOI 10.1016/j.neuron.2007.12.002
+SUMMARY
+Neurexins and neuroligins provide trans-synap￾tic connectivity by the Ca2+-dependent interac￾tion of their alternatively spliced extracellular
+domains. Neuroligins specify synapses in an
+activity-dependent manner, presumably by bind￾ing to neurexins. Here, we present the crystal
+structures of neuroligin-1 in isolation and in
+complex with neurexin-1b. Neuroligin-1 forms
+a constitutive dimer, and two neurexin-1b mono￾mers bind to two identical surfaces on the op￾posite faces of the neuroligin-1 dimer to form
+a heterotetramer. The neuroligin-1/neurexin-1b
+complex exhibits a nanomolar affinity and in￾cludes a large binding interface that contains
+bound Ca2+. Alternatively spliced sites in neu￾rexin-1b and in neuroligin-1 are positioned
+nearby the binding interface, explaining how
+they regulate the interaction. Structure-based
+mutations of neuroligin-1 at the interface dis￾rupt binding to neurexin-1b, but not the folding
+of neuroligin-1 and confirm the validity of the
+binding interface of the neuroligin-1/neurexin￾1b complex. Our results provide molecular in￾sights for understanding the role of cell-adhe￾sion proteins in synapse function.
+INTRODUCTION
+Synapses are asymmetric cell-cell junctions that mediate
+communication between neurons. The formation of an ini￾tial synaptic contact is followed either by the maturation or
+by the elimination of the synapse, depending on the syn￾aptic activity it experiences. Synapse specification and
+validation is critical for normal functioning of the brain,
+and impairments in synapse development are thought to
+be a major cause of brain disorders such as autism and
+mental retardation (Garber, 2007).
+Neuroligins (NLs) are transmembrane proteins on the
+postsynaptic cell surface (Ichtchenko et al., 1995; Ichtch￾enko et al., 1996). They were discovered as ligands (or re￾ceptors) for neurexins (Nrxs), which are synaptic cell
+adhesion proteins on the presynaptic cell surface
+(Ushkaryov et al., 1992; Missler et al., 2003). The extracel￾lular domains of NLs and neurexins interact in a Ca2+-de￾pendent manner (Nguyen and Sudhof, 1997). Neuroligin￾1 (NL1) expressed in nonneuronal HEK293 cells induces
+presynaptic differentiation in cocultured neurons at the
+sites of cell-cell contact (Scheiffele et al., 2000; Fu
+et al., 2003; Boucard et al., 2005; Chubykin et al., 2005;
+Chih et al., 2006). Similarly, neurexins expressed in non￾neuronal cells induce postsynaptic differentiation in cul￾tured neurons at contact sites (Graf et al., 2004; Nam
+and Chen, 2005). These observations led to the hypothe￾sis that NL and Nrx act as transneuronal signals for the re￾cruitment of synaptic components and might be involved
+in initial synapse formation in vivo (Dean and Dresbach,
+2006; Craig and Kang, 2007). However, results from
+knockout (KO) mice revealed that neither NLs nor Nrxs
+are required for the initial synapse formation in vivo as
+no defects in the synapse numbers were observed in
+the KO mice (Missler et al., 2003; Varoqueaux et al.,
+2006). On the other hand, NL and Nrx were found to be
+critical for synapse function and mouse survival. Further
+studies showed that NLs do not establish, but specify
+and validate, synapses via an activity-dependent mecha￾nism, probably by determining whether a synapse will be
+excitatory or inhibitory, stable or transient, facilitating or
+depressing (Chubykin et al., 2007). Indeed, physiological
+experiments with NL1 and neuroligin-2 (NL2) KO mice in
+combination with overexpression experiments showed
+that NL1 and NL2 selectively act on excitatory and
+992 Neuron 56, 992–1003, December 20, 2007 ª2007 Elsevier Inc.inhibitory synapses, respectively, to validate synapses
+(Chubykin et al., 2007).
+Mutations in neuroligins and neurexins were described
+as rare causes of familial autism spectrum disorders
+(Jamain et al., 2003; Laumonnier et al., 2004; Yan et al.,
+2005; Szatmari et al., 2007). Introduction of an autism mu￾tation (R451C on NL3) caused an increase in inhibitory
+synaptic activity and produced autism-like behavior in
+knock-in mice (Tabuchi et al., 2007). The identification of
+autistic patients with either NL or Nrx mutations sug￾gested that the NL/Nrx interaction and its downstream
+signaling pathways might be disrupted in autism disor￾ders. Consistent with this notion, mutations in Shank3,
+a postsynaptic scaffolding molecule that indirectly inter￾acts with NLs, were also found in autism spectrum disor￾ders (Durand et al., 2007).
+Five NL genes exist in humans, and four in rodents
+(Ichtchenko et al., 1996; Philibert et al., 2000; Bolliger
+et al., 2001; Jamain et al., 2003). NLs are type-I membrane
+proteins with a molecular mass of approximately 95 kDa,
+predicted to have a single transmembrane helix. Their ex￾tracellular region consists of a single esterase domain that
+is enzymatically inactive. Although the NL-esterase do￾main has 34% sequence identity to acetylcholinesterase
+(AChE) (Sussman et al., 1991), it has a unique glycosyla￾tion pattern, an additional disulfide bond, and alternatively
+spliced sites (Comoletti et al., 2003; Hoffman et al., 2004).
+NLs are alternatively spliced at two positions (A and B)
+(Ichtchenko et al., 1995; Ichtchenko et al., 1996), with
+splice site A containing two distinct inserts in most NLs,
+whereas splice site B appears to be only used in NL1 (Co￾moletti et al., 2007).
+Three Nrx genes are present in humans and rodents,
+with each gene producing longer a- and shorter b-neurex￾ins (Ushkaryov et al., 1992). The extracellular sequences of
+b-Nrxs are largely composed of a single laminin/neurexin/
+sex hormone binding globulin (LNS) domain, whereas the
+extracellular sequences of a-Nrxs contains six LNS do￾mains and additionally include three epidermal growth
+factor (EGF) domains (Missler et al., 1998). The LNS do￾main of b-Nrxs corresponds to the sixth LNS domain of
+a-Nrxs, and its structure has been determined by X-ray
+crystallography at 2.6 A˚ resolution (Rudenko et al., 1999).
+The extracellular esterase domains of NLs interact with
+a- and b-Nrxs in a Ca2+-dependent manner. Alternative
+splicing of site A and site B in NLs strongly modulates their
+affinity for a- and b-Nrxs (Comoletti et al., 2003, 2006;
+Boucard et al., 2005). Likewise, extensive alternative splic￾ing occurs in neurexins as well, and insertion of an insert
+into splice site 4 (SS4) of a- and b-Nrxs greatly decreases
+their affinity for NLs (Ichtchenko et al., 1996). Low-resolu￾tion X-ray and neutron scattering experiments in combina￾tion with mutagenesis studies suggested that the binding
+interface is near SSB of NLs and SS4 of Nrxs, although
+these experiments lack molecular detail about the interac￾tion (Comoletti et al., 2007; Graf et al., 2006).
+The mechanism by which NLs validate and specify syn￾apses is unknown. It is the extracellular domain of NLs that
+is critical for this activity rather than its cytoplasmic region
+(Chubykin et al., 2007). The only known ligands for the ex￾tracellular esterase domain of NLs are a- and b-Nrxs. The
+high affinity of their interaction, their similar synaptic func￾tions, and their common involvement in autism spectrum
+disorders strongly suggest that NLs and Nrxs function
+by binding to each other. However, the lack of a high-res￾olution structure of the NL/Nrx complex hinders the under￾standing of how these proteins act in synapse function.
+We determined the three-dimensional structures of NL1
+in isolation and in a complex with Nrx1b by X-ray crystal￾lography. The structure of the complex reveals a binding
+interface that includes two Ca2+-binding sites and ex￾plains the role of alternatively spliced sites in the regulation
+of binding. We then designed multiple mutations on the
+Nrx-binding surface of NL1 to disrupt the interaction of
+NL1 with Nrx1b. We confirmed the stability and wild￾type-like folding of the mutant NLs. The mutations disrupt
+the NL1/Nrx1b interaction by reducing the affinity by up to
+three orders of magnitude. These mutants confirm the
+binding interface revealed by the NL1/Nrx1b complex
+structure and could be used as molecular tools to dissect
+the NL1/Nrx1b interaction in vivo.
+RESULTS
+Structure of Neuroligin-1
+The extracellular esterase domain of NL1 (residues 46–
+638, without inserts in splice sites A and B) was produced
+in insect cells using the baculovirus expression system
+(residue numbering includes signal peptide and splice
+sites even when they are absent, see Figure S1 available
+online). The purified NL1 was analyzed by multiangle laser
+light scattering (data not shown), which indicated that NL1
+forms a dimer of approximately 150 kDa as reported pre￾viously (Comoletti et al., 2006). Crystals of NL1 were ob￾tained in space group P32 with four molecules in the asym￾metric unit and diffracted to dmin = 1.8 A˚ . The structure
+was solved by molecular replacement with an approxi￾mate homology model of NL1 (Table 1; a simulated an￾nealing omit map is shown in Figure 1C).
+NL1 has an ellipsoid shape with dimensions 68 A˚ 3
+66 A˚ 3 48 A˚ (Figure 1A, location of the SSA and SSB splice
+sites are indicated by arrows). It belongs to the class of
+a/b-hydrolases together with acetylcholinesterases, bu￾tyrylcholinesterases, and cholesterol esterases, consist￾ing of a twisted b sheet surrounded by multiple helices.
+N-glycosylation is observed at two of the three potential
+glycosylation sites (N109 and N343), and a disulfide bond
+(C512-C546) is seen that is unique to NLs (Figure 1A).
+The NL1 homodimer is formed by protomers that are re￾lated by a two-fold axis, similar to what is observed in the
+AChE structure. The dimer interface comprises a four￾helix bundle composed of two helices from each proto￾mer, with a buried surface area of approximately 1100 A˚ 2
+(Figure 1B). The interaction primarily involves hydro￾phobic residues L636, L633, L629, V451, F458, W463,
+Neuron 56, 992–1003, December 20, 2007 ª2007 Elsevier Inc. 993
+Neuron
+Interaction between Neuroligin and Neurexin and M459, flanked on one side by two hydrogen bonds
+(R466-Q600, H467-K601). The structure explains the di￾mer disrupting effect of the E628A/L629A mutation stud￾ied by Dean et al. (2003) since it alters residues at the
+dimerization interface; the K622A/V623A mutation pre￾sumably changes the packing of the dimerization helices
+since the mutated residues face into the protein core (mu￾tations correspond to E584A/L585A and K578A/V579A
+mutations in Dean et al. who used a different numbering).
+Comparison of NL1 with Other
+Esterase Structures
+The esterase domains of NLs have 34% sequence identity
+with those of AChEs. Superposition of the structures of
+NL1 and AChE from torpedo californica (PDB ID 2ACE) us￾ing the program DALI (Holm and Sander, 1993) yielded
+a root-mean-square (rms) deviation of 2.2 A˚ for 504 equiv￾alent a carbon atoms (Figure 2A). Superposition of NL1
+with other esterase domains, such as butyrylcholinester￾ase or cholesterol esterase, produced rms deviations in
+the range of 2.2–2.4 A˚ . Despite the similar overall fold of
+NL1 and esterases, there are major differences in the es￾terase active site region (Figure 2B). The catalytic residues
+of AChEs are located in a deeply buried cavity that is sur￾face accessible through an entrance. Both sequence
+identity and structural similarity between NL1 and AChE
+are very low in the active site region (Figures 2B and S1).
+In addition, the active site residues of AChE are solvent ac￾cessible, whereas the homologous residues in NL1 are in￾accessible to solvent due to an occluded entrance. There
+are two short helices in NL1 instead of one in AChE, which
+occlude the entrance. Different loop lengths cause major
+structural differences in NL1 compared to AChEs (there
+are eight extra residues 132–139, indicated by ‘‘1’’ in
+Figure 2B, and there is a shorter loop in the region indi￾cated by ‘‘2’’ in Figure 2B).
+The C-terminal subdomain containing the EF hand motif
+(Tsigelny et al., 2000) is in a different position in NL1 than in
+AChEs, and the helices of the EF hand motif are packing
+differently (indicated by ‘‘3’’ in Figure 2B). No electron den￾sity was observed at the putative Ca2+-binding sites of the
+EF hand motif for NL1 crystals that included Ca2+ (data not
+shown), as well as in the Ca2+ containing crystal structure
+of the NL1/Nrx1b complex (discussed below), indicating
+that the EF hand motif of NL1 does not bind Ca2+, at least
+not in isolation or in a complex with Nrx1b.
+Table 1. X-ray Data Collection and Refinement
+Crystallographic Data
+NL1 NL1/Nrx1b
+Beamline ALS 8.2.1 ALS 8.2.2
+Wavelength (A˚ ) 1.0000 1.0000
+a, b, c (A˚ ) 173.7, 173.7, 108.0 229.8, 148.8, 123.6
+Resolution (A˚ ) 45–1.8 50–3.5
+Unique reflections 337,078 50,575
+Redundancy 2.8 (2.4) 3.0 (2.3)
+Completeness (%) 99.6 (99.1) 94.6 (86.9)
+I/s 17.0 (1.45) 11.1 (1.65)
+Rsyma (%) 6.8% (50.9%) 9.1% (52.4%)
+Refinement
+NL1 NL1/Nrx1b
+Rcryst/Rfreeb, c 18.5%/20.5% 24.6%/27.6%
+Average bond length deviation 0.005 A˚ 0.009 A˚
+Average bond angle deviation 1.26 1.4
+Average thermal (B) factor 25.1 A˚ 2 104.8 (212.2) A˚ 2 d
+Residues in core f-c region (%) 99.6% 98.5%
+Residues in disallowed regions (%) 0% 0.2%
+Values in parentheses are for the high-resolution bin.
+aRsym = Ph
+Pi
+Ii
+(h)  <I(h)>/Ph
+Pi
+Ii
+(h), where Ii
+(h) is the ith measurement and <I(h)> is the mean of all measurements of I(h) for Miller
+indices h.
+bRcryst = P(Fobs  kFcalc)/PFobs. c Free R value is the R value obtained for a test set of reflection (5% of total) not used during refinement.
+d Values are for the three ordered NL1/Nrx1b complexes. Values in parenthesis are for the fourth weakly ordered NL1/Nrx1b
+complex.
+994 Neuron 56, 992–1003, December 20, 2007 ª2007 Elsevier Inc.
+Neuron
+Interaction between Neuroligin and Neurexin  Structure of the NL1/Nrx1b Complex
+To determine the structure of the complex, the esterase
+domain of NL1 without SSA and SSB was coexpressed
+with Nrx1b (residues 47–299; without an insert in SS4) in
+insect cells, and the complex was formed in the presence
+of 1 mM Ca2+. Crystals of the complex were obtained in
+space group C2 with four NL1/Nrx1b complexes in the
+asymmetric unit and diffracted to dmin = 3.5 A˚ (Table 1
+and a simulated annealing omit map is shown in Figure 3D).
+The crystal structure of the NL1/Nrx1b complex com￾prises a heterotetramer in which two Nrx1b protomers
+bind to equivalent sites on opposite sides of the long
+axis of the NL1 dimer (Figure 3A). The NL1 dimer within
+the complex is identical to the NL1 dimer observed in
+the isolated NL1 structure, and the two Nrx1b molecules
+that bind to the NL dimer are not interacting with each
+other. The observed oligomeric state is consistent with so￾lution sedimentation velocity experiments that revealed
+a 2:2 stoichiometry (Comoletti et al., 2006). Electron den￾sity is observed for two Ca2+ at the binding interface. Apart
+from side-chain rotamer changes, no major conforma￾tional changes are observed when the complex structure
+is compared with the individual structures of NL1 and
+Nrx1b (rms deviation for Ca atoms is 0.4 A˚ for both NL1
+and Nrx1b).
+The Nrx1b-binding site on NL1 is located next to SSB
+and on the opposite side of the molecule relative to the
+‘‘active site’’ entrance (Figure 3B). The structure reveals
+that the presence of the eight-residue SSB on NL1 would
+partially occlude the interaction surface, leading to a de￾crease in binding affinity, which is in agreement with the
+observations that the presence of the SSB insert abolishes
+a-Nrx binding and reduces b-Nrx binding (Boucard et al.,
+2005; Comoletti et al., 2006). The NL1-binding region on
+Nrx1b is located at the rim of the b sheet that is opposite
+to its N and C termini. The 30 residue insert of SS4 in
+Nrx1b would be located next to the binding region, ex￾plaining why its presence impairs binding to NLs (Ichtch￾enko et al., 1996). The SSB of NL1 and the SS4 of Nrx1b
+are located on approximately opposite sides across the
+binding interface. This arrangement of the splice sites
+could induce an additive effect upon introduction of both
+splice sites and would thus allow complex regulation of
+the strength of binding between NL1 and Nrx1b.
+Figure 1. Structure of Neuroligin-1
+(A) Ribbon diagram of a NL1 protomer. Two views are shown related by a 180 rotation around the specified axis. a-helices are colored orange and
+b sheets are colored cyan. The unique disulfide bond is colored magenta.
+(B) Ribbon diagram of the NL1 dimerization interface. Residues involved in hydrophobic interactions are shown in sticks and H bonds are shown by
+dashed lines. The two NL1 protomers are colored orange and magenta, respectively.
+(C) Simulated annealing sA-weighted Fo  Fc electron density map (magenta) with residues 395–402 omitted in all NL1 protomers, contoured at 4 s.
+The omitted residues are shown as thick sticks; other residues are shown as thin lines.
+Neuron 56, 992–1003, December 20, 2007 ª2007 Elsevier Inc. 995
+Neuron
+Interaction between Neuroligin and Neurexin Mapping the residues that are mutated in some autism
+cases (R451C in hNL3, G99S in hNL4, K378R in hNL4,
+V403M in hNL4) on the NL1/Nrx1b structure reveals that
+these residues are not at the binding interface, and thus
+are unlikely to cause a direct defect in binding to Nrx1b
+(Figure 3C), consistent with previous data (Chubykin et al.,
+2005). All mutations except for one are located in a buried
+region opposite to the Nrx1b-binding surface half way
+between the ‘‘active site’’ and the dimerization interface,
+likely causing folding defects of NL (Comoletti et al., 2003).
+The Binding Interface of the NL1/Nrx1b Complex
+The high affinity of the NL1/Nrx1b complex (Kd = 97 nM as
+determined by isothermal titration calorimetry [ITC];
+Figure 4A) is achieved by a combination of several interac￾tions: coordination of two Ca2+ by oxygen atoms, hydro￾gen bonds, and hydrophobic and long-range electrostatic
+interactions (Figures 3B, 3E, and S2). Two long parallel
+loops on the rim of the Nrx1b b sheet align with a patch
+of multiple loops on NL1 to form an extensive interaction
+surface with a buried area of 645 A2
+. One of the Ca2+ is co￾ordinated by five oxygen atoms (N238 OD1, D137 OD1,
+D137 OD2, V154 O, and I236 O) from Nrx1b and three
+oxygen atoms (G396 O, Q395 O, and E397 OE2) from
+NL1 (Figure 3E). This Ca2+-binding site is homologous to
+the Ca2+-binding site of the previously reported second
+LNS domain of Nrx1a (Sheckler et al., 2006). The other
+Ca2+-binding site is at the edge of the binding interface
+and is loosely coordinated by three oxygen atoms (N103
+O, D104 OD1, and D104 OD2) from Nrx1b and three oxy￾gen atoms (D402 OD1, D402 OD2, and T569 O) from NL1.
+No Ca2+ binding was observed in this site in the Ca2+-
+bound structure of the second LNS domain of Nrx1a
+(Sheckler et al., 2006). Thus, Ca2+ might bind to this sec￾ond site only in the context of the NL1/Nrx1b complex.
+An extensive hydrogen-bonding network is observed at
+the binding interface involving NL1-R597 NE and Nrx1b￾N103 OD1, NL1-N400 N and Nrx1b-S107 OG, NL1-K306
+NZ and Nrx1b-S107 O, NL1-E397 OE2 and Nrx1b-I236
+N, and NL1-G396 O and Nrx1b-N238 ND2 (Figures 3E
+and S2). In addition, many residues from NL1 (H294,
+E297, K306, Q395, E397, L399, N400, and F499) and
+Nrx1b (N103, S107, R109, L135, R232, I236, and N238)
+are involved in long-range electrostatic interactions and
+hydrophobic interactions.
+Sequence Conservation and Variation
+of NL Surface Residues
+The sequence identity between NLs is high (70%–80%).
+To visualize the conserved and varying regions of NLs,
+we mapped the conservation of residues between NL1
+and NL2 (Figure 5A), between NL1 and NL3 (Figure 5B),
+and between NL1 and NL4 (Figure 5C) on the NL1 struc￾ture and colored residues from most conserved (blue) to
+least conserved (red). The binding surface for Nrx1b corre￾sponds to one of the most conserved regions (yellow ovals
+in Figure 5). Specifically, most residues at the NL1/Nrx1b
+interface are conserved within NLs but are not in AChEs
+(Q395, E397, D402, N400, E397, H294, E297, L399)
+(Figure S1). However, there are some residues at the
+edges of the interaction surface that are variable among
+NLs (examples are K306, F499, G500, N498, R597,
+R311). These variable residues explain differences in bind￾ing affinity to Nrxs (the Kd is 97 and 830 nM for NL1 and
+NL2, respectively, as determined by ITC, Figures 4A and
+4B; see also Comoletti et al., 2006).
+There are several other regions that are not conserved
+among NLs; some of these regions might be important
+for the differential activity of different NLs to specify differ￾ent synapse types. Interestingly, NL1 has a highly con￾served loop insertion that does not exist in AChEs. It forms
+a loop/b sheet fold and lies close to the surface of the
+structure away from the ‘‘active site’’ (residues 576–587)
+(Figure 2A).
+Figure 2. Comparison of the NL1 and AChE Structures
+(A) Superposition of NL1 (red) and AChE (cyan) (PDB code 2ACE) structures.
+(B) Close-up of the ‘‘active site’’ region. Numbers on the figure correspond to the regions where a structural change occurs as explained in the
+text.
+996 Neuron 56, 992–1003, December 20, 2007 ª2007 Elsevier Inc.
+Neuron
+Interaction between Neuroligin and NeurexinMutations at the Binding Surface Disrupt
+the Interaction of NL1 with Nrx1b
+To confirm the validity of the binding interface that is ob￾served in the NL1/Nrx1b complex structure, we designed
+NL1 surface mutations that disrupt its interaction with
+Nrx1b based on our crystal structures (Figure 5D). The
+L399A, N400A, D402N set (NL1-LND) breaks the hydro￾gen bond between NL1 N400 and Nrx1b S107 and dis￾rupts the Ca2+ coordination mediated by NL1 D402
+(shown in cyan). The NL1-LND mutant should leave the
+Figure 3. Structure of the NL1/Nrx1b Complex
+(A) Ribbon diagram of the NL1/Nrx1b heterotetramer.
+(B) Overall view of a NL1/Nrx1b heterodimer showing carbohydrates (yellow sticks), splice sites Nrx SS4 and NL SSB (arrows) and Ca2+ ions at the
+binding interface (green spheres).
+(C) Ribbon diagram of the NL1/Nrx1b complex showing the location of the autism mutations (R451C in human NL3 and G99S, K378R, and V403M in
+human NL4) superimposed onto the rat NL1 structure and highlighted as yellow spheres.
+(D) Simulated annealing sA-weighted Fo  Fc electron density map (magenta) with residues 395–402 omitted in all NL1 protomers, contoured at 4 s.
+The omitted residues are shown as thick sticks; other residues are shown as thin lines.
+(E) Close-up view of the binding interface between NL1 and Nrx1b. Ca2+ are shown as green spheres. Hydrogen bonds are shown by red dashes. The
+Ca2+ coordination is shown by black dashes. Residues at the binding interface are shown as sticks.
+Neuron 56, 992–1003, December 20, 2007 ª2007 Elsevier Inc. 997
+Neuron
+Interaction between Neuroligin and Neurexinother half of the binding interface intact. Starting from this
+mutant, additional sites were mutated (shown in yellow).
+The L399A, N400A, D402N, Q395A, E397A set (NL1-
+LNDQE) also disrupts the other Ca2+ site coordination me￾diated by NL1 E397. The L399A, N400A, D402N, E297A,
+K306A set (NL1-LNDEK) additionally disturbs the two res￾idues that flank SSB.
+To ensure that the mutant proteins are properly folded,
+we performed circular dichroism (CD) experiments (Fig￾ure 4D). The CD spectra are characteristic of a mixture
+of a-helix and b sheet as expected from the NL1 structure.
+We observed few differences between wild-type and
+mutant proteins. Temperature denaturation experiments
+showed that the melting temperature Tm (the temperature
+at which 50% of the protein is denatured) of wild-type NL1
+and mutant proteins are similar. Thus, the mutations have
+no effect on the folding or the stability of the protein
+(Figure 4E).
+It was not possible to obtain a typical ITC binding curve
+for the NL1-LND mutant (Figure 4C). Increasing the injec￾tion volumes yielded higher signal but no saturation of the
+signal was achieved, indicative of weak binding. We esti￾mate that the NL1-LND mutant binds to Nrx1b with micro￾molar affinity. We did not attempt ITC of the other mutants
+that might have even weaker affinities.
+In order to determine the dissociation constants of mu￾tant neuroligins to Nrx1b, we used surface plasmon reso￾nance (SPR), a technique that can measure the binding af￾finities for weak interactions. The wild-type and mutant
+NL1 proteins were immobilized on a surface and different
+concentrations of Nrx1b (in the range of 0.18 nM–30 mM)
+were injected over the NL1 surface. The binding was de￾tected by the increase in the resonance units (Figure S3)
+and the dissociation constants were calculated by plotting
+the steady-state binding as a function of Nrx1b concentra￾tion (Figure 6). The dissociation constant of the wild-type
+NL1 was measured as 20.9 nM, in good agreement with
+the results of the ITC measurements. The dissociation
+constant of the NL1-LND mutant for Nrx1b was measured
+as >10 mM, which is 500-fold less than the affinity of wild￾type NL1. The dissociation constants of the NL1-LNDQE
+and NL1-LNDEK mutants, that carry LND mutation as
+background, are >50 mM and >10 mM, respectively. These
+results show that our mutants decrease the binding of NL1
+to Nrx1b up to 2500-fold. Our properly folded NL1 mutants
+that are deficient in binding to Nrx1b confirm the validity of
+the binding interface revealed from the NL1/Nrx1b com￾plex structure, and can be used in future experiments as
+molecular tools to dissect NL-dependent neuronal events
+that are Nrx independent.
+Figure 4. Different NLs and NL1 Mutants Have Different Binding Affinities for Nrx1b, and the NL1 Mutants Are Properly Folded
+Titration of wild-type Nrx1b into NL1 (A), NL2 (B), and NL1-LND mutant (C) by ITC at 20C. For NL1 Kd = 97 nM, n = 1.06, DH = 12660 cal mol1
+,
+DS = 14.5 cal mol1 K1
+, for NL2 Kd = 830 nM, n = 0.84, DH = 3686 cal mol1 and DS = 15.2 cal mol1 K1
+.
+(D) CD spectra of wild-type NL1 (black), NL1-LNDEK (red), and NL1-LNDQE (green) mutants plotted as mean residue ellipticity versus wavelength.
+(E) Temperature denaturation experiments of wild-type NL1 and mutant NLs (colored as in [D]). The Tm for wild-type NL1, NL1-LNDEK, and NL1-
+LNDQE mutants are 56C, 58C, and 57C, respectively.
+998 Neuron 56, 992–1003, December 20, 2007 ª2007 Elsevier Inc.
+Neuron
+Interaction between Neuroligin and Neurexin     DISCUSSION
+Using a combination of biophysical and biochemical ap￾proaches, we studied the structure and specificity of the
+interaction between NL1 and Nrx1b. The structure of
+NL1 revealed a fold similar to that of other esterase do￾mains, despite the low sequence identity (Figures 1A
+and 2A). However, significant differences were observed
+at the ‘‘active site’’ entrance, which is substrate-accessi￾ble in AChEs, but occluded in NL1 (Figure 2B). The NL1
+structure confirms that NL1 is a constitutive dimer. Two
+helices from each monomer form a four-helix bundle at
+the binding interface that is primarily composed of hydro￾phobic interactions but includes a few hydrogen bonds
+(Figure 1B). No Ca2+ binding was observed to the EF
+hands of NL1 that were previously proposed to be the
+Ca2+-binding sites.
+The structure of the NL1/Nrx1b complex revealed an
+arrangement of two Nrx1b protomers bound to identical
+surfaces on the opposite sides of a NL1 dimer to form
+a heterotetramer with a two-fold symmetry (Figure 3A).
+This organization of the NL1/Nrx1b complex positions
+the C-terminal stalk regions of NL1 and Nrx1b at opposite
+faces of the heterotetramer and is in agreement with the
+biological organization of the molecules to bridge and
+cross the 20 nm-wide synaptic cleft between neurons.
+The SSB of NL1 and the SS4 of Nrx1b are positioned at
+the edges of the binding interface; as a result, their pres￾ence disturbs the interaction between NLs and Nrxs as re￾ported previously (Boucard et al., 2005; Comoletti et al.,
+2006; Figure 3B). Expression of different splice variants
+Figure 5. Sequence Variation of NL Surface Residues and
+Conservation of the NL1/Nrx1b Binding Interface
+The structure of NL1 shown in surface representation on which the
+conservation of residues between NL1 and NL2 (A), between NL1
+and NL3 (B), and between NL1 and NL4 (C) are mapped from most
+conserved (blue) to least conserved (red) (using the ConSurf server
+[Landau et al., 2005]). The structure is shown in a similar orientation
+as in Figure 1A. The Nrx-binding and dimerization regions are indicated
+by yellow and cyan ellipses, respectively.
+(D) NL1 mutations at the binding interface (see text for designa￾tion).
+Figure 6. SPR Analysis of the Binding of Nrx1b to Wild-Type
+and Mutant NL1s
+Maximum binding of Nrx1b to NL1 measured at steady state during
+neurexin injection over immobilized NL1s were plotted as a function
+of Nrx1b concentration. The dissociation constants were calculated
+by fitting the curves to a single site binding model. Each data point
+was measured twice, and both measurements are shown on the figure.
+For most data points, the two measurements are very similar and over￾lap with each other.
+Neuron 56, 992–1003, December 20, 2007 ª2007 Elsevier Inc. 999
+Neuron
+Interaction between Neuroligin and Neurexincan be a mechanism that determines the strength of bind￾ing between NLs and Nrxs to regulate their downstream
+events. Mapping of the mutations of NL genes in autistic
+patients on the NL1/Nrx1b complex structure reveals
+that they are distant from the NL1/Nrx1b binding interface
+but are located mostly within the protein core, suggesting
+folding defects (Figure 3C).
+The NL1/Nrx1b binding interface includes two distinct
+Ca2+-binding sites (Figure 3E). The first Ca2+-binding site
+is homologous to the Ca2+-binding site that was observed
+in the second LNS domain of Nrx1a, which has a 400 mM
+affinity for Ca2+ (Sheckler et al., 2006). The half maximal
+binding of Nrx1b to NLs requires approximately 2–3 mM
+free Ca2+ (Nguyen and Sudhof, 1997). The tighter binding
+of Ca2+ to the NL1/Nrx1b complex can be explained by
+completion of the Ca2+ coordination sphere by complex
+formation. The second Ca2+-binding site is at the edge
+of the interface and is more loosely coordinated. No
+Ca2+ binding was observed at this site in the second
+LNS domain of Nrx1a probably because of the few coor￾dination sites contributed by Nrx1a.
+In addition to Ca2+ coordination, the interaction be￾tween NL1 and Nrx1b is maintained by multiple side chain
+and backbone interactions from both proteins, leading to
+the nanomolar affinity of the interaction (Figure 3E). Thus,
+Ca2+ coordination, an extensive hydrogen-bonding net￾work, hydrophobic interactions, and long-range electro￾static interactions contribute to the high-affinity interac￾tion of NL1 with Nrx1b. Mapping the conserved and
+varying residues between NLs on the NL1 structure
+shows that the Nrx binding site is conserved throughout
+all NLs (Figures 5A–5C) but not in AChEs (Figure S1)
+and supports a critical role for the NL/Nrx interaction in
+synapse function. However, variation at the edges of the
+binding interface contributes to the differential NL1/
+Nrx1b affinities.
+To confirm that the binding interface that is revealed by
+the NL1/Nrx1b complex structure is correct, we designed
+NL1 mutants in order to specifically disrupt the NL1/Nrx1b
+interaction (Figure 5D). ITC experiments showed that mu￾tations located on one half of the binding interface (NL1-
+LND) decrease the affinity of NL1 to Nrx1b (Figure 4C).
+Quantitative SPR experiments confirm that NL1-LND mu￾tant has 500-fold less affinity for Nrx1b than wild-type NL1
+(Figure 6). Our more severe mutants disrupted other re￾gions of the binding interface, thereby decreasing the af￾finity of NL1 for Nrx1b up to 2500-fold (Figure 6), indicating
+the importance of the entire binding interface for the
+strength of the NL1/Nrx1b interaction. CD experiments
+showed that the mutations have no effect on the proper
+folding and stability of the protein. The disruption of the
+binding by these mutations confirms the binding interface
+revealed by the NL1/Nrx1b complex structure.
+In conclusion, we describe a structural analysis of the
+interaction between NLs and Nrxs, the synaptic cell adhe￾sion proteins that are proposed to be critical for proper
+synapse function. Our crystal structures of NL1 and the
+NL1/Nrx1b complex provide the basis for further ad￾vances in understanding their mechanism of action in syn￾apse function which may lead to the treatment of diseases
+that are caused by mutations in these proteins.
+EXPERIMENTAL PROCEDURES
+Protein Expression and Purification
+The esterase domain of rat NL1 without splice sites (residues 46–638)
+was cloned into the BamH1 and Xba1 sites of the pAcGP67A vector.
+The LNS domain of rat Nrx1b without splice site 4 (residues 47–299)
+was cloned similarly. A His6 tag was added at the C terminus for affinity
+purification. Spodoptera frugiperda (Sf9) cells (Invitrogen) were trans￾fected with pAcGP67A carrying the gene and linearized AcNPV DNA
+(Sapphire Baculovirus DNA; Orbigen) using Cellfectin (Invitrogen).
+Baculovirus was amplified in Sf9 cells in 10% (v/v) fetal bovine serum
+containing SF900-II medium (GIBCO).
+Large-scale protein expression was performed by infection of
+Trichoplusiani (Hi5) cells in Insect-Xpress medium (Biowhitaker) at
+a cell density of 2 3 106 cells/ml with an infection course of 72 hr.
+For higher expression yields NL1 and Nrx1b were coexpressed.
+When tunicamycin, a glycosylation inhibitor, was used, no protein
+could be obtained. The media containing the secreted, glycosylated,
+recombinant protein was concentrated and dialyzed using tangential
+flow filtration system (PALL) and subsequently purified with Ni-NTA
+resin (QIAGEN) at 4C. The proteins were eluted with 200 mM imidaz￾ole (pH 7.2). NL1 and Nrx1b were separated by anion exchange chro￾matography (Mono Q column) in 20 mM Tris (pH 8.0), 150 mM NaCl
+(buffer A), and 20 mM Tris (pH 8.0), 1 M NaCl (buffer B). NL1 was further
+purified by size-exclusion chromatography using a Superdex 200 col￾umn (Amersham Pharmacia Biotech) in buffer containing 10 mM
+HEPES (pH 7.2) and 150 mM NaCl. The peak corresponding to the
+NL1 dimer was then concentrated to 17 mg/ml in 30 kDa Centricon
+(Millipore) and used for crystallization trials. After affinity chromatogra￾phy and anion exchange chromatography, Nrx1b was further purified
+as described in the literature (Rudenko et al., 1999). The purified pro￾teins were mixed in the presence of 1 mM CaCl2 with a 1:1.3
+NL1:Nrx1b ratio. The complex was purified by size-exclusion chroma￾tography using a Superdex 200 column (Amersham Pharmacia Bio￾tech) in buffer containing 10 mM HEPES (pH 7.2), 150 mM NaCl, and
+1 mM CaCl2 and concentrated to 22 mg/ml.
+Site directed mutagenesis for NL1 mutants was performed using the
+QIAGEN QuickChange Mutagenesis kit (QIAGEN).
+Crystallization, Data Collection, and Processing
+Initial screens for crystallization of NL1 were carried out using 96-well
+format kits (Hampton Index, Salt and Crystal Screen HT, Hampton Re￾search) on a Phoenix crystallization robot (Art Robbins Instruments).
+Automatic plate scanning by a CrystalPro 2 imaging system (TriTek
+Corporation) identified initial hits. After optimization, crystals of NL1
+were grown using hanging drop vapor diffusion at 20C in 24-well
+format. One microliter of 17 mg/ml protein in 10 mM HEPES (pH
+7.2), 150 mM NaCl was mixed with equal volume of mother liquor con￾sisting of 1.2 M tri-sodium citrate, 0.1 M Tris (pH 8.7), and equilibrated
+against 1 ml mother liquor. Crystals grew to full size (about 0.2 mm 3
+0.2 mm 3 0.6 mm) within 3 days. Crystals were cryoprotected by
+transferring the crystals into mother liquor with 5%, 15%, and 22.5%
+EG gradually. Many crystals suffered from cracking and thus produced
+extra lattices in the diffraction images. The best crystals diffracted to
+dmin = 1.8 A˚ . Crystals of NL1 formed in space group P32 with four mol￾ecules per asymmetric unit and 61% solvent content.
+Crystallization trials for the NL1/Nrx1b complex were obtained with
+a 96-well format kit (Protein Complex, Nextal) at 20C. 22 mg/ml pro￾tein in 10 mM HEPES, 150 mM NaCl, 1 mM CaCl2 (pH 7.2) was mixed
+with equal volume of mother liquor consisting of 8% PEG6000, 0.1 M
+MgCl2, 0.1 M MES (pH 6.0). Crystals grew to full size (about 0.3 mm 3
+0.3 mm 3 0.4 mm) within five days and were cryoprotected with 25%
+1000 Neuron 56, 992–1003, December 20, 2007 ª2007 Elsevier Inc.
+Neuron
+Interaction between Neuroligin and Neurexin   glycerol. Crystals diffracted to dmin = 3.5 A˚ . Crystals of the NL1/Nrx1b
+complex formed in space group C2 with four NL1/Nrx1b complexes
+per asymmetric unit and 64% solvent content. Indexing, integration,
+and scaling of the diffraction data was performed with HKL2000
+(Otwinowski and Minor, 1997). A summary of the data collection statis￾tics is given in Table 1.
+Structure Determination and Refinement of NL1
+The NL1 structure was solved by molecular replacement with PHASER
+(McCoy et al., 2005) using a homology model of the NL1 structure
+based on the AChE crystal structure (PDB ID 1J06) (Bourne et al.,
+2003). The NL1 structure was first refined with CNS 1.2 (Brunger
+et al., 1998; Brunger, 2007) followed by automatic model building in
+ARP/WARP (Perrakis et al., 2001) and RESOLVE (Terwilliger, 2003).
+Noncrystallographic symmetry (NCS) restraints were used during ini￾tial refinement cycles but were removed at later stages. The presence
+of a NCS two-fold symmetry axis that coincided with one of the cell
+axes would cause the test set to be correlated to the working set. To
+ensure independence of the test set from the working set, the diffrac￾tion data was first scaled in the higher symmetry group P6 while gen￾erating the test set, then the test set was expanded to lower symmetry
+in P32 and transferred to the diffraction data processed in P32. The
+refinement consisted of alternating rounds of simulated annealing, po￾sitional minimization, individual restrained thermal factor refinement,
+and model building. Positional minimization was performed using
+the MLF maximum likelihood target function. Water molecules,
+N-linked carbohydrates, and alternative conformations were added
+in CNS 1.2 and COOT (Emsley and Cowtan, 2004), and refinement
+was completed with CNS 1.2. The bulk solvent model refined to
+ksol = 0.4 e/A˚ 3 and Bsol = 55 A˚ 2
+. The final model contains two N-linked
+NAG carbohydrate moieties attached to each of the NL1 molecules,
+and two bound Ni2+.
+Structure Determination and Refinement
+of the NL1/Nrx1b Complex
+The NL1/Nrx1b crystal structure was solved by molecular replacement
+using PHASER (McCoy et al., 2005) with the high-resolution structure of
+NL1 and the structure of Nrx1b (PDB code 1C4R) (Rudenko et al., 1999)
+as search models. An initial solution emerged with three NL1-Nrx1b
+complexes, two of which form the dimer that was also found for the
+isolated NL1 structure. Inspection of a sA weighted 2Fo  Fc electron
+density map revealed the presence of a weakly ordered fourth NL1/
+Nrx1b complex that also had a two-fold relationship with the remaining
+well-ordered NL1/Nrx1b complex. This weakly ordered NL1/Nrx1b
+complex was modeled by applying the two-fold relationship to the co￾ordinates of its interacting ordered NL1/Nrx1b complex. All refinement
+calculations were performed with CNS 1.2. Positional minimization was
+performed using the MLF maximum likelihood target function. Tight
+NCS restraints were applied to all atomic positions for the four NL1/
+Nrx1b complexes, resulting in rmsds of less than 0.03 A˚ among the
+NCS related NL1/Nrx1b complexes. Individual restrained B-factor
+minimization was performed for the three well-ordered NL1/Nrx1b
+complex with tight NCS restraints. The fourth complex was treated sep￾arately by using grouped B-factor minimization since it exhibits some
+amount of disorder and weak electron density. The bulk solvent model
+refined to ksol = 0.3 e/A˚ 3 and Bsol = 67 A˚ 2
+. Inspection of the electron den￾sity maps revealed weak electron density for the following loops: NL1
+577–591, NL1 637–642, NL1 445–450, Nrx1b 289–291. Minor adjust￾ments of the model were performed using COOT, followed by another
+round of refinement. The final model contains three N-linked NAG
+carbohydrate moieties attached to each of the NL1 molecules, two
+attached to the well-ordered Nrx1b molecules, and two Ca2+ bound
+to each of the interfaces of the well-ordered NL1/Nrx1b complexes.
+Isothermal Titration Calorimetry
+Wild-type NL1, NL2, NL1-LND mutant, and Nrx1b proteins were dia￾lyzed against a buffer solution containing 10 mM HEPES (pH 7.2),
+150 mM NaCl, and 1 mM CaCl2 three times for 1 hr, 3 hr, and overnight.
+The final buffer was saved to be used as washing buffer for the ITC in￾strument. The ITC experiments were carried out with a VP-ITC Micro￾Cal calorimeter. Samples were degassed for 10 min before the exper￾iment. The wild-type or mutant NL1 protein solutions (20–30 mM range)
+were placed in the MicroCal sample cell. The Nrx1b protein solution
+(200 mM) was placed in a syringe and water was placed in the reference
+cell. The Nrx1b solution in the syringe was added to the cell in a series
+of multiple injections of varying injection volumes (2 ml into wild-type
+NL1, 5 ml into wild-type NL2, and 10 ml into NL1-LND mutant to opti￾mize the signal level) at 20C. Titration of Nrx1b into a solution of NL
+generated an exothermic reaction, releasing heat upon binding of
+Nrx1b to NL. The raw ITC data was processed and fitted using a model
+for single molecule site. The raw ITC data were deconvoluted using the
+ORIGIN software provided by MicroCal.
+CD Spectroscopy
+CD measurements were conducted on a Aviv Circular Dichroism
+Spectrometer Model 202-01 equipped with a temperature controller.
+Ten micromolar samples of wild-type and mutant NL1 proteins in
+20 mM Tris (pH 8.0), 150 mM NaCl buffer solution were scanned in
+the 195 nm to 270 nm range, with 1 nm wavelength steps, in a 1 mm
+path length cell at 4C. Temperature denaturation experiments were
+performed at 220 nm wavelength by increasing the temperature from
+25C to 80C with 2C temperature increments, two minutes temper￾ature equilibration time and 3 s averaging time.
+Surface Plasmon Resonance
+Binding of Nrx1b to WT and mutant NL1 was analyzed at 25C using
+10 mM HEPES buffer (pH 7.4) containing 1 mM CaCl2, 150 mM NaCl,
+0.005%(v/v) surfactant P20 and 1%BSA, on a BIAcore 3000. Control
+protein, WT, and mutant neuroligin proteins were covalently attached
+to carboxymethylated dextran of a research grade CM3 chip (BIAcore,
+Uppsala, Sweden) by NHS/EDC amine coupling and a resonance unit
+of 600–700 was achieved for all samples. Nrx1b was injected over the
+NL1 surfaces as a set of concentrations differing by 3-fold in the range
+of 0.18 nM–30 mM and each data point was measured twice. A flow
+rate of 50 ml/min was used to minimize sample diffusion and mass
+transport limitations. Reference data obtained using a flow-cell with
+immobilized control protein (inactive BotA) were subtracted from the
+sample flow channels to obtain a specific Nrx1b binding. NL1 surfaces
+were regenerated by the injection of a regeneration solution (10 mM
+HEPES [pH 7.4], 1 M NaCl, 3 mM EDTA, 0.005% P20 and 1%BSA).
+For analysis of steady-state binding affinities, the magnitude of the re￾sponse at the end of each injection were measured and fitted using
+a single site stoichiometry model.
+Figure Preparation
+All figures were prepared using PyMol (DeLano, 2002).
+Supplemental Data
+The Supplemental Data for this article can be found online at http://
+www.neuron.org/cgi/content/full/56/6/992/DC1/.
+ACKNOWLEDGMENTS
+We thank Mark M. Davis for generous access to a Biacore instrument,
+Leremy Colf for help with ITC, and Chen Zhang for reading the manu￾script. ALS is supported by the Office of Energy Research (Office of
+Basic Energy Sciences, Material Sciences Division) of the US Depart￾ment of Energy at Lawrence Berkeley National Laboratory. The Stan￾ford Synchrotron Radiation Laboratory is a national user facility oper￾ated by Stanford University on behalf of the U.S. Department of Energy
+(Office of Basic Energy Sciences). This study was supported by a post￾doctoral fellowship from Canadian Institutes of Health Research
+(CIHR, to A.A.B.), a postdoctoral fellowship from the Immunology
+Training Grant (to E.N.), and a grant from the NIMH (R37 MH52804-08
+Neuron 56, 992–1003, December 20, 2007 ª2007 Elsevier Inc. 1001
+Neuron
+Interaction between Neuroligin and Neurexin      to T.C.S.). D.A. is a Howard Hughes Medical Institute Fellow of the Life
+Sciences Research Foundation.
+Received: November 10, 2007
+Revised: November 30, 2007
+Accepted: December 3, 2007
+Published: December 19, 2007
+REFERENCES
+Bolliger, M.F., Frei, K., Winterhalter, K.H., and Gloor, S.M. (2001). Iden￾tification of a novel neuroligin in humans which binds to PSD-95 and
+has a widespread expression. Biochem. J. 356, 581–588.
+Boucard, A.A., Chubykin, A.A., Comoletti, D., Taylor, P., and Sudhof,
+T.C. (2005). A splice code for trans-synaptic cell adhesion mediated
+by binding of neuroligin 1 to alpha- and beta-neurexins. Neuron 48,
+229–236.
+Bourne, Y., Taylor, P., Radic, Z., and Marchot, P. (2003). Structural in￾sights into ligand interactions at the acetylcholinesterase peripheral
+anionic site. EMBO J. 22, 1–12.
+Brunger, A.T. (2007). Version 1.2 of the Crystallography and NMR sys￾tem. Nat. Protocols 2, 2728–2733.
+Brunger, A.T., Adams, P.D., Clore, G.M., DeLano, W.L., Gros, P.,
+Grosse-Kunstleve, R.W., Jiang, J.S., Kuszewski, J., Nilges, M., Pannu,
+N.S., et al. (1998). Crystallography & NMR system: a new software
+suite for macromolecular structure determination. Acta Crystallogr. D
+Biol. Crystallogr. 54, 905–921.
+Chih, B., Gollan, L., and Scheiffele, P. (2006). Alternative splicing con￾trols selective trans-synaptic interactions of the neuroligin-neurexin
+complex. Neuron 51, 171–178.
+Chubykin, A.A., Liu, X., Comoletti, D., Tsigelny, I., Taylor, P., and
+Sudhof, T.C. (2005). Dissection of synapse induction by neuroligins: ef￾fect of a neuroligin mutation associated with autism. J. Biol. Chem.
+280, 22365–22374.
+Chubykin, A.A., Atasoy, D., Etherton, M.R., Brose, N., Kavalali, E.T.,
+Gibson, J.R., and Sudhof, T.C. (2007). Activity-dependent validation
+of excitatory versus inhibitory synapses by neuroligin-1 versus neuro￾ligin-2. Neuron 54, 919–931.
+Comoletti, D., Flynn, R., Jennings, L.L., Chubykin, A., Matsumura, T.,
+Hasegawa, H., Sudhof, T.C., and Taylor, P. (2003). Characterization
+of the interaction of a recombinant soluble neuroligin-1 with neu￾rexin-1beta. J. Biol. Chem. 278, 50497–50505.
+Comoletti, D., Flynn, R.E., Boucard, A.A., Demeler, B., Schirf, V., Shi,
+J., Jennings, L.L., Newlin, H.R., Sudhof, T.C., and Taylor, P. (2006).
+Gene selection, alternative splicing, and post-translational processing
+regulate neuroligin selectivity for beta-neurexins. Biochemistry 45,
+12816–12827.
+Comoletti, D., Grishaev, A., Whitten, A.E., Tsigelny, I., Taylor, P., and
+Trewhella, J. (2007). Synaptic arrangement of the neuroligin/beta￾neurexin complex revealed by X-ray and neutron scattering. Structure
+15, 693–705.
+Craig, A.M., and Kang, Y. (2007). Neurexin-neuroligin signaling in syn￾apse development. Curr. Opin. Neurobiol. 17, 43–52.
+Dean, C., and Dresbach, T. (2006). Neuroligins and neurexins: linking
+cell adhesion, synapse formation and cognitive function. Trends
+Neurosci. 29, 21–29.
+Dean, C., Scholl, F.G., Choih, J., DeMaria, S., Berger, J., Isacoff, E.,
+and Scheiffele, P. (2003). Neurexin mediates the assembly of presyn￾aptic terminals. Nat. Neurosci. 6, 708–716.
+DeLano, W. (2002). The Pymol Molecular Graphics System (San Car￾los, CA: DeLano Scientific).
+Durand, C.M., Betancur, C., Boeckers, T.M., Bockmann, J., Chaste,
+P., Fauchereau, F., Nygren, G., Rastam, M., Gillberg, I.C.,
+Anckarsater, H., et al. (2007). Mutations in the gene encoding the
+synaptic scaffolding protein SHANK3 are associated with autism
+spectrum disorders. Nat. Genet. 39, 25–27.
+Emsley, P., and Cowtan, K. (2004). Coot: model-building tools for mo￾lecular graphics. Acta Crystallogr. D Biol. Crystallogr. 60, 2126–2132.
+Fu, Z., Washbourne, P., Ortinski, P., and Vicini, S. (2003). Functional
+excitatory synapses in HEK293 cells expressing neuroligin and gluta￾mate receptors. J. Neurophysiol. 90, 3950–3957.
+Garber, K. (2007). Neuroscience. Autism’s cause may reside in abnor￾malities at the synapse. Science 317, 190–191.
+Graf, E.R., Zhang, X., Jin, S.X., Linhoff, M.W., and Craig, A.M. (2004).
+Neurexins induce differentiation of GABA and glutamate postsynaptic
+specializations via neuroligins. Cell 119, 1013–1026.
+Graf, E.R., Kang, Y., Hauner, A.M., and Craig, A.M. (2006). Structure
+function and splice site analysis of the synaptogenic activity of the neu￾rexin-1 beta LNS domain. J. Neurosci. 26, 4256–4265.
+Hoffman, R.C., Jennings, L.L., Tsigelny, I., Comoletti, D., Flynn, R.E.,
+Sudhof, T.C., and Taylor, P. (2004). Structural characterization of re￾combinant soluble rat neuroligin 1: mapping of secondary structure
+and glycosylation by mass spectrometry. Biochemistry 43, 1496–
+1506.
+Holm, L., and Sander, C. (1993). Protein structure comparison by align￾ment of distance matrices. J. Mol. Biol. 233, 123–138.
+Ichtchenko, K., Hata, Y., Nguyen, T., Ullrich, B., Missler, M., Moomaw,
+C., and Sudhof, T.C. (1995). Neuroligin 1: a splice site-specific ligand
+for beta-neurexins. Cell 81, 435–443.
+Ichtchenko, K., Nguyen, T., and Sudhof, T.C. (1996). Structures, alter￾native splicing, and neurexin binding of multiple neuroligins. J. Biol.
+Chem. 271, 2676–2682.
+Jamain, S., Quach, H., Betancur, C., Rastam, M., Colineaux, C.,
+Gillberg, I.C., Soderstrom, H., Giros, B., Leboyer, M., Gillberg, C.,
+et al. (2003). Mutations of the X-linked genes encoding neuroligins
+NLGN3 and NLGN4 are associated with autism. Nat. Genet. 34, 27–29.
+Landau, M., Mayrose, I., Rosenberg, Y., Glaser, F., Martz, E., Pupko,
+T., and Ben-Tal, N. (2005). ConSurf 2005: the projection of evolutionary
+conservation scores of residues on protein structures. Nucleic Acids
+Res. 33, W299–W302.
+Laumonnier, F., Bonnet-Brilhault, F., Gomot, M., Blanc, R., David, A.,
+Moizard, M.P., Raynaud, M., Ronce, N., Lemonnier, E., Calvas, P.,
+et al. (2004). X-linked mental retardation and autism are associated
+with a mutation in the NLGN4 gene, a member of the neuroligin family.
+Am. J. Hum. Genet. 74, 552–557.
+McCoy, A.J., Grosse-Kunstleve, R.W., Storoni, L.C., and Read, R.J.
+(2005). Likelihood-enhanced fast translation functions. Acta Crystal￾logr. D Biol. Crystallogr. 61, 458–464.
+Missler, M., Fernandez-Chacon, R., and Sudhof, T.C. (1998). The mak￾ing of neurexins. J. Neurochem. 71, 1339–1347.
+Missler, M., Zhang, W., Rohlmann, A., Kattenstroth, G., Hammer, R.E.,
+Gottmann, K., and Sudhof, T.C. (2003). Alpha-neurexins couple Ca2+
+channels to synaptic vesicle exocytosis. Nature 423, 939–948.
+Nam, C.I., and Chen, L. (2005). Postsynaptic assembly induced by
+neurexin-neuroligin interaction and neurotransmitter. Proc. Natl.
+Acad. Sci. USA 102, 6137–6142.
+Nguyen, T., and Sudhof, T.C. (1997). Binding properties of neuroligin
+1 and neurexin 1beta reveal function as heterophilic cell adhesion
+molecules. J. Biol. Chem. 272, 26032–26039.
+Otwinowski, Z., and Minor, W. (1997). Processing of X-ray diffraction
+data collected in oscillation mode. Methods Enzymol. 276, 307–326.
+Perrakis, A., Harkiolaki, M., Wilson, K.S., and Lamzin, V.S. (2001). ARP/
+wARP and molecular replacement. Acta Crystallogr. D Biol. Crystal￾logr. 57, 1445–1450.
+1002 Neuron 56, 992–1003, December 20, 2007 ª2007 Elsevier Inc.
+Neuron
+Interaction between Neuroligin and NeurexinPhilibert, R.A., Winfield, S.L., Sandhu, H.K., Martin, B.M., and Ginns,
+E.I. (2000). The structure and expression of the human neuroligin-3
+gene. Gene 246, 303–310.
+Rudenko, G., Nguyen, T., Chelliah, Y., Sudhof, T.C., and Deisenhofer,
+J. (1999). The structure of the ligand-binding domain of neurexin Ibeta:
+regulation of LNS domain function by alternative splicing. Cell 99, 93–
+101.
+Scheiffele, P., Fan, J., Choih, J., Fetter, R., and Serafini, T. (2000). Neu￾roligin expressed in nonneuronal cells triggers presynaptic develop￾ment in contacting axons. Cell 101, 657–669.
+Sheckler, L.R., Henry, L., Sugita, S., Sudhof, T.C., and Rudenko, G.
+(2006). Crystal structure of the second LNS/LG domain from neurexin
+1alpha: Ca2+ binding and the effects of alternative splicing. J. Biol.
+Chem. 281, 22896–22905.
+Sussman, J.L., Harel, M., Frolow, F., Oefner, C., Goldman, A., Toker,
+L., and Silman, I. (1991). Atomic structure of acetylcholinesterase
+from Torpedo californica: a prototypic acetylcholine-binding protein.
+Science 253, 872–879.
+Szatmari, P., Paterson, A.D., Zwaigenbaum, L., Roberts, W., Brian, J.,
+Liu, X.Q., Vincent, J.B., Skaug, J.L., Thompson, A.P., Senman, L., et al.
+(2007). Mapping autism risk loci using genetic linkage and chromo￾somal rearrangements. Nat. Genet. 39, 319–328.
+Tabuchi, K., Blundell, J., Etherton, M.R., Hammer, R.E., Liu, X., Powell,
+C.M., and Sudhof, T.C. (2007). A Neuroligin-3 mutation implicated in
+autism increases inhibitory synaptic transmission in mice. Science
+318, 56–57.
+Terwilliger, T.C. (2003). Automated main-chain model building by tem￾plate matching and iterative fragment extension. Acta Crystallogr.
+D Biol. Crystallogr. 59, 38–44.
+Tsigelny, I., Shindyalov, I.N., Bourne, P.E., Sudhof, T.C., and Taylor, P.
+(2000). Common EF-hand motifs in cholinesterases and neuroligins
+suggest a role for Ca2+ binding in cell surface associations. Protein
+Sci. 9, 180–185.
+Ushkaryov, Y.A., Petrenko, A.G., Geppert, M., and Sudhof, T.C. (1992).
+Neurexins: synaptic cell surface proteins related to the alpha-latrotoxin
+receptor and laminin. Science 257, 50–56.
+Varoqueaux, F., Aramuni, G., Rawson, R.L., Mohrmann, R., Missler,
+M., Gottmann, K., Zhang, W., Sudhof, T.C., and Brose, N. (2006). Neu￾roligins determine synapse maturation and function. Neuron 51, 741–
+754.
+Yan, J., Oliveira, G., Coutinho, A., Yang, C., Feng, J., Katz, C., Sram, J.,
+Bockholt, A., Jones, I.R., Craddock, N., et al. (2005). Analysis of the
+neuroligin 3 and 4 genes in autism and other neuropsychiatric patients.
+Mol. Psychiatry 10, 329–332.
+Accession Numbers
+The coordinates and diffraction data have been deposited in the RCSB
+Protein Data Bank (PDB) (PDB IDs 3BIX [NL1] and 3BIW [NL1/Nrx1b]).
+Neuron 56, 992–1003, December 20, 2007 ª2007 Elsevier Inc. 1003
+Neuron
+Interaction between Neuroligin and Neurexin

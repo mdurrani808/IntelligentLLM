@@ -1,0 +1,307 @@
+The Energetic Basis Underpinning T-cell Receptor  Recognition of a Super-bulged Peptide Bound to a Major  Histocompatibility Complex Class I Molecule*S  Received for publication, January 19, 2012 Published, JBC Papers in Press, February 16, 2012, DOI 10.1074/jbc.
+M112.344689  Yu Chih Liu  , Zhenjun Chen  , Scott R. Burrows1, Anthony W. Purcell2  , James McCluskey  , Jamie Rossjohn3,4,  and Stephanie Gras4,5  From the   Department of Biochemistry and Molecular Biology, Monash University, Clayton, 3800, the Departments of    Microbiology & Immunology and   Biochemistry and Molecular Biology and Bio21 Molecular Science and Biotechnology Institute,  University of Melbourne, Parkville, 3010, and the   Queensland Institute of Medical Research and Australian Centre for Vaccine  Development, Brisbane 4006, Australia  Background: T-cell receptor (TCR) recognition of a lengthy peptide-human leukocyte antigen (HLA) complex indicates a  peptide-centric mode of interaction.
+  Results: The energetic landscape of this interaction is centered on the peptide and peptide-contacting residues.
+  Conclusion: Lengthy peptides drive a more peptide-focused mode of TCR recognition.
+  Significance: This is the first description of the energetic landscape underpinning TCR recognition of lengthy HLA-restricted  peptides.
+  Although the major histocompatibility complex class I  (MHC-I) molecules typically bind short peptide (p) fragments  (810 amino acids in length), longer, bulged peptides are  often be presented by MHC-I. Such bulged pMHC-I complexes represent challenges for T-cell receptor (TCR) ligation, although the general principles underscoring the interaction between TCRs and bulged pMHC-I complexes are  unclear.
+To address this, we have explored the energetic basis  of how an immunodominant TCR (termed SB27) binds to a  13-amino acid viral peptide (LPEPLPQGQLTAY) complexed  to human leukocyte antigen (HLA) B*3508.
+Using the crystal  structure of the SB27 TCR-HLA B*3508LPEP complex as  a guide, we undertook a comprehensive alanine-scanning  mutagenesis approach at the TCR-pMHC-I interface and  examined the effect of the mutations by biophysical (affinity  measurements) and cellular approaches (tetramer staining).
+  Although the structural footprint on HLA B*3508 was small,  the energetic footprint was even smaller in that only two HLA  B*3508 residues were critical for the TCR interaction.
+  Instead, the energetic basis of this TCR-pMHC-I interaction  was attributed to peptide-mediated interactions in which the  complementarity determining region 3 and germline-encoded complementarity determining region 1 loops of the  SB27 TCR played the principal role.
+Our findings highlight  the peptide-centricity of TCR ligation toward a bulged  pMHC-I complex.
+  The specificity of cytotoxic T-cells is characterized by the  surface expression of the  T-cell receptor (TCR),6 which recognizes peptide fragments (typically between 8 and 10 amino  acids in length) presented by class I major histocompatability  complex (MHC-I) molecules on target cells.
+The antigen-recognition site of the TCR is comprised of six complementaritydetermining regions (CDRs), three each from the TCR  and   chains, of which the CDR1 and -2 loops are germline encoded,  whereas the CDR3 loops can be comprised of germline-encoded and non-germline-encoded regions.
+The rearrangement  of TCR gene elements yields a potential 1015 different TCRs in  humans, which after undergoing positive and negative selection  represent a mature T-cell repertoire of 108 different TCRs (1).
+  Typically, the antigenic peptide is tethered within the antigen  (Ag)-binding cleft of the MHC molecule, whereupon a few of  the surface-exposed amino acids represent potential TCR contact points (2).
+Accordingly, relative to the short peptide, the  polymorphic MHC-I heavy chain dominates the interactions  with the TCR (3).
+Successful peptide-MHC (pMHC) engagement by the TCR is an obligate requirement for thymic selection and for the recognition of foreign Ags in the periphery,  which subsequently leads to a series of effector functions.
+  Accordingly, understanding the factors that dictate the nature  of the TCR-pMHC engagement is an area of intense interest.
+  However, generalizations regarding the nature of this interaction are compounded by the extensive human leukocyte antigen (HLA) polymorphism and the diverse T-cell repertoire.
+  * This work was supported in part by the Australian National Health and Medical Research Council (NHMRC) and the Australian Research Council.  S This article contains supplemental Tables S1 and S2 and Fig. S1.
+1 NHMRC Principal Research Fellow.  2 NHMRC Senior Research Fellow.  3 Australia fellow of the NHMRC. To whom correspondence may be  addressed.
+E-mail: jamie.rossjohn@monash.edu. 4 Joint senior authors.
+  5 Supported by a Senior Fellowship from Monash University. To whom correspondence may be addressed: Bldg. 76, Ground Floor, Rm. G12, Dept. of  Biochemistry & Molecular Biology, School of Biomedical Sciences, Monash  University, Clayton, Vic 3800, Australia. Tel.: 613-99029227 and 99029236;  E-mail: Stephanie.gras@monash.edu.  6 The abbreviations used are: TCR, T-cell receptor; MHC-I, major histocompatibility complex class I; CDR, complementarity determining region; Ag, antigen; MF, mean fluorescence; HLA, human leukocyte antigen; SPR, surface  plasmon resonance; VDW, van der Waals.
+  THE JOURNAL OF BIOLOGICAL CHEMISTRY VOL.
+287, NO. 15, pp. 1226712276, April 6, 2012   2012 by The American Society for Biochemistry and Molecular Biology, Inc. Published in the U.S.A.  APRIL 6, 2012VOLUME 287NUMBER 15 JOURNAL OF BIOLOGICAL CHEMISTRY 12267   at University of Arizona Library, on December 5, 2012 www.jbc.org Downloaded from   http://www.jbc.org/content/suppl/2012/02/16/M112.344689.DC1.html   Supplemental Material can be found at:Structural studies have shown that the TCR can engage the  pMHC-I surface in a wide range of docking modes (4).
+Nevertheless, a conserved docking mode between the TCR-pMHC-I  is observed, in which the V and V domains are positioned  over the MHC 2- and 1-helices, respectively, suggesting  some hidden basis in TCR-pMHC engagement that may be  attributable to signaling outcome (5, 6).
+Whether this hidden  logic is underpinned by germline-encoded TCR-MHC recognition remains an area of intense investigation (711).
+The  insight gleaned from TCR-pMHC-I structural studies have  been bolstered significantly by associated biophysical, thermodynamic, and mutational studies, which have shown that the  relative energetic contributions from the CDR loops can vary  between different TCR-pMHC systems (7, 1219).
+To date,  most of the structural/mutagenesis studies have focused on  TCR recognition of short peptides (810 amino acids), whereas  it is known that 510% of the repertoire of peptides bound to  MHC-I can be longer than 10 amino acids in length (20, 21).
+  Indeed, there is a growing understanding of the role longer  MHC-I-restricted peptides play in immunity, where these longer determinants can form targets for MHC-restricted cytotoxic T-cells in tumor immunity and viral immunity (8, 2224).
+  The size limitation of peptides binding to MHC-I is, in part,  defined by the hydrogen bonding network at the N- and C-terminal ends of the Ag binding cleft.
+As such, longer peptides  generally bulge centrally from the Ag-binding cleft.
+Some of  these long bulging MHC-I peptides display substantial mobility, whereas others assume a more rigid conformation, and thus  they may be considered to potentially represent challenges for  TCR ligation.
+Indeed, biased (immunodominant) TCR usage  has been found as a mechanism for the adaptive immune system to deal with such challenging MHC-restricted viral peptides (11, 25).
+For example, biased TCR usage was observed  against a flexible 11-mer peptide (EPLPQGQLTAY) (26) and a  rigid 13-mer peptide (LPEPLPQGQLTAY, termed LPEP)  (27) restricted to HLA B*3501 and HLA B*3508, respectively.
+  The flexible 11-mer determinant was flattened upon TCR ligation, enabling the TCR to make substantial contacts with HLA  B*3501 (28).
+In contrast, in recognizing the rigid 13-mer peptide, the prototypical biased TCR (termed SB27) made extensive peptide contacts but limited contacts with HLA B*3508  (29).
+As such, the SB27 TCR made noticeably fewer contacts  with the MHC in comparison to TCRs interacting with canonical length (810-mer) epitopes.
+Given this observation, we  aimed to explore the energetic basis of the SB27 TCR-HLA  B*3508LPEP interaction.
+How important are the TCR-MHC  contacts in comparison to the TCR-peptide interactions?
+Our  data show that longer peptides drive peptide-focused TCR  recognition.
+  EXPERIMENTAL PROCEDURES  Generation of SB27 TCR and HLA B*3508 MutantsCollectively, 28 single alanine mutants and 2 glycine substitutions  (if the C atoms only were involved in the contact) were made  on either the SB27 TCR or HLA B*3508.
+These mutants  were generated via site-directed mutagenesis techniques  (QuikChange; Stratagene) with DNA templates that were previously described (8).
+  Protein Expression and PurificationIndividual chains of the  SB27 TCR, HLA B*3508 and the 2-microglobulin were  expressed as inclusion bodies in BL21(DE3) Escherichia coli  cells, followed by refolding procedures as previously described  (29).
+Post-refolding samples were dialyzed against 10 mM TrisHCl, pH 8, twice daily and further purified through anion  exchange chromatography and size-exclusion chromatography.
+The purity and the molecular weight of the samples were  assessed with SDS-PAGE.
+  Surface Plasmon ResonanceUsing a BIAcore 3000 instrument, all surface plasmon resonance (SPR) experiments were  measured at 25 C with a buffer containing 10 mM HEPES, pH  7.4, 150 mM NaCl, 0.005% surfactant P20, and 1% bovine serum  albumin to avoid nonspecific binding.
+With a research grade  CM5 sensorchip, a conformational specific monoclonal antibody (12H8) (12) was amine-coupled onto the surface to capture properly folded wild type or mutated SB27 TCR.
+Typically,  one of the four flow cells was left empty without coupling any  TCR (the control), whereas the other three flow cells were used  to capture SB27 TCR (and mutants) to 200 400 response  units.
+Serial dilutions of HLA B*3508LPEP (or variants thereof)  ranging between 0.78 and 200 M were prepared and injected  into the flow cells individually and the antibody surface was  regenerated with Actisep (Sterogene) between each injection.
+  All experiments were performed in duplicates and the kinetic  constants were determined by the BIAevalution program (version 3.1) using 1:1 Langmuir binding models with the addition  of a drifting baseline parameter.
+  Thermal Stability AssayThermal stability assays of HLA  B*3508LPEP variants were performed with the Real Time Detection instrument (Corbett RotorGene 300).
+Briefly, all pHLA  samples were prepared at two concentrations (5 and 10 M) in  10 mM Tris-HCl, pH 8, and 150 mM NaCl buffer.
+The fluorescent dye Sypro orange were added to the sample to enable monitoring of the protein unfolding process.
+Samples were heated  from 30 to 95 C at the rate of 1 C/min and the changes in  fluorescent intensity were recorded accordingly with the excitation wavelength of 530 nM and the emission wavelength at  555 nM. The results are summarized in supplemental Table S1.
+  Crystallization of pHLA and Structure Determination  Crystals of selected HLA B*3508LPEP variants were obtained by  the hanging-drop, vapor-diffusion method at 20 C.
+Protein  samples at 5 mg/ml concentration were mixed with the reservoir solution (0.1 M sodium citrate, pH 5.6, 16% polyethylene  glycol (PEG) 4000, and 0.2 M ammonium acetate) at a 1:1 ratio.
+  Microseeding techniques were applied to allow the formation  of crystals with optimal size.
+Crystals of pHLA variants were  soaked with reservoir solution containing an increased percentage of PEG 4000 (30%) followed by flash freezing in liquid  nitrogen.
+All data were collected at the Australian synchrotron,  Clayton, with an ADSC-Quantum 210 CCD on MX1 and an  ADSC-Quantum 315r CCD on MX2 detector (at 100 K).
+The  datasets were processed with XDS software (30), scaled with  XSCALE and the structures were solved by molecular replacement using PHASER (31) and the published HLA B*3508LPEP  structure (PDB code 1ZHK (27)) minus the peptide as a search  model.
+Manual building of all pHLA variants were performed  with COOT (32) and further refined using maximum-likeliPeptide Focused TCR Recognition  12268 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 287NUMBER 15APRIL 6, 2012   at University of Arizona Library, on December 5, 2012 www.jbc.org Downloaded from hood refinement with PHENIX (33) and the structural representation showed in all figures were generated using PyMOL  (30).
+The final models have been validated and submitted using  the Protein Data Base validation web site and the final refinement statistics and PDB accession codes are summarized in  supplemental Table S2.
+  Retroviral Transduction into SKW3 CellsThe transduction  of the SKW3 cell lines was carried out as previously described  (8).
+In brief, 4 g of pMIG plasmid containing SB27 or LC13  TCR (used as control) was mixed with two retroviral packaging  vectors DNA (2 g of each pPAM-E and pVSV-g) and  FuGENE-6.
+The mixture was used to co-transfect a total number of 106 293T epithelial cells.
+The transfected 293T cells were  cultured further for 5 days and all virus-containing supernatants were harvested and replaced twice daily to transduce  SKW3 cells with the addition of 6 g/ml of Polybrene.
+After  35 days of transduction, the surface expression level of TCRs  on the SKW3 cells was monitored using FACS.
+TCR positive  cells were enriched, and cloned, with a BD FACSAria cell sorter.
+  Fluorescence-activated Cell Sorting (FACS) and Tetramer  Binding Assay105 SKW3-SB27 cells and the positive control  SKW3-LC13 cells were stained with the anti-CD3 antibody  (OKT3) on ice for 30 min or with peptide-loaded HLA class  I-multimers (HLA B*3508LPEP-PE tetramer) at 26 C for 45  min.
+After washing twice with FACS buffer (phosphate-buffered saline containing 2% fetal calf serum and 0.02% azide), the  cells were run through a FACS-calibur or FACS-Aria with CellQuestPro and analyzed with FlowJo.
+For cell sorting experiments, the desired number of cells was stained similarly and all  steps were carried out aseptically in a Bio-hazardous hood and  filter-sterile reagents.
+Tetramer binding was measured by the  increase of the mean fluorescence (MF) of tetramer staining.
+  The TCR expression level was normalized with tight gating on  the expression of green fluorescent protein (GFP), which correlated well with TCR expression levels in the transfected cells.
+  RESULTS  Experimental RationaleTo define the underlying energetic  basis of the interaction between SB27 TCR and HLA  B*3508LPEP, we undertook an alanine scanning approach on  both the SB27 TCR and HLA B*3508LPEP.
+We analyzed the  effect of the mutations on the affinity of the interaction using  surface plasmon resonance (SPR), and furthermore, the effect  of the HLA B*3508 mutants were investigated via cell surface  staining using tetrameric versions of the mutants.
+Given the  structure of the SB27 TCR-HLA B*3508LPEP complex had been  solved (29) (Fig. 1), we were able to rationalize the SB27 TCR  and HLA B*3508LPEP residues selected for mutational analysis.
+  Solvent-exposed SB27 TCR residues whose side chains interacted with HLA B*3508LPEP were selected for substitution to  alanine.
+Similarly, HLA B*3508 residues, as well as those from  the viral peptide, were selected for substitution if their side  FIGURE 1.
+Overview of the SB27 TCR interaction with the HLA B*3508LPEP.
+a, the SB27 TCR is represented in schematic with the -chain in pink, the -chain  in blue, the CDR1, -2, and -3 are purple, green, and red, and the CDR1, -2, and -3 colored in yellow, brown, and orange, respectively.
+The HLA B*3508 is  represented as a white schematic and the 2-microglobulin in gray, with the LPEP peptide in blue stick.
+b, close-up of the SB27 CDR loops interacting with the  bulged LPEP peptide(blue stick), with the CDR loops colored accordingly to panel a. c,peptide centric structuralfootprint of the SB27 TCR on the HLA B*3508LPEP  surface (white), the atoms of the HLA B*3508 and LPEP peptide involved in the interaction are colored by the CDR loops contacted accordingly to panel a.  Peptide Focused TCR Recognition  APRIL 6, 2012VOLUME 287NUMBER 15 JOURNAL OF BIOLOGICAL CHEMISTRY 12269   at University of Arizona Library, on December 5, 2012 www.jbc.org Downloaded from chains made contact with the SB27 TCR.
+In total, the effect of  34 mutations was investigated (18 from the TCR, 10 from HLA  B*3508, and 6 from the LPEP peptide), thereby permitting a  comprehensive understanding of the energetic basis of this  interaction.
+  SB27 TCR MutationsThe cytotoxic T-cell response to the  HLA B*3508LPEP epitope exhibited biased -chain usage, with  the SB27 TCR representing an archetypal clonotype of this  T-cell repertoire (34) (encoded by the TRAV19*01, TRAJ34*01,  TRBV6-1*01, and TRBJ2-7*01 genes (35)).
+The SB27 TCR  docked orthogonally across the Ag-binding cleft to accommodate the bulged epitope (Fig. 1a), in which the V chain leaned  toward the 2-helix, whereas the V chain formed few contacts  with HLA B*3508, and interacted more extensively with the  peptide (29).
+In brief, the CDR1, CDR2, and CDR3 loops  provided the main contacts with HLA B*3508 (Fig. 1, b and c),  whereas the CDR1 loop played a prominent role in interacting  with the peptide, thereby underscoring the differing roles  underpinning the biased V and V usage in the SB27 TCR.
+  In total, 18 (17 alanine and S31G) mutants were generated  within the  and  chains of SB27, which included Asn66 as a  negative control (this residue was not involved in binding to  HLA B*3508LPEP).
+The residues that were mutated within the  various CDR loops were: CDR1, Thr29 and Tyr31; CDR2,  Asn50 and Phe52; CDR3, Ser93, Phe95, Tyr96, and  Asn97; CDR1, Asn28, His29, Asn30, Ser31, Tyr33;  CDR2, Ser51; CDR3, Pro95, Leu98, and Glu101 and the  framework residue Asn66.
+We mutated, expressed, refolded,  and purified all mutants and, to ensure the structural integrity  of these mutants, we compared their biochemical characteristics and reactivity toward a conformationally specific TCR mAb  (PDB 12H8) (12).
+All mutants behaved similarly to the wild type  SB27 TCR (data not shown), thereby ensuring the conformational integrity of the targeted mutants.
+  First, we measured the affinity and kinetic rate constants of  the wild-type (WT) SB27 TCR-HLA B*3508LPEP interaction.
+  The SB27 TCR bound HLA B*3508LPEP with a Kd,eq of 18.7   0.4 M, an on rate (Kon) of 6.56  104 M s  1  ; and a dissociation  constant (Koff) of 0.12 s1  , values that were consistent with  previous measurements (29) (Fig. 2a, Table 1).
+Although these  WT Kd,eq measurements were reproducible on two separate  occasions and using two separate batches of WT SB27 TCR, all  the SB27 TCR mutants (example shown in Fig. 2b) were, nevertheless, analyzed in the same experiment, in duplicate and  relative to the same batch of WT SB27 TCR.
+This was to ensure  that all the Kd,eq values were comparable and relative to one  another (see Table 1).
+SB27 TCR mutations that caused less  than a 3-fold loss in the affinity of the interaction with HLA  B*3508LPEP compared with WT SB27 TCR were considered to  have no major effect; a 35-fold effect as moderate, and anything greater than 5-fold as critical to the energetics of the  interaction.
+  CDR1 LoopThe CDR1 loop is situated above the 2-helix of HLA B*3508, forming interactions with a single HLA residue as well as the peptide antigen.
+Two mutants were investigated within this loop; namely Thr29, which contacted Ala158,  and Tyr31, which contacted the peptide P7-Gln.
+Neither the  T29A nor Y31A mutants impacted on the affinity of the  interaction, indicating that the germline-encoded CDR1 loop  played a marginal role toward Ag recognition.
+  CDR2 LoopThe CDR2 loop contains two residues  (Asn50 and Phe52) that contact the 2-helix of HLA B*3508  (Fig. 3a).
+Asn50 hydrogen bonds (H-bonds) exclusively to  Glu154, and the corresponding N50A mutant had a critical  impact on the affinity of the interaction (Table 1).
+Phe52  formed van der Waals (VDW) contacts with three HLA B*3508  residues (Glu154, Arg157, and Ala158) and the F52A mutation  abrogated HLA B*3508LPEP recognition.
+Accordingly, the  mutational data showed that the CDR2 played a critical role in  the interaction with the HLA B*3508LPEP complex.
+  CDR3 LoopThe CDR3 loop of SB27 TCR contains four  residues that bind to HLA B*3508LPEP via side chain-mediated  interactions (Fig. 3b), namely Ser93 from the V gene, Phe95  from the non-germline-encoded region and Tyr96 and Asn97  from the J gene.
+The CDR3 loop ran across the 1 and 2  helices of HLA B*3508, flanking the N-terminal end of peptide  that bulges out from the Ag-binding cleft.
+Ser93 is located  directly above, and contacted P7-Gln; Phe95 and Tyr96 contacted the 2-helix of HLA B*3508 (spanning between Gln155  and Leu163) as well as the peptide (between P4 to P7) via VDW  and H-bond interactions; and Asn97 H-bonded to Gln65 and  interacted with P5 to P7 of the peptide.
+Given the extent of  FIGURE 2.
+Surface plasmon resonance experiment of SB27 TCR variants binding to HLA B*3508LPEP.
+Kinetic rate constant measurements of the SB27 TCR  (a) and SB27-Ala98 TCR (b), binding to a concentration series of HLA B*3508LPEP complex; inset, equilibrium concentration versus response relationship.
+The  experiments have been conducted in duplicate and the error bars are shown for each data point (mean  S.E.).
+  Peptide Focused TCR Recognition  12270 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 287NUMBER 15APRIL 6, 2012   at University of Arizona Library, on December 5, 2012 www.jbc.org Downloaded from these contacts, the corresponding mutations, unsurprisingly,  all had a critical effect on the affinity of the interaction (Table 1).
+  This highlights the important role the CDR3 loop played in  contacting the peptide and the HLA B*3508 molecule.
+  CDR1 LoopFive HLA B*3508LPEP residues within the  CDR1 loop were mutated, where all but one residue (Asn30)  exclusively contacted the peptide (between P5 and P10) (Fig. 3c,  Table 1).
+The H29A, S31G, and Y33A mutants were judged  to be critical for the interaction, whereas N30A and N28A  had a moderate and negligible effect, respectively.
+Accordingly,  the germline-encoded CDR1 loop was observed to play a critical role in the energetics of the interaction, principally by interacting with the bulged peptide.
+  CDR2 and CDR3 LoopsThe CDR2 loop contributes  minimally to the SB27 TCR-HLA B*3508LPEP interface, and  mutation of the sole CDR2 contacting residue, Ser51, did not  impact on the affinity of the interaction (Table 1).
+The CDR3  loop contains three residues that contact HLA B*3508LPEP, the  Pro95 sat above P7-Gln, whereas the Leu98 and Glu101 contact HLA B*3508.
+The E101A mutant did not impact on the  affinity of the interaction, indicating that the salt bridge  between Glu101 and Arg151 was not energetically important  for SB27 TCR binding (Fig. 3d, Table 1).
+Furthermore, whereas  Leu98 formed VDW contacts with numerous HLA B*3508  residues, the L98A mutation only resulted in a moderate  impact on the binding affinity (Table 1).
+In contrast, the P95A  mutant significantly impacted on the affinity of the interaction,  thereby highlighting the importance of this peptide-mediated  contact.
+  Next, we mapped the impact of the mutated SB27 TCR residues onto its structure to evaluate the location and size of the  energetically important residues (the hot spot).
+The substitutions that had a marked effect on the affinity of the interaction  formed a central strip on the surface of the Ag-binding domain  of the SB27 TCR (Fig. 4a).
+Collectively, of the six CDR loops  mutated in the SB27 TCR, the sum energetic contributions  indicated that CDR3  CDR1  CDR2  CDR3   CDR1  CDR2.
+  Energetic Landscape on HLA B*3508LPEP SurfaceTo assess  how HLA B*3508 contributes energetically toward SB27 TCR  recognition, based on the crystal structure of the ternary complex, we substituted 10 HLA B*3508 residues to alanine, which  included one control mutation (Gln72) that was not involved in  the interaction with the SB27 TCR.
+Additionally, one HLA  B*3508 residue was mutated to glycine (A158G).
+HLA  B*3508LPEP mutations that caused less than a 3-fold loss in the  affinity of the interaction with SB27 TCR compared with WT  HLA B*3508LPEP were considered to have no major effect; a  35-fold effect as moderate, and anything greater than 5-fold as  critical to the energetic of the interaction.
+  Of the 10 selected and refolded single-site HLA B*3508  mutants, three and seven were located on the 1 helix (Gln65,  Thr69, and Gln72) and 2-helix (Arg151, Glu154, Gln155, Arg157,  Ala158, Glu161, and Glu163), respectively.
+We used SPR to measure the effect of the mutations, and established that the Q72A  mutant did not affect the binding affinity.
+Of the two TCRcontacting residues located on the 1-helix (Q65A and T69A),  neither of the corresponding mutations affected the binding  TABLE 1  Surface plasmon resonance analysis on SB27 TCR mutations  t1/2  0.693/Kd,eq. G  RTln(Kd,mut/Kd,WT), where R is the gas constant, T represents temperature in Kelvin, mut is the mutant studied and WT for the wild type SB27  TCR.
+*, less than 3- fold decrease difference compared to wild type affinity; **, between 3-and 5-fold decrease; ***, greater than 5-fold decrease.
+NB for non-binding observed  at a maximum concentration of 200 M HLA B*3508LPEP, and ND, not determined.
+  Peptide Focused TCR Recognition  APRIL 6, 2012VOLUME 287NUMBER 15 JOURNAL OF BIOLOGICAL CHEMISTRY 12271   at University of Arizona Library, on December 5, 2012 www.jbc.org Downloaded from affinity, thereby indicating that residues within the 1-helix  were dispensable for the interaction with the SB27 TCR.
+Of the  six 2-helix residues that were involved in contacts with the  SB27 TCR, the mutational SPR analyses indicated that Glu154  and Leu163 were not required for the interaction.
+Interestingly  Asn50, which contacted Glu154, was shown to be critical for  the interaction.
+However, the TCR residue Asn50 also made  intra-TCR contacts with the CDR3 loop, and thus the role of  the Asn50 side chain appears to be in maintaining the structural integrity of the SB27 TCR binding site.
+Indeed, the energetic hot spot on the HLA B*3508 surface was narrowed down  to only two critically important residues (Arg151 and Arg157)  FIGURE 3.
+Interaction of the SB27 TCR with the HLA B*3508LPEP complex.
+The residues on the four panels are colored according to the mutagenesis study,  red are critical, orange moderately important, gray, did not affect the interaction, and white were not mutated.
+a,the CDR2 loop interacts with the HLA B*3508  residues, Arg157 (red), Glu154 (gray), and Ala158 (orange) and makes contacts with the CDR3 loop.
+b, the CDR3 spanning across both HLA helices, represented  in white schematic, mediating critical contacts (red residues) with the peptide and the HLA residues.
+c, the CDR1 loop walls the bulged peptide, forming an  extensive bonding network primarily with the antigen.
+d, the CDR3 contacts P7-Gln of the peptide and the Arg151 of the HLA B*3508 by VDW interaction and  a salt bridge, respectively.
+H-bonds are represented with red dashed line, VDW in blue dashed lines.
+(PDB access code 2AK4).
+  FIGURE 4.
+Energetic hot spots of the SB27-HLA B*3508LPEP complex.
+a,surface representation of the SB27 TCR, with the -chain in cyan; -chain in pink; six  CDR loops and the HLA B*3508LPEP helices are shown as schematic representation; P4-P7 of the peptide are shown in green sticks.
+The critical residues are in red;  the residues of moderate importance for the interaction are in orange; and the residue in dark gray were not important for the interaction.
+b, surface  representation of the HLA B*3508 (white) bound to the LPEP peptide (light blue).
+SB27 CDR loops and the HLA B*3508 helices are shown as schematic  representations.
+The CDR loops are colored in pink, green, and red for the CDR1, -2, and -3, respectively, and in yellow,salmon, and orange for the CDR1, -2, and  -3, respectively.
+The critical residues are colored in red, the residues of moderate importance for the interaction are in orange, and the residues in dark gray  were not important for the interaction.
+PDB access code 2AK4.
+  Peptide Focused TCR Recognition  12272 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 287NUMBER 15APRIL 6, 2012   at University of Arizona Library, on December 5, 2012 www.jbc.org Downloaded from and two moderately important residues (Gln155 and Ala158), all  located near the hinge region of the 2-helix (Fig. 4b, Table 2).
+  Although Gln155 H-bonded to the SB27 TCR and participated  in stabilizing the peptide conformation, Arg151, Arg157, and  Ala158 pointed away from the Ag-binding cleft, and contacted  the TCR mainly via VDW contacts and one salt bridge (Arg151  and Glu101 from the CDR3 loop), although the corresponding E101A mutation indicated that the salt bridge was not  energetically important.
+  To address if any of these four mutants (Arg151, Gln155,  Ala158, and Arg157) indirectly impacted on HLA B*3508LPEP  stability or peptide conformation, we undertook thermal stability assays, control SPR experiments, as well as structural studies.
+The thermal stability assay showed that all four HLA  B*3508LPEP mutants exhibit comparable melting temperature  (Tm) to the wild type HLA B*3508 (supplemental Table S1).
+  Arg151 and Arg157 form intra-chain salt bridges (with HLA  B*3508 Glu154 and Glu161, respectively), and thus we considered that the Arg151 and Arg157 mutants may have impacted on  the local conformation of HLA B*3508, thereby indirectly  impacting on SB27 TCR recognition.
+Thus we conducted the  reciprocal mutagenesis experiments, and demonstrated that  the E154A and E161A mutations did not impact the binding  affinity (Table 2).
+Furthermore, to ascertain whether the mutations caused conformation shifts in the peptide itself, we determined the structures of the four HLA B*3508LPEP mutants  (supplemental Fig. 1a and supplemental Table S2).
+We showed  that the peptide structure remains intact regardless of the HLA  mutation introduced (root mean square deviation on the Agbinding cleft range between 0.22 and 0.32 ).
+As such, we concluded that the four HLA B*3508 hot spots were acting directly  on SB27 TCR binding.
+  Significant Peptide Contribution to SB27 TCR BindingTo  compare the relative energetic contribution of the peptide as  opposed to the HLA B*3508 molecule toward SB27 TCR recognition, we next mutated the six peptide positions that contacted  SB27 TCR and undertook SPR-based affinity measurements.
+  The peptide residues included P4-Pro, P5-Leu, P6-Pro, P7-Gln,  P9-Gln, and P10-Leu-residues that spanned the bulged region  of the peptide (Fig. 3c).
+First we assessed the thermal stability  and structural impact of these introduced peptide mutations.
+  The thermal stability assays demonstrated that only the P4-Pro  to Ala mutant decreased the stability of the HLA B*3508LPEP  complex appreciably (by 9 C) (supplemental Table S1).
+Furthermore, the crystal structure of the various HLA B*3508LPEP  peptide mutants showed that the conformation of the bulged  peptide was not impacted significantly for five of them (supplemental Fig. S1b and Table S2).
+The P5-Leu mutation to alanine  increased the mobility of the peptide, which leaned more  toward the 1-helix of the HLA B*3508.
+This highlighted the  importance of the P5-Leu residue for the peptide structure and  so its recognition by the TCR.
+Thus, with the exception of  P5-Leu mutant, any potential effect of peptide mutants could  be attributable to directly impacting on SB27 TCR recognition.
+  Although mutation of the two residues at the C-terminal end of  the peptide (Pro9  Pro10) did not affect the affinity of the interaction, mutation of the Pro4  Pro7 positions resulted in marked  reduction in binding affinity.
+Accordingly, the ascending and  central region of the peptide bulge was critical for SB27 TCR  recognition (Fig. 3c, Table 2).
+The G analysis showed that,  whereas the peptide only represents a small component of the  solvent accessible HLA B*3508LPEP interface, it contributes  56% to the overall energetics of the interaction with the SB27  TCR (Table 2).
+  The reciprocal mutagenesis on HLA B*3508LPEP allowed us  to determine the importance of the peptide and the HLA heavy  chain on the TCR-contacting residues.
+The SB27 TCR utilized  only one critical (Phe52) and three moderately (Leu98,  Phe95, and Tyr96) important residues to contact HLA  B*3508.
+This is in marked contrast with the eight critical resiTABLE 2  Surface plasmon resonance analysis on HLA-B*3508LPEP mutations  t1/2  0.693/Kd,eq. G  RTln (Kd,mut/Kd,WT), where R is the gas constant, T represents temperature in Kelvin, mut is the mutant studied and WT for the wild-type HLA  or peptide.
+*, less than 3- fold decrease difference compared to wild type affinity; **, between 3-and 5-fold decrease; ***, greater than 5-fold decrease, ND, not determined.
+  Peptide Focused TCR Recognition  APRIL 6, 2012VOLUME 287NUMBER 15 JOURNAL OF BIOLOGICAL CHEMISTRY 12273   at University of Arizona Library, on December 5, 2012 www.jbc.org Downloaded from dues (His29, Ser31, Tyr33, Ser93, Phe95, Tyr96, Asn97,  and Pro95) and one moderately (Asn30) important residue  used to contact the peptide.
+  Cellular AssaysNext we established whether the peptidecentric nature of the SB27 TCR, as judged by SPR analysis, was  also observed at the cellular level.
+We transduced the SB27 TCR  and LC13 TCR (as a negative control) into the TCR negative  SKW3 cell line and titrated these cells with different concentrations of wild-type HLA B*3508LPEP tetramer (Fig. 5a).
+This  allowed us to determine the HLA B*3508LPEP tetramer concentration at which half of the maximum staining level was  reached, as well as establishing the background MF.
+Using this  value, we assessed the multimer staining level achieved using  the HLA B*3508LPEP mutants and compared these values to  wild type staining.
+  Of the nine HLA B*3508 mutants tested (Glu161 excluded),  five mutant multimers (Q65A, T69A, R72A, E154A, and  L163A) stain comparably to the wild-type tetramer (Fig. 5b).
+  For the Q155A and A158G mutants, low levels of tetramer  staining were observed with an MF of 18.2 and 15.2%, respectively, compared with the WT tetramer.
+Furthermore, when  R151A and R157A multimers were tested, very low MF levels  were observed, values that were similar the negative control  (SKW3-LC13) background level.
+Last, in the context of various  peptide mutants, the tetramer binding results showed that P4  to P7 of the peptide were critically important for T cell binding.
+  Accordingly, there was a strong correlation between the SPR  data and the cellular staining data, which collectively demonstrated that the SB27 TCR-HLA B*3508LPEP interaction was  dependent on a few HLA B*3508 residues and was largely  focused on a number of peptide-mediated contacts.
+  DISCUSSION  Structural and associated biophysical investigations of TCRpMHC-I interactions have primarily focused on peptides of  canonical length (810 amino acids), in which the peptide sits  flush with the Ag-binding cleft, thereby making it challenging, a  priori, to ascertain the relative roles of the peptide versus the  MHC molecule in driving the interaction with the TCR.
+Some  studies have indicated that the conserved TCR-pMHC docking  topology is dictated by TCR-MHC contacts (9), whereas other  studies have shown the peptide-centricity of the interaction  (37).
+Indeed, it has recently been shown that energetic importance of V-MHC contacts can be modified by the V chain of  the TCR (10, 11).
+Moreover, the absolute importance of TCRMHC contact points can be dictated by the fine specificity that  the TCR exhibits toward a viral epitope (14, 38, 39).
+However, as  observed in viral immunity and autoimmunity, lengthy peptides can sit high above the Ag-binding cleft, thereby making  their role in enabling the TCR-pMHC interaction intuitively  clearer (29, 40).
+However, very little is known regarding how  longer MHC-I restricted peptides determine the selection of  the TCR repertoire as well as how TCRs recognize such featured landscapes.
+To address this, previously we investigated  the biased T-cell repertoire selection against HLA B*3508LPEP,  and determined how the prototypical TCR (SB27) engaged  HLA B*3508LPEP.
+The SB27 TCR had a finger grip hold on the  MHC while forming numerous contacts with the bulged viral  determinant.
+However, it was unclear whether the limited  TCR-MHC contact points represented the key energetic contributors to the interaction, or whether the TCR-peptide interactions played the prominent role.
+Guided by the SB27 TCRHLA B*3508LPEP crystal structure, using a mutagenesis, SPR,  and cellular approach, we demonstrate that the SB27 TCRMHC structural footprint is small, the corresponding energetic  footprint is smaller still, with no residues on the 1-helix of  HLA B*3508 being required for the interaction.
+The MHC residues that contribute to the interaction were limited to two key  residues (Arg151 and Arg157) and two residues that played a  moderate role (Gln155 and Ala158) that were located at the  elbow region of the 2-helix.
+Notably, the SB27 TCR, despite  the limited involvement of MHC residues, is restricted to HLA  B*3508, and does not cross-react to the closely related alloFIGURE 5.
+Fluorescence-activated cell sorting experiments.
+a, titration of  SKW3-SB27 and SKW3-LC13 cells with different concentrations of wild type  HLA B*3508LPEP multimer.
+The MF of HLA B*3508LPEP multimer staining is  shown on the y axis and the final concentration of the multimer is shown on  the x axis.
+b, the impact of HLA B*3508LPEP variants were measured by  tetramer staining (single concentration representing 50% of the maximum  binding for the WT tetramer) and the percentage of binding is calculated  by comparing with the wild type tetramer staining.
+The experiments on  both panels have been carried in out triplicate and the error bars show the  mean  S.E.  Peptide Focused TCR Recognition  12274 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 287NUMBER 15APRIL 6, 2012   at University of Arizona Library, on December 5, 2012 www.jbc.org Downloaded from morph (HLA B*3501).
+HLA B*3501 is distinguished from HLA  B*3508 by a single buried polymorphism at position 156 (Arg156  in HLA B*3508; Leu156 in HLA B*3501).
+The effect of this polymorphism is to cause a rigid body shift in the region of the  2-helix (27) (residues 145158) that overlaps with the MHC  energetic hot spot.
+This highlights how the SB27 TCR shows  remarkable fine specificity toward HLA B*3508.
+  We show that of the six peptide residues contacted by the  SB27 TCR, four are critical to the interaction, thereby showing,  in relative and absolute terms, that the LPEP peptide contributes markedly more toward the energetic landscape of the  interaction than the HLA B*3508 molecule.
+Thus, the peptide  centricity observed in the crystal structure is mirrored by the  peptide-centric energetic landscape.
+A previous study has suggested that a two-step binding mechanism underpins the TCRpMHC interaction whereby the germline-encoded loops  engage the MHC initially, followed by the molding of the CDR3  loops around the peptide Ag (41).
+This model is hard to reconcile in the recognition of lengthy MHC-I restricted peptides,  where it is more likely that the peptide-centric focus of the TCR  dictates the initial interaction, and TCR-MHC interactions are  subsequently formed that collectively enable productive TCRpMHC-I engagement.
+  Given that the super-bulged peptide plays a central role in  contributing to the energetic landscape, the question arises  whether the responding TCR repertoire has been shaped primarily based on its ability to primarily recognize the peptide.
+  The TCR repertoire directed toward HLA B*3508LPEP in unrelated individuals exhibits a public -chain (TRAV19*01,  TRAJ34*01) and a highly conserved  chain (TRBV6-1*01),  which differs only in the CDR3 loop sequences.
+Our data demonstrated that CDR2 and CDR3 loops play an important  energetic role in interacting with the HLA and pHLA, respectively, thereby explaining the strong selective pressure for  TRAV19 and TRAJ34 gene usage.
+The energetic landscape of  the SB27 -chain rests heavily within the germline-encoded  CDR1 loop that interacts predominantly with the peptide Ag.
+  Accordingly, the biased TRBV6-1 gene usage was principally  directed against the viral determinant.
+These observations have  resonances with a germline-encoded TCR polymorphism,  which determines the protective immune response to EBV,  solely by contacting the viral determinant (8).
+The reduced  energetic dependence of the CDR3 loop was consistent with a  lack of sequence conservation within this loop in unrelated  individuals, and consistent with recent observations regarding  how CDR3 loop diversity can be tolerated in the anti-influenza response (36).
+Notably, whereas Phe52 and Leu98 interact with the HLA B*3508 energetic hot spot (Arg157 and Arg151,  respectively), the remainder of the TCR residues that defined  the energetic landscape coincided with TCR residues that contacted the peptide.
+It will be interesting to establish how other  HLA B*3508LPEP restricted TCRs, which vary in V and V  usage, interact with the same lengthy Ag.
+  The SB27 TCR-HLA B*3508LPEP interaction was principally  driven by peptide contacts.
+To illustrate, of the 10 mutants  impacting pHLA binding, 50% of them contacted the bulged  peptide exclusively, 30% of TCR residues contacted both the  peptide and HLA hot spots, and only 20% solely bound to HLA  hot spots.
+Moreover, of the TCR residues that contact both the  peptide and HLA surface, they appeared to have a greater focus  on the peptide, rather than the HLA, as judged by the reciprocal  HLA-based mutagenesis experiments.
+Collectively our findings  highlight the peptide-focused property of the SB27 TCR as well  as highlighting the selective pressure of longer peptides in driving the restricted TCR repertoire.
+This has significant implication for T cell selection and the diversity of anti-viral responses  when longer epitopes are presented.
+  AcknowledgmentsWe thank the staff at the MX2 beamline of the  Australian synchrotron for assistance in data collection and Hanim  Halim for technical assistance.
+  REFERENCES  1.
+Arstila, T. P., Casrouge, A., Baron, V., Even, J., Kanellopoulos, J., and  Kourilsky, P. (1999) A direct estimate of the human  T cell receptor  diversity. Science 286, 958961  2.
+Theodossis, A., Guillonneau, C., Welland, A., Ely, L. K., Clements, C. S.,  Williamson, N. A., Webb, A. I., Wilce, J. A., Mulder, R. J., Dunstone, M. A.,  Doherty, P. C., McCluskey, J., Purcell, A. W., Turner, S. J., and Rossjohn, J.  (2010) Constraints within major histocompatibility complex class I restricted peptides.
+Presentation and consequences for T-cell recognition.
+  Proc. Natl. Acad. Sci. U.S.A. 107, 55345539  3.
+Godfrey, D. I., Rossjohn, J., and McCluskey, J. (2008) The fidelity, occasional promiscuity, and versatility of T-cell receptor recognition.
+Immunity 28, 304314  4.
+Rudolph, M. G., Stanfield, R. L., and Wilson, I. A. (2006) How TCRs bind  MHCs, peptides, and coreceptors.
+Annu. Rev. Immunol. 24, 419466  5.
+Adams, J. J., Narayanan, S., Liu, B., Birnbaum, M. E., Kruse, A. C., Bowerman, N. A., Chen, W., Levin, A. M., Connolly, J. M., Zhu, C., Kranz, D. M.,  and Garcia, K. C. (2011) T cell receptor signaling is limited by docking  geometry to peptide-major histocompatibility complex.
+Immunity 35,  681693  6. Beddoe, T., Chen, Z., Clements, C. S., Ely, L. K., Bushell, S. R., Vivian, J. P.,  Kjer-Nielsen, L., Pang, S. S., Dunstone, M. A., Liu, Y. C., Macdonald,W. A.,  Perugini, M. A., Wilce, M. C., Burrows, S. R., Purcell, A. W., Tiganis, T.,  Bottomley, S. P., McCluskey, J., and Rossjohn, J. (2009) Antigen ligation  triggers a conformational change within the constant domain of the  T  cell receptor.
+Immunity 30, 777788  7. Burrows, S. R., Chen, Z., Archbold, J. K., Tynan, F. E., Beddoe, T., KjerNielsen, L., Miles, J. J., Khanna, R., Moss, D. J., Liu, Y. C., Gras, S., Kostenko, L., Brennan, R. M., Clements, C. S., Brooks, A. G., Purcell, A. W.,  McCluskey, J., and Rossjohn, J. (2010) Hard wiring of T cell receptor  specificity for the major histocompatibility complex is underpinned by  TCR adaptability.
+Proc. Natl. Acad. Sci. U.S.A. 107, 1060810613  8.
+Gras, S., Chen, Z., Miles, J. J., Liu, Y. C., Bell, M. J., Sullivan, L. C., KjerNielsen, L., Brennan, R. M., Burrows, J. M., Neller, M. A., Khanna, R.,  Purcell, A. W., Brooks, A. G., McCluskey, J., Rossjohn, J., and Burrows,  S. R. (2010) Allelic polymorphism in the T cell receptor and its impact on  immune responses.
+J. Exp.
+Med. 207, 15551567  9. Feng, D., Bond, C. J., Ely, L. K., Maynard, J., and Garcia, K. C. (2007)  Structural evidence for a germline-encoded T cell receptor-major histocompatibility complex interaction codon.
+ Nat. Immunol. 8, 975983  10.
+Stadinski, B. D., Trenh, P., Smith, R. L., Bautista, B., Huseby, P. G., Li, G.,  Stern, L. J., and Huseby, E. S. (2011) A role for differential variable gene  pairing in creating T cell receptors specific for unique major histocompatibility ligands.
+Immunity 35, 694704  11.
+Turner, S. J., Doherty, P. C., McCluskey, J., and Rossjohn, J. (2006) Structural determinants of T-cell receptor bias in immunity.
+Nat. Rev. 6,  883894  12.
+Borg, N. A., Ely, L. K., Beddoe, T., Macdonald, W. A., Reid, H. H., Clements, C. S., Purcell, A. W., Kjer-Nielsen, L., Miles, J. J., Burrows, S. R.,  McCluskey, J., and Rossjohn, J. (2005) The CDR3 regions of an immunodominant T cell receptor dictate the energetic landscape of peptidePeptide Focused TCR Recognition  APRIL 6, 2012VOLUME 287NUMBER 15 JOURNAL OF BIOLOGICAL CHEMISTRY 12275   at University of Arizona Library, on December 5, 2012 www.jbc.org Downloaded from MHC recognition.
+Nat. Immunol. 6, 171180  13. Ishizuka, J., Stewart-Jones, G. B., van der Merwe, A., Bell, J. I., McMichael,  A. J., and Jones, E. Y. (2008) The structural dynamics and energetics of an  immunodominant T cell receptor are programmed by its V domain.
+  Immunity 28, 171182  14.
+Gras, S., Wilmann, P. G., Chen, Z., Halim, H., Liu, Y. C., Kjer-Nielsen, L.,  Purcell, A. W., Burrows, S. R., McCluskey, J., and Rossjohn, J. (2012) A  structural basis for varied  TCR usage against an immunodominant  EBV antigen restricted to a HLA-B8 molecule.
+J. Immunol. 188, 311321  15.
+Manning, T. C., Schlueter, C. J., Brodnicki, T. C., Parke, E. A., Speir, J. A.,  Garcia, K. C., Teyton, L., Wilson, I. A., and Kranz, D. M. (1998) Alanine  scanning mutagenesis of an  T cell receptor.
+Mapping the energy of  antigen recognition.
+Immunity 8, 413425  16.
+Ely, L. K., Beddoe, T., Clements, C. S., Matthews, J. M., Purcell, A. W.,  Kjer-Nielsen, L., McCluskey, J., and Rossjohn, J. (2006) Disparate thermodynamics governing T cell receptor-MHC-I interactions implicate extrinsic factors in guiding MHC restriction.
+Proc. Natl. Acad. Sci. U.S.A. 103,  66416646  17.
+Willcox, B. E., Gao, G. F., Wyer, J. R., Ladbury, J. E., Bell, J. I., Jakobsen,  B. K., and van der Merwe, P. A. (1999) TCR binding to peptide-MHC  stabilizes a flexible recognition interface.
+Immunity 10, 357365  18. Baker, B. M., Turner, R. V., Gagnon, S. J., Wiley, D. C., and Biddison, W. E.  (2001) Identification of a crucial energetic footprint on the alpha1 helix of  human histocompatibility leukocyte antigen (HLA)-A2 that provides  functional interactions for recognition by tax peptide/HLA-A2-specific T  cell receptors.
+J. Exp.
+Med. 193, 551562  19.
+Jones, L. L., Colf, L. A., Bankovich, A. J., Stone, J. D., Gao, Y. G., Chan,  C. M., Huang, R. H., Garcia, K. C., and Kranz, D. M. (2008) Different  thermodynamic binding mechanisms and peptide fine specificities associated with a panel of structurally similar high-affinity T cell receptors.
+  Biochemistry 47, 1239812408  20.
+Burrows, S. R., Rossjohn, J., and McCluskey, J. (2006) Have we cut ourselves too short in mapping CTL epitopes?
+Trends Immunol. 27, 1116  21.
+Hickman, H. D., Luis, A. D., Buchli, R., Few, S. R., Sathiamurthy, M.,  VanGundy, R. S., Giberson, C. F., and Hildebrand, W. H. (2004) Toward a  definition of self.
+Proteomic evaluation of the class I peptide repertoire.
+  J. Immunol.
+172, 29442952  22. Ebert, L. M., Liu, Y. C., Clements, C. S., Robson, N. C., Jackson, H. M.,  Markby, J. L., Dimopoulos, N., Tan, B. S., Luescher, I. F., Davis, I. D.,  Rossjohn, J., Cebon, J., Purcell, A. W., and Chen, W. (2009) A long, naturally presented immunodominant epitope from NY-ESO-1 tumor antigen.
+Implications for cancer vaccine design.
+Cancer Res. 69, 10461054  23.
+Speir, J. A., Stevens, J., Joly, E., Butcher, G. W., and Wilson, I. A. (2001)  Two different, highly exposed, bulged structures for an unusually long  peptide bound to rat MHC class I RT1-Aa.
+Immunity 14, 8192  24.
+Bade-Doding, C., Theodossis, A., Gras, S., Kjer-Nielsen, L., Eiz-Vesper, B.,  Seltsam, A., Huyton, T., Rossjohn, J., McCluskey, J., and Blasczyk, R.  (2011) The impact of human leukocyte antigen (HLA) micropolymorphism on ligand specificity within the HLA-B*41 allotypic family.
+Haematologica 96, 110118  25.
+Gras, S., Kjer-Nielsen, L., Burrows, S. R., McCluskey, J., and Rossjohn, J.  (2008) T-cell receptor bias and immunity.
+Curr. Opin. Immunol. 20,  119125  26.
+Miles, J. J., Borg, N. A., Brennan, R. M., Tynan, F. E., Kjer-Nielsen, L., Silins,  S. L., Bell, M. J., Burrows, J. M., McCluskey, J., Rossjohn, J., and Burrows,  S. R. (2006) TCR genes direct MHC restriction in the potent human T  cell response to a class I-bound viral epitope.
+J. Immunol. 177, 68046814  27. Tynan, F. E., Borg, N. A., Miles, J. J., Beddoe, T., El-Hassen, D., Silins, S. L.,  van Zuylen, W. J., Purcell, A. W., Kjer-Nielsen, L., McCluskey, J., Burrows,  S. R., and Rossjohn, J. (2005) High resolution structures of highly bulged  viral epitopes bound to major histocompatibility complex class I. Implications for T-cell receptor engagement and T-cell immunodominance.
+  J. Biol. Chem. 280, 2390023909  28.
+Tynan, F. E., Reid, H. H., Kjer-Nielsen, L., Miles, J. J., Wilce, M. C., Kostenko, L., Borg, N. A., Williamson, N. A., Beddoe, T., Purcell, A. W.,  Burrows, S. R., McCluskey, J., and Rossjohn, J. (2007) A T cell receptor  flattens a bulged antigenic peptide presented by a major histocompatibility complex class I molecule.
+Nat. Immunol. 8, 268276  29. Tynan, F. E., Burrows, S. R., Buckle, A. M., Clements, C. S., Borg, N. A.,  Miles, J. J., Beddoe, T., Whisstock, J. C., Wilce, M. C., Silins, S. L., Burrows,  J. M., Kjer-Nielsen, L., Kostenko, L., Purcell, A. W., McCluskey, J., and  Rossjohn, J. (2005) T cell receptor recognition of a super-bulged major  histocompatibility complex class I-bound peptide.
+Nat. Immunol. 6,  11141122  30.
+Kabsch, W. (2010) XDS. Acta Crystallogr.
+D Biol.
+Crystallogr. 66, 125132  31. McCoy, A. J., Grosse-Kunstleve, R. W., Adams, P. D., Winn, M. D., Storoni, L. C., and Read, R. J. (2007) Phaser crystallographic software.
+J. Appl.  Crystallogr.
+40, 658674  32.
+Emsley, P., Lohkamp, B., Scott, W. G., and Cowtan, K. (2010) Features and  development of COOT. Acta Crystallogr.
+D Biol.
+Crystallogr. 66, 486501  33.
+Adams, P. D., Afonine, P. V., Bunkoczi, G., Chen, V. B., Davis, I.W., Echols,  N., Headd, J. J., Hung, L. W., Kapral, G. J., Grosse-Kunstleve, R. W., McCoy, A. J., Moriarty, N. W., Oeffner, R., Read, R. J., Richardson, D. C.,  Richardson, J. S., Terwilliger, T. C., and Zwart, P. H. (2010) PHENIX, a  comprehensive Python-based system for macromolecular structure solution. Acta Crystallogr.
+D Biol.
+Crystallogr. 66, 213221  34.
+Miles, J. J., Elhassen, D., Borg, N. A., Silins, S. L., Tynan, F. E., Burrows,  J. M., Purcell, A. W., Kjer-Nielsen, L., Rossjohn, J., Burrows, S. R., and  McCluskey, J. (2005) CTL recognition of a bulged viral peptide involves  biased TCR selection.
+J. Immunol. 175, 38263834  35. Lefranc, M. P., Giudicelli, V., Ginestoux, C., Jabado-Michaloud, J., Folch,  G., Bellahcene, F., Wu, Y., Gemrot, E., Brochet, X., Lane, J., Regnier, L.,  Ehrenmann, F., Lefranc, G., and Duroux, P. (2009) IMGT, the international ImMunoGeneTics information system.
+Nucleic Acids Res.
+37,  D10061012  36. Day, E. B., Guillonneau, C., Gras, S., La Gruta, N. L., Vignali, D. A., Doherty, P. C., Purcell, A. W., Rossjohn, J., and Turner, S. J. (2011) Structural  basis for enabling T-cell receptor diversity within biased virus-specific  CD8  T-cell responses.
+Proc. Natl. Acad. Sci. U.S.A. 108, 95369541  37. Macdonald, W. A., Chen, Z., Gras, S., Archbold, J. K., Tynan, F. E., Clements, C. S., Bharadwaj, M., Kjer-Nielsen, L., Saunders, P. M., Wilce,  M. C., Crawford, F., Stadinsky, B., Jackson, D., Brooks, A. G., Purcell,  A. W., Kappler, J. W., Burrows, S. R., Rossjohn, J., and McCluskey, J. (2009)  T cell allorecognition via molecular mimicry.
+Immunity 31, 897908  38.
+Gras, S., Burrows, S. R., Kjer-Nielsen, L., Clements, C. S., Liu, Y. C., Sullivan, L. C., Bell, M. J., Brooks, A. G., Purcell, A. W., McCluskey, J., and  Rossjohn, J. (2009) The shaping of T cell receptor recognition by selftolerance.
+Immunity 30, 193203  39. Kjer-Nielsen, L., Clements, C. S., Purcell, A. W., Brooks, A. G., Whisstock,  J. C., Burrows, S. R., McCluskey, J., and Rossjohn, J. (2003) A structural  basis for the selection of dominant  T cell receptors in antiviral immunity.
+Immunity 18, 5364  40.
+Bulek, A. M., Cole, D. K., Skowera, A., Dolton, G., Gras, S., Madura, F.,  Fuller, A., Miles, J. J., Gostick, E., Price, D. A., Drijfhout, J.W., Knight, R. R.,  Huang, G. C., Lissin, N., Molloy, P. E., Wooldridge, L., Jakobsen, B. K.,  Rossjohn, J., Peakman, M., Rizkallah, P. J., and Sewell, A. K. (2012) Structural basis for the killing of human beta cells by CD8( ) T cells in type 1  diabetes.
+Nat. Immunol. 13, 283  41.
+Wu, L. C., Tuot, D. S., Lyons, D. S., Garcia, K. C., and Davis, M. M. (2002)  Two-step binding mechanism for T-cell receptor recognition of peptide  MHC.
+Nature 418, 552556  Peptide Focused TCR Recognition  12276 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 287NUMBER 15APRIL 6, 2012   at University of Arizona Library, on December 5, 2012 www.jbc.org Downloaded from 

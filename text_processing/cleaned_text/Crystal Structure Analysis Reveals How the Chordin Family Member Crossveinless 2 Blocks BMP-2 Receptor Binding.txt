@@ -1,0 +1,388 @@
+Developmental Cell  Article  Crystal Structure Analysis Reveals How  the Chordin Family Member Crossveinless 2  Blocks BMP-2 Receptor Binding  Jin-li Zhang,1 Li-yan Qiu,1 Alexander Kotzsch,1,2 Stella Weidauer,1,2 Lucy Patterson,3 Matthias Hammerschmidt,3  Walter Sebald,1,4 and Thomas D. Mueller1,2,4,  * 1Department of Physiological Chemistry II, Biocenter, University of Wuerzburg, Am Hubland, 97074 Wuerzburg, Germany  2Department of Molecular Plant Physiology and Biophysics, Julius-von-Sachs Institute, University of Wuerzburg,  Julius-von-Sachs Platz 2, 97082 Wuerzburg, Germany  3Max-Planck Institute for Immunobiology, Stuebeweg 51, 79108 Freiburg, Germany  4Rudolf-Virchow-Center, Versbacher Strae 9, 97078 Wuerzburg, Germany  *Correspondence: mueller@botanik.uni-wuerzburg.de  DOI 10.1016/j.devcel.2008.02.017  SUMMARY  Crossveinless 2 (CV-2) is an extracellular BMP modulator protein belonging to the Chordin family.
+During  development it is expressed at sites of high BMP  signaling and like Chordin CV-2 can either enhance  or inhibit BMP activity.
+CV-2 binds to BMP-2 via its  N-terminal Von Willebrand factor type C (VWC) domain 1.
+Here we report the structure of the complex  between CV-2 VWC1 and BMP-2.
+The tripartite  VWC1 binds BMP-2 only through a short N-terminal  segment, called clip, and subdomain (SD) 1. Mutational analysis establishes that the clip segment  and SD1 together create high-affinity BMP-2 binding.
+  All four receptor-binding sites of BMP-2 are blocked  in the complex, demonstrating that VWC1 acts as  competitive inhibitor for all receptor types.
+In vivo experiments reveal that the BMP-enhancing (pro-BMP)  activity of CV-2 is independent of BMP-2 binding by  VWC1, showing that pro- and anti-BMP activities  are structurally separated in CV-2.
+  INTRODUCTION  The Von Willebrand factor type C domain (VWC), which in the  literature is also often called Chordin-like CR domain, is one of  the most common protein modules, occurringoften several  timesin about 70 human proteins.
+The cellular role of most  VWCs is as yet unknown.
+For some VWCs existing in proteins  of the Chordin family, however, it has been established that  they bind bone morphogenetic proteins (BMPs) or TGF-bs and  thereby modulate their activity during development (Abreu  et al., 2002;
+Garcia Abreu et al., 2002; Larrain et al., 2000).
+  BMPs are a prominent group of extracellular signaling proteins  that regulate axis formation, tissue patterning, and organ development during embryogenesis in all animals (De Robertis and  Kuroda, 2004; Hogan, 1996; Schier and Talbot, 2005).
+BMPs signal by assembling type I and type II serine/threonine kinase receptors in the cell membrane, which after transactivation release  phosphorylated Smad1/5/8 proteins into the nucleus to regulate  gene expression (Heldin et al., 1997; Miyazono et al., 2001).
+As  morphogens, BMPs form morphogenic fields and gradients,  where cells transform graded BMP signals into qualitatively  differing responses (OConnor et al., 2006; Tabata and Takei,  2004).
+A plethora of proteins cooperate with BMPs in the extracellular space (Canalis et al., 2003) in shaping these fields and  gradients by transporting BMPs and by inhibiting or stimulating  BMP signaling.
+Textbook examples are Noggin, Chordin, and  Follistatin, which are synthesized in the Spemann organizer or  its equivalent during gastrulation (De Robertis, 2006).
+  CV-2, a member of the Chordin family, was first identified as  a BMP modulator protein in Drosophila.
+When the cv-2 gene is  mutated, crossveins and tips of the long veins do not form.
+  During wing development CV-2 is concentrated, and signaling  initiated by DPP (the insect homolog of BMP-2/-4) becomes  increased in a narrow stripe at the positions of crossvein  formation (Conley et al., 2000).
+Remarkably, CV-2 expression  was found to be enhanced by Dpp signaling.
+On the basis of  these findings it was proposed that CV-2 and Dpp form a positive  feedback loop at locations where high Dpp signaling is required  (OConnor et al., 2006).
+Later, CV-2 and positive BMP/CV-2  feedback loops were also found during development of mouse  (Coffinier et al., 2002; Ikeya et al., 2006), chicken (Coles et al.,  2004), and zebrafish (Rentzsch et al., 2006) in tissues and time  periods correlating with high BMP signaling.
+Thus, in vivo CV-2  can exert a pro-BMP activity, meaning that it can stimulate  BMP signaling.
+However, in certain developmental stages and,  in particular, during cell culture experiments, CV-2 can also  inhibit BMP signaling (Binnerts et al., 2004; Moser et al., 2003);  therefore, CV-2 can exhibit pro-BMP and anti-BMP activities  depending on the cellular context.
+  CV-2 contains five closely spaced VWC domains at its N-terminal followed by a single von Willebrand factor type D (VWD)  and a trypsin inhibitor-like cysteine-rich (TIL) domain.
+Other  BMP modulator proteins of the Chordin familye.g., Chordin,  Chordin-like 1, Chordin-like 2 (CHL2), Kielin (a CV-2 relative),  CCN1-6, and others (Canalis et al., 2003; Garcia Abreu et al.,  2002)interact with BMPs via the VWC domains.
+Previous studies showed that Chordin, CHL2, and CV-2 use their VWC domains to bind BMPs in different ways (De Robertis and Kuroda,  Developmental Cell 14, 739750, May 2008 2008 Elsevier Inc. 7392004; Zhang et al., 2007).
+BMP binds Chordin with a 1:1, and  CHL-2 and CV-2 with 1:2, stoichiometries.
+The VWC domain  can have contacts in the type I or in the type II receptor-binding  epitope of BMP or in both of them.
+CV-2 binds BMPs through its  first N-terminal VWC1 domain.
+Its affinity for BMP-2 is much  higher than those of VWCs in other Chordin-like proteins and  similar to that of the cooperative binding of two VWC domains  in full-length Chordin or the type I BMP receptor BMPR-IA  to BMP-2 (Zhang et al., 2007).
+However, the structural basis of  the interaction of BMP-2 and CV-2 or its VWC1 domain is as  yet unknown.
+  An NMR structure of the VWC domain of collagen IIA (Col IIA)  has been reported previously, which also showed the similarity  of the VWC domain to the fibronectin type I domain; however,  details about binding and recognition of cognate ligands could  not be shown (OLeary et al., 2004).
+Here we report the structure  of a complex between a BMP and a VWC domain.
+The structure  determined for BMP-2 bound to the VWC1 domain of CV-2 provides new and interesting data, which in the future will augment  an understanding of the cooperation of BMP-2 and CV-2 during  animal development.
+The structural data together with a mutational analysis demonstrate a binding mode for a BMP modulator  protein that clearly differs from the interaction of BMP-7 and  Noggin (Groppe et al., 2002) or Activin and Follistatin (Harrington  et al., 2006; Thompson et al., 2005).
+Thus they provide, to our  knowledge, a first paradigm of VWC structure and BMP binding  and are likely relevant for the 201 VWC domains present in about  70 other human proteins.
+  RESULTS  The Structure of the CV-2 VWC1 Is Tripartite  Previous experiments with zebrafish CV-2 showed that the highaffinity binding of BMP-2 resides in the N-terminal VWC domain  (see Figure S1A available online).
+The four other VWC domains  25 and the C-terminal segment comprising the VWD and TIL  domains do not interact with BMP-2 (Zhang et al., 2007).
+The  amino acid sequence of the first CV-2 VWC domain is highly similar in Drosophila, Xenopus, zebrafish, chicken, and man (Figure S1B).
+Compared to VWC domains of other proteins, which  also bind BMP-2 (but with significantly lower affinity), sequence  similarity is restricted mainly to the cysteine-consensus pattern  (Figure S1C).
+The structure of the VWC1 of zebrafish CV-2 comprising residues Leu1Gly66 (equivalent to Leu4Gly68 of the  human homolog) reveals an unusual modular architecture  when bound to BMP-2 (Figure 1A).
+The domain can be subdivided into three parts, an N terminus (Leu1Ser8), which we refer  to as the clip, an N-terminal subdomain SD1 (Cys9Lys42), and  a C-terminal subdomain SD2 (Cys43Gly66).
+  The clip exhibits an extended conformation with its C-terminal  end being fixed via a disulfide bond Cys9(I)-Cys31(IV) to subdomain SD1.
+SD1 has a three-stranded all-antiparallel b sheet, with  a very short irregular first strand b1 (Gly13Val15), and the  second (Ile27Cys31) and the third strand (Ala36Gly44) form  a regular b sheet.
+Two disulfide bonds stabilize the fold of SD1:  the first, Cys9(I)-Cys31(IV), between the end of the clip and the  C-terminal end of b strand 2; the second, Cys29(III)-Cys38(V),  connecting strands 2 and 3.
+SD2 consists of even less secondary  structure, with only a short two-stranded antiparallel b sheet  comprising residues Val53Val54 (b4) and Lys63Cys64 (b5).
+  Despite the lack of secondary structure, SD2 seems rather rigid,  possibly due to the two disulfide bonds, Cys43(VI)-Cys61(IX) and  Cys50(VII)-Cys64(X), that crosslink the long b3b4 loop (Gly44  Val53) to the N- and C-terminal ends of b strand 5.
+Thereby  the long loop and the C terminus of the VWC1 domain are fixed  to rigid elements.
+An additional disulfide bond between Cys26(II)  and Cys60(VIII) conserved in VWC domains couples SD1 and  SD2 such that orientation between the two subdomains is  more fixed than would result from just the long irregular b3b4  loop.
+  The CV-2 VWC1 domain exhibits a rod-like structure with  overall dimensions of 50 A 3 25 A .
+The b sheets of the VWC1 domain are arranged in one plane and are less than 20 A thick,  clearly showing that the VWC domain has no hydrophobic core  and thus does not exhibit a globular structure like other modulator proteins, for example, Noggin or Follistatin.
+  The Structure of the CV-2 VWC1 Shares Some  Similarities with the Fibronectin Type I Module  and the VWC of Collagen IIA  Subdomain SD1 of VWC1 adopts a similar fold as the tandem  repeat of fibronectin type I (FNI) modules IV and V in fibronectin  (Figures 1B and 1C) (Williams et al., 1994).
+This similarity between SD1 and the FN I module was first reported for the VWC  domain of collagen IIA (OLeary et al., 2004).
+A superposition reveals that the first b strand is longer than in CV-2 VWC1.
+The FNI  counterpart of the clip of CV-2 VWC1 forms a two-stranded  b sheet.
+The module V of the FNI tandem repeat has the same  domain orientation as CV-2 SD2, though the FNI module pair  lacks the intermodule disulfide bond.
+However, contacts between the FNI N terminus of the second module and the b2b3  loop of the first module might stabilize the module orientation.
+  Despite the similar subdomain orientation, SD2 of CV-2 VWC1  has no further similarities to the fibronectin FNI module or to  other known structural domains due to its low secondary structure content and irregular loop conformations.
+  Contrary to the VWC domain of Col type IIA (OLeary et al.,  2004), which was shown to exist in two conformations with  regard to the orientation of the two subdomains (Figure 1D;  Figure S2), CV-2 VWC1 exhibits a single conformation in both  molecules in the asymmetric unit.
+Further differences between  the two VWC domain structures of CV-2 and Col IIA SD1 are  in the details of the clip and SD1 structure (Figures 1B and 1D).
+  The Col IIA VWC N terminus forms a two-stranded b sheet similar  to FNI, whereas the N terminus of CV-2 VWC1 is extended (Figures 1B and 1D).
+In addition, the b strand 1 of CV-2 VWC1 is short  followed by a bulged loop; however, in Col IIA VWC the first  strand is longer but regular.
+  The N-Terminal Clip of CV-2 VWC1 Blocks  the Type I Receptor-Binding Site of BMP-2  The CV-2 VWC1 binds BMP-2 on top of finger 2, overlapping  with the so-called knuckle epitope identified for type II receptor  interaction (Figures 2A and 2B).
+Thus the complex consists of  BMP-2 with two VWC1 domains attached as was previously proposed by biochemical evidence (Zhang et al., 2007).
+This study  also revealed that CV-2 VWC1 is capable of simultaneously inhibiting types I and II receptor binding.
+Structure analysis shows  Developmental Cell  Crystal Structure of the CV-2 VWC1:BMP-2 Complex  740 Developmental Cell 14, 739750, May 2008 2008 Elsevier Inc.that the architecture of the CV-2 VWC1:BMP-2 interaction  is quite unexpected and has several unusual features.
+The clip  extends from subdomain SD1, reaching into the wrist epitope  of BMP-2.
+The interaction of the relatively flat VWC1 domain of  CV-2 with subdomains SD1 and SD2 sticking on the knuckle  epitope and the clip in the wrist epitope almost reminds one of  a paperclip holding a paper sheet (BMP-2) (Figures 2A and 2C).
+  The N terminus Leu1Glu6 fits snugly into the cleft formed  by helix 1 of one BMP-2 monomer and the b sheet of fingers 1  and 2 of the other BMP-2 monomer.
+Hereby it covers most of  the hydrophobic patch of the wrist epitope required for type I  receptor binding (Figure 3A).
+It seems surprising how a short  flexible peptide could bind strongly and consequently compete  for the high-affinity interaction of the type I receptors.
+  Several features observed in the structure of the complex  could explain the inhibitory properties of the clip.
+  First, five hydrogen bonds are formed between the clip  and BMP-2, all of which involve only main-chain atoms of the  VWC1 clip (Figure 3A, Table S1).
+Three of the five H bonds  employ main-chain groups also on BMP-2.
+This possibly has  two consequences: The clip requires almost no sequence conservation, as no side chain function is involved in binding and  recognition.
+Furthermore, by using mostly main-chain groups  for the H bond network, binding is highly cooperative and thus  stabilizes the complex.
+  Second, similar to the knob-into-hole interaction in BMP2:BMPR-IA (Kirsch et al., 2000b), where Phe85 of BMPR-IA  points into the hydrophobic pocket in BMP-2 formed by Trp28,  Met89, Tyr103, Met106, and Ile62 (Figure 4A), Ile2 of CV-2  VWC1 is pointing into the same cleft, thereby burying most of  its surface (Figure 4B).
+Interestingly, in CV-2 VWC1 a hydrophobic residue type, either Ile or Leu, is strictly conserved between  different species at this position (Figure S1B), highlighting its  importance for this interaction.
+  Third, besides Ile2, the adjacent two amino acids also seem to  be highly conserved.
+Whereas for Thr3 no requirements seem to  exist, a glycine at the position 4 is strictly necessary (Figure 3A).
+  This is not due to a special backbone torsion angle constraint but  Figure 1.
+Structure of the VWC Domain 1 of Crossveinless 2  (A) Stereoview of CV-2 VWC1 from the complex BMP-2:CV-2 VWC1.
+The clip is shown in cyan; SD1 is indicated in red, SD2 is marked in green.
+Secondary structure elements and N- and C termini are highlighted.
+The disulfide bonds are shown as sticks.
+  (BD) A comparison of the structures of the VWC domains of CV-2 (B) and Col IIA ([D], pdb entry 1U5M) and the FNI domain pair 4 and 5 of fibronectin ([C], pdb  entry 1FBR) is shown.
+Cysteine pairing is shown by roman numerals.
+  Developmental Cell  Crystal Structure of the CV-2 VWC1:BMP-2 Complex  Developmental Cell 14, 739750, May 2008 2008 Elsevier Inc. 741due to the fact that the side chain at position 4 points toward the  BMP-2 surface; thus, any amino acid different from a glycine  would impede binding of the VWC domain clip.
+  SD1 of CV-2 VWC1 Binds to the Knuckle Epitope  of BMP-2  Subdomain SD1 seems to provide the bulk of the interaction  for BMP-2 inhibition (Figures 3B and 3C); it is thus remarkable  that the buried surface area (total is 877 A 2 for CV-2 VWC1)  contributed by SD1 is smaller (buried surface area is 365 A 2  for Ala7Gly66) than that of the clip (512 A 2 buried).
+Several  other features of this interface are remarkable.
+The SD1-BMP-2  epitope is dominated by hydrophobic interactions, with almost  70% contributed by hydrophobic residues.
+On CV-2 VWC1  these residues cluster in the b1b2 loop (Ile18Ile21) and  b strands 2 (Ile27Cys29) and 3 (Ala36Glu40).
+The CV-2  VWC1-BMP-2 core interface has the disulfide bond Cys29-  Cys38 in the center of the interface of SD1 (Figure 3C), but otherwise only a few side chains of the SD1 subdomain are in  direct contact with BMP-2 (Table S2).
+Taking as granted that  the BMP-binding epitope of other VWC domains has a similar  architecture, the small hydrophobic interface could mean that  the contact residues do not have to be highly conserved  among different VWCs as long as the hydrophobic character  and complementarity to the BMP interface are maintained.
+  This might also explain why we see so little sequence conservation besides the cysteine consensus pattern among VWCs  from Chordin family members.
+  In total, only 12 residues of the CV-2 VWC1 SD1 are in contact  with the BMP-2 surface, raising the question of whether such  a small interface is sufficient for expelling all water molecules.
+  However, no electron density for buried water molecules can  be observed within the SD1 core interface, showing that water  molecules play no role in binding or recognition.
+Thus, packing  is tight and geometric complementarity is high at the contact.
+  In comparison to the BMP-2 type II receptor interaction where  the b sheets of the ActR-IIB receptor run parallel to the BMP-2  b sheets of fingers 1 and 2 (Figure 4C), the three-stranded b sheet  of CV-2 VWC1 runs perpendicular to the BMP-2 b sheet (Figure 4D).
+The longer b sheets of the ActR-IIB ectodomain cover  a contact area twice as large, but affinity of ActR-IIB to BMP-2  is nevertheless rather low (KD = 2.7 mM for the 1:1 interaction;  Weber et al., 2007).
+Thus, it is interesting how high-affinity binding to BMP-2 is achieved for CV-2 VWC1.
+  The binding epitope of BMP-2 for CV-2 is compact; Leu100 of  BMP-2 is completely buried by residues Ala7, Ile18, Ile21, and  Ala36 of CV-2 VWC1.
+Other hydrophobic residues of BMP-2,  Val33, Ala34, Pro35, Val98, Val99, and Leu90, also found to be  important for type II receptor binding, contribute significantly to  the interface for CV-2 as well.
+Residue Ser88 of BMP-2, being  central in the BMP-2:ActR-IIB interaction, however, is on the  periphery of the CV-2 VWC1:BMP-2 interface, showing that  the center of the interface is shifted toward the fingertips of  BMP-2.
+It is remarkable that there is not a single intermolecular  polar bond between SD1 and BMP-2, clearly showing that the  interaction in the knuckle epitope of BMP-2 depends solely on  hydrophobic forces.
+  In summary, the SD1 subdomain of CV-2 VWC1 occupies  a major part of the type II receptor binding site and thus blocks  type II receptor binding to BMP-2.
+The clip itself blocks type I  receptors from binding to BMP-2.
+From their small size it seems  likely that both elements, the clip and SD1, of CV-2 VWC1 will  bind only weakly alone (see below), but linked together they  generate high-affinity binding via strong cooperativity.
+  Figure 2.
+CV-2 VWC1 Binds to BMP-2 Like a Paperclip  (A) Ribbon representation of the complex of CV-2 VWC1:BMP-2.
+Monomer subunits of BMP-2 are shown in blue and yellow.
+  (B)
+As in (A) but shown from above; wrist and knuckle epitopes of BMP-2 are indicated.
+  (C) The VWC1 domain of CV-2 binds to BMP-2 like a paperclip, with SD1 (red) hooked onto the knuckle epitope of BMP-2 and the clip (cyan) folding over into the  wrist epitope.
+  Developmental Cell  Crystal Structure of the CV-2 VWC1:BMP-2 Complex  742 Developmental Cell 14, 739750, May 2008 2008 Elsevier Inc.SD2 Shares No Contact with BMP-2  The structure of CV-2 VWC1:BMP-2 reveals that the 24 residue  SD2 has no contact with the knuckle epitope of BMP-2, suggesting that it can be removed without altering binding affinity (see  below).
+In the NMR structure of Col IIA VWC, SD2 and SD1,  which are connected via the peptide chain and a disulfide  bond between Cys(II) and Cys(VIII), show a variable orientation  to each other (OLeary et al., 2004) (Figure S2).
+Since in X-ray  analysis the result is only a single structure and not a structure  ensemble, analysis of conformational variability is normally limited.
+However, in our crystal the full complex comprising two  CV-2 VWC1 molecules is in the asymmetric unit.
+We therefore  compared the SD1-SD2 subdomain orientation of both VWC1  molecules, which is identical, suggesting a rigid structure with  defined subdomain orientation.
+This rigid and defined interdomain SD-SD2 orientation in the VWC1 of CV-2in contrast to  the very flexible hinge angle in Col IIA VWCcan be explained  by stabilizing crystal lattice contacts (Figure S3).
+The b strand  4 (residues Ala51Val54) in SD2 of CV-2 VWC1 forms three intermolecular H bonds with a symmetry-related BMP-2 molecule.
+  To exclude the possibility that these crystal lattice contacts  distort the CV-2 VWC1 domain in such a way that SD2 is unable  to contact the knuckle epitope of BMP-2, we superimposed the  NMR structure ensemble of Col IIA VWC (Figure S2) and the  structure of CV-2 VWC1.
+However, no structure of the NMR ensemble exhibits a conformation that would shift SD2 closer to the  knuckle epitope of BMP-2 as seen for the CV-2 VWC1:BMP-2  complex.
+This suggests that SD2despite being conserved  Figure 3.
+Interactions between the Wrist  and Knuckle Epitopes of BMP-2 and CV-2  VWC1  (A) H bond network (dashed lines) formed between  the clip of CV-2 VWC1 and BMP-2 (stereoview).
+  (B) Binding epitope of BMP-2 to CV-2 VWC1 subdomain SD1.
+Hydrophobic amino acids are gray,  negatively charged residues are red, positively  charged residues are blue, and polar residues  are green.
+Darker colors mark the area buried  from solvent upon binding to CV-2 VWC1.
+  (C) As in (B) but for CV-2 VWC1.
+Only SD1 and SD2  of VWC1 are shown for better visualization of the  contacts in the knuckle epitope.
+  among BMP-binding VWC domainsis  not required for the direct interaction of  CV-2 VWC1 and BMP-2.
+It is conceivable,  however, that in the context of the whole  CV-2 protein, subdomain SD2 might indirectly modulate BMP-activity.
+  The N-Terminal Clip Plus SD1 Is  Sufficient for BMP-2 Binding  The CV-2 VWC1:BMP-2 complex structure suggests that SD1 and possibly the  clip alone account for the high-affinity  binding between the proteins.
+The contribution of the clip to BMP-2 binding was  evaluated by two CV-2 VWC1 truncation  variants lacking the residues Leu1Thr5  (LITGT) or Leu1Ala7 (LITGTEA).
+The two variants, VWC1Dclip1  and VWC1Dclip2, exhibited a 100- and 2000-fold lower affinity  for BMP-2 (Table 1).
+This corresponds to the loss of affinity observed with point mutations in the clip segment (see below).
+  Thus, the clip contributes significantly to high-affinity binding  to BMP-2.
+  To test the above-mentioned hypothesis that, in contrast to  the clip, SD2 of CV-2 VWC1 does not contribute to binding of  BMP-2, we constructed a truncation variant VWC1DSD2, which  lacks the complete C-terminal subdomain from residue Cys43  and contains a serine at the position of Cys26, the latter of which  is involved in the SD1/SD2 disulfide bond.
+The variant can be isolated and binds BMP-2 with wild-type-like affinity (Table 1).
+In  summary, our results clearly prove that high-affinity binding of  VWC1 to BMP-2 requires only the clip and SD1 as a minimal inhibitory domain.
+The interaction of SD1 with the knuckle epitope  of BMP-2 delivers only low-affinity binding similar to the type  II receptor-BMP-2 interaction.
+The presence of the clip region  then shifts the binding affinity for BMP-2 to a low nanomolar  value.
+  H Bonds Are Crucial for Clip Binding,  whereas Hydrophobic Interactions Dominate  the SD1:BMP-2 Interaction  Since the VWC1 clip interacts with BMP-2 via several H bonds  that are located on the solvent-accessible surface, an additional  stabilization of these polar interactions seems necessary for  a stable interaction.
+We therefore tested the knob-into-hole  Developmental Cell  Crystal Structure of the CV-2 VWC1:BMP-2 Complex  Developmental Cell 14, 739750, May 2008 2008 Elsevier Inc. 743motif, which involves Ile2 on CV-2 VWC1 as a possible candidate  (Figure 4B).
+The variant I2A binds BMP-2 with 6-fold lower affinity  (Table 1), confirming its role in stabilizing the binding of the clip to  BMP-2.
+Mutation of Phe85 to alanine in BMPR-IA, which is a similar knob-into-hole motif for the BMP-type I receptor interaction,  also resulted in a significant reduction in affinity to BMP-2 (Hatta  et al., 2000).
+  To evaluate the contribution of the intermolecular polar bonds  involving main-chain groups, we employed proline mutagenesis.
+  Exchange of an amino acid with proline removes the main-chain  amide proton, which is possibly involved in an H bond, and  thereby destroys this polar bond (Keller et al., 2004).
+All proline  variants of VWC1 compiled in Table 1 could be prepared and purified similar to wild-type VWC1.
+The H bond involving the VWC1  Thr3 amide and the BMP-2 Asn59 carboxamide contributes only  marginally, with a reduction in binding affinity of only 2.5-fold in  the T3P variant.
+In contrast, the three main-chainmain-chain  polar bonds (two for VWC1-Thr5/BMP-2-Asn102 and one for  VWC1-Ala7/BMP-2-Leu100) at the edge of BMP-2 finger 2 are  crucial for the interaction.
+The VWC1 variant T5P binds BMP-2  with 20-fold lower affinity.
+The contribution of the H bond between the CV-2 VWC1 Ala7 amide and BMP-2 Leu100 carbonyl  can be estimated from the 20-fold difference in the binding affinities of the two CV-2 VWC1 truncation variants VWC1Dclip1 and  VWC1Dclip2, whose interaction only differs in this H bond.
+  The results reveal that the large reduction in affinity upon truncation of the N terminus can be associated mainly with three  interaction pairs: the hydrophobic knob-into-hole interaction  provided by VWC1 Ile2 and the H bonds formed between the  main-chain groups of VWC1-Thr5:BMP-2-Asn102 and VWC1-  Ala7:BMP-2-Leu100.
+The other interactions seem to be energetically silent.
+  The VWC1 SD1 interacts with the knuckle epitope of BMP-2  via hydrophobic interactions.
+A large part of the interface is provided by the disulfide bond between VWC1 Cys29 and Cys38,  which is not amenable to mutagenesis without destruction of  Figure 4.
+CV-2 VWC1 Binds to BMP-2, Thereby Blocking Type I and Type II Receptor Binding  (A) The type I receptor-binding epitope is shown for BMPR-IA (brown; pdb entry 2H62) and BMP-2 (surface representation, color-coding as in Figures 3D and 3E).
+  The darker colors indicate the area occupied by the type I receptor.
+A comparison with the area occupied by the clip of CV-2 VWC1 (B) shows that both binding  sites overlap.
+(C) Comparison of the type II receptor-binding epitope (shown for the ActR-IIB:BMP-2 interaction; pdb entry 2H62) and the area occupied by SD1 of  CV-2 VWC1 (D).
+As for type I receptor binding, the type II receptor and CV-2 VWC1 binding epitopes overlap in the knuckle epitope, with the binding area of CV-2  VWC1 being much smaller.
+  Developmental Cell  Crystal Structure of the CV-2 VWC1:BMP-2 Complex  744 Developmental Cell 14, 739750, May 2008 2008 Elsevier Inc.structural integrity.
+Several other hydrophobic residues contribute to the interaction in the knuckle epitope either via direct contacts or by solvent shielding.
+Mutagenesis shows that several  of these residues contribute significantly to the binding affinity.
+  Upon mutation of Ile21 or Ile27 to Ala, about 1.3 kcal mol1 of  binding free energy is lost.
+More disruptive mutations, e.g.,  I21R and A36R, show that packing in spite of the small interface  is quite tight.
+However, in comparison to the functional epitope of  the BMP-2:ActR-IIB contact, a similar hydrophobic hot spot of  binding like Trp60 or Tyr42 of ActR-IIB (Weber et al., 2007)  seems not to exist.
+  Anti-BMP Activity of CV-2 In Vivo Is Confined  to the VWC1 Domain  CV-2 VWC1 functions as an inhibitor in a BMP-2-induced alkaline phosphatase (ALP) assay.
+The activity of 10 nM BMP-2  was inhibited by VWC1 in a dose-dependent manner with a  half-maximal concentration (IC50) of 50 nM (Figure 5A).
+The truncation variant VWC1DSD2 was also an efficient inhibitor, but the  IC50 was increased 4-fold, even though variant and wild-type  VWC1 bind immobilized BMP-2 with the same affinity in vitro (Table 1).
+It remains to be determined whether the missing SD2 exerts additional steric hindrance for type II receptors, thereby enhancing inhibition, or whether the shortened CV-2 VWC1DSD2 is  degraded or inactivated during the time required for the ALP assay.
+Some VWC1 mutants with reduced binding affinity, such as  T5P, I21A, and I2A, exhibited a lower inhibitory effect.
+Other mutants with more strongly reduced affinity, notably VWC1Dclip1 or  I21R, did not inhibit biological activity up to a 1 mM concentration.
+  For all mutants that have been analyzed, the inhibitory potency  seems to be not strictly correlated with BMP-2 binding affinity.
+  Neither the wild-type VWC1 nor the mutants exhibited a stimulatory effect on BMP activity at any of the concentrations examined (Figure 5A).
+In contrast, such a stimulatory effect or proBMP activity has been reported for the complete CV-2 protein  in cell-based assays (Kamimura et al., 2004) and in vivo (Coles  et al., 2004; Ikeya et al., 2006; Rentzsch et al., 2006).
+This  suggests that the isolated VWC1 domain is not sufficient for  pro-BMP activity and that, in addition, other proteins or CV-2  domains are necessary for this activity.
+  To test the effect of mutations in the VWC1 domain in vivo, we  performed mRNA injection experiments in zebrafish embryos  showing thatconsistent with previous experiments (Rentzsch  et al., 2006)overexpression of wild-type CV-2 led to moderate  dorsalization or weak ventralization of the embryos (Figures 5C  and 5D).
+In contrast, injection of the mRNA of cv-2-CM, a mutant  that is not processed at an internal Asp-Pro site in vivo, caused  strong dorsalization (Figure 5F).
+Injection of mRNA of the BMP-2  binding-deficient mutant cv-2-WT-I21R resulted in weakly ventralized embryos (Figures 5E and 5I).
+This suggests that the  BMP-2-antagonizing properties of CV-2 VWC1 correspond to  the anti-BMP activity in the context of the whole CV-2 protein.
+  When we additionally introduced the mutation I21R, which  strongly attenuates BMP-2 binding of VWC1, into cv-2-CM, a  full rescue from dorsalization could be observed (Figures 5G  5I).
+Thus, the BMP binding of VWC1 seems to be solely responsible for the anti-BMP activity of overexpressed CV-2 in vivo,  whereas the weak ventralizing activity (pro-BMP activity) of  CV-2 WT is very likely to be independent of BMP binding.
+One  important conclusion of the in vivo experiments in zebrafish is  therefore that the two contrary anti- and pro-BMP activities  can be structurally separated to different regions/domains of  the full-length CV-2.
+  DISCUSSION  In this study we present the structure of a VWC domain of a BMP  modulator of the Chordin family in complex with its cognate ligand BMP-2.
+The VWC domain 1 of CV-2 shows several new  and unexpected features.
+Although it has a small size of only  66 residues, it exhibits a tripartite architecture resembling a paperclip.
+For binding of CV-2 to BMP-2, only the N-terminal clip  and the first of the two subdomains of VWC1 are required.
+  Thus, the parts necessary for high-affinity interaction are just  42 amino acids long but nevertheless capable of interacting  with BMP with nanomolar affinity, similar to BMP receptors or  modulator proteins several times this size.
+  An extended SD1/SD2 subdomain architecture with only little  secondary structure is likely a common property of the many  VWC domains known.
+Most of the stabilization of the VWC fold  arises from 10 conserved cysteines forming a compact disulfide  network in the 66 residue protein.
+The idea that corresponding  subdomains SD1 and SD2 are present in all VWC domains is  Table 1.
+Binding of CV-2 VWC1 Variants to Immobilized BMP-2:  Biacore Analysis  KD (eq)a  (nM)  kon 3 106  (M1  s1  )  koff 3 102  (s1  )  KD (koff/  kon) (nM)  KD (var)/KD  (wild-type)  Truncation variants  VWC1longb  1.4 2.6 22 1.0  VWC1c  1.2 2.4 20 1.0  VWC1DSD2d  1.2 4.0 33 1.5  VWC1Dclip1e 2,700 0.012g 3.2  135  VWC1Dclip2f 48,000 0.0005g 2.4  2,400  Single point mutations  L1A  1.3 2.8 22 1.0  L1R  1.2 2.8 23 1.0  I2A 127    6.4  I2R 66    3.3  T3P  0.95 4.8 50 2.5  T5P 417 0.18g 7.5  21  I18A  0.88 4.4 50 2.5  I18R  2.0 8.9 45 2.3  I21A 200    10  I21R 790    40  I27A 185    9.3  I27R 160    8.0  A36R 227    11  aAffinities from dose dependency of equilibrium binding.
+  bVWC1long: GSGAMATPQSTAPLITGTEAS.G66. c VWC1: GSWLITGTEAS.G66.
+dVWC1DSD2: GSWLITGTEAS.C26S.K42. e VWC1Dclip1: GSEAS.G66.
+f  VWC1Dclip2:
+GS.G66.
+g Calculated from kon = koff/KD (eq).
+  Developmental Cell  Crystal Structure of the CV-2 VWC1:BMP-2 Complex  Developmental Cell 14, 739750, May 2008 2008 Elsevier Inc. 745further substantiated by the NMR structure of the Col IIA VWC  domain, which established the SD1/SD2 architecture and also  a similarity of SD1 to the FNI domain for the first time (OLeary  et al., 2004).
+However, not all VWC domains share a tripartite  structure with a functionally important N-terminal clip.
+In several  proteins tandem repeats of VWC modules are connected via  only 23 residues between the last cysteine of one VWC and  the first cysteine of the following repeat.
+The clip of CV-2  VWC1 appears to be rather unusual and is highly conserved in  CV-2 from vertebrates to nonvertebrates (Figure S1B), but it  seems to be absent in BMP-2-binding VWC domains, such as  those from Chordin, CHL2, or Col IIA (Figure S1C).
+  The functional epitope in subdomain SD1 of CV-2 VWC1 is  central in BMP binding, since VWC1 retains appreciable BMPbinding affinity even after complete or partial truncation of the  clip segment.
+The present structural and mutational analysis  revealed that this epitope contains in its core the Cys29-Cys38  disulfide bond and the side chain of Ile21, both exposing large  hydrophobic surfaces.
+The disulfide bond as part of the cysteine  consensus pattern as well as large hydrophobic side chains  (mostly tryptophane) at a position corresponding to Ile21 are  among the few elements that are conserved in all VWC domains  of the Chordin family members and even in the FNI domains, for  instance, in fibronectin.
+It leads to, therefore, an exciting idea  that all VWC or even FNI domains have the potential to form  a BMP-binding epitope around these key determinants (hot  spots).
+Side chains surrounding this hot spot differ vastly  among the domains and therefore might be secondary determinants that enforce, weaken, or even prevent the binding of TGFb-like proteins (for a more detailed discussion see Supplemental  Data, Table S2).
+  The BMP-binding mode of another VWC domain, Col IIA VWC,  whose structure has been determined by NMR (OLeary et al.,  2004) is as yet unknown.
+Assuming the same binding interface  for both VWC domains, BMP-2 could bind only after a major rearrangement of the Col IIA VWC protein, as the epitope on Col IIA  VWC is largely inaccessible in its current structure (Figure S4).
+  Indeed, no interaction with BMP-2 could be determined with  the construct used for NMR structure determination (K. Downing  and W.S., unpublished data); however, full-length Col IIA nevertheless binds BMP-2 in vivo and in vitro (Larrain et al., 2000; Zhu  et al., 1999).
+These observations suggest that the intrinsic BMP  affinity of a single Col IIA VWC is low.
+Only when multiple VWC  domains cooperate, as seems to happen in collagen triple helices in the extracellular matrix, is a functionally relevant affinity  for BMP generated by avidity effects (Larrain et al., 2000;  OLeary et al., 2004).
+An enhancement of binding affinity via  multiple weak cooperative interactions therefore seems to be  a general mechanism by which VWC-domain containing proteins  interact with BMPs and TGF-bs.
+CV-2 VWC1 has evolved a  mechanism by which binding affinity for BMP-2 is increased  through an internal cooperativity employing two-epitope binding via the clip and SD1 subdomain.
+Other VWC-containing  modulator proteins like Chordin generate high-affinity BMP binding through cooperation of two VWC domains.
+Thus, cooperativity effects seem always to be required, probably due to the  Figure 5.
+Biological Activity of CV-2 VWC1 in a Cell Line and In Vivo  (A) The inhibition efficiency of ALP expression induced by 10 nM BMP-2 in C2C12 cells was determined by increasing doses of CV-2 VWC1 and variants thereof.
+  Errors bars show the standard deviation from three independent experiments.
+  (BI) Phenotypes of zebrafish embryos after mRNA injections.
+(BG) Lateral views of 32 hpf embryos; arrows indicate dorsalized traits (loss of ventral tail fin/tail);  arrowheads indicate ventralized traits (smaller head, expansion of ventral-most tissues).
+Injection of cv-2-WT mRNA leads to both weakly dorsalized (C1 in [C]) or  weakly ventralized (V1 in [D]) embryos, whereas injection of cleavage-resistant construct cv-2-CM mRNA causes strong dorsalization (C3 in [F]).
+Injections of  mRNA of the mutants cv-2-WT-I21R or cv-2-CM-I21R result in weakly ventralized (E) or normal (G) embryos similar to those in (D) and (B), respectively. (H) Graphical illustration of proportions of phenotypes generated on injection of different CV-2 constructs.
+For classification C5 (strong dorsalization) to V2 (strong ventralization) see Rentzsch et al. (2006).
+Numbers of analyzed embryos are indicated above the columns.
+(I) In situ hybridization of whole-mount 80% epiboly-stage  embryos; animal pole views; dorsal, right.
+Arrows indicate the limits of dorso-lateral mesoderm marker tbx24 (dark blue), which is expanded in dorsalized and  reduced in ventralized embryos.
+  Developmental Cell  Crystal Structure of the CV-2 VWC1:BMP-2 Complex  746 Developmental Cell 14, 739750, May 2008 2008 Elsevier Inc.limited binding affinity linked to the small domain size of SD1;  however, the route by which it is generated varies.
+  The binding and receptor blocking mechanisms of Noggin,  Follistatin, and CV-2 share some clear analogies, although their  overall structures are completely unrelated (Groppe et al.,  2002; Harrington et al., 2006; Thompson et al., 2005).
+Noggin,  Follistatin, and CV-2 VWC1 differ vastly in size and architecture  (Figure 6), but all three modulator proteins and domains seem  to interact with the ligand mainly via the type II receptor binding  epitope.
+About 730 A 2 of surface area per molecule is buried in  the knuckle epitope upon binding of Noggin to BMP-7, twice  as much compared to the VWC1 SD1 binding to BMP-2.
+For Follistatin the complete type II receptor-binding site of Activin-A  (Act-A) is covered by the domains FSD1 and FSD2 burying about  820 A 2 per molecule in the knuckle epitope.
+  Additionally, all structurally known modulator proteins block  not only the type II receptor epitope but also the type I receptor  epitope.
+The N-terminal domain of Follistatin binds in the wrist  epitope of Activin-A, thereby inhibiting type I receptor binding  (Thompson et al., 2005).
+However, binding of Follistatin to  BMPs might be different, as type I receptors and Follistatin  were reported to bind simultaneously to BMP-4 (Iemura et al.,  1998) (for detailed discussion, see Thompson et al., 2005).
+In  the case of Noggin, a clip similar to CV-2 VWC1 folds over finger  2 and binds in the BMP wrist (type I receptor) epitope (Groppe  et al., 2002).
+The backbone Pro35Ser38 of Noggin superimposes almost perfectly on the backbone of the corresponding  residues Ile2Thr5 in the clip of CV-2 VWC1.
+Pro35 of Noggin  makes a similar knob-into-hole interaction with BMP-7 as Ile2  of CV-2 VWC1 with BMP-2.
+Noggin Ala36 and Ser38 form H  bonds to Asn83 and Lys127 of BMP-7, similar to those of Thr3  and Thr5 of the VWC1 clip in the interaction with BMP-2.
+Mutagenesis showed that substitution of Pro35 by Arg leads to 7-fold  lower affinity for BMP-7 (Groppe et al., 2002).
+Furthermore, familiar Symphalangism (Mangino et al., 2002) results from the heterozygous mutation P35S, confirming the importance of the N  terminus of Noggin in vivo.
+  CV-2 is a bifunctional protein in vivo that can inhibit and stimulate BMP signaling.
+The affinity for BMP-2 is the same in (1) wildtype CV-2, which is processed in vivo to unknown extent, (2) in an  uncleavable mutant CV-2-CM, and (3) in the isolated VWC1 domain of CV-2 (Rentzsch et al., 2006; Zhang et al., 2007).
+Thus, at  sufficiently high levels, all three forms can inhibit BMP signaling.
+  The potency of this anti-BMP activity in vivo, however, differs in  wild-type CV-2 and CV-2-CM, possibly due to avidity effects.
+  The zebrafish CV-2-CM variant binds efficiently to proteoglycans  in the extracellular matrix or the cell surface, whereas the cleaved  CV-2 WT binds considerably more weakly.
+As a consequence,  uncleaved CV-2 anchored by proteoglycans can act as a type  of BMP pseudoreceptor, where two coupled CV-2 molecules  bind BMP-2 with higher affinity.
+Measurements in vitro mimicking  a CV-2 coupling in a Biacore setup have confirmed such an affinity enhancement.
+In line with these considerations, the CV-2-  CM mutant exhibits no pro-BMP in vivo but an increased antiBMP activity compared to wild-type CV-2, which is expected  for a proteoglycan-bound CV-2 with a higher BMP-2 affinity  than cleaved soluble wild-type CV-2.
+CV-2-CM likely represents  a correlate of the unprocessed wild-type CV-2 in vivo.
+It remains  to be established if the uncleaved wild-type CV-2 functions  in vivo, and where and at what stage the protein is processed.
+  Figure 6.
+Comparison of the Inhibition Modes of Different BMP Modulator-BMP Complexes  (A) CV-2 VWC1 binding to BMP-2 (blue/yellow) blocks the type I and II receptor epitopes (color code as in Figure 2).
+  (B) Both receptor sites are blocked by Noggin binding to BMP-7.
+The part of Noggin marked in red represents the topological equivalent of the CV-2 SD1 subdomain in (A).
+An N-terminal clip (cyan) similar to CV-2 VWC1 inhibits type I receptor binding.
+  (C) Follistatin binding to Act-A also blocks the type I and II receptor epitopes; the two subdomains FSD1 and FSD2 (indicated in red) block the type II receptorbinding site.
+Contrary to CV-2 and Noggin, the type I receptor epitope is blocked by the globular N-terminal domain of Follistatin (brown and cyan).
+  (DF) As in (A)(C) but shown from the top.
+  Developmental Cell  Crystal Structure of the CV-2 VWC1:BMP-2 Complex  Developmental Cell 14, 739750, May 2008 2008 Elsevier Inc. 747The present study with zebrafish embryos showed that a mutant CV-2 with 40-fold decreased BMP affinity lost anti-BMP activity, but still enhanced BMP signaling (Figures 5E, 5H, and 5I).
+  Thus, surprisingly, the pro-BMP activity of CV-2 seems to be  independent of its high-affinity interaction with BMP, suggesting  that the two opposing functionspro- and anti-BMP activity  are structurally separated in the CV-2 protein.
+These observations open the possibility that CV-2 shares functional similarities  with twisted gastrulation (Tsg).
+Tsg also displays pro- and antiBMP activity in vivo (De Robertis and Kuroda, 2004), and the  pro-BMP activity of Tsg is independent of BMP binding (Oelgeschlager et al., 2003), as found for CV-2 in this study.
+A Xenopus Tsg protein with a W67G mutation in the N-terminal domain  lost its BMP binding activity but nevertheless ventralized the  embryo effectively, indicating strong pro-BMP activity.
+Tsg inhibits BMP signaling by forming stable ternary complexes with  BMP and Chordin.
+Concurrently, Tsg facilitates Chordin cleavage by the Tolloid protease, resulting in a release of BMP and  stimulation of BMP signaling (pro-BMP) (De Robertis and Kuroda, 2004).
+The Tsg protein shares limited homology with VWC  domains.
+Unlike most of the VWCs, it binds to the wrist epitope  of BMP-2 and does not block type II receptor binding.
+However,  the functional similarities between Tsg and CV-2 are striking.
+  Future experiments will establish whether some parts of CV-2,  Table 2. Processing and Refinement Statistics for the MAD Dataset for the Complex Se-Met BMP-2(F41M;Y91M):CV-2 VWC1  Crystal BMP-2(F41M;Y91M):CV-2 VWC1  Space group I41  Cell constants a = b = 83.74 A , c = 139.84 A ; a = b = g = 90  Se-Met (l1) Se-Met (l2) Se-Met (l3)  Wavelength 0.9799 A 0.9796 A 0.9079 A  Resolution (A )  a 36.22.70 A (2.802.70 A ) 40.72.70 A (2.802.70 A ) 36.22.70 A (2.802.70 A )  l1 (inflection) l2 (peak) l3 (remote high)  Number of measured reflectionsb 43,616 (4,242) 43,563 (4,292) 43,969 (4,311)  Number of unique reflectionsb 13,191 (1,303) 13,146 (1,305) 13,165 (1,308)  Completeness 99.7 (99.7) 99.7 (99.8) 99.7 (100.0)  Multiplicity 3.3 (3.2) 3.3 (3.3) 3.3 (3.3)  Rsym for all reflectionsc 9.0 (34.2%) 10.0 (34.2%) 9.9 (38.1%)  <Intensity/s> 8.9 (3.3) 7.7 (3.1) 8.0 (2.7)  Phasing 7 out of 8 Se sites identified  Rcullisd 0.840 0.719 0.835  Rms lack-of-closuree 0.763 0.917 0.753  Phasing powerf 1.01 1.38 1.09  Figure of merit after DM 0.74  Refinement Statistics  Resolution 40.02.70 A (2.772.70 A )  Rcryst 20.3 (29.0%)  Rfree (test set 5%) 24.5 (35.9%)  Rms deviation  Bonds 0.013 A  Angles 1.603  Torsion angles 6.829  Average B Factor 56.2 A 2  Crossvalidated sigma coordinate error 0.31 A  Solvent content 62.7%  Procheck analysis  Residues in most favored region 84.9% (253)  Residues in additional allowed region 13.4% (40)  Residues in generously allowed region 1.0% (3)  Residues in disallowed region 0.7% (2)  a Number in parentheses indicate highest resolution shell.
+  b Cut-off for reflections F > 0s.
+cRsym = PhkljIhkl  <Ihkl>j/  Phkl<Ihkl> where <Ihkl> is the mean intensity of symmetry related observations of a unique reflection.
+dRcullis = <phase-integrated lack of closure>/<FPH  FP>. eRoot-mean-square of lack-of-closure normalized O3  2 = P j(jFP+FHj)  2  jFPHj  2  ).
+f  Phasing power = (OjFH  2  j)/(Ojlack-of-closure2  j), calculated for anomalous contribution.
+  Developmental Cell  Crystal Structure of the CV-2 VWC1:BMP-2 Complex  748 Developmental Cell 14, 739750, May 2008 2008 Elsevier Inc.similar to Tsg, bind Chordin or other Chordin-like proteins.
+Thus,  a bifunctional CV-2 on one hand directly binds BMP-2 via its  VWC1 domain and thereby might exert anti-BMP functions,  and on the other hand it possibly binds BMPs indirectly via associated Chordin proteins and in this way acquires a pro-BMP  activity.
+  EXPERIMENTAL PROCEDURES  Production of CV2-VWC1 and BMP-2  The CV-2 VWC1 comprising residues Leu1Gly66 of mature zebrafish CV2  (SWISS-Prot entry Q5D734) plus an N-terminal GSW extension was expressed  in E. coli as a thioredoxin fusion protein and purified as described for BMPRIAECD (Kirsch et al., 2000b).
+The additional Trp residue was introduced to monitor the protein during purification, but it had no influence on binding of CV-2 to  BMP-2 (Table 1).
+Single amino acid variants of CV-2 VWC1 were obtained by  site-directed mutagenesis.
+To facilitate X-ray data analysis, a Seleno-methionine derivative of BMP-2 (BMP-2 double variant Y41M/F91M) was generated  by expressing the protein using M9 minimal medium supplemented with 50 mg  l  1 DL-SeMet (Acros).
+BMP-2 was obtained as described (Kirsch et al., 2000a).
+  Complex Formation and Crystallization  The binary complex of BMP-2 and CV-2 VWC1 was formed by mixing BMP-2  with VWC1 protein in a 1:2.4 molar ratio in 10 mM HEPES (pH 7.4), 700 mM  NaCl.
+The complex was then purified by gel filtration using a HR10/30 Superdex 200 column (GE Healthcare).
+The fractions were pooled, and the protein  complex was concentrated to 8 mg ml1  .
+Large single crystals grew from  2.2 M ammonium phosphate, 0.1 M Tris (pH 7.5), 8% glycerol, 5% sucrose  at 21C within 2 weeks using the hanging drop vapor diffusion methodology.
+  Data Acquisition and Structure Analysis  A MAD data set of the binary complex of SeMet-labeled BMP-2 (F41M/  Y91M):CV-2 VWC1 was acquired at three wavelengths with 90 rotation of  the crystal (1 per frame); a maximum resolution of 2.7 A was obtained by recording with a 3 s exposure per degree (beamline BL14.2 BESSY, Germany).
+  Data were processed using HKL2000 and Scalepack (HKL Research) (Table  2).
+The positions of the Seleno-sites were determined using SHELX, and refined using SOLVE.
+RESOLVE was used to automatically trace the electron  density.
+The structure of the BMP-2 dimer was superimposed onto the tracing  model to facilitate refinement of the complex, which was then performed by  iterative rounds of manual model building using Quanta2006 (Accelrys) and  energy minimizations using Refmac5.2.
+The final model exhibits R factors of  0.203 (for Rcryst) and 0.245 (for Rfree) and contains 47 water molecules.
+  Biosensor Interaction Analysis  The binding of CV-2 VWC1 to immobilized BMP-2 resulting in a 1:1 low-affinity interaction mode was analyzed using a BIAcore2000 system (Amersham  Biosciences) as described (Zhang et al., 2007).
+KD values or rate constants koff,  kon were evaluated from one experiment using six to nine different analyte concentrations ranging from 10 to 1000 nM. Mean values of KD and their standard  deviations (SD) were calculated from the values of at least three different  experiments.
+SD values for the obtained affinities were less than 50%.
+  Biological Activity in Cell Lines  Alkaline phosphatase (ALP) activity was determined in serum-starved C2C12  cells as described (Kirsch et al., 2000a).
+Inhibition of BMP-2-induced ALP activity by modulators was assessed by incubating C2C12 cells with different  concentrations of modulators plus 10 nM BMP-2.
+Results are given as mean  values from three determinations done in parallel for each condition.
+The  mRNA injection experiments in zebrafish embryos were done as described  (Hammerschmidt et al., 1999).
+  ACCESSION NUMBERS  Coordinates and structure factors for the structure of the complex of CV-2  VWC1 bound to BMP-2 were deposited with the RCSB Protein Data Bank  (accession code 3BK3).
+  SUPPLEMENTAL DATA  Supplemental Data include four figures and two tables and are available at  http://www.developmentalcell.com/cgi/content/full/14/5/739/DC1/.  ACKNOWLEDGMENTS  The authors thank Nicole Hopf and Christian Soeder for excellent technical assistance.
+This work was supported by the Deutsche Forschungsgemeinschaft  (grants MU1095/3-1, KFO103, and SFB487 B2).
+  Received: December 12, 2007  Revised: February 19, 2008  Accepted: February 23, 2008  Published: May 12, 2008  REFERENCES  Abreu, J.G., Ketpura, N.I., Reversade, B., and De Robertis, E.M. (2002).
+Connective-tissue growth factor (CTGF) modulates cell signalling by BMP and  TGF-b.
+Nat. Cell Biol. 4, 599604.  Binnerts, M.E., Wen, X., Cante-Barrett, K., Bright, J., Chen, H.T., Asundi, V.,  Sattari, P., Tang, T., Boyle, B., Funk, W., et al. (2004).
+Human Crossveinless2 is a novel inhibitor of bone morphogenetic proteins.
+Biochem. Biophys.  Res. Commun. 315, 272280.  Canalis, E., Economides, A.N., and Gazzerro, E. (2003).
+Bone morphogenetic  proteins, their antagonists, and the skeleton.
+Endocr. Rev. 24, 218235.  Coffinier, C., Ketpura, N., Tran, U., Geissert, D., and De Robertis, E.M. (2002).
+  Mouse Crossveinless-2 is the vertebrate homolog of a Drosophila extracellular  regulator of BMP signaling.
+Gene Expr. Patterns 2, 189194.  Coles, E., Christiansen, J., Economou, A., Bronner-Fraser, M., and Wilkinson,  D.G. (2004).
+A vertebrate crossveinless 2 homologue modulates BMP activity  and neural crest cell migration.
+Development 131, 53095317.  Conley, C.A., Silburn, R., Singer, M.A., Ralston, A., Rohwer-Nutter, D., Olson,  D.J., Gelbart, W., and Blair, S.S. (2000).
+Crossveinless 2 contains cysteine-rich  domains and is required for high levels of BMP-like activity during the formation of the cross veins in Drosophila.
+Development 127, 39473959.
+  De Robertis, E.M. (2006).
+Spemanns organizer and self-regulation in amphibian embryos.
+Nat. Rev. Mol.
+Cell Biol. 7, 296302.
+  De Robertis, E.M., and Kuroda, H. (2004).
+Dorsal-ventral patterning and neural  induction in Xenopus embryos.
+Annu. Rev. Cell Dev.
+Biol. 20, 285308.  Garcia Abreu, J., Coffinier, C., Larrain, J., Oelgeschlager, M., and De Robertis,  E.M. (2002).
+Chordin-like CR domains and the regulation of evolutionarily conserved extracellular signaling systems.
+Gene 287, 3947.  Groppe, J., Greenwald, J., Wiater, E., Rodriguez-Leon, J., Economides, A.N.,  Kwiatkowski, W., Affolter, M., Vale, W.W., Belmonte, J.C., and Choe, S. (2002).
+  Structural basis of BMP signalling inhibition by the cystine knot protein Noggin.
+  Nature 420, 636642.  Hammerschmidt, M., Blader, P., and Strahle, U. (1999).
+Strategies to perturb  zebrafish development.
+Methods Cell Biol.
+59, 87115.  Harrington, A.E., Morris-Triggs, S.A., Ruotolo, B.T., Robinson, C.V., Ohnuma,  S., and Hyvonen, M. (2006).
+Structural basis for the inhibition of activin signalling by follistatin.
+EMBO J. 25, 10351045.  Hatta, T., Konishi, H., Katoh, E., Natsume, T., Ueno, N., Kobayashi, Y., and  Yamazaki, T. (2000).
+Identification of the ligand-binding site of the BMP type  IA receptor for BMP-4.
+Biopolymers 55, 399406.  Heldin, C.H., Miyazono, K., and ten Dijke, P. (1997).
+TGF-b signalling from cell  membrane to nucleus through SMAD proteins.
+Nature 390, 465471.  Hogan, B.L. (1996).
+Bmps: multifunctional regulators of mammalian embryonic  development.
+Harvey Lect. 92, 8398.  Iemura, S., Yamamoto, T.S., Takagi, C., Uchiyama, H., Natsume, T., Shimasaki, S., Sugino, H., and Ueno, N. (1998).
+Direct binding of follistatin to a complex of bone-morphogenetic protein and its receptor inhibits ventral and  epidermal cell fates in early Xenopus embryo.
+Proc. Natl. Acad. Sci. USA 95,  93379342.
+  Developmental Cell  Crystal Structure of the CV-2 VWC1:BMP-2 Complex  Developmental Cell 14, 739750, May 2008 2008 Elsevier Inc. 749Ikeya, M., Kawada, M., Kiyonari, H., Sasai, N., Nakao, K., Furuta, Y., and Sasai,  Y. (2006).
+Essential pro-Bmp roles of crossveinless 2 in mouse organogenesis.
+  Development 133, 44634473.  Kamimura, M., Matsumoto, K., Koshiba-Takeuchi, K., and Ogura, T. (2004).
+  Vertebrate crossveinless 2 is secreted and acts as an extracellular modulator  of the BMP signaling cascade.
+Dev. Dyn.
+230, 434445.  Keller, S., Nickel, J., Zhang, J.L., Sebald, W., and Mueller, T.D. (2004).
+Molecular recognition of BMP-2 and BMP receptor IA.
+Nat. Struct.
+Mol. Biol.  11, 481488.  Kirsch, T., Nickel, J., and Sebald, W. (2000a).
+BMP-2 antagonists emerge from  alterations in the low-affinity binding epitope for receptor BMPR-II.
+EMBO J.  19, 33143324.  Kirsch, T., Sebald, W., and Dreyer, M.K. (2000b).
+Crystal structure of the BMP2-BRIA ectodomain complex.
+Nat. Struct.
+Biol. 7, 492496.  Larrain, J., Bachiller, D., Lu, B., Agius, E., Piccolo, S., and De Robertis, E.M.  (2000).
+BMP-binding modules in chordin: a model for signalling regulation in  the extracellular space.
+Development 127, 821830.  Mangino, M., Flex, E., Digilio, M.C., Giannotti, A., and Dallapiccola, B. (2002).
+  Identification of a novel NOG gene mutation (P35S) in an Italian family with  symphalangism.
+Hum. Mutat. 19, 308.  Miyazono, K., Kusanagi, K., and Inoue, H. (2001).
+Divergence and convergence of TGF-b/BMP signaling.
+J. Cell. Physiol. 187, 265276.  Moser, M., Binder, O., Wu, Y., Aitsebaomo, J., Ren, R., Bode, C., Bautch, V.L.,  Conlon, F.L., and Patterson, C. (2003).
+BMPER, a novel endothelial cell precursor-derived protein, antagonizes bone morphogenetic protein signaling and  endothelial cell differentiation.
+Mol. Cell. Biol. 23, 56645679.  OConnor, M.B., Umulis, D., Othmer, H.G., and Blair, S.S. (2006).
+Shaping  BMP morphogen gradients in the Drosophila embryo and pupal wing.
+Development 133, 183193.  Oelgeschlager, M., Reversade, B., Larrain, J., Little, S., Mullins, M.C., and De  Robertis, E.M. (2003).
+The pro-BMP activity of Twisted gastrulation is independent of BMP binding.
+Development 130, 40474056.
+  OLeary, J.M., Hamilton, J.M., Deane, C.M., Valeyev, N.V., Sandell, L.J., and  Downing, A.K. (2004).
+Solution structure and dynamics of a prototypical chordin-like cysteine-rich repeat (von Willebrand Factor type C module) from  collagen IIA.
+J. Biol. Chem. 279, 5385753866.  Rentzsch, F., Zhang, J., Kramer, C., Sebald, W., and Hammerschmidt, M.  (2006).
+Crossveinless 2 is an essential positive feedback regulator of Bmp signaling during zebrafish gastrulation.
+Development 133, 801811.  Schier, A.F., and Talbot, W.S. (2005). Molecular genetics of axis formation in  zebrafish.
+Annu. Rev. Genet. 39, 561613.  Tabata, T., and Takei, Y. (2004).
+Morphogens, their identification and regulation.
+Development 131, 703712.  Thompson, T.B., Lerch, T.F., Cook, R.W., Woodruff, T.K., and Jardetzky, T.S.  (2005).
+The structure of the follistatin:activin complex reveals antagonism of  both type I and type II receptor binding.
+Dev.
+Cell 9, 535543.  Weber, D., Kotzsch, A., Nickel, J., Harth, S., Seher, A., Mueller, U., Sebald, W.,  and Mueller, T.D. (2007).
+A silent H-bond can be mutationally activated for  high-affinity interaction of BMP-2 and activin type IIB receptor.
+BMC Struct.
+  Biol. 7, 6.  Williams, M.J., Phan, I., Harvey, T.S., Rostagno, A., Gold, L.I., and Campbell,  I.D. (1994).
+Solution structure of a pair of fibronectin type 1 modules with fibrin  binding activity.
+J. Mol. Biol. 235, 13021311.  Zhang, J.L., Huang, Y., Qiu, L.Y., Nickel, J., and Sebald, W. (2007).
+von Willebrand factor type C domain-containing proteins regulate bone morphogenetic  protein signaling through different recognition mechanisms.
+J. Biol. Chem.  282, 2000220014.  Zhu, Y., Oganesian, A., Keene, D.R., and Sandell, L.J. (1999).
+Type IIA procollagen containing the cysteine-rich amino propeptide is deposited in the extracellular matrix of prechondrogenic tissue and binds to TGF-b1 and BMP-2.
+J.  Cell Biol.
+144, 10691080.
+  Developmental Cell  Crystal Structure of the CV-2 VWC1:BMP-2 Complex  750 Developmental Cell 14, 739750, May 2008 2008 Elsevier Inc.

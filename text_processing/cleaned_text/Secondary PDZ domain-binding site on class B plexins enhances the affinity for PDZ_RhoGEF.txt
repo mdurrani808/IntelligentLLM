@@ -1,0 +1,298 @@
+Secondary PDZ domain-binding site on class B plexins  enhances the affinity for PDZRhoGEF  Heath G. Pascoea  , Stephen Gutowskia  , Hua Chena  , Chad A. Brautigamb  , Zhe Chenb  , Paul C. Sternweisa  ,  and Xuewu Zhanga,b,1  a  Department of Pharmacology, University of Texas Southwestern Medical Center, Dallas, TX 75390; and b  Department of Biophysics, University of Texas  Southwestern Medical Center, Dallas, TX 75390  Edited by Axel T. Brunger, Stanford University, Stanford, CA, and approved October 27, 2015 (received for review May 6, 2015)  PDZ domains are abundant protein interaction modules and typically recognize a short motif at the C terminus of their ligands, with  a few residues in the motif endowing the binding specificity.
+The  sequence-based rules, however, cannot fully account for the specificity between the vast number of PDZ domains and ligands in the  cell.
+Plexins are transmembrane receptors that regulate processes  such as axon guidance and angiogenesis.
+Two related guanine  nucleotide exchange factors (GEFs), PDZRhoGEF and leukemiaassociated RhoGEF (LARG), use their PDZ domains to bind class B  plexins and play critical roles in signaling.
+Here, we present the  crystal structure of the full-length cytoplasmic region of PlexinB2  in complex with the PDZ domain of PDZRhoGEF.
+The structure  reveals that, in addition to the canonical C-terminal motif/PDZ  interaction, the 3D domain of PlexinB2 forms a secondary interface with the PDZ domain.
+Our biophysical and cell-based assays  show that the secondary interface contributes to the specific interaction between plexin and PDZRhoGEF and to signaling by  plexin in the cell.
+Formation of secondary interfaces may be a  general mechanism for increasing affinity and specificity of modular domain-mediated interactions.
+  PDZ | plexin | signaling | protein interaction module | specificity  Plexins are cell surface receptors for semaphorins, extracellular  cues that control essential processes such as neuronal axon  guidance and vasculature development (1).
+Binding of semaphorin  to the extracellular region of plexin induces formation of the  active dimer of the cytoplasmic region, which transduces signal to  downstream pathways (27).
+The plexin cytoplasmic region contains  a juxtamembrane segment (JM-segment), a RhoGTPase binding  domain (RBD), and a GTPase activating protein (GAP) domain  (810).
+The GAP domain, activated by the dimerization, transduces signal through converting its substrate GTPase Rap from  the GTP-bound active to the GDP-bound inactive state (2, 3).
+The  RBD regulates plexin activity in response to binding of Rho family  GTPases, such as Rac1 (reviewed in ref. 11).
+  In addition to the common signaling pathways through the domains shared by all plexins, class B plexins (B1, B2, and B3) mediate a pathway through their unique C terminus.
+The conserved  VTDL motif at the C terminus of these plexins binds to the  N-terminal PDZ (PSD-95/Discs-large/ZO-1) domains of two related guanine nucleotide exchange factors (GEFs), PDZRhoGEF,  and leukemia-associated RhoGEF (LARG) (1217).
+This interaction recruits PDZRhoGEF and LARG to the plasma membrane, where they promote the exchange of GDP for GTP on  RhoA. GTP-bound RhoA binds its downstream effectors and  contributes to plexin signaling (1315, 18).
+A recent study has shown  that deletion of the C terminus of PlexinB2 causes defects in the  development of the liver vasculature in mice, highlighting the critical role of the PDZRhoGEF/LARGRhoA pathway in plexin  function in vivo (19).
+  More than 250 PDZ domains exist in the human proteome,  constituting one of the most abundant protein interaction modules (20, 21).
+Correspondingly, there are 600 ligands for the PDZ  domains (22).
+A high degree of mutual specificity is expected  between PDZ domains and their respective ligands to ensure  fidelity of signaling in the cell.
+The fold of PDZ domains is composed of a six-stranded -barrel and two -helices.
+The canonical  interaction mode between the PDZ domains and their ligands involves the binding of the C terminus of the ligand in an extended  -strand conformation to the groove between B and B in the  PDZ domain.
+The C-terminal carboxyl group of the ligand forms  two hydrogen bonds with the backbone of the conserved GGF  motif (: hydrophobic residue) in the AB loop of the PDZ  domain, which underlies the strong preference of PDZ domains for  C termini.
+Previous studies have established the general rules of  ligand specificity for PDZ domains (23).
+Class I PDZ domains  recognize C-terminal motifs with the T/S-X- (X: any residue)  sequence, whereas class II PDZ domains prefer the -X- sequence.
+The structural basis for this selectivity is relatively well  understood (20).
+However, many PDZ domains are promiscuous  toward short peptidic ligands and defy these simple rules of specificity.
+Particularly, the PDZ domains in PDZRhoGEF and  LARG, categorized as class I PDZ domains, bind with similar affinities to many peptides of both classes I and II (24).
+  Binding of PDZRhoGEF and LARG to full-length class B  plexins has been detected by various in vitro and cell-based experiments, whereas many other PDZ domains showed no binding  under similar conditions (1216).
+In contrast, isolated C-terminal  peptides from class B plexins and the PDZ domains of PDZ  RhoGEF/LARG only exhibit modest affinity, with the dissociation constant (Kd) in the range of 1040 M (2426).
+This  Significance  Protein interactions mediated by modular domains, such as PDZ  and SH2 domains, play critical roles in biology.
+The modules typically recognize a linear motif in their ligands, with a few residues in the motif determining the specificity.
+We report a crystal  structure of the complex between the cytoplasmic region of  PlexinB2 and the PDZ domain of PDZRhoGEF.
+The structure  shows that, in addition to the PDZ/motif interaction, a secondary  interface is formed between the three-dimensional domains of  the two proteins.
+We further show that the secondary interface  enhances the affinity between plexin and PDZRhoGEF and is  important for plexin signaling.
+Our analyses suggest that secondary interface-mediated interactions may be a broadly used  mechanism for modular domains to achieve high specificity.
+  Author contributions: H.G.P., Z.C., P.C.S., and X.Z. designed research; H.G.P., S.G., H.C.,  C.A.B., Z.C., and X.Z. performed research; H.G.P., S.G., H.C., C.A.B., Z.C., P.C.S., and X.Z.  analyzed data; and H.G.P., H.C., P.C.S., and X.Z. wrote the paper.
+  The authors declare no conflict of interest.
+  This article is a PNAS Direct Submission.
+  Data deposition: The crystallography, atomic coordinates, and structure factors have been  deposited in the Protein Data Bank, www.pdb.org (PDB ID code 5E6P).
+  1  To whom correspondence should be addressed.
+Email: xuewu.zhang@utsouthwestern.
+  edu.
+  This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+  1073/pnas.1508931112/-/DCSupplemental.
+  1485214857 | PNAS | December 1, 2015 | vol. 112 | no. 48 www.pnas.org/cgi/doi/10.1073/pnas.1508931112discrepancy suggests that the specificity between class B plexins  and PDZRhoGEF/LARG is not fully recapitulated by the peptide/  PDZ interaction.
+More broadly, the sequence-based rules described above are likely an oversimplification of the mechanisms  underlying specificity between PDZ domains and their ligands.
+  Most previous structural and binding analyses focused on isolated peptidic binding motifs derived from PDZ ligands, leaving  open the question of whether other regions in the ligands are  involved in the interaction.
+  To address these questions, we determined the crystal structure of the complex between the full-length cytoplasmic region of  PlexinB2 and the PDZ domain of PDZRhoGEF.
+The structure  reveals a secondary interface between PlexinB2 and the PDZ  domain, in addition to the canonical interaction mediated by the  C-terminal VTDL motif of PlexinB2.
+Our structure-based mutational analyses show that the secondary interface plays an important role in the specific interaction between class B plexins  and PDZRhoGEF.
+  Results  Crystal Structure of the PlexinB2/PDZ Complex Reveals a Secondary  Binding Interface.
+We determined the crystal structure of the fulllength cytoplasmic region of mouse PlexinB2 (PlexinB2cyto) in  complex with the PDZ domain from human PDZRhoGEF  (Fig. 1A).
+The diffraction data are anisotropic, extending to  3.2- resolution in the a* and b* directions and 5  resolution in  the c* direction (Table S1).
+The asymmetric unit of the crystal  contains one PlexinB2/PDZ complex (Fig. S1).
+The structure of  PlexinB2cyto, except for the disordered JM-segment, is similar  to reported structures of other plexins (2, 3, 810).
+The PDZ  domain here is similar to the NMR structure of the PDZ domain  of LARG (Fig. S2).
+PlexinB2cyto and the PDZ domain form a 1:1  complex, with the PlexinB2 VTDL motif and the PDZ domain  interacting in the typical PDZ/type I ligand binding mode (Fig. 1  B and C).
+These interactions are similar to those seen in the  NMR structure of the complex between the octameric tail peptide from PlexinB1 and the PDZ domain from LARG (Fig. 1 B  and C and Fig. S2) (25).
+In addition, Lys-1838 in PlexinB2, immediately upstream of the VTDL motif, makes an electrostatic  contact with Asp-64 in the PDZ domain (Fig. 1C).
+The equivalent  interaction, between Lys-2131 in the human PlexinB1 peptide and  Asp-89 in the LARG PDZ domain, is also present in the NMR  structure (Fig. S2) (25).
+Similar interactions have been extensively  characterized for many PDZ domains and their ligands (20).
+  In addition to the canonical interface, our structure shows a  secondary interface between the last two helices in the GAP  domain of PlexinB2 and one face of the PDZ domain composed  of  strands BD (Fig. 2A).
+The two interfaces together bury  1,500 2 of solvent-accessible surface area, with the canonical  and the secondary interfaces contributing 600 and 900 2  ,  respectively.
+The center of the secondary interface is mediated  by hydrophobic interactions between Leu-68 from the PDZ domain and two alanine residues (Ala-1832 and -1833) from  PlexinB2 (Fig. 2A).
+Ile-66 of the PDZ and Tyr-1806 of PlexinB2  contribute additional hydrophobic contacts at the periphery of  the interface.
+The interface is further stabilized by polar interactions.
+Arg-88 and Asp-64 from the PDZ domain interact with  Asp-1807 and Lys-1838 from PlexinB2cyto, respectively (Fig. 2B).
+  Tandem glutamine residues from PlexinB2 (Gln-1829 and -1830)  interact with the backbone carbonyls of Gly-86 and Asp-87 from  the PDZ domain.
+Ser-62 and Gln-70 from the PDZ domain  make polar interactions with the C terminus of the last helix in  the PlexinB2 GAP domain (Fig. 2B).
+Some of these interactions  may be mediated by hydrogen bonds, but are not assigned because of the moderate resolution of the structure.
+  The residues in PlexinB2 mediating the secondary interface  are conserved across class B plexins, but not among class A, C,  and D plexins (Fig. 2C).
+Ile-66 and Leu-68 in the PDZ domain of  PDZRhoGEF are replaced by a proline and phenylalanine  residue, respectively, in LARG, maintaining the hydrophobicity  (Fig. 2D).
+Other residues in the secondary interface are identical  between PDZRhoGEF and LARG from both human and  mouse (Fig. 2D).
+These residues, however, are not conserved in  PDZ domains from other proteins (Fig. 2D).
+These patterns of  sequence conservation suggest that class B plexins and PDZ  RhoGEF/LARG have coevolved the secondary interface to enhance their mutual specificity, and the secondary interface is  functionally important.
+  Tight Binding Between PlexinB2cyto and the PDZ Domain from PDZ  RhoGEF.
+By using fluorescence-based methods or isothermal titration calorimetry (ITC), several studies have determined the Kd  value between isolated C-terminal peptides from PlexinB1 and the  PDZ domain of PDZRhoGEF in the range of 3036 M under  various buffer conditions (24, 26).
+The PDZ domain of LARG  shows similar affinity to the tail peptide from PlexinB1 (2426).
+  The peptides used in the studies of PDZRhoGEF included no  more than the C-terminal six residues of human PlexinB1, which  are identical to those in mouse PlexinB2.
+We analyzed the binding  between PlexinB2cyto and the PDZ domain of PDZRhoGEF  using ITC.
+PlexinB2cyto with the C-terminal four residues truncated (VTDL) showed no detectable binding to the PDZ domain, consistent with the notion that the VTDL motif is critical for  the interaction (Fig. 3).
+PlexinB2cyto binds the PDZ domain with a  Fig. 1.
+Crystal structure of the complex between PlexinB2cyto and the PDZ  domain from PDZRhoGEF.
+(A) Domain structure of PlexinB2 and PDZ  RhoGEF.
+Residue numbers are based on human PDZRhoGEF and mouse  PlexinB2, respectively.
+CC, coiled-coil; DH, Dbl-homology domain; EC-region,  extracellular region; PH, pleckstrin-homology domain; RGSL, regulator of  G protein signaling-like domain; TM, transmembrane region.
+The C1 and C2  segments in plexin together form the GAP domain.
+(B) Structure of the  PlexinB2cyto/PDZ complex.
+The color scheme is the same as in A. N and C  indicate the N and C termini of the PDZ domain, respectively.
+The dotted  lines indicate the approximate location of the disordered JM-segment.
+  (C) Interface between the PDZ domain and the VTDL motif in PlexinB2. *The  side chain of D1841 is not built because of poor density.
+  Pascoe et al. PNAS | December 1, 2015 | vol. 112 | no. 48 | 14853  BIOPHYSICS AND  COMPUTATIONAL BIOLOGYKd value of 2 M (Fig. 3), >10-fold tighter than that of the isolated C-terminal motif.
+These results suggest that the secondary  interface as observed in our crystal structure substantially enhances the plexin/PDZ interaction.
+  Mutational Analyses of the Secondary Interface.
+To assess the  contribution of the secondary interface to the plexin/PDZ interaction, we examined the effects of a series of mutations at  this interface by ITC.
+Three mutationsY1806A, A1832E,  and A1833Ewere introduced individually into PlexinB2cyto.
+  The Y1806A mutant displayed approximately twofold reduction  in binding (Kd = 3.7 M) compared with the wild-type (WT)  PlexinB2cyto (Fig. 3).
+The A1832E and A1833E mutants showed  much weaker binding, with Kd values of 13 and 30 M, respectively.
+  The A1833E mutation reduces the affinity to the reported level  of the isolated C-terminal peptide of PlexinB1, effectively eliminating the contribution of the secondary interface.
+Tyr-1806 is located at the periphery of the interface, and the alanine mutation  removes a portion of the hydrophobic interaction, but does not sterically occlude binding.
+Introducing a charged and larger residue to  the hydrophobic core of the interface, as in the case of the A1832E  and A1833E mutations, however, disrupts the secondary interface.
+  The PDZ mutations also attenuated binding to various degrees, consistent with the features of the secondary interface.
+  The PDZ R88A mutant increased Kd by approximately threefold  to 6.4 M (Fig. 3).
+Loss of the peripheral interaction between  Arg-88 in the PDZ domain and Asp-1807 in PlexinB2cyto is not  expected to actively disrupt the interface core or the ability of  other contacts to form.
+The R88E mutation, which introduces  charge/charge repulsion with Asp-1807 in PlexinB2cyto, reduced  the affinity by 20-fold (Kd = 40 M).
+An alanine mutation of  Leu-68 in the PDZ domain, which docks into the hydrophobic  patch created by Ala-1832 and -1833 in PlexinB2cyto, reduces the  affinity by approximately fivefold.
+Mutating a peripheral hydrophobic residue in the PDZ domain, I66A, attenuated binding by  less than twofold.
+Together, these data demonstrate that the  secondary interface is responsible for the >10-fold tighter binding to the PDZ domain by PlexinB2cyto compared with the isolated PDZ-binding motif.
+  Both Binding Interfaces Contribute to Recruitment of PDZRhoGEF by  Plexin.
+We have shown previously that the GEF activity of PDZ  RhoGEF and its homologs can be facilitated by membrane recruitment to membrane-delimited substrates such as RhoA (27)  and that this functional recruitment can mediate hormone signaling in cells (28).
+In the reconstituted system, GEFs were  recruited to the surface of lipid vesicles that contained regulatory  partners and substrates tethered to the membrane surface  through interaction of polyhistidine tags with NiNTA-conjugated  lipids.
+We used this system to examine the interaction of fulllength PDZRhoGEF with PlexinB2cyto (Fig. 4 AC).
+PDZ  RhoGEF in solution displayed modest nucleotide exchange activity toward RhoA tethered to lipid vesicles.
+Addition of His6  PlexinB2cyto produced a concentration-dependent increase in the  exchange activity (Fig. 4 A and B), suggesting functional recruitment of PDZRhoGEF by His6PlexinB2cyto to membranelocalized RhoA. Deletion of the C-terminal motif from PlexinB2  (VTDL) eliminated the GEF activity increase (Fig. 4 B and C),  consistent with an anticipated reduction in the recruitment.
+We  further tested mutations in the secondary interface, two in the  PDZ domain (R88E and R88A) and two in PlexinB2cyto  (A1832E and A1833E).
+All four mutants attenuated the  Fig. 2.
+Secondary interface between PlexinB2 and the PDZ domain.
+(A) Central hydrophobic interactions in the secondary interface.
+van der Waals surfaces  of residues are shown as dots.
+(B) Peripheral polar interactions in the secondary interface.
+(C) Sequence alignment of the PDZ-binding region of mouse  PlexinB2 with other plexin family members.
+Residues involved in the secondary interface are highlighted in yellow.
+Residue numbers of mouse PlexinB2 are  shown at the top.
+(D) Sequence alignment of PDZ domains.
+The sequences of the PDZ domains from PDZRhoGEF and LARG are aligned with several diverse  PDZ domains.
+Residues involved in the secondary interface in PDZRhoGEF/LARG are highlighted in pink.
+Residue numbers at the top are for human PDZ  RhoGEF.
+In both C and D, conserved residues are in red, and identical residues are highlighted by red background.
+h, human; m, mouse.
+  14854 | www.pnas.org/cgi/doi/10.1073/pnas.1508931112 Pascoe et al.stimulatory effect of PlexinB2 on the GEF activity of PDZ  RhoGEF (Fig. 4C).
+The partial reduction by the R88A mutation is  consistent with its more moderate effect on binding affinity  (Fig. 3).
+These results implicate both the primary and secondary  interfaces in the recruitment of PDZRhoGEF by plexin.
+The  sufficiency of this interaction is demonstrated by the recruitment  of a chimeric protein containing the PDZ domain of PDZ  RhoGEF linked to an unrelated RacGEF, TRIO (triple functional domain protein) (Fig. 4D).
+His6PlexinB2cyto stimulates  nucleotide exchange of membrane delimited Rac1 by the chimeric PDZTRIO, but not TRIO alone.
+  Secondary Interface Contributes to Plexin-Mediated Activation of PDZ  RhoGEF in Cells.
+Activation of class B plexins by semaphorin activates PDZRhoGEF and LARG, leading to increased levels of  GTP-bound RhoA in cells (1217).
+To examine whether this plexin/  PDZRhoGEF-mediated activation of RhoA is dependent on  the secondary interface, we used a pull-down assay for quantifying  RhoA(GTP) levels in the cell (29).
+Full-length human PlexinB1,  which is nearly identical to mouse PlexinB2 in both the C-terminal  motif and the secondary interface, was used in these experiments.
+Consistent with previous studies, the results show that  overexpression of PlexinB1 increased the levels of RhoA(GTP)  in HEK293T cells, which express PDZRhoGEF endogenously  (Fig. 5) (13, 18).
+RhoA activation was further enhanced by  semaphorin treatment.
+Deletion of the VTDL motif in PlexinB1  (VTDL) abolished RhoA activation in the presence or absence  of semaphorin treatment.
+These results are also consistent with  previous studies (13, 14).
+We then tested the effects on RhoA  activation of the A2125E and A2126E mutations of PlexinB1,  equivalent to the secondary interface mutations A1832E and  A1833E of PlexinB2, respectively.
+These mutations both attenuated RhoA activation, although the reduction was not as severe as  that caused by VTDL (Fig. 5).
+Together, our data strongly support  Fig. 3.
+Mutational analysis of the secondary interface by ITC.
+(A) Representative baseline-subtracted ITC thermograms (Top), integrated titration heats  (circles) with fits shown (lines; Middle), and residuals plots (Bottom).
+(B) Values of Kd and 1 confidence intervals from data in A. The Kd values and confidence  intervals are derived from a global analysis of triplicate datasets for each binding pair.
+Kd values for the tail peptide are from previous reports.
+(C) Locations of  the mutations in the crystal structure.
+  Pascoe et al. PNAS | December 1, 2015 | vol.
+112 | no. 48 | 14855  BIOPHYSICS AND  COMPUTATIONAL BIOLOGYthe hypothesis that the C-terminal motif and secondary interface  in class B plexins together contribute to optimal recruitment of  PDZRhoGEF and activation of RhoA for signal transduction  in the cell.
+  Discussion  Protein interactions between modular domains, such as PDZ,  SH2, and SH3 domains, and linear binding motifs are a common  theme in biology (30).
+An established paradigm is that sequence variations of one or a few residues in the binding motifs  determine the specificity.
+However, modules of the same type  often show similar sequence preferences for the binding motifs,  and similar or identical motifs often exist in different proteins.
+  This paradigm is therefore inadequate for rationalizing the diverse yet specific interactions mediated by modular domains.
+In  the case of PDZ domains, binding motifs of different classes do  not always show large differences in affinity to cross-typed PDZ  domains.
+Extensive investigations, including large-scale peptide  library screening and bioinformatics analyses, have shown that  residues beyond positions 0 and 2 in PDZ binding motifs are  involved in fine-tuning the specificity (20, 21).
+Based on these  studies, as many as 16 classes have been defined to account for  the specificity profiles of PDZ domains (31).
+A recent study has  shown that the PDZ domain in the protein PALS1 forms a  structural supramodule with the SH3 and guanylate kinase domains, with all of the three domains collectively contributing to  specific binding to the C terminus of its ligand crumbs (32).
+  The above analyses are largely limited to linear binding motifs.
+  Our finding of the secondary interface mediated by the folded  domains of PlexinB2 and PDZRhoGEF provides an additional dimension to the mechanism by which PDZ domains  achieve specificity.
+Interestingly, a recent study has shown that the  C-terminal SH2 domain in phospholipase C forms a secondary  interface with the kinase domain of fibroblast growth factor receptor, in addition to the SH2/phosphorylpeptide interaction  (33).
+Similar secondary interactions have also been seen for a  SH3 domain and a small GTPase (34, 35).
+The 3D domain-mediated  secondary interfaces may be broadly used by modular domains to  increase affinity and specificity, but are underappreciated because  they involve residues not adjacent in sequence to the binding motifs  and cannot be easily identified by sequence analyses.
+Structural  Fig. 4.
+Recruitment of PDZRhoGEF by His6PlexinB2cyto  to membrane-localized substrate.
+Nucleotide exchange  assays with lipid vesicles containing immobilized RhoA  or Rac1His6 are based on the change in fluorescence  between bound and free N-methylanthraniloylGDP  (mant-GDP).
+(A) Time course of mantGDP association  to RhoA in the presence of 10 nM PDZRhoGEF (PRG)  and increasing concentrations of His6-PlexinB2cyto.
+In  two curves, the SDs among four measurements are  shown as error bars.
+Errors of other curves are similar  but omitted for clarity.
+(B) Initial rates of exchange in  the presence of increasing concentrations of the WT  or VTDL mutant of His6PlexinB2.
+Results are the  average of four titrations as in A; error bars are SD.
+  (C) Initial rates of RhoA exchange stimulated by  10 nM WT or mutants of PRG in the presence of 0.5 M  WT or mutants of His6PlexinB2cyto.
+Results are averages of nine measurements; errors are SD.
+All mutants showed no significant stimulation of PRG  activity with one exception; the activity of PRGR88A  was stimulated by WT PlexinB2cyto, but less so than  PRGWT (P < 0.0001 for both comparisons; Students  t test).
+(D) Stimulation of chimeric PDZTRIO (150 nM)  by 0.5 M WT or VTDL mutant of His6PlexinB2cyto.
+  Results represent the average and SD of triplicate  measurements.
+Stimulation of PDZTRIO by twofold  to fourfold was significant (P < 0.05) in two such experiments; no significant stimulation was observed  with TRIO or with PlexinB2VTDL.
+  Fig. 5.
+Contribution of the secondary interface between Plexin and PDZ  RhoGEF to RhoA activation in cells.
+Total expression levels of VSV-Gtagged  PlexinB1 and HA-tagged RhoA were probed by antiVSV-G and anti-HA  antibodies, respectively.
+GTP-bound RhoA was pulled down by GSTRotekin  and probed by the same anti-HA antibody.
+Results shown are from one of  the three independent repeats.
+  14856 | www.pnas.org/cgi/doi/10.1073/pnas.1508931112 Pascoe et al.studies of larger constructs beyond the modules and their binding  motifs are required to reveal such interactions.
+  It is unclear how the interaction between class B plexins and  PDZRhoGEF/LARG is regulated by semaphorin binding to  plexin.
+Before activation, plexin exists as an inactive monomer or  inhibitory dimer (3, 9, 36).
+Semaphorin binding induces the formation of the active dimer of plexin (2, 47).
+PDZRhoGEF and  LARG also form dimers or oligomers through their C-terminal  coiled-coil region (37).
+The plexin active dimer and the PDZRhoGEF/LARG dimer may form a 2:2 complex (Fig. S3A).
+Alternatively,  dimeric PDZRhoGEF/LARG may bridge two copies of the plexin  dimer, leading to their clustering on the cell surface (Fig. S3B).
+The  dimerization/oligomerization may increase the avidity between plexin  and PDZRhoGEF/LARG.
+PDZRhoGEF and LARG both have  other domains that help target them to the plasma membrane, such  as the Pleckstrin-homology domain that interacts with GTP-bound  RhoA (38).
+These factors together may facilitate the interaction between plexin and PDZRhoGEF/LARG and thereby enhance their  ability to discriminate against nonspecific interactions.
+  Materials and Methods  Full-length PDZRhoGEF was expressed in Spodoptera frugiperda cells.
+Other  proteins were expressed in Escherichia coli.
+Proteins were purified by affinity  chromatography in combination with ion exchange and gel filtration chromatography.
+Detailed experimental procedures are included in SI Materials  and Methods.
+  ACKNOWLEDGMENTS.
+We thank T. Scheuermann for assistance in isothermal titration calorimetry (ITC); I. White for discussions; and R. Hibbs, the  staff of the Structural Biology Laboratory at the University of Texas  Southwestern Medical Center (UTSW), and the staff of beamline 19ID at  Advanced Photon Source (APS) for assistance in X-ray data collection.
+X.Z. is  a Virginia Murchison Linthicum Scholar in Medical Research at UTSW.
+The  work is supported in part by National Institutes of Health (NIH) Grants  GM088197 (to X.Z.) and GM031954 (to P.C.S.); Welch Foundation Grant I1702 (to X.Z.); and the Alfred and Mabel Gilman Chair in Molecular Pharmacology (to P.C.S).
+H.G.P. is supported in part by NIH Training Grant  GM008203.
+Results shown in this report are derived from work performed  at Argonne National Laboratory, Structural Biology Center at APS.
+Argonne  is operated by UChicago Argonne, LLC, for the U.S. Department of Energy,  Office of Biological and Environmental Research under Contract DE-AC02-  06CH11357.
+  1. Tran TS, Kolodkin AL, Bharadwaj R (2007) Semaphorin regulation of cellular morphology.
+Annu Rev Cell Dev Biol 23:263292.
+  2. Wang Y, Pascoe HG, Brautigam CA, He H, Zhang X (2013) Structural basis for activation and non-canonical catalysis of the Rap GTPase activating protein domain of  plexin.
+eLife 2:e01279.  3.
+Wang Y, et al. (2012) Plexins are GTPase-activating proteins for Rap and are activated  by induced dimerization.
+Sci Signal 5(207):ra6.
+  4. Nogi T, et al. (2010) Structural basis for semaphorin signalling through the plexin  receptor.
+Nature 467(7319):11231127.
+  5. Liu H, et al. (2010) Structural basis of semaphorin-plexin recognition and viral mimicry  from Sema7A and A39R complexes with PlexinC1.
+Cell 142(5):749761.
+  6. Janssen BJ, et al. (2010) Structural basis of semaphorin-plexin signalling.
+Nature  467(7319):11181122.
+  7. Janssen BJ, et al. (2012) Neuropilins lock secreted semaphorins onto plexins in a ternary signaling complex.
+Nat Struct Mol Biol 19(12):12931299.
+  8.
+Bell CH, Aricescu AR, Jones EY, Siebold C (2011) A dual binding mode for RhoGTPases  in plexin signalling.
+PLoS Biol 9(8):e1001134.
+  9. He H, Yang T, Terman JR, Zhang X (2009) Crystal structure of the plexin A3 intracellular region reveals an autoinhibited conformation through active site sequestration.
+Proc Natl Acad Sci USA 106(37):1561015615.  10. Tong Y, et al. (2009) Structure and function of the intracellular region of the plexin-b1  transmembrane receptor.
+J Biol Chem 284(51):3596235972.  11.
+Pascoe HG, Wang Y, Zhang X (2015) Structural mechanisms of plexin signaling.
+Prog  Biophys Mol Biol 118(3):161168.  12. Aurandt J, Vikis HG, Gutkind JS, Ahn N, Guan KL (2002) The semaphorin receptor  plexin-B1 signals through a direct interaction with the Rho-specific nucleotide exchange factor, LARG.
+Proc Natl Acad Sci USA 99(19):1208512090.
+  13. Perrot V, Vazquez-Prado J, Gutkind JS (2002) Plexin B regulates Rho through the  guanine nucleotide exchange factors leukemia-associated Rho GEF (LARG) and PDZRhoGEF.
+J Biol Chem 277(45):4311543120.
+  14. Swiercz JM, Kuner R, Behrens J, Offermanns S (2002) Plexin-B1 directly interacts with  PDZ-RhoGEF/LARG to regulate RhoA and growth cone morphology.
+Neuron 35(1):  5163.
+  15. Driessens MH, Olivo C, Nagata K, Inagaki M, Collard JG (2002) B plexins activate Rho  through PDZ-RhoGEF.
+FEBS Lett 529(2-3):168172.  16.
+Oinuma I, Katoh H, Harada A, Negishi M (2003) Direct interaction of Rnd1 with Plexin-B1  regulates PDZ-RhoGEF-mediated Rho activation by Plexin-B1 and induces cell contraction in COS-7 cells.
+J Biol Chem 278(28):2567125677.  17.
+Hirotani M, et al. (2002) Interaction of plexin-B1 with PDZ domain-containing Rho  guanine nucleotide exchange factors.
+Biochem Biophys Res Commun 297(1):3237.
+  18. Basile JR, Barac A, Zhu T, Guan KL, Gutkind JS (2004) Class IV semaphorins promote  angiogenesis by stimulating Rho-initiated pathways through plexin-B. Cancer Res  64(15):52125224.
+  19. Worzfeld T, et al. (2014) Genetic dissection of plexin signaling in vivo.
+Proc Natl Acad  Sci USA 111(6):21942199.  20.
+Ye F, Zhang M (2013) Structures and target recognition modes of PDZ domains: Recurring themes and emerging pictures.
+Biochem J 455(1):114.
+  21. Luck K, Charbonnier S, Trav G (2012) The emerging contribution of sequence context  to the specificity of protein interactions mediated by PDZ domains.
+FEBS Lett 586(17):  26482661.
+  22. Kim J, et al. (2012) Rewiring of PDZ domain-ligand interaction network contributed to  eukaryotic evolution.
+PLoS Genet 8(2):e1002510.
+  23. Songyang Z, et al. (1997) Recognition of unique carboxyl-terminal motifs by distinct  PDZ domains.
+Science 275(5296):7377.
+  24. Smietana K, et al. (2008) Degenerate specificity of PDZ domains from RhoA-specific  nucleotide exchange factors PDZRhoGEF and LARG. Acta Biochim Pol 55(2):269280.  25. Liu J, et al. (2008) Conformational change upon ligand binding and dynamics of the  PDZ domain from leukemia-associated Rho guanine nucleotide exchange factor.
+  Protein Sci 17(6):10031014.
+  26. Paduch M, et al. (2007) Bivalent peptides as models for multimeric targets of PDZ  domains.
+ChemBioChem 8(4):443452.
+  27. Medina F, et al. (2013) Activated RhoA is a positive feedback regulator of the Lbc  family of Rho guanine nucleotide exchange factor proteins.
+J Biol Chem 288(16):  1132511333.
+  28. Carter AM, Gutowski S, Sternweis PC (2014) Regulated localization is sufficient for  hormonal control of regulator of G protein signaling homology Rho guanine nucleotide exchange factors (RH-RhoGEFs).
+J Biol Chem 289(28):1973719746.  29.
+Ren XD, Schwartz MA (2000) Determination of GTP loading on Rho.
+Methods  Enzymol 325:264272.
+  30. Pawson T, Nash P (2003) Assembly of cell regulatory systems through protein interaction domains.
+Science 300(5618):445452.
+  31. Tonikian R, et al. (2008) A specificity map for the PDZ domain family.
+PLoS Biol 6(9):  e239.  32.
+Li Y, et al. (2014) Structure of Crumbs tail in complex with the PALS1 PDZ-SH3-GK  tandem reveals a highly specific assembly mechanism for the apical Crumbs complex.
+  Proc Natl Acad Sci USA 111(49):1744417449.  33. Bae JH, et al. (2009) The selectivity of receptor tyrosine kinase signaling is controlled  by a secondary SH2 domain binding site.
+Cell 138(3):514524.
+  34. Lee CH, Saksela K, Mirza UA, Chait BT, Kuriyan J (1996) Crystal structure of the conserved core of HIV-1 Nef complexed with a Src family SH3 domain.
+Cell 85(6):931942.
+  35. Ostermeier C, Brunger AT (1999) Structural basis of Rab effector specificity: Crystal  structure of the small G protein Rab3A complexed with the effector domain of rabphilin-3A.
+Cell 96(3):363374.
+  36. Marita M, et al. (2015) Class A plexins are organized as preformed inactive dimers on  the cell surface.
+Biophys J 109(9):19371945.  37. Chikumi H, et al. (2004) Homo- and hetero-oligomerization of PDZ-RhoGEF, LARG and  p115RhoGEF by their C-terminal region regulates their in vivo Rho GEF activity and  transforming potential.
+Oncogene 23(1):233240.
+  38. Chen Z, et al. (2010) Activated RhoA binds to the pleckstrin homology (PH) domain of  PDZ-RhoGEF, a potential site for autoregulation.
+J Biol Chem 285(27):2107021081.  39.
+Wells CD, et al. (2002) Mechanisms for reversible regulation between G13 and Rho  exchange factors.
+J Biol Chem 277(2):11741181.  40.
+Chen Z, Guo L, Sprang SR, Sternweis PC (2011) Modulation of a GEF switch: Autoinhibition of the intrinsic guanine nucleotide exchange activity of p115-RhoGEF.
+  Protein Sci 20(1):107117.
+  41. Otwinowski Z, Minor W (1997) Processing of X-ray diffraction data collected in oscillation mode.
+Methods Enzymol 276:307326.
+  42. Adams PD, et al. (2002) PHENIX: Building new software for automated crystallographic  structure determination.
+Acta Crystallogr D Biol Crystallogr 58(Pt 11):19481954.
+  43. McCoy AJ, et al. (2007) Phaser crystallographic software.
+J Appl Cryst 40(Pt 4):658674.
+  44. Chen VB, et al. (2010) MolProbity: All-atom structure validation for macromolecular  crystallography.
+Acta Crystallogr D Biol Crystallogr 66(Pt 1):1221.
+  45. Emsley P, Cowtan K (2004) Coot: Model-building tools for molecular graphics.
+Acta  Crystallogr 60(Pt 12 Pt 1):21262132.
+  46. Keller S, et al. (2012) High-precision isothermal titration calorimetry with automated  peak-shape analysis.
+Anal Chem 84(11):50665073.
+  47. Houtman JC, et al. (2007) Studying multisite binary and ternary protein Interactions  by global analysis of isothermal titration calorimetry data in SEDPHAT: application to  adaptor protein complexes in cell signaling.
+Protein Sci 16(1):3042.
+  48. Brautigam CA (2015) Calculations and publication-quality illustrations for analytical  ultracentrifugation data.
+Methods Enzymol 562:109133.
+  Pascoe et al. PNAS | December 1, 2015 | vol.
+112 | no. 48 | 14857  BIOPHYSICS AND  COMPUTATIONAL BIOLOGY

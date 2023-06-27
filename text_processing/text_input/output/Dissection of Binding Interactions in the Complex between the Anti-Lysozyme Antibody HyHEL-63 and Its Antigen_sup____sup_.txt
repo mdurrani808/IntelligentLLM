@@ -1,0 +1,1013 @@
+Articles
+Dissection of Binding Interactions in the Complex between the Anti-Lysozyme
+Antibody HyHEL-63 and Its Antigen†,‡
+Yili Li,§ Mariela Urrutia,§ Sandra J. Smith-Gill,| and Roy A. Mariuzza*,§
+Center for AdVanced Research in Biotechnology, W.M. Keck Laboratory for Structural Biology,
+UniVersity of Maryland Biotechnology Institute, 9600 Gudelsky DriVe, RockVille, Maryland 20850, and
+National Cancer Institute, Frederick Cancer Research and DeVelopment Center, P.O. Box B,
+Frederick, Maryland 21702-1201
+ReceiVed September 18, 2002
+ABSTRACT: Alanine-scanning mutagenesis, X-ray crystallography, and double mutant cycles were used to
+characterize the interface between the anti-hen egg white lysozyme (HEL) antibody HyHEL-63 and HEL.
+Eleven HEL residues in contact with HyHEL-63 in the crystal structure of the antigen-antibody complex,
+and 10 HyHEL-63 residues in contact with HEL, were individually truncated to alanine in order to determine
+their relative contributions to complex stabilization. The residues of HEL (Tyr20, Lys96, and Lys97)
+most important for binding HyHEL-63 (∆Gmutant - ∆Gwild type > 3.0 kcal/mol) form a contiguous patch
+at the center of the surface contacted by the antibody. Hot spot residues of the antibody (∆∆G > 2.0
+kcal/mol) are organized in two clusters that juxtapose hot spot residues of HEL, resulting in energetic
+complementarity across the interface. All energetically critical residues are centrally located, shielded
+from solvent by peripheral residues that contribute significantly less to the binding free energy. Although
+HEL hot spot residues Lys96 and Lys97 make similar interactions with antibody in the HyHEL-63/HEL
+complex, alanine substitution of Lys96 results in a nearly 100-fold greater reduction in affinity than the
+corresponding mutation in Lys97. To understand the basis for this marked difference, we determined the
+crystal structures of the HyHEL-63/HEL Lys96Ala and HyHEL-63/HEL Lys97Ala complexes to 1.80
+and 1.85 Å resolution, respectively. Whereas conformational changes in the proteins and differences in
+the solvent networks at the mutation sites appear too small to explain the observed affinity difference,
+superposition of free HEL in different crystal forms onto bound HEL in the wild type and mutant HyHEL￾63/HEL complexes reveals that the side-chain conformation of Lys96 is very similar in the various
+structures, but that the Lys97 side chain displays considerable flexibility. Accordingly, a greater entropic
+penalty may be associated with quenching the mobility of the Lys97 than the Lys96 side chain upon
+complex formation, reducing binding. To further dissect the energetics of specific interactions in the
+HyHEL-63/HEL interface, double mutant cycles were constructed to measure the coupling of 13 amino
+acid pairs, 11 of which are in direct contact in the crystal structure. A large coupling energy, 3.0 kcal/
+mol, was found between HEL residue Lys97 and HyHEL-63 residue VHAsp32, which form a buried salt
+bridge surrounded by polar residues of the antigen. Thus, in contrast to protein folding where buried salt
+bridges are generally destabilizing, salt bridges in protein-protein interfaces, whose residual composition
+is more hydrophilic than that of protein interiors, may contribute significantly to complex stabilization.
+The ability of proteins to form specific, stable complexes
+with other proteins is fundamental to most cellular processes,
+including signal transduction, vesicle transport, and cyto￾skeletal remodeling. X-ray crystallographic studies of diverse
+protein-protein complexes (e.g., protease-protease inhibitor,
+antigen-antibody, hormone-hormone receptor, G-protein
+complexes) have revealed that most share a relatively large
+(>900 Å2
+) and planar buried surface area composed of
+closely packed atoms, similar to protein cores (1-7). This
+shape complementarity is usually accompanied by a high
+degree of chemical complementarity. Hydrophobic patches
+on the surface of one protein pack against hydrophobic
+patches on the surface of the other protein, atoms of polar
+character interact with atoms of opposite charge across the
+interface, and proton donors and acceptors form hydrogen
+bonds. Protruding side chains of one surface fit into de￾pressions of the other, and numerous van der Waals inter￾actions are interspersed with hydrogen bonds and an oc-
+† This work was supported by NIH Grant GM5280.
+‡ Atomic coordinates have been deposited in the Protein Data Bank
+as entries 1NBY and 1NBZ.
+* To whom correspondence should be addressed. Tel.: 301-738-
+6243. FAX: 301-738-6255. E-mail: mariuzza@carb.nist.gov.
+§ University of Maryland Biotechnology Institute.
+| Frederick Cancer Research and Development Center.
+Biochemistry 2003, 42, 11-22 11
+10.1021/bi020589+ CCC: $25.00 © 2003 American Chemical Society
+Published on Web 12/17/2002casional salt bridge. Overall, protein-protein interfaces are
+quite polar and tend to reflect the residual composition of
+protein surfaces, rather than protein cores, although they are
+somewhat enriched in hydrophobic residues (1, 2). Small,
+but significant, conformational changes are generally ob￾served between free and bound proteins, and this flexibility
+appears to increase with the amount of buried surface area
+in the protein complex (2).
+In contrast to the wealth of structural information on
+protein-protein interfaces, the available data on the ther￾modynamics of the association reactions are far more limited
+and are largely based on detailed mutagenesis and binding
+studies of relatively few complexes (1). These studies have
+shown that functional epitopes assigned by mutagenesis are
+usually, though not always (7-10), much more restricted
+than structural epitopes defined by X-ray crystallography (1,
+5, 6, 11). That is, replacement of only a small subset of
+contact residues (“hot spots”) often destabilizes protein￾protein complexes dramatically, while substitutions of most
+other interface residues, including many which appear to
+form highly favorable interactions, result in little or no loss
+of affinity. In other cases, however, the binding free energy
+arises from the accumulation of many productive interactions
+distributed over substantial portions of the interface (7-10,
+12). Indeed, a predictive understanding of protein-protein
+interactions has not been achieved and there is currently no
+method to reliably identify hot spot residues in complex
+structures based on patterns of shape, hydrophobicity or
+charge (5, 6). A major difficulty is that interaction energies
+vary considerably, even for the same type of interaction,
+resulting in often poor correlations between structural data
+and energies deduced from mutagenesis. In addition, the rela￾tive contributions of surface complementarity, hydrophobic￾ity, and hydrogen bonding to complex stabilization remain
+to be established. It is therefore evident that additional struc￾ture-function studies are required to progress from purely
+anatomical descriptions of protein-protein interfaces (iden￾tity of contact residues, amount of buried surface areas, num￾ber of hydrogen bonds and van der Waals interactions, etc.)
+to a detailed understanding of how these structural features
+translate to the affinity and specificity of binding reactions.
+Antigen-antibody complexes provide useful models for
+analyzing the thermodynamics of protein-protein association
+reactions (1, 2, 7). We recently determined the crystal
+structure of the antigen-binding fragment (Fab) of the anti￾hen egg white lysozyme (HEL) antibody HyHEL-63 com￾plexed with HEL to 2.0 Å resolution, as well as structure of
+the unbound antibody in two crystal forms, to 1.8 and 2.1 Å
+resolution (13). The Fab HyHEL-63/HEL complex is highly
+suited for detailed structure-function studies of protein￾protein recognition by mutational analysis: not only are the
+structures of both free and bound HyHEL-63 and HEL
+known to high resolution, but mutants of the antibody and
+antigen can be readily produced in bacteria and yeast,
+respectively. Furthermore, the affinities of mutant complexes
+can be accurately measured under equilibrium binding
+conditions using surface plasmon resonance (SPR) methods
+(13). Therefore, it should be possible to interpret the results
+of site-directed mutagenesis experiments in the HyHEL-63/
+HEL system in terms of the three-dimensional structures of
+the corresponding mutant complexes.
+To assess the apparent contribution of individual residues
+to complex formation, we systematically truncated the side
+chains of contact residues on both HyHEL-63 and HEL to
+alanine and compared the affinities of the wild type and
+mutant complexes. We find that nearly all the contact
+residues tested (18 of 21) contribute at least 1.0 kcal/mol to
+the binding free energy. In common with most protein￾protein complexes (1-7), energetically critical residues of
+HyHEL-63 and HEL are located at the center of the interface,
+surrounded by peripheral residues that contribute significantly
+less to complex stabilization. The two most energetically
+dominant HEL residues, Lys96 (∆∆G ) 6.1 kcal/mol) and
+Lys97 (3.5 kcal/mol), form buried hydrogen bonds (Lys96)
+or a salt bridge (Lys97) in the wild-type complex. To explain
+the greater apparent contribution to binding of Lys96 than
+Lys97, we determined the crystal structures of the corre￾sponding alanine-substituted complexes to high resolution.
+To further map the HyHEL-63/HEL interface, coupling
+energies between specific residue pairs were measured using
+double mutant cycles. Although the results were broadly
+consistent with expectations from structural analysis, we also
+encountered significant exceptions. Possible reasons for
+differences between actual and expected coupling energies
+for certain residue pairs are discussed in terms of the three￾dimensional structure of the HyHEL-63/HEL complex.
+EXPERIMENTAL PROCEDURES
+Cloning and Mutagenesis of the HyHEL-63 Fab. The
+isolation of cDNAs for the L and H chains of anti-HEL
+antibody HyHEL-63 has been described (13). DNA frag￾ments encoding the VL and CL domains of the L chain and
+the VH and CH1 domains of the H chain were generated by
+PCR and cloned downstream of the pelB leader sequence of
+expression vector pET-26b(+) (Novagen, Madison, WI). The
+vector was restricted with MscI-SalI and MscI-HindIII for
+independent insertion of the VLCL and VHCH1 chains,
+respectively. The pET-26b(+)-VHCH1 construct was digested
+with XbaI, treated with Klenow large fragment (New England
+Biolabs, Beverly, MA) to generate blunt ends, and then
+restricted with NotI. The resulting fragment, containing the
+pelB leader and VHCH1, was cloned into pET-26b(+)-VLCL,
+which had been previously digested with SalI, treated with
+Klenow large fragment, and restricted with NotI. In the final
+pET-26b(+)-VLCL/VHCH1 construct, the L and H chain genes
+are each fused to a pelB leader and controlled by the same
+T7 promoter. The VHCH1 gene also includes a sequence from
+the pET-26b(+) vector encoding a C-terminal His6 tag for
+affinity purification. Site-directed mutagenesis of Fab Hy￾HEL-63 was carried out by overlap PCR.
+Production of Fab HyHEL-63 and Mutants by Secretion
+or in Vitro Folding. For protein expression, the pET-26b-
+(+)-VLCL/VHCH1 plasmid was transformed into Escherichia
+coli strain BL21(D3) (Novagen). Precultures (3 mL) were
+grown at 37 °C overnight in Luria-Bertani (LB) medium
+containing 50 µg/mL kanamycin. These precultures were then
+1 Abbreviations: HEL, hen egg white lysozyme; PBS, phosphate￾buffered saline; LB, Luria-Bertani medium; SPR, surface plasmon
+resonance; RU, resonance units; Fab, antigen-binding fragment; L chain,
+light chain; H chain, heavy chain; V region, variable region; C region,
+constant region; VL, light chain variable region; VH, heavy chain
+variable region; CDR, complementarity-determining region; FR, frame￾work region.
+12 Biochemistry, Vol. 42, No. 1, 2003 Li et al.used to inoculate 500 mL LB with the same antibiotic
+concentration. The bacteria were grown at 25 °C to an
+absorbance of 0.6-0.8 at 600 nm, and isopropyl â-D￾thiogalactoside was added to a final concentration of 0.4 mM.
+After overnight incubation at 25 °C, the supernatant was
+separated from cells by centrifigation, concentrated using an
+Amicon RA2000 concentrator (Millipore, Bedford, MA), and
+buffer exchanged into 50 mM Tris-HCl, pH 8.0. The
+supernatant was applied to a Ni-NTA affinity column
+(QIAGEN, Valencia, CA) preequilibrated with the same
+buffer. The column was washed with 20 mM imidazole, 50
+mM Tris-HCl, pH 8.0, and eluted with 50 mM imidazole,
+50 mM Tris-HCl, pH 8.0. Fractions containing recombinant
+Fab HyHEL-63 were pooled, concentrated, and further
+purified by gel filtration on a Superdex S-200 FPLC column
+(Pharmacia, Uppsala, Sweden) to eliminate aggregates before
+surface plasmon resonance analysis (see below). Mutants of
+Fab HyHEL-63 were prepared similarly.
+Wild-type Fab HyHEL-63 used for cocrystallization with
+HEL mutants Lys96gAla (HEL K96A) and Lys97gAla (HEL
+K97A) was produced by in vitro folding of the VLCL and
+VHCH1 chains, produced in E. coli as inclusion bodies, as
+described previously (12). Correctly folded protein was
+purified using an HEL affinity column, followed by anion
+exchange chromatography with a MonoQ FPLC column
+(Pharmacia).
+Production of HEL Mutants. Mutants of HEL were
+produced as secreted proteins using an Invitrogen Pichia
+Expression Kit (San Diego, CA). A cDNA sequence encod￾ing the wild-type protein fused to the leader sequence of
+R-mating factor was cloned into plasmid pPic9 as a XhoI/
+NotI fragment (14). Mutagenesis was carried out by overlap
+PCR. For protein production, yeast from a single colony
+transformed with this plasmid was grown in 25 mL BMGY
+medium at 28-30 °C. After the culture reached an absor￾bance of 1.0-6.0 at 600 nm, the cells were harvested by
+centrifugation at 1500g; the pellets were suspended in
+BMMY medium to an absorbance of 1.0 prior to induction.
+Methanol was added to the culture every 24 h to a final
+concentration of 0.5% (v/v) to maintain induction. After 96
+h, the culture was harvested by centrifugation. The super￾natant was dialyzed overnight against 0.1 M ammonium
+acetate, pH 9.0, and loaded on a 3 mL CM-Sepharose Fast
+Flow column (Pharmacia) previously equilibrated with the
+same buffer. The column was washed with 10 volumes of
+buffer and eluted with 0.5 M ammonium acetate, pH 9.0.
+Further purification was carried out on a Mono S cation ex￾change FPLC column (Pharmacia) equilibrated with 50 mM
+MES, pH 6.5, and developed with a linear NaCl gradient;
+all HEL mutants eluted between 0.2 and 0.4 M NaCl.
+Affinity Measurements. The interaction of soluble Fab
+HyHEL-63 with immobilized HEL was measured by SPR
+using a BIAcore 1000 biosensor (BIACORE, Piscataway,
+NJ) as described (8, 15, 16). The data were analyzed using
+the BIAevaluation 2.1 software package (BIACORE). As￾sociation constants (KAs) were determined from Scatchard
+analysis, after correction for nonspecific binding, by measur￾ing the concentration of free reactants and complex at
+equilibrium. Standard deviations for two or more independent
+KA determinations were typically <20%.
+Crystallography. The Fab HyHEL-63/HEL K96A and Fab
+HyHEL-63/HEL K97A complexes were crystallized at room
+temperature in hanging drops from mixtures containing
+equimolar amounts of antibody and antigen at 10 mg/mL
+concentrations. The crystallization conditions were similar
+to those for the wild-type Fab HyHEL-63/HEL complex
+(13): 15% (w/v) PEG 4000, 0.1 M ammonium acetate, and
+0.05 M sodium acetate, pH 4.6. The mutant complexes
+crystallized isomorphously with the wild-type in space group
+P42212 with one complex molecule per asymmetric unit
+(Table 1). X-ray diffraction data were measured at 100 K
+on beamline 19-ID (λ ) 0.978 Å) of the Advanced Photon
+Source (Argonne National Laboratory) using an ADSC
+Quantum-4 CCD detector. The crystals were transferred to
+a cryoprotectant solution (mother liquor containing 25%
+glycerol), prior to flash-cooling in a nitrogen stream. The
+data were processed and scaled using DENZO/SCALEPACK
+(17), followed by data reduction using programs from the
+CCP4 suite (18). Data collection statistics are shown in
+Table 1.
+The structures of the Fab HyHEL-63/HEL K96A and Fab
+HyHEL-63/HEL K97A complexes were solved by molecular
+replacement methods using the program AMoRe (19), with
+the wild-type complex (PDB accession code 1DQM) (12)
+as a search model. Crystallographic refinement was carried
+out using X-PLOR3.1 (20) and CNS0.4 (21), including rigid￾body refinement, iterative cycles of simulated annealing,
+positional refinement, torsion angle refinement, and indi￾vidual temperature factor (B) refinement interspersed with
+manual model fitting into σA-weighted Fo-Fc and 2Fo-Fc
+electron density maps using TURBO-FRODO (22). Water
+molecules were added at positions where the Fo-Fc electron
+density was greater than 2.5σ and where reasonable hydrogen
+bonds to protein atoms or other water molecules were
+Table 1: Data Collection and Refinement Statistics for HyHEL-63/
+HEL Complexes
+HyHEL-63/HEL K96A HyHEL-63/HEL K97A
+Data Collection
+space group P42212 P42212
+cell dimensions(Å) a ) b ) 90.9,
+c ) 151.9
+a ) b) 90.9,
+c ) 151.2
+temperature (K) 100 100
+resolution limit (Å) 1.80 1.85
+mosaicity (Å) 0.3 0.4
+Rmerge (%)b 5.9 (42.2)a 5.4 (36.6)a
+unique reflections 114 251 53 340
+total observations 430 270 472 861
+completeness (%) 99.9 (100)a 97.3 (93.2)a
+Refinement
+Rfreec 24.2 24.5
+Rcryst 20.1 18.5
+protein
+residues 553 553
+average B (Å2
+) 21.4 21.7
+water
+molecules 743 608
+average B (Å2
+) 36.1 35.7
+rms deviations
+bonds (Å) 0.017 0.006
+angles (deg) 0.024 0.022
+a Values in parentheses correspond to the highest resolution shell:
+HyHEL-63/HEL K96A (1.86-1.80 Å); HyHEL-63/HEL K97A (1.92-
+1.85 Å). b Rmerge ) ∑|I - 〈I〉|/∑〈I〉, where I is the observed intensity
+and 〈I〉 is the average intensity of multiple observations of symmetry￾related reflections. c A portion of the overall reflections was set aside
+for Rfree calculations: HyHEL-63/HEL K96A (9.7%); HyHEL-63/HEL
+K97A (9.6%).
+Mutational Analysis of an Antigen-Antibody Complex Biochemistry, Vol. 42, No. 1, 2003 13possible. The final Fab HyHEL-63/HEL K96A structure,
+determined to 1.80 Å resolution, has an Rcryst of 19.7% and
+an Rfree of 24.0%. For the Fab HyHEL-63/HEL K97A
+complex, the final Rcryst is 19.7% and Rfree is 25.0% at 1.85
+Å resolution. The Fab HyHEL-63/HEL K96A and Fab
+HyHEL-63/HEL K97A models include 743 and 608 water
+molecules, respectively. Refinement statistics are summarized
+in Table 1.
+RESULTS AND DISCUSSION
+Production of Recombinant Fab HyHEL-63. Because of
+its nonreducing environment, the periplasmic space of E. coli
+has been used for the expression of heterologous proteins,
+such as antibodies (8, 23, 24) and T-cell receptors (25, 26),
+that contain disulfide bonds. To direct secretion of Fab
+HyHEL-63 into the periplasmic space, the natural signal
+sequences of its L and H chains were replaced with that of
+pectate lyase from Erwinia carotoVora (23, 24). Six histidine￾encoding triplets were grafted onto the 3′ terminus of the
+VHCH1 gene to permit purification of the recombinant protein
+using a nickel chelate adsorbent. This was done to avoid
+HEL affinity chromatography, since certain HyHEL-63
+mutants were expected to bind the antigen too weakly for
+purification by this method. Surprisingly, most of the
+antibody was found in the culture supernatant, rather than
+the periplasmic space, indicating leakage from the periplas￾mic compartment due to membrane damage or cell lysis, as
+occasionally observed for secreted antibodies (8, 16, 23, 24).
+In our previous crystallographic study of the Fab HyHEL￾63/HEL complex, we had expressed the wild-type Fab by
+in vitro folding of the VLCL and VHCH1 chains, produced as
+bacterial inclusion bodies (12). Since secreted Fab HyHEL￾63 did not crystallize with HEL under wild-type conditions,
+perhaps due to the presence of a flexible His6 tag, the Fab
+used for crystallizing complexes with HEL mutants was
+produced by in vitro folding. Importantly, the affinities of
+the secreted and in vitro folded forms of HyHEL-63 for HEL
+were indistinguishable (data not shown).
+Measurement of Association Constants for the Binding of
+HyHEL-63 to HEL. The affinities of wild-type and mutant
+FIGURE 1: (A) Binding of Fab HyHEL-63 VLN32A to immobilized wild-type HEL. The HyHEL-63 mutant was injected at 10 different
+concentrations ranging from 0.2 to 7.1 µM over a surface to which 1200 RU of wild-type HEL had been coupled. Buffer flow rates were
+5 µL/min, and report points were taken 1 min after each injection. (B) Scatchard plot of the binding of Fab HyHEL-63 VLN32A to wild￾type HEL derived from the data depicted in panel A after correction for nonspecific binding; Req is the corrected equilibrium response at
+a given concentration C. The plot is linear with a correlation coefficient of 0.98. The apparent KA is 3.6 × 105 M-1. The predicted maximum
+binding capacity (4100 RU) indicates that about 59% of the immobilized wild-type HEL molecules are available for binding. (C) Binding
+of Fab HyHEL-63 VHD32A to immobilized HEL K97A. The HyHEL-63 mutant was injected at eight different concentrations ranging from
+42 to 540 nM over a surface to which 1400 RU of the HEL mutant had been coupled. Report points were taken 3.5 min after each injection.
+(D) Scatchard plot derived from the data in panel C after correction for nonspecific binding. The plot is linear with a correlation coefficient
+of 0.98 and the apparent KA is 5.4 × 106 M-1. Approximately 56% of the immobilized HEL K97A is available for binding, as calculated
+from the predicted maximum binding capacity (4800 RU).
+14 Biochemistry, Vol. 42, No. 1, 2003 Li et al.HyHEL-63 Fab fragments for wild-type HEL or HEL
+mutants were determined under equilibrium binding condi￾tions with a BIAcore biosensor. Typically, analyte concentra￾tions ranging from 1/10 the dissociation constant (KD) to
+10KD were used; higher concentrations were required to
+approach saturation for the lower affinity interactions. Surface
+plasmon resonance profiles for equilibrium binding of
+HyHEL-63 mutant VLN32A mutant to immobilized wild￾type HEL, and of HyHEL-63 mutant VHD32A to HEL
+mutant K97A, are shown in Figure 1 (panels A and C,
+respectively). The corresponding Scatchard plots, after cor￾recting for nonspecific binding, are shown in Figure 1 (panels
+B and D). The plots were linear, and apparent KAs were
+calculated as the slopes of the straight lines: KA ) 3.6 ×
+105 M-1 and 5.4 × 106 M-1 for the HyHEL-63 VLN32A/
+HEL and HyHEL-63 VHD32A/HEL K97A interactions,
+respectively. The predicted maximum specific binding,
+calculated from the x-intercept assuming a linear relationship
+between the mass of bound protein and the measured
+resonance units (RU) (26), indicated that approximately 60%
+of the immobilized HEL molecules were available for
+binding in both cases. The affinities measured by equilibrium
+binding were very reproducible, and deviations between
+different runs on the same chip were generally smaller than
+those between different chips. The errors on KA were
+consistently less than 20%, which translates into errors on
+∆∆G (∆Gmutant - ∆Gwild type) and ∆∆Gint (the interaction
+energy between residue pairs from double mutant cycle
+analysis) of less than (0.4 and (0.7 kcal/mol, respectively.
+Thus, the binding of closely related mutant proteins may be
+compared with a relatively high degree of precision using
+this BIAcore method.
+Mapping the Energetics of the HyHEL-63/HEL Interface.
+Residues in the interface between HyHEL-63 and HEL were
+subjected to alanine-scanning mutagenesis in order to
+determine their relative contributions to the free energy of
+association. In the crystal structure of the Fab HyHEL-63/
+HEL complex (13), 19 HyHEL-63 residues from all six
+complementarity-determining regions (CDRs) of the anti￾body, and 1 H chain framework region residue, contact 20
+HEL residues from three discontinuous polypeptide segments
+of the antigen. We individually mutated to alanine 11 HEL
+residues in contact with HyHEL-63, excluding 2 glycine
+residues (16 and 102) and residues contacting the antibody
+only through backbone atoms (14, 15, 18, 19, and 98). The
+binding affinities of these HEL mutants for wild-type
+HyHEL-63 were measured by BIAcore and ∆∆Gs calculated
+(Table 2, section A). The most destabilizing mutation was
+at position Lys96 (∆∆G ) 6.1 kcal/mol). In the wild-type
+structure, this residue makes two hydrogen bonds to VLAsn31
+and VLAsn32 (Lys96HEL Nú-Oδ1 VLAsn31 and Lys96HEL
+Nú-Oδ1 VLAsn32). Alanine substitutions at HEL positions
+Tyr20 and Lys97 also greatly reduced binding (∆∆G > 3.0
+kcal/mol). Smaller, but significant, effects were observed for
+substitutions at positions Arg21, Trp63, Leu75, and Asp101
+(1.0-2.0 kcal/mol), while those at positions Trp62, Thr89,
+Asn93, and Ser100 had very little effect (<1.0 kcal/mol).
+These results are broadly consistent with those from a
+mutational study of the anti-HEL antibody HyHEL-10 (28),
+which recognizes a similar epitope on HEL as HyHEL-63
+(13, 29).
+On the antibody side of the interface, 10 HyHEL-63
+residues (5 from VL and 5 from VH) in contact with HEL
+were mutated to alanine. The affinities of these mutants for
+wild-type HEL are shown in Table 2, section B. Overall,
+mutations in the H chain disrupt binding more than those in
+the L chain. Three H chain mutations, at position VHTyr33,
+VHTyr50 and VHTrp98, are associated with ∆∆G values
+exceeding 4.0 kcal/mol. The corresponding residues of
+HyHEL-10 are also hot spots for HEL binding (30). Two L
+chain mutations, at positions VLAsn32 and VLTyr50, also
+significantly reduced binding, with ∆∆Gs of 4.1 and 2.7 kcal/
+mol, respectively. Substitutions at the other five antibody
+positions tested (VLAsn31, VLSer91, VLTyr96, VHAsp32, and
+VHTyr53) had less effect (1.1-2.0 kcal/mol). In the HyHEL￾10/HEL complex, mutation of the conserved VLAsn31
+residue results in a much greater affinity loss (∆∆G ) 5.2
+kcal/mol), possibly reflecting the longer distance of the
+conserved hydrogen bond to Lys96HEL in the HyHEL-63/
+HEL complex and the fewer number of van der Waals
+contacts made with the antigen (13).
+Table 2: Association Constants and Relative Free-Energy Changes
+for Single and Double Mutant Complexesa
+HyHEL-63
+wt HEL
+KA (M-1
+)
+(3.6 ( 0.1) × 108
+∆∆G
+(kcal/mol)
+Section A
+wt Y20A (1.4 ( 0.2) × 106 3.3
+wt R21A (4.3 ( 0.4) × 107 1.3
+wt W62A (1.0 ( 0.1) × 108 0.8
+wt W63A (3.7 ( 0.2) × 107 1.3
+wt L75A (3.1 ( 0.2) × 107 1.5
+wt T89A (8.7 ( 2.3) × 107 0.8
+wt N93A (1.2 ( 0.3) × 108 0.6
+wt K96A (1.1 ( 0.3) × 104 6.1
+wt K97A (9.4 ( 1.0) × 105 3.5
+wt S100A (9.7 ( 0.5) × 107 0.8
+wt D101A (4.0 ( 0.8) × 107 1.3
+Section B
+VLN31A wt (1.2 ( 0.1) × 107 2.0
+VLN32A wt (3.6 ( 0.2) × 105 4.1
+VLY50A wt (3.9 ( 0.2) × 106 2.7
+VLS91A wt (3.2 ( 0.1) × 107 1.4
+VLY96A wt (5.3 ( 0.1) × 107 1.1
+VHD32A wt (1.2 ( 0.2) × 107 2.0
+VHY33A wt (3.2 ( 0.1) × 104 5.5
+VHY50A wt (3.2 ( 0.8) × 103 6.9
+VHY53A wt (4.9 ( 0.7) × 107 1.2
+VHW98A wt (8.7 ( 1.2) × 104 4.9
+Section C
+VLN32A K96A (2.0 ( 0.2) × 104 5.8
+VLS91A R21A (1.7 ( 0.1) × 106 3.2
+VLS91A Y20A (8.6 ( 2.0) × 105 3.6
+VLY96A R21A (1.0 ( 0.2) × 106 3.5
+YLY96A S100A (7.7 ( 0.3) × 107 0.9
+YHD32A K97A (5.4 ( 0.4) × 107 2.5
+VHY53A W62A (4.1 ( 0.5) × 107 1.3
+VHY53A W63A (8.8 ( 1.0) × 106 2.2
+VHY53A L75A (4.6 ( 0.5) × 107 1.2
+VHY53A D101A (3.6 ( 0.5) × 106 2.7
+VHW98A S100A (4.2 ( 0.8) × 104 5.3
+VHW98A K97A (4.7 ( 1.0) × 103 6.6
+VHW98A Y20A (6.4 ( 0.7) × 104 5.1
+a Affinity measurements were carried out by BIAcore as described
+in Experimental Procedures. Wt refers to wild-type protein. Differences
+in free energy changes are calculated as the difference between the
+∆Gs of the mutant wild-type reactions (∆∆G ) ∆Gmutant - ∆Gwild-type).
+Sections A and B show affinities and ∆∆Gs for single mutants of
+HyHEL-63 and HEL, respectively. Sections C shows values for the
+double mutants.
+Mutational Analysis of an Antigen-Antibody Complex Biochemistry, Vol. 42, No. 1, 2003 15Figure 2 shows the residues of HyHEL-63 and HEL
+important in complex stabilization mapped onto the three￾dimensional structure of each protein. The residues of HEL
+most important for binding HyHEL-63 (Tyr20, Lys96 and
+Lys97) form a contiguous patch located at the center of the
+surface contacted by the antibody. The three hot spot residues
+(∆∆G > 2.0 kcal/mol) of the HyHEL-63 H chain (VHTyr33,
+VHTyr50 and VHTrp98) cluster together, as do the two hot
+spot residues of the L chain (VLAsn32 and VLTyr50),
+forming two energetically important patches on the antibody
+surface. A comparison of the interacting surfaces in Figure
+2 reveals that hot spot residues on the HEL side of the
+interface generally correspond to hot spots on the HyHEL￾63 side. For example, in the crystal structure of the complex
+(13), hot spot residue Lys97HEL (∆∆G ) 3.5 kcal/mol) makes
+contact with hot spot residues VHTyr33 (5.5 kcal/mol) and
+VHTrp98 (4.9 kcal/mol). Similarly, hot spot residues Tyr20HEL
+(3.3 kcal/mol) and Lys96HEL (6.1 kcal/mol) contact hot spot
+residues VLAsn32 (4.1 kcal/mol) and VLTyr50 (2.7 kcal/
+mol). In addition, functionally less important residues of
+HyHEL-63 and HEL tend to be juxtaposed in the antigen￾antibody interface: VHTyr53 (∆∆G ) 1.2 kcal/mol) interacts
+with HEL residues Trp63, Leu75 and Asp101 (1.0-2.0 kcal/
+mol), while VLTyr96 (1.1 kcal/mol) contacts HEL residues
+Arg21 (1.3 kcal/mol) and Ser100 (0.8 kcal/mol). A significant
+exception to this energetic complementarity is VHTyr50,
+whose replacement by alanine results in a decrease in binding
+free energy of 6.9 kcal/mol, the largest for any residue tested,
+but which interacts with functionally far less important HEL
+residues Arg21 and Ser100 (Table 2). One possible explana￾tion for this discrepancy is that the VHTyr50 side chain
+contacts Ser100 only through main-chain atoms, such that
+the relative contribution of the HEL residue cannot be
+assessed by simple alanine substitution. In addition, the side
+chain of VHTyr50 is mostly buried in the antibody combining
+site: the solvent-accessible surface area of this residue is
+only 24 Å2
+, compared to 77 Å2 for VHTyr33, 153 Å2 for
+VHTyr53, and 100 Å2 for VHTyr58. Thus, the large decrease
+in affinity upon replacement of VHTyr50 by alanine may be
+an indirect effect due to structural perturbations in the anti￾body combining site propagating from the mutation to neigh￾boring residues, in particular VHTyr58, VHTrp98, VLTrp94,
+and VLTyr96, which make numerous contacts with HEL. If
+so, VHTyr50 may not represent a true hot spot for HEL
+binding; similar considerations may apply to certain hot spots
+in other protein-protein interfaces identified by alanine￾scanning mutagenesis (6). Overall, however, these results
+are in agreement with findings from other antigen-antibody
+systems (1, 7), and the growth hormone-growth hormone
+receptor complex (11, 31-33), that energetically critical
+residues tend to be self-complementary across interfaces.
+As noted for several other protein-protein complexes (1,
+8, 11, 34), the change in solvent-accessible surface area of
+individual HyHEL-63 or HEL residues upon complex
+formation does not correlate well with their relative impor￾tance to binding. For example, VHTyr53 and Arg21HEL
+contribute the most to the buried surface in the HyHEL￾63-HEL interface (111 Å2 and 116 Å2
+, respectively), yet
+are not hot spot residues (Table 2). A far more important
+parameter in determining a particular residue’s contribution
+to complex stabilization appears to be its location in the
+interface (central versus peripheral), although the reasons for
+this marked positional dependence are incompletely under￾stood (see Conclusions) (1, 6). Thus, hot spot residues such
+as VHTyr33 and VHTrp98 of HyHEL-63, or Tyr20 and Lys96
+of HEL, are located near the center of the interface, where
+they are mostly shielded from bulk solvent (>70% burial)
+by peripheral residues that contribute significantly less to
+the binding free energy (Figure 2).
+Structures of HEL Mutants K96A and K97A Complexed
+with HyHEL-63. In the wild-type HyHEL-63/HEL complex,
+the interacting surface of HyHEL-63 is mainly hydrophobic,
+whereas hydrophilic residues predominate on the HEL side
+of the interface (13). Of the three hot spot HEL residues we
+identified, two (Lys96 and Lys97) are charged. In the crystal
+structure, the aliphatic portion of the Lys96HEL side chain
+FIGURE 2: Space-filling model of the surface of HyHEL-63 (left) in contact with HEL and of the surface of HEL (right) in contact with
+HyHEL-63. The two proteins are oriented such that they can be docked by folding the page along a vertical axis between the components.
+Residues are color-coded according to the loss of binding free energy upon alanine substitution: red, >4 kcal/mol; yellow, 2-4 kcal/mol;
+green, 1-2 kcal/mol; blue, <1 kcal/mol. In dark gray are contacting residues in the HyHEL-63/HEL interface that were not tested by
+alanine-scanning mutagenesis. VL residues are labeled in white and VH residues in black.
+16 Biochemistry, Vol. 42, No. 1, 2003 Li et al.packs against the aromatic ring of VLTyr50, while the
+charged Nú group is neutralized by hydrogen bonding to the
+Oδ1 groups of VLAsn31 and VLAsn32 (Figure 3A). Simi￾larly, the side chain of Lys97HEL intercalates between
+aromatic residues VHTyr33 and VHTrp98, with the Nú group
+neutralized by a salt bridge to VHAsp32 (Figure 3C). The
+affinity of HEL K96A for HyHEL-63 (KA ) 1.1 × 104 M-1
+)
+is approximately 33 000-fold lower than that of wild-type
+HEL (3.6 × 108 M-1
+), while the affinity of HEL K97A (9.4
+× 105 M-1
+) is only 380-fold lower (Table 2).
+To understand how replacement of these two charged
+residues by alanine disrupts binding and why mutation of
+Lys96HEL results in a nearly 100-fold greater reduction in
+affinity than mutation of Lys97HEL, we determined the crystal
+structures of the HyHEL-63/HEL K96A and HyHEL-63/
+HEL K97A complexes to 1.80 and 1.85 Å resolution,
+respectively. Omit maps in the region of the mutations are
+shown in Figure 4A,C. The root-mean-square (rms) devia￾tions in R-carbon positions between mutant and wild-type
+structures are only 0.27 Å for HyHEL-63/HEL K96A and
+0.34 Å for HyHEL-63/HEL K97A, indicating that the
+mutations do not significantly alter the overall structure of
+the complexes. Conformational changes in the proteins at
+the mutation sites are also small (Figure 4B,D).
+The principal difference in the structure of the mutant
+complexes is a rearrangement of solvent such that additional
+water molecules are stably incorporated in the interface at
+the site of the mutations. In the HyHEL-63/HEL K96A
+complex, the cavity created by the alanine substitution is
+partially filled by a water molecule (WatB) that forms
+hydrogen bonds which mimic ones made by Lys96HEL
+(Figure 3B). In the wild-type structure, WatA, which is also
+present in the mutant complex, forms hydrogen bonds with
+His15HEL O, Lys96HEL Nú, and VLAsn31 Nδ2 (Figure 3A).
+In the mutant, WatB fulfills the role of Lys96HEL by hydrogen
+bonding to VLAsn31, VLAsn32, and WatA. However, nearly
+all direct interactions between the Lys96HEL side chain and
+HyHEL-63 are lost when this residue is mutated to alanine,
+including nine van der Waals contacts and two hydrogen
+bonds, which are not replaced by newly formed water￾mediated interactions. A similar situation exists for the
+HyHEL-63/HEL K97A complex, where a water molecule
+occupies only part of the cavity created by the side-chain
+truncation, hydrogen bonding to VHAsp32 Oδ2 (Figure 3D).
+Nine van der Waals contacts and one salt bridge (Lys97HEL
+Nú-Oδ2 VHAsp32) are lost in the mutant complex, none
+of which are restored by the sole additional water molecule
+at the mutation site. For both complexes, the observed solvent
+rearrangements are clearly insufficient to compensate for the
+loss of direct protein-protein interactions at the mutation
+sites, thereby contributing to the large reductions in binding
+affinity relative to the wild-type complex. Moreover, differ￾FIGURE 3: (A) Schematic representation of the wild-type Fab HyHEL-63/HEL complex in the vicinity of HEL residue Lys96. Hydrogen
+bonding interactions are represented by thick dotted lines; van der Waals contacts are drawn as thin dotted lines. (B) Schematic showing
+the same region in the HyHEL-63/HEL K96A mutant complex. Wat A is a water molecule present in both wild-type and mutant structures;
+Wat B is an additional water in the HyHEL-63/HEL K96A interface. (C) Schematic of the wild-type Fab HyHEL-63/HEL complex in the
+vicinity of HEL residue Lys96. (D) Schematic showing the same region in the HyHEL-63/HEL K97A mutant complex. A water (Wat)
+partially fills the cavity formed by truncation of the lysine side chain.
+Mutational Analysis of an Antigen-Antibody Complex Biochemistry, Vol. 42, No. 1, 2003 17ences in the nature or extent of the solvent networks formed
+in the mutant complexes (Figure 3B,D) appear too limited
+to explain the much greater effect on binding of alanine
+substitution of Lys96HEL than Lys97HEL (Table 2).
+We had previously observed solvent rearrangements,
+including the incorporation of additional interface waters,
+in X-ray crystallographic studies of complexes between site￾directed mutants of the anti-HEL antibody D1.3 and HEL
+(16, 35, 36). In certain cases, the mutations were associated
+with only small reductions in affinity (<10-fold), even
+though they resulted in the loss of a similar number of van
+der Waals and hydrogen bond interactions as in the HyHEL￾63/HEL K96A and HyHEL-63/HEL K97A complexes (16,
+35). In other cases, up to 1000-fold reductions in affinity
+were observed (35, 36). Even more drastic is the 33 000-
+fold loss of affinity measured in the present study for the
+HyHEL-63/HEL K96A interaction. Thus, there appears to
+be a very wide range in the extent to which solvent
+rearrangements in a protein-protein interface can accom￾modate mutations, which probably depends on the position
+of the mutation in the interface and on the nature of the local
+environment. On the basis of the available crystal structures
+(16, 35-38), we conclude that sites at the periphery of
+protein-protein interfaces, because of their accessibility, are
+particularly suited to the incorporation of new waters to
+occupy cavities or channels created by side-chain truncations,
+provided that the local environment is sufficiently polar to
+permit the formation of a stable water network to compensate
+the loss of complementarity at the mutation site. For example,
+alanine substitution of D1.3 residue VHTpr52 has little effect
+on HEL binding, whereas VHTrp92 is a hot spot, even though
+both tryptophans are near the periphery of the D1.3-HEL
+interface and make similar contributions to the buried surface
+in the complex (8). However, examination of the atomic
+interactions made by these residues reveals that VHTrp92
+packs against a more hydrophobic surface than VHTrp52,
+precluding the formation of compensating water-mediated
+interactions with HEL (36). We also fail to observe such
+interactions for residues at the center of interfaces, such as
+Lys96HEL and Lys97HEL in the HyHEL-63/HEL complex
+(Figure 3B,D), which are buried in predominantly hydro￾phobic environments.
+A possible explanation for the much greater apparent
+contribution to binding of Lys96HEL (∆∆G ) 6.1 kcal/mol)
+than Lys97HEL (3.5 kcal/mol) may be found by comparing
+the conformations of these residues in different crystal
+packing environments. Superposition of free HEL in three
+crystal forms (39-41) onto bound HEL in the HyHEL-63/
+HEL complex (13) shows that the side chain conformations
+of Lys96HEL are very similar in the four structures, whereas
+the Lys97HEL side chain displays considerable conformational
+variability (Figure 5A). Thus, a significant entropic penalty
+FIGURE 4: (A) Simulated annealing omit electron density map in the vicinity of HEL residue Ala96 in the HyHEL-63/HEL K96A mutant
+complex. The map was calculated using CNS0.4 (21), where all atoms withina9Å radius of Ala96HEL were omitted from the calculation.
+Contours are at 1σ. (B) Superposition of the HyHEL-63/HEL K96A mutant complex (red) onto the wild-type structure (green). The view
+is the same as in panel A. (C) Simulated annealing omit map in the region of HEL residue Ala97 in the HyHEL-63/HEL K97A mutant
+complex. (D) Superposition of the HyHEL-63/HEL K97A mutant complex (red) onto the wild-type structure (green).
+18 Biochemistry, Vol. 42, No. 1, 2003 Li et al.may be associated with quenching the mobility of the flexible
+Lys97HEL side chain upon complex formation, which would
+be unfavorable for binding. This penalty should be less for
+the Lys96HEL side chain, whose conformation in the bound
+state is nearly identical to those found in different crystal
+forms of the free antigen (39-41). Another factor contribut￾ing to the greater decrease in affinity upon mutation of
+Lys96HEL could be that this residue is more deeply buried in
+the HEL structure than Lys97HEL: the solvent-accessible
+surface area of Lys96HEL is only 35 Å2 compared to 102 Å2
+for Lys97HEL. Alanine substitution of Lys96HEL may therefore
+result in rearrangements of neighboring HEL residues,
+reducing interface complementarity at the mutation site.
+Indeed, a comparison of the wild-type and mutant HyHEL￾63/HEL structures reveals a small, but significant, displace￾ment (up to 0.4 Å) in the position of the peptide backbone
+of HEL residues 15-20 in the HEL K96A mutant complex,
+relative to wild-type, that is not observed in the HEL K97A
+complex (Figure 5B).
+Analysis of the HyHEL-63/HEL Interface Using Double
+Mutant Cycles. Comparing the binding of a wild-type protein
+with that of a mutant in which a side chain has been truncated
+gives an apparent binding energy which is generally greater
+than the incremental binding energy attributable to that side
+chain (42), since interactions other than the interactions of
+interest are often disrupted, each of which may contribute
+to the energetics of association (43-45). These secondary
+effects include possible conformational changes in the
+proteins ranging from repositioning of side chains to move￾ments in the backbone, as well as reorganizations in solvent
+structure in the vicinity of the mutation. Such effects are
+evident in the crystal structures of the HyHEL-63/HEL K96A
+and HyHEL-63/HEL K97A complexes described above,
+although they are of relatively moderate magnitude for both
+mutants.
+The method of double mutant cycles circumvents many
+of the limitations of single mutant experiments and makes
+it possible to estimate the effective interaction energy
+between specific residues in a protein-protein complex
+independently of interactions other than those between the
+residues mutated in the cycle (43-45). We have applied this
+method of dissecting the energetics of pairwise interactions
+in protein-protein interfaces to the HyHEL-63/HEL com￾plex. Thus, HyHEL-63 residue A and HEL residue B were
+mutated (i.e., A f A′, B f B′) separately and together to
+construct the cycle:
+The coupling, or interaction, energy between residues A
+and B (∆∆Gint) is then given by
+If ∆∆Gint equals zero, the effects of the two mutations are
+independent of each other and the two residues are not
+coupled. A ∆∆Gint other than zero indicates that residues A
+and B are coupled, either directly or indirectly, since the
+change in free energy for the association of the double mutant
+complex is different from the sum of those for the two single
+mutant complexes.
+Double mutant cycles were constructed for 13 amino acid
+pairs in the HyHEL-63/HEL interface in order to map the
+interaction energies at the contact surfaces between the
+proteins (Table 2, Section C). Of the 13 pairs tested, 11 have
+interacting side chains as judged from the crystal structure,
+1 does not form direct contacts but is in proximity (4.6 Å),
+and 1 is far apart (8.3 Å). Coupling energies were calculated
+according to eq 1 and are given in Table 3. The interaction
+between HyHEL-63 VLAsn32 and Lys96HEL has the largest
+∆∆Gint (4.4 kcal/mol), in agreement with results from single
+mutant experiments identifying these residues as hot spots
+(Figure 2). The residues form a buried hydrogen bond
+(VLAsn32 Oδ-Nú Lys96HEL) with good geometry in the
+crystal structure (Figure 3A). Our ∆∆Gint value for this
+residue pair is consistent with studies showing that deletion
+of hydrogen bonds involving charged-neutral pairs in the
+interiors of proteins decreases their stability by 3-5 kcal/
+mol (46). It also agrees remarkably well with a coupling
+energy of 4.3 kcal/mol for a buried hydrogen bond formed
+by a charged-neutral pair in the D1.3/E5.2 idiotope￾antiidiotope complex (15).
+Buried salt bridges are generally believed to destabilize
+folded proteins due to the high desolvation cost associated
+with transferring charged side chains from the solvent to the
+protein core (4, 47-49). In contrast to protein folding, it
+has been postulated that salt bridges across a binding interface
+can, in some cases, significantly stabilize protein-protein
+FIGURE 5: (A) Conformational differences in HEL residues Lys96
+and Lys97. Complexed HEL (red) was superposed onto four crystal
+forms of free HEL (monoclinic, green; orthorhombic, cyan;
+tetragonal, yellow; trigonal, blue). (B) Displacement of HEL
+residues 15-20 in the HyHEL-63/HEL K96A mutant complex (red)
+compared to the wild-type (green) and HEL K97A mutant (blue)
+complexes.
+∆∆Gint ) - ∆∆GABfA′B′ + ∆∆GABfA′B + ∆∆GABfAB′
+(1)
+Mutational Analysis of an Antigen-Antibody Complex Biochemistry, Vol. 42, No. 1, 2003 19complexes since, after binding, the charged groups may be
+buried in an environment whose residual composition may
+be much more hydrophilic than the one after folding (4, 50).
+Indeed, the interaction between HyHEL-63 VHAsp32 and
+Lys97HEL, which form the only salt bridge in the complex,
+has a ∆∆Gint of 3.0 kcal/mol, consistent with the identifica￾tion of Lys97HEL as a hot spot residue by single mutant
+analysis (Table 2, section A). Although this salt bridge is
+buried in the interface, it is surrounded by several hydrophilic
+HEL residues (Asn77, Asn93, Lys96, Ser100, Asp101),
+which may effectively “solvate” the charged groups forming
+the salt bridge, thereby increasing its net contribution to
+complex stabilization. In agreement with this result, ∆∆Gint
+values of similar magnitude have been measured for buried
+salt bridges in other protein-protein, including antigen￾antibody, complexes (30, 34, 51). In each case, the salt bridge
+appears to be stabilized by a network of ionic or hydrogen
+bonding interactions involving adjacent interfacial polar
+residues. By contrast, a similar analysis of buried salt bridges
+in the complex between TEM-1 â-lactamase and its protein
+inhibitor, BLIP, yielded interaction energies of only 1-1.5
+kcal/mol (52). These differences underscore the apparent
+influence of local environment on the magnitude of coupling
+energies for even the same type of interaction. Recently,
+protein-protein interfaces have been described that are
+dominated by bridging salt links (53, 54). The energetic
+contribution of salt bridges in such highly charged interfaces,
+which are strikingly different from those of other protein￾protein complexes of known structure, remains to be evalu￾ated.
+No correlation is observed between number of van der
+Waals contacts and coupling energies for the residue pairs
+tested. For example, ∆∆Gint for the interaction between
+VHTyr53 and Asp101HEL is effectively zero (-0.2 kcal/mol),
+based on the experimental error of our measurement ((0.5
+kcal/mol), despite the loss of 12 van der Waals contacts
+(Table 3). Since both residues are located at the periphery
+of the interface (Figure 2), the loss of complementarity at
+this solvent-accessible site may be compensated by local
+rearrangements in solvent structure, including the incorpora￾tion of bound waters in place of the truncated side chains. If
+so, this suggests that the strength of van der Waals interac￾tions between protein atoms within the VHTyr53-Asp101HEL
+residue pair is comparable to that between the protein atoms
+and water, such that the protein-protein contacts make little
+or no net contribution to complex stabilization. At the other
+extreme, a ∆∆Gint value of 3.1 kcal/mol was measured
+between VHTrp98 and Tyr20HEL, in which only a single van
+der Waals contact is lost in the double mutant (Table 3).
+Most likely, this large coupling energy is dominated by
+hydrophobic interactions arising from the burial of two
+aromatic residues near the center of the interface, isolated
+from bulk solvent.
+Residues VLTrp96 and Arg21HEL display a negative
+coupling energy of -1.1 kcal/mol, indicating that the
+interaction between them destabilizes the HyHEL-63/HEL
+complex. Superposition of free HEL in three crystal forms
+(39-41) onto bound HEL in the HyHEL-63/HEL complex
+(13) reveals significant differences in the conformation the
+Arg21HEL side chain (not shown). Thus, the entropic cost of
+“freezing” this flexible side chain in the complex may exceed
+the energy gained from formation of a long (3.3 Å) hydrogen
+bond that is partially exposed to solvent.
+Double mutant cycles were also constructed for two
+residue pairs not involved in direct interactions in the crystal
+structure: VLSer91-Tyr20HEL and VLSer91-Arg21HEL. While
+∆∆Gint for the VLSer91-Arg21HEL pair (-0.5 kcal/mol) is
+only slightly greater than experimental error, ∆∆Gint for the
+VLSer91-Tyr20HEL pair (1.1 kcal/mol) equals or exceeds the
+coupling energies for 6 of the 11 residue pairs tested that
+form direct contacts across the binding interface (Table 3).
+It may result from secondary interactions through adjacent
+residues, such as VLAsn32, that contact both VLSer91 and
+Tyr20HEL in the complex.
+CONCLUSIONS
+The HyHEL-63/HEL complex may be viewed in the
+context of other protein-protein complexes that have been
+similarly analyzed in order to draw some general conclusions
+concerning the nature of hot spots and the interpretation of
+mutagenesis data. Bogan and Thorn (1) noted that hot spot
+residues identified by alanine-scanning mutagenesis tend to
+cluster at the center of interfaces, as in the HyHEL-63/HEL
+complex, although a number of exceptions have been
+documented (7-10, 16). This observation led to the proposal
+(the O-ring hypothesis) that occlusion of bulk solvent is, in
+most cases, a necessary condition for residues to be in hot
+spots (1). According to this hypothesis, the O-ring formed
+by peripheral residues generates suitable dielectric and
+solvation conditions for hot spots of interaction energy.
+Indeed, a lower effective dielectric, which may exist at the
+center of protein-protein interfaces compared to the periph￾ery, is believed to increase the strength of hydrogen bonds,
+while the effective hydrophobicity of central residues may
+be significantly greater than that of peripheral ones (55, 56).
+However, the possibility also exists that the functional
+distinction between central and peripheral residues observed
+in mutagenesis studies simply indicates that side-chain atoms
+Table 3: Coupling Energies between the Indicated Amino Acid
+Pairs in the HyHEL-63/HEL Complex as Measured by Double
+Mutant Cyclesa
+HyHEL-63 HEL
+∆∆Gint
+(kcal/mol)
+number and type of side
+chain-side chain interactions
+lost in double mutant
+VLN32 K96 4.4 1 buried hydrogen bond and 3 van
+der Waals contacts
+VLS91 R21 -0.5 no direct contacts, 8.3 Å apart
+VLS91 Y20 1.1 no direct contacts, 4.6 Å apart
+VLY96 R21 -1.1 1 hydrogen bond, partially buried
+VLY96 S100 1.0 1 van der Waals contact
+VHD32 K97 3.0 1 salt bridge and 2 van der Waals
+contacts
+VHY53 W62 0.7 1 van der Waals contact
+VHY53 W63 0.3 3 van der Waals contacts
+VHY53 L75 1.5 2 van der Waals contacts
+VHY53 D101 -0.2 12 van der Waals contacts
+VHW98 S100 0.4 2 van der Waals contacts
+VHW98 K97 1.8 8 van der Waals contacts
+VHW98 Y20 3.1 1 van der Waals contact
+a Coupling energies are defined as ∆∆Gint ) ∆∆GABfA′B +
+∆∆GABfAB′ - ∆∆GABfA′B′, where A and B represent wild-type residues
+and A′ and B′ represent the mutated residues. Intermolecular contacts
+were defined by atom pair distances (in Å) less than or equal to the
+following: C-C, 4.1; C-N, 3.8; C-O, 3.7; N-N, 3.4; N-O, 3.4;
+O-O, 3.3.
+20 Biochemistry, Vol. 42, No. 1, 2003 Li et al.on the periphery are more easily replaced by water in a
+nondisruptive manner than atoms at the center of binding
+interfaces (6, 38). Consistent with this idea, X-ray crystal￾lographic analysis of HEL mutants in complex with antibody
+D1.3, and of D1.3 mutants bound to HEL, have clearly
+shown that extensive water-mediated interactions at solvent￾accessible sites on the periphery may replace direct hydrogen
+bonds with little or no loss of binding affinity (16, 35).
+Moreover, we fail to observe such compensating interactions
+at the center of the HyHEL-63/HEL interface, where bound
+waters only partially occupy cavities created by side chain
+truncations, replacing only a few of the direct protein￾protein interactions lost upon mutagenesis (Figure 3). Double
+mutant cycles, where interactions between amino acids are
+treated within their native context, represent an improved
+method for dissecting binding energetics (43-45). Impor￾tantly, HyHEL-63 and HEL residues identified as hot spots
+by single mutant analysis were also found to make critical
+interactions in double mutant cycles. However, it must be
+noted that even interaction energies derived from double
+mutant cycles may include, in addition to direct interaction
+energies, indirect effects arising from neighboring residues,
+conformational changes, and solvent rearrangements (52, 57).
+Recently, several more sophisticated approaches have been
+described for probing hot spots and measuring interaction
+energies in protein-protein interfaces. Instead of only
+analyzing individual interactions, Schreiber and colleagues
+(52) examined binding units composed of the interacting
+residues and their neighbors to estimate the strength of
+hydrogen bonds in the TEM-1 â-lactamase/BLIP interface.
+A complex in which all side chains in the binding unit were
+replaced by alanine was taken as a reference state to which
+combinations of side chains were introduced. After using
+double mutant cycles to determine interaction energies for
+residue pairs in the absence of neighbors, the addition of
+neighboring residues allowed the evaluation of their coopera￾tive effects on the interactions. We took advantage of the
+relative accommodation of mutations of hot spot residue
+VLTrp92 of D1.3 to estimate the magnitude of the hydro￾phobic effect in the D1.3/HEL interface (36). By replacing
+VLTrp92 with residues bearing increasingly smaller side
+chains and determining the crystal structures and thermo￾dynamic binding parameters for each of the resulting mutant
+complexes, we demonstrated a correlation between binding
+free energy and apolar buried surface area that corresponds
+to 21 cal/mol/Å2
+, in excellent agreement with transfer free
+energy values for small hydrophobic solutes, but lower than
+the hydrophobic stabilization energy for protein folding. The
+thermodynamic map of the HyHEL-63/HEL interface de￾scribed here provides the necessary framework for the
+application of these, and related (58-60), methodologies to
+this system to further our understanding of how structural
+features contribute to the affinity and specificity of protein￾protein association reactions.
+REFERENCES
+1. Bogan, A. A., and Thorn, K. S. (1998) J. Mol. Biol. 280, 1-9.
+2. Lo Conte, L., Chothia, C., and Janin, J. (1999) J. Mol. Biol. 285,
+2177-2198.
+3. Sundberg, E. J., and Mariuzza, R. A. (2000) Structure 8, 137-
+142.
+4. Sheinerman, F. B., Norel, R., and Honig, B. (2000) Curr. Opin.
+Struct. Biol. 10, 153-159.
+5. Ma, B., Wolfson, H. J., and Nussinov, R. (2001) Curr. Opin. Struct.
+Biol. 11, 364-369.
+6. DeLano, W. L. (2002) Curr. Opin. Struct. Biol. 12, 14-20.
+7. Sundberg, E. J., and Mariuzza, R. A. (2002) AdV. Protein Chem.
+61, 119-160.
+8. Dall’Acqua, W., Goldman, E. R., Eisenstein, E., and Mariuzza,
+R. A. (1996) Biochemistry 35, 9667-9676.
+9. Leder, L., Llera, A., Lavoie, P. M., Lebedeva, M. I., Li, H.-M.,
+Se´kaly, R.-P., Bohach, G. A., Gahr, P. J., Schlievert, P. M.,
+Karjalainen, K., and Mariuzza, R. A. (1998) J. Exp. Med. 187,
+823-833.
+10. Manning, T. C., Schlueter, C. J., Brodnicki, T. C., Parke, E. A.,
+Speir, J. A., Garcia, K. C., Teyton, L., Wilson, I. A., and Kranz,
+D. M. (1998) Immunity 8, 413-425.
+11. Clackson, T., and Wells, J. A. (1995) Science 267, 383-386.
+12. Shapiro, R., Ruiz-Gutierrez, and Chen, C. Z. (2000) J. Mol. Biol.
+302, 497-519.
+13. Li, Y., Li, H., Smith-Gill, S. J., and Mariuzza. R. A. (2000)
+Biochemistry 39, 6296-6309.
+14. Li, Y., Grivel, J.-C., Visiwanathan, M., Srinivasan, M., and Smith￾Gill, S. J. (1997) FASEB J. 11, A1043.
+15. Goldman, E. R., Dall’Acqua, W., Braden, B. C., and Mariuzza,
+R. A. (1997) Biochemistry 36, 49-56.
+16. Dall’Acqua, W., Goldman, E. R., Lin, W., Teng, C., Tsuchiya,
+D., Li, H., Ysern, X., Braden, B. C., Li, Y., Smith-Gill, S. J., and
+Mariuzza, R. A. (1998) Biochemistry 37, 7981-7991.
+17. Otwinowski, Z., and Minor, W. (1997) Methods Enzymol. 276,
+307-326.
+18. Collaborative Computational Project No. 4 (1994) Acta Crystal￾logr. D50, 760-763.
+19. Navaza, J. (1994) Acta Crystallogr. A50, 157-163.
+20. Brunger, A. T. (1992) X-PLOR Version 3.1. A System for X-ray
+Crystallography and NMR, Yale University Press, New Haven,
+CT.
+21. Brunger, A. T., Adams, P. D., Clore, G. M., DeLano, W. L., Gros,
+P., Grosse-Kunstleve, R. W., Jiang, J.-S., Kuszewski, J., Nilges,
+M., Pannu, N. S., Read, R. J., Rice, L. M., Simonson, T., and
+Warren, G. L. (1998) Acta Crystallogr. D54, 905-921.
+22. Roussel, A., and Cambillau, C. (1989) TURBO-FRODO. In
+Silicon Graphics Geometry Partners Directory, pp 77-78, Silicon
+Graphics, Mountain View, CA.
+23. Pluckthun, A. (1992) Immunol. ReV. 130, 151-188.
+24. Wall, J. G., and Pluckthun A. (1995) Curr. Opin. Biotechnol. 6,
+507-16.
+25. Ward, E. S. (1992) J. Mol. Biol. 224, 885-888.
+26. Wulfing, C., and Pluckthun, A. (1994) J. Mol. Biol. 242, 655-
+669.
+27. Granzow, R., and Reed, R. (1992) Bio/Technology 10, 390-393.
+28. Rajpal, A., and Kirsch, J. F. (1998) Protein Sci. 7, 1868-1874.
+29. Padlan, E. A., Silverton, E. W., Sheriff, S., Cohen, G. H., Smith￾Gill, S. J., and Davies, D. R. (1989) Proc. Natl. Acad. Sci. U.S.A.
+86, 5938-5942.
+30. Pons, J., Rajpal, A., and Kirsch, J. F. (1999) Protein Sci. 8, 958-
+968.
+31. Wells, J. A., and de Vos, A. M. (1996) Annu. ReV. Biochem. 65,
+609-634.
+32. Atwell, S., Ultsch, M., and Kossiakoff, A. A. (1997) Science 278,
+1125-1128.
+33. Clackson, M. H., Ultsch, Wells, J. A., and de Vos, A. M. (1998)
+J. Mol. Biol. 277, 1111-1128.
+34. Schreiber, G., and Fersht, A. R. (1995) J. Mol. Biol. 248, 478-
+486.
+35. Fields, B. A., Goldbaum, F. A., Dall’Acqua, W., Malchiodi, E.
+L., Cauerhff, A., Schwarz, F. P., Ysern, X., Poljak, R. J., and
+Mariuzza, R. A. (1996) Biochemistry 35, 15494-15503.
+36. Sundberg, E. J., Urrutia, M., Braden, B. C., Isern, J., Tsuchiya,
+D., Fields, B. A., Malchiodi, E. L., Tormo, J., Schwarz, F. P.,
+and Mariuzza, R. A. (2000) Biochemistry 39, 15375-15387.
+37. Chacko, S., Silverton, E., Kam-Morgan, L., Smith-Gill, S., Cohen,
+G., and Davies, D. (1995) J. Mol. Biol. 245, 261-274.
+38. Janin, J. (1999) Structure 7, 277-279.
+39. Ramanadham, M., Sieker, L. C., and Jensen, L. H. (1990) Acta
+Crystallogr. B46, 63-69.
+40. Wilson, K. P., Malcolm, B. A., and Matthews, B. W. (1992) J.
+Biol. Chem. 267, 10842-10849.
+41. Madhusudan, Kodandapani, R., and Vijayan, M. (1993) Acta
+Crystallogr. D49, 234-245.
+42. Fersht, A. R. (1988) Biochemistry 27, 1577-1580.
+Mutational Analysis of an Antigen-Antibody Complex Biochemistry, Vol. 42, No. 1, 2003 2143. Carter, P. J., Winter, G., Wilkinson, A. J., and Fersht, A. R. (1984)
+Cell 38, 835-840.
+44. Ackers, G. K., and Smith, F. R. (1985) Annu. ReV. Biochem. 54,
+597-629.
+45. Horovitz, A. (1987) J. Mol. Biol. 196, 733-735.
+46. Fersht, A. R., and Serrano, L. (1993) Curr. Opin. Struct. Biol. 3,
+75-83.
+47. Honig, B., and Nicholls, A. (1995) Science 258, 1144-1149.
+48. Dao-pin, S., Anderson, D. E., Baase, W. A., Dahlquist, F. W.,
+and Matthews, B. W. (1991) Biochemistry 30, 11521-11529.
+49. Waldburger, C. D., Schildbach, J. F., and Sauer, R. T. (1995) Nat.
+Struct. Biol. 2, 122-128.
+50. Xu, D., Lin, S. L., and Nussinov, R. (1997) J. Mol. Biol. 265,
+68-84.
+51. Wibbenmeyer, J. A., Schuck, P., Smith-Gill, S. J., and Willson,
+R. C. (1999) J. Biol. Chem. 274, 26838-26842.
+52. Albeck, S., Unger, R., and Schreiber, G. (2000) J. Mol. Biol. 298,
+503-520.
+53. Wang, J. H., Smolyar, A., Tan, K., Lui, J.-H., Kim, M., Sun, Z.-
+Y. J., Wagner, G., and Reinherz, E. L. (1999) Cell 97, 791-
+803.
+54. Tormo, J., Natarajan, K., Margulies, D. H., and Mariuzza, R. A.
+(1999) Nature 402, 623-631.
+55. Sharp, K. A., Nicholls, A., Fine, R. M., and Honig, B. (1991)
+Science 252, 106-109.
+56. Nicholls, A., Sharp, K. A., and Honig, B. (1991) Proteins: Struct.
+Func. Genet. 11, 281-296.
+57. Fersht, A. R., Matouschek, A., and Serrano, L. (1992) J. Mol.
+Biol. 224, 771-782.
+58. Wang, W., Lim, W. A., Jakalian, A., Wang, J., Luo, R., Bayly,
+C., and Kollman, P. A. (2001) J. Am. Chem. Soc. 123, 3986-
+3994.
+59. Hodel, M. R., Corbett, A. H., and Hodel, A. E. (2001) J. Biol.
+Chem. 276, 1317-1325.
+60. Wang, W., Donini, O., Reyes, C. M., and Kollman, P. A. (2001)
+Annu. ReV. Biophys. Biomol. Struct. 30, 211-243. <
+BI020589+
+22 Biochemistry, Vol. 42, No. 1, 2003 Li et al.

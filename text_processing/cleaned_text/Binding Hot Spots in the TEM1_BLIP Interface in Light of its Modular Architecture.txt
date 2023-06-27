@@ -1,0 +1,467 @@
+Binding Hot Spots in the TEM1BLIP Interface in  Light of its Modular Architecture  D. Reichmann1  , M. Cohen1  , R. Abramovich1  , O. Dym2  , D. Lim3  N. C. J. Strynadka3 and G. Schreiber1    1  Department of Biological  Chemistry, Weizmann Institute  of Science, Rehovot,  76100, Israel  2  Department of Structural  Biology, Weizmann Institute of  Science, Rehovot, 76100, Israel  3  Department of Biochemistry  and Molecular Biology,  University of British Columbia,  Vancouver, Canada V6T 1Z3  Proteins bind one another in aquas solution to form tight and specific  complexes.
+Previously we have shown that this is achieved through the  modular architecture of the interaction network formed by the interface  residues, where tight cooperative interactions are found within modules but  not between them.
+Here we extend this study to cover the entire interface of  TEM1 -lactamase and its protein inhibitor BLIP using an improved method  for deriving interaction maps based on REDUCE to add hydrogen atoms and  then by evaluating the interactions using modifications of the programs  PROBE, NCI and PARE.
+An extensive mutagenesis study of the interface  residues indeed showed that each module is energetically independent on  other modules, and that cooperativity is found only within a module.
+By  solving the X-ray structure of two interface mutations affecting two different  modules, we demonstrated that proteinprotein binding occur via the  structural reorganization of the binding modules, either by a lock and key  or an induced fit mechanism.
+To explain the cooperativity within a module,  we performed multiple-mutant cycle analysis of cluster 2 resulting in a highresolution energy map of this module.
+Mutant studies are usually done in  reference to alanine, which can be regarded as a deletion of a side-chain.
+  However, from a biological perspective, there is a major interest to  understand non-Ala substitutions, as they are most common.
+Using X-ray  crystallography and multiple-mutant cycle analysis we demonstrated the  added complexity in understanding non-Ala mutations.
+Here, a double  mutation replacing the wild-type Glu,Tyr to Tyr,Asn on TEM1 (res id  104,105) caused a major backbone structural rearrangement of BLIP,  changing the composition of two modules but not of other modules within  the interface.
+This shows the robustness of the modular approach, yet  demonstrates the complexity of in silico protein design.
+   2006 Elsevier Ltd. All rights reserved.
+  *Corresponding author  Keywords: proteinprotein interaction; energetics; X-ray; structure-function;  hot spots  Introduction  The interest in the mechanisms of binding and  networking of proteinprotein interactions has  grown increasingly over the past years stemming  from the realization that much of the cellular  complexity is related to such interactions.
+The  ability of certain proteins to form specific stable  proteinprotein complexes is fundamental for  biological processes, including events such as  signal transduction, cell cycle regulation, immune  response etc.
+This is feasible due to the almost  unlimited potential to generate unique binding  sites on proteins, characterized by their shape  and surface chemistry.
+Much effort has been  invested in understanding the biophysical basis  allowing for proteins to interact in aqueous  solution.
+Mutational analysis of protein interfaces  has led to the conclusion that only a minority of  Abbreviations used: TEM1, TEM1--lactamase; BLIP, lactamase inhibitor protein; C1 to C6, cluster 1 to cluster 6;  SPR, surface plasmon resonance; PDB, Protein Data Bank;  WT, wild-type.
+  E-mail address of the corresponding author:  gideon.schreiber@weizmann.ac.il  doi:10.1016/j.jmb.2006.09.076 J. Mol.
+Biol. (2007) 365, 663679  0022-2836/$ - see front matter  2006 Elsevier Ltd. All rights reserved.interface residues bear most of the energetic cost  of binding; these are called hotspots and they  are defined as residues that cause a large change  in binding energy upon mutation.
+The biophysical basis for hot spots is under intense  scrutiny.13 One of the critical issues in this  area is our poor ability to properly predict  which residues will be hot spots, and what is  their contribution to binding.
+This is true for the  simple case of mutations to Ala, and worse for  mutations to the other 19 amino acids.4,5 One  possible explanation for the complexity of the  binding interface is that one may have to  interpret mutagenesis results of single residues  in light of their environment, and not necessarily  the sum of the parts.6  Based on sequence and structural analysis,  several general rules have been proposed to  explain the features of interface hot spots.
+  Although these rules appear useful for the  analysis of specific interfaces, they break down  when applied to a larger set of proteinprotein  interactions, underlining the extreme variation in  size, shape, amino acid character and solvent  content of proteinprotein interfaces.7,8 This led to  the development of a number of computer  programs with predictive power concerning the  energetic composition of binding sites, and prediction of an energetic cost of interface amino  acids.4,5,9 While much improvement has been  achieved in recent years, the overall success is  still limited.
+  In a previous study, we have shown that the  interface between TEM1 and BLIP is built in a  modular fashion, each module being comprised  of a number of closely interacting residues, with  few interactions between the modules.
+We  demonstrated that the effects of mutations in  one module are additive in respect to residues in  neighboring modules, but cooperative within  their module.
+As a result, the structural and  energetic consequences of the deletion of entire  modules are smaller then expected.10 Thus, we  suggested that hot spots can be understood only  within the frame of their module, and that nonlinear effects, such as cooperativity and non-direct  interactions have to be taken into consideration.
+  Here, we verified our theory regarding modularity of the interface by extending the mutation study  of the TEM1BLIP complex to the entire interface,  measuring the energetic contribution of most  combinations of pairwise mutations, whether  within or between modules on binding.
+We also  show an improved method to derive the network  interaction map of the interface.
+Using this, we  show that indeed, each module is independent of its  neighbor within the TEM1BLIP interface.
+Moreover, solving the X-ray structure of two interface  mutations we demonstrate that proteinprotein  binding occurs via the structural reorganization of  the binding modules, while each module adapts  either the lock and key model11 or the inducedfit model.12  Results  Deriving a high-resolution interface contact map  In the past decade the network model has been  applied in different aspects of biology to obtain  useful insights into protein structure, folding,  stability, regulation and evolution.
+A network  representation requires the depiction of a system  as a set of nodes and edges that constitute the graph.
+  In the case of proteins, residue and atom-based  graphs were used to represent the interaction  networks within the protein structure.1315 Here,  the amino acid residues are the nodes and the edges  are the interactions between them.
+Clustering of  such networks defined highly clusters-forming  residues, which were suggested as hot spots.13  However, one of the main limitations of this  approach lies in the difficulty to obtain a good  physical definition for the non-covalent bonds  between residues, from which the energetic contribution of the contact (edges in the graph) may be  estimated.
+The most common approach to define  such interactions uses a combination of distance  thresholds and chemical character of the interacting  residues.
+For example, the CSU method16 was  successfully applied for a number of detailed  structural protein analyses.17,18 The drawback of  this method is that it adds some false positive edges  that increase the noise of the interaction network  and thereby require a secondary clustering analysis.
+  Here, we introduced a stricter mean to represent  interactions by the use of the REDUCE and the  PROBE programs, developed by the group of Jane  and David Richardson (see Materials and Methods).
+  REDUCE adds hydrogen atoms to all heavy atoms,  and allows side-chain rearrangement for H-bond  optimization.
+PROBE defines interactions by rolling  a ball with radius of 0.25  along the Van der Waals  surface and defining the points of inter-atomic  contacts.
+While this method gives an excellent  quantitative description of H-bonds and Van der  Waals interactions, it misses some of the aromatic  and electrostatic interactions because their distance  and angle restrictions on physical meaningful bonds  are not within the simple definitions of Van der  Waals distances probed by PROBE.
+Therefore, we  added a modified version of the NCI server to  identify pipi and cationpi interactions, and the  PARE server to identify chargecharge interactions  (Figure 1(a), see Materials and Methods).
+Once all  inter-atomic contacts were listed, they were integrated into their respective amino acids and  summarized in a matrix containing all the interface  interactions between residues from both proteins.
+  The procedure is explained in a flow chart diagram  in Figure 1(b).
+The connectivity map of the TEM1  BLIP interface, showing only inter-protein interactions is drawn in Figure 2(a).
+This map shows six  clean clusters of interactions, without the need to  apply additional clustering methods to separate  between them.
+The main difference between this  664 Binding Hot Spots in the TEM1BLIP Interfacemap and the one published before10 is the division  of C3 into two separate clusters, C3 and C4.
+The  non-covalent interactions within or between proteins can be divided into three: backbonebackbone  (bb), side-chainbackbone (sb) and side-chainsidechain (ss).
+Mutational analysis is probing only the  latter two, while double-mutant cycles probes only  ss interactions.
+To relate connectivity maps to  mutagenesis results, ss interactions are represented  as solid lines, and sb interactions as dotted lines,  arrows point to residues that contribute backbone  atoms toward the interaction (Figure 2(a)).
+Since a  mutagenesis to Ala removes only side-chains, C  atoms were considered as backbone atoms.
+  The crystal structure of the TEM1BLIP complex  (PDB code 1JTG) contains two copies of the complex  in the asymmetric unit (chains A and C for TEM1  and B and D for BLIP).
+Contact maps were derived  for both copies of the complex (Figure 2(a) versus (b))  to compare their cluster organization.
+The interaction map showed the same cluster organization for  both duplicates, with the exception of small changes,  indicating minor structural differences between the  two.
+C1 (D49 on BLIP and S130, S235, R243, K234 on  TEM1), C2 (three BLIP residues K74, F142, Y143 and  two TEM1 residues E104, Y105) and C3 (two BLIP  residues W150 and R160 and two TEM1 residues  Q99 and N100) are similar between the two  complexes.
+C4 in the A-B complex contains one  BLIP residue (W162) interacting with three TEM1  residues (V103, P167 and E168), while in the C-D  complex W162 interacts only with E168 and V103.
+In  the A-B complex the C5 cluster is formed by four  BLIP residues (F36, S39, Y50 and Y53) and four  TEM1 residues (P107, M129, V216 and K111).
+  Cluster C6 is the smallest cluster, containing two  BLIP residues (S71 and S113) and one TEM1 residue  (E110).
+Interestingly, rotamers of two residues from  clusters C5 and C6, BLIP S113 and TEM1 M129, have  a different angle between the two complexes,  suggesting flexibility of these residues (Figure 3).
+  An interaction between TEM1 E110 and BLIP S113 in  chains A-B does not exist in chains C-D. In the  interface of the C-D chains C5 is split into two,  forming one cluster containing mostly sb interactions (TEM1 residues M129, K111, H112 and BLIP  residues F36, S35) and the ss interactions, BLIP Y50  TEM1 and BLIP F36TEM1 M129.
+Overall, this  analysis demonstrates that the cluster composition  of a proteinprotein interface is a stable feature, but  that some flexibility exists for movements within  clusters, and the definition of their exact boundaries.
+  Mutation analysis of the TEM1BLIP interface  Previously we have thoroughly characterized the  inter and intra relations of C1 and C2.10,19 Here, we  extended this study to include the remaining four  clusters: C3C6 by mutating most residues to  Figure 1.
+Defining interface interaction maps.
+(a) A  slice through a small section of the binding interface  showing TEM1 residues Y105 and E104 in blue, BLIP K74  in green and hydrogen atoms in white.
+The atom contact  surfaces are shown as colored dots.
+The probe sphere  (orange ball) is rolled over the surface of each atom, leaving  a contact dot only when the probe touches another not  covalently bonded atom.
+The dots are colored by local gap  width between the two atoms: bright green at perfect Van  der Waals contact distance, clashes are shown by yellow  and red dots.
+When suitable H-bond donor and acceptor  atoms overlap, the dots are pale green, forming lens shapes  (marked as HB).
+Ionic interactions were calculated using  PARE and are shown by a line connecting two charged  atoms (blue and red balls).
+(b) A flow diagram of the  method used to produce interface contact maps.
+  Binding Hot Spots in the TEM1BLIP Interface 665Figure 2.
+Cluster analysis of the TEM1BLIP interface.
+The interactions between TEM1 and BLIP residues located  within the interface were extracted as shown in Figure 1.
+The crystal structure of the TEM1BLIP complex (PDB code 1JTG)  contains two copies of the complex in the asymmetric unit (chains A and C for TEM1 and B and D for BLIP).
+A connectivity  map was derived for both complex duplicates ((a) for chains AB and (b) for chains CD).
+TEM1 and BLIP residues are nodes  in the graph (red squares and blue circles, respectively).
+Three interaction types are shown in the map: side-chainsidechain (continuous lines), backboneside-chain (dotted lines) and where both side-chainside-chain and backbonesidechain interactions were found between the same pair of residues (continuous lines with arrows).
+The arrows point towards  the residues that contribute the backbone to the interaction.
+For example, the dotted line between TEM N100 and BLIP R160  indicates a side-chainbackbone interaction, with N100 contributing the backbone atoms.
+The interface was divided into  six clusters.
+Alignments of the interface clusters from TEM1BLIP (complex-1JTG), TEM1 (unbound-1BTL) and BLIP  (unbound41) structures are shown in (c).
+BLIP residues of bound and unbound structures are colored in blue and cyan,  respectively.
+TEM1 residues from the bound complex are in red and from the unbound proteins in yellow.
+The backbone  atoms are colored gray.
+BLIP and TEM residues are labeled using blue and red fonts, respectively.
+  666 Binding Hot Spots in the TEM1BLIP Interfacealanine and measuring the effects of mutation on  binding.
+All interactions were measured by heterogeneous phase detection using the multi-channel  surface plasmon resonance ( SPR) as implemented in  the ProteOn XPR36 protein interaction array  system (BioRad).
+Analysis of SPR data is inherently  problematic, and has to be done with great care.2022  For this study, five different TEM1 proteins were  immobilized on five different channels on the chip  (leaving one empty for a blank subtraction),  subjected to six concentrations of BLIP in a single  run (Figure 4(a) and (b)).
+Kinetic binding constants  were determined directly from the SPR traces using  the BIAevaluation 4.1 package (see Materials and  Methods).
+In addition, we determined the equilibrium response at each BLIP concentration, from  which the affinity can be directly assessed using the  law of mass action.
+In Figure 4(d) and Table 1 we  compare the G values obtained from equation (1)  (ratio of kinetic data) and equation (4) (mass action,  see the Materials and Methods), showing a very  good fit between the two.
+A third method of analysis  used here is to consider only values of kd to  determine Gkd  .
+The logic behind this is as follows,  for systems that obey equation (1):  KA  ka  kd  1  the change in free energy upon mutation (GKA  )  can be related to the kinetic rate constants according  to:  DDGKA  DDGz  ka  DDGz  kd 2  Thus, the free energy contribution of a specific  residue towards complex stability can be divided  into its contribution to the rate constants of association and dissociation.
+The rate of association is  dictated primarily by long-range electrostatic  interactions,23 while the rate of dissociation is  dictated by short-range interactions.19 Thus, values  of Gkd reflect better the contribution of a residue  to its close environment.
+Where possible, the  influence of mutations on binding, as well as double  and multiple mutant cycles were analyzed using the  three methods (Tables 14).
+  The change in free energy of binding (G) for  single mutants in clusters C3C6 are presented in  Table 1, and for combinations of mutations in Table  2.
+The free energy changes for single mutations on  BLIP are well correlated with previously published  data obtained using a -lactamase inhibition  assay.24 Moreover, we showed in a previous publication that G values of TEM1BLIP interactions  measured by SPR are similar to values obtained  from either a -lactamase inhibition assay or from  equilibrium titration giving a confidence to the  analysis done here.25 Overall, mutations to alanine  of BLIP residues are less tolerated than mutations on  TEM1 (Figure 5).
+One of the possible reasons for the  robustness of TEM1 residues to mutagenesis is that  many of the BLIP side-chains interact with atoms on  TEM1 that are not altered by mutagenesis, either  backbone, C or C (Figure 2(a)).
+Half of the TEM1  interface residues contribute their backbone atoms  to binding, while only one third of the BLIP  backbone atoms are involved in binding (Figure  5(b)).
+No backbonebackbone interaction and few  Cbb or C-C interactions were found between  TEM1 and BLIP.
+  The contact maps in Figure 2(a) and (b) show  that the side-chains of residues P107, P167, N170  (TEM1) and S113 (BLIP) form interactions with  the second protein only in either chains AB or  chains CD (but not in both chains).
+These  residues are located in clusters C2 to C6.
+We  prepared mutations to Ala for four of them (P167  did not fold) and measured their contribution to  binding.
+All three mutations did not cause a  change in the free energy of binding of the  complex, suggesting that the minor changes in  the cluster composition between the two repeats  of the complex in the asymmetric unit are a result  of neutral movements of the side-chains, allowing  them to move without penalty.
+In other words,  the cluster composition of residues that contribute  to binding did not change showing the inherent  robustness of the cluster approach in defining  interfaces.
+  Free energy relationships within and between  clusters  The binding free energies of proteins with mutations located within the same cluster are given in  Table 2A, whereas G for mutations located in  two different clusters are given in Table 2B.
+The data  were analyzed according to changes in the rate of  dissociation (Gkd  ), the affinity as calculated from  the ratio of ka/kd (GKA) and the affinity as calculated from the mass action signal (GKA(ma)).
+  In terms of experimental errors, Gkd is the most  precise as it does not depend on instrument artifact  and protein concentrations as GKA.
+In addition,  Gkd is a direct measure of the strength of the  short-range interactions, which are related to the  cluster architecture while GKA is also a reflection  of the rate of association, which is influenced by  longer-range effects.
+Mostly, the change in free  energy caused by mutations in clusters C3C6 are  additive, with the non-additivity being much less  pronounced than in clusters C1C2.
+Still, the  analysis of clusters C3C6 points out again that  mutations located in different clusters are additive  to each other (Figure 6(b)) while mutations located  in one cluster may also be sub-additive to one  another (Figure 6(a)).
+  An alignment of the unbound and bound structures is shown in Figure 2(c).
+Backbone movements  are in all cases relatively small, while most of the  rearrangements upon binding can be attributed to  side-chain movements, which are quite significant.
+  No relation is found between the magnitude of  movement and the energetic contribution of the  residue to binding.
+  Binding Hot Spots in the TEM1BLIP Interface 667Detailed analysis of the cooperative network in  cluster 2  Of the six clusters between TEM1 and BLIP, only  C1 and C2 are highly cooperative.
+A detailed  analysis of the cooperativity within C1 was done  previously.19 Here, we did a multiple-mutant  analysis of C2, which includes side-chain contributions from K74, F142 and Y143 from BLIP and  E104, Y105 and N170 from TEM.
+As N170 did not  contribute energetically, it was omitted from the  analysis.
+The results of this analysis are in Table 3A  and B. The small differences in values of G  given in this Table, compared to Tables 1 and 2 are  due to the different instrument (Proteon F, BioRad)  used for these measurements (data taken from  Reichmann et al.  10).
+Still, the values of both  measurements are within the experimental error  (2 for GKA = 1.4 kJ/mol) and as all the data in  Table 3 were done using the Proteon F we chose to  leave them as measured for better self-consistency  of the mutant cycles.
+In Table 3B in brackets are the  residues mutated in the background of the circle, for  example the Gint value of 10.3 kJ/mol calculated for K74 (142) and E104 (Y105) is obtained from  the following calculation:  DDG74;142;104;105  DDG74;142;105  DDG142;104;105   DDG142;105  13:1  20  6:3  2:9  10:3  In the center of C2 is the salt-bridge between E104  and K74.
+Gint between K74A and E104A is  14.8 kJ/mol within its native environment (Table  3B).
+Mutating either Y143A or Y105A has only a  small effect on the K74E104 interaction (Gint of  14.6 and 12.4 kJ/mol, respectively).
+F142A has a  somewhat larger effect (Gint of 9.9 kJ/mol) and  removing all the surrounding residues (F142, Y143  (BLIP) and Y105 (TEM1)) reduced Gint of K74  E104 by half to 7 kJ/mol, showing that the strength  of this salt-bridge is partially dependent on its  immediate environment.
+Interestingly, the effect of  the environment of this salt-bridge is additive, with  the single mutation of F142A reducing it by 4.9 kJ/  mol (14.89.9), Y105A by 2.4 kJ/mol (14.812.4),  Y143A by 0.2 kJ/mol (14.814.6), (compare 4.9+2.4+  0.2 = 7.5 kJ/mol to the multiple mutant reduction of  Gint by 7.8 kJ/mol (14.87).
+  A second interaction in C2 is between the aromatic  residues F142-BLIP and Y105-TEM1 (Table 3).
+The  structure of the F142 mutant did show a major  rearrangement within C2,10 thus, the influence of  neighboring residues on this interaction is expected.
+  Gint of F142 and Y105 equals 5.2 kJ/mol; this  interaction is strengthened to 9.5 kJ/mol in the  E104A background, but is reduced to 0.7 kJ/mol in  the K74A background.
+Surprisingly, the almost  energetically neutral mutation of Y143A (BLIP) has  a major negative effect on the interactions of F142  with Y105.
+The reason for this can be seen when  probing the interactions of Y143 with Y105 in the  presence or absence of the F142A mutation.
+Gint  of Y143 with Y105 in the background of the F142A  mutation is 6.5 kJ/mol, indicating a strong negative  cooperativity between these two residues, up from  3.6 kJ/mol within it native environment.
+Combining  these data with the analysis done previously on  C1,19 clearly indicates that the energetics of both  clusters is complicated by environmental (cooperative) effects, while the energetic relationship  between different clusters is simply additive.
+To  better understand the cooperative behavior within  clusters, we determined the structures of two  TEM1BLIP complexes containing hot spot mutations (D49A of C1 and F142A of C2) in BLIP.
+  Figure 3.
+An overlay of C5 and C6 residues from  unbound and bound complexes.
+Two copies of the wildtype complex are aligned (chains A-B colored red and blue,  respectively, and chains C-D colored in violet).
+Unbound  TEM1 residues are shown by yellow, and unbound BLIP  residues are in cyan, similarly to Figure 2(c).
+Bound BLIP  and TEM1 residues are labeled using blue and red fonts,  respectively.
+  668 Binding Hot Spots in the TEM1BLIP InterfaceHot spots in proteinprotein interfaces:  two major mechanisms  A major hindrance in evaluating the energetics of  mutant proteins is the potential for a structural perturbation upon mutation.
+Here, we investigate the  structure of the BLIP D49A mutant in complex with  TEM1, and compare it to the structure of the F142A  mutant determined previously.10 These two mutations are located in clusters C1 and C2, respectively.
+  D49 is the only BLIP residue in C1, interacting with  four TEM1 residues, S130, K234, S235 and R243.
+A  superimposition of the structure of the D49A mutant  in complex with TEM1, on the structure of the wildtype complex does not show significant structural  rearrangements within or outside the interface  region (Figure 7).
+Overlaying the unbound structures of TEM1 and BLIP on the complex structures  shows that the four TEM1 residues on C1 are prearranged before complex formation (Figure 7).
+Only  D49 has to flip-in upon complexation.
+The preFigure 4.
+Binding of TEM1 WT with: BLIP WT (a) and  BLIP H148A ((b) and (c)).
+The measurements were done  using the ProteOnTM XPR36 Protein Interaction Array  System (BioRad).
+The TEM1 proteins were immobilized  on the sensor chip by amine coupling on five channels,  leaving one channel as blank.
+Binding was measured at six  different concentrations of the BLIP proteins (BLIP WT:  18.75 nM, 37.5 nM, 75 nM, 150 nM, 300 nM, 600 nM; BLIP  H148A: 100 nM, 300 nM, 500 nM, 1000 nM, 1500 nM,  2000 nM), which were run simultaneously across the ligand  channels.
+The affinity constants, KAwere derived from both  the ratio between ka/kd and from fitting the equilibrium  response (Req) at each concentration of BLIP to the mass  action equation, KA(ma) (c).
+KA and KA(ma) values of the  TEM1 WTBLIP H148A interaction are 1.2  107 and  1.3 107  , respectively.
+Correlation between free energy  values obtained from both, independent fitting methods  (GKA determined from ka/kd and GKA(ma) determined  from the equilibrium response) are shown in (d).
+  Table 1.
+Binding free energy differences (G) of  mutations of interface residues on TEM1 and BLIP  TEM1 BLIP Gkd GKA GKA(ma)  WT WT 0.0 0.0 0.0  Q99 WT 1.8 1.8 2.4  N100 WT 0.6 1.9 1.6  V103 WT 7.9 8.0 8.7  E104 WT 9.8 7.4 7.9  P107 WT 0.7 1.6 1.3  E110 WT 15.4 17.0 18.1  M129 WT 1.9 3.1 3.4  E168 WT 0.1 0.3 0.5  V216 WT 3.9 1.7 1.4  WT F36 11.1 13.4 14.0  WT H41 13.3 13.6 14.4  WT D49 7.1 7.0 7.7  WT Y50 3.2 1.7 1.1  WT Y53 9.7 8.7 8.1  WT S71 2.4 1.5 1.7  WT K74 14.5 16.0 16.6  WT W112 12.9 12.6 12.1  WT S113 0.4 0.7 0.4  WT F142 10.1 10.5 10.1  WT H148 10.9 11.5 12.3  WT W150 15.4 17.8 18.3  WT R160 7.7 9.3 9.7  WT W162 9.7 9.8 10.0  Binding energies (in kJ/mol) were measured with TEM1 proteins  immobilized to the sensor chip.
+KA-ma is the equilibrium affinity  constant derived by action mass analysis.
+The change in free  energy upon mutation, GKA is calculated from in kJ/mol.
+The  change in Gkd upon mutation, is a good measure of the change  in transition state energy upon mutation, which is calculated from  RT ln (kd  wt/kd  mut).
+  Binding Hot Spots in the TEM1BLIP Interface 669assembly of the TEM1 interface in C1 may explain  its structural rigidity upon mutation of D49A.
+  The structure of the F142A mutant located in C2  has been published by us previously (PDB code is  1SOW).
+In this case a major rearrangement of most  side-chains of C2 was observed upon binding, with  a side-chain relaxation towards the unbound structure of C2 being observed in the F142A mutant  structure (Figure 2(c)).
+As has been shown in Table 3,  the energetic contribution of F142 depends strongly  on its environment.
+Overall, unlike D49A, the whole  organization of C2 seems to be affected by the F142A  mutation.
+Both the thermodynamic and structural  analysis of C2 strongly suggests that this cluster is  highly cooperative, and that the F142 residue has a  major part in holding this cluster together.
+Any  mutation in this cluster affects other, neighboring  interactions and thus this cluster should be viewed  as one binding unit.
+  Conformational rearrangement upon binding is  observed also for C3 and C6 (Figure 2(c)) and less  for C4 and C5.
+None of the C3 residues in the  complex structure have the same rotamer position  as in the unbound structure.
+It is possible that the  non-aditivity between TEM1 Q99 and BLIP W150  is caused by the flip of the W150 aromatic ring,  Table 2.
+Binding free energy differences (G) and interactions energies (Gint) between residues on TEM1 and BLIP  Cluster TEM1 BLIP Gkd Gkd (int) GKA  GKA  (int)  GKA  (ma)  GKA  (ma-int)  A. Binding free energy differences (G) and interactions energies (Gint) between pairs of residues located on the same cluster  C3 Q99 H148 15.1 2.4 13.4 0.0 14.7 0.0  Q99 W150 13.3 3.9 16.0 3.6 15.8 4.9  Q99 R160 10.4 1.0 15.7 4.5 15.4 3.3  N100 H148 9.6 0.7 8.8 0.9 9.7 1.0  N100 W150 15.9 1.1 18.2 2.2 18.7 2.0  N100 R160 5.9 1.1 6.6 0.8 7.7 0.5  C4 E168 W162 8.5 1.1 8.7 0.8 8.8 2.3  V103 W162 15.4 2.2 17.7 0.2 17.7 1.6  C5 M129 Y53 12.7 1.2 15.1 1.1 15.4 0.7  M129 Y50 1.0 2.3 1.5 0.1 1.7 0.5  M129 F36 11.2 1.8 15.2 1.4 13.8 3.5  P107 F36 Weak binding  P107 H41 10.2 3.8 11.1 0.9 10.9 2.2  P107 Y50 1.3 1.2 2.7 0.6 2.0 0.4  P107 Y53 8.1 2.3 10.0 2.9 9.9 3.1  V216 Y50 6.2 1.0 3.7 0.3 3.4 0.9  C6 E110 S113-S71 Weak binding 21.1 1.7  E110 S113 15.4 0.4 19.1 1.4  E110 S71 Weak binding 21.0 1.2  WT S71-S113 3.0 0.2a 2.7 1.9a 2.2 0.8a  B. Binding free energy differences (G) and interaction energies (Gint) between pairs of residues located on different cluster  E104 S113 8.6 1.5 7.8 1.1 9.2 1.7  Q99 W112 14.1 0.7 14.8 0.3 15.1 0.5  Q99 W162 12.6 1.1 12.1 0.5 12.4 0.6  Q99 K74 15.5 0.8 17.2 0.6 18.4 0.7  Q99 F142 12.6 0.7 11.8 0.1 13.3 0.8  Q99 D49 9.1 0.1 9.2 0.3 9.6 0.5  N100 W112 11.0 1.3 11.7 0.9 11.8 1.3  N100 W162 7.6 1.5 8.8 0.8 8.9 0.1  N100 R160 5.9 1.1 6.6 0.8 7.0 1.1  N100 K74 13.4 0.4 14.7 0.5 15.0 0.1  N100 F142 9.4 0.1 9.6 1.3 10.7 2.2  N100 D49 5.7 0.9 6.6 1.4 6.7 0.6  V103 R160 Weak binding 18.2 0.2  V103 F142 Weak binding 18.9 0.1  E168 W112 11.8 1.0 11.7 0.7 11.6 1.0  E168 W150 15.0 0.2 17.2 0.3 17.7 1.1  E168 R160 6.2 1.3 9.7 0.6 10.0 0.2  E168 K74 14.7 0.4 17.0 1.3 17.5 0.4  E168 F142 10.3 0.4 10.8 0.9 11.3 0.7  E168 D49 6.6 0.4 6.3 0.4 7.7 0.5  E110 Y50 12.8 0.6 16.6 1.3 17.6 0.7  M129 S113-S71 5.7 0.8 7.0 1.2 7.3 1.7  V216 F142 6.4 0.3 9.2 0.7 10.2 1.5  E104 S113-S71 12.4 0.3 10.8 0.7 10.9 0.8  Binding energies (in kJ/mol) were measured with TEM1 immobilized to the sensor chip.
+  KA is calculated from ka/kd.
+  KA(ma) is calculated from the change in signal upon change in concentration (mass-action).
+  Gint is for interaction energies, calculated using double mutant cycles.
+a Gint calculated for an intra-protein double-mutant cycle.
+  670 Binding Hot Spots in the TEM1BLIP Interfacewhich further results in a movement of all the  other side-chains constituting the C3 cluster  (Figure 2(c)).
+  Structural perturbation upon non-alanine  mutations  So far we discussed in details the energetic and  structural consequences of mutations to Ala, which  can be regarded as a pure deletion of a side-chain.
+  However, from a biological perspective, there is  major interest in understanding non-Ala substitutions, as they are the most commonly occurring  mutations.
+In this case, in addition to losing existing  interactions, new interactions may be formed.
+  Understanding of non-alanine mutations is a prerequisite for protein design.
+  We have shown that Ala mutations in the TEM1  BLIP interface cause minor structural perturbation,  which effects are restricted to the cluster of the  mutated residue.
+In order to analyze the contribution  of non-alanine mutations, two residues in the TEM1  protein, i.e. E104 and Y105, were changed to Y104 and  N105, respectively.
+This mutation is between polar  residues of approximately the same size, and therefore is not expected to cause major structural  rearrangements.
+Binding affinities of the TEM1  104Y-105N (TEM1-YN) protein toward several BLIP  proteins were measured, and the complex structure of  TEM1-YN with BLIP-WT was determined (PDB code  is 2B5R).
+Indeed, the YN mutation resulted only in a  reduction of 4.2 kJ/mol of binding energy, which is  slightly less then that observed for the Ala mutations  of these residues.
+Looking at the structure of the YN  mutation, one observes only a minor change in TEM1  (Figure 8(a)).
+However, to our surprise, the small  changes introduced to the sequence of TEM1 lead to a  major local backbone-rearrangement of the hairpin  loop between residues 4653 in BLIP (Figure 8(a)).
+  The hairpin loop (4653) between strands 2 and 3 in  the BLIP protein became untwisted, with the first  residues of the hairpin loop (4649) showing the  largest movement, up to 6.4 . This major movement  of the loop is not observed in the unbound BLIP  structure, where the B-factor of this loop is rather low.
+  This clearly indicates that the rearrangement of BLIP  is a direct consequence of the mutations on TEM1,  apparently representing a new low energy state.
+  Interestingly, the untwisting of the loop occurs in such  a way that allows the active group BLIP-D49 to  remain in the same position as in the wild-type (WT)  complex, thus keeping its crucial interactions with  four TEM1 amino acids in cluster C1.
+  The movement of the second part of the loop (50  53) leads to flipping of both the Y50 and Y51  residues.
+The new position of the Y50 residue in  BLIP allows the formation of new bonds between  TEM1 and BLIP, among which are cation and  hydrogen bonds between Y50 in BLIP and N104 in  Table 3.
+Multiple-mutant analysis of TEM1 and BLIP  mutations of residues located in Cluster 2  The Table is divided into six boxes, each box presents the results  of one set of a multiple-mutant cycle analysis between TEM1 and  BLIP mutants, where Gint between a pair of residues is  calculated in the absence of the residues in parenthesis.
+Values  were calculated from GKA(ma).
+  Table 4.
+Multiple-mutant analysis between residues in  cluster 2 and cluster 5  A. Binding free energies (Gkd  ) between residues in cluster C2  and C5  BLIP TEM1WT TEM1YN TEM1AA  WT 0.0 4.2 5.9  H41A 13.3 16.6 18.2  Y50A 3.2 4.7 3.9  Y53A 9.7 13.6 16.0  F142A 10.1 6.6 7.3  K74A,F142A, Y143A 14.7 11.3 12.1  B. Coupling energies (Gint) between residues in cluster C2  and C5  BLIP TEM1YN TEM1WT TEM1(YN-WT)  H41A 0.9 1.0 0.1  Y50A 3.7 1.2 2.5  Y53A 0.6 0.4 0.2  F142A 7.7 8.7 1.0  K74A, F142A, Y143A 7.6 8.5 0.9  Coupling energies (G) are calculated between pairs of residues  according to: Gint=Gi0+Gj0G00 with i and j representing the wild-type residues and 0 being the respective Ala  mutant (see Material and Methods).
+Negative values point to  repulsive interaction, and positive values indicate attractive interactions.
+TEM1YN-WT is a difference between Gint (TEM1YN)  and Gint (TEM1WT).
+  Binding Hot Spots in the TEM1BLIP Interface 671TEM1, and between Y50 in BLIP and S130 in TEM1.
+  A minor rotation of K74 allowed keeping the  hydrogen bond with N105 as in the WT complex  (Figure 8(b)).
+Also of interest is that the OH of Y51 in  the mutant is pushed to the same place, as is OH of  Y50 of the wild-type BLIP.
+As a result of the double  mutation in positions 104 and 105 of TEM1, clusters  C2 and C5 are changed completely due to formation  of new interactions.
+Importantly, all other clusters in  the complex remained unaffected (Figure 8(c)).
+  In order to evaluate the thermodynamic changes  underlying this major structural rearrangement we  determined the influence of the TEM1-YN mutant  on residues located in proximity, in C2 and C4 (Table  4).
+Overall, despite the large structural perturbation  caused by the TEM1-YN mutation, the affinity of the  complex was reduced by only 4.2 kJ/mol, which is  even less than observed for the Ala mutations.
+  Multiple mutant cycle analysis of TEM1-YN with  either BLIP F142A or BLIP K74A-Y142A-Y143A  shows that Gint values on TEM1-YN are similar  to those measured for the TEM1-AA mutations  (Table 4B).
+In other words, in respect to C2 no energy  is gained by the TEM-YN mutation.
+The same is true  for the cycles done between TEM1-YN and H41A or  Y53A on BLIP (Table 4B right column).
+The only  significant interaction measured was with Y50A on  BLIP (2.5 kJ/mol).
+In the wild-type structure, Y50  is part of C5, but in the cluster map of the TEM1-YN  mutant this residue is shifted to C2 (to the same  cluster as TEM1-YN).
+The data suggest that this new  interaction is a major cause for the rearrangement of  the loop on BLIP upon mutation of residues on  TEM1.
+Y50A on BLIP is a mutation that results in  tighter binding towards TEM1; in other words, this  tyrosine has a negative effect on binding (Table 1).
+In  the TEM1-YN structure, Y50 adapts a more positive  role in stabilizing the complex by forming interactions with a large number of BLIP residues (for  details see Figure 8(c)).
+It is interesting to note that  the Y50A mutant on BLIP also caused a reduction in  the binding affinity towards -lactamase type SME1.
+This TEM1 protein is highly similar to the TEM1  protein,24 but Tyr and His residues are found at  positions 104 and 105, similar to the TEM1-YN  mutation introduced by us.
+  The data presented here imply that the structural  rearrangement caused by TEM-YN represents a new  energetical minimum of the complex.
+Counting the  number of interacting dots in the wild-type and  TEM-YN structures (dots are produced by PROBEsee Materials and Methods) showed that the number  of dots is the same for both complexes.
+However, the  mutant complex contains more inter-protein interactions than the wild-type complex, while the wildtype complex has more intra-protein interactions  (Figure 8(d)).
+G of binding is a result of the overall  change in energy of the system.
+In the case presented  here, it seems that interactions stabilizing BLIP were  replaced by interactions stabilizing the complex,  leading overall to a new energetical minima of the  system.
+  Discussion  We have previously suggested, based on the  analysis of the interactions within and between  modules C1 and C2 of the TEM1BLIP interface that  the effect of mutations is limited to within their  Figure 5.
+(a) Changes in binding free energies for TEM1 (black) and BLIP (gray) upon mutation to alanine.
+The change  in free energy of binding upon mutation (GKA), is in kJ/mol.
+The TEM1 and BLIP residues are sorted by their GKA  values.
+(b) TEM1 and BLIP residues forming the interface.
+The interface is depicted by sphere representation, while noninterface is shown as surface.
+Mutated residues on each of the two binding sites are colored according to the contribution  of side-chains (not including C  ) to the free energy of binding (C is intact in Ala and therefore not changed in the mutant).
+  Neutral residues (G= 02 kJ/mol) are shown in pink, small changes (G= 24 kJ/mol) are in orange and significant  hot spots (G> 4 kJ/mol) are colored in red.
+Interface residues that were not analyzed are colored in wheat.
+Backbone  atoms (+C atoms) are colored in grey.
+  672 Binding Hot Spots in the TEM1BLIP Interfacecluster.10 Here, we extended this study to the entire  TEM1BLIP interface in order to further establish its  modular nature.
+For the purpose of this work we  refined the method of producing contact maps, by  defining interactions after hydrogenation of all  heavy atoms (using REDUCE), and defining the  contacts using the programs PROBE, NCI and  PARE.
+This protocol divided the interaction between  TEM1 and BLIP into six clusters, which are similar to  those found before,10 but with C3 split into two.
+  Cluster definitions were obtained without the need  for additional clustering of the contact maps due to  their exact nature.
+Experimental alanine mutagenesis spanning the entire TEM1BLIP interface confirmed the modular architecture of this binding site.
+  One of the major challenges in studying proteins is  their diversity.
+While, a simple modular architecture  is true for some interfaces, for others, long-range  cooperative effects were detected.
+One such example  is for the T cell receptor variable domain binding a  bacterial superantigen were cooperative binding  energetics between distinct hot regions that are  separated by >20  was shown.26 The propagation  of these cooperative effects through a dynamic  structural network is a complex evolutionary  phenomenon, which is reminiscent of the alosteric  effects found in enzymes.
+In contrast, the simple  additivity found for remote hot spots in TEM1-BLIP  can be viewed as the typical mechanism.
+  The common method to analyze the contribution  of residues towards the stability of a proteinprotein  complex is by evaluating the loss in free energy of  binding upon mutation.
+However, as shown here,  this method could be problematic as the loss in the  measured free energy of binding of single mutations  equals, or even exceeds, that which accompanies the  removal of complete clusters.
+The loss in free binding  energy of hot spot residues, e.g. D49 or F142 on C1  and C2, respectively, exemplifies two different  mechanisms of hot spots and shows the complexity  in calculating their contribution to binding (Figures 7  and 2(c)).
+D49 in BLIP is located in the center of C1,  surrounded by four TEM1 residues.
+The X-ray  structure of the TEM1BLIP complex with the  D49A mutation illustrates a case were removing a  side-chain wipes out the interaction network of C1  Figure 7.
+Comparison of cluster C1 from TEM1BLIP  wild-type, mutant and unbound structures.
+The following  color-coding was used for the different structures:  TEM1WT  BLIPWT complex (TEM1 in red and BLIP in  blue), TEM1WT  BLIPD49A are in green, TEM1 unbound  and BLIP unbound structures are shown in yellow and  cyan, respectively.
+The backbone atoms are colored in  gray.
+BLIP and TEM residues are labeled by blue and red  fonts, respectively.
+  Figure 6.
+Additivity of free energy of binding between mutations on TEM1 and BLIP.
+Additive G is  defined as Gmut1 + Gmut2, plotted versus the  experimentally determined values of the double-mutant  (Gmut1,mut2).
+(a) Additivity of mutations located on  TEM1 and BLIP in the same clusters (intra-clusters).
+(b)  Additivity of mutations located on both proteins, on  different clusters (inter-clusters).
+  Binding Hot Spots in the TEM1BLIP Interface 673and affects complex stability without causing any  structural changes.
+Moreover, comparing the  unbound to the bound structures at this location  shows that all five residues forming C1 are prearranged, except a rotamer flip of D49.
+Binding of C1  fits nicely the lock and key mechanism for protein  protein interactions and thus should be relatively  easy for calculation.
+Indeed, the single-mutants on  Figure 8.
+Structural perturbation upon non-alanine mutations in TEM1BLIP.
+Two residues in the TEM1 protein, E104  and Y105, were mutated to Y104 and N105, respectively (TEM1 YN).
+(a) An overlay of two duplicates of TEM1WT, BLIPWT  complex (1JTG chains AB and CD) colored in blue and TEM1YN, BLIPWT complex in pink.
+The main structural change is  untwisting of the hairpin loop (46-53) in the BLIP protein, which is highlighted by orange (chain B) and red (chain D).
+(b)  Residues shown in stick representation in blue and red are of the 46-53 loop in the wild-type and mutant complexes,  respectively.
+(c) The contact map of the TEM1YN, BLIPWT complex.
+Colors of the clusters correspond to the coloring  scheme in Figure 1(a).
+(d) Distribution of the contact dots between residues forming inter-protein interactions (intercontacts) and intra-protein interactions (intra-contacts).
+  674 Binding Hot Spots in the TEM1BLIP InterfaceTEM1 of C1 were calculated with reasonable precision using the FoldX64 server (Figure 1 in Supplementary Data), however, the D49A mutation on  BLIP was completely wrong (24.5 kJ/mol calculated,  7.0 kJ/mol experimental), apparently due to lack of  cooperativity within the calculation.
+To see how well  theoretical calculations are able to predict the  outcome of mutations for the TEM1BLIP system  we used the FoldX64 and Robetta42 programs, as  implemented in their respective web servers to  calculate the free energy change of all singlemutations on either BLIP or TEM1 investigated  here (see Figure 1, Supplementary Data).
+The  calculated average G per mutation (for 30 single  mutations) was 7.5 kJ/mol and 6.9 kJ/mol for  Robetta and FoldX6, respectively, versus 6.3 kJ/mol  from experimental data.
+However, the individual  values deviated, with an r  2= 0.39 for a fit of the  calculated versus experimental data for FoldX6 and  r  2= 0.15 for Robetta (Figure 1 Supplementary Data).
+  From here it seems that energy calculations are good  to obtain the global energy, but not on a per-residue  basis.
+Maybe, this is one of the reasons that energy  functions simulate well systems, but not individual  mutations.
+  A second mechanism of hot spots is illustrated in  C2, where binding is accompanied with structural  rearrangement of this cluster.
+F142 has a key role in  C2, by stabilizing the interaction network of this  cluster by introducing structural constraints including a flip of Y105 on the TEM1 protein and the  decrease in the distance between K74 and E104.
+The  removal of F142 causes an unraveling of C2 (as seen  in the mutant structure), and thereby a heavy loss in  binding energy.
+Still, even in the absence of F142,  Gint of K74 and E104 is 9.9 kJ/mol, which is 2/3  of the value measured in the native environment.
+A  comparison of the unbound BLIP and TEM1  structures with that of the complex shows that the  structure of the F142A mutant complex resembles in  C2 the unbound structures of TEM1 and BLIP.10 The  mode of binding of C2 is a classical example of an  induced-fit mechanism of binding.
+To simulate such  induced-fit mechanism is a real challenge for  theoretical calculations.
+Initial MD simulations  using Gromacs failed to simulate the structural  rearrangement induced by the F142A mutation  (D.R. and G.S. unpublished results).
+Recently, the  structure of the complex between the TEM1 homolog, SHV1, and BLIP was solved.27 Mutagenesis of  homologous positions to C2 in the SHV1BLIP  complex showed structural and energetic relationships between SHV1 D104 and BLIP F142.
+A  mutation of SHV1 D104E increased affinity by  1000-fold, while mutating the same residue to Lys  did not change the affinity but caused a flip in the  loop near position F142 on BLIP, away from the  interface.
+Showing a second example of how a  mutation on TEM1 can move residues located on  BLIP.
+  Most of the biophysical work aimed to decipher  the energetical architecture of binding sites has been  done to analyze the case of mutations to Ala, which  can be seen as a simple deletion mutation.
+However,  in a biological context, or for the purpose of proteindesign, mutations to the other 18 amino acids are  more relevant.
+The difficulty in analyzing such  mutations is shown here for the case of the TEM1-  YN mutant.
+This mutation is very similar to the case  found in -lactamase type SME-1 (where these  positions are occupied by YH), and does not change  the overall size or chemistry of the site.
+Indeed, the  structure of TEM1 of this mutant is very similar to  that of wild-type, however a major structural  rearrangement was observed for BLIP.
+The complex  between the TEM1YN mutant and BLIPWT was  crystallized in the same space group and with  similar cell dimensions as the previously solved  TEM1BLIP complexes (PDB IDs 1JTG, 1SOW and  1XXM).
+Moreover, the two copies of the complex  found in the asymmetric unit of the crystal structure  show the same structural changes of the BLIP 46-53  loop.
+Therefore, this movement seems to be genuine,  and not a result of crystallization artifacts.
+The  structure rearrangement caused by the replacement  of E104Y and Y105N indicates a balance between  different parameters, such as good packing, increasing in connectivity and thermodynamic cost for a  structural movement.
+The change between inter and  intra contact dots for this mutant is shown in Figure  8(d).
+Indeed, one cannot disconnect protein stability  from the stability of the complex, as G is a  measure of the system as a whole, searching always  for the global, and not local minima of energy.
+  Interestingly, the mutation of SHV D104K led also to  untwisting of the hairpin loop (46-53) between  strands 2 and 3 in the BLIP,27 similarly to mutations  TEM1 E104Y-Y105N, done by us and further  confirms the metastability of this loop.
+Also in the  case of SHV D104EBLIP WT the untwisting of the  loop occurs in such a way that allows the active  group BLIP-D49 to remain in the same position as in  the WT complex, thus keeping its crucial interactions  with four TEM1 amino acids in cluster C1 intact.
+  Structural prediction programs, such as ROSETTA28 and SCCOMP29 were used in order to  predict the change in structure of the TEM1-YN  BLIP-WT complex, but none of them succeeded to  predict the backbone movement and the accurate  side-chains positions.
+Also the experimental Bfactor of the loop in the unbound wild-type BLIP  structure is rather low, not hinting towards this  movement.
+The experimentally observed solution  of untwisting the hairpin loop results in the  reorganization of clusters C2 and C5 with a  number of new interactions being formed (Figure  8(c)).
+Multiple-mutant analysis of the TEM1-YN  mutant shows that indeed a new interaction is  formed between these residues and Y50 on BLIP,  while the interaction with F142 is lost.
+This fits the  contact map as displayed in Figure 8(c) and shows  that also in the new cluster arrangement of the  TEM1-YN mutant, clusters are additive to one  another but cooperative within themselves.
+However, this also shows that clusters are stable for  alanine mutations, but are more flexible when nonBinding Hot Spots in the TEM1BLIP Interface 675alanine mutations are introduced.
+This is rather  logical, as alanine mutations remove interactions,  while non-alanine mutations can add new interactions and structural constraints that may cause  major realignments in the interface (as is the case  here).
+While, theoretically, the loop untwisting is a  very simple structural and thermodynamic solution to overcome the effect of these two nonalanine mutations, its predictability using calculations is a difficult task.
+  Alanine mutagenesis scan of the TEM1BLIP  interface exhibited an additional interesting phenomenon; the robustness of the TEM1 interface  relatively to BLIP.
+Mutations within the BLIP interface had larger effects on the binding energy than  mutations on the TEM1 interface (Figure 5).
+Figure  5(b) shows the residues mutated on the TEM1 and  BLIP binding sites, color-coded according to their  contribution to binding.
+Only the side-chain beyond  C was colored, the backbone and C atom are the  same in Ala, and therefore not changed in the  mutant.
+Backbone atoms (+C) were colored in grey.
+  The picture makes it clear that the exposed surface  on BLIP comprises mostly side-chain atoms, while  on TEM1 the backbone is exposed.
+This would  obviously lead to the robustness of TEM1 to  mutation, as backbone atoms are not mutated.
+The  same phenomenon was shown in other biological  systems, such as cytochrome c2 (cyt) and Rhodobacter  sphaeroides reaction center (RC).30  It is known that BLIP binds many types of TEM1  proteins with different specificity, but using the  same binding interface.24,27 A multifunctional binding site should be flexible, and therefore not  optimized to a single binding partner.
+Flexibility is  much more easily obtained through side-chain  rearrangement than through movements of the  rigid backbone.
+This fits well our observation of  flexibility and rearrangement of many of the BLIP  side-chains upon binding TEM1 (Figure 2).
+Therefore, it may well be possible, that BLIP has a  physiological role in binding different TEM1 proteins and inhibiting their action.
+These kinds of  biological functions are difficult to find, particularly  as we do not simulate in the laboratory the complex  ever changing and challenging natural environment  of the Gram-positive soil bacterium Streptomyces  clavuligeris that is producing BLIP.
+Therefore, it is not  surprising that until now no biological connection  was proven between these two proteins.31,32 The  scenario of optimizing binding to a set of other  proteins is very common in the biological setup, and  stems from the flexibility of the network characteristics of the proteom.
+  Materials and Methods  Site-directed mutagenesis  Mutagenesis was performed using Kunkel mutagenesis.33,34 A plasmid for expression and single strand mutagenesis was prepared by insertion of f1- origin sequence  into pET-9a plasmid (Novagen) containing either TEM1 or  BLIP genes.
+The TEM1 or BLIP plasmids were transformed into dut  /ung Escherichia coli strain (CJ236), and  uracil-containing ssDNA of the plasmids was purified and  used as a template for mutagenesis.
+Appropriately  designed phosphorylated primers containing the mutated  codons in the center and >12 bp on each side were first  annealed to the ssDNA template by incubation at 95 C for  2 min followed by 53 C for 3 min, and then enzymatically  extended and ligated to form covalently closed dsDNA by  using T7 polymerase (NEB), T4 ligase (Fermentas), dNTPs  (Fermentas) and 0.04 M DTT (Sigma).
+Transformation of  the dsDNA plasmid into an ung+ E. coli strain (TG1 or XL1Blue cells) caused a destruction of uracil-containing wildtype strand, and the in vitro replication of the mutated  strand.
+The insertion of the mutations were verified by  DNA sequencing.
+  Protein expression and purification  Expression and purification of TEM1 and BLIP were  undertaken as described.19 Protein quality (degree of  purity and activity) as well as its active concentration  was determined by running it alone or in complex  with wild-type protein using analytical gel filtration  chromatography.
+  Kinetic measurements  Kinetic constants were evaluated by SPR detection  using the ProteOn XPR36 Protein Interaction Array  System (BioRad) in PBS (pH 7.4) with 0.05% surfactant P20  at 25 C.
+For all measurements, TEM1 was immobilized by  amine coupling to the sensor chip, and BLIP was the  analyte, applied at six different protein concentrations.
+  Data were analyzed using BIAeval 4.1 software using both  the Langmuir models for fitting kinetic data (global and  local fitting), and from the equilibrium response at each  concentration, fitted to the mass-action equation.10,35 The  change in free energy (GKA) upon mutation was  calculated from:  DDGKA  RT Kmut  A  Kwt  A  3  with KA values being determined in two ways, the first (for  interactions of ka< 5  106 M1 s  1 and kd < 0.2 s1  ) being the  ratio of the kinetic constants (KA =ka/kd), and the second  (termed KA(ma)), by following the change in the refractive  index (RU) at the equilibrium-binding signal and then  fitting the data to the mass action expression:  RU  CKAmaRmax=CKAmam1 4  where C represents the protein concentration.
+Values of  GKA (determined from ka/kd) and GKA(ma) (determined by mass action) are highly correlated (with a  correlation coefficient of 0.99; Supplementary Data).
+  Significant values of G (2) calculated from kd were  >0.7 kJ/mol and from KA > 1.4 kJ/mol.
+For further details  see Supplementary Data.
+  Double and multiple mutant analysis  
+The effect of a mutation on stability of the complex is  evaluated as the ratio of either the dissociation or affinity  constants of the wild-type and the mutant, or equivalently,  as the variation of the free binding energy, G.
+The  676 Binding Hot Spots in the TEM1BLIP Interfacechange in free energy (G) upon mutation was calculated from:  DDGmut  DGwt  DGmut  RTInKwt=Kmut 5  The change in free energy was derived separately  from three constants: kd, dissociation constant, KA, as  calculated from the ratio of the kinetic constants  (KA =ka/kd) and KA(ma), which is the equilibrium  affinity constant, derived from the law of mass  action.10,35 One of the best approaches to study the  contributions of amino acids to binding and stability  involves the use of double and higher-order mutant  cycles, where interactions between amino-acids are  treated within their native contexts.6,19,36 Such cycles  reveal whether the contributions from a pair of  residues are additive, or whether the effects of  mutations are coupled.
+The interaction binding energy  Gint for a pair of residues (1 and 2) was calculated  as follows:  DDGint  DGwt  DGmut1  DGmut2  DGmut1mut2   DDGmut1  DDGmut2  DDGmut1mut2 6  If there is no interaction between the two mutated  residues, the effects of the two substitutions should be  additive in respect to the double-mutation (Gint= 0).
+If  they form attractive interaction the interaction binding  energy is negative (Gint< 0), and a repulsive interaction  results in a positive interaction energy (Gint> 0).
+  Contributions of neighboring residues towards a given  pairwise interaction were evaluated by adding residues to  the pairwise interaction and calculating multiple mutant  cycle, as described in details before.6,19 The multiple  mutant cycle is calculated by equation (6), where the wildtype complex is replaced by mutant.
+For example,  interaction free energy of mutation 1 and 2 in a background of a mutation of residue A is calculated by  equation (7):  DDGint  DDGmutA  DDGmut1mutA  DDGmut2mutA   DDGmut1mut2mutA 7  Significant values of Gint (2) calculated from kd  were >1.0 kJ/mol and from KA >2.0 kJ/mol.
+  Crystallization and structure determination of BLIP  D49ATEM1 wt complex  Crystals of BLIP D49ATEM1 were grown using  hanging-drop vapor diffusion method of 20 mg/ml of  the complex in 50 mM Tris buffer (pH 8) equilibrated  against reservoirs containing 26% (w/v) PEG 4000, 0.1 M  Tris and 0.2 M lithium chloride at pH 8.5.
+The resulting  crystals grew spontaneously and belong to space group  P212121 (a= 45.5, b= 123.9, c= 156.6 ), with two TEM1  BLIP complexes in the asymmetric unit at 1.9  resolution.
+  The structure, solved by molecular replacement was  refined to an R-factor of 20.6% and an Rfree of 23.9%.
+For  further details see Supplementary Data.
+  Crystallization of TEM1 E104Y-Y105NBLIP WT  complex  Single crystals of the complex were obtained by the  microbatch method under oil using the IMPAX 1-5 robot  (Douglas Instruments).
+The protein was crystallized at a  concentration of 11 mg/ml.
+Data collection and refinement statistics of the TEM1-YN/BLIP-wt complex is  summarized in Supplementary Data.
+Crystal of the  complex were grown from a precipitating solution of  100 mM Tris (pH 8.5), 25% PEG 3350 and 0.2 M  ammonium acetate.
+Crystals formed in space group  P212121, with cell constants a= 45.80 , b= 124.47 ,  c= 157.26 , and contained two monomers in the  asymmetric unit diffracting to 1.65  resolution.
+The  structure was solved by molecular replacement using the  program MolRep, using the 1.73  refined structure of the  complex (1JTG in the Brookhaven Data Bank, PDB) as a  model.
+The structure was refined to an R-factor of 19.0%  and an Rfree of 22.2%.
+  Producing interface interaction maps  A flow diagram of this process is presented in Figure  1(b).
+Definition of interactions between residues was  based on the all-atom contact method, calculating the  detailed atomic contacts between protein residues.
+The  all-atom contact technique depends on adding the  hydrogen atoms, most of which are completely determined to a suitable accuracy by the positions of the  heavier atoms.
+This is done by the program REDUCE.37  With hydrogen atoms present, the PROBE program  calculated an all-atom contacts map.38 It uses a small  probe sphere of radius 0.25 , in an algorithm close to  the inverse of the Connolly solvent-accessible surface  calculation.39 The PROBE program defines contact  dots by rolling the probe sphere over the surface of  each atom, leaving a contact dot only when the probe  touches another non-covalently bonded atom.
+Density of  the dots is 16 contact dots per 1 2 of the interaction  area.
+PROBE forms discontinuous surfaces, the paired  patches of which directly show the location, extent, and  shape of close atomic contacts, as shown in Figure 1(a).
+  The dots are colored by local gap width between the  two atoms and by bond types: perfect Van der Waals  contact (0  gap) is colored by green, H-bond dots are  pale green and represented by lens shapes.
+Atom  overlaps (clashes) are yellow and red spikes, which  were transformed to dots format.
+An interaction  between two residues was defined by summarizing  shared dots.
+Although this method gives an excellent  quantitative description of H-bonds and Van der Waals  interactions, aromatic and electrostatic interactions are  not well defined by the PROBE program.
+In order to  calculate salt-bridge interactions, the PARE program was  used.23 Threshold of 4  was used for identification of  the electrostatic interactions.
+Non-canonical interactions  (pipi and cationpi) were defined by the NCI  program40 with NCI default parameters (Figure 1).
+  Results of the above three programs were summarized  into an inter-residue interaction matrix, which was used  for defining the interface connectivity map by extracting  all inter-chain interactions.
+The interface interaction  network was plotted by the Pajek program.  Protein Data Bank accession code  The atomic coordinates have been deposited in the  RCSB Protein Data Bank (accession code 2B5R).
+   http://vlado.fmf.uni-lj.si/pub/networks/pajek/  Binding Hot Spots in the TEM1BLIP Interface 677Acknowledgements  We thank Professor Amnon Horovitz and Professor Igal Burstaein for their comments and stimulating discussions, Eyal Kalie for critical reading of the  manuscript, the Israel Structural Proteomics Center  (ISPC) for crystallization and structure analysis and  BioRad for their collaboration.
+This research was  funded by MINERVA grant 8525 and the Ministry of  Science and Technology (MOST) grant 0263.
+  Supplementary Data  Supplementary data associated with this article  can be found, in the online version, at doi:10.1016/  j.jmb.2006.09.076  References  1.
+Clackson, T. & Wells, J. A. (1995).
+A hot spot of binding  energy in a hormone-receptor interface.
+Science, 267,  383386.  2. Bogan, A. A. & Thorn, K. S. (1998).
+Anatomy of hot  spots in protein interfaces.
+J. Mol. Biol. 280, 19.  3. Nooren, I. M. & Thornton, J. M. (2003).
+Structural  characterisation and functional significance of transient proteinprotein interactions.
+J. Mol. Biol. 325,  9911018.  4.
+Guerois, R., Nielsen, J. E. & Serrano, L. (2002).
+  Predicting changes in the stability of proteins and  protein complexes: a study of more than 1000  mutations.
+J. Mol. Biol. 320, 369387.  5. Kortemme, T. & Baker, D. (2002).
+A simple physical  model for binding energy hot spots in protein-protein  complexes.
+Proc. Natl Acad. Sci. USA, 99, 1411614121.  6. Horovitz, A. (1996).
+Double-mutant cycles: a powerful  tool for analyzing protein structure and function.
+Fold.  Des. 1, R121R126.  7. Lo Conte, L., Chothia, C. & Janin, J. (1999).
+The atomic  structure of proteinprotein recognition sites. J. Mol.  Biol. 285, 21772198.  8.
+Hu, Z., Ma, B., Wolfson, H. & Nussinov, R. (2000).
+  Conservation of polar residues as hot spots at protein  interfaces.
+Proteins: Struct. Funct. Genet. 39, 331342.  9. Pokala, N. & Handel, T. M. (2005).
+Energy functions  for protein design: adjustment with protein-protein  complex affinities, models for the unfolded state, and  negative design of solubility and specificity.
+J. Mol.  Biol.
+347, 203227.
+  10.
+Reichmann, D., Rahat, O., Albeck, S., Meged, R., Dym,  O. & Schreiber, G. (2005).
+The modular architecture of  protein-protein binding interfaces.
+Proc. Natl Acad. Sci.  USA, 102, 5762.  11. Fisher, E. (1894).
+Einflus der configuration auf die  wirkung derenzyme.
+Ber. Dt. Chem. Ges, 27, 751.  12.
+Koshland, D. E. (1958).
+Application of a theory of  enzyme specificity to protein synthesis.
+Proc. Natl  Acad. Sci. USA, 44, 98104.  13.
+Brinda, K. V., Kannan, N. & Vishveshwara, S. (2002).
+  Analysis of homodimeric protein interfaces by graphspectral methods.
+Protein Eng. 15, 265277.  14.
+Bahar, I., Atilgan, A. R. & Erman, B. (1997).
+Direct  evaluation of thermal fluctuations in proteins using a  single-parameter harmonic potential.
+Fold. Des. 2,  173181.  15.
+Vendruscolo, M., Paci, E., Dobson, C. M. & Karplus,  M. (2001).
+Three key residues form a critical contact  network in a protein folding transition state.
+Nature,  409, 641645.
+  16. Sobolev, V., Sorokine, A., Prilusky, J., Abola, E. E. &  Edelman, M. (1999).
+Automated analysis of interatomic contacts in proteins.
+Bioinformatics, 15, 327332.  17.
+Amitai, G., Shemesh, A., Sitbon, E., Shklar, M.,  Netanely, D., Venger, I. & Pietrokovski, S. (2004).
+  Network analysis of protein structures identifies  functional residues.
+J. Mol. Biol. 344, 11351146.  18. Swint-Kruse, L. (2004).
+Using networks to identify fine  structural differences between functionally distinct  protein states.
+Biochemistry, 43, 1088610895.  19. Albeck, S., Unger, R. & Schreiber, G. (2000).
+Evaluation of direct and cooperative contributions towards  the strength of buried hydrogen bonds and salt  bridges.
+J. Mol. Biol. 298, 503520.  20. Schuck, P. (1997).
+Reliable determination of binding  affinity and kinetics using surface plasmon resonance  biosensors.
+Curr. Opin. Biotechnol. 8, 498502.  21.
+Homola, J. (2003).
+Present and future of surface plasmon  resonance biosensors.
+Anal. Bioanal.
+Chem. 377, 528539.  22. Myszka, D. G. (2000). Kinetic, equilibrium, and  thermodynamic analysis of macromolecular interactions with BIACORE.
+Methods Enzymol. 323, 325340.  23.
+Selzer, T., Albeck, S. & Schreiber, G. (2000).
+Rational  design of faster associating and tighter binding  protein complexes.
+Nature Struct.
+Biol. 7, 537541.  24.
+Zhang, Z. & Palzkill, T. (2004).
+Dissecting the proteinprotein interface between beta-lactamase inhibitory  protein and class A beta-lactamases.
+J. Biol. Chem. 279,  4286042866.  25.
+Albeck, S. & Schreiber, G. (1999).
+Biophysical characterization of the interaction of the beta-lactamase  TEM-1 with its protein inhibitor BLIP.
+Biochemistry, 38,  1121.  26.
+Moza, B., Buonpane, R. A., Zhu, P., Herfst, C. A.,  Rahman, A. K., McCormick, J. K. et al. (2006).
+Longrange cooperative binding effects in a T cell receptor  variable domain.
+Proc. Natl Acad. Sci. USA, 103,  98679872.  27.
+Reynolds, K. A., Thomson, J. M., Corbett, K. D., Bethel,  C. R., Berger, J. M., Kirsch, J. F. et al. (2006).
+Structural  and computational characterization of the SHV-1 beta  -lactamase/beta -lactamase inhibitor protein(BLIP)  interface.
+J. Biol. Chem. 281, 2674526753.  28.
+Rohl, C. A., Strauss, C. E., Misura, K. M. & Baker, D.  (2004).
+Protein structure prediction using Rosetta.
+  Methods Enzymol. 383, 6693.
+  29. Eyal, E., Najmanovich, R., McConkey, B. J., Edelman,  M. & Sobolev, V. (2004).
+Importance of solvent  accessibility and contact surfaces in modeling sidechain conformations in proteins.
+J. Comput. Chem. 25,  712724.  30. Tetreault, M., Cusanovich, M., Meyer, T., Axelrod, H.  & Okamura, M. Y. (2002).
+Double mutant studies  identify electrostatic interactions that are important  for docking cytochrome c2 onto the bacterial reaction  center.
+Biochemistry, 41, 58075815.  31. Lim, D., Park, H. U., De Castro, L., Kang, S. G., Lee,  H. S., Jensen, S. et al. (2001).
+Crystal structure and  kinetic analysis of beta-lactamase inhibitor protein-II  in complex with TEM-1 beta-lactamase.
+Nature  Struct.
+Biol. 8, 848852.  32.
+Thai, W., Paradkar, A. S. & Jensen, S. E. (2001).
+  Construction and analysis of ss-lactamase-inhibitory  protein (BLIP) non-producer mutants of Streptomyces  clavuligerus.
+Microbiology, 147, 325335.  678 Binding Hot Spots in the TEM1BLIP Interface33.
+Kunkel, T. A., Roberts, J. D. & Zakour, R. A. (1987).
+  Rapid and efficient site-specific mutagenesis without  phenotypic selection.
+Methods Enzymol. 154, 367382.  34. Sidhu, S. S., Lowman, H. B., Cunningham, B. C. &  Wells, J. A. (2000).
+Phage display for selection of novel  binding peptides.
+Methods Enzymol. 328, 333363.  35.
+Slutzki, M., Jaitin, D. A., Ben Yehezkel, T. & Schreiber,  G. (2006).
+Variations in the unstructured C-terminal  tail of interferons contribute to differential receptor  binding and biological activity.
+J. Mol. Biol. 360,  10191030.
+  36. Carter, P. J., Winter, G., Wilkinson, A. J. & Fersht, A. R.  (1984).
+The use of double mutants to detect structural  changes in the active site of the tyrosyl-tRNA  synthetase (Bacillus stearothermophilus).
+Cell, 38,  835840.  37. Word, J. M., Lovell, S. C., Richardson, J. S. &  Richardson, D. C. (1999).
+Asparagine and glutamine: using hydrogen atom contacts in the choice  of side-chain amide orientation.
+J. Mol. Biol. 285,  17351747.  38. Word, J. M., Lovell, S. C., LaBean, T. H., Taylor, H. C.,  Zalis, M. E., Presley, B. K. et al. (1999).
+Visualizing and  quantifying molecular goodness-of-fit: small-probe  contact dots with explicit hydrogen atoms.
+J. Mol.  Biol. 285, 17111733.  39.
+Connolly, M. L. (1983).
+Solvent-accessible surfaces of  proteins and nucleic acids.
+Science, 221, 709713.  40.
+Babu, M. M. (2003).
+NCI: a server to identify noncanonical interactions in protein structures.
+Nucl.  Acids Res. 31, 33453348.  41. Strynadka, N. C., Jensen, S. E., Johns, K., Blanchard,  H., Page, M., Matagne, A. et al. (1994).
+Structural and  kinetic characterization of a beta-lactamase-inhibitor  protein.
+Nature, 368, 657660.  42.
+Kortemme, T., Kim, D. E. & Baker, D. (2004).
+  Computational alanine scanning of protein-protein  interfaces.
+Sci. STKE, 2004, 12.  Edited J. E. Ladbury  (Received 24 July 2006; received in revised form 7 September 2006; accepted 26 September 2006)  Available online 3 October 2006  Binding Hot Spots in the TEM1BLIP Interface 679

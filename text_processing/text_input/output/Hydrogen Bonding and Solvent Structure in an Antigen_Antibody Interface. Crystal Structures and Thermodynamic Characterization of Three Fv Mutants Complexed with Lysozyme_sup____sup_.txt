@@ -1,0 +1,1002 @@
+Hydrogen Bonding and Solvent Structure in an Antigen-Antibody Interface.
+Crystal Structures and Thermodynamic Characterization of Three Fv Mutants
+Complexed with Lysozyme†,#
+Barry A. Fields,‡ Fernando A. Goldbaum,‡,§ William Dall’Acqua,‡ Emilio L. Malchiodi,‡,| Ana Cauerhff,‡,§
+Frederick P. Schwarz,‡ Xavier Ysern,⊥ Roberto J. Poljak,‡ and Roy A. Mariuzza*,‡
+Center for AdVanced Research in Biotechnology, UniVersity of Maryland Biotechnology Institute and National Institute of
+Standards and Technology, 9600 Gudelsky DriVe, RockVille, Maryland 20850, CONICET, Catedra de Inmunologia, FFYB-UBA,
+Junin 956, 1113 Buenos Aires, Argentina, and Center for Drug EValuation and Research, U.S. Food and Drug Administration,
+5600 Fishers Lane, RockVille, Maryland 20857
+ReceiVed July 12, 1996; ReVised Manuscript ReceiVed September 26, 1996X
+ABSTRACT: Using site-directed mutagenesis, X-ray crystallography, and titration calorimetry, we have
+examined the structural and thermodynamic consequences of removing specific hydrogen bonds in an
+antigen-antibody interface. Crystal structures of three antibody FvD1.3 mutants, VLTyr50Ser (VLY50S),
+VHTyr32Ala (VHY32A), and VHTyr101Phe (VHY101F), bound to hen egg white lysozyme (HEL) have
+been determined at resolutions ranging from 1.85 to 2.10 Å. In the wild-type (WT) FvD1.3-HEL complex,
+the hydroxyl groups of VLTyr50, VHTyr32, and VHTyr101 each form at least one hydrogen bond with the
+lysozyme antigen. Thermodynamic parameters for antibody-antigen association have been measured
+using isothermal titration calorimetry, giving equilibrium binding constants Kb (M-1) of 2.6 × 107 (VLY50S),
+7.0 × 107 (VHY32A), and 4.0 × 106 (VHY101F). For the WT complex, Kb is 2.7 × 108 M-1; thus, the
+affinities of the mutant Fv fragments for HEL are 10-, 4-, and 70-fold lower than that of the original
+antibody, respectively. In all three cases entropy compensation results in an affinity loss that would
+otherwise be larger. Comparison of the three mutant crystal structures with the WT structure demonstrates
+that the removal of direct antigen-antibody hydrogen bonds results in minimal shifts in the positions of
+the remaining protein atoms. These observations show that this complex is considerably tolerant, both
+structurally and thermodynamically, to the truncation of antibody side chains that form hydrogen bonds
+with the antigen. Alterations in interface solvent structure for two of the mutant complexes (VLY50S
+and VHY32A) appear to compensate for the unfavorable enthalpy changes when protein-protein interactions
+are removed. These changes in solvent structure, along with the increased mobility of side chains near
+the mutation site, probably contribute to the observed entropy compensation. For the VHY101F complex,
+the nature of the large entropy compensation is not evident from a structural comparison of the WT and
+mutant complexes. Differences in the local structure and dynamics of the uncomplexed Fv molecules
+may account for the entropic discrepancy in this case.
+Protein-protein recognition is essential to many biochemi￾cal processes. Factors that contribute to the structure and
+energetics of protein-protein interactions include hydrogen
+bonds, salt bridges (Chacko et al., 1995), van der Waals
+contacts (Ysern et al., 1994; Clackson & Wells, 1995;
+Chilkoti et al., 1995; Schreiber & Fersht, 1995), interface
+solvent networks (McPhalen & James, 1988; Bhat et al.,
+1994), solvent exclusion (the hydrophobic effect), and
+conformational changes associated with the binding reaction
+(Colman et al., 1987; Bhat et al., 1990, 1994). In addition
+to their intrinsic interest, antigen-antibody complexes
+represent excellent model systems for studying the structure
+and thermodynamics of protein-protein interactions in
+general. Crystallographic structures of several complexes
+of antibodies, or antibody fragments, bound to protein
+antigens are available, and the kinetic and thermodynamic
+binding parameters have been determined for some of these
+complexes. The crystal structure of the anti-hen egg white
+lysozyme (HEL)1 antibody, FabD1.3, bound to HEL, shows
+that ∼700 Å2 of surface area is buried on both the antibody
+and antigen upon complex formation. As well as van der
+Waals contacts, hydrogen bonds that bridge antibody and
+antigen contribute to the binding energy and structural
+specificity of the complex (Amit et al., 1986; Fischman et
+al., 1991). Similar observations have been made for other
+antibody-antigen complexes including those with the fol-
+† This work was supported by NIH Grant GM52801 (R.A.M.) and
+the Human Frontiers Science Program (R.J.P.). # Atomic coordinates for the structures discussed herein have been
+deposited with the Brookhaven Protein Data Bank as entries 1KIP,
+1KIQ, and 1KIR.
+* Author to whom correspondence should be addressed. Tel: (301)
+738-6243. FAX: (301) 738-6255. E-mail: mariuzza@indigo2.carb.
+nist.gov.
+‡ University of Maryland Biotechnology Institute and National
+Institute of Standards and Technology.
+§ Present address: CONICET, Catedra de Inmunologia, FFYB-UBA,
+Junin 956, 1113 Buenos Aires, Argentina. | CONICET.
+⊥ U.S. Food and Drug Administration.
+X Abstract published in AdVance ACS Abstracts, November 1, 1996.
+1 Abbreviations: HEL, hen egg white lysozyme; VL, light chain
+variable domain; VH, heavy chain variable domain; Fv, variable domain
+fragment (VL + VH); Fab, antigen binding fragment; PBS, phosphate￾buffered saline; Kb, equilibrium binding constant; CDR, complemen￾tarity determining region; WT, wild type; rms, root mean square.
+15494 Biochemistry 1996, 35, 15494-15503
+S0006-2960(96)01709-6 CCC: $12.00 © 1996 American Chemical Society
++ +
++ +lowing protein antigens: neuraminidase (Colman et al., 1987;
+Tulip et al., 1992a,b; Malby et al., 1994), histidine-containing
+protein (Prasad et al., 1993), staphylococcal nuclease (Bossart￾Whitaker et al., 1995), influenza hemagglutinin (Bizebard
+et al., 1995), and other antibody-lysozyme complexes
+(Sheriff et al., 1987; Padlan et al., 1989; Chitarra et al., 1993;
+Braden et al., 1994, 1996; Lescar et al., 1995). Since both
+the number and the local environment of antigen-antibody
+hydrogen bonds vary from complex to complex, the contri￾bution of individual hydrogen bonds to antigen-antibody
+complex formation is a matter of great interest. It is still
+not clear how the strength of hydrogen bonds in a protein￾protein interface varies with the relative geometry of the
+interacting groups, the local chemical environment, and how
+these hydrogen bonds can influence the dynamic behavior
+of neighboring groups.
+With the aim of increasing our structural understanding
+of antigen-antibody energetics, we have determined the
+crystal structures of three mutants of the Fv fragment (a
+heterodimer consisting of only the light and heavy chain
+variable domains, VL and VH) of D1.3 bound to its protein
+antigen HEL. These mutants were designed to disrupt
+hydrogen bonds between the antigen and antibody. The
+structure of the WT FvD1.3-HEL complex is shown in
+Figure 1. In the present study, we have mutated three
+FvD1.3 tyrosine residues that form hydrogen bonds with
+HEL. These hydrogen bonds are shown in Figure 2. The
+WT FvD1.3 fragment binds HEL with an affinity (Kb ) 2.7
+× 108 M-1
+) equal to that of the Fab and the intact
+immunoglobulin (Bhat et al., 1994). This reaction has been
+shown to be enthalpically driven (∆H ) -90 kJ‚mol-1
+) with
+an opposing entropic term (T∆S ) -42 kJ‚mol-1
+). The
+crystal structure of FvD1.3 bound to HEL, determined at
+1.8 Å resolution (Bhat et al., 1994), reveals a large number
+of water molecules in the Fv-HEL interface that probably
+contribute significantly to the enthalpy of complex formation
+(Figure 1). Calorimetric measurements of FvD1.3-HEL
+binding at reduced water concentration support this hypoth￾esis (Goldbaum et al., 1996). These experiments involved
+addition of cosolutes such as glycerol, ethanol, dioxane, and
+methanol in order to reduce the effective water activity. In
+accord with the concept that the interface water molecules
+are important for complex stability, it was found that the
+enthalpies of reaction as well as the association constants
+decreased with decreasing water activity. The fact that many
+water molecules reside in the protein-protein interface also
+aids rationalization of the opposing entropic term. Interface
+water molecules that are not ejected into the bulk solvent
+upon binding cannot contribute to the hydrophobic effect.
+Moreover, interface water molecules that are “recruited” from
+the bulk solvent during the binding reaction provide a
+negative contribution to the hydrophobic effect. Thus, in
+addition to protein-protein hydrogen bonds, we were also
+interested in observing how this network of interface water
+molecules responds to the substitution of interface amino
+acids. The thermodynamic consequences of the mutations
+were analyzed using isothermal titration calorimetry which
+enabled determination of Kb, ∆H°, and T∆S. We will
+address how alterations in the following factors induced by
+site-directed mutagenesis affect the structure and energetics
+of protein-protein complex formation in this system: (i)
+hydrogen bonding, (ii) van der Waals contacts, (iii) confor￾mation of antigen and antibody, (iv) mobility of antigen and
+antibody, and (v) solvent structure.
+MATERIALS AND METHODS
+Reagents. All chemicals were of analytical grade. Re￾striction enzymes and DNA-modifying enzymes were pur￾chased from New England Biolabs, Inc. (Beverly, MA).
+Radiolabeled [35S]dATP was obtained from Amersham Corp.
+Oligonucleotides were synthesized on a 380B DNA synthe￾sizer (Applied Biosystems, Foster City, CA).
+Site-Directed Mutagenesis. For mutagenesis of the D1.3
+VL region, a 441 bp EcoRI fragment was transferred from
+the pUC19-based bacterial expression vector pSW1-VHD1.3-
+FIGURE 1: Space-filling model of the FvD1.3-HEL complex. The
+interface between FvD1.3 VL (yellow), VH (blue), and lysozyme
+(white) is highly solvated (water oxygen atoms drawn as green
+spheres). VHTyr32 and VLTyr50, in red, are partially visible on
+the left and right side of the interface, respectively. VHTyr101 is
+buried in the interface and is obscured by other atoms. Drawn with
+QUANTA.
+FIGURE 2: Hydrogen bonds between lysozyme and FvD1.3 tyrosine
+residues VLTyr50, VHTyr32, and VHTyr101. The orientation is
+similar to that for Figure 1.
+Hydrogen Bonds in an Antigen-Antibody Interface Biochemistry, Vol. 35, No. 48, 1996 15495
++ +
++ +VKD1.3 described by Ward et al. (1989) to M13mp19. For
+mutagenesis of the VH region, a 477 bp HindIII fragment
+from pSW1-VHD1.3-VKD1.3 was subcloned in M13mp19.
+Oligonucleotide site-directed mutagenesis was carried out
+as described (Kunkel et al., 1987) with a MutaGene M13 in
+vitro mutagenesis kit (Bio-Rad, Richmond, CA) to introduce
+the VLY50S, VHY32A, and VHY101F mutations. All muta￾tions were confirmed by the dideoxynucleotide sequencing
+method (Sanger et al., 1977) using a Sequenase version 2.0
+kit (USB, Cleveland, OH). For religation into the FvD1.3
+expression vector, the mutated VL gene was restricted with
+EcoRI and the VH gene with HindIII.
+Expression and Purification of FV fragments. All three
+mutants were prepared from the culture supernatants of
+transformed Escherichia coli BMH 71-18 cells as described
+(Ward et al., 1989; Ysern et al., 1994). Briefly, recombinant
+clones were resuspended in 10 mL of Terrific broth (Tartof
+& Hobbs, 1987) containing 100 µg‚mL-1 ampicillin and 1%
+(w/v) glucose to repress FvD1.3 expression. The cultures
+were incubated at 37 °C under agitation to an absorbance of
+1.0 at 600 nm. The cells were then pelleted by centrifuga￾tion, washed twice with medium, and resuspended in 500
+mL of Terrific broth containing 100 µg‚mL-1 ampicillin and
+0.1% (w/v) glucose. This glucose concentration is high
+enough for cells to grow normally, yet low enough to permit
+efficient induction following its depletion from the medium
+as a result of bacterial metabolism. The cultures were grown
+at 37 °C to an absorbance of 1.0, and isopropyl â-thioga￾lactoside (Gold Biotechnology, St. Louis, MO) was added
+to a final concentration of 1.0 mM. After further incubation
+at 37 °C for 4 h, the bacteria were pelleted and the FvD1.3
+mutants were affinity purified from the supernatants using
+the anti-D1.3 monoclonal antibody E5.2 (Ysern et al., 1994;
+Fields et al., 1995) coupled to Sepharose 4B (about 7.5 mL/L
+of culture). Columns were washed with 100 volumes of
+phosphate-buffered saline (PBS), pH 7.4, and eluted with
+50 mM diethylamine, pH 12. Fractions were immediately
+neutralized with 1.0 M Tris-HCl, pH 7.0, and concentrated
+using Centricon 3000 spin columns (Amicon, Beverly, MA).
+Further purification of FvD1.3 mutants was carried out by
+size exclusion chromatography on a ZORBAX GF-250
+column (DuPont) in 0.2 M sodium phosphate buffer, pH 7.4
+(Boulot et al., 1990). Final yields were typically 0.5-1.0
+mg/L of culture.
+Crystallography. A small molar excess of HEL (Boeh￾ringer-Mannheim, Indianapolis, IN) was added to purified
+FvD1.3 mutants, and the complexes were crystallized in
+hanging drops by vapor diffusion. Crystallization conditions
+were similar to those used for the WT Fv-HEL complex
+(Boulot et al., 1990): 15-18% (w/v) poly(ethylene glycol)
+8000 (Sigma) and 0.1 M potassium phosphate, pH 6.0-6.5.
+Macroseeding (Thaller et al., 1981) in hanging drops was
+used to obtain crystals with dimensions up to 0.4 mm × 0.2
+mm × 0.1 mm. X-ray diffraction data were recorded on a
+Siemens area detector mounted on either a Siemens or a
+Rigaku rotating-anode X-ray generator. Data were indexed,
+integrated, and reduced using XENGEN version 2.0 (Howard
+et al., 1987). All complexes crystallized isomorphously with
+the WT complex in space group C2. Unit cell dimensions
+are shown in Table 1. Each structure was refined using
+X-PLOR (Bru¨nger, 1992) starting from the WT complex
+(PDB accession code 1VFB) with all water molecules
+deleted. The first step in each refinement consisted of rigid￾body refinement, treating each of the three polypeptide chains
+as an independent rigid unit. Next, an Fo(mutant) - Fc(WT)
+difference electron density map was calculated and inspected
+in order to confirm the mutation. Refinement then consisted
+of (i) modeling the mutation into the electron density, (ii)
+an additional stage of rigid-body refinement, (iii) one stage
+of simulated annealing starting at a temperature of 3000 K,
+and (iv) iterative cycles of positional refinement, temperature
+factor refinement, and inspection of electron density maps
+(with coefficients 2Fo - Fc and Fo - Fc) including location
+of ordered solvent molecules. An electron density difference
+peak was modeled as a water molecule if it was higher than
+3.5σ, made contact with at least one potential hydrogen bond
+donor or acceptor in the range 2.4-3.4 Å, and remained in
+electron density (1σ, 2Fo - Fc) after subsequent refinement.
+The solvent structure in the WT FvD1.3-HEL structure was
+not used to assist location of water molecules in the mutant
+complexes.
+Titration Calorimetry. Affinity-purified FvD1.3 mutants
+were dialyzed against PBS prior to calorimetry. A phosphate
+buffer was used to minimize effects due to any exchange of
+protons upon binding to HEL. In a typical experiment, 5
+µL aliquots of a 1.00 mM HEL solution were titrated into a
+0.05 mM Fv solution at 25 °C, and the evolved heats were
+measured with a Microcal Omega titration calorimeter as
+described (Wiseman et al., 1989; Schwarz et al., 1993, 1995;
+Bhat et al., 1994). The titrations were continued beyond
+saturation of the antibody-combining sites to determine any
+heat contributions from dilution of the HEL solution upon
+its addition to the antibody solution. The heats below the
+saturation point were accordingly corrected for any heat of
+dilution of the HEL solution. Protein concentrations were
+calculated using 1% extinction coefficients at 280 nm of 1.50
+Table 1: Crystallographic Data Processing and Refinement
+Statistics for FvD1.3-HEL Complexes
+VLY50S VHY32A VHY101F
+data processing
+cell parameters
+a (Å) 129.2 129.2 129.8
+b (Å) 60.5 60.4 60.4
+c (Å) 56.8 56.6 56.8
+â (deg) 119.0 119.1 119.1
+observations 47313 49442 84404
+unique reflections 21066 20023 33574
+redundancy 2.2 2.5 2.5
+Rmergea 0.082 0.086 0.083
+refinement
+data range (Å) 7.0-2.00 7.0-2.10 6.0-1.85
+reflections 16783 15354 23568
+completeness (%)b 66, 41 70, 30 74, 37
+no. of waters 142 116 166
+rmsd bond lengths (Å) 0.016 0.015 0.016
+rmsd bond angles (deg) 1.91 1.93 1.86
+mean B-factorsc (Å2)
+VL 24 19 19
+VH 27 23 24
+HEL 33 31 30
+water 35 33 37
+R-factord 0.167 0.162 0.181
+a Rmerge ) ∑|I(k) - 〈I〉|/∑I(k), where I(k) and 〈I〉 are the kth individual
+and mean values of the intensity of a reflection, respectively. b First
+and second values correspond to completeness in the entire data range
+and in the highest resolution 0.1 Å shell (e.g., 1.95-1.85), respectively. c Mean B-factors (Å2) for the WT structure are 22 (VL), 26 (VH), 32
+(HEL), and 43 (water). d R-factor ) ∑|Fo - Fc|/∑|Fo|, where Fo and
+Fc are the observed and calculated structure factor amplitudes,
+respectively.
+15496 Biochemistry, Vol. 35, No. 48, 1996 Fields et al.
++ +
++ +and 2.62 for Fv and HEL, respectively. Values for ∆Hb and
+Kb were determined from a fit of the heat exchanged per
+injection as a function of the amount of injecting titrant
+utilizing the software program Origin (Microcal Inc.). This
+software is based on the analysis of the amount of heat
+exchanged during the titration as described by Wiseman et
+al. (1989). The binding entropy contribution, T∆Sb, was
+calculated from ∆Gb° ) ∆Hb - T∆Sb, where ∆Gb° ) -RT
+ln Kb. Control titrations performed in 0.15 M NaCl, 0.01
+M Tris-HCl, pH 7.2, gave the same binding enthalpies, within
+experimental error, indicating the absence of significant
+proton exchange in the Fv-HEL reactions.
+RESULTS
+Crystallographic data for the mutant complexes are shown
+in Table 1. The maximum resolution of the X-ray data used
+in the refinements ranges from 1.85 to 2.10 Å, and the
+R-factors of the refined structures range from 0.162 to 0.181.
+As shown in Figure 3 and Table 2, the positions of CR atoms
+in the mutant structures are very similar to those of the WT
+complex, indicating that the substitutions in the complemen￾tarity determining regions (CDRs) do not significantly affect
+the conformations of these loops or the relative orientations
+of VL, VH, and HEL in the complex. This observation is
+consistent with previous crystallographic studies of antibody￾antigen complexes with interface mutations (Tulip et al.,
+1992b; Ysern et al., 1994; Chacko et al., 1995). Electron
+density difference maps calculated at the start of refinement
+are consistent with the amino acid substitutions in each
+mutant complex (Figure 4). The calorimetric data for the
+mutant complexes are shown in Table 3. Binding constants
+for FvD1.3-HEL association (Kb) range from 4.0 × 106 to
+7.0 × 107 M-1
+.
+Structure and Calorimetry of the VLY50S Complex. The
+binding constant of VLY50S-HEL is 2.6 × 107 M-1, which
+is 10-fold less than that of the WT complex. This affinity
+loss corresponds to a ∆∆Gb° of 6.1 kJ‚mol-1 in which an
+unfavorable ∆∆H of 8.8 kJ‚mol-1 is partially compensated
+by a favorable ∆(T∆S) of 2.7 kJ‚mol-1 (Table 3). Tyr50 of
+the antibody VL domain makes one direct hydrogen bond to
+an Asp side chain of the lysozyme antigen (FvD1.3 Tyr50
+Oη‚‚‚Oδ2 Asp18HEL, 2.7 Å) and also participates in the
+interface water network. When VLTyr50 is mutated to Ser,
+this direct hydrogen bond is replaced by solvent-mediated
+interactions to the HEL side chain (VLSer50 Oγ‚‚‚H2O‚‚‚
+H2O‚‚‚Oδ1 Asp18HEL). These two bridging water molecules
+occupy some of the volume that was taken up by the
+VLTyr50 side chain in the WT structure (Figure 5A). Several
+neighboring water molecules are in positions that correspond
+closely to those of the WT structure while others are not
+observed in the crystal structure probably because of the
+lower resolution of this structure compared to the WT crystal
+structure. Conformational changes in the vicinity of the
+mutation are largest at HEL side chains Asp18 and Asn19sthe
+residues that are in closest contact to VLTyr50 of FvD1.3 in
+the WT structure (Figure 5A). The largest difference in
+atomic positions (1.1 Å) occurs at Asp18 Oδ2. In addition,
+the temperature factors of these side chains increase when
+VLTyr50 is replaced with Ser (Table 4). As well as losing
+a direct hydrogen bond to the lysozyme antigen, several van
+der Waals contacts are also lost, which should contribute to
+the observed unfavorable enthalpy change (Table 5).
+Structure and Calorimetry of the VHY32A Complex. The
+side chain of VHTyr32 makes a long potential hydrogen bond
+(3.5 Å) with the side chain of lysozyme residue Lys116 and,
+like VLTyr50, is involved in a solvent network that bridges
+antigen and antibody. Mutation to Ala disrupts the solvent
+network but does not affect the conformation or temperature
+factors of Lys116HEL (Figure 5B, Table 4). The VHY32A
+mutant binds lysozyme with only about 4-fold lower affinity
+than that of the WT Fv. In this case the large ∆∆H (17.9
+kJ‚mol-1) is almost fully compensated by the entropic term
+resulting in the small decrease in affinity (Table 3). As for
+FIGURE 3: Superposition of four FvD1.3-HEL structures: WT, VLTyr50Ser, VHTyr32Ala, and VHTyr101Phe. CR atoms plus the side
+chains of the relevant interacting residues are shown in stereo. Note the large variation in the position of the HEL C-terminus which has
+high temperature factors and weak electron density. See also Table 2.
+Table 2: rms Deviation (Å) of All CR Atoms after Least-Squares
+Superposition of FvD1.3-HEL Structures
+VLY50S VHY32A VHY101F
+WT 0.22 0.21 0.22
+VLY50S 0.20 0.23
+VHY32A 0.19
+Hydrogen Bonds in an Antigen-Antibody Interface Biochemistry, Vol. 35, No. 48, 1996 15497
++ +
++ +the VLY50S mutant, a rearrangement in the local solvent
+structure is clear. However, in contrast with VLY50S, only
+one van der Waals contact is lost along with the long
+hydrogen bond (Table 5). There are two side chains in the
+vicinity of the mutation whose mobilities are affected by the
+VHY32A mutation. When VHTyr32 is truncated to Ala,
+VHArg99 loses stabilizing contacts with VHTyr32 and
+becomes more mobile, as indicated by an increase in the
+mean temperature factor of side chain atoms from 28 to 40
+Å2 (Table 4). A conformational change in VHArg99,
+resulting in a maximum atomic displacement of 1.1 Å from
+the WT structure, accompanies the temperature factor
+increase. In contrast, the mean temperature factor of a
+neighboring side chain, VHPhe27, decreases (from 16 to 9
+Å2) while the shifts in atomic positions for this side chain
+are smaller (<0.5 Å).
+Structure and Calorimetry of the VHY101F Complex.
+Tyr101 of D1.3 VH is situated near the center of the Fv￾HEL interface and makes two hydrogen bonds with HEL:
+VHTyr101 Oη‚‚‚Oδ1 Asp119HEL (2.7 Å) and VHTyr101 Oη‚‚‚N
+Gln121HEL (3.0 Å). The effective substitution of the Tyr
+hydroxyl group by a hydrogen atom to give the Phe mutant
+results in small local atomic shifts. The largest atomic
+displacement (0.5 Å) in the interface compared to WT occurs
+at Asp119HEL Oδ1
+san atom involved in one of the above￾FIGURE 4: Stereo electron density difference maps calculated at the start of refinement superposed on the final refined structures: (A)
+VLTyr50Ser, (B) VHTyr32Ala, and (C) VHTyr101Phe. Contours are drawn at +3σ (thick lines) and -3σ (thin lines).
+Table 3: Calorimetric Data for FvD1.3-HEL Complex Formationa
+mutant Kb (M-1
+)
+∆∆G°
+(kJ‚mol-1
+)
+∆∆H
+(kJ‚mol-1
+)
+∆(T∆S)
+(kJ‚mol-1
+‚K-1
+)
+wild typeb (2.7 ( 1.0) × 108 0.0 0.0 0.0
+VLY50S (2.6 ( 0.4) × 107 6.1 ( 0.1 8.8 ( 0.2 2.7 ( 0.1
+VHY32A (7.0 ( 1.8) × 107 3.6 ( 0.1 17.9 ( 0.8 14.3 ( 0.7
+VHY101F (4.0 ( 1.3) × 106 10.9 ( 0.2 31.3 ( 0.6 20.4 ( 1.4
+a ∆∆X ) ∆Xmutant - ∆XWT, where X ) G or H. ∆(T∆S) ) T∆Smutant
+- T∆SWT. b From Bhat et al. (1994).
+15498 Biochemistry, Vol. 35, No. 48, 1996 Fields et al.
++ +
++ +mentioned hydrogen bonds. In contrast to the other mutants,
+there are no increases in temperature factors for atoms in
+the vicinity of the mutation (Table 4). The calorimetric data
+indicate that the unfavorable enthalpy change resulting from
+the loss of two interface hydrogen bonds is strongly
+compensated by a favorable entropy change (Table 3). This
+complex exhibits the largest ∆∆H, 31 kJ‚mol-1
+, and the
+largest ∆(T∆S), 20 kJ‚mol-1
+, of the three mutant complexes.
+It is important to note that there is no space for a water
+molecule to insert into the interface when the OH group of
+Tyr101 is replaced by H. Significantly, the structure shows
+that the side chain of Asp119HEL is not left with its hydrogen￾bonding potential unsatisfied in the mutant. Instead,
+Asp119HEL forms an intramolecular hydrogen bond with
+Gln121HEL N (3.2 Å). In the WT structure, the corresponding
+distance is 3.8 Å, which is too long to be a hydrogen bond.
+DISCUSSION
+The FvD1.3 system is particularly suitable for the study
+of protein-protein complex energetics and structure. High￾resolution (1.8 Å) crystal structures are known for FvD1.3
+both in the free state and bound to its specific antigen HEL
+(Bhat et al., 1994). Also, the thermodynamics of the Fv￾HEL association reaction have been analyzed using isother￾mal titration calorimetry (Bhat et al., 1994). The availability
+of high-resolution crystal structures of mutant Fv-HEL
+complexes enables the quantitation of small, as well as large,
+structural changes induced by the mutation. An analysis of
+the precision of the crystal structures, as presented below,
+sets limits for significance levels pertaining to changes in
+atomic positions.
+Precision of Crystal Structures. Luzzati plots (Luzzati,
+1952) for each of the refinements (data not shown) give mean
+FIGURE 5: Stereo diagrams of the mutant structures (thick bonds, large atoms, continuous hydrogen bonds) superposed on the WT structure
+(thin bonds, small atoms, dashed hydrogen bonds): (A) VLTyr50Ser, (B) VHTyr32Ala, and (C) VHTyr101Phe.
+Hydrogen Bonds in an Antigen-Antibody Interface Biochemistry, Vol. 35, No. 48, 1996 15499
++ +
++ +errors in atomic positions of 0.25 Å (VLY50S and VHY32A)
+and 0.22 Å (VHY101F). These values agree closely with
+the rms deviations in CR positions after superposition of the
+mutant and WT complexes (Table 2). Global estimates of
+precision, such as the Luzzati analysis, do not provide
+information about the precision of specific interactions.
+Individual errors may differ greatly from the overall estimate
+depending on, for example, the local order and dynamics,
+as indicated by temperature factors. In this study, the
+availability of refined crystal structures of several single￾site mutants permits an analysis of the precision of specific
+interactions. Ignoring localized structural differences due
+to the effects of the mutations, we will assume, for statistical
+purposes, that each mutant structure represents an indepen￾dent determination of the WT structure. It is then possible,
+for example, to calculate standard deviations of individual
+hydrogen bond lengths and van der Waals contact distances
+in the antibody-antigen interface and thus evaluate whether
+a particular structural change is significant. The seven
+structures used to obtain the values for the 14 interface
+hydrogen bonds shown in Table 6 are the WT complex (Bhat
+et al., 1994), the VLTrp92Asp complex (Ysern et al., 1994),
+the three complexes presented here, and two unpublished
+mutant complexes (VLPhe91Leu, 1.85 Å resolution, R )
+0.17, and VHAsn56Ala, 1.83 Å resolution, R ) 0.16). Nine
+of these hydrogen bonds have standard deviations e0.10 Å
+(Table 6). The smallest standard deviation for an interface
+hydrogen bond length, 0.05 Å, occurs at residues with below￾average temperature factors, namely, VHAsp100 (Bmean ) 12
+Å2) and Ser24HEL (Bmean ) 14 Å2). In striking contrast, an
+interaction with the C-terminus of HEL that was defined as
+a hydrogen bond in the WT structure, VLHis30 Nδ1‚‚‚OT
+Leu129HEL, varies dramatically in the refined mutant struc￾tures. It is evident from the high temperature factors of
+Leu129HEL (Bmean ) 55 Å2
+), its poor electron density in all
+structures, and its variability in conformation (see Figure 3)
+that any stabilizing interaction with D1.3 is transient at best.
+With regard to the variation of hydrogen bond lengths in
+the interface, this analysis indicates that the VHTyr32 Oη‚‚‚Nú
+Lys116HEL interaction is relatively long while the VHTyr101
+Oη‚‚‚Oδ1 Asp119HEL interaction is relatively short (Table 6).
+In view of the standard deviations and ranges shown in Table
+6, analogous statements for the remaining intermediate
+hydrogen bonds cannot be made with confidence.
+Interface SolVent and Hydrogen Bonds. Previous studies
+on the FvD1.3-HEL complex have supported the concept
+Table 4: Mean Temperature Factors (Å2
+) for Side Chains at the
+Mutation Sites
+residue WT VLY50S VHY32A VHY101F
+VLTyr49 18 20
+VL50 16 24
+VLThr51 14 19
+Asp18HEL 24 35
+Asn19HEL 19 38
+VHPhe27 16 9
+VH32 19 13
+VHArg99 28 40
+Lys116HEL 24 25
+AspVH100 12 10
+VH101 13 12
+ArgVH102 16 11
+Ser24HEL 14 13
+Asp119HEL 17 16
+Val120HEL 13 10
+Gln121HEL 12 11
+Table 5: Contacts Made to Lysozyme by FvD1.3 Residues VL50,
+VH32, and VH101 in the WT and Mutant Complexes
+WT complex mutant complexes
+VLTyr50
+atom
+HEL
+atom residue
+distancea
+(Å)
+Ser50
+atom
+HEL
+atom residue
+distance
+(Å)
+Cδ2 Câ Asn19 3.8 Câ Cγ Asn19 3.8
+Cδ2 Cγ Asn19 3.7 Câ Oδ1 Asn19 3.6
+Cδ2 Nδ2 Asn19 3.7 Oγ Cγ Asn19 3.5
+C2 Cγ Asp18 4.1 Oγ Oδ1 Asn19 3.4
+C2 Oδ2 Asp18 3.7
+C2 Câ Asn19 4.0
+Cú Cγ Asp18 4.0
+Cú Oδ1 Asp18 3.7
+Cú Oδ2 Asp18 3.6
+Oη Cγ Asp18 3.4
+Oη Oδ1 Asp18 3.2
+Oη Oδ2 Asp18 2.7b
+WT complex mutant complexes
+VHTyr32
+atom
+HEL
+atom residue
+distance
+(Å)
+Ala32
+atom
+HEL
+atom residue
+distance
+(Å)
+Cú C Lys116 4.0 no contacts from Ala32 to HEL
+Oη Nú Lys116 3.5b
+WT complex mutant complexes
+VHTyr101
+atom
+HEL
+atom residue
+distance
+(Å)
+Phe101
+atom
+HEL
+atom residue
+distance
+(Å)
+C1 Cγ2 Val120 3.8 Cδ1 Oγ Ser24 3.7
+C1 Câ Gln121 4.1 C1 Oγ Ser24 3.7
+C2 Câ Gln121 3.9 C1 Cγ2 Val120 3.7
+Cú Oδ1 Asp119 3.7 C1 Câ Gln121 4.1
+Cú Câ Gln121 3.5 C2 Câ Gln121 3.8
+Oη CR Asp119 3.4 Cú Oδ1 Asp119 3.6
+Oη Cγ Asp119 3.7 Cú N Gln121 3.7
+Oη Oδ1 Asp119 2.7b Cú CR Gln121 4.1
+Oη C Asp119 3.4 Cú Câ Gln121 3.4
+Oη N Val120 3.2
+Oη N Gln121 3.0b
+Oη Câ Gln121 3.2
+a Maximum contact distances are as follows (in Å): C-C, 4.1; C-N,
+3.8; C-O, 3.7; O-O, 3.4; O-N, 3.5; N-N, 3.5. b Hydrogen bond (see
+also Table 6).
+Table 6: Interface Hydrogen Bond Lengths, Standard Deviations,
+and Ranges, Calculated from Seven FvD1.3-HEL Crystal
+Structuresa
+D1.3 atom HEL atom
+WT
+distance mean SDb range
+VL
+His30 Nδ1 OT Leu129 3.38 5.82c 1.85 5.56
+Tyr50 Oη Oδ2 Asp18 2.74 2.71 0.15 0.44
+Thr53 Oγ1 Nδ2 Asn19 2.80 2.91 0.08 0.27
+Phe91 O N2
+Gln121 2.82 2.84 0.07 0.18
+Ser93 N O1 Gln121 2.89 2.88 0.07 0.22
+VH
+Tyr32 Oη Nú Lys116 3.47 3.34 0.10 0.33
+Gly53 N O Gly117 2.82 2.79 0.11 0.36
+Arg99 Nη1 O Gly102 2.68 2.87 0.26 0.81
+Asp100 Oδ1 N Ser24 2.91 2.87 0.05 0.13
+Asp100 Oδ2 Oγ Ser24 2.84 2.85 0.09 0.25
+Asp100 Oδ2 Nδ2 Asn27 3.08 3.19 0.07 0.22
+Tyr101 Oη Oδ1 Asp119 2.70 2.54 0.08 0.28
+Tyr101 Oη N Gln121 3.04 3.06 0.14 0.39
+Arg102 Nη2 O Gly22 2.82 2.89 0.09 0.29
+a All values in Å. These 14 interface hydrogen bonds were selected
+from the WT structure according to the following criteria: (i) donor￾acceptor distance e3.5 Å and (ii) angles at donor and acceptor atoms
+>90°. b Standard deviation. c See text for discussion.
+15500 Biochemistry, Vol. 35, No. 48, 1996 Fields et al.
++ +
++ +that solvent associated with the protein-protein interface
+contributes to the stability of the complex (Bhat et al., 1994;
+Goldbaum et al., 1996). The high-resolution crystal structure
+of FvD1.3-HEL shows a large number of water molecules
+in the interface that provide bridging hydrogen bonds and
+occupy what could otherwise be destabilizing voids in the
+interface (Figure 1). The plasticity of part of this network
+was illustrated in the crystal structure of an FvD1.3-HEL
+complex with VLTrp92 substituted for Asp (Ysern et al.,
+1994). In that study, truncation of the VLTrp92 side chain
+left space which was filled by two water molecules. Other
+water molecules in the vicinity of the mutation adjusted
+positions slightly, presumably to optimize hydrogen bonds
+and van der Waals contacts with the void-filling water
+molecules.
+Two of the structures presented here, VLY50S and
+VHY32A, bound to HEL, also exhibit alterations in local
+solvent structure compared to WT. In both cases the solvent
+rearrangements are localized, and their effects do not extend
+far beyond the vicinity of the mutation. In VLY50S, the
+direct hydrogen bond to HEL in the WT structure is lost
+and replaced by solvent-mediated interactions (Figure 5A).
+A bridging water molecule substituting for a direct hydrogen
+bond was observed in an antibody-trisaccharide system
+(Bundle et al., 1994; Zdanov et al., 1994). Based on
+geometry criteria, namely, the hydrogen bond donor￾acceptor distance and the relative orientation of the interact￾ing groups, the VLY50S hydrogen bond with HEL would
+be classified as “strong”. However, ∆∆H for VLY50S
+compared to WT is only 9 kJ‚mol-1
+. Furthermore, as shown
+in Table 5, several van der Waals contacts are lost along
+with the hydrogen bond when VLTyr50 is substituted for
+Ser. Based on our analysis of the contribution of van der
+Waals contacts by VLTrp92 (Ysern et al., 1994), the lost
+contacts of Tyr50 could provide an additional ∼8 kJ‚mol-1.
+As noted previously, Tyr50 is also involved in hydrogen￾bonding interactions with the interface water network. Thus,
+Tyr50 interacts with HEL through a direct hydrogen bond,
+several van der Waals contacts, and a solvent network and
+would therefore appear to be energetically important. There
+are several ways to explain the apparently small difference
+in enthalpy between WT and VLY50S: (i) the new bridging
+solvent in the Y50S complex provides most of the stabilizing
+enthalpy, (ii) the Tyr50 hydrogen bond and/or van der Waals
+contacts contribute much less to the enthalpy of the WT
+complex than estimated, (iii) the energetics of the unbound
+Fv molecules differ substantially, or (iv) a combination of
+these. The following discussion of the VHY32A and
+VHY101F complexes supports the view that localized bridg￾ing solvent can make a significant enthalpic contribution.
+The VHTyr32 Oη‚‚‚Nú Lys116HEL separation of 3.5 Å
+would classify this interaction as a relatively weaker
+hydrogen bond compared to the above-mentioned VLTyr50
+interaction (Table 6). In contrast to the situation for VLY50S,
+the ∆∆H for VHY32A compared to WT is large (18
+kJ‚mol-1
+)sa value which may be expected to correspond
+to a strong hydrogen bond. In this case, however, Tyr32 is
+also involved in a bridging solvent network which is
+completely lost when Tyr is replaced by Ala and is not
+compensated by new bridging water interactions. A new
+water molecule that occupies some of the space taken up by
+the Tyr ring in the WT structure is too distant from HEL to
+act as a bridge. Thus, a possible explanation for the large
+∆∆H despite the apparently weak hydrogen bond is that the
+existing solvent network in the WT complex makes a sizable
+contribution to ∆H. This hypothesis could be tested by
+substitution of a residue other than Ala in place of Tyr which
+might preserve certain elements of the WT solvent network.
+Compared to the previous two mutants, an analysis of
+VHY101F appears straightforward since there is no solvent
+network directly associated with the hydroxyl group of
+VHTyr101 in the complex interface. Truncation to Phe
+results in an unfavorable ∆∆H of 31 kJ‚mol-1
+. In this case
+it is clear that two hydrogen bonds are lost, other structural
+differences compared to WT are small, and Asp119HEL is
+not left with its hydrogen-bonding potential unsatisfied (see
+below and Figure 5C). Thus, it is probably valid to assume
+that most of the ∆∆H component arises from the loss of the
+two hydrogen bonds. The resulting estimate of the contribu￾tion of each hydrogen bond is therefore ∼16 kJ‚mol-1
+. Since
+hydrogen bonds are essentially electrostatic interactions
+between atoms of opposite partial charge, the strength of a
+hydrogen bond depends most critically on the hydrogen bond
+donor-acceptor distance, the magnitudes of the partial
+charges on the donor and acceptor atoms, and the local
+dielectric constant. With regard to the dielectric constant,
+it is pertinent that the hydrogen bonds between VHTyr101
+and HEL are buried in the interface of the complex while
+those from VLTyr50 and VHTyr32 are on the periphery
+(Figure 1). Thus, it is possible that the hydrogen bonds from
+VHTyr101 are elevated in strength compared to those from
+VLTyr50 and VHTyr32 due to a lower dielectric constant in
+the protein-protein interface compared to the periphery.
+However, such an effect is likely to be small since the
+FvD1.3-HEL interface is predominantly made up of polar
+residues, is highly solvated, and, therefore, should have a
+dielectric constant much closer to that of the solvent-exposed
+surface. It is unlikely that this protein-protein interface has
+electrostatic properties similar to that of a hydrophobic
+interior of a folded globular protein where the low dielectric
+constant would magnify the strength of hydrogen bonds.
+It has been noted that the discrepancy between the apparent
+contribution to ∆G of an interaction (∆Gapp) and the intrinsic
+∆Gsthe actual energetic contribution of a particular interac￾tion (∆Gint)smay be large when a mutation leaves a charged
+hydrogen bond donor or acceptor with its hydrogen-bonding
+potential unsatisfied (Fersht, 1988). This point may be
+relevant here since three of the hydrogen bonds analyzed in
+this study involve one charged residue from HEL. As such,
+it is possible that mutation of the corresponding D1.3 partner
+in the hydrogen-bonding interaction could have an anoma￾lously large destabilizing effect. Examining each mutant
+structure with this possibility in mind, it is apparent that in
+no case is the hydrogen-bonding potential of the charged
+HEL side chains left unsatisfied. For the VLY50S-HEL
+complex, both carboxylate Oδ atoms of Asp18HEL are
+hydrogen bonded to interface solvent molecules (Figure 5A).
+Likewise, Lys116HEL in the VHY32A complex is within
+hydrogen-bonding distance of two water molecules (Figure
+5B). Finally, as stated before, Asp119HEL in the VHY101F
+complex is involved in an intramolecular hydrogen bond with
+the backbone nitrogen of Gln121HEL (Figure 5C). Therefore,
+in all three cases ∆Gapp and ∆Gint should be similar in
+magnitude. The validity of this reasoning could be tested
+by double mutant cycles (Serrano et al., 1990, 1991;
+Schreiber & Fersht, 1995).
+Hydrogen Bonds in an Antigen-Antibody Interface Biochemistry, Vol. 35, No. 48, 1996 15501
++ +
++ +The importance of hydrogen bonds in contributing to the
+affinity and specificity of protein-ligand complex formation
+has been investigated in several systems. For example,
+truncation of a side chain in a tRNA synthetase-substrate
+complex to leave an uncharged, unpaired hydrogen bond
+donor or acceptor weakened binding by 2-6 kJ‚mol-1
+(Fersht et al., 1985). Truncation of a side chain to leave an
+unpaired and charged donor or acceptor weakened binding
+by an additional ∼12 kJ‚mol-1 (Fersht et al., 1985). In
+another study, comparison of two thermolysin-inhibitor
+complexes that were essentially identical except for the
+presence or absence of a specific hydrogen bond differed in
+binding energy by 17 kJ‚mol-1 (Tronrud et al., 1987).
+Entropy compensation effects cannot be addressed in these
+studies since only changes in ∆G were measured. However,
+the decrease in binding affinity (17 kJ‚mol-1
+) observed in
+the thermolysin-inhibitor system is in close agreement with
+the estimate of the contribution of a hydrogen bond (31.3/2
+≈ 16 kJ‚mol-1
+) obtained from the analysis of the VHY101F￾HEL complex.
+A recent study, comparing the crystal structure of an
+antibody-HEL mutant complex with the WT structure,
+concluded that the HEL mutation Arg68Lys results in the
+net loss of about one interface hydrogen bond (Chacko et
+al., 1995). The hydrogen-bonding analysis was complicated
+by the fact that Lys68 in the mutant complex appears to exist
+in two conformations. This antibody, HyHEL-5, forms a
+complex with HEL with a Kb of 1011 M-1 (Padlan et al.,
+1989). The Arg68Lys lysozyme mutant binds with an
+∼1000-fold lower affinity, which corresponds to a ∆∆G of
+17 kJ‚mol-1 (Lavoie et al., 1990). Once again, only values
+for ∆G were obtained in these experiments; however, if the
+entropy compensation is small, then the resulting enthalpic
+contribution of a hydrogen bond is similar to the value we
+obtained in the VHY101F system.
+The crystal structure of FvD1.3 complexed with turkey
+egg white lysozyme (TEL) has also been elucidated and
+shows the same mode of binding as HEL (Braden et al.,
+1996). However, HEL and TEL differ by one amino acid
+in the interface (Gln121HEL f His121TEL), and Kb for the
+FvD1.3-TEL reaction is 7.0 × 105 M-1
+, that is, about 400-
+fold lower than the FvD1.3-HEL reaction. Differences in
+∆G, ∆H, and T∆S, compared to FvD1.3-HEL are 16
+kJ‚mol-1
+, 36 kJ‚mol-1
+, and 22 kJ‚mol-1, respectively. The
+large ∆∆H is not surprising since, in the FvD1.3-HEL
+complex, the side chain of Gln121HEL forms two hydrogen
+bonds to the backbone of FvD1.3 plus one hydrogen bond
+to the aromatic ring of VLTyr32. Moreover, Gln121 shows
+good shape complementarity to a pocket formed by the
+aromatic side chains of VLTyr32, VLTrp92, and VHTyr101
+and makes van der Waals contacts with these residues.
+When Gln121 is effectively substituted by His in the
+FvD1.3-TEL complex, a conformational change in D1.3
+takes place in order to accommodate the His side chain. This
+conformational changesa peptide flip at VL residues 92 and
+93senables His121 to form one hydrogen bond with D1.3.
+Thus, a total of two interface hydrogen bonds are lost.
+However, the contribution of the hydrogen bond from Gln121
+to the aromatic ring of VLTyr32 in the WT complex is
+difficult to estimate (Levitt & Perutz, 1988; Jamison et al.,
+1995).
+Entropy Compensation. The previous section was limited
+to a discussion of interactions that may affect the enthalpy
+of the system, namely, electrostatic (hydrogen bonds in this
+case) and van der Waals interactions. As noted before, the
+loss in affinity for all three mutant Fv molecules is smaller
+than would be expected on the basis of enthalpy consider￾ations alone; that is, entropy compensation is in effect.
+Entropy compensation is a phenomenon that has been
+observed in many systems including the D1.3-HEL (Ito et
+al., 1993) and HyHEL10-HEL binding reactions (Tsumoto
+et al., 1994). Since all of the crystal structures presented
+here are isomorphous to the wild-type crystal structure, local
+B-factor differences are attributed to the effects of the
+interface mutations and not to any differences in crystal
+packing. Of the mutants investigated in this study, entropy
+compensation is greatest for VHY101F. Increases in solvent
+and protein motion, as indicated by the crystallographic
+B-factors (Table 4), must contribute to the entropy compen￾sation observed for the other two mutants. However, for
+the VHY101F complex there are no changes in solvent
+structure or B-factors. Here, the most plausible explanation
+lies in the differing entropy of the unbound WT and
+VHY101F Fv molecules. Of relevance to this point is the
+observation that the mean B-factor of VHTyr101 in the
+unbound WT Fv is 80% larger than in the complex. As
+argued by Bhat et al. (1994), this quenching of side chain
+mobility upon complex formation is entropically unfavorable
+for binding. Using similar reasoning, an explanation for the
+observed entropy compensation for the VHY101F-HEL
+reaction is that the mobility of VHPhe101 in the unbound
+Fv is much closer to its mobility in the complex. This
+hypothesis may be tested by determining the crystal structure
+of the unbound mutant Fv. An alternative explanation is
+that the solvent structure around VHTyr101 in the unbound
+state differs substantially from that in the Phe mutant, giving
+rise to a perturbed hydrophobic effect. This is a reasonable
+possibility considering the contrasting hydrophobicity and
+hydrogen-bonding potential of tyrosine and phenylalanine.
+In the unbound WT Fv structure, the VHTyr101 side chain
+is hydrogen bonded to one water molecule with a high
+temperature factor (B ) 45 Å2
+). However, VHTyr101 also
+makes contacts with a neighboring FvD1.3 molecule in the
+crystal, thus complicating any analysis of its structure and
+energetics in the unbound state.
+The above arguments emphasize the potential importance
+of the unbound structures when attempting to understand the
+thermodynamic consequences of interface mutations. Al￾though B-factor increases and small conformational changes
+may contribute to entropy compensation in the VLY50S and
+VHY32A systems, exactly the same arguments regarding the
+structure and energetics of the unbound state also apply in
+those cases.
+Conclusions. Several conclusions may be drawn from this
+study. The calorimetric and structural data provide strong
+support for the concept that solvent interactions can make
+large contributions to the enthalpy of binding and, therefore,
+to the affinity of protein-protein complexes. Although
+solvent rearrangements are localized and their effects do not
+extend beyond the vicinity of the mutation, they are important
+in two ways. First, water molecules may act as “adaptors”
+to correct imperfections introduced into the interface by the
+mutation. Indeed, losses of complementarity in solvent￾accessible regions of the interface tend to be compensated
+by the stable inclusion of additional water molecules rather
+than by adjustments in protein structure although we do
+15502 Biochemistry, Vol. 35, No. 48, 1996 Fields et al.
++ +
++ +observe small but significant adjustments in all three
+structures analyzed here. In another antigen-antibody
+system, crystallographically defined structural adjustments
+were suggested as a means of compensating for the effects
+of mutations (Tulip et al., 1992b). Small structural adjust￾ments predominantly result when mutations are introduced
+into protein cores (Buckle et al., 1993; Chen et al., 1993;
+Matthews, 1995), although incorporation of solvent has also
+been observed (Buckle et al., 1996). Second, the disruption
+of ordered solvent networks bridging antigen and antibody
+may contribute significantly to entropy compensation. In￾creases in the mobility of side chains of residues in proximity
+to the mutation provide a supplementary mechanism for
+entropy compensation. Finally, the potential importance of
+knowing the high-resolution crystal structures of unbound
+mutants, in addition to crystal structures of the mutants in
+complexed form, should not be overlooked when attempting
+to understand the thermodynamic consequences of interface
+mutations in structural terms.
+REFERENCES
+Amit, A. G., Mariuzza, R. A., Phillips, S. E., & Poljak, R. J. (1986)
+Science 233, 747-753.
+Bhat, T. N., Bentley, G. A., Fischmann, T. O., Boulot, G., & Poljak,
+R. J. (1990) Nature 347, 483-485.
+Bhat, T. N., Bentley, G. A., Boulot, G., Greene, M. I., Tello, D.,
+Dall’Acqua, W., Souchon, H., Schwarz, F. P., Mariuzza, R. A.,
+& Poljak, R. J. (1994) Proc. Natl. Acad. Sci. U.S.A. 91, 1089-
+1093.
+Bizebard, T., Gigant, B., Rigolet, P., Rasmussen, B., Diat, O.,
+Bosecke, P., Wharton, S. A., Skehel, J. J., & Knossow, M. (1995)
+Nature 376, 92-94.
+Bossart-Whitaker, P., Chang, C. Y., Novotny, J., Benjamin, D. C.,
+& Sheriff, S. (1995) J. Mol. Biol. 253, 559-575.
+Boulot, G., Eisele, J. L., Bentley, G. A., Bhat, T. N., Ward, E. S.,
+Winter, G., & Poljak, R. J. (1990) J. Mol. Biol. 213, 617-619.
+Braden, B. C., Souchon, H., Eisele, J. L., Bentley, G. A., Bhat, T.
+N., Navaza, J., & Poljak, R. J. (1994) J. Mol. Biol. 243, 767-
+781.
+Braden, B. C., Fields, B. A., Ysern, X., Goldbaum, F. A.,
+Dall’Acqua, W., Schwarz, F. P., Poljak, R. J., & Mariuzza, R.
+A. (1996) J. Mol. Biol. 257, 889-894.
+Bru¨nger, A. T. (1992) X-PLOR Version 3.1. A System for X-ray
+Crystallography and NMR, Yale University Press, New Haven
+and London.
+Buckle, A. M., Henrick, K., & Fersht, A. R. (1993) J. Mol. Biol.
+234, 847-860.
+Buckle, A. M., Cramer, P., & Fersht, A. R. (1996) Biochemistry
+35, 4298-4305.
+Bundle, D. R., Baumann, H., Brisson, J. R., Gagne, S. M., Zdanov,
+A., & Cygler, M. (1994) Biochemistry 33, 5183-5192.
+Chacko, S., Silverton, E. W., Kam-Morgan, L., Smith-Gill, S. J.,
+Cohen, G., & Davies, D. R. (1995) J. Mol. Biol. 245, 261-274.
+Chen, Y. W., Fersht, A. R., & Henrick, K. (1993) J. Mol. Biol.
+234, 1158-1170.
+Chilkoti, A., Tan, P. H., & Stayton, P. S. (1995) Proc. Natl. Acad.
+Sci. U.S.A. 92, 1754-1758.
+Chitarra, V., Alzari, P. M., Bentley, G. A., Bhat, T. N., Eisele, J.
+L., Houdusse, A., Lescar, J., Souchon, H., & Poljak, R. J. (1993)
+Proc. Natl. Acad. Sci. U.S.A. 90, 7711-7715.
+Clackson, T., & Wells, J. A. (1995) Science 267, 383-386.
+Colman, P. M., Laver, W. G., Varghese, J. N., Baker, A. T., Tulloch,
+P. A., Air, G. M., & Webster, R. G. (1987) Nature 326, 358-
+363.
+Fersht, A. R. (1988) Biochemistry 27, 1577-1580.
+Fersht, A. R., Shi, J. P., Knill-Jones, J., Lowe, D. M., Wilkinson,
+A. J., Blow, D. M., Brick, P., Carter, P., Waye, M. M., & Winter,
+G. (1985) Nature 314, 235-238.
+Fields, B. A., Goldbaum, F. A., Ysern, X., Poljak, R. J., & Mariuzza,
+R. A. (1995) Nature 374, 739-742.
+Fischmann, T. O., Bentley, G. A., Bhat, T. N., Boulot, G., Mariuzza,
+R. A., Phillips, S. E., Tello, D., & Poljak, R. J. (1991) J. Biol.
+Chem. 266, 12915-12920.
+Goldbaum, F. A., Schwarz, F. P., Eisenstein, E., Cauerhff, A.,
+Mariuzza, R. A., & Poljak, R. J. (1996) J. Mol. Recognit. 9,
+6-12.
+Howard, A. J., Gilliland, G. L., Finzel, B. C., Poulos, T. L.,
+Ohlendorf, D. H., & Salemme, F. R. (1987) J. Appl. Crystallogr.
+20, 383-387.
+Ito, W., Iba, Y., & Kurosawa, Y. (1993) J. Biol. Chem. 268, 16639-
+16647.
+Jamison, R. S., Kakkad, B., Ebert, D. H., Newcomer, M. E., &
+Ong, D. E. (1995) Biochemistry 34, 11128-11132.
+Kunkel, T. A. (1987) Methods Enzymol. 154, 367-382.
+Lavoie, T. B., Kam-Morgan, L. N. W., Mallet, C. P., Schilling, J.
+W., Prager, E. M., Wilson, A. C., & Smith-Gill, S. J. (1990) in
+Use of X-ray Crystallography in the Design of AntiViral Agents
+(Laver, W. G., & Air, G. M., Eds.) Academic Press, New York.
+Lescar, J., Pellegrini, M., Souchon, H., Tello, D., Poljak, R. J.,
+Peterson, N., Greene, M., & Alzari, P. M. (1995) J. Biol. Chem.
+270, 18067-18076.
+Levitt, M., & Perutz, M. F. (1988) J. Mol. Biol. 201, 751-754.
+Luzzati, V. (1952) Acta Crystallogr. 5, 802-810.
+Malby, R. L., Tulip, W. R., Harley, V. R., McKimm-Breschkin, J.
+L., Laver, W. G., Webster, R. G., & Colman, P. M. (1994)
+Structure 2, 733-746.
+Matthews, B. W. (1995) AdV. Protein Chem. 46, 249-278.
+McPhalen, C. A., & James, M. N. G. (1988) Biochemistry 27,
+6582-6598.
+Padlan, E. A., Silverton, E. W., Sheriff, S., Cohen, G. H., Smith￾Gill, S. J., & Davies, D. R. (1989) Proc. Natl. Acad. Sci. U.S.A.
+86, 5938-5942.
+Prasad, L., Sharma, S., Vandonselaar, M., Quail, J. W., Lee, J. S.,
+Waygood, E. B., Wilson, K. S., Dauter, Z., & Delbaere, L. T.
+(1993) J. Biol. Chem. 268, 10705-10708.
+Sanger, F., Nicklen, S., & Coulson, A. R. (1977) Proc. Natl. Acad.
+Sci. U.S.A. 74, 5463-5467.
+Schreiber, G., & Fersht, A. R. (1995) J. Mol. Biol. 248, 478-486.
+Schwarz, F. P., Puri, K. D., Bhat, R. G., & Surolia, A. (1993) J.
+Biol. Chem. 268, 7668-7677.
+Schwarz, F. P., Tello, D., Goldbaum, F. A., Mariuzza, R. A., &
+Poljak, R. J. (1995) Eur. J. Biochem. 228, 388-394.
+Serrano, L., Horovitz, A., Avron, B., Bycroft, M., & Fersht, A. R.
+(1990) Biochemistry 29, 9343-9352.
+Serrano, L., Bycroft, M., & Fersht, A. R. (1991) J. Mol. Biol. 218,
+465-475.
+Sheriff, S., Silverton, E. W., Padlan, E. A., Cohen, G. H., Smith￾Gill, S. J., Finzel, B. C., & Davies, D. R. (1987) Proc. Natl.
+Acad. Sci. U.S.A. 84, 8075-8079.
+Tartof, K. D., & Hobbs, C. A. (1987) Bethesda Res. Lab. Focus 9,
+12.
+Thaller, C., Weaver, L. H., Eichele, G., Wilson, E., Karlsson, R.,
+& Jansonius, J. N. (1981) J. Mol. Biol. 147, 465-469.
+Tronrud, D. E., Holden, H. M., & Matthews, B. W. (1987) Science
+235, 571-574.
+Tsumoto, K., Ueda, Y., Maenaka, K., Watanabe, K., Ogasahara,
+K., Yutani, K., & Kumagai, I. (1994) J. Biol. Chem. 269, 28777-
+28782.
+Tulip, W. R., Varghese, J. N., Laver, W. G., Webster, R. G., &
+Colman, P. M. (1992a) J. Mol. Biol. 227, 122-148.
+Tulip, W. R., Varghese, J. N., Webster, R. G., Laver, W. G., &
+Colman, P. M. (1992b) J. Mol. Biol. 227, 149-159.
+Ward, E. S., Gussow, D., Griffiths, A. D., Jones, P. T., & Winter,
+G. (1989) Nature 341, 544-546.
+Wiseman, T., Williston, S., Brandts, J. F., & Lin, L. N. (1989)
+Anal. Biochem. 179, 131-137.
+Ysern, X., Fields, B. A., Bhat, T. N., Goldbaum, F. A., Dall’Acqua,
+W., Schwarz, F. P., Poljak, R. J., & Mariuzza, R. A. (1994) J.
+Mol. Biol. 238, 496-500.
+Zdanov, A., Li, Y., Bundle, D. R., Deng, S. J., MacKenzie, C. R.,
+Narang, S. A., Young, N. M., & Cygler, M. (1994) Proc. Natl.
+Acad. Sci. U.S.A. 91, 6423-6427.
+BI961709E
+Hydrogen Bonds in an Antigen-Antibody Interface Biochemistry, Vol. 35, No. 48, 1996 15503
++ +
++ +

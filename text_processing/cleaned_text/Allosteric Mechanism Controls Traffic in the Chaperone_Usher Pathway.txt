@@ -1,0 +1,402 @@
+Structure  Article  Allosteric Mechanism Controls Traffic  in the Chaperone/Usher Pathway  Xiao Di Yu,1,4,5 Anatoly Dubnovitsky,1,4 Alex F. Pudney,3 Sheila MacIntyre,3 Stefan D. Knight,1,  * and Anton V. Zavialov1,2,  * 1Department of Molecular Biology, Uppsala BioCenter, Swedish University of Agricultural Sciences, BMC, Box 590,  SE-753 24 Uppsala, Sweden  2Department of Chemistry, University of Turku, Turku, JBL, BioCity 6A, FIN-20520 Turku, Finland  3School of Biological Sciences, Animal and Microbial Sciences Building, University of Reading, Reading RG6 6AJ, UK  4These authors contributed equally to this work  5Present address: The F. M. Kirby Neurobiology Center, Boston Childrens Hospital, Department of Neurology, Harvard Medical School,  Boston, MA 02115, USA  *Correspondence: stefan.knight@molbio.slu.se (S.D.K.), anton.zavialov@molbio.slu.se (A.V.Z.)  http://dx.doi.org/10.1016/j.str.2012.08.016  SUMMARY  Many virulence organelles of Gram-negative bacterial pathogens are assembled via the chaperone/  usher pathway.
+The chaperone transports organelle  subunits across the periplasm to the outer membrane usher, where they are released and incorporated into growing fibers.
+Here, we elucidate the  mechanism of the usher-targeting step in assembly  of the Yersinia pestis F1 capsule at the atomic level.
+  The usher interacts almost exclusively with the chaperone in the chaperone:subunit complex.
+In free  chaperone, a pair of conserved proline residues at  the beginning of the subunit-binding loop form a  proline lock that occludes the usher-binding  surface and blocks usher binding.
+Binding of the  subunit to the chaperone rotates the proline lock  away from the usher-binding surface, allowing the  chaperone-subunit complex to bind to the usher.
+  We show that the proline lock exists in other chaperone/usher systems and represents a general  allosteric mechanism for selective targeting of  chaperone:subunit complexes to the usher and for  release and recycling of the free chaperone.
+  INTRODUCTION  Many biological functions depend on the precise assembly of  larger complex structures from smaller protein subunits.
+This  requires accurate control over each biogenesis step from  synthesis of subunits to targeting, often membrane translocation, and finally assembly of the supramolecular structure.
+The  assembly of fibrillar adhesive surface organelles from pilin  subunits via the chaperone/usher (CU) pathway in Gram-negative bacteria represents one of the best studied examples of  a biological assembly process (Waksman and Hultgren, 2009;  Zavyalov et al., 2010; Zavialov et al., 2007) (Figure 1).
+These  organelles consist of linear fibers of noncovalently linked immunoglobulin (Ig)-like modules (Sauer et al., 2002; Zavialov et al.,  2003b).
+The Ig-like modules are made by combining two protein  subunit chains.
+The first six strands of the Ig-like fold, the bulk of  the module, all come from a single chain.
+The seventh (G) strand  is provided in trans by the N-terminal donor strand region of  the preceding subunit in the fiber.
+Since this region substitutes  for the G strand that is present at the C terminus of Ig domains,  but missing in pilin subunits, thereby completing the Ig-like fold  of the module, this type of interaction was termed donor strand  complementation (Choudhury et al., 1999; Sauer et al., 1999).
+  Depending on the subunit type(s) and composition, the fibers  coil into structures of different architecture.
+The number of  different subunit types assembled and the complexity of surface  organelle morphology inversely correlate with the length of  subunit-binding motifs in chaperones (Zavyalov et al., 2010).
+  This enables the classification of CU machineries and corresponding organelles into FGS and FGL systems (Hung et al.,  1996; Zavyalov et al., 1995; Zavialov et al., 2007).
+Escherichia  coli Pap and Type-1 (Fim) CU systems have been used as prototypes of the FGS family, while the Yersinia pestis Caf CU system  is the best-studied FGL system (Zavialov et al., 2007).
+The Caf  CU pathway (Caf1M/Caf1A) assembles F1 fibers that consist  of only one type of subunit (Caf1).
+The thin and flexible F1 fibers  tend to curl up and agglomerate into a dense amorphous structure with the appearance of a capsule (F1 capsular antigen).
+  In isolation, fimbrial subunits have poor stability and in vivo  either aggregate or are rapidly degraded (Chapman et al.,  1999; MacIntyre et al., 2001).
+The periplasmic chaperones  bind fimbrial subunits as they enter the periplasm, thereby promoting their rapid folding and stabilizing them in a high-energy,  assembly competent conformation (Sauer et al., 2002; Yu  et al., 2012; Zavialov et al., 2003b, 2005).
+They do so by providing  a folding platform consisting of the A1 and G1 strands of the  first Ig-like domain of the chaperone, with the G1 (donor)  strand acting as a stand-in, completing the Ig fold of the  subunit (Yu et al., 2012).
+  Subunit assembly takes place at the usher and occurs via  a donor strand exchange (DSE) mechanism, in which the chaperone capping the subunit at the base of a growing fiber is displaced by the N-terminal donor strand of an incoming subunit.
+  The usher consists of four soluble periplasmic domains and  a transmembrane b-barrel that forms a channel for secretion of  the fiber (Dubnovitsky et al., 2010; Nishiyama et al., 2005;  Phan et al., 2011; Remaut et al., 2008; Yu et al., 2009) (Figure 1).
+  Structure 20, 18611871, November 7, 2012 2012 Elsevier Ltd All rights reserved 1861Two of the periplasmic usher domains, the N-terminal domain  (UND) and the middle domain, are involved in initial binding of  chaperone:subunit complexes and plugging the translocation  pore, respectively.
+The plug domain of the Caf1A usher shows  structural similarity to the Caf1 subunit (Yu et al., 2009).
+Two  tandem Ig-like C-terminal domains (UCD1 and UCD2) (Dubnovitsky et al., 2010; Phan et al., 2011; Remaut et al., 2008) bind to  the chaperone capping the base of a growing fiber.
+Recent  structural characterization of assembly complexes in the type 1  system led to the following general model for assembly (Phan  et al., 2011).
+In FGS systems, such as P or type-1 fimbriae, the  complex of the two-domain adhesin subunit with chaperone  must be added first to the UCDs to trigger release of the plug  domain and open the channel.
+The next and following chaperone:subunit preassembly complexes bind to the UND, which is  tethered to the N-terminus of the barrel domain by a relatively  long flexible linker.
+Modeling (Phan et al., 2011) suggests that  the free UND would be able to capture a new preassembly  complex from the periplasmic pool and position it with its free  N-terminal donor strand in close proximity to the P5 DSE initiation site (Remaut et al., 2006) of the acceptor cleft of the UCDbound subunit, aligning the system for DSE.
+Addition of the  new subunit to the base of the fiber through DSE is thought to  be accompanied by release of the chaperone from the acceptor  subunit, transfer of the attacking complex from the UND to the  UCDs, and translocation of one subunit through the usher  pore.
+The detailed mechanism of this process, in particular, the  specificity of binding and release, is not yet understood.
+  The ushermust be able to distinguish the preassembly complex  from free chaperone or free chaperone would compete for and  inhibit assembly (Figure 1).
+Indeed, chaperone-subunit complexes were found to bind to the usher, whereas no binding of  free chaperone to the usher was detected in vitro (Dodson  et al., 1993; Saulino et al., 1998).
+Structural studies on the  classical FGS CU Fim system for assembly of type-1 fimbriae suggested a possible basis for such discrimination (Nishiyama et al.,  2005).
+The crystal structure of the N-terminal domain of the FimD  usher (FimDN) bound to the complex of the FimC chaperone and  pilin domain of subunit FimH revealed that the usher-chaperone  contact contributes most of the interactive binding area, while  the contact between the usher and subunit is small.
+Nevertheless,  it was proposed that usher-subunit contacts might contribute  sufficient binding energy to ensure the selective recognition of  the complex.
+However, a more recent structure of the FimDN:  FimC:FimF complex from the same system revealed a significantly smaller interactive area between the usher and subunit  (Eidam et al., 2008), weakening this hypothesis.
+  Here, we investigate the basis for discrimination between  the free chaperone and preassembly complex in the Caf CU  system.
+We determined the X-ray structure for the monomeric  Caf1M chaperone, the N-terminal domain of the Caf1A usher,  and the Caf1M:Caf1 preassembly complex bound to this domain.
+  By comparison of these and previously obtained structures,  together with protein engineering and binding studies, we show  that the affinity between chaperone and usher is allosterically  regulated by the subunit through a mechanism that is most likely  conserved and commonly used in CU systems.
+  RESULTS AND DISCUSSION  Preassembly Complex Binding Domain in Caf1A  We began our study with identification of Caf1M:Caf1-binding  segments in Caf1A.
+Based on the sequence homology between  Caf1A and FimD, we introduced deletions in the N-terminal  region of the mature sequence of Caf1A.
+The deletion of  residues 1227 and 1240 did not significantly affect Caf1A  insertion into the outer membrane (Figure S1A available online).
+  However, they completely abolished F1 capsule formation (Figure S1B) and resulted in accumulation of Caf1M:Caf1 complexes  in the periplasm (Figure S1C).
+These results indicate that Caf1A  binds chaperone:subunit complexes via a domain located at the  N-terminus of the protein, as does FimD. Indeed, overexpression  of an N-terminal fragment (residues 1158, including signal  sequence) of the Caf1A precursor in E. coli resulted in high-level  accumulation of a soluble protein in the periplasm.
+The isolated  Figure 1.
+Schematic Illustration of F1 Fiber Assembly  Major steps: (1) Formation of the Caf1M:Caf1 complex; (2) binding to activated  Caf1A; (3) fiber elongation and release of Caf1M.
+N, usher N-terminal domain;  M, usher middle domain; C1 and C2, usher C-terminal domains.
+The mechanism of selective binding of Caf1-bound Caf1M to N and C-terminal domains  is not clear.
+Hypothetical interaction of Caf1-free Caf1M with Caf1A is indicated by a dashed line.
+See also Figure S1.
+  Structure  Allosterically Regulated Assembly Chaperone  1862 Structure 20, 18611871, November 7, 2012 2012 Elsevier Ltd All rights reserveddomain was capable of autonomous folding and showed high  thermodynamic stability (Figure S1D).
+To highlight the N-terminal  localization of the domain, we have denoted it Caf1AN.
+  Caf1AN was purified from periplasmic extracts and crystallized, and its 2 A crystal structure was solved (Figure S1E;  Table 1).
+The asymmetric unit contains four Caf1AN molecules  with very similar structures.
+None of the molecules have electron  density for the N- and C-terminal parts of Caf1AN before Asp18  and after Phe124, respectively, suggesting that these sequences  are not structured in Caf1AN.
+The core structure of the domain is  made of a small five-stranded pseudobarrel sealed at the top  and bottom with connective loops and helices a1 (bottom) and  a2 (top) (Figure S1E).
+This structure is similar to that of the  N-terminal domain of the FimD usher (Nishiyama et al., 2005).
+  Superpositioning of these domains aligns 88 Ca atoms with  a root-mean-square deviation (rmsd) value of 1.3 A (Figures  S1E and S1F).
+The high degree of structural similarity between  N-terminal domains of Caf1A and FimD ushers, representing  ushers from the FGL and FGS CU pathways, respectively,  suggests that the mechanism of chaperone:subunit complex  binding by ushers is highly conserved and is likely to be similar  in all CU systems.
+  Caf1AN Binds to Caf1-Loaded, but Not Free Caf1M  To quantitatively characterize binding between Caf1AN and  Caf1M:Caf1, surface plasmon resonance (SPR) was used.
+  Caf1AN was covalently immobilized to a sensor chip, and the  binding of the Caf1M:Caf1 complex was measured by  recording the SPR signal after addition of the complex in the  liquid phase.
+As binding was too dynamic to follow accurately  in real time, we analyzed the reaction only at equilibrium (Figure S1G), allowing accurate estimation of the dissociation  constant (2.42  0.24 mM; Table 2).
+The value obtained is similar  to that previously determined for binding of FimDN to FimC  loaded with tip fibrillum subunits FimH or FimF and higher  than that of FimDN binding to FimC loaded with the pilus rod  subunit, FimA (Nishiyama and Glockshuber, 2010; Nishiyama  et al., 2003).
+  No binding between Caf1AN and free Caf1M was detected in  similar experiments at concentrations of Caf1M as high as  400 mM (Table 2).
+Binding of Caf1M:Caf1 to Caf1AN was not inhibited by Caf1M, even at a 500-fold excess of Caf1M over the  Caf1M:Caf1 complex (Figure S2).
+Thus Caf1A is able to specifically recognize Caf1-loaded Caf1M and selectively bind to it,  even at high excess of free Caf1M.
+  Table 1.
+Data Collection and Refinement Statistics  Caf1AN  Caf1AN:Caf1M:  Caf1 complex  Caf1M-D2-12,  -D113-129 Caf1M-Y40A:Caf1  Caf1M-A114-  insKDKDTN:Caf1  Data collection  Resolution (A ) 30.02.00 30.01.8 62.01.45 68.02.07 48.02.65  Space group C2221 P21 P65 P21 P21  Unit cell parameters (A ) 61.9 3 68.6 3  192.2  35.3 3 77.4 3 95.9  b = 98.5  56.7 3 56.7 3  248.2  35.1 3 68.9 3 65.0  b = 94.17  35.5 3 69.3 3 66.0  b = 94.82  Unique reflections 27,484 47,312 79,538 18,931 9,383  <I/s(I) > 16.0 (3.0) 2.072.00 17.5 (2.5) 1.901.80 5.80 (2.0) 1.531.45 8.27 (2.0) 2.182.07 6.3 (2.0) 2.792.66  Multiplicity 4.9 (2.2) 3.4 (2.6) 8.52 (7.5) 3.63 (3.7) 3.7 (3.7)  Completeness (%) 97.0 (87.0) 96.9 (81.5) 99.7 (99.2) 99.8 (99.9) 99.9 (99.9)  Rmerge (%) 8.0 (32.0) 6.0 (32.0) 6.0 (39.0) 7.0 (35.0) 11.0 (37.0)  Refinement  Resolution (A ) 30.02.0 30.01.8 28.81.5 47.32.1 29.72.7  Number of reflections  (working + test set)  25,948 + 1,365 43,506 + 2,310 65,474 + 3,446 17,957 + 975 8906 + 446  Rwork 20.5 18.3 16.6 19.2 22.1  Rfree 26.1 23.7 18.8 24.8 25.1  Average B-factor (A 2  ) 37.6 33.8 15.8 25.5 21.7  rmsd stereochemistry  Bonds (A ) 0.016 0.022 0.006 0.007 0.006  Angles () 1.594 1.758 1.126 1.080 1.441  Coordinate error (A ) 0.14 0.09 0.13 0.27 0.31  Ramachandran plot  Residues in the core  regions (%)  99.2 99.0 98.40 98.59 98.29  Residues in additional  allowed regions (%)  0.8 1 1.60 1.41 1.71  Number of molecules  in asymmetric unite  41211  Values for high-resolution shells are shown in parenthesis.
+The limits of high resolution shells are indicated.
+See also Figure S5.
+  Structure  Allosterically Regulated Assembly Chaperone  Structure 20, 18611871, November 7, 2012 2012 Elsevier Ltd All rights reserved 1863Caf1A-Caf1 Contact Is Not Essential for Caf1M:Caf1  Recognition by Caf1A  To elucidate how Caf1A selectively recognizes the Caf1M:  Caf1 complex, we determined a crystal structure of the Caf1AN:  Caf1M:Caf1 complex.
+The structure of Caf1AN:Caf1M:  Caf1 was solved by molecular replacement using the crystal  structure of Caf1M:Caf1 and refined at 1.8 A resolution to R =  18.3% and Rfree = 23.7% (Table 1; Figure 2A).
+To facilitate the  following discussion, we have labeled residue numbers for  Caf1A and Caf1M in the complex with a and m superscripts,  respectively.
+  The structures of Caf1M:Caf1 and the core of Caf1AN remain  essentially unchanged after binding.
+The largest conformational  change occurs in the N-terminal 1-17 amino acid sequence of  Caf1AN, which becomes ordered in Caf1AN:Caf1M:Caf1 (Figure 2A; Figure S1E).
+This sequence, together with the following  helix a1 makes up the largest part of the domains binding  surface (626 A 2  , 60%) (Figure 2B).
+Nine residues in these  segments (Tyr2a  , Thr3a  , Phe4a  , Thr7a  , Met8a  , Leu9a  , Leu17a  ,  Val19a  , and Phe22a  ) establish van der Waals interactions with  seven closely situated residues in Caf1M, including four hydrophobic residues exposed on the surface of the DCFG b sheet  Table 2.
+Effect of Mutations on the Binding of Caf1M:Caf1 and  Caf1M to Caf1AN  Mutation Kd (mM1  )  Caf1AN(Caf1M:Caf1)  Wild-type 2.42  0.24  Caf1-A141G 4.0  2.1  Caf1M-P104A 61.4  3.5  Caf1M-P104S 70.1  1.3  Caf1M-P103SP104A >80  Caf1M-Y12G 7.0  4.4  Caf1M-Y40Aa 39.4  10  Caf1M Y40AY12G >100  Caf1M-L43A 60.7  1.6  Caf1M-Ins114KDKDTNa 4.7  0.4  Caf1AN-F4A NDb  Caf1AN-M8A 5.0  Caf1AN-T7GM8A 5.1  Caf1AN-Caf1M  Wild-type NDb  Caf1M-D113-129 >450  Caf1M-D2-12 >260  Caf1M-D2-12, D113-129a >240  Caf1M-D106-111 111  40.3  Caf1M-D106-113 29.5  8.7  Caf1M-D106-123 33.8  3.6  Caf1M-D106-125 28.0  2.9  Caf1M-D106-127 17.0  2.3  Caf1M-D106-129 9.8  1.0  The data for the entire list of mutants can be found in Tables S1 and S2;  see also Figure S2.
+a  Structure available, this study.
+  b  Not detected.
+  Figure 2.
+Caf1AN-Caf1M Contact Dominates the Binding Interface  between Caf1AN and Caf1M:Caf1  (A) Crystal structure of the Caf1AN:Caf1M:Caf1 complex (cartoon diagrams).
+  The N-terminal region of Caf1AN that becomes structured upon binding is  shown in red; the rest of Caf1AN is shown in orange.
+Caf1M and Caf1 are  shown in cyan and magenta, respectively.
+The disordered part of the F1G1 loop  in Caf1M (not observed in crystal structures) is indicated with a dashed line.
+  The b strands in Caf1M and Caf1, carrying usher-binding residues, as well as  all secondary structure elements in Caf1AN are labeled.
+The square indicates  the fragment of the structure shown in (B).
+  (B) The binding interface between Caf1AN and Caf1M:Caf1 (cartoon diagram,  stereo view).
+The color-coding is the same as in (A).
+The interactive residues  are shown as balls-and-sticks and labeled.
+The carbon atoms are shown in the  color of the chain; oxygen and nitrogen atoms are shown in red and blue,  respectively.
+  (C) Caf1AN-Caf1M-binding contact involves highly conserved residues.
+  Graphical representations (sequence logos) of chaperone F1-G1 (above) and  usher N-terminal (below) regions in multiple sequence alignment of periplasmic chaperones and usher proteins, PF00345 and pfam00577, respectively.
+Sequence logos were generated using the WEBLOGO program at  http://weblogo.berkeley.edu/logo.cgi.
+The most highly conserved positions  are labeled according to Caf1M and Caf1A sequences (Pro103m and Pro104m  in Caf1M and Phe4a in Caf1A are the most conserved).
+Secondary structure  representations are shown below the diagrams.
+Pro103m and Pro104m are  indicated by a keyhole symbol.
+The part of the G1 strand that becomes ordered  upon Caf1 binding is indicated by an arrow with a dashed outline.
+  Structure  Allosterically Regulated Assembly Chaperone  1864 Structure 20, 18611871, November 7, 2012 2012 Elsevier Ltd All rights reservedof domain 1 (Pro41m, Leu43m, Leu67m, and Ile102m), Pro103m  and Pro104m at the beginning of the F1G1 loop, and the aliphatic  part of the side chain of Arg69m. Together, these residues form  a hydrophobic usher-binding surface (UBS).
+All the interface  residues are highly conserved, in particular, Pro103m (invariant),  Pro104m, and Phe4a (Figure 2C).
+In addition, there are a number  of residues contributing Caf1A-Caf1M contacts, which are not  arranged in binding clusters.
+  Caf1 contributes only 3% (36 A 2  ) to the usher-binding area  of the preassembly complex (1,069 A 2  ), largely attributed to  Ala141.
+The side chain of Met8a and atom Cd2 of Thr7a are  located within 3.94.4 A from the Ca and Cb atoms of Ala141  in Caf1, thus providing weak van der Waals interactions.
+In  addition, a weak interaction is formed between the C atom  of Met8a and the C atom of Val142 of Caf1.
+Such a small  Caf1AN-Caf1 interactive area is surprising in view of the hypothesis proposed by Nishiyama and coauthors (Nishiyama et al.,  2005) that contacts between the usher and the subunit are  responsible for the selective recognition of preassembly  complexes.
+How could such a small interface influence the  binding specificity?
+  Changing Ala141 to Gly (essentially halving the interactive  area) had no effect on Caf1M:Caf1 binding to Caf1AN (Table 2)  and F1 assembly (Figure 3).
+Similarly, mutation of Met8a to Ala  did not significantly affect binding.
+In contrast, substitutions of  Leu43m or Phe4a to Ala residues, decreasing the Caf1A-Caf1M  interactive area by 7.4% and 11.6%, respectively, dramatically  reduced both the affinity between Caf1AN and the Caf1M:Caf1  preassembly complex and the efficiency of F1 capsule  assembly.
+  In conclusion, both the structural and functional studies clearly  demonstrate that the Caf1A-Caf1 contact is not important for  binding of Caf1M:Caf1 to Caf1AN, and it cannot serve as the  main determinant for selective recognition of the subunit-loaded  chaperone by the usher.
+So, which mechanism is responsible  for this?  Role of Caf1M Tetramerization in the Selective Binding  of Caf1-Loaded Caf1M by Caf1A  Caf1M equilibrates between the active monomeric and inactive  tetrameric forms (Zavialov and Knight, 2007).
+Caf1M tetramerization might inhibit Caf1A-Caf1M binding and favor binding  between Caf1A and Caf1M:Caf1 by reducing the concentration  of free Caf1M.
+To study the possible contribution of this effect  on Caf1M:Caf1 targeting to Caf1A, we probed the binding  between Caf1A and Caf1M, carrying a deletion of residues 212  at the N-terminus and/or 113129 in the F1G1 loop.
+The deleted  sequences are apparently not involved in Caf1A binding, but their  deletion completely abolishes Caf1M tetramerization, resulting in  accumulation of monomers (Zavialov and Knight, 2007).
+  In contrast to wild-type Caf1M, these mutants bound to  Caf1AN at high concentrations (Table 2).
+However, binding was  not saturated, suggesting an apparent dissociation constant of  more than 260 mM, at least 100 times higher than the dissociation  constant for binding of Caf1AN to Caf1M:Caf1 (Table 2).
+Indeed,  these mutants inhibited the Caf1AN-(Caf1M:Caf1) binding to only  40% at 500-fold excess over the Caf1M:Caf1 complex (Figure S2).
+Hence, Caf1M tetramerization is unlikely to represent  a decisive controlling mechanism.
+The finding of such a low  affinity of monomeric Caf1M to Caf1AN suggests that regulation  may depend on conformational differences between free and  loaded Caf1M.
+  Caf1M Binding to Caf1A Is Allosterically Controlled  by Caf1  To investigate the hypothesis that monomeric Caf1M takes on  a conformation that prevents it from efficiently binding to  Caf1AN, we determined the 1.5 A crystal structure of the  Caf1M-D2-12, D113-129 mutant.
+  The asymmetric unit contained two Caf1M monomers (Figure S3).
+They had nearly identical structures, except for small  differences in some loops, most likely caused by crystallographic contacts.
+Importantly, the UBS and its surroundings  were not affected by crystallographic contacts.
+The structure  had almost no electron density for residue 13 and poor density  for residue 14 at the N-terminus and no electron density for the  sequence from residue 105 to 134 in the F1G1 hairpin.
+This  supports partial proteolysis data for diluted (monomeric) wildtype Caf1M (Chapman et al., 1999) that suggests that sequences  up to residue 14 and between residues 105 and 134 are unstructured in the Caf1M monomer.
+  Structural comparison of free and Caf1-bound Caf1M revealed significant conformational differences, in particular, in  the N-terminal domain (Figure 4A).
+In Caf1-bound Caf1M, residues 813 and 125133 form the A1 and G1 Caf1-binding  strands.
+In total, Caf1 binding causes structuring of about 10%  of the residues in domain 1 of Caf1M.
+Not surprisingly, this  change distorts the DCFG b sheet in this domain.
+The extended  G1 donor strand, which is firmly docked in the subunit acceptor  cleft, forms additional hydrogen bonds to the end of the F1  strand, pulling its end closer to the G1 strand and simultaneously  causing the F1 strand to twist, affecting positions of several residues, including the UBS residue Ile102m (Figures 4A and 4B).
+  However, the most striking difference is observed in the positions of Pro103m and Pro104m at the beginning of the F1G1  loop (Figure 4B).
+In free Caf1M, Pro104m occupies a hydrophobic  Figure 3.
+Effects of Replacements of Residues Involved in Caf1AN-  (Caf1M:Caf1) Binding or Its Regulation on F1 Capsule Assembly  Surface exposed Caf1 was quantitated in a surface immunofluorescence  assay.
+The fluorescence signal of cells carrying the wild-type Caf operon  (145971) was treated as 100% efficiency of capsule assembly.
+Error bars  indicate standard deviation (n = 3).
+NS, no signal above background.
+  Structure  Allosterically Regulated Assembly Chaperone  Structure 20, 18611871, November 7, 2012 2012 Elsevier Ltd All rights reserved 1865pocket between the side chains of Pro41m, Leu43m, and Ile102m  and the aliphatic part of the side chain of Arg69m, which all  belong to the UBS.
+Hence, in free Caf1M, the UBS is in a closed  or collapsed conformation that prevents binding to the usher  (Figures 4B and 5A).
+In contrast, in Caf1-bound Caf1M,  Pro103m and Pro104m are rotated to move Pro104m out of the  UBS.
+We will refer to this second conformation as an open  UBS (Figures 4B and 5B).
+  In the closed UBS, the distance between Ca atoms of Pro104m  and Leu43m is about 2.5 A shorter than that in the open UBS  (Table S3).
+Not surprisingly, structural comparison of free  Caf1M and Caf1AN:Caf1M:Caf1 revealed that the closed UBS  conformation cannot form optimal interactions with the binding  residues of Caf1AN.
+Most strikingly, Phe4a  , which is essential  for binding (Table 2; Figure 3), cannot insert into its local binding  pocket, because in the closed UBS conformation, this is occupied by Pro104m (Figure 4C).
+  Caf1M has the same open UBS conformation in the preassembly complex and the complex bound to the usher.
+This is reflected in similar values for the distances between Ca atoms of  Pro104m and Leu43m (8.18.3 A ) in all structures determined  so far that include Caf1M:Caf1 (Caf1M:Caf1, Caf1M:Caf1:Caf1,  and Caf1AN:Caf1M:Caf1) (Table S3).
+Hence, the open UBS  conformation in the Caf1-bound chaperone is predesigned for  optimal binding to Caf1A.
+  To confirm the role of the proline lock in regulating the affinity  of Caf1M to Caf1A, it would be logical to break the lock in  Caf1M and demonstrate Caf1M-Caf1A binding.
+However,  because the residues comprising the lock also participate  directly in Caf1M-Caf1A binding, simple substitution mutagenesis of the lock residues would not provide a clear answer.
+  Hence, we chose a different approach.
+The proline lock residues mark the beginning of the subunit-binding F1G1 hairpin  loop.
+We hypothesized that shortening this loop may generate  a stretching force pulling on the loop, including the proline  lock, thus forcing it to disengage and allow the UBS to open.
+  We created a series of Caf1M mutants with shorter F1G1 loops  (Table 2; Table S1).
+As we predicted, the affinity of free Caf1M to  Caf1AN gradually increased with the length of deletion (Table 2).
+  Caf1M 106-129 bound to Caf1AN with a dissociation constant of  9.8  1.0 mM and efficiently inhibited Caf1AN-(Caf1M:Caf1)  binding (Figure S2).
+  In conclusion, our structural-biochemical study suggests an  allosteric mechanism, in which Pro103m and Pro104m act in  concert as a proline lock that prevents or allows usher binding,  depending on whether the subunit is bound or not (Figure 6;  Movie S1).
+In free Caf1M, the lock keeps the UBS closed, preventing Caf1M from binding to Caf1A.
+Caf1 binding unlocks  the proline lock and opens the UBS, allowing the Caf1M:Caf1  complex to target and bind to Caf1A.
+  Communication between the Caf1 and Caf1A Binding  Sites in Caf1M  How does Caf1 binding switch the UBS conformation from  closed to open? As Caf1 does not form direct interactions with  the UBS residues, we considered possible mechanisms for  communication between the Caf1 and Caf1A binding sites in  Caf1M.
+  Upon Caf1M:Caf1 complex formation, the 11-residue-long  C-terminal part of the F1G1 loop (residues 124134) forms  a donor beta strand that binds in the acceptor cleft of the subunit  to compensate for the lacking G b strand (Figures 4A and 6A).
+As  the extended structure of the donor strand forms, the F1G1 loop  is shortened, considerably reducing its conformational freedom.
+  We hypothesized that this might result in a stretching force pulling on the loop that might be sufficient to open the proline lock,  as we observed for artificially short F1G1 loops.
+To investigate  this hypothesis, we created a series of Caf1M mutants with  longer F1G1 loops (Table 2; Table S1).
+We expected that the  Figure 4.
+Pro-Pro Lock Occludes the Usher-Binding Surface in Free  Caf1M  (A) Superposition of free Caf1M (green) and Caf1M from the Caf1M:Caf1  complex (yellow).
+A1, F1, and G1 strands and N and C termini are labeled.
+The  square indicates the fragment of the structure shown in (B).
+  (B) Superposition of the Caf1A binding site in Caf1-free (green) and Caf1-  bound (yellow) Caf1M (stereo view).
+  (C) The Pro-Pro lock prevents binding of Phe4a to the UBS.
+Structures of the  Caf1M monomer and Caf1AN:Caf1M:Caf1 complex are superimposed.
+The  Pro-Pro lock fragment of Caf1M monomer is shown in green; Caf1AN and  Caf1M in the complex are shown in red and yellow, respectively.
+The molecular  surface of Caf1M in the complex is also shown.
+  See also Figure S3.
+  Structure  Allosterically Regulated Assembly Chaperone  1866 Structure 20, 18611871, November 7, 2012 2012 Elsevier Ltd All rights reservedloop extension would reduce any stretching force, leaving the  UBS in the closed conformation.
+Such mutant Caf1M:Caf1  complexes should not bind to Caf1A.
+Indeed, we found that all  mutants with the F1G1 loop extended by at least two residues  at two different sites (Ala114m and Asp123m) bind about two  times weaker to Caf1AN than the wild-type complex.
+However,  our crystal structure of the Caf1M:Caf1 complex carrying the  insertion KDKDTN at Ala114m reveals an open UBS (Figure S4A).
+  Hence, at least in Caf1M, with its exceptionally long F1G1 loop,  a stretching force alone is not sufficient to switch the UBS  from the closed to the open conformation.
+  Caf1 binding changes the local environment of the lock (Figure 5B).
+In the Caf1M:Caf1 complex, Tyr12m and Ala133m from  the A1 and G1 donor strands, respectively, form van der Waals  interactions with Pro103m. In addition, the side chain of  Tyr40m, which in Caf1M:Caf1 is linked to the main chain of the  A1 donor strand via a hydroxyl-amide hydrogen bond, forms  extensive interactions with both Pro103m and Pro104m. These  interactions are absent in free Caf1M, because the concerned  Caf1-binding segments are unstructured.
+  To examine whether these interactions are sufficient to maintain an open UBS, we replaced Tyr12m by Gly and Tyr40m by Ala  residues and analyzed the effect of these mutations on the  affinity of the Caf1M:Caf1 complex to Caf1AN (Table 2) and efficiency of F1 capsule assembly (Figure 3).
+Both single mutations  decreased the affinity, in particular Tyr40mAla, which also clearly  inhibited surface assembly.
+Combined, the mutations led to  a dramatic effect: both Caf1AN-(Caf1M:Caf1) binding and  assembly were practically abolished.
+  We hypothesized that mutations that disrupt the Pro103m  Pro104m binding pocket Tyr12m-Tyr40m-Ala133m would favor  the collapsed proline lock conformation and keep the UBS  closed.
+Indeed, our crystal structure of the Caf1M:Caf1 complex  carrying the Tyr40mAla mutation revealed the closed conformation (Figure S4A), demonstrating that the local environment  around the proline lock in the preassembly complex maintains  its extended conformation and is critical for keeping the UBS  open.
+Tyr12m and Tyr40m occupy highly conserved positions in  multiple sequence alignments of FGL chaperones, suggesting  that they all employ a similar allosteric communication  mechanism.
+  In the absence of pocket Tyr12m-Tyr40m-Ala133m (formed  only after Caf1 binding), Pro104m can instead insert into a hydrophobic pocket formed by Pro41m, Leu43m, and Ile102m, closing  the UBS (Figure 5A).
+A strong tendency to attain this conformation is suggested by our molecular dynamics (MD) simulations  (Figure S4B).
+The Caf1M model with the open UBS (taken from  the crystal structure of the Caf1M:Caf1 complex) was subjected  to MD simulations in an aqueous environment.
+The UBS became  substantially closed within a 2025 ps time interval, which is reflected in the change of the distance between Ca atoms of  Pro104m and Leu43m from 8.3 to 6.5 A .
+MD simulations with  the Leu43Ala mutant of Caf1M showed a somewhat intermediate conformation between closed and open UBS with a 7.4 A  distance between Ca atoms of Pro104m and Ala43m, suggesting  that the switch is driven not only by the hydrophobic effect.
+The  twist in the F1 strand may also facilitate opening the UBS, as it  contributes to rotation of the proline lock residues (Figure 5C).
+  Control of Subunit Trafficking in Other  Chaperone/Usher Systems  To investigate if binding of preassembly complexes to the usher  may be controlled through a similar allosteric proline lock mechanism in other chaperone/usher systems, we examined available  structures of subunit-free and bound chaperones (Table S3).
+  Currently, structures for two FGL (Caf1M and SafB) and four  FGS chaperones (FimC, PapD, FaeE, and SfaE) have been  deposited in the protein data bank (PDB).
+With exception for  SfaE, all these chaperones have been cocrystallized with corresponding organelle subunits, providing a wealth of structural  information on the subunit-bound chaperone conformation.
+  Superposition of UBSs in the subunit-bound structures together  Figure 5.
+Caf1 Binding Opens the Pro-Pro Lock by Generating an Alternative Hydrophobic Pro-Pro Pocket  (A) The binding site for Pro104m in Caf1-free Caf1M (residues Pro41m, Leu43m, and Ile102m).
+Residues involved in the binding and UBS are shown as balls and  sticks painted by atom colors (yellow  carbon; red  oxygen; blue  nitrogen).
+Atomic radii are indicated with mesh.
+Distances between interacting atoms are  indicated in A .
+The main chain is shown as ribbon painted in yellow color.
+  (B) The binding sites for Pro103m and Pro104m in Caf1-bound Caf1M (residues Tyr12m, Tyr40m, Pro41m, and Ala133m).
+  (C) Schematic diagram of the open (yellow) and closed (green) lock.
+The shaded area indicates the movement of the F1 strand caused by its twist upon complex  formation.
+Dashed lines indicate hydrogen bonds that form between the F1 and G1 strands in the complex.
+The disulfide bond stabilizing the F1G1 hairpin is  shown.
+  See also Figure S4.
+  Structure  Allosterically Regulated Assembly Chaperone  Structure 20, 18611871, November 7, 2012 2012 Elsevier Ltd All rights reserved 1867with that of Caf1M in Caf1M:Caf1 demonstrates that, regardless  of the type of the chaperone, all of them have an open UBS (for  superposition of prototypical FGL and FGS chaperones, see Figure 7A).
+The distance between Ca atoms in residues corresponding to Pro104 and Leu43 of Caf1M in subunit-bound  FimC, PapD, and SafB is universally long (7.78.1 A ) and is practically independent of the type of the bound subunit.
+Only in the  FaeE:FaeF complex, this distance is slightly shorter (7.3 A ).
+This  is probably due to the absence of a bulky side chain at the usherbinding position (e.g., Leu43 in Caf1M and Gly32 in FaeE).
+  As is the case for the Caf system, the structure of the Fim  system UBS is almost identical in the free chaperone:subunit  preassembly complex and in the usher-bound complex.
+This  confirms that the open conformation of the UBS, which is  present in all chaperone:subunit complexes, is optimal for usher  binding.
+  The subunit-free chaperone conformation is best studied for  FimC and PapD (Table S3).
+For PapD, several crystal structures  were determined (Holmgren and Bra nden, 1989; Hung et al.,  1999; Pinkner et al., 2006), while FimC was solved by nuclear  magnetic resonance (NMR) (Pellecchia et al., 1998).
+Although  Caf1M and PapD or FimC belong to different chaperone families,  the structures of their UBSs can be nicely superimposed (Figure 7A), which clearly demonstrates that, as for Caf1M,  subunit-free FimC and PapD have a closed UBS.
+This is reflected  in a 2 to 3 A shorter distance between Ca atoms of Leu32-Ser92  and Leu32-Pro95 in FimC and PapD, respectively (Table S3).
+  Whereas part of the F1G1 strand remains invisible in all of the  crystal structures, the entire F1G1 loop is seen in the NMR structure of FimC. The loop region is highly flexible and is represented  by quite different NMR traces.
+Nevertheless, in the majority of the  representative NMR traces, the loop is positioned above the  closed UBS, thus creating an additional steric obstacle for chaperone-usher binding.
+  Unfortunately, not all crystal structures of subunit-free chaperones can provide information about the conformation of the  UBS.
+The complication arises from the fact that chaperones  tend to form self-capping dimers or, in the case of wild-type  Caf1M, tetramers, in which the subunit binding motifs are  engaged in oligomerization.
+This self-capping mechanism  mimics chaperone-subunit interactions and hence may directly  affect the structure of the UBS.
+Self-capping is observed in  crystal structures of the FaeE and SfaE chaperones, causing  an unusually open UBS in these structures (Table S3).
+  Classical FGS CU machineries systems typically assemble  complex structures consisting of several different subunits.
+In  the Pap system, the order of assembly of subunits in the fiber  apparently correlates with the affinity of the corresponding chaperone-subunit complexes to the usher (Dodson et al., 1993), and  in both Pap and Fim systems, the chaperone:adhesin subunit  Figure 6.
+Caf1-Induced Changes in Caf1M Enable Caf1M Binding to Caf1A  (A) Crystal structures of the Caf1M monomer (Caf1M-D2-12, -D113-129), preassembly complex Caf1M:Caf1, Caf1AN domain of Caf1A, and Caf1AN:  Caf1M:Caf1 complex (cartoon diagrams), illustrating the chaperone-subunit binding (1) and usher targeting (2) steps of the assembly process.
+The regions in the  N-terminal sequence and F1G1 hairpin of Caf1M that become structured upon subunit binding are shown in blue; the rest of Caf1M is in cyan.
+Caf1 is shown in magenta.
+  Caf1AN is shown in orange, except the N-terminal segment, which becomes ordered on binding of chaperone: subunit complex and is shown in red.
+Side chains of  residues Pro41m, Leu43m, Leu67m, Ile102m, Pro103m, Pro104m, and aliphatic atoms of Arg69m comprising the usher binding surface (UBS) are shown as spheres, and  Pro103m is labeled.
+The disordered part of the F1G1 loop (not observed in crystal structures) is indicated with dashed lines.
+See also Movie S1.
+  (B) Schematic representation of structures shown in (A).
+  Structure  Allosterically Regulated Assembly Chaperone  1868 Structure 20, 18611871, November 7, 2012 2012 Elsevier Ltd All rights reservedcomplexes bind to the usher tighter and faster than structural  subunits (Nishiyama and Glockshuber, 2010; Saulino et al.,  1998).
+How does the usher detect the type of subunit loaded  to the chaperone in these systems?
+Nashiyama et al. (2005) suggested that the usher discriminately recognizes subunits by establishing direct binding contacts with them.
+Indeed, the interactive area between FimDN and FimH is significantly larger than  that between FimDN and FimF in the corresponding usher domain:chaperone:subunit complexes (Eidam et al., 2008; Nishiyama et al., 2005), which positively correlates with the affinity  between the usher and corresponding preassembly complexes  (Nishiyama et al., 2003).
+However, in view of the very limited  usher-subunit binding area in the FimD:FimC:FimF complex (Eidam et al., 2008), it is difficult to explain why FimDN binds tighter  to FimC:FimF than to FimC:FimA (Nishiyama et al., 2003).
+Our  discovery of regulation of the affinity of the chaperone to the  usher by subunit binding suggests an alternative mechanism.
+  Different subunits might differently affect the UBS conformation,  resulting in different affinities of the same chaperone to the  usher.
+Interestingly, the conformation of the A1A2 loop in  subunits in chaperone:subunit complexes that bind poorly to  the usher (PapA, PapH, and FimA) is different from that in  subunits in chaperone:subunit complexes that bind tightly to  the usher (e.g., PapG, FimH, and FimF) (Choudhury et al.,  1999; Crespo et al., 2012; Verger et al., 2006, 2007; Volkan  et al., 2012).
+The A1A2 loop directly interacts with the lock and  closely positioned residues of the chaperone, affecting their  positions.
+These conformational changes could potentially be  involved in modulating the affinity of the complexes to the usher.
+  Conclusions  In this study, we discovered that trafficking through the Caf CU  pathway is allosterically controlled.
+We show that the Caf1M  chaperone contains a structural lock that blocks binding of the  free chaperone to the Caf1A usher and that Caf1 binding to  Caf1M disengages the lock by allosterically inducing conformational changes in the Caf1AN binding surface of Caf1M (UBS).
+  This dramatically increases the affinity of Caf1M for Caf1AN and  thus enables selective binding of Caf1-loaded Caf1M to Caf1AN.
+  The generality of thismechanism is strongly supported by analysis  of available structures of subunit-free chaperones and chaperone:subunit and usher:chaperone:subunit complexes from other  systems, as well as by the high conservation of involved residues.
+  The switch between a closed UBS in free chaperone and an  open UBS capable of binding to the usher in a subunit-loaded  chaperone involves a conformational change affecting the positioning of two highly conserved proline residues at the beginning  of the F1G1 loop.
+In contrast to the proline switches found in  a number of proteins, e.g., (OuYang et al., 2008; Sarkar et al.,  2011; Vogel et al., 2006), the switch between open and closed  UBS conformations does not involve Pro cis-trans isomerization.
+  Instead, subunit binding leads to formation of an extended beta  strand interaction between the G1 (donor) and F1 strands that  twists the F1 strand and rotates the proline lock to the open position, where it is stabilized by a pocket created only after subunit  binding.
+  The subunit-induced changes in the UBS may control not only  usher targeting by the chaperone:subunit complexes, but also  other steps of subunit trafficking.
+Thus, the step of subunit incorporation into the growing fiber almost certainly relies on this  mechanism.
+At this step, the newly incoming chaperone:subunit  complex replaces the fiber-capping chaperone, allowing chaperone recycling.
+According to our results, this should be accompanied by the closure of the UBS of the released chaperone.
+As  a consequence of this conformational change, the chaperone  would lose its affinity to the UND, preventing free chaperone  from inhibiting the capture step by rebinding to the UND.
+Since  the UND and UCD2 domains bind to overlapping sites in the  chaperone, rebinding to the UCD might also be prevented.
+This  model is consistent with the levels of energy involved in the  process.
+The Caf1M-Caf1 binding is at least 10 times tighter  (Yu et al., 2012) than Caf1AN-(Caf1M:Caf1) binding (Table 2).
+  Hence, Caf1M-Caf1 association could generate sufficient energy  to open the UBS and thus allow Caf1AN-(Caf1M:Caf1) binding.
+  The assembly of type 1 and P pili can be blocked by a specially  designed organic molecule called pilicide, which has been shown  to specifically inhibit binding of the chaperone:subunit complex  to the usher (Pinkner et al., 2006).
+The crystal structure of a PapD:-  pilicin complex shows that pilicide binds to the UBS.
+One of the  major contacts is mediated by the pyridone ring of pilicide, which  inserts into the subpocket between Leu32, Ile93, and Pro95.
+Not  surprisingly, this binding causes opening of the UBS, increasing  the Leu32-Pro95 Ca distance by 3 A (Figure 7B; Table S3).
+The  better fit of the pilicide to the open UBS explains why it has  higher affinity to the chaperone:subunit complex than to the  subunit-free chaperone (Pinkner et al., 2006).
+Hence, to target  Figure 7.
+Allosteric Regulation of Chaperone Assisted Transport in  FGS Chaperone/Usher Systems  (A) Closed and open UBS in two prototypical FGS chaperones, PapD and  FimC (in comparison with Caf1M).
+Crystal structures of subunit-free (left) and  subunit-bound (right) Caf1M (magenta), PapD (yellow), and FimC (cyan) were  superimposed by distance minimization between Ca atoms of the key usherbinding residues.
+  (B) Pilicide binding causes opening of the UBS in PapD. Superposition of  subunit-free PapD (blue), subunit-free PapD bound to pilicide (magenta), and  the PapK subunit bound PapD (orange).
+Ca atoms of key usher-binding residues of the chaperone are shown as spheres.
+  See Table S3 for the details.
+  Structure  Allosterically Regulated Assembly Chaperone  Structure 20, 18611871, November 7, 2012 2012 Elsevier Ltd All rights reserved 1869subunit-free chaperones, the inhibitor needs to bind and stabilize  the closed conformation of the UBS.
+This alternative approach  may help to design inhibitors with binding affinities higher than  that of pilicide, which is active only at high (mM) concentrations.
+  Such inhibitors could be used as a starting point for development  of novel drugs targeting Gram-negative pathogens.
+  Many biological pathways are controlled through allosteric  mechanisms.
+Most known cases involve metabolic or signaling  pathways, where allosteric control is exerted though key  enzymes or signal receptors.
+Our results extend the concept of  allosteric control by providing the example of its use to control  trafficking through a protein assembly and secretion pathway  assisted by a chaperone.
+  EXPERIMENTAL PROCEDURES  Protein Expression, Purification, and Crystallization  All proteins were expressed in the periplasm of BL21 Star (DE3) cells carrying  expression plasmids (see plasmid construction and mutagenesis in Supplemental Experimental Procedures) and extracted by osmotic shock, as  described before (Chapman et al., 1999).
+  Caf1AN and its mutants were precipitated from the periplasmic fraction by  ammonium sulfate to 60% saturation on ice for over 1 hr.
+Precipitated protein  was collected by 20 min centrifugation at 20,000 3 g and dissolved in water.
+  After dialysis against 5 mM Bis-Tris propane buffer, pH 6.5, protein was loaded  onto a MonoQ 10/100 column (GE Healthcare) equilibrated with 20 mM BisTris propane buffer, pH 6.5 (AEX buffer).
+Proteins bound to the column were  eluted using a linear gradient of 0150 mM NaCl.
+Caf1M and its mutants  were precipitated from the periplasmic fraction as above, dissolved in  20 mM HEPES, pH 7.5, dialyzed against the same buffer, and purified by cation  exchange in 50 mM HEPES, pH 7.5, on MonoS 10/100 or HR 5 columns (GE  Healthcare) using a linear gradient of 0200 mM NaCl.
+The binary complex  Caf1M:Caf1-His6 was expressed in E. coli and purified as previously described  (Zavialov et al., 2003b).
+The tertiary complex Caf1AN:Caf1M:Caf1 was formed  in vitro by mixing Caf1AN with 1.5 time molar excess of the purified binary  complex Caf1M:Caf1.
+The latter was obtained by enzymatic cleavage of the  N-terminal His6 tag from the Caf1M:Caf1-His6 complex using the TAGzyme  protease (QIAGEN).
+After incubation overnight at 37C, the tertiary complex  was purified using anion-exchange chromatography on a MonoQ 10/100  column in the AEX buffer using a linear gradient of 20175 mM NaCl.
+To obtain  highest purity samples, proteins were subjected to gel filtration on a Superdex75 or 200 16/60 HiLoad column (GE Healthcare) equilibrated with 50 mM  HEPES, pH 7.4, containing 150 mM NaCl.
+  Proteins were crystallized by the hanging or sitting drop vapor-diffusion  method at 293 K, except for the Caf1AN:Caf1M:Caf1 complex, which was  crystallized at 279 K. Caf1AN, Caf1AN:Caf1M:Caf1, and Caf1M-D2-12,  -D113-129 formed crystals in drops containing 20% PEG 3350, 0.2 M ammonium nitrate, pH 6.3; 15% PEG 3350, 0.1 M Na-cacodylate, pH 6.4; and 40%  PEG 600 and 0.1 M citrate, pH 5.5; respectively.
+Crystallization of Caf1M:Caf1  complexes carrying mutations in Caf1M (Y40A and A114-insKDKDTN) were  performed as described in Zavialov et al. (2003a).
+  Structure Determination and Refinement  X-ray diffraction data were collected at the ESRF beamlines ID14-1, ID 14-4,  and ID 29 at 100 K. The structure of the Caf1AN:Caf1M:Caf1 complex was  solved by molecular replacement using our crystal structure of the binary  Caf1M:Caf1 complex (PDB code 1P5V).
+The structure of the Caf1AN domain  was built manually in the electron density.
+The crystal structure of the N-terminal  domain from the FimD usher (PDB code 1ZE3) was used as a reference in the  initial building cycles.
+The structure of free Caf1AN was solved by molecular  replacement.
+The search model included residues 30120 of the Caf1AN model  from the Caf1AN:Caf1M:Caf1 complex structure.
+Structures of Caf1M tetramer  and the Caf1M:Caf1 complex (PDB accession numbers 2OS7 and 1P5V,  respectively) were remodeled to place missing Pro104 and Lys105 into the  available electron density.
+Structures of Caf1M:Caf1 complexes carrying mutations and Caf1M-D2-12, -D113-129 were solved by molecular replacement  using structures of the wild-type complex and a monomer from the Caf1M  tetramer structure as search models, respectively.
+PHASER (McCoy, 2007),  REFMAC (Murshudov et al., 1997), and O (Jones et al., 1991) programs were  used to perform molecular replacement, structure refinement, and model  building, respectively.
+Data collection and refinement statistics are presented  in Table 1.
+Figure S5 illustrates electron density in the proline lock region.
+  Plasmon Resonance Binding Assay  A Biacore X100 system (GE Healthcare) was used for all biosensor experiments.
+Caf1AN (approximately 800 resonance units (RU)) was immobilized  on flow cell 2 of a CM5 sensor chip by amine coupling using an Amine Coupling  Kit (GE Healthcare).
+To record the association and dissociation curves,  samples of Caf1M:Caf1 or Caf1M at varying concentrations were injected  into flow cell 2 of the chip for 1 min followed by flushing of the cell with running  buffer (10 mM HEPES, pH 7.4, 150 mM NaCl, 3 mM EDTA, 0.005% Tween 20)  for 3 min at a flow rate of 10 ml/min.
+Identical samples were injected over  a control flow cell to determine nonspecific binding, which was subtracted  from the experimental curves.
+After each data acquisition cycle, the chip  was fully regenerated by an additional 1 min buffer flow.
+  Surface Immunofluorescence Assay  DH5a cells transformed with the p12R plasmid carrying wild-type or mutated  Caf operon (see Supplemental Experimental Procedures) were grown to  optical density (OD) 1 at 600 nm.
+0.1 OD600nm ml cells were incubated successively with rabbit anti-Caf1SC antibody and goat antirabbit IgG fluorescein  conjugate (Sigma) diluted 500 and 50 times with phosphate saline buffer,  respectively, followed by measuring fluorescence on a Varian CARY Eclipse  fluorescent spectrophotometer (Varian).
+E. coli DH5a/pUC19 was used as  a background control.
+  ACCESSION NUMBERS  Coordinates of the protein atoms, together with structure factors, for Caf1AN,  Caf1AN:Caf1M:Caf1, Caf1M-D2-12,-D113-129, Caf1M-Y40A:Caf1, and Caf1MA114-insKDKDTN:Caf1 have been deposited in the Protein Data Bank under  accession numbers 4B0E, 4B0M, 4AY0, 4AYF, and 4AZ8, respectively.
+  SUPPLEMENTAL INFORMATION  Supplemental Information includes three tables, five figures, Supplemental  Experimental Procedures, and one movie and can be found with this article online at http://dx.doi.org/10.1016/j.str.2012.08.016.
+  ACKNOWLEDGMENTS  This work was supported by Grants SRC-6212005-5360, FORMAS-221-2007-  1057, FA-136333, and FA-140959 to A.V.Z.; VR-2009-5334 to S.D.K.; and  BBSRC C514782 and B-08356 to S.M. We would like to thank the staff at  the ESRF (Grenoble, France) for their kind help during data collection and Snezana Vasiljevic for confocal images and her contribution to early stages of the  Caf1AN study.
+  Received: April 27, 2012  Revised: August 1, 2012  Accepted: August 13, 2012  Published online: September 13, 2012  REFERENCES  Chapman, D.A.G., Zavialov, A.V., Chernovskaya, T.V., Karlyshev, A.V.,  Zavyalova, G.A., Vasiliev, A.M., Dudich, I.V., Abramov, V.M., Zavyalov,  V.P., and MacIntyre, S. (1999).
+Structural and functional significance of the  FGL sequence of the periplasmic chaperone Caf1M of Yersinia pestis.
+  J. Bacteriol.
+181, 24222429.  Choudhury, D., Thompson, A., Stojanoff, V., Langermann, S., Pinkner, J.,  Hultgren, S.J., and Knight, S.D. (1999).
+X-ray structure of the FimC-FimH  Structure  Allosterically Regulated Assembly Chaperone  1870 Structure 20, 18611871, November 7, 2012 2012 Elsevier Ltd All rights reservedchaperone-adhesin complex from uropathogenic Escherichia coli.
+Science  285, 10611066.  Crespo, M.D., Puorger, C., Scharer, M.A., Eidam, O., Grutter, M.G., Capitani,  G., and Glockshuber, R. (2012).
+Quality control of disulfide bond formation in  pilus subunits by the chaperone FimC. Nat Chem Biol.
+Published online July  1, 2012. http://dx.doi.org/10.1038/nchembio.1019.
+  Dodson, K.W., Jacob-Dubuisson, F., Striker, R.T., and Hultgren, S.J. (1993).
+  Outer-membrane PapC molecular usher discriminately recognizes periplasmic chaperone-pilus subunit complexes.
+Proc. Natl. Acad. Sci. USA 90,  36703674.
+  Dubnovitsky, A.P., Duck, Z., Kersley, J.E., Hard, T., MacIntyre, S., and Knight,  S.D. (2010).
+Conserved hydrophobic clusters on the surface of the Caf1A usher  C-terminal domain are important for F1 antigen assembly.
+J. Mol. Biol. 403,  243259.  Eidam, O., Dworkowski, F.S., Glockshuber, R., Gru tter, M.G., and Capitani, G.  (2008).
+Crystal structure of the ternary FimC-FimF(t)-FimD(N) complex indicates conserved pilus chaperone-subunit complex recognition by the usher  FimD. FEBS Lett. 582, 651655.  Holmgren, A., and Bra nden, C.-I. (1989).
+Crystal structure of chaperone protein  PapD reveals an immunoglobulin fold.
+Nature 342, 248251.  Hung, D.L., Knight, S.D., Woods, R.M., Pinkner, J.S., and Hultgren, S.J. (1996).
+  Molecular basis of two subfamilies of immunoglobulin-like chaperones.
+EMBO  J. 15, 37923805.  Hung, D.L., Pinkner, J.S., Knight, S.D., and Hultgren, S.J. (1999).
+Structural  basis of chaperone self-capping in P pilus biogenesis.
+Proc. Natl. Acad. Sci.  USA 96, 81788183.  Jones, T.A., Zou, J.Y., Cowan, S.W., and Kjeldgaard, M. (1991). Improved  methods for building protein models in electron density maps and the location  of errors in these models.
+Acta Crystallogr.
+A 47, 110119.
+  MacIntyre, S., Zyrianova, I.M., Chernovskaya, T.V., Leonard, M., Rudenko,  E.G., ZavYalov, V.P., and Chapman, D.A.G. (2001).
+An extended hydrophobic  interactive surface of Yersinia pestis Caf1M chaperone is essential for subunit  binding and F1 capsule assembly.
+Mol. Microbiol. 39, 1225.  McCoy, A.J. (2007).
+Solving structures of protein complexes by molecular  replacement with Phaser. Acta Crystallogr.
+D Biol. Crystallogr. 63, 3241.  Murshudov, G.N., Vagin, A.A., and Dodson, E.J. (1997).
+Refinement of macromolecular structures by the maximum-likelihood method. Acta Crystallogr.
+D  Biol. Crystallogr. 53, 240255.  Nishiyama, M., and Glockshuber, R. (2010).
+The outer membrane usher guarantees the formation of functional pili by selectively catalyzing donor-strand  exchange between subunits that are adjacent in the mature pilus.
+J. Mol.  Biol.
+396, 18.
+  Nishiyama, M., Vetsch, M., Puorger, C., Jelesarov, I., and Glockshuber, R.  (2003).
+Identification and characterization of the chaperone-subunit  complex-binding domain from the type 1 pilus assembly platform FimD.  J. Mol.
+Biol. 330, 513525.  Nishiyama, M., Horst, R., Eidam, O., Herrmann, T., Ignatov, O., Vetsch, M.,  Bettendorff, P., Jelesarov, I., Gru tter, M.G., Wu thrich, K., et al. (2005).
+  Structural basis of chaperone-subunit complex recognition by the type 1 pilus  assembly platform FimD. EMBO J. 24, 20752086.  OuYang, B., Pochapsky, S.S., Dang, M., and Pochapsky, T.C. (2008).
+A functional proline switch in cytochrome P450cam.
+Structure 16, 916923.  Pellecchia, M., Gu ntert, P., Glockshuber, R., and Wu thrich, K. (1998).
+NMR  solution structure of the periplasmic chaperone FimC. Nat. Struct. Biol. 5,  885890.  Phan, G., Remaut, H., Wang, T., Allen, W.J., Pirker, K.F., Lebedev, A.,  Henderson, N.S., Geibel, S., Volkan, E., Yan, J., et al. (2011).
+Crystal structure  of the FimD usher bound to its cognate FimC-FimH substrate.
+Nature474, 4953.  Pinkner, J.S., Remaut, H., Buelens, F., Miller, E., Aberg, V., Pemberton, N.,  Hedenstro m, M., Larsson, A., Seed, P., Waksman, G., et al. (2006).
+  Rationally designed small compounds inhibit pilus biogenesis in uropathogenic bacteria.
+Proc. Natl. Acad. Sci. USA 103, 1789717902.  Remaut, H., Rose, R.J., Hannan, T.J., Hultgren, S.J., Radford, S.E., Ashcroft,  A.E., and Waksman, G. (2006).
+Donor-strand exchange in chaperone-assisted  pilus assembly proceeds through a concerted beta strand displacement  mechanism.
+Mol. Cell 22, 831842.  Remaut, H., Tang, C., Henderson, N.S., Pinkner, J.S., Wang, T., Hultgren, S.J.,  Thanassi, D.G., Waksman, G., and Li, H. (2008).
+Fiber formation across the  bacterial outer membrane by the chaperone/usher pathway.
+Cell 133,  640652.  Sarkar, P., Saleh, T., Tzeng, S.R., Birge, R.B., and Kalodimos, C.G. (2011).
+  Structural basis for regulation of the Crk signaling protein by a proline switch.
+  Nat. Chem.
+Biol. 7, 5157.  Sauer, F.G., Fu tterer, K., Pinkner, J.S., Dodson, K.W., Hultgren, S.J., and  Waksman, G. (1999).
+Structural basis of chaperone function and pilus biogenesis.
+Science 285, 10581061.  Sauer, F.G., Pinkner, J.S., Waksman, G., and Hultgren, S.J. (2002).
+Chaperone  priming of pilus subunits facilitates a topological transition that drives fiber  formation.
+Cell 111, 543551.  Saulino, E.T., Thanassi, D.G., Pinkner, J.S., and Hultgren, S.J. (1998).  Ramifications of kinetic partitioning on usher-mediated pilus biogenesis.
+  EMBO J. 17, 21772185.  Verger, D., Miller, E., Remaut, H., Waksman, G., and Hultgren, S. (2006).
+  Molecular mechanism of P pilus termination in uropathogenic Escherichia  coli.
+EMBO Rep. 7, 12281232.  Verger, D., Bullitt, E., Hultgren, S.J., and Waksman, G. (2007).
+Crystal structure  of the P pilus rod subunit PapA. PLoS Pathog.
+3, e73.  Vogel, M., Bukau, B., and Mayer, M.P. (2006).
+Allosteric regulation of Hsp70  chaperones by a proline switch.
+Mol. Cell 21, 359367.  Volkan, E., Ford, B.A., Pinkner, J.S., Dodson, K.W., Henderson, N.S.,  Thanassi, D.G., Waksman, G., and Hultgren, S.J. (2012).
+Domain activities of  PapC usher reveal the mechanism of action of an Escherichia coli molecular  machine.
+Proc. Natl. Acad. Sci. USA 109, 95639568.  Waksman, G., and Hultgren, S.J. (2009).
+Structural biology of the chaperoneusher pathway of pilus biogenesis.
+Nat. Rev. Microbiol.
+7, 765774.  Yu, X., Visweswaran, G.R., Duck, Z., Marupakula, S., MacIntyre, S., Knight,  S.D., and Zavialov, A.V. (2009).
+Caf1A usher possesses a Caf1 subunit-like  domain that is crucial for Caf1 fibre secretion.
+Biochem. J. 418, 541551.  Yu, X.D., Fooks, L.J., Moslehi-Mohebi, E., Tischenko, V.M., Askarieh, G.,  Knight, S.D., Macintyre, S., and Zavialov, A.V. (2012).
+Large is fast, small is  tight: determinants of speed and affinity in subunit capture by a periplasmic  chaperone.
+J. Mol. Biol. 417, 294308.  Zavialov, A.V., and Knight, S.D. (2007).
+A novel self-capping mechanism  controls aggregation of periplasmic chaperone Caf1M.
+Mol. Microbiol. 64,  153164.  Zavialov, A.V., Berglund, J., and Knight, S.D. (2003a).
+Overexpression, purification, crystallization and preliminary X-ray diffraction analysis of the F1  antigen Caf1M-Caf1 chaperone-subunit pre-assembly complex from  Yersinia pestis.
+Acta Crystallogr.
+D Biol.
+Crystallogr. 59, 359362.  Zavialov, A.V., Berglund, J., Pudney, A.F., Fooks, L.J., Ibrahim, T.M.,  MacIntyre, S., and Knight, S.D. (2003b).
+Structure and biogenesis of the  capsular F1 antigen from Yersinia pestis: preserved folding energy drives fiber  formation.
+Cell 113, 587596.  Zavialov, A.V., Tischenko, V.M., Fooks, L.J., Brandsdal, B.O., Aqvist, J.,  Zavyalov, V.P., Macintyre, S., and Knight, S.D. (2005).
+Resolving the energy  paradox of chaperone/usher-mediated fibre assembly.
+Biochem. J. 389,  685694.  Zavialov, A.V., Zavyalova, G.A., Korpela, T., and Zavyalov, V.P. (2007).
+FGL  chaperone-assembled fimbrial polyadhesins: anti-immune armament of  Gram-negative bacterial pathogens.
+FEMS Microbiol. Rev. 31, 478514.  Zavyalov, V.P., Zavyalova, G.A., Denesyuk, A.I., and Korpela, T. (1995).
+  Modelling of steric structure of a periplasmic molecular chaperone Caf1M of  Yersinia pestis, a prototype member of a subfamily with characteristic structural and functional features.
+FEMS Immunol. Med.
+Microbiol. 11, 1924.  Zavyalov, V., Zavialov, A., Zavyalova, G., and Korpela, T. (2010).
+Adhesive  organelles of Gram-negative pathogens assembled with the classical chaperone/usher machinery: structure and function from a clinical standpoint.
+  FEMS Microbiol. Rev. 34, 317378.  Structure  Allosterically Regulated Assembly Chaperone  Structure 20, 18611871, November 7, 2012 2012 Elsevier Ltd All rights reserved 1871

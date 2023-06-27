@@ -1,0 +1,320 @@
+Two Independent Histidines, One in Human Prolactin and  One in Its Receptor, Are Critical for pH-dependent Receptor  Recognition and Activation*S  Received for publication, August 4, 2010, and in revised form, September 8, 2010 Published, JBC Papers in Press, September 30, 2010, DOI 10.1074/jbc.
+M110.172072  Mandar V. Kulkarni1, M. Cristina Tettamanzi  , James W. Murphy  , Camille Keeler  , David G. Myszka  ,  Naomi E. Chayen  , Elias J. Lolis  , and Michael E. Hodsdon2  From the   Department of Laboratory Medicine and the   Department of Pharmacology, Yale School of Medicine, New Haven,  Connecticut 06520, the   Center for Biomolecular Interaction Analysis, School of Medicine, University of Utah, Salt Lake City,  Utah 84132, and   Biomolecular Medicine, the Department of Surgery and Cancer, Faculty of Medicine, Imperial College London,  Sir Alexander Fleming Building, London SW7 2AZ, United Kingdom  Human prolactin (hPRL), a member of the family of hematopoietic cytokines, functions as both an endocrine hormone and  autocrine/paracrine growth factor.
+We have previously demonstrated that recognition of the hPRLreceptor depends strongly  on solution acidity over the physiologic range from pH 6 to pH 8.
+  The hPRLreceptor binding interface contains four histidines  whose protonation is hypothesized to regulate pH-dependent  receptor recognition.
+Here, we systematically dissect its molecular origin by characterizing the consequences of His to Ala  mutations on pH-dependent receptor binding kinetics, site-specific histidine protonation, and high resolution structures of the  intermolecular interface.
+Thermodynamic modeling of the pH  dependence to receptor binding affinity reveals large changes in  site-specific protonation constants for a majority of interface  histidines upon complexation.
+Removal of individual His imidazoles reduces these perturbations in protonation constants,  which is most likely explained by the introduction of solventfilled, buried cavities in the crystallographic structures without  inducing significant conformational rearrangements.
+  Human prolactin (hPRL) is a 23-kDa protein hormone  secreted both by the mammalian pituitary and numerous extrapituitary tissues.
+Based on similarity in quaternary structure  and that of cognate receptors, prolactin is classified as a member of the larger family of hematopoietic cytokines, with highest  homology to growth hormone (GH) and placental lactogen (1).
+  Evidence suggests that hPRL functions as an autocrine-paracrine growth factor in cancers of the breast, prostate, and  female reproductive tract.
+Both hPRL and its receptor (hPRLr)  are expressed in a majority of breast cancers (2, 3), where their  interaction affects various aspects of carcinogenesis (25).
+Cellular studies of hPRL signaling provide a molecular basis for the  hPRL role in breast cancer proliferation (610).
+Recent epidemiological studies have strengthened the link between elevated  hPRL and breast cancer risk (10).
+Consequently, detailed  molecular understanding of hPRLreceptor recognition and  activation is critical to aid efforts to develop potential cancer  intervention strategies.
+  hPRL recognizes the hPRLr extracellular domain (ECD) and  recruits two molecules of hPRLr via two distinct binding sites  on the hPRL surface, i.e. site 1 (high affinity) followed by site 2  (low affinity) (11).
+Crystallographic structures of 1:1 (12)  (hPRL antagonisthPRLrECD) and 1:2 (13) (so called affinity matured hPRLhPRLrECD) complexes reveal molecular  details of the 20% of the combined surface area buried within  the high affinity binding interface.
+Cumulative work with mutagenic variants of hPRL further reduces the number of critical  residue contacts for receptor binding (1416).
+Associated with  formation of the heterotrimeric 1:2 (ligandreceptor) complex,  induced conformational changes in the receptor intracellular  domain brings two receptor-associated cytosolic tyrosine  kinase molecules of Janus kinase-2 (JAK2) in close proximity.
+  Sequential phosphorylation of specific Tyr residues of JAK2  and hPRLr results in recruitment and phosphorylation of Signal  Transducer and Activator of Transcription-5 (STAT5) (17  19).
+Various other cellular signal transduction pathways  including MEK-ERK, Phosphoinositide 3-AKT, and AP1 are  also activated in response to hPRLr activation (2022).
+  Although cross-talk between pathways is thought to determine  the eventual phenotypic response of target cells, phosphorylation of STAT5 is a hallmark of hPRLr activation.
+  We have previously reported a dramatic difference in the pH  dependence of hPRLr recognition by hPRL and hGH and  believe this has important functional effects upon endocytosis.
+  The affinity of hPRL for hPRLrECD decreases 500-fold as the  pH decreases from pH 8 to 6, whereas the binding of hGH is  unchanged over this same pH range (23).
+A triad of interacting  histidines, His-27, His-30, and His-180, occupy the high affinity  receptor binding site of hPRL (24), with His-188 contributed by  hPRLr.
+As the overall charge of the histidine imidazole ring  varies over the physiological pH range from 5 to 8, we hypothesized that pH-dependent hPRLr recognition is a function of  coordinated protonation of these specific His residues.
+Using  * This work was supported, in whole or in part, by National Institutes of Health  Grant RO1 CA 108992 (to M. E. H.).
+  S The on-line version of this article (available at http://www.jbc.org) contains  supplemental Tables 12, Figs. 15, and data.
+1 Supported by National Institutes of Health Training Grant T32-HL007974-07.
+  2 To whom correspondence should be addressed: Dept. of Laboratory Medicine, Yale University, P. O. Box 208035, New Haven, CT 06520-8035
+. Fax:  203-688-8704; E-mail: michael.hodsdon@yale.edu.
+3 The abbreviations used are: hPRL, human prolactin; hPRLr, hPRL receptor;  GH, growth hormone; hGH, human GH; SPR, surface plasmon resonance;  HSQC, heteronuclear single quantum correlation; ECD, extracellular  domain.
+  THE JOURNAL OF BIOLOGICAL CHEMISTRY VOL. 285, NO.
+49, pp. 38524 38533, December 3, 2010   2010 by The American Society for Biochemistry and Molecular Biology, Inc. Printed in the U.S.A.  38524 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 285NUMBER 49DECEMBER 3, 2010   at University of Bristol Library on March 3, 2015 http://www.jbc.org/ Downloaded from various biophysical and cellular methods, we show that His-180  in hPRL and His-188 of hPRLr are critical for pH-dependent  receptor binding and activation, with His-30 playing an additional role.
+This is the first report to systematically dissect the  structural and functional roles of specific histidines within the  intermolecular interface of a hematopoietic cytokine-receptor  pair.
+  EXPERIMENTAL PROCEDURES  Plasmids, Recombinant Protein Purification, and Cell  CultureA modified vector, pT7L, was used to express and  purify WT and site-directed mutants of hPRL from the  BL21(DE3) strain of Escherichia coli as described previously  (24).
+The hPRL antagonist (hPRL 114 G129R) and site-directed mutants of the antagonist were also purified using the  same protocol.
+Purification of the WT hPRLrECD expressed  from pET11b (Invitrogen) in BL21(DE3) E. coli has also been  previously described (25).
+The site-directed mutant of hPRLrECD, H188A was purified using the same protocol.
+The parent  vector encoding hPRLr (pCDNA3-hPRLr) was a generous gift  from Dr. Linda Schuler (University of Wisconsin at Madison).
+  The mammalian expression vector, pEF1 V5-His A-hPRLr, was  generated by subcloning (GenScript, Piscataway, NJ), the  cDNA encoding full-length hPRLr.
+All site-directed mutants  (including those of the hPRL antagonist and hPRLr), except  H27A, H30A, and H180A of hPRL (obtained from Dr. Charles  Clevenger), were generated by PCR mutagenesis using the  QuikChange site-directed mutagenesis kit (Agilent technologies, La Jolla, CA) according to the manufacturers protocol.
+  T47D human breast cancer cells were obtained from the Yale  Cancer Center Tissue Culture Core Facility, and the CHO-K1  (ATCC# CCL-61) cell line was obtained from American Type  Culture Collection (ATCC, Manassas, VA).
+T47D and CHO-K1  cells were maintained in RPMI 1640 and Kaighns modified F-12K  media (Invitrogen) respectively, both supplemented with 10%  heat-inactivated fetal bovine serum (Invitrogen), 500 units/ml  penicillin, 500 g/ml streptomycin (Invitrogen) and incubated at  37 C and 5% CO2.
+Transfection of CHO-K1 cells was carried out  using Superfect transfection reagent according to the manufacturers protocol (Qiagen, Valencia, CA).
+  Antibodies and ImmunoblottingFor immunoblotting, the  following commercially available antibodies were purchased:  rabbit anti-phospho-STAT5 (Tyr-694) (antibody #9351), rabbit anti-phospho-JAK2 (Tyr-1007/1008) and rabbit anti-JAK2  (Cell Signaling Technology, Beverly, MA), rabbit anti-STAT5  (C-17), rabbit anti-hPRLr (H-300), and mouse anti-hPRL (A-7)  (Santa Cruz Biotechnology, Santa Cruz, CA), mouse anti-tubulin- Ab-2 (DM1A) (Thermo Scientific, Rockford, IL); secondary antibodies include peroxidase-conjugated goat anti-mouse  and goat anti-rabbit IgG (Jackson ImmunoResearch Laboratories, West Grove, PA).
+Cells were grown in 60-mm tissue culture dishes and lysed using Nonidet P-40 lysis buffer (100  l/dish, 50 mM Tris-HCl at pH 7.4, 150 mM NaCl, 0.5% Nonidet  P-40, 50 mM NaF, 1 mM Na3VO4,1mM dithiothreitol, 1 mM  PMSF, 25 g/ml leupeptin, 25 g/ml aprotinin, 1 mM benzamidine, 10 g/ml trypsin inhibitor).
+Lysates were cleared by centrifugation, and total quantity of proteins in lysates was determined using the Bradford assay (Bio-Rad).
+150 g of total  protein from each sample was used for SDS-PAGE followed by  transfer to nitrocellulose membrane (Bio-Rad), which was then  analyzed by Western blotting to assess levels of indicated proteins.
+Briefly, membranes were blocked in 5% nonfat dry milk,  incubated with appropriate primary antibody overnight at 4 C,  washed 6 (5 min.
+each) with phosphate-buffered saline plus  0.1% Tween 20 (PBST), incubated with appropriate secondary  antibody, washed 6 with PBST, and detected with  enhanced chemiluminescence (ECL) reagent (GE Healthcare) followed by exposure to Hyperfilm (GE Healthcare)  x-ray film.
+The autoradiographs shown are representative of  at least three experiments.
+  Measurement of Receptor Binding Kinetics for hPRL by Surface Plasmon Resonance (SPR)SPR experiments were done on  a Biacore T100 (Biacore AB, Uppsala, Sweden).
+The WT and  mutant forms of hPRL were immobilized on a GLM sensor chip  using standard amine coupling.
+Surfaces were activated for 7  min with sulfo-NHS/EDC, and the hPRL proteins were coupled  using a concentration of 3 M in 10 mM sodium acetate, pH 5.0,  for 1 min.
+Surfaces were then blocked with a 3-min injection of  ethanolamine.
+Receptor-ECD was tested at a high concentration of 1 M followed by a 3-fold dilution series.
+Injection of  ECD at each concentration was repeated twice.
+Surfaces were  regenerated with a 20-s pulse of 1/1000 dilution of phosphoric  acid.
+The running buffer contained 25 mM KPO4, 50 mM NaCl,  0.1 mg/ml BSA, and 0.005% P20.
+The samples were tested from  low pH (5.75) to high pH (8.0) in quarter-unit increments.
+All of  the response data were globally fit to a 1:1 interaction model to  extract the rate constants at 25 C using the software program  Scrubber-2 (BioLogic Software Pty Ltd.).
+  X-ray CrystallographyPurified recombinant proteins were  mixed in a 1:1 molar ratio at a final concentration of 9.5  mg/ml and incubated at room temperature for 15 min for complex formation followed by buffer exchanging into 2 mM ammonium bicarbonate, pH 7.9.
+Complexes were crystallized by the  hanging drop method using a Mosquito liquid handling robot  (TTP Labtech, Cambridge, MA) to dispense various ratios of  protein:precipitant (3.7 M NaCl and 0.1 M Hepes buffer, pH 7.5,  3 6% polyethylene glycol monomethyl ether 550).
+Hexagonal  crystals were flash-frozen in liquid nitrogen and transferred to  the 180 C cold stream for data collection.
+Diffraction data  were collected at National Synchrotron Light Source at the  Brookhaven National Laboratories (Upton, NY) on beamline  X29A using an ADSC Quantum 315 detector.
+Data were processed and scaled in HKL2000 (26).
+Molecular replacement was  performed in Phaser (27) using the published structure PDB  code 3D48.
+Phenix.refine (28) was used for further refinement  followed by multiple rounds of adjustment and model building  using Coot (29).
+Manual refinement was done using composite  omit maps from CNS (30).
+Final refinement of all structures was  done using restrained refinement in refmac (31).
+Table 2 presents statistical data obtained from all crystal structures.
+  NMR SpectroscopyPreparation of isotopically labeled proteins, collection and processing of NMR spectroscopic data,  and pKa calculations for individual histidine residues have been  described previously (24, 25).
+  ModelingThermodynamic modeling of the pH dependence to hPRLreceptor binding affinity derived from the SPR  pH-dependent hPRLr Binding Requires hPRLHis-180 and hPRLrHis-188  DECEMBER 3, 2010VOLUME 285NUMBER 49 JOURNAL OF BIOLOGICAL CHEMISTRY 38525   at University of Bristol Library on March 3, 2015 http://www.jbc.org/ Downloaded from results was performed using MATLAB, Version R2010a (The  Mathworks Inc., Natick, MA), with custom scripts and functions written in-house (provided as supplemental data).
+The  apparent receptor binding affinity, KD,app  1/Ka,app, is  expressed as a function of a theoretical basic state association  constant (with all histidines unprotonated), Ka,basic, and the  partition functions (or binding polynomials) for protonation of  all histidines in both the free (ZH,PRL and ZH,ECD) and bound  (ZH,bound) states,  Ka,app  Ka,basicZH,bound/(ZH,PRLZH,ECD). (Eq. 1)  For n-independently titrated histidines, the partition function  for protonation takes the form,  ZH  (1  K1H)(1  K2H) . . . (1  KnH) (Eq. 2)  where K1  Kn represents the site-specific proton-binding  association constants (K  10pKa  ), and H is the molar proton  concentration (H  10pH).
+  In the final round of modeling considering all the SPR, the  known protonation constants (and cooperativity constants) for  unbound (i.e. free) hPRL and hPRLrECD were fixed, whereas  the bound state pKa values were varied.
+For WT hPRL, the  partition function (binding polynomial) for protonation is  expressed as,  ZH,PRL  ZH,triadZH,others (Eq. 3)  ZH,triad  1  K27H  K30H  K180H  c27,30K27K30H2   c30,180K30K180H2  K27K180H2   c27,30c30,180K27K30K180H3 (Eq. 4)  ZH,others  1  K46H)(1  K59H)(1  K97H)(1  K138H)(1  K173H)(1  K195H)  (Eq. 5)  We have experimentally measured all the associated protonation and cooperativity constants for WT hPRL at both 25 and  35 C.
+We have also determined the site-specific protonation  constants for the H30A and H180A single-site hPRL mutations  at 35 C.
+In our simulations we have assumed an equivalent  perturbation of His-27, His-30, and His-180 pKa values due to  the single-site His-to-Ala mutations (in the unbound state) at  25 C along with the loss of the associated cooperativity constants, as was measured at 35 C.
+As our intention for performing the thermodynamic modeling is only to identify the overall  changes in protonation constants upon complexation required  to explain the SPR results and because the simulations have  proven insensitive to the relatively minor changes in pKa values  between 25 and 35 C, the extensive effort required for experimental measurement of the exact site-specific protonation  constants for all His mutations at both temperatures is not  warranted.
+  RESULTS  Effect of Single-site His-to-Ala Mutations in hPRL on pH-dependent Receptor RecognitionWe originally hypothesized  that protonation of one (or more) of the three His residues  located in the intermolecular binding interface (His-27, His-30,  or His-180) is responsible for the observed pH dependence.
+A  primary contribution of residues in the hPRLrECD was initially  excluded given the lack of pH dependence for hGH binding to  the same receptor molecule.
+To assess whether loss of any His  residue in hPRL affects binding to the hPRLrECD, we performed SPR analysis of WT hPRLrECD binding to WT and  mutant hPRLs.
+Supplemental Table 1a lists the derived equilibrium constants for pertinent interface mutants across a range of  pH values (detailed results are available in supplemental Table 2  and Fig. 1).
+Surprisingly, removal of the imidazole rings for  His-27 and His-30 had essentially no effect on receptor binding,  with the exception of a moderate loss in pH dependence for  H30A compared with WT hPRL beginning at pH 6.25.
+In contrast, mutation of His-180 results in an 100-fold lower receptor binding affinity from pH 7.25 to 8.00 compared with WT  hPRL, followed by a similar drop in affinity with increasing  acidity beginning around pH 7.0.
+However, unlike the WT hormone, the receptor binding affinity of H180A hPRL begins to  normalize toward a loss of pH dependence around pH 6.25  analogous to H30A.
+Single-site mutations of the remaining six  histidines in hPRL result in closely overlapping receptor binding affinities with the WT hormone, with the exception of a  minor loss of neutral state affinity for H173A (supplemental  Fig. 2).
+Last, mutation of His-180 to an Asp, as is seen for the  analogous position in hGH (Asp-171), completely abolishes  detectable receptor binding (supplemental Fig. 3).
+In total,  these results demonstrate that no single histidine in hPRL is  wholly responsible for the observed pH dependence, with only  residues H30A and H180A appearing to partially mitigate the  steep pH dependence of the WT-WT hormonereceptor interaction.
+Also, the neutral state of His-180 contributes significantly to the receptor binding affinity at high pH, whereas  His-27 and His-30 appear to contribute little to receptor recognition despite their location within the high affinity receptor  binding interface.
+  The pH dependence to any biochemical equilibrium can be  modeled based on the thermodynamic linkage of the protonation reactions for each of the corresponding equilibrium states.
+  In the case of protein-protein association reactions, the pH  dependence of the apparent binding affinity can be completely  described by changes in site-specific protonation constants (i.e.  individual residue pKa values) between the uncomplexed and  complexed protein states.
+Fig. 1 presents best-fit simulations  of the experimental binding affinities for WT hPRL and three  corresponding His mutants binding to the WT hPRLrECD as a  function of pH. These simulations establish that a minimum of  two protonation events are required to describe the pH  dependence for WT, H27A, and H30A hPRL.
+Alternative models with more than two proton binding reactions fit the data  equally well; however, a single protonation event is clearly  incompatible with the experimental results.
+An additional  restriction resulting from the initial decline in affinity starting  around pH 7 requires a pKa  7.0 for at least one of the involved  titrated residues.
+In contrast, simulation of the SPR results for  H180A hPRL requires only a single protonation event with a  pKa  7.0. In our previously reported analysis of site-specific  protonation in uncomplexed hPRL (24), no histidine titrated  with an apparent pKa  7.0.
+The triad of His-27, His-30, and  pH-dependent hPRLr Binding Requires hPRLHis-180 and hPRLrHis-188  38526 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 285NUMBER 49DECEMBER 3, 2010   at University of Bristol Library on March 3, 2015 http://www.jbc.org/ Downloaded from His-180 located in the high affinity receptor binding site have  initial pKa values of 6.7, 6.3, and 6.1, respectively, with negative  cooperativity constants in their titration reactions (c27,30   0.29, c30,180  0.18), acting to further inhibit the effective mass  action for protonation.
+Attempts to simulate the pH dependence of receptor binding affinities using our experimentally  measured pKa values unambiguously revealed a requirement  for an unidentified residue with a more basic protonation constant, specifically with a pKa  7.4.
+Initial speculation for the  origin of this residue included either a basic amino acid in hPRL  (e.g. an Arg or Lys) with a dramatically perturbed protonation  constant or a titratable residue contributed by the hPRLrECD,  which had been initially excluded due to the lack of the  observed pH dependence for hGH binding to the same receptor  molecule.
+  Correlation of the pH Dependence of hPRL Function in Cellular AssaysIn our original description of the pH-dependent  properties of hPRL (24), we reported an apparent pH dependence of hPRL function in two cellular assays; they are [3  H]thymidine incorporation into rat lymphoma Nb2 cells and a luciferase reporter assay of STAT5 transcription factor activation in  the human T47D breast cancer cell line.
+Although the results of  both experiments support a functional consequence of the pH  dependence to hPRL receptor recognition, the long timescale of  both studies (424 h) complicates their interpretation due to  the uncertain effects of prolonged cellular exposure to an acidic  environment.
+Here, the pH dependence of hPRL function is  assayed based on a shorter (10-min) exposure to decreased pH  and with the more direct (i.e. receptor proximal) indicator of  STAT5 phosphorylation.
+Fig. 2a presents the result of exposing  human T47D cells, known to express high levels of hPRLr, to  increasing concentrations of recombinant hPRL across a range  of pH. At lower concentrations of hPRL (1 nM), STAT5 phosphorylation is strongly pH-dependent; however, as the concentration of hPRL is increased to 100 nM, the pH dependence of  STAT5 phosphorylation is lost.
+This is expected due to saturation of the receptor with ligand at higher hPRL concentrations,  even at the lower receptor binding affinities associated with  acidic pH. Hence, these results further support the conclusion  that the pH-dependent loss of hPRL function results from  decreased receptor occupancy and not from a more general  cellular effect.
+  Using a similar T47D-based assay of STAT5 phosphorylation, we have tested a variety of site-directed His-to-Ala  mutants of hPRL for impaired receptor activation (Fig. 2b).
+  Analogous to the changes in receptor binding affinity from the  SPR studies (at pH  7), removal of the imidazole ring for a  majority of histidines in hPRL has a negligible effect on STAT5  phosphorylation, with the exception of a significant loss of  function for H180A hPRL.
+The overall affinity of H180A hPRL  for WT hPRLrECD at neutral and basic pH is 100-fold lower  than that of WT (or H27A and H30A) hPRL (Fig. 1).
+Consequently, the level of JAK2 and Stat5 phosphorylation is lower in  FIGURE 1.
+SPR and thermodynamic modeling of WT and mutant hPRL to  systematically assess the role of individual histidine residues in pH-dependent hPRLr binding.
+SPR performed with WT or mutant hPRL bound to a  GLM sensor chip by standard amine coupling and purified recombinant  hPRLrECD.
+Binding kinetics of the hPRLhPRLrECD interactions obtained in  quarter-unit increments in pH values over a range of pH 5.75 8.00 are shown.
+  The affinity of H180A hPRL for hPRLrECD is 100-fold lower than that of hPRL  at high pH, whereas a pH-dependent response is maintained.
+Best-fit simulation using observed binding affinity (by SPR) of WT or single site histidine  mutants, H27A, H30A, and H180A, over a range of pH 5.5 8.0 are indicated by  solid lines.
+The dashed line is an attempt tofit theWT data to a single pKamodel  with the starting (i.e. high pH) fixed to the best-fit value from the two pKa fit.
+  FIGURE 2.
+Functional analysis of WT and single site histidine mutants of  hPRL to evaluate their efficacy in pH-dependent hPRLr activation.
+T47D  breast cancer cells, grown to 80% confluency in conditioned media, were  treated with 1, 10, or 100 nM recombinant WT or mutant hPRL at the indicated  pH for 10 min.
+Total protein cell lysates were used for immunoblotting to  determine relative levels of total and phosphorylated STAT5, hPRLr, and -tubulin.
+a, a saturable pH-dependent effect on STAT5 phosphorylation was  observed over the pH range of 5.57.5.
+b, STAT5 phosphorylation by single  site His mutants of hPRL (1 nM) at pH 7.5 indicates a critical role for His-180 in  receptor activation.
+c, pH-dependent receptor activation by hPRL that lacks  His-27, His-30, or His-180 (alone or in combination) is analogous to the binding affinity of each hPRL variant observed by SPR.
+Conc, concentration; Lig,  ligand; rep, representative.
+  pH-dependent hPRLr Binding Requires hPRLHis-180 and hPRLrHis-188  DECEMBER 3, 2010VOLUME 285NUMBER 49 JOURNAL OF BIOLOGICAL CHEMISTRY 38527   at University of Bristol Library on March 3, 2015 http://www.jbc.org/ Downloaded from H180A hPRLr-treated cells at neutral and basic pH; however,  acidification of the extracellular environment leads to a pH-dependent decrease in its affinity for WT hPRLr.
+This is in good  agreement with the SPR results.
+A minor discrepancy is seen for  H30A hPRL, for which a small but consistent loss of STAT5  phosphorylation is seen at higher pH despite similar binding  affinities to WT hPRL.
+This finding may implicate His-30 in the  structural mechanism for receptor activation or communication between the high and low affinity receptor binding sites,  which has been previously proposed (32).
+Interestingly, when  the multiply mutated variants are considered, the combination  of H27A with the H180A mutation causes a consistently larger  loss of function than the corresponding addition of H30A even  though the isolated H27A mutation had little effect on function.
+Such compensatory changes are not unexpected given the  strong interacting free energies identified between the triad of  His imidazoles within the receptor binding interface (23, 24).
+  Last, the concentration and pH-dependent changes in receptor  activation for all possible combinations of His-to-Ala mutations for the His-27, His-30, and His-180 triad are shown in Fig.  2c, revealing preservation of some degree of pH dependence for  all hPRL variants even when all three imidazoles are removed  (H27A/H30A/H180A).
+Hence, the functional studies further  support the requirement for an additional titratable residue in  regulating the pH dependence of hPRLreceptor recognition.
+  His-188 in the hPRLrECD Has a Site-specific pKa  7.5The  hPRLrECD contains six histidines, but only one, His-188, is  found within the high affinity receptor binding interface.
+Using  uniformly 13C,15N-labeled hPRLrECD, we have monitored sitespecific protonation of His imidazoles from 13C,1  H HSQC  NMR spectral data using a protocol previously reported for  hPRL (12, 24).
+Five independent imidazole 3  C1,  1  H1 HSQC  correlation peaks are observed for the hPRLrECD, displaying  typical pH-dependent 1  H1 and 13C1 NMR chemical shifts  (supplemental Fig. 4).
+Immediately evident in the derived titration profiles is a single His with a perturbed pKa of 7.7.
+As  site-specific NMR chemical shift assignments have not yet been  reported for the hPRLrECD, we have inferred the identity of  His-188 in our NMR spectra using a pH titration of 13C,15Nlabeled hPRLrECD and a second titration of labeled hPRLrECD  in the presence of unlabeled hPRL antagonist (selective ligand  for the high affinity binding site).
+The results are unambiguous;  only one 13C1,  1  H1 HSQC correlation peak is perturbed by the  addition of ligand, that with the unusual pKa of 7.7.
+In the presence of ligand, this residue also demonstrates a large shift in its  apparent pKa toward a more typical value of 7.0.
+However, it  must be emphasized that this apparent pKa in the presence of  ligand cannot be taken to represent the true protonation constant for the complexed state, as saturated complexation of the  hPRLrECD cannot be guaranteed across the entire pH range.
+  Hence, the apparent pKa seen during the titration with ligand  most likely represents a population-weighted average of the  free and bound states of hPRLrECD.
+Last, poor dispersion and  broad line widths of NMR signals for mixtures of hPRL and the  hPRLrECD at lower temperatures necessitated the use of 35 C  during these NMR studies, in contrast to the 25 C used for the  remainder of experiments.
+  Loss of Both His-180 in hPRL and His-188 in hPRLr Causes  Loss of pH-dependent Receptor Binding and ActivationThe  exciting identification of an unusually basic protonation constant for His-188 in the hPRLrECD prompted the investigation  of its role in hPRLreceptor recognition.
+To test the functional  consequence of the H188A mutation, we monitored hPRL-induced STAT5 phosphorylation in CHO cells transfected with  an expression vector for either WT or H188A-full-length  hPRLr.
+The addition of recombinant hPRL demonstrated pHand concentration-dependent STAT5 phosphorylation analogous to the results seen for T47D cells, shown above (Fig. 2).We  subsequently tested the pH dependence of STAT5 phosphorylation along with the more receptor-proximal phosphorylation  of JAK2 for all possible His mutations of the His-27/His-30/  His-180 triad in hPRL with bothWT and H188A hPRLr (Fig. 3).
+  The H188A mutation in the hPRLr has no effect on pH dependence of receptor activation when exposed to WT hPRL.
+However, when cells expressing H188A hPRLr are treated with any  hPRL variant harboring the H180A mutation, the pH dependence is lost, due primarily to a decrease in receptor activation  at high pH. These findings strongly suggest that pH-dependent  receptor recognition involves a highly cooperative interaction  between His-188 in the receptor and the localized triplet of  clustered histidines in hPRL, with His-180 playing a dominant  role.
+  X-ray Crystallographic Structural Analysis of hPRL Receptor  BindingTo address whether specific structural rearrangements either globally or within the intermolecular binding  interface are induced by removal of specific His imidazoles, we  have crystallized and determined high resolution structures of  numerous hPRLreceptor complexes.
+This work follows the  lead of a previous crystal structure of a 1:1 complex between the  hPRLrECD and an hPRL variant (12) (PDB code 3D48) that  combines the hPRL G129R mutation with deletion of the hPRL  N terminus to abolish lower affinity, site 2 receptor binding.
+  Using similar crystallization conditions, we determined the  structures of the hPRLrECD complexed with an analogous  hPRL variant (114, G129R-hPRL), hereby referred to as the  WT antagonist. Well diffracting crystals have been found for  the following combinations of hPRL (antagonist)/hPRLrECD:  WTWT, H27AWT, H30AWT, H180AWT, WTH188A,  H27AH188A, and H30AH188A.
+X-ray diffraction data have  been collected for these complexes, and their corresponding  structures have been determined by molecular replacement  using the PDB code 3D48 structure as an initial search model  for the WTWT structure.
+The final WTWT structure was  used as a search model for the remainder of mutant combinations.
+Details are given in Table 1 (and representative electron  density is shown in supplemental Fig. 5).
+As expected, our  structural model of the WTWT complex agrees well with  3D48, which superpose with an root mean square deviation of  0.5  for the backbone atoms.
+Additionally, our 2.0  electron  density maps for WTWT complex show good density for  regions missing in the 3D48 structure, which was modeled to  2.5  resolution, including the two long loops in hPRL and  some of the extended loops between -strands in the hPRLrECD.
+In hPRL, these long loops have been associated with postpH-dependent hPRLr Binding Requires hPRLHis-180 and hPRLrHis-188  38528 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 285NUMBER 49DECEMBER 3, 2010   at University of Bristol Library on March 3, 2015 http://www.jbc.org/ Downloaded from translation modifications resulting in altered hormone function (15).
+  Using UCSF Chimera (33), we calculated the solvent-accessible surface area for all five complexes and compared them to  their isolated counterparts (supplemental Table 3), revealing  1194 2 of buried surface area within the WT hPRLhPRLr  complex, in good agreement with the reported burial of 1180 2  in PDB code 3D48 (12).
+A total of 52 residues have greater than  10% of their solvent-accessible surface area buried within the  intermolecular interface and are displayed in the upper left  panel of Fig. 4.
+Both the total amount of buried surface area and  the percent burial for individual residues are largely unchanged  with all of the single-site His to Ala substitutions studied here.
+  In general, imidazole removal resulted in cavity formation  within the intermolecular interface, identified using the  SURFNET (34) module of UCSF Chimera (33, 35).
+In some  cases, solvent (water) molecules are evident in the electron  density for these cavities, and we generally assume they are  occupied by buried solvent in aqueous solution.
+  Fig. 4 allows for clear visualization of all histidines present  within the WTWT intermolecular interface and the structural  consequences of systematic substitution.
+In the upper right  panel, hydrogen bonds for His imidazoles in the high affinity  binding site are identified; accuracy has been enhanced by the  incorporation of their experimentally measured tautomeric  states (24).
+The lower set of panels compare the binding interfaces for the His mutant complexes superposed onto the  WTWT complex.
+Overall, structural changes are minimal.
+  Mutation of His-27 displays the least structural rearrangements.
+For H30AWT, removal of its imidazole results in a  downward motion of the C-C bond along with a uniform  displacement of the helical backbone for H30A and nearby residues; however, positions of the associated side chains are  mostly unaffected.
+A similar effect is seen for WTH188A and  H180AWT complexes in the lower right panel, with the additional perturbation of multiple side-chain positions in H180A  hPRL.
+Conformational rearrangement of the protein backbone  upon removal of the His-30 and His-180 imidazoles suggests a  degree of backbone structural strain in the WT protein consistent with the previously reported stabilization of prolactin global fold induced by the H30A and H180A mutations (36).
+Sidechain rearrangement in H180A may relate lower receptor  binding affinity.
+Last, an interesting heterogeneity in side-chain  conformation is found for Asn-31 of the antagonist in the  WTWT complex, for which two alternate conformations were  observed.
+One state, shown for Asn-31 in the upper right panel  of Fig. 4, allows hydrogen bonding with the His-27 imidazole; in  the other state, the Asn-31 side chain rotates toward solvent.
+  However, in each of the mutated complexes, Asn-31 resides in  only a single rotameric state; in H30AWT, H180AWT, and  WTH188A, Asn-31 is solvated, and in H27AWT, Asn-31  adopts the state previously associated with hydrogen bonding  to His-27.
+The rationale behind these structural variations in  Asn-31 is currently unknown.
+However, we note that Asn-31 is  the site of a well established N-glycosylation event in prolactin  (37), whose physiologic significance has not been clearly  elucidated.
+  Re-evaluation of pH-dependent Binding Affinities by SPR  with Inclusion of H188A hPRLrECDTo confirm an apparent  role for His-188 in the pH dependence to hPRLreceptor recognition, we repeated SPR studies with both WT and H180A  hPRL binding to the H188A receptor mutant.
+Listed in supplemental Table 1b (with details in supplemental Table 2) and  shown in Fig. 5, there is a 100-fold decrease in affinity at high  pH for H188A hPRLrECD binding to WT hPRL.
+Note that Fig.  5 also includes SPR results from our original analysis of His  mutations in hPRL, shown previously in Fig. 1.
+As these two  sets of studies involved entirely independent preparations of  FIGURE 3.
+Immunoblot analysis to determine the role of His-188 of hPRLr  in pH-dependent receptor activation.
+CHO cells grown to 60% confluency were transfected with mammalian expression vectors for hPRLr (WT or  H188A) as indicated.
+At 80% confluency (24-h post-transfection) cells were  treated with WT or mutant hPRL (1 nM unless stated otherwise) at the indicated pH for 10 min.
+Total protein cell lysates were used for immunoblotting  to determine relative levels of total and phosphorylated JAK2, total, and  phosphorylated STAT5, hPRLr and -tubulin.
+a, consistent pH-dependent  JAK2 and STAT5, phosphorylation is observed only when the ligandreceptor  combination retains His-180 of hPRL and His-188 of hPRLr.
+b, the pH-independent receptor activation (phosphorylated JAK2 and phosphorylated  STAT5 levels) of the ligandreceptor pair lacking both His-180 of hPRL and  His-188 of hPRLr is maintained at higher ligand concentration.
+Conc, concentration; Lig, ligand.
+  pH-dependent hPRLr Binding Requires hPRLHis-180 and hPRLrHis-188  DECEMBER 3, 2010VOLUME 285NUMBER 49 JOURNAL OF BIOLOGICAL CHEMISTRY 38529   at University of Bristol Library on March 3, 2015 http://www.jbc.org/ Downloaded from recombinant proteins, the comparison allows an assessment  of reproducibility for the WT-WT and H180A-WT  (hPRLreceptor) binding interaction.
+As can be seen in the figure, the two sets of results overlap well, and the pH-dependent  trends are unchanged.
+A blunted transition to lower receptor  binding affinity is observed with decreasing pH for WT hPRL  recognition of H188A hPRLrECD.
+When the H180A hPRL and  H188A receptor mutations are combined, essentially all pH  dependence is lost, and the overall receptor binding affinity is  greatly reduced.
+At pH  6 and below, the affinities for combination of H180A-WT-, WT-H188A-, and H180A-H188A-interacting pairs converge, indicating that the effect of protonation and loss of the His-180 and His-188 imidazoles are  not thermodynamically independent.
+To gain further insight  into the site-specific changes in protonation constants (i.e. pKa  values) responsible for the pH dependence of hPRLreceptor  recognition, thermodynamic modeling analogous to that  described for Fig. 1 was performed for all the hormonereceptor  interacting pairs.
+  Summarized in Table 2, the results of the thermodynamic  simulations are revealing.
+As previously determined for WT  hPRL, the steep dependence of binding affinity on pH, apparently continuing on below pH 5.5, requires two or more histidines whose pKa values upon complexation shift toward very  low values.
+Additionally, the original decline in affinity beginning around pH 7.5 necessitates the presence of at least one  histidine with a free-state pKa  7.5, served in this case by  His-188.
+Removal of the His-27 imidazole has a minimal effect  on the pH dependence of binding affinity, consistent with a  minimal change in its pKa upon complexation.
+For the H30A  mutation, whose pH-dependent loss of affinity appears to stabilize beginning around pH 6.25, the simulations reveal a less  dramatic decrease in protonation constants for the remaining  imidazoles upon complexation.
+Note that the best-fit pKa values for the bound state were all nearly exactly 6.0. Systematic  variation of each value followed by re-minimization of the other  two allowed a  0.5 variation around the best-fit values with a  statistically insignificant effect on the fit.
+Hence, we conclude  that the energetic strain induced by protonation of the imidazoles relaxes from an average pKa  4 for WT hPRL to an  average pKa  6 for H30A hPRL, underscoring an important  role of the His-30 imidazole and its strong thermodynamic  interaction with nearby histidines.
+A similar conclusion can be  reached for the pH-dependent binding of the H180A-WT and  WT-H188A ligandreceptor pairs; their removal relaxes the  energetic strain for protonation of the remaining imidazoles in  the complexed state.
+Last, when both His-180 in hPRL and His188 in the receptor are mutated, the pH dependence of binding  is essentially lost completely, and correspondingly, the best-fit  pKa values for the remaining His-27 and His-30 imidazoles are  almost identical to the unbound state.
+  DISCUSSION  Previous work in our laboratory has demonstrated dependence of the functional and biophysical properties of hPRL on  variation in the solution acidity across the physiologic pH range  from 6 to 8, prompting us to investigate the site-specific properties of histidine residues in hPRL (24, 36).
+In the current work  TABLE 1  Data collection and refinement statistics (molecular replacement)  WTWTa H27AWTa H30AWTa H180AWTa WTH188Aa H27AH188Aa H30AH188Aa  PDB code 3MZG 3N06 3N0P 3NCB 3NCC 3NCE 3NCF  Data collection  Space group P65 P65 P65 P65 P65 P65 P65  Cell dimensions  a, b, c () 123.87, 123.87, 72.47 123.42, 123.42, 72.67 123.54, 123.54, 73.33 124.21, 124.21, 71.56 123.41, 123.41, 73.15 123.28, 123.28, 72.45 123.25, 123.25, 73.11  , ,  (  o  ) 90.00, 90.00, 120.00 90.00, 90.00, 120.00 90.00, 90.00, 120.00 90.00, 90.00, 120.00 90.00, 90.00, 120.00 90.00, 90.00, 120.00 90.00, 90.00, 120.00  Resolution () 32.07-2.10  (2.18-2.10)b 31.00-2.00  (2.07-2.00) b 29.67-2.10  (2.15-2.10)b 32.06-2.10  (2.18-2.10)b 32.03-2.50  (2.59-2.50)b 31.96-2.00  (2.07-2.00)b 31.99-2.80  (2.90-2.80)b  Rsym 7.8 (36.9) 9.2 (70.6)c 12.7 (40.7) 8.2 (33.4) 10.0 (43.3) 8.8 (30.2) 13.0 (38.0)  I/ I 26.9 (6.0) 39.6 (3.3) 10.9 (4.5) 32.4 (8.8) 27.3 (6.8) 34.0 (9.0) 18.3 (7.3)  Completeness (%) 99.0 (99.3) 100.0 (100.0) 99.8 (99.7) 99.9 (100.0) 100.0 (100.0) 99.9 (100.0) 98.0 (98.0)  Redundancy 9.6 (9.2) 17.5 (10.3) 9.3 (9.0) 11.0 (11.1) 11.2 (11.3) 11.1 (11.1) 7.0 (7.1)  Refinement  Resolution () 32.07-2.10 31.00-2.00 29.67-2.10 32.06-2.10 32.03-2.50 31.96-2.00 31.99-2.80  No. reflections 34.830 40,533 35,327 36,812 20,987 40,298 14,580  Rwork/Rfree 0.19/0.23 0.20/0.24 0.18/0.22 0.19/0.24 0.18/0.24 0.18/0.23 0.16/0.22  No. atoms  Protein 3,239 3,228 3,247 3,277 3,228 3,262 3,208  Water 263 273 331 321 228 452 216  Ligand/ion 4448814 4  B-factors  Protein 41.0 41.8 34.3 39.5 42.4 48.0 30.0  Water 44.5 46.4 41.0 47.0 45.2 45.5 30.9  Ligand/ion 33.7 35.7 28.7 48.8 53.0 46.1 23.5  Root mean square deviations  Lengths () 0.026 0.026 0.027 0.028 0.023 0.027 0.022  Angles (o  ) 2.1 2.1 2.0 2.2 2.0 2.2 2.0  Ramachandran  Favored 314 (91.0%) 305 (88.4%) 311 (90.1%) 307 (89.0%) 300 (87.0%) 314 (91.0%) 312 (90.4%)  Allowed 31 (9.0%) 40 (11.6%) 32 (9.9%) 38 (11.0%) 54 (13.0%) 31 (9.0%) 33 (9.6%)  Outliers 0 (0%) 0 (0%) 0 (0%) 0 (0%) 0 (0%) 0 (0%) 0 (0%)  Notes of interest  Alternate side-chain  conformations  7 6 8 14 5 13 1  Missing atoms (side  chains)  B118, B119 A142, B118, B119, B120  B118, B119 B118, B119 B118, B119 B118, B119 B118, B119  a Crystal names are presented as ligand/receptor extracellular domain, e.g. WT hPRL antagonist complexed with WT hPRLrECD is represented as WTWT.
+b The highest resolution shell is shown in parenthesis.
+  c High Rsym for 27WT is an artifact of merging a low and high resolution data sets.
+  pH-dependent hPRLr Binding Requires hPRLHis-180 and hPRLrHis-188  38530 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 285NUMBER 49DECEMBER 3, 2010   at University of Bristol Library on March 3, 2015 http://www.jbc.org/ Downloaded from we seek to ascribe pH dependence of hPRLreceptor recognition and activation to the behavior of individual His residues  within the high affinity hPRLhPRLr intermolecular interface.
+  Initially, we did not expect a role for residues contributed by  hPRLr in the molecular mechanism for pH dependence, as the  binding of hGH to the same receptor is pH-independent.
+However, we show here that regulation of the hPRLreceptor interaction by solution pH depends critically on His-188 from the  hPRLr, which demonstrates a dramatically perturbed titration  profile.
+Additionally, the triad of histidines in hPRL (His-27,  His-30, and His-180), also located within the high affinity binding interface, secondarily contributes to the regulation of pH  dependence, especially at the more acidic end of the pH range.
+  Within this group, His-180 appears to play a dominant role, as  its removal essentially negates the binding-dependent perturbations in the site-specific titration profiles for His-27 and His30.
+Although a bulk of the observed pH dependence is preserved in H30A, a small, but significant loss of the pH  dependence to receptor binding affinity is observed below pH  6.5.
+In contrast, His-27 appears to be dispensable for receptor  binding and makes minimal contributions to the mechanism  for pH dependence, except upon mutation of either His-30 or  His-180, when His-27 makes a larger contribution to regulation  of pH dependence.
+Thus, similar to our previous investigations,  the highly cooperative nature of this network of coupled histidines is evident.
+High resolution crystallographic structures of  the hPRLreceptor interfaces, determined for the WT complex  and all possible single-site His mutants, emphasize the importance of electrostatic forces in regulating the pH dependence of  hPRLreceptor recognition while suggesting a lesser role for  conformational effects.
+The introduction of polarizable water  molecules into the intermolecular interface upon removal of a  single His imidazole provides a likely explanation for the loss of  binding-induced perturbations of site-specific pKa values for  the remaining histidines (Table 2).
+  Cellular studies presented here confirm a clear correlation  between the pH dependence to receptor binding affinity and  two receptor-proximal indicators of hPRLr function: JAK2 and  STAT5 phosphorylation.
+To the best of our knowledge this is  the first study that systematically evaluates the role of each histidine residue of hPRL.
+Previous studies have included only four  single-site His mutations: His-59, His-30, His-173, and His-180  (15, 16).
+The H59A and H30A mutations reduce Nb2 cell proliferation by 50%, whereas the H180A and H173A mutations  reduce Nb2 cell proliferation even further.
+Although our data  are largely in agreement with these findings, the more subtle  phenotypic differences are most likely a result of assay method.
+  Nb2 proliferation in response to treatment with mutant hPRL is  most likely a cumulative effect of the multiple pathways regulated by activated hPRLr, whereas our current results assay the  most receptor-proximal step after efficient ligand binding and  receptor activation.
+Last, although there are multiple studies  involving mutagenic variants of hPRL, evaluation of the role of  specific amino acids in the hPRL receptor is far less complete,  and we have been unable to identify a previous report of H188A  mutagenesis in hPRLr.
+  Kossiakoff and co-workers (38) proposed that recognition of  the hGHr and hPRLr by hGH involves two fundamental steps;  FIGURE 5.
+SPR and thermodynamicmodeling ofWT and H188A hPRLrECD  to assess the role of His-188 in pH-dependent hPRL binding.
+SPR performed with WT or H180A hPRL bound to a GLM sensor chip by standard  amine coupling and purified recombinant WT or H188A hPRLrECD.
+Binding  kinetics of the hPRLhPRLrECD interactions obtained in quarter unit increments in pH over a range of pH 5.75 8.00 are shown.
+Affinities of the H180A  hPRLWT hPRLrECD and WT hPRLH188A hPRLrECD combinations are 100-  fold lower than that of WT hPRLWT hPRLrECD at high pH, whereas pH-dependent response is maintained.
+Loss of both His-180 and His-188 results in pHindependent receptor binding along with loss in affinity.
+Solid lines indicate  best-fit simulation using observed binding affinity (by SPR) of WT hPRL or  H180A hPRL for WT hPRLrECD or H188A hPRLrECD over a range of pH 5.5 8.0.
+  The asterisk indicates data from Fig. 1, included to ensure reproducibility and  consistent comparison.
+  FIGURE 4.
+Comparative analysis of the x-ray crystal structures of various  mutant combinations of the hPRL antagonisthPRLrECD complex.
+The  upper left panel shows a schematic representation of the 1:1 WT antagonist  (cyan)WT hPRLrECD (magenta) complex with amino acid residues of the site  1 binding interface highlighted (gray).
+The upper right panel illustrates the  hydrogen bonding network formed by the interactions of His-27, His-30, His180 (hPRL), and His-188 (hPRLr).
+The bottom left panelshows superposition of  the binding interface of WTWT (gray) H27AWT (magenta), and H30AWT  (cyan) complexes.
+The bottom right panelshows superposition of the binding  interface of WTWT (gray), H180AWT (magenta), and WTH188A (cyan)  complexes.
+  pH-dependent hPRLr Binding Requires hPRLHis-180 and hPRLrHis-188  DECEMBER 3, 2010VOLUME 285NUMBER 49 JOURNAL OF BIOLOGICAL CHEMISTRY 38531   at University of Bristol Library on March 3, 2015 http://www.jbc.org/ Downloaded from the initial formation of a transitions state followed by structural  fine-tuning of the intermolecular interface that creates a slowly  dissociating complex.
+When residues within the structural  epitope for high affinity receptor binding are systematically  mutated and their binding kinetics analyzed, alterations in the  equilibrium binding constant are generally entirely accounted  for by variation in the dissociation rate constant with little or no  change in the association rate constant.
+This is interpreted as a  lack of contribution by these residues in forming the transition  state complex.
+Analysis of our results agrees with this observation in that mutation of both His-180 and His-188 destabilizes  the hormonereceptor complex at high pH by selectively  increasing the dissociation rate constant.
+Similarly, for all of the  complexes, loss of binding affinity with decreasing pH is caused  predominantly by an increase in the dissociation rate constant,  with little effect on association.
+Under more acidic conditions  (pH   6.5), changes in the association rate constant become  more significant, suggesting that protonation of surface residues begins to affect the rate of transitions state formation.
+  The critical role ascribed to two histidine residues (one of the  nine in the hPRL and one of six in hPRLr) of the site 1 binding  interface has prompted us to also evaluate their evolutionary  conservation.
+Alignment of hPRL and hPRLr sequences from  diverse species ranging from Danio rerio (zebrafish) to Homo  sapiens (human) reveals that the four histidines located in the  site 1 receptor binding interface are much more highly conserved than the remaining histidines in both proteins (supplemental Table 4).
+The two residues appearing to dominate regulation of pH-dependent receptor recognition, His-180 and  His-188, are conserved across all species investigated with the  exception of Bos taurus(cow) andXenopus laevis(frog), respectively.
+Interestingly, His-30 is the most conserved histidine  among all of the hPRL histidines, which suggests a major functional role for this residue.
+Last, His-27 is also well conserved  (except for Asp-27 of D. rerio), yet its mutation has a minimal  effect on receptor binding and activation and does not appear to  contribute significantly to regulation of pH dependence.
+Based  on previous work, the imidazoles of all histidines in the triad  appear to be net-destabilizing to the hPRL tertiary structure, as  their removal significantly improved structural stability (36),  further supporting their likely functional importance.
+  Upon endocytosis of the activated ligandreceptor complex,  as the pH of endocytic vesicles decreases in a stepwise manner,  acidity-induced dissociation of the internalized complex is  thought to be a critical step in targeting the ligand for degradation, whereas the receptor is selectively recycled back to the cell  surface.
+The molecular mechanism for pH-dependent dissociation of the ligandreceptor complex has not been investigated  for any other hematopoietic cytokine.
+This is the first report  that systematically dissects the role of specific histidines  involved in pH-dependent hPRLreceptor binding, potentially  providing a basis for the design of pH-independent hPRL variants that could resist dissociation from the receptor in acidified  endosomes.
+Such hPRL variants would serve as powerful experimental tools to investigate the functional role of endosome  acidification in regulating trafficking of internalized receptors  without introducing the broad cellular consequences of disrupting acidification itself.
+We hypothesize that a pH-independent hPRL variant may efficiently target hPRLr to the lysosome (or proteasome) for degradation and prevent recycling  back to the cell surface.
+Alternatively, un-dissociated ligand  receptor complexes may stall within the endocytic pathway,  with unforeseen and likely widespread implications.
+Support  for these hypotheses comes from previous studies performed  with insulin (39) and the epidermal growth factor family of  receptors (40 47), where the apparent pH-dependent dissociation of endocytosed ligandreceptor complexes regulates their  intracellular trafficking.
+In future studies we hope to compare the trafficking of pH-independent and pH-dependent  hPRLhPRLr complexes to elucidate the functional importance  of acidity-induced dissociation.
+  AcknowledgmentsWe are thankful to Dr. B. R. Smith for insight and  critical comments on the manuscript.
+The UCSF Chimera package  from the Resource for Biocomputing, Visualization, and Informatics  at the University of California, San Francisco, used for creating the  molecular graphics images, was supported by National Institutes of  Health Grant P41 RR-01081 grant.
+  REFERENCES  1.
+Deller, M. C., and Yvonne Jones, E. (2000) Curr.
+Opin. Struct. Biol. 10,  213219  2.
+Maus, M. V., Reilly, S. C., and Clevenger, C. V. (1999) Endocrinology 140,  54475450  3.
+Corbacho, A. M., Martnez De La Escalera, G., and Clapp, C. (2002) J.  Endocrinol. 173, 219238  4.
+Struman, I., Bentzien, F., Lee, H., Mainfroid, V., DAngelo, G., Goffin, V.,  Weiner, R. I., and Martial, J. A. (1999) Proc. Natl. Acad. Sci. U.S.A. 96,  12461251  5.
+Kline, J. B., Moore, D. J., and Clevenger, C. V. (2001) Mol. Endocrinol. 15,  832841  TABLE 2  Thermodynamic modeling of protonation constants for His-27, His-30, His-180 (in hPRL), and His-188 (in hPRLr)  Histidine pKa valuesa  ProlactinReceptor  WTWT H27AWT H30AWT H180AWT WTH188A H180AH188A  Free 3 bound Free 3 bound Free 3 bound Free 3 bound Free 3 bound Free 3 bound  Prolactin  His-27 6.7 3 6.4 6.9 3 6.0 6.8 3 6.6 6.7 3 6.1 6.8 3 6.7  His-30 6.3 3  4 6.5 3  4 6.7 3 6.6 6.3 3 4.3 6.7 3 6.6  His-180 6.1 3  4 6.2 3  4 6.3 3 6.0 6.1 3 6.0  Receptor  His-188 7.7 3  4 7.7 3  4 7.7 3 6.0 7.7 3 6.2  a Protonation constants (pKa values) in the unbound states are based (at least indirectly) on experimental NMR measurements, whereas bound state pKa values have been  modeled to provide a best fit to the experimental SPR results.
+For His-27, His-30, and His-180 in hPRL, protonation reactions are thermodynamically coupled with  cooperativity constants, c27,30  0.29 and c30,180  0.18, whenever the corresponding residues are present (24).
+  pH-dependent hPRLr Binding Requires hPRLHis-180 and hPRLrHis-188  38532 JOURNAL OF BIOLOGICAL CHEMISTRY VOLUME 285NUMBER 49DECEMBER 3, 2010   at University of Bristol Library on March 3, 2015 http://www.jbc.org/ Downloaded from 6.
+Tworoger, S. S., and Hankinson, S. E. (2006) Cancer Lett. 243, 160169  7.
+Tworoger, S. S., Eliassen, A. H., Rosner, B., Sluss, P., and Hankinson, S. E.  (2004) Cancer Res. 64, 68146819  8. Eliassen, A. H., Tworoger, S. S., and Hankinson, S. E. (2007) Int.
+J. Cancer  120, 15361541  9.
+Tworoger, S. S., Eliassen, A. H., Sluss, P., and Hankinson, S. E. (2007)  J. Clin.
+Oncol. 25, 14821488  10.
+Tworoger, S. S., and Hankinson, S. E. (2008) J. Mammary Gland Biol.  Neoplasia 13, 4153  11.
+Clevenger, C. V., Gadd, S. L., and Zheng, J. (2009) Trends Endocrinol.  Metab. 20, 223229  12.
+Svensson, L. A., Bondensgaard, K., Nrskov-Lauritsen, L., Christensen, L.,  Becker, P., Andersen, M. D., Maltesen, M. J., Rand, K. D., and Breinholt, J.  (2008) J. Biol. Chem. 283, 1908519094  13. Broutin, I., Jomain, J. B., Tallet, E., van Agthoven, J., Raynal, B., Hoos, S.,  Kragelund, B. B., Kelly, P. A., Ducruix, A., England, P., and Goffin, V.  (2010) J. Biol.
+Chem. 285, 84228433  14.
+Luck, D. N., Huyer, M., Gout, P. W., Beer, C. T., and Smith, M. (1991) Mol.  Endocrinol. 5, 18801886  15.
+Goffin, V., Norman, M., and Martial, J. A. (1992) Mol. Endocrinol. 6,  13811392  16.
+Kinet, S., Goffin, V., Mainfroid, V., and Martial, J. A. (1996) J. Biol. Chem.  271, 1435314360  17.
+Feng, J., Witthuhn, B. A., Matsuda, T., Kohlhuber, F., Kerr, I. M., and Ihle,  J. N. (1997) Mol. Cell.
+Biol. 17, 24972501  18. Argetsinger, L. S., Kouadio, J. L., Steen, H., Stensballe, A., Jensen, O. N.,  and Carter-Su, C. (2004) Mol. Cell.
+Biol. 24, 49554967  19.
+Pezet, A., Ferrag, F., Kelly, P. A., and Edery, M. (1997) J. Biol. Chem. 272,  2504325050  20.
+Clevenger, C. V. (2003) Breast Dis. 18, 7586  21. Das, R., and Vonderhaar, B. K. (1996) Oncogene 13, 11391145  22.
+Gutzman, J. H., Rugowski, D. E., Nikolai, S. E., and Schuler, L. A. (2007)  Oncogene 26, 63416348  23.
+Keeler, C., Jablonski, E. M., Albert, Y. B., Taylor, B. D., Myszka, D. G.,  Clevenger, C. V., and Hodsdon, M. E. (2007) Biochemistry 46, 23982410  24.
+Tettamanzi, M. C., Keeler, C., Meshack, S., and Hodsdon, M. E. (2008)  Biochemistry 47, 86388647  25.
+Bignon, C., Sakal, E., Belair, L., Chapnik-Cohen, N., Djiane, J., and Gertler,  A. (1994) J. Biol.
+Chem. 269, 33183324  26. Otwinowski, Z., and Minor, M. (1997) Methods Enzymol. 276, 307325  27. McCoy, A. J., Grosse-Kunstleve, R. W., Adams, P. D., Winn, M. D., Storoni, L. C., and Read, R. J. (2007) J. Appl.
+Crystallogr. 40, 658674  28.
+Zwart, P. H., Afonine, P. V., Grosse-Kunstleve, R.W., Hung, L.W., Ioerger,  T. R., McCoy, A. J., McKee, E., Moriarty, N. W., Read, R. J., Sacchettini,  J. C., Sauter, N. K., Storoni, L. C., Terwilliger, T. C., and Adams, P. D.  (2008) Methods Mol. Biol. 426, 419435  29.
+Emsley, P., and Cowtan, K. (2004)Acta Crystallogr.
+D. Biol. Crystallogr. 60,  21262132  30.
+Brunger, A. T., Adams, P. D., Clore, G. M., DeLano, W. L., Gros, P.,  Grosse-Kunstleve, R.W., Jiang, J. S., Kuszewski, J., Nilges, M., Pannu, N. S.,  Read, R. J., Rice, L. M., Simonson, T., and Warren, G. L. (1998) Acta  Crystallogr. D. Biol.
+Crystallogr. 54, 905921  31.
+Murshudov, G. N., Vagin, A. A., and Dodson, E. J. (1997) Acta Crystallogr.  D. Biol.
+Crystallogr. 53, 240255  32. Voorhees, J. L., and Brooks, C. L. (2010) J. Biol.
+Chem. 285, 2002220030  33. Pettersen, E. F., Goddard, T. D., Huang, C. C., Couch, G. S., Greenblatt,  D. M., Meng, E. C., and Ferrin, T. E. (2004) J. Comput.
+Chem. 25,  16051612  34. Laskowski, R. A. (1995) J. Mol. Graph 13, 323330, 307308  35.
+Goddard, T. D., Huang, C. C., and Ferrin, T. E. (2005) Structure 13,  473482  36.
+Keeler, C., Tettamanzi, M. C., Meshack, S., and Hodsdon, M. E. (2009)  Protein Sci. 18, 909920  37.
+Ben-Jonathan, N., LaPensee, C. R., and LaPensee, E.W. (2008) Endocr. Rev.  29, 141  38.
+Horn, J. R., Sosnick, T. R., and Kossiakoff, A. A. (2009) Proc.
+Natl. Acad.  Sci. U.S.A. 106, 25592564  39.
+Balbis, A., Baquiran, G., Dumas, V., and Posner, B. I. (2004) J. Biol.
+Chem.  279, 1277712785  40.
+Fallon, E. M., and Lauffenburger, D. A. (2000) Biotechnol. Prog.
+16,  905916  41.
+French, A. R., and Lauffenburger, D. A. (1997) Ann. Biomed. Eng. 25,  690707  42.
+French, A. R., Sudlow, G. P., Wiley, H. S., and Lauffenburger, D. A. (1994)  J. Biol.
+Chem. 269, 1574915755  43.
+French, A. R., Tadaki, D. K., Niyogi, S. K., and Lauffenburger, D. A. (1995)  J. Biol.
+Chem. 270, 43344340  44. Herbst, J. J., Opresko, L. K., Walsh, B. J., Lauffenburger, D. A., and Wiley,  H. S. (1994) J. Biol. Chem. 269, 1286512873  45.
+Lauffenburger, D. A., Fallon, E. M., and Haugh, J. M. (1998) Chem.
+Biol. 5,  R257R263  46. Sarkar, C. A., Lowenhaupt, K., Wang, P. J., Horan, T., and Lauffenburger,  D. A. (2003) Biotechnol. Prog. 19, 955964  47.
+Starbuck, C., and Lauffenburger, D. A. (1992) Biotechnol.
+Prog.
+8, 132143  pH-dependent hPRLr Binding Requires hPRLHis-180 and hPRLrHis-188  DECEMBER 3, 2010VOLUME 285NUMBER 49 JOURNAL OF BIOLOGICAL CHEMISTRY 38533   at University of Bristol Library on March 3, 2015 http://www.jbc.org/ Downloaded from Michael E. Hodsdon  Myszka, Naomi E. Chayen, Elias J. Lolis and  James W. Murphy, Camille Keeler, David G.   Mandar V. Kulkarni, M. Cristina Tettamanzi,     Recognition and Activation  Are Critical for pH-dependent Receptor  Human Prolactin and One in Its Receptor,   Two Independent Histidines, One in  Molecular Biophysics:  doi: 10.1074/jbc.
+M110.172072 originally published online September 30, 2010  J. Biol.
+Chem. 2010, 285:38524-38533.     Access the most updated version of this article at doi: 10.1074/jbc.
+M110.172072     Find articles, minireviews, Reflections and Classics on similar topics on the JBC Affinity Sites.
+  Alerts:       When a correction for this article is posted   When this article is cited  Click here to choose from all of JBC's e-mail alerts  Supplemental material:     http://www.jbc.org/content/suppl/2010/09/30/M110.172072.DC1.html     http://www.jbc.org/content/285/49/38524.full.html#ref-list-1  This article cites 47 references, 17 of which can be accessed free at   at University of Bristol Library on March 3, 2015 http://www.jbc.org/ Downloaded from

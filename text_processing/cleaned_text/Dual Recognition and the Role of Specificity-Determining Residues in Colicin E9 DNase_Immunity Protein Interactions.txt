@@ -1,0 +1,281 @@
+Dual Recognition and the Role of Specificity-Determining Residues in Colicin E9  DNase-Immunity Protein Interactions  Wei Li, Stefan J. Hamill,, Andrew M. Hemmings,,| Geoffrey R. Moore,| Richard James, and  Colin Kleanthous*,  Schools of Biological and Chemical Sciences, UniVersity of East Anglia, Norwich NR4 7TJ, U.K.  ReceiVed April 17, 1998; ReVised Manuscript ReceiVed June 30, 1998  ABSTRACT: The immunity protein Im2 can bind and inhibit the noncognate endonuclease domain of the  bacterial toxin colicin E9 with a Kd of 19 nM, 6 orders of magnitude weaker than that of the cognate  immunity protein Im9 with which it shares 68% sequence identity.
+Previous work from our laboratory  has shown that the specificity differences of these four-helix immunity proteins is due almost entirely to  helix II which is largely variable in sequence in the immunity protein family.
+From alanine scanning  mutagenesis of Im9 in conjunction with high-field NMR data, a dual recognition model for colicinimmunity protein specificity has been proposed whereby the conserved residues of helix III of the immunity  protein act as the anchor of the endonuclease binding site while the variable residues of helix II control  the specificity of the protein-protein interaction.
+In this work, we identify three residues (at positions  33, 34, and 38) in helix II which define the specificity differences of Im2 and Im9 for colicin E9 and,  using alanine mutagenesis of the putative endonuclease binding surface of Im2, compare the distribution  of binding energies for conserved and nonconserved sites in both immunity proteins.
+This comparison  highlights the conserved residues of both Im2 and Im9 as the major determinants of E9 DNase binding  energy.
+Conversely, the nonconserved, specificity-determining residues only contribute to the E9 DNase  binding energy in the cognate Im9 protein, while in the noncognate immunity protein Im2, they either  destabilize the complex or do not contribute to the binding energy.
+This comparative alanine scan of two  immunity proteins therefore supports the dual recognition mechanism of selectivity in colicin-immunity  protein interactions and provides a basis for understanding specificity in other protein-protein interaction  systems involving structurally conserved protein families.
+  Specific macromolecular association involves the interplay  of conserved and nonconserved structural elements which  together define the specificity of the interaction.
+In proteinDNA recognition, for example, the conserved structure is  the DNA duplex itself while the bases are the nonconserved  element which offer the potential for sequence-specific  interactions with protein.
+Unlike the major groove of DNA,  the interfaces of protein-protein complexes are relatively  flat undulating surfaces with little regular topology (1),  making it difficult to ascertain how a protein might distinguish the appropriate binding partner from numerous alternatives which may be conserved in both sequence and structure.
+  Such discrimination lies at the heart of signal transduction,  hormone-receptor interactions, and the immune system, and  it is this question of discrimination we have been addressing  using bacterial toxin-inhibitor protein complexes from the  colicin family of protein toxins.
+  Colicins are a diverse family of plasmid-encoded protein  toxins synthesized by bacteria at times of nutrient or  environmental stress as a means of reducing competition  from other microbial populations (2, 3).
+We have been  studying the E group colicins which first bind the vitamin  B12 transporter, BtuB, in combination with the porin OmpF  (4, 5) and then translocate across the outer membrane with  the aid of the periplasmic proteins Tol Q, R, A, and B (6).
+  Several cytotoxic activities have been ascribed to colicins,  the most common being pore-forming ionophores that  depolarize the cell by forming voltage-gated channels in the  inner membrane (7).
+E colicins can also traverse the inner  membrane and kill the cell through nuclease activity,  targetted toward either 16S ribosomal RNA (ColE3; 8, 9)  or the DNA of the bacterial chromosome (ColE2,1 ColE7,  ColE8, and ColE9; 10-13).
+It is on this latter group that  our work has been focused.
+   This work was supported by The Wellcome Trust and by the  Biotechnology & Biological Sciences Research Council. W.L. is  supported by a UEA Research Based Studentship and an Overseas  Research Students Award.
+  * Corresponding author: School of Biological Sciences, University  of East Anglia, Norwich NR4 7TJ, U.K. Telephone: 44-1603-593221.  Fax: 44-1603-592250. E-mail: c.kleanthous@uea.ac.uk.
+   School of Biological Sciences.   Present address: Centre for Protein Engineering, MRC Centre, Hills  Road, Cambridge CB2 2QH, U.K. | School of Chemical Sciences.  1 Abbreviations: ColE9, colicin E9; ColE2, colicin E2; E9 DNase,  isolated 15 kDa endonuclease domain of ColE9; Im2, immunity protein  specific for ColE2; Im9, immunity protein specific for ColE9; kon,  association rate constant; koff, dissociation rate constant; Kd, equilibrium  dissociation constant.
+  Biochemistry 1998, 37, 11771-11779 11771  S0006-2960(98)00862-9 CCC: $15.00  1998 American Chemical Society  Published on Web 08/07/1998Colicin-producing bacteria are immune to the action of  their toxin because the cells also synthesize an immunity  protein (10 kDa) which binds to the cytotoxic domain and  neutralizes its activity (14, 15).
+In the case of the enzymatic  colicins (60 kDa), this complex is then released into the  surrounding medium and it is as a complex that cell killing  begins.
+An attractive feature of this system in terms of  studying specificity in protein-protein interactions is that  within the E group of colicins are four endonuclease-type  toxins each requiring a specific immunity protein (Im2, Im7,  Im8, and Im9).
+The 15 kDa endonuclease domains of the  toxins (which can be overexpressed and purified separately;  16) are 65% identical in sequence, while the immunity  protein family shares an overall sequence identity of 50%.
+  Since immunity proteins are inhibitors of both toxin and  endonuclease activity, in vivo and in vitro assays of  specificity are possible.
+Using such a combined approach,  we have shown that immunity proteins exhibit both high  affinity (17) and specificity (18) for their cognate colicins.
+  The affinity of the colicin E9-Im9 complex, for example,  is 0.1 fM in buffers with low ionic strengths, increasing to  18 fM in 200 mM salt.
+Nevertheless, other immunity  proteins can provide protection for colicin E9 in biological  plate assays, most often when overexpressed in bacterial  cells, and the strength of this cross-reactivity is related  directly to the in vitro binding affinity for that complex which  can have values between nanomolar and millimolar (18).
+  Therefore, the endonuclease colicins represent a unique  system with which to address questions of specificity in  protein-protein recognition since the affinities of these  complexes span a range of almost 12 orders of magnitude.
+  Structural information in combination with protein engineering experiments is beginning to shed light on the  molecular mechanism of immunity protein specificity.
+Diffracting crystals of the E9 DNase-Im9 complex have been  obtained (19), and the crystal structure of Im7 and solution  structure of Im9 have been published (20, 21).
+Both  immunity protein studies show the overall fold to be that of  a distorted four-helix bundle (Figure 1), and subsequent highfield NMR data on Im9 binding to the 15 kDa E9 DNase  identified helices II and III as the putative DNase binding  surface (22).
+This was confirmed by alanine scanning  mutagenesis across the two helices of Im9 which also  quantitated their relative contribution to the binding energy  (23).
+The highly conserved residues of helix III are the major  determinants of complex stability, while the variable residues  of helix II play a significant but lesser role.
+This was an  intriguing observation since previous homologue scanning  experiments had shown that helix II was almost entirely  responsible for the colicin specificity of immunity proteins  (24).
+We formulated a model based on these data to explain  specificity in colicin-immunity protein interactions which  we have called dual recognition (23, 25).
+In this mechanism,  the conserved elements of the colicin binding surface of an  immunity protein act as the focus of the binding site while  the variable specificity residues make both favorable and  unfavorable interactions, the balance of which defines the  specificity of the protein-protein interaction.
+  In this work, we set out to test the dual recognition  model: first, by identifying individual residues in helix II  which govern the specificity differences of Im2 and Im9 for  the E9 DNase and, second, by investigating the contribution  to the DNase binding energy of conserved and variable  residues in the noncognate immunity protein Im2 and  comparing these to those previously published for the cognate  interaction of Im9.
+Our data fully support the dual recognition model and suggest that such a mechanism may underpin  specificity in protein-protein recognition in other biological  contexts.
+  MATERIALS AND METHODS  Materials, Bacterial Strains, and Plasmids.
+All chemicals  and reagents were analytical grade, and were purchased from  either Sigma or BDH.
+Restriction enzymes were purchased  from Boehringer Mannheim.
+Colicin-sensitive Escherichia  coli strain, JM83 hsdR, a restriction-deficient derivative of  JM83 (Ara+, Lac+, Pro, Thi, rpsL, 80lacZM15), was  used as the host strain.
+The expression vector pTrc99A was  purchased from Pharmacia Biotech, and pCD01, with the  imm2 gene inserted between NcoI and HindIII sites of the  vector, was used as the template for the site-directed  mutagenesis.
+  PCR-Mediated Site-Directed Mutagenesis and Biological  Plate Assays.
+Mutants were engineered as described by Li  et al. (24).
+JM83 cells expressing wild-type and mutant  immunity proteins were tested for ColE2 or ColE9 in vivo  specificity using a biological plate assay as described  previously (24).
+The concentrations of the ColE2 and ColE9  toxins were determined by Bradford assay.
+  Protein Purifications and Protein Determinations.
+Each  mutant protein was purified from 1 L of JM83 cells  containing the appropriate construct after induction for 6 h  with 1 mM IPTG, as described previously for Im9 (15).
+Two  FIGURE 1: Residues targetted for mutagenesis.
+(a) The solution  structure of Im9 (21) showing 12-residue side chains from helix II  (residues 30-44) and helix III (residues 50-56), 10 of which form  the main stabilizing interactions with the E9 DNase (23) as well  as two other residues (Thr38 and Glu42) implicated in specificity.
+  Although the structure of Im9 is shown, this study has focused on  mutating these sites in the Im2 protein, for which a structure has  yet to be determined but is likely to be very similar.
+Residues in  helix III are identical between the two proteins.
+(b) Sequence  alignment of helix II residues in Im9 and Im2.
+Potential specificitydetermining residues (underlined) in Im2 were mutated to their  corresponding counterparts in Im9.
+  11772 Biochemistry, Vol. 37, No. 34, 1998 Li et al.modifications were introduced.
+First, instead of using DNase  and RNase treatment, sonication was used to break the cells  to avoid DNase contamination.
+Second, after the final gel  filtration column was used, the pooled fractions were  dialyzed against dH2O, lyophilized, and stored as a dried  power at -20 C.
+The E9 DNase was purified as described  by Garinot-Schneider et al. (26).
+Protein concentrations were  determined using a molar absorption coefficient of 17 550  M-1 cm-1 for E9 DNase and 11 400 M-1 cm-1 for Im9, Im2,  and the Im2 mutant proteins.
+  Electrospray Ionization Mass Spectrometry.
+The masses  of all mutant proteins were verified by electrospray mass  spectrometry as described by Li et al. (24).
+  E9 DNase-Immunity Protein Dissociation Constants.
+The  kinetic mechanism for complex formation between the E9  DNase and immunity proteins has recently been re-evaluated  on the basis of high-field NMR data (27).
+The mechanism  is shown in eq 1  where N is the nuclease and I is the immunity protein.
+The  E9 DNase exists in two distinct conformations which  interconvert slowly in solution and which are present at  approximately equimolar amounts.
+Only one of these binds  the immunity protein.
+The equilibrium Kd for complex  formation can be calculated from the ratio of the individual  dissociation (koff) and association (kon) rate constants, as has  been previously reported by Wallis et al. (17, 18).
+All  experiments were conducted in 50 mM Mops buffer (pH 7.0)  containing 200 mM NaCl and 1 mM dithiothreitol at 25 C.
+  Association of immunity proteins was monitored by stoppedflow fluorescence under pseudo-first-order conditions and  the bimolecular rate constant obtained from linear replots  of the rate of initial fluorescence enhancement versus the  immunity protein concentration.
+Dissociation kinetics for  E9 DNase-Im2 complexes were obtained either from  radioactive subunit exchange (in which complexes were  chased with [3  H]Im9) for slow dissociation rate constants  (<10-3 s-1) or from fluorescence chase stopped flow (in  which complexes were chased with an excess of Im9) for  fast dissociation rate constants (>10-3 s-1  ).
+  Differences in binding energy for Im2 mutants and wildtype Im2 binding to the E9 DNase were determined according to eq 2  where R is the gas constant and T is the absolute temperature.
+  RESULTS  Identification of Immunity Protein Residues That GoVern  Colicin E9 Specificity.
+Previously, we identified helix II as  the main determinant of colicin specificity in the immunity  protein family by constructing a chimera in which helix II  of Im9 was engineered into the Im2 framework.
+The  resulting mutant exhibited complete Im9-like biological  cross-reactivity when E. coli cells containing this construct  were challenged with ColE9 (24).
+The purified chimeric  protein was also analyzed for its ability to bind the E9 DNase  domain in vitro, from which we found that the helix  accounted for a 5 order of magnitude increase in binding  affinity out of a total of 6 orders of magnitude difference  between Im2 and Im9.
+Further chimeric constructs showed  that the remaining 10-fold difference in binding affinity was  due to internal packing interactions between helix II and helix  I of the immunity protein.
+  FIGURE 2: Biological phenotypes of Im2 specificity mutants.
+Agar plates (22 cm  22 cm) were divided equally into eight lanes, and each  lane was overlaid with E. coli JM83 cells haboring a different immunity protein construct or the vector.
+A serial 5-fold dilution from 3  mg/mL to 1.6 ng/mL, going from left to right, of either ColE2 (top of each lane) or ColE9 (bottom of each lane) was dropped onto each  lawn of cells which had been grown either in the presence or in the absence of IPTG.
+The uppermost lane is the vector control and shows  the cells to be sensitive to the action of both toxins.
+The absence of zones of killing indicates biological cross-reactivity with respect to the  toxin by an immunity protein.
+The amino acid numbering corresponds to that in Figure 1 but refers to mutations in helix II of Im2 in which  residues were substituted for those found in equivalent positions in Im9.
+  N* y\z Keq1  N + I y\z  kon  koff  NI (1)  Gbinding ) RT ln(Kd  mutant/Kd  wild-type) (2)  Protein-Protein Interactions in Colicin-Immunity Protein Complexes Biochemistry, Vol. 37, No. 34, 1998 11773Using site-directed mutagenesis in combination with  biological plate assays of colicin immunity and kinetic and  thermodynamic analyses, we set out in this work to identify  the residues in helix II which are primarily responsible for  the colicin specificity differences of Im2 and Im9.
+Helix II  of Im9 contains 15 amino acids, eight of which are identical  in Im2 and Im9 (Figure 1b).
+Of the seven remaining amino  acid residues, two are similar (Glu and Asp, and Met and  Leu) and five are different.
+Our mutagenesis experiments  focused on the five variable residues, at positions 33, 34,  38, 39, and 42.
+A variety of single and multiple mutant  constructs were engineered and their in vivo colicin crossreactivities determined as described in Materials and Methods.
+A selection of biological plate assay results are  presented in Figure 2.
+The ColE2 and ColE9 biological  cross-reactivities of wild-type Im2- and Im9-containing E.  coli cells were compared to those of a vector control and  mutant proteins on the same agar plate under inducing (with  IPTG) and noninducing (without IPTG) conditions.
+Earlier  work in these systems (18, 24) had shown that the two  distinct induction regimes can detect a wide spectrum of  biological cross-reactivities; in the absence of induction, only  highly specific immunity proteins exhibit biological protection (due to leakiness in the repression of transcription in  the vector system), whereas weak biological protection can  be observed under inducing conditions where up to 40% of  the cell protein is expressed immunity protein.
+As shown  in Figure 2, the two parent immunity proteins Im2 and Im9  are both completely resistant to the action of their cognate  toxin under both sets of conditions, since no zones of clearing  (indicating cell death) are apparent, but are sensitive to the  noncognate toxin in each case.
+As reported previously, Im2  shows partial cross-reactivity toward ColE9 under inducing  conditions, a consequence of the nanomolar Kd exhibited by  this protein for the E9 DNase (18).
+  Each of the five variable amino acids in helix II of Im2  was mutated singly to the amino acid found in Im9 and the  mutant proteins assayed for biological activity toward ColE9  and ColE2.
+Only three mutants showed significant changes  in specificity using this in vivo assay (Im2 D33L, Im2 N34V,  and Im2 R38T) (Figure 2), while the remaining two mutants  (Im2 E39H and Im2 R42E) displayed wild-type Im2  phenotypes (data not shown).
+Position 34 has already been  identified by Wallis et al. (28) as a specificity determining  residue, but in the context of Im9 to Im8 specificity.
+Im2  D33L had the most profound effect of all the mutants.
+This  mutant behaved like Im9, displaying ColE9 but not ColE2  protection in the absence of IPTG, but unlike Im9 was still  resistant to ColE2 when it was induced with IPTG.
+The  mutations at positions 34 and 38 had less of an effect on  specificity and displayed similar phenotypes; they were  completely resistant to the action of both toxins when the  bacterial cells were induced with IPTG but were essentially  Im2-like in the absence of induction.
+When residues 34 and  38 were combined in a double mutant, however, they  displayed significant biological cross-reactivity toward ColE9  in the absence of IPTG but were still resistant to the parent  toxin, ColE2.
+It was only when all three mutants were  combined (Im2 D33L/N34V/R38T) that the resulting immunity protein behaves exactly like Im9 on the biological  plate assays under both inducing and noninducing conditions  (Figure 2, bottom lane).
+Hence, the biological specificity  differences of Im2 and Im9 for the ColE9 toxin are governed  by just three residues of helix II, at positions 33, 34, and 38,  with one (residue 33) playing the dominant role.
+  Kinetic Analysis of Im2 Specificity Mutants.
+Mutants were  purified and characterized as reported previously (24) and  summarized in Materials and Methods.
+The affinity of the  mutant Im2 protein for the E9 DNase was obtained by  determining the individual association and dissociation rate  constants from which the equilibrium Kd could be calculated.
+  Using this approach, Kds ranging from 10-5 to 10-14 M can  be obtained (24).
+  Immunity protein-E9 DNase association rate constants  (kon) were determined by stopped-flow fluorescence, as  described previously (17, 18, 23, 24).
+The association rate  constant for Im9 under conditions of low ionic strength is  essentially diffusion-controlled (kon ) 4  109 M-1 s-1  ) and  shows a strong dependence on the salt concentration,  decreasing to 9  107 M-1 s-1 in the presence of 200 mM  salt, implying that electrostatic interactions play a major role  in pre-aligning the immunity protein and the E9 DNase prior  to collision (17).
+Consistent with this interpretation, the  NMR structure of Im9 shows that the region of the protein  predicted to make up the DNase binding site is negatively  charged (22).
+Another important aspect of stopped-flow  fluorescence-based, immunity protein-E9 DNase association  measurements is the fact that they display biphasic kinetics.
+  Table 1: Kinetic and Thermodynamic Parameters for Im2 Specificity Mutants Binding the E9 DNasea  protein  kon x 10-7  (M-1 s-1  )b koff (s-1)c Kd (M)d  G  
+(kcal/mol)e  Im2 5.0 ((0.3) 0.73 ((0.01) 1.5 ((0.1)  10-8  Im9 10.6 ((0.3) 1.9 ((0.3)  10-6 1.8 ((0.3)  10-14 -8.1 ((0.1)  Im2 D33L 7.9 ((0.3) 3.8 ((0.1)  10-3 4.8 ((0.3)  10-11 -3.4 ((0.04)  Im2 N34V 5.1 ((0.8) 0.16 ((0.01) 3.3 ((0.7)  10-9 -0.9 ((0.1)  Im2 R38T 11.0 ((0.2) 0.29 ((0.05) 2.6 ((0.5)  10-9 -1.0 ((0.1)  Im2 E39H 5.6 ((0.3) 0.88 ((0.01) 1.6 ((0.1)  10-8 0.0 ((0.04)  Im2 R42E 6.3 ((0.2) 0.50 ((0.02) 8.0 ((0.6)  10-9 -0.4 ((0.1)  Im2 N34V/R38T 9.8 ((1.6) 1.8 ((0.1)  10-2 1.9 ((0.4)  10-10 -2.6 ((0.1)  Im2 D33L/N34V/R38T 11.5 ((0.8) 3.7 ((1.3)  10-5 3.4 ((1.4)  10-13 -6.4 ((0.3)  Im2 N34V/R38T/R42E 18.3 ((0.5) 1.2 ((0.1)  10-2 6.4 ((0.3)  10-11 -3.2 ((0.03)  Im2 N34V/R38T/E39H/R42E 14.5 ((2.0) 1.3 ((0.1)  10-2 9.5 ((1.5)  10-11 -3.0 ((0.1)  a All experiments were conducted in 50 mM Mops buffer (pH 7.0) containing 200 mM NaCl and 1 mM dithiothreitol at 25 C.
+Standard errors  from duplicate observations are shown in parentheses.
+b Immunity protein-E9 DNase association rate constants determined by stopped-flow  fluorescence.
+c Immunity protein-E9 DNase dissociation rate constants determined by either radioactive or stopped-flow exchange kinetics.
+d Immunity  protein-E9 DNase equilibrium dissociation constants calculated from the ratio of the dissociation and association rate constants.
+e G calculated  with respect to wild-type Im2 binding the E9 DNase domain.
+  11774 Biochemistry, Vol. 37, No. 34, 1998 Li et al.An initial enhancement in the intrinsic tryptophan fluorescence, corresponding to the bimolecular collision, is followed  by a first-order quench, thought to represent a conformational  change in the DNase (17).
+Until recently, this conformational change was presumed to be after immunity binding;  however, NMR data have now shown that free E9 DNase  exists in two conformational states which interconvert slowly  in solution (and are present at approximately equimolar  amounts), and Im9 binds to one of these (27; see Materials  and Methods).
+This more recent kinetic scheme is fully in  accordance with the stopped-flow traces; indeed, the rate  constant that is observed for the slow phase (4-5 s-1  ) is  similar to that calculated for the isomerization reaction by  NMR.
+  Association kinetics for nine single and multiple sitedirected mutants were determined by stopped-flow fluorescence in the presence of 200 mM salt.
+In every case, the  first-order fluorescence quench, representing the isomerization in the E9 DNase, fell between 3 and 5 s-1 (data not  shown).
+The bimolecular rate constants for these mutants  are presented in Table 1 alongside both cognate (Im9) and  noncognate (Im2) association rate constants, values for which  were also obtained in this study and found to be very similar  to those previously published (18, 24).
+The association rate  constant of Im9 is 2-fold faster than that of Im2, and it seems  from the five single mutants at each of the variable positions  in helix II that it is the loss of the positive charge at Arg38  which is primarily responsible for this difference (Table 1);  the Im2 R38T mutant has essentially the same rate of  association as Im9.
+Somewhat surprisingly, association rates  greater than that seen for Im9 were obtained when both  arginine mutations (R38T and R42E) were combined in Im2.
+  The dissociation rate constant (koff) for immunity proteinE9 DNase complexes was obtained by one of two routes,  depending on the magnitude of the rate constant.
+For slow  dissociation rate constants (<10-3 s-1  ), a radioactive exchange experiment was employed (17), whereas for fast  dissociation rate constants (>10-3 s-1  ), a stopped-flow  exchange experiment was used (18).
+Stopped-flow-derived  koff data for three single and one double mutant are presented  in Figure 3.
+Im2 dissociates from its complex with the E9  DNase with a rate constant of 0.73 s-1  , consistent with our  previous estimate of 0.83 s-1 (18).
+koff decreases for Im2  N34V and Im2 R38T by 4.5- and 2.5-fold, respectively, and  this is readily observed from the slower stopped-flow  displacement curves for these mutants in complex with the  E9 DNase (Figure 3a).
+The double mutant of Im2 N34V/  R38T, however, dissociates significantly slower than either  mutant alone, showing a 40-fold reduction in koff relative to  that of Im2.
+Interestingly, when mutations at positions 39  and 42 are combined with this double mutant, there is no  further decrease in koff (Table 1), showing that these residues  have little influence on DNase binding.
+  The value for the dissociation rate constant for the Im2  D33L mutant was sufficiently slow to be determined by  radioactive exchange kinetics but fast enough to be estimated  by stopped-flow kinetics.
+Since the two methods overlapped  with this mutant and to eliminate the possibility of systematic  error with any one technique, we used both to obtain koff.
+  koff by stopped flow was (3.8 ( 0.1)  10-3 s-1 (inset of  Figure 3b and Table 1), while koff by radioactive exchange  was (6.0 ( 2.3)  10-3 s-1 (data not shown), demonstrating  that there is reasonable agreement between the two methods  and hence no systematic error.
+koff for this single-site mutant  is >190-fold slower than that for wild-type Im2.
+When this  mutation is combined with the Im2 N34V and Im2 R38T  mutations, koff decreases by more than 4 orders of magnitude  (Figure 3b) to 3.7  10-5 s-1  .
+The calculated equilibrium  Kd values for the mutants (Table 1) indicate that the affinity  of these protein-protein complexes is dominated by changes  in the dissociation rate constant, consistent with previous  work on colicin-immunity protein complexes (18, 23).
+The  most significant effect on Kd is seen in the Im2 D33L/N34V/  R38T triple mutant which binds to the E9 DNase approximately 5 orders of magnitude tighter than wild-type  Im2, close to that of Im9.
+Hence, three residues account  for the major differences in affinity shown by Im2 and Im9  for the E9 DNase, and half of this is associated with a single  mutation, Im2 D33L.
+  FIGURE 3: Dissociation rate constants for Im2 specificity mutants  determined by exchange kinetics.
+(a) koff determinations for Im2  specificity mutants at positions 34 and 38.
+Dissociation rate  constants were obtained by stopped-flow tryptophan fluorescence.
+  Conditions were as described in the footnote of Table 1 and  Materials and Methods.
+The experiments are possible because the  final fluorescence of the E9 DNase-Im2 complex is lower than  that of the Im9 complex.
+Wild-type and mutant Im2 proteins in  complex with the E9 DNase were chased with an excess of Im9  [see Wallis et al. (18) for further details] and the resulting traces  fitted to a single-exponential rate equation, and these have been  superimposed on the data.
+In each case, the residuals to the fits  were random and below 5% of the overall change in fluorescence  (data not shown).
+(b) koff determinations for mutants incorporating  position 33.
+The dissociation rate constant for Im2 D33L (inset)  was determined as described above, and the residuals to the singleexponential fit are shown below the fluorescence trace.
+koff for the  triple mutant Im2 D33L/N34V/R38T was determined by radioactive  exchange kinetics (main figure) as described in Materials and  Methods and by Wallis et al. (17).
+The data are presented as the  percentage of the total exchange and have been fitted to a singleexponential rate equation.
+  Protein-Protein Interactions in Colicin-Immunity Protein Complexes Biochemistry, Vol. 37, No. 34, 1998 11775Alanine Mutagenesis of E9 DNase Binding Residues in  Im2.
+In our original alanine scan of Im9, more than 30  residues were mutated to alanine (23).
+Ten residues from  helices II and III dominated E9 DNase binding and when  mapped onto the surface of the unbound structure of Im9  were found to cluster together (Figure 1a), while the  remaining residues, many of which either did not affect E9  DNase binding or only had small effects, flanked these  important binding residues.
+The five conserved residues  from helix III form a hot spot (29) accounting for about  two-thirds of the binding energy.
+The other five residues  from helix II lie next to this region and, while only  contributing about one-third of the binding energy, define  the specificity of the protein-protein interaction.
+Having  identified the specificity-determining residues in Im2 and  recognizing the importance of conserved residues in binding  the E9 DNase, we mutated these residues in Im2 to alanine  to test their importance to binding energy in a noncognate  background.
+  The 10 residues from helices II and III were mutated singly  to alanine along with Arg38 and Arg42 from helix II because  they appear to play roles, albeit minor, in Im2 specificity.
+  Thus, a total of 12 residues from Im2 were mutated to alanine  (identified in Figure 1a), eight of which are conserved  between Im2 and Im9 (including two residues in helix II)  and four of which are variable residues.
+The mutants were  overexpressed and the proteins purified, and their affinity  for the E9 DNase was quantitated as described above.
+The  Kd values for all 12 alanine mutants and the G values  for binding the E9 DNase are presented in Table 2.
+Binding  could be detected for nine out of the 12 Im2 alanine mutants.
+  Interestingly, the three Im2 mutants for which no E9 DNase  binding was observed were those at conserved residues  Asp51, Tyr54, and Tyr55, which contribute the bulk of the  E9 DNase binding energy in the cognate immunity protein  Im9 (24).
+These mutants could be produced in high yield  and were not destabilized with respect to wild-type Im2 (data  not shown).
+Even in biological plate assays, these mutants  failed to show biological cross-reactivity against colicin E9,  a situation which is reached when immunity proteins bind  colicin toxins with a Kd of e10-4 M (18).
+Hence, a  conservative estimate for the Kds of these mutants is 10-4  M.  To readily compare the effects on E9 DNase binding  energy of substituting conserved and variable residues for  alanine in both Im2 and Im9, Gs for equivalent mutation  sites in the two proteins are presented together in Figure 4.
+  This is a particularly informative way to view the data since  it compares the effects of mutating conserved residues in  the two proteins (red in Figure 4) with the effects of mutating  nonconserved residues (blue in Figure 4).
+It is evident that  alanine mutants at conserved sites in both cognate (Im9) and  noncognate (Im2) protein backgrounds lie on the positive  side of the x-axis of the graph.
+Hence, in every case, these  immunity protein mutations significantly affect E9 DNase  binding (perturbing binding by 1-6 kcal/mol).
+In contrast,  mutations at each of the variable (specificity-determining)  residues lie on the negative side of the x-axis of the graph.
+  This indicates that these residues either do not contribute to  binding energy in the noncognate Im2 background or, as in  the case of Im2 Arg38, act as a destabilizing interaction  which when removed results in tighter binding of the E9  DNase.
+  Table 2: Kinetic and Thermodynamic Parameters for Im2 Alanine  Mutants Binding the E9 DNasea  protein  kon x 10-7  (M-1 s-1  ) koff (s-1  ) Kd (M)  G  (kcal/mol)  Im2 5.0 ((0.3) 0.73 ((0.01) 1.5 ((0.1)  10-8  E30A 3.3 ((1.3) 7.1 ((1.6) 2.8 ((1.6)  10-7 1.6 ((0.4)  D33A 5.0 ((0.1) 0.61 ((0.06) 1.2 ((0.1)  10-8 -0.1 ((0.05)  N34A 8.9 ((0.1) 0.70 ((0.02) 7.9 ((0.3)  10-9 -0.4 ((0.02)  V37A 1.1 ((0.5) 81 ((1) 9.3 ((4.4)  10-6 3.7 ((0.3)  R38A 10.2 ((0.6) 0.24 ((0.02) 2.3 ((0.4)  10-9 -1.1 ((0.1)  E41A 0.4 ((0.01) 120 ((0) 3.0 ((0.1)  10-5 4.5 ((0.02)  R42A 6.0 ((1.2) 0.59 ((0.01) 1.0 ((0.2)  10-8 -0.3 ((0.1)  S50A 3.9 ((0.6) 34 ((2) 9.0 ((2.0)  10-7 2.4 ((0.1)  D51A ndb nd g10-4 c g5.8  Y54A nd nd g10-4 g5.8  Y55A nd nd g10-4 g5.8  P56A 1.3 ((0.2) 26 ((5) 2.1 ((0.7)  10-6 2.9 ((0.2)  a Experiments were conducted essentially as described in the legend  of Figure 1 and in Materials and Methods. Standard errors from  duplicate observations are shown in parentheses.
+b nd, not determined.
+c Alanine mutations at these positions significantly destabilize the  colicin-immunity protein complex beyond that which we can measure  using stopped-flow and exchange techniques (Kd  10-5 M).
+The Kd  values for these mutants were estimated from biological plate assays  in which the mutant Im2 proteins were challenged with ColE9 toxin.
+  Unlike wild-type Im2, they fail to show any biological cross-reactivity,  a situation reached by immunity proteins whose affinity for the colicin  falls below 10-4 M (18; K.-Y. Leung and W. Li, unpublished results).
+  FIGURE 4: Comparative alanine scan of E9 DNase binding residues  in Im2 and Im9.
+The figure shows Gbinding data for Im9 alanine  mutants [taken from Wallis et al. (23)] plotted against Gbinding  data for the equivalent alanine mutants in Im2 (data obtained in  this study and listed in Table 2).
+Both sets of data were collected  under identical conditions (see the footnote of Table 1).
+The inset  shows a space-filling model of Im9 with residues colored according  to the following scheme: red, mutated residues conserved in both  proteins; blue, mutated residues not conserved; and yellow, residues  not mutated.
+The data points on the graph are also colored according  to this scheme.
+The identities of the blue residues in the two  immunity proteins are as follows: Im9, Leu33, Val34, Thr38, and  Glu42; and Im2, Asp33, Asn34, Arg38, and Arg42.
+Data points  on the positive side of the x-axis identify mutations which perturb  DNase binding in both proteins, while data points on the negative  side of the x-axis identify mutations which only affect Im9 binding  and either do not affect Im2 binding or enhance its binding to the  E9 DNase.
+  11776 Biochemistry, Vol. 37, No. 34, 1998 Li et al.DISCUSSION  Hierarchical Arrangement of Immunity Protein Specificity  Determinants.
+Using both in vivo biological assays and in  vitro binding affinities, we have demonstrated that the  specificity differences of immunity proteins for a single  colicin endonuclease are governed by only three residues at  positions 33, 34, and 38 in helix II.
+Their contributions to  specificity are not however equivalent.
+In both the in vivo  (Figure 2) and in vitro (Figure 3 and Table 1) experiments,  the relative importance of these residues is 33 > 34  38.
+  Substituting Asp33 of Im2 for leucine essentially switches  the specificity of the protein from colicin E2 to colicin E9,  the result of an increase in the binding affinity for the  noncognate toxin of more than 250-fold.
+This mutant still  however retains some ColE2 cross-reactivity but only when  the cells are induced with IPTG, indicating that the affinity  for its cognate toxin has decreased significantly (but this has  yet to be analyzed in vitro).
+By contrast, the asparagine for  valine and arginine for threonine substitutions at positions  34 and 38, respectively, only increase the affinity for the E9  DNase by 6- and 7-fold in each case, and these substitutions  have small effects on biological cross-reactivity (Figure 2  and Table 1).
+The sum of the individual contributions of  the three mutations to the E9 DNase binding energy is 5.3  kcal/mol, but when all three mutations are introduced into  the same protein, the increase in the binding energy is 6.4  kcal/mol, which matches that obtained when the whole helix  II from Im9 is inserted into the Im2 framework (24).
+Hence,  these mutations show nonadditivity in binding energy (30),  presumably because of their close proximity in helix II.
+  While it is as yet unclear why position 33 is so important  for specificity compared to the other residues in helix II, it  seems reasonable to assume that it is due to its close  association with the conserved residue Tyr54 which is critical  for DNase binding.
+This highlights the interplay of conserved and nonconserved residues in defining specificity in  this family of proteins.
+Furthermore, the fact that such  dramatic specificity changes can be induced by a single  substitution of a charged residue for a hydrophobic group  also shows the importance of both types of interactions in  protein-protein interaction specificity.
+  Comparison of the E9 DNase Binding Energetics of Im9  and Im2.
+Two important considerations stem from the dual  recognition model.
+First, conserved residues are the major  determinants of complex stability in all colicin-immunity  protein complexes, and second, variable residues control  specificity (and hence the final binding affinity) through a  combination of favorable and unfavorable interactions.
+In  the case of a cognate complex, where there are few  unfavorable interactions, the maximal binding energy is  obtained because the specificity sites dock into appropriate  binding sites on the DNase.
+In noncognate complexes,  however, while some binding energy is derived from  conserved residues, specificity-determining residues do not  contribute significantly to binding and might act as destabilizing entities within the complex, thus explaining the very  much weaker affinities for these complexes.
+  The alanine scan of conserved and variable residues of  the noncognate immunity protein Im2 provides strong support  for the dual recognition model of protein-protein interaction  specificity in this family of proteins.
+The conserved residues  are clearly the focus of the binding interaction as they are  with the cognate immunity protein Im9, and the relative  importance of these interactions is also similar, although not  identical (Table 2 and Figure 4).
+Importantly, however, the  four specificity residues in Im2 do not contribute to the E9  DNase binding energy (particularly the critical specificity  site, Asp33) and even destabilize the complex by 1.5 kcal/  mol (N34A and R38A mutations).
+We can conclude  therefore that the specificity differences between Im9 and  Im2 for the E9 DNase involve the cooperation of conserved  and variable residues, as predicted by the model.
+The  conserved residues of Im2 provide the bulk of the binding  energy, but this is insufficient to match the tight binding of  Im9 because of two effects: (1) the additional binding energy  that is achieved in the Im9 protein by having the appropriate  residues at key specificity sites (predominantly residue 33  but including residues 34 and 38) and (2) the destabilization  energy which comes from having inappropriate specificity  residues in Im2 buried within the complex (particularly  Arg38; Figure 4).
+  Dual Recognition and Specificity Mechanisms in Other  Protein-Protein Interaction Systems.
+Specificity in proteinprotein recognition has been investigated in a number of  different biological contexts, such as antibody-antigen  interactions (31), hematopoietic receptor complexes (32, and  references therein), proteinase-inhibitor complexes (33), and  RNase-inhibitor complexes (34).
+These studies revolved  around crystal structures of the complexes coupled to a  detailed breakdown of the energetics of the surfaces involved.
+  It is of interest then to begin comparing such systems with  colicin-immunity protein interactions.
+  Analysis of interprotein complexes (1, 35) reveals that they  involve large surfaces of each partner (generally encompassing >650 2) becoming buried in the complex.
+Alanine  scanning mutagenesis data on growth hormone binding to  its receptor (29, 36) and RNase inhibitor binding to RNase  (34) have shown that even though up to 30 amino acid side  chains of each protein may become buried at such interfaces  only a fraction of these constitute energetically important  interactions, and these tend to cluster together.
+However,  this is not a universal phenomenon; for example, DallAcqua  et al. (37) using an anti-hen egg white lysozyme antibody  system have shown that in some cases the distribution of  binding energies is not focused on a select few residues but  rather is distributed throughout the binding epitope.
+Since  the crystal structure of the E9 DNase-Im9 complex is not  known, we cannot be certain of the extent of binding of the  epitope on Im9, but the tightness of the complex (similar to  that of the RNase-inhibitor systems) suggests that a  significant amount of surface on Im9 will become buried in  the complex.
+NMR amide perturbation analysis is consistent  with this interpretation since it identified up to 26 residues  in Im9 which might become buried on complex formation  (22).
+The subsequent alanine scan of these and other residues  indicated that only a fraction of those perturbed in the NMR  experiments were energetically meaningful in complex  stabilization (23).
+It seems likely then that this is an example  of a complex for which the binding energetics are dominated  by just a few residues.
+  Do these similarities between growth hormone binding to  its receptor and RNase inhibitor binding to RNase with the  Protein-Protein Interactions in Colicin-Immunity Protein Complexes Biochemistry, Vol.
+37, No. 34, 1998 11777E9 DNase-Im9 complex extend to how specificity is  encoded in these systems? Even with the present data, which  only reflect one-half of the binding partnership, this seems  unlikely to be the case.
+In each of the growth hormone and  RNase systems, overlapping but nonidentical binding epitopes  are employed to achieve specificity, with distinct hot spots  of binding energy stabilizing a particular complex (34, 38).
+  Comparing the distribution of DNase binding energies for  Im9 with Im2 (albeit on a limited number of residues) shows  that they seem to have similar hot spots of binding energy  since they are focused around the same conserved residues,  but this is insufficient for tight binding (Figure 4).
+To  achieve cognate binding (Kd < 10-14 M), additional binding  energy is needed which is supplied by the specificitydetermining residues, primarily residues 33, 34, and 38 in  helix II.
+  Dual recognition may be a common phenomenon in  complexes involving structurally homologous proteins (25).
+  T cell receptor interactions with self-peptide-bound major  histocompatibility complex, for example, have been described  as displaying dual specificity (39).
+This term was coined  to emphasize the dual nature of the T cell receptor combining  site which can recognize both the conserved helical jaws of  the MHC molecule and the variable residues from the  displayed peptide.
+The detailed energetics of these complexes have yet to be dissected, so it will be of interest to  see whether they are comparable to those of colicinimmunity protein complexes.
+Other protein complexes  which also seem to show dual recognition are signaling  complexes involving SH2 and SH3 domains.
+These conserved domains recognize distinct peptide motifs, but specificity is mediated through neighboring variable residues (40).
+  In conclusion, dual recognition as a mechanism for  defining protein-protein interaction specificity may be more  widespread in biology than hitherto recognized.
+The basis  for this mechanism is the close cooperation between conserved and variable residues at the interfacial regions of  protein complexes, and this can result in a wide range of  thermodynamic stabilities for the resulting complexes (18,  23, 25).
+As we have shown for colicin-immunity protein  interactions, selectivity can be engendered through a few  select residues which modulate the binding interactions from  the conserved protein scaffold.
+In this way, the specificity  of the protein-protein interaction can be fine-tuned without  making significant changes to the character of the combining  sites.
+  ACKNOWLEDGMENT  We thank Ann Reilly and Christine Moore for excellent  technical assistance, the members of C. Kleanthouss lab for  help and advice during the course of this work, Ruth Boetzel  for Figure 1, and Russell Wallis for comments on the  manuscript.
+  REFERENCES  1.
+Jones, S., and Thornton, J. M. (1996) Proc.
+Natl. Acad. Sci.  U.S.A. 93, 13-20.  2. James, R., Lazdunski, C., and Pattus, F., Eds. (1992) Bacteriocins, microcins and lantibiotics, NATO ASI Series H,  Springer, Heidelberg, Germany.  3. James, R., Kleanthous, C., and Moore, G. R. (1996) Microbiology 142, 1569-1580.  4. Di Masi, D. R., White, D. C., Schnaitman, C. A., and Bradbeer,  C. (1973) J. Bacteriol.
+115, 506-513.
+  5. Benedetti, H., Frenette, M., Baty, D., Lloube`s, R., Geli, V.,  and Lazdunski, C. (1989) J. Gen. Microbiol. 135, 3413-3420.  6.
+Webster, R. E. (1991) Mol. Microbiol. 5, 1005-1011.  7. Lazdunski, C. (1995) Mol. Microbiol. 16, 1059-1066.  8.
+Bowman, C. M., Dahlerg, J. E., Ikemura, T., Konisky, J., and  Nomura, M. (1971) Proc. Natl. Acad. Sci. U.S.A. 68, 964-  968.
+  9. Senior, B., and Holland, I. B. (1971) Proc.
+Natl. Acad. Sci.  U.S.A. 68, 959-963.  10.
+Schaller, K., and Nomura, M. (1976) Proc. Natl. Acad. Sci.  U.S.A. 73, 3989-3993.
+  11. Toba, M., Masaki, H., and Ohta, T. (1988) J. Bacteriol. 170,  3237-3242.  12.
+Eaton, T., and James, R. (1989) Nucleic Acid Res. 17, 1761-  1761.
+  13. Chak, K.-F., Kuo, W.-S., Lu, F.-M., and James, R. (1991) J.  Gen. Microbiol. 137, 91-100.  14.
+Jakes, K., and Zinder, N. D. (1974) Proc.
+Natl. Acad. Sci.  U.S.A. 71, 3380-3384.  15. Wallis, R., Reilly, A., Rowe, A., Moore, G. R., James, R.,  and Kleanthous, C. (1992) Eur. J. Biochem.
+207, 687-695.
+  16. Wallis, R., Reilly, A., Barnes, K., Abell, C., Campbell, D. G.,  Moore, G. R., James, R., and Kleanthous, C. (1994) Eur. J.  Biochem.
+220, 447-454.  17. Wallis, R., Moore, G. R., James, R., and Kleanthous, C. (1995)  Biochemistry 34, 13743-13750.
+  18. Wallis, R., Leung, K.-Y., Pommer, A. J., Videler, H., Moore,  G. R., James, R., and Kleanthous, C. (1995) Biochemistry 34,  13751-13759.  19.
+Kuhlmann, U., Kleanthous, C., James, R., Moore, G. R., and  Hemmings, A. M. (1998) Acta Crystallogr., Sect. D (in press).
+  20.
+Chak, K.-F., Safo, M. K., Ku, W.-Y., Hsieh, S.-Y., and Yuan,  H. (1996) Proc.
+Natl. Acad. Sci. U.S.A. 93, 6437-6442.  21.
+Osborne, M. J., Breexe, A. L., Lian, L.-Y., Reilly, A., James,  R., Kleanthous, C., and Moore, G. R. (1996) Biochemistry 35,  9505-9512.
+  22. Osborne, M. J., Wallis, R., Leung, K.-Y., William, G., Lian,  L.-Y., James, R., Kleanthous, C., and Moore, G. R. (1997)  Biochem. J. 323, 823-831.  23.
+Wallis, R., Leung, K.-Y., Osborne, M. J., James, R., Moore,  G. R., and Kleanthous, C. (1998) Biochemistry 37, 476-485.
+  24.
+Li, W., Dennis, C. A., Moore, G. R., James, R., and  Kleanthous, C. (1997) J. Biol. Chem.
+272, 22253-22258.
+  25. Kleanthous, C., Hemmings, A. M., Moore, G. R., and James,  R. (1998) Mol. Microbiol. 28, 227-233.
+  26. Garinot-Schneider, C., Pommer, A. J., Moore, G. R., Kleanthous, C., and James, R. (1996) J. Mol.
+Biol. 260, 731-742.  27. Whittaker, S. B.-M., Boetzel, R., MacDonald, C., Lian, L.-  Y., Pommer, A. J., Reilly, A., James, R., Kleanthous, C., and  Moore, G. R. (1998) J. Biol. NMR (in press).
+  28. Wallis, R., Moore, G. R., Kleanthous, C., and James, R. (1992)  Eur.
+J. Biochem. 210, 923-930.  29.
+Clackson, T., and Wells, J. A. (1995) Science 267, 383-386.  30.
+Wells, J. A. (1990) Biochemistry 29, 8509-8517.  31.
+Davies, D. R., and Cohen, G. H. (1996) Proc.
+Natl. Acad.  Sci. U.S.A. 93, 7-12.  32.
+Wells, J. A., and de Vos, A. M. (1996) Annu. ReV. Biochem.  65, 609-634.
+  33.
+Empie, M. W., and Laskowski, M. (1982) Biochemistry 21,  2274-2284.  34. Chen, C.-Z., and Shapiro, R. (1997) Proc. Natl. Acad. Sci.  U.S.A. 94, 1761-1766.  35.
+Janin, J., and Chothia, C. (1990) J. Biol.
+Chem. 265, 16027-  16030.  36. Cunningham, B. C., and Wells, J. A. (1993) J. Mol.
+Biol. 234,  554-563.  11778 Biochemistry, Vol. 37, No. 34, 1998 Li et al.37. DallAqua, W., Goldman, E. R., Eisenstein, E., and Mariuzza,  R. A. (1996) Biochemistry 35, 9667-9676.  38. Cunningham, B. C., and Wells, J. A. (1991) Proc.
+Natl. Acad.  Sci. U.S.A. 88, 3407-3411.  39.
+Garcia, K. C., Degano, M., Pease, L. R., Huang, M., Peterson,  P. A., Teyton, L., and Wilson, I. A. (1998) Science 279, 1166-  1172.
+  40.
+Pawson, T. (1995) Nature 373, 573-580.
+  BI9808621  Protein-Protein Interactions in Colicin-Immunity Protein Complexes Biochemistry, Vol. 37, No. 34, 1998 11779

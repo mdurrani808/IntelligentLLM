@@ -1,0 +1,945 @@
+Articles
+Analysis of Antibody A6 Binding to the Extracellular Interferon γ Receptor
+R-Chain by Alanine-Scanning Mutagenesis and Random Mutagenesis with Phage
+Display†
+Stefan Lang,‡ Jian Xu,‡ Fiona Stuart,‡ Richard M. Thomas,§ Jan W. Vrijbloed,‡ and John A. Robinson*,‡
+Institute of Organic Chemistry, UniVersity of Zu¨rich, Winterthurerstrasse 190, 8057 Zu¨rich, and
+Department of Polymer Chemistry, ETH-Zurich, Switzerland
+ReceiVed April 13, 2000; ReVised Manuscript ReceiVed August 3, 2000
+ABSTRACT: The monoclonal antibody A6 binds a conformational epitope comprising mainly the CC′ surface
+loop on the N-terminal fibronectin type-III domain of the extracellular interferon γ receptor (IFNγR).
+The crystal structure of an A6 Fab-IFNγR complex revealed an interface rich in the aromatic side chains
+of Trp, Tyr, and His residues. These aromatic side chains appear to interact with both polar and hydrophobic
+groups at the interface, a property which, in general, may be advantageous for ligand binding. To analyze
+these interactions in more detail, the affinities of 19 A6 alanine-scanning mutants for the IFNγR have
+been measured, using engineered A6 single chain variable region fragments, and a surface plasmon
+resonance biosensor. Energetically important side chains (∆Gmutant - ∆Gwt > 2.4 kcal/mol), that form
+distinct hot spots in the binding interface, have been identified on both proteins. These include VLW92
+in A6, whose benzenoid ring appears well situated for a π-cation (or π-amine) interaction with the side
+chain of receptor residue K47 and simultaneously for T-stacking onto the indole ring of W82 in the
+receptor. At another site, energetically important residues VHW52 and VHW53, as well as VHD54 and
+VHD56, surround the aliphatic side chain of the hot receptor residue K52. Taken together, the results
+show that side chains distributed across the interface, including many aromatic ones, make key energetic
+contributions to binding. In addition, the receptor CC′ loop has been subjected to random mutagenesis,
+and receptor mutants with high affinity for A6 have been selected by phage display. Residues previously
+identified as important for receptor binding to A6 were conserved in the clones isolated. Some mutants,
+however, showed a much improved affinity for A6, due to changes at Glu55, a residue that appeared to
+be energetically unimportant for binding the antibody by alanine-scanning mutagenesis. An E55P receptor
+mutant bound A6 with a 600-fold increase in affinity (KD ≈ 20 pM), which is one of the largest
+improvements in affinity from a single point mutation reported so far at any protein-protein interface.
+The extracellular portion of the interferon γ receptor
+R-chain (1) (IFNγR)1 comprises two FBN-III domains that
+together are responsible for binding IFNγ at the cell surface.
+The crystal structure of a complex formed between the
+neutralizing murine mAb A6 and the N-terminal FBN-III
+domain showed that the surface of the receptor contacted
+by A6 overlaps significantly with that bound by IFNγ in
+the ligand-receptor complex (2, 3). The A6 epitope encom￾passes largely the CC′ hairpin loop on the receptor, although
+contact is also made with the neighboring F-strand (Figure
+1). The antigen-antibody interface buries ca. 1660 Å2 of
+protein surface, which includes 22 antibody residues from 5
+CDRs and 11 residues from the receptor.
+Antibody-antigen complexes remain interesting targets
+for mechanistic studies of protein-protein recognition, not
+least because high-affinity protein-protein interactions un￾derlie many important processes in biology. Such studies are
+also of interest in the context of designing proteins, and
+smaller molecules, with novel recognition sites. One feature
+of interest in this case is the high concentration of aromatic
+groups (six Tyr, six Trp, and one His) located at the A6-
+IFNγR interface (four in VL, six in VH, and three in the
+receptor). This reflects a broader tendency for aromatic
+† The authors thanks the Swiss National Science Foundation for
+financial support.
+* To whom correspondence should be addressed. Phone: (++)-41-
+1-635-4242. Fax: (++)-41-1-635-6812. E-mail: robinson@oci.unizh.ch.
+‡ University of Zu¨rich. S.L., J.X., F.S., and J.V. all contributed
+equally to this work.
+§ Department of Polymer Chemistry.
+1 Abbreviations: amp, ampicillin; CDR, complementarity determin￾ing region; FBN-III, fibronectin type-III domain; IFNγ, human
+interferon γ; IFNγR, extracellular portion (residues 1-229) of the
+human interferon γ receptor R-chain; mAb, monoclonal antibody; nt,
+nucleotides(s); scFv, single chain variable region fragment [VH + VL
+joined by a (G4S)3 linker]; tet, tetracycline; Trx, E. coli thioredoxin;
+VH, heavy chain variable region (residues are labeled, e.g., VHW96);
+VL, light chain variable region (residues are labeled, e.g., VLR108);
+wt, wild-type.
+15674 Biochemistry 2000, 39, 15674-15685
+10.1021/bi000838z CCC: $19.00 © 2000 American Chemical Society
+Published on Web 12/01/2000groups to be over-represented statistically in antigen binding
+sites on antibodies (4, 5) and also, more generally, at
+protein-protein interfaces (6-8). The crystal structure of
+the A6-IFNγR complex reveals several aromatic rings which
+might participate in multiple types of interaction simulta￾neously, a property that may be relevant to their frequent
+occurrence in antigen binding sites. The energetic importance
+of such interactions is, therefore, of considerable interest.
+We describe here new data on the contribution to binding
+affinity of antibody side chains buried at the A6-IFNγR
+interface, which complements earlier studies involving
+mutagenesis of the receptor (9). An experimental system for
+the study of an A6 scFv fragment is described, together with
+affinity measurements of scFv alanine-scanning mutants (10)
+using a surface plasmon resonance biosensor (BIACORE,
+Biacore AB). In addition, the receptor CC′ loop has been
+subjected to random mutagenesis and receptor mutants have
+been selected by phage display that have almost 3 orders of
+magnitude higher affinity for A6 than the wt. In particular,
+an E55P mutant has an approximately 600-fold higher
+affinity for the antibody, although the residue Glu55 appeared
+by alanine-scanning mutagenesis to be energetically unim￾portant for binding to the antibody.
+EXPERIMENTAL SECTION
+General. DNA and protein manipulations were as de￾scribed in ref 11.
+Production of IFNγR with an Engineered C-Terminal Cys.
+The phagemid pOCI656 described earlier (2) was used as
+template DNA in a PCR with the primers: left 1, 5′-
+GGATTGTTATTACTCGCGGC-3′; right 1: 5′-TTCTGCG￾GCCGCCTAACAAGAACCTTTTATACTGC-3′.
+The left 1 primer binds to a sequence upstream of the SfiI
+and NcoI sites, present also in the parent phagemid pHEN1
+(12). The right 1 primer (NotI site underlined; Cys and stop
+codons in italics) encodes the C-terminus of the receptor on
+the complementary strand, i.e., ...Ser224-Ser225-Ile226-Lys227-
+Gly228-Ser229-Cys-stop. When the PelB signal peptide is
+cleaved, the receptor from Glu1-Met2
+-Gly3... to Ser229 with
+an additional Cys residue after Ser229 is produced and secreted
+into the Escherichia coli periplasm. The PCR product was
+digested with NotI and NcoI and cloned into NcoI/NotI
+digested pHEN1 to give pOCI1110. The nt sequence of the
+insert was confirmed by DNA sequencing.
+Plasmid pOCI1110 was introduced into E. coli HB2151.
+The recombinant receptor was produced using a method
+described earlier (2), except that after the periplasmic
+extraction, â-mercaptoethanol (5 mM) was added to all
+buffers, and purification included immunoaffinity chroma￾tography with antibody A6 coupled to CNBr-activated
+Sepharose (Pharmacia). After purification, the receptor was
+homogeneous by SDS-PAGE, gave an electrospray mass
+spectrum consistent with the calculated mass (25 970 Da),
+and the correct N-terminal sequence by Edman degradation.
+The protein was stable for at least 2 months at 4 °C in
+BIACORE buffer [sodium phosphate (50 mM), pH 7.2, NaCl
+(150 mM) and 0.005% (v/v) surfactant p20] containing
+â-mercaptoethanol (5 mM) and EDTA (5 mM). Upon
+prolonged storage, proteolysis led to the partial loss of the
+five N-terminal residues. This did not appear to affect
+recognition by A6.
+Production and Characterization of A6 wt scFV. The
+primers left 1 and right 2 were used in a PCR with phagemid
+pOCI455 (13) as template: right 2, 5′-CCGGAATTCGCG￾GCCGCTTACCGTTTCAGCTCCAGCTTGGTC-3′.
+The primer right 2 encodes, on the complementary strand,
+the C-terminus of VL up to VLR108 (14) followed im￾mediately by a stop codon (underlined) and further down￾stream an EcoRI site (underlined). The PCR product was
+digested with SfiI and EcoRI and cloned between the same
+sites in the vector pHB110 (15) to produce pOCI1103. This
+encodes a PelB leader sequence fused to the N-terminus of
+VH, followed by the (G4S)3 linker, and VL up to and including
+VLR108. The leader peptide is cleaved during transport into
+the periplasm to give A6 scFv with residues Q1V2K3
+... at
+the N-terminus.
+The A6 scFv was produced by minor modifications to
+methods described earlier (13). The plasmid pOCI1103 was
+introduced into E. coli HB2151. The IPTG concentration for
+induction was 1 mM, and after induction, growth was at 26
+°C for ca. 16 h. A periplasmic extract was made using a
+method described earlier for production of the IFNγR (2).
+The A6 scFv was purified by immunoaffinity chromatog￾raphy with Trx-IFNγR1-108 (16) coupled to CNBr-activated
+Sepharose, as described earlier (13). The protein from this
+column was applied to a MonoS ion-exchange column
+(Pharmacia) equilibrated in sodium phosphate buffer (50
+mM, pH 6.8). The nativelike scFv eluted in the flow-through,
+whereas impurities could be eluted from the column in a
+salt gradient (0 to 0.5 M NaCl). The resulting protein showed
+a single band by SDS-PAGE, gave an electrospray mass
+spectrum consistent with the calculated mass, and the correct
+N-terminal sequence by Edman degradation.
+The concentration of A6 scFv in PBS buffer [sodium
+phosphate 50 mM, NaCl (150 mM), pH 7.4] was determined
+by absorption at 280 nm (A280), using A280 ) 2.9 mg mL-1
+after calibration by quantitative amino acid analysis. Gel
+filtration chromatography of A6 scFv was in PBS buffer on
+a TSK-GEL G3000SW column (7.5 × 600 mm) (Tosohass,
+Stuttgart) at a flow rate of 0.7 mL/min. CD spectra were
+recorded in PBS buffer using a Jasco J720 instrument at 25
+°C. Analytical ultracentrifugation was performed using a
+Beckman XL-A instrument at 5 °C and 25 °C, at both 0.5
+and 5 µM protein concentration in PBS buffer, at a rotor
+speed of 22 000 rpm. Data were acquired by averaging 20
+radial scans at a spacing of 0.001 cm, and analyzed assuming
+FIGURE 1: Ribbon diagram of the IFNγR1-108-A6 Fab complex
+(2). The Fv (VH + VL) region of A6 is shown complexed to the
+N-terminal FBN-III domain of the receptor (PDB file 1JRH).
+Mutagenesis of A6 Antibody Biochemistry, Vol. 39, No. 51, 2000 15675a single homogeneous species according to (eq 1)
+where cr is the concentration of the protein at a given radial
+position, co is the concentration at a reference position, Mr
+is the apparent molecular weight, ν is the partial specific
+volume, F is the solvent density, ω is the angular velocity,
+r and ro are radial positions (in cm) at an arbitrary position
+and at the meniscus, respectively, R is the gas constant, and
+T the absolute temperature.
+Production of Mutant scFV. Mutations were introduced
+into the cDNA encoding the scFv by PCR with a mutagenic
+primer, using the method described earlier for mutagenesis
+of the receptor (9). The mutant scFvs were produced and
+purified by the same method used for the wt protein (see
+above), but also included gel filtration chromatography (see
+above). Each mutant showed one band of ca. 26 kDa on
+SDS-PAGE. CD spectra were recorded as for the wt (see
+above).
+BIACORE Binding Assays. The IFNγR1-229 containing a
+C-terminal c-myc tag, produced and purified as described
+earlier (9), was immobilized on a CM5 sensor surface
+(Biacore AB) by random amine coupling, using a method
+described earlier (2).
+The IFNγR1-229 with an engineered Cys residue near the
+C-terminus (see above) was immobilized on CM5 sensor
+surfaces by thiol exchange. The surface was activated by
+injection of N-hydroxysuccinimide (50 mM) and N-ethyl￾N′-(dimethylaminopropyl)carbodiimide (200 mM) in water
+for 3 min, followed by 2-(2-pyridinyldithio)ethylamine (80
+mM) in borate buffer (0.1 M, pH 8.5) for 1 min, and then
+Cys-containing IFNγR1-229 (20 µg/mL) in sodium acetate
+buffer (10 mM, pH 4.0) for 2 min. Excess disulfides were
+blocked by injecting cysteine (50 mM) in formate buffer (0.1
+M, pH 4.3) containing NaCl (1 M).
+Binding curves were measured in BIACORE buffer at 25
+°C. Association constants (KA) were determined under
+equilibrium conditions from Scatchard plots according to the
+following equation (17, 18):
+where Req is the steady-state response, C is the protein
+concentration in the flow buffer, and Rmax is the maximum
+surface binding capacity. KA can be derived from the gradient
+of a plot of Req/C versus Req at different analyte concentra￾tions (C). The standard deviation of the KA determination
+upon repeated measurement with the same protein sample
+was typically (5%. For kinetic analyses, an equation for a
+simple 1:1 interaction (eq 3) was fitted globally to binding
+curves collected at various analyte concentrations using the
+BIAevaluation software (v.3.0) (Biacore AB) (19):
+where R is the response in RU and kon and koff are the
+association and dissociation rate constants.
+Construction of pOCI1009. A PCR reaction was performed
+using the oligonucleotides primer 1 and primer 2 (see Table
+1 in Supporting Information) and pOCI656 (2) as template
+DNA. A DNA fragment of the expected size (ca. 300 bp)
+was isolated by gel electrophoresis, digested with NotI and
+ClaI and subsequently ligated in NotI and ClaI digested
+pOCI656, to afford pOCI1009 (Figure 2). The nt sequence
+was confirmed by DNA sequencing.
+Preparation of Control Phage. A tetracycline resistance
+gene was excised from pBR322 on a 1.4 kb EcoRI-AVaI
+fragment and the 5′ ends were blunted using the Klenow
+fragment of PolI. The fragment was ligated in DraI digested
+pHEN1 (12) to afford pOCI1005. The ampicillin (amp)
+resistance gene of pHEN1 is removed from the plasmid by
+the DraI digestion.
+ELISA Phage Panning. The method for phage panning was
+modified from (20). ELISA plates were coated overnight at
+4 °C with mAb A6 (200 µL of 10 µg/mL). After washing
+three times with phosphate buffered saline [PBS; sodium
+phosphate, 50 mM, pH 7.2, and NaCl (150 mM)], the wells
+were incubated with PBS containing 1% BSA (200 µL) and
+incubated 2 h at 37 °C. The ELISA plate was washed again
+three times with PBS and finally the phagemid particles (ca.
+109) were added in PBS containing 1% BSA and the plate
+was incubated overnight at 4 °C. The wells were washed 25
+times with PBS containing 0.1% Tween 20, and 15 times
+with PBS, incubated 30 min at 20 °C, and finally washed
+10 times with PBS. Bound phagemid particles were eluted
+with glycine buffer (200 µL, 50 mM, pH 2.5). The eluted
+material was neutralized with phosphate buffer (2 M, pH
+7.5) and used for transfection of logarithmic growing E. coli
+XL1-blue cells.
+Library Construction. A PCR was performed with the
+oligonucleotides primer 3 and primer 4 (see Table 1 in
+Supporting Information) and pOCI1009 as template. The
+product of the PCR was gel purified and used together with
+primer 5 in a second PCR again using pOCI1009 as template
+DNA. The resulting PCR product (ca. 800 bp) was gel
+purified, digested with NcoI, NotI, and cloned in NcoI/NotI
+digested pOCI1009, yielding plasmid pOCI1010 in which
+the cDNA encoding the central portion of the CC′ receptor
+loop has been deleted (Figure 2).
+To construct the libraries, cassettes were prepared by
+annealing oligo 1 with oligo 2, oligo 3 with oligo 4, and
+cr ) co exp[Mr
+(1 - νF)ω
+2
+(r
+2 - ro
+2
+)]/2RT (1)
+Req/C ) KA(Rmax - Req) (2)
+dR/dt ) konC(Rmax - R) - koffR (3)
+Table 1: Alanine-Scanning Mutants Studied in This Work, the
+Measured Dissociation Constants (KD), the Ratio of Kds for Mutant
+and wt (∆∆G ) RT ln(Kmut/Kwt))
+mutant KD (nM)
+KD(mut)/
+KD(wt)
+∆∆G
+(kcal/mol)
+wild-type 12 ( 0.3
+VLE27A 30 ( 0.9 2.5 0.54
+VLD28A 25 ( 0.4 2.1 0.44
+VLY30A 78 ( 7 6.5 1.1
+VLY91A 32 ( 1.5 2.7 0.58
+VLW92A 1400 ( 80 117 2.8
+VLS93A 4 ( 0.2 0.33 -0.65
+VLT94A 23 ( 0.5 1.9 0.38
+VLW96A 200 ( 100 17 1.7
+VHY32A 135 ( 6 11.3 1.4
+VHW52A 1122 ( 35 94 2.7
+VHW53A 716 ( 50 60 2.4
+VHD54A 290 ( 30 24 1.9
+VHD55A 200 ( 50 17 1.7
+VHD56A 275 ( 5 23 1.8
+VHY58A 100 ( 3 8.3 1.2
+VHR95A 30 ( 2 2.5 0.54
+VHF98A 12 ( 0.3 1.0 0
+VHY99A 72 ( 5 6.0 1.1
+VHH100bA 211 ( 5 18 1.7
+15676 Biochemistry, Vol. 39, No. 51, 2000 Lang et al.oligo 5 with oligo 6 (see Table 1 in Supporting Information).
+A total of 31.9 pmol of each of the six oligonucleotides was
+annealed in the appropriate combinations by 5 min heating
+at 95 °C and slowly cooling to 30 °C (30 min). The
+complementary strands were synthesized by extension of the
+3′ ends by adding 1 mM dNTP and 20 units of klenow
+fragment of PolI and continued incubation at 30 °C for 1 h.
+The resulting double-stranded DNA was digested with
+Asp718 and MluI and then ligated in Asp718 and MluI
+digested pOCI1010. Introduction of the ligated DNA into
+E. coli XL1-blue cells was by electroporation using a
+genepulser (Bio-Rad). Colonies were pooled in fractions and
+frozen in 20% glycerol.
+Preparation of Phage. Frozen stocks were used to
+inoculate 2YT (25 mL) containing 1% glucose and ampicillin
+(100 µg/mL). The culture was grown for 4 h at 37 °C and
+the cells were pelleted by centrifugation (4000 rpm) and
+washed once with 2YT. The cells were resuspended in 2YT
+and M13KO7 phage was added at a multiplicity of infection
+of 40. After 20 min incubation at 37 °C without shaking,
+incubation was continued for 1 h at 37 °C with shaking. Then
+kanamycin (20 µg/mL) was added to the culture, which was
+20-fold diluted in fresh 2YT containing ampicillin (100 µg/
+mL) and kanamycin (20 µg/mL) and grown overnight at 37
+°C.
+Glycine-eluted phage obtained after a round of panning
+was directly used to infect logarithmic growing E. coli XL1-
+blue. The cells were pregrown on 2YT containing 1%
+glucose to an OD600 of 1.0. After 20 min incubation at 37
+°C without shaking, incubation was continued at 37 °C with
+shaking for 1 h. At this point ampicillin (100 µg/mL) was
+added to the culture and incubation was continued for 4 h at
+37 °C. Infected cells were harvested by centrifugation at 4000
+rpm and the cell pellet was resuspended in 2YT containing
+ampicillin (100 µg/mL). Infection by M13KO7 phage was
+as described above. Phagemid particles from liquid cultures
+were obtained as described by (21).
+Production of Mutant Receptor Proteins. The E55P mutant
+IFNγR1-229 cDNA was prepared by site-specific mutagenesis
+and PCR using methods described elsewhere (9). Production
+and purification of wt IFNγR and mutant proteins, each fused
+to a C-terminal c-myc tag, was as described previously (2).
+For competition BIACORE, proteins were produced that
+lacked the c-myc tag, and these were purified by immunoaf￾finity chromatography with A6. The homogeneity of purified
+proteins were confirmed (>95%) by SDS-PAGE, and the
+masses by electrospray mass spectrometry.
+Competition ELISA. KDs of the wt IFNγR and mutant
+proteins binding to A6 were determined by competition
+ELISA as described earlier (9).
+Competition BIACORE Measurements. The wt IFNγR1-229
+was immobilized on CM5 sensor surfaces by random amine
+coupling, as described earlier (2). The level of immobilized
+receptor corresponded to g10 000 RU. The wt A6 scFv
+together with various concentrations of wt IFNγR1-229 were
+preincubated for at least 1 h at 4 °C, before injection over
+the IFNγR1-229-sensor surface (flow rate 25 µL/min, injection
+volume 150 µL). At least 10 binding curves with different
+concentrations of IFNγR1-229 were measured. Each measure￾ment was performed at least in duplicate. The slopes of the
+association phases were determined using BIAevaluation,
+software v.3.0, and were plotted against the total antigen
+concentration. The KD was determined by fitting to eq 4 (22)
+using KALEIDAGRAPH (Synergy Software, PA):
+where robs is the slope at a given [Agtot], rmax is the maximal
+slope in the absence of inhibition by co-incubated antigen,
+[Abtot] is the total scFv concentration, [Agtot] is the total
+antigen concentration, and KD is the dissociation constant.
+RESULTS
+Expression of Extracellular IFNγR. The wt IFNγR,
+residues 1-229 (IFNγR1-229), fused at the C-terminus via a
+short -Ala3- linker to a c-myc peptide tag (23), was produced
+FIGURE 2: Phagemids pOCI656 and pOCI1010. Below is shown
+the nt sequence of the CC′ loop region in the wt state (in
+pOCI1009), and after modification as in pOCI1010. The dotted lines
+indicate corresponding positions in the nt sequence in each clone,
+and show how the segment encoding the central part of the loop
+was deleted in pOCI1010 (see Experimental Section and Results).
+Oligonucleotide cassettes encoding the mutant libraries were ligated
+into Asp718/MluI digested pOCI1010.
+robs ) rmax(1 - 1
+[Abtot]
+‚(KD + [Agtot] + [Abtot]
+2 -
+x(
+KD + [Agtot] + [Abtot]
+2 )
+2
+- [Agtot][Abtot])) (4)
+Mutagenesis of A6 Antibody Biochemistry, Vol. 39, No. 51, 2000 15677in E. coli using a secretion expression system described
+earlier (2). IFNγR1-229 with a cysteine residue engineered
+at the C-terminus (but without the c-myc tag) was produced
+in the same way. Both proteins were purified by immunoaf￾finity chromatography, using either immobilized A6 mAb
+or the 9E10 mAb against the c-myc tag (23).
+Expression and Properties of A6 scFV. The A6 scFv
+fragment comprising the VH domain connected through a
+linker [(G4S)3] to the VL chain with a c-myc tag attached to
+the C-terminus (yield ≈ 0.3 mg/L), was produced and
+purified as described earlier (13). However, the yields of
+some A6 mutants made in this way were much lower, so an
+improved expression system was implemented. The wt A6
+scFv coding region was cloned into vector pHB110, which
+also contains the E. coli skp gene (15). After purification,
+the scFv was obtained in a yield of ∼1.2 mg/L. Eleven of
+the 19 mutants were obtained in the same way in about the
+same yield as wt, the VHH100bA, VLW92A, VLY91A, VH￾D54A, and VLW96A mutants were obtained in 5-6-fold
+lower yield, and the VHW53A, VHW52A and VHD55A
+mutants in ∼10-fold lower yields.
+When micromolar solutions of wt A6 scFv were diluted
+to 100 nM and injected over a biosensor surface displaying
+immobilized IFNγR, the shape of the binding curve was seen
+to change with elapsed time (over ∼60 min) after dilution
+from the stock solution (data not shown). Freshly diluted
+sample gave a pronounced biphasic binding curve with a
+significant contribution from a component with a very slow
+dissociation rate. The binding curves at later times resembled
+those typical for a 1:1 interaction with a fast dissociating
+species. Such behavior could be explained by a dynamic
+equilibrium between monomeric and multimeric forms of
+A6 scFv. Upon sedimentation equilibrium analytical ultra￾centrifugation, the fit of a model which assumed a single
+molecular species to the sedimentation data was influenced
+by the temperature and the protein concentration. At a higher
+protein concentration (5 µM) and 5 °C, the apparent
+molecular weight was higher than expected and the fitting
+was poor. A 10-fold dilution to 0.5 µM and measurement at
+25 °C, however, gave a molecular weight determination (27.9
+kDa) close to the calculated mass with good fitting of the
+model (Figure 3). Gel filtration chromatography of A6 scFv
+at high protein concentrations also indicated the presence of
+dimer, which disappeared from chromatograms upon dilution
+of the scFv to <1µM protein concentration (data not shown).
+Data from gel filtration, analytical ultracentrifugation and
+biosensor measurements provide mutually supportive evi￾dence that the wt A6 scFv has a tendency to dimerize at
+high concentrations. The propensity of scFvs to dimerize is
+well-known, and has been demonstrated for several different
+antibody fragments (20, 24-29).
+The CD spectrum of the wt scFv (Figure 4) shows a trough
+at 219 nm with a change to positive ellipticity below 211
+nm, which is typical of all-â-proteins (30). A positive band
+is seen at 233 nm, which is indicative of an exciton couplet.
+Two pairs of Trp side chains have closely neighboring indole
+rings, VHW47 with VLW96, and VHW53 with VHW52. In
+CD spectra of scFv mutants VLW96A, VHW52A, and VH￾W53A, the positive peak at 233 nm is significantly reduced
+in intensity relative to the band at 219 nm, consistent with
+one or both of these Trp pairs being responsible for the
+exciton couplet. In the near-UV CD spectrum of wt scFv, a
+weak positive peak at 272 nm is also found (not shown).
+The far-UV CD spectra of most other scFv mutants (except
+VLY91A, VHD54A, and VHD55A, which were not measured)
+were similar to that of the wt scFv (Figure 4). This group
+includes mutants that show large changes in KD for the
+receptor (e.g., VLW92A, VHH100bA, VHD56A) as well as
+others where the KD is little changed (VLT94A and VHF98A).
+The mutants VLS93A, VLE27A, VLD28A, and VHY58A,
+whose KDs were also not significantly changed, showed small
+differences in the relative intensity of the positive ellipticity
+at 205 nm compared to wt.
+The CD spectra indicate that the wt immunoglobulin fold
+is retained in the mutants, although local changes in
+conformation of the CDR loops cannot be ruled out.
+Biosensor Measurements with wt scFV. In a first series of
+experiments, the IFNγR1-229 protein with a c-myc tag at the
+C-terminus was immobilized on the biosensor surface by
+random amine coupling. Monomeric scFv was purified by
+gel filtration, and the absence of dimer in the resulting protein
+was confirmed upon rechromatography. When the scFv
+concentration was varied in the range 3-100 nM, the binding
+FIGURE 3: Sedimentation equilibrium analytical ultracentrifugation
+data obtained for the A6 scFv at 0.5 µM concentration and 25 °C.
+The residuals indicate the deviation of the data points from the
+fitted curve (see Experimental Section).
+FIGURE 4: CD spectra of wt and several mutants of the A6 scFv.
+From the overlay it is apparent that the CD spectra of wt and
+mutants are all very similar to each other.
+15678 Biochemistry, Vol. 39, No. 51, 2000 Lang et al.curves gave linear Scatchard plots and a KD of 12 nM. A
+kinetic analysis of the data gave an apparent kon of 1.1 ×
+106 M-1 s-1 and an apparent koff of 1.4 × 10-2 s-1
+. A linear
+Scatchard plot was also obtained from data on the binding
+of IFNγR1-229 protein to immobilized A6 mAb, and the
+measured KDs were 13 and 15 nM (composed of kon ) 6.1
+× 105 M-1 s-1 and koff ) 0.87 × 10-2 s-1
+) from steady state
+and kinetic analyses, respectively. Determination of apparent
+kon and koff values using three different densities of im￾mobilized IFNγR1-229 and three different flow rates showed
+that mass transport effects had little influence on binding
+under the conditions used to determine KD values.
+In a second series of experiments, IFNγR1-229 with an
+engineered Cys at the C-terminus was immobilized on the
+biosensor surface through the free thiol. A steady-state
+analysis of scFv binding to this surface gave a linear
+Scatchard plot and a KD of 12 nM (Figure 5). Hence, the
+random amine coupling procedure does not significantly
+affect the affinity of A6 for its epitope on the receptor.
+Biosensor Measurements with scFV Mutants. Nineteen
+scFv mutants were prepared and their affinities to the receptor
+analyzed (Table 1). Since biosensor assays can be signifi￾cantly affected by the presence of even small amounts of
+dimeric species (31), the mutant scFvs were purified by gel
+filtration prior to measurements with the BIACORE instru￾ment, and where possible, the scFv concentration was kept
+below 500 nM. Dissociation constants (KD) were determined
+by steady-state analyses from Scatchard plots (Table 1 and
+Figure 5). The KD values measured in duplicate experiments
+were generally within (20% of the mean value, the variation
+probably reflecting the accuracy of the determination. Only
+for several low affinity mutants was the standard deviation
+higher. For the wt scFv and some mutants, the association
+phase of the binding curves fitted well to a simple 1:1 binding
+model using global kinetic analysis, whereas, for other scFv
+mutants, significant biphasic association phases were appar￾ent under all conditions examined.
+Display of the IFNγR on Phage. The phagemid pOCI1009,
+encoding the extracellular IFNγR1-229 cDNA fused to a
+truncated M13 gene III, was prepared such that the TAG
+amber stop codon of IFNγR was directly adjacent to codon
+246 of M13 gene III. In this way two GGGGS repeats were
+placed between the IFNγR and the C-terminal domain of
+gene III protein.
+The ability of the recombinant IFNγR-phage to bind to
+mAb A6 coated ELISA plates was assessed in competition
+with a control phage (pOCI1005) without the receptor but
+containing a tet resistance gene. After panning a 1:1 mixture
+of pOCI1009- and pOCI1005-phage particles on immobilized
+mAb A6, phage particles that displayed IFNγR (pOCI1009)
+were enriched about 60-100 fold over the control phages
+(pOCI1005). No specific enrichment of pOCI1009 was seen
+when an excess (1 µM) of mAb A6 or IFNγR was added to
+the starting phage mixture. These results indicated that
+correctly folded and functional IFNγR extracellular domains
+were present on the phage surface.
+Library Construction. To facilitate random mutagenesis
+of the CC′ loop, the phagemid pOCI1009 was modified such
+that most of the DNA encoding the CC′ loop was deleted, a
+stop codon was introduced in the reading frame of IFNγR,
+and Asp718 and MluI restriction sites were introduced in the
+flanking regions (Figure 2). The resulting phagemid (pO￾CI1010) does not encode a functional wt receptor protein.
+Function can be restored by inserting a cassette between the
+Asp718 and MluI restriction sites that encodes a loop of the
+desired length with selected positions randomized.
+Three separate libraries were constructed. In the first
+library, the receptor residues E45.V46.K47.N48.Y49
+were randomized, in the second, receptor residues
+Y49.G50.V51.K52.N53, and in library three, residues
+N53.S54.E55.W56.I57. The three libraries together encom￾pass the entire hairpin loop sequence bound by the A6
+antibody (see Figure 11). Additional and different silent
+mutations in the nt sequence were also introduced into the
+flanking constant regions in each library as a distinguishing
+feature to allow detection of cross-contamination, although
+none was found.
+The insert frequency for each library ranged from 86 to
+93%. The codon usage determined from 105 clones was close
+to random with no large bias in the inserted nucleotides and
+no over representation of any specific codons. The sizes of
+the libraries ranged from 1.8 × 107 to 4.3 × 107 independent
+clones and were considered large enough to contain all or
+almost all of the possible protein sequences.
+Phage Panning. Phage panning was carried out for four
+consecutive rounds. After the last round individual colonies
+were randomly chosen for nt sequencing. Approximately 50
+clones from each library were sequenced and the deduced
+translated protein sequences are given in Table 2. A statistical
+FIGURE 5: (A) Scatchard plot of the binding data from biosensor
+measurements with the wt A6 scFv. Inset is the same data presented
+as a plot of equilibrium sensor response (Req) against analyte
+concentration (M). B, is the same treatment of data for the VH￾H100bA mutant.
+Mutagenesis of A6 Antibody Biochemistry, Vol. 39, No. 51, 2000 15679analysis of the occurrence of amino acid types at each
+position in each library is shown in Figure 6.
+IFNγR Mutants. Several of the most frequently found
+mutant receptors in each library were produced as soluble
+proteins, as described for the wt receptor and in similar
+yields. The mutants EHKWY and ENKWY (from library 1,
+Table 2) could not be purified, as they were unstable upon
+acid elution from the 9E10 immunoaffinity column.
+The affinity of mutant IFNγR for A6 was first assayed
+by competition ELISA, and apparent KDs were determined
+for mutants from libraries 1 and 2 (Figure 7). In the same
+assay, the mutant receptors recovered from library 3 pos￾sessed a 2-3 orders of magnitude higher affinity for A6 than
+the wt receptor. The single mutant E55P, although not
+isolated from library 3, was generated by site-specific
+mutagenesis, produced in E. coli, and its affinity for A6 was
+also shown by competition ELISA to be much higher than
+for the wt. For selected high-affinity mutants the KDs were
+determined by competition BIAcore (Figure 8 and Table 3).
+The results indicate an important effect of mutation at residue
+E55 on affinity to the antibody.
+Binding of IFNγ∆10 [lacking the 10 C-terminal residues
+(32)] to wt IFNγR immobilized on the biosensor surface was
+compared to its binding to immobilized E55P mutant.
+Whereas the IFNγ∆10 bound to the wt receptor with
+approximately nanomolar affinity (data not shown), binding
+to the E55P mutant was largely abolished and could not be
+determined by BIACORE.
+DISCUSSION
+It is noteworthy that the results presented here interlock
+well with crystallographic data on the IFNγR-A6 complex
+(2), and with the results of earlier alanine-scanning mutagen￾esis studies on the receptor (9). Upon alanine-scanning
+mutagenesis of the A6 scFv, three mutations (VLW92A, VH￾W52A, and VHW53A) are seen to have a large impact (2.4-
+2.8 kcal/mol) on affinity, nine others (VLY30A, VLW96A,
+VHY32A, VHD54A, VHD55A, VHD56A, VHY58A, VHY99A,
+and VHH100bA) show significant effects (1-2 kcal/mol),
+while seven others (Table 1) have little or no effect (<1 kcal/
+mol). The three most important all involve Trp residues, and
+each of their side chains appears to be involved in multiple
+types of interaction. The benzenoid ring of VLW92 appears
+well situated for a π-cation (or π-amine) interaction with
+the side chain CE and NZ atoms of receptor residue K47
+[both atoms are ∼3.9 Å from the plane of the indole ring
+(33)] and for simultaneous T-stacking onto the indole ring
+of W82 in the receptor [5.1 Å between the ring centers shown
+in Figure 9A (34, 35)]. The VLW92 side chain, therefore,
+makes hydrophobic (with W82) and polar (with K47)
+Table 2: Deduced Amino Acid Sequences of the Mutants Selected by Phage Panninga
+a The wt sequence, representing the region subjected to mutagenesis in each library, is shown at the top. The amino acid sequence of the entire
+CC′ hairpin loop on the wt receptor is E45V46K47N48Y49G50V51K52N53S54E55W56I57. The number of times each sequence was found is also given,
+with the most frequently found at the top, and the total at the bottom. (*) KD was determined by ELISA. (**) KD was determined by ELISA and
+by competition BIAcore.
+15680 Biochemistry, Vol. 39, No. 51, 2000 Lang et al.contacts simultaneously with the receptor, although the
+relative importance of these and other interactions cannot
+presently be assessed. The receptor K47 and W82 side chains
+were identified earlier as being energetically important
+[affinity change relative to wt upon mutation to alanine, ∼3.6
+and 4.5 kcal/mol (9)].
+Two other hot residues in the antibody are VHW52 and
+VHW53, which together with VHD54 and VHD56, surround
+the aliphatic side chain of K52 (Figure 9B) [itself identified
+earlier as a hot residue in the receptor (9)]. Many of the
+mutations that exhibit significant effects (1-2 kcal/mol) (i.e.,
+“warm spots”) surround VHW52 and VHW53 (Figure 10).
+A similar observation of hot spots surrounded by warm
+FIGURE 6: Bar diagrams showing the percentage occurrence of the
+amino acid types at each randomized position in the clones isolated
+from each library after panning on A6: (A) top ) library 1; (B)
+middle ) library 2; and (C) bottom ) library 3. The data are taken
+from Table 2.
+FIGURE 7: Results of ELISA to determine affinities for antibody
+A6 of mutant receptors isolated from libraries 1 (filled bars) and 2
+(shaded bars). The affinity relative to the wt receptor [KD (wt)/KD
+(mutant)] is shown for each mutant.
+FIGURE 8: Competition BIACORE. Plots of the slope of the
+association phase vs corresponding total soluble antigen concentra￾tion. The lines represent the fitting to Eq 4 (Experimental Section).
+The calculated KD for the wt (top) and single mutant E55P (bottom)
+are shown.
+Table 3: Sequences of Mutant IFNγR1-229 Proteins and Their KDs
+(( SD) for Binding to A6 scFv Determined by Competition
+BIAcore (see Figure 8)a
+mutant KD (nM)
+KD(wt)/
+KD(mut)
+NSEWI (wt) 12 ( 0.6
+NSPWR 0.036 ( 0.02 333
+NGGWR 0.040 ( 0.003 300
+NSPWL 0.035 ( 0.01 343
+NGPWK 0.017 ( 0.007 706
+NSPWI 0.020 ( 0.005 600
+a The change in affinity relative to wt is also shown.
+Mutagenesis of A6 Antibody Biochemistry, Vol. 39, No. 51, 2000 15681residues was made in studies of the HyHEL-10-lysozyme
+complex (36). The side chain NZ atom of receptor K52 lies
+close to the side-chain carboxylate groups of both VHD54
+and VHD56 in the antibody. Mutation of either of these two
+aspartate residues causes a significant loss in affinity, as does
+mutation of VHD55 whose side chain points away from K52
+toward bulk solvent (Figure 9B) (Table 1). One explanation
+for the effect of the VHD55A mutation might be a change in
+the conformation or dynamics of the CDR loop. It is often
+unclear to what extent conformational effects influence
+alanine-scanning mutagenesis data, although such effects
+have often been discussed in the context of antibody-antigen
+binding. The indole of VHW52 appears to participate in a
+dense network of interactions, since one face lies close to
+the four methylene groups of receptor K52, its indole NH
+T-stacks with the phenol ring of VHY58, and its other face
+(not in contact with K52) T-stacks with the side-chain
+imidazole of VHH50. Here also, the relative energetic
+importance of these interactions is presently unknown.
+Residues Y49 and N53 have also been identified as hot
+residues on the receptor (9). The aromatic ring of Y49 fills
+a pocket formed between the VH and VL chains of A6. On
+the other hand, the side-chain amide NH2 group of residue
+N53 appears to be well situated for H-bonding to the
+backbone carbonyl CO of VLY91 and the indole ring of VL￾W96 (Figure 9C), and mutation of the latter does have a
+significant effect on affinity (Table 1).
+The heavy chain residue VHH100b is buried in the
+interface (Figure 9D), and its mutation to alanine also leads
+to a significant drop in affinity (Table 1). On the other hand,
+the buried guanidinium group of VHR95A appears to H-bond
+to two backbone carbonyl CO groups of receptor residues
+G50 and V51 (Figure 9D), although removal of this Arg side
+chain results in only a small loss in affinity. This was
+unexpected since the mutation presumably removes two
+charged hydrogen bonding interactions.
+In summary, the results of alanine-scanning mutagenesis
+of both the receptor and A6 reveal that multiple side chains
+FIGURE 9: Line diagrams showing interacting residues at the A6-IFNγR1-108 interface. (A) Receptor residues Lys47 and Trp82 interacting
+with VLTrp92. Distances between the Lys47 side chain N atom and the center of the benzenoid ring of VLTrp92, as well as between the
+ring centers of VLTrp92 and Trp82 are shown. (B) Receptor residue Lys52 interacting with VHTrp52 and surrounding residues. (C) Receptor
+residue Asn53 and surrounding antibody residues. (D) The receptor loop from Asn53 to Tyr49 situated below VHHis100b and VHArg95.
+Dotted lines indicate interactions mentioned in the Discussion.
+15682 Biochemistry, Vol. 39, No. 51, 2000 Lang et al.contribute significantly to the energetics of binding, including
+both polar and aromatic ones, at different loci across the
+interface (Figure 10).
+In some protein-protein complexes, relatively few pro￾ductive interactions near the center of the interface dominate
+the energetics of association, as found, for example, in the
+growth hormone-receptor complex (37), the antibody D1.3-
+hen egg white lysozyme complex (38, 39), and the HyHEL￾10-lysozyme complex (40-44). In contrast, the stabilization
+of the D1.3-E5.2 antibody-antibody complex (38, 45) is
+apparently achieved by the accumulation of several produc￾tive interactions of varying strength over the entire interface.
+This also appears to be the case for a VEGF-Fab interface,
+which is again rich in aromatic residues (46). However, in
+all these cases hot residues on one protein pack against hot
+residues on the other across the interface, as also found here
+for the A6-IFNγR complex.
+Additional interesting information about the A6-IFNγR
+interface was obtained using phage display methods and
+random mutagenesis. Three libraries of mutants were pre￾pared, in which the CC′ receptor loop was subjected to
+random mutagenesis in three five residue sections.
+In the first library, the residues E45.V46.K47.N48.Y49
+were randomly mutated (Figure 11), so that each position
+could be filled by any of the other 20 proteinogenic amino
+acids. This region includes residues K47 and Y49, which
+were shown by alanine-scanning mutagenesis to be energeti￾cally important (i.e., hot) side chains. These two hot residues,
+K47 and Y49, were highly conserved in the clones isolated.
+In only three different sequences was Y49 substituted by
+His (Figure 6). Unfortunately, two of the most abundant
+sequences recovered from this library (EHKWY and EN￾KWY) were refractory to purification as soluble proteins.
+Four other mutants were produced, however, and their
+affinities for A6, assayed by competition ELISA (Figure 7),
+were approximately an order of magnitude higher than seen
+for the wt. Since the changes occur in residues that do not
+make significant contact with the antibody (E45, V46, and
+N48), the origins of the improved affinities presumably lie
+in changes to the conformation of the epitope.
+In the second library, the residues Y49.G50.V51.K52.N53
+at the tip of the CC′ hairpin loop (Figure 11) were
+randomized. The hot residues Y49, K52, and N53 (9) were
+strictly conserved, as was G50 which is important for
+conserving the turn conformation at the tip of the loop
+(Figure 6, Table 2). The affinities of six receptor mutants
+from this library were shown by competition ELISA to be
+about the same or slightly lower than found for the wt (Figure
+7).
+In the third library, the residues N53.S54.E55.W56.I57
+were randomly mutated (Figure 11). Residue N53 was strictly
+FIGURE 10: CPK representation of the interface, left looking onto the scFv, right looking onto the receptor. Folding the page vertically
+through the center illustrates how the interface is formed. The side chains of mutated residues are color coded, red ) ∆∆G > 2.7 kcal/mol,
+yellow ) ∆∆G 2.0-2.7 kcal/mol, green ) ∆∆G 1.0-2.0 kcal/mol, and blue < 1.0 kcal/mol (see Table 1). The backbone atoms are in
+gray. The receptor residue W56 could not be replaced by alanine and is shown in pink (9).
+FIGURE 11: A6 epitope on the IFNγR (2).
+Mutagenesis of A6 Antibody Biochemistry, Vol. 39, No. 51, 2000 15683conserved (Figure 6 and Table 2), consistent with its
+identification earlier as a hot residue (9). The W56 residue
+was also strongly conserved as either Trp, Tyr, or Phe. The
+remaining three positions in the â-strand showed more
+variability (Figure 6). S54 was in some cases replaced by a
+residue with a small polar, but noncharged side chain (G, T,
+A, or P). This side chain is largely buried under the CC′
+loop in the antibody-antigen complex (Figure 11), which
+presumably restricts the size of group that can be accom￾modated at this position. A Glu residue was not found at
+position-55 in the recovered clones, but was most frequently
+substituted by Pro. In the A6-IFNγR complex, the E55 side
+chain is directed out from the CC′ loop toward bulk solvent.
+Earlier studies revealed that S54A and E55A mutants each
+have about the same or slightly improved affinity for A6
+compared to wt (9). These side chains [beyond C(â)] appear,
+therefore, to be nonessential for recognition by A6. Position
+I57 in the library could be substituted by a variety of different
+residues, with a somewhat stronger preference for polar/
+charged residues (Figure 6). This is understandable, since
+the side chain of I57 points away from A6 into bulk solvent
+(Figure 11).
+Six of the most frequently recovered clones from library
+3 were produced as soluble proteins. Competition ELISA
+clearly showed that all six had a significantly improved
+affinity for A6 compared to the wt, by about 2-3 orders of
+magnitude (data not shown).
+An alternative method of measuring the KDs of these
+mutants was investigated, since their affinities are at the
+upper limits for accurate quantification by ELISA, and kinetic
+BIACORE measurements. Using competition BIACORE, the
+KD of the wt receptor for A6 scFv was 12 ( 0.6 nM (Figure
+8). This value agrees very well with values determined for
+A6 by equilibrium and kinetic BIACORE measurements (2,
+9). By competition BIACORE, the KD of the single E55P
+mutant for A6 scFv was 20 ( 5 pM (Figure 8), which
+represents an increase in affinity of 600-fold (∆∆G ) -3.7
+kcal/mol). Four other mutants isolated from library 3 were
+analyzed in the same way and gave KDs in the same range
+(Table 3). A visual comparison of binding curves from
+BIAcore measurements (not shown) with the wt and the five
+receptor mutants, under comparable conditions, show that
+all have similar on-rates (kon) with A6, but that all mutants
+have a much slower dissociation rate (koff). The large increase
+in affinity, therefore, arises mainly due to the slower off￾rates.
+To set this result in context, single mutations that improve
+protein-protein binding have often been found in studies
+of both antibody-antigen and growth factor-receptor com￾plexes, although typically the increases in affinity are around
+a factor of 10 or less. Only infrequently have larger affinity
+improvements arising from a single mutation been observed.
+Although the affinity maturation of antibodies is not strictly
+comparable to the strategy followed here, during somatic
+mutation leading to the anti-lysozyme antibody D1.3, a single
+change resulted in a 30-fold increase in affinity (47). Larger
+increases in antibody-protein antigen affinity typically occur
+only through multiple mutations. For example, affinity
+increases of 1230- and 420-fold were seen during maturation
+of antibodies against the tumor antigen c-erbB-2 (48) and
+gp120 (49), respectively. The 600-fold increase in antigen
+affinity seen here with the E55P mutant is one of the largest
+increases in affinity reported so far arising from a single point
+mutation at any protein-protein interface.
+The increased affinity for A6 caused by the E55P mutation
+cannot be explained by extra hydrophobic contacts made by
+Pro at the interface. The most likely origin of the increase
+in binding energy (∼3.7 kcal/mol) would seem to be a change
+in the conformation or dynamics of the epitope on the
+receptor. It is also possible that small changes in allowed
+conformation may lead to an optimization of other interac￾tions (e.g., electrostatic) at the A6-IFNγR interface. A more
+detailed explanation requires knowledge of the three￾dimensional structure of the mutant receptor-A6 complex,
+which is currently under investigation. Finally, the E55P
+mutation was also shown to essentially abolish binding of
+the natural ligand IFNγ to the receptor, again most likely
+due to a change in the preferred conformation of this
+important receptor recognition loop.
+The importance of individual interactions at the A6-IFNγR
+interface should be amenable to analysis using double mutant
+cycles. A practical limitation is the difficulty of accurately
+measuring the low binding affinities of double mutants (J.X.,
+unpublished work). However, using the receptor E55P mutant
+as a starting point for double mutant cycles may allow a
+more accurate estimation of binding constants for all mutant
+combinations, assuming that the interface is largely unper￾turbed. Details of these double mutant cycles, as well as more
+detailed crystallographic studies of the complexes, in par￾ticular to determine the structural consequences of changing
+large aromatic residues to alanine at this interface, will be
+the subject of future work.
+ACKNOWLEDGMENT
+The authors thank Annelies Meier for expert technical
+assistance.
+SUPPORTING INFORMATION AVAILABLE
+Table of the sequences of PCR primers and oligonucle￾otides used to prepare the libraries of random mutants. This
+material is available free of charge via the Internet at
+http://pubs.acs.org.
+REFERENCES
+1. Aguet, M., and Merlin, G. (1987) J. Exp. Med. 165, 988-
+999.
+2. Sogabe, S., Stuart, F., Henke, C., Bridges, A., Williams, G.,
+Birch, A., Winkler, F. K., and Robinson, J. A. (1997) J. Mol.
+Biol. 273, 882-897.
+3. Walter, M. R., Windsor, W., Nagabhushan, T. L., Lundell, D.
+J., Lunn, C. A., Zauodny, P. J., and Narula, S. K. (1995) Nature
+376, 230-235.
+4. Mian, I. S., Bradwell, A. R., and Olson, A. J. (1991) J. Mol.
+Biol. 217, 133-151.
+5. Padlan, E. A. (1990) Proteins 7, 112-124.
+6. Bogan, A. A., and Thorn, K. S. (1998) J. Mol. Biol. 280, 1-9.
+7. Jackson, R. M. (1999) Protein Sci. 8, 603-613.
+8. LoConte, L., Chothia, C., and Janin, J. (1999) J. Mol. Biol.
+285, 2177-2198.
+9. Hofsta¨dter, K., Stuart, F., Jiang, L., Vrijbloed, J. W., and
+Robinson, J. A. (1999) J. Mol. Biol. 285, 805-815.
+10. Cunningham, B. C., and Wells, J. A. (1989) Science 244,
+1081-1085.
+11. Ausubel, F. M., Brent, R., Kingston, R. E., Moore, D. D.,
+Seidman, J. G., Smith, J. A., and Struhl, K., Eds. (1987)
+Current Protocols in Molecular Biology, J. Wiley & Sons.
+15684 Biochemistry, Vol. 39, No. 51, 2000 Lang et al.12. Hoogenboom, H. R., Griffiths, A. D., Johnson, K. S., Chiswell,
+D. J., Hudson, P., and Winter, G. (1991) Nucleic Acids Res.
+19, 4133-4137.
+13. Bridges, A., Stuart, F., Spa¨th, J., Lang, S., Henke, C., Birch,
+A., and Robinson, J. A. (1996) Protein Eng. 9, 365-370.
+14. Bridges, A., Birch, A., Williams, G., Aguet, M., Schlatter, D.,
+Huber, W., Garotta, G., and Robinson, J. A. (1995) Mol.
+Immunol. 32, 1329-1338.
+15. Bothmann, H., and Plu¨ckthun, A. (1998) Nat. Biotech. 16,
+376-380.
+16. Williams, G., Ruegg, N., Birch, A., Weber, C., Hofstadter,
+K., Robinson, J. A., Aguet, M., Garotta, G., Schlatter, D., and
+Huber, W. (1995) Biochemistry 34, 1787-1797.
+17. Karlsson, R., Michaelsson, A., and Mattsson, L. (1991) J.
+Immunol. Methods 145, 229-240.
+18. Schuck, P. (1997) Annu. ReV. Biophys. Biomol. Struct. 26,
+541-566.
+19. Karlsson, R., and Falt, A. (1997) J. Immunol. Methods 200,
+121-133.
+20. Griffiths, A. D., Malmqvist, M., Marks, J. D., Bye, J. M., J.,
+E. M., McCafferty, J., Baier, M., Holliger, K. P., Gorick, B.
+D., Hughes-Jones, N. C., Hoogenboom, H. R., and Winter,
+G. (1993) EMBO J. 12, 725-734.
+21. Sambrook, J., Fritsh, E. F., and Maniatis, T. (1989) Molecular
+Cloning: A Laboratory Manual, Cold Spring Harbor Labora￾tory Press, Plainview, NY.
+22. Nieba, L., Krebber, A., and Plu¨ckthun, A. (1996) Anal.
+Biochem. 234, 155-165.
+23. Evan, G. I., Lewis, G. K., Ramsay, G., and Bishop, J. M.
+(1985) Mol. Cell. Biol. 5, 3610-3616.
+24. Desplancq, D., King, D. J., Lawson, A. D. G., and Mountain,
+A. (1994) Protein Eng. 7, 1027-1033.
+25. Essig, N. Z., Wood, J. F., Howard, A. J., Raag, R., and
+Whitlow, M. (1993) J. Mol. Biol. 234, 897-901.
+26. Holliger, P., Prospero, T., and Winter, G. (1993) Proc. Natl.
+Acad. Sci. U.S.A. 90, 6444-6448.
+27. Kortt, A. A., Malby, R. L., Caldwell, J. B., Gruen, L. C.,
+Ivancic, N., Lawrence, M. C., Howlett, G. J., Webster, R. G.,
+Hudson, P. J., and Colman, P. M. (1994) Eur. J. Biochem.
+221, 151-157.
+28. Whitlow, M., Bell, B. A., Feng, S.-L., Filpula, D., Hardman,
+K. D., Hubert, S. L., Rollence, M. L., Wood, J. F., Schott, M.
+E., Milenic, D. E., Yokota, T., and Schlom, J. (1993) Protein
+Eng. 6, 989-995.
+29. Whitlow, M., Filpula, D., Rollence, M. L., Feng, S. L., and
+Wood, J. F. (1994) Protein Eng. 7, 1017-1026.
+30. Fasman, G. D., Ed. (1996) Circular Dichroism and the
+Conformational Analysis of Biomolecules, Plenum Press, New
+York.
+31. MacKenzie, C. R., Hirama, T., Deng, S.-j., Bundle, D. R.,
+Narang, S. A., and Young, N. M. (1996) J. Biol. Chem. 271,
+1527-1533.
+32. Do¨beli, H., Gentz, R., Jucker, W., Garotta, G., Hartmann, D.
+W., and Hochuli, E. (1988) J. Biotechnol. 7, 199-216.
+33. Gallivan, J. P., and Dougherty, D. A. (1999) Proc. Natl. Acad.
+Sci. U.S.A. 96, 9459-9464.
+34. McGaughey, G. B., Gagne, M., and Rappe´, A. K. (1998) J.
+Biol. Chem. 273, 15458-15463.
+35. Chipot, C., Jaffe, R., Maigret, B., Pearlman, D. A., and
+Kollman, P. A. (1996) J. Am. Chem. Soc. 118, 11217-11224.
+36. Rajpal, A., Taylor, M. G., and Kirsch, J. F. (1998) Protein
+Sci. 7, 1868-1874.
+37. Clackson, T., and Wells, J. A. (1995) Science 267, 383-386.
+38. Dall’Acqua, W., Goldman, E. R., Eisenstein, E., and Mariuzza,
+R. A. (1996) Biochemistry 35, 9667-9676.
+39. Dall′Acqua, W., Goldman, E. R., Lin, W., Teng, C., Tsuchiya,
+D., Li, H., Ysern, X., Braden, B. C., Li, Y., Smith-Gill, S. J.,
+and Mariuzza, R. A. (1998) Biochemistry 37, 7981-7991.
+40. Pons, J., Rajpal, A., and Kirsch, J. F. (1999) Protein Sci. 8,
+958-968.
+41. Rajpal, A., Taylor, M. G., and Kirsch, J. F. (1998) Protein
+Sci. 7, 1868-1874.
+42. Tsumoto, K., Ueda, Y., Maenaka, K., Watanabe, K., Ogasa￾hara, K., Yutani, K., and Kumagai, I. (1994) J. Biol. Chem.
+269, 28777-28782.
+43. Tsumoto, K., Ogasahara, K., Ueda, Y., Watanabe, K., Yutani,
+K., and Kumagai, I. (1995) J. Biol. Chem. 270, 18551-18557.
+44. Tsumoto, K., Ogasahara, K., Ueda, Y., Watanabe, K., Yutani,
+K., and Kumagai, I. (1996) J. Biol. Chem. 271, 32612-32616.
+45. Goldman, E. R., Dall’Acqua, W., Braden, B. C., and Mariuzza,
+R. A. (1997) Biochemistry 36, 49-56.
+46. Muller, Y. A., Chen, Y., Christinger, H. W., Li, B., Cunning￾ham, B. C., Lowman, H. B., and deVos, A. M. (1998)
+Structure 6, 1153-1167.
+47. England, P., Nageotte, R., Renard, M., Page, A.-L., and
+Bedouelle, H. (1999) J. Immunol. 162, 2129-2136.
+48. Schier, R., Mccall, A., Adams, G. P., Marshall, K. W., Merritt,
+H., Yim, M., Crawford, R. S., Weiner, L. M., Marks, C., and
+Marks, J. D. (1996) J. Mol. Biol. 263, 551-567.
+49. Yang, W. P., Green, K., Pinzsweeney, S., Briones, A. T.,
+Burton, D. R., and Barbas, C. F. (1995) J. Mol. Biol. 254,
+392-403.
+BI000838Z
+Mutagenesis of A6 Antibody Biochemistry, Vol. 39, No. 51, 2000 15685
